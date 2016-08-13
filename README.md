@@ -26,8 +26,8 @@ The goal of this repository is to store [ArkhamDB](https://Arkhamdb.com) card da
 * **code** - 5 digit card identifier. Consists of two zero-padded numbers: first two digits are the cycle position, last three are position of the card within the cycle (printed on the card).
 * cost - Play cost of the card. Relevant for all cards except agendas and titles. May be `null` - this value is used when the card has a special, possibly variable, cost.
 * **deck_limit**
-* deck_options - Investigator only - Special string describing the card options for an investigator. e.g. "faction:<faction>:<lowest>:<highest>" 
-* deck_requirements - Investigator only - Special string describing the card requirements for an investigator. e.g. "size:<size>" "card:<card_code>" "random:subtype:basicweakness"
+* deck_options - Investigator only - Special string describing the card options for an investigator. e.g. "faction:guardian:0:5" 
+* deck_requirements - Investigator only - Special string describing the card requirements for an investigator. e.g. "size:30" "card:01007" "random:subtype:basicweakness"
 * **faction_code**
 * flavor
 * health - Health of Investigator or Ally Asset
