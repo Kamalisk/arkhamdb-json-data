@@ -18,7 +18,7 @@
         "sanity": 5,
         "strength": 4,
         "subname": "The Fed",
-        "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (limit once per round.)\r\n[eldersign] effect: +1 for each clue on your location.",
+        "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)\r\n[eldersign] effect: +1 for each clue on your location.",
         "traits": "Agency. Detective.",
         "type_code": "investigator",
         "will": 3
@@ -40,7 +40,7 @@
         "sanity": 6,
         "strength": 3,
         "subname": "The Ex-Con",
-        "text": "[lightning] During your turn, spend 2 resources: You may take an additional this turn. (Limit once per turn.)\r\n[eldersign] effect: +2. If you succeed, gain 2 resources.",
+        "text": "[lightning] During your turn, spend 2 resources: You may take an additional action this round. (Limit once per round.)\r\n[eldersign] effect: +2. If you succeed, gain 2 resources.",
         "traits": "Criminal.",
         "type_code": "investigator",
         "will": 2
@@ -62,7 +62,7 @@
         "sanity": 7,
         "strength": 1,
         "subname": "The Urchin",
-        "text": "[reaction] When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token (Limit once per test/ability.)\r\n[eldersign] effect: +0, If Wendy's Amulet is in play, you automatically succeed instead.",
+        "text": "[reaction] When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)\r\n[eldersign] effect: +0. If Wendy's Amulet is in play, you automatically succeed instead.",
         "traits": "Drifter.",
         "type_code": "investigator",
         "will": 4
@@ -81,7 +81,8 @@
         "restrictions": "investigator:01001",
         "slot": "1-Handed",
         "strength": 1,
-        "text": "Roland Banks deck only.\r\nUses (4 ammo)\r\n[action] Spend 1 ammo: Fight. You get +1 [strength] for this attack (if there are 1 or more clues on your location, you get +3 [strength] instead). This attack deals +1 damage.",
+        "text": "Roland Banks deck only.\r\nUses (4 ammo)\r\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [strength] for this attack (if there are 1 or more clues on your location, you get +3 [strength] instead). This attack deals +1 damage.",
+        "traits": "Item. Weapon. Firearm.",
         "type_code": "asset",
         "wild": 1
     },
@@ -94,9 +95,10 @@
         "pack_code": "core",
         "position": 7,
         "quantity": 1,
+        "restrictions": "investigator:01001",
         "subtype_code": "weakness",
-        "text": "Revelation - Put Cover Up into play in your threat area, with 3 clues on it.\r\n[reaction] When you would discover 1 or more clues as your location: Discard that many clues from Cover Up instead.\r\nForced - When the game ends, if there are any clues on Cover Up: You suffer 1 mental trauma.",
-        "traits": "Task",
+        "text": "<b>Revelation</b> - Put Cover Up into play in your threat area, with 3 clues on it.\r\n[reaction] When you would discover 1 or more clues at your location: Discard that many clues from Cover Up instead.\r\n<b>Forced</b> - When the game ends, if there are any clues on Cover Up: You suffer 1 mental trauma.",
+        "traits": "Task.",
         "type_code": "treachery"
     },
     {
@@ -128,7 +130,8 @@
         "quantity": 1,
         "restrictions": "investigator:01005",
         "slot": "Amulet",
-        "text": "Wendy Adams deck only.\r\nYou may play the topmost event in your discard pile as if it were in your hand.\r\nForced - After you play an event: Place it on the bottom of your deck instead of in your discard pile.",
+        "text": "Wendy Adams deck only.\r\nYou may play the topmost event in your discard pile as if it were in your hand.\r\n<b>Forced</b> - After you play an event: Place it on the bottom of your deck instead of in your discard pile.",
+        "traits": "Item. Relic.",
         "type_code": "asset",
         "wild": 2
     },
@@ -142,7 +145,7 @@
         "position": 15,
         "quantity": 1,
         "subtype_code": "weakness",
-        "text": "Revelation - Take 2 direct horror and remove all cards in your discard pile from the game.",
+        "text": "<b>Revelation</b> - Take 2 direct horror and remove all cards in your discard pile from the game.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -158,7 +161,7 @@
         "position": 16,
         "quantity": 1,
         "slot": "1-Handed",
-        "text": "Uses (4 ammo).\r\n[action] Spend 1 ammo. Fight. You get +1 [strength] for this attack. This attack deals +1 damage.",
+        "text": "Uses (4 ammo).\r\n[action] Spend 1 ammo. <b>Fight.</b> You get +1 [strength] for this attack. This attack deals +1 damage.",
         "traits": "Item. Weapon. Firearm",
         "type_code": "asset"
     },
@@ -282,7 +285,7 @@
         "pack_code": "core",
         "position": 87,
         "quantity": 1,
-        "text": "Uses (3 supplies).\r\n[action] Spend 1 supply: Investigate. Your location gets -2 shroud for this investigation.",
+        "text": "Uses (3 supplies).\r\n[action] Spend 1 supply: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",
         "traits": "Item. Tool.",
         "type_code": "asset"
     },
@@ -304,13 +307,14 @@
         "code": "01096",
         "deck_limit": 1,
         "faction_code": "neutral",
+        "flavor": "Wait... where am I? What was I doing?",
         "is_unique": true,
         "name": "Amnesia",
         "pack_code": "core",
         "position": 96,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "Revelation - Choose and discard all but 1 card from your hand.",
+        "text": "<b>Revelation</b> - Choose and discard all but 1 card from your hand.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -318,13 +322,14 @@
         "code": "01097",
         "deck_limit": 1,
         "faction_code": "neutral",
+        "flavor": "What was that noise?",
         "is_unique": false,
         "name": "Paranoia",
         "pack_code": "core",
         "position": 97,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "Revelation - Discard all your resources.",
+        "text": "<b>Revelation</b> - Discard all your resources.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -414,7 +419,7 @@
         "quantity": 1,
         "slot": "1-Handed",
         "strength": 1,
-        "text": "[action]: Fight. You get +1 [strength] for this attack.\r\n[action] Discard Knife: Fight. You get +2 [strength] for this attack. This attack deals +1 damage.",
+        "text": "[action]: <b>Fight.</b> You get +1 [strength] for this attack.\r\n[action] Discard Knife: <b>Fight.</b> You get +2 [strength] for this attack. This attack deals +1 damage.",
         "traits": "Item. Weapon. Melee",
         "type_code": "asset"
     },
