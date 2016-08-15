@@ -1,6 +1,5 @@
 [
     {
-        "agility": 2,
         "code": "01001",
         "deck_limit": 1,
         "deck_options": "faction:guardian:0:5, faction:seeker:0:2, faction:neutral:0:5",
@@ -10,21 +9,21 @@
         "health": 9,
         "illustrator": "Magali Villeneuve",
         "is_unique": true,
-        "lore": 3,
         "name": "Roland Banks",
         "pack_code": "core",
         "position": 1,
         "quantity": 1,
         "sanity": 5,
-        "strength": 4,
+        "skill_agility": 2,
+        "skill_lore": 3,
+        "skill_strength": 4,
+        "skill_will": 3,
         "subname": "The Fed",
         "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)\r\n[eldersign] effect: +1 for each clue on your location.",
         "traits": "Agency. Detective.",
-        "type_code": "investigator",
-        "will": 3
+        "type_code": "investigator"
     },
     {
-        "agility": 4,
         "code": "01003",
         "deck_limit": 1,
         "deck_options": "faction:rogue:0:5, faction:guardian:0:2, faction:neutral:0:5",
@@ -32,21 +31,21 @@
         "faction_code": "rogue",
         "health": 8,
         "is_unique": true,
-        "lore": 3,
         "name": "\"Skids\" O' Toole",
         "pack_code": "core",
         "position": 3,
         "quantity": 1,
         "sanity": 6,
-        "strength": 3,
+        "skill_agility": 4,
+        "skill_lore": 3,
+        "skill_strength": 3,
+        "skill_will": 2,
         "subname": "The Ex-Con",
         "text": "[lightning] During your turn, spend 2 resources: You may take an additional action this turn. (Limit once per turn.)\r\n[eldersign] effect: +2. If you succeed, gain 2 resources.",
         "traits": "Criminal.",
-        "type_code": "investigator",
-        "will": 2
+        "type_code": "investigator"
     },
     {
-        "agility": 4,
         "code": "01005",
         "deck_limit": 1,
         "deck_options": "faction:survivor:0:5, faction:rogue:0:2, faction:neutral:0:5",
@@ -54,21 +53,21 @@
         "faction_code": "survivor",
         "health": 7,
         "is_unique": true,
-        "lore": 3,
         "name": "Wendy Adams",
         "pack_code": "core",
         "position": 5,
         "quantity": 1,
         "sanity": 7,
-        "strength": 1,
+        "skill_agility": 4,
+        "skill_lore": 3,
+        "skill_strength": 1,
+        "skill_will": 4,
         "subname": "The Urchin",
         "text": "[reaction] When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)\r\n[eldersign] effect: +0. If Wendy's Amulet is in play, you automatically succeed instead.",
         "traits": "Drifter.",
-        "type_code": "investigator",
-        "will": 4
+        "type_code": "investigator"
     },
     {
-        "agility": 1,
         "code": "01006",
         "cost": 3,
         "deck_limit": 2,
@@ -79,12 +78,13 @@
         "position": 6,
         "quantity": 1,
         "restrictions": "investigator:01001",
+        "skill_agility": 1,
+        "skill_strength": 1,
+        "skill_wild": 1,
         "slot": "1-Handed",
-        "strength": 1,
         "text": "Roland Banks deck only.\r\nUses (4 ammo)\r\n[action] Spend 1 ammo: <b>Fight.</b> You get +1 [strength] for this attack (if there are 1 or more clues on your location, you get +3 [strength] instead). This attack deals +1 damage.",
         "traits": "Item. Weapon. Firearm.",
-        "type_code": "asset",
-        "wild": 1
+        "type_code": "asset"
     },
     {
         "code": "01007",
@@ -108,12 +108,12 @@
         "faction_code": "seeker",
         "health": 1,
         "is_unique": true,
-        "lore": 1,
         "name": "Dr. Milan Christopher",
         "pack_code": "core",
         "position": 11,
         "quantity": 1,
         "sanity": 2,
+        "skill_lore": 1,
         "text": "You get +1 [lore]. \r\n[reaction] After you successfully investigate: Gain 1 resource.",
         "traits": "Ally. Miskatonic",
         "type_code": "asset"
@@ -129,11 +129,11 @@
         "position": 14,
         "quantity": 1,
         "restrictions": "investigator:01005",
+        "skill_wild": 2,
         "slot": "Amulet",
         "text": "Wendy Adams deck only.\r\nYou may play the topmost event in your discard pile as if it were in your hand.\r\n<b>Forced</b> - After you play an event: Place it on the bottom of your deck instead of in your discard pile.",
         "traits": "Item. Relic.",
-        "type_code": "asset",
-        "wild": 2
+        "type_code": "asset"
     },
     {
         "code": "01015",
@@ -150,7 +150,6 @@
         "type_code": "treachery"
     },
     {
-        "agility": 1,
         "code": "01016",
         "cost": 4,
         "deck_limit": 2,
@@ -160,6 +159,7 @@
         "pack_code": "core",
         "position": 16,
         "quantity": 1,
+        "skill_agility": 1,
         "slot": "1-Handed",
         "text": "Uses (4 ammo).\r\n[action] Spend 1 ammo. <b>Fight.</b> You get +1 [strength] for this attack. This attack deals +1 damage.",
         "traits": "Item. Weapon. Firearm",
@@ -171,18 +171,17 @@
         "deck_limit": 2,
         "faction_code": "seeker",
         "is_unique": false,
-        "lore": 1,
         "name": "Magnifying Glass",
         "pack_code": "core",
         "position": 20,
         "quantity": 1,
+        "skill_lore": 1,
         "slot": "1-Handed",
         "text": "Fast.\r\nYou get +1 [lore] while investigating.",
         "traits": "Item. Tool.",
         "type_code": "asset"
     },
     {
-        "agility": 1,
         "code": "01023",
         "cost": 1,
         "deck_limit": 2,
@@ -192,10 +191,11 @@
         "pack_code": "core",
         "position": 23,
         "quantity": 1,
+        "skill_agility": 1,
+        "skill_will": 1,
         "text": "Fast. Play when an enemy attacks an investigator as your location. \r\nCancel that attack.",
         "traits": "Tactic.",
-        "type_code": "event",
-        "will": 1
+        "type_code": "event"
     },
     {
         "code": "01050",
@@ -227,7 +227,6 @@
         "xp": 2
     },
     {
-        "agility": 1,
         "code": "01066",
         "cost": 1,
         "deck_limit": 2,
@@ -237,13 +236,13 @@
         "pack_code": "core",
         "position": 66,
         "quantity": 1,
+        "skill_agility": 1,
+        "skill_will": 1,
         "text": "Evade. This evasion attempt uses [will] instead of [agility]. If you succeed, deal 1 damage to the enemy just evaded. If a [skull], [cultist], [thing], [monster], or [fail] symbol is revealed during this evasion attempt, lose 1 action this turn.",
         "traits": "Spell.",
-        "type_code": "event",
-        "will": 1
+        "type_code": "event"
     },
     {
-        "agility": 1,
         "code": "01077",
         "cost": 2,
         "deck_limit": 2,
@@ -253,13 +252,13 @@
         "pack_code": "core",
         "position": 77,
         "quantity": 1,
+        "skill_agility": 1,
+        "skill_will": 1,
         "text": "[lightning] Spend 1 resource: You get +1 [will] for this skill test.\r\n[lightning] Spend 1 resource: You get +1 [agility] for this skill test.",
         "traits": "Talent.",
-        "type_code": "asset",
-        "will": 1
+        "type_code": "asset"
     },
     {
-        "agility": 1,
         "code": "01079",
         "cost": 1,
         "deck_limit": 2,
@@ -271,6 +270,7 @@
         "position": 79,
         "quantity": 1,
         "sanity": 0,
+        "skill_agility": 1,
         "traits": "Ally. Creature.",
         "type_code": "asset"
     },
@@ -280,11 +280,11 @@
         "deck_limit": 2,
         "faction_code": "neutral",
         "is_unique": false,
-        "lore": 1,
         "name": "Flashlight",
         "pack_code": "core",
         "position": 87,
         "quantity": 1,
+        "skill_lore": 1,
         "text": "Uses (3 supplies).\r\n[action] Spend 1 supply: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",
         "traits": "Item. Tool.",
         "type_code": "asset"
@@ -298,10 +298,10 @@
         "pack_code": "core",
         "position": 89,
         "quantity": 1,
+        "skill_will": 2,
         "text": "Max 1 committed per skill test.\r\nIf this test is successful, draw 1 card.",
         "traits": "Innate",
-        "type_code": "skill",
-        "will": 2
+        "type_code": "skill"
     },
     {
         "code": "01096",
@@ -348,7 +348,6 @@
         "type_code": "event"
     },
     {
-        "agility": 2,
         "code": "01dexterity",
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -357,6 +356,7 @@
         "pack_code": "core",
         "position": 50,
         "quantity": 1,
+        "skill_agility": 2,
         "text": "Max 1 committed per test.\r\nIf this test is successful, draw 1 card.",
         "traits": "Innate",
         "type_code": "skill"
@@ -371,10 +371,10 @@
         "pack_code": "core",
         "position": 50,
         "quantity": 1,
+        "skill_will": 1,
         "text": "Choose either your location or a connecting location. Deal 3 damage to each enemy and to each investigator at the chosen location.",
         "traits": "Tactic.",
-        "type_code": "event",
-        "will": 1
+        "type_code": "event"
     },
     {
         "code": "01evidence",
@@ -382,11 +382,11 @@
         "deck_limit": 2,
         "faction_code": "guardian",
         "is_unique": false,
-        "lore": 1,
         "name": "Evidence!",
         "pack_code": "core",
         "position": 24,
         "quantity": 1,
+        "skill_lore": 1,
         "type_code": "event"
     },
     {
@@ -401,8 +401,8 @@
         "position": 50,
         "quantity": 1,
         "sanity": 1,
+        "skill_strength": 1,
         "slot": "Ally",
-        "strength": 1,
         "text": "[reaction] When an enemy attack deals damage to Guard Dog: Deal 1 damage to the attacking enemy.",
         "traits": "Ally. Creature.",
         "type_code": "asset"
@@ -417,8 +417,8 @@
         "pack_code": "core",
         "position": 86,
         "quantity": 1,
+        "skill_strength": 1,
         "slot": "1-Handed",
-        "strength": 1,
         "text": "[action]: <b>Fight.</b> You get +1 [strength] for this attack.\r\n[action] Discard Knife: <b>Fight.</b> You get +2 [strength] for this attack. This attack deals +1 damage.",
         "traits": "Item. Weapon. Melee",
         "type_code": "asset"
