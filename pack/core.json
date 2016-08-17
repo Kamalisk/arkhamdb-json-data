@@ -168,6 +168,22 @@
         "type_code": "asset"
     },
     {
+        "code": "01017",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "is_unique": false,
+        "name": "Physical Training",
+        "pack_code": "core",
+        "position": 17,
+        "quantity": 1,
+        "skill_strength": 1,
+        "skill_will": 1,
+        "text": "[lightning] Spend 1 resource: You get +1 [will] for this skill test.\r\n[lightning] Spend 1 resource: You get +1 [strength] for this skill test.",
+        "traits": "Talent.",
+        "type_code": "asset"
+    },
+    {
         "code": "01020",
         "cost": 1,
         "deck_limit": 2,
@@ -262,6 +278,25 @@
         "xp": 2
     },
     {
+        "code": "01076",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "He never came if you called for him. It always seemed like he had his own agenda.",
+        "health": 1,
+        "is_unique": false,
+        "name": "Stray Cat",
+        "pack_code": "core",
+        "position": 76,
+        "quantity": 1,
+        "sanity": 0,
+        "skill_agility": 1,
+        "slot": "Ally",
+        "text": "[lightning] Discard Stray Cat: Automatically evade a non-<i>Elite</i> enemy at your location.",
+        "traits": "Ally. Creature.",
+        "type_code": "asset"
+    },
+    {
         "code": "01077",
         "cost": 2,
         "deck_limit": 2,
@@ -275,24 +310,6 @@
         "skill_will": 1,
         "text": "[lightning] Spend 1 resource: You get +1 [will] for this skill test.\r\n[lightning] Spend 1 resource: You get +1 [agility] for this skill test.",
         "traits": "Talent.",
-        "type_code": "asset"
-    },
-    {
-        "code": "01079",
-        "cost": 1,
-        "deck_limit": 2,
-        "faction_code": "survivor",
-        "flavor": "He never came if you called for him. It always seemed like he had his own agenda.",
-        "health": 1,
-        "is_unique": false,
-        "name": "Stray Cat",
-        "pack_code": "core",
-        "position": 79,
-        "quantity": 1,
-        "sanity": 0,
-        "skill_agility": 1,
-        "slot": "Ally",
-        "traits": "Ally. Creature.",
         "type_code": "asset"
     },
     {
@@ -391,6 +408,22 @@
         "type_code": "asset"
     },
     {
+        "code": "01_baseballbat",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "is_unique": false,
+        "name": "Baseball Bat",
+        "pack_code": "core",
+        "position": 150,
+        "quantity": 1,
+        "skill_strength": 1,
+        "slot": "2-Handed",
+        "text": "[action]: <b>Fight.</b> You get +2 [strength] for this attack. This attack deals +1 damage. If a [skull] or [fail] symbol is revealed during this attack, discard Baseball Bat after the attack resolves.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset"
+    },
+    {
         "code": "01_cache",
         "cost": 0,
         "deck_limit": 2,
@@ -443,7 +476,9 @@
         "pack_code": "core",
         "position": 150,
         "quantity": 1,
-        "skill_lore": 1,
+        "skill_lore": 2,
+        "text": "Fast. Play after you defeat an enemy.\nDiscover 1 clue in your location.",
+        "traits": "?",
         "type_code": "event"
     },
     {
@@ -476,7 +511,7 @@
         "position": 150,
         "quantity": 1,
         "skill_lore": 2,
-        "text": "Fast. Play after you pass a skill test by 2 or more while investigating.\nDiscover 2 clues in your location.",
+        "text": "Fast. Play after you fail a skill test by 2 or more while investigating.\nDiscover 2 clues in your location.",
         "traits": "Fortune.",
         "type_code": "event"
     },
@@ -490,5 +525,22 @@
         "position": 150,
         "quantity": 1,
         "type_code": "skill"
+    },
+    {
+        "code": "01_rabbitsfoot",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "They claimed it would bring me good luck. I wouldn't say that's true. But now I feel like it would be even worse luck to get rid of it.",
+        "is_unique": false,
+        "name": "Rabbit's Foot",
+        "pack_code": "core",
+        "position": 150,
+        "quantity": 1,
+        "skill_wild": 1,
+        "slot": "Accessory",
+        "text": "[reaction] After you fail a skill test, exhaust Rabbit's Foot: Draw 1 card.",
+        "traits": "Item. Charm.",
+        "type_code": "asset"
     }
 ]
