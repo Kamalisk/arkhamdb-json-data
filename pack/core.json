@@ -27,7 +27,7 @@
         "code": "01002",
         "deck_limit": 1,
         "deck_options": "faction:seeker:0:5, faction:mystic:0:2, faction:neutral:0:5",
-        "deck_requirements": "size:30",
+        "deck_requirements": "size:30, card:01008, card:01009, random:subtype:basicweakness",
         "faction_code": "seeker",
         "flavor": "I know of books so powerful, they can rewrite reality.",
         "illustrator": "Magali Villeneuve",
@@ -51,7 +51,7 @@
         "code": "01003",
         "deck_limit": 1,
         "deck_options": "faction:rogue:0:5, faction:guardian:0:2, faction:neutral:0:5",
-        "deck_requirements": "size:30",
+        "deck_requirements": "size:30, card:01010, card:01011, random:subtype:basicweakness",
         "faction_code": "rogue",
         "flavor": "I didn't get out of the joint just to watch the world end.",
         "illustrator": "Magali Villeneuve",
@@ -129,6 +129,24 @@
         "text": "<b>Revelation</b> - Put Cover Up into play in your threat area, with 3 clues on it.\r\n[reaction] When you would discover 1 or more clues at your location: Discard that many clues from Cover Up instead.\r\n<b>Forced</b> - When the game ends, if there are any clues on Cover Up: You suffer 1 mental trauma.",
         "traits": "Task.",
         "type_code": "treachery"
+    },
+    {
+        "code": "01009",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": null,
+        "is_unique": true,
+        "name": "The Necronomicon",
+        "pack_code": "core",
+        "position": 9,
+        "quantity": 1,
+        "restrictions": "investigator:01002",
+        "slot": "1-Handed",
+        "subname": "John Dee Translation",
+        "text": "Daisy Walker deck only.\r\n",
+        "traits": "Tome.",
+        "type_code": "asset"
     },
     {
         "code": "01014",
@@ -262,7 +280,7 @@
         "type_code": "event"
     },
     {
-        "code": "01011",
+        "code": "01033",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -271,7 +289,7 @@
         "is_unique": true,
         "name": "Dr. Milan Christopher",
         "pack_code": "core",
-        "position": 30,
+        "position": 33,
         "quantity": 1,
         "sanity": 2,
         "skill_lore": 1,
@@ -298,6 +316,22 @@
         "type_code": "asset"
     },
     {
+        "code": "01_holyrosary",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "is_unique": false,
+        "name": "Holy Rosary",
+        "pack_code": "core",
+        "position": 60,
+        "quantity": 1,
+        "skill_will": 1,
+        "slot": "Accessory",
+        "text": "You get +1 [will].",
+        "traits": "Item.",
+        "type_code": "asset"
+    },
+    {
         "code": "01066",
         "cost": 2,
         "deck_limit": 2,
@@ -311,7 +345,7 @@
         "skill_agility": 1,
         "skill_will": 1,
         "text": "Evade. This evasion attempt uses [will] instead of [agility]. If you succeed, deal 1 damage to the enemy just evaded. If a [skull], [cultist], [thing], [monster], or [fail] symbol is revealed during this evasion attempt, lose 1 action this turn.",
-        "traits": "Spell.",
+        "traits": "Spell",
         "type_code": "event"
     },
     {
@@ -328,7 +362,7 @@
         "skill_agility": 1,
         "skill_will": 1,
         "text": "Evade. This evasion attempt uses [will] instead of [agility]. If you succeed, deal 2 damage to the enemy just evaded. If a [skull], [cultist], [thing], [monster], or [fail] symbol is revealed during this evasion attempt, lose 1 action this turn and take 1 horror.",
-        "traits": "Spell.",
+        "traits": "Spell",
         "type_code": "event",
         "xp": 2
     },
@@ -479,7 +513,7 @@
         "type_code": "asset"
     },
     {
-        "code": "01_cache",
+        "code": "01088",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "neutral",
