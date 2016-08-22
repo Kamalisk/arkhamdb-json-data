@@ -215,6 +215,23 @@
         "type_code": "asset"
     },
     {
+        "code": "01_machete",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "Cuts through vines, underbrush, and tentacles equally well.",
+        "is_unique": false,
+        "name": "Machete",
+        "pack_code": "core",
+        "position": 18,
+        "quantity": 1,
+        "skill_agility": 1,
+        "slot": "1-Handed",
+        "text": "<b>Fight.</b> You get +1 [strength] for this attack. If the attacked enemy is the only enemy engaged with you, this attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset"
+    },
+    {
         "code": "01_guarddog",
         "cost": 3,
         "deck_limit": 2,
@@ -451,6 +468,22 @@
         "type_code": "asset"
     },
     {
+        "code": "01_cunning-distraction",
+        "cost": 5,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "is_unique": false,
+        "name": "That should buy us some time.",
+        "pack_code": "core",
+        "position": 78,
+        "quantity": 1,
+        "skill_wild": 1,
+        "skill_will": 1,
+        "text": "<b>Evade.</b> Automatically evade all enemies at your location.",
+        "traits": "Tactic.",
+        "type_code": "event"
+    },
+    {
         "code": "01_lookwhatifound",
         "cost": 2,
         "deck_limit": 2,
@@ -585,7 +618,22 @@
         "position": 92,
         "quantity": 1,
         "skill_agility": 2,
-        "text": "Max 1 committed per test.\r\nIf this test is successful, draw 1 card.",
+        "text": "Max 1 committed per skill test.\r\nIf this test is successful, draw 1 card.",
+        "traits": "Innate.",
+        "type_code": "skill"
+    },
+    {
+        "code": "01093",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "Sometimes, the most selfless acts can come from the strangest places",
+        "is_unique": false,
+        "name": "Unexpected Courage",
+        "pack_code": "core",
+        "position": 93,
+        "quantity": 1,
+        "skill_wild": 2,
+        "text": "Max 1 committed per skill test.",
         "traits": "Innate.",
         "type_code": "skill"
     },
