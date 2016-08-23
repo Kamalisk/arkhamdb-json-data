@@ -9,7 +9,7 @@
         "pack_code": "core",
         "position": 104,
         "quantity": 1,
-        "text": "<b>Easy / Standard</b>\n[skull] -X. X is the number of <i>Ghoul</i> enemies at your location.\n[cultist] -1. If you fail, take 1 horror.\n[thing] -2. If there is a <i>Ghoul</i> enemy at your location, take 1 damage.\n* * * * *\n<b>Hard / Expert</b>\n[skull] -2. If you fail, after this skill test, search the encounter deck and discard pile for a <i>Ghoul</i> enemy, and draw it. Shuffle the encounter deck.\n[cultist] Reveal another token. If you fail, take 2 horror.\n[thing] -4. If there is a <i>Ghoul</i> enemy at your location, take 1 damage and 1 horror."
+        "text": "<b>Easy / Standard</b>\n[skull] -X. X is the number of <i>Ghoul</i> enemies at your location.\n[cultist] -1. If you fail, take 1 horror.\n[thing] -2. If there is a <i>Ghoul</i> enemy at your location, take 1 damage.\n* * * * *\n<b>Hard / Expert</b>\n[skull] -2. If you fail, after this skill test, search the encounter deck and discard pile for a <i>Ghoul</i> enemy, and draw it. Shuffle the encounter deck.\n[cultist] Reveal another token. If you fail, take 2 horror.\n[thing] -4. If there is a <i>Ghoul</i> enemy at your location, take 1 damage and 1 horror.",
         "type_code": "adventure"
     },
     {
@@ -113,7 +113,7 @@
         "quantity": 1,
         "shroud": 1,
         "text": "<b>Forced</b> - After you enter the Attic: Take 1 horror.",
-        "type_code": "location"
+        "type_code": "location",
         "victory": 1
     },
     {
@@ -130,7 +130,7 @@
         "quantity": 1,
         "shroud": 4,
         "text": "<b>Forced</b> - After you enter the Cellar: Take 1 damage.",
-        "type_code": "location"
+        "type_code": "location",
         "victory": 1
     },
     {
@@ -229,7 +229,7 @@
         "quantity": 1,
         "text": "Hunter.",
         "traits": "Creature.",
-        "type_code": "enemy",
+        "type_code": "enemy"
     },
     {
         "code": "01160",
@@ -248,7 +248,7 @@
         "position": 160,
         "quantity": 1,
         "traits": "Humanoid. Monster. Ghoul.",
-        "type_code": "enemy",
+        "type_code": "enemy"
     },
     {
         "code": "01161",
@@ -269,7 +269,7 @@
         "quantity": 1,
         "text": "<b>Prey</b> - Lowest remaining health.",
         "traits": "Humanoid. Monster. Ghoul.",
-        "type_code": "enemy",
+        "type_code": "enemy"
     },
     {
         "code": "01162",
@@ -285,7 +285,7 @@
         "quantity": 1,
         "text": "<b>Revelation</b> - Test [agility] (3). For each point you fail by, take 1 damage.",
         "traits": "Hazard.",
-        "type_code": "treachery",
+        "type_code": "treachery"
     },
     {
         "code": "01163",
@@ -300,7 +300,41 @@
         "quantity": 1,
         "text": "<b>Revelation</b> - Test [will] (3). For each point you fail by, take 1 horror.",
         "traits": "Terror.",
-        "type_code": "treachery",
+        "type_code": "treachery"
+    },
+    {
+        "code": "01_dissonant_voices",
+        "encounter_code": "trinity",
+        "encounter_position": null,
+        "faction_code": "mythos",
+        "is_unique": false,
+        "name": "Dissonant Voices",
+        "pack_code": "core",
+        "position": 168,
+        "quantity": 1,
+        "text": "<b>Revelation</b> - Put Dissonant Voices into play in your threat area.\nYou cannot play assets and events.\n<b>Forced</b> - At the end of the round: Discard Dissonant Voices.",
+        "traits": "Terror.",
+        "type_code": "treachery"
+    },
+    {
+        "code": "01_acolyte",
+        "encounter_code": "pentagram",
+        "encounter_position": 3,
+        "enemy_damage": 1,
+        "enemy_evade": 2,
+        "enemy_fight": 3,
+        "enemy_horror": 0,
+        "faction_code": "mythos",
+        "flavor": "It was only a small sacrifice.",
+        "health": 1,
+        "is_unique": false,
+        "name": "Acolyte",
+        "pack_code": "core",
+        "position": 169,
+        "quantity": 1,
+        "text": "<b>Spawn</b> - Any empty location.\n<b>Forced</b> - After Acolyte enters play: Place 1 doom on it.",
+        "traits": "Humanoid. Cultist.",
+        "type_code": "enemy"
     },
     {
         "code": "01171",
@@ -315,7 +349,7 @@
         "quantity": 1,
         "text": "<b>Revelation</b> - Place 2 doom on the nearest <i>Cultist</i> enemy. If there are no <i>Cultist</i> enemies in play, search the encounter deck and discard pile for a <i>Cultist</i> enemy and draw it. Shuffle the encounter deck.",
         "traits": "Hex.",
-        "type_code": "treachery",
+        "type_code": "treachery"
     },
     {
         "code": "01172",
@@ -336,7 +370,7 @@
         "quantity": 1,
         "text": "Hunter.\nWhile attempting to evade Hunting Nightgaunt, double the negative modifier of each revealed chaos token.",
         "traits": "Monster. Nightgaunt.",
-        "type_code": "enemy",
+        "type_code": "enemy"
     },
     {
         "code": "01177",
@@ -359,6 +393,34 @@
         "victory": 1
     },
     {
+        "code": "01_ancient_evils",
+        "encounter_code": null,
+        "encounter_position": null,
+        "faction_code": "mythos",
+        "is_unique": false,
+        "name": "Ancient Evils",
+        "pack_code": "core",
+        "position": 200,
+        "quantity": 1,
+        "text": "<b>Revelation</b> - Place 1 doom on the current agenda. This effect may cause the current agenda to advance.",
+        "traits": "Omen.",
+        "type_code": "treachery"
+    },
+    {
+        "code": "01_obscuring_fog",
+        "encounter_code": null,
+        "encounter_position": null,
+        "faction_code": "mythos",
+        "is_unique": false,
+        "name": "Obscuring Fog",
+        "pack_code": "core",
+        "position": 201,
+        "quantity": 1,
+        "text": "<b>Revelation</b> - Attach to your location. Limit 1 per location.\nAttached location gets +2 shroud.\n<b>Forced</b> - After attached location is successfully investigated: Discard Obscuring Fog.",
+        "traits": "Hazard.",
+        "type_code": "treachery"
+    },
+    {
         "code": "01_wrath",
         "encounter_code": "tentacles",
         "encounter_position": null,
@@ -366,10 +428,49 @@
         "is_unique": false,
         "name": "Umordhoth's Wrath",
         "pack_code": "core",
-        "position": 171,
+        "position": 202,
         "quantity": 1,
-        "text": "<b>Revelation</b> - test [will] (5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 2 horror.",
+        "text": "<b>Revelation</b> - Test [will] (5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 2 horror.",
         "traits": "Curse.",
-        "type_code": "treachery",
+        "type_code": "treachery"
     },
+    {
+        "code": "01_ruth_turner",
+        "encounter_code": "half",
+        "encounter_position": null,
+        "enemy_damage": 1,
+        "enemy_evade": 5,
+        "enemy_fight": 2,
+        "enemy_horror": 0,
+        "faction_code": "mythos",
+        "health": 4,
+        "is_unique": true,
+        "name": "Ruth Turner",
+        "pack_code": "core",
+        "position": 203,
+        "quantity": 1,
+        "text": "<b>Spawn</b> - St. Mary's Hospital.\n<b>Forced</b> - After Ruth Turner is evaded: Add her to the victory display.",
+        "traits": "Humanoid. Cultist.",
+        "type_code": "enemy"
+    },
+    {
+        "code": "01_victoria_devereux",
+        "encounter_code": "half",
+        "encounter_position": null,
+        "enemy_damage": 1,
+        "enemy_evade": 3,
+        "enemy_fight": 3,
+        "enemy_horror": 0,
+        "faction_code": "mythos",
+        "health": 3,
+        "is_unique": true,
+        "name": "Victoria Devereux",
+        "pack_code": "core",
+        "position": 204,
+        "quantity": 1,
+        "text": "<b>Spawn</b> - Northside.\n[action] Spend 5 resources: <b>Parlay</b>. Add Victoria Devereux to the victory display.",
+        "traits": "Humanoid. Cultist.",
+        "type_code": "enemy",
+        "victory": 1
+    }
 ]
