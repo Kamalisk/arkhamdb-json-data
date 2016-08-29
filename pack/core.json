@@ -234,6 +234,7 @@
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "guardian",
+        "flavor": "The first semiautomatic pistol was produced in the late 1800s, slowly becoming widespread among military and police.",
         "is_unique": false,
         "name": ".45 Automatic",
         "pack_code": "core",
@@ -262,7 +263,31 @@
         "type_code": "asset"
     },
     {
-        "code": "01_machete",
+        "code": "01018",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "is_unique": false,
+        "name": "Beat Cop",
+        "pack_code": "core",
+        "position": 18,
+        "quantity": 1,
+        "type_code": "asset"
+    },
+    {
+        "code": "01019",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "is_unique": false,
+        "name": "First Aid",
+        "pack_code": "core",
+        "position": 19,
+        "quantity": 1,
+        "type_code": "asset"
+    },
+    {
+        "code": "01020",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -279,7 +304,7 @@
         "type_code": "asset"
     },
     {
-        "code": "01_guarddog",
+        "code": "01021",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -298,6 +323,22 @@
         "type_code": "asset"
     },
     {
+        "code": "01022",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "Just as I suspected!",
+        "is_unique": false,
+        "name": "Evidence!",
+        "pack_code": "core",
+        "position": 22,
+        "quantity": 1,
+        "skill_lore": 2,
+        "text": "Fast. Play after you defeat an enemy.\nDiscover 1 clue in your location.",
+        "traits": "Insight",
+        "type_code": "event"
+    },
+    {
         "code": "01023",
         "cost": 1,
         "deck_limit": 2,
@@ -314,7 +355,7 @@
         "type_code": "event"
     },
     {
-        "code": "01_dynamite",
+        "code": "01024",
         "cost": 5,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -329,19 +370,20 @@
         "type_code": "event"
     },
     {
-        "code": "01_evidence",
-        "cost": 1,
+        "code": "01025",
         "deck_limit": 2,
         "faction_code": "guardian",
+        "flavor": "With a sickening smack, he struck the abomination over and over... until at last, it stopped moving.",
+        "illustrator": "JB Casacop",
         "is_unique": false,
-        "name": "Evidence!",
+        "name": "Vicious Blow",
         "pack_code": "core",
         "position": 25,
         "quantity": 1,
-        "skill_lore": 2,
-        "text": "Fast. Play after you defeat an enemy.\nDiscover 1 clue in your location.",
-        "traits": "?",
-        "type_code": "event"
+        "skill_strength": 1,
+        "text": "If this skill test is successful during an attack, that attack deals +1 damage.",
+        "traits": "Practiced.",
+        "type_code": "skill"
     },
     {
         "code": "01030",
@@ -359,6 +401,32 @@
         "slot": "1-Handed",
         "text": "Fast.\nYou get +1 [lore] while investigating.",
         "traits": "Item. Tool.",
+        "type_code": "asset"
+    },
+    {
+        "code": "01031",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Old Book of Lore",
+        "pack_code": "core",
+        "position": 31,
+        "quantity": 1,
+        "slot": "1-Handed",
+        "type_code": "asset"
+    },
+    {
+        "code": "01032",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Research Librarian",
+        "pack_code": "core",
+        "position": 32,
+        "quantity": 1,
+        "slot": "Ally",
         "type_code": "asset"
     },
     {
@@ -400,6 +468,43 @@
         "type_code": "asset"
     },
     {
+        "code": "01035",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Medical Texts",
+        "pack_code": "core",
+        "position": 35,
+        "quantity": 1,
+        "slot": "1-Handed",
+        "type_code": "asset"
+    },
+    {
+        "code": "01036",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Mind over Matter",
+        "pack_code": "core",
+        "position": 36,
+        "quantity": 1,
+        "type_code": "event"
+    },
+    {
+        "code": "01037",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Working a Hunch",
+        "pack_code": "core",
+        "position": 37,
+        "quantity": 1,
+        "type_code": "event"
+    },
+    {
         "code": "01038",
         "cost": 0,
         "deck_limit": 2,
@@ -416,6 +521,17 @@
         "text": "Attach to your location.\nNon-<i>Elite</i> enemies cannot move into attached location.\n<b>Forced</b> - When an investigator leaves attached location: Discard Barricade.",
         "traits": "Insight. Tactic.",
         "type_code": "event"
+    },
+    {
+        "code": "01039",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "is_unique": false,
+        "name": "Deduction",
+        "pack_code": "core",
+        "position": 39,
+        "quantity": 1,
+        "type_code": "skill"
     },
     {
         "code": "01042",
@@ -437,14 +553,14 @@
         "xp": 2
     },
     {
-        "code": "01_switchblade",
+        "code": "01044",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "is_unique": false,
         "name": "Switchblade",
         "pack_code": "core",
-        "position": 45,
+        "position": 44,
         "quantity": 1,
         "skill_agility": 1,
         "slot": "1-Handed",
@@ -453,7 +569,19 @@
         "type_code": "asset"
     },
     {
-        "code": "01_pickpocketing",
+        "code": "01045",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Burglary",
+        "pack_code": "core",
+        "position": 45,
+        "quantity": 1,
+        "type_code": "asset"
+    },
+    {
+        "code": "01046",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -465,6 +593,18 @@
         "skill_agility": 1,
         "text": "[reaction] After you evade an enemy, exhaust Pickpocketing: Draw 1 card.",
         "traits": "Talent.",
+        "type_code": "asset"
+    },
+    {
+        "code": "01047",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": ".41 Derringer",
+        "pack_code": "core",
+        "position": 47,
+        "quantity": 1,
         "type_code": "asset"
     },
     {
@@ -489,6 +629,30 @@
         "type_code": "asset"
     },
     {
+        "code": "01049",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Hard Knocks",
+        "pack_code": "core",
+        "position": 49,
+        "quantity": 1,
+        "type_code": "asset"
+    },
+    {
+        "code": "01050",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Elusive",
+        "pack_code": "core",
+        "position": 50,
+        "quantity": 1,
+        "type_code": "event"
+    },
+    {
         "code": "01051",
         "cost": null,
         "deck_limit": 2,
@@ -499,6 +663,29 @@
         "position": 51,
         "quantity": 1,
         "text": "<b>Fight.</b> This attack uses [agility] instead of [strength]. This attack deals +1 damage.",
+        "type_code": "event"
+    },
+    {
+        "code": "01052",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Sneak Attack",
+        "pack_code": "core",
+        "position": 52,
+        "quantity": 1,
+        "type_code": "event"
+    },
+    {
+        "code": "01053",
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Opportunist",
+        "pack_code": "core",
+        "position": 53,
+        "quantity": 1,
         "type_code": "event"
     },
     {
@@ -556,7 +743,7 @@
         "xp": 2
     },
     {
-        "code": "01_leather_coat",
+        "code": "01072",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -564,7 +751,7 @@
         "is_unique": false,
         "name": "Leather Coat",
         "pack_code": "core",
-        "position": 73,
+        "position": 72,
         "quantity": 1,
         "skill_strength": 1,
         "slot": "Body",
@@ -572,7 +759,19 @@
         "type_code": "asset"
     },
     {
-        "code": "01_baseballbat",
+        "code": "01073",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "is_unique": false,
+        "name": "Scavenging",
+        "pack_code": "core",
+        "position": 73,
+        "quantity": 1,
+        "type_code": "event"
+    },
+    {
+        "code": "01074",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -588,7 +787,7 @@
         "type_code": "asset"
     },
     {
-        "code": "01_rabbitsfoot",
+        "code": "01075",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -640,7 +839,7 @@
         "type_code": "asset"
     },
     {
-        "code": "01_cunning_distraction",
+        "code": "01078",
         "cost": 5,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -657,7 +856,7 @@
         "type_code": "event"
     },
     {
-        "code": "01_lookwhatifound",
+        "code": "01079",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -687,6 +886,20 @@
         "type_code": "event"
     },
     {
+        "code": "01081",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "is_unique": false,
+        "name": "Survival Instinct",
+        "pack_code": "core",
+        "position": 81,
+        "quantity": 1,
+        "skill_agility": 1,
+        "text": "If this skill test is successful [...]\nevasion attempt, the [...]\nmay immediately [...]\nenemy engaged with [...]\nto a connecting [...]",
+        "traits": "Innate.",
+        "type_code": "skill"
+    },
+    {
         "code": "01084",
         "cost": 1,
         "deck_limit": 2,
@@ -703,20 +916,6 @@
         "xp": 2
     },
     {
-        "code": "01_survival_instinct",
-        "deck_limit": 2,
-        "faction_code": "survivor",
-        "is_unique": false,
-        "name": "Survival Instinct",
-        "pack_code": "core",
-        "position": 85,
-        "quantity": 1,
-        "skill_agility": 1,
-        "text": "If this skill test is successful [...]\nevasion attempt, the [...]\nmay immediately [...]\nenemy engaged with [...]\nto a connecting [...]",
-        "traits": "Innate.",
-        "type_code": "skill"
-    },
-    {
         "code": "01086",
         "cost": 1,
         "deck_limit": 2,
@@ -725,7 +924,7 @@
         "name": "Knife",
         "pack_code": "core",
         "position": 86,
-        "quantity": 1,
+        "quantity": 4,
         "skill_strength": 1,
         "slot": "1-Handed",
         "text": "[action]: <b>Fight.</b> You get +1 [strength] for this attack.\n[action] Discard Knife: <b>Fight.</b> You get +2 [strength] for this attack. This attack deals +1 damage.",
@@ -741,7 +940,7 @@
         "name": "Flashlight",
         "pack_code": "core",
         "position": 87,
-        "quantity": 1,
+        "quantity": 4,
         "skill_lore": 1,
         "slot": "1-Handed",
         "text": "Uses (3 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> Your location gets -2 shroud for this investigation.",
@@ -758,7 +957,7 @@
         "name": "Emergency Cache",
         "pack_code": "core",
         "position": 88,
-        "quantity": 1,
+        "quantity": 4,
         "text": "Gain 3 resources.",
         "traits": "Supply.",
         "type_code": "event"
@@ -772,7 +971,7 @@
         "name": "Guts",
         "pack_code": "core",
         "position": 89,
-        "quantity": 1,
+        "quantity": 2,
         "skill_will": 2,
         "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
         "traits": "Innate.",
@@ -788,14 +987,14 @@
         "name": "Perception",
         "pack_code": "core",
         "position": 90,
-        "quantity": 1,
+        "quantity": 2,
         "skill_lore": 2,
         "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
         "traits": "Practiced.",
         "type_code": "skill"
     },
     {
-        "code": "01_overpower",
+        "code": "01091",
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "Die, you beast!",
@@ -804,14 +1003,14 @@
         "name": "Overpower",
         "pack_code": "core",
         "position": 91,
-        "quantity": 1,
+        "quantity": 2,
         "skill_strength": 2,
         "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
         "traits": "Practiced.",
         "type_code": "skill"
     },
     {
-        "code": "01_dexterity",
+        "code": "01092",
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "Too easy.",
@@ -819,7 +1018,7 @@
         "name": "Manual Dexterity",
         "pack_code": "core",
         "position": 92,
-        "quantity": 1,
+        "quantity": 2,
         "skill_agility": 2,
         "text": "Max 1 committed per skill test.\nIf this test is successful, draw 1 card.",
         "traits": "Innate.",
@@ -835,7 +1034,7 @@
         "name": "Unexpected Courage",
         "pack_code": "core",
         "position": 93,
-        "quantity": 1,
+        "quantity": 2,
         "skill_wild": 2,
         "text": "Max 1 committed per skill test.",
         "traits": "Innate.",
@@ -874,6 +1073,20 @@
         "type_code": "treachery"
     },
     {
+        "code": "01_haunted",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "is_unique": false,
+        "name": "Haunted",
+        "pack_code": "core",
+        "position": 98,
+        "quantity": 1,
+        "subtype_code": "basicweakness",
+        "text": "<b>Revelation</b> - Add Haunted to your threat area.\nYou get -1 to each of your skills.\n[action][action]: Discard Haunted.",
+        "traits": "Curse.",
+        "type_code": "treachery"
+    },
+    {
         "code": "01_hypo",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -881,7 +1094,7 @@
         "is_unique": false,
         "name": "Hypochondria",
         "pack_code": "core",
-        "position": 98,
+        "position": 99,
         "quantity": 1,
         "subtype_code": "basicweakness",
         "text": "<b>Revelation</b> - Add Hypochondria to your threat area.\n<b>Forced</b> - After [...]: Take 1 direct [...].\n[action][action]: Discard Hypochondria.",
