@@ -94,6 +94,9 @@
         "skill_intellect": 2,
         "skill_combat": 2,
         "skill_willpower": 5,
+        "subname": "The Waitress", 
+        "text": "[reaction] After 1 or more horror is placed on Agnes Baker: Deal 1 damage to an enemy at your location (limit once per phase.)\n[eldersign] effect: +1 for reach horror on Agnes Baker.",
+        "traits": "Sorcerer.",
         "type_code": "investigator"
     },
     {
@@ -159,6 +162,24 @@
         "type_code": "treachery"
     },
     {
+        "code": "01008",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "is_unique": true,
+        "name": "Daisy's Tote Bag",
+        "pack_code": "core",
+        "position": 8,
+        "quantity": 1,
+        "restrictions": "investigator:01002",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "text": "Daisy Walker deck only.\nYou have 2 additional hand slots which can only be used to hold <b>Tome</b> assets.",
+        "traits": "Item.",
+        "type_code": "asset"
+    },
+    {
         "code": "01009",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -193,22 +214,41 @@
         "type_code": "treachery"
     },
     {
-        "code": "01013",
+        "code": "01012",
+        "cost": 3,
         "deck_limit": 2,
         "faction_code": "neutral",
         "is_unique": true,
-        "name": "Agnes Baker's special item",
+        "name": "Heirloom of Hyperborea",
         "pack_code": "core",
-        "position": 13,
+        "position": 12,
         "quantity": 1,
         "restrictions": "investigator:01004",
         "skill_combat": 1,
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Accessory",
+        "subname": "Artifact from Another Life",
         "text": "Agnes Baker deck only.\n[reaction] After you play a spell card: Draw 1 card.",
-        "traits": "Item.",
+        "traits": "Item. Relic.",
         "type_code": "asset"
+    },
+    {
+        "code": "01013",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Dark Memory",
+        "pack_code": "core",
+        "position": 13,
+        "quantity": 1,
+        "restrictions": "investigator:01004",
+        "subtype_code": "weakness",
+        "text": "Place 1 doom on the current agenda. This effect can cause the current agenda to advance.\n<b>Forced</b> - If Dark Memory is in your hand at the end of your turn: Reveal it and take 2 horror.",
+        "traits": "Spell.",
+        "type_code": "event"
     },
     {
         "code": "01014",
@@ -473,14 +513,19 @@
     },
     {
         "code": "01032",
+        "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
+        "health": 1,
         "is_unique": false,
         "name": "Research Librarian",
         "pack_code": "core",
         "position": 32,
         "quantity": 1,
+        "sanity": 1,
+        "skill_agility": 1,
         "slot": "Ally",
+        "text": "[reaction] After Research Librarian enters play: Search your deck for a <b>Tome</b> asset and add it to your hand. Shuffle your deck.",
         "type_code": "asset"
     },
     {
@@ -531,6 +576,7 @@
         "position": 35,
         "quantity": 1,
         "slot": "1-Handed",
+        "text": "[action] Choose an investigator at your location: Test [intellect] (2), If you succeed, heal 1 damage from that investigator. If you fail, deal 1 damage to that investigator.",
         "type_code": "asset"
     },
     {
@@ -582,6 +628,8 @@
         "pack_code": "core",
         "position": 39,
         "quantity": 1,
+        "skill_intellect": 1,
+        "text": "If this skill test is successful while investigating a location, discover 1 additional clue at that location.",
         "type_code": "skill"
     },
     {
@@ -640,6 +688,7 @@
     },
     {
         "code": "01045",
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "is_unique": false,
@@ -647,6 +696,8 @@
         "pack_code": "core",
         "position": 45,
         "quantity": 1,
+        "skill_intellect": 1,
+        "text": "[action] Exhaust Burglary: <b>Investigate.</b> If you succeed, instead of discovering clues, gain 3 resources.",
         "type_code": "asset"
     },
     {
@@ -753,6 +804,22 @@
         "type_code": "skill"
     },
     {
+        "code": "01058",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "is_unique": false,
+        "name": "Hot Streak",
+        "pack_code": "core",
+        "position": 58,
+        "quantity": 1,
+        "skill_wild": 1,
+        "text": "Gain 10 resources.",
+        "traits": "Fortune.",
+        "type_code": "event",
+        "xp": 4
+    },
+    {
         "code": "01059",
         "cost": 2,
         "deck_limit": 2,
@@ -770,6 +837,41 @@
         "text": "You get +1 [willpower].",
         "traits": "Item. Charm.",
         "type_code": "asset"
+    },
+    {
+        "code": "01_arcane",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "flavor": "",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Arcane Studies",
+        "pack_code": "core",
+        "position": 60,
+        "quantity": 1,
+        "skill_intellect": 1,
+        "skill_willpower": 1,
+        "text": "[lightning] Spend 1 resource: You get +1 [intellect] for this skill test.\n[lightning] Spend 1 resource: You get +1 [willpower] for this skill test.",
+        "traits": "Talent.",
+        "type_code": "asset"
+    },
+    {
+        "code": "01065",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Drawn to the Flame",
+        "pack_code": "core",
+        "position": 65,
+        "quantity": 1,
+        "skill_intellect": 1,
+        "skill_willpower": 1,
+        "text": "Draw the top card of the encounter deck. Then discover 2 clues at your location.",
+        "traits": "Insight",
+        "type_code": "event"
     },
     {
         "code": "01066",
@@ -805,6 +907,25 @@
         "traits": "Spell",
         "type_code": "event",
         "xp": 2
+    },
+    {
+        "code": "01071",
+        "cost": 2,
+        "deck_limit": 3,
+        "faction_code": "mystic",
+        "flavor": "",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Grotesque Statue",
+        "pack_code": "core",
+        "position": 71,
+        "quantity": 1,
+        "skill_intellect": 1,
+        "slot": "1-Handed",
+        "text": "Uses (4 charges). If Grotesque Statue has no charges, discard it.\n. [reaction] When you would reveal a chaos token, spend 1 charge: Reveal 2 chaos tokens intead of 1. Choose 1 of those tokens to resolve and ignore the other.",
+        "traits": "Item. Relic.",
+        "type_code": "asset",
+        "xp": 4
     },
     {
         "code": "01072",
@@ -965,6 +1086,24 @@
         "text": "If this skill test is successful [during an] evasion attempt, the [evading investigator] may immediately [disengage each] enemy engaged with [him or her, and] move to a connecting [location].",
         "traits": "Innate.",
         "type_code": "skill"
+    },
+        {
+        "code": "01083",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "Close Call",
+        "pack_code": "core",
+        "position": 83,
+        "quantity": 1,
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "text": "Fast. Play after a non-weakness, non-<b>Elite</b> enemy at your location is evaded.\nShuffle that enemy into the encounter deck.",
+        "traits": "Fortune.",
+        "type_code": "event",
+        "xp": 2
     },
     {
         "code": "01084",
