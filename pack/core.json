@@ -755,6 +755,7 @@
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
+        "illustrator": "",
         "is_unique": false,
         "name": "Switchblade",
         "pack_code": "core",
@@ -762,8 +763,8 @@
         "quantity": 1,
         "skill_agility": 1,
         "slot": "Hand",
-        "text": "Fast\n[action] <b>Fight.</b> If you succeed by [...], this attack deals +1 damage.",
-        "traits": "Item. Weapon. Melee.",
+        "text": "Fast.\n[action]: <b>Fight.</b> If you succeed by 2 or more, this attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee. Illicit.",
         "type_code": "asset"
     },
     {
@@ -941,6 +942,22 @@
         "traits": "Fortune.",
         "type_code": "event",
         "xp": 4
+    },
+    {
+        "code": "01058",
+        "cost": null,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "",
+        "is_unique": false,
+        "name": "<Unlock Safe>",
+        "pack_code": "core",
+        "position": 58,
+        "quantity": 1,
+        "skill_intellect": 1,
+        "text": "Uses (X charges).\n[lightning] Exhaust <Unlock Safe> and take 1 horror: Move 1 charge from Unlock Safe to your resource pool as a resource.",
+        "traits": "Talent.",
+        "type_code": "asset"
     },
     {
         "code": "01059",
@@ -1446,7 +1463,6 @@
         "pack_code": "core",
         "position": 94,
         "quantity": 1,
-        "sanity": null,
         "skill_combat": 1,
         "skill_wild": 1,
         "slot": "Body",
@@ -1460,7 +1476,6 @@
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "",
-        "health": null,
         "illustrator": "",
         "is_unique": false,
         "name": "Elder Sign Amulet",
