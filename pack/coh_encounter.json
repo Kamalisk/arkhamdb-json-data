@@ -1,5 +1,5 @@
 [
-	{
+    {
         "back_text": "<b>Hard / Expert</b>\n[skull]: -2. This token has an additional -1 for each Innocent Reveler underneath the act or agenda decks.\n[cultist]: Reveal another token. If you fail this test, draw the top card of the encounter deck.\n[tablet]: -4. Deal 1 damage or 1 horror to the nearest Innocent Reveler in play.\n[elder_thing]: -6. If you fail and Cnidathqua is in play, it attacks you.",
         "code": "82001",
         "double_sided": true,
@@ -12,6 +12,22 @@
         "quantity": 1,
         "text": "<b>Easy / Standard</b>\n[skull]: -2. This token has an additional -1 for each Innocent Reveler underneath the agenda deck.\n[cultist]: Reveal another token. If you fail this test, draw the top card of the encounter deck.\n[tablet]: -3. If you fail, deal 1 damage or 1 horror to the nearest Innocent Reveler in play.\n[elder_thing]: -4. If you fail and Cnidathqua is in play, it attacks you.",
         "type_code": "scenario"
+    },
+    {
+        "code": "82002",
+        "doom": null,
+        "encounter_code": "venice",
+        "encounter_position": 2,
+        "faction_code": "mythos",
+        "flavor": "The abbess addresses you privately: \"So, you know what is coming?\" You nod. \"Then you know what must be done. They are using the celebration as a sacrifice for their wretched master. Bring as many innocents as you can here, where I can protect them. But beware — the creature's servants will try to blend into the crowd with their false masks.\"",
+        "illustrator": "Julepe",
+        "name": "The Carnevale Conspiracy",
+        "pack_code": "coh",
+        "position": 2,
+        "quantity": 1,
+        "stage": 1,
+        "text": "",
+        "type_code": "agenda"
     },
     {
         "code": "82002b",
@@ -35,7 +51,23 @@
         "traits": "Humanoid. Cultist. Elite.",
         "type_code": "enemy",
         "victory": 2
-    },  
+    },
+    {
+        "code": "82005",
+        "clues": null,
+        "encounter_code": "venice",
+        "encounter_position": 5,
+        "faction_code": "mythos",
+        "flavor": "The abbess addresses you privately: \"So, you know what is coming?\" You nod. \"Then you know what must be done. They are using the celebration as a sacrifice for their wretched master. Bring as many innocents as you can here, where I can protect them. But beware — the creature's servants will try to blend into the crowd with their false masks.\"",
+        "illustrator": "Julepe",
+        "name": "The Carnevale Conspiracy",
+        "pack_code": "coh",
+        "position": 5,
+        "quantity": 1,
+        "stage": 1,
+        "text": "",
+        "type_code": "act"
+    },
     {
         "clues": 0,
         "code": "82006b",
@@ -478,14 +510,13 @@
         "faction_code": "mythos",
         "flavor": "Dark waters hold darker secrets.",
         "health": 4,
-        "health_per_investigator": false,
-        "illustrator": "Thomas Wiervegg",
-        "name": "Carnevale Sentinel",
+        "illustrator": "Ilich Henriquez",
+        "name": "Poleman",
         "pack_code": "coh",
         "position": 28,
         "quantity": 2,
-        "text": "<b>Spawn</b> - The location across from you.\nRetaliate.\nYou cannot look at the other side of Masked Carnevale-Goers at Carnevale Sentinel's location using the ability on Act 1a.",
-        "traits": "Humanoid. Cultist.",
+        "text": "<b>Spawn</b> - Canal-side.\n<b>Prey</b> - Most Innocent Revelers controlled.\nHunter.",
+        "traits": "Monster. Deep One.",
         "type_code": "enemy"
     },
     {
@@ -499,7 +530,6 @@
         "faction_code": "mythos",
         "flavor": "Uninvited guests are not welcome.",
         "health": 3,
-        "health_per_investigator": false,
         "illustrator": "Thomas Wiervegg",
         "name": "Carnevale Sentinel",
         "pack_code": "coh",
@@ -519,7 +549,6 @@
         "enemy_horror": 0,
         "faction_code": "mythos",
         "health": 2,
-        "health_per_investigator": false,
         "illustrator": "Borja Pindado",
         "name": "Writhing Appendage",
         "pack_code": "coh",
@@ -539,7 +568,7 @@
         "pack_code": "coh",
         "position": 31,
         "quantity": 3,
-        "text": "Peril.\n<b>Revelation</b> - You must either take 2 damage or take each Maked Carnevale-Goer, shuffle them so the investigators do not know which is which, and place 1 in each location, starting with the location clockwise from you (Masked Carnevale-Goer side face-up).",
+        "text": "Peril.\n<b>Revelation</b> - You must either take 2 damage or take each Masked Carnevale-Goer, shuffle them so the investigators do not know which is which, and place 1 in each location, starting with the location clockwise from you (Masked Carnevale-Goer side face-up).",
         "traits": "Hazard.",
         "type_code": "treachery"
     },
@@ -605,13 +634,13 @@
         "encounter_code": "venice",
         "encounter_position": 52,
         "faction_code": "mythos",
-        "flavor": "When the revelers come out to celebrate, </i>they<i> come out to feed.",
+        "flavor": "When the revelers come out to celebrate, <em>they</em> come out to feed.",
         "illustrator": "Scott Purdy",
-        "name": "Poleman",
+        "name": "Abduction",
         "pack_code": "coh",
         "position": 36,
         "quantity": 2,
-        "text": "<b>Revelation</b> - Test [willpower] (3). If you fail, you must either lose all of your resources or choose and discard an Ally asset you control.",
+        "text": "<b>Revelation</b> - Test [willpower] (3). If you fail, you must either lose all of your resources or choose and discard an <i>Ally</i> asset you control.",
         "traits": "Scheme.",
         "type_code": "treachery"
     },
@@ -625,7 +654,7 @@
         "pack_code": "coh",
         "position": 37,
         "quantity": 2,
-        "text": "<b>Revelation</b> - Attach to the nearest location in the clockwise direction with no Acrid Miasma.\n<b>Forced</b> - After an investigator enter attached location, he or she tests [willpower] (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play.",
+        "text": "<b>Revelation</b> - Attach to the nearest location in the clockwise direction with no Acrid Miasma.\n<b>Forced</b> - After an investigator enters attached location, he or she tests [willpower] (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play.",
         "traits": "Hazard.",
         "type_code": "treachery"
     }   
