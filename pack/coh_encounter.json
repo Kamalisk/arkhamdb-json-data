@@ -14,6 +14,7 @@
         "type_code": "scenario"
     },
     {
+        "back_link": "82002b",
         "code": "82002",
         "doom": 8,
         "encounter_code": "venice",
@@ -39,7 +40,8 @@
         "faction_code": "mythos",
         "health": 5,
         "health_per_investigator": true,
-        "illustrator": "Adam Schumpert",
+        "hidden": true,
+	"illustrator": "Adam Schumpert",
         "is_unique": true,
         "name": "Baleful Reveler",
         "pack_code": "coh",
@@ -111,9 +113,7 @@
         "type_code": "act"
     },
     {
-        "back_flavor": "The skin on your hands blisters, rubbed raw by the oar, and your arms ache with pain. The creature movement is slow, its body covered in acrid slime, but its countless tentacles lash at you from the dark waters, coiling around your gondola and attempting to pry the oar out of your hands. With a heart-wretching snap, the oar splinters into two pieces, the bottom half splashing into the lagoon. You desperately try to propel the gondola forward using any means you can, but it is futile. The beast gains on you, looming over the boat with an impossible feathery shape, its tendrils reaching for you. Above it, the black shape of the moon begins to slide. A thin crescent of sunlight pierces through the mist as the eclipse ends, and the creature's tendrils recoil to surround its body. Slowly it sinks into the lagoon, its body melting as the sun escapes its prison.",
-        "back_name": "Blood of the Lagoon",
-        "back_text": "<b>(→R1)</b>",
+        "back_link": "82006b",
         "clues": null,
         "code": "82006",
         "encounter_code": "venice",
@@ -135,7 +135,8 @@
         "encounter_code": "venice",
         "encounter_position": 6,
         "faction_code": "mythos",
-        "illustrator": "Matt Bradbury",
+        "hidden": true,
+	"illustrator": "Matt Bradbury",
         "name": "Gondola",
         "pack_code": "coh",
         "position": 6,
@@ -146,9 +147,9 @@
         "type_code": "location"
     },
     {
-        "back_flavor": "",
-        "back_name": "",
-        "back_text": "",
+        "back_flavor": "The skin on your hands blisters, rubbed raw by the oar, and your arms ache with pain. The creature movement is slow, its body covered in acrid slime, but its countless tentacles lash at you from the dark waters, coiling around your gondola and attempting to pry the oar out of your hands. With a heart-wretching snap, the oar splinters into two pieces, the bottom half splashing into the lagoon. You desperately try to propel the gondola forward using any means you can, but it is futile. The beast gains on you, looming over the boat with an impossible feathery shape, its tendrils reaching for you. Above it, the black shape of the moon begins to slide. A thin crescent of sunlight pierces through the mist as the eclipse ends, and the creature's tendrils recoil to surround its body. Slowly it sinks into the lagoon, its body melting as the sun escapes its prison.",
+        "back_name": "Blood of the Lagoon",
+        "back_text": "<b>(→R1)</b>",
         "clues": null,
         "code": "82007",
         "double_sided": true,
@@ -162,7 +163,7 @@
         "position": 7,
         "quantity": 1,
         "stage": 3,
-        "text": "<b>Objective</b> - If there are 4[per_investigator] resources on Gondola, advance.",
+        "text": "<b>Forced</b> - When you would draw the top card of the encounter deck: Instead look at the top 5 cards of the encounter deck and put each Writhing Appendage among those cards into play, engaged with you. Discard the rest of those cards.\n<b>Objective</b> - If there are 4[per_investigator] resources on Gondola, advance.",
         "type_code": "act"
     },
     {
