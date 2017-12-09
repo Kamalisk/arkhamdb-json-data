@@ -136,15 +136,17 @@
         	"type_code": "treachery"
 	},
 	{
-		"back_flavor": "xxxxx",
-		"back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding options</b>: Seeker cards ([seeker]) level 0-5, Mystic cards ([mystic]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Daisy’s Tote Bag,  (John Dee Translation), 1 random basic weakness.",
+		"back_flavor": "Nobody believes him, and why should they? How could six stars vanish from sight all at once, never to reappear? Astronomer and Miskatonic University professor Norman Withers had all but given up on regaining his colleagues' esteem when a protege of the renowned Albert Einstein comes to speak on campus. The visiting physicist, with unsettling theories about the curvature of space-time, may hold the key to helping Norman explain the phenomenon of the vanishing stars...",
+		"back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0, Mystic cards ([mystic]) level 1-5, Neutral cards level 0-5, up to 5 Mystic cards ([mystic]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Livre d'Eibon, The Harbinger, 1 random basic weakness.",
 		"code": "98007",
 		"deck_limit": 1,
 		"deck_options": [
-			{"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-			{"faction":["mystic"], "level":{"min":0, "max":2} }
+			{"faction":["seeker"], "level":{"min":0, "max":0} },
+			{"faction":["neutral"], "level":{"min":0, "max":5} },
+			{"faction":["mystic"], "level":{"min":1, "max":5} },
+			{"faction":["mystic"], "level":("min":0, "max":0} "limit":5, "error": "You cannot have more than 5 level 0 Mystic cards"}
 		],
-		"deck_requirements": "size:3x, card:04xxx, card:04xxx, random:subtype:basicweakness",
+		"deck_requirements": "size:30, card:04xxx, card:04xxx, random:subtype:basicweakness",
 		"double_sided": true, 
 		"faction_code": "seeker",
 		"health": 6,
