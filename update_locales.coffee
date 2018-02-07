@@ -3,6 +3,7 @@
 fs = require 'fs'
 path = require 'path'
 _ = require 'lodash'
+mkdirp = require 'mkdirp'
 
 [bin, script, locale] = process.argv
 
@@ -71,12 +72,14 @@ for code in codes when not locale? or code is locale
 
     for file in _.keys m_things
         target = path.join localeRoot, file
+        mkdirp path.dirname target
         if !_.isEqual(l_things[file], m_things[file])
             fs.writeFileSync target, JSON.stringify(m_things[file], null, 4)+"\n"
             console.log "Written #{target}"
     
     for file in _.keys m_cards
         target = path.join localeRoot, 'pack', file
+        mkdirp path.dirname target
         if !_.isEqual(l_cards[file], m_cards[file])
             fs.writeFileSync target, JSON.stringify(m_cards[file], null, 4)+"\n"
             console.log "Written #{target}"
