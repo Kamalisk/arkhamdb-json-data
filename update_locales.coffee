@@ -3,6 +3,7 @@
 fs = require 'fs'
 path = require 'path'
 _ = require 'lodash'
+mkdirp = require 'mkdirp'
 
 [bin, script, locale] = process.argv
 
@@ -36,13 +37,16 @@ loadCards = (root) ->
             pack_files = fs.readdirSync(path.join(localeRoot, file))
             for pack_file in pack_files
                 #console.log "Reading #{path.join(localeRoot, file, pack_file)}"
-                json = JSON.parse fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8')
-                result[pack_file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
+                fileContents = fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8')
+                if !!fileContents.trim()
+                    json = JSON.parse fileContents
+                    result["#{path.join(file, pack_file)}"] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
         else
             #console.log "Reading regular #{path.join(localeRoot, file)}"
-            json = JSON.parse fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
-            result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
-
+            fileContents = fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
+            if !!fileContents.trim()
+                json = JSON.parse fileContents
+                result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
     result
 
 merge_data = (defaultLocale, locale) ->
@@ -68,12 +72,14 @@ for code in codes when not locale? or code is locale
 
     for file in _.keys m_things
         target = path.join localeRoot, file
+        mkdirp path.dirname target
         if !_.isEqual(l_things[file], m_things[file])
             fs.writeFileSync target, JSON.stringify(m_things[file], null, 4)+"\n"
             console.log "Written #{target}"
     
     for file in _.keys m_cards
         target = path.join localeRoot, 'pack', file
+        mkdirp path.dirname target
         if !_.isEqual(l_cards[file], m_cards[file])
             fs.writeFileSync target, JSON.stringify(m_cards[file], null, 4)+"\n"
             console.log "Written #{target}"
