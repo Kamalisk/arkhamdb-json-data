@@ -73,7 +73,7 @@ These can be used in a card's `text` section.
 
 * `[reaction]`
 * `[action]`
-* `[lightning]`
+* `[free]`
 * `[eldersign]`
 * `[will]`
 * `[lore]`
