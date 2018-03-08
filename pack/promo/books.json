@@ -206,7 +206,7 @@
 		"text": "Norman Withers deck only. Replacement.\n<b>Prey</b> - Norman Withers only.\nWhile Vengeful Hounds is engaged with you, you cannot draw or reveal cards via player card effects.",
 		"traits": "Monster. Extradimensional. Tindalos.",
 		"type_code": "enemy"
-	}
+	},
 	{
 		"code": "98011,
         	"cost": 4,
@@ -243,5 +243,39 @@
         	"text": "Carolyn Fern deck only. Replacement.\n<b>Revelation</b> - Attach To Fight the Black Wind to the current agenda. Carolyn Fern takes 1 direct horror./n<b>Forced</b> - At the end of the round, if any amount of horror was assigned to an investigator this round and it was not healed: Place 1 doom on attached agenda.",
         	"traits": "Task. Dreamlands.",
         	"type_code": "treachery"
+	},
+	{
+		"code": "98014,
+        	"deck_limit": 1,
+        	"faction_code": "neutral",
+        	"illustrator": "Stephen Somers",
+        	"name": "Nautical Prowess",
+        	"pack_code": "books",
+        	"position": 14
+        	"quantity": 1,
+        	"restrictions": "investigator:98013",
+        	"skill_intellect": 1,
+		"skill_wild": 1,
+		"skill_willpower": 1,
+        	"text": "Silas Marsh deck only. Replacement.\nIf a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains [wild] [wild].",
+        	"traits": "Innate. Developed.",
+        	"type_code": "skill"
+	},
+	{
+		"code": "98015",
+        	"deck_limit": 1,
+        	"faction_code": "neutral",
+        	"illustrator": "Mariusz Gandzel",
+        	"name": "Dreams of the Deep",
+        	"pack_code": "books",
+        	"position": 15,
+        	"quantity": 1,
+        	"restrictions": "investigator:98013",
+		"skill_wild": 2,
+		"subname": "The Deep Gate",
+        	"subtype_code": "weakness",
+        	"text": "Silas Marsh deck only. Replacement.\nThis skill's icons subtract from your skill value instead of adding to it.\nIf this skill test fails, return this skill to your hand.\n<b>Forced</b> - If Dreams of the Deep is in your hand at the end of your turn: Reveal it and take 2 damage.",
+        	"traits": "Curse.",
+        	"type_code": "skill"
 	}
 ]
