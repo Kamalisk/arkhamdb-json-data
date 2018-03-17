@@ -1,83 +1,89 @@
 [
     {
         "code": "02105",
-        "name": "Emergency Aid",
-        "text": "Choose an investigator at your location. Heal 2 damage from that investigator or from an <i>Ally</i> asset he or she controls.",
-        "traits": "Insight. Science."
+        "name": "Soforthilfe",
+        "text": "Wähle einen Ermittler an deinem Ort. Heile 2 Schaden von diesem Ermittler oder von einer <i>Verbündeter</i>-Vorteilskarte, die er kontrolliert.",
+        "traits": "Erkenntnis. Wissenschaft."
     },
     {
         "code": "02106",
-        "name": "Brother Xavier",
-        "text": "You get +1 [willpower].\nBrother Xavier may be assigned damage and/or horror dealt to other investigators at your location.\nWhen Brother Xavier is defeated: Deal 2 damage to an enemy at your location.",
-        "traits": "Ally. ",
-        "slot": "Ally"
+        "name": "Bruder Xavier",
+        "text": "Du bekommst +1 [willpower].\nBruder Xavier darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt worden ist.\nSobald Bruder Xavier besiegt ist: Füge einem Gegner an deinem Ort 2 Schaden zu.",
+        "traits": "Verbündeter.",
+        "slot": "Verbündeter"
     },
     {
         "code": "02107",
-        "name": "\"I've got a plan!\"",
-        "text": "<b>Fight</b>. This attack uses [intellect]. You deal +1 damage for this attack for each clue you have (max +3 damage).",
-        "traits": "Insight. Tactic."
+        "flavor": "Das ist der schlechteste Plan, den ich je gehört habe. Also, worauf warten wir noch?"
+        "name": "\"Ich habe einen Plan!\"",
+        "text": "<b>Kampf</b>. Dieser Angriff verwendet [intellect]. Du fügst für diesen Angriff +1 Schaden für jeden Hinweis zu, den du hast (maximal +3 Schaden).",
+        "traits": "Erkenntnis. Taktik."
     },
     {
         "code": "02108",
-        "name": "Pathfinder",
-        "text": "[free]During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location.",
+        "flavor": "Forscher, die hinter dem Grauen her sind, halten sich gerne in ungewöhnlichen fernen Gegenden auf.\nH.P. Lovecraft, \"Das Bild im Haus\""
+        "name": "Spurensucher",
+        "text": "[free] Falls du in deinem Zug nicht mit einem Gegner in einen Kampf verwickelt bist, erschöpfe Spurensucher: Bewege dich auf einen verbundenen Ort.",
         "traits": "Talent."
     },
     {
         "code": "02109",
-        "name": "Contraband",
-        "text": "Choose an asset controlled by an investigator at your location. Double the number of ammo or supply tokens on that asset.",
-        "traits": "Supply. Illicit."
+        "flavor": "Es ist vielleicht nicht legal, aber es hilft."
+        "name": "Schmuggelware",
+        "text": "Wähle eine Vorteilskarte, die ein Ermittler an deinem Ort kontrolliert. Verdopple die Anzahl an Munitions- oder Vorratsmarkern auf dieser Vorteilskarte.",
+        "traits": "Vorrat. Illegal."
     },
     {
         "code": "02110",
-        "name": "Adaptable",
-        "text": "Permanent.\nIn between each game of a campaign, you may swap up to two level 0 cards out of your deck in exchange for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator).",
+        "name": "Anpassungsfähig",
+        "text": "Dauerhaft.\nZwischen den Spielen einer Kampagne darfst du bis zu zwei Karten der Stufe 0 aus deinem Deck gegen dieselbe Anzahl anderer Karten der Stufe 0 austauschen. (Du musst dabei weiterhin alle Deckbauregeln für deinen Ermittler beachten.)",
         "traits": "Talent."
     },
     {
         "code": "02111",
-        "name": "Delve Too Deep",
-        "text": "In player order, each investigator draws 1 card from the top of the encounter deck. Then, add Delve Too Deep to the victory display.",
-        "traits": "Insight."
+        "name": "Zu tief graben",
+        "flavor": "Einige Dinge kann man, wenn man sie erst gesehen hat, nicht mehr ungesehen machen."
+        "text": "In Spielerreihenfolge zieht jeder Ermittler 1 Karte oben vom Begegnungsdeck. Füge dann Zu tief graben dem Siegpunktestapel hinzu.",
+        "traits": "Erkenntnis."
     },
     {
         "code": "02112",
-        "name": "Song of the Dead",
-        "text": "Uses (5 charges).\n[action]<b> </b>Spend 1 charge: <b>Fight. </b>This attack uses [willpower] instead of [combat]. You get +1 [willpower] for this attack. If a [skull] symbol is revealed during this attack, this attack deals +2 damage.",
-        "traits": "Spell. Song.",
-        "slot": "Arcane"
+        "name": "Lied der Toten",
+        "text": "Anwendungen (5 Ladungen).\n[action] Gib 1 Ladung aus: <b>Kampf.</b> Dieser Angriff verwendet [willpower] statt [combat]. Du bekommst für diesen Angriff +1 [willpower]. Falls während dieses Angriffs ein [skull]-Symbol enthüllt wird, fügt dieser Angriff +2 Schaden zu.",
+        "traits": "Zauber. Lied.",
+        "slot": "Arkan"
     },
     {
         "code": "02113",
-        "name": "Oops!",
-        "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
-        "traits": "Fortune."
+        "name": "Ups!",
+        "text": "Schnell. Spiele diese Karte, nachdem dir eine Fertigkeitsprobe um 2 oder weniger misslungen ist, solange du einen Gegner angreifst, der mit dir in einen Kampf verwickelt ist.\nFüge den Schaden dieses Angriffs einem anderen Gegner an deinem Ort zu.",
+        "traits": "Glücksfall."
     },
     {
         "code": "02114",
-        "name": "Fire Extinguisher",
-        "text": "[action]: <b>Fight</b>. You get +1 [combat] for this attack.\n[action] Exile Fire Extinguisher: <b>Evade</b>. You get +3 [agility] for this test. If you are successful, evade each other enemy engaged with you, as well.",
-        "traits": "Item. Tool. Melee.",
+        "name": "Feuerlöscher",
+        "text": "[action]: <b>Kampf.</b>. Du bekommst für diesen Angriff +1 [combat].\n[action] Schicke Feuerlöscher ins Exil: <b>Entkommen</b>. Du bekommst für diese Probe +3 [agility]. Falls die Probe gelingt, entkommst du auch jedem anderen Gegner, der mit dir in einen Kampf verwickelt ist.",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
         "slot": "Hand"
     },
     {
         "code": "02115",
-        "name": "Flare",
-        "text": "Either (choose one):\n- <b>Fight</b>. You get +3 [combat] and deal +2 damage for this attack. Exile Flare.\n- Search the top 9 cards of any investigator's deck for an <i>Ally</i> asset and put it into play under your control. Then, exile Flare. Shuffle the searched deck.",
-        "traits": "Tactic."
+        "name": "Leuchtgeschoss",
+        "text": "(Wähle eins) entweder:\n- <b>Kampf.</b> Du bekommst für diesen Angriff +3 [combat] und fügst +2 Schaden zu. Schicke Leuchtgeschoss ins Exil.\n- Durchsuche die obersten 9 Karten des Decks eines beliebigen Ermittlers nach einer <i>Verbündeter</i>-Vorteilskarte und bringe sie unter deiner Kontrolle ins Spiel. Schicke dann Leuchtgeschoss ins Exil. Mische das durchsuchte Deck.",
+        "traits": "Taktik."
     },
     {
         "code": "02116",
-        "name": "Smoking Pipe",
-        "text": "Uses (3 supplies).\n[free]Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror.",
-        "traits": "Item."
+        "flavor": "Eine gute Pfeife beruhigt auch die angespannsten Nerven."
+        "name": "Tabakpfeife",
+        "text": "Anwendungen (3 Vorräte).\n[free] Gib 1 Vorrat aus, erschöpfe Tabakpfeife und nimm 1 Schaden: Heile 1 Horror.",
+        "traits": "Gegenstand."
     },
     {
         "code": "02117",
-        "name": "Painkillers",
-        "text": "Uses (3 supplies).\n[free]Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage.",
-        "traits": "Item."
+        "flavor": "Die empfohlene Dosierung nicht überschreiten."
+        "name": "Schmerzmittel",
+        "text": "Anwendungen (3 Vorräte).\n[free] Gib 1 Vorrat aus, erschöpfe Schmerzmittel und nimm 1 Horror: Heile 1 Schaden.",
+        "traits": "Gegenstand."
     }
 ]
