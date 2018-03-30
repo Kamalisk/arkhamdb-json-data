@@ -1,5 +1,35 @@
 [
     {
+      "back_flavor": "Sometimes, life gives you a choice: accept the lot that is given to you or stand up for who you are and what you believe. Calvin chose the latter. On the edge of death, bleeding out on the side of a dirt road, he received a vision - a terrifying vision of the Earth, sundered, and João, the love of his life, turning to ash in the vortex of a blazing inferno. Then, Calvin made another choice. He reached out to the darkness and pulled it within him. He would not die, not today. The world needed him. João needed him.",
+      "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding options</b>: Survivor cards ([survivor]) level 0-5, <i>Spirit<i> cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Until the End of Time, Voice of the Messenger, 1 random basic weakness.",
+      "code": "04005",
+      "deck_limit": 1,
+      "deck_options": [
+            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
+            {"trait":["spirit"], "level":{"min":0, "max":3} }
+        ],
+      "deck_requirements": "size:30, card:04015, card:04016, random:subtype:basicweakness",
+      "double_sided": true, 
+      "faction_code": "survivor",
+      "flavor": "If you hurt him, I'll kill you.",
+      "health": 6,
+      "illustrator": "Cristi Balanescu",
+      "is_unique": true,
+      "name": "Calvin Wright",
+      "pack_code": "tfa",
+      "position": 5,
+      "quantity": 1,
+      "sanity": 6,
+      "skill_agility": 0,
+      "skill_intellect": 0,
+      "skill_combat": 0,
+      "skill_willpower": 0,
+      "subname": "The Haunted",
+      "text": "You get +1 [willpower] and +1 [intellect] for each horror on you.\nYou get +1 [combat] and +1 [agility] for each damage on you.\n[elder_sign] effect: +0. You may either heal 1 damage or horror, or take 1 direct damage or direct horror.",
+      "traits": "Cursed. Drifter.",
+      "type_code": "investigator"
+    },
+    {
       "code": "04008",
       "cost": 3,
       "deck_limit": 1,
@@ -35,5 +65,40 @@
       "text": "<b>Revelation</b> - Put Call of the Unknown into play in your threat area.\n<b>Forced</b> - At the beginning of your turn: Choose a location other than your location. When your turn ends, if you did not successfully investigate the chosen location this turn, take 2 horror and shuffle Call of the Unknown back into your deck.",
       "traits": "Task.",
       "type_code": "treachery"
+    },
+    {
+      "code": "04015",
+      "cost": 1,
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "flavor": "Unyielding, uncompromising, he stood resolute in defiance of his fate.",
+      "health": 2,
+      "illustrator": "Anthony Devine",
+      "name": "Until the End of Time",
+      "pack_code": "tfa",
+      "position": 15,
+      "quantity": 1,
+      "restrictions": "investigator:04005",
+      "sanity": 2,
+      "skill_combat": 1,
+      "skill_wild": 1,
+      "text": "Calvin Wright deck only.\nDirect damage and direct horror may be assigned to Until the End of Time.",
+      "traits": "Talent.",
+      "type_code": "asset"	
+    },
+    {
+	  "code": "04016",
+	  "deck_limit": 1,
+	  "faction_code": "neutral",
+	  "illustrator": "Anthony Devine",
+	  "name": "Voice of the Messenger",
+	  "pack_code": "tfa",
+	  "position": 16,
+	  "quantity": 1,
+	  "restrictions": "investigator:04005",
+	  "subtype_code": "weakness",
+	  "text": "<b>Revelation</b> - You must either (choose one):\n - Take 1 direct damage and suffer 1 physical trauma.\n - Take 1 direct horror and suffer 1 mental trauma.",
+	  "traits": "Curse. Pact",
+	  "type_code": "treachery"
     }
 ]
