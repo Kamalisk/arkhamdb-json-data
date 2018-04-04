@@ -115,6 +115,8 @@ def load_packs(args, cycles_data):
         return None
 
     for p in packs_data:
+        if p["cycle_code"] == "promotional":
+            p["cycle_code"] = "promo"
         pack_filename = "{}.json".format(p["code"])
         pack_path = os.path.join(args.pack_path, p["cycle_code"], pack_filename)
         p['player'] = check_file_access(pack_path)
