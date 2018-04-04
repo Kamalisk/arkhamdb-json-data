@@ -1,0 +1,33 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "code": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "name": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "octgn_id": {
+            "oneof": [
+                {
+                    "minLength": 1,
+                    "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+            ]
+            
+        },
+        "is_primary": {
+            "type": "boolean"
+        }
+    },
+    "required": [
+        "code",
+        "name"
+    ],
+    "type": "object"
+}

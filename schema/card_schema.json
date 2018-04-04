@@ -1,0 +1,196 @@
+{
+    "additionalProperties": true,
+    "properties": {
+        "back_text": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_flavor": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "code": {
+            "pattern": "^[0-9abcdef]{5}$",
+            "type": "string"
+        },
+        "cost": {
+            "oneOf": [
+                {
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "deck_requirements": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "deck_options": {
+            "type": "array"
+        },
+        "deck_limit": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "double_sided": {
+            "type": "boolean"
+        },
+        "enemy_damage": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "enemy_evade": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "enemy_fight": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "enemy_horror": {
+            "minimum": 0,
+            "type": "integer"
+        },
+        "exceptional": {
+            "type": "boolean"
+        },
+        "exile": {
+            "type": "boolean"
+        },
+        "faction_code": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "flavor": {
+            "minLength": 0,
+            "type": "string"
+        },
+        "health": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "illustrator": {
+            "pattern": ".*",
+            "type": "string"
+        },
+        "name": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "pack_code": {
+            "maxLength": 5,
+            "minLength": 2,
+            "type": "string"
+        },
+        "permanent": {
+            "type": "boolean"
+        },
+        "position": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "quantity": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "restrictions": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "skill_agility": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "skill_combat": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "skill_intellect": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "skill_wild": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "skill_willpower": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "sanity": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "slot": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "subname": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "subtype_code": {
+            "oneOf": [
+                {
+                    "minLength": 0,
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "text": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "traits": {
+            "minLength": 0,
+            "type": "string"
+        },
+        "type_code": {
+            "minLength": 1,
+            "type": "string"
+        },
+        "victory": {
+            "minimum": 1,
+            "type": "integer"
+        },
+        "is_unique": {
+            "oneof":[
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+            
+        },
+        "xp": {
+            "oneOf": [
+                {
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        }
+    },
+    "required": [
+        "code",
+        "faction_code",
+        "deck_limit",
+        "name",
+        "pack_code",
+        "position",
+        "quantity",
+        "type_code"
+    ],
+    "type": "object"
+}
