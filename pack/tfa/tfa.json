@@ -172,6 +172,39 @@
       "type_code": "treachery"
     },
     {
+      "code": "04019",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "guardian",
+      "illustrator": "Anders Finer",
+      "name": "Trusted",
+      "pack_code": "tfa",
+      "position": 19,
+      "quantity": 2,
+      "skill_willpower": 1,
+      "text": "Fast. Play only during your turn.\nAttach to an <i>Ally</i> asset you control.\nAttached asset gets +1 health and +1 sanity.",
+      "traits": "Upgrade.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
+      "code": "04028",
+      "cost": 0,
+      "deck_limit": 2,
+      "faction_code": "rogue",
+      "illustrator": "Borja Pindado",
+      "name": "\"You handle this one!\"",
+      "pack_code": "tfa",
+      "position": 28,
+      "quantity": 2,
+      "skill_agility": 1,
+      "skill_intellect": 1,
+      "text": "Fast. Play after you draw a non-peril encounter card, but before resolving that card's effects.\nChoose another investigator. That investigator is considered to have drawn that encounter card instead. Gain 1 resource.",
+      "traits": "Trick.",
+      "type_code": "event",
+      "xp": 0
+    },
+    {
       "code": "04030",
       "deck_limit" : 2,
       "cost": 3,
@@ -188,10 +221,28 @@
       "text": "Seal ([skull], [cultist], [tablet], or [elder_thing]).\n<b>Forced</b> - After you reveal an [auto_fail] symbol during a skill test: Return The Chthonian Stone to your hand.",
       "traits": "Item. Relic. Cursed.",
       "type_code": "asset"
-    },	
+      "xp": 0
+    },
+    {
+      "code": "04034",
+      "cost": 2,
+      "deck_limit": 2,
+      "faction_code": "survivor",
+      "flavor": "Fortune favors the oblivious",
+      "illustrator": "Stanislav Dikolenko",
+      "name": "Dumb Luck",
+      "pack_code": "tfa",
+      "position": 34,
+      "quantity": 2,
+      "skill_agility": 2,
+      "text": "Fast. Play after you fail a skill test by 2 or less during an evasion attempt against a non-<i>Elite</i> enemy.\nPlace that enemy on top of the encounter deck.",
+      "traits": "Fortune.",
+      "type_code": "event",
+      "xp": 0
+    },
     {
       "code": "04037",
-      "deck_limit" : 1,
+      "deck_limit" : 2,
       "cost": 2,
       "faction_code": "neutral",
       "illustrator": "Adam Lane",
@@ -204,5 +255,6 @@
       "text": "[reaction] After Backpack enters play: Search the top 6 cards of your deck for up to 3 non-weakness <i>Item</i> or <i>Supply</i> cards, and attach them facedown to Backpack. Shuffle your deck.\nCards attached to Backpack may be played as if they were in your hand. If there are no cards attached to Backpack, discard it.",
       "traits": "Item.",
       "type_code": "asset"
+      "xp": 0
     }
 ]
