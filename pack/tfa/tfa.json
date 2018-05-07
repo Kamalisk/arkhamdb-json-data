@@ -3,8 +3,12 @@
         "back_text": "<b>Deck Size:</b> 30.<br/><b>Deckbuilding Options:</b> Guardian cards ([guardian]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.<br/><b>Deckbuilding Requirements</b> (do not count towards deck size): Mitch Brown, Bought in Blood, 1 random basic weakness.",
         "code": "04001",
         "deck_limit": 1,
-        "deck_options": null,
-        "deck_requirements": null,
+        "deck_options": [
+            {"faction":["guardian"], "level":{"min":0, "max":5} },
+            {"faction":["rogue"], "level":{"min":0, "max":2} },
+            {"faction":["neutral"], "level":{"min":0, "max":5} }
+        ],
+        "deck_requirements": "size:30, card:04006, card:04007, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "“Keep moving. You can die on your own time.”",
@@ -29,8 +33,12 @@
         "back_text": "<b>Deck Size:</b> 30.<br/><b>Deckbuilding Options:</b> Seeker cards ([seeker]) level 0-5, <i>Relic</i> cards level 0-4, Neutral cards level 0-5.<br/><b>Deckbuilding Requirements</b> (do not count towards deck size): Jake Williams, Call of the Unknown, 1 random basic weakness.",
         "code": "04002",
         "deck_limit": 1,
-        "deck_options": null,
-        "deck_requirements": null,
+        "deck_options": [
+            {"faction":["seeker"], "level":{"min":0, "max":5} },
+            {"trait":["relic"], "level":{"min":0, "max":4} },
+            {"faction":["neutral"], "level":{"min":0, "max":5} }
+        ],
+        "deck_requirements": "size:30, card:04008, card:04009, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "seeker",
         "flavor": "“Discovery is easy. Understanding is the hard part.”",
@@ -55,8 +63,13 @@
         "back_text": "<b>Deck Size:</b> 30.<br/><b>Deckbuilding Options:</b> <i>Illicit</i> cards level 0-5, Rogue cards ([rogue]) level 0-3, Neutral cards level 0-5, up to five other level 0 Seeker and/or Survivor cards ([seeker] and/or [survivor]).<br/><b>Deckbuilding Requirements</b> (do not count towards deck size): Smuggled Goods, Finn's Trusty .38, Caught Red-handed, 1 random basic weakness.",
         "code": "04003",
         "deck_limit": 1,
-        "deck_options": null,
-        "deck_requirements": null,
+        "deck_options": [
+            {"trait":["illicit"], "level":{"min":0, "max":5} },
+            {"faction":["rogue"], "level":{"min":0, "max":3} },
+            {"faction":["neutral"], "level":{"min":0, "max":5} },
+            {"faction":["seeker", "survivor"], "level":{"min":0, "max":0}, "limit":5 }
+        ],
+        "deck_requirements": "size:30, card:04010, card:04011, card:04012, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "“Never lose track of the exit. Or the merchandise.”",
