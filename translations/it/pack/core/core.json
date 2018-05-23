@@ -20,7 +20,7 @@
         "flavor": "\"Conosco libri così potenti da poter riscrivere la realtà.\"",
         "name": "Daisy Walker",
         "subname": "La Bibliotecaria",
-        "text": "Durante il tuo turno, puoi effettuare 1 azione aggiuntiva relativa alla capacità [action] delle carte <i>Tomo</i>.\nEffetto di [elder_sign]: +0. Se hai successo, pesca 1 carta per ogni carta <i>Tomo</i> che controlli.",
+        "text": "Durante il tuo turno, puoi effettuare 1 azione aggiuntiva relativa alla capacità [action] delle carte [[Tomo]].\nEffetto di [elder_sign]: +0. Se hai successo, pesca 1 carta per ogni carta [[Tomo]] che controlli.",
         "traits": "Miskatonic.",
         "back_flavor": "Come rispettata bibliotecaria della Miskatonic University, Daisy ha sempre pensato che i libri fossero la cosa più importante della sua vita. Ha esplorato nella fantasia ciò che disprezzava nella vita: orrore, violenza, paura. Poi, si è imbattuta nella traduzione di John Dee del Necronomicon: era blasfemo, sacrilego e troppo orribile per essere vero, ma grazie ai suoi studi nelle materie oscure e occulte, Daisy sapeva che c'era più verità che finzione nelle pagine di quel libro. Fu così che iniziò a chiedersi quali altri segreti celasse la collezione privata della Biblioteca Orne...",
         "back_text": "<b>Dimensione del mazzo</b>: 30.\n<b>Opzioni del Mazzo</b>: Carte Studioso ([seeker]) di livello 0-5, Carte Mistico ([mystic]) di livello 0-2, Carte Neutrali di level 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Borsa di Daisy, Necronomicon (Traduzione di John Dee), 1 debolezza base casuale."
@@ -70,7 +70,7 @@
     {
         "code": "01008",
         "name": "Borsa di Daisy",
-        "text": "Solo mazzo di Daisy Walker.\nPossiedi 2 slot mano aggiuntivi, a cui possono essere associati solo supporti <i>Tomo</i>.",
+        "text": "Solo mazzo di Daisy Walker.\nPossiedi 2 slot mano aggiuntivi, a cui possono essere associati solo supporti [[Tomo]].",
         "traits": "Oggetto."
     },
     {
@@ -85,7 +85,7 @@
         "code": "01010",
         "flavor": "Non finirò di nuovo in gattabuia.",
         "name": "Latitante",
-        "text": "Solo mazzo di \"Skids\" O'Toole.\nVeloce. Solo dopo che il tuo turno è iniziato.\nFino alla fine del round, i nemici non <i>Elite</i> non possono attaccarti.",
+        "text": "Solo mazzo di \"Skids\" O'Toole.\nVeloce. Solo dopo che il tuo turno è iniziato.\nFino alla fine del round, i nemici non [[Elite]] non possono attaccarti.",
         "traits": "Tattica."
     },
     {
@@ -99,7 +99,7 @@
         "flavor": "Le incisioni sulla sua superficie cambiano da un giorno all'altro, alterandosi e spostandosi ogni volta che non guardo.",
         "name": "Cimelio di Hyperborea",
         "subname": "Artefatto di un'Altra Vita",
-        "text": "Solo mazzo di Agnes Baker.\n[reaction] Dopo che hai giocato 1 carta <i>Incantesimo</i>: Pesca 1 carta.",
+        "text": "Solo mazzo di Agnes Baker.\n[reaction] Dopo che hai giocato 1 carta [[Incantesimo]]: Pesca 1 carta.",
         "traits": "Oggetto. Reliquia.",
         "slot": "Accessorio"
     },
@@ -196,7 +196,7 @@
         "code": "01026",
         "flavor": "Non ho mai incontrato una bestia in grado di superare in astuzia un proiettile.",
         "name": "Munizioni Extra",
-        "text": "Colloca 3 munizioni su un supporto <i>Arma da Fuoco</i> controllato da un investigatore nel tuo luogo.",
+        "text": "Colloca 3 munizioni su un supporto [[Arma da Fuoco]] controllato da un investigatore nel tuo luogo.",
         "traits": "Scorta."
    },
    {
@@ -239,7 +239,7 @@
         "code": "01032",
         "flavor": "\"Ci sono stati dei problemi alla Biblioteca Orne, come entrambi sappiamo, considerate le condizioni del povero Armitage e gli altri... incidenti non correlati di alcuni anni fa...\"",
         "name": "Bibliotecario Ricercatore",
-        "text": "[reaction] Dopo che il Bibliotecario Ricercatore è entrato in gioco: Cerca nel tuo mazzo un supporto <i>Tomo</i> e aggiungilo alla tua mano.",
+        "text": "[reaction] Dopo che il Bibliotecario Ricercatore è entrato in gioco: Cerca nel tuo mazzo un supporto [[Tomo]] e aggiungilo alla tua mano.",
         "traits": "Alleato. Miskatonic.",
         "slot": "Alleato"
    },
@@ -280,7 +280,7 @@
    {
        "code": "01038",
        "name": "Barricata",
-       "text": "Assegna questo evento al tuo luogo.\nI nemici non <i>Elite</i> non possono muoversi fino al luogo con questo evento.<b>Obbligo</b> - Quando un investigatore lascia il luogo con questo evento: Scarta la Barricata.",
+       "text": "Assegna questo evento al tuo luogo.\nI nemici non [[Elite]] non possono muoversi fino al luogo con questo evento.<b>Obbligo</b> - Quando un investigatore lascia il luogo con questo evento: Scarta la Barricata.",
        "traits": "Intuizione. Tattica."
    },
    {
@@ -303,7 +303,7 @@
        "flavor": "Ti fa paura per quello che può fare a loro? O fa paura a loro per quello che può fare a te?",
        "name": "Disco di Itzamna",
        "subname": "Amuleto Protettivo",
-       "text": "[reaction] Quando un nemico non <i>Elite</i> è generato nel tuo luogo, scarta Disco di Itzamna: Scarta quel nemico.",
+       "text": "[reaction] Quando un nemico non [[Elite]] è generato nel tuo luogo, scarta Disco di Itzamna: Scarta quel nemico.",
        "traits": "Oggetto. Reliquia.",
        "slot": "Accessorio"
    },
@@ -452,7 +452,7 @@
    {
        "code": "01063",
        "name": "Discepolo Arcano",
-       "text": "<b>Obbligo</b> - Dopo che il Discepolo Arcano è entrato in gioco: Colloca 1 destino su di esso.\n[free] Esaurisci il Discepolo Arcano: Cerca nelle 3 carte in cima al tuo mazzo una carta <i>Incantesimo</i> e pescala. Poi rimescola il tuo mazzo.",
+       "text": "<b>Obbligo</b> - Dopo che il Discepolo Arcano è entrato in gioco: Colloca 1 destino su di esso.\n[free] Esaurisci il Discepolo Arcano: Cerca nelle 3 carte in cima al tuo mazzo una carta [[Incantesimo]] e pescala. Poi rimescola il tuo mazzo.",
        "traits": "Alleato. Stregone.",
        "slot": "Alleato"
    },
@@ -485,7 +485,7 @@
     {
         "code": "01068",
         "name": "Mente Cancellata",
-        "text": "Veloce. Solo dopo che una fase è iniziata.\nScegli un nemico non <i>Elite</i> nel tuo luogo. Fino alla fine della fase, considera il suo riquadro di testo stampato come se fosse vuoto (<i>Tratti</i> esclusi).",
+        "text": "Veloce. Solo dopo che una fase è iniziata.\nScegli un nemico non [[Elite]] nel tuo luogo. Fino alla fine della fase, considera il suo riquadro di testo stampato come se fosse vuoto (<i>Tratti</i> esclusi).",
         "traits": "Incantesimo."
    },
    {
@@ -497,7 +497,7 @@
     {
         "code": "01070",
         "name": "Libro delle Ombre",
-        "text": "Possiedi 1 slot arcano aggiuntivo.\n[action] Esaurisci il Libro delle Ombre: Colloc 1 carica su un supporto <i>Incantesimo</i> che controlli.",
+        "text": "Possiedi 1 slot arcano aggiuntivo.\n[action] Esaurisci il Libro delle Ombre: Colloc 1 carica su un supporto [[Incantesimo]] che controlli.",
         "traits": "Oggetto. Tomo.",
         "slot": "Mano"
     },
@@ -518,7 +518,7 @@
     {
         "code": "01073",
         "name": "Oggetto Riciclato",
-        "text": "[reaction] Dopo che hai avuto successo in una prova di abilità di 2 o più punti indagando, esaurisci l'Oggetto Riciclato: Scegli 1 carta <i>Oggetto</i> dalla tua pila degli scarti e aggiungila alla tua mano.",
+        "text": "[reaction] Dopo che hai avuto successo in una prova di abilità di 2 o più punti indagando, esaurisci l'Oggetto Riciclato: Scegli 1 carta [[Oggetto]] dalla tua pila degli scarti e aggiungila alla tua mano.",
         "traits": "Talento"
     },
     {
@@ -540,7 +540,7 @@
        "code": "01076",
        "flavor": "Non veniva mai quando lo chiamavi. Sembrava che avesse sempre qualche suo piano personale da portare avanti.",
        "name": "Gatto Randagio",
-       "text": "[free] Scarta il Gatto Randagio: Eludi automaticamente un nemico non <i>Elite</i> nel tuo luogo.",
+       "text": "[free] Scarta il Gatto Randagio: Eludi automaticamente un nemico non [[Elite]] nel tuo luogo.",
         "traits": "Alleato. Creatura.",
         "slot": "Alleato"
    },
@@ -587,7 +587,7 @@
     {
         "code": "01083",
         "name": "C'è Mancato Poco!",
-        "text": "Veloce. Solo dopo che un nemico non <i>Elite</i> e non debolezza è stato eluso nel tuo luogo.\nRimescola quel nemico nel mazzo degli incontri.",
+        "text": "Veloce. Solo dopo che un nemico non [[Elite]] e non debolezza è stato eluso nel tuo luogo.\nRimescola quel nemico nel mazzo degli incontri.",
         "traits": "Sorte."
     },
     {
