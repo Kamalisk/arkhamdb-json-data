@@ -14,6 +14,7 @@
     },
     {
 	"back_flavor": "Whippoorwills gather along the gambrel roofs of Dunwich and begin to shriek in jubilation. The people of Dunwich believe that the presence of whippoorwills foreshadows somebody’s imminent death. Do they long for your death? Or is the victim someone else?",
+	"back_name": "First Blood",
 	"back_text": "If there are 3 or more potential sacrifices, choose one of them at random and place it underneath the agenda deck, without looking at it.",
 	"code": "02196",
 	"doom": 6,
@@ -31,13 +32,14 @@
 	"type_code": "agenda"
     },
     {
-	"back_flavor": "More whippoorwills flock to Dunwich village as the night progresses. The other townsfolk, notoriously superstitious, are terrified by the birds’ presence. With the doors around you shut and locked, you find yourself alone in the streets of Dunwich.",	
+	"back_flavor": "More whippoorwills flock to Dunwich village as the night progresses. The other townsfolk, notoriously superstitious, are terrified by the birds’ presence. With the doors around you shut and locked, you find yourself alone in the streets of Dunwich.",
+  "back_name": "Abandoned Streets",
 	"back_text": "\nIf there are 2 or more potential sacrifices, choose one of them at random and place it underneath the agenda deck, without looking at it.",
 	"code": "02197",
 	"doom": 6,
 	"double_sided": true,
 	"encounter_code": "blood_on_the_altar",
-	"encounter_position": 3,	
+	"encounter_position": 3,
 	"faction_code": "mythos",
 	"flavor": "As the sun sets, the frightened townsfolk retreat into their homes and lock their doors. It is clear to you that many of them know more than they are letting on. A sickening feeling turns over in your stomach as the village’s true nature becomes clear.",
 	"illustrator": "Rafał Hrynkiewicz",
@@ -50,6 +52,7 @@
     },
     {
 	"back_flavor": "The whippoorwills that have been cawing through the night scatter in unison, as if they are somehow satisfied with the turn of events.",
+  "back_name": "Blood on the Altar",
 	"back_text": "Each investigator must immediately resign.",
 	"code": "02198",
 	"doom": 7,
@@ -68,8 +71,9 @@
     },
     {
 	"back_flavor": "You find your way into the hidden chamber where you believe the missing folk are being held, but the horrors that confront you there fray the edges of your sanity. Bound by chains in a secluded corner of the room is an unspeakable creature with the face of a man. It wheezes and wrestles to free itself as it notices your entrance. The many mouths covering the creature’s body are covered in blood and gristles of meat, as though it were feeding recently.\nWith a hideous croak, the creature speaks with seven mouths.\"Ss... se... eth...?\" Then it lurches forward as though to grab you, and several of its chains snap.",
+  "back_name": "What Was Hidden",
 	"back_text": "Reveal each unrevealed location. \nMove all clues in play (including those on each investigator) to The Hidden Chamber.\nSpawn the set-aside Silas Bishop enemy in The Hidden Chamber.",
-	"clues": null, 
+	"clues": null,
 	"code": "02199",
 	"double_sided": true,
 	"encounter_code": "blood_on_the_altar",
@@ -87,8 +91,9 @@
     },
     {
 	"back_flavor": "Despite the danger, you brave the beast's horrifying presence and investigate further before killing it. What you find confirms your worst suspicions. Several journal entries written by a \"Seth Bishop\" describe the process of feeding the creature in horrifying detail - tomatoes at first, then small game, then cattle, and then finally 'human sacrifices'. But the most disturbing part is that Seth calls the creature by name: 'Silas.'",
+  "back_name": "Banishing the Creature",
 	"back_text": "If The Necronomicon is in play: <b>(→R2)\n</b>Otherwise: <b>(→R3)</b>",
-	"clues": null, 
+	"clues": null,
 	"code": "02200",
 	"double_sided": true,
 	"encounter_code": "blood_on_the_altar",
@@ -486,7 +491,7 @@
     {
 	"code": "02221",
 	"encounter_code": "blood_on_the_altar",
-	"encounter_position": 29,    
+	"encounter_position": 29,
 	"faction_code": "mythos",
 	"illustrator": "Stanislav Dikolenko",
 	"name": "Psychopomp's Song",
