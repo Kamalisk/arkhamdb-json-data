@@ -14,6 +14,7 @@
         "type_code": "scenario"
     },
     {
+        "back_name": "A Creature of the Void",
         "back_flavor": "From the shadows of the museum halls, a terrible creature slithers forth, long and serpentine, and propelled by black leathery wings.",
         "back_text": "If Hunting Horror is in play, add 1 doom to it.\nIf Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck.",
         "code": "02119",
@@ -27,11 +28,13 @@
         "name": "Restricted Access",
         "pack_code": "tmm",
         "position": 119,
+        "stage": 1,
         "quantity": 1,
         "text": "<b>Forced</b> - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached.",
         "type_code": "agenda"
     },
     {
+        "back_name": "Hunted Down",
         "back_flavor": "The creature does not relent, pursuing you throughout the museum. ",
         "back_text": "If Hunting Horror is in play, add 1 doom to it.\nIf Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in Museum Halls, if able. Shuffle the encounter discard pile into the encounter deck.",
         "code": "02120",
@@ -46,10 +49,12 @@
         "pack_code": "tmm",
         "position": 120,
         "quantity": 1,
+        "stage": 2,
         "text": "<b>Forced</b> - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached.",
         "type_code": "agenda"
     },
     {
+        "back_name": "Driven Out",
         "back_flavor": "With no way of defeating the creature in the museum, you flee. In every shadow of every corridor, the serpentine horror’s slithering body can be seen, the museum halls growing darker with the creature’s presence. As you reach the entrance, it blocks the doorway and attacks you with its terrible fangs. You barely manage to escape the building with your life, though the effects of the creature’s venom will scar you forever.",
         "back_text": "Each investigator who has not resigned is defeated and suffers 1 physical trauma.",
         "code": "02121",
@@ -64,10 +69,12 @@
         "pack_code": "tmm",
         "position": 121,
         "quantity": 1,
+        "stage": 3,
         "text": "<b>Forced</b> - When Hunting Horror enters play: Attach the set-aside copy of Shadow-spawned to it, or add 1 resource to Shadow-spawned if it is already attached.",
         "type_code": "agenda"
     },
     {
+        "back_name": "Gaining Entrance",
         "back_flavor": "Unfortunately, the entrance to the Museum is kept locked at this late hour. A security guard is visible through the building’s front windows, oblivious to his surroundings. Perhaps you can find a way to get his attention and convince him to let you in.",
         "back_text": "<b>If you spent clues to advance:\n</b><blockquote><i>You find the window nearest to the guard and tap it loud enough to get his attention. He gives a startled jump, then shifts open the window. “What do you want?” he asks timidly. You explain the situation to him and tell him he is in grave danger. He warily opens the front door to the Museum, shaking his head. “I wasn’t even supposed to be here today...”</i></blockquote>Choose an investigator to take control of the set-aside Adam Lynch asset. Reveal the Museum Halls. Advance to Act 2a - \"Night at the Museum.\"\n<hr><b>If you successfully performed the [action] ability on the Museum Halls to advance:\n</b><blockquote><i>With great strength, you break down the door to the Museum, making considerable noise as you do. The security guard sees you enter, cries out in fear, and rushes toward the back of the museum.</i></blockquote>The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advance to Act 2a - \"Breaking and Entering.\"",
         "clues": 2,
@@ -82,12 +89,14 @@
         "pack_code": "tmm",
         "position": 122,
         "quantity": 1,
+        "stage": 1,
         "type_code": "act"
     },
     {
+        "back_name": "The Curator's Fate",
         "back_flavor": "When you enter the restricted hall, you find the curator of the museum lying in a pool of blood, his intestines strewn about in a grotesque display. Your stomach turns over and you resist the urge to vomit. Whatever did this, it’s still nearby...",
         "back_text": "Search the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (<i>Restricted Hall</i>), ready.\nAdvance to Act 3a.",
-        "clues": null, 
+        "clues": null,
         "code": "02123",
         "double_sided": true,
         "encounter_code": "the_miskatonic_museum",
@@ -99,13 +108,15 @@
         "pack_code": "tmm",
         "position": 123,
         "quantity": 1,
+        "stage": 2,
         "text": "<b>Objective</b> - If an investigator enters the Exhibit Hall (<i>Restricted Hall</i>), advance.",
         "type_code": "act"
     },
     {
+        "back_name": "The Guard's Fate",
         "back_flavor": "When you enter the Restricted Hall, you find the curator of the museum clutching an ornate statue as if it were a club, his suit stained with blood, a panicked expression on his face. The security guard you saw earlier lies in a pool of blood nearby, his intestines strewn about in a grotesque display. Your stomach turns and you resist the urge to vomit. \"I tried to stop it, but...\" the curator says quietly, his voice quivering. Whatever did this, it’s still nearby...",
         "back_text": "Choose an investigator to take control of the set-aside Harold Walsted asset. \nSearch the encounter deck, discard pile, the void, and all play areas for Hunting Horror, and place it in the Exhibit Hall (<i>Restricted Hall</i>), ready.\nAdvance to Act 3a.",
-        "clues": null, 
+        "clues": null,
         "code": "02124",
         "double_sided": true,
         "encounter_code": "the_miskatonic_museum",
@@ -117,10 +128,12 @@
         "pack_code": "tmm",
         "position": 124,
         "quantity": 1,
+        "stage": 2,
         "text": "<b>Objective</b> - If an investigator enters the Exhibit Hall (<i>Restricted Hall</i>), advance.",
         "type_code": "act"
     },
     {
+        "back_name": "The Necronomicon",
         "back_flavor": "At last, you find the locked case containing the Necronomicon./nThe tome, over eight hundred pages in length, is filled with all manner of macabre imagery, formulae, spells, prophecies, and descriptions of creatures from beyond the threshold of space./nWithout a doubt, it is a dangerous book... But its secrets could be very useful.",
         "back_text": "The investigators must decide (choose one):\n- It's too dangerous to keep around. We must destroy it. <b>(→R1)</b>\n- It's too valuable to destroy. We must keep it safe.<b>(→R2)</b>",
         "clues": null,
@@ -135,6 +148,7 @@
         "pack_code": "tmm",
         "position": 125,
         "quantity": 1,
+        "stage": 3,
         "text": "<b>Objective</b> - If there are no clues remaining in the Exhibit Hall , advance.",
         "type_code": "act"
     },
