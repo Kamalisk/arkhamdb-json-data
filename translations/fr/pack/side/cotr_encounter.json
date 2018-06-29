@@ -45,8 +45,8 @@
         "name": "Hunting the Rougarou",
         "text": "<b>Forced</b> - After The Rougarou leaves a location: Place 1 clue from the token bank on that location.\n<b>Objective</b> - <em>\"We have to destry the beast!\"</em> If The Rougarou is defeated: (<b>→R2</b>)\n<b>Objective</b> - <em>\"Maybe there's another way...\"</em> While an investigator is engaged with The Rougarou, he or she may choose to advance. (Limit once per phase.)",
         "back_name": "Taming the Rougarou",
-        "back_flavor": "Conversing with the creature is a daunting task. Whenever it is cornered, it bellows and attacks, like a feral beast. If there is still some semblance of humanity left inside the create, it is buried deep beneath the rage and bloodlust of the curse.",
-        "back_text": "If each of the following requirements are met, proceed to (<b>→R3</b>). Otherwise, flip this act back to its \"a\" side.\n— <em>\"We must learn more about the curse.\"</em> The investigators must have 4 [per_investigator] clues, as a group.\n— <em>\"We must keep it contained.\"</em> The Rougarou must have a <b>Trap</b> card attached to it.\n— <em>\"We must protected ourseleves.\"</em> The Rougarou must have at least 1 [per_investigator] damage on it.\n— <em>\"We must calm it down.\"</em> The investigators must have either \"found a binding stone\" or \"found a strange doll.\""
+        "back_flavor": "Conversing with the creature is a daunting Tâche. Whenever it is cornered, it bellows and attacks, like a feral beast. If there is still some semblance of humanity left inside the create, it is buried deep beneath the rage and bloodlust of the Malédiction.",
+        "back_text": "If each of the following requirements are met, proceed to (<b>→R3</b>). Otherwise, flip this act back to its \"a\" side.\n— <em>\"We must learn more about the Malédiction.\"</em> The investigators must have 4 [per_investigator] clues, as a group.\n— <em>\"We must keep it contained.\"</em> The Rougarou must have a <b>Trap</b> card attached to it.\n— <em>\"We must protected ourseleves.\"</em> The Rougarou must have at least 1 [per_investigator] damage on it.\n— <em>\"We must calm it down.\"</em> The investigators must have either \"found a binding stone\" or \"found a strange doll.\""
     },
     {
         "code": "81007",
@@ -107,7 +107,7 @@
     {
         "code": "81014",
         "name": "Trapper's Cabin",
-        "text": "While you are at Trapper's Cabin, you cannot gain resources.\n[action] Spend 5 resources: Test [intellect] (3) to convince an old trapper to sell you his last bear trap. If you succeed, take control of the set-aside Bear Trap asset.",
+        "text": "While you are at Trapper's Cabin, you cannot gain resources.\n[action] Spend 5 resources: Test [intellect] (3) to convince an old trapper to sell you his last bear Piège. If you succeed, take control of the set-aside Bear Trap asset.",
         "traits": "Wilderness.",
         "back_name": "Wilderness",
         "back_flavor": "After hours of navigating through impenetrable fog and overgrowth, your clothes stick to your skin and you swat at what seems like the thousandth mosquito."
@@ -151,33 +151,33 @@
         "name": "Lady Esprit",
         "subname": "Dangerous Bokor",
         "text": "[action] Exhaust Lady Esprit and deal her 1 horror: Heal 2 damage or gain 2 resources. Any investigator at Lady Esprit's location may activate this ability.",
-        "traits": "Ally. Sorcerer.",
-        "slot": "Ally"
+        "traits": "Allié. Sorcier.",
+        "slot": "Allié"
     },
     {
         "code": "81020",
         "name": "Bear Trap",
         "text": "[free]: Attach Bear Trap to your location.\n<b>Forced</b> – After The Rougarou enters attached location: Attach Bear Trap to The Rougarou.\nAttached enemy gets -1 fight and -1 evade.",
-        "traits": "Trap."
+        "traits": "Piège."
     },
     {
         "code": "81021",
         "name": "Fishing Net",
         "text": "[free] If The Rougarou is exhausted and at your location: Attach Fishing Net to The Rougarou.\nAttached enemy loses retaliate.",
-        "traits": "Trap."
+        "traits": "Piège."
     },
     {
         "code": "81022",
         "flavor": "They were apex predators even before the curse took hold.",
         "name": "Bog Gator",
         "text": "<b>Prey</b> – Lowest [agility].\nWhile Bog Gator is at a Bayou location, it gets +2 fight and +2 evade.",
-        "traits": "Creature."
+        "traits": "Créature."
     },
     {
         "code": "81023",
         "name": "Swamp Leech",
         "text": "<b>Spawn</b> – Any [[Bayou]] location.\nSwamp Leech cannot be evaded.\n<b>Forced</b> – When Swamp Leech enters a non-[[Bayou]] location: Discard it.",
-        "traits": "Creature."
+        "traits": "Créature."
     },
     {
         "code": "81024",
@@ -209,14 +209,14 @@
         "name": "The Rougarou",
         "subname": "Cursed Soul",
         "text": "Aloof. Retaliate.\nAs an additional cost for an investigator to engage The Rougarou, the investigators must spend 1 clue, as a group (2 clues instead if there are 3 or 4 investigators).\n<b>Forced</b> – After The Rougarou takes 1 [per_investigator] damage during a single phase: Find the location that is farthest from all investigator. Move The Rougarou (one location at a time) until it enters that location.",
-        "traits": "Monster. Creature. Elite."
+        "traits": "Monstre. Créature. Elite."
     },
     {
         "code": "81029",
         "flavor": "Your stomach convulses and you feel the first ghastly pangs of hunger.",
         "name": "Curse of the Rougarou",
         "text": "<b>Revelation</b> - Put Curse of the Rougarou into play in your threat area.\n<b>Forced</b> - At the end of your turn, if you have not dealt any damage this turn: Take 1 horror.",
-        "traits": "Curse."
+        "traits": "Malédiction."
     },
     {
         "code": "81030",
@@ -227,21 +227,21 @@
     {
         "code": "81031",
         "name": "Slime-Covered Dhole",
-        "text": "<b>Spawn</b> – Any non-[[Bayou]] location.\n<b>Prey</b> – Lowest remaining health.\nHunter.\n<b>Forced</b> – When Slime-Covered Dhole enters a location: Each investigator at that location takes 1 horror.",
-        "traits": "Monster. Dhole."
+        "text": "<b>Spawn</b> – Any non-[[Bayou]] location.\n<b>Prey</b> – Lowest remaining health.\nChasseur.\n<b>Forced</b> – When Slime-Covered Dhole enters a location: Each investigator at that location takes 1 horror.",
+        "traits": "Monstre. Dhole."
     },
     {
         "code": "81032",
         "flavor": "A great thrashing accompanied by an echoing roar turns your blood to ice.",
         "name": "Marsh Gug",
-        "text": "<b>Spawn</b> - Any [[Bayou]] location.\nHunter.",
-        "traits": "Monster. Gug."
+        "text": "<b>Spawn</b> - Any [[Bayou]] location.\nChasseur.",
+        "traits": "Monstre. Gug."
     },
     {
         "code": "81033",
         "name": "Dark Young Host",
         "text": "<b>Spawn</b> – Any [[Bayou]] location.\n<b>Forced</b> – When 1 or more clues are placed on Dark Young Host's location: Place those clues on Dark Young Host.\n<b>Forced</b> – When Dark Young Host is defeated: Move all clues on Dark Young Host to its location.",
-        "traits": "Monster. Dark Young."
+        "traits": "Monstre. Dark Young."
     },
     {
         "code": "81034",
