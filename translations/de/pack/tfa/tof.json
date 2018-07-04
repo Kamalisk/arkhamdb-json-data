@@ -1,68 +1,70 @@
 [
     {
         "code": "04103",
-        "name": "Scene of the Crime",
-        "text": "Play only as your first action.\nDiscover 1 clue at your location (2 clues instead if there is an enemy at that location). This action does not provoke attacks of opportunity.",
-        "traits": "Insight. Bold."
+        "name": "Tatort",
+        "text": "Spiele diese Karte nur als deine erste Aktion.\nEntdecke 1 Hinweis an deinem Ort (stattdessen 2 Hinweise, falls sich ein Gegner an jenem Ort befindet). Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Erkenntnis. Kühn."
     },
     {
         "code": "04104",
-        "name": "Marksmanship",
-        "text": "Fast. Play when you activate the <b>Fight</b> ability on a [[Firearm]] or [[Ranged]] asset.\nThis attack can target an enemy at a connecting location. Ignore the aloof and retaliate keywords for this attack. If this attack succeeds against an enemy not engaged with you, the attack deals +1 damage.",
-        "traits": "Tactic."
+        "name": "Treffsicherheit",
+        "text": "Schnell. Spiele diese Karte, sobald du die <b>Kampf</b>-Fähigkeit auf einer [[Feuerwaffe]]- oder [[Fernkampf]]-Vorteilskarte aktivierst.
+Dieser Angriff kann einen Gegner an einem verbundenen Ort zum Ziel haben. Ignoriere für diesen Angriff die Schlüsselwörter Zurückhaltend und Zurückschlagen. Falls dieser Angriff gegen einen Gegner erfolgreich ist, der nicht mit dir in einen Kampf verwickelt ist, fügt dieser Angriff +1 Schaden zu.",
+        "traits": "Taktik."
     },
     {
         "code": "04105",
-        "name": "Persuasion",
-        "text": "<b>Parley.</b> Choose a non-weakness [[Humanoid]] enemy at your location and test [intellect] (3). This test gets +X difficulty, where X is that enemy's horror value. If you succeed, shuffle the chosen enemy into the encounter deck. If the chosen enemy is [[Elite]], automatically evade it instead.",
-        "traits": "Insight. Trick."
-    },
+        "name": "Überredung",
+        "text": "<b>Verhandlung.</b> Wähle einen Nicht-Schwäche-[[Humanoid]]-Gegner an deinem Ort und lege eine [intellect]-Probe (3) ab. Diese Probe bekommt +X Schwierigkeit, wobei X der Horrorwert jenes Gegners ist. Falls die Probe gelingt, mische den gewählten Gegner in das Begegnungsdeck. Falls der gewählte Gegner  [[Elite]] ist, entkommst du ihm stattdessen automatisch.",
+        "traits": "Erkenntnis. Trick.",
+        },
     {
-        "code": "04106",
-        "name": "Shrewd Analysis",
-        "text": "Permanent. Limit 1 per deck.\nAnytime you upgrade a card with the <i>(Unidentified)</i> or <i>(Untranslated)</i> subtitle, you may upgrade a second copy of that card at no experience cost. If you do, the two upgraded versions are chosen at random from among the eligible options. <i>(You must still meet all deckbuilding restrictions.)</i>",
-        "traits": "Talent."
-    },
+      "code": "04106",
+      "name": "Scharfsinnige Analyse",
+      "text": "Dauerhaft. Nur 1 pro Deck.\nImmer wenn du eine Karte mit dem Untertitel <i>(Nicht identifiziert)</i> oder <i>(Nicht übersetzt)</i>  verbesserst, darfst du einen zweite Kopie dieser Karte ohne Erfahrungspunktekosten verbessern. Falls du dies tust, werden die beiden verbesserten Versionen zufällig aus den gültigen Möglichkeiten bestimmt.  <i>(Du musst trotzdem alle Einschränkungen beim Deckbau erfüllen.)</i>",
+      "traits": "Talent.",
+      },
     {
         "code": "04107",
-        "flavor": "\"It’s not really all that lucky. Just in the mood for a smoke.\"",
-        "name": "Lucky Cigarette Case",
-        "text": "[reaction] After you succeed at a skill test by 2 or more, exhaust Lucky Cigarette Case: Draw 1 card.",
-        "traits": "Item. Charm.",
-        "slot": "Accessory"
-    },
+        "flavor": "\"Eigentlich bringt es gar kein Glück. Nur wenn man gerade das Bedürfnis nach einer Zigarette hat.\"",
+        "name": "Glücks-Zigarettenetui",
+        "text": "[reaction] Nachdem dir eine Fertigkeitsprobe um 2 oder mehr gelungen ist, erschöpfe Glücks-Zigarettenetui: Ziehe 1 Karte.",
+        "traits": "Gegenstand. Glücksbringer.",
+        },
     {
         "code": "04108",
-        "flavor": "\"Don’t worry. I know a guy.\" – Leo De Luca",
-        "name": "Fence",
-        "text": "[reaction] When you play an [[Illicit]] card during your turn, exhaust Fence: The [[Illicit]] card gains fast. If it was already fast, reduce its cost by 1 instead.",
-        "traits": "Connection. Illicit."
-    },
+        "flavor": "\"Mach dir keine Sorgen, ich kenne da einen Typen.\" – Leo De Luca",
+        "name": "Hehler",
+        "text": "[reaction] Sobald du während deines Zuges eine [[Illegal]]-Karte spielst, erschöpfe Hehler: Die [[Illegal]]-Karte erhält Schnell. Falls sie bereits Schnell hat, senke ihre Kosten stattdessen um 1.",
+        "traits": "Verbindung. Illegal.",
+        },
     {
-        "code": "04109",
-        "name": "Arcane Research",
-        "text": "Permanent.\nWhen you purchase Arcane Research, suffer 1 mental trauma.\nAfter each scenario of a campaign, reduce the experience cost of the first [[Spell]] card you upgrade before the next scenario by 1.",
-        "traits": "Talent."
-    },
+      "code": "04109",
+      "name": "Arkane Forschung",
+      "text": "Dauerhaft.\nSobald du Arkane Forschung erwirbst, erleidest du 1 seelisches Trauma.\nSenke nach jedem Szenario einer Kampagne die Erfahrungspunktekosten der ersten <i>Zauber</i>-Karte, die du vor dem nächsten Szenario verbesserst, um 1.",
+      "traits": "Talent.",
+      },
     {
         "code": "04110",
-        "flavor": "\"Not on my watch.\"",
-        "name": "Counterspell",
-        "text": "Fast. Play when a [skull], [cultist], [tablet], or [elder_thing] chaos token is revealed during a skill test at your location.\nCancel that chaos token. <i>(Do not reveal a new chaos token to replace it.)</i>",
-        "traits": "Spell. Blessed."
-    },
+        "flavor": "\"Nicht mit mir!.\"",
+        "name": "Gegenzauber",
+        "text": "Schnell. Spiele diese Karte, sobald ein [skull]-, [cultist]-, [tablet]-, oder [elder_thing]-Chaosmarker während einer Fertigkeitsprobe an deinem Ort enthüllt wird.
+\nHebe jenen Chaosmarker auf. <i>(Enthülle keinen neuen Chaosmarker, um ihn zu ersetzen.)</i>",
+        "traits": "Zauber. Gesegnet.",
+        },
     {
         "code": "04111",
-        "flavor": "Calloused hands and a determined heart were all she needed.",
-        "name": "Perseverance",
-        "text": "Fast. Play when you are assigned damage and/or horror that would defeat you.\nCancel up to 4 of that damage and/or horror.",
-        "traits": "Spirit."
-    },
+        "flavor": "Schwielige Hände und ein entschlossenes Herz: Mehr brauchte sie nicht.",
+        "name": "Beharrlichkeit",
+        "text": "Schnell. Spiele diese Karte, sobald dir Schaden und/oder Horror zugewiesen wird, der dich besiegen würde.\n
+Hebe bis zu 4 Punkte von jenem Schaden und/oder Horror auf.",
+        "traits": "Geist.",
+        },
     {
         "code": "04112",
-        "flavor": "thud.",
-        "name": "Stunning Blow",
-        "text": "If this skill test is successful during an attack, automatically evade the attacked enemy.",
-        "traits": "Practiced."
-    }
+        "flavor": "Bumm.",
+        "name": "Lähmender Schlag",
+        "text": "Falls diese Probe während eines Angriffs gelingt, entkommst du dem angegriffenen Gegner automatisch.",
+        "traits": "Trainiert.",
+        }
 ]
