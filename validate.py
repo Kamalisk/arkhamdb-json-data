@@ -83,7 +83,7 @@ def load_json_file(args, path):
         return None
     
     if formatted_raw_data != raw_data:
-        verbose_print(args, "%s: File is not correctly formatted JSON.\n" % path, 0)
+        ##verbose_print(args, "%s: File is not correctly formatted JSON.\n" % path, 0)
         formatting_errors += 0
         if args.fix_formatting and len(formatted_raw_data) > 0:
             verbose_print(args, "%s: Fixing JSON formatting...\n" % path, 0)
@@ -444,4 +444,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-   
+   

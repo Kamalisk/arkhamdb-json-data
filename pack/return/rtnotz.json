@@ -11,7 +11,7 @@
         "quantity": 2,
         "skill_combat": 2,
         "skill_willpower": 2,
-        "text": "[free] </b>Spend 1 resource: You get +1 [willpower] for this skill test.<br/>[free] Spend 1 resource: You get +1 [combat] for this skill test.",
+        "text": "[free] Spend 1 resource: You get +1 [willpower] for this skill test.\n[free] Spend 1 resource: You get +1 [combat] for this skill test.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 2
@@ -45,7 +45,7 @@
         "quantity": 2,
         "skill_agility": 2,
         "skill_intellect": 2,
-        "text": "[free] </b>Spend 1 resource: You get +1 [intellect] for this skill test.<br/>[free] Spend 1 resource: You get +1 [agility] for this skill test.",
+        "text": "[free] Spend 1 resource: You get +1 [intellect] for this skill test.\n[free] Spend 1 resource: You get +1 [agility] for this skill test.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 2
@@ -63,7 +63,7 @@
         "skill_agility": 1,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Attach to your location.<br/>Non-[[elite]] enemies cannot move into or spawn at attached location. Anytime an enemy would spawn at attached location, spawn it at a connecting location instead, if able.<br/><b>Forced</b> - When an investigator leaves attached location: Discard Barricade.",
+        "text": "Attach to your location.\nNon-[[Elite]] enemies cannot move into or spawn at attached location. Each time an enemy would spawn at attached location, spawn it at a connecting location instead, if able.\n<b>Forced</b> - When an investigator leaves attached location: Discard Barricade.",
         "traits": "Insight. Tactic.",
         "type_code": "event",
         "xp": 3
@@ -80,7 +80,7 @@
         "quantity": 2,
         "skill_agility": 2,
         "skill_combat": 2,
-        "text": "[free] </b>Spend 1 resource: You get +1 [combat] for this skill test.<br/>[free] Spend 1 resource: You get +1 [agility] for this skill test.",
+        "text": "[free] Spend 1 resource: You get +1 [combat] for this skill test.\n[free] Spend 1 resource: You get +1 [agility] for this skill test.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 2
@@ -90,7 +90,7 @@
         "cost": 5,
         "deck_limit": 2,
         "faction_code": "rogue",
-        "flavor": "“I win again! Sorry sugar, it’s just not your night.”",
+        "flavor": "\"I win again! Sorry sugar, it’s just not your night.\"",
         "illustrator": "Sara Biddle",
         "name": "Hot Streak",
         "pack_code": "rtnotz",
@@ -114,7 +114,7 @@
         "quantity": 2,
         "skill_intellect": 2,
         "skill_willpower": 2,
-        "text": "[free] </b>Spend 1 resource: You get +1 [willpower] for this skill test.<br/>[free] Spend 1 resource: You get +1 [intellect] for this skill test.",
+        "text": "[free] Spend 1 resource: You get +1 [willpower] for this skill test.\n[free] Spend 1 resource: You get +1 [intellect] for this skill test.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 2
@@ -131,7 +131,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_willpower": 1,
-        "text": "Fast. Play after a phase begins.<br/>Choose a non-[[elite]] enemy in your location. Until the end of the round, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[traits]]).",
+        "text": "Fast. Play after a phase begins.\nChoose a non-[[Elite]] enemy in your location. Until the end of the phase, reduce the chosen enemy's damage and horror values by 1, and treat its printed text box as if it were blank (except for [[Traits]]).",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 3
@@ -148,7 +148,7 @@
         "quantity": 2,
         "skill_agility": 2,
         "skill_willpower": 2,
-        "text": "[free] </b>Spend 1 resource: You get +1 [willpower] for this skill test.<br/>[free] Spend 1 resource: You get +1 [agility] for this skill test.",
+        "text": "[free] Spend 1 resource: You get +1 [willpower] for this skill test.\n[free] Spend 1 resource: You get +1 [agility] for this skill test.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 2
@@ -165,7 +165,8 @@
         "position": 10,
         "quantity": 2,
         "skill_wild": 1,
-        "text": "<b> </b>After you fail a skill test, exhaust Rabbit's Foot: Search the top X cards of your deck for a card, draw it, and shuffle the remaining cards into your deck. X is the amount you failed by.",
+        "slot": "Accessory",
+        "text": "[reaction] After you fail a skill test, exhaust Rabbit's Foot: Search the top X cards of your deck for a card, draw it, and shuffle the remaining cards into your deck. X is the amount you failed by.",
         "traits": "Item. Charm.",
         "type_code": "asset",
         "xp": 3
