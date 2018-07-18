@@ -13,10 +13,31 @@
         "back_text": "<b>Spawn</b> - The starting location.\nHunter. Retaliate.\nWhile Specter of Death is exhausted, it takes 1 less damage from each attack made against it.\n<b>Forced</b> - After you fail a skill test while attempting to evade Specter of Death: It attacks you."
     },
     {
+        "code": "03240",
+        "name": "The Pallid Mask",
+        "text": "Easy / Standard\n[skull]: -X. X is the number of locations away from the starting location you are (max 5).\n[cultist]: -2. If this token is revealed during an attack, and this skill test is successful, this attack deals 1 less damage.\n[tablet]: -2. If there is a ready [[Ghoul]] or [[Geist]] enemy at your location, it attacks you (if there is more than one, choose one).\n[elder_thing]: -3. If you fail, search the encounter deck and discard pile for a [[Ghoul]] or [[Geist]] enemy and draw it.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the number of locations away from the starting location you are.\n[cultist]: -3. If this token is revealed during an attack and this skill test is successful, this attack deals no damage.\n[tablet]: -3. If there is a [[Ghoul]] or [[Geist]] enemy at your location, it readies and attacks you (if there is more than one, choose one).\n[elder_thing]: -4. If you fail, search the encounter deck and discard pile for a [[Ghoul]] or [[Geist]] enemy and draw it."
+    },
+    {
+        "code": "03241",
+        "flavor": "The dank, chill air of the catacombs penetrates your clothes and causes you to shiver. Everywhere you look, the remains of the dead greet you — a grim reminder of your own mortality.",
+        "name": "Empire of the Dead",
+        "text": "Each location is connected to each location adjacent to it."
+    },
+    {
+        "code": "03241b",
+        "name": "Specter of Death",
+        "subname": "A Force From Beyond",
+        "text": "<b>Spawn</b> - The starting location.\nHunter. Retaliate.\nWhile Specter of Death is exhausted, it takes 1 less damage from each attack made against it.\n<b>Forced</b> - After you fail a skill test while attempting to evade Specter of Death: It attacks you.",
+        "traits": "Monster. Geist. Elite."
+    },
+    {
         "code": "03242",
         "flavor": "All around you, the eyes of skulls glow with an otherworldly hue. A ghostly voice echoes throughout the labyrinthine catacombs. You sense a threatening presence looming around you. It is just outside of your vision, past the dim fog that permeates through the catacombs, around every corner...",
         "name": "Empire of the Undead",
         "text": "Each location is connected to each location adjacent to it.",
+        "back_name": "Join Them In Death",
+        "back_flavor": "The ghostly presence that menaces you grows with each minute you spend exploring these dreadful catacombs. You walk faster, glancing behind you nervously every few steps. Why does it hound you? What is its purpose? It tugs and pulls on the periphery of your senses. You turn a sharp corner and its shapeless umbral form stares back at you. You spin and flee, passing through a narrow stone corridor you do not recognize. At every intersection, every corner, its shadowy arms reach for you, its many faces contorted in agony. You cannot escape. Resigned to your fate, you drop to your knees in hopelessness and stare down at the cold stone floor. You feel the presence approaching you and cannot bear to look up. Everything goes black.",
         "back_text": "Each investigator is defeated and suffers 1 physical trauma."
     },
     {
@@ -24,6 +45,8 @@
         "flavor": "At the end of the long tunnel next to you, the Stranger steps through the darkness, his pale mask glinting in the candlelight. “Wait!” you call out. He glances your way before vanishing into the shadows. Once more, you are forced to track him down to find answers...",
         "name": "Through the Catacombs",
         "text": "<b>Objective</b> - Find The Man in the Pallid Mask. He is somewhere in the Catacombs. ",
+        "back_name": "The Stranger's Shadow",
+        "back_flavor": "Rows of skulls chatter their teeth endlessly as you pass through a narrow stone archway, into a round chamber illuminated by firelight. In the center of the tomb stands the Stranger, peering into the blaze. Across the wall, shadows dance and twist with the flickering of the flame. The Stranger turns to face you, and his own shadow spreads across the wall. Where his shadow's arms should be, tentacle shapes emerge, enveloping the walls in darkness. He lifts his hands toward the wall, as if trying to show you something.",
         "back_text": "Spawn the set-aside The Man in the Pallid Mask weakness in the Tomb of Shadows .\nCheck the Campaign Log. If Ishimaru Haruko is not listed under \"VIPs Slain,\" search the collection for Ishimaru Haruko and spawn her at the starting location."
     },
     {
@@ -31,6 +54,7 @@
         "flavor": "The shadows cast along the bone walls shift into the shapes of several figures, acting out a macabre parody of The King in Yellow.",
         "name": "The Path is Barred",
         "text": "<b>Objective</b> - If The Man in the Pallid Mask is defeated, advance.\n<b>Objective</b> - Investigators in the Tomb of Shadows may spend the requisite number of clues, as a group, to advance.",
+        "back_name": "Behind the Mask",
         "back_text": "<b>If The Man in the Pallid Mask was defeated:\n</b>Mark two <b>Conviction</b> in your Campaign Log.\nRemove The Man in the Pallid Mask from the game.\nAdvance to Act 3a - The Way Out.&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;\n<b>If you spent clues to advance:\n</b>Mark two <b>Doubt</b> in your Campaign Log. \nRemove The Man in the Pallid Mask from the game. \nAdvance to Act 3a - Leading the Way."
     },
     {
@@ -38,6 +62,8 @@
         "flavor": "Bones rattle to the floor, dislodged by the shaking and crumbling of the caverns around you. The Stranger grabs a skull from within the flames in the center of the chamber and flees.",
         "name": "The Way Out",
         "text": "<b>Forced</b> - At the end of the round, if The Gate to Hell is in play: Find the location that is farthest from The Gate to Hell. Discard that location, dealing 2 damage to each investigator and enemy at that location, and moving them to a connecting location.\n<b>Objective</b> - If each undefeated investigator is at The Gate to Hell, advance.",
+        "back_name": "The Catacombs Collapse",
+        "back_flavor": "The catacombs rumble and collapse behind you as you make your escape. You are able to follow the Stranger's shadow, tracing his steps to find your way through the labyrinthine passages. You cross the threshold of the catacombs entrance, a wave of rubble and bone chips following in your wake. The deafening noise of falling debris crashes behind you, and you turn to find the entrance blocked by a newly-formed wall of bone and rock. Just as you are ready to depart, a partially-charred skull bearing a strange diagram rolls to a stop at your feet. There is no sign of the Stranger anywhere.",
         "back_text": "<b>(→R1)</b>"
     },
     {
@@ -45,6 +71,8 @@
         "flavor": "The shadows along the walls of the tomb begin to coalesce. Strange runic symbols twist into the image of a building with a tall tower, its spire reaching up toward the ceiling. Then the Stranger beckons for you to follow, and disappears through the stone archway behind you.",
         "name": "Leading the Way",
         "text": "Ignore the <b>Forced</b> ability on Blocked Passage.\n<b>Objective</b> - If each undefeated investigator is at Blocked Passage, advance.",
+        "back_name": "The Secret Exit",
+        "back_flavor": "Following the Stranger's lead, you take a circuitous route through the underground passageways. Finally you are confronted by a dead end - a tunnel blocked by an impossibly thick wall of collapsed bone and rubble. The Stranger stands nearby, holding the partially-charred skull he pulled from the fire in the Tomb of Shadows. \"What now?\" you ask, confused. He holds the skull aloft, and the floor begins to collapse into a pit of dark emptiness below. Bones and rubble from the wall fall into the pit, and it grows larger with each moment. The Stranger bows, then falls backwards into the pit before you can grab him. \"Wait!\" you call out, but it is too late. With the pit growing and threatening to swallow the catacombs entirely, you have no choice but to follow him.",
         "back_text": "<b>(→R2)</b>"
     },
     {
@@ -52,77 +80,99 @@
         "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - When The Gate to Hell is revealed: Put the top 2 Catacombs in the Catacombs deck into play above and below The Gate to Hell.",
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
     },
     {
         "code": "03248",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "Ignore the text on unrevealed locations adjacent to Stone Archways.\n<b>Forced</b> - When Stone Archways is revealed: Put the topmost Catacombs in the Catacombs deck into play to the right of Stone Archways.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03249",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "Crypt of the Sepulchral Lamp is investigated using [willpower] instead of the skill indicated by the investigation attempt.\n<b>Forced</b> - When Crypt of the Sepulchral Lamp is revealed: Put the top 2 Catacombs in the Catacombs deck into play above and to the right of Crypt of the Sepulchral Lamp.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03250",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "While you are investigating Bone-Filled Cavern, you have 1 fewer hand slot.\n<b>Forced</b> - When Bone-Filled Cavern is revealed: Put the top 2 Catacombs in the Catacombs deck into play below and to the right of Bone-Filled Cavern.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03251",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - After you end your turn at Well of Souls: You must either take 1 direct horror or discard 2 random cards from your hand.\n<b>Forced</b> - When Well of Souls is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of Well of Souls.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03252",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "[action]: Test [intellect] (3) to read an ancient sign. If you succeed, look at the revealed side of any Catacombs location in play. (Group limit once per game.)\n<b>Forced</b> - When Candlelit Tunnels is revealed: Put the top 2 Catacombs in the Catacombs deck into play to the left and right of Candlelit Tunnels.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03253",
         "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - When Labyrinth of Bones is revealed: Put the top 3 Catacombs in the Catacombs deck into play above, below, and to the right of Labyrinth of Bones.",
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
     },
     {
         "code": "03254",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - When you would move from Narrow Shaft to an unrevealed location: Test [agility] (3). If you fail, take 1 damage and cancel the effects of the move.\n<b>Forced</b> - When Narrow Shaft is revealed: Put the topmost Catacombs in the Catacombs deck into play above or to the right of Narrow Shaft.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03255",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - After you end your turn at Shivering Pools: You must either take 1 direct damage or lose 5 resources.\n<b>Forced</b> - When Shivering Pools is revealed: Put the topmost Catacombs in the Catacombs deck into play below or to the right of Shivering Pools.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03256",
         "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - When you reveal Blocked Passage: Take 2 damage. You cannot leave Blocked Passage this round.",
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
     },
     {
         "code": "03257",
-        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
         "name": "Catacombs",
         "text": "<b>Forced</b> - When Tomb of Shadows is revealed: Advance to act 1b.\nWhile The Man in the Pallid Mask is at the Tomb of Shadows, he gets +1[per_investigator] health and cannot be defeated by his [action] ability.",
-        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group."
+        "back_name": "Catacombs",
+        "back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
+        "back_text": "As an additional cost for you to enter Catacombs, investigators at your location must spend 1[per_investigator] clues, as a group.",
+        "flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion."
     },
     {
         "code": "03258",

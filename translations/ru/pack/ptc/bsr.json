@@ -1,5 +1,23 @@
 [
     {
+        "code": "03263",
+        "name": "On the Hunt",
+        "text": "Fast. Play when you would draw an encounter card during the mythos phase.\nInstead, search the top 9 cards of the encounter deck for an enemy, spawn it engaged with you <i>(instead of its normal spawn location)</i>, and shuffle the encounter deck. If you cannot, draw the top card of the encounter deck.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "03264",
+        "name": "Stick to the Plan",
+        "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different [[Tactic]] and/or [[Supply]] events, and attach them to Stick to the Plan. Shuffle your deck.\nCards attached to Stick to the Plan may be played as if they were in your hand. As an additional cost to play an attached card, exhaust Stick to the Plan.",
+        "traits": "Talent."
+    },
+    {
+        "code": "03265",
+        "name": "Guidance",
+        "text": "Choose another investigator at your location who has yet to take his or her turn this round. That investigator may take an additional action during his or her turn this round.",
+        "traits": "Insight."
+    },
+    {
         "code": "03266",
         "name": "Arcane Insight",
         "text": "Uses (3 charges).\n[free] While an investigator is taking his or her turn, spend 1 charge: Your location gets -2 shroud until the end of this turn. (Limit once per turn.)",
@@ -7,11 +25,32 @@
         "slot": "Arcane"
     },
     {
+        "code": "03267",
+        "flavor": "\"Next time, I'm driving!\"",
+        "name": "Narrow Escape",
+        "text": "Fast. Play when an enemy makes an attack of opportunity against you.\nCancel that attack. You get +2 skill value for the next skill test you perform this turn.",
+        "traits": "Fortune."
+    },
+    {
         "code": "03268",
         "name": "Suggestion",
         "text": "Uses (3 charges).\n[action] Exhaust Suggestion: <b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.\n[reaction] When a non-[[Elite]] enemy would attack you, spend 1 charge: Cancel that attack.",
         "traits": "Spell.",
         "slot": "Arcane"
+    },
+    {
+        "code": "03269",
+        "name": "St. Hubert's Key",
+        "subname": "Cleansing Fire",
+        "text": "You get +1 [willpower], +1 [intellect], and -2 sanity.\n[reaction] When you would be defeated by horror, discard St. Hubert's Key: Immediately heal 2 horror.",
+        "traits": "Item. Charm.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "03270",
+        "name": "Ward of Protection",
+        "text": "Fast. Play when an investigator at any location draws a non-weakness treachery card.\nCancel that card's revelation effect. Then, take 1 horror.",
+        "traits": "Spell. Spirit."
     },
     {
         "code": "03271",
@@ -25,5 +64,11 @@
         "name": "\"Not without a fight!\"",
         "text": "Commit to a skill test only if you are engaged with an enemy.\nFor each enemy engaged with you, \"Not without a fight!\" gains [willpower] [combat] [agility].",
         "traits": "Innate."
+    },
+    {
+        "code": "03273",
+        "name": "True Survivor",
+        "text": "Return 3 [[Innate]] skills from your discard pile to your hand.",
+        "traits": "Spirit."
     }
 ]
