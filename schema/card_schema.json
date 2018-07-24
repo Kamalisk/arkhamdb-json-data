@@ -1,11 +1,11 @@
 {
     "additionalProperties": true,
     "properties": {
-        "back_text": {
+        "back_flavor": {
             "minLength": 1,
             "type": "string"
         },
-        "back_flavor": {
+        "back_text": {
             "minLength": 1,
             "type": "string"
         },
@@ -24,16 +24,16 @@
                 }
             ]
         },
-        "deck_requirements": {
-            "minLength": 1,
-            "type": "string"
+        "deck_limit": {
+            "minimum": 1,
+            "type": "integer"
         },
         "deck_options": {
             "type": "array"
         },
-        "deck_limit": {
-            "minimum": 1,
-            "type": "integer"
+        "deck_requirements": {
+            "minLength": 1,
+            "type": "string"
         },
         "double_sided": {
             "type": "boolean"
@@ -76,6 +76,16 @@
             "pattern": ".*",
             "type": "string"
         },
+        "is_unique": {
+            "oneof": [
+                {
+                    "type": "boolean"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
         "name": {
             "minLength": 1,
             "type": "string"
@@ -100,6 +110,10 @@
             "minLength": 1,
             "type": "string"
         },
+        "sanity": {
+            "minimum": 1,
+            "type": "integer"
+        },
         "skill_agility": {
             "minimum": 0,
             "type": "integer"
@@ -118,10 +132,6 @@
         },
         "skill_willpower": {
             "minimum": 0,
-            "type": "integer"
-        },
-        "sanity": {
-            "minimum": 1,
             "type": "integer"
         },
         "slot": {
@@ -158,17 +168,6 @@
         "victory": {
             "minimum": 1,
             "type": "integer"
-        },
-        "is_unique": {
-            "oneof":[
-                {
-                    "type": "boolean"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-            
         },
         "xp": {
             "oneOf": [

@@ -1,6 +1,16 @@
 {
     "additionalProperties": false,
     "properties": {
+        "cgdb_id": {
+            "oneOf": [
+                {
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
         "code": {
             "minLength": 1,
             "type": "string"
@@ -13,16 +23,6 @@
             "oneOf": [
                 {
                     "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "cgdb_id": {
-            "oneOf": [
-                {
-                    "type": "integer"
                 },
                 {
                     "type": "null"

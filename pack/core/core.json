@@ -19,11 +19,28 @@
         "code": "01001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["seeker"], "level":{"min":0, "max":2} }
+            {
+                "faction": [
+                    "guardian",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "faction": [
+                    "seeker"
+                ],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01006:98005, card:01007:98006, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "guardian",
         "flavor": "Everything by the book: every \"i\" dotted, every \"t\" crossed. It has worked, until now.",
         "health": 9,
@@ -35,8 +52,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 4,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Fed",
         "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each clue on your location.",
@@ -45,15 +62,32 @@
     },
     {
         "back_flavor": "As a respected librarian at Miskatonic University, Daisy had always felt that books were the most important thing in her life. She explored in fiction what she abhorred in life: horror, violence, fear. Then, she stumbled across the John Dee translation of the Necronomicon. It was blasphemous, unholy, and too awful to be read. But given her studies in obscure and occult subjects, Daisy knew there was more truth than fiction within the book's pages. She began to wonder what other secrets the restricted collection of the Orne Library held...",
-        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding options</b>: Seeker cards ([seeker]) level 0-5, Mystic cards ([mystic]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Daisy’s Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness.",
+        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding options</b>: Seeker cards ([seeker]) level 0-5, Mystic cards ([mystic]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Daisy's Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness.",
         "code": "01002",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["mystic"], "level":{"min":0, "max":2} }
+            {
+                "faction": [
+                    "seeker",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "faction": [
+                    "mystic"
+                ],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01008, card:01009, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "seeker",
         "flavor": "\"I know of books so powerful, they can rewrite reality.\"",
         "health": 5,
@@ -65,8 +99,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 2,
-        "skill_intellect": 5,
         "skill_combat": 2,
+        "skill_intellect": 5,
         "skill_willpower": 3,
         "subname": "The Librarian",
         "text": "You may take an additional action during your turn, which can only be used on [[Tome]] [action] abilities.\n[elder_sign] effect: +0. If you succeed, draw 1 card for each [[Tome]] you control.",
@@ -79,11 +113,28 @@
         "code": "01003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["guardian"], "level":{"min":0, "max":2} }
+            {
+                "faction": [
+                    "rogue",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "faction": [
+                    "guardian"
+                ],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01010, card:01011, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "rogue",
         "flavor": "\"I didn't get out of the joint just to watch the world end.\"",
         "health": 8,
@@ -95,8 +146,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 4,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 2,
         "subname": "The Ex-Con",
         "text": "[free] During your turn, spend 2 resources: You may take an additional action this turn. (Limit once per turn.)\n[elder_sign] effect: +2. If you succeed, gain 2 resources.",
@@ -109,11 +160,28 @@
         "code": "01004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["survivor"], "level":{"min":0, "max":2} }
+            {
+                "faction": [
+                    "mystic",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "faction": [
+                    "survivor"
+                ],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01012, card:01013, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "mystic",
         "flavor": "\"I remember another life, one of sorcery and conquest.\"",
         "health": 6,
@@ -125,8 +193,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 2,
+        "skill_intellect": 2,
         "skill_willpower": 5,
         "subname": "The Waitress",
         "text": "[reaction] After 1 or more horror is placed on Agnes Baker: Deal 1 damage to an enemy at your location. (Limit once per phase.)\n[elder_sign] effect: +1 for each horror on Agnes Baker.",
@@ -139,11 +207,28 @@
         "code": "01005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["rogue"], "level":{"min":0, "max":2} }
+            {
+                "faction": [
+                    "survivor",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "faction": [
+                    "rogue"
+                ],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01014, card:01015, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "survivor",
         "health": 7,
         "illustrator": "Jacob Murray",
@@ -154,8 +239,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 4,
-        "skill_intellect": 3,
         "skill_combat": 1,
+        "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Urchin",
         "text": "[reaction] When you reveal a chaos token, choose and discard 1 card from your hand: Cancel that chaos token and return it to the bag. Reveal a new chaos token. (Limit once per test/ability.)\n[elder_sign] effect: +0. If Wendy's Amulet is in play, you automatically succeed instead.",
@@ -226,9 +311,9 @@
         "position": 9,
         "quantity": 1,
         "restrictions": "investigator:01002",
-        "subtype_code": "weakness",
         "slot": "Hand",
         "subname": "John Dee Translation",
+        "subtype_code": "weakness",
         "text": "<b>Revelation</b> - Put The Necronomicon into play in your threat area, with 3 horror on it. It cannot leave play while it has 1 or more horror on it.\nTreat each [elder_sign] you reveal on a chaos token as a [auto_fail].\n[action]: Move 1 horror from The Necronomicon to Daisy Walker. Then, if The Necronomicon has no horror on it, discard it.",
         "traits": "Item. Tome.",
         "type_code": "asset"
@@ -646,8 +731,8 @@
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "\"While I truly believe that this nightmare is just a singular abomination, I must admit that I am exhilarated by the possibility that this is but one specimen of a new genus!\"",
-        "illustrator": "Anthony Devine",
         "health": 1,
+        "illustrator": "Anthony Devine",
         "is_unique": true,
         "name": "Dr. Milan Christopher",
         "pack_code": "core",
@@ -908,8 +993,8 @@
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "\"I was born in Mississippi. Louisiana just sounded better.\"",
-        "illustrator": "Paco Rico Torres",
         "health": 2,
+        "illustrator": "Paco Rico Torres",
         "is_unique": true,
         "name": "Leo De Luca",
         "pack_code": "core",
@@ -951,8 +1036,8 @@
         "pack_code": "core",
         "position": 50,
         "quantity": 1,
-        "skill_intellect": 1,
         "skill_agility": 1,
+        "skill_intellect": 1,
         "text": "Fast. Play only during your turn.\nDisengage from each enemy engaged with you and move to a revealed location with no enemies.",
         "traits": "Tactic.",
         "type_code": "event",
@@ -1013,8 +1098,8 @@
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "\"I was born in Mississippi. Louisiana just sounded better.\"",
-        "illustrator": "Paco Rico Torres",
         "health": 2,
+        "illustrator": "Paco Rico Torres",
         "is_unique": true,
         "name": "Leo De Luca",
         "pack_code": "core",
@@ -1034,8 +1119,8 @@
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "rogue",
-        "illustrator": "JB Casacop",
         "health": 2,
+        "illustrator": "JB Casacop",
         "name": "Cat Burglar",
         "pack_code": "core",
         "position": 55,
@@ -1059,7 +1144,7 @@
         "pack_code": "core",
         "position": 56,
         "quantity": 1,
-        "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"–\" to a \"+\".",
+        "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"-\" to a \"+\".",
         "traits": "Fortune. Insight.",
         "type_code": "event",
         "xp": 3
@@ -1172,8 +1257,8 @@
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
-        "illustrator": "Xia Taptara",
         "health": 1,
+        "illustrator": "Xia Taptara",
         "name": "Arcane Initiate",
         "pack_code": "core",
         "position": 63,
@@ -1328,8 +1413,8 @@
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "The coat was not the most fashionable choice, but it did feel warm and reassuring in its bulk.",
-        "illustrator": "Andreia Ugrai",
         "health": 2,
+        "illustrator": "Andreia Ugrai",
         "name": "Leather Coat",
         "pack_code": "core",
         "position": 72,
@@ -1397,8 +1482,8 @@
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "He never came if you called for him. It always seemed like he had his own agenda.",
-        "illustrator": "Stephen Somers",
         "health": 1,
+        "illustrator": "Stephen Somers",
         "name": "Stray Cat",
         "pack_code": "core",
         "position": 76,
@@ -1497,8 +1582,8 @@
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "\"Do not be frightened by what you see. Be frightened by what you cannot see.\"",
-        "illustrator": "Tommy Arnold",
         "health": 1,
+        "illustrator": "Tommy Arnold",
         "is_unique": true,
         "name": "Aquinnah",
         "pack_code": "core",

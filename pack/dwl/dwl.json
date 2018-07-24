@@ -5,11 +5,27 @@
         "code": "02001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Guardian or Neutral"}
+            {
+                "faction": [
+                    "guardian",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Guardian or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
+            }
         ],
         "deck_requirements": "size:30, card:02006, card:02007, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "guardian",
         "flavor": "\"God has spoken. I will do His work without hesitation.\"",
         "health": 9,
@@ -21,8 +37,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Chef",
         "text": "[reaction] After you become engaged with an enemy: Gain 1 resource.\n[elder_sign] effect: +1. If this skill test is successful during an attack, that attack deals +1 damage.",
@@ -35,12 +51,33 @@
         "code": "02002",
         "deck_limit": 1,
         "deck_options": [
-            {"not": true, "trait": ["fortune"] },
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Seeker or Neutral"}
+            {
+                "not": true,
+                "trait": [
+                    "fortune"
+                ]
+            },
+            {
+                "faction": [
+                    "seeker",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Seeker or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
+            }
         ],
         "deck_requirements": "size:30, card:02008, card:02009, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "seeker",
         "flavor": "\"This time, nothing will stop me from getting at the truth!\"",
         "health": 6,
@@ -52,8 +89,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 3,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Reporter",
         "text": "[reaction] After you succeed at a skill test by 2 or more while investigating: Discover 1 clue at your location.\n[elder_sign] effect: +2. You may instead choose to automatically fail this skill test to draw 3 cards.",
@@ -66,11 +103,27 @@
         "code": "02003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Rogue or Neutral"}
+            {
+                "faction": [
+                    "rogue",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Rogue or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
+            }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "rogue",
         "flavor": "\"No more 'Miss Barnes' from you. My friends call me Jenny.\"",
         "health": 8,
@@ -82,8 +135,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Dilettante",
         "text": "You collect 1 additional resource during each upkeep phase.\n[elder_sign] effect: +1 for each resource you have.",
@@ -96,11 +149,27 @@
         "code": "02004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Mystic or Neutral"}
+            {
+                "faction": [
+                    "mystic",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Mystic or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
+            }
         ],
         "deck_requirements": "size:30, card:02012, card:02013, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "mystic",
         "flavor": "\"No, not quiet at all. Dead folks get downright rambunctious when I play my horn.\"",
         "health": 7,
@@ -112,8 +181,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Musician",
         "text": "Treat the modifier on [skull] tokens you reveal as \"0.\"\nAnytime you reveal a [elder_sign] token, you may choose to instead treat it as a [skull] token.\n[elder_sign] effect: +1.",
@@ -126,11 +195,27 @@
         "code": "02005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Survivor or Neutral"}
+            {
+                "faction": [
+                    "survivor",
+                    "neutral"
+                ],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Survivor or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
+            }
         ],
         "deck_requirements": "size:30, card:02014, card:02015, random:subtype:basicweakness",
-        "double_sided": true, 
+        "double_sided": true,
         "faction_code": "survivor",
         "flavor": "\"C'mere, boy. We got work to do.\"",
         "health": 6,
@@ -142,8 +227,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 2,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Drifter",
         "text": "You begin the game with Duke in play.\n[free] Discard a card from your hand: Ready an asset you control. (Limit once per round.)\n[elder_sign] effect: +2. Ready Duke.",
@@ -181,7 +266,7 @@
         "quantity": 1,
         "restrictions": "investigator:02001",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.\n<b>Forced</b> – When the game ends, if attached enemy is in play: You suffer 1 mental trauma.",
+        "text": "<b>Revelation</b> - Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.\n<b>Forced</b> - When the game ends, if attached enemy is in play: You suffer 1 mental trauma.",
         "traits": "Task.",
         "type_code": "treachery"
     },
@@ -308,7 +393,7 @@
         "subname": "Loyal Hound",
         "text": "\"Ashcan\" Pete deck only.\n[action] Exhaust Duke: <b>Fight.</b> You attack with a base [combat] skill of 4. This attack deals +1 damage.\n[action] Exhaust Duke: <b>Investigate.</b> You investigate with a base [intellect] skill of 4. You may move to a connecting location immediately before investigating with this effect.",
         "traits": "Ally. Creature.",
-        "type_code": "asset"        
+        "type_code": "asset"
     },
     {
         "code": "02015",
@@ -531,7 +616,7 @@
         "sanity": 1,
         "skill_combat": 1,
         "slot": "Ally",
-        "text": "You get +1 [combat].\n<b>Forced</b> – At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle.",
+        "text": "You get +1 [combat].\n<b>Forced</b> - At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle.",
         "traits": "Ally. Criminal.",
         "type_code": "asset",
         "xp": 1
@@ -643,7 +728,7 @@
         "text": "You get +1 [agility].\n[reaction] After your turn ends: Heal 1 horror from Peter Sylvestre.",
         "traits": "Ally. Miskatonic.",
         "type_code": "asset",
-        "xp": 0      
+        "xp": 0
     },
     {
         "code": "02034",
@@ -673,7 +758,7 @@
         "is_unique": true,
         "name": "Peter Sylvestre",
         "pack_code": "dwl",
-        "position": 35  ,
+        "position": 35,
         "quantity": 2,
         "sanity": 3,
         "skill_willpower": 1,
@@ -682,7 +767,7 @@
         "text": "You get +1 [agility] and +1 [willpower].\n[reaction] After your turn ends: Heal 1 horror from Peter Sylvestre.",
         "traits": "Ally. Miskatonic.",
         "type_code": "asset",
-        "xp": 2      
+        "xp": 2
     },
     {
         "code": "02036",
@@ -692,14 +777,14 @@
         "illustrator": "Ilich Henriquez",
         "name": "Kukri",
         "pack_code": "dwl",
-        "position": 36  ,
+        "position": 36,
         "quantity": 2,
         "skill_combat": 1,
         "slot": "Hand",
         "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. If you succeed, you may spend 1 additional action to deal +1 damage for this attack.",
         "traits": "Item. Weapon. Melee.",
         "type_code": "asset",
-        "xp": 0      
+        "xp": 0
     },
     {
         "code": "02037",
