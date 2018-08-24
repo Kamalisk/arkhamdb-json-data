@@ -1,33 +1,93 @@
 [
     {
+        "code": "04192",
+        "name": "Intrepid",
+        "text": "Si esta prueba de habilidad tiene éxito, añade Audaz a tu zona de juego como un Apoyo con el siguiente texto:\n\"Recibes +1 [intellect], +1 [combat] y +1 [agility].\n<b>Obligado</b> - Al final de la ronda. Descarta Audaz.\"",
+        "traits": "Innato."
+    },
+    {
         "code": "04193",
-        "flavor": "\"You want me to bless - what?\"",
-        "name": "Custom Ammunition",
-        "text": "Fast. Play only during your turn.\nAttach to a [[Firearm]] asset controlled by an investigator at your location. Place 2 ammo on that asset. Limit 1 per asset.\nAttacks performed by attached asset deal +1 damage against [[Monster]] enemies.",
-        "traits": "Upgrade. Supply. Blessed."
+        "flavor": "\"¿Que quieres que bendiga qué?\"",
+        "name": "Munición a medida",
+        "text": "Rápido. Juega esta carta sólo durante tu turno.\nVincula esta carta a un Apoyo [[Arma de fuego]] controlado por un investigador que esté en tu Lugar. Coloca 2 municiones sobre ese Apoyo. Límite de 1 por Apoyo.\nLos ataques realizados por el Apoyo vinculado infligen +1 de daño contra Enemigos [[Monstruo]].",
+        "traits": "Mejora. Suministros. Bendecido."
+    },
+    {
+        "code": "04194",
+        "flavor": "Siempre apunta a donde no quieres ir.",
+        "name": "Brújula de otro mundo",
+        "slot": "Mano",
+        "text": "[action] Agota la Brújula de otro mundo: <b>Investigar.</b> Tu Lugar recibe -X a velo para esta investigación. X es la cantidad de Lugares revelados conectados a tu Lugar.",
+        "traits": "Objeto. Reliquia."
+    },
+    {
+        "code": "04195",
+        "name": "Exponer debilidad",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad de los jugadores [free].\nElige un Enemigo que esté en tu Lugar. Realiza una prueba de [intellect] (X), donde X es el valor de combate de ese Enemigo. Si tienes éxito, considera el valor de combate de ese Enemigo como si fuera 0 para el siguiente ataque realizado contra él en esta fase. Roba 1 carta.",
+        "traits": "Inspiración."
     },
     {
         "code": "04196",
-        "flavor": "\"My line of work encounters a lot of so-called 'curses.'\nIt is a topic I would rather not discuss.\"",
+        "flavor": "\"En mi ámbito laboral me encuentro muchas de las denominadas 'maldiciones'. Es un tema del que prefiero no hablar.\"",
         "name": "Lola Santiago",
-        "subname": "No-Nonsense Archaeologist",
-        "text": "You get +1 [intellect] and +1 [agility].\n[free] Exhaust Lola Santiago and spend X resources: Discover 1 clue at your location. X is the shroud value of your location.",
-        "traits": "Ally. Wayfarer.",
-        "slot": "Ally"
+        "slot": "Aliado",
+        "subname": "Arquéologa práctica",
+        "text": "Recibes +1 [intellect] y +1 [agility].\n[free] Agota a Lola Santiago y gasta X recursos: Descubre 1 pista en tu Lugar. X es el valor de velo de tu Lugar.",
+        "traits": "Aliado. Viajero."
     },
     {
         "code": "04197",
-        "flavor": "You must invest yourself in every spell. Sometimes literally.",
+        "flavor": "Debes poner algo de ti en cada hechizo. A veces, de forma literal.",
         "name": "Olive McBride",
-        "subname": "Will Try Anything Once",
-        "text": "[reaction] When you would reveal a chaos token, exhaust Olive McBride: Reveal 3 chaos tokens instead of 1. Choose 2 of those tokens to resolve, and ignore the other.",
-        "traits": "Ally. Witch.",
-        "slot": "Ally"
+        "slot": "Aliado",
+        "subname": "Probará cualquier cosa al menos una vez",
+        "text": "[reaction] Cuando fueses a revelar una ficha de Caos, agota a Olive McBride: Revela 3 fichas de Caos en lugar de 1. Elige 2 de esas fichas para resolverlas e ignora la otra.",
+        "traits": "Aliado. Bruja."
+    },
+    {
+        "code": "04198",
+        "flavor": "\"No.\"",
+        "name": "Desafío",
+        "text": "Ignora los efectos de todos los símbolos [skull], [cultist], [tablet] y [elder_thing] durante esta prueba (incluyendo sus modificadores).",
+        "traits": "Innato. Desarrollado."
+    },
+    {
+        "code": "04199",
+        "name": "Premonición",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad de los jugadores [free].\nPon Premonición en juego, revela una ficha de Caos aleatoria de la bolsa de caos y séllala sobre Premonición.\n<b>Obligado</b> - Cuando fuese a revelarse una ficha de Caos de la bolsa de caos: En lugar de eso, resuelve la ficha sellada sobre esta carta como si acabase de ser revelada de la bolsa de caos. A continuación, descarta Premonición.",
+        "traits": "Presagio."
+    },
+    {
+        "code": "04200",
+        "name": "Vivir y aprender",
+        "text": "Rápido. Juega esta carta después de que acabe una prueba de habilidad en la que fracasaras <em>(después de resolver todos los efectos de la prueba fracasada).</em>\nVuelve a intentar esa prueba. Recibes +2 a tu valor de habilidad para esta prueba.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "04201",
+        "name": "Encontrar consuelo",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nPuedes asignar Encontrar consuelo a cualquier tipo de prueba.\nSi esta prueba fracasa, el investigador que la realiza roba 2 cartas y obtiene 2 recursos.",
+        "traits": "Innato."
     },
     {
         "code": "04202",
-        "name": "Against All Odds",
-        "text": "Fast. Play when you perform a skill test with a difficulty higher than your base skill value.\nReveal X additional chaos tokens for this skill test. Choose one to resolve and ignore the others. X is the difference between the test's difficulty and your base skill value.",
+        "name": "Contra viento y marea",
+        "text": "Rápido. Juega esta carta cuando realices una prueba de habilidad que tenga una dificultad mayor que el valor básico de tu habilidad.\nRevela X fichas de Caos adicionales para esta prueba de habilidad. Elige una para resolverla e ignora el resto. X es la diferencia entre la dificultad de la prueba y el valor básico de tu habilidad.",
         "traits": "Spirit."
+    },
+    {
+        "code": "04203",
+        "flavor": "Roland se aflojó la corbata, inclinó su sombrero y se levantó el cuello de la gabardina. Cuando se aseguró de que tenía un aspecto respetablemente turbio, se acercó a la puerta.\n- Graeme Davis, <u>La endecha de la razón</u>",
+        "name": "Gabardina",
+        "slot": "Cuerpo",
+        "text": "Recibes +1 [agility] durante intentos de evitar.",
+        "traits": "Objeto. Ropa."
+    },
+    {
+        "code": "04204",
+        "name": "Arco ornamentado",
+        "slot": "2 Manos",
+        "text": "Usos (1 munición). Límite de 1 munición en el Arco ornamentado.\n[action] Gasta 1 munición: <b>Combatir</b>. Este ataque usa [agility] en lugar de [combat]. Recibes +2 [agility] e infliges +2 de daño para este ataque.\n[action]: Pones otra flecha en el arco. Coloca 1 munición sobre el Arco ornamentado.",
+        "traits": "Objeto. Reliquia. Arma. A distancia."
     }
 ]
