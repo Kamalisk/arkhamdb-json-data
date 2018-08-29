@@ -10,6 +10,7 @@
         "flavor": "As you leap to investigate, the door to your study vanishes before your eyes, leaving behind a strange gateway to another part of your house. There must be a reason why this is happening…",
         "name": "Mysterious Gateway",
         "text": "<b>Objective</b> - Only investigators in the Guest Hall may spend the requisite number of clues, as a group, to advance.",
+        "back_flavor": "The layout of your home is vastly different from its usual structure. Somehow, your guest hall seems to have looped around on itself, and you are stuck with no way to enter the main hallway near the front of the house.<br/>You notice that the wall between the guest bedroom and the bathroom is rotted and stained with what appears to be old blood. With no other way to proceed, you have no choice but to bust through the weak, rotted wall.",
         "back_text": "<em class='bbc'>The layout of your home is vastly different from its usual structure. Somehow, your guest hall seems to have looped around on itself, and you are stuck with no way to enter the main hallway near the front of the house.<br/>You notice that the wall between the guest bedroom and the bathroom is rotted and stained with what appears to be old blood. With no other way to proceed, you have no choice but to bust through the weak, rotted wall.<br/></em>Put into play the set-aside Hole in the Wall location.<br/>Choose an investigator in the Guest Hall. The chosen investigator immediately moves into the Hole in the Wall and reveals it. Then, he or she must test [willpower]&nbsp;(4). For each point that investigator fails by, he or she must discard a random card from his or her hand."
     },
     {
@@ -17,55 +18,67 @@
         "flavor": "You’ve been investigating the strange events occurring in Arkham for several months now. Your desk is covered in newspaper articles, police reports, and witness accounts.",
         "name": "Study",
         "subname": "Aberrant Gateway",
-        "text": "[action] [action]: Draw 3 cards. Only the lead investigator can activate this ability.<br/><b>Forced</b> - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there."
+        "text": "[action] [action]: Draw 3 cards. Only the lead investigator can activate this ability.<br/><b>Forced</b> - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there.",
+        "back_flavor": "You’ve been investigating the strange events occurring in Arkham for several months now. Your desk is covered in newspaper articles, police reports, and witness accounts."
     },
     {
         "code": "50014",
         "flavor": "Somehow you’ve ended up in a completely different part of your house.",
         "name": "Guest Hall",
-        "text": "Investigators in this location cannot take draw actions."
+        "text": "Investigators in this location cannot take draw actions.",
+        "back_flavor": "Somehow you’ve ended up in a completely different part of your house."
     },
     {
         "code": "50015",
         "flavor": "A shadow dances across the floor beneath the bedroom door as you approach.",
         "name": "Bedroom",
-        "text": "<b>Forced</b> - After you fail a skill test while investigating the Bedroom: Discard 1 card at random from your hand."
+        "text": "<b>Forced</b> - After you fail a skill test while investigating the Bedroom: Discard 1 card at random from your hand.",
+        "back_flavor": "A shadow dances across the floor beneath the bedroom door as you approach."
     },
     {
         "code": "50016",
         "flavor": "As you approach the bathroom door, the weight of the putrid, unnatural air causes you to gag.",
         "name": "Bathroom",
-        "text": "<b>Forced</b> - After you reveal a [skull], [cultist], [tablet], or [auto-fail] symbol while investigating the Bathroom: Lose all remaining actions and end your turn."
+        "text": "<b>Forced</b> - After you reveal a [skull], [cultist], [tablet], or [auto-fail] symbol while investigating the Bathroom: Lose all remaining actions and end your turn.",
+        "back_flavor": "As you approach the bathroom door, the weight of the putrid, unnatural air causes you to gag."
     },
     {
         "code": "50017",
         "flavor": "I need this like I need a hole in my wall. ",
         "name": "Hole in the Wall",
-        "text": "<b>Forced</b> - After you reveal this location: Put the set-aside Attic, Cellar, and Parlor locations into play."
+        "text": "<b>Forced</b> - After you reveal this location: Put the set-aside Attic, Cellar, and Parlor locations into play.",
+        "back_name": "Hole in the Wall",
+        "back_flavor": "I need this like I need a hole in my wall."
     },
     {
         "code": "50018",
         "flavor": "The smell of rotten meat assaults your nostrils as you approach the attic stairs.",
         "name": "Attic",
-        "text": "<b>Forced</b> - After you reveal the Attic: Put the set-aside Far Above Your House location into play."
+        "text": "<b>Forced</b> - After you reveal the Attic: Put the set-aside Far Above Your House location into play.",
+        "back_flavor": "The smell of rotten meat assaults your nostrils as you approach the attic stairs."
     },
     {
         "code": "50019",
         "flavor": "You struggle to believe this is even possible, considering the attic is the highest point in your home. Or at least…was.",
         "name": "Far Above Your House",
-        "text": "<b>Forced</b> - After you reveal Field of Graves: Test [willpower] (4). For each point you fail by, discard 1 card at random from each player's hand."
+        "text": "<b>Forced</b> - After you reveal Field of Graves: Test [willpower] (4). For each point you fail by, discard 1 card at random from each player's hand.",
+        "back_name": "Far Above Your House",
+        "back_flavor": "You struggle to believe this is even possible, considering the attic is the highest point in your home. Or at least…was."
     },
     {
         "code": "50020",
         "flavor": "The stairs leading down to your cellar are slick, and glisten with a thin layer of ice...",
         "name": "Cellar",
-        "text": "<b>Forced</b> - After you reveal the Cellar: Put the set-aside Deep Below Your House location into play."
+        "text": "<b>Forced</b> - After you reveal the Cellar: Put the set-aside Deep Below Your House location into play.",
+        "back_flavor": "The stairs leading down to your cellar are slick, and glisten with a thin layer of ice…"
     },
     {
         "code": "50021",
         "flavor": "The tunnels extend for miles in every direction. Everywhere you look, strange canine creatures skitter on all fours in the distance, scrambling from one shadow to the next.",
         "name": "Deep Below Your House",
-        "text": "<b>Forced</b> - After you reveal Ghoul Pits: Test [agility] (3). For each point you fail by, search the encounter deck and discard pile for a copy of Swarm of Rats and draw it. Shuffle the encounter deck."
+        "text": "<b>Forced</b> - After you reveal Ghoul Pits: Test [agility] (3). For each point you fail by, search the encounter deck and discard pile for a copy of Swarm of Rats and draw it. Shuffle the encounter deck.",
+        "back_name": "Deep Below Your House",
+        "back_flavor": "The tunnels extend for miles in every direction. Everywhere you look, strange canine creatures skitter on all fours in the distance, scrambling from one shadow to the next."
     },
     {
         "code": "50022",
@@ -102,35 +115,57 @@
         "back_text": "<b>Spawn</b> - Engaged with Prey.<br/><b>Prey</b> - Nearest to another [[cultist]] enemy.<br/>Chasseur.<br/>Nar&ocirc;gath gets +3 health per investigator.<br/>While Nar&ocirc;gath is ready, each investigator at its location or a connecting location cannot <b>Parley</b> with [[cultist]] enemies.<br/><b>Victory 2.</b>"
     },
     {
+        "code": "50026a",
+        "flavor": "Lita seems convinced of a conspiracy within the city of Arkham. She believes that a secret cult serves the ghouls that live in the crypts beneath the city, and that several of the cult’s prominent members are scattered throughout Arkham. As you begin searching for them, you can’t shake the feeling that you, too, are being hunted.",
+        "name": "Predator or Prey?",
+        "text": "[action]: <b>Resign</b>. You don't want to risk taking too long, so you head to safety with the information you've gathered."
+    },
+    {
+        "code": "50026b",
+        "name": "Narôgath",
+        "subname": "The Charnel Lord",
+        "text": "<b>Spawn</b> - Engaged with Prey.<br/><b>Prey</b> - Nearest to another [[Cultist]] enemy.<br/>Hunter.<br/>Narôgath gets +3 health per investigator.<br/>While Narôgath is ready, each investigator at its location or a connecting location cannot <b>Parley</b> with [[Cultist]] enemies.",
+        "traits": "Humanoid. Monster. Cultist. Elite."
+    },
+    {
         "code": "50027",
         "flavor": "The Easttown neighborhood, situated on the northern banks of the Miskatonic River, contains lower-class housing, the Arkham Police Station, and popular eateries like Velma’s Diner.",
         "name": "Easttown",
+        "subname": "Arkham Police Station",
         "text": "[action]: Add 2 supply tokens or ammo tokens to an asset you control. (Limit once per game.)<br/><b>Victory 1.</b>",
-        "traits": "Arkham."
+        "traits": "Arkham.",
+        "back_flavor": "The Easttown neighborhood, situated on the northern banks of the Miskatonic River, contains lower-class housing, the Arkham Police Station, and popular eateries like Velma’s Diner."
     },
     {
         "code": "50028",
         "flavor": "Northside is a commercial district that contains many offices and factories, as well as the train station.",
         "name": "Northside",
+        "subname": "Train Station",
         "text": "[action]: Move to any [[arkham]] location. (Limit once per game.)",
-        "traits": "Arkham."
+        "traits": "Arkham.",
+        "back_flavor": "Northside is a commercial district that contains many offices and factories, as well as the train station."
     },
     {
         "code": "50029",
         "flavor": "Miskatonic University is one of the most prestigious colleges in the Northeast. The university library is famous for its collection of occult books maintained by the esteemed Dr. Henry Armitage.",
         "name": "Miskatonic University",
+        "subname": "Miskatonic Museum",
         "text": "[action] Take 2 horror: Gain 1 clue from the token pool. (Limit once per game.)",
-        "traits": "Arkham."
+        "traits": "Arkham.",
+        "back_flavor": "Miskatonic University is one of the most prestigious colleges in the Northeast. The university library is famous for its collection of occult books maintained by the esteemed Dr. Henry Armitage."
     },
     {
         "code": "50030",
         "flavor": "The banks of the Miskatonic River are lined with docks, warehouses and small shops in a district aptly named Rivertown.",
         "name": "Rivertown",
+        "subname": "Abandoned Warehouse",
         "text": "[action] Discard a card with X [willpower] icons: Remove X doom from a [[cultist]] enemy in play. (Group limit once per game.)",
-        "traits": "Arkham. Central."
+        "traits": "Arkham. Central.",
+        "back_flavor": "The banks of the Miskatonic River are lined with docks, warehouses and small shops in a district aptly named Rivertown."
     },
     {
         "code": "50031",
+        "flavor": "\"Umôrdhoth…Umôrdhoth…Umôrdhoth…\"",
         "name": "Masked Horrors",
         "text": "<b>Revelation</b> - Each investigator with 2 or more clues takes 2 horror. If no horror is dealt by this effect, place 1 doom on the current agenda. This effect can cause the current agenda to advance.",
         "traits": "Power. Scheme."
@@ -142,32 +177,51 @@
         "traits": "Eldritch. Otherworld."
     },
     {
+        "code": "50032a",
+        "name": "Return to The Devourer Below",
+        "text": "Perform the setup as indicated in the <i>Night of the Zealot</i> Campaign Guide, with the following exceptions:<br/>- When gathering encounter sets, also gather the new encounter sets for <i>Return to The Devourer Below</i> shown here.<br/>- When choosing 4 Arkham Woods locations to put into play at random, include the 4 new Arkham Woods locations included in this encounter set, for a total of 10 possibilities.<br/>- After setting the Umôrdhoth enemy aside, flip this card over and attach it to Umôrdhoth."
+    },
+    {
+        "code": "50032b",
+        "name": "Vault of Earthly Demise",
+        "text": "Vault of Earthly Demise cannot leave play. <br/>Umôrdhoth gets +X health per investigator and gets +X fight, where X is the number of resources on this card.<br/><b>Forced</b> - When Umôrdhoth enters play, place 1 resource on this card for each act remaining in the act deck.",
+        "traits": "Eldritch. Otherworld."
+    },
+    {
         "code": "50033",
         "flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
         "name": "Arkham Woods",
+        "subname": "Great Willow",
         "text": "<b>Forced</b> - After an investigator at this location succeeds at a skill test on a treachery: That treachery gains surge. (Group limit once per round.)",
-        "traits": "Woods."
+        "traits": "Woods.",
+        "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
     {
         "code": "50034",
         "flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
         "name": "Arkham Woods",
+        "subname": "Lakeside",
         "text": "<b>Forced</b> - After you reveal a chaos token from the chaos bag while investigating this location: Reveal and resolve an additional chaos token. (Limit once per test.)",
-        "traits": "Woods."
+        "traits": "Woods.",
+        "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
     {
         "code": "50035",
         "flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
         "name": "Arkham Woods",
+        "subname": "Corpse-Ridden Clearing",
         "text": "Each enemy at this location cannot take more than 1 damage from each attack performed against it.",
-        "traits": "Woods."
+        "traits": "Woods.",
+        "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
     {
         "code": "50036",
         "flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
         "name": "Arkham Woods",
+        "subname": "Wooden Bridge",
         "text": "<b>Forced</b> - After you reveal a chaos token from the chaos bag during an evasion attempt at this location: Reveal and resolve an additional chaos token. (Limit once per test.)",
-        "traits": "Woods."
+        "traits": "Woods.",
+        "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
     {
         "code": "50037",
