@@ -1,15 +1,76 @@
 [
     {
+        "code": "04265",
+        "name": "Esposas",
+        "text": "[action] Si las Esposas no están vinculadas a un Enemigo: <b>Evitar.</b> Usa esta capacidad sólo contra un Enemigo [[Humanoide]]. Este intento de evitar usa [combat] en lugar de [agility]. Si tienes éxito, vincula las Esposas al Enemigo que acabas de evitar.\nSi el Enemigo vinculado no es [[Élite]], no puede prepararse y no puede colocarse perdición sobre él.",
+        "traits": "Objeto. Policía."
+    },
+    {
+        "code": "04266",
+        "name": "Eclipse de sangre",
+        "text": "Como coste adicional para jugar el Eclipse de sangre, recibe hasta 3 puntos de daño.\n<b>Combatir.</b> Este ataque usa [willpower] en lugar de [combat]. Recibes +1 [willpower] e infliges +1 de daño para este ataque por cada punto de daño recibido como parte del coste de esta carta.",
+        "traits": "Hechizo. Espíritu."
+    },
+    {
+        "code": "04267",
+        "name": "Alimentar la mente",
+        "text": "Usos (3 secretos).\n[action] Agota Alimentar la mente y gasta 1 secreto: Realiza una prueba de [intellect] (0). Por cada punto que tengas por encima del valor mínimo de éxito, roba 1 carta. A continuación, recibe 1 punto de horror por cada carta que tengas en tu mano por encima de tu tamaño de mano máximo.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "04268",
+        "name": "Colt de bolsillo",
+        "text": "Usos (5 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibe +1 [combat] para este ataque. Este ataque inflige +1 de daño.\n<b>Obligado</b> - Al final de la ronda: Descarta el Colt de bolsillo.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal."
+    },
+    {
+        "code": "04269",
+        "flavor": "El cráneo de la criatura se partió por el impacto de dos balas.\nY luego de otra. Y otra. Y otra más.",
+        "name": "Golpe de gracia",
+        "text": "Inflige 1 punto de daño a un Enemigo que esté en tu Lugar. Si este efecto derrota a ese Enemigo, roba 1 carta. Si es tu turno, termina tu turno. Esta acción no provoca ataques de oportunidad.",
+        "traits": "Táctica. Predestinado."
+    },
+    {
         "code": "04270",
-        "name": "The Skeleton Key",
-        "text": "Exceptional. Fast.\n[action]: Attach The Skeleton Key to your location. If it is already attached to your location, detach it and return it to your play area instead.\nSet the attached location's shroud value to 1.",
-        "traits": "Item. Relic. Cursed."
+        "name": "La llave maestra",
+        "text": "Excepcional. Rápido.\n[action]: Vincula La llave maestra a tu Lugar. Si ya está vinculada a tu Lugar, en lugar de eso desvincúlala y devuélvela a tu zona de juego.\nEl valor de velo del Lugar vinculado se fija en 1.",
+        "traits": "Objeto. Reliquia. Maldito."
     },
     {
         "code": "04271",
-        "name": "Mists of R'lyeh",
-        "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +3 [willpower] for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this evasion attempt, choose and discard a card from your hand.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Nieblas de R'lyeh",
+        "text": "Usos (5 cargas).\n[action] Gasta 1 carga: <b>Evitar.</b> Este intento de evitar usa [willpower] en lugar de [agility]. Recibes +3 [willpower] para este intento de evitar. Si tienes éxito, después de evitar al Enemigo elegido, puedes moverte a un Lugar conectado. Si se revela un símbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail] durante este intento de evitar, elige y descarta una carta de tu mano.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "04272",
+        "name": "Sobre la marcha",
+        "text": "Puedes jugar Sobre la marcha desde tu pila de descartes. Si lo haces, añádela a tu mazo y baraja éste después de resolver sus efectos.\n<b>Investigar.</b> Tu Lugar recibe -1 a velo para esta investigación. Si jugaste Sobre la marcha desde tu pila de descartes, descubre 1 pista adicional si tienes éxito.",
+        "traits": "Táctica. Improvisado."
+    },
+    {
+        "code": "04273",
+        "name": "Viejo fusil de caza",
+        "text": "Usos (3 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +3 [combat] e infliges +2 de daño para este ataque. Si se revela un símbolo [skull] o [auto_fail] durante este ataque, el fusil se atasca y este ataque falla automáticamente; antes de que puedas volver a activar esta capacidad, debes realizar la siguiente capacidad: \"[action]: Desatascas el fusil.\".",
+        "traits": "Objeto. Arma. Arma de fuego."
+    },
+    {
+        "code": "04274",
+        "name": "Termo",
+        "text": "Usuos (3 suministros).\n[action] Gasta 1 suministro, agota el Termo: Cura 1 punto de daño de un investigador que esté en tu Lugar, o bien 2 puntos de daño si dicho investigador tiene 2 o más traumas físicos.\n[action] Gasta 1 suministro, agota el Termo: Cura 1 punto de horror de un investigador que esté en tu Lugar, o bien 2 puntos de horror si dicho investigador tiene 2 o más traumas mentales.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "04275",
+        "name": "Mapa de hemisferios",
+        "text": "Mientras tu Lugar actual esté ocnectado a al menos 2 Lugares más, recibes +1 [willpower] y +1 [intellect].\nMientras tu Lugar actual esté conectado a al menos 4 Lugares más, recibes +1 [willpower] y +1 [intellect] adicionales.",
+        "traits": "Objeto. Reliquia."
+    },
+    {
+        "code": "04276",
+        "name": "Hierro desgastado",
+        "text": "[action] Si el Hierro desgastado está preparado: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque.\n[action] Agota el Hierro desgastado: <b>Combatir.</b> Añade tu [willpower] a tu valor de habilidad para este ataque. Este ataque inflige +3 de daño. Si este ataque derrota a un Enemgo [[Élite]], roba 3 cartas. Máximo de una vez por partida.",
+        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo."
     }
 ]
