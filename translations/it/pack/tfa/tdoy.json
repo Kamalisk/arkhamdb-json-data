@@ -1,15 +1,81 @@
 [
-    {
-        "code": "04270",
-        "name": "The Skeleton Key",
-        "text": "Exceptional. Fast.\n[action]: Attach The Skeleton Key to your location. If it is already attached to your location, detach it and return it to your play area instead.\nSet the attached location's shroud value to 1.",
-        "traits": "Item. Relic. Cursed."
-    },
-    {
-        "code": "04271",
-        "name": "Mists of R'lyeh",
-        "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +3 [willpower] for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this evasion attempt, choose and discard a card from your hand.",
-        "traits": "Spell.",
-        "slot": "Arcane"
-    }
+	{
+		"code": "04265",
+		"name": "Manette",
+		"text": "[action] Se le Manette non sono assegnate a un nemico: <b>Eludi</b>. Utilizzabile solo conto un nemico [[Umanoide]]. Usa [combat] invece di [agility]. Se hai successo, assegna le Manette al nemico che hai appena elsuo.\nSe il nemico con le Manette è non [[Elite]], non può essere ripristinato e non si possono collocare destini su di esso.",
+		"traits": "Oggetto. Polizia."
+	},
+	{
+		"code": "04266",
+		"name": "Eclissi di Sangue",
+		"text": "Come costo aggiuntivo per giocare l'Eclissi di Sangue, subisci fino a 3 danni.\n<b>Combatti.</b> Usa [willpower] invece di [combat]. Per ogni danno subito come parte del costo di questa carta, ricevi +1 [willpower] e infliggi +1 danno in questo attacco.",
+		"traits": "Incantesimo. Spirito."
+	},
+	{
+		"code": "04267",
+		"name": "Nutrire la Mente",
+		"text": "Utilizzo (3 segreti).\n[action] Esaurisci Nutrire la Mente e spendi 1 segreto: Effettua una prova di [intellect] (0). Per ogni punto di cui hai successo, pesca 1 carta. Poi subisci 1 orrore per ogni carta nella tua mano in eccesso rispetto al tuo limite di mano.",
+		"traits": "Incantesimo",
+		"slot": "Arcano"
+	},
+	{
+		"code": "04268",
+		"name": "Colt Tascabile",
+		"text": "Utilizzo (5 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +1 [combat] e infliggi +1 danno in questo attacco.\n<b>Obbligo</b> - Alla fine del round: Scarta la Colt Tascabile.",
+		"traits": "Oggetto. Arma. Arma da Fuoco. Illecito.",
+		"slot": "Mano"
+	},
+	{
+		"code": "04269",
+		"flavor": "Due proiettili spaccarono il cranio della creatura. Ne seguì un altro. E un altro. E un altro ancora.",
+		"name": "Colpo di Grazia",
+		"text": "Infliggi 1 danno a un nemico nel tuo luogo. Se questo effetto sconfigge quel nemico, pesca 1 carta. Se è il tuo turno, termina il tuo turno. Questa azione non provoca attacchi di opportunità.",
+		"traits": "Tattica. Predestinato."
+	},
+	{
+		"code": "04270",
+		"name": "Passepartout d'Osso",
+		"text": "Straordinario. Veloce.\n[action]: Assegna il Passepartout d'Osso al tuo luogo. Se è già assegnato al tuo luogo, disassegnalo e rimettilo invece nella tua area di gioco.\nRegola a 1 il valore di Oscurità del luogo con il Passepartout d'Osso.",
+		"traits": "Oggetto. Reliquia. Maledetto."
+	},
+	{
+		"code": "04271",
+		"name": "Nebbie di R'lyeh",
+		"text": "Utilizzo (5 cariche).\n[action] Spendi 1 carica: <b>Eludi.</b> Usa [willpower] invece di [agility]. Ricevi +3 [willpower] in questo tentativo di elusione. Se hai successo, dopo aver eluso il nemico scelto, puoi muoverti fino a un luogo collegato. Se riveli un segnalino [skull], [cultist], [tablet], [elder_thing] o [auto_fail], scegli e scarta 1 carta dalla tua mano.",
+		"traits": "Incantesimo",
+		"slot": "Arcano"
+	},
+	{
+		"code": "04272",
+		"name": "Improvvisare",
+		"text": "Puoi giocare Improvvisare dalla tua pila degli scarti. Se lo fai, rimescolalo nel tuo mazzo dopo averne risolto gli effetti.\n<b>Indaga.</b> Riduci di 1 il valore di Oscurità del tuo luogo in questa indagine. Se hai successo e hai giocato Improvvisare dalla tua pila degli scarti, scopri 1 indizio aggiuntivo.",
+		"traits": "Tattica. Improvvisato."
+	},
+	{
+		"code": "04273",
+		"name": "Vecchio Fucile da Caccia",
+		"text": "Utilizzo (3 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +3 [combat] e infliggi +2 danni in questo attacco. Se riveli un simbolo [skull] o [auto_fail], il fucile si inceppa (questo attacco fallisce automaticamente e prima che tu possa attivare di nuovo questa capacità devi risolvere la capacità \"[action]: Sblocchi il fucile\").",
+		"traits": "Oggetto. Arma. Arma da Fuoco.",
+		"slot": "Mano x2"
+	},
+	{
+		"code": "04274",
+		"name": "Thermos",
+		"text": "Utilizzo (3 scorte).\n[action] Spendi 1 scorta, esaurisci il Thermos: Cura 1 danno a un investigatore nel tuo luogo (2 danni se quell'investigatore possiede invece 2 o più traumi fisici).\n[action] Spendi 1 scorta, esaurisci il Thermos: Cura 1 orrore a un investigatore nel tuo luogo (2 orrori se quell'investigatore possiede invece 2 o più traumi mentali).",
+		"traits": "Oggetto."
+	},
+	{
+		"code": "04275",
+		"name": "Mappa dell'Emisfero",
+		"text": "Finché il tuo luogo attuale è collegato a 2 o più altri luoghi, ricevi +1 [willpower] e +1 [intellect].\nFinché il tuo luogo attuale è collegato a 4 o più altri luoghi, ricevi +1 [willpower] e +1 [intellect] aggiuntivi.",
+		"traits": "Oggetto. Reliquia.",
+		"slot": "Accessorio"
+	},
+	{
+		"code": "04276",
+		"name": "Brando Consunto",
+		"text": "[action] Se il Brando Consunto è pronto: <b>Combatti.</b> Ricevi +2 [combat] e infliggi +1 danno in questo attacco.\n[action] Esaurisci il Brando Consunto: <b>Combatti.</b> Aggiungi il tuo valore di [willpower] al tuo valore di abilità in questo attacco. Infliggi +3 danni in questo attacco. Se questo attacco sconfigge un nemico [[Elite]], pesca 3 carte. (Massimo una volta per partita.)",
+		"traits": "Oggetto. Reliquia. Arma. Mischia.",
+		"slot": "Mano"
+	}
 ]
