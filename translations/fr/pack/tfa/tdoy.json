@@ -1,15 +1,80 @@
 [
     {
+        "code": "04265",
+        "name": "Menottes",
+        "text": "[action] Si les Menottes ne sont pas attachées à un ennemi : <b>Echapper à.</b> A utiliser uniquement sur un ennemi[[humanoïde]]. Cette tentative d'évasion utilise [combat] au lieu de [agility]. En cas de réussite, attachez les Menottes à l'ennemi auquel vous venez d'échapper.<br/>Si l'ennemi attaché est non-[[Elite]], il ne peut pas se redesser et les fatalités ne peuvent pas être placées sur lui.",
+        "traits": "Objet. Police."
+    },
+    {
+        "code": "04266",
+        "name": "Eclipse Sanglante",
+        "text": "Subissez jusqu'à 3 dégâts en tant que coût supplémentaire pour jouer l'Eclipse Sanglante.<br/><b>Combattre.</b> Cette attaque utilise [willpower] au lieu [combat].Vous gagnez +1 [willpower] et infligez +1 dégât pour cette attaque pour chaque dégât subi en tant que coût de cette carte.",
+        "traits": "Sort. Esprit."
+    },
+    {
+        "code": "04267",
+        "name": "Nourrir l'Esprit",
+        "text": "Utilisations (3 secrets).<br/>[action] Inclinez Nourrir l'Esprit et dépensez 1 secret : effectuez un test de [intellect] (0). Piochez 1 carte pour chaque point de réussite. Piochez 1 carte pour chaque point de réussite. Ensuite, si votre main dépasse sa taille limite, subissez 1 horreur pour chaque carte dans votre main en excés.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "04268",
+        "name": "Colt de Poche",
+        "text": "Utilisations (5 munitions).<br/>[action]<b> </b>Dépensez 1 munition : <b>Combattre</b>. Vous gagnez +1 [combat] pour cette attaque. Cette attaque inflige +1 dégât.<br/><b>Forcé</b> - A la fin du round : défaussez le Colt de Poche.",
+        "traits": "Objet. Arme. Arme à feu. Illicite.",
+        "slot": "Main"
+    },
+    {
+        "code": "04269",
+        "flavor": "Deux balles en plein dans la tête de la créature. \rPuis une autre. Puis une autre. Puis une autre.",
+        "name": "Coup de Grâce",
+        "text": "Infligez 1 dégât à un ennemi dans votre lieu. Si l'ennemi est vaincu par cet effet, piochez 1 carte. Si c'est votre tour, terminez votre tour. Cette action ne provoque pas d'attaque d'opportunité.",
+        "traits": "Tactique. Condamné."
+    },
+    {
         "code": "04270",
-        "name": "The Skeleton Key",
-        "text": "Exceptional. Fast.\n[action]: Attach The Skeleton Key to your location. If it is already attached to your location, detach it and return it to your play area instead.\nSet the attached location's shroud value to 1.",
-        "traits": "Item. Relic. Cursed."
+        "name": "La clé Squelette",
+        "text": "Exceptionnel. Rapide.\n[action] : Attachez La clé Squelette à votre lieu. Si elle est déjà attaché à votre lieu, détachez-la et renvoyez-la dans votre zone de jeu à la place.\nFixez la valeur occulte du lieu attaché à 1.",
+        "traits": "Objet. Relique. Maudit."
     },
     {
         "code": "04271",
-        "name": "Mists of R'lyeh",
-        "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +3 [willpower] for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this evasion attempt, choose and discard a card from your hand.",
-        "traits": "Spell.",
+        "name": "Brumes de R'lyeh",
+        "text": "Utilisations (5 charges).\n[action] Dépensez 1 charge : <b>Echapper à.</b> Cette tentative d'évasion utilise [willpower] au lieu de [agility]. Vous gagnez +3 [willpower] pour tentative d'évasion. En cas de réussite, après avoir ecchapé à l'ennemi choisi, vous avez le droit de vous déplacer vers un lieu connexe. Si un symbole [skull], [cultist], [tablet], [elder-thing], ou [auto-fail] est révélé lors de cette tentative d'évasion, choisissez et défaussez une carte de votre main.",
+        "traits": "Sort.",
         "slot": "Arcane"
+    },
+    {
+        "code": "04272",
+        "name": "Faire avec les Moyens du Bord",
+        "text": "Vous avez le droit de jouer Faire avec les Moyens du Bord depuis votre pile de défausse. Si vous le faites, mélangez-le dans votre deck après avoir résolu ses effets.<br/><b>Enquêter.</b> Votre lieu perd -1 de valeur occulte. (Si vous avez jouez Faire avec les Moyens du Bord depuis votre pile de défausse, découvrez 1 indice supplémentaire en cas de réussite.)",
+        "traits": "Tactique. Improvisé."
+    },
+    {
+        "code": "04273",
+        "name": "Vieux Fusil de Chasse",
+        "text": "Utilisations (3 munitions).<br/>[action] Dépensez 1 munition : <b>Combattre</b>. Vous gagnez +3 [combat] et infligez +2 dégâts pour cette attaque. Si un symbole [skull] ou [auto-fail] est révélé lors de cette attaque, l'arme s'enraye. (Cette attaque échoue automatiquement. Avant que vous ne puissiez activer cette capacité à nouveau, vous devez effectuer la capacité suivante : \"[action] : vous débloquez le mécanisme.\")",
+        "traits": "Objet. Arme. Arme à feu.",
+        "slot": "Main x2"
+    },
+    {
+        "code": "04274",
+        "name": "Thermos",
+        "text": "Utilisations (3 provisions).<br/>[action] Dépensez 1 provision, inclinez le Thermos : soignez 1 dégât d'un investigateur dans votre lieu (2 dégâts à la place s'il a au moins 2 traumatismes physiques).<br/>[action] Dépensez 1 provision, inclinez le Thermos : soignez 1 horreur d'un investigateur dans votre lieu (2 horreurs à la place s'il a au moins 2 traumatismes mentaux).",
+        "traits": "Objet."
+    },
+    {
+        "code": "04275",
+        "name": "Carte Hémisphérique",
+        "text": "Tant que votre lieu actuel est connexe à un au moins 2 autres lieux, vous gagnez +1 [willpower] et +1 [intellect].<br/>Tant que votre lieu actuel est connexe à au moins 4 autres lieux, vous gagnez +1 [willpower] et +1 [intellect] supplémentaires.",
+        "traits": "Objet. Relique."
+    },
+    {
+        "code": "04276",
+        "name": "Fendoir Vétuste",
+        "text": "[action] Si le Fendoir Vétuste est redressé : <b>Combattre.</b> Vous gagnez +2 [combat] et infligez +1 dégât pour cette attaque.<br/>[action] Inclinez Fendoir Vétuste : <b>Combattre.</b> Ajoutez votre [willpower] à votre valeur de compétence pour cette attaque. Cette attaque inflige +3 dégâts. Si un ennemi [[Elite]], est vaincu par cette attaque, piochez 3 cartes. (Max. une fois par partie.)",
+        "traits": "Objet. Relique. Arme. Corps-à-corps.",
+        "slot": "Main"
     }
 ]
