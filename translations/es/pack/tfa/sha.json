@@ -1,22 +1,66 @@
 [
     {
+        "code": "04304",
+        "name": "Queroseno",
+        "text": "Usos (3 suministros). Si el Queroseno no tiene suministros, descártalo.\n[action] Si un Enemigo fue derrotado en este Lugar en esta ronda, agota el Queroseno y gasta 1 suministro: Cura hasta 2 puntos de horror entre investigadores y Apoyos [[Aliado]] que estén en tu Lugar.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "04305",
+        "name": "Lanzallamas",
+        "text": "Usos (4 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> El Enemigo elegido para este ataque debe ser el Enemigo enfrentado a ti con el valor de combate más alto. Recibes +4 [combat] para este ataque. Si este ataque tiene éxito, en lugar de su daño estándar puedes asignar hasta 4 puntos de daño entre Enemigos enfrentados a ti <em>(cualquier daño adicional se suma a este total)</em>.",
+        "traits": "Objeto. Arma. Arma de fuego."
+    },
+    {
         "code": "04306",
-        "name": "Vantage Point",
-        "text": "Fast. Play after a location enters play or is revealed during an investigator's turn.\nUntil the end of the active investigator's turn, that location gets -1 shroud. You may move 1 clue to that location from any other location.",
-        "traits": "Insight."
+        "name": "Buena perspectiva",
+        "text": "Rápido. Juega esta carta después de que un Lugar entre en juego o sea revelado durante el turno de un investigador.\nHasta el final del turno del investigador activo, ese Lugar recibe -1 a velo. Puedes mover 1 pista a ese Lugar desde cualquier otro Lugar.",
+        "traits": "Inspiración."
+    },
+    {
+        "code": "04307",
+        "name": "Manuscritos pnakóticos",
+        "subname": "Ideas visionarias",
+        "text": "Usos (3 secretos).\n[reaction] Cuando un investigador que esté en tu Lugar fuese a realizar una prueba de habilidad durante un efecto \"Revelación\", gasta 1 secreto: No reveles fichas de Caos para ese prueba.\n[action] Gasta 1 secreto: Elige un investigador que esté en tu Lugar. No reveles fichas de Caos para la siguiente prueba de habilidad que ese investigador realice en esta ronda.",
+        "traits": "Objeto. Reliquia. Tomo."
     },
     {
         "code": "04308",
-        "name": "Borrowed Time",
-        "text": "Exceptional.\n[action]: Place 1 resource on Borrowed Time, as a click (to a maximum of 3 clicks on Borrowed Time). Does not provoke attacks of opportunity.\n<b>Forced</b> - When your turn begins: Remove all clicks from Borrowed Time. You may take that many additional actions this turn.",
+        "name": "Tiempo prestado",
+        "text": "Excepcional.\n[action]: Coloca 1 recurso sobre Tiempo prestado como un clic (hasta un máximo de 3 clics sobre Tiempo prestado). No provoca ataques de oportunidad.",
         "traits": "Ritual.",
-        "slot": "Arcane"
+        "slot": "Arcano"
+    },
+    {
+        "code": "04309",
+        "name": "No va más",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba tiene éxito, roba 1 carta por cada punto que tengas por encima del valor mínimo de éxito, hasta un máximo de 5. Devuelve a tu mazo cada Debilidad robada por este efecto sin resolverla y baraja tu mazo.",
+        "traits": "Fortuna."
+    },
+    {
+        "code": "04310",
+        "name": "Fragmentos del vacío",
+        "text": "Sello (0). Usos (3 cargas).\n[action] Gasta 1 carga o libera una ficha de Caos sellada aquí: <b>Combatir.</b> Este ataque usa [willpower] en lugar de [combat] e inflige +1 de daño. Recibe +2 [willpower] para este ataque por cada ficha \"0\" sellada sobre los Fragmentos del vacío. Por cada ficha \"0\" revelada durante este ataque, sella esa ficha sobre los Fragmentos del vacío y este ataque inflige 1 punto de daño adicional.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "04311",
+        "name": "Sello del séptimo signo",
+        "subname": "Tras el umbral y más allá",
+        "text": "Sello ([auto_fail]). Usos (7 cargas). Si el Sello del séptimo signo no tiene cargas o si abandona el juego, retíralo de la partida.\n<b>Obligado</b> - Después de que se revele una ficha [skull], [cultist], [tablet] o [elder_thing] durante cualquier prueba de habilidad: Retira 1 carga del Sello del séptimo signo.",
+        "traits": "Hechizo. Ritual."
+    },
+    {
+        "code": "04312",
+        "name": "Barrera improvisada",
+        "text": "Puedes jugar la Barrera improvisada desde tu pila de descartes. Si lo haces, añádela a tu mazo y baraja éste después de resolver sus efectos.\n<b>Evitar.</b> El Enemigo evitado recibe -1 a evitar para este intento de evitar. Si jugaste la Barrera improvisada desde tu pila de descartes, puedes evitar a un Enemigo adicional que esté en el mismo Lugar y tenga un valor de evitar X o inferior. X es la cantidad de puntos por encima del valor mínimo de éxito.",
+        "traits": "Táctica. Improvisado."
     },
     {
         "code": "04313",
-        "flavor": "We make our own fate.",
-        "name": "Alter Fate",
-        "text": "Fast. Play during any [free] player window.\nChoose and discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.",
-        "traits": "Spell. Blessed."
+        "flavor": "Forjamos nuestro propio destino.",
+        "name": "Alterar el destino",
+        "text": "Rápido. Juego esta carta durante cualquier oportunidad de los jugadores [free].\nElige y descarta del juego una Traición que no sea Debilidad y que no esté vinculada a un Enemigo [[Élite]].",
+        "traits": "Hechizo. Bendecido."
     }
 ]
