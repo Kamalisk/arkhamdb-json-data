@@ -1,22 +1,66 @@
 [
     {
+        "code": "04304",
+        "name": "Kérosène",
+        "text": "Utilisations (3 provisions). Si la carte Kérosène n'a pas de provisions, défaussez-la.<br/>[action] Si un ennemi a été vaincu dans ce lieu à ce round, inclinez le Kérosène et dépensez 1 provision: soignez jusqu'à deux horreurs parmi les investigateurs et les soutiens [[Allié]] dans votre lieu.",
+        "traits": "Objet."
+    },
+    {
+        "code": "04305",
+        "name": "Lance-Flammes",
+        "text": "Utilisations (4 munitions).<br/>[action] Dépensez 1 munition: <b>Combattre.</b> L'ennemi choisi pour cette attaque doit être l'ennemi engagé avec vous ayant la valeur de combat la plus élevée. Vous gagnez +1 [combat] pour cette attaque. Si cette attaque est réussie, au lieu des dégâts normaux, vous avez le droit d'assigner jusqu'à 4 dégâts à répartir parmi les ennemis engagés avec vous (<i>tout dégâts supplémentaire s'ajout à ce total</i>).",
+        "traits": "Objet. Arme. Arme à feu."
+    },
+    {
         "code": "04306",
-        "name": "Vantage Point",
-        "text": "Fast. Play after a location enters play or is revealed during an investigator's turn.\nUntil the end of the active investigator's turn, that location gets -1 shroud. You may move 1 clue to that location from any other location.",
-        "traits": "Insight."
+        "name": "Position avantageuse",
+        "text": "Rapide. A jouer après qu'un lieu est entré en jeu ou révélé lors du tour d'un investigateur.\nJusqu'à la fin du tour de l'investigateur actif, ce lieu perd -1 de valeur occulte. Vous avez le droit de déplacer 1 indice de n'importe quel lieu vers ce lieu.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "04307",
+        "name": "Manuscrits Pnakotiques",
+        "subname": "Idées Elargissant l'Esprit",
+        "text": "Utilisations (3 secrets).<br/>[reaction] Quand un investigateur dans votre lieu devrait effectuer un test de compétence lors d'un effet Révélation, dépensez 1 secret : ne révélez pas de pions Chaos pour ce test.<br/>[action] Dépensez 1 secret : choisissez un investigateur dans votre lieu. Ne révélez pas de pions Chaos pour le porchain test de compétence effectué par cet investigateur à ce round.",
+        "traits": "Objet. Relique. Livre."
     },
     {
         "code": "04308",
-        "name": "Borrowed Time",
-        "text": "Exceptional.\n[action]: Place 1 resource on Borrowed Time, as a click (to a maximum of 3 clicks on Borrowed Time). Does not provoke attacks of opportunity.\n<b>Forced</b> - When your turn begins: Remove all clicks from Borrowed Time. You may take that many additional actions this turn.",
-        "traits": "Ritual.",
+        "name": "Sursis",
+        "text": "Exceptionnel.\n[action]: Placez 1 ressource sur Sursis en tant que clic (jusqu'à un maximum de 3 clics sur Sursis). Ne provoque pas d'attaque d'opportunité.\n<b>Forcé</b> - Quand votre tour débute : retirez tous les clics de Sursis. Vous avez le droit d'effectuer autant d'actions supplémentaires à ce tour.",
+        "traits": "Rituel.",
         "slot": "Arcane"
     },
     {
+        "code": "04309",
+        "name": "Le Tout pour le Tout",
+        "text": "1 max. attribué par test de compétence.<br/>Si ce test de compétence est réussi, piochez 1 carte pour chaque point de réussite, jusqu'à un maximum de 5. Mélangez dans votre deck chaque faiblesse piochée par cet effet sans la résoudre.",
+        "traits": "Chance."
+    },
+    {
+        "code": "04310",
+        "name": "Eclats du Néant",
+        "text": "Sceller (0). Utilisations (3 charges).<br/>[action] Dépensez 1 charge ou libérez un pion Chaos scellé ici : <b>Combattre.</b> Cette attaque utilise [willpower] au lieu de [combat] et inflige +1 dégâts. Vous gagnez +2 [willpower] pour chaque pion \"0\" scellé sur les Eclats du Néant. Pour chaque pion \"0\" révélé lors de cette attaque, scellez ce pion sur les Eclats du Néant et cette attaque inflige 1 dégâts supplémentaire.",
+        "traits": "Sort."
+    },
+    {
+        "code": "04311",
+        "name": "Sceau du Septième Signe",
+        "subname": "Sur le Seuil et Au-Delà",
+        "text": "Sceller ([auto-fail]). Utilisations (7 charges). Si le Sceau du Septième Signe n'a pas de charge ou qu'il quitte le jeu, retirez-le de la partie.<br/><b>Forcé</b> - Après qu'un pion [skull], [cultist], [tablet], ou [elder_thing] est révélé lors de n'importe quel test de compétence : retirez 1 charge du Sceau du Septième Signe.",
+        "traits": "Sort. Rituel."
+    },
+    {
+        "code": "04312",
+        "name": "Barrière Improvisée",
+        "text": "Vous avez le droit de jouer la Barrière Improvisée depuis votre pile de défausse. Si vous le faites, mélangez-la dans votre deck après avoir résolu ses effets.<br/><b>Echapper à.</b> L'ennemi choisi perd -1 évasion pour cette tentative d'évasion. (Si vous avez joué la Barrière Improvisée depuis votre pile de défausse, vous avez le droit d'échapper à un ennemi supplémentaire ayant une valeur d'évasion de X ou moins et situé dans le même lieu. X est le nombre de points de réussite.)",
+        "traits": "Tactique. Improvisé."
+    },
+    {
         "code": "04313",
-        "flavor": "We make our own fate.",
-        "name": "Alter Fate",
-        "text": "Fast. Play during any [free] player window.\nChoose and discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.",
-        "traits": "Spell. Blessed."
+        "flavor": "Nous forgeons notre propre destinée.",
+        "name": "Modifier la Destinée.",
+        "text": "Rapide. A jouer lors de n'importe quelle fenètre de joueur [free].\nChoisissez et défaussez du jeu une traitrise non-faiblesse qui n'est pas attachée à un ennemi [[Elite]].",
+        "traits": "Sort. Béni."
     }
 ]
