@@ -1,22 +1,70 @@
 [
     {
+        "code": "04304",
+        "name": "Kerosene",
+        "text": "Utilizzo (3 scorte). Se non ci sono scorte sul Kerosene, scartalo.\n[action] Se un nemico è stato sconfitto in questo luogo in questo round, esaurisci il Kerosene e spendi una scorta: Cura fino a un totale di 2 orrori a investigatori e supporti [[Alleato]] nel tuo luogo.",
+        "traits": "Oggetto."
+    },
+    {
+        "code": "04305",
+        "name": "Lanciafiamme",
+        "text": "Utilizzo (4 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Il nemico scelto in questo attacco deve essere il nemico impegnato con te con il valore di Scontro più alto. Ricevi +4 [combat] in questo attacco. Se hai successo, invece dei danni standard, puoi assegnare fino a un totale di 4 danni ai nemici impegnati con te <i>(eventuali danni aggiuntivi si sommano a questo totale).</i>",
+        "traits": "Oggetto. Arma. Arma da Fuoco."
+        "slot": "Corpo. Mano x2."
+    },
+    {
         "code": "04306",
-        "name": "Vantage Point",
-        "text": "Fast. Play after a location enters play or is revealed during an investigator's turn.\nUntil the end of the active investigator's turn, that location gets -1 shroud. You may move 1 clue to that location from any other location.",
-        "traits": "Insight."
+        "name": "Posizione Vantaggiosa",
+        "text": "Veloce. Gioca solo dopo che un luogo è entrato in gioco o è stato aperto durante il turno di un investigatore.\nFino alla fine del turno dell'investigatore attivo, riduci di 1 il valore di Oscurità di quel luogo. Puoi spostare 1 indizio da un qualsiasi altro luogo su quel luogo.",
+        "traits": "Intuizione."
+    },
+    {
+        "code": "04307",
+        "name": "Manoscritti Pnakotici",
+        "subname": "Idee per Ampliare la Mente",
+        "text": "Utilizzo (3 segreti).\n[reaction] Quando un investigatore nel tuo luogo sta per effettuare una prova durante la risoluzione di una capacità Rivelazione, spendi 1 segreto: Non rivelare segnalini caos in quella prova.\n[action] Spendi 1 segreto: Scegli un investigatore nel tuo luogo. Non rivelare segnalini caos nella prossima prova di abilità che quell'investigatore effettua in questo round.",
+        "traits": "Oggetto. Reliquia. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "04308",
-        "name": "Borrowed Time",
-        "text": "Exceptional.\n[action]: Place 1 resource on Borrowed Time, as a click (to a maximum of 3 clicks on Borrowed Time). Does not provoke attacks of opportunity.\n<b>Forced</b> - When your turn begins: Remove all clicks from Borrowed Time. You may take that many additional actions this turn.",
-        "traits": "Ritual.",
-        "slot": "Arcane"
+        "name": "Ore Contate",
+        "text": "Straordinario.\n[action]: Colloca 1 risorsa sulle Ore Contate, trasformandola in click (massimo di 3 click sulle Ore Contate). Questa azione non provoca attacchi di opportunità.\n[b]Obbligo - </b>Quando il tuo turno inizia: Rimuovi tutti i click dalle Ore Contate. Puoi effettuare un pari ammontare di azioni aggiuntive in questo turno.",
+        "traits": "Rituale.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "04309",
+        "name": "All In",
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, pesca 1 carta per ogni punto di cui hai avuto successo (massimo 5). Rimescola ogni debolezza pescata con questo effetto nel tuo mazzo senza risolverla.",
+        "traits": "Sorte."
+    },
+    {
+        "code": "04310",
+        "name": "Frammenti del Vuoto",
+        "text": "Sigillo (0). Utilizzo (3 cariche).\n[action] Spendi 1 carica o libera 1 segnalino caos sigillato su questa carta: <b>Combatti.</b> Usa [willpower] invece di [combat]. Ricevi +2 [willpower] per ogni segnalino \"0\" sigillato sui Frammenti del Vuoto e infliggi +1 danno in questo attacco. Per ogni segnalino \"0\" rivelato, sigilla quel segnalino sui Frammenti del Vuoto e infliggi 1 danno aggiuntivo in questo attacco.",
+        "traits": "Incantesimo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "04311",
+        "name": "Sigillo del Settimo Segno",
+        "subname": "Verso la Soglia e Oltre",
+        "text": "Sigillo ([auto_fail]). Utilizzo (7 cariche). Se non ci sono cariche sul Sigillo del Settimo Segno o se questo esce dal gioco, rimuovilo dal gioco.\n<b>Obbligo - </b>Dopo che 1 segnalino [skull], [cultist], [tablet] o [elder_thing] è stato rivelato durante una qualsiasi prova di abilità: Rimuovi 1 carica dal Sigillo del Settimo Segno.",
+        "traits": "Incantesimo. Rituale.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "04312",
+        "name": "Barricata Improvvisata",
+        "text": "Puoi giocare la Barricata Improvvisata dalla tua pila degli scarti. Se lo fai, rimescolala nel tuo mazzo dopo averne risolto gli effetti.\n<b>Eludi.</b> Il nemico scelto riceve -1 Agilità in questo tentativo di elusione. Se hai giocato la Barriera Improvvisata dalla tua pila degli scarti, puoi eludere 1 nemico aggiuntivo nello stesso luogo con valore di Agilità pari o inferiore a X, dove X è l'ammontare di punti di cui hai avuto successo.",
+        "traits": "Tattica. Improvvisato."
     },
     {
         "code": "04313",
-        "flavor": "We make our own fate.",
-        "name": "Alter Fate",
-        "text": "Fast. Play during any [free] player window.\nChoose and discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.",
-        "traits": "Spell. Blessed."
+        "flavor": "Ognuno è artefice del proprio fato.",
+        "name": "Alterare il Fato",
+        "text": "Veloce. Gioca solo durante una finestra [lightning].\nScegli e scarta dal gioco 1 sventura non debolezza che non sia assegnata a un nemico [[Elite]].",
+        "traits": "Incantesimo. Benedetto."
     }
 ]
