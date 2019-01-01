@@ -1,22 +1,70 @@
 [
     {
+        "code": "04304",
+        "name": "Kerosin",
+        "text": "Anwendungen (3 Vorräte). Falls Kerosin keine Vorräte hat, lege es ab.\n[action] Falls in dieser Runde ein Gegner an diesem Ort besiegt worden ist, erschöpfe Kerosin und gib 1 Vorrat aus: Heile bis zu 2 Horror von Ermittlern und [[Verbündeter]]-Vorteilskarten an deinem Ort.",
+        "traits": "Gegenstand."
+      },
+    {
+        "code": "04305",
+        "name": "Flammenwerfer",
+        "slot": "Körper. Hand x2",
+        "text": "Anwendungen (4 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Der für diesen Angriff gewählte Gegner muss der mit dir in einen Kampf verwickelte Gegner mit dem höchsten Kampfwert sein. Du bekommst für diesen Angriff +4 [combat]. Falls dieser Angriff gelingt, darfst du statt seines normalen Schadens bis zu 4 Schaden unter Gegnern zuweisen, die mit dir in einem Kampf verwickelt sind <i>(möglicher zusätzlicher Schaden wird dieser Summe hinzugefügt)</i>.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe."
+        },
+    {
         "code": "04306",
-        "name": "Vantage Point",
-        "text": "Fast. Play after a location enters play or is revealed during an investigator's turn.\nUntil the end of the active investigator's turn, that location gets -1 shroud. You may move 1 clue to that location from any other location.",
-        "traits": "Insight."
-    },
+        "name": "Aussichtspunkt",
+        "text": "Schnell. Spiele diese Karte, nachdem ein Ort ins Spiel gekommen oder während des Zuges eines Ermittlers enthüllt worden ist.\nBis zum Ende des Zuges des aktiven Ermittlers bekommt jener Ort -1 Schleier. Du darfst 1 Hinweis von einem anderen Ort auf jenen Ort bewegen.",
+        "traits": "Erkenntnis."
+        },
+    {
+        "code": "04307",
+        "name": "Pnakotische Manuskripte",
+        "slot": "Hand",
+        "subname": "Bewusstseinserweiternde Ideen",
+        "text": "Anwendungen (3 Geheimnisse).\n[reaction] Sobald ein Ermittler an deinem Ort eine Fertigkeitsprobe während eines Enthüllen-Effektes ablegen würde, gib 1 Geheimnis aus: Enthülle keine Chaosmarker für diese Probe.\n[action] Gib 1 Geheimnis aus: Wähle einen Ermittler an deinem Ort. Für die nächste Fertigkeitsprobe, die jener Ermittler in dieser Runde ablegt, werden keine Chaosmarker enthüllt.",
+        "traits": "Gegenstand. Relikt. Buch."
+        },
     {
         "code": "04308",
-        "name": "Borrowed Time",
-        "text": "Exceptional.\n[action]: Place 1 resource on Borrowed Time, as a click (to a maximum of 3 clicks on Borrowed Time). Does not provoke attacks of opportunity.\n<b>Forced</b> - When your turn begins: Remove all clicks from Borrowed Time. You may take that many additional actions this turn.",
-        "traits": "Ritual.",
-        "slot": "Arcane"
-    },
+        "name": "Geliehene Zeit",
+        "slot": "Arkan",
+        "text": "Außergewöhnlich.\n[action]: Platziere 1 Ressource als ein Ticken auf Geliehene Zeit (bis zu einem Maximum von 3 Ticken auf Geliehene Zeit). Dies provziert keine Gelegenheitsangriffe.\n<b>Erzwungen</b> - Sobald dein Zug beginnt: Entferne alle Ticken von Geliehene Zeit. Du darfst in diesem Zug genauso viele zusätzliche Aktionen nehmen.",
+        "traits": "Ritual."
+        },
+    {
+        "code": "04309",
+        "name": "Alles oder Nichts",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nFalls diese Probe gelingt, ziehe 1 Karte für jeden Punkt, um den die Probe gelungen ist, bis zu einem Maximum von 5. Mische jede durch diesen Effekt gezogene Schwäche zurück in dein Deck, ohne sie abzuhandeln.",
+        "traits": "Glücksfall."
+        },
+    {
+        "code": "04310",
+        "name": "Scherben der Leere",
+        "slot": "Arkan",
+        "text": "Versiegeln (0). Anwendungen (3 Ladungen).\n[action] Gib 1 Ladung aus oder setze einen hier versiegelten Chaosmarker frei: <b>Kampf.</b> Dieser Angriff verwendet [willpower] statt [combat] und fügt +1 Schaden zu. Du bekommst für diesen Angriff +2 [willpower] für jeden \"0\"-Marker, der auf den Scherben der Leere versiegelt ist. Für jeden \"0\"-Marker, der während dieses Angriffs enthüllt wird, versiegle jenen Marker auf den Scherben der Leere und dieser Angriff fügt 1 zusätzlichen Schaden zu.",
+        "traits": "Zauber."
+        },
+    {
+        "code": "04311",
+        "name": "Siegel des Siebten Zeichens",
+        "slot": "Arkan",
+        "subname": "Über die Schwelle und darüber hinaus",
+        "text": "Versiegeln ([auto-fail]). Anwendungen (7 Ladungen). Falls das Siegel des Siebten Zeichens keine Ladungen mehr hat oder falls es das Spiel verlässt, entferne es aus dem Spiel.\n<b>Erzwungen</b> - Nachdem während einer beliebigen Fertigkeitsprobe ein [skull]-, [cultist]-, [tablet]-, oder [elder_thing]-Marker enthüllt worden ist: Entferne 1 Ladung vom Siegel des Siebten Zeichens.",
+        "traits": "Zauber. Ritual."
+        },
+    {
+        "code": "04312",
+        "name": "Improvisierte Barriere",
+        "text": "Du darfst Improvisierte Barriere aus deinem Ablagestapel spielen. Falls du dies tust, mische diese Karte in dein Deck, nachdem du ihre Effekte abgehandelt hast.\n<b>Entkommen.</b> Der gewählte Gegner bekommt für diesen Entkommen-Versuch -1 Entkommen. (Falls du Improvisierte Barriere aus deinem Ablagestapel gespielt hast, darfst du einem zusätzlichen Gegner am selben Ort mit Entkommen X oder weniger entkommen. X ist die Anzahl der Punkte, um die die Probe gelungen ist.)",
+        "traits": "Taktik. Improvisiert."
+        },
     {
         "code": "04313",
-        "flavor": "We make our own fate.",
-        "name": "Alter Fate",
-        "text": "Fast. Play during any [free] player window.\nChoose and discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.",
-        "traits": "Spell. Blessed."
-    }
+        "flavor": "Wir gestalten unser eigenes Schicksal.",
+        "name": "Das Schicksal verändern",
+        "text": "Schnell. Spiele diese Karte in einem beliebigen [free]-Spielerfenster.\nWähle eine Nicht-Schwäche-Verratskarte im Spiel, die nicht an einem [[Elite]]-Gegner angehängt ist, und lege sie ab.",
+        "traits": "Zauber. Gesegnet."
+        }
 ]

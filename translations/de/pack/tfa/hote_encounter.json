@@ -1,0 +1,186 @@
+[
+    {
+        "code": "04205",
+        "name": "Heart of the Elders",
+        "text": "Easy / Standard\n[skull]: -1 (-3 instead if you are in a [[Cave]] location).\n[cultist]: -2. If you fail, place 1 doom on your location.\n[tablet]: -2. If you are poisoned, this test automatically fails instead.\n[elder_thing]: -3. If you fail, take 1 horror.",
+        "back_text": "Hard / Expert\n[skull]: -2 (-4 instead if you are in a [[Cave]] location).\n[cultist]: -3. If you fail, place 1 doom on your location.\n[tablet]: -3. If you are poisoned, this test automatically fails instead. If you are not poisoned and you fail, put a set-aside Poisoned weakness into play in your threat area.\n[elder_thing]: -4. If you fail, take 1 horror."
+    },
+    {
+        "code": "04206",
+        "name": "Mouth of K'n-yan",
+        "subname": "The Cavern’s Maw",
+        "text": "[action]: <b>Resign.</b> \"Let's make camp and solve this puzzle tomorrow.\"\n[action]: Check your supplies. If you have a compass, look at the top 3 cards of the exploration deck. Place 1 on the bottom and the other 2 on top, in any order.",
+        "traits": "Cave."
+    },
+    {
+        "code": "04206b",
+        "name": "Mouth of K'n-yan",
+        "subname": "The Depths Below",
+        "text": "[action]: Check your supplies. If you have a map, look at the top 2 cards of the exploration deck. Discard each treachery looked at by this effect. Shuffle the exploration deck.",
+        "traits": "Cave."
+    },
+    {
+        "code": "04207",
+        "flavor": "You are deep in the jungle now, surrounded on all sides by the uncharted wilderness. All around you, the rainforest sings, its lyrics found in every chirping insect, every serpent’s hiss, every snapping tree branch.",
+        "name": "The Jungle's Heart",
+        "text": "[action]: <b>Explore.</b> Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.",
+        "back_name": "Are We Alone?",
+        "back_flavor": "After exploring the rainforest for hours, you reach the top of a steep ridge, from which you can see much of the surrounding area. Uncanny winged creatures caw at you from above, circling over the cavern entrance like vultures waiting for their meal. From this vantage point, you may be able to see approaching threats as they traverse the brush below. If only you had something to help you see farther…",
+        "back_text": "Shuffle the encounter discard pile into the encounter deck.\nThe lead investigator chooses one investigator to be the group's lookout. That investigator checks his or her supplies. \nIf the lookout has binoculars, he or she is able to see the creature approaching and avoid it. The lookout suffers no ill effects.\nIf the lookout does not have binoculars, discard cards from the top of the encounter deck until an enemy is discarded. Spawn that enemy at the lookout's location."
+    },
+    {
+        "code": "04208",
+        "flavor": "The day advances quickly. Through the thick canopy of trees, you can tell that the sun is starting to sink closer to the horizon. To the east, the sky grows dim. Soon the jungle will be covered in darkness, and you will have to stop and make camp for the night.",
+        "name": "Setting Sun",
+        "text": "[action]: <b>Explore.</b> Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.",
+        "back_name": "Night Falls in the Jungle",
+        "back_flavor": "Night comes swiftly, blanketing the rainforest in dim moonlight. The sounds of the jungle change as nocturnal creatures start to emerge. Soon, the air is filled with the buzzing and chirping of strange insects and even stranger beasts, the identity of which you are unable to&nbsp;determine.\nThe dangers of nighttime are too great to ignore, and the darkness makes it difficult for you to study the glyphs and patterns necessary to shift the pillars correctly. You have no choice but to set up camp and continue your exploration in the morning.",
+        "back_text": "Each surviving investigator immediately resigns."
+    },
+    {
+        "code": "04209",
+        "flavor": "Six stone pillars surround the entrance to the cavern, each carved with a series of uncanny grooves and hieroglyphs that form an intricate pattern. Touching them causes the grooves to glow brightly, and twisting them causes the patterns to shift and change. Perhaps these patterns match the glyphs found in other regions of the jungle?",
+        "name": "Search for the Pattern"
+    },
+    {
+        "code": "04209b",
+        "name": "The Winged Serpent",
+        "subname": "The Wrath of Yig",
+        "text": "<b>Spawn</b> - Mouth of K'n-yan.\nAlert. Hunter. Massive.\nCannot be defeated. Cannot make attacks of opportunity.\n<b>Forced</b> - After a pillar token is placed on the Mouth of K'n-yan: Exhaust The Winged Serpent. It does not ready during the upkeep phase this round.",
+        "traits": "Monster. Serpent. Elite."
+    },
+    {
+        "code": "04210",
+        "flavor": "You have discovered that the ruins within the jungle each bear a distinct pattern of glyphs, which match those found on the six pillars. As you turn the pillars to match these patterns, a serpentine creature descends from the clouds…",
+        "name": "Opening the Maw",
+        "text": "[action] Investigators at the Mouth of K'n-yan spend 1[per_investigator] clues, as a group: You solve one piece of the puzzle. Add 1 resource to the Mouth of K'n-yan, as a pillar token.\n<b>Objective</b> - Solve the puzzle of the six pillars in order to enter K'n-yan. If there are 6 pillar tokens on the Mouth of K'n-yan, advance to act 2b.",
+        "back_name": "Entering K'n-yan",
+        "back_flavor": "With a deep rumbling that shakes the ground outside, something inside the cavern shifts. In a distinct sequence, the six obelisks slowly descend into the ground, twisting and turning. The serpent creature that guarded the cavern lets out a shriek of anger and hate before flying off and vanishing behind the treeline. One by one, the stone pillars disappear into the dirt, and the Earth stops shaking.",
+        "back_text": "<b>(→R1)</b>"
+    },
+    {
+        "code": "04211",
+        "flavor": "Though much of this cavern system is natural and untouched by humans, you are stunned to find signs of an ancient civilization that once inhabited the area.",
+        "name": "The Lonely Caverns",
+        "text": "[action] If there are no clues on your location: <b>Explore. </b>Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.\n<b>Forced</b> - When this agenda advances: Do not remove doom from each location in play.",
+        "back_name": "Serpents' Revenge",
+        "back_text": "<b>Check Campaign Log. </b><em>If the Harbinger is still alive:</em>\n<blockquote><i>From the entrance far behind you, a threatening hiss and an all-too-familiar rattling causes you to freeze in terror. You grip the nearest weapon you can find and turn in fright, hands trembling. How has it followed you this far? When will this awful hunt end?</i></blockquote>\nSearch the collection for the Harbinger of Valusia and spawn it at the location farthest from all investigators (if there are 8 or more tally marks under \"Yig's Fury\" in your Campaign Log, it enters play at the lead investigator's location, instead). It enters play with damage on it equal to the amount of damage recorded in parentheses in your Campaign Log."
+    },
+    {
+        "code": "04212",
+        "flavor": "Bright-yellow eyes peer at you from all sides as you continue delving deeper into the cavern. The glowing orbs vanish as light is cast on them, reappearing as soon as the darkness returns.",
+        "name": "Eyes in the Dark",
+        "text": "[action] If there are no clues on your location: <b>Explore.</b> Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.\n*This agenda gets +1[per_investigator] doom threshold.",
+        "back_name": "Crumbling Caverns",
+        "back_flavor": "Without warning, a deafening crash echoes throughout the cave, and the ground under your feet rumbles with tremendous force. Stalactites and pieces of crumbling rock begin to fall from the ceiling of the cavern, striking the ground all around you and causing cracks to appear in the stone. \"We have to get out of here!\" you shout to Ichtaca, but by the time you realize what is coming, it is too late. The ground beneath your feet gives way, and suddenly you are falling, plummeting into the depths below…",
+        "back_text": "Each surviving investigator is defeated and suffers 1 physical trauma."
+    },
+    {
+        "code": "04213",
+        "flavor": "The vast underground caverns of K’n-yan are cold and all too quiet. Scattered, forsaken ruins lie undisturbed along your path to the Nexus of N’kai. What happened in this ancient and forgotten place? Were these ruins once occupied by humans? Or by a species far, far older?",
+        "name": "Cavern of the Forgotten Age",
+        "back_name": "In Circles",
+        "back_flavor": "With very few landmarks to spot along the dark and lonely tunnels, you must rely on your wits and navigation skills to make your way forward without getting lost. If only you had an easy way to mark the places you have already visited…",
+        "back_text": "Shuffle Descent to Yoth into the exploration deck.\nThe lead investigator chooses one investigator to be the group's scout. That investigator checks his or her supplies. \nIf the scout has chalk, you are able to avoid traveling in circles. The scout suffers no ill effects. \nIf the scout does not have chalk, place 1 clue on each location in play (<i>from the token pool</i>). Then, if the scout is on a single-sided location, shuffle that location back into the exploration deck. Move each enemy and investigator that was at that location to a connecting location nearest to the Mouth of K'n-yan."
+    },
+    {
+        "code": "04214",
+        "flavor": "The deeper you descend into the cold darkness, the more you feel the crushing weight of the world above, and the dizzying reality of the world further below. You suddenly long for the surface and wonder if you will ever see the sky again.",
+        "name": "Descent into Dark",
+        "text": "<b>Objective</b> - If each surviving investigator is at the Descent to Yoth and there is no doom on it, you may advance.",
+        "back_name": "To Yoth",
+        "back_flavor": "Before you lies an ornate and elaborately decorated doorway, a stone disc that has been rolled aside to unveil the hellish realm beyond. The caverns on the other side are bathed in a red glow. The serpent-themed statues and carvings along the walls inform you that you are on the right track.",
+        "back_text": "Check Campaign Log. \n-<i>If the investigators rescued Alejandro:</i> <b>(→R1)</b>.\n-<i>If Alejandro is missing:</i> <b>(→R2)</b>."
+    },
+    {
+        "code": "04215",
+        "name": "Pitfall",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n-Test [agility] (3) to attempt to jump the gap. For each point you fail by, take 1 damage.\n-Shuffle Pitfall into the exploration deck. You cannot choose this option if Pitfall was drawn from the exploration deck.",
+        "traits": "Trap."
+    },
+    {
+        "code": "04216",
+        "name": "Poisonous Spores",
+        "text": "<b>Revelation</b> - Attach to your location.\n<b>Forced</b> - At the end of the round: Each investigator at the attached location who is poisoned takes 2 horror. Each investigator at the attached location who is not poisoned must put a set-aside Poisoned weakness into play in his or her threat area, instead. Discard Poisonous Spores.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "04217",
+        "flavor": "The flora along this path are wildly distorted. Some of the flowers are withered and some are vibrant, but all are alien to you.",
+        "name": "Time-Wracked Woods",
+        "text": "[action] [action]: Choose a non-[[Elite]] card worth vengeance points in the victory display. Place that card in the encounter discard pile. (Group limit once per game.)",
+        "traits": "Jungle."
+    },
+    {
+        "code": "04218",
+        "flavor": "Once a ceremonial site, now overgrown and forgotten.",
+        "name": "Stone Altar",
+        "text": "<b>Forced</b> - After you enter Stone Altar: Reveal a random chaos token from the chaos bag.\nIf you reveal a [elder_sign], [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, lose 1 action. If you cannot, take 1 horror instead.",
+        "traits": "Ancient. Ruins."
+    },
+    {
+        "code": "04219",
+        "name": "Apex Strangleweed",
+        "text": "Alert. Retaliate.\n<b>Forced</b> - After Apex Strangleweed makes an attack of opportunity against you: Check your supplies. If you do not have a pocket knife, lose all remaining actions and end your turn.",
+        "traits": "Creature. Flora."
+    },
+    {
+        "code": "04220",
+        "name": "Basilisk",
+        "text": "<b>Prey</b> - Nearest to the Mouth of K'n-yan.\nHunter.\n<b>Forced</b> - After a pillar token is placed on the Mouth of K'n-yan: Shuffle one copy of Basilisk into the encounter deck. (Max once per round.)\n<b>Vengeance 2.</b>",
+        "traits": "Monster. Serpent."
+    },
+    {
+        "code": "04221",
+        "flavor": "One ant is a nuisance. A colony is another matter.",
+        "name": "Ants!",
+        "text": "<b>Revelation</b> - Test [agility] (4). For each point you fail by, discard a random card from your hand or choose and discard a card from your play area.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "04222",
+        "flavor": "The scale of these caverns is dizzying.\nIt is truly a world of its own.",
+        "name": "Vast Passages",
+        "text": "As an additional cost for you to explore while at Vast Passages, check your supplies. If no investigator at this location has binoculars, you must spend 1 additional action.",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04223",
+        "name": "Hall of Idolatry",
+        "text": "<b>Forced</b> - After you put Hall of Idolatry into play by successfully exploring: Check Campaign Log. If there are 5 or more tally marks under \"Yig's Fury\", draw the top card of the encounter deck (top 2 cards instead if there are 10 or more tally marks).",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04224",
+        "flavor": "The throat of the cavern extends for miles, and you cannot help but feel as though you are descending into the belly of a great beast.",
+        "name": "Dark Hollow",
+        "text": "<b>Forced</b> - After Dark Hollow enters play, check your supplies. If no investigator has a map: Place 1[per_investigator] additional clues on Dark Hollow.",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04225",
+        "flavor": "Along a dark chasm, the path winds and twists. Serpent statues with rearing heads are poised to strike as you pass.",
+        "name": "Perilous Gulch",
+        "text": "<b>Forced</b> - After you fail a skill test while investigating Perilous Gulch: Check your supplies. If no investigator at this location has rope, place 1 doom on Perilous Gulch.",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04226",
+        "flavor": "Enormous white crystals pierce through the tunnel, sending reflections of light across the walls and ceiling.",
+        "name": "Crystal Pillars",
+        "text": "<b>Forced</b> - After you enter Crystal Pillars: Test [willpower] (1). This test gets +1 difficulty for each vengeance point in the victory display. If you fail, take 1 damage and 1 horror.",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04227",
+        "name": "Descent to Yoth",
+        "text": "<b>Forced</b> - After Descent to Yoth enters play: Each investigator must either place 1 doom on Descent to Yoth or draw the top 2 cards of the encounter deck.\n[reaction] After you successfully investigate Descent to Yoth: Instead of discovering clues, you may flip 1 doom on Descent to Yoth to its clue side.\n<b>Vengeance 2.</b>",
+        "traits": "Ancient. Cave."
+    },
+    {
+        "code": "04228",
+        "name": "No Turning Back",
+        "text": "<b>Revelation</b> - Attach No Turning Back to your location or a connecting location. Limit 1 per location.\nInvestigators cannot enter or leave attached location.\n[action]: Test [combat] (3) or check your supplies. If you succeed, or if you have a pickaxe, discard No Turning Back. Any investigator at a connecting location may activate this ability.",
+        "traits": "Hazard."
+    }
+]

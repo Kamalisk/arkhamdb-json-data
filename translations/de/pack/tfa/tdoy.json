@@ -1,15 +1,80 @@
 [
     {
+        "code": "04265",
+        "name": "Handschellen",
+        "text": "[action] Falls die Handschellen nicht an einen Gegner angehängt sind: <b>Entkommen.</b> Verwende diese Karte nur bei einem [[Humanoid]]-Gegner. Dieser Entkommen-Versuch verwendet [combat] statt [agility]. Falls die Probe gelingt, hänge Handschellen an den Gegner an, dem du gerade entkommen bist.\nFalls der Gegner mit dieser Verstärkung Nicht-[[Elite]] ist, kann er nicht spielbereit gemacht werden und Verderben kann nicht auf ihm platziert werden.",
+        "traits": "Gegenstand. Polizei."
+    },
+    {
+        "code": "04266",
+        "name": "Blutverdunkelung",
+        "text": "Als zusätzliche Kosten zum Spielen von Blutverdunkelung nimmst du bis zu 3 Schaden.\n<b>Kampf.</b> Dieser Angriff verwendet [willpower] statt [combat]. Du bekommst für diesen Angriff +1 [willpower] und fügst +1 Schaden pro Schaden zu, den du als Teil der Kosten dieser Karte genommen hast.",
+        "traits": "Zauber. Geist."
+    },
+    {
+        "code": "04267",
+        "name": "Nähre den Geist",
+        "text": "Anwendungen (3 Geheimnisse).\n[action] Erschöpfe Nähre den Geist und gib 1 Geheimnis aus: Lege eine [intellect]-Probe (0) ab. Für jeden Punkt, um den die Probe gelingt, ziehe 1 Karte. Dann nimmst du 1 Horror für jede Karte auf deiner Hand, die dein Handkartenlimit übersteigt.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "04268",
+        "name": "Colt Vest Pocket",
+        "text": "Anwendungen (5 Munition).\n[action] Gib 1 Munition aus: <b>Kampf</b>. Du bekommst für diesen Angriff +1 [combat]. Dieser Angriff fügt +1 Schaden zu.\n<b>Erzwungen</b> - Am Ende der Runde: Lege den Colt Vest Pocket ab.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "04269",
+        "flavor": "Zwei Kugeln spalteten den Schädel der Kreatur. Dann eine weitere. Und noch eine. Und noch eine.",
+        "name": "Gnadenschuss",
+        "text": "Füge einem Gegner an deinem Ort 1 Schaden zu. Falls dieser Effekt jenen Gegner besiegt, ziehe 1 Karte. Falls es dein Zug ist, beende deinen Zug. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Taktik. Schicksalhaft."
+    },
+    {
         "code": "04270",
-        "name": "The Skeleton Key",
-        "text": "Exceptional. Fast.\n[action]: Attach The Skeleton Key to your location. If it is already attached to your location, detach it and return it to your play area instead.\nSet the attached location's shroud value to 1.",
-        "traits": "Item. Relic. Cursed."
+        "name": "Der Generalschlüssel",
+        "text": "Außergewöhnlich. Schnell.\n[action]: Hänge den Generalschlüssel an deinen Ort an. Falls er bereits an einem Ort angehängt ist, löse ihn und schicke ihn stattdessen zurück in deine Spielzone.\nSetze den Schleierwert des Ortes mit dieser Verstärkung auf 1 fest.",
+        "traits": "Gegenstand. Relilkt. Verflucht."
     },
     {
         "code": "04271",
-        "name": "Mists of R'lyeh",
-        "text": "Uses (5 charges).\n[action] Spend 1 charge: <b>Evade.</b> This evasion attempt uses [willpower] instead of [agility]. You get +3 [willpower] for this evasion attempt. If you succeed, after evading the chosen enemy, you may move to a connecting location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this evasion attempt, choose and discard a card from your hand.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Nebel von R'lyeh",
+        "text": "Anwendungen (5 Ladungen).\n[action] Gib 1 Ladung aus: <b>Entkommen.</b> Dieser Entkommen-Versuch verwendet [willpower] statt [agility]. Du bekommst für diesen Entkommen-Versuch +3 [willpower]. Falls diese Probe gelingt, darfst du dich, nachdem du dem gewählten Gegner entkommen bist, an einen verbundenen Ort bewegen. Falls während dieses Entkommen-Versuch ein [skull]-, [cultist]-, [tablet]-, [elder_thing]-, oder [auto_fail]-Symbol enthüllt wird, wähle eine Karte von deiner Hand und lege sie ab.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "04272",
+        "name": "Aus dem Stegreif",
+        "text": "Du darfst Aus dem Stegreif aus deinem Ablagestapel spielen. Falls du dies tust, mische diese Karte in dein Deck, nachdem du ihre Effekte abgehandelt hast.\n<b>Ermitteln.</b> Dein Ort bekommt für diese Ermittlung -1 Schleier. (Falls du Aus dem Stegreif aus deinem Ablagestapel gespielt hast, entdecke 1 zusätzlichen Hinweis, falls die Probe gelingt.)",
+        "traits": "Taktik. Improvisiert."
+    },
+    {
+        "code": "04273",
+        "name": "Altes Jagdgewehr",
+        "text": "Anwendungen (3 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +3 [combat] und fügst +2 Schaden zu. Falls während dieses Angriffs ein [skull]- oder [auto_fail]-Symbol enthüllt wird, hat das Gewehr Ladehemmung. (Dieser Angriff misslingt automatisch. Bevor du diese Fähigkeit erneut aktivieren kannst, musst du folgende Fähigkeit durchführen: \"[action]: Du beseitigst die Ladehemmung.\")",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "04274",
+        "name": "Thermoskanne",
+        "text": "Anwendungen (3 Vorräte).\n[action] Gib 1 Vorrat aus, erschöpfe die Thermoskanne: Heile 1 Schaden von einem Ermittler an deinem Ort (stattdessen 2 Schaden, falls er 2 oder mehr körperliche Traumata hat).\n[action] Gib 1 Vorrat aus, erschöpfe die Thermoskanne: Heile 1 Horror von einem Ermittler an deinem Ort (stattdessen 2 Horror, falls er 2 oder mehr seelische Traumata hat).",
+        "traits": "Gegenstand."
+    },
+    {
+        "code": "04275",
+        "name": "Hemisphärenkarte",
+        "text": "Solange dein aktueller Ort mit mindestens 2 anderen Orten verbunden ist, bekommst du +1 [willpower] und +1 [intellect].\nSolange dein aktueller Ort mit mindestens 4 anderen Orten verbunden ist, bekommst du zusätzlich +1 [willpower] und +1 [intellect].",
+        "traits": "Gegenstand. Relikt."
+    },
+    {
+        "code": "04276",
+        "name": "Schwert aus alten Zeiten",
+        "text": "[action] Falls das Schwert aus alten Zeiten spielbereit ist: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu.\n[action] Erschöpfe das Schwert aus alten Zeiten: <b>Kampf.</b> Füge deine [willpower] deinem Fertigkeitswert hinzu. Dieser Angriff fügt +3 Schaden zu. Falls dieser Angriff einen [[Elite]]-Gegner besiegt, ziehe 3 Karten. (Max. 1 Mal pro Spiel.)",
+        "traits": "Gegenstand. Relikt. Waffe. Nahkampf.",
+        "slot": "Hand"
     }
 ]
