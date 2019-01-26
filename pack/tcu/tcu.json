@@ -33,7 +33,7 @@
 		"type_code": "investigator"
 	},
 	{
-    "back_flavor": "Joe Diamond is a private eye with a reputation for handling cases that everyone else reagards as supernatural nonsense. He is thorough in his investigations and not one to be trifled with. His services have been employed by the wealthy as well as those down on their luck. No case is too large, too small, too strange, or too dangerous. In Joe's experience, things start getting nasty right when you start reaching the truth, and that is exactly where he likes to be.",
+    "back_flavor": "Joe Diamond is a private eye with a reputation for handling cases that everyone else regards as supernatural nonsense. He is thorough in his investigations and not one to be trifled with. His services have been employed by the wealthy as well as those down on their luck. No case is too large, too small, too strange, or too dangerous. In Joe's experience, things start getting nasty right when you start reaching the truth, and that is exactly where he likes to be.",
     "back_text": "<b>Deck size</b>: 40.\n<b>Deckbuilding options</b>: Seeker cards ([seeker]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Detective's Colt 1911s, Unsolved Case, 1 random basic weakness.\n<b>Additional Requirements</b>: Your deck must include at least 11 [[Insight]] events (including Unsolved Case). During the setup of each scenario, you must choose 11 [[Insight]] events from your deck (one of which must be Unsolved Case) and shuffle them into a separate \"hunch deck\".",
     "code": "05002",
     "deck_limit": 1,
@@ -94,7 +94,7 @@
     "type_code": "investigator"
   },	
 	{
-    "back_flavor": "As new business owner in Arkham, Diana Stanley was proud to be inducted into the prestigious Silver Twilight Lodge. Her joy has since turned to dread. Her admittance into the organization was fantastic for business, but the weekly meeetings have grown more and more disturbing. After witnessing strange rituals and terrible secrets, Diana has become suspicious of the Lodge's true nature. Now she is convinced that there are terrible forces converging on Arkham, and that the Lodge is somehow involved. Diana has resolved to take it down from the inside, regardless of the cost.",
+    "back_flavor": "As new business owner in Arkham, Diana Stanley was proud to be inducted into the prestigious Silver Twilight Lodge. Her joy has since turned to dread. Her admittance into the organization was fantastic for business, but the weekly meetings have grown more and more disturbing. After witnessing strange rituals and terrible secrets, Diana has become suspicious of the Lodge's true nature. Now she is convinced that there are terrible forces converging on Arkham, and that the Lodge is somehow involved. Diana has resolved to take it down from the inside, regardless of the cost.",
     "back_text": "<b>Deck size</b>: 35.\n<b>Deckbuilding options</b>: Mystic cards ([mystic]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding requirements</b> (do not count toward deck size): Twilight Blade, Dark Insight, Terrible Secret, 1 random basic weakness.",
     "code": "05004",
     "deck_limit": 1,
@@ -118,7 +118,7 @@
     "skill_combat": 3,
     "skill_willpower": 1,
     "subname": "The Redeemed Cultist",
-    "text": "Diana Stanley gets +1 [willpower] for each card beneath her.\n[reaction] After a card you own cancels or ingores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource.(Limit once per phase.)\n[elder_sign] effect: +2. You may choose a card beneath Diana Stanley and add it to your hand.",
+    "text": "Diana Stanley gets +1 [willpower] for each card beneath her.\n[reaction] After a card you own cancels or ignores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource.(Limit once per phase.)\n[elder_sign] effect: +2. You may choose a card beneath Diana Stanley and add it to your hand.",
     "traits": "Cultist. Silver Twilight.",
     "type_code": "investigator"
   },
@@ -150,6 +150,38 @@
     "subname": "The Athlete",
     "text": "[reaction] After you evade an enemy: Either deal 1 damage to that enemy, or move to a connecting location. (Limit once per round.)\n[elder_sign] effect: +2. Until the end of the round, ignore the limit on the above [reaction] ability.",
     "traits": "Miskatonic.",
+    "type_code": "investigator"
+  },
+  {
+    "back_flavor": "Marie Lambeau always had a voice to die for. People called her \"the Smoky Velvet.\" They said she was born to sing jazz, that she had the magic touch — and maybe they were right. After all, the songs she heard in her dreams ever since her Grand-Mère passed away were like nothing she'd ever heard before. The vocals sounded like no language spoken on Earth, the notes twisted and warped. Why her Grand-Mère had moved from New Orleans to Arkham, Marie would never know. People used to call her Grand-Mère a witch. Maybe there's more than just jazz in Marie's blood, after all...",
+    "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding options</b>: [[Spell]] cards level 0-5, Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5, [[Occult]] cards level 0, up to five other level 0 Seeker and/or Survivor cards ([seeker] and/or [survivor]).\n<b>Deckbuilding requirements</b> (do not count toward deck size): Mystifying Song, Baron Samedi, 1 random basic weakness.",
+    "code": "05006",
+    "deck_limit": 1,
+    "deck_options": [
+        {"trait":["spell"], "level":{"min":0, "max":5} },
+        {"faction":["mystic"], "level":{"min":0, "max":3} },
+        {"faction":["neutral"], "level":{"min":0, "max":5} },
+        {"trait":["occult"], "level":{"min":0, "max":0} },
+        {"faction":["seeker","survivor"],"level":{"min":0, "max":0}, "limit":5}
+    ],
+    "deck_requirements": "size:30, card:05018, card:05019, random:subtype:basicweakness",
+    "double_sided": true, 
+    "faction_code": "mystic",
+    "health": 6,
+    "illustrator": "Tony Foti",
+    "is_unique": true,
+    "name": "Marie Lambeau",
+    "pack_code": "tcu",
+    "position": 6,
+    "quantity": 1,
+    "sanity": 8,
+    "skill_agility": 3,
+    "skill_intellect": 4,
+    "skill_combat": 1,
+    "skill_willpower": 4,
+    "subname": "The Entertainer",
+    "text": "While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play [[Spell]] cards or activate [[Spell]] [action] abilities.\n[elder_sign] effect: +1. You may add 1 doom to or remove 1 doom from a card you control.",
+    "traits": "Performer. Sorcerer.",
     "type_code": "investigator"
   },
   {
@@ -216,7 +248,7 @@
   	"quantity": 1,
   	"restrictions": "investigator:05002",
   	"subtype_code": "weakness",
-  	"text": "Place 1 of your clues on the location with the highest shroud. Remove Unsolved Case from the game.\n<b>Forced</b> - If Unsolved Case would be shuffled into your hunch deck: Add it to your threat area instead. For the remainder of the game, it gains: \"<b>Forced</b> - When the game ends: Joe Dimaond earns 2 fewer experience for this scenario.\"",
+  	"text": "Place 1 of your clues on the location with the highest shroud. Remove Unsolved Case from the game.\n<b>Forced</b> - If Unsolved Case would be shuffled into your hunch deck: Add it to your threat area instead. For the remainder of the game, it gains: \"<b>Forced</b> - When the game ends: Joe Diamond earns 2 fewer experience for this scenario.\"",
   	"traits": "Insight. Mystery.",
   	"type_code": "event"
 	},
@@ -340,6 +372,40 @@
 		"traits": "Humanoid. Cultist.",
 		"type_code": "enemy"
 	},	
+	{
+    "code": "05018",
+    "cost": 3,
+    "deck_limit": 1,
+    "faction_code": "neutral",
+    "illustrator": "Jeff Lee Johnson",
+    "name": "Mystifying Song",
+    "pack_code": "tcu",
+    "position": 18,
+    "quantity": 1,
+    "restrictions": "investigator:05006",
+    "skill_wild": 2,
+    "text": "Marie Lambeau deck only.\nFast. Play when the agenda would advance by reaching its doom threshold.\nUntil the end of the phase, the agenda cannot advance by reaching its doom threshold. Remove Mystifying Song from the game.",
+    "traits": "Spell. Song.",
+    "type_code": "event"
+  },
+  {
+    "code": "05019",
+    "deck_limit": 1,
+    "faction_code": "neutral",
+    "illustrator": "Magali Villeneuve",
+    "is_unique": true,
+    "name": "Baron Samedi",
+    "pack_code": "tcu",
+    "position": 19,
+    "quantity": 1,
+    "restrictions": "investigator:05006",
+    "subtype_code": "weakness",
+    "slot": "Ally",
+    "subname": "Lord of the Cemetery",
+    "text": "<b>Revelation</b> - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.\n<b>Forced</b> – When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.\n[free] Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him.",
+    "traits": "Avatar.",
+    "type_code": "asset"
+  },
 	{
 		"code": "05023",
 		"cost": 3,
