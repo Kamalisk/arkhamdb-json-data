@@ -57,6 +57,7 @@ def format_json(json_data):
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
     formatted_data = formatted_data.replace(u"\u2212", "-").replace(u"\u2013", "-")
     formatted_data = formatted_data.replace("\\r\\n", "\\n").replace(" \\n", "\\n") 
+    formatted_data = formatted_data.replace("    ", "\t")
     formatted_data += "\n"
     return formatted_data
 
