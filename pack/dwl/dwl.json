@@ -5,8 +5,8 @@
         "code": "02001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Guardian or Neutral"}
+            {"faction":["seeker", "rogue", "mystic", "survivor"], "level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Guardian or Neutral"},
+            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} }
         ],
         "deck_requirements": "size:30, card:02006, card:02007, random:subtype:basicweakness",
         "double_sided": true, 
@@ -36,8 +36,8 @@
         "deck_limit": 1,
         "deck_options": [
             {"not": true, "trait": ["fortune"] },
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Seeker or Neutral"}
+            {"faction":["guardian", "rogue", "mystic", "survivor"], "level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Seeker or Neutral"},
+            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} }
         ],
         "deck_requirements": "size:30, card:02008, card:02009, random:subtype:basicweakness",
         "double_sided": true, 
@@ -66,8 +66,8 @@
         "code": "02003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Rogue or Neutral"}
+            {"faction":["guardian", "seeker", "mystic", "survivor"], "level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Rogue or Neutral"},
+            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
         "double_sided": true, 
@@ -96,8 +96,8 @@
         "code": "02004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Mystic or Neutral"}
+            {"faction":["guardian", "seeker", "rogue", "survivor"], "level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Mystic or Neutral"},
+            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} }
         ],
         "deck_requirements": "size:30, card:02012, card:02013, random:subtype:basicweakness",
         "double_sided": true, 
@@ -126,8 +126,8 @@
         "code": "02005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Survivor or Neutral"}
+            {"faction":["guardian", "seeker", "rogue", "mystic"], "level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Survivor or Neutral"},
+            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} }
         ],
         "deck_requirements": "size:30, card:02014, card:02015, random:subtype:basicweakness",
         "double_sided": true, 
