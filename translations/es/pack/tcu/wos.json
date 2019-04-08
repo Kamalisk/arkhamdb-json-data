@@ -1,42 +1,73 @@
 [
     {
         "code": "05151",
-        "flavor": "\"Please leave this to the professionals. If I find you poking around again, I will bring you in.\"",
+        "flavor": "\"Por favor, deje esto a los profesionales. Si le vuelvo a ver inmiscuyéndose, le arrestaré.\"",
         "name": "Alice Luxley",
-        "subname": "Fearless Flatfoot",
-        "text": "You get +1 [intellect].\n[reaction] After you discover a clue, exhaust Alice Loxley: Deal 1 damage to an enemy at your location.",
-        "traits": "Ally. Detective. Police.",
-        "slot": "Ally"
+        "subname": "Madera intrépida",
+        "text": "Recibes +1 [intellect].\n[reaction] Después de que descubras una pista, agota a Alice Luxley: Inflige 1 punto de daño a un Enemigo que esté en tu Lugar.",
+        "traits": "Aliado. Detective. Policía.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "05152",
+        "name": "Bien cuidado",
+        "text": "Rápido. Juega esta carta sólo durante tu turno.\nVincula esta carta a un Apoyo [[Objeto]] que controles. Límite de 1 por Apoyo.\n[reaction] Después de que el Apoyo vinculado sea descartado: Devuélvelo a la mano de su propietario, junto con todas las demás cartas vinculadas [[Mejora]] que tuivera vinculadas.",
+        "traits": "Mejora."
     },
     {
         "code": "05153",
-        "flavor": "\"Are you sure you want to know? There is no going back.\"",
-        "name": "Mr. \"Rook\"",
-        "subname": "Dealer in Secrets",
-        "text": "Uses (3 secrets).\n[free] Exhaust Mr. \"Rook\" and spend 1 secret: Search the top 3, 6, or 9 cards of your deck for any card and draw it. If at least 1 weakness is among the searched cards, draw 1 of them, as well. Shuffle your deck.",
-        "traits": "Ally.",
-        "slot": "Ally"
+        "flavor": "\"¿Seguro que lo quiere saber? No hay vuelta atrás.\"",
+        "name": "Sr. \"Torre\"",
+        "subname": "Tratante de secretos",
+        "text": "Usos (3 secretos).\n[free] Agota al Sr. \"Torre\" y gasta 1 secreto: Busca entre las 3, 6 o 9 primeras cartas de tu mazo cualquier carta y róbala. Si hay al menos 1 Debilidad entre las cartas que has mirado, roba también 1 de ellas. Baraja tu mazo.",
+        "traits": "Aliado.",
+        "slot": "Aliado"
     },
     {
         "code": "05154",
-        "name": "Hawk-Eye Folding Camera",
-        "text": "[reaction] After the last clue is discovered from your location: Place 1 resource <i>(from the token pool)</i> on this card, as evidence. (Limit once per game at each location.)\nWhile Hawk-Eye Folding Camera has ...\n- ... 1 or more evidence, you get +1 [willpower].\n- ... 2 or more evidence, you get +1 [intellect].\n- ... 3 or more evidence, you get +1 sanity.",
-        "traits": "Item. Tool.",
-        "slot": "Hand"
+        "name": "Cámara plegable Hawk-Eye",
+        "text": "[reaction] Después de que se descubra la última pista de tu Lugar: Coloca 1 recurso <i>(de la reserva de fichas)</i> sobre esta carta, como prueba. Límite de una vez por partida en cada Lugar.\nMientras la Cámara plegable Hawk-Eye tenga…\n- …1 o más pruebas, recibes +1 [willpower].\n- …2 o más pruebas, recibes +1 [intellect].\n- …3 o más pruebas, recibes +1 punto de cordura.",
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
     },
     {
         "code": "05155",
         "name": "Henry Wan",
-        "subname": "Aspiring Actor",
-        "text": "[action] Exhaust Henry Wan: One at a time, reveal random tokens from the chaos bag until you choose to stop, or until you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol.\n- If you chose to stop, for each token revealed via this effect, you may either draw 1 card or gain 1 resource.\n- If you revealed a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, do nothing.",
-        "traits": "Ally. Criminal.",
-        "slot": "Ally"
+        "subname": "Actor aspirante",
+        "text": "[action] Agota a Henry Wan: De una en una, revela fichas aleatorias de la bolsa de caos hasta que elijas parar o hasta que reveles un símbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail].\n- Si eliges parar, por cada ficha revelada mediante este efecto, puedes robar 1 carta o bien obtener 1 recurso.\n- Si revelaste un símbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail], no hagas nada.",
+        "traits": "Aliado. Criminal.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "05156",
+        "name": "Reflejos rápidos",
+        "text": "Rápido. Juega esta carta durante el turno de cualquier investigador, excepto durante una acción.\nRealiza una acción inmediatamente como si fuera tu turno. Esta acción no cuenta para el número de acciones que puedes realizar cada turno.",
+        "traits": "Gambito."
+    },
+    {
+        "code": "05157",
+        "name": "Ajar",
+        "text": "[action]: <b>Combatir.</b> Este ataque usa [willpower] en lugar de [combat]. Si se revela un símbolo [skull], [cultist], [tablet] o [elder_thing] durante este ataque, el Enemigo atacado recibe -1 a combate y -1 a evitar durante el resto del turno (hasta un mínimo de 1).",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
     },
     {
         "code": "05158",
-        "name": "Sixth Sense",
-        "text": "[action]: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If a [skull], [cultist], [tablet], or [elder_thing] symbol is revealed during this test, you may choose a revealed location connected to your location; you are now investigating as if you were at the chosen location instead of your location (you may use either shroud value).",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Sexto sentido",
+        "text": "[action]: <b>Investigar.</b> Invetiga usando [willpower] en lugar de [intellect]. Si se revela un símbolo [skull], [cultist], [tablet] o [elder_thing] durante esta prueba, puedes elegir un Lugar revelado conectado a tu Lugar; ahora estás investigando como si estuvieras en el Lugar elegido en vez de en tu Lugar (puedes usar cualquiera de los valores de velo).",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "05159",
+        "name": "Apurando",
+        "text": "[reaction] Cuando inicies una pruena de habilidad, agota Apurando: Aumenta en 2 la dificultad de esta prueba. Obtén 2 recursos o roba 1 carta.",
+        "traits": "Talento."
+    },
+    {
+        "code": "05160",
+        "name": "Vientre de la bestia",
+        "text": "Rápido. Juega esta carta después de evitar con éxito a un Enemigo por 2 o más.\nDescubre 1 pista en el Lugar de ese Enemigo.",
+        "traits": "Gambito. Truco."
     }
 ]
