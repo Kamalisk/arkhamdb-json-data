@@ -1,4 +1,4 @@
-[	
+[
 	{
 		"code": "05151",
 		"cost": 4,
@@ -20,6 +20,22 @@
 		"traits": "Ally. Detective. Police.",
 		"type_code": "asset",
 		"xp": 0
+	},
+	{
+		"code": "05152",
+		"cost": 0,
+		"deck_limit": 2,
+		"faction_code": "guardian",
+		"illustrator": "John Pacer",
+		"name": "Well-Maintained",
+		"pack_code": "wos",
+		"position": 152,
+		"quantity": 2,
+		"skill_agility": 1,
+		"text": "Fast. Play only during your turn.\n Attach to an [[Item]] asset you control. Limit 1 per asset.\n[reaction] After attached asset is discarded: Return it to it's owner's hand, along with each other [[Upgrade]] attachment that was attached to it.",
+		"traits": "Upgrade.",
+		"type_code": "event",
+		"xp": 1
 	},
 	{
 		"code": "05153",
@@ -51,7 +67,7 @@
 		"illustrator": "Robert Laskey",
 		"name": "Hawk-Eye Folding Camera",
 		"pack_code": "wos",
-		"position": 155,
+		"position": 154,
 		"quantity": 2,
 		"skill_willpower": 1,
 		"slot": "Hand",
@@ -82,6 +98,39 @@
 		"xp": 0
 	},
 	{
+		"code": "05156",
+		"cost": 2,
+		"deck_limit": 2,
+		"faction_code": "rogue",
+		"illustrator": "Miguel Coimbra",
+		"name": "Swift Reflexes",
+		"pack_code": "wos",
+		"position": 156,
+		"quantity": 2,
+		"skill_agility": 2,
+		"text": "Fast. Play during any investigator's turn, except during an action.\nImmediately take an action as if it was your turn. This action does not count toward the number of actions you can take each turn.",
+		"traits": "Gambit.",
+		"type_code": "event",
+		"xp": 0
+	},
+	{
+		"code": "05157",
+		"cost": 2,
+		"deck_limit": 2,
+		"faction_code": "mystic",
+		"illustrator": "Damien Worm",
+		"name": "Wither",
+		"pack_code": "wos",
+		"position": 157,
+		"quantity": 2,
+		"skill_combat": 1,
+		"slot": "Arcane",
+		"text": "[action]: <b>Fight.</b> This attack uses [willpower] instead of [combat]. If a [skull], [cultist], [tablet], or [elder_thing] symbol is revealed during this attack, the attacked enemy gets -1 fight and -1 evade for the remainder of the turn (to a minimum of 1).",
+		"traits": "Spell.",
+		"type_code": "asset",
+		"xp": 0
+	},
+	{
 		"code": "05158",
 		"cost": 3,
 		"deck_limit": 2,
@@ -96,6 +145,39 @@
 		"text": "[action]: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. If a [skull], [cultist], [tablet], or [elder_thing] symbol is revealed during this test, you may choose a revealed location connected to your location; you are now investigating as if you were at the chosen location instead of your location (you may use either shroud value).",
 		"traits": "Spell.",
 		"type_code": "asset",
+		"xp": 0
+	},
+	{
+		"code": "05159",
+		"cost": 0,
+		"deck_limit": 2,
+		"faction_code": "survivor",
+		"illustrator": "Borja Pindado",
+		"name": "Drawing Thin",
+		"pack_code": "wos",
+		"position": 159,
+		"quantity": 2,
+		"skill_willpower": 1,
+		"text": "[reaction] When you initiate a skill test, exhaust Drawing Thin: Increase the difficulty of this skill test by 2. Gain 2 resources or draw 1 card.",
+		"traits": "Talent.",
+		"type_code": "asset",
+		"xp": 0
+	},
+	{
+		"code": "05160",
+		"cost": 1,
+		"deck_limit": 2,
+		"faction_code": "survivor",
+		"illustrator": "Stephen Somers",
+		"name": "Belly of the Beast",
+		"pack_code": "wos",
+		"position": 160,
+		"quantity": 2,
+		"skill_willpower": 1,
+		"skill_agility": 1,
+		"text": "Fast. Play after you successfully evade an enemy by 2 or more.\nDiscover 1 clue at that enemy's location.",
+		"traits": "Gambit. Trick.",
+		"type_code": "event",
 		"xp": 0
 	}
 ]
