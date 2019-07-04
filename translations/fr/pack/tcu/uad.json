@@ -1,29 +1,63 @@
 [
     {
         "code": "05229",
-        "flavor": "\"Stay back!\"",
-        "name": "Warning Shot",
-        "text": "As an additional cost to play Warning Shot, spend 1 ammo from a [[Firearm]] asset you control.\nMove all non-[[Elite]] enemies at your location to a connecting location. This action does not provoke attacks of opportunity.",
-        "traits": "Tactic. Trick."
+        "flavor": "\"en arrière !\"",
+        "name": "Tir de Sommation",
+        "text": "Dépensez 1 munition d'un soutien [[Arme à feu]] que vous contrôlez en tant que coût supplémentaire pour jouer Tir de Sommation.\nDéplacez tous les ennemis non-[[Elite]] de votre lieu vers un lieu connexe. Cette action ne provoque pas d'attaque d'opportunité.",
+        "traits": "Tactique. Ruse."
+    },
+    {
+        "code": "05230",
+        "name": "Viseur Télescopique",
+        "text": "Rapide. Attachez cette carte à un soutien [[Arme à feu]] que vous contrôlez et qui occupe deux emplacements de main. Le soutien attaché ne peut pas être utilisé pour attaquer des ennemis engagés avec vous.\n[reaction] Quand vous effectuez une action <b>Combattre</b> en utilisant le soutien attaché, si vous n'êtes pas engagé avec des ennemis, inclinez le Viseur Télescopique : cette attaque peut cibler un ennemi non-[[Elite]] dans un lieu connexe. Ignorez les mots-clés Distant et Riposte pour cette attaque.",
+        "traits": "Objet. Amélioration."
+    },
+    {
+        "code": "05231",
+        "flavor": "... et le pouvoir corrompt.",
+        "name": "Le Savoir c'est le Pouvoir",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nChoisissez un soutien [[Livre]] ou [[Sort]] que vous contrôlez, ou révélez un soutien [[Livre]] ou [[Sort]] de votre main. Résolvez une capacité [action] ou [free] sur ce soutien en ignorant tous ses coûts  <i>(y compris son coût [action] le cas échéant)</i>. Ensuite, si ce soutien était dans votre main, vous avez le droit de le defausser pour piocher 1 carte.",
+        "traits": "Perspicacité."
     },
     {
         "code": "05232",
-        "name": "Esoteric Atlas",
-        "text": "Uses (4 secrets).\n[action] Spend 1 secret and exhaust Esoteric Atlas: Choose a revealed location that is exactly 2 connections away from your location. Move to that location.",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "name": "Atlas Esotérique",
+        "text": "Utilisation (4 secrets).\n[action] Dépensez 1 secret et inclinez l'Atlas Esotérique : choisissez un lieu révélé éloigné d'exactement 2 connexions par rapport à votre lieu. Déplacez-vers ce lieur.",
+        "traits": "Objet. Livre.",
+        "slot": "Main"
+    },
+    {
+        "code": "05233",
+        "name": "Investissements",
+        "text": "Utilisation (0 supplies). Limite de 10 provision sur Investissements.\n[free] Inclinez Investissements : placez 1 provision dessus.\n[action] Inclinez et défausser Investissements : déplacez toutes les provisions dessus vers votre réserve de ressources, en tant que ressources.",
+        "traits": "Relation."
     },
     {
         "code": "05234",
-        "name": "Decoy",
-        "text": "<b>Evade.</b> Automatically evade a non-[[Elite]] enemy at your location.\n[reaction] When you play Decoy, increase its cost by 2: Change \"a non-[[Elite]] enemy\" to \"up to 2 non-[[Elite]] enemies.\"\n[reaction] When you play Decoy, increase its cost by 2: Change \"at your location\" to \"at a location up to 2 connections away.\"",
-        "traits": "Favor. Service."
+        "name": "Doublure",
+        "text": "<b>Echapper à.</b> Echappez automatiquement à un ennemi non-[[Elite]] dans votre lieu.\n[reaction] Quand vous jouez Doublure, augmentez de 2 son coût : changez \"un ennemi non-[[Elite]]\" en \"jusqu'à 2 ennemis non-[[Elite]].\"\n[reaction] Quand vous jouez Doublure, augmentez de 2 son coût : changez \"dans votre lieu\" en \"dans un lieu éloigné de jusqu'à 2 connexions.\"",
+        "traits": "Faveur. Service."
+    },
+    {
+        "code": "05235",
+        "flavor": "Ludwig Prinn en était l'auteur ; lui qui avait péripar le pal de l'inquisition à Bruxelles lorsque les procès pour sorcellerie étaient à leur paroxysme. - Robert Bloch, \"Le Visiteur venu des étoiles\"",
+        "name": "De Vermis Mysteriis",
+        "subname": "Signes des Etoiles Noires",
+        "text": "[action] Inclinez De Vermis Mysteriis et placez 1 fatalité dessus : jouez un événement [[Sort]] or [[Perspicacité]] de votre pile de défausse en réduisant de 1 son coût. Aprés la résolution de cet événement, retirez-le de la partie.",
+        "traits": "Objet. Livre.",
+        "slot": "Main"
     },
     {
         "code": "05236",
-        "name": "Guiding Spirit",
-        "text": "You get +1 [intellect].\nNon-direct horror must be assigned to Guiding Spirit before it can be assigned to your investigator card.\n<b>Forced</b> - After Guiding Spirit is defeated by horror: Exile it.",
-        "traits": "Ally. Geist.",
-        "slot": "Ally"
+        "name": "Esprit Guide",
+        "text": "Vous gagnez +1 [intellect].\nLes horreurs non-directes doivent être assignées à l'Esprit Guide avant de pouvoir être assignées à votre carte investigateur.\n<b>Forcé</b> - Après que l'Esprit Guide est vaincu par des horreurs : bannissez-le.",
+        "traits": "Allié. Geist.",
+        "slot": "Allié"
+    },
+    {
+        "code": "05237",
+        "name": "Chance ou Fatalité",
+        "text": "Rapide. À jouer quand de la fatalité devrait être placée sur n'importe quelle carte Scénario.\n1 max. par partie.\nAnnulez 1 fatalité qui vient d'être placée sur cette carte.\nBannissez Chance ou Fatalité.",
+        "traits": "Chance. Béni."
     }
 ]
