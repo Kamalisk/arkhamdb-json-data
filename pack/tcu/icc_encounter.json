@@ -16,7 +16,7 @@
 	{
 		"back_flavor": "The stars vanish in the night sky as the maw of the void swallows the horizon. The muffled beating of maddening drums and the thin whine of otherworldly flutes drift through the emptiness.",
 		"back_name": "The Final Incantation",
-		"back_text": "Check Campaign Log.\n- <i>If Anette Mason is possessed by evil, <b>(→R3)</b>.\n- <i>If Carl Sanford possesses the secrets of the universe,</i><b>(→R4)</b>.",
+		"back_text": "Check Campaign Log.\n- <i>If Anette Mason is possessed by evil</i>, <b>(→R3)</b>.\n- <i>If Carl Sanford possesses the secrets of the universe, </i><b>(→R4)</b>.",
 		"code": "05285",
 		"doom": 7,
 		"double_sided": true,
@@ -25,7 +25,7 @@
 		"faction_code": "mythos",
 		"flavor": "THE CONQUEST HAS BEGUN.\nALL SHALL TREMBLE BEFORE THE HOST OF CHAOS.\nSUBMIT OR PERISH.",
 		"illustrator": "Lenka Šimečková",
-		"name": "THE CHARIOT • VII",
+		"name": "THE CHARIOT · VII",
 		"pack_code": "icc",
 		"position": 285,
 		"quantity": 1,
@@ -75,7 +75,7 @@
 		"victory": 2
 	},
 	{
-		"back_flavor": "Somehow, despite all odds, you have managed to defeat the resurrected spirit which torments Anette Mason. She passes out and collapses to the ground, but the revenant inside forces her eyes open and puppeteers her body in a lurid display. \"Fools!\" the ragged, disembodied voice of Keziah declares through Anette's lips as she rises once more. \"You are naught but insects. I have seen the truth. I have seem the face of Chaos itself, and you will soon be a part of it. Now, come; join me, kneel before the Black Throne, and be one with the universe!\"\nYou shudder as the words reach your ears. Nothing she says makes sense to you, but you can tell her intent is dark and wicked. \"Leave this place,\" you muster up the will to command, \"Go back to the beyond from which you were summoned, and never return.\"",
+		"back_flavor": "Somehow, despite all odds, you have managed to defeat the resurrected spirit which torments Anette Mason. She passes out and collapses to the ground, but the revenant inside forces her eyes open and puppeteers her body in a lurid display. \"Fools!\" the ragged, disembodied voice of Keziah declares through Anette's lips as she rises once more. \"You are naught but insects. I have seen the truth. I have seen the face of Chaos itself, and you will soon be a part of it. Now, come; join me, kneel before the Black Throne, and be one with the universe!\"\nYou shudder as the words reach your ears. Nothing she says makes sense to you, but you can tell her intent is dark and wicked. \"Leave this place,\" you muster up the will to command, \"Go back to the beyond from which you were summoned, and never return.\"",
 		"back_name": "The Living and the Dead",
 		"back_text": "<b>(→R1)</b>",
 		"clues": null,
@@ -136,7 +136,7 @@
 		"victory": 2
 	},
 	{
-		"back_flavor": "Using force and ingenuity, you have managed to defeat Carl Sanford at his own game. The power he was drawing from surges painfully through him. \"You imbeciles,\" he spits, \"what do you think you have accomplished? We could have been immortal. Don't you understand? We could have been gods!\" he struggles to remain on his feet, his strength waning as he loses control of his power.\n\"At what cost?\" You reply, taking in the sight before you. \"You would have made us slaves, not gods. Slaves to your greed and the Order's power. I'd rather stay mortal than be your thrall.\"\n\"Then we will all perish,\" Carl responds bitterly. \"I could have made us into celestials. Instead we will be extinct. I hope you are satisfied.\"",
+		"back_flavor": "Using force and ingenuity, you have managed to defeat Carl Sanford at his own game. The power he was drawing from surges painfully through him. \"You imbeciles,\" he spits, \"what do you think you have accomplished? We could have been immortal. Don't you understand? We could have been <u>gods</u>!\" he struggles to remain on his feet, his strength waning as he loses control of his power.\n\"At what cost?\" You reply, taking in the sight before you. \"You would have made us slaves, not gods. Slaves to your greed and the Order's power. I'd rather stay mortal than be your thrall.\"\n\"Then we will all perish,\" Carl responds bitterly. \"I could have made us into celestials. Instead we will be extinct. I hope you are satisfied.\"",
 		"back_name": "Of Gods and Mortals",
 		"back_text": "<b>(→R2)</b>",
 		"clues": null,
@@ -156,7 +156,7 @@
 		"type_code": "act"
 	},
 	{
-		"back_flavor": "One of the richest and most historical neighborhoods in Arkham, the many decaying mansions and estates of French Hill hold a lot of old wealth...and many more secrets.",
+		"back_flavor": "One of the richest and most historical neighborhoods in Arkham, the many decaying mansions and estates of French Hill hold a lot of old wealth... and many more secrets.",
 		"clues": 0,
 		"code": "05290",
 		"double_sided": true,
@@ -174,7 +174,7 @@
 		"type_code": "location"
 	},
 	{
-		"back_flavor": "One of the richest and most historical neighborhoods in Arkham, the many decaying mansions and estates of French Hill hold a lot of old wealth...and many more secrets.",
+		"back_flavor": "One of the richest and most historical neighborhoods in Arkham, the many decaying mansions and estates of French Hill hold a lot of old wealth... and many more secrets.",
 		"clues": 0,
 		"code": "05291",
 		"double_sided": true,
@@ -409,10 +409,11 @@
 		"shroud": 4,
 		"text": "[free] Take 1 horror: Move 1 breach from Silver Twilight Lodge to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"victory": 1
 	},
 	{
-		"back_flavor": "As you approach Hangman’s Hill once more, you find it devoid of any activity-from the living or otherwise. It seems the coven has left this place behind, at least for the time being.",
+		"back_flavor": "As you approach Hangman’s Hill once more, you find it devoid of any activity - from the living or otherwise. It seems the coven has left this place behind, at least for the time being.",
 		"clues": 1,
 		"code": "05304",
 		"double_sided": true,
@@ -421,14 +422,15 @@
 		"faction_code": "mythos",
 		"illustrator": "Joshua Cairós",
 		"name": "Hangman's Hill",
-		"subname": "Shrouded In Mystery",
 		"pack_code": "icc",
 		"position": 304,
 		"quantity": 1,
 		"shroud": 4,
+		"subname": "Shrouded In Mystery",
 		"text": "[free] Take 1 damage: Move 1 breach from Hangman's Hill to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"victory": 1
 	},
 	{
 		"back_flavor": "As you approach the manor of the Lodge once more, bright light shines from behind its windows. You can hear faint chanting from within.",
@@ -440,11 +442,11 @@
 		"faction_code": "mythos",
 		"illustrator": "Jokubas Uogintas",
 		"name": "Silver Twilight Lodge",
-		"subname": "Where It All Ends",
 		"pack_code": "icc",
 		"position": 305,
 		"quantity": 1,
 		"shroud": 2,
+		"subname": "Where It All Ends",
 		"text": "[action]: Search the encounter deck and discard pile for a [[Silver Twilight]] enemy and draw it. Then, move all breaches from Silver Twilight Lodge to the current act. Shuffle the encounter deck.",
 		"traits": "Arkham.",
 		"type_code": "location"
@@ -454,7 +456,7 @@
 		"encounter_code": "in_the_clutches_of_chaos",
 		"encounter_position": 15,
 		"faction_code": "mythos",
-		"flavor": "You look upon the face of true chaos. Everything you have ever known, everything you have ever loved-it is all meaningless by comparison.",
+		"flavor": "You look upon the face of true chaos. Everything you have ever known, everything you have ever loved - it is all meaningless by comparison.",
 		"illustrator": "Alexandr Elichev",
 		"name": "Chaos Manifest",
 		"pack_code": "icc",
