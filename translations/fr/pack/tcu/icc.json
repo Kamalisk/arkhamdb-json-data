@@ -1,30 +1,76 @@
 [
     {
+        "code": "05273",
+        "name": "Grenades Mk 1 ",
+        "text": "Utilisations (3 provisions). Si la carte Grenades MK1 n'a pas de provisions, défaussez-la.If Mk 1 Grenades has no supplies, discard it.\n[action] Dépensez 1 provision: <b>Combattre.</b> Vous gagnez +2 [combat] pour cette attaque. Si cette attaque est réussie, au lieu de ses dégâts normaux, elle inflige 2 dégâts à chaque ennemi et à chaque autre investigateur dans votre lieu <i>(tout autre dégât supplémentaire est infligé à l'ennemi attaqué).</i>",
+        "traits": "Objet. Arme. A distance."
+    },
+    {
         "code": "05274",
-        "name": "Agency Backup",
-        "text": "Agency Backup may be assigned damage and/or horror dealt to other investigators at your location.\n[free] Exhaust Agency Backup and deal 1 damage to it: Deal 1 damage to an enemy at your location.\n[free] Exhaust Agency Backup and deal 1 horror to it: Discover 1 clue at your location.",
+        "name": "Renforts de l'Agence",
+        "text": "Les Renforts de l'Agence peuvent se voir assigner les dégâts et/ou les horreurs infligés aux autres investigateurs dans votre lieu.\n[free] Inclinez les Renforts de l'Agence et infligez-leur 1 dégâts : infligez 1 dégât à un ennemi dans votre lieu.\n[free] Inclinez les Renforts de l'Agence et infligez-leur 1 horreur : découvrez 1 indice dans votre lieu.",
         "traits": "Ally. Agency.",
         "slot": "Ally"
     },
     {
+        "code": "05275",
+        "name": "Epouvantable Révélation",
+        "text": "Découvrez 3 indices dans votre lieu. Donnez n'importe quel nombre de vos indices à un autre investigateur ou placez n'importe quel nombre de vos indices sur n'importe quel lieu. Vous êtes vaincu et subissez 1 traumatisme mental. Cette action ne provoque pas d'attaque d'opportunité.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "05276",
+        "flavor": "Peut-être Gilman aurait-il dû moins s'acharner dans ses études.\n- H. P. Lovecraft, <u>La Maison de la Sorcière</u>",
+        "name": "Studieux",
+        "text": "Permanent.\nVous débutez chaque partie avec 1 carte supplémentaire dans votre main de départ.",
+        "traits": "Talent."
+    },
+    {
+        "code": "05277",
+        "name": "Une Petite Faveur",
+        "text": "Infligez 1 dégât à un ennemi non-[[Elite]] dans votre lieu.\n[reaction] quand vous jouez Une Petite Faveur, augmentez de 2 son coût: Changez \"Infligez 1 dégât\" en \"Infligez 2 dégâts.\"\n[reaction] Quand vous jouez Une Petite Faveur, augmentez de 2 son coût : changez \"dans votre lieu\" en \"dans un lieu éloigné de jusqu'à 2 connexions.\"",
+        "traits": "Faveur. Service."
+    },
+    {
+        "code": "05278",
+        "flavor": "Ne perdez jamais de vue de qui est vraiment important.",
+        "name": "A chaque Jour Suffit sa Peine",
+        "text": "Permanent.\nVous débutez chaque partie avec deux ressources supplémentaires.",
+        "traits": "Talent."
+    },
+    {
         "code": "05279",
         "name": "Dayana Esperence",
-        "subname": "Deals with \"Devils\"",
-        "text": "Uses (3 secrets).\n[free]: Attach a non-weakness [[Spell]] event from your hand to Dayana Esperence. Limit 1 event attached to her.\nThe attached event may be played as if it were in your hand. It is not placed in your discard pile after it is played <i>(it remains attached)</i>. As an additional cost to play the attached event, exhaust Dayana Esperence and spend 1 secret.",
-        "traits": "Ally. Witch.",
-        "slot": "Ally"
+        "subname": "Fraye avec les \"Démons\"",
+        "text": "Utilisations (3 secrets).\n[free]: attachez un évènement [[Sort]] non-faiblesse de votre main à Dayana Esperence. Limite de 1 évènement attaché à elle.\nL'évènement attaché peut être joué comme s'il était dans votre main. Il n'est pas placé dans votre pile de défausse après avoir été joué <i>(il reste attaché)</i>. En tant que coût supplémentaire pour jouer l'évènement attaché, incliez Dayana Esperence et dépensez 1 secret.",
+        "traits": "Allié. Ensorceleur.",
+        "slot": "Allié"
     },
     {
         "code": "05280",
-        "name": "Deny Existence",
-        "text": "Fast. Play when an encounter card or enemy attack would cause you to do one of the following (choose one): Discard cards from hand, lose resources, lose actions, take damage, or take horror.\nYou ignore that aspect of the effect. Then, perform the opposite of that aspect (draw cards, gain resources, gain additional actions, heal damage, or heal horror, respectively).",
-        "traits": "Spell. Paradox."
+        "name": "Nier l'Existence",
+        "text": "Rapide. A jouer quand une carte Rencontre ou une attaque ennemie devrait vous infligez l'une des choses suivantes (choisir une option): défaussez des cartes de votre main, perdre des ressources, subnir des dégâts ou subir des horreurs.\n Ignorez cet aspect de l'effet. Ensuite, effectuez l'inverse de cet aspect (respectivement piocher des cartes, gagner des ressources, gagner des actions supplémentaires, soigner des dégâts ou soigner des horreurs).",
+        "traits": "Sort. Paradoxe."
     },
     {
         "code": "05281",
-        "flavor": "You never really know what you are capable of until something is trying to eat you.",
-        "name": "Trial by Fire",
-        "text": "Fast. Play only during your turn.\nChoose one of your skills. Until the end of your turn, set the base value of that skill to 5.",
+        "flavor": "Vous ne pouvez jamais réellement savoir ce dont vous êtes capable avant que quelque chose n'essaye de vous manger.",
+        "name": "L'Epreuve du Feu",
+        "text": "Rapide. A jouer uniquement lors de votre tour.\nChoisissez une de vos compétences. Jusqu'à la fin de votre tour, fixez la valeur de base de cette compétence à 5.",
         "traits": "Spirit."
+    },
+    {
+        "code": "05282",
+        "name": "Appât",
+        "text": "Choisissez une option :\n- <b>Echapper à.</b> En cas de réussite et si l'ennemi est non-[[Elite]], échappez-lui et déplacez-le vers un lieu connexe.\n- <b>Echapper à.</b> A utiliser uniquement sur un ennemi non-[[Elite]] dans un lieu connexe. En cas de réussite, échappez à cet ennemi et échangez de lieu avec lui.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "05283",
+        "name": "Anna Kaslow",
+        "subname": "Mystérieuse Voyante",
+        "text": "Vous possédez 2 emplacements de tarot supplémentaires.\n[reaction] Quand la partie débute, si Anna Kaslow est dans votre main de départ : mettez là en jeu.\n[reaction] Après l'entrée de jeu d'Anna Kaslow : cherchez un soutien [[Tarot]] dans votre deck et mettez-le en jeu.",
+        "traits": "Allié. Clairvoyant.",
+        "slot": "Allié"
     }
 ]

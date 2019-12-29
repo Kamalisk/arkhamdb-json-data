@@ -1,0 +1,31 @@
+[
+    {
+        "code": "06003",
+        "flavor": "\"When I find that beast, I'll put it down for good.\"",
+        "name": "Tony Morgan",
+        "subname": "The Bounty Hunter",
+        "text": "You may take an additional action during your turn, which can only be used to engage or fight an enemy with 1 or more bounties on it.\n[elder_sign] effect: +2. Place 1 bounty on Bounty Contracts.",
+        "traits": "Criminal. Hunter.",
+        "back_flavor": "Tony's tracked down low-life scum in every lousy corner of the world, but nothing could have prepared him for the thing he killed in Innsmouth. It had the form of a man, more or less, but it was covered in loathsome scales and slime, like some horrid creature of the deep. It stank of salt water, rotten fish, and blood. He should've let it go when it dove into the river, but he'd never let a bounty escape before, and he wasn't about to start then. Ever since, he's found a new kind of dirtbag to hunt. Ordinary mobster or otherworldly monster, Tony will take it down… if someone is willing to pay him for it.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Secondary Class Choice</b>: At deck creation, choose Guardian ([guardian]), Seeker ([seeker]), or Survivor ([survivor]).\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bounty Contracts, 2 copies of Tony's .38 Long Colt, Tony's Quarry, 1 random basic weakness."
+    },
+    {
+        "code": "06010",
+        "name": "Bounty Contracts",
+        "text": "Permanent. Tony Morgan deck only. Uses (6 bounties).\n[reaction]: After an enemy enters play: Move 1-3 bounties from Bounty Contracts to that enemy, to a maximum of that enemy's health.\n<b>Forced</b> - After you defeat an enemy with 1 or more bounties on it: Move its bounties to your resource pool, as resources.",
+        "traits": "Job."
+    },
+    {
+        "code": "06011",
+        "name": "Tony's .38 Long Colt",
+        "text": "Tony Morgan deck only. Uses (3 ammo).\n[reaction]: After you play Tony's .38 Long Colt: Play another Tony's .38 Long Colt from your hand, at no cost.\n[action] Spend 1 ammo: <b>Fight.</b>. You get +1 [combat] for each bounty on the attacked enemy. This attack deals +1 damage. If this attack defeats an enemy with 1 or more bounties on it, place 1 bounty on Bounty Contracts.",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand"
+    },
+    {
+        "code": "06012",
+        "name": "Tony's Quarry",
+        "text": "<b>Spawn</b> - Location farthest from Tony Morgan.\nAloof.\n<b>Forced</b> - After Tony's Quarry enters play: Place 1 doom on it. Then, place 1 resource on it <i>(from the token pool),</i> as a bounty.",
+        "traits": "Humanoid. Monster. Deep One."
+    }
+]

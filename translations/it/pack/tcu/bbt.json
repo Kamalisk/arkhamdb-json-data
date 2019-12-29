@@ -1,22 +1,83 @@
 [
     {
+        "code": "05313",
+        "name": "Specchio Sacro",
+        "text": "Limite di 1 per mazzo.\n<b>Obbligo</b> – Dopo che lo Specchio Sacro è entrato in gioco: Cerca tra le tue carte vincolate 3 copie della Melodia Suadente. Aggiungine 1 alla tua mano e rimescola le altre 2 nel tuo mazzo. Quando lo Specchio Sacro esce dal gioco, trova ognuna di quelle copie della Melodia Suadente (anche se sono fuori dal gioco) e rimuovile dal gioco.",
+        "traits": "Oggetto. Reliquia. Occulto. Benedetto.",
+        "slot": "Accessorio"
+    },
+    {
+        "code": "05314",
+        "flavor": "Et leur chanson se mêle au clair de lune,\nAu calme clair de lune triste et beau…\n-Paul Verlaine, \"Clair de Lune\"",
+        "name": "Melodia Suadente",
+        "text": "Vincolo (Specchio Sacro).\nCura 2 danni oppure 2 orrori (oppure una qualsiasi combinazione delle due opzioni precedenti) a investigatori e/o supporti [[Alleato]] nel tuo luogo. Pesca 1 carta.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "05315",
+        "name": "\"Ho Visto di Peggio...\"",
+        "text": "Veloce. Gioca solo quando subisci danni e/o orrori.\nAnnulla fino a 2 danni e/o orrori che hai appena subito. Poi ottieni un pari ammontare di risorse.",
+        "traits": "Spirito"
+    },
+    {
         "code": "05316",
-        "name": "Occult Lexicon",
-        "text": "Limit 1 per deck.\n<b>Forced</b> - After Occult Lexicon enters play: Search your bonded cards for 3 copies of Blood-Rite. Add 1 to your hand and shuffle the other 2 into your deck. When Occult Lexicon leaves play, find each of those copies of Blood-Rite (even if they are out of play) and remove them from the game.",
-        "traits": "Item. Tome. Occult.",
-        "slot": "Hand"
+        "name": "Dizionario Occulto",
+        "text": "Limite di 1 per mazzo.\n<b>Obbligo</b> - Dopo che il Dizionario Occulto è entrato in gioco: Cerca tra le tue carte vincolate 3 copie del Rito di Sangue. Aggiungine 1 alla tua mano e rimescola le altre 2 nel tuo mazzo. Quando il Dizionario Occulto esce dal gioco, trova ognuna di quelle copie del Rito di Sangue (anche se sono fuori dal gioco) e rimuovile dal gioco.",
+        "traits": "Oggetto. Tomo. Occulto.",
+        "slot": "Mano"
     },
     {
         "code": "05317",
-        "name": "Blood-Rite",
-        "text": "Bonded (Occult Lexicon).\nDraw 2 cards. Discard up to 2 cards from your hand. For each card thusly discarded, you may either gain 1 resource, or spend 1 resource to deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity.",
-        "traits": "Spell."
+        "name": "Rito di Sangue",
+        "text": "Vincolo (Dizionario Occulto).\nPesca 2 carte. Scarta fino a 2 carte dalla tua mano. Per ogni carta scartata in questo modo, puoi scegliere se ottenere 1 risorsa oppure spendere 1 risorsa per infliggere 1 danno a un nemico nel tuo luogo. Questa azione non provoca attacchi di opportunità.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "05318",
+        "flavor": "L’ignoranza è una virtù che non puoi permetterti.",
+        "name": "Intravedere l’Impensabile",
+        "text": "Rimescola un qualsiasi numero di carte non debolezza dalla tua mano nel tuo mazzo. Pesca carte finché non raggiungi il tuo limite di mano. Rimuovi dal gioco Intravedere l’Impensabile.",
+        "traits": "Intuizione."
+    },
+    {
+        "code": "05319",
+        "flavor": "\"Certo, certo, come no. È quello che hai detto le ultime tre volte.\"",
+        "name": "\"Mi Devi un Favore!\"",
+        "text": "Guarda la mano di un altro investigatore. Puoi giocare 1 carta non debolezza nella mano di quell’investigatore, sotto il tuo controllo. Se lo fai, tu e quell’investigatore pescate 1 carta.",
+        "traits": "Favore. Azzardo."
+    },
+    {
+        "code": "05320",
+        "flavor": "Arpietto grida \"è l'ora, è l'ora!\"\n- William Shakespeare, Macbeth",
+        "name": "Doppia, Doppia",
+        "text": "Straordinario.\n[reaction] Dopo che hai giocato un evento, esaurisci Doppia, Doppia: Gioca di nuovo quell’evento come se fosse nella tua mano.",
+        "traits": "Rituale.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "05321",
+        "name": "Deperimento",
+        "text": "[action] <b>Combatti.</b> Usa [willpower] invece di [combat]. Ricevi +2 [willpower] in questo attacco. Se riveli un simbolo [skull], [cultist], [tablet], o [elder_thing], il nemico attaccato riceve -1 Scontro, -1 Salute e -1 Agilità per il resto del turno (fino a un minimo di 1).",
+        "traits": "Incantesimo",
+        "slot": "Arcano"
     },
     {
         "code": "05322",
-        "name": "Sixth Sense",
-        "text": "[action]: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this investigation. If a [skull], [cultist], [tablet], or [elder_thing] symbol is revealed during this test, you may choose a revealed location up to 2 connections away from your current location; you are now investigating as if you were at the chosen location in addition to your location (you may use either shroud value).",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Sesto Senso",
+        "text": "[action]: <b>Indaga.</b> Usa [willpower] invece di [intellect]. Ricevi +2 [willpower] in questa indagine. Se riveli un simbolo [skull], [cultist], [tablet], o [elder_thing], puoi scegliere 1 luogo aperto entro un massimo di 2 collegamenti dal tuo luogo; ora indaghi come se ti trovassi nel luogo scelto in aggiunta al tuo luogo (puoi usare uno qualsiasi dei due valori di Oscurità).",
+        "traits": "Incantesimo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "05323",
+        "name": "Esca",
+        "text": "Assegna questa carta al tuo luogo o a un luogo collegato al tuo.\nDurante la Fase dei Nemici, invece di muoversi normalmente, ogni nemico che si muove lo fa lungo il percorso più breve fino al luogo con questo evento.\n<b>Obbligo</b> - Alla fine del round, se questo evento è assegnato: Scarta l’Esca.",
+        "traits": "Trucchetto."
+    },
+    {
+        "code": "05324",
+        "name": "Eucatastrofe",
+        "text": "Veloce. Gioca solo quando riveli un segnalino caos che sta per ridurre a 0 il tuo valore di abilità durante una prova di abilità (incluso il segnalino [auto_fail]).\nAnnulla quel segnalino e consideralo invece come se fosse un segnalino [elder_sign].",
+        "traits": "Sorte. Benedetto."
     }
 ]
