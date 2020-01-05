@@ -46,9 +46,10 @@
 		"pack_code": "tsh",
 		"position": 169,
 		"quantity": 1,
+		"subname": "The Ultimate Abomination",
 		"text": "<b>Spawn</b> - Attic or Upstairs Hallway.\nAloof. Hunter. Cannot be defeated.\nFor each of the following which are true, The Unnamable gets -1 fight and -1 evade (the investigators \"found a cracked mirror,\" \"studied a desecrated portrait,\" or \"noticed the missing bones\").",
 		"traits": "Monster. Abomination. Elite.",
-		"type_code": "agenda"
+		"type_code": "enemy"
 	},
 	{
 		"back_flavor": "Time is running short. The entity, which before had seemed content to loom and observe you from afar, now swells with power and pursues you with relentless ferocity. It writhes and thrashes, seemingly everywhere at once. You have to hurry and confront your fears, or you will never find your way into the Dreamlands.",
@@ -60,7 +61,7 @@
 		"encounter_code": "a_thousand_shapes_of_horror",
 		"encounter_position": 3,
 		"faction_code": "mythos",
-		"flavor": "You’ve felt an evil presence lurking here ever since you arrived. The entity defies all description. At times it appears formless; at others, it embodies myriad shapes and features. You can sometimes pick out a particular aspect — an eye, a horn, a blemish — but it disappears as soon as you focus on it.",
+		"flavor": "You’ve felt an evil presence lurking here ever since you arrived. The entity defies all description. At times it appears formless; at others, it embodies myriad shapes and features. You can sometimes pick out a particular aspect - an eye, a horn, a blemish - but it disappears as soon as you focus on it.",
 		"illustrator": "Yoann Boissonnet",
 		"name": "The Thing with No Name",
 		"pack_code": "tsh",
@@ -131,7 +132,7 @@
 		"type_code": "act"
 	},
 	{
-		"back_flavor": "\"Looking toward the giant willow in the centre of the cemetery, whose trunk has nearly engulfed an ancient, illegible slab, I had made a fantastic remark about the spectral and unmentionable nourishment which the colossal roots must be sucking in from that hoary, charnel earth...”\n – H. P. Lovecraft, \"The Unnamable\"",
+		"back_flavor": "\"Looking toward the giant willow in the centre of the cemetery, whose trunk has nearly engulfed an ancient, illegible slab, I had made a fantastic remark about the spectral and unmentionable nourishment which the colossal roots must be sucking in from that hoary, charnel earth...”\n - H. P. Lovecraft, \"The Unnamable\"",
 		"clues": 1,
 		"code": "06174",
 		"double_sided": true,
@@ -150,7 +151,7 @@
 		"victory": 1
 	},
 	{
-		"back_flavor": "\"I'd like to see that house, Carter. Where is it? Glass or no glass, I must explore it a little. And the tomb where you put those bones, and the other grave without an inscription — the whole thing must be a bit terrible.”\n – H. P. Lovecraft, \"The Unnamable\"",
+		"back_flavor": "\"I'd like to see that house, Carter. Where is it? Glass or no glass, I must explore it a little. And the tomb where you put those bones, and the other grave without an inscription — the whole thing must be a bit terrible.”\n - H. P. Lovecraft, \"The Unnamable\"",
 		"back_name": "Front Porch",
 		"clues": 1,
 		"code": "06175",
@@ -214,7 +215,6 @@
 		"encounter_code": "a_thousand_shapes_of_horror",
 		"encounter_position": 11,
 		"faction_code": "mythos",
-		"flavor": "“There! I was just trying to track my progress, and you can see it. Those little glints are eyes! They have to be! Something was watching me.” – Annie VanderMeer Mitsoda, The Investigators of Arkham Horror",
 		"illustrator": "Yoann Boissonnet",
 		"name": "Upstairs Hallway",
 		"pack_code": "tsh",
@@ -258,7 +258,7 @@
 		"position": 180,
 		"quantity": 1,
 		"shroud": 3,
-		"text": "[action][action]: Discard all non-weakness treachery cards from your threat area.\n[free] Investigators in the Bedroom spend 1 [per_investigator] clues, as a group: Remember that the investigators \"found a cracked mirror.\"",
+		"text": "[action] [action]: Discard all non-weakness treachery cards from your threat area.\n[free] Investigators in the Bedroom spend 1 [per_investigator] clues, as a group: Remember that the investigators \"found a cracked mirror.\"",
 		"type_code": "location",
 		"victory": 1
 	},
@@ -281,7 +281,7 @@
 		"victory": 1
 	},
 	{
-		"back_flavor": "\"...from the tomb came such a stifled uproar of gasping and whirring that my fancy peopled the rayless gloom with Miltonic legions of the misshapen damned.”\n – H. P. Lovecraft, \"The Unnamable\"",
+		"back_flavor": "\"...from the tomb came such a stifled uproar of gasping and whirring that my fancy peopled the rayless gloom with Miltonic legions of the misshapen damned.\"\n – H. P. Lovecraft, \"The Unnamable\"",
 		"clues": 1,
 		"code": "06182",
 		"double_sided": true,
@@ -429,6 +429,7 @@
 		"quantity": 1,
 		"skill_wild": 2,
 		"skill_willpower": 1,
+		"slot": "Accessory",
 		"subname": "Key to the Gate of Dreams",
 		"text": "[reaction] When you would take horror, exhaust The Silver Key: Cancel 1 of that horror.",
 		"traits": "Item. Charm. Relic.",
