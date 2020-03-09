@@ -56,8 +56,10 @@ def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
     formatted_data = formatted_data.replace(u"\u2212", "-").replace(u"\u2013", "-")
-    formatted_data = formatted_data.replace("\\r\\n", "\\n").replace(" \\n", "\\n") 
-    formatted_data = formatted_data.replace("    ", "\t")
+    formatted_data = formatted_data.replace("\\r\\n", "\\n").replace(" \\n", "\\n")
+    formatted_data = formatted_data.replace("][", "] [")
+    for i in range(8, 0, -1):
+         formatted_data = re.sub("^" + ("    " * i), "\t" * i, formatted_data, flags=re.MULTILINE)
     formatted_data += "\n"
     return formatted_data
 
