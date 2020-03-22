@@ -50,7 +50,7 @@
 		"position": 3,
 		"quantity": 1,
 		"stage": 2,
-		"text": "Forced – After an investigator at the same location as a ready [[Police]] enemy discovers 1 or more clues at that location or deals damage to a [[Humanoid]] enemy: Each ready [[Police]] enemy at that location engages that investigator and makes an immediate attack.",
+		"text": "<b>Forced</b> – After an investigator at the same location as a ready [[Police]] enemy discovers 1 or more clues at that location or deals damage to a [[Humanoid]] enemy: Each ready [[Police]] enemy at that location engages that investigator and makes an immediate attack.",
 		"type_code": "agenda"
 	},
 	{
@@ -124,7 +124,7 @@
 		"position": 7,
 		"quantity": 1,
 		"subtype_code": "weakness",
-		"text": "<b>Revelation</b> - Put What Have You Done? into play in your threat area.\nAs an additional cost for you to parley, you must discard a card at random from your hand. [action]: Shuffle What Have You Done? into your deck.",
+		"text": "<b>Revelation</b> - Put What Have You Done? into play in your threat area.\nAs an additional cost for you to parley, you must discard a card at random from your hand.\n[action]: Shuffle What Have You Done? into your deck.",
 		"traits": "Madness.",
 		"type_code": "treachery"
 	},
@@ -254,7 +254,7 @@
 		"position": 14,
 		"quantity": 1,
 		"shroud": 4,
-		"text": "[action] Spend 2 resources: You place an order while enduring the withering glares of the entire waitstaff. At the end of your turn, if you are still at the Restaurant, you may take 1 horror to heal 3 damage. (Limit once per game.)\nfFree] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Restaurant <i>(from the token bank.)</i>",
+		"text": "[action] Spend 2 resources: You place an order while enduring the withering glares of the entire waitstaff. At the end of your turn, if you are still at the Restaurant, you may take 1 horror to heal 3 damage. (Limit once per game.)\n[free] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Restaurant <i>(from the token bank.)</i>",
 		"traits": "Hall.",
 		"type_code": "location"
 	},
@@ -348,8 +348,8 @@
 		"position": 19,
 		"quantity": 1,
 		"shroud": 4,
-		"text": "Veiled.",
-		"traits": "[action]: Test [intellect] (1). If you succeed, move a [[Humanoid]] enemy at any location once toward the Basement.\n[reaction] After you defeat an enemy in the Basement: Move any number of clues controlled by investigators at the Basement to Tome of Rituals (if it is in play).",
+		"text": "[action]: Test [intellect] (1). If you succeed, move a [[Humanoid]] enemy at any location once toward the Basement.\n[reaction] After you defeat an enemy in the Basement: Move any number of clues controlled by investigators at the Basement to Tome of Rituals (if it is in play).",
+		"traits": "Crime Scene.",
 		"type_code": "location",
 		"victory": 1
 	},
@@ -535,7 +535,7 @@
 		"pack_code": "hotel",
 		"position": 30,
 		"quantity": 3,
-		"text": "<b>Revelation</b> - Place 1 doom on Otherworldly Meddler (if it is in play) and test [willpower] (4). If you fail, you must either (choose one):\n— Take 2 horror.\n— Deal 2 damage to an investigator or [[Humanoid]] enemy at your location.",
+		"text": "Peril. <b>Revelation</b> - Place 1 doom on Otherworldly Meddler (if it is in play) and test [willpower] (4). If you fail, you must either (choose one):\n— Take 2 horror.\n— Deal 2 damage to an investigator or [[Humanoid]] enemy at your location.",
 		"traits": "Hazard.",
 		"type_code": "treachery"
 	},
@@ -573,6 +573,7 @@
 		"pack_code": "hotel",
 		"position": 32,
 		"quantity": 1,
+		"subname": "Let the Feast Begin",
 		"text": "Massive. Retaliate.\nEach [[Guest]] enemy loses patrol and gains surge.\n<b>Forced</b> – At the start of the enemy phase: Add 1 [[Guest]] enemy at Hotel Manager's location to the victory display, then place 2 doom on Hotel Manager. Move each other Guest enemy one location toward Hotel Manager.",
 		"traits": "Monster. Staff. Elite.",
 		"type_code": "enemy",
