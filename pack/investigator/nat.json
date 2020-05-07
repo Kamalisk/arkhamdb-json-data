@@ -33,18 +33,21 @@
 		"deck_limit": 1,
 		"faction_code": "guardian",
 		"health": 1,
-		"illustrator": "Patrick McEvoy",
+		"flavor": "You gotta give this up, Nathaniel. Sooner or later, you're gonna get yourself killed.",
+		"illustrator": "Derek D. Edgell",
 		"is_unique": true,
 		"name": "Randall Cho",
 		"pack_code": "nat",
 		"position": 2,
 		"quantity": 1,
 		"restrictions": "investigator:60101",
-		"sanity": 1,
+		"sanity": 3,
+		"skill_intellect": 1,
 		"skill_wild": 1,
+		"skill_willpower": 1,
 		"slot": "Ally",
-		"text": "Nathaniel Cho deck only.\n<b>This card has not yet been announced and is a placeholder.</b>",
-		"traits": "Ally.",
+		"text": "Nathaniel Cho deck only.\n[reaction] After Randall Cho enters play: Heal 3 damage or search your deck and discard pile for a [[Weapon]] asset, play it (paying its cost), and shuffle your deck.",
+		"traits": "Ally. Medic.",
 		"type_code": "asset"
 	},
 	{
@@ -169,5 +172,22 @@
 		"traits": "Insight. Spirit.",
 		"type_code": "event",
 		"xp": 2
+	},
+	{
+		"code": "60132",
+		"cost": 2,
+		"deck_limit": 2,
+		"faction_code": "guardian",
+		"flavor": "Nathaniel is renowned for his rapid left jab and right cross signature move.",
+		"illustrator": "Patrick McEvoy",
+		"name": "One-Two Punch",
+		"pack_code": "nat",
+		"position": 32,
+		"quantity": 2,
+		"skill_combat": 4,
+		"text": "<b>Fight.</b> You automatically succeed and deal +1 damage for this attack. You may fight again. You get +3 [combat] and deal +2 damage for that attack.",
+		"traits": "Spirit. Tactic.",
+		"type_code": "event",
+		"xp": 5
 	}
 ]
