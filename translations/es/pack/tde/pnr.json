@@ -1,15 +1,97 @@
 [
     {
+        "code": "06234",
+        "name": "Rescate heroico",
+        "text": "Rápido. Juega esta carta cuando un Enemigo que no sea [[Élite]] fuese a atacar a otro investigador que esté en tu Lugar o en un Lugar conectado.\nMuévete a ese Lugar si no estás ya en él. Enfréntate a ese Enemigo y resuelve su ataque contra ti en lugar de contrar el otro investigador. A continuación, inflígele 1 punto de daño.",
+        "traits": "Espíritu. Táctica."
+    },
+    {
+        "code": "06235",
+        "name": "Liderazgo",
+        "text": "Mientras Liderazgo esté asignado a una prueba de habilidad que esté realizando otro investigador, Liderazgo obtiene [willpower][wild].\nSi esta prueba tiene éxite, obtén 2 recursos. Si Liderazgo está asignado a una prueba de habilidad que esté realizando otro investigador, ese investigador también obtiene 2 recursos.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "06236",
+        "name": "Diario onírico",
+        "subname": "Sueños de un explorador",
+        "text": "Sólo puedes incluir este Apoyo en tu mazo si lo mejoras a partid del Diario Onírico <i>(Sin traducir)</i>, y sólo si en el registro de campaña aparece que \"los investigadores han interpretado los sueños\".\nMientras estés en un Lugar cuyo valor de velo sea al menos 4, tu Esencia del sueño obtiene [wild][wild].\n[reaction] Cuando comienco tu turno: Busca entre tus cartas enlazadas la Esencia del sueño y añádela a tu mano.",
+        "traits": "Objeto. Tomo. Amuleto.",
+        "slot": "Mano"
+    },
+    {
+        "code": "06237",
+        "name": "Diario onírico",
+        "subname": "Sueños de un demente",
+        "text": "Sólo puedes incluir este Apoyo en tu mazo si lo mejoras a partid del Diario Onírico <i>(Sin traducir)</i>, y sólo si en el registro de campaña aparece que \"los investigadores han interpretado los sueños\".\nMientras estés enfrentado a un Enemigo, tu Esencia del sueño obtiene [wild][wild].\n[reaction] Cuando comienco tu turno: Busca entre tus cartas enlazadas la Esencia del sueño y añádela a tu mano.",
+        "traits": "Objeto. Tomo. Amuleto.",
+        "slot": "Mano"
+    },
+    {
+        "code": "06238",
+        "name": "Diario onírico",
+        "subname": "Dreams of a Child",
+        "text": "Sólo puedes incluir este Apoyo en tu mazo si lo mejoras a partid del Diario Onírico <i>(Sin traducir)</i>, y sólo si en el registro de campaña aparece que \"los investigadores han interpretado los sueños\".\nMientras tengas al menos 8 cartas en la mano, tu Esencia del sueño obtiene [wild][wild].\n[reaction] Cuando comienco tu turno: Busca entre tus cartas enlazadas la Esencia del sueño y añádela a tu mano.",
+        "traits": "Objeto. Tomo. Amuleto.",
+        "slot": "Mano"
+    },
+    {
+        "code": "06239",
+        "name": "Celeridad",
+        "text": "Límite de 1 por invetigador.\n[reaction] Después de que realices el mismo tipo de acción dos veces seguidas, agota Celeridad: Realiza otra acción de ese tipo de nuevo <i>(los tipos incluyen activar, enfrentarse, evitar, combatir, investigar, moverse, jugar, recursos y robar)</i>.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
         "code": "06240",
-        "flavor": "\"You're a maniac, Wini!\"\n\"I know! Isn't it wonderful?\"",
-        "name": "Daredevil",
-        "text": "After you commit Daredevil to a skill test, reveal cards from the top of your deck until you reveal a [rogue] skill you can commit to this test. Commit it. Shuffle each other revealed card back into your deck.",
-        "traits": "Fortune. Practiced"
+        "flavor": "—¡Wini, estás como una cabra!\n—¡Lo sé! ¿No es maravilloso?",
+        "name": "Temerario",
+        "text": "Después de que asignes Temerario a una prueba de habilidad, revela cartas de la parte superior de tu mazo hasta que reveles una habilidad [rogue] que puedes asignar a esta prueba. Asígnala. Devuelve todas las demás cartas reveladas a tu mazo y baraja éste.",
+        "traits": "Fortuna. Experimentado."
+    },
+    {
+        "code": "06241",
+        "name": "Llenarse de poder",
+        "subname": "Resistencia",
+        "text": "Miríada. Límite de 1 Llenarse de poder <i>(Resistencia)</i> por mazo.\nHasta 3 cartas Llenarse de poder ocupan un solo espacio arcano.\nEn cualquier momento en el que el efecto de una carta requiera que uses [willpower] en lugar de [combat], puedes ignorar ese aspecto del efecto.\n[free]: Agota Llenarse de poder: Recibes +2 [combat] para esta prueba.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "06242",
+        "name": "Llenarse de poder",
+        "subname": "Presteza",
+        "text": "Miríada. Límite de 1 Llenarse de poder <i>(Presteza)</i> por mazo.\nHasta 3 cartas Llenarse de poder ocupan un solo espacio arcano.\nEn cualquier momento en el que el efecto de una carta requiera que uses [willpower] en lugar de [agility], puedes ignorar ese aspecto del efecto.\n[free]: Agota Llenarse de poder: Recibes +2 [agility] para esta prueba.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "06243",
+        "name": "Llenarse de poder",
+        "subname": "Agudeza",
+        "text": "Miríada. Límite de 1 Llenarse de poder <i>(Agudeza)</i> por mazo.\nHasta 3 cartas Llenarse de poder ocupan un solo espacio arcano.\nEn cualquier momento en el que el efecto de una carta requiera que uses [willpower] en lugar de [intellect], puedes ignorar ese aspecto del efecto.\n[free]: Agota Llenarse de poder: Recibes +2 [intellect] para esta prueba.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "06244",
+        "flavor": "\"Este mundo a veces… Ojalá no regresara nunca.\"",
+        "name": "Twila Katherine Price",
+        "subname": "Perdida en un sueño",
+        "text": "[reaction] Después de que gastes 1 o más cargas de un Apoyo [[Hechizo]], agota a Twila Katherine Price: Coloca 1 carta sobre ese Apoyo.",
+        "traits": "Aliado. Artista. Soñador.",
+        "slot": "Aliado"
     },
     {
         "code": "06245",
-        "name": "A Glimmer of Hope",
-        "text": "Myriad.\nA Glimmer of Hope can only be played from your discard pile.\nAdd all copies of A Glimmer of Hope in your discard pile to your hand <i>(including this copy)</i>.",
-        "traits": "Blessed. Fortune."
+        "name": "Un destello de esperanza",
+        "text": "Miríada.\nUn destello de esperanza sólo puede jugarse desde tu pila de descartes.\nAñade todas las copias de Un destello de esperanza de tu pila de descartes a tu mano <i>(incluida esta copia)</i>.",
+        "traits": "Bendecido. Fortuna."
+    },
+    {
+        "code": "06246",
+        "name": "Retirada rauda",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nMientras la Retirada rauda esté asiganda durante una acción de evitar básica, obtiene [agility][agility] y el texto: \"Si esta prueba tiene éxito por 2 o más, puedes evitar automáticamente a otro Enemigo que esté en tu Lugar.\"",
+        "traits": "Innato. Desarrollado."
     }
 ]
