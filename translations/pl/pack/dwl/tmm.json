@@ -1,87 +1,90 @@
 [
     {
         "code": "02105",
-        "name": "Emergency Aid",
-        "text": "Choose an investigator at your location. Heal 2 damage from that investigator or from an [[Sprzymierzeniec]] asset he or she controls.",
+        "name": "Pomoc w nagłym wypadku",
+        "text": "Wybierz dowolnego badacza w twojej lokalizacji. Wylecz 2 obrażenia z danego badacza lub z dowolnego atutu z cechą [[Sprzymierzeniec]], który ten badacz kontroluje.",
         "traits": "Informacja. Nauka."
     },
     {
         "code": "02106",
-        "name": "Brother Xavier",
-        "subname": "Pure of Spirit",
-        "text": "Dostajesz +1 [willpower].\nBrother Xavier may be assigned damage and/or horror dealt to other investigators at your location.\nWhen Brother Xavier is defeated: Deal 2 damage to an enemy at your location.",
+        "name": "Brat Xavier",
+        "subname": "Człowiek czystego ducha",
+        "text": "Dostajesz +1 [willpower].\nBrat Xavier może otrzymać obrażenia i/lub punkty przerażenia zadawane innym badaczom w twojej lokalizacji.\nKiedy Brat Xavier zostaje pokonany: zadaj 2 obrażenia dowolnemu wrogowi w twojej lokalizacji.",
         "traits": "Sprzymierzeniec. ",
         "slot": "Sprzymierzeniec"
     },
     {
         "code": "02107",
-        "name": "\"I've got a plan!\"",
-        "text": "<b>Walka</b>. This attack uses [intellect]. You deal +1 damage for this attack for each clue you have (max +3 damage).",
+		"flavor": "\"To najgorszy plan, jaki w życiu słyszałem.\nNa co jeszcze czekamy?\"",
+        "name": "\"Mam plan!\"",
+        "text": "<b>Walka</b>. Ten atak używa [intellect]. W tym ataku zadajesz +1 obrażenie za każdy posiadany żeton wskazówki (max. +3 obrażenia).",
         "traits": "Informacja. Taktyka."
     },
     {
         "code": "02108",
-        "name": "Pathfinder",
-        "text": "[free]During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location.",
+		"flavor": "Poszukiwacze grozy nawiedzają dziwne, odlegle miejsca.<br><cite>H. P. Lovecraf, Rycina w starym domu</cite>",
+        "name": "Pionier",
+        "text": "[free]Podczas twojej tury, jeśli nie znajdujesz się w zwarciu z żadnymi wrogami, wyczerp Pioniera: porusz się do połączonej lokalizacji.",
         "traits": "Talent."
     },
     {
         "code": "02109",
-        "name": "Contraband",
-        "text": "Choose an asset controlled by an investigator at your location. Double the number of ammo or supply tokens on that asset.",
-        "traits": "Supply. Nielegalny."
+		"flavor": "Może to i nielegalne, ale przynajmniej załatwi sprawę.",
+        "name": "Kontrabanda",
+        "text": "Wybierz dowolny atut kontrolowany przez badacza w twojej lokalizacji. Podwój liczbę żetonów nabojów lub żetonów zapasów na danym atucie.",
+        "traits": "Zapasy. Nielegalny."
     },
     {
         "code": "02110",
-        "name": "Adaptable",
-        "text": "Trwały.\nIn between each game of a campaign, you may swap up to two o poziomie 0 cards out of your deck in exchange for an equal number of o poziomie 0 cards. (You must still follow all deckbuilding rules for your investigator).",
+        "name": "Adaptacyjność",
+        "text": "Trwały.\nPomiędzy wszystkimi rozgrywkami wchodzącymi w skład kampanii możesz zamienić maksymalnie dwie karty o poziomie 0 z twojej talii na taką samą liczbę kart o poziomie 0. (Nadal musisz przestrzegać wszystkich zasad tworzenia talii twojego badacza.)",
         "traits": "Talent."
     },
     {
         "code": "02111",
-        "flavor": "Some things, once seen, can't be unseen.",
-        "name": "Delve Too Deep",
-        "text": "In player order, each investigator draws 1 card from the top of the encounter deck. Then, add Delve Too Deep to the victory display.",
+        "flavor": "Gdy już coś ujrzysz, nie da się tego cofnąć.",
+        "name": "Nadmierna dociekliwość",
+        "text": "W kolejności graczy każdy badacz dobiera 1 kartę z wierzchu talii spotkań. Następnie dodaj Nadmierną dociekliwość do puli zwycięstwa.",
         "traits": "Informacja."
     },
     {
         "code": "02112",
-        "name": "Song of the Dead",
-        "text": "Zużywalny (5 ładunki).\n[action]<b> </b>Spend 1 charge: <b>Walka. </b>This attack uses [willpower] instead of [combat]. Dostajesz +1 [willpower] for this attack. If a [skull] symbol is revealed during this attack, this attack deals +2 damage.",
-        "traits": "Zaklęcie. Song.",
+        "name": "Pieśń umarłych",
+        "text": "Zużywalny (5 ładunków).\n[action]<b> </b>Wydaj 1 ładunek: <b>Walka. </b>Ten atak używa [willpower] zamiast [combat]. Do tego ataku dostajesz +1 [willpower]. Jeśli podczas tego ataku zostanie odkryty symbol [skull] ten atak zadaje +2 obrażenia.",
+        "traits": "Zaklęcie. Pieśń.",
         "slot": "Mistyczny"
     },
     {
         "code": "02113",
-        "name": "Oops!",
-        "text": "Szybka. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
+        "name": "Ups!",
+        "text": "Szybka. Zagraj po tym, kiedy podczas atakowania wroga, z którym jesteś w zwarciu, twój test umiejętności zakończy się porażką 2 lub mniej.\nZadaj obrażenia z tego ataku innemu wrogowi w twojej lokalizacji.",
         "traits": "Los."
     },
     {
         "code": "02114",
-        "name": "Fire Extinguisher",
-        "text": "[action]: <b>Walka</b>. Dostajesz +1 [combat] for this attack.\n[action] Exile Fire Extinguisher: <b>Wymykanie</b>. Dostajesz +3 [agility] for this test. If you are successful, evade each other enemy engaged with you, as well.",
-        "traits": "Przedmiot. Tool. Biała.",
+        "name": "Gaśnica",
+        "text": "[action]: <b>Walka</b>. Do tego ataku dostajesz +1 [combat].\n[action] Wygnaj Gaśnicę: <b>Wymykanie się</b>. Do tego testu dostajesz +3 [agility]. Jeśli test zakończy się sukcesem, wymykasz się także każdemu innemu wrogowi, z którym jesteś w zwarciu.",
+        "traits": "Przedmiot. Narzędzie. Biała.",
         "slot": "Ręka"
     },
     {
         "code": "02115",
-        "name": "Flare",
-        "text": "Either (choose one):\n- <b>Walka</b>. Dostajesz +3 [combat] and deal +2 damage for this attack. Exile Flare.\n- Search the top 9 cards of any investigator's deck for an [[Sprzymierzeniec]] asset and put it into play under your control. Then, exile Flare. Shuffle the searched deck.",
+        "name": "Flara",
+        "text": "Wybierz jedno:\n- <b>Walka</b>. Do tego ataku dostajesz +3 [combat] i zadajesz +2 obrażenia. Wygnaj Flarę.\n- Przeszukaj 9 wierzchnich kart z talii dowolnego badacza w poszukiwaniu karty atutu z cechą [[Sprzymierzeniec]] Sprzymierzeniec i umieść ją w grze pod twoją kontrolą. Następnie wygnaj Flarę. Potasuj przeszukaną talię.",
         "traits": "Taktyka."
     },
     {
         "code": "02116",
-        "flavor": "A good pipe can calm the most frazzled of nerves.",
-        "name": "Smoking Pipe",
-        "text": "Zużywalny (3 zapasy).\n[free]Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror.",
+        "flavor": "Dobra fajka potrafi uspokoić nawet najbardziej zszargane nerwy.",
+        "name": "Fajka",
+        "text": "Zużywalny (3 zapasy).\n[free]Wydaj 1 zapasy, wyczerp Fajkę i otrzymujesz 1 obrażenie: wylecz 1 punkt przerażenia.",
         "traits": "Przedmiot."
     },
     {
         "code": "02117",
-        "flavor": "Do not exceed the recommended dosage.",
-        "name": "Painkillers",
-        "text": "Zużywalny (3 zapasy).\n[free]Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage.",
+        "flavor": "Nie należy przekraczać zalecanej dawki.",
+        "name": "Środki przeciwbólowe",
+        "text": "Zużywalny (3 zapasy).\n[free]Wydaj 1 zapasy, wyczerp Środki przeciwbólowe i otrzymujesz 1 punkt przerażenia: wylecz 1 obrażenie.",
         "traits": "Przedmiot."
     }
 ]
