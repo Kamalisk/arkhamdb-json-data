@@ -30,8 +30,10 @@
 	},
 	{
 		"code": "60402",
+		"cost": 3,
 		"deck_limit": 1,
 		"faction_code": "mystic",
+		"flavor": "I can see the threads. I know when they will snap.",
 		"illustrator": "Pavel Kolomeyets",
 		"name": "Arbiter of Fates",
 		"pack_code": "jac",
@@ -41,7 +43,7 @@
 		"skill_agility": 1,
 		"skill_willpower": 1,
 		"skill_wild": 1,
-		"text": "Jacqueline Fine deck only.\n[reaction] When you use Jacqueline Fine's [reaction] ability, exhaust Arbiter of Fates: <b>This card has not yet been announced and is a placeholder.</b>",
+		"text": "Jacqueline Fine deck only.\n[reaction] When you use Jacqueline Fine's [reaction] ability, exhaust Arbiter of Fates: This use of her ability does not count towards its limit.",
 		"traits": "Talent.",
 		"type_code": "asset"
 	},
@@ -49,15 +51,15 @@
 		"code": "60403",
 		"deck_limit": 1,
 		"faction_code": "neutral",
-		"illustrator": "Robert Laskey",
+		"illustrator": "Matt Bradbury",
 		"name": "Dark Future",
 		"pack_code": "jac",
 		"position": 3,
 		"quantity": 1,
 		"restrictions": "investigator:60401",
 		"subtype_code": "weakness",
-		"text": "<b>This card has not yet been announced and is a placeholder.</b>",
-		"traits": "Omen.",
+		"text": "<b>Revelation</b> - Put Dark Future into play in your threat area.\nYou cannot cancel or ignore [elder_sign], [skull], [cultist], [tablet], [elder_thing], and [auto_fail] tokens.\n<b>Forced</b> - At the end of your turn: Reveal 5 random tokens from the chaos bag. If an [elder_sign] symbol is revealed, discard Dark Future.",
+		"traits": "Omen. Endtimes.",
 		"type_code": "treachery"
 	},
 	{
@@ -112,6 +114,24 @@
 		"xp": 0
 	},
 	{
+		"code": "60410",
+		"cost": 1,
+		"deck_limit": 2,
+		"faction_code": "mystic",
+		"flavor": "\"Thou art wholly unworthy. But I shall serve thee for now.\"",
+		"illustrator": "Carlos Palma Cruchaga",
+		"name": "Familiar Spirit",
+		"pack_code": "jac",
+		"position": 10,
+		"quantity": 2,
+		"skill_willpower": 1,
+		"slot": "Ally",
+		"text": "You have 1 additional arcane slot, which can only be used to hold a [[Spell]] asset.",
+		"traits": "Ally. Creature. Summon.",
+		"type_code": "asset",
+		"xp": 0
+	},
+	{
 		"code": "60411",
 		"cost": 2,
 		"deck_limit": 2,
@@ -162,6 +182,24 @@
 		"traits": "Item. Clothing.",
 		"type_code": "asset",
 		"xp": 2
+	},
+	{
+		"code": "60425",
+		"cost": 3,
+		"deck_limit": 2,
+		"faction_code": "mystic",
+		"illustrator": "Greg Bobrowski",
+		"name": "Azure Flame",
+		"pack_code": "jac",
+		"position": 25,
+		"quantity": 2,
+		"skill_combat": 1,
+		"skill_willpower": 1,
+		"slot": "Arcane",
+		"text": "Uses (4 charges).\n[action] Spend 1 charge: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] and deals +1 damage for this attack. If an [elder_sign], \"+1,\" or \"0\" token is revealed during this attack, take 1 damage.",
+		"traits": "Spell.",
+		"type_code": "asset",
+		"xp": 3
 	},
 	{
 		"code": "60427",
