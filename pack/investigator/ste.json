@@ -5,7 +5,7 @@
 		"code": "60501",
 		"deck_limit": 1,
 		"deck_options": [
-		    {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} }
+			{"faction":["survivor", "neutral"], "level":{"min":0, "max":5} }
 		],
 		"deck_requirements": "size:30, card:60502, card:60503, random:subtype:basicweakness",
 		"double_sided": true,
@@ -179,6 +179,21 @@
 		"text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer and the next time you trigger this ability this round, you get an additional +1 [combat] for that attack.",
 		"traits": "Item. Weapon. Firearm. Illicit.",
 		"type_code": "asset",
+		"xp": 2
+	},
+	{
+		"code": "60526",
+		"deck_limit": 2,
+		"faction_code": "survivor",
+		"illustrator": "Dleoblack",
+		"name": "Unexpected Courage",
+		"pack_code": "ste",
+		"position": 26,
+		"quantity": 2,
+		"skill_wild": 2,
+		"text": "Max 1 committed per skill test.\nIf this test fails, return Unexpected Courage to your hand.",
+		"traits": "Innate.",
+		"type_code": "skill",
 		"xp": 2
 	},
 	{
