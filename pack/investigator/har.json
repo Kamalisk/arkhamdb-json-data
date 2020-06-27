@@ -5,7 +5,7 @@
 		"code": "60201",
 		"deck_limit": 1,
 		"deck_options": [
-		    {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} }
+			{"faction":["seeker", "neutral"], "level":{"min":0, "max":5} }
 		],
 		"deck_requirements": "size:30, card:60202, card:60203, random:subtype:basicweakness",
 		"double_sided": true,
@@ -201,6 +201,25 @@
 		"skill_wild": 1,
 		"text": "Gain 3 resources (4 resources instead if you have 10 or more other cards in hand).\n[reaction] After you draw Cryptic Writings during your turn: Play it.",
 		"traits": "Insight.",
+		"type_code": "event",
+		"xp": 2
+	},
+	{
+		"code": "60225",
+		"cost": 2,
+		"deck_limit": 2,
+		"faction_code": "seeker",
+		"flavor": "\"That's the worst plan I've ever heard. Well, what are we waiting for?\"",
+		"illustrator": "Robert Laskey",
+		"is_unique": null,
+		"name": "\"I've got a plan!\"",
+		"pack_code": "har",
+		"position": 25,
+		"quantity": 2,
+		"skill_combat": 1,
+		"skill_intellect": 2,
+		"text": "<b>Fight</b>. This attack uses [intellect] instead of [combat]. You get +2 [intellect] for this test. You deal +1 damage for this attack for each clue you have (max +3 damage).",
+		"traits": "Insight. Tactic.",
 		"type_code": "event",
 		"xp": 2
 	},
