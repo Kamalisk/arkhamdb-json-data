@@ -185,7 +185,7 @@
         "type_code": "act"
     },
     {
-        "back_name":  "Reverse Rhythm",
+        "back_name": "Reverse Rhythm",
         "back_text": "<b>If there was at least 11 doom in play when the agenda advanced:</b>\n<blockquote></i>You spin the dial on the device to its maximum value, struggling to keep hold of it as your muscles tighten and you begin to decay. The dial stops with a click, then slowly you are able to continue turning it in the same direction. You are in intense pain as it slowly turns, round and round, finally making it way back where it began. The air thins, and time returns to its original pace.</i></blockquote>\nResolve <b>Act 3 Setup.</b><hr/>b>If there was less than 11 doom in play when the agenda advanced:</b><blockquote><i>Your muscles and skin tighten, and you feel your body draining of energy. You try to scream, but no air escapes your throat. Your organs shrivel and decay. “The fate that inevitably awaits us all,” a sinister voice explains. Within minutes, you are naught but dust.</i></blockquote>\nEach investigator in this group is killed. <b>(→R1)</b>",
         "clues": 0,
         "code": "70011",
@@ -297,7 +297,19 @@
         "subname": "Bloody Prison",
         "text": "[action]: You pound your fists on the wall of the chamber. Nobody responds.",
         "traits": "Prison. Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The chamber is sealed tight. There is no door leading out—only a strangely shaped keyhole on one side of the chamber. Rusty copper pipes line the walls and ceiling of the room, surrounding you on all sides.",
@@ -317,7 +329,19 @@
         "subname": "Mysterious Prison",
         "text": "[action]: You pound your fists on the wall of the chamber. Nobody responds.",
         "traits": "Prison. Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The chamber is sealed tight. There is no door leading out—only a strangely shaped keyhole on one side of the chamber. Rusty copper pipes line the walls and ceiling of the room, surrounding you on all sides.",
@@ -337,7 +361,19 @@
         "subname": "Enshrouded Prison",
         "text": "[action]: You pound your fists on the wall of the chamber. Nobody responds.",
         "traits": "Prison. Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "Water cascades down the walls of the chamber, filling up the capsule. To your horror, it does not cease.",
@@ -355,7 +391,19 @@
         "shroud": 1,
         "text": "The Chamber of Rain is sealed shut while the water flows. While it is Act 1, this location gains:\n“Investigators cannot move into or out of this location.\n<b>Forced</b> - When an investigator here draws an enemy card: Discard it and draw a new card to replace it.”",
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "heart"
+            ]
+        },
+        "back_connections": {
+            "in": "hourglass",
+            "out": [
+                "heart"
+            ]
+        }
     },
     {
         "back_flavor": "This chamber contains several metal tanks with glass windows. Most are filled with water. Inside, you see the corpses of animals that must have drowned slowly and painfully. What kind of person would want to watch this…?",
@@ -373,7 +421,21 @@
         "shroud": 2,
         "text": "[action]: Test [combat] (1) to try to break down the door to the flooding terrarium. Regardless of whether you succeed or fail, it does not budge. Remember that you “tried your best.”",
         "traits": "Prison.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "hourglass",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "heart",
+            "out": [
+                "hourglass",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "This chamber contains several metal tanks with glass windows. Most are filled with water. Inside, you see the corpses of animals that must have drowned slowly and painfully. What kind of person would want to watch this…?",
@@ -391,7 +453,21 @@
         "shroud": 2,
         "text": "[action]: Test [willpower] (2) to interpret the diagram inscribed on the glass. If you succeed, take control of 1 clue on an investigator in either Chamber of Sorrows or Chamber of Rain (or from that location if you are the only investigator in the game). Any investigator in either Chamber of Sorrows or Chamber of Rain may perform this action.",
         "traits": "Prison.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "hourglass",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "heart",
+            "out": [
+                "hourglass",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The only light in this storage room comes from a few scattered candles. You are surrounded on all sides by crates, bottles, and boxes, but you can barely see a thing in the dim light.",
@@ -410,7 +486,21 @@
         "shroud": 3,
         "text": "[action]: You call out for help as loud as you can. Nobody responds.",
         "traits": "Prison.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The only light in this storage room comes from a few scattered candles. You are surrounded on all sides by crates, bottles, and boxes, but you can barely see a thing in the dim light.",
@@ -428,7 +518,21 @@
         "shroud": 3,
         "text": "[action]: Test [intellect] (4). If you succeed, you notice strange writing inscribed along the wall; look at the revealed side of the location underneath the scenario reference card. When you are satisfied, place it back underneath the scenario reference card.",
         "traits": "Prison.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "Indented in the stone wall is a small closet-like chamber with three unmarked levers. A raised iron gate threatens to seal the chamber shut if you dare step foot inside.",
@@ -447,7 +551,19 @@
         "shroud": 1,
         "text": "No more than one investigator may be in the Chamber of Regret at a time.\n[action] The investigators spend 2[per_investigator] clues, as a group: You pull one of the 3 levers (choose one): left, middle, or right. As soon as you do, the gate slams shut behind you. You cannot leave the Chamber of Regret for the remainder of the current act.",
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Halls of corrugated steel and concrete fill this strange industrial complex. The numerous locked doors and dead ends fill you with a sense that you will never escape.",
@@ -467,7 +583,26 @@
         "shroud": 2,
         "subname": "Foul-smelling Path",
         "text": "[free] Choose and discard 2 cards from your hand: You find an old lockbox in a pile of refuse, and decide to leave something behind. At the end of the round, choose another investigator in any group. That investigator draws 2 cards. (Group limit once per game.)",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines",
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "Halls of corrugated steel and concrete fill this strange industrial complex. The numerous locked doors and dead ends fill you with a sense that you will never escape.",
@@ -487,7 +622,26 @@
         "shroud": 2,
         "subname": "Corpse-filled Path",
         "text": "[free] Spend 4 resources: You find the corpse of someone you think you once knew, and wish you could have saved them. At the end of the round, choose another investigator in any group. That investigator gains 4 resources. (Group limit once per game.)",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "Halls of corrugated steel and concrete fill this strange industrial complex. The numerous locked doors and dead ends fill you with a sense that you will never escape.",
@@ -507,7 +661,26 @@
         "shroud": 2,
         "subname": "Overgrown Path",
         "text": "[action] [action]: You peer through an overgrown mirror and see an unfamiliar reflection. At the end of the round, choose another investigator in any group. That investigator may take 2 additional actions during his or her next turn. (Group limit once per game.)",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines",
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "circle",
+                "square",
+                "heart",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "This place is a menagerie of creatures, some natural, some foul and misshapen. One monster smashes against the glass of its cage as it sees you enter.",
@@ -526,7 +699,21 @@
         "shroud": 3,
         "text": "[free] If there are no clues on Chamber of Hunger: There is something strange drawn on the glass. Take control of the set-aside Hunger Diagram.",
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "lines",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "lines",
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "This room is filled with rows of plants, of many shapes and varieties, in varying states of growth and decay. Near the room’s center is a control panel covered in mysterious levers and dials.",
@@ -545,7 +732,21 @@
         "shroud": 2,
         "text": "[free] If there are no clues on Chamber of Decay: There's a journal here with some strange scribblings. Take control of the set-aside Decay Diagram.",
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "lines",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "lines",
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "This chamber is filled with refuse, muck, and human remains. The sour, acrid smell burns your nostrils.",
@@ -564,7 +765,23 @@
         "shroud": 3,
         "text": "[free] If there are no clues on Chamber of Rot: There is something strange etched on the walls. Take control of the set-aside Rot Diagram.",
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "lines",
+                "tilde",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "lines",
+                "tilde",
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "A raised ladder leads halfway down a concrete chamber, filled with a bubbling sludge that gives off an awful stench.",
@@ -583,7 +800,19 @@
         "quantity": 1,
         "shroud": 4,
         "text": "[action]: You cross the noxious pit and turn the valve at the end. <i>(Beware— activating this ability without the antidote may be deadly.)</i>",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "There is no way out.",
@@ -601,7 +830,23 @@
         "quantity": 1,
         "shroud": 3,
         "traits": "Distortion.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "crescent",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "crescent",
+                "star"
+            ]
+        }
     },
     {
         "back_name": "Deep Within the Labyrinth…",

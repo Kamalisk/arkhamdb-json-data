@@ -167,7 +167,11 @@
 		"shroud": 3,
 		"text": "Investigators cannot enter or leave Moon-Beast Galley via player card effects.\n[free] If there are no clues remaining on Moon-Beast Galley: Flip it over.\n<b>Forced</b> - At the end of the round, if there are 3 or more doom in play: Flip Moon-Beast Galley over.",
 		"traits": "Ship.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"code": "06214b",
@@ -197,7 +201,21 @@
 		"text": "X is the highest alarm level among all investigators.\n<b>Forced</b> - At the end of the round: Each investigator at the City of the Moon-Beasts tests [agility] (2). Each investigator who fails must raise their alarm level by 1.",
 		"traits": "Surface. City.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"square",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"square",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"The ship made for the edge, and it soon became clear that its destination was that secret and mysterious side which is always turned away from the earth, and which no fully human person, save perhaps the dreamer Snireth-Ko, has ever beheld.\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -216,7 +234,23 @@
 		"text": "[action]: Test [intellect] (5) to hide within the crater. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)\n<b>Forced</b> - At the end of your turn, if you are at The Dark Crater and have discovered 1 or more of its clues this turn: Test [willpower] (3). If you fail, raise your alarm level by 1.",
 		"traits": "Surface.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"triangle",
+				"circle",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"triangle",
+				"circle",
+				"tilde"
+			]
+		}
 	},
 	{
 		"flavor": "\"The dead temples on the mountains were so placed that they could have glorified no wholesome or suitable gods, and in the symmetries of the broken columns there seemed to lurk some dark and inner meaning which did not invite solution.\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -235,7 +269,21 @@
 		"text": "[action]: Test [willpower] (5) to hide inside the forbidden temple. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)\n<b>Forced</b> - After you discover any number of clues at the Temple of the Moon Lizard: You must either take that much horror or discard that many cards from your hand.",
 		"traits": "Surface.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"As the coast drew nearer, and the hideous stench of that city grew stronger, he saw upon the jagged hills many forests, some of whose trees he recognised as akin to that solitary moon-tree in the enchanted wood of earth, from whose sap the small brown zoogs ferment their peculiar wine.\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -254,7 +302,23 @@
 		"text": "[action]: Test [agility] (5) to hide among the strange trees. If you succeed, reduce your alarm level by 1. (Limit 1 success per game.)\n[free] During your turn, except during another action: <b>Evade.</b> If you fail, raise your alarm level by 1. (Limit once per round.)",
 		"traits": "Surface. Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"crescent",
+				"square",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"crescent",
+				"square",
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"...while in a black cave on a far unhallowed summit of the moon-mountains still vainly waited the crawling chaos Nyarlathotep.\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -273,7 +337,23 @@
 		"subname": "Dark Side",
 		"text": "<b>Forced</b> - After you fail a skill test while investigating Caverns Beneath the Moon: Until the end of your turn, reduce its shroud by 2.",
 		"traits": "Cave.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "A thick black sludge begins to impede your progress as you draw nearer and nearer to the Moon’s dark core...",
@@ -292,7 +372,21 @@
 		"shroud": -2,
 		"text": "X is the number of depth tokens on The Black Core.\n<b>Forced</b> - After The Black Core is revealed: Place 3 resources on it, as depth tokens, plus an additional 3 [per_investigator] depth tokens.\n[action]: Test [willpower] (2) or [combat] (2) to swim through the dark lake at the Moon's core. For each point you succeed by, remove 1 depth token from The Black Core.",
 		"traits": "Cave.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"tilde",
+				"lines"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"tilde",
+				"lines"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"The dead temples on the mountains were so placed that they could have glorified no wholesome or suitable gods...\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -311,7 +405,21 @@
 		"subname": "Light Side",
 		"text": "<b>Forced</b> - After you fail a skill test while investigating Caverns Beneath the Moon: Until the end of your turn, reduce its shroud by 2.",
 		"traits": "Cave.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"star",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"star",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_text": "The path to the Moon's surface is long and winding. You cannot enter Light Side of the Moon while Caverns Beneath the Moon <i>(Light Side)</i> has clues on it.",
@@ -331,7 +439,21 @@
 		"text": "[action]: Test [intellect] (1) or [agility] (1) to attempt to hide among the ruins. For every 3 points you succeed by, reduce your alarm level by 1. (Limit one success per round.)",
 		"traits": "Surface. Ruins.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"lines",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"lines",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"...it would always glide smoothly and silently, its sails distant and its long strange tiers of oars moving rhythmically.\" – H. P. Lovecraft, \"The White Ship\"",
@@ -350,7 +472,19 @@
 		"shroud": 1,
 		"text": "You cannot enter The White Ship while your alarm level is 5 or higher.\n<b>Forced</b> - After The White Ship is revealed: Put the set-aside The Captain story asset into play at The White Ship.",
 		"traits": "Ship.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		}
 	},
 	{
 		"code": "06224",

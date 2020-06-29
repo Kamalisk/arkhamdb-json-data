@@ -148,7 +148,21 @@
 		"text": "Each [[Ghoul]] enemy drawn spawns at Burial Ground instead of at its normal location.\n[free] Investigators in the Burial Ground spend 1 [per_investigator] clues, as a group: Remember that the investigators \"noticed the missing bones.\"",
 		"traits": "Graveyard.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"I'd like to see that house, Carter. Where is it? Glass or no glass, I must explore it a little. And the tomb where you put those bones, and the other grave without an inscription — the whole thing must be a bit terrible.”\n - H. P. Lovecraft, \"The Unnamable\"",
@@ -166,7 +180,23 @@
 		"quantity": 1,
 		"shroud": 2,
 		"text": "[free] Investigators in the Entryway spend 1 [per_investigator] clues, as a group: Reveal the Upstairs Hallway.\n[free] If The Unnamable has 1 [per_investigator] or more damage on it: Smoke trails off of the creature, leading to a tomb near the center of the cemetery outside. Put the set-aside Unmarked Tomb location into play.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"crescent",
+				"heart",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"crescent",
+				"heart",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_flavor": "This doorway was not open before. You only turned for a moment, but you thought you saw something. But what, exactly? A blur? A figure?",
@@ -185,7 +215,19 @@
 		"shroud": 4,
 		"text": "[reaction] After you successfully investigate the Den, discard 1 card from your hand: Discover an additional clue at this location.\n[free] Investigators in the Den spend 1 [per_investigator] clues, as a group: Remember that the investigators \"studied a desecrated portrait.\"",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "This doorway was not open before. You only turned for a moment, but you thought you saw something. But what, exactly? A blur? A figure?",
@@ -204,7 +246,19 @@
 		"shroud": 2,
 		"text": "For each investigator at the Parlor, it gets +1 shroud.\n[free] If The Unnamable has 2 [per_investigator] or more damage on it: The mirror gleams unnaturally, revealing a glint of silver. Remember that the investigators \"recovered a strange key.\"",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"There! I was just trying to track my progress, and you can see it. Those little glints are eyes! They have to be! Something was watching me.\" – Annie VanderMeer Mitsoda, <u>The Investigators of Arkham Horror</u>",
@@ -222,7 +276,23 @@
 		"quantity": 1,
 		"shroud": 2,
 		"text": "[free] Investigators in the Upstairs Hallway spend 1 [per_investigator] clues, as a group: Put the set-aside Attic location into play.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"diamond",
+				"square",
+				"circle"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"diamond",
+				"square",
+				"circle"
+			]
+		}
 	},
 	{
 		"back_flavor": "Something scratches at the wood on the other side. Rats? Your imagination? No, something else. Something unnatural.",
@@ -241,7 +311,19 @@
 		"shroud": 1,
 		"text": "As an additional cost to investigate the Library, you must either lose 1 action or take 1 horror.\n[free] Investigators in the Library spend 1 [per_investigator] clues, as a group: You read a strange journal entry regarding one of the graves in the burial ground outside. Put the set-aside Unmarked Tomb location into play.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "Something scratches at the wood on the other side. Rats? Your imagination? No, something else. Something unnatural.",
@@ -260,7 +342,19 @@
 		"shroud": 3,
 		"text": "[action] [action]: Discard all non-weakness treachery cards from your threat area.\n[free] Investigators in the Bedroom spend 1 [per_investigator] clues, as a group: Remember that the investigators \"found a cracked mirror.\"",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"They never unlocked that attic door, but left the whole house as it was, dreaded and deserted. When noises came from it, they whispered and shivered; and hoped that the lock on that attic door was strong.\"\n – H. P. Lovecraft, \"The Unnamable\"",
@@ -278,7 +372,19 @@
 		"shroud": 4,
 		"text": "[free] Investigators in the Attic spend 1 [per_investigator] clues, as a group: Deep within a pile of monstrous bones, you see a glint of silver. Remember that the investigators \"recovered a strange key.\"",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"...from the tomb came such a stifled uproar of gasping and whirring that my fancy peopled the rayless gloom with Miltonic legions of the misshapen damned.\"\n – H. P. Lovecraft, \"The Unnamable\"",
@@ -297,7 +403,19 @@
 		"text": "<b>Objective</b> - At the end of the round, if each undefeated investigator is at Unmarked Tomb and the investigators \"recovered a strange key,\" advance the act.",
 		"traits": "Graveyard.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -316,7 +434,15 @@
 		"shroud": 3,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\n<b>Forced</b> - After you enter this location: Lose 1 action.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -335,7 +461,15 @@
 		"shroud": 4,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\nWhile there are clues on this location, investigators at this location cannot move or resign.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -354,7 +488,15 @@
 		"shroud": 3,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\nWhile there is a ready enemy at this location, investigators at this location cannot move or resign.\n<b>Forced</b> - When this location is revealed: Search the encounter deck and discard pile for a [[Ghoul]] enemy and spawn it at this location. Shuffle the encounter deck.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -373,7 +515,15 @@
 		"shroud": 3,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\n<b>Forced</b> - When this location is revealed: Place 1 [per_investigator] resources on it. While there are resources on this location, investigators at this location cannot move or resign.\n[action]: Test your lowest skill (2). If successful, discard 1 resource from this location.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -392,7 +542,15 @@
 		"shroud": 3,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\n<b>Forced</b> - When this location is revealed: Move The Unnamable to it.\nWhile The Unnamable is at this location and has fewer than 1 [per_investigator] damage on it, investigators at this location cannot move or resign.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "\"So worn and narrow were the steps, and so greasy with the ooze of inner earth, that the climber never quite knew when to expect a breathless fall and hurtling down to the ultimate pits...\"\n – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -411,7 +569,15 @@
 		"shroud": 3,
 		"text": "Mysterious Stairs is connected to the locations above and below it.\nAs an additional cost for you to move or resign at this location, you must discard 1 or more cards from your hand with at least 2 instances of the same skill icon among them.",
 		"traits": "Graveyard.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"code": "06189",

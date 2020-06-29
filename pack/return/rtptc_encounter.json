@@ -90,7 +90,19 @@
 		"text": "<b>Forced</b> - After you reveal the Theatre Lounge: Shuffle the encounter discard pile into the encounter deck. Search the encounter deck for the 2 topmost hidden cards and secretly add both of those cards to your hand. Shuffle the encounter deck.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "A simple wooden door leads into the back of the theatre, far from the prying eyes of patrons.",
@@ -111,7 +123,19 @@
 		"text": "While you are investigating Prop Shop, it gets -1 shroud for each horror on you.\n<b>Forced</b> - After you fail a skill test while investigating the Prop Shop: Take 1 horror.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "52020",
@@ -315,7 +339,19 @@
 		"shroud": 3,
 		"text": "Entry Hall is connected to Quiet Halls.\nQuiet Halls is connected to each other [[Basement]] location.\n[action] If each location in play is revealed and there are no clues on locations in play: Place 1[per_investigator] clues on Quiet Halls <i>(from the token bank)</i>.",
 		"traits": "Basement.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "yin",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "yin",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "An unadorned wooden door leads to one of the basement rooms used by the Historical Society.",
@@ -337,7 +373,19 @@
 		"subname": "Dusty Archives",
 		"text": "While you have at least 1 hidden card in your hand, you cannot investigate this location.",
 		"traits": "Basement. Passageway.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "venn",
+			"out": [
+				"yin"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": [
+				"yin"
+			]
+		}
 	},
 	{
 		"back_flavor": "An unadorned wooden door leads to one of the basement rooms used by the Historical Society.",
@@ -359,7 +407,19 @@
 		"subname": "Museum Storage",
 		"text": "<b>Forced</b> - When you investigate this location, if there is at least 1 [[Cultist]] enemy in play: This location gets -3 shroud for this investigation. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, move 1 clue from this location to the [[Cultist]] enemy farthest from you <i>(before resolving the effects of the test)</i>.",
 		"traits": "Basement. Passageway.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "venn",
+			"out": [
+				"yin"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": [
+				"yin"
+			]
+		}
 	},
 	{
 		"back_flavor": "An unadorned wooden door leads to one of the basement rooms used by the Historical Society.",
@@ -381,7 +441,19 @@
 		"subname": "Boiler Room",
 		"text": "<b>Forced</b> - After you discover 1 or more clues at this location: One at a time, draw that many cards from the top of the encounter deck.",
 		"traits": "Basement.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "venn",
+			"out": [
+				"yin"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": [
+				"yin"
+			]
+		}
 	},
 	{
 		"code": "52033",
@@ -537,7 +609,23 @@
 		"shroud": 1,
 		"text": "<b>Forced</b> - After you discover any number of clues from Montparnasse: Discard cards from your hand with that many [willpower] icons among them. If you cannot, take 1 horror.",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"heart",
+				"star",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"heart",
+				"star",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "Le Théâtre du Grand-Guignol specializes in horror shows of a graphic and sometimes amoral nature. It is among the smallest venues in Paris, and one of the most popular.",
@@ -558,7 +646,21 @@
 		"text": "[action] Spend 5 resources: Either place 1 doom on the current agenda, or remove 1 doom from the current agenda. (Group limit once per game.)",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "The largest cemetery in Paris, and its first garden cemetery, Père Lachaise is as beautiful as it is haunting.",
@@ -578,7 +680,21 @@
 		"text": "<b>Forced</b> - After an enemy moves into Père Lachaise Cemetery: It gets +1 horror value for the remainder of the round.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "This underground canal connects the river Seine to the Canal de l’Ourcq. An old, cracked staircase leads down to the canal’s entrance.",
@@ -597,7 +713,23 @@
 		"text": "While you are at Canal Saint-Martin, you must use your [combat] in place of your [agility], and vice versa.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square",
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square",
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "The most famous cathedral in all of Paris, and one of the finest examples of gothic architecture in the world, Notre-Dame de Paris—“Our Lady of Paris”—is an icon of the city. Light shines out from its stained glass windows, and you can hear a pipe organ inside blaring a bizarre, chaotic melody.",
@@ -615,7 +747,23 @@
 		"shroud": 4,
 		"text": "Each enemy at Notre-Dame gets +1 fight and -1 evade.\n[reaction] After you successfully evade an enemy at Notre-Dame by 3 or more during your turn: You may take an additional action this turn. (Group limit once per round.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "The gardens of Luxembourg Palace contain hundreds of scattered statues, monuments, and fountains. It would make for a relaxing walk if you hadn’t come here to escape the winged creatures that screech and soar in the dark sky overhead.",
@@ -634,7 +782,23 @@
 		"text": "<b>Forced</b> - After you enter Gardens of Luxembourg, if there is at least 1 [[Byakhee]] enemy in play: Reveal a random token from the chaos bag. If you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, each [[Byakhee]] enemy in play readies and moves to Gardens of Luxembourg.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "star",
+			"out": [
+				"circle",
+				"heart",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"circle",
+				"heart",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "52047",
@@ -683,7 +847,15 @@
 		"quantity": 1,
 		"shroud": 5,
 		"text": "[action] If you control Clasp of Black Onyx: You place the clasp within the skull's eye socket, and the passage opens. Reveal the Catacombs location to the right of Secret Passage.\n<b>Forced</b> - When Secret Passage is revealed: Put the topmost Catacombs in the Catacombs deck into play to the right of Secret Passage.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
@@ -703,7 +875,15 @@
 		"quantity": 1,
 		"shroud": 1,
 		"text": "<b>Forced</b> - When Mound of Bones is revealed: Put the top 4 Catacombs in the Catacombs deck into play above, below, to the left, and to the right of Mound of Bones. At the end of the current round, search the encounter deck and discard pile for a Malformed Skeleton and spawn it at Mound of Bones.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
@@ -723,7 +903,15 @@
 		"quantity": 1,
 		"shroud": 6,
 		"text": "[reaction] After you successfully investigate Research Site: Reveal any Catacombs location. (Group limit once per game.)\n<b>Forced</b> - When Research Site is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of any other location.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "Skulls and bones decorate the walls of this wide hallway in a macabre fashion.",
@@ -743,7 +931,15 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "<b>Forced</b> - After you end your turn at Sea of Skulls: You must either take 1 direct horror or choose and discard 3 cards from your hand.\n<b>Forced</b> - When Sea of Skulls is revealed: Put the topmost Catacombs in the Catacombs deck into play above, below, or to the right of the location farthest from Sea of Skulls and mark it with a horror token. For the remainder of the game, Sea of Skulls is connected to the marked location.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "",
+			"out": []
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"code": "52053",
@@ -795,7 +991,21 @@
 		"quantity": 1,
 		"shroud": 1,
 		"text": "[action] If there are no clues on Cloister: <b>Parley.</b> Test [willpower] or [intellect] (4). If you succeed, remember that you have \"found the tower key.\"",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"square",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"square",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_flavor": "Rows of symmetrical stone pillars give this hall a sense of calm serenity that clashes with the torrent outside.",
@@ -813,7 +1023,21 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "[action] If there are no clues on Knight's Hall: Test [combat] or [agility] (3). If you succeed, remember that you have \"found a guide.\"",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"heart"
+			]
+		}
 	},
 	{
 		"code": "52057",
@@ -873,7 +1097,17 @@
 		"subname": "Hastur’s Domain",
 		"traits": "Otherworld.",
 		"text": "Palace of the King cannot be flipped over while Hastur has more than 2[per_investigator] remaining health.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"triangle",
+				"diamond",
+				"heart",
+				"yin",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"code": "52060b",
@@ -904,7 +1138,13 @@
 		"shroud": 3,
 		"text": "While you are in the Recesses of Your Own Mind, set the base value of your [willpower] to 0.\nEach investigator at Recesses of Your Own Mind is considered to be at a different copy of Recesses of Your Own Mind for the purposes of player card effects and committing cards to each other's skill tests.",
 		"traits": "???.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"star"
+			]
+		}
 	},
 	{
 		"code": "52061b",
@@ -935,7 +1175,13 @@
 		"shroud": 2,
 		"text": "Hastur cannot leave The Throne Room.\nHastur cannot be exhausted.\nHastur cannot make attacks of opportunity.",
 		"traits": "Otherworld.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "yin",
+			"out": [
+				"star"
+			]
+		}
 	},
 	{
 		"code": "52062b",
@@ -965,7 +1211,13 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "While Hastur is moving, if there is an investigator at Stage of the Ward Theatre, Hastur's location is considered to be connected to Stage of the Ward Theatre.\nWhile you are at Stage of the Ward Theatre, you cannot attack Hastur.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"star"
+			]
+		}
 	},
 	{
 		"code": "52063b",

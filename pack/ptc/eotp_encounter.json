@@ -149,7 +149,19 @@
         "shroud": 2,
         "text": "Entry Hall is connected to each other [[Ground Floor]] location.\n[action]: <b>Resign.</b> You flee, leaving the mysteries of the past to the mysterious cultists.",
         "traits": "Ground Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
@@ -171,7 +183,19 @@
         "subname": "Meeting Room",
         "text": "[action] Exhaust an [[Ally]] asset: Discover a clue at this location. (Limit once per round.)",
         "traits": "Ground Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
@@ -193,7 +217,19 @@
         "subname": "Record Office",
         "text": "Each enemy at this location gets +1 fight and +1 evade.",
         "traits": "Ground Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "cross",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
@@ -215,7 +251,20 @@
         "subname": "Historical Museum",
         "text": "While investigating this location, your [intellect] cannot be modified.",
         "traits": "Ground Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "square",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Other than the creaking of the wooden floor beneath your steps, the manor is eerily silent.",
@@ -235,7 +284,21 @@
         "shroud": 3,
         "text": "Quiet Halls is connected to each other [[Second Floor]] location.\n[action] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls <i>(from the token bank)</i>.",
         "traits": "Second Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "square",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "square",
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
@@ -257,7 +320,20 @@
         "subname": "Historical Museum",
         "text": "While investigating this location, your [intellect] cannot be modified.",
         "traits": "Second Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "circle",
+                "heart"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
@@ -279,7 +355,20 @@
         "subname": "Historical Library",
         "text": "[reaction] After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round).",
         "traits": "Second Floor. Passageway.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "circle",
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
@@ -302,7 +391,19 @@
         "subname": "Reading Room",
         "text": "[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, choose an enemy with doom on it. Take 1 of that enemy's doom, flip it to its clue side, and place it on your investigator. (Group limit once per round).",
         "traits": "Second Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "Other than the creaking of the wooden floor beneath your steps, the manor is eerily silent.",
@@ -322,7 +423,19 @@
         "shroud": 3,
         "text": "Quiet Halls is connected to each other [[Third Floor]] location.\n[action] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls <i>(from the token bank)</i>.",
         "traits": "Third Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
@@ -344,7 +457,20 @@
         "subname": "Historical Library",
         "text": "[reaction] After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round).",
         "traits": "Third Floor. Passageway.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "star",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
@@ -366,7 +492,19 @@
         "subname": "Peabody's Office",
         "text": "While an investigator at this location controls Mr. Peabody, this location gets -2 shroud.",
         "traits": "Third Floor. Passageway.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
@@ -388,7 +526,19 @@
         "subname": "Record Office",
         "text": "Each enemy at this location gets +1 fight and +1 evade.",
         "traits": "Third Floor.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "Most of the researchers in the Historical Society don’t even know of this library’s existence. What terrible truths could it be hiding?",
@@ -409,7 +559,15 @@
         "shroud": 4,
         "text": "While an enemy is moving, Hidden Library gains the [[Passageway]] trait.",
         "type_code": "location",
-        "victory": 2
+        "victory": 2,
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "code": "03140",

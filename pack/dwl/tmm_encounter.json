@@ -170,7 +170,19 @@
         "shroud": 3,
         "text": "Investigators at the Museum Entrance cannot gain resources.\n[action] <b>Resign</b>. \"Eh. How important can a book really be, anyway?\"",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_text": "The entrance to the Museum Halls is locked. You cannot move into the Museum Halls.\nMuseum Entrance gains: \"[action]: Test [combat] (5) to attempt to break down the door to the Museum. If you are successful, immediately advance to Act 1b.\"",
@@ -188,7 +200,21 @@
         "shroud": 2,
         "text": "Museum Halls is connected to each copy of Exhibit Hall.\n[action] Investigators in the Museum Halls spend 1 [per_investigator] clues, as a group: Put the top card of the Exhibit deck into play, unrevealed.",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "circle",
+                "diamond",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "A plaque next to this doorway reads: \"Security.\" The door is ajar, and inside you catch the scent of blood.",
@@ -207,7 +233,19 @@
         "shroud": 2,
         "text": "[action] [action]: Search the top 6 cards of your deck for a card and add it to your hand. Shuffle the rest back into your deck. (Limit once per turn.)",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "A plaque next to this doorway reads: \"Security.\" The door is ajar, and inside you catch the scent of blood.",
@@ -226,7 +264,19 @@
         "shroud": 3,
         "text": "[action] [action]: Look at the revealed side of an Exhibit Hall in play, or the top card of the Exhibit deck. (Limit once per turn.)",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -245,7 +295,19 @@
         "flavor": "This office is meticulously organized, from the books in alphabetical order on the shelves to the stacks of forms organized by category on each desk. A coat is draped over one of the nearby chairs; perhaps somebody other than the security guard is still here at this late hour.",
         "text": "You cannot investigate Administration Office while you have 4 or fewer resources.",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "flavor": "This office is meticulously organized, from the books in alphabetical order on the shelves to the stacks of forms organized by category on each desk. A coat is draped over one of the nearby chairs; perhaps somebody other than the security guard is still here at this late hour.",
@@ -264,7 +326,19 @@
         "shroud": 2,
         "text": "You cannot investigate Administration Office while you have 4 or fewer cards in your hand.",
         "traits": "Miskatonic.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 0,
@@ -284,7 +358,19 @@
         "shroud": 1,
         "text": "<b>Forced</b> - After you enter this location: Lose all of your remaining actions and immediately end your turn.\nWhile you are in this location, you get +2 [agility].",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "cross",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -305,7 +391,20 @@
         "victory": 1,
         "text": "<b>Forced</b> - After you fail a skill test while investigating this location: Discard an asset you control.",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "square",
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -326,7 +425,20 @@
         "victory": 1,
         "text": "<b>Forced</b> - After you enter this location: Discard 2 cards from your hand at random.",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "square",
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 2,
@@ -347,7 +459,20 @@
         "victory": 1,
         "text": "<b>Forced</b> - After you fail a skill test while investigating this location: Lose 1 action.",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 2,
@@ -365,10 +490,23 @@
         "position": 136,
         "quantity": 1,
         "shroud": 3,
-         "victory": 1,
+        "victory": 1,
         "text": "<b>Forced</b> - After you fail a skill test while investigating this location: Take 1 horror.",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "square",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "clues": 2,
@@ -389,7 +527,19 @@
         "victory": 1,
         "text": "While Hunting Horror is at this location, this location cannot be investigated.",
         "traits": "Miskatonic. Exhibit.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "code": "02138",

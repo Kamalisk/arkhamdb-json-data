@@ -170,7 +170,27 @@
         "shroud": 4,
         "text": "<b>Haunted</b> - Lose 3 resources.",
         "traits": "Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "cross",
+                "circle",
+                "heart",
+                "square",
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "cross",
+                "circle",
+                "heart",
+                "square",
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "There are no markings or clues which would inform as to who this room once belonged to - only the stench of mold and the sound of rats scampering on the other side.",
@@ -190,7 +210,19 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you reveal Landlord's Quarters: Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Moldy Halls. Shuffle the encounter deck.\n<b>Haunted</b> - Search the encounter deck and discard pile for a Swarm of Rats and spawn it in Moldy Halls. Shuffle the encounter deck.",
         "traits": "Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "There are no markings or clues which would inform as to who this room once belonged to - only the stench of mold and the sound of rats scampering on the other side.",
@@ -211,7 +243,19 @@
         "shroud": 3,
         "text": "[action]: Search your deck for a [[Blessed]] or [[Item]] asset and add it to your hand. (Group limit once per game.)\n<b>Haunted</b> - You must either take 1 horror, or choose and discard an asset you control.",
         "traits": "Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "There are no markings or clues which would inform as to who this room once belonged to - only the stench of mold and the sound of rats scampering on the other side.",
@@ -232,7 +276,19 @@
         "shroud": 3,
         "text": "<b>Haunted</b> - You must either place 1 of your clues on Frank Elwood's Room, or place 1 doom on the current agenda.",
         "traits": "Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "For whatever reason, this room was kept locked even after the building was condemned. You wonder where the key might be.",
@@ -253,7 +309,19 @@
         "shroud": 4,
         "text": "[action]: Draw 3 cards and take 1 horror. (Limit once per game.)\n<b>Haunted</b> - Discard the top 2 cards of the encounter deck.",
         "traits": "Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "Gilman could not have told what he expected to find there, but he knew he wanted to be in the building where some circumstance had more or less suddenly given a mediocre old woman of the seventeenth century an insight into mathematical depths perhaps beyond the utmost modern delvings of Planck, Heisenberg, Einstein, and de Sitter.\n– H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -271,7 +339,27 @@
         "shroud": 3,
         "text": "[reaction] After you successfully investigate Keziah's Room: Instead of discovering clues, put the top card of the Unknown Places deck into play, unrevealed. Then, you may move to that location.\n<b>Haunted</b> - Discard cards from the top of the encounter deck until a [[Hex]] card is discarded. Draw that card.",
         "traits": "Spectral. Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "crescent",
+                "hourglass",
+                "t",
+                "lines",
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "crescent",
+                "hourglass",
+                "t",
+                "lines",
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -293,7 +381,19 @@
         "subname": "Earlier Tonight",
         "text": "[action]: You request aid from your past self. Each investigator at this location may return 1 card from his or her discard pile to his or her hand. Each investigator who does so remembers that he or she \"meddled with the past.\" (Group limit once per game.)",
         "traits": "Extradimensional. Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -316,7 +416,20 @@
         "text": "<b>Forced</b> - After you enter Twilight Abyss, test [combat] or [agility] (3). For each point you fail by, take 1 damage.",
         "traits": "Extradimensional. Otherworld.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "lines",
+            "out": [
+                "square",
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -338,7 +451,19 @@
         "text": "[reaction] After you reveal City of Elder Things, take 2 horror: Put the top card of the Unknown Places deck into play, unrevealed. For the remainder of the scenario, City of Elder Things is considered to be connected to that location, and vice versa.",
         "traits": "Extradimensional. Otherworld.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -360,7 +485,20 @@
         "shroud": 2,
         "text": "[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, heal 2 horror. (Limit once per game.)\n<b>Haunted</b> - Lose 1 action.",
         "traits": "Extradimensional. Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "square",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -382,7 +520,19 @@
         "shroud": 3,
         "text": "[action]: Test [intellect] (3). If you succeed, move to any revealed location. (Limit once per game.)\n<b>Haunted</b>- Move to Keziah's Room.",
         "traits": "Extradimensional. Salem.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -405,7 +555,19 @@
         "text": "[reaction] After you successfully investigate Physics Classroom by 2 or more: Discover a clue at another revealed location. (Limit once per round.)",
         "traits": "Extradimensional. Miskatonic.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "It was also possible that the inhabitants of a given dimensional realm could survive entry to many unknown and incomprehensible realms of additional or indefinitely multiplied dimensions - be they within or outside the given space-time continuum - and that the converse would be likewise true.\n- H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -428,7 +590,20 @@
         "text": "<b>Forced</b> - After you enter Court of the Great Old Ones, test [willpower] (3). For each point you fail by, take 1 horror.\n<b>Haunted</b> - The next action you perform this round must be an investigate action.",
         "traits": "Extradimensional. Otherworld.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "square",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "…presently he was in a crude, windowless little space with rough beams and planks rising to a peak just above his head, and with a curious slanting floor underfoot. Propped level on that floor were low cases full of books of every degree of antiquity and disintegration, and in the centre were a table and bench, both apparently fastened in place.\n– H. P. Lovecraft, <u>The Dreams in the Witch House</u>",
@@ -446,7 +621,19 @@
         "shroud": 4,
         "text": "[action] Investigators at this location spend 1 [per_investigator] clues, as a group: Remove 1 doom from Nahab. This action does not provoke attacks of opportunity from Nahab.\n<b>Forced</b> - At the end of the round: Add clues to this location until it has 3 [per_investigator] clues on it.\n<b>Haunted</b> - You must either place 1 doom on Nahab, or Nahab attacks you.",
         "traits": "Extradimensional. Witch House.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "hourglass"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -463,7 +650,11 @@
         "shroud": 4,
         "text": "<b>Revelation</b> - Put Strange Geometry into play and move to it.\n<b>Forced</b> - After the investigation phase ends: Discard Strange Geometry and move each investigator and enemy here to the location with the most clues. Each investigator who moved by this effect takes 1 damage and 1 horror.\n[free] If Strange Geometry has no clues on it: Move to any revealed location.",
         "traits": "Extradimensional.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "code": "05143",

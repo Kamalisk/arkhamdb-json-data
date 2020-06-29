@@ -228,7 +228,19 @@
         "quantity": 1,
         "shroud": 3,
         "text": "[action] [action]: Move 1 doom from one agenda deck to the other. Then, place 2 clues on Porte de l'Avancée <i>(from the token bank)</i>.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Mont Saint-Michel’s main road courses around the abbey, lined with shops and homes for fishermen and farmers.",
@@ -245,7 +257,25 @@
         "quantity": 1,
         "shroud": 1,
         "text": "<b>Forced</b> - After you succeed at a skill test by 1 or less while investigating Grand Rue: Place 1 doom on the agenda with the most doom <i>(if they are tied for the most doom, choose one to place 1 doom on)</i>.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "circle",
+                "triangle",
+                "diamond",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "circle",
+                "triangle",
+                "diamond",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The outer wall of the city defends it from the wrath of the tides, and also from conquering invaders.",
@@ -264,7 +294,23 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After 1 or more doom is placed on the \"a\" agenda deck: Each investigator at the Outer Wall takes 1 damage.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "diamond",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "diamond",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The outer wall of the city defends it from the wrath of the tides, and also from conquering invaders.",
@@ -283,7 +329,23 @@
         "shroud": 4,
         "text": "While the current \"c\" agenda has more doom on it than the current \"a\" agenda, double the number of skill icons on cards committed to skill tests at the Outer Wall.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "diamond",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "diamond",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The north tower along the outer wall overlooks the town on one side and the tumultuous waters on the other. Freezing rain has made this path slippery and dangerous to follow.",
@@ -302,7 +364,23 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After 1 or more doom is placed on the \"c\" agenda deck: Each investigator at North Tower takes 1 horror.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "triangle",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "triangle",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "The north tower along the outer wall overlooks the town on one side and the tumultuous waters on the other. Freezing rain has made this path slippery and dangerous to follow.",
@@ -321,7 +399,23 @@
         "shroud": 4,
         "text": "While the current \"a\" agenda has more doom on it than the current \"c\" agenda, reduce the difficulty of each skill test at North Tower by 1.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "triangle",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "triangle",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "Bolts of lightning silhouette the abbey above. A path of long, winding steps leads up the hill, branching into multiple routes as you draw nearer to the abbey.",
@@ -338,7 +432,25 @@
         "quantity": 1,
         "shroud": 4,
         "text": "<b>Forced</b> - After you enter Broken Steps: You must either lose 1 action or draw the topmost [[Omen]] treachery in the encounter discard pile.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "tilde",
+                "triangle",
+                "diamond",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "tilde",
+                "triangle",
+                "diamond",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Bolts of lightning silhouette the abbey above. A path of long, winding steps leads up the hill, branching into multiple routes as you draw nearer to the abbey.",
@@ -355,7 +467,25 @@
         "quantity": 1,
         "shroud": 3,
         "text": "<b>Forced</b> - After you enter Broken Steps: You must either discard an asset you control or draw the topmost [[Cultist]] enemy in the encounter discard pile.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "tilde",
+                "triangle",
+                "diamond",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "tilde",
+                "triangle",
+                "diamond",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "You’ll have to find a path not blocked by debris and rubble in order to reach the abbey.",
@@ -374,7 +504,27 @@
         "shroud": 3,
         "text": "If there are two agendas in play with different agenda numbers, Abbey Church gets +2 shroud.\n<b>Forced</b> - When Abbey Church is revealed: Put the set-aside Chœur Gothique, Knight's Hall, Cloister, Chapel of St. Aubert, and Abbey Tower locations into play.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "square",
+            "out": [
+                "lines",
+                "t",
+                "heart",
+                "hourglass",
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "lines",
+                "t",
+                "heart",
+                "hourglass",
+                "crescent"
+            ]
+        }
     },
     {
         "back_flavor": "A long pool of blood spreads slowly across the floor, leading toward the chœur gothique.",
@@ -392,7 +542,21 @@
         "quantity": 1,
         "shroud": 3,
         "text": "[action] Place 1 doom on the current \"a\" agenda: Heal 2 damage. (Group limit once per game).",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "square",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "square",
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "A long pool of blood spreads slowly across the floor, leading toward the chœur gothique.",
@@ -410,7 +574,21 @@
         "quantity": 1,
         "shroud": 3,
         "text": "[action] Place 1 doom on the current \"c\" agenda: Heal 2 horror. (Group limit once per game).",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "square",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "square",
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "The open arcade of the cloister is normally restricted to the monastery’s monks and religious leaders, but with the abbey seemingly abandoned, it takes little effort for you to sneak your way in.",
@@ -428,7 +606,21 @@
         "quantity": 1,
         "shroud": 2,
         "text": "[action] If there are no clues on Cloister: <b>Parley.</b> Test [willpower] (3). If you succeed, remember that you have \"found a guide.\"",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "square",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "heart",
+            "out": [
+                "square",
+                "hourglass"
+            ]
+        }
     },
     {
         "back_flavor": "Rows of symmetrical stone pillars give this hall a sense of calm serenity that clashes with the torrent outside.",
@@ -445,7 +637,21 @@
         "quantity": 1,
         "shroud": 2,
         "text": "[action] If there are no clues on Knight's Hall: <b>Investigate.</b> Investigate using [agility] instead of [intellect]. If you succeed, instead of discovering clues, remember that you have \"found the tower key.\"",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "square",
+                "heart"
+            ]
+        },
+        "back_connections": {
+            "in": "hourglass",
+            "out": [
+                "square",
+                "heart"
+            ]
+        }
     },
     {
         "back_flavor": "Waves crash violently upon the rocks. The chapel stands lonely against the rain, barely able to survive the storm’s onslaught.",
@@ -465,7 +671,19 @@
         "shroud": 3,
         "subname": "The Path is Open",
         "text": "You can only discover clues in the Chapel of St. Aubert if you have 3 or fewer remaining sanity.\n[action]: Take up to 3 horror.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Waves crash violently upon the rocks. The chapel stands lonely against the rain, barely able to survive the storm’s onslaught.",
@@ -485,7 +703,19 @@
         "shroud": 2,
         "subname": "Waters Forbidden",
         "type_code": "location",
-        "victory": 2
+        "victory": 2,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Dark lightning crashes throughout the air. Surrounding the top of the tower is a whirlwind of black clouds and bellowing wind.",
@@ -505,7 +735,19 @@
         "shroud": 3,
         "subname": "The Path is Open",
         "text": "You can only discover clues in the Abbey Tower if you have no cards in your hand.\n[action]: Discard up to 3 cards from your hand.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "Dark lightning crashes throughout the air. Surrounding the top of the tower is a whirlwind of black clouds and bellowing wind.",
@@ -525,7 +767,19 @@
         "shroud": 2,
         "subname": "Spires Forbidden",
         "type_code": "location",
-        "victory": 2
+        "victory": 2,
+        "connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "code": "03300",

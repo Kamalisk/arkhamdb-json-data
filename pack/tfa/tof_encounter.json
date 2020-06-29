@@ -106,7 +106,13 @@
         "text": "<b>Revelation</b> - Put the Eztli Exhibit into play.\n<b>Forced</b> - After you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol while investigating the Eztli Exhibit: Take 1 horror.",
         "traits": "Miskatonic. Exhibit.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "cross",
+            "out": [
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "04118b",
@@ -351,7 +357,13 @@
         "text": "<b>Revelation</b> - Put the Arkham Police Station into play.\nEasttown is connected to Arkham Police Station.\n[action]: Search the top 6 cards of your deck for a [[weapon]] card and add it to your hand. Shuffle your deck.",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "",
+            "out": [
+                "crescent"
+            ]
+        }
     },
     {
         "back_flavor": "None of the police officers have seen Alejandro, and they don't seem interested in helping you find him. \"It's only been a couple days. He'll turn up,\" they say. They give excuses, trying to avoid filling out a report. Finally, just as you are about to leave in frustration, a homeless man being held for disorderly conduct grabs your elbow. \"I saw 'im!\" he drawls. \"The man you describe, I saw 'im in the sky, carried in its clutches...\" He describes a faceless winged creature while the officers nearby chuckle and roll their eyes. The man is clearly drunk... but could it be he's telling the truth?",
@@ -406,7 +418,13 @@
         "shroud": 3,
         "text": "<b>Revelation</b> - Put Train Tracks into play. Attach the set-aside Alejandro Vela to Train Tracks. Advance to Act 3c - \"Alejandro's Prison.\"\nNorthside is connected to Train Tracks.\n[action] Spend 1 clue: Draw 4 cards. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "Henry looks about anxiously, then leans forward and speaks in a hushed tone. \"All right, listen. I work downtown, as assistant to the city planner. He's a bit of a funny bird. Quiet type, big ideas, likes to hole up in his office for hours at a time.\" He rubs his hands together nervously. \"Don't know why he and Alejandro would ever be in the same room without my knowing - but last time I saw Alejandro, that's right where he was: walking down the hall with my boss, flanked by a couple of intimidating fellas in black suits.\" He gets up and puts on his coat, leaving two quarters on the table. \"You didn't hear this from me,\" he insists before departing.",
@@ -540,7 +558,13 @@
         "text": "<b>Revelation</b> - Put Black Cave into play.\n<b>Forced</b> - At the end of your turn, if you are in the Black Cave: You must either take 1 horror or choose and discard 2 cards from your hand.",
         "traits": "Cave.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_link": "04134b",
@@ -735,7 +759,19 @@
         "shroud": 2,
         "text": "Easttown is connected to Velma's Diner.\n[action] [action] [action]: You kill some time at the diner and listen to the conversations of the patrons around you. Gain 2 clues from the token pool. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": [
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "crescent"
+            ]
+        }
     },
     {
         "back_flavor": "Owned by Oliver Thomas, the self-styled \"Curiositie Shoppe\" in Northside is an unusual store. On display in the front window is a collection of odd trinkets: a brass coal scuttle, a perambulator, an antique globe, and a model sailing ship, to name just a few.",
@@ -756,7 +792,19 @@
         "text": "Northside is connected to Curiositie Shoppe.\nWhile you are in the Curiositie Shoppe, reduce the cost of each [[relic]] asset you play by 2.",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "Arkham’s town hall is a quiet, unassuming building near Independence Square. A small clock tower protrudes from the sloped rooftop, the numbers faded from years of disrepair.",
@@ -776,7 +824,19 @@
         "text": "Downtown is connected to Town Hall.\n<b>Forced</b> - After you enter Town Hall, if you have 4 or more cards in your hand: Choose and discard cards from your hand until you have 3 cards in your hand.",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "code": "04144",

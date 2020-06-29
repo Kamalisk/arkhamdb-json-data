@@ -149,7 +149,25 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you discover 2 or more clues at Streets of Cairo during a single turn: Take 1 horror.\n[action] If there are no clues on Streets of Cairo: Test [agility] (4). If you succeed, remember that you have \"found a door marked with blood.\"",
 		"traits": "Cairo.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"diamond",
+				"triangle",
+				"square",
+				"venn"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"diamond",
+				"triangle",
+				"square",
+				"venn"
+			]
+		}
 	},
 	{
 		"back_flavor": "The busy streets of the bazaar are packed with peddlers hawking their wares and a raucous throng of patrons. Navigating your way through the crowd is difficult enough - finding your mark will be even more troublesome.",
@@ -167,7 +185,23 @@
 		"shroud": 2,
 		"text": "While you are at Cairo Bazaar, reduce the cost of each [[Item]] asset you play by 1 and increase the cost of each other asset you play by 1.\n[action] Spend 10 resources: Remember that you \"bought an odd trinket.\"",
 		"traits": "Cairo.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"lines",
+				"venn"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"lines",
+				"venn"
+			]
+		}
 	},
 	{
 		"back_flavor": "This new museum - built in Tahrir Square after the Nile flooded the previous building - houses the world's largest collection of Pharaonic antiquities, including papyrus, coins, statues, tablets, coffins, and even mummies.",
@@ -185,7 +219,23 @@
 		"shroud": 1,
 		"text": "[action]: Test [intellect] (5). If you succeed, remember that you have \"discovered an ancient tablet.\"\n<b>Forced</b> - After you investigate Museum of Egyptian Antiquities, if you did not succeed by at least 2: Lose all remaining actions and immediately end your turn.",
 		"traits": "Cairo.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"lines",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"lines",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "As the hot sun sets over Cairo, the sky is bathed in beautiful rays of orange and red. It is a magnificent prelude to the horrors to come.",
@@ -203,7 +253,25 @@
 		"shroud": 4,
 		"text": "[action] Choose and discard 5 cards from your hand: Remember that you have \"sabotaged the train.\"\n[action] If no investigator has \"sabotaged the train\": <b>Resign.</b> You take the train out of Cairo, leaving the dreamers to their unceasing nightmare.",
 		"traits": "Cairo.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"lines",
+				"venn"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"lines",
+				"venn"
+			]
+		}
 	},
 	{
 		"back_flavor": "Silvery rays of light gently bathe the courtyard in a soft glow. Despite the urgency of your task, you feel at peace here. You vow to return if you're still awake when this is over.",
@@ -221,13 +289,29 @@
 		"shroud": 3,
 		"text": "While there are no clues remaining on Temple Courtyard, each copy of Humble Supplicant loses aloof.\n[action]: Test [combat] (5). If you succeed, remember that you have \"broken into a deserted temple.\"",
 		"traits": "Cairo.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "venn",
+			"out": [
+				"diamond",
+				"lines",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "venn",
+			"out": [
+				"diamond",
+				"lines",
+				"square"
+			]
+		}
 	},
 	{
 		"code": "83013",
 		"encounter_code": "the_eternal_slumber",
 		"encounter_position": 13,
-	 	"enemy_evade": 4,
+		"enemy_evade": 4,
 		"enemy_fight": 4,
 		"enemy_horror": 2,
 		"faction_code": "mythos",
@@ -250,7 +334,7 @@
 		"encounter_code": "the_eternal_slumber",
 		"encounter_position": 14,
 		"enemy_damage": 1,
-	 	"enemy_evade": 2,
+		"enemy_evade": 2,
 		"enemy_fight": 2,
 		"faction_code": "mythos",
 		"health": 2,
@@ -267,7 +351,7 @@
 		"code": "83015",
 		"encounter_code": "the_eternal_slumber",
 		"encounter_position": 17,
-	 	"enemy_evade": 3,
+		"enemy_evade": 3,
 		"enemy_fight": -2,
 		"enemy_horror": 1,
 		"faction_code": "mythos",
@@ -408,7 +492,13 @@
 		"shroud": 4,
 		"text": "<b>Forced</b> - If the strength of the abyss is 0: Set the strength of the abyss to 1.\n[reaction] After you successfully investigate A Dream Betwixt: Flip it over and resolve the text on its other side.",
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_link": "83022a",
@@ -439,7 +529,16 @@
 		"text": "[reaction] After you discover the last remaining clue from The Great Abyss: Flip it over and resolve the text on its other side.",
 		"traits": "Otherworld. Dreamlands.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"lines",
+				"triangle",
+				"diamond",
+				"circle"
+			]
+		}
 	},
 	{
 		"back_link": "83023a",
@@ -469,7 +568,13 @@
 		"shroud": 2,
 		"text": "[action]: Test [intellect] (2) to search for signs of life within these jagged tunnels. If you succeed, flip this location over and resolve the text on its other side.",
 		"traits": "Otherworld. Dreamlands.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_link": "83024a",
@@ -499,7 +604,13 @@
 		"shroud": 3,
 		"text": "[action]: Test [willpower] (3) to navigate the bewildering and gravity-defying staircase. If you succeed, flip this location over and resolve the text on its other side.",
 		"traits": "Otherworld. Dreamlands.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_link": "83025a",
@@ -528,7 +639,13 @@
 		"shroud": 1,
 		"text": "[action]: Test [agility] (4) to traverse through the mist. If you succeed, flip this location over and resolve the text on its other side.",
 		"traits": "Otherworld. Dreamlands.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_link": "83026a",
@@ -548,7 +665,7 @@
 		"encounter_code": "the_nights_usurper",
 		"encounter_position": 12,
 		"enemy_damage": 2,
-	 	"enemy_evade": 4,
+		"enemy_evade": 4,
 		"enemy_fight": 4,
 		"enemy_horror": 2,
 		"faction_code": "mythos",
@@ -591,7 +708,15 @@
 		"quantity": 1,
 		"shroud": 4,
 		"traits": "Expedition. Desert. Ruins",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "yin",
+			"out": [
+				"hourglass",
+				"t",
+				"heart"
+			]
+		}
 	},
 	{
 		"code": "83029",
@@ -863,7 +988,25 @@
 		"shroud": 2,
 		"text": "[action]: <b>Parley.</b> Test [intellect] (2) to speak to the researchers stationed here. If you succeed, look at the top X cards of either the exploration deck or the encounter deck, where X is the amount you succeeded by. Place up to 2 of those cards on the bottom of that deck. Place the rest on top in a random order. (Group limit once per round.)",
 		"traits": "Expedition. Cairo. Desert.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"hourglass",
+				"crescent",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"hourglass",
+				"crescent",
+				"cross"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -879,7 +1022,16 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you enter Nile River: You must either take 1 horror or discard 1 card from your hand at random.",
 		"traits": "Expedition. Desert.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"circle",
+				"star",
+				"heart",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -895,7 +1047,18 @@
 		"shroud": 7,
 		"text": "As an additional cost for you to explore while at Sands of Dashur, you must spend 2 resources.",
 		"traits": "Expedition. Desert.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"circle",
+				"cross",
+				"t",
+				"yin",
+				"heart",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -911,7 +1074,16 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you enter Dunes of the Sahara: You must either take 1 damage or lose 1 action.",
 		"traits": "Expedition. Desert.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"circle",
+				"hourglass",
+				"t",
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -927,7 +1099,14 @@
 		"shroud": 4,
 		"text": "Each [[Monster]] enemy at Untouched Vault gets +2 fight and +1 damage value.\n[action] If a [[Monster]] enemy was defeated here this round: You stare into the creature's dead eyes, and the abyss stares back at you. Remove 1 strength from the abyss. (Group limit once per game.)",
 		"traits": "Expedition. Ruins.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"cross",
+				"t"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -943,7 +1122,14 @@
 		"shroud": -2,
 		"text": "X is the strength of the abyss.\n[action] If you have at least 2 clues: You stare into the sphinx's empty face, and the abyss stares back at you. Place 2 of your clues on Faceless Sphinx and remove 1 strength from the abyss. (Group limit once per game.)",
 		"traits": "Expedition. Desert. Ruins.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"crescent",
+				"heart"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -959,7 +1145,16 @@
 		"shroud": 5,
 		"text": "[action]: Heal 1 damage and 1 horror. (Limit once per game.)\n[action] [action] If you have no horror on you: You stare into the reflection on the water, and the abyss stares back at you. Take 3 horror and remove 1 strength from the abyss. (Group limit once per game.)",
 		"traits": "Expedition. Desert.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"star",
+				"crescent",
+				"hourglass",
+				"yin"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -975,7 +1170,16 @@
 		"shroud": 3,
 		"text": "While you are investigating Sandswept Ruins, if you have 5 or more cards in your hand, it gets +3 shroud.\n[action] [action] If you have 8 or more cards in your hand: You stare into the swirling sands, and the abyss stares back at you. Discard 3 cards from your hand at random and remove 1 strength from the abyss. (Group limit once per game.)",
 		"traits": "Expedition. Desert. Ruins.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"tilde",
+				"cross",
+				"hourglass",
+				"yin"
+			]
+		}
 	},
 	{
 		"code": "83045",

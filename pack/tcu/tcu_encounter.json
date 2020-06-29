@@ -290,7 +290,13 @@
 		"text": "<b>Revelation</b> - Put the Witches' Circle into play in the center of the play area, in front of none of the investigators. The lead investigator spawns the set-aside Anette Mason at the Witches' Circle.\n<b>Forced</b> - After the enemy phase begins: Move each ready, unengaged [[Witch]] enemy once toward the Witches' Circle.",
 		"traits": "Woods. Circle.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_name": "A Circle Undone",
@@ -354,7 +360,21 @@
 		"text": "You cannot investigate this location while you have between 3 and 10 resources.\n[free]: Choose an investigator at a different Witch-Haunted Woods. Move up to 3 of your resources to that investigator's resource pool, or vice versa. (Group limit once per round.)",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -376,7 +396,21 @@
 		"text": "<b>Forced</b> - After any number of clues are discovered from this location: Each investigator at this location loses an equal number of resources.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -398,7 +432,21 @@
 		"text": "You cannot investigate this location while you have between 3 and 5 cards in hand.\n[free]: You choose and discard 1 card from your hand, then an investigator at a different Witch-Haunted Woods draws 1 card, or vice versa. (Limit once per round.)",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -419,7 +467,21 @@
 		"text": "<b>Forced</b> - When the last clue is discovered from this location: Spawn the topmost enemy in the encounter discard pile at this location. (If&nbsp;there are no enemies in the encounter discard pile, discard cards from the top of the encounter deck until an enemy is discarded, and spawn that enemy instead.)",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -441,7 +503,21 @@
 		"text": "Investigators at other Witch-Haunted Woods locations can commit 1 card to each skill test performed at this location, and vice versa.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -463,7 +539,21 @@
 		"text": "<b>Forced</b> - After any number of clues are discovered from this location: Each investigator at this location must discard an equal number of cards at random from his or her hand.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The frigid wind howls around you as you venture deeper into the haunted woods beyond Arkham.",
@@ -485,7 +575,21 @@
 		"text": "[reaction] When an enemy would spawn at a different Witch-Haunted Woods: Spawn it at this location instead. Then, it makes an immediate attack against each investigator at this location.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"tilde",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_text": "Hard / Expert\n[skull]: -2 (-4 instead if your location is haunted).\n[tablet]: -3. If this is an attack or evasion attempt, resolve each haunted ability on your location.\n[elder_thing]: -4. If there is a [[Spectral]] enemy at your location, take 1 damage and 1 horror.",
@@ -616,7 +720,19 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "[action]: <b>Resign.</b> \"I guess there is nothing to those disappearances after all.\"",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "Even the hallways of this manor are luxurious, decorated by thick rugs, bizarre artwork, and uncanny statues shaped from scrap metal. Rays of sunlight shine through the curtains as the sun sets over Arkham outside.",
@@ -633,7 +749,25 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "[action]: You go looking for trouble. Discard cards from the top of the encounter deck until a [[Silver Twilight]] enemy is discarded. Spawn that enemy in the Victorian Halls. Then, gain 2 clues <i>(from the token pool)</i>. (Group limit once per game.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"star",
+				"triangle",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"star",
+				"triangle",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "Flanking this door are two deer heads mounted along the wall, set almost as though they are guarding its entrance.",
@@ -652,7 +786,21 @@
 		"quantity": 1,
 		"shroud": 2,
 		"text": "[action]: You spend some time schmoozing with the other guests. Either gain 2 resources, or spend 2 resources to gain 1 clue <i>(from the token pool)</i>. (Limit once per round.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"t",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"t",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "From outside this room, you can hear the telltale clacking of billiard balls clattering against one another, along with idle chatter and laughter.",
@@ -671,7 +819,19 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "[action]: Test [agility] (3) to compete with the other guests. If you succeed, gain 1 clue <i>(from the token pool)</i>. (Limit once per round.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "This unmarked door is large and well polished, set in a corner of the upstairs hallway out of view of guests and other prying eyes.",
@@ -690,7 +850,21 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "<b>Forced</b> - When the round ends, if there is at least 1 investigator in the Master Bedroom: Place 1 doom on the nearest [[Silver Twilight]] enemy.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "An open glass door leads onto the balcony outside the estate's master bedroom.",
@@ -708,7 +882,19 @@
 		"quantity": 1,
 		"shroud": 1,
 		"text": "[action] Discard cards from your hand with a total of at least 3 [intellect] icons: <b>Parley.</b> The guest here knows more about the Lodge than they let on. Gain 2 clues <i>(from the token pool)</i>. (Group limit once per game.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "Atop a steep staircase leading to the manor's third floor, far from the hustle and bustle of the party below, a solitary oak door stands sentry, guarding Mr. Meiger's closest secrets.",
@@ -728,7 +914,19 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "Each [[Silver Twilight]] enemy in the Office lose aloof.\n<b>Forced</b> - If you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol while investigating the Office: Place 1 doom on the nearest [[Silver Twilight]] enemy.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "A wall of dark mist blocks your escape, decaying everything it touches. Ghostly hands grasp at you from the mist, desperately trying to pull you in. You suspect that if you tried to cross through the mist, you wouldn't emerge alive.",
@@ -749,7 +947,19 @@
 		"shroud": 3,
 		"text": "[action]: <b>Resign.</b> You tear through the front doors of the manor, escaping the spectral realm and leaving the remainder of the survivors to their fate.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "The warm rays that once illuminated these halls have faded into beams of cold, grey moonlight that shine through floating motes of dust and wisps of dark mist.",
@@ -768,7 +978,25 @@
 		"shroud": 4,
 		"text": "<b>Haunted</b> - Lose 1 action.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"star",
+				"triangle",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"star",
+				"triangle",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "Flanking this door are two rotting deer heads mounted on the wall. They stare at you with hollow, dead eyes.",
@@ -788,7 +1016,21 @@
 		"shroud": 2,
 		"text": "<b>Haunted</b> - Lose 2 resources. For each resource you cannot lose from this effect, take 1 horror.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"t",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"t",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "From outside this room, you can hear the creaking of old wood and the patter of soft footsteps along the ground.",
@@ -809,7 +1051,19 @@
 		"text": "<b>Haunted</b> - You must either discard an asset you control or take 1 damage.",
 		"traits": "Spectral.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "This unmarked door is old and partially rotted, set in a quiet corner of the upstairs hallway. A thick, dark fog seeps beneath the door and wafts around your feet.",
@@ -830,7 +1084,21 @@
 		"text": "<b>Haunted</b> - Place 1 of your clues on Master Bedroom.",
 		"traits": "Spectral.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "heart",
+			"out": [
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "A shattered glass door leads onto the balcony outside the estate's master bedroom.",
@@ -850,7 +1118,19 @@
 		"shroud": 1,
 		"text": "<b>Haunted</b> - Each of your cards with health takes 1 direct damage.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "The lone door atop the second-floor staircase has rotted and decayed as though hundreds of years have passed. The once‑polished oak is now stained and warped. It could collapse at any moment.",
@@ -871,7 +1151,19 @@
 		"text": "<b>Haunted</b> - Choose and discard a card from your hand.",
 		"traits": "Spectral.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"code": "05085",

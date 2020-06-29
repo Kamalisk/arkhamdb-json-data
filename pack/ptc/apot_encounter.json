@@ -167,7 +167,23 @@
 		"shroud": 2,
 		"text": "[free] Discard a card from your hand: Gain resources equal to the number of [willpower] icons on the discarded card. (Limit once per round.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"heart",
+				"star",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"heart",
+				"star",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "You’ve heard this district to be vibrant and friendly, but the streets feel unusually lonely to you.",
@@ -186,7 +202,25 @@
 		"shroud": 3,
 		"text": "[action]: Reveal the top card of each investigator's deck. You may play an asset revealed by this effect <i>(paying its cost)</i>, under your control. Shuffle each investigator's deck. (Group limit once per round.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"diamond",
+				"triangle",
+				"lines",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"diamond",
+				"triangle",
+				"lines",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "You’ve heard this district to be vibrant and friendly, but the streets feel unusually lonely to you.",
@@ -205,7 +239,25 @@
 		"shroud": 2,
 		"text": "[action] Spend 1 resource: Add 1 supply or ammo token to a card you control. (Limit once per round.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"diamond",
+				"triangle",
+				"lines",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"diamond",
+				"triangle",
+				"lines",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "Le Théâtre du Grand-Guignol specializes in horror shows of a graphic and sometimes amoral nature. It is among the smallest venues in Paris, and one of the most popular.",
@@ -226,7 +278,21 @@
 		"text": "<b>Forced</b> - After you reveal Grand Guignol: You must either take 2 horror, or shuffle all non-weakness cards from your hand into your deck, then draw an equal number of cards.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "The Palais Garnier is an ornate architectural masterpiece, and one of the most famous opera houses in the world. Strangely, you find the main doors thrown wide open, and a dark mist creeps out from the doorway.",
@@ -245,7 +311,23 @@
 		"shroud": 5,
 		"text": "While you are investigating Opéra Garnier, double the number of skill icons committed to this skill test.",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"triangle",
+				"square",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"triangle",
+				"square",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "The Palais Garnier is an ornate architectural masterpiece, and one of the most famous opera houses in the world. Strangely, you find the main doors thrown wide open, and a dark mist creeps out from the doorway.",
@@ -264,7 +346,23 @@
 		"shroud": 6,
 		"text": "While you are investigating Opéra Garnier, double the base value of your skill.",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"triangle",
+				"square",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"triangle",
+				"square",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "Built in 1900, this train station was the first urban station in the world to use only electric trains.",
@@ -283,7 +381,23 @@
 		"shroud": 4,
 		"text": "[action] Spend 1 resource: Move to any [[Rail]] location.",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"diamond",
+				"circle",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"diamond",
+				"circle",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "The largest cemetery in Paris, and its first garden cemetery, Père Lachaise is as beautiful as it is haunting.",
@@ -303,7 +417,21 @@
 		"text": "<b>Forced</b> - After you successfully investigate Père Lachaise Cemetery: You cannot leave Père Lachaise Cemetery until the end of the round.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "This underground canal connects the river Seine to the Canal de l’Ourcq. An old, cracked staircase leads down to the canal’s entrance.",
@@ -322,7 +450,23 @@
 		"text": "[reaction] After you evade an enemy at Canal Saint-Martin: Move that enemy to a connecting location. (Limit once per round.)",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square",
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square",
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "This historic district has recently become less aristocratic, but the old architectural masterwork remains.",
@@ -341,7 +485,25 @@
 		"shroud": 3,
 		"text": "[reaction] When your turn begins, if you are in Le Marais: Draw 1 card. (Group limit once per round.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"lines",
+				"t",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"lines",
+				"t",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "This historic district has recently become less aristocratic, but the old architectural masterwork remains.",
@@ -360,7 +522,25 @@
 		"shroud": 1,
 		"text": "<b>Forced</b> - After you enter Le Marais: For the remainder of the round, you cannot leave Le Marais.",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"lines",
+				"t",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"lines",
+				"t",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The most famous cathedral in all of Paris, and one of the finest examples of gothic architecture in the world, Notre-Dame de Paris - \"Our Lady of Paris\" - is an icon of the city. Light shines out from its stained glass windows, and you can hear a pipe organ inside blaring a bizarre, chaotic melody.",
@@ -378,7 +558,23 @@
 		"shroud": 3,
 		"text": "Each enemy at Notre-Dame gets -1 fight and +1 evade.\n[action]: Test [willpower] (6). If you succeed, either place 1 doom on the current agenda, or remove 1 doom from the current agenda. (Group limit once per game.)",
 		"traits": "Paris. Rail.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"circle",
+				"crescent",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "The gardens of Luxembourg Palace contain hundreds of scattered statues, monuments, and fountains. It would make for a relaxing walk if you hadn’t come here to escape the winged creatures that screech and soar in the dark sky overhead.",
@@ -397,7 +593,23 @@
 		"text": "While a [[Byakhee]] enemy is moving, if there is an investigator at Gardens of Luxembourg, that enemy's location is considered to be connected to Gardens of Luxembourg.",
 		"traits": "Paris.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "star",
+			"out": [
+				"circle",
+				"heart",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"circle",
+				"heart",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "03221",

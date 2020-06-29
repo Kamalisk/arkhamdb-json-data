@@ -145,7 +145,15 @@
         "position": 111,
         "quantity": 1,
         "shroud": 2,
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": []
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": []
+        }
     },
     {
         "back_flavor": "A moment of panic and disorientation strikes as you land upon the floor of the hallway. The world spins, as if turned on its head.",
@@ -162,7 +170,23 @@
         "position": 112,
         "quantity": 1,
         "shroud": 1,
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "cross",
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "triangle",
+                "cross",
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "The smell of rotten meat assaults your nostrils as you approach the attic stairs.",
@@ -181,7 +205,19 @@
         "shroud": 1,
         "text": "<b>Forced</b> - After you enter the Attic: Take 1 horror.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "The stairs leading down to your cellar are slick, and they glisten with a thin layer of ice...",
@@ -201,7 +237,19 @@
         "shroud": 4,
         "text": "<b>Forced</b> - After you enter the Cellar: Take 1 damage.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "cross",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "You're unsure what would happen if you tried to cross the threshold of the strange barrier, but based on its extreme heat, you sure as hell don't want to try.",
@@ -220,7 +268,19 @@
         "quantity": 1,
         "shroud": 2,
         "text": "[action] <b>Resign.</b> \"This is too much for me!\" You run out the front door, fleeing in panic.\nWhile Lita Chantler is not controlled by a player, she gains: \"[action]: <b>Parley.</b> Test [intellect] (4). If you succeed, take control of Lita Chantler.\"",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "code": "01116",
@@ -418,7 +478,19 @@
         "shroud": 2,
         "text": "<b>Forced</b> - When the Ghoul Priest spawns: Spawn it here instead of at its normal location.\n[action]: Draw 1 card and gain 1 resource. (Limit once per turn.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "The banks of the Miskatonic River are lined with docks, warehouses and small shops in a district aptly named Rivertown.",
@@ -436,7 +508,27 @@
         "quantity": 1,
         "shroud": 1,
         "traits": "Arkham. Central.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "crescent",
+                "diamond",
+                "square",
+                "tilde",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "crescent",
+                "diamond",
+                "square",
+                "tilde",
+                "hourglass"
+            ]
+        }
     },
     {
         "back_flavor": "Middle-class houses with gambrel roofs crowd together between the streets of Southside. The neighborhood is known for its cultural and social landmarks, such as South Church, Ma's Boarding House, and the Historical Society.",
@@ -456,7 +548,23 @@
         "subname": "Historical Society",
         "text": "[action]: Draw 3 cards. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "diamond",
+                "cross",
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "diamond",
+                "cross",
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "Middle-class houses with gambrel roofs crowd together between the streets of Southside. The neighborhood is known for its cultural and social landmarks, such as South Church, Ma's Boarding House, and the Historical Society.",
@@ -476,7 +584,23 @@
         "subname": "Ma's Boarding House",
         "text": "[action]: Search your deck for an [[Ally]] asset and add it to your hand. Shuffle your deck. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "diamond",
+                "cross",
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "diamond",
+                "cross",
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "Arkham's only hospital, St. Mary's has a twenty-four-hour receiving room and is busy at all hours of the night. Doctor Mortimore and Nurse Sharon have been particularly stressed lately, thanks in part to recent events.",
@@ -495,7 +619,21 @@
         "shroud": 2,
         "text": "[action]: Heal 3 damage. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "cross",
+            "out": [
+                "diamond",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "diamond",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "Miskatonic University is one of the most prestigious colleges in the Northeast. The university library is famous for its collection of occult books maintained by the esteemed Dr. Henry Armitage.",
@@ -515,7 +653,25 @@
         "text": "[action]: Search the top 6 cards of your deck for a [[Tome]] or [[Spell]] card and add it to your hand. Shuffle your deck.",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "t",
+                "cross",
+                "circle",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "t",
+                "cross",
+                "circle",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "The Downtown area of Arkham is filled with government buildings, including City Hall. The First Bank of Arkham, Independence Square, and Arkham Asylum can also be found in this area. It is the busiest district in the city.",
@@ -535,7 +691,21 @@
         "subname": "First Bank of Arkham",
         "text": "[action]: Gain 3 resources. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "crescent",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "crescent",
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "The Downtown area of Arkham is filled with government buildings, including City Hall. The First Bank of Arkham, Independence Square, and Arkham Asylum can also be found in this area. It is the busiest district in the city.",
@@ -556,7 +726,21 @@
         "text": "[action]: Heal 3 horror. (Limit once per game.)",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "crescent",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "crescent",
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "The Easttown neighborhood, situated on the northern banks of the Miskatonic River, contains lower-class housing, the Arkham Police Station, and popular eateries like Velma's Diner.",
@@ -574,7 +758,21 @@
         "shroud": 2,
         "text": "While you are in Easttown, reduce the cost of each [[Ally]] asset you play by 2.",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "circle",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "circle",
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "The graveyard lies at the foot of French Hill. Some of the headstones date back to the seventeenth century, when the earliest colonists came to Arkham. Considering what happened in your house, you're not completely keen on heading there.",
@@ -593,7 +791,19 @@
         "text": "<b>Forced</b> - After you enter the Graveyard: Test [willpower] (3). If you fail, you must either take 2 horror or move to Rivertown.",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "hourglass",
+            "out": [
+                "circle"
+            ]
+        }
     },
     {
         "back_flavor": "Northside is a commercial district that contains many offices and factories, as well as the train station.",
@@ -613,7 +823,21 @@
         "text": "[action] Spend 5 resources: Gain 2 clues from the token pool. (Group limit once per game.)",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "triangle"
+            ]
+        }
     },
     {
         "code": "01135",
@@ -905,7 +1129,21 @@
         "shroud": 2,
         "text": "The Main Path is connected to each other [[Woods]] location.\n[action]: <b>Resign.</b> \"There's nothing we can do to stop them!\" You flee from the woods, leaving Arkham to its grisly fate.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "square",
+                "cross"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "square",
+                "cross"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -926,7 +1164,21 @@
         "subname": "Unhallowed Ground",
         "text": "<b>Forced</b> - After you enter this location: Test [willpower] (4). If you fail, take 1 horror and 1 damage.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "hourglass",
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -947,7 +1199,21 @@
         "subname": "Twisting Paths",
         "text": "<b>Forced</b> - When you move out of this location: Test [intellect] (3). If you fail, cancel the effects of the move.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "tilde",
+                "diamond",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -968,7 +1234,21 @@
         "subname": "Old House",
         "text": "This location is investigated using [willpower] instead of the skill indicated by the investigation attempt.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "triangle",
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -989,7 +1269,21 @@
         "subname": "Cliffside",
         "text": "This location is investigated using [agility] instead of the skill indicated by the investigation attempt.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "tilde",
+                "crescent",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -1010,7 +1304,21 @@
         "subname": "Tangled Thicket",
         "text": "This location is investigated using [combat] instead of the skill indicated by the investigation attempt.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "tilde",
+                "t",
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -1031,7 +1339,21 @@
         "subname": "Quiet Glade",
         "text": "[action]: Heal 1 damage or heal 1 horror. (Limit once per turn.)",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "tilde",
+                "lines",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "The large central chamber of a cold, dark cavern, adorned with arcane markings and dimly lit by candlelight.",
@@ -1050,7 +1372,19 @@
         "shroud": 3,
         "text": "<b>Forced</b> - At the end of the round, if there are fewer than 2 clues per investigator on Ritual Site: Add clues to it until it has 2 clues per investigator on it.",
         "traits": "Cave.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "cross",
+            "out": [
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "code": "01157",

@@ -182,7 +182,19 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - When an enemy attempts to spawn at an empty location, and there are no empty locations in play: Spawn that enemy here, instead.",
 		"traits": "Leng.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Then came a wide gap in the range, where the hideous reaches of transmontane Leng were joined to the cold waste on this side by a low pass through which the stars shone wanly.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -200,7 +212,23 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] chaos token while investigating Cold Wastes: You must either take 1 damage or lose 1 action.",
 		"traits": "Leng.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"cross",
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"diamond",
+				"cross",
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "When you finally reach the domed temple in the snow, you are distraught to find its doors sealed shut, with no lock to speak of. Perhaps there is another way inside.",
@@ -220,7 +248,19 @@
 		"shroud": 3,
 		"text": "[free] Investigators at Monastery of Leng spend 1 [per_investigator] clues, as a group: Remember that the investigators \"maneuvered the priest closer.\"",
 		"traits": "Leng.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Where they dwelt, there must the cold waste lie close, and within it unknown Kadath and its onyx castle for the Great Ones.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -240,7 +280,21 @@
 		"shroud": 1,
 		"text": "Onyx Gates gets +1 [per_investigator] shroud.\n<b>Forced</b> - After Onyx Gates is revealed: Check Campaign Log. Remove 1 clue from Onyx Gates for each tally mark recorded next to \"Evidence of Kadath.\"",
 		"traits": "Leng. Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"triangle",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"No man had ever found Kadath in the past, and it might be just as well if none ever found it in the future. Such rumours as were told about that onyx castle of the Great Ones were not by any means reassuring.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -262,7 +316,19 @@
 		"shroud": 3,
 		"text": "[action]: Choose another investigator at your location. Add a hidden card in your hand to the chosen investigator's hand.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"lines"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -282,7 +348,19 @@
 		"subname": "Of Illusion and Myth",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: <b>Investigate.</b> Choose and reveal a copy of Nyarlathotep from your hand. For this investigation, this location's shroud is equal to Nyarlathotep's printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -302,7 +380,19 @@
 		"subname": "Of Life and Death",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: <b>Fight.</b> Choose and reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location, using [willpower] instead of [combat]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -322,7 +412,19 @@
 		"subname": "Of Infinite Truth",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: <b>Evade.</b> Choose and reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location, using [intellect] instead of [agility]. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -342,7 +444,19 @@
 		"subname": "Of Eternal Flame",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: <b>Fight.</b> Choose and reveal a copy of Nyarlathotep from your hand and fight it as if it were at your location. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -362,7 +476,19 @@
 		"subname": "Of the Queen of Night",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: <b>Evade.</b> Choose and reveal a copy of Nyarlathotep from your hand and attempt to evade it as if it were at your location. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"Vast walls shot up, and there was a glimpse of a great gate through which the voyagers were swept. All was night in the titan courtyard, and then came the deeper blackness of inmost things as a huge arched portal engulfed the column.\"\n– H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -382,7 +508,19 @@
 		"subname": "Of Primeval Light",
 		"text": "You cannot use this location's [action] ability unless another card explicitly allows you to do so.\n[action]: Choose and reveal a copy of Nyarlathotep from your hand and test [willpower] (X), where X is Nyarlathotep's printed health. If you succeed, add that copy of Nyarlathotep to the victory display. If you fail, Nyarlathotep attacks you and is shuffled into the encounter deck.",
 		"traits": "Kadath.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"code": "06306",

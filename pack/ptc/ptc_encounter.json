@@ -166,7 +166,21 @@
 		"position": 49,
 		"quantity": 1,
 		"shroud": 2,
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "Through the tall glass doors leading into the lobby, you can see that this room isn’t nearly as dilapidated as the auditorium. Signs promoting <u>The King in Yellow</u> taunt you from inside.",
@@ -185,7 +199,23 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "<b>Forced</b> - When Lobby is revealed: Put 2 of the set-aside Lobby Doorway locations into play, at random.\n[action] [action]: Draw 3 cards.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "A carpeted staircase leads up into the balcony. Somehow, a hot draft is blowing down through the steep passageway.",
@@ -204,7 +234,21 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you perform a move action during which you move from the Balcony to the Theatre: Take 2 damage.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "The set is different from what you remember of the play’s first act, decorated with a backdrop of an unsettling sunset.",
@@ -222,7 +266,21 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "<b>Forced</b> - When Backstage is revealed: Put 2 of the set-aside Backstage Doorway locations into play, at random.\nWhile you are at Backstage, each hidden treachery in your hand counts as 3 cards instead of 1 for the purposes of counting your hand size.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "An ornate wooden door leads into one of the front areas of the theatre.",
@@ -244,7 +302,19 @@
 		"text": "While you are in the Lighting Box, increase the resource cost of each card in your hand by 2.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "An ornate wooden door leads into one of the front areas of the theatre.",
@@ -265,7 +335,19 @@
 		"shroud": 2,
 		"text": "[action]: Gain 5 resources. Remember that you \"stole from the box office.\" (Group limit once per game.)",
 		"traits": "Private.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "An ornate wooden door leads into one of the front areas of the theatre.",
@@ -287,7 +369,19 @@
 		"text": "[action] <b>Investigate.</b> You get +3 [intellect] for this investigation. After this skill test ends, discard each card in your hand.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "A simple wooden door leads into the back of the theatre, far from the prying eyes of patrons.",
@@ -308,12 +402,24 @@
 		"shroud": 4,
 		"text": "[action] [action] [action]: Heal 3 horror.",
 		"traits": "Private.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "A simple wooden door leads into the back of the theatre, far from the prying eyes of patrons.",
 		"back_illustrator": "Yoann Boissonnet",
-		"back_name": "Backstage Doorway",		
+		"back_name": "Backstage Doorway",
 		"clues": 1,
 		"code": "03057",
 		"double_sided": true,
@@ -330,7 +436,19 @@
 		"text": "<b>Forced</b> - After you succeed by 2 or more while investigating the Rehearsal Room: Take 1 horror.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "A simple wooden door leads into the back of the theatre, far from the prying eyes of patrons.",
@@ -352,7 +470,19 @@
 		"text": "<b>Forced</b> - After you reveal the Trap Room: Search the encounter deck and discard pile for 1 copy of Swarm of Rats and put it into play engaged with you (2 copies instead if there are 3 or 4 investigators in the game). Shuffle the encounter deck if it is searched.",
 		"traits": "Private.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "03059",
@@ -371,7 +501,7 @@
 		"pack_code": "ptc",
 		"position": 59,
 		"quantity": 1,
-    "subtype_code": "weakness",
+		"subtype_code": "weakness",
 		"text": "<b>Spawn</b> - Location farthest from all investigators.\nAloof.\n[action]: <b>Investigate.</b> Your location gets +2 shroud for this investigation. If you succeed, instead of discovering clues, defeat The Man in the Pallid Mask.",
 		"traits": "Humanoid. Elite.",
 		"type_code": "enemy"
@@ -483,7 +613,7 @@
 		"text": "Each investigator at Constance Dumaine's location takes 1 horror.\nMove each clue from Constance Dumaine to her location.\nFlip this card to its enemy side, and switch it with the [[Bystander]] asset version of Constance Dumaine, removing that version from the game.",
 		"type_code": "story"
 	},
-{
+	{
 		"back_link": "03065",
 		"code": "03065b",
 		"enemy_damage": 2,
@@ -663,7 +793,23 @@
 		"quantity": 1,
 		"shroud": 2,
 		"text": "[action]: <b>Resign.</b> Having found valuable information about the production, you depart and plan your next move. <i>(If each undefeated investigator has resigned, proceed to \"if no resolution was reached\" in the Campaign Guide.)</i>",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"lines"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"lines"
+			]
+		}
 	},
 	{
 		"back_flavor": "The distorted music grows louder as you approach the ballroom. Inside, many of the guests are dancing, eating, and enjoying themselves.",
@@ -682,7 +828,23 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "[reaction] After you perform a parley action in the Ballroom: Gain 2 resources. (Group limit once per phase.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"t",
+				"circle",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"t",
+				"circle",
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Cigarette smoke and the sounds of idle chatter drift out of the manor’s living room. You feel warmth behind the door.",
@@ -701,7 +863,23 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "[reaction] After you perform a parley action in the Living Room: Draw 1 card. (Group limit once per phase.)",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"t",
+				"circle",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"t",
+				"circle",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The sounds of conversation and warped music become muffled as you approach a lonely section of the manor. Leading to the door of the gallery is a long hall adorned with many expensive paintings, including one of Mrs. Dumaine herself.",
@@ -720,7 +898,21 @@
 		"quantity": 1,
 		"shroud": 1,
 		"text": "<b>Forced</b> - After you end your turn at the Gallery: Test [willpower] (2). If you fail, place 1 of your clues on the Gallery.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"circle"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"circle"
+			]
+		}
 	},
 	{
 		"back_flavor": "Looking out one of the windows, you spy the courtyard in the center of the manor. You find yourself longing for fresh air.",
@@ -739,7 +931,27 @@
 		"quantity": 1,
 		"shroud": 5,
 		"text": "<b>Forced</b> - After you enter the Courtyard: Discard the top card of the encounter deck. If that card is an enemy, draw it.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"tilde",
+				"square",
+				"t",
+				"lines",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"tilde",
+				"square",
+				"t",
+				"lines",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The rancid smell of rotten food wafts under the dining room door, and you barely avoid losing your lunch.",
@@ -758,7 +970,21 @@
 		"quantity": 1,
 		"shroud": 2,
 		"text": "[action]: Heal 1 horror. Then, reveal a random token from the chaos bag. If a [skull] or [auto_fail] symbol is revealed, take 1 horror and place 1 doom on the Dining Room.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"square",
+				"circle"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"square",
+				"circle"
+			]
+		}
 	},
 	{
 		"back_link": "03076b",

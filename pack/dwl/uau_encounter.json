@@ -128,7 +128,23 @@
 		"shroud": 3,
 		"text": "[action]: <b>Resign.</b> You hide from the rampaging creatures.\n[free]: You borrow some hounds to track the creatures by scent. An investigator in Dunwich Village may place 1 of his or her clues on any [[Abomination]] enemy in play. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"triangle",
+				"square",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"triangle",
+				"square",
+				"diamond"
+			]
+		}
 	},
 	{
 		"flavor": "Ringing the church bell may draw the monsters toward the village, if you are brave enough to face them.",
@@ -148,7 +164,23 @@
 		"shroud": 2,
 		"text": "[action]: <b>Resign.</b> You hide from the rampaging creatures.\n[action]: Move a Brood of Yog-Sothoth enemy once toward Dunwich Village.",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"triangle",
+				"square",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"triangle",
+				"square",
+				"diamond"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -167,7 +199,23 @@
 		"shroud": 3,
 		"text": "Each enemy in Cold Spring Glen gets -1 evade.\n[free]: You lure the creature into the dense tree cover, and it becomes tangled. Investigators in Cold Spring Glen may, as a group, place up to 2 of their clues on an [[Abomination]] enemy in Cold Spring Glen. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"diamond",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"diamond",
+				"cross"
+			]
+		}
 	},
 	{
 		"flavor": "The thick shadows and crowded trees make these woods a good hiding place.",
@@ -186,7 +234,23 @@
 		"shroud": 2,
 		"text": "Each enemy in Cold Spring Glen gets -1 evade.\n[reaction] After Cold Spring Glen is chosen as a random location: An investigator in Cold Spring Glen tests [agility] (3). If successful, choose a different random location.",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"diamond",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"diamond",
+				"cross"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -205,7 +269,23 @@
 		"shroud": 3,
 		"text": "[free]: You lure the monster into the rain. Place 1 clue from the token bank on an [[Abomination]] enemy in Ten-Acre Meadow. At the end of the round, remove 1 clue from that enemy. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"cross"
+			]
+		}
 	},
 	{
 		"clues": 3,
@@ -224,7 +304,23 @@
 		"shroud": 2,
 		"text": "[free]: You set a bait using a live animal. Each investigator in Ten-Acre Meadow may place 1 of his or her clues on an [[Abomination]] enemy in Ten-Acre Meadow. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"triangle",
+				"cross"
+			]
+		}
 	},
 	{
 		"flavor": "The ground here is loose and barely supports your weight.",
@@ -244,7 +340,21 @@
 		"shroud": 4,
 		"text": "[free]: You lure the creature into a patch of sand. Investigators in Blasted Heath may, as a group, place up to 2 of their clues on an [[Abomination]] enemy in Blasted Heath. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"flavor": "A dense yellow mist, like a terrible miasma, permeates through this region. It crawls around your skin and causes your lungs to tighten.",
@@ -264,7 +374,21 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - At the end of your turn, if you are in Blasted Heath: Take 1 damage.",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -282,7 +406,23 @@
 		"shroud": 3,
 		"text": "Each investigator in Whateley Ruins gets -1 [willpower].\n[free]: You hurl a nearby canister of paint at the monster. An investigator in Whateley Ruins may place up to 3 of his or her clues on an [[Abomination]] enemy in Whateley Ruins. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"diamond",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"diamond",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"flavor": "The ancient and arcane tomes found within the Whateley Ruins hold the secrets to manipulating the monsters.",
@@ -301,7 +441,23 @@
 		"shroud": 2,
 		"text": "Each investigator in Whateley Ruins gets -1 [willpower].\n[action]: Test [intellect] (4). If you are successful, move a Brood of Yog-Sothoth enemy 1 location in any direction.",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"diamond",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"diamond",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -320,7 +476,21 @@
 		"shroud": 1,
 		"text": "[free]: You lure the creature into the thick fog. An investigator in Devil's Hop Yard may place up to 2 of his or her clues on an [[Abomination]] enemy in Devil's Hop Yard. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"flavor": "A recent downpour has made the hop yard muddy and difficult to slog through.",
@@ -339,7 +509,21 @@
 		"shroud": 2,
 		"text": "[free]: The creature follows you into the mud. Each investigator in Devil's Hop Yard may place 1 of his or her clues on an [[Abomination]] enemy in Devil's Hop Yard. (Group limit once per game).",
 		"traits": "Dunwich.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "02254",

@@ -107,7 +107,14 @@
 		"shroud": 1,
 		"text": "[action]: <b>Resign.</b> \"Whose bright idea was this, anyway?\"\n<b>Haunted</b> - Take 1 damage. Until the end of the round, the above resign ability cannot be triggered.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"circle",
+				"cross"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -124,7 +131,14 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "[action]: <b>Resign.</b> \"Whose bright idea was this, anyway?\"",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"circle",
+				"cross"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -143,7 +157,16 @@
 		"text": "Each [[Spectral]] enemy at Haunted Fields gets +1 horror value.\n<b>Haunted</b> - Move the nearest [[Spectral]] enemy once toward Haunted Fields.",
 		"traits": "Spectral.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"tilde",
+				"cross",
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -161,7 +184,16 @@
 		"shroud": 3,
 		"text": "Each [[Spectral]] enemy at Haunted Fields gets +1 horror value.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"tilde",
+				"cross",
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -180,7 +212,16 @@
 		"text": "During the mythos phase, each investigator in Abandoned Chapel gets -1 to each skill.\n<b>Haunted</b> - Until the end of the round, you get -1 to each skill.",
 		"traits": "Spectral.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"tilde",
+				"circle",
+				"diamond",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -198,7 +239,16 @@
 		"shroud": 2,
 		"text": "During the mythos phase, each investigator in Abandoned Chapel gets -1 to each skill.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"tilde",
+				"circle",
+				"diamond",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -216,7 +266,14 @@
 		"shroud": 3,
 		"text": "The Gallows gets +1 shroud for each [[Witch]] enemy in play.\n<b>Haunted</b> - Discard the top 3 cards of the standard encounter deck. If a [[Witch]] enemy is discarded by this effect, draw it.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -233,7 +290,14 @@
 		"quantity": 1,
 		"shroud": 3,
 		"text": "The Gallows gets +1 shroud for each [[Witch]] enemy in play.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -251,7 +315,14 @@
 		"shroud": -2,
 		"text": "X is the number of [[Geist]] enemies in play.\n<b>Haunted</b> - Discard the top 3 cards of the spectral encounter deck. If a [[Geist]] enemy is discarded by this effect, draw it.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -268,7 +339,14 @@
 		"quantity": 1,
 		"shroud": -2,
 		"text": "X is the number of [[Geist]] enemies in play.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -286,7 +364,14 @@
 		"shroud": 7,
 		"text": "While investigating Heretics' Graves, add your [willpower] value to your skill value for the investigation.\n<b>Haunted</b> - Reduce your base [willpower] to 1 until the end of your next turn.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"circle"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -303,7 +388,14 @@
 		"quantity": 1,
 		"shroud": 7,
 		"text": "While investigating Heretics' Graves, add your [willpower] value to your skill value for the investigation.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"circle"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -321,7 +413,14 @@
 		"shroud": 4,
 		"text": "<b>Forced</b> - After a [[Witch]] enemy at Heretics' Graves is defeated: Discard the top 2 cards of the standard encounter deck.\n<b>Haunted</b> - Heal 1 damage from each Heretic and each [[Witch]] enemy in play.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"circle"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -338,7 +437,14 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "<b>Forced</b> - After a [[Witch]] enemy at Heretics' Graves is defeated: Discard the top 2 cards of the standard encounter deck.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"circle"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -355,7 +461,14 @@
 		"shroud": 6,
 		"text": "While there are no ready enemies at Chapel Crypt, it gets -3 shroud.\n<b>Haunted</b> - Spawn the top card of your deck facedown, engaged with you. Treat that card as a Reanimated Dead enemy with 1 fight, 1 health, 1 evade, 1 damage, and the [[Monster]] trait.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"cross",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -372,7 +485,14 @@
 		"quantity": 1,
 		"shroud": 6,
 		"text": "While there are no ready enemies at Chapel Crypt, it gets -3 shroud.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"cross",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -389,7 +509,14 @@
 		"shroud": 6,
 		"text": "While there are no [[Hex]] treacheries among investigators' threat areas at Chapel Crypt, it gets -3 shroud.\n<b>Haunted</b> - Find the topmost [[Hex]] treachery in the standard encounter discard pile and put it into play in your threat area.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"cross",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -406,7 +533,14 @@
 		"quantity": 1,
 		"shroud": 6,
 		"text": "While there are no [[Hex]] treacheries among investigators' threat areas at Chapel Crypt, it gets -3 shroud.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"cross",
+				"crescent"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -423,7 +557,14 @@
 		"shroud": 4,
 		"text": "<b>Forced</b> - After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.\n[reaction] After you successfully investigate Chapel Attic: Add each card beneath it to its owner's hand.\n<b>Haunted</b> - Discard a random card from beneath Chapel Attic.",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"diamond"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -439,7 +580,14 @@
 		"quantity": 1,
 		"shroud": 4,
 		"text": "<b>Forced</b> - After you draw a non-weakness card from your deck while at Chapel Attic: Place that card facedown beneath Chapel Attic, out of play.\n [reaction] After you successfully investigate Chapel Attic: Add each card beneath it to its owner's hand.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"diamond"
+			]
+		}
 	},
 	{
 		"clues": null,
@@ -456,7 +604,14 @@
 		"shroud": 8,
 		"text": "While investigating Chapel Attic, add the number of cards in your hand to your skill value for the investigation.\n<b>Haunted</b> - Discard a random card from your hand (2 cards instead of you have 5 or more cards in hand).",
 		"traits": "Spectral.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"diamond"
+			]
+		}
 	},
 	{
 		"clues": 0,
@@ -472,7 +627,14 @@
 		"quantity": 1,
 		"shroud": 8,
 		"text": "While investigating Chapel Attic, add the number of cards in your hand to your skill value for the investigation.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "05177",

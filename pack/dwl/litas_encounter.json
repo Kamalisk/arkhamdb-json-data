@@ -186,7 +186,23 @@
 		"subname": "Unfettered by Reality",
 		"text": "<b>Forced</b> - When a location leaves play: Move each investigator and unengaged enemy at that location to Another Dimension. Cannot be canceled.",
 		"traits": "Otherworld.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond",
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_text": "You must have at least 2 clues in order to move to The Edge of the Universe.",
@@ -205,7 +221,21 @@
 		"shroud": 2,
 		"text": "You must have at least 2 clues in order to move to The Edge of the Universe.\nInvestigators at The Edge of the Universe cannot draw cards during the upkeep phase.",
 		"traits": "Otherworld.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"cross",
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -223,7 +253,23 @@
 		"shroud": 2,
 		"text": "[action] Spend 2 clues: <b>Resign.</b> You find a new path and hope that it leads back to safety.",
 		"traits": "Otherworld.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"circle",
+				"cross",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"circle",
+				"cross",
+				"tilde"
+			]
+		}
 	},
 	{
 		"code": "02323",
@@ -261,7 +307,15 @@
 		"quantity": 4,
 		"shroud": 1,
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"diamond",
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"text": "<b>Revelation</b> - Put Prismatic Cascade into play and discard a random card from your hand.\n<b>Forced</b> - After the last clue on Prismatic Cascade is removed: Discard Prismatic Cascade.",
@@ -278,7 +332,14 @@
 		"quantity": 2,
 		"shroud": 2,
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"text": "<b>Revelation</b> - Put Endless Bridge into play and lose 2 resources.\n<b>Forced</b> - After an investigator leaves Endless Bridge: Either place 1 doom on Endless Bridge, or discard it.",
@@ -295,7 +356,14 @@
 		"quantity": 2,
 		"shroud": 4,
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"square",
+				"tilde"
+			]
+		}
 	},
 	{
 		"text": "<b>Revelation</b> - Put Steps of Y'hagharl into play. Then, draw the topmost [[Madness]] card in your discard pile.\n<b>Forced</b> - When you would leave Steps of Y'hagharl: Test [willpower] (2). If you fail, shuffle Steps of Y'hagharl into the encounter deck instead of moving to your original destination.",
@@ -311,7 +379,14 @@
 		"quantity": 1,
 		"shroud": 3,
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"diamond",
+				"crescent"
+			]
+		}
 	},
 	{
 		"text": "<b>Revelation</b> - Put Dimensional Doorway into play. Then, draw the topmost [[Hex]] card in the encounter discard pile.\n<b>Forced</b> - At the end of your turn, if you are at Dimensional Doorway: You must either spend 2 resources or shuffle Dimensional Doorway into the encounter deck.",
@@ -327,7 +402,14 @@
 		"quantity": 1,
 		"shroud": 2,
 		"traits": "Otherworld. Extradimensional.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"triangle",
+				"crescent"
+			]
+		}
 	},
 	{
 		"code": "02329",
