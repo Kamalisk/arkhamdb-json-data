@@ -25,7 +25,7 @@
         "code": "01107",
         "flavor": "You hear a crazed howl outside, and suddenly all the creatures turn their attention to that sound. They rush to escape the house, breaking down doors and clawing at everything in their way.",
         "name": "They're Getting Out!",
-        "text": "<b>Forced</b> - At the end of the enemy phase: Each unengaged [[Ghoul]] enemy moves 1 location towards the Parlor.\n<b>Forced</b> - At the end of the round: Place 1 doom on this agenda for each [[Ghoul]] enemy in the Hallway or Parlor.",
+        "text": "<b>強制</b> - At the end of the enemy phase: Each unengaged [[Ghoul]] enemy moves 1 location towards the Parlor.\n<b>強制</b> - At the end of the round: Place 1 doom on this agenda for each [[Ghoul]] enemy in the Hallway or Parlor.",
         "back_name": "The Ghouls Break Free",
         "back_flavor": "The ground begins to shake and you can see claws rising up from the dirt as uncanny creatures desperately try to claw their way out of the ground all around you. Everywhere you turn, you see monsters rising from the earth. Terrified, you flee as fast as you can.",
         "back_text": "— If the investigators are at Act 1 or 2, they are trapped inside the house as the ghouls tear them apart. <b>(→R3)</b>\n— If the investigators are at Act 3, they barely escape with their lives, allowing the ghouls to run rampant. Each investigator that has not resigned is defeated and suffers 1 physical trauma."
@@ -72,29 +72,29 @@
         "code": "01113",
         "flavor": "The bloody carcass of a malformed beast swings from a meat hook chained to the ceiling. Blood drains slowly from the carcass, dripping into a small barrel.",
         "name": "Attic",
-        "text": "<b>Forced</b> - After you enter the Attic: Take 1 horror.",
+        "text": "<b>強制</b> - After you enter the Attic: Take 1 horror.",
         "back_flavor": "The smell of rotten meat assaults your nostrils as you approach the attic stairs."
     },
     {
         "code": "01114",
         "flavor": "Your cellar seems to have been replaced with an underground network of icy tunnels and caverns. The cold chills you to the bone.",
         "name": "Cellar",
-        "text": "<b>Forced</b> - After you enter the Cellar: Take 1 damage.",
+        "text": "<b>強制</b> - After you enter the Cellar: Take 1 damage.",
         "back_flavor": "The stairs leading down to your cellar are slick, and they glisten with a thin layer of ice..."
     },
     {
         "code": "01115",
         "name": "Parlor",
-        "text": "[action] <b>Resign.</b> \"This is too much for me!\" You run out the front door, fleeing in panic.\nWhile Lita Chantler is not controlled by a player, she gains: \"[action]: <b>Parley.</b> Test [intellect] (4). If you succeed, take control of Lita Chantler.\"",
+        "text": "[action] <b>Resign.</b> \"This is too much for me!\" You run out the front door, fleeing in panic.\nWhile Lita Chantler is not controlled by a player, she gains: \"[action]: <b>Parley.</b> 檢定[intellect](4). If you succeed, take control of Lita Chantler.\"",
         "back_flavor": "You're unsure what would happen if you tried to cross the threshold of the strange barrier, but based on its extreme heat, you sure as hell don't want to try.",
         "back_text": "The entrance to the Parlor is blocked by a darkly glowing unfathomable barrier. You cannot move into the Parlor."
     },
     {
         "code": "01116",
-        "flavor": "A figure in red robes wearing a bone mask. It gibbers and snarls before leaping to attack.",
-        "name": "Ghoul Priest",
-        "text": "<b>Prey</b> - Highest [combat].\nHunter. Retaliate.",
-        "traits": "Humanoid. Monster. Ghoul. Elite."
+        "flavor": "一個穿著紅色長袍，帶著骨頭面具的人。他嘴裡念念有詞，突然一聲怒吼，跳起攻擊你。",
+        "name": "食屍鬼祭司",
+        "text": "<b>獵物</b> - 最高[combat]。\n獵手。 反擊。",
+        "traits": "人類 怪物 食屍鬼 菁英"
     },
     {
         "code": "01117",
@@ -106,17 +106,17 @@
     },
     {
         "code": "01118",
-        "flavor": "A monstrous creature feeds from the rotting carcass in the attic.",
-        "name": "Flesh-Eater",
-        "text": "<b>Spawn</b> - Attic.",
-        "traits": "Humanoid. Monster. Ghoul."
+        "flavor": "一隻巨大的生物正在啃咬閣樓上腐爛的屍體。",
+        "name": "食肉者",
+        "text": "<b>生成</b> - 閣樓。",
+        "traits": "人類 怪物 食屍鬼"
     },
     {
         "code": "01119",
-        "flavor": "Inside the tunnels beneath the house, a massive beast tears its way out of the ice. It is covered in a think layer of frost, its breath visible in the bitter cold.",
-        "name": "Icy Ghoul",
-        "text": "<b>Spawn</b> - Cellar.",
-        "traits": "Humanoid. Monster. Ghoul."
+        "flavor": "在房屋下的隧道之中，一隻龐大的野獸正在打擊冰塊，想要在雪中找一條出路。他的皮膚上覆蓋著厚厚的雪，呼吸凝結成一股白煙。",
+        "name": "冰封食屍鬼",
+        "text": "<b>生成</b> - 地窖。",
+        "traits": "人類 怪物 食屍鬼"
     },
     {
         "code": "01120",
@@ -134,8 +134,8 @@
         "code": "01121b",
         "name": "The Masked Hunter",
         "subname": "Silently Stalking",
-        "text": "<b>Spawn</b> - Engaged with Prey.\n<b>Prey</b> - Most clues.\nHunter.\nThe Masked Hunter gets +2 health per investigator.\nWhile you are engaged with The Masked Hunter, you cannot discover or spend clues.",
-        "traits": "Humanoid. Cultist. Elite."
+        "text": "<b>生成</b> - Engaged with Prey.\n<b>獵物</b> - Most clues.\n獵手。\nThe Masked Hunter gets +2 health per investigator.\nWhile you are engaged with The Masked Hunter, you cannot discover or spend clues.",
+        "traits": "人類 Cultist. 菁英"
     },
     {
         "code": "01122",
@@ -159,7 +159,7 @@
         "code": "01124",
         "flavor": "You still feel uneasy about going back.",
         "name": "Your House",
-        "text": "<b>Forced</b> - When the Ghoul Priest spawns: Spawn it here instead of at its normal location.\n[action]: Draw 1 card and gain 1 resource. (Limit once per turn.)",
+        "text": "<b>強制</b> - When the Ghoul Priest spawns: Spawn it here instead of at its normal location.\n[action]: Draw 1 card and gain 1 resource. (Limit once per turn.)",
         "traits": "Arkham.",
         "back_flavor": "Despite what happened, you just couldn't bring yourself to destroy your home."
     },
@@ -232,7 +232,7 @@
     {
         "code": "01133",
         "name": "Graveyard",
-        "text": "<b>Forced</b> - After you enter the Graveyard: Test [willpower] (3). If you fail, you must either take 2 horror or move to Rivertown.",
+        "text": "<b>強制</b> - After you enter the Graveyard: 檢定[willpower](3). If you fail, you must either take 2 horror or move to Rivertown.",
         "traits": "Arkham.",
         "back_flavor": "The graveyard lies at the foot of French Hill. Some of the headstones date back to the seventeenth century, when the earliest colonists came to Arkham. Considering what happened in your house, you're not completely keen on heading there."
     },
@@ -248,53 +248,53 @@
         "code": "01135",
         "flavor": "A shadowy figure follows you in the rain. When you look back, your head pounds in agony and your vision blurs.",
         "name": "Hunting Shadow",
-        "text": "Peril.\n<b>Revelation</b> - You must choose either (choose one): Spend 1 clue or take 2 damage.",
+        "text": "Peril.\n<b>顯現</b> - You must choose either (choose one): Spend 1 clue or take 2 damage.",
         "traits": "Curse."
     },
     {
         "code": "01136",
         "name": "False Lead",
-        "text": "<b>Revelation</b> - If you have no clues, False Lead gains surge. If you have 1 or more clues, test [intellect] (4). For each point you fail by, place 1 of your clues on your location."
+        "text": "<b>顯現</b> - If you have no clues, False Lead gains surge. If you have 1 or more clues, 檢定[intellect](4). For each point you fail by, place 1 of your clues on your location."
     },
     {
         "code": "01137",
         "flavor": "Drew is a longtime patient at Arkham Asylum. Rumor has it he was locked up for committing cannibalism several years ago. He is considered extremely dangerous.",
         "name": "\"Wolf-Man\" Drew",
         "subname": "The Cannibal",
-        "text": "<b>Spawn</b> - Downtown.\n<b>Forced</b> - When \"Wolf-Man\" Drew attacks: Heal 1 damage from him.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Downtown.\n<b>強制</b> - When \"Wolf-Man\" Drew attacks: Heal 1 damage from him.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01138",
         "flavor": "The undertaker in the local graveyard has been digging strange tunnels underneath the mausoleum... but for what purpose?",
         "name": "Herman Collins",
         "subname": "The Undertaker",
-        "text": "<b>Spawn</b> - Graveyard.\n[action] Choose and discard 4 cards from your hand: <b>Parley.</b> Add Herman Collins to the victory display.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Graveyard.\n[action] Choose and discard 4 cards from your hand: <b>Parley.</b> Add Herman Collins to the victory display.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01139",
         "flavor": "A professor of the occult has been seen reading strange books that relate to cannibalism. Maybe he knows something we don't?",
         "name": "Peter Warren",
         "subname": "The Occult Professor",
-        "text": "<b>Spawn</b> - Miskatonic University.\n[action] Spend 2 clues: <b>Parley.</b> Add Peter Warren to the victory display.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Miskatonic University.\n[action] Spend 2 clues: <b>Parley.</b> Add Peter Warren to the victory display.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01140",
         "flavor": "Oliver Thomas, the proprietor of the Curiositie Shoppe, has informed you that a new client has taken a keen interest in a mysterious mask...",
         "name": "Victoria Devereux",
         "subname": "The Collector",
-        "text": "<b>Spawn</b> - Northside.\n[action] Spend 5 resources: <b>Parley.</b> Add Victoria Devereux to the victory display.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Northside.\n[action] Spend 5 resources: <b>Parley.</b> Add Victoria Devereux to the victory display.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01141",
         "flavor": "Bodies from the morgue have mysteriously gone missing. Perhaps the mortician in St. Mary's had something to do with these disappearances.",
         "name": "Ruth Turner",
         "subname": "The Mortician",
-        "text": "<b>Spawn</b> - St. Mary's Hospital.\n<b>Forced</b> - After Ruth Turner is evaded: Add her to the victory display.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - St. Mary's Hospital.\n<b>強制</b> - After Ruth Turner is evaded: Add her to the victory display.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01142",
@@ -317,15 +317,15 @@
         "text": "Each enemy gets +1 fight and +1 evade.",
         "back_name": "The Will of Umôrdhoth",
         "back_flavor": "A dark presence approaches, and you are assaulted by invisible pressures that bring you to your knees. A terrible force threatens to invade your mind and soul. Your throat clenches and your eyes water as the sensation burns through you.",
-        "back_text": "In player order, each investigator must test [willpower] (6). Each investigator who fails must search his or her collection for a random basic [[Madness]] weakness and add it to his or her hand."
+        "back_text": "In player order, each investigator must 檢定[willpower](6). Each investigator who fails must search his or her collection for a random basic [[Madness]] weakness and add it to his or her hand."
     },
     {
         "code": "01145",
         "flavor": "The world begins to shift and change as the ritual nears its conclusion. The air grows chilly, and the entire forest is covered in a layer of rime. The trees bend unnaturally, and their shadows lengthen into weird shape.",
         "name": "Vengeance Awaits",
-        "text": "<b>Forced</b> - When this agenda advances:\n– If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.\n– If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there.",
+        "text": "<b>強制</b> - When this agenda advances:\n– If the investigators are at Act 1, put the set-aside Ritual Site into play and spawn the set-aside Umôrdhoth there.\n– If the investigators are at Act 2 or 3, discard all enemies at the Ritual Site and spawn the set-aside Umôrdhoth there.",
         "back_name": "The Devourer Below",
-        "back_text": "<b>Revelation</b> - Replace the current Act and Agenda with The Devourer Below. This card is both the current Act and the current Agenda.\n<b>Objective</b> - If Umôrdhoth is defeated, <b>(→R2)</b>"
+        "back_text": "<b>顯現</b> - Replace the current Act and Agenda with The Devourer Below. This card is both the current Act and the current Agenda.\n<b>Objective</b> - If Umôrdhoth is defeated, <b>(→R2)</b>"
     },
     {
         "code": "01146",
@@ -348,7 +348,7 @@
         "code": "01148",
         "flavor": "The site of the cult's ritual is inside a large cavern in a dark corner of the woods. In the center of the chamber is a candlelit circle marked by rocks and arcane runes.",
         "name": "Disrupting the Ritual",
-        "text": "[action] Spend 1 clue: Test [willpower] (3) or [agility] (3). If you succeed, place 1 clue on this Act.\n<b>Objective</b> - If there are 2 clues per investigator on this Act, advance.",
+        "text": "[action] Spend 1 clue: 檢定[willpower](3) or [agility](3). If you succeed, place 1 clue on this Act.\n<b>Objective</b> - If there are 2 clues per investigator on this Act, advance.",
         "back_name": "The Ritual Is Broken",
         "back_flavor": "You brave the unnatural chill and weave through arcane symbols, crossing the threshold of the circle. You smother the markings on the ground, covering them with dirt, breaking apart the carefully constructed pattern of smooth rocks. A shrill noise pierces your ears as the air grows suddenly warmer, and the world distorts around you, settling into normality.",
         "back_text": "<b>(→R1)</b>"
@@ -365,7 +365,7 @@
         "flavor": "This clearing has been the site of dark rites since colonists first came to the area over two centuries ago.",
         "name": "Arkham Woods",
         "subname": "Unhallowed Ground",
-        "text": "<b>Forced</b> - After you enter this location: Test [willpower] (4). If you fail, take 1 horror and 1 damage.",
+        "text": "<b>強制</b> - After you enter this location: 檢定[willpower](4). If you fail, take 1 horror and 1 damage.",
         "traits": "Woods.",
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
@@ -374,7 +374,7 @@
         "flavor": "This path seems to twist and turn upon itself, almost as if it were alive.",
         "name": "Arkham Woods",
         "subname": "Twisting Paths",
-        "text": "<b>Forced</b> - When you move out of this location: Test [intellect] (3). If you fail, cancel the effects of the move.",
+        "text": "<b>強制</b> - When you move out of this location: 檢定[intellect](3). If you fail, cancel the effects of the move.",
         "traits": "Woods.",
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why."
     },
@@ -418,7 +418,7 @@
         "code": "01156",
         "flavor": "The sigils on the wall begin to flicker in and out of focus, and the air grows heavy with the smell of death.",
         "name": "Ritual Site",
-        "text": "<b>Forced</b> - At the end of the round, if there are fewer than 2 clues per investigator on Ritual Site: Add clues to it until it has 2 clues per investigator on it.",
+        "text": "<b>強制</b> - At the end of the round, if there are fewer than 2 clues per investigator on Ritual Site: Add clues to it until it has 2 clues per investigator on it.",
         "traits": "Cave.",
         "back_flavor": "The large central chamber of a cold, dark cavern, adorned with arcane markings and dimly lit by candlelight."
     },
@@ -426,170 +426,170 @@
         "code": "01157",
         "name": "Umôrdhoth",
         "subname": "The Devourer Below",
-        "text": "Hunter. Massive.\nUmôrdhoth gets +4 health per investigator.\n<b>Forced</b> - At the end of each investigator's turn: Ready Umôrdhoth.\n[action] If you control Lita Chantler: \"It's only after her!\" You throw Lita to Umôrdhoth in order to spare your lives. <b>(→R3)</b>",
-        "traits": "Ancient One. Elite."
+        "text": "獵手。 Massive.\nUmôrdhoth gets +4 health per investigator.\n<b>強制</b> - At the end of each investigator's turn: Ready Umôrdhoth.\n[action] If you control Lita Chantler: \"It's only after her!\" You throw Lita to Umôrdhoth in order to spare your lives. <b>(→R3)</b>",
+        "traits": "Ancient One. 菁英"
     },
     {
         "code": "01158",
         "flavor": "A deathly chill from below engulfs you, attempting to suck your life force away.",
         "name": "Umôrdhoth's Wrath",
-        "text": "<b>Revelation</b> - Test [willpower] (5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 1 horror.",
+        "text": "<b>顯現</b> - 檢定[willpower](5). For each point you fail by, you must either (choose one): Choose and discard a card from your hand, or take 1 damage and 1 horror.",
         "traits": "Curse."
     },
     {
         "code": "01159",
-        "flavor": "A horde of cruel rats skitters forth in an undulating wave of claws, teeth, and mottled fur.",
-        "name": "Swarm of Rats",
-        "text": "Hunter.",
-        "traits": "Creature."
+        "flavor": "成群慘忍的老鼠向前突進，只見它們的爪子、尖牙、斑駁的皮毛如同浪朝一般此起彼伏地湧動。",
+        "name": "鼠群",
+        "text": "獵手",
+        "traits": "生物"
     },
     {
         "code": "01160",
-        "flavor": "It was a colossal and nameless blasphemy with glaring red eyes, and it held in bony claws a thing that had been a man, gnawing at the head as a child nibbles at a stick of candy. <cite>H. P. Lovecraft, \"Pickman's Model\"</cite>",
-        "name": "Ghoul Minion",
-        "traits": "Humanoid. Monster. Ghoul."
+        "flavor": "這是一隻比人更高大的無名怪物，他的眼睛血紅，骨頭般堅硬的爪子抓著一個人頭。他玩弄著那個頭，就好像小孩看到糖果一般。<cite>－－H.P.洛夫克拉夫特，《皮克曼的模型》</cite>",
+        "name": "食屍鬼爪牙",
+        "traits": "人類 怪物 食屍鬼"
     },
     {
         "code": "01161",
-        "flavor": "The sight of the thing raised the question: Do we eat to live, or do we live to eat?",
-        "name": "Ravenous Ghoul",
-        "text": "<b>Prey</b> - Lowest remaining health.",
-        "traits": "Humanoid. Monster. Ghoul."
+        "flavor": "看到這隻怪物讓你不禁懷疑起人生：我們是為了生而吃，還是為了吃而生？",
+        "name": "飢餓的食屍鬼",
+        "text": "<b>獵物</b> - 剩餘生命值最低。",
+        "traits": "人類 怪物 食屍鬼"
     },
     {
         "code": "01162",
-        "flavor": "Decaying hands rise up from below and grasp and claw at your ankles.",
-        "name": "Grasping Hands",
-        "text": "<b>Revelation</b> - Test [agility] (3). For each point you fail by, take 1 damage.",
-        "traits": "Hazard."
+        "flavor": "從地下伸出許多的手，試圖抓住你的腳踝。",
+        "name": "攫噬之手",
+        "text": "<b>顯現</b> - 檢定[agility](3)。 你每低於難度1點，受到1點傷害。",
+        "traits": "危險"
     },
     {
         "code": "01163",
-        "flavor": "A sickening display of gore causes you to retch. You're glad this wasn't you.",
-        "name": "Rotting Remains",
-        "text": "<b>Revelation</b> - Test [willpower] (3). For each point you fail by, take 1 horror.",
-        "traits": "Terror."
+        "flavor": "這令人作噁的血腥場面使你反胃。 你慶幸這具屍體並不屬於你。",
+        "name": "腐爛的屍體",
+        "text": "<b>顯現</b> - 檢定[willpower](3)。 你每低於難度1點，受到1點恐懼。",
+        "traits": "恐怖"
     },
     {
         "code": "01164",
-        "name": "Frozen in Fear",
-        "text": "<b>Revelation</b> - Put Frozen in Fear into play in your threat area.\nThe first time you perform one of the following actions (move, fight, or evade) each round, it costs 1 additional action.\n<b>Forced</b> - At the end of your turn: Test [willpower] (3). If you succeed, discard Frozen in Fear.",
-        "traits": "Terror."
+        "name": "呆若木雞",
+        "text": "<b>顯現</b> - 將呆若木雞放置入你的威脅區域。\n每輪你第一次執行以下行動之一時（移動、攻擊、躲避），其額外花費1行動。\n<b>強制</b> - 在你回合結束時：檢定[willpower](3)。 如果成功，丟棄呆若木雞。",
+        "traits": "恐怖"
     },
     {
         "code": "01165",
-        "name": "Dissonant Voices",
-        "text": "<b>Revelation</b> - Put Dissonant Voices into play in your threat area.\nYou cannot play assets or events.\n<b>Forced</b> - At the end of the round: Discard Dissonant Voices.",
-        "traits": "Terror."
+        "name": "刺耳之聲",
+        "text": "<b>顯現</b> - 將刺耳之聲放置入你的威脅區域。\n你不能打出支援或事件卡。\n<b>強制</b> - 本輪結束時：丟棄刺耳之聲。",
+        "traits": "恐怖"
     },
     {
         "code": "01166",
-        "flavor": "Dark forces stir against you. If you do not act quickly, a sinister plot will be fulfilled.",
-        "name": "Ancient Evils",
-        "text": "<b>Revelation</b> - Place 1 doom on the current agenda. This effect may cause the current agenda to advance.",
-        "traits": "Omen."
+        "flavor": "黑暗的力量攪動著。如果你不快速行動，世界將被罪惡填滿。",
+        "name": "遠古惡魔",
+        "text": "<b>顯現</b> - 在當前密謀卡上放置1個毀滅標記。該效果可能導致當前密謀推進。",
+        "traits": "徵兆"
     },
     {
         "code": "01167",
-        "flavor": "The supernatural cold threatens to freeze your soul.",
-        "name": "Crypt Chill",
-        "text": "<b>Revelation</b> - Test [willpower] (4). If you fail, choose and discard 1 asset you control (if you cannot, take 2 damage instead).",
-        "traits": "Hazard."
+        "flavor": "這寒冷超越了自然的力量，能夠冰凍你的靈魂。",
+        "name": "地窖寒風",
+        "text": "<b>顯現</b> - 檢定[willpower](4)。 如果失敗，選擇1張你控制的資源卡丟棄（如果無法丟棄，則受到2點傷害作為代替）。",
+        "traits": "危險"
     },
     {
         "code": "01168",
-        "name": "Obscuring Fog",
-        "text": "<b>Revelation</b> - Attach to your location. Limit 1 per location.\nAttached location gets +2 shroud.\n<b>Forced</b> - After attached location is successfully investigated: Discard Obscuring Fog.",
-        "traits": "Hazard."
+        "name": "朦朧之霧",
+        "text": "<b>顯現</b> - 疊加到你所在地點。 每個地點限制1張。\n疊加地點隱藏值+2。\n<b>強制</b> - 在疊加地點被成功調查後：丟棄朦朧之霧。",
+        "traits": "危險"
     },
     {
         "code": "01169",
         "flavor": "It was only a small sacrifice.",
         "name": "Acolyte",
-        "text": "<b>Spawn</b> - Any empty location.\n<b>Forced</b> - After Acolyte enters play: Place 1 doom on it.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Any empty location.\n<b>強制</b> - After Acolyte enters play: Place 1 doom on it.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01170",
         "name": "Wizard of the Order",
-        "text": "<b>Spawn</b> - Any empty location.\nRetaliate.\n<b>Forced</b> - At the end of the mythos phase: Place 1 doom on Wizard of the Order.",
-        "traits": "Humanoid. Cultist."
+        "text": "<b>生成</b> - Any empty location.\nRetaliate.\n<b>強制</b> - At the end of the mythos phase: Place 1 doom on Wizard of the Order.",
+        "traits": "人類 Cultist."
     },
     {
         "code": "01171",
         "name": "Mysterious Chanting",
-        "text": "<b>Revelation</b> - Place 2 doom on the nearest [[Cultist]] enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy and draw it. Shuffle the encounter deck.",
+        "text": "<b>顯現</b> - Place 2 doom on the nearest [[Cultist]] enemy. If there are no [[Cultist]] enemies in play, search the encounter deck and discard pile for a [[Cultist]] enemy and draw it. Shuffle the encounter deck.",
         "traits": "Hex."
     },
     {
         "code": "01172",
         "flavor": "... they had no faces at all to smile with, but only a suggestive blankness where a face ought to be. <cite>H. P. Lovecraft</cite>",
         "name": "Hunting Nightgaunt",
-        "text": "Hunter.\nWhile attempting to evade Hunting Nightgaunt, double the negative modifier of each revealed chaos token.",
-        "traits": "Monster. Nightgaunt."
+        "text": "獵手。\nWhile attempting to evade Hunting Nightgaunt, double the negative modifier of each revealed chaos token.",
+        "traits": "怪物 Nightgaunt."
     },
     {
         "code": "01173",
         "flavor": "A nightgaunt swoops down from the sky and grabs you with its clawed hands, carrying you off into the night.",
         "name": "On Wings of Darkness",
-        "text": "<b>Revelation</b> - Test [agility] (4). If you fail, take 1 horror and 1 damage. Then, disengage with each non-[[Nightgaunt]] enemy engaged with you and move to a [[Central]] location."
+        "text": "<b>顯現</b> - 檢定[agility](4). If you fail, take 1 horror and 1 damage. Then, disengage with each non-[[Nightgaunt]] enemy engaged with you and move to a [[Central]] location."
     },
     {
         "code": "01174",
         "name": "Locked Door",
-        "text": "<b>Revelation</b> - Attach to the location in play with the most clues, and without a Locked Door attached.\nThe attached location cannot be investigated.\n[action]: Test [willpower] (4) to break down the door or [agility] (4) to pick the lock. If you succeed, discard Locked Door.",
+        "text": "<b>顯現</b> - Attach to the location in play with the most clues, and without a Locked Door attached.\nThe attached location cannot be investigated.\n[action]: 檢定[willpower](4) to break down the door or [agility](4) to pick the lock. If you succeed, discard Locked Door.",
         "traits": "Obstacle."
     },
     {
         "code": "01175",
         "name": "Screeching Byakhee",
-        "text": "<b>Prey</b> - Lowest remaining sanity.\nHunter.\nWhile engaged with an investigator with remaining sanity 4 or fewer, Screeching Byakhee gets +1 fight and +1 evade.",
-        "traits": "Monster. Byakhee."
+        "text": "<b>獵物</b> - Lowest remaining sanity.\n獵手。\nWhile engaged with an investigator with remaining sanity 4 or fewer, Screeching Byakhee gets +1 fight and +1 evade.",
+        "traits": "怪物 Byakhee."
     },
     {
         "code": "01176",
         "flavor": "They came to me slowly as if I had forgotten them, and at last I could make some sense out of the sounds. It was this: \"Have you found the Yellow Sign?\" <cite>Robert W. Chambers, \"The Yellow Sign\"</cite>",
         "name": "The Yellow Sign",
-        "text": "<b>Revelation</b> - Test [willpower] (4). If you fail, take 2 horror and search your deck for a [[Madness]] weakness. Draw that card and shuffle your deck.",
-        "traits": "Omen."
+        "text": "<b>顯現</b> - 檢定[willpower](4). If you fail, take 2 horror and search your deck for a [[Madness]] weakness. Draw that card and shuffle your deck.",
+        "traits": "徵兆"
     },
     {
         "code": "01177",
         "name": "Yithian Observer",
-        "text": "<b>Prey</b> – Fewest cards in hand.\n<b>Forced</b> - When Yithian Observer attacks you: Discard 1 card at random from your hand. If you cannot, Yithian Observer deals +1 damage and +1 horror for this attack.",
-        "traits": "Monster. Yithian."
+        "text": "<b>獵物</b> – Fewest cards in hand.\n<b>強制</b> - When Yithian Observer attacks you: Discard 1 card at random from your hand. If you cannot, Yithian Observer deals +1 damage and +1 horror for this attack.",
+        "traits": "怪物 Yithian."
     },
     {
         "code": "01178",
         "flavor": "A voice inside your head offers you power... For a price.",
         "name": "Offer of Power",
-        "text": "Peril.\n<b>Revelation</b> - You must either (choose one): draw 2 cards and place 2 doom on the current agenda (this effect can cause the current agenda to advance), or take 2 horror.",
+        "text": "Peril.\n<b>顯現</b> - You must either (choose one): draw 2 cards and place 2 doom on the current agenda (this effect can cause the current agenda to advance), or take 2 horror.",
         "traits": "Pact."
     },
     {
         "code": "01179",
         "flavor": "The trees trembled, leaves fluttering around us. The earth shook as the thuds of giant hooved feet grew ever closer...",
         "name": "Relentless Dark Young",
-        "text": "<b>Prey</b> - Lowest [agility].\n<b>Forced</b> - At the end of the round: Heal 2 damage from Relentless Dark Young.",
-        "traits": "Monster. Dark Young."
+        "text": "<b>獵物</b> - Lowest [agility].\n<b>強制</b> - At the end of the round: Heal 2 damage from Relentless Dark Young.",
+        "traits": "怪物 Dark Young."
     },
     {
         "code": "01180",
         "flavor": "The creature was at once terrible and graceful, the result of blasphemous trafficks with some otherworldly horror.",
         "name": "Goat Spawn",
-        "text": "Hunter. Retaliate.\n<b>Forced</b> - After Goat Spawn is defeated: Each investigator at this location takes 1 horror.",
-        "traits": "Humanoid. Monster."
+        "text": "獵手。 Retaliate.\n<b>強制</b> - After Goat Spawn is defeated: Each investigator at this location takes 1 horror.",
+        "traits": "人類 怪物"
     },
     {
         "code": "01181",
         "name": "Young Deep One",
-        "text": "<b>Prey</b> - Lowest [combat].\nHunter.\n<b>Forced</b> - After Young Deep One engages you: Take 1 horror.",
-        "traits": "Humanoid. Monster. Deep One."
+        "text": "<b>獵物</b> - Lowest [combat].\n獵手。\n<b>強制</b> - After Young Deep One engages you: Take 1 horror.",
+        "traits": "人類 怪物 Deep One."
     },
     {
         "code": "01182",
         "name": "Dreams of R'lyeh",
-        "text": "<b>Revelation</b> - Put Dreams of R'lyeh into play in your threat area.\nYou get -1 [willpower] and -1 sanity.\n[action]: Test [willpower] (3). If you succeed, Discard Dreams of R'lyeh.",
-        "traits": "Omen."
+        "text": "<b>顯現</b> - Put Dreams of R'lyeh into play in your threat area.\nYou get -1 [willpower] and -1 sanity.\n[action]: 檢定[willpower](3). If you succeed, Discard Dreams of R'lyeh.",
+        "traits": "徵兆"
     }
 ]
