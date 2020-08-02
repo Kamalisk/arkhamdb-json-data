@@ -1,18 +1,19 @@
 [
     {
-        "back_flavor": "",
-        "back_text": "",
+        "back_flavor": "Chiaki Asami was born in the Japanese Province of Owari. Though happy with his simple life, it would soon be take from him by the great Mino–Owari earthquake of 1891. Without an remaining family Chiaki immigrated to the United States, where he found himself settling down is the city of Arkham. Working from nothing, he would spend years founding his own company, set on creating a city like no other. It was only after some of his employees starting going missing and strange happening started appearing in the news that Chiaki learned the truth. If he didn't act now, Arkham would lead him to an early grave before he could see his plans for the city to completion.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
         "code": "1000000",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "seeker", "neutral"], "level":{"min":0, "max":5} }
+            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
+            {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
         "deck_requirements": "size:30, card:1000001, card:1000002, card:1000003, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "survivor",
         "flavor": "",
         "health": 6,
-        "sanity": 5,
+        "sanity": 8,
         "illustrator": "",
         "is_unique": true,
         "name": "Chiaki Asami",
@@ -20,12 +21,12 @@
         "position": 1,
         "quantity": 1,
         "skill_willpower": 3,
-        "skill_intellect": 4,
-        "skill_combat": 1,
+        "skill_intellect": 3,
+        "skill_combat": 2,
         "skill_agility": 4,
         "subname": "Project Lead",
-        "text": "",
-        "traits": "Entrepreneur. Civic.",
+        "text": "You begin the game with Foresight in play.\n[reaction] After an investigator performs an investigate action at your location. Place 1 supply on Foresight. (Limit once for each investigator per round.)\n[elder_sign] effect: +1. Place 1 charge on Foresight for each point you succeed by (2 max).\nI'll keep this city going even if I have to rebuild it from the ground up.",
+        "traits": "Philanthropist. Civic.",
         "type_code": "investigator"
     },
     {
@@ -39,7 +40,8 @@
         "position": 2,
         "quantity": 1,
         "restrictions": "investigator:1000000",
-        "text": "Permanent. Chiaki Asami deck only.\nUses (1 supplies)\n[free]During your turn, spend 1 supply: Move a clue on your location to a connecting location. (Limit 2 uses per round.)",
+        "text": "Uses (2 supplies) (Limit 2 supplies spent per round.)\n[free] During your turn, spend 1 supply: Move a clue on your location to a revealed connecting location.",
+        "flavor": "\"I see a with a booming economy, zero unemployment, and smiling families. And If I must, I will remake this city twice over to see that happen.\"",
         "traits": "Talent.",
         "type_code": "asset"
     },
@@ -50,16 +52,16 @@
         "faction_code": "neutral",
         "illustrator": "",
         "is_unique": true,
-        "name": "Regroup!",
+        "name": "Field Reports",
         "pack_code": "kyo",
         "position": 3,
         "quantity": 1,
         "restrictions": "investigator:1000000",
-        "skill_combat": 1,
+        "skill_agility": 1,
         "skill_intellect": 1,
         "skill_wild": 1,
-        "text": "Chiaki Asami deck only.\nFast. Play only during your turn.\nChoose up to 2 investigators at connecting locations. Move them to your location.",
-        "traits": "",
+        "text": "Attach to Foresight. Foresight gains:\n\"[free] Discard a card and spend a supply from Foresight: Choose a location connected to your current location, with at least 1 investigator and at least 1 clue on it. Move 1 investigator and 1 clue from that location to your location.\"",
+        "traits": "Tactic.",
         "type_code": "event"
     },
     {
@@ -73,7 +75,7 @@
         "quantity": 1,
         "restrictions": "investigator:1000000",
         "subtype_code": "weakness",
-        "text": "",
+        "text": "<b>Revelation</b> - If Foresight has less than 3 supplies; shuffle Sleepless Nights into your deck. Otherwise, put Sleepless Nights into play in your threat area.\nForesight's \"[free]\" ability can only be used once per round.\nAt the end of your turn: take 1 horror damage for each supply on Foresight (Max 2 horror). If Foresight has no supplies on it discard this card.",
         "traits": "Flaw.",
         "type_code": "treachery"
     }
