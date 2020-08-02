@@ -1,5 +1,56 @@
 [
 	{
+		"back_text": "- When building the exploration deck, include only 1 of the 2 locations with each of the following connection symbols, chosen at random: Purple Moon, Blue Triangle, Red Square, Orange Heart. Remove the 4 [[Jungle]] locations from the game wihtout looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 5 cards.)<hr/>For the duration of this scenario, the following additional rules apply: \"The 'check your supplies' ability on the Expedition Camp can be used from any location.\n<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52016",
+		"double_sided": true,
+		"encounter_code": "return_to_the_untamed_wilds",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to The Untamed Wilds",
+		"pack_code": "rttfa",
+		"position": 16,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to The Untamed Wilds</i> shown here.\n<b>(Continued on reverse side.)</b>",
+		"type_code": "scenario"
+	},
+	{
+		"back_text": "- Before setup, replace the original Entryway, Ancient Hall, Grand Chamber, and Chamber of Time locations with the new versions from this encounter set.\n- Before setup, replace the original Harbinger of Valusia enemy with the new Harbinger of Valusia <i>(The Sleeper Returns)</i>\n- When building the exploration deck, use only Sealed Passage, Mosaic Chamber, Tomb of the Ancients, Throne Room, Snake Pit, Ancient Hall, and Grand Chamber. Do not include any of the other encounter cards listed in the original setup instructions.\n<hr/>For the duration of this scenario, the following additional rule apply: \"<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52017",
+		"double_sided": true,
+		"encounter_code": "return_to_the_doom_of_eztli",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to The Doom of Eztli",
+		"pack_code": "rttfa",
+		"position": 17,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to The Doom of Eztli</i> shown here.\n- Gather the 3 Pit Viper cards from the Serpents encounter set and set them aside, out of play.\n- Before setup, remove the original Burial Pit, Underground Ruins, and Secret Passage locations from the game.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
+	},
+	{
+		"code": "53018",
+		"encounter_code": "return_to_the_doom_of_eztli",
+		"encounter_position": 2,
+		"enemy_damage": 2,
+		"enemy_evade": 4,
+		"enemy_fight": 2,
+		"enemy_horror": 2,
+		"faction_code": "mythos",
+		"health": 10,
+		"health_per_investigator": true,
+		"illustrator": "Matthew Cowdery",
+		"is_unique": true,
+		"name": "Harbinger of Valusia",
+		"pack_code": "rttfa",
+		"position": 18,
+		"quantity": 1,
+		"subname": "The Sleeper Returns",
+		"text": "Alert. Hunter. Retaliate.\nWhile this enemy has 5[per_investigator] or more damage on it, it gets +2 fight and -2 evade.\n<b>Forced</b> - After a successful attack or evasion attempt against this enemy ends: Place 1 resource on it. Then, if there are 2[per_investigator] resources on it, it vanishes with a sinister hiss. (Set it aside, out of play. It keeps all damage tokens.)",
+		"traits": "Humanoid. Monster. Serpent. Elite.",
+		"type_code": "enemy",
+		"vengeance": 5
+	},
+	{
 		"back_flavor": "The sun sets over the temple ruins, bathing the stone in warm light. The sounds of the rainforest are distant by the time you cross underneath the painted entryway. Inside, the halls are plunged into darkness.",
 		"clues": 1,
 		"code": "53019",
@@ -153,6 +204,20 @@
 		"type_code": "location",
 		"vengeance": 2,
 		"victory": 2
+	},
+	{
+		"back_text": "- This encounter set contains a fourth \"g/h\" act deck. Adjust the contents of the \"g/h\" act deck as follows. The investigators must decide (choose one):\nIf you wish to find the source named in the <i>Advertiser's</i> story, remove the following act cards from the \"g/h\" deck: Search for the Meaning, both copies of The Overgrown Estate, and 1 of the 2 copies of Seeking Trouble, at random.\nIf you wish to find the root of the problem, remove the following act cards from the \"g/h\" deck: Search for the Source, both copies of Seeking Trouble, and 1 of the 2 copies of The Overgrown Estate, at random.",
+		"code": "52028",
+		"double_sided": true,
+		"encounter_code": "return_to_threads_of_fate",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to Threads of Fate",
+		"pack_code": "rttfa",
+		"position": 28,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Threads of Fate</i> shown here.\n- Set the Veda Whitsley story asset aside, out of play.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
 	},
 	{
 		"back_link": "53029b",
@@ -367,8 +432,8 @@
 		"flavor": "You never thought this creature would track you all the way to Arkham. Or perhaps it's just a figment of your imagination. A ghost in your mind. A shard of your subconscious, driving you away from this line of inquiry.",
 		"illustrator": "Joshua Cairós",
 		"name": "Impossible Pursuit",
-		"pack_code": "tof",
-		"position": 123,
+		"pack_code": "rttfa",
+		"position": 36,
 		"quantity": 1,
 		"stage": 3,
 		"text": "<b>Objective</b> - If the Harbinger of Valusia leaves play, advance.",
@@ -397,6 +462,20 @@
 		"text": "[fast] Exhaust Veda Whitsley: Look at the top card of the exploration deck or encounter deck. If it is an enemy, you may deal 1 damage to Veda Whitsley to discard it. If it is a treachery, you may deal 1 horror to Veda Whitsley to discard it. Otherwise, return it to the top of its deck.",
 		"traits": "Ally. Wayfarer.",
 		"type_code": "asset"
+	},
+	{
+		"back_text": "- Add the new [[Present-Day]] locations to the original locations from <i>The Boundary Beyond</i> encounter set. Remove 1 of the 2 copies of each of these locations from the game at random. Put the remaining locations into play.\n- After setup, search the collection for the new Harbinger of Valusia <i>(The Sleeper Returns)</i> and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one.\n- When building the exploration deck, use only the 12 single-sided [[Ancient]] locations. Do not include any of the other encounter cards listed in the original setup instructions.",
+		"code": "52038",
+		"double_sided": true,
+		"encounter_code": "return_to_the_boundary_beyond",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to The Boundary Beyond",
+		"pack_code": "rttfa",
+		"position": 38,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to The Boundary Beyond</i> shown here.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
 	},
 	{
 		"back_flavor": "Though the exact location of the main temple of Tenochtitlán is not yet known, excavation has begun in search of the ruins of the many temples that once covered this area.",
@@ -506,13 +585,25 @@
 		"traits": "Mexico City. Present-Day.",
 		"type_code": "location"
 	},
-
->>>>>>> 44b1729... ADd more spoiled cards from RTTFA
+	{
+		"back_text": "- When building the exploration deck, include only 1 of the 2 locations with each of the following connection symbols, chosen at random:\nPurple Moon, Blue Triangle, Red Square, Orange Heart. Remove the other 4 [[Jungle]] locations from the game without looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 6 cards.)\n<hr/>For the duration of this scenario, the following additional rules apply:\n\"The 'check your supplies' ability on the Mouth of K'n-yan can be used from any location.\n<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52045",
+		"double_sided": true,
+		"encounter_code": "return_to_pillars_of_judgement",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to Heart of the Elders, Part 1",
+		"pack_code": "rttfa",
+		"position": 45,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Heart of the Elders, Part 1</i> shown here.\n- Remove Act 1a - \"Search for the Pattern\" from the game and replace it with the new Act 1a - \"A Familiar Pattern.\"\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
+	},
 	{
 		"back_link": "53046b",
 		"clues": 2,
 		"code": "53046",
-		"encounter_code": "return_to_pillars_of_judgment",
+		"encounter_code": "return_to_pillars_of_judgement",
 		"encounter_position": 2,
 		"faction_code": "mythos",
 		"flavor": "Six stone pillars surround the entrance to the cavern, each carved with a series of uncanny grooves and hieroglyphs that form an intricate pattern. Touching them causes the grooves to glow brightly, and twisting them causes the patterns to shift and change. Perhaps these patterns match the glyphs found in other regions of the jungle?",
@@ -526,7 +617,7 @@
 	},
 	{
 		"code": "53046b",
-		"encounter_code": "return_to_pillars_of_judgment",
+		"encounter_code": "return_to_pillars_of_judgement",
 		"encounter_position": 2,
 		"enemy_damage": 1,
 		"enemy_evade": 4,
@@ -548,7 +639,7 @@
 	},
 	{
 		"code": "53047",
-		"encounter_code": "return_to_pillars_of_judgment",
+		"encounter_code": "return_to_pillars_of_judgement",
 		"encounter_position": 3,
 		"enemy_damage": 1,
 		"enemy_evade": 3,
@@ -564,6 +655,20 @@
 		"traits": "Creature. Serpent.",
 		"type_code": "enemy",
 		"vengeance": 1
+	},
+	{
+		"back_text": "- When building the exploration deck, include only 1 of the 2 locations with each of the following connection symbols, chosen at random:\nPurple Moon, Blue Triangle, Red Square, Green Diamond. Remove the other 4 [[Ancient]] locations from the game without looking at them. Do not include any of the other encounter cards listed in the original setup instructions. (There should be a total of 5 cards, not counting the set-aside Descent to Yoth.)\n<hr/>For the duration of this scenario, the following additional rules apply:\n\"The 'check your supplies' ability on the Mouth of K'n-yan can be used from any location, and it discards enemies as well as treacheries.\n<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52048",
+		"double_sided": true,
+		"encounter_code": "return_to_knyan",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to Heart of the Elders, Part 2",
+		"pack_code": "rttfa",
+		"position": 48,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Heart of the Elders, Part 2</i> shown here.\n- After setup, search the collection for the new Harbinger of Valusia <i>(The Sleeper Returns)</i>  and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
 	},
 	{
 		"clues": 2,
@@ -632,6 +737,20 @@
 		"traits": "Ancient. Cave.",
 		"type_code": "location",
 		"victory": 1
+	},
+	{
+		"back_text": "- Set Cyclopean Vaults and Alien Conservatory aside, out of play. <i>(These locations should be put into play during act 1b when the remainder of the set-aside locations are put into play.)</i>\n- Remove Act 2a - \"Restricted Access\" from the game and replace it with the new Act 2a - \"Unrestricted Access.\"",
+		"code": "52053",
+		"double_sided": true,
+		"encounter_code": "return_to_the_city_of_archives",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to The City of Archives",
+		"pack_code": "rttfa",
+		"position": 53,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to The City of Archives</i> shown here.\n- Put Halls of Pnakotus <i>(Southern Corridors)</i> into play.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
 	},
 	{
 		"back_flavor": "The truth is hard to accept. Your body was never brought to this place. Your mind has been transferred into the body of one of these creatures. Somewhere, in another place - in another time - one of the reviled creatures dwells in your body.",
@@ -728,8 +847,22 @@
 		"type_code": "enemy"
 	},
 	{
+		"back_text": "- After building the exploration deck during setup, shuffle the Perilds of Yoth treachery into the exploration deck.\n<hr/>For the duration of this scenario, the following additional rule applies:\n\"<b>Forced</b> - After a new exploration deck is created during act 1b: Search the encounter deck, discard pile, and all out-of-play areas for Perils of Yoth and shuffle it into the exploration deck. Shuffle the encounter deck if it was searched.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52059",
+		"double_sided": true,
+		"encounter_code": "return_to_the_depths_of_yoth",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to The Depths of Yoth",
+		"pack_code": "rttfa",
+		"position": 59,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to The Depths of Yoth</i> shown here.\n- After setup, search the collection for the new Harbinger of Valusia <i>(The Sleeper Returns)</i> and set it aside, out of play. If the Harbinger of Valusia would enter play during this scenario, use this version instead of the original one.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
+	},
+	{
 		"code": "53060",
-		"encounter_code": "return_to_depths_of_yoth",
+		"encounter_code": "return_to_the_depths_of_yoth",
 		"encounter_position": 2,
 		"faction_code": "mythos",
 		"illustrator": "Joshua Cairós",
@@ -740,6 +873,20 @@
 		"text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Set Perils of Yoth aside, out of play. <i>(This exploration fails.)</i>\n- Set Perils of Yoth aside, out of play: take horror or damage equal to the current depth level; and continue exploring as if you had not drawn Perils of Yoth.",
 		"traits": "Hex.",
 		"type_code": "treachery"
+	},
+	{
+		"back_text": "- Set the new [[Shattered]] locations aside, out of play.\n<hr/>For the duration of this scenario, the following additional rule applies:\n\"<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52061",
+		"double_sided": true,
+		"encounter_code": "return_to_shattered_aeons",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to Shattered Aeons",
+		"pack_code": "rttfa",
+		"position": 61,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Shattered Aeons</i> shown here.\n- When building the exploration deck, use only the 4 single-sided [[Otherworld]] locations. Do not include any of the other encounter cards listed in the original setup instructions.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
 	},
 	{
 		"clues": 3,
@@ -806,6 +953,20 @@
 		"traits": "Hex.",
 		"type_code": "treachery"
 	},
+	{
+		"back_text": "- Beforoe setup, replace the original Entryway, Ancient Hall, Grand Chamber, and Chamber of Time locations with the new versions from this encounter set.\n- Before setup, replace the original Harbinger of Valusia enemey with the new Harbinger of Valusia <i>(The Sleeper Returns)</i>.\n- When building the exploration deck, use only Sealed Passage, Mosaic Chamber, Tomb of the Ancients, Throne Room, Snake Pit, Ancient Hall, and Grand Chamber. Do not include any of the other encounter cards listed in the original setup instructions.\n<hr/>For the duration of this scenario, the following additional rule applies:\n\"<b>Forced</b> - After a successful exploration ends: Shuffle the top card of the encounter deck into the exploration deck.\"\nAttach this card to the scenario reference card as a reminder.",
+		"code": "52066",
+		"double_sided": true,
+		"encounter_code": "return_to_turn_back_time",
+		"encounter_position": 1,
+		"faction_code": "mythos",
+		"name": "Return to Turn Back Time",
+		"pack_code": "rttfa",
+		"position": 66,
+		"quantity": 1,
+		"text": "Perform the setup as indicated in <i>The Forgotten Age</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Turn Back Time</i> shown here.\n- Gather the 3 Pit Viper cards from the <i>Serpents</i> encounter set and set them aside, out of play.\n- Before setup, remove the original Burial Pit, Underground Ruins, and Secret Passage locations from the game.\n<b>(Continued on reverse side.)</b>",		
+		"type_code": "scenario"
+	},	
 	{
 		"clues": 1,
 		"code": "53067",
@@ -931,7 +1092,7 @@
 		"name": "Resentful Wilds",
 		"pack_code": "rttfa",
 		"position": 74,
-		"quantity": 3,
+		"quantity": 2,
 		"text": "<b>Revelation</b> - Take 1 horror and attach Resentful Wilds to the nearest location without a copy of Resentful Wilds attached.\n<b>Forced</b> - After you successfully explore at attached location: Add Resentful Wilds to the victory display.",
 		"traits": "Hazard.",
 		"type_code": "treachery",
