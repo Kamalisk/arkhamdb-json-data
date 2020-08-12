@@ -317,7 +317,7 @@
         "code": "02079",
         "name": "Питер Клевер",
         "subname": "Тот, у кого все козыри",
-        "text": "<b>Обязательно</b> - В начале фазы врагов, если ни один игрок не распоряжается «Питером Клевером»: Нанесите ему 1 рану.\n[free] Поверните «Питера Клевера»: Автоматически уйдите от врага-[[преступника]] в вашей локации.",
+        "text": "<b>Обязательно</b> - В начале фазы врагов, если карта «Питер Клевер» не находится под контролем игрока: Нанесите «Питеру Клеверу» 1 рану.\n[free] Поверните «Питера Клевера»: Автоматически уйдите от врага-[[преступника]] в вашей локации.",
         "traits": "Гуманоид. Преступник."
     },
     {
@@ -401,82 +401,83 @@
     },
     {
         "code": "02092",
-        "name": "Cursed Luck",
-        "text": "<b>Revelation</b> - Put Cursed Luck into play in your threat area.\nYou get -1 skill value during skill tests.\n<b>Forced</b> - After you succeed at a skill test by 1 or more: Discard Cursed Luck.",
-        "traits": "Omen."
+        "name": "Невезение",
+        "text": "<b>Раскрытие</b> - Введите «Невезение» в игру в свою зону угрозы.\nВ каждой проверке у вас -1 к навыку.\n<b>Обязательно</b> - После того как вы успешно прошли проверку, превысив сложность на 1 или больше: Сбросьте «Невезение».",
+        "traits": "Знамение."
     },
     {
         "code": "02093",
-        "name": "Twist of Fate",
-        "text": "<b>Revelation</b> - Reveal a random token from the chaos bag.\nIf you reveal a [elder_sign] symbol or positive number, nothing happens.\nIf you reveal any other number, take 1 damage.\nIf you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, take 2 horror.",
-        "traits": "Omen."
+        "name": "Ирония судьбы",
+        "text": "<b>Раскрытие</b> - Вытяните случайный жетон хаоса из мешка.\nЕсли на нём [elder_sign] или положительное число, ничего не происходит.\nЕсли на нём иное число, получите 1 рану.\nЕсли на нём [skull], [cultist], [tablet], [elder_thing] или [auto_fail], получите 2 ужаса.",
+        "traits": "Знамение."
     },
     {
         "code": "02094",
-        "name": "Avian Thrall",
-        "text": "<b>Prey</b> - Lowest [intellect].\nHunter.\nWhile Avian Thrall is being attacked using a [[Ranged]], [[Firearm]], or [[Spell]] asset, it gets -3 fight.",
-        "traits": "Creature. Monster. Abomination."
+        "name": "Миньон-птица",
+        "text": "<b>Добыча</b> - с наименьшим [intellect].\nОхотник.\nЕсли «Миньон-птица» атакован с использованием [[дальнобойного]], [[огнестрельного]] актива или актива-[[заклинания]], у него -3 к бою.",
+        "traits": "Существо. Монстр. Чудовище."
     },
     {
         "code": "02095",
-        "flavor": "What manner of wolf has that many teeth?",
-        "name": "Lupine Thrall",
-        "text": "<b>Spawn</b> - Farthest location from you.\n<b>Prey</b> - Lowest [agility].\nHunter. Retaliate.",
-        "traits": "Creature. Monster. Abomination."
+        "flavor": "Что это за волк с такой прорвой зубов?",
+        "name": "Миньон-волк",
+        "text": "<b>Выходит</b> - в самую дальнюю от вас локацию.\n<b>Добыча</b> - с наименьшей [agility].\nОхотник. Мститель.",
+        "traits": "Существо. Монстр. Чудовище."
     },
     {
         "code": "02096",
-        "name": "Altered Beast",
-        "text": "<b>Revelation</b> - If there are no [[Abomination]] enemies in play, Altered Beast gains surge. Otherwise, choose an [[Abomination]] enemy. Heal all damage from that enemy and attached Altered Beast to it.\n<b>Forced</b> - When you enter attached enemy's location (or vice-versa): Take 1 horror.",
-        "traits": "Power."
+        "name": "Преображённая тварь",
+        "text": "<b>Раскрытие</b> - Если в игре нет врагов-[[чудовищ]], считайте, что у «Преображённой твари» есть Наплыв. В противном случае выберите врага-[[чудовище]]. Вылечите ему все раны и прикрепите к нему «Преображённую тварь».\n<b>Обязательно</b> - Когда вы оказываетесь в одной локации с прикреплённым врагом: Получите 1 ужас.",
+        "traits": "Мощь."
     },
     {
         "code": "02097",
-        "flavor": "\"Are we going to have a problem here?\"",
-        "name": "O'Bannion's Thug",
-        "text": "While O'Bannion's Thug is engaged with you, you cannot gain resources.",
-        "traits": "Human. Criminal. Syndicate."
+        "flavor": "«Неприятностей ищешь?»",
+        "name": "Громила О'Бэнниона",
+        "text": "Пока «Громила О'Бэнниона» сражается с вами, вы не можете получать ресурсы.",
+        "traits": "Гуманоид. Преступник. Синдикат."
     },
     {
         "code": "02098",
-        "name": "Mobster",
-        "text": "Retaliate.\n<b>Forced</b> - After Mobster attacks you: Lose 1 resource.",
-        "traits": "Human. Criminal. Syndicate."
+        "flavor": "«Сматывай удочки, приятель, если не хочешь отведать сапога и свинца».",
+        "name": "Гангстер",
+        "text": "Мститель.\n<b>Обязательно</b> - После того как «Гангстер» атаковал вас: Потеряйте 1 ресурс.",
+        "traits": "Гуманоид. Преступник. Синдикат."
     },
     {
         "code": "02099",
-        "name": "Hunted Down",
-        "text": "<b>Revelation</b> - If there are no unengaged [[Criminal]] enemies in play, Hunted Down gains surge. If there are 1 or more unengaged [[Criminal]] enemies in play, each of them moves 1 location toward you. Each [[Criminal]] enemy that engages you as a result of this effect makes an immediate attack.",
-        "traits": "Tactic."
+        "name": "Загнать в угол",
+        "text": "<b>Раскрытие</b> - Если в игре нет врагов-[[преступников]], которые не сражаются, считайте, что у «Загнать в угол» есть Наплыв. Если в игре есть 1 или несколько таких врагов, каждый из них перемещается на 1 локацию в вашу сторону. Каждый враг-[[преступник]], который в результате этого начал с вами сражаться, немедленно атакует.",
+        "traits": "Тактика."
     },
     {
         "code": "02100",
-        "name": "Pushed into the Beyond",
-        "text": "<b>Revelation</b> - Choose and shuffle a non-story asset you control into your deck and discard the top 3 cards of your deck. If a copy of that asset is discarded, take 2 horror.",
-        "traits": "Hex."
+        "name": "Вытолкнуть за пределы",
+        "text": "<b>Раскрытие</b> - Выберите не сюжетный актив, под вашим контролем, замешайте его в свою колоду и сбросьте 3 верхние карты своей колоды. Если при этом сброшен экземпляр выбранного актива, получите 2 ужаса.",
+        "traits": "Колдовство."
     },
     {
         "code": "02101",
-        "name": "Terror from Beyond",
-        "text": "Peril.\n<b>Revelation</b> - Choose one of the following cardtypes (asset, event, or skill). Each player must discard each card in his or her hand that is of the chosen cardtype. If this is not the first copy of Terror from Beyond drawn this phase, choose two cardtypes instead.",
-        "traits": "Hex. Terror."
+        "name": "Ужас извне",
+        "text": "Опасность.\n<b>Раскрытие</b> - Выберите один тип карт: актив, событие или навык. Каждый игрок должен сбросить все карты этого типа с руки. Если в этой фазе уже был взят экземпляр «Ужас извне», вместо этого выберите два типа.",
+        "traits": "Колдовство. Жуть."
     },
     {
         "code": "02102",
-        "name": "Arcane Barrier",
-        "text": "<b>Revelation</b> - Attach to your location.\nAs an additional cost to move into or out of attached location, test [willpower] (4). If successful, discard Arcane Barrier. Otherwise, you must either cancel the effects of the move or discard the top 5 cards of your deck.",
-        "traits": "Hex. Obstacle."
+        "name": "Мистический барьер",
+        "text": "<b>Раскрытие</b> - Прикрепите эту карту к своей локации.\nВ качестве дополнительной цены перемещения в прикрёпленную локацию или из неё пройдите проверку [willpower] (4). При успехе сбросьте «Мистический барьер». При провале либо отмените эффекты этого перемещения, либо сбросьте 5 верхних карт своей колоды.",
+        "traits": "Колдовство. Преграда."
     },
     {
         "code": "02103",
-        "name": "Conglomeration of Spheres",
-        "text": "<b>Prey</b> - Lowest [willpower].\nHunter.\n<b>Forced</b> - After you perform an attack against the Conglomeration of Spheres using a [[Melee]] card: Discard that card.",
-        "traits": "Monster. Abomination."
+        "name": "Скопление сфер",
+        "text": "<b>Добыча</b> - с наименьшей [willpower].\nОхотник.\n<b>Обязательно</b> - После того как вы атаковали «Скопление сфер», используя [[рукопашную]] карту: Сбросьте эту использованную карту.",
+        "traits": "Монстр. Чудовище."
     },
     {
         "code": "02104",
-        "name": "Servant of the Lurker",
-        "text": "<b>Prey</b> - Lowest [agility].\nHunter.\n<b>Forced</b> - When Servant of the Lurker attacks you: Discard the top 2 cards of your deck.",
-        "traits": "Monster. Abomination."
+        "name": "Слуга Таящегося",
+        "text": "<b>Добыча</b> - с наименьшей [agility].\nОхотник.\n<b>Обязательно</b> - Когда «Слуга Таящегося» атакует вас: Сбросьте 2 карты с верха своей колоды.",
+        "traits": "Монстр. Чудовище."
     }
 ]
