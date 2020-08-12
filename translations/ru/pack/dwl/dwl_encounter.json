@@ -1,100 +1,101 @@
 [
     {
         "code": "02040",
-        "name": "Dr. Henry Armitage",
-        "subname": "The Head Librarian",
-        "text": "[reaction] After you draw a card, discard that card and exhaust Dr. Henry Armitage: Gain 3 resources.",
-        "traits": "Ally. Miskatonic.",
-        "slot": "Ally"
+        "flavor": "Армитедж знал, что им придётся привести в действие ужасные силы, но не видел иного способа одолеть ещё более страшное зло, сотворённое другими.\nГовард Ф. Лавкрафт «Ужас Данвича»",
+        "name": "Доктор Генри Армитедж",
+        "subname": "Главный библиотекарь",
+        "text": "[reaction] После того как вы взяли карту (но не слабость), сбросьте её и поверните «Доктора Генри Армитеджа»: Получите 3 ресурса.",
+        "traits": "Союзник. Мискатоник.",
+        "slot": "Союзник"
     },
     {
         "code": "02041",
-        "name": "Extracurricular Activity",
-        "text": "<b>Easy / Standard</b>\n[skull]: -1. If you fail, discard the top 3 cards of your deck.\n[cultist]: -1 (-3 instead if there are 10 or more cards in your discard pile).\n[elder_thing]: -X. Discard the top 2 cards of your deck. X is the total printed cost of those discarded cards.",
-        "back_text": "<b>Hard / Expert</b>\n[skull]: -2. If you fail, discard the top 5 cards of your deck.\n[cultist]: -1 (-5 instead if there are 10 or more cards in your discard pile).\n[elder_thing]: -X. Discard the top 3 cards of your deck. X is the total printed cost of those discarded cards."
+        "name": "Факультативные занятия",
+        "text": "<b>Лёгкий / Обычный</b>\n[skull]: -1. -1. При провале сбросьте 3 верхние карты своей колоды.\n[cultist]: -1 (или -3, если в вашем сбросе 10 или больше карт).\n[elder_thing]: -X. Сбросьте 2 верхние карты своей колоды. X равен сумме напечатанных цен этих карт.",
+        "back_text": "<b>Сложный / Экстремальный</b>\n[skull]: -2. При провале сбросьте 5 верхних карт своей колоды.\n[cultist]: -1 (или -5, если в вашем сбросе 10 или больше карт).\n[elder_thing]: -X. Сбросьте 3 верхние карты своей колоды. X равен сумме напечатанных цен этих карт."
     },
     {
         "code": "02042",
-        "flavor": "You have arrived at the Miskatonic University campus in search of Professor Warren Rice. Classes are over, and a mysterious silence hangs in the air over the quad.",
-        "name": "Quiet Halls",
-        "back_name": "Something Stirs",
-        "back_flavor": "The university is dead silent. The shadows coil about your feet as you walk, and you swear there is something following you with each step you take. Is it just your imagination? Or is there really someone — or something — stalking you?",
-        "back_text": "Each investigator with 5 or more cards in his or her discard pile takes 1 horror. Each investigator with 10 or more cards in his or her discard pile takes 2 horror, instead.\nIf the players have completed The House Always Wins, advance directly to agenda 2b. If Extracurricular Activity is the first scenario in the campaign, advance to agenda 2a."
+        "flavor": "В поисках профессора Уоррена Райса вы прибыли в кампус Мискатоникского университета. Занятия уже закончились, и повсюду в воздухе висит таинственная тишина.",
+        "name": "Тихие коридоры",
+        "back_name": "Что-то пробуждается",
+        "back_flavor": "В университете царит мёртвая тишина. Какие-то тени вьются у ваших ног, и вы готовы поклясться, что каждый ваш шаг словно эхом отдаётся далеко позади. Это разыгралось ваше воображение? Или вас и вправду кто-то — или что-то — преследует?",
+        "back_text": "Каждый сыщик, в чьём сбросе 5 или больше карт, получает 1 ужас. Каждый сыщик, в чьём сбросе 10 или больше карт, вместо этого получает 2 ужаса.\nЕсли вы прошли сценарий «Казино всегда в выигрыше», продвиньтесь сразу к замыслу 2b. Если «Факультативные занятия» — первый сценарий кампании, продвиньтесь к замыслу 2a."
     },
     {
         "code": "02043",
-        "flavor": "Professor Rice's disappearance isn't the only thing amiss at the university. You're unsure exactly what is going on, but you're starting to believe Armitage was right in asking for your help.",
-        "name": "Dead of Night",
-        "text": "Each investigator's maximum hand size is reduced by 3 while checking his or her hand size during the upkeep phase.",
-        "back_name": "An Experiment Gone Wrong",
-        "back_flavor": "A cry of fear echoes through the campus, and several students flee from the eastern side of the university, where the Science building can be found. Could this commotion be linked to Professor Rice's disappearance?",
-        "back_text": "If the Dormitories location is not in play, put it into play.\nIf The Experiment is in play, move it 1 location towards the Dormitories.\nIf The Experiment is not in play, spawn it in the Science Building."
+        "flavor": "Исчезновение профессора Райса — не единственное, что неладно в университете. Вы не уверены, что тут происходит, но начинаете подозревать, что Армитедж не зря попросил вас о помощи.",
+        "name": "Глухая полночь",
+        "text": "При проверке размера руки в фазе передышки размер руки каждого сыщика меньше на 3.",
+        "back_name": "Эксперимент пошёл не так",
+        "back_flavor": "Вопль ужаса проносится по кампусу, и несколько студентов пробегают мимо вас со стороны восточной части университета, где находится Лабораторный корпус. Связана ли эта суматоха с исчезновением профессора Райса?",
+        "back_text": "Если локация «Общежитие» не в игре, введите её в игру.\nЕсли карта «Эксперимент» в игре, переместите её на 1 локацию в сторону общежития..\nЕсли карта «Эксперимент» не в игре, выложите её в Лабораторный корпус."
     },
     {
         "code": "02044",
-        "flavor": "Some kind of wild creature is on the loose. Whatever it is, it appears to be headed toward the university dormitories.",
-        "name": "The Beast Unleashed",
-        "text": "<b>Forced</b> - When this agenda would advance by reaching its doom threshold: Instead, remove all doom in play and move The Experiment 1 location toward the Dormitories.\n<b>Objective</b> - If The Experiment enters the Dormitories, advance.",
-        "back_name": "Not Fast Enough",
-        "back_flavor": "Before you are able to act, you hear screaming from the northern side of the campus. You begin to make your way toward the screaming, your vision darkening with each step. As soon as the creature enters sight, you feel the darkness overtake you, and a force pulls you out of your consciousness. Everything goes black, and you pass out.",
-        "back_text": "Each investigator immediately takes 3 horror. Then, proceed to <b>(→R4)</b>."
+        "flavor": "Какая-то бешеная тварь вырвалась на свободу. Что бы это ни было, кажется, оно направляется к студенческому общежитию.",
+        "name": "Зверь на свободе",
+        "text": "<b>Обязательно</b> — Когда этот замысел должен продвинуться из-за достижения требуемой безысходности: Вместо этого удалите все жетоны безысходности из игры и переместите «Эксперимент» на 1 локацию в сторону «Общежития».\n<b>Цель</b> — Если «Эксперимент» входит в «Общежитие», этот замысел продвигается.",
+        "back_name": "Слишком медленно",
+        "back_flavor": "Так и не успев что-либо предпринять, вы слышите вопль из северной части кампуса. Вы направляетесь на звук, но ваше зрение слабеет с каждым шагом. Едва увидев тварь, вы чувствуете, как некая сила выталкивает вас за пределы сознания. Всё растворяется в темноте, и вы лишаетесь чувств.",
+        "back_text": "Каждый сыщик немедленно получает 3 ужаса. Затем <b>(→И4)</b>."
     },
     {
         "code": "02045",
-        "flavor": "Professor Rice was last seen several hours ago by one of Armitage's students, in the Humanities building.",
-        "name": "After Hours",
-        "back_name": "The Head Janitor",
-        "back_flavor": "You were unable to find Professor Rice, but one of the students you spoke with mentioned a strange man entering Rice's office. Unfortunately, the door leading to the faculty offices is locked at this late hour. The student says that the head janitor, \"Jazz\", might be able to let you in, if you can find him.",
-        "back_text": "Shuffle the encounter discard pile and the set-aside \"Jazz\" Mulligan into the encounter deck."
+        "flavor": "Последним профессора Райса видел один из учеников Армитеджа. Это случилось несколько часов назад в Гуманитарном корпусе.",
+        "name": "После занятий",
+        "back_name": "Главный уборщик",
+        "back_flavor": "Вы не смогли найти профессора, но один из студентов в беседе с вами вспомнил, как в кабинет Райса входил странный человек. К сожалению, преподавательские кабинеты в столь поздний час уже заперты. Студент говорит, что ключи есть у Джаза, главного уборщика, — надо только найти его.",
+        "back_text": "Замешайте в колоду контактов отложенную карту «Джаз Маллиган» и сброс контактов."
     },
     {
         "code": "02046",
-        "flavor": "Concerned for Professor Rice's safety, you seek out the head janitor, who can let you into the locked sections of the campus.",
-        "name": "Rice's Whereabouts",
-        "text": "[action] Spend 1 clue: Discard the top 5 cards of the encounter deck (top 10 instead if there is only 1 player in the game).\n<b>Forced</b> - If you discard \"Jazz\" Mulligan for any reason, resolve his revelation effect.\n<b>Objective</b> - When you take control of \"Jazz\" Mulligan, advance.",
-        "back_name": "The Experiment Is Loose!",
-        "back_flavor": "You convince \"Jazz\" that something strange is going on, and that Professor Rice may be in danger. He doesn't trust you enough to hand you his keys, but agrees to come with you.\nAll of a sudden, you hear a crash coming from the Science building, and a student rushes toward you. \"Help!\" he cries. \"There's some kind of animal loose in the chem labs! I only barely caught a glimpse of it, but...\" He shudders. \"I think it's heading to the dorms! You've got to do something!\"",
-        "back_text": "If the Alchemy Labs location is not in play, put it into play. If you are at Agenda 1 or 2, spawn The Experiment in the Alchemy Labs.\nIf you have completed The House Always Wins, put the set-aside Alchemical Concoction into play underneath the Alchemy Labs. If Extracurricular Activity is the first scenario of the campaign, remove the set-aside Alchemical Concoction from the game, instead."
+        "flavor": "Беспокоясь за профессора Райса, вы ищете главного уборщика, который может впустить вас в запертые кабинеты.",
+        "name": "Найти Райса",
+        "text": "[action] Потратьте 1 улику: Сбросьте 5 верхних карт колоды контактов (или 10, если играете в одиночку).\n<b>Обязательно</b> — Если вы любым образом сбрасываете «Джаза Маллигана», разыграйте его эффект раскрытия.\n<b>Цель</b> — Когда вы взяли под контроль «Джаза Маллигана», продвиньтесь.",
+        "back_name": "Эксперимент вышел из-под контроля!",
+        "back_flavor": "Вы убеждаете Джаза, что в кампусе творится нечто странное и профессор Райс может быть в опасности. Джаз не готов доверить вам ключи, но соглашается пойти с вами.\nВнезапно вы слышите грохот со стороны Лабораторного корпуса, и к вам со всех ног бежит студент. «На помощь! — кричит он. — В лабораториях какая-то тварь! Я видел её лишь мельком, но… — Его передёргивает. — Похоже, она идёт к общаге! Сделайте что-нибудь!»",
+        "back_text": "Если локация «Алхимическая лаборатория» не в игре, введите её в игру. Если сейчас замысел 1 или 2, выложите в «Алхимическую лабораторию» отложенную карту «Эксперимент».\nЕсли вы прошли сценарий «Казино всегда в выигрыше», введите в игру отложенную карту «Алхимическое зелье», подложив её под «Алхимическую лабораторию». Если «Факультативные занятия» — первый сценарий кампании, вместо этого удалите «Алхимическое зелье» из игры."
     },
     {
         "code": "02047",
-        "flavor": "You have only moments to react. You could warn the students in the dormitories and escort them to safety, or continue your task of searching the faculty offices for Professor Rice. Or, perhaps you could try to slay the beast that threatens the campus.",
-        "name": "Campus Safety",
-        "text": "<b>Objective</b> - Find and complete an objective on another encounter card.",
-        "back_name": "The Beast's Death",
-        "back_flavor": "The monstrous creature lets out a terrible shriek as it succumbs to its wounds and collapses onto the ground. A foul odor emanates from the corpse as its flesh begins to bubble and froth. Your relief turns to disgust as the body begins to shrink and disintegrate. Minutes later, the body has almost entirely evaporated into a sticky mass, and the awful odor has vanished. Inside the remnants of the creature's body, all you can find is a set of bones – the skeletal structure of a canine.",
-        "back_text": "<b>(→R3)</b>"
+        "flavor": "У вас всего несколько секунд, чтобы принять решение. Вы можете кинуться в общежитие, чтобы предупредить студентов и увести их в безопасное место, либо продолжить поиски профессора Райса на факультете. Или, возможно, попытаться убить тварь, бродящую по кампусу.",
+        "name": "Безопасность кампуса",
+        "text": "<b>Цель</b> — Найдите и выполните указание «Цель» на другой карте контакта.",
+        "back_name": "Гибель зверя",
+        "back_flavor": "Чудовищная тварь издаёт жуткий предсмертный вопль и падает наземь. Её плоть пузырится и пенится, источая гнилостное зловоние. Ваше облегчение сменяется отвращением, когда труп начинает съёживаться и разлагаться. Всего за пару минут тело почти полностью превращается в липкую массу, а ужасная вонь исчезает. Всё, что вы можете найти в останках твари, — это куча костей, в которой угадывается скелет собаки.",
+        "back_text": "<b>(→И3)</b>"
     },
     {
         "code": "02048",
-        "flavor": "Surrounded by fences and gates of wrought iron, you can't help but feel as much a prisoner here as a guest.",
-        "name": "Miskatonic Quad",
-        "text": "[action]: <b>Resign</b>. \"We can't find Rice anywhere...\" You leave the campus, hoping Armitage will forgive you.",
-        "traits": "Miskatonic.",
-        "back_flavor": "A too-early winter has stripped the trees bare. Their dead branches whistle as a sharp, cold wind cuts across the empty quad."
+        "flavor": "В окружении оград и ворот из кованого железа вы чувствуете себя скорее узником, чем гостем.",
+        "name": "Внутренний двор",
+        "text": "[action]: <b>Побег.</b> «Мы нигде не можем найти Райса…» Вы покидаете кампус в надежде, что Армитедж простит вас.",
+        "traits": "Мискатоник.",
+        "back_flavor": "Необычно ранняя зима раздела деревья. В их мёртвых ветвях свистит резкий, холодный ветер, гуляющий по безлюдному двору."
     },
     {
         "code": "02049",
-        "flavor": "The power is out, plunging the building's halls into heavy darkness. There is no sign of Professor Rice.",
-        "name": "Humanities Building",
-        "text": "<b>Forced</b> - At the end of your turn, if you are in the Humanities Building: Discard the top X cards of your deck, where X is the amount of horror on you.",
-        "traits": "Miskatonic.",
-        "back_flavor": "Professor Rice was last seen in the humanities building, teaching one of his Latin classes. The murky windows of the weatherworn structure emit no light, and the night is silent around you."
+        "flavor": "Электричества нет, всё здание погружено в непроглядную тьму. И никаких следов профессора Райса.",
+        "name": "Гуманитарный корпус",
+        "text": "<b>Обязательно</b> - — В конце своего хода, если вы в «Гуманитарном корпусе»: Сбросьте X верхних карт своей колоды, где X равен количеству ужаса на вашем сыщике.",
+        "traits": "Мискатоник.",
+        "back_flavor": "Последний раз профессора Райса видели, когда он вёл урок латыни в Гуманитарном корпусе. Угрюмые окна потрёпанного здания не освещены, и в ночи не слышно ни звука."
     },
     {
         "code": "02050",
-        "flavor": "The Orne Library is a labyrinth of dusty bookshelves and poorly lit halls.",
-        "name": "Orne Library",
-        "text": "You must spend 1 additional action to investigate the Orne Library.",
-        "traits": "Miskatonic.",
-        "back_flavor": "Three floors of weathered grey granite, the library looks more like a reliquary than a place of learning. Stone gargoyles snarl down from above arched windows, and Latin script winds around the double doors at the top of a wide set of stone steps."
+        "flavor": "Библиотека Орна — это лабиринт пыльных книжных полок и тускло освещённых залов.",
+        "name": "Библиотека Орна",
+        "text": "Вы должны потратить 1 дополнительное действие, чтобы исследовать в этой локации.",
+        "traits": "Мискатоник.",
+        "back_flavor": "Три этажа выщербленного серого гранита — библиотека больше похожа на гробницу, чем на храм науки. Каменные горгульи злобно взирают с арочных окон, а двойные двери наверху широкой каменной лестницы окаймлены латинскими надписями."
     },
     {
         "code": "02051",
-        "name": "Student Union",
-        "text": "<b>Forced</b> - After Student Union is revealed: Put the set-aside Dormitories into play.\n[action][action]: Heal 1 damage and 1 horror.",
-        "traits": "Miskatonic.",
-        "back_flavor": "Even at this late hour, you can hear a muffled chatter from inside the student union. Perhaps one of the students will know where Professor Rice is."
+        "name": "Студенческий союз",
+        "text": "<b>Обязательно</b> — После того как «Студенческий союз» открыт: Введите в игру отложенную карту «Общежитие».\n[action][action]: Вылечите 1 рану и 1 ужас.",
+        "traits": "Мискатоник.",
+        "back_flavor": "Даже в такой поздний час вы слышите приглушённые голоса из помещений студенческого союза. Возможно, кто-то из студентов знает, где профессор Райс."
     },
     {
         "code": "02052",
