@@ -1,12 +1,14 @@
 [
 	{
+		"alternate_of": "01002",
 		"back_flavor": "As a respected librarian at Miskatonic University, Daisy had always felt that books were the most important thing in her life. She explored in fiction what she abhorred in life: horror, violence, fear. Then, she stumbled across the John Dee translation of the Necronomicon. It was blasphemous, unholy, and too awful to be read. But given her studies in obscure and occult subjects, Daisy knew there was more truth than fiction within the book's pages. She began to wonder what other secrets the restricted collection of the Orne Library held...",
 		"back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: [[Tome]] cards level 0-5, Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, up to five other level 0 Guardian and/or Mystic cards ([guardian] and/or [mystic]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Daisy’s Tote Bag, The Necronomicon (John Dee Translation), 1 random basic weakness.",
 		"code": "90001",
 		"deck_limit": 1,
 		"deck_options": [
+			{"trait":["tome"], "level":{"min":0, "max":5} },
 			{"faction":["neutral"], "level":{"min":0, "max":5} },
-			{"faction":["seeker"], "level":{"min":0, "max":5} },
+			{"faction":["seeker"], "level":{"min":0, "max":3} },
 			{"faction":["guardian", "mystic"], "level":{"min":0, "max":0}, "limit": 5, "error": "You cannot have more than 5 Guardian and/or Mystic cards" }
 		],
 		"deck_requirements": "size:30, card:01008:90002, card:01009:90003, random:subtype:basicweakness",
@@ -14,6 +16,7 @@
 		"faction_code": "seeker",
 		"flavor": "\"I can shut the book, but I can never unread its words.\"",
 		"health": 5,
+		"hidden": true,
 		"illustrator": "Magali Villeneuve",
 		"is_unique": true,
 		"name": "Daisy Walker",
