@@ -177,7 +177,19 @@
         "subname": "Arrival Chamber",
         "text": "[reaction] After you begin your turn in this location, if there is a [[Yithian]] enemy in this location: Draw 1 card.",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "Meanwhile the displaced mind, thrown back to the displacer’s age and body, would be carefully guarded. It would be kept from harming the body it occupied, and would be drained of all its knowledge by trained questioners. - H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -197,7 +209,19 @@
         "text": "[action]: <b>Parley.</b> Test [intellect] (4) or [combat] (4) to interrogate the captive mind restrained here. If you succeed, remember that you \"interviewed a subject.\" If you fail, take 2 horror.",
         "traits": "Ancient. Pnakotus.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "Meanwhile the displaced mind, thrown back to the displacer’s age and body, would be carefully guarded. It would be kept from harming the body it occupied, and would be drained of all its knowledge by trained questioners. - H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -218,7 +242,19 @@
         "text": "<b>Forced</b> - After you enter this location: Test [willpower] (3). Take 1 horror for each point you fail by.",
         "traits": "Ancient. Pnakotus.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "yin",
+            "out": [
+                "diamond"
+            ]
+        }
     },
     {
         "back_flavor": "At this point, it appeared, the desert’s sands lay directly upon a floor of some titan structure of earth’s youth — how preserved through aeons of geologic convulsion I could not then and cannot now even attempt to guess. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -239,7 +275,23 @@
         "subname": "Northern Corridors",
         "text": "[free] During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "diamond",
+                "square",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "diamond",
+                "square",
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "At this point, it appeared, the desert’s sands lay directly upon a floor of some titan structure of earth’s youth — how preserved through aeons of geologic convulsion I could not then and cannot now even attempt to guess. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -260,7 +312,23 @@
         "subname": "Eastern Corridors",
         "text": "[free] During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "square",
+                "yin"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "tilde",
+                "square",
+                "yin"
+            ]
+        }
     },
     {
         "back_flavor": "At this point, it appeared, the desert’s sands lay directly upon a floor of some titan structure of earth’s youth — how preserved through aeons of geologic convulsion I could not then and cannot now even attempt to guess. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -281,7 +349,25 @@
         "subname": "Western Corridors",
         "text": "[free] During your turn, choose and discard a card from your hand: Move to another copy of Halls of Pnakotus. (Limit once per turn.)",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "tilde",
+                "diamond",
+                "circle",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde",
+                "diamond",
+                "circle",
+                "star"
+            ]
+        }
     },
     {
         "back_flavor": "In its vast libraries were volumes of texts and pictures holding the whole of earth’s annals – histories and descriptions of every species that had ever been or that ever would be, with full records of their arts, their achievements, their languages, and their psychologies. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -300,7 +386,19 @@
         "shroud": 2,
         "text": "[action] Spend 1 [per_investigator] clues: Test [intellect] (3) to decipher the information you've found. If you succeed, remember that you have \"found the process.\"\n<b>Forced</b> - At the end of the round, if there are fewer than 4 clues on Great Library: Add clues to Great Library until there are 4 clues on it.",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "I seemed to talk, in some odd language of claw-clickings, with exiled intellects from every corner of the solar system. There was a mind from the planet we know as Venus, which would live incalculable epochs to come, and one from an outer moon of Jupiter six million years in the past. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -319,7 +417,19 @@
         "text": "[action] [action] If there are no clues on Yithian Orrery: Remember that you \"realized what year it is.\"\nWhile you are in the Yithian Orrery, increase your maximum hand size by 2.",
         "traits": "Ancient. Pnakotus.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "It had learned all things that ever were known or ever would be known on the earth, through the power of its keener minds to project themselves into the past and future, even through gulfs of millions of years, and study the lore of every age. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -337,7 +447,23 @@
         "shroud": 2,
         "text": "[action] If there are no clues on Laboratory of the Great Race: Test [agility] (3) to manipulate the controls on the technological device nearby. If you succeed, remember that you \"activated the device.\" If you fail, place 1 clue on Laboratory of the Great Race <i>(from the token pool)</i>.",
         "traits": "Ancient. Pnakotus.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "crescent",
+                "lines"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "tilde",
+                "crescent",
+                "lines"
+            ]
+        }
     },
     {
         "back_flavor": "They were only partly material – as we understand matter – and their type of consciousness and media of perception differed wholly from those of terrestrial organisms. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -356,7 +482,19 @@
         "text": "[action]: Test [combat] (4) to attempt to retrieve a valuable organ from one of the alien cadavers. This test gets +1 difficulty for each clue on Deconstruction Room. If you succeed, remember that you \"dissected an organ.\"",
         "traits": "Ancient. Pnakotus.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "lines",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "lines",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "In certain places I beheld enormous dark cylindrical towers which climbed far above any of the other structures. – H. P. Lovecraft, <u>The Shadow out of Time</u>",
@@ -376,7 +514,19 @@
         "text": "[action]: Discard any number of cards from your hand. Shuffle your discard pile into your deck and draw cards equal to 1 more than the number of cards you discarded. (Limit once per turn.)",
         "traits": "Ancient. Pnakotus.",
         "type_code": "location",
-        "victory": 2
+        "victory": 2,
+        "connections": {
+            "in": "star",
+            "out": [
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "code": "04256",

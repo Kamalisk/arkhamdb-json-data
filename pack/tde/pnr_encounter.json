@@ -148,7 +148,14 @@
 		"shroud": 3,
 		"text": "Veiled.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "heart",
+			"out": [
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"code": "06254b",
@@ -178,7 +185,15 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you enter City of Gugs: Flip it over and resolve the text on its other side.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "t",
+			"out": [
+				"heart",
+				"tilde",
+				"crescent"
+			]
+		}
 	},
 	{
 		"code": "06255b",
@@ -207,7 +222,14 @@
 		"quantity": 1,
 		"shroud": 5,
 		"text": "[action]: Test [combat] (5) to lift the heavy stone trapdoor at the top of the tower. If you succeed, flip this card over and resolve the text on its other side.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"t",
+				"square"
+			]
+		}
 	},
 	{
 		"code": "06256b",
@@ -238,7 +260,15 @@
 		"text": "Veiled.\n[[Gug]] enemies cannot enter the Plain of the Ghouls. If a [[Gug]] enemy would spawn at the Plain of the Ghouls, spawn it at the City of Gugs instead.",
 		"traits": "Central.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"heart",
+				"t",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"code": "06257b",
@@ -269,7 +299,23 @@
 		"text": "Veiled.\nThe first treachery drawn during the mythos phase by an investigator at this location gains surge.",
 		"traits": "Vale.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"lines",
+				"circle",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"lines",
+				"circle",
+				"crescent"
+			]
+		}
 	},
 	{
 		"code": "06258b",
@@ -300,7 +346,15 @@
 		"text": "<b>Forced</b> - After you discover 1 or more clues at Sea of Bones: Flip it over.",
 		"traits": "Vale.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"hourglass",
+				"star",
+				"lines"
+			]
+		}
 	},
 	{
 		"code": "06259b",
@@ -329,7 +383,14 @@
 		"shroud": 3,
 		"text": "[action]: Test [agility] (5) to attempt to scale the treacherous peaks. If you succeed, flip this card over and resolve the text on its other side.\n<b>Forced</b> - When you leave Peaks of Thok: You must test [agility] (2) to climb down safely. If you fail, take 1 damage.",
 		"traits": "Vale. Central.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"lines",
+				"circle"
+			]
+		}
 	},
 	{
 		"code": "06260b",
@@ -359,7 +420,16 @@
 		"text": "Veiled.\nWhile there are clues remaining on Vale of Pnath, investigators at Vale of Pnath cannot play cards or commit cards to skill tests.",
 		"traits": "Vale.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "lines",
+			"out": [
+				"hourglass",
+				"star",
+				"circle",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06261b",
@@ -388,7 +458,14 @@
 		"shroud": -2,
 		"text": "Veiled.\nX is the number of damage tokens on the scenario reference card.",
 		"traits": "Depths.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06262b",
@@ -418,7 +495,14 @@
 		"shroud": -2,
 		"text": "Veiled.\nX is the number of damage tokens on the scenario reference card.",
 		"traits": "Depths.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06263b",
@@ -448,7 +532,14 @@
 		"shroud": -2,
 		"text": "Veiled.\nX is the number of damage tokens on the scenario reference card.",
 		"traits": "Depths.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06264b",
@@ -478,7 +569,14 @@
 		"shroud": -2,
 		"text": "Veiled.\nX is the number of damage tokens on the scenario reference card.",
 		"traits": "Depths.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"lines",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06265b",

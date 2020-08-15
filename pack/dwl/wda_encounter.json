@@ -167,7 +167,25 @@
 		"shroud": 3,
 		"text": "Base of the Hill is connected to each copy of Diverging Path.\n[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, put a random set-aside Diverging Path into play. (Limit once per round.)\n[action]: <b>Resign.</b> \"This is more than I signed up for!\"",
 		"traits": "Dunwich. Sentinel Hill.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"square",
+				"cross",
+				"tilde",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"square",
+				"cross",
+				"tilde",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_flavor": "When you try to follow the path leading further up Sentinel Hill, you somehow end up walking in a perpetual loop. Each time you stop to find your bearings, you find yourself back at the base of the hill again.",
@@ -187,7 +205,27 @@
 		"shroud": 3,
 		"text": "Ascending Path is connected to each copy of Altered Path.\n[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, put a random set-aside Altered Path into play. (Limit once per round.)",
 		"traits": "Dunwich. Sentinel Hill.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"diamond",
+				"t",
+				"lines",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"triangle",
+				"diamond",
+				"t",
+				"lines",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "An arcane wall blocks the path further up the hill, leading towards the peak.",
@@ -209,7 +247,19 @@
 		"text": "<b>Forced</b> - When an investigator at this location draws a [[Hex]] card: That investigator takes 1 damage.",
 		"traits": "Dunwich. Sentinel Hill.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "A path off the beaten trail leads deeper into the woods surrounding Sentinel Hill",
@@ -229,7 +279,18 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you reveal Slaughtered Woods: Take 2 horror if you have no actions remaining.",
 		"traits": "Dunwich. Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A path off the beaten trail leads deeper into the woods surrounding Sentinel Hill",
@@ -250,7 +311,18 @@
 		"shroud": 4,
 		"text": "<b>Forced</b> - After you reveal Eerie Glade: Discard the top 2 cards of your deck for each action you have remaining.",
 		"traits": "Dunwich. Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"triangle",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A path off the beaten trail leads deeper into the woods surrounding Sentinel Hill",
@@ -270,7 +342,18 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you reveal Destroyed Path: Place 1[per_investigator] doom on it.\n[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, remove 1 doom from Destroyed Path.",
 		"traits": "Dunwich. Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"triangle",
+				"lines"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A path off the beaten trail leads deeper into the woods surrounding Sentinel Hill",
@@ -290,7 +373,18 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you reveal Frozen Spring: Lose the remainder of your actions and immediately end your turn.",
 		"traits": "Dunwich. Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"triangle",
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A shiver courses up your spine as you step forth onto the path, its route touched by a bizarre arcane power.",
@@ -310,7 +404,18 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you reveal Dimensional Gap: Discard cards from the top of the encounter deck until an enemy is discarded. Spawn that enemy here (instead of its normal spawn location).",
 		"traits": "Dunwich. Woods. Altered.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A shiver courses up your spine as you step forth onto the path, its route touched by a bizarre arcane power.",
@@ -330,7 +435,18 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you reveal A Tear in the Path: Take 2 damage if you have no actions remaining.",
 		"traits": "Dunwich. Woods. Altered.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"square",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A shiver courses up your spine as you step forth onto the path, its route touched by a bizarre arcane power.",
@@ -350,7 +466,18 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you reveal Uprooted Woods: Discard the top 5 cards of your deck if you have no actions remaining.",
 		"traits": "Dunwich. Woods. Altered.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"square",
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"back_flavor": "A shiver courses up your spine as you step forth onto the path, its route touched by a bizarre arcane power.",
@@ -371,7 +498,18 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - After you reveal Lost Memories: Take 1 horror for each action you have remaining.",
 		"traits": "Dunwich. Woods. Altered.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"square",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "",
+			"out": []
+		}
 	},
 	{
 		"code": "02293",

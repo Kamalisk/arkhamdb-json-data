@@ -169,7 +169,13 @@
 		"shroud": 1,
 		"text": "Veiled.",
 		"traits": "Skai. City.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"code": "06127b",
@@ -199,7 +205,14 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - When you attempt to leave Skai River, if it has not yet been flipped over: Test [willpower] (2) or [agility] (2). If you fail, flip this card over and resolve the text on its other side.",
 		"traits": "Skai. City.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"heart",
+				"triangle"
+			]
+		}
 	},
 	{
 		"code": "06128b",
@@ -229,7 +242,13 @@
 		"shroud": 3,
 		"text": "Veiled.\n[action] Spend 1 resource: Search the top 6 cards of your deck for an [[Item]] asset and draw it. Shuffle your deck.",
 		"traits": "Skai. City. Port.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"code": "06129b",
@@ -259,7 +278,14 @@
 		"shroud": 5,
 		"text": "Veiled.\n[action] [action] [action]: Draw 5 cards.",
 		"traits": "Mnar. Ancient. City. Port.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06130b",
@@ -290,7 +316,14 @@
 		"text": "Veiled. Sarnath cannot be flipped over unless the investigators \"know what happened to Ib.\"\n<b>Forced</b> - After you successfully investigate Sarnath by 1 or less: Take 1 horror.",
 		"traits": "Mnar. Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"code": "06131b",
@@ -321,7 +354,14 @@
 		"back_text": "Veiled.\n<b>Forced</b> - After you reveal a [skull] or [cultist] token while investigating Ruins of Ib: Discard an asset you control.",
 		"traits": "Mnar. Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06132b",
@@ -352,7 +392,13 @@
 		"text": "Veiled.\nWhile you are at Ilek-Vad, reduce the cost of the first [[Spell]], [[Ritual]], or [[Relic]] card you play each round by 1.",
 		"traits": "Forbidden. City. Port.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06133b",
@@ -381,7 +427,14 @@
 		"shroud": 6,
 		"text": "[action]: Test [combat] (1). If you succeed, test [agility] (2). If you succeed, test [willpower] (3). If you succeed, flip this card over. If you fail any of these tests, take 1 damage.",
 		"traits": "Forbidden. Wastes.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"code": "06134b",
@@ -411,7 +464,13 @@
 		"shroud": 4,
 		"text": "Veiled.\n<b>Forced</b> - At the end of the round: Add 1 swarm card to Horde of Night for each investigator in Zulan-Thek.",
 		"traits": "Forbidden. City.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06135b",
@@ -442,7 +501,14 @@
 		"text": "Veiled.",
 		"traits": "Oriab. City. Port.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06136b",
@@ -472,7 +538,14 @@
 		"text": "Veiled.\n<b>Forced</b> - After you enter Mt. Ngranek or discover 1 or more clues at Mt. Ngranek, if the investigators have not \"obtained supplies from Baharna\": Test [combat] (3) or [agility] (3). If you fail, lose your remaining actions and immediately end your turn.",
 		"traits": "Oriab. Mountain.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"diamond"
+			]
+		}
 	},
 	{
 		"code": "06137b",
@@ -503,7 +576,14 @@
 		"text": "Veiled.\n<b>Forced</b> - After you end your turn at Nameless Ruins: Deal 1 direct damage to an [[Ally]] asset you control.",
 		"traits": "Oriab. Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"code": "06138b",
@@ -534,7 +614,14 @@
 		"text": "Veiled.",
 		"traits": "Ooth-Nargai. City. Port.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"crescent",
+				"cross"
+			]
+		}
 	},
 	{
 		"code": "06139b",
@@ -565,7 +652,13 @@
 		"text": "Veiled.\nAs an additional cost for you to enter or leave Serannian, you must choose and discard a card from your hand.",
 		"traits": "Ooth-Nargai. City. Port.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"hourglass"
+			]
+		}
 	},
 	{
 		"code": "06140b",
@@ -595,7 +688,14 @@
 		"shroud": 4,
 		"text": "Veiled.",
 		"traits": "Ooth-Nargai. City.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"hourglass",
+				"t"
+			]
+		}
 	},
 	{
 		"code": "06141b",
@@ -626,7 +726,14 @@
 		"text": "Veiled.\nThe way into the temple is barred shut. You cannot enter the Temple of Unattainable Desires unless an investigator has \"beseeched the king.\"",
 		"traits": "Ooth-Nargai. Temple.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "t",
+			"out": [
+				"cross",
+				"star"
+			]
+		}
 	},
 	{
 		"code": "06142b",
@@ -656,7 +763,13 @@
 		"text": "Veiled.\nFor each Priest of a Thousand Masks at the City-Which-Appears-On-No-Map, reduce its shroud by 1.\n<b>Forced</b> - After you fail a skill test while investigating the City-Which-Appears-On-No-Map: Search the encounter deck and discard pile for a Priest of a Thousand Masks and spawn it here. Shuffle the encounter deck.",
 		"traits": "City. Otherworld.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"code": "06143b",

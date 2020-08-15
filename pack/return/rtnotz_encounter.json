@@ -49,7 +49,19 @@
         "shroud": 3,
         "subname": "Aberrant Gateway",
         "text": "[action] [action]: Draw 3 cards. Only the lead investigator can activate this ability.<br/><b>Forced</b> - When an enemy attempts to spawn at a location that is not in play: Put that location into play and spawn that enemy there.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "Somehow you’ve ended up in a completely different part of your house.",
@@ -67,7 +79,25 @@
         "quantity": 1,
         "shroud": 1,
         "text": "Investigators in this location cannot take draw actions.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "circle",
+                "heart",
+                "star",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "circle",
+                "heart",
+                "star",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "A shadow dances across the floor beneath the bedroom door as you approach.",
@@ -86,7 +116,19 @@
         "quantity": 1,
         "shroud": 2,
         "text": "<b>Forced</b> - After you fail a skill test while investigating the Bedroom: Discard 1 card at random from your hand.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "heart",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "As you approach the bathroom door, the weight of the putrid, unnatural air causes you to gag.",
@@ -105,7 +147,19 @@
         "quantity": 1,
         "shroud": 1,
         "text": "<b>Forced</b> - After you reveal a [skull], [cultist], [tablet], or [auto_fail] symbol while investigating the Bathroom: Lose all remaining actions and end your turn.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        },
+        "back_connections": {
+            "in": "star",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "I need this like I need a hole in my wall.",
@@ -125,7 +179,22 @@
         "quantity": 1,
         "shroud": 1,
         "text": "<b>Forced</b> - After you reveal this location: Put the set-aside Attic, Cellar, and Parlor locations into play.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "t",
+                "triangle",
+                "cross",
+                "diamond"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "t"
+            ]
+        }
     },
     {
         "back_flavor": "The smell of rotten meat assaults your nostrils as you approach the attic stairs.",
@@ -143,7 +212,20 @@
         "quantity": 1,
         "shroud": 3,
         "text": "<b>Forced</b> - After you reveal the Attic: Put the set-aside Far Above Your House location into play.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square",
+                "crescent"
+            ]
+        },
+        "back_connections": {
+            "in": "triangle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "You struggle to believe this is even possible, considering the attic is the highest point in your home. Or at least…was.",
@@ -164,7 +246,19 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you reveal Field of Graves: Test [willpower] (4). For each point you fail by, discard 1 card at random from each player's hand.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "triangle"
+            ]
+        }
     },
     {
         "back_illustrator": "Yoann Boissonnet",
@@ -183,7 +277,20 @@
         "quantity": 1,
         "shroud": 2,
         "text": "<b>Forced</b> - After you reveal the Cellar: Put the set-aside Deep Below Your House location into play.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "cross",
+            "out": [
+                "square",
+                "tilde"
+            ]
+        },
+        "back_connections": {
+            "in": "cross",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "The tunnels extend for miles in every direction. Everywhere you look, strange canine creatures skitter on all fours in the distance, scrambling from one shadow to the next.",
@@ -204,7 +311,19 @@
         "shroud": 4,
         "text": "<b>Forced</b> - After you reveal Ghoul Pits: Test [agility] (3). For each point you fail by, search the encounter deck and discard pile for a copy of Swarm of Rats and draw it. Shuffle the encounter deck.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "cross"
+            ]
+        },
+        "back_connections": {
+            "in": "tilde",
+            "out": [
+                "cross"
+            ]
+        }
     },
     {
         "code": "50022",
@@ -335,7 +454,21 @@
         "text": "[action]: Add 2 supply tokens or ammo tokens to an asset you control. (Limit once per game.)",
         "traits": "Arkham.",
         "type_code": "location",
-        "victory": 1
+        "victory": 1,
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "circle",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "crescent",
+            "out": [
+                "circle",
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "Northside is a commercial district that contains many offices and factories, as well as the train station.",
@@ -355,7 +488,21 @@
         "subname": "Train Station",
         "text": "[action]: Move to any [[Arkham]] location. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "triangle"
+            ]
+        },
+        "back_connections": {
+            "in": "t",
+            "out": [
+                "diamond",
+                "triangle"
+            ]
+        }
     },
     {
         "back_flavor": "Miskatonic University is one of the most prestigious colleges in the Northeast. The university library is famous for its collection of occult books maintained by the esteemed Dr. Henry Armitage.",
@@ -375,7 +522,25 @@
         "subname": "Miskatonic Museum",
         "text": "[action] Take 2 horror: Gain 1 clue from the token pool. (Limit once per game.)",
         "traits": "Arkham.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "t",
+                "cross",
+                "circle",
+                "square"
+            ]
+        },
+        "back_connections": {
+            "in": "diamond",
+            "out": [
+                "t",
+                "cross",
+                "circle",
+                "square"
+            ]
+        }
     },
     {
         "back_flavor": "The banks of the Miskatonic River are lined with docks, warehouses and small shops in a district aptly named Rivertown.",
@@ -395,7 +560,27 @@
         "subname": "Abandoned Warehouse",
         "text": "[action] Discard a card with X [willpower] icons: Remove X doom from a [[Cultist]] enemy in play. (Group limit once per game.)",
         "traits": "Arkham. Central.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "crescent",
+                "diamond",
+                "square",
+                "tilde",
+                "hourglass"
+            ]
+        },
+        "back_connections": {
+            "in": "circle",
+            "out": [
+                "crescent",
+                "diamond",
+                "square",
+                "tilde",
+                "hourglass"
+            ]
+        }
     },
     {
         "code": "50031",
@@ -458,7 +643,20 @@
         "subname": "Great Willow",
         "text": "<b>Forced</b> - After an investigator at this location succeeds at a skill test on a treachery: That treachery gains surge. (Group limit once per round.)",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "tilde",
+                "star"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -479,7 +677,20 @@
         "subname": "Lakeside",
         "text": "<b>Forced</b> - After you reveal a chaos token from the chaos bag while investigating this location: Reveal and resolve an additional chaos token. (Limit once per test.)",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "tilde",
+                "heart"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -500,7 +711,20 @@
         "subname": "Corpse-Ridden Clearing",
         "text": "Each enemy at this location cannot take more than 1 damage from each attack performed against it.",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "yin",
+            "out": [
+                "tilde",
+                "circle"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "back_flavor": "Growing up, you were always warned to stay out of the woods at night. Now you know why.",
@@ -521,7 +745,20 @@
         "subname": "Wooden Bridge",
         "text": "<b>Forced</b> - After you reveal a chaos token from the chaos bag during an evasion attempt at this location: Reveal and resolve an additional chaos token. (Limit once per test.)",
         "traits": "Woods.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "tilde",
+                "yin"
+            ]
+        },
+        "back_connections": {
+            "in": "square",
+            "out": [
+                "tilde"
+            ]
+        }
     },
     {
         "code": "50037",

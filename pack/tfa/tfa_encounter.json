@@ -149,7 +149,23 @@
 		"shroud": 1,
 		"text": "[action]: <b>Resign.</b> The wilds are too dangerous!\n[action]: Check your supplies. If you have a map, look at the top 3 cards of the exploration deck. Place 1 on the bottom and the other 2 on top, in any order.",
 		"traits": "Campsite. Jungle.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"diamond",
+				"crescent"
+			]
+		}
 	},
 	{
 		"code": "04051",
@@ -212,7 +228,14 @@
 		"text": "<b>Forced</b> - After you fail a skill test while investigating Ruins of Eztli: Draw the top card of the encounter deck.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"triangle",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_text": "Hard / Expert\n[skull]: -2 (-4 instead if there is doom on your location).\n[cultist] [tablet]: -X. X is the total amount of doom on locations in play.\n[elder_thing]: Reveal another chaos token. Place 1 doom on your location.",
@@ -345,7 +368,21 @@
 		"shroud": 2,
 		"text": "[action]: <b>Resign.</b> You've escaped… for now.\n[action]: Check your supplies. If you have torches, look at the top 2 cards of the exploration deck. Discard each treachery looked at by this effect. Shuffle the exploration deck.",
 		"traits": "Ancient. Ruins.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"star"
+			]
+		}
 	},
 	{
 		"code": "04061",
@@ -404,7 +441,15 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - At the end of the round: Flip 1 of the clues on Ancient Hall to its doom side. Any investigator at Ancient Hall may spend 3 resources to cancel this effect.",
 		"traits": "Ancient. Ruins.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"star",
+				"diamond"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -422,7 +467,15 @@
 		"text": "<b>Forced</b> - When you investigate Grand Chamber and do not succeed by at least 2: Before resolving any other effects from this skill test, flip 1 of the clues on Grand Chamber to its doom side.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "star",
+			"out": [
+				"circle",
+				"square",
+				"triangle"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -440,7 +493,15 @@
 		"text": "<b>Forced</b> - After you put Burial Pit into play by exploring successfully: You must either draw 2 cards from the top of the encounter deck or place 2 doom on Burial Pit, or any combination thereof.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"star",
+				"diamond",
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -457,7 +518,15 @@
 		"text": "While there is an enemy in Underground Ruins, Underground Ruins is considered to be in the victory display (for the purposes of counting vengeance).\n<b>Forced</b> - After an enemy in Underground Ruins leaves play: Place 1 doom on Underground Ruins.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"vengeance": 1
+		"vengeance": 1,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square",
+				"triangle",
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -475,7 +544,15 @@
 		"text": "<b>Forced</b> - After you enter Secret Passage: You must either take 1 horror and 1 damage, or place 1 doom on Secret Passage. Check your supplies. If you or an investigator at Secret Passage has a rope, ignore this effect.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"diamond",
+				"triangle",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -494,7 +571,13 @@
 		"traits": "Forgotten. Ruins.",
 		"type_code": "location",
 		"vengeance": 2,
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -510,7 +593,16 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you fail a skill test while investigating Path of Thorns: Take 1 damage.\n<b>Forced</b> - After you explore while at Path of Thorns, if the exploration was not successful: Take 1 damage.",
 		"traits": "Jungle.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"diamond",
+				"triangle",
+				"tilde"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -527,7 +619,17 @@
 		"shroud": 4,
 		"text": "[action]: Heal 1 damage from an investigator at River Canyon. Check your supplies. If you have a canteen, heal 2 additional damage. (Limit once per game.)",
 		"traits": "Jungle.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"crescent",
+				"heart",
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -543,7 +645,16 @@
 		"shroud": 2,
 		"text": "<b>Forced</b> - When you attempt to explore while at Rope Bridge: Test [agility] (2). If you fail, cancel the exploration, take 2 damage, lose all remaining actions, and end your turn. Place your investigator in the River Canyon (if it is not in play, search the exploration deck for River Canyon and put it into play first; shuffle the exploration deck).",
 		"traits": "Jungle.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"circle",
+				"diamond",
+				"heart",
+				"t"
+			]
+		}
 	},
 	{
 		"clues": 2,
@@ -560,7 +671,16 @@
 		"text": "Each [[Serpent]] enemy at Serpent's Haven gets +1 fight.\n<b>Forced</b> - After you investigate or explore while at Serpent's Haven, if you are poisoned: Take 1 damage.",
 		"traits": "Jungle.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"tilde",
+				"square",
+				"diamond",
+				"hourglass"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -578,7 +698,16 @@
 		"text": "As an additional cost for you to investigate or explore while at Circuitous Trail, check your supplies. If no investigator at your location has a compass, you must spend 3 resources.",
 		"traits": "Jungle.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "heart",
+			"out": [
+				"hourglass",
+				"diamond",
+				"crescent",
+				"t"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -596,7 +725,15 @@
 		"text": "Temple of the Fang gets +1 shroud for each vengeance point in the victory display.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"square",
+				"triangle",
+				"lines"
+			]
+		}
 	},
 	{
 		"clues": 1,
@@ -614,7 +751,15 @@
 		"text": "<b>Forced</b> - After you enter this location, if you are poisoned: Lose all remaining actions and end your turn.",
 		"traits": "Ancient. Ruins.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "t",
+			"out": [
+				"crescent",
+				"heart",
+				"lines"
+			]
+		}
 	},
 	{
 		"code": "04076",

@@ -110,23 +110,23 @@
         "type_code": "act"
     },
     {
-	"back_link": "03321a",
-	"code": "03321b",
-	"cost": 0,
-  "encounter_code": "dim_carcosa",
-  "encounter_position": 6,
-	"faction_code": "neutral",
-	"illustrator": "Andreas Zafiratos",
-	"is_unique": true,
-	"hidden": true,
-	"name": "The Pallid Mask",
-	"pack_code": "dca",
-	"position": 321,
-	"quantity": 1,
-	"subname": "Chasing Tails",
-	"text": "<b>Revelation</b> - Put The Pallid Mask into play, under the lead investigator's control. Remove The Man in the Pallid Mask from the game. Spawn the set-aside Hastur <i>(The Tattered King)</i> enemy at the Palace of the King.\nThe Pallid Mask cannot leave play.\nYou get -2 sanity.",
-	"traits": "Item. Relic.",
-	"type_code": "asset"
+        "back_link": "03321a",
+        "code": "03321b",
+        "cost": 0,
+        "encounter_code": "dim_carcosa",
+        "encounter_position": 6,
+        "faction_code": "neutral",
+        "illustrator": "Andreas Zafiratos",
+        "is_unique": true,
+        "hidden": true,
+        "name": "The Pallid Mask",
+        "pack_code": "dca",
+        "position": 321,
+        "quantity": 1,
+        "subname": "Chasing Tails",
+        "text": "<b>Revelation</b> - Put The Pallid Mask into play, under the lead investigator's control. Remove The Man in the Pallid Mask from the game. Spawn the set-aside Hastur <i>(The Tattered King)</i> enemy at the Palace of the King.\nThe Pallid Mask cannot leave play.\nYou get -2 sanity.",
+        "traits": "Item. Relic.",
+        "type_code": "asset"
     },
     {
         "back_name": "Figment of Your Imagination",
@@ -200,7 +200,13 @@
         "quantity": 1,
         "shroud": 3,
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "square"
+            ]
+        }
     },
     {
         "back_link": "03325",
@@ -208,7 +214,7 @@
         "faction_code": "mythos",
         "flavor": "Black stars sing in the reflection of the water, their melody impossible and uncanny. Yet somehow, you remember the tune. It is as though your earliest living memory has returned to you. You hum at first, ripples appearing along the water's surface as your volume increases. The lyrics return to you, and you join in the stars' singing, your voice echoing across the twisted realm.",
         "hidden": true,
-	"name": "Songs That the Hyades Shall Sing",
+        "name": "Songs That the Hyades Shall Sing",
         "pack_code": "dca",
         "position": 325,
         "quantity": 1,
@@ -230,7 +236,15 @@
         "shroud": 4,
         "text": "While you are at Bleak Plains, you cannot play [[Ally]] assets.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "circle",
+                "triangle",
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "03326a",
@@ -238,7 +252,7 @@
         "faction_code": "mythos",
         "flavor": "A sudden rift in the clouds above allows you to see the sky for the first time since arriving in this strange place. The sky is orange-tinted and devoid of darkness, but black stars shine above you. If the workings of Earthly science mean anything in this world, perhaps you can create a map of the stars above to find your way home. You find a long stick and begin to draw in the sand...",
         "hidden": true,
-	"name": "Stars of Aldebaran",
+        "name": "Stars of Aldebaran",
         "pack_code": "dca",
         "position": 326,
         "quantity": 1,
@@ -260,7 +274,15 @@
         "shroud": 4,
         "text": "While you are at Bleak Plains, you cannot play [[Ally]] assets.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "circle",
+                "triangle",
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "03326c",
@@ -268,7 +290,7 @@
         "faction_code": "mythos",
         "flavor": "This world is but a remnant of what it once was. The grand majesty of Carcosa spoken of in <u>The King in Yellow</u> is lost in this expanse of endless desolation. Dead, twisted trees, starving animals, and barren fields greet you everywhere you turn.\nYou begin to look for evidence of what might have caused such devastation. Across the lake, you see dark, twisted structures similar to those in Carcosa. At least one appears as large and as grand as Hastur's domain. You wonder if perhaps some kind of conflict took place between the two cities.",
         "hidden": true,
-	"name": "Bleak Desolation",
+        "name": "Bleak Desolation",
         "pack_code": "dca",
         "position": 326,
         "quantity": 1,
@@ -290,7 +312,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03327a",
@@ -298,7 +328,7 @@
         "faction_code": "mythos",
         "flavor": "You encounter a man among the ruins of the city, haggard and tired. \"Good stranger,\" he says, \"I am ill and lost. Direct me, I beseech you, to Carcosa.\" You tell him that you believe you are in the realm of Carcosa right now, and he falls to his knees in despair. \"No... But that cannot be!\"\nThe man cries and raves, telling you more of the ancient and famous city. Though his words have little meaning to you, deep within your mind, you begin to understand.",
         "hidden": true,
-	"name": "Inhabitant of Carcosa",
+        "name": "Inhabitant of Carcosa",
         "pack_code": "dca",
         "position": 327,
         "quantity": 1,
@@ -320,7 +350,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03327c",
@@ -328,7 +366,7 @@
         "faction_code": "mythos",
         "flavor": "During your exploration, you find an old, crumbled building that makes for an ideal refuge from this world's dry heat and its horrifying creatures. For the first time since entering this realm, you take a moment to rest in the building's cool shade. The quiet calm soothes your aching muscles and weary mind. But you cannot stay for long.",
         "hidden": true,
-	"name": "A Moment's Rest",
+        "name": "A Moment's Rest",
         "pack_code": "dca",
         "position": 327,
         "quantity": 1,
@@ -350,7 +388,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Ruins of Carcosa: Take 1 damage.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03327e",
@@ -358,7 +404,7 @@
         "faction_code": "mythos",
         "flavor": "In the outskirts of the city, you find a ruined mausoleum. Its entrance is not unlike the entrance to the Catacombs of Paris: archways of stone decorated with bone and mocking skulls. The Yellow Sign is inscribed in the stone above the final archway. The narrow, cluttered passageway leads into a circular chamber with a domed ceiling. In the center of the chamber lies an egg-shaped coffin made of stone, unmarked and firmly sealed. Curious, you attempt to open the coffin. It takes all of your strength to pull the heavy lid off, and it slides to the floor with a resounding thud. Inside, you see a familiar face - a woman in a tattered dress, her countenance noble and grim.",
         "hidden": true,
-	"name": "The Coffin",
+        "name": "The Coffin",
         "pack_code": "dca",
         "position": 327,
         "quantity": 1,
@@ -380,7 +426,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Dim Streets: Lose 1 action.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03328a",
@@ -388,7 +442,7 @@
         "faction_code": "mythos",
         "flavor": "You find yourself easily lost within the city's narrow, twisting streets. Routes that should lead back to familiar places lead instead to new parts of the city, and retracing your steps is impossible. Perhaps objects here do not exist in three dimensions like they do on Earth. Conventional maps cannot possibly begin to depict the complexity of Carcosa's design. You explore the streets carefully, and begin to puzzle out a shocking map of the city...",
         "hidden": true,
-	"name": "Mapping the Streets",
+        "name": "Mapping the Streets",
         "pack_code": "dca",
         "position": 328,
         "quantity": 1,
@@ -410,7 +464,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Dim Streets: Lose 1 action.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03328c",
@@ -418,7 +480,7 @@
         "faction_code": "mythos",
         "flavor": "You turn a corner, and before you lies a wide, grand street. A great parade marches by, in honor of the King. Banners of tattered yellow cloth sway in the wind.\nThen it strikes you: you remember this scene from the play. You wrack your mind trying to remember what is supposed to happen next. The parade is interrupted and the entourage is attacked...",
         "hidden": true,
-	"name": "The King's Parade",
+        "name": "The King's Parade",
         "pack_code": "dca",
         "position": 328,
         "quantity": 1,
@@ -440,7 +502,15 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you discover the last remaining clue on Dim Streets: Lose 1 action.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "square",
+                "lines",
+                "star"
+            ]
+        }
     },
     {
         "back_link": "03328e",
@@ -448,7 +518,7 @@
         "faction_code": "mythos",
         "flavor": "You pass under an archway of ebony stone linking two spires. The inscription on the archway is written in a language you have never seen before, but somehow you are able to understand it. When you read the inscription aloud, the portal of stone shimmers, and you see a glimpse into an alternate vision of the city of Carcosa. It is vibrant and mesmerizing, like no place you have ever seen before. The vision dissolves shortly after, and you find yourself back in the ruined streets.",
         "hidden": true,
-	"name": "The Archway",
+        "name": "The Archway",
         "pack_code": "dca",
         "position": 328,
         "quantity": 1,
@@ -468,9 +538,17 @@
         "position": 329,
         "quantity": 1,
         "shroud": 4,
-        "text": "While you are at Depths of Demhe, you cannot play fast cards.", 
+        "text": "While you are at Depths of Demhe, you cannot play fast cards.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "crescent",
+                "triangle",
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "03329a",
@@ -478,7 +556,7 @@
         "faction_code": "mythos",
         "flavor": "Nothing in this realm seems to make sense. The stairs before you both ascend and descend. The cloudy depths sink and rise and sway, and yet remain still. You are floating in a cloud-wisp of mist and swimming under the sunken waves. The stairs are just a part of your imagination. You decide to jump.",
         "hidden": true,
-	"name": "The Height of the Depths",
+        "name": "The Height of the Depths",
         "pack_code": "dca",
         "position": 329,
         "quantity": 1,
@@ -498,9 +576,17 @@
         "position": 329,
         "quantity": 1,
         "shroud": 4,
-        "text": "While you are at Depths of Demhe, you cannot play fast cards.", 
+        "text": "While you are at Depths of Demhe, you cannot play fast cards.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "crescent",
+                "triangle",
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "03329c",
@@ -508,7 +594,7 @@
         "faction_code": "mythos",
         "flavor": "You come across a set of steps that look similar to the grand staircase of the palace from Act 1, Scene 4 of <u>The King in Yellow</u> - The very same stairs Cassilda nearly fell down when she fainted upon seeing the Stranger for the very first time. Shattering your reverie is the sound of a woman's gasp, and when you look up, you see Cassilda at the top of the steps, her expression shocked upon seeing your face. You rush up the staircase and catch her as she falls, wrapping your arms around her body. She dissolves into the cloudy mists around you.",
         "hidden": true,
-	"name": "Steps of the Palace",
+        "name": "Steps of the Palace",
         "pack_code": "dca",
         "position": 329,
         "quantity": 1,
@@ -529,7 +615,13 @@
         "quantity": 1,
         "shroud": 3,
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "crescent",
+            "out": [
+                "lines"
+            ]
+        }
     },
     {
         "back_link": "03330",
@@ -537,7 +629,7 @@
         "faction_code": "mythos",
         "flavor": "A woman stands atop a tall balcony, her yellow dress tattered and stained. You call out to her, but she does not respond to anything you say. Then, you suddenly remember a scene from <u>The King in Yellow</u>, in which a woman plunges herself into the streets below.\nAre you seeing the past? The future?",
         "hidden": true,
-	"name": "The Fall",
+        "name": "The Fall",
         "pack_code": "dca",
         "position": 330,
         "quantity": 1,
@@ -559,7 +651,14 @@
         "shroud": 2,
         "text": "Palace of the King cannot be flipped over unless Hastur has at least 5[per_investigator] damage on him.",
         "traits": "Otherworld.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "star",
+            "out": [
+                "triangle",
+                "diamond"
+            ]
+        }
     },
     {
         "back_link": "03331",
@@ -567,7 +666,7 @@
         "faction_code": "mythos",
         "flavor": "You stand before the palace of the King. Hastur's incessant whispering fills your mind, and you find it difficult to block his poisonous words from your thoughts. Seeing the palace in all its spectacle and glory, the memories come flooding back to you.\nThe Stranger. The King. Act 2.\nThe doors to the palace are open.",
         "hidden": true,
-	"name": "Hastur's End",
+        "name": "Hastur's End",
         "pack_code": "dca",
         "position": 331,
         "quantity": 1,

@@ -129,7 +129,19 @@
 		"subname": "Of Lighter Slumber",
 		"text": "<b>Forced</b> - When you leave the Seventy Steps: Take 1 horror for each card in your hand in excess of 5.\n[free]: Choose and discard 1 card from your hand.",
 		"traits": "Steps.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"On this landing, there was a huge gate that spanned the width of the rocky platform. Gold-bronze and glimmering, the gate reached skyward and appeared to go on forever, disappearing into a roiling darkness above that reminded me of storm clouds.\" – Jennifer Brozek, <u>To Fight the Black Wind</u>",
@@ -149,7 +161,21 @@
 		"shroud": 9,
 		"text": "<b>Forced</b> - At the end of the mythos phase: Each investigator in The Cavern of Flame takes 1 damage.",
 		"traits": "Cave. Steps.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"heart",
+				"lines"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"heart",
+				"lines"
+			]
+		}
 	},
 	{
 		"back_flavor": "\"So asking a farewell blessing of the priests and thinking shrewdly on his course, he boldly descended the seven hundred steps to the Gate of Deeper Slumber.\" – H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>",
@@ -168,7 +194,21 @@
 		"subname": "Of Deeper Slumber",
 		"text": "<b>Forced</b> - When you leave the Seven Hundred Steps: Take 1 horror for each card in your hand in excess of 3.\n[free]: Choose and discard 1 card from your hand.",
 		"traits": "Steps.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "lines",
+			"out": [
+				"hourglass",
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "lines",
+			"out": [
+				"hourglass",
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "Eventually, the steps give way to loamy soil. Coiling up the bottom few steps is a bed of glowing fungi whose shapes defy natural convention.",
@@ -187,7 +227,21 @@
 		"shroud": 3,
 		"text": "<b>Forced</b> - After you enter the Base of the Steps, if you have at least 1 card in your hand: Test [willpower] (X). X is the number of cards in your hand <i>(after committing cards to this test)</i>. If you fail, for each card in your hand, you must either take 1 horror or discard that card.",
 		"traits": "Steps. Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"lines",
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "From the base of the steps, a peaceful dirt path winds through the dense forest. Many dozens of eyes watch you with curiosity from the tangled woods surrounding the path.",
@@ -206,7 +260,21 @@
 		"shroud": 2,
 		"text": "The Enchanted Path is connected to each Enchanted Woods location.\nThe Enchanted Path gets +1 shroud for each unrevealed Enchanted Woods location in play.\n[action] [action] [action]: You do as you were told... but you feel as though you are missing something. Place 1 clue on The Enchanted Path <i>(from the token pool)</i>.",
 		"traits": "Woods.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -228,7 +296,21 @@
 		"text": "As an additional cost for you to leave this location, you must choose and discard 1 card from your hand for each clue on this location.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "circle",
+			"out": [
+				"tilde",
+				"star",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -250,7 +332,21 @@
 		"text": "<b>Forced</b> - After a [[Zoog]] enemy with the swarming X keyword spawns at this location: Add 1 additional swarm card to it.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"tilde",
+				"square",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -272,7 +368,21 @@
 		"text": "<b>Forced</b> - After this location is revealed: Spawn the set-aside Laboring Gug at this location.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"tilde",
+				"cross",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -294,7 +404,21 @@
 		"text": "While you are investigating this location, it gets +1 shroud for each card in your hand.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "square",
+			"out": [
+				"tilde",
+				"triangle",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -316,7 +440,21 @@
 		"text": "<b>Forced</b> - After you enter this location: You must either take 2 horror or lose all of your remaining actions.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "star",
+			"out": [
+				"tilde",
+				"diamond",
+				"circle"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -338,7 +476,21 @@
 		"text": "<b>Forced</b> - When your turn begins, if you are at this location: Reveal a random token from the chaos bag. If you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] token, take 1 damage and lose 1 action.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "cross",
+			"out": [
+				"tilde",
+				"circle",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "Drawn deeper into the lush forest, you stray from the path...",
@@ -360,7 +512,19 @@
 		"text": "<b>Forced</b> - After you reveal this location: If you do not leave this location before the end of the round, place 1 doom on the current agenda.",
 		"traits": "Woods.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "yin",
+			"out": [
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_link": "06057b",
@@ -656,7 +820,23 @@
 		"shroud": 3,
 		"text": "While Waiting Room is not infested, it gains: \"[action]: <b>Resign.</b> You flee the hospital, leaving your companions behind.\"",
 		"traits": "St Mary's.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"triangle",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"diamond",
+				"triangle",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "You peek into the emergency ward and find several other rooms besides the one where your companions are being kept.",
@@ -677,7 +857,21 @@
 		"text": "While you are in the Emergency Room, each of your skill tests gets +1 difficulty for each card committed to it.",
 		"traits": "St Mary's.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "A sign over this hallway reads \"Experimental Therapies.\" You’re not sure what sorts of remedies the staff at St. Mary’s experiment with, and you’re not sure you want to know.",
@@ -697,7 +891,23 @@
 		"text": "[reaction] When you investigate Experimental Therapies Ward, take 1 horror: Experimental Therapies Ward gets -2 shroud for this investigation.",
 		"traits": "St Mary's.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "A plaque next to the door of this room reads: \"RECORDS.\"\nUnderneath that, another sign warns: \"STAFF ONLY.\"",
@@ -718,7 +928,19 @@
 		"text": "[action] [action] [action] If you are not engaged with any enemies: One at a time, take 4 basic investigate actions.",
 		"traits": "St Mary's.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle"
+			]
+		}
 	},
 	{
 		"back_flavor": "Through an unmarked door in the hall behind the experimental therapies ward, a dark staircase leads deeper into the hospital.",
@@ -738,7 +960,27 @@
 		"text": "[reaction] After you enter Stairwell from a non-[[Basement]] location: Move to a [[Basement]] location. Then, test [agility] (4). If you fail, take 2 damage.\n<b>Forced</b> - After Stairwell becomes infested: Make an infestation test.",
 		"traits": "St Mary's.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "heart",
+			"out": [
+				"triangle",
+				"cross",
+				"hourglass",
+				"t",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"triangle",
+				"cross",
+				"hourglass",
+				"t",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "One of several unmarked wooden doors in the cold, musty basement of St. Mary’s Hospital.",
@@ -760,7 +1002,19 @@
 		"text": "[action]: Test [willpower] (3). If you succeed, discover 1 clue at this location. If you fail, take 1 horror.\n<b>Forced</b> - After the last remaining clue is discovered from Morgue: Make an infestation test.",
 		"traits": "St Mary's. Basement.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "One of several unmarked wooden doors in the cold, musty basement of St. Mary’s Hospital.",
@@ -782,7 +1036,19 @@
 		"text": "[action] [action]: Choose an investigator at your location and test [intellect] (4). If you succeed, heal 3 damage from that investigator. If you fail, deal 1 damage to that investigator.",
 		"traits": "St Mary's. Basement.",
 		"type_code": "location",
-		"victory": 2
+		"victory": 2,
+		"connections": {
+			"in": "t",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_flavor": "One of several unmarked wooden doors in the cold, musty basement of St. Mary’s Hospital.",
@@ -803,7 +1069,19 @@
 		"shroud": 4,
 		"text": "[action]: <b>Parley.</b> Test [willpower] (2). If you succeed, test [intellect] (2). If you succeed, investigators at this location may spend 1 [per_investigator] clues as a group to give control of the set-aside Randolph Carter asset to an investigator at this location.",
 		"traits": "St Mary's. Basement.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"heart"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"heart"
+			]
+		}
 	},
 	{
 		"back_name": "Infestation Test",

@@ -144,7 +144,11 @@
         "shroud": 5,
         "text": "<b>Revelation</b> - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.\n[action]: Test [combat] or [agility] (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location.",
         "traits": "Venice. Boat.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The skin on your hands blisters, rubbed raw by the oar, and your arms ache with pain. The creature movement is slow, its body covered in acrid slime, but its countless tentacles lash at you from the dark waters, coiling around your gondola and attempting to pry the oar out of your hands. With a heart-wrenching snap, the oar splinters into two pieces, the bottom half splashing into the lagoon. You desperately try to propel the gondola forward using any means you can, but it is futile. The beast gains on you, looming over the boat with an impossible feathery shape, its tendrils reaching for you. Above it, the black shape of the moon begins to slide. A thin crescent of sunlight pierces through the mist as the eclipse ends, and the creature's tendrils recoil to surround its body. Slowly it sinks into the lagoon, its body melting as the sun escapes its prison.",
@@ -184,14 +188,22 @@
         "shroud": 3,
         "text": "San Marco Basilica is connected to the location in the clockwise direction.\n[action]: Place an Innocent Reveler you control underneath the act deck, out of play.",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "Canals course through the city's many islands, lined with gondole, traghetti, and other boats. The redolence of the festival clashes with the pungent odor of the water. Here the music of the Carnevale is faded, replaced by the sound of gentle sloshing against the docks and canal walls.",
         "back_text": "Canal-side is connected to the location in the clockwise direction.",
         "clues": 1,
         "clues_fixed": true,
-	"code": "82009",
+        "code": "82009",
         "double_sided": true,
         "encounter_code": "venice",
         "encounter_position": 9,
@@ -205,14 +217,22 @@
         "shroud": 2,
         "text": "Canal-side is connected to the location in the clockwise direction.\n[reaction] After you enter Canal-side: Place 1 clue on Canal-side from the token bank.",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The parade of masks follows a circuitous route through the city, through the canal-side walkways and over more bridges than you can count. Streamers and confetti litter the streets where the parade has already passed by.",
         "back_text": "Streets of Venice is connected to the location in the clockwise direction.",
         "clues": 2,
         "clues_fixed": true,
-	"code": "82010",
+        "code": "82010",
         "double_sided": true,
         "encounter_code": "venice",
         "encounter_position": 10,
@@ -225,14 +245,22 @@
         "shroud": 2,
         "text": "Streets of Venice is connected to the location in the clockwise direction.\n[free]: <b>Move</b> (to the location in the clockwise direction).",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The Ponte di Rialto is the oldest bridge spanning the Grand Canal. It has endured for centuries, but even its stone may crumble should you fail.",
         "back_text": "Rialto Bridge is connected to the location in the clockwise direction.",
         "clues": 1,
         "clues_fixed": true,
-	"code": "82011",
+        "code": "82011",
         "double_sided": true,
         "encounter_code": "venice",
         "encounter_position": 11,
@@ -245,7 +273,15 @@
         "shroud": 2,
         "text": "Rialto Bridge is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Rialto Bridge: Lose 1 action.",
         "traits": "Venice. Bridge.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The parade's path meanders away from the canals and winds through a beautiful garden. Moonlight streams through the leaves, dappling the ancient marble statues.",
@@ -265,7 +301,15 @@
         "shroud": 3,
         "text": "Venetian Garden is connected to the location in the clockwise direction.\n[action][action] Spend 2 resources: Heal 2 horror. (Limit once per game.)",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "With a pang of discomfort, you imagine how disheartening the view would be from inside the enclosed bridge, looking out of its cramped windows.",
@@ -285,7 +329,15 @@
         "shroud": 1,
         "text": "Bridge of Sighs is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Bridge of Sighs: Take 1 horror.",
         "traits": "Venice. Bridge.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "As the rising tide of the acqua alta floods the square, you trudge through the numbingly cold water. The parade continues across a makeshift wooden bridge that spans the square, too narrow for your comfort.",
@@ -304,7 +356,15 @@
         "shroud": 4,
         "text": "Flooded Square is connected to the location in the clockwise direction.\n[action]: Automatically evade a non-[[Elite]] enemy at the location in the counter-clockwise direction. (Group limit once per turn.)",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The long and narrow Ponte dell'Accademia is one of only four bridges that span the Grand Canal. Many pairs of yellow eyes gaze at the bridge from the academy's high windows, seemingly waiting for you to cross...",
@@ -323,7 +383,15 @@
         "shroud": 2,
         "text": "Accademia Bridge is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Accademia Bridge: Lose 2 resources.",
         "traits": "Venice. Bridge.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "back_flavor": "The statue's eyes seem to glow with the light of the moon.",
@@ -343,7 +411,15 @@
         "shroud": 3,
         "text": "The Guardian is connected to the location in the clockwise direction.\n[reaction] After you enter The Guardian: Draw 1 card.",
         "traits": "Venice.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "",
+            "out": []
+        },
+        "back_connections": {
+            "in": "",
+            "out": []
+        }
     },
     {
         "code": "82017b",
@@ -744,5 +820,5 @@
         "text": "<b>Revelation</b> - Attach to the nearest location in the clockwise direction with no Acrid Miasma.\n<b>Forced</b> - After an investigator enters attached location, he or she tests [willpower] (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play.",
         "traits": "Hazard.",
         "type_code": "treachery"
-    }   
+    }
 ]

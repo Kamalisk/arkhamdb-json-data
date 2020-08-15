@@ -187,7 +187,23 @@
 		"subname": "Western Patient Wing",
 		"text": "[reaction] After you defeat a [[Lunatic]] enemy at this location: Draw 1 card.",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"hourglass",
+				"triangle",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"hourglass",
+				"triangle",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "The pleasant atmosphere of the reception area disappeared as soon as Dr. Mintz shut the thick iron door behind them. The temperature dropped to a clammy chill, and a foul, sharp stench hung in the air.\n– Mallory O’Meara, The Investigators of Arkham Horror",
@@ -207,7 +223,23 @@
 		"subname": "Western Patient Wing",
 		"text": "Each [[Lunatic]] enemy at this location gets +1 horror value.",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"hourglass",
+				"triangle",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"hourglass",
+				"triangle",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "The pleasant atmosphere of the reception area disappeared as soon as Dr. Mintz shut the thick iron door behind them. The temperature dropped to a clammy chill, and a foul, sharp stench hung in the air.\n– Mallory O’Meara, The Investigators of Arkham Horror",
@@ -227,7 +259,23 @@
 		"subname": "Eastern Patient Wing",
 		"text": "[action] Take 1 horror: <b>Evade.</b> Automatically evade a [[Lunatic]] enemy at this location.",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"circle",
+				"heart",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"circle",
+				"heart",
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "The pleasant atmosphere of the reception area disappeared as soon as Dr. Mintz shut the thick iron door behind them. The temperature dropped to a clammy chill, and a foul, sharp stench hung in the air.\n– Mallory O’Meara, The Investigators of Arkham Horror",
@@ -247,7 +295,23 @@
 		"subname": "Eastern Patient Wing",
 		"text": "<b>Forced</b> - After you end your turn at this location: Take 1 horror and gain 2 resources.",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "hourglass",
+			"out": [
+				"circle",
+				"heart",
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "hourglass",
+			"out": [
+				"circle",
+				"heart",
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "The narrow door in the back of the mess hall is locked. The scent that strikes you from behind the door is foul and repugnant.",
@@ -267,7 +331,19 @@
 		"shroud": 2,
 		"text": "[action] If there are no clues on the Kitchen: Test [willpower] (2). If you succeed, remember that you \"set a fire in the kitchen.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"triangle"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"triangle"
+			]
+		}
 	},
 	{
 		"back_flavor": "A wide, open doorway leads into the asylum’s mess hall, where patients would have their meals. It’s quieter than you expected - there are no chairs scuffling, dishes clanking, or patients speaking with one another",
@@ -287,7 +363,21 @@
 		"text": "<b>Forced</b> - After you successfully investigate the Mess Hall: Choose and discard 1 card from your hand.",
 		"traits": "Arkham Asylum.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "The scratched plaque on this wooden door reads: \"Infirmary.\" This must be where the doctors treat their patients.",
@@ -307,7 +397,19 @@
 		"text": "[action]: Heal 1 damage and take 1 direct horror, or heal 1 horror and take 1 direct damage. (Limit once per round.)",
 		"traits": "Arkham Asylum.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		},
+		"back_connections": {
+			"in": "heart",
+			"out": [
+				"hourglass"
+			]
+		}
 	},
 	{
 		"back_flavor": "The fresh air and the illusion of freedom makes the asylum’s courtyard a common gathering place for patients. Through the barred windows, dead tree branches sway in the wind. Gray, overcast skies trap the asylum in a dull limbo.",
@@ -325,7 +427,21 @@
 		"shroud": 1,
 		"text": "While you are investigating the Yard, it gets +1 shroud for each horror on you.\n[action] If there are no clues on Yard, take 1 damage: Remember that you \"incited a fight amongst the patients.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"circle",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "A lone statue stands sentinel over the garden. Cold wind causes dead leaves to roll gently across the garden path.",
@@ -345,7 +461,19 @@
 		"shroud": 3,
 		"text": "[action] If there are no clues on Garden: Test [agility] (2). If you succeed, remember that you \"distracted the guards.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "Dank air drifted out of some of the darker hallways. Carolyn asked, \"Do some of these passageways lead underground?\" Nurse Heather nodded. \"It’s a very old building, Doctor.\"\n– Mallory O’Meara, The Investigators of Arkham Horror",
@@ -366,7 +494,21 @@
 		"text": "<b>Forced</b> - After the Basement Hall is revealed: Put the 4 set-aside Patient Confinement locations into play.",
 		"traits": "Arkham Asylum.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "tilde",
+			"out": [
+				"hourglass",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "tilde",
+			"out": [
+				"hourglass",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "The heavy metal door is firmly shut and locked from the outside. The thin slit that would allow you to peer inside the cell is stuck.",
@@ -388,7 +530,19 @@
 		"subname": "Daniel's Cell",
 		"text": "<b>Forced</b> - After Patient Confinement is revealed: Advance to act 2b.",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "The heavy metal door is firmly shut and locked from the outside. The thin slit that would allow you to peer inside the cell is stuck.",
@@ -409,7 +563,19 @@
 		"subname": "Occupied Cell",
 		"text": "[action]: Test [combat] (2) to release the patient here from his bonds. If you succeed, he howls like a wolf and tears off through the basement; remember that you \"released a dangerous patient.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "The heavy metal door is firmly shut and locked from the outside. The thin slit that would allow you to peer inside the cell is stuck.",
@@ -431,7 +597,19 @@
 		"subname": "Dreary Cell",
 		"text": "[action]: Test [intellect] (2) to speak to the patient here. If you succeed, you are able to interpret her ravings; remember that you \"know the guards' patrols.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"back_flavor": "The heavy metal door is firmly shut and locked from the outside. The thin slit that would allow you to peer inside the cell is stuck.",
@@ -452,7 +630,19 @@
 		"subname": "Familiar Cell",
 		"text": "[action]: Test [willpower] (X), where X is the amount of horror on you. If you succeed, you recognize the room; remember that you \"recalled the way out.\"",
 		"traits": "Arkham Asylum.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"tilde"
+			]
+		}
 	},
 	{
 		"code": "03182a",

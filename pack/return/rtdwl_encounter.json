@@ -30,7 +30,21 @@
     "shroud": 4,
     "text": "<b>Forced</b> - After you discover 1 or more clues at Warren Observatory: Discard 3 cards from the top of your deck for each clue just discovered.",
     "traits": "Miskatonic.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "triangle",
+      "out": [
+        "cross",
+        "square"
+      ]
+    },
+    "back_connections": {
+      "in": "triangle",
+      "out": [
+        "cross",
+        "square"
+      ]
+    }
   },
   {
     "code": "51014",
@@ -80,7 +94,24 @@
     "shroud": 4,
     "text": "<b>Forced</b> - After Clover Club Lounge is revealed: Put the set-aside Clover Club Stage into play.\nWhile it is Act 1, Clover Club Lounge gains: \"[action]: Look at the top card of your deck. If it is an [[Ally]] asset, you may put it into play. Otherwise, draw it. (Limit once per round.)\"",
     "traits": "Clover Club.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "",
+      "out": [
+        "crescent",
+        "square",
+        "triangle",
+        "heart"
+      ]
+    },
+    "back_connections": {
+      "in": "circle",
+      "out": [
+        "crescent",
+        "square",
+        "triangle"
+      ]
+    }
   },
   {
     "back_flavor": "The mesmerizing melody of a torch singer and her band grows louder as you approach the stage near the club's lounge. Mobsters and business-types chatter quietly over the music, wheeling and dealing the night away.",
@@ -99,7 +130,21 @@
     "shroud": 1,
     "text": "Clover Club Bar is connected to Clover Club Stage.\nWhile it is Act 1, Clover Club Stage gains: \"[action] Spend 1 resource: Place that resource on Clover Club Stage.\n[free] If there are 1 [per_investigator] resources on Clover Club Stage: Gain 1 [per_investigator] clues from the token pool. (Group limit once per game.)\"",
     "traits": "Clover Club.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "heart",
+      "out": [
+        "circle",
+        "square"
+      ]
+    },
+    "back_connections": {
+      "in": "heart",
+      "out": [
+        "circle",
+        "square"
+      ]
+    }
   },
   {
     "code": "51018",
@@ -163,7 +208,19 @@
     "text": "<b>Forced</b> - After you fail a skill test while investigating this location: Take 1 damage.",
     "traits": "Miskatonic. Exhibit.",
     "type_code": "location",
-    "victory": 1
+    "victory": 1,
+    "connections": {
+      "in": "star",
+      "out": [
+        "square"
+      ]
+    },
+    "back_connections": {
+      "in": "",
+      "out": [
+        "square"
+      ]
+    }
   },
   {
     "back_flavor": "What alluring artifacts are displayed inside?\nDo they, too, hold a sinister secret?",
@@ -182,7 +239,20 @@
     "subname": "The Archives",
     "text": "[action] [action]: Gain 2 clues <i>(from the token bank).</i> Then, if Hunting Horror is in play, place 1 resource on Shadow-spawned. Otherwise, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it in the Museum Halls. Shuffle the encounter deck.",
     "traits": "Miskatonic. Exhibit.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "hourglass",
+      "out": [
+        "square",
+        "lines"
+      ]
+    },
+    "back_connections": {
+      "in": "",
+      "out": [
+        "square"
+      ]
+    }
   },
   {
     "code": "51023",
@@ -301,7 +371,15 @@
     "text": "Engine Car is connected to the location to the left of it.\nEngine Car cannot be investigated.\n<b>Forced</b> - After you reveal Engine Car: Put the set-aside Engineer into play at the Engine Car.",
     "traits": "Train.",
     "type_code": "location",
-    "victory": 1
+    "victory": 1,
+    "connections": {
+      "in": "",
+      "out": []
+    },
+    "back_connections": {
+      "in": "",
+      "out": []
+    }
   },
   {
     "back_name": "Train Car",
@@ -320,7 +398,15 @@
     "shroud": 1,
     "text": "Freight Car is connected to the locations to the left and right of it.\n<b>Forced</b> - At the end of the round: Each investigator on the Freight Car must test [agility] (1). Each investigator who fails must test [agility] (1) again. each investigator who fails this second test is pulled into the vortex above and is defeated.",
     "traits": "Train.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "",
+      "out": []
+    },
+    "back_connections": {
+      "in": "",
+      "out": []
+    }
   },
   {
     "back_name": "Train Car",
@@ -340,7 +426,15 @@
     "shroud": 3,
     "text": "Baggage Car is connected to the locations to the left and right of it.\nBaggage Car cannot be investigated.\n[action] Choose and discard a card from your hand: Discover 1 clue in the Baggage Car.",
     "traits": "Train.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "",
+      "out": []
+    },
+    "back_connections": {
+      "in": "",
+      "out": []
+    }
   },
   {
     "code": "51031",
@@ -390,7 +484,23 @@
     "subname": "Silent Decay",
     "text": "Each investigator at Village Commons cannot take draw or resource actions.\n[action]: <b>Resign.</b> \"This is suicide! We're better off hiding out the night.\"",
     "traits": "Dunwich. Central.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "cross",
+      "out": [
+        "square",
+        "diamond",
+        "crescent"
+      ]
+    },
+    "back_connections": {
+      "in": "cross",
+      "out": [
+        "square",
+        "diamond",
+        "crescent"
+      ]
+    }
   },
   {
     "back_flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it.\n–H. P. Lovecraft, \"The Dunwich Horror\"",
@@ -409,7 +519,23 @@
     "shroud": 3,
     "text": "<b>Forced</b> - After you reveal Bishop's Brook: Test [agility] (4). If you fail, take 2 damage.\n[free] If there are no clues here: Draw the encounter card underneath Bishop's Brook. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "square",
+      "out": [
+        "cross",
+        "circle",
+        "triangle"
+      ]
+    },
+    "back_connections": {
+      "in": "square",
+      "out": [
+        "cross",
+        "circle",
+        "triangle"
+      ]
+    }
   },
   {
     "back_flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin…\n–H. P. Lovecraft, \"The Dunwich Horror\"",
@@ -428,7 +554,21 @@
     "shroud": 2,
     "text": "<b>Forced</b> - After you successfully investigate Burned Ruins: Take 1 damage.\n[free] If there are no clues here: Draw the encounter card underneath Burned Ruins. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "triangle",
+      "out": [
+        "square",
+        "diamond"
+      ]
+    },
+    "back_connections": {
+      "in": "triangle",
+      "out": [
+        "square",
+        "diamond"
+      ]
+    }
   },
   {
     "back_flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened…\n–H. P. Lovecraft, \"The Dunwich Horror\"",
@@ -446,7 +586,21 @@
     "shroud": 3,
     "text": "<b>Forced</b> - After you reveal Osborn's General Store: Gain 2 resources.\n[free] If there are no clues here: Draw the encounter card underneath Osborn's General Store. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "circle",
+      "out": [
+        "crescent",
+        "square"
+      ]
+    },
+    "back_connections": {
+      "in": "circle",
+      "out": [
+        "crescent",
+        "square"
+      ]
+    }
   },
   {
     "back_flavor": "\"I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up…\"\n–H. P. Lovecraft, \"The Dunwich Horror\"",
@@ -464,7 +618,23 @@
     "shroud": 1,
     "text": "<b>Forced</b> - After you reveal Congregational Church: Search the encounter deck and discard pile for a copy of Kidnapped! and draw it. Shuffle the encounter deck.\n[free] If there are no clues here: Draw the encounter card underneath Congregational Church. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "diamond",
+      "out": [
+        "cross",
+        "triangle",
+        "tilde"
+      ]
+    },
+    "back_connections": {
+      "in": "diamond",
+      "out": [
+        "cross",
+        "triangle",
+        "tilde"
+      ]
+    }
   },
   {
     "back_flavor": "Even the locals stay away from this half-sunken hovel.",
@@ -482,7 +652,21 @@
     "shroud": 2,
     "text": "While you are in the House in the Reeds, you cannot play assets.\n[free] If there are no clues here: Draw the encounter card underneath House in the Reeds. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "tilde",
+      "out": [
+        "diamond",
+        "crescent"
+      ]
+    },
+    "back_connections": {
+      "in": "tilde",
+      "out": [
+        "diamond",
+        "crescent"
+      ]
+    }
   },
   {
     "back_flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse.",
@@ -501,7 +685,23 @@
     "shroud": 4,
     "text": "<b>Forced</b> - After you discover a clue from this location: Search the encounter deck and discard pile for a copy of Servant of Many Mouths and draw it. Shuffle the encounter deck.\n[free] If there are no clues here: Draw the encounter card underneath Schoolhouse. (Group limit once per game.)",
     "traits": "Dunwich.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "crescent",
+      "out": [
+        "cross",
+        "tilde",
+        "circle"
+      ]
+    },
+    "back_connections": {
+      "in": "crescent",
+      "out": [
+        "cross",
+        "tilde",
+        "circle"
+      ]
+    }
   },
   {
     "code": "51040",
@@ -668,7 +868,27 @@
     "subname": "Warped and Twisted",
     "text": "Base of the Hill is connected to each copy of Diverging Path.\n<b>Forced</b> - After you discover 1 or more clues from Base of the Hill: Spend those clues and put that many random set-aside Diverging Path locations into play.\n[action]: <b>Resign.</b> \"This is more than I signed up for!\"",
     "traits": "Dunwich. Sentinel Hill.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "triangle",
+      "out": [
+        "square",
+        "cross",
+        "tilde",
+        "hourglass",
+        "yin"
+      ]
+    },
+    "back_connections": {
+      "in": "triangle",
+      "out": [
+        "square",
+        "cross",
+        "tilde",
+        "hourglass",
+        "yin"
+      ]
+    }
   },
   {
     "back_flavor": "When you try to follow the path leading farther up Sentinel Hill, you somehow end up walking in a perpetual loop. Each time you stop to get your bearings, you find yourself back at the base of the hill again.",
@@ -690,7 +910,29 @@
     "subname": "Warped and Twisted",
     "text": "Ascending Path is connected to each copy of Altered Path.\n<b>Forced</b> - After you discover 1 or more clues from Ascending Path: Spend those clues and put that many random set-aside Altered Path locations into play.",
     "traits": "Dunwich. Sentinel Hill.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "square",
+      "out": [
+        "triangle",
+        "diamond",
+        "t",
+        "lines",
+        "crescent",
+        "venn"
+      ]
+    },
+    "back_connections": {
+      "in": "square",
+      "out": [
+        "triangle",
+        "diamond",
+        "t",
+        "lines",
+        "crescent",
+        "venn"
+      ]
+    }
   },
   {
     "back_flavor": "A path off the beaten trail leads deeper into the woods surrounding Sentinel Hill.",
@@ -711,7 +953,18 @@
     "shroud": 2,
     "text": "<b>Forced</b> - After you reveal Abandoned Camp: Lose 2 resources for each action you have performed this round <i>(including this one, if applicable)</i>.",
     "traits": "Dunwich. Woods.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "yin",
+      "out": [
+        "triangle",
+        "venn"
+      ]
+    },
+    "back_connections": {
+      "in": "",
+      "out": []
+    }
   },
   {
     "back_flavor": "A shiver courses up your spine as you step forth onto the path, its route touched by a bizarre arcane power.",
@@ -732,7 +985,18 @@
     "shroud": 4,
     "text": "<b>Forced</b> - After you reveal Fathomless Lake: If you have 2 or more actions remaining, place 1 doom on the current agenda.",
     "traits": "Dunwich. Woods. Altered.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "venn",
+      "out": [
+        "square",
+        "yin"
+      ]
+    },
+    "back_connections": {
+      "in": "",
+      "out": []
+    }
   },
   {
     "code": "51052",
@@ -848,7 +1112,13 @@
     "subname": "All-In-One",
     "text": "Yog-Sothoth is immune to player card effects, cannot take damage, and cannot leave Realms Beyond.\nAs an additional cost for you to leave Realms Beyond, test [willpower] or [agility] (3). If you fail, cancel the effects of the move.\n<b>Forced</b> - When a forced effect would move an investigator or enemy to Another Dimension: Move them here instead. Cannot be canceled.",
     "traits": "Otherworld.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "yin",
+      "out": [
+        "circle"
+      ]
+    }
   },
   {
     "clues": 1,
@@ -865,7 +1135,14 @@
     "shroud": 3,
     "text": "<b>Revelation</b> - Put Indecipherable Stairs into play and discard the top 3 cards of your deck.\n<b>Forced</b> - After you leave Indecipherable Stairs: You must either take 2 horror, or discard Indecipherable Stairs.",
     "traits": "Otherworld. Extradimensional.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "triangle",
+      "out": [
+        "square",
+        "lines"
+      ]
+    }
   },
   {
     "clues": 4,
@@ -882,7 +1159,14 @@
     "shroud": 3,
     "text": "<b>Revelation</b> - Put Towering Luminosity into play and either place 1 doom on it or take 2 damage.\n<b>Forced</b> - After you fail a test while at this location: You  must either flip 1 clue on Towering Luminosity to its doom side, or discard Towering Luminosity.",
     "traits": "Otherworld. Extradimensional.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "diamond",
+      "out": [
+        "square",
+        "lines"
+      ]
+    }
   },
   {
     "clues": 1,
@@ -898,7 +1182,16 @@
     "shroud": 3,
     "text": "<b>Revelation</b> - Put Unstable Vortex into play and discard 1 copy of Tear Through Space, if able.\n<b>Forced</b> - At the end of your turn, if you are at Unstable Vortex: You must either draw the top card of the encounter deck, or shuffle Unstable Vortex into the encounter deck.",
     "traits": "Otherworld. Extradimensional.",
-    "type_code": "location"
+    "type_code": "location",
+    "connections": {
+      "in": "lines",
+      "out": [
+        "square",
+        "crescent",
+        "cross",
+        "tilde"
+      ]
+    }
   },
   {
     "code": "51061",

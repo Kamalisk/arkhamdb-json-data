@@ -167,8 +167,8 @@
         "text": "[action] If there are no clues on your location: <b>Explore.</b> Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.\n<b>Objective</b> - At the end of the round, if investigators at Steps of Yoth possess the requisite number of clues, they may advance. <i>(Beware - any investigator who is not at Steps of Yoth will be defeated.)</i>",
         "type_code": "act"
     },
-    {   
-        "clues": 0,   
+    {
+        "clues": 0,
         "code": "04286",
         "encounter_code": "the_depths_of_yoth",
         "encounter_position": 10,
@@ -182,7 +182,17 @@
         "shroud": 3,
         "text": "[reaction] When adding to the current depth level, if investigators at Steps of Yoth possess 5[per_investigator] clues as a group, an investigator at Steps of Yoth crosses rope off from his or her supplies: Add 1 additional resource to the current depth level. (Max once per game.)",
         "traits": "Ancient. Forgotten. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "lines",
+            "out": [
+                "hourglass",
+                "square",
+                "triangle",
+                "diamond",
+                "heart"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -200,7 +210,17 @@
         "text": "While City of the Serpents has no clues on it, it is considered to be in the victory display (for the purposes of counting vengeance).",
         "traits": "Ancient. Cave. Yoth.",
         "type_code": "location",
-        "vengeance": 2
+        "vengeance": 2,
+        "connections": {
+            "in": "diamond",
+            "out": [
+                "lines",
+                "yin",
+                "triangle",
+                "t",
+                "square"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -218,7 +238,17 @@
         "text": "While an investigator is in Hall of Heresy, it is considered to be in the victory display (for the purposes of counting vengeance).",
         "traits": "Ancient. Cave. Yoth.",
         "type_code": "location",
-        "vengeance": 2
+        "vengeance": 2,
+        "connections": {
+            "in": "triangle",
+            "out": [
+                "lines",
+                "diamond",
+                "circle",
+                "square",
+                "t"
+            ]
+        }
     },
     {
         "clues": 0,
@@ -235,7 +265,17 @@
         "shroud": 4,
         "text": "<b>Forced</b> - When you attempt to explore while at Crumbling Precipice: Test [willpower] (4). If you fail, test [agility] (3). If you fail, test [combat] (2). If you fail, you fall to your death and are killed. <i>(If you succeed at any of these tests, you explore as usual.)</i>",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "hourglass",
+            "out": [
+                "lines",
+                "tilde",
+                "heart",
+                "t",
+                "yin"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -252,7 +292,17 @@
         "shroud": 1,
         "text": "<b>Forced</b> - After Caverns of Yoth enters play: Place clues on it equal to the current depth level.",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "yin",
+            "out": [
+                "circle",
+                "hourglass",
+                "heart",
+                "diamond",
+                "tilde"
+            ]
+        }
     },
     {
         "clues": 2,
@@ -268,7 +318,17 @@
         "shroud": 2,
         "text": "<b>Forced</b> - When you explore while at Forked Path, check your supplies. If you have a map: Continue drawing cards from the exploration deck until you have drawn 2 connecting locations, if able. Put both of those locations into play and choose 1 to move to.",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "t",
+            "out": [
+                "circle",
+                "diamond",
+                "hourglass",
+                "square",
+                "triangle"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -285,7 +345,17 @@
         "shroud": 2,
         "text": "Bridge over N'kai gets +1 shroud for each vengeance point in the victory display.",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "heart",
+            "out": [
+                "lines",
+                "circle",
+                "yin",
+                "hourglass",
+                "tilde"
+            ]
+        }
     },
     {
         "clues": 0,
@@ -302,7 +372,17 @@
         "shroud": 3,
         "text": "<b>Forced</b> - When you explore while at Broken Passage, check your supplies. If you do not have a pickaxe: Place 1 doom on Broken Passage.",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "tilde",
+            "out": [
+                "circle",
+                "yin",
+                "hourglass",
+                "square",
+                "heart"
+            ]
+        }
     },
     {
         "clues": 1,
@@ -319,7 +399,17 @@
         "shroud": -2,
         "text": "X is the current depth level.",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "square",
+            "out": [
+                "lines",
+                "diamond",
+                "triangle",
+                "t",
+                "tilde"
+            ]
+        }
     },
     {
         "clues": 2,
@@ -335,7 +425,17 @@
         "shroud": 2,
         "text": "<b>Forced</b> - After you enter Bright Canyon, if you are poisoned: Take 1 damage.\n[action]: Check your supplies. If you have binoculars, discover 2 clues on Bright Canyon. (Group limit once each depth level.)",
         "traits": "Ancient. Cave. Yoth.",
-        "type_code": "location"
+        "type_code": "location",
+        "connections": {
+            "in": "circle",
+            "out": [
+                "yin",
+                "tilde",
+                "t",
+                "heart",
+                "triangle"
+            ]
+        }
     },
     {
         "code": "04296",

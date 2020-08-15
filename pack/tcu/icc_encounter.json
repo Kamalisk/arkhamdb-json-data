@@ -171,7 +171,23 @@
 		"shroud": 3,
 		"text": "[action] Choose and discard a card from your hand: Move 1 breach from French Hill to the current act, +1 additional breach for each [willpower] icon on that card.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "One of the richest and most historical neighborhoods in Arkham, the many decaying mansions and estates of French Hill hold a lot of old wealth... and many more secrets.",
@@ -189,7 +205,23 @@
 		"shroud": 4,
 		"text": "[action]: Test [willpower] (2). For each point you succeed by, move 1 breach from French Hill to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"star"
+			]
+		},
+		"back_connections": {
+			"in": "t",
+			"out": [
+				"circle",
+				"square",
+				"star"
+			]
+		}
 	},
 	{
 		"back_flavor": "These past few weeks, the warehouses and docks of Rivertown have been swathed in grey mist, making an already quiet district even more empty and desolate.",
@@ -207,7 +239,23 @@
 		"shroud": 3,
 		"text": "[action] Choose and discard a card from your hand: Move 1 breach from Rivertown to the current act, +1 additional breach for each [intellect] icon on that card.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"triangle",
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"triangle",
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "These past few weeks, the warehouses and docks of Rivertown have been swathed in grey mist, making an already quiet district even more empty and desolate.",
@@ -225,7 +273,23 @@
 		"shroud": 4,
 		"text": "[action]: Test [intellect] (2). For each point you succeed by, move 1 breach from Rivertown to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"triangle",
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "circle",
+			"out": [
+				"square",
+				"triangle",
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "If you didn’t know any better, you would think Southside was a ghost town. All of the residents have retreated into their homes and locked their doors. The only light you see seems to be coming from the Catholic church to the south.",
@@ -243,7 +307,27 @@
 		"shroud": 1,
 		"text": "[free]: Discard the top 3 cards of the encounter deck and move 1 breach from Southside to the current act. Choose a [[Power]] treachery discarded by this effect and resolve its revelation ability, if able.",
 		"traits": "Arkham. Central.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle",
+				"cross",
+				"t",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle",
+				"cross",
+				"t",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "If you didn’t know any better, you would think Southside was a ghost town. All of the residents have retreated into their homes and locked their doors. The only light you see seems to be coming from the Catholic church to the south.",
@@ -261,7 +345,27 @@
 		"shroud": 2,
 		"text": "[free] Choose and discard any number of cards from your hand: For each card discarded in this way, move 1 breach from Southside to the current act.",
 		"traits": "Arkham. Central.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle",
+				"cross",
+				"t",
+				"diamond"
+			]
+		},
+		"back_connections": {
+			"in": "square",
+			"out": [
+				"circle",
+				"triangle",
+				"cross",
+				"t",
+				"diamond"
+			]
+		}
 	},
 	{
 		"back_flavor": "Typically a safe neighborhood, the cobbled streets of Uptown have taken a very different mood this night. Tendrils of mist reach out from the woods that border the town, stretching over Hangman’s Brook and crawling through the streets.",
@@ -279,7 +383,23 @@
 		"shroud": 3,
 		"text": "[action] Choose and discard a card from your hand: Move 1 breach from Uptown to the current act, +1 additional breach for each [agility] icon on that card.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"square",
+				"triangle",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"square",
+				"triangle",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "Typically a safe neighborhood, the cobbled streets of Uptown have taken a very different mood this night. Tendrils of mist reach out from the woods that border the town, stretching over Hangman’s Brook and crawling through the streets.",
@@ -297,7 +417,23 @@
 		"shroud": 4,
 		"text": "[action]: Test [agility] (2). For each point you succeed by, move 1 breach from Uptown to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "cross",
+			"out": [
+				"square",
+				"triangle",
+				"crescent"
+			]
+		},
+		"back_connections": {
+			"in": "cross",
+			"out": [
+				"square",
+				"triangle",
+				"crescent"
+			]
+		}
 	},
 	{
 		"back_flavor": "The massive Romanesque building towers over the rest of Uptown, light shining from within its stained glass windows. Father Michael has made it a point to keep the church open at all hours, and despite the strange happenings throughout town, tonight is no different.",
@@ -316,7 +452,19 @@
 		"shroud": 1,
 		"text": "[action]: Draw the top card of the encounter deck. Then, move all breaches from South Church to the current act.\n[action]: <b>Resign.</b> You hide through the night.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "The massive Romanesque building towers over the rest of Uptown, light shining from within its stained glass windows. Father Michael has made it a point to keep the church open at all hours, and despite the strange happenings throughout town, tonight is no different.",
@@ -335,7 +483,19 @@
 		"shroud": 2,
 		"text": "[action] Discard an asset you control from play: Move all breaches from South Church to the current act.\n[action]: <b>Resign.</b> You hide through the night.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		},
+		"back_connections": {
+			"in": "diamond",
+			"out": [
+				"square"
+			]
+		}
 	},
 	{
 		"back_flavor": "The commercial center of Arkham, the Merchant District is usually bustling at all hours. But tonight, the dockhands and sailors have vanished, leaving you with a sense of unease. The mist over the dark waters of the Miskatonic River seems to take unnatural shapes as you watch from afar.",
@@ -353,7 +513,23 @@
 		"shroud": 2,
 		"text": "[action] Discard the top 5, 10, or 15 cards of your deck: For every 5 cards discarded in this way, move 1 breach from Merchant District to the current act. Draw each weakness discarded in this way.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "The commercial center of Arkham, the Merchant District is usually bustling at all hours. But tonight, the dockhands and sailors have vanished, leaving you with a sense of unease. The mist over the dark waters of the Miskatonic River seems to take unnatural shapes as you watch from afar.",
@@ -371,7 +547,23 @@
 		"shroud": 3,
 		"text": "[free] Spend 2 resources: Move 1 breach from Merchant District to the current act.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "triangle",
+			"out": [
+				"circle",
+				"square",
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "As you approach Hangman’s Hill once more, a torrent of spirits ascend into the sky from the graveyard below. The spirits howl in torment as they surround the city, their cries becoming a music of its own.",
@@ -390,7 +582,19 @@
 		"shroud": 2,
 		"text": "[action]: Search the encounter deck and discard pile for a [[Witch]] enemy and draw it. Then, move all breaches from Hangman's Hill to the current act. Shuffle the encounter deck.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "As you approach the manor of the Lodge once more, you find it dark and empty. It seems that its members are still laying low, at least for the time being.",
@@ -410,7 +614,19 @@
 		"text": "[free] Take 1 horror: Move 1 breach from Silver Twilight Lodge to the current act.",
 		"traits": "Arkham.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"back_flavor": "As you approach Hangman’s Hill once more, you find it devoid of any activity - from the living or otherwise. It seems the coven has left this place behind, at least for the time being.",
@@ -430,7 +646,19 @@
 		"text": "[free] Take 1 damage: Move 1 breach from Hangman's Hill to the current act.",
 		"traits": "Arkham.",
 		"type_code": "location",
-		"victory": 1
+		"victory": 1,
+		"connections": {
+			"in": "crescent",
+			"out": [
+				"cross"
+			]
+		},
+		"back_connections": {
+			"in": "crescent",
+			"out": [
+				"cross"
+			]
+		}
 	},
 	{
 		"back_flavor": "As you approach the manor of the Lodge once more, bright light shines from behind its windows. You can hear faint chanting from within.",
@@ -449,7 +677,19 @@
 		"subname": "Where It All Ends",
 		"text": "[action]: Search the encounter deck and discard pile for a [[Silver Twilight]] enemy and draw it. Then, move all breaches from Silver Twilight Lodge to the current act. Shuffle the encounter deck.",
 		"traits": "Arkham.",
-		"type_code": "location"
+		"type_code": "location",
+		"connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		},
+		"back_connections": {
+			"in": "star",
+			"out": [
+				"t"
+			]
+		}
 	},
 	{
 		"code": "05306",
