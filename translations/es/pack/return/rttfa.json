@@ -1,9 +1,109 @@
 [
     {
+        "code": "53001",
+        "name": "Eclipse de sangre",
+        "text": "Como coste adicional para jugar el Eclipse de sangre, recibe 2 puntos de daño.\n<b>Combatir.</b> Este ataque usa [willpower] en lugar de [combat]. Recibes +2 [willpower] e infliges +2 de daño para este ataque.",
+        "traits": "Hechizo. Espíritu."
+    },
+    {
         "code": "53002",
-        "name": "Survival Knife",
-        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack.\n[reaction] When an enemy attacks you during the enemy phase <i>(before resolving that attack)</i>, exhaust Survival Knife: <b>Fight.</b> This attack targets the attacking enemy. You get +2 [combat] and deal +1 damage for this attack.",
-        "traits": "Item. Weapon. Melee.",
-        "slot": "Hand"
+        "name": "Cuchillo de supervivencia",
+        "text": "[action]: <b>Combatir.</b> Recibes +2 para este ataque.\n[reaction] Cuando un Enemigo te ataque durante la fase de Enemigos <i>(antes de resolver ese ataque)</i>, agota el Cuchillo de supervivencia: <b>Combatir.</b> Este ataque tiene como objetivo el Enemigo atacante. Recibes +2 [combat] e infliges +1 de daño en este ataque.",
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "53003",
+        "flavor": "—¿Cómo sabes que estoy loca? —dijo Alicia.\n—Debes de estarlo —digo el gato—, o no habrías venido aquí.\n<cite>Lewis Carroll, Alicia en el país de las maravillas</cite>",
+        "name": "Verdad y ficción",
+        "text": "Coloca 2 secretos entre Apoyos controlados por investigadores que estén en tu Lugar, o bien 3 secretos si hay una pista en tu Lugar.",
+        "traits": "Inspiración."
+    },
+    {
+        "code": "53004",
+        "name": "Piedra antigua",
+        "subname": "Pensamientos pasajeros",
+        "text": "Sólo puedes incluir este Apoyo en tu mazo si lo mejoras a partir de la Piedra antigua (Sin identificar), y sólo si en el registro de campaña aparece que “habéis identificado la piedra”.\nUsos (X secretos). X es el número que hay entre paréntesis junto a “habéis identificado la piedra”.\n[reaction] Cuando robes cualquier cantidad de cartas, gasta esa misma cantidad de secretos: Muévete esa misma cantidad de veces.",
+        "traits": "Objeto. Reliquia.",
+        "slot": "Mano"
+    },
+    {
+        "code": "53005",
+        "name": "Cráneo decorado",
+        "subname": "La perdición engendra perdición",
+        "text": "Usos (0 cargas).\n[reaction] Después de que un investigador, Apoyo [[Aliado]] o Enemigo que esté en tu Lugar sea derrotado: Coloca 1 recurso <i>(de la reserva de fichas)</i> sobre el Cráneo decorador como carga.\n[action] Gasta hasta 3 cargas: Roba esa misma cantidad de cartas y obtén esa misma cantidad de recursos.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "53006",
+        "name": "Colt de bolsillo",
+        "text": "Usos (5 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibe +2 [combat] para este ataque. Este ataque inflige +1 de daño.\n<b>Obligado</b> — Al final de la ronda, si activaste la capacidad “[action]” del Colt de bolsillo: Descártalo.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
+    },
+    {
+        "code": "53007",
+        "name": "Nieblas de R'lyeh",
+        "text": "Usos (5 cargas).\n[action] Gasta 1 carga: <b>Evitar.</b> Este intento de evitar usa [willpower] en lugar de [agility]. Recibes +1 [willpower] para este intento de evitar. Si tienes éxito, después de evitar al Enemigo elegido, puedes moverte a un Lugar conectado. Si se revela un símbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail] durante este intento de evitar, elige y descarta una carta de tu mano.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "53008",
+        "name": "La piedra Chthonian",
+        "subname": "Señal estigia",
+        "text": "Sello ([skull], [cultist], [tablet] o [elder_thing]). Usos (3 cargas). Si La piedra Chthonian no tiene cargas, devuélvela a tu mano.\n<b>Obligado</b> — Después de que reveles un símbolo [auto_fail] durante una prueba de habilidad: Retira 1 carga de La piedra Chthonian.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Mano"
+    },
+    {
+        "code": "53009",
+        "flavor": "Forjamos nuestro propio destino.",
+        "name": "Alterar el destino",
+        "text": "Elije y descarta del juego una Traición que no sea Debilidad y que no esté vinculada a un Enemigo [[Élite]].",
+        "traits": "Hechizo. Bendecido."
+    },
+    {
+        "code": "53010",
+        "name": "Por tu cuenta",
+        "text": "Excepcional. Permanente.\nTu investigador obtiene: “<b>Restricciones de creación de mazos:</b> Sin Apoyos que ocupen un espacio de aliado.”.\n[reaction] Cuando jueges un Evento [survivor], agota Por tu cuenta: Reduce en 2 el coste de ese Evento.",
+        "traits": "Talento."
+    },
+    {
+        "code": "53011",
+        "name": "Mochila",
+        "text": "[reaction] Después de que la Mochila entre en juego: Busca hasta 3 cartas [[Objeto]] o [[Suministro]] que no sean Debilidad entre las 12 primeras cartas de tu mazo y vincúlalas boca abajo a la Mochila. Baraja tu mazo.\nLas cartas vinculadas a la Mochila se pueden jugar como si estuvieran en tu mano. Si no hay cartas vinculadas a la Mochila, descártala.",
+        "traits": "Objeto.",
+        "slot": "Cuerpo"
+    },
+    {
+        "code": "53012",
+        "flavor": "\"¡Plantas!\"",
+        "name": "Dendromorfosis",
+        "subname": "Transformación \"natural\"",
+        "text": "<b>Revelación</b> - Pon la Dendromorfosis en juego en tu zona de amenaza. No puede abandonar el juego mientras no tenga daño en ella.\n[free] Recibe 1 punto de daño directo: Inflige 1 punto de daño a la Dendromorfosis.\n<b>Carta diseñada por Los botánicos en Arkham Nights 2018,</b>",
+        "traits": "Maldición. Flora.",
+        "slot": "2 Manos"
+    },
+    {
+        "code": "53013",
+        "name": "Una oferta que no puedes rechazar",
+        "text": "Sólo modo de campaña.\nCuando te conviertes en el afectado por esta Debilidad, obtienes 2 puntos de experiencia.\n<b>Revelación</b> — Pierde 5 recursos. Si no puedes, en lugar de eso retira Una oferta que no puedes rechazar de tu mazo, busca Letra pequeña en la colección y colócala en tu pila de descartes.",
+        "traits": "Pacto."
+    },
+    {
+        "code": "53014",
+        "flavor": "Tu firma escarlata gote de su superficie.",
+        "name": "Letra pequeña",
+        "text": "<b>Revelación</b> — Pierde 7 recursos. Si no puedse, en lugar de eso retira Letra pequeña de tu mazo, busca Vende tu alma en la colección y colócala en tu pila de descartes.",
+        "traits": "Pacto."
+    },
+    {
+        "code": "53015",
+        "flavor": "Pagarás tu deuda de un modo u otro.",
+        "name": "Vende tu alma",
+        "text": "<b>Revelación</b> — Pierde 10 recursos. Si no puedes, tu oscuro mecenas arranca tu consciencia de tu cuerpo. Te vuelves <b>loco</b>.",
+        "traits": "Pacto."
     }
 ]
