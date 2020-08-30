@@ -1,5 +1,5 @@
 [
-    {
+	{
         "back_flavor": "Chiaki Asami was born in the Japanese Province of Owari. Though happy with his simple life, it would soon be take from him by the great Mino–Owari earthquake of 1891. Without an remaining family Chiaki immigrated to the United States, where he found himself settling down is the city of Arkham. Working from nothing, he would spend years founding his own company, set on creating a city like no other. It was only after some of his employees starting going missing and strange happening started appearing in the news that Chiaki learned the truth. If he didn't act now, Arkham would lead him to an early grave before he could see his plans for the city to completion.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
         "code": "1000000",
@@ -81,14 +81,14 @@
     },
     {
         "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Backroom Deal, 2 copies of Prying Eyes, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rouge cards ([rouge]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
         "code": "1000010",
         "deck_limit": 1,
         "deck_options": [
             {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
             {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
-        "deck_requirements": "size:32, card:1000011:1000012, card:1000011:1000012, card:1000011:1000012, card:1000013, card:1000013, random:subtype:basicweakness",
+        "deck_requirements": "size:32, card:1000011, card:1000012, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "",
@@ -105,7 +105,7 @@
         "skill_combat": 2,
         "skill_agility": 5,
         "subname": "The Black Market Dealer",
-        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; you may move up to 2 cards in your hand up to 3 positions to the left, each.",
+        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other non-weakness cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; you may move up to 2 cards in your hand up to 3 positions to the left, each.",
         "traits": "Criminal. Syndicate.",
         "type_code": "investigator"
     },
@@ -114,37 +114,20 @@
         "deck_limit": 3,
         "faction_code": "neutral",
         "illustrator": "",
-        "name": "Backroom Deal",
+        "name": "Family Bonds",
         "pack_code": "kyo",
         "permanent": false,
         "position": 2,
         "quantity": 3,
         "restrictions": "investigator:1000010",
 		"skill_wild": 1,
-        "text": "Hidden. Multiplayer only.\nAt the end of another investigators commit phase you may secretly commit this card to that skill test.\nWhenever this test would succeed; reveal this card, cancel all revealed [skull], [cultist], [tablet], and [monster], tokens, and treat it as though they revealed an additional [elder_sign] token.",
-        "flavor": "",
-        "traits": "Practiced.",
-        "type_code": "skill"
-    },
-	{
-        "code": "1000012",
-        "deck_limit": 3,
-        "faction_code": "neutral",
-        "illustrator": "",
-        "name": "Backroom Deal",
-        "pack_code": "kyo",
-        "permanent": false,
-        "position": 2,
-        "quantity": 3,
-        "restrictions": "investigator:1000010",
-		"skill_wild": 1,
-        "text": "Solo only.\nWhenever this test would succeed; cancel all revealed [skull], [cultist], [tablet], and [monster], tokens, and treat it as though you revealed an additional [elder_sign] token.",
-        "flavor": "",
-        "traits": "Practiced.",
-        "type_code": "skill"
+        "text": "Fast.\nIgnore this card when determining your left most card in hand.\nThis card does not count towards your maximum hand size.\nMove a non-weakness card in your hand to the left most position. Draw a card.",
+        "flavor": ""Favors bought in blood and commitment."",
+        "traits": "Favor. Service.",
+        "type_code": "event"
     },
     {
-        "code": "1000013",
+        "code": "1000012",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -155,8 +138,8 @@
         "position": 3,
         "quantity": 2,
         "restrictions": "investigator:1000010",
-        "subtype_code": "weakness",
-        "text": "This card can only be played when it is the left most card in your hand,\nThis card does not count towards the cards in your hand for your base [reaction] ability.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.",
+		"subtype_code": "weakness",
+        "text": "This card can only be played when it is the left most card in your hand,\nIf another copy of Prying Eyes is in your hand when you draw this card shuffle is card into your deck.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.",
         "traits": "Intrusion. Blunder.",
         "type_code": "event"
     }
