@@ -1,73 +1,202 @@
 [
     {
         "code": "60101",
-        "flavor": "\"I must fight on.\"",
+        "flavor": "\"Debo seguir peleando.\"",
         "name": "Nathaniel Cho",
-        "subname": "The Boxer",
-        "text": "[reaction] When you deal damage to an enemy by an event or a fight ability on an event: Deal 1 additional damage. (Limit once per phase.)\n[elder_sign] effect: +1. If this skill test is successful during an attack, return an event from your discard pile to your hand.",
-        "traits": "Criminal. Warden.",
-        "back_flavor": "When up-and-coming boxer Nathaniel Cho was offered lots of dough for a title fight, he thoughts he'd finally hit the big time. But his promoter turned out to be part of the notorious O'Bannion gang, and Nathaniel was pressured to fix fights by taking a dive every now and then. His refusal led to his brother Randall's \"accident.\" Nathaniel is rightly fed up with the mobsters endangering Arkham's citizens on a nightly basis. Now he puts his fists to better use, patrolling the streets and defending others from harm. But he's about to find out there are much more dangerous things that lurk in the shadows of Arkham than simple gangsters...",
-        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Randall Cho, Tommy Malloy, 1 random basic weakness."
+        "subname": "El boxeador",
+        "text": "[reaction] Cuando inflijas daño a un Enemigo mediante un Evento o una capacidad <b>Combatir</b> de un Evento: Inflige 1 punto de daño adicional. Límite de 1 vez por fase.\nEfecto [elder_sign]: +1. Si esta prueba de habilidad tiene éxito durante un ataque, devuelve un Evento de tu pila de descartes a tu mano.",
+        "traits": "Criminal. Protector.",
+        "back_flavor": "Cuando el prometedor boxeador Nathaniel Cho recibió  una cuantiosa oferta por un combate por el título, pensó que por fin había llegado a lo más alto. Pero su promotor resultó formar parte de la conocida banda de los O'Bannion, por lo que empezó a presionar a Nathaniel para que amañara combates tirándose a la lona de vez en cuando. Su negativa provocó el «accidente» de su hermano Randall. Nathaniel está harto, y con razón, de que los mafiosos pongan en peligro a los ciudadanos de Arkham una noche tras otra. Ahora usa sus puños para un fin más noble: patrullar las calles y defender al prójimo. Pero está a punto de descubrir que en las sombras de Arkham acechan cosas mucho más peligrosas que los simples gánsteres…",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Randall Cho, Tommy Malloy, 1 Debilidad básica aleatoria."
     },
     {
         "code": "60102",
-        "flavor": "\"You gotta give this up, Nathaniel. Sooner or later, you're gonna get yourself killed.\"",
+        "flavor": "\"Tienes que de hacer estp, Nathaniel. Te acabarán matando antes o después.\"",
         "name": "Randall Cho",
-        "subname": "Concerned Brother",
-        "text": "Nathaniel Cho deck only.\n[fast] After Randall Cho enters play: Heal 3 damage or search your deck and discard pile for a [[Weapon]] asset, play it <i>(paying its cost)</i>, and shuffle your deck.",
-        "traits": "Ally. Medic.",
-        "slot": "Ally"
+        "subname": "Hermano preocupado",
+        "text": "Solo para el mazo de Nathaniel Cho.\n[free] Después de que Randall Cho entre en juego: Cúrate 3 puntos de daño o busca en tu mazo o pila de descartes un Apoyo [[Arma]], juégalo <i>(pagando su coste)</i> y baraja tu mazo.",
+        "traits": "Aliado. Médico.",
+        "slot": "Aliado"
     },
     {
         "code": "60103",
+        "flavor": "Le llama «El gran paquete»\nNathaniel le llama escoria.",
         "name": "Tommy Malloy",
-        "text": "<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Humanoid. Criminal."
+        "text": "<b>Presa</b> — Solo Nathaniel Cho.\nCazador.\n<b>Obligado</b> — Cuando Tommy Malloy fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+        "traits": "Humanoide. Criminal. Sindicalista."
+    },
+    {
+        "code": "60104",
+        "name": "Autodestructivo",
+        "text": "<b>Revelación</b> — Pon Autodestructivo en juego en tu zona de amenaza.\n<b>Obligado</b> —Cuando inflijas 1 o más puntos de daño a un Enemigo: Recibe 1 punto de daño.",
+        "traits": "Defecto."
     },
     {
         "code": "60105",
-        "name": "Boxing Gloves",
-        "text": "You get +1 [combat] while fighting.\n[reaction] After you defeat an enemy, exhaust Boxing Gloves: Search the top 6 cards of your deck for a [[Spirit]] event and add it to your hand. Shuffle your deck.",
-        "traits": "Item. Weapon.",
-        "slot": "Hand x2"
+        "name": "Guantes de boxeo",
+        "text": "Recibes +1 [combat] al combatir.\n[reaction] Después de que derrotes a un Enemigo, agota los Guantes de boxeo: Busca entre las 6 primeras cartas de tu mazo un Evento [[Espíritu]] y añádelo a tu mano. Baraja tu mazo.",
+        "traits": "Objeto. Arma.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "60106",
+        "name": "Protección corporal",
+        "text": "Usos (4 cargas).\n[reaction] Cuando se te inflija daño y/u horror por el ataque de un Enemigo, agota la Protección corporal y gasta 1 carga: Cancela 1 punto de daño o de horror que se acabe de infligir por ese ataque.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "60107",
+        "flavor": "\"Con hierro y sal. Con agua y fuego.\"",
+        "name": "Grete Wagner",
+        "subname": "La purificadora",
+        "text": "Recibes +1 [combat].\n[reaction] Después de que derrotes a un Enemigo, agota a Grete Wagner e inflígele 1 punto de daño: Descubre 1 pista en tu Lugar.",
+        "traits": "Aliado. Cazador.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "60109",
+        "name": "Implacable",
+        "text": "[reaction] Cuando infligas daño sobrante a un Enemigo, agota Implacable: Coloca ese daño sobrante sobre Implacable.\n[free] Descarta Implacable: Obtén una cantidad de recursos igual a la cantidad de daó que hubiera sobre esta carta.",
+        "traits": "Talento."
+    },
+    {
+        "code": "60110",
+        "flavor": "Me dijo que estuviera atento por si  había problemas. Menuda memez. Siempre había problemas.",
+        "name": "Salvaguardia",
+        "text": "[reaction] Después de que otro investigador se mueva de tu Lugar a un Lugar conectado, agota la Salvaguardia: Muévete a ese Lugar.",
+        "traits": "Talento."
     },
     {
         "code": "60111",
-        "flavor": "Time to tighten some screws.",
-        "name": "Clean Them Out",
-        "text": "<b>Fight.</b> When this action begins, gain 2 resources.",
-        "traits": "Spirit. Tactic."
+        "flavor": "Es hora de apretarles las tuercas",
+        "name": "Dejarlos limpios",
+        "text": "<b>Combatir.</b> Cuando comience esta acción, obtén 2 recursos.",
+        "traits": "Espíritu. Táctica."
     },
     {
         "code": "60112",
-        "name": "Counterpunch",
-        "text": "Fast. Play after an enemy attacks you, even if that attack was canceled.\n<b>Fight.</b> This attack targets the attacking enemy.",
-        "traits": "Spirit. Tactic."
+        "name": "Contrapuñetazo",
+        "text": "Rápido. Juega esta carta después de que un Enemigo te ataque, incluso si ese ataque se canceló.\n<b>Combatir.</b> Este ataque tiene como objetivo al Enemigo atacante.",
+        "traits": "Espíritu. Táctica."
+    },
+    {
+        "code": "60114",
+        "name": "\"¡Ven, ven!\"",
+        "text": "<b>Enfrentarse.</b> <b>Combatir.</b> Elige un Enemigo que no sea [[Élite]] y que esté en tu Lugar o en un Lugar conectado. Meve a ese Enemigo a tu Lugar, enfréntate a él y atácalo.",
+        "traits": "Espíritu. Táctica."
+    },
+    {
+        "code": "60115",
+        "flavor": "¡Din, din, din!",
+        "name": "Gloria",
+        "text": "Rápido. Juega esta carta después de que derrotes a un Enemigo.\nRoba 2 cartas.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60116",
+        "name": "Asesino de monstruos",
+        "text": "<b>Combatir.</b> Este ataque inflige +1 de daño.",
+        "traits": "Espíritu."
     },
     {
         "code": "60117",
-        "flavor": "Nathaniel is renowned for his rapid left jab and right cross signature move.",
-        "name": "One-Two Punch",
-        "text": "<b>Fight.</b> You get +1 [combat] for this attack. If you succeed, you may fight that enemy again. You get +2 [combat] and deal +1 damage for that attack.",
-        "traits": "Spirit. Tactic."
+        "flavor": "Nathaniel es conocido por su rápido jab de izquierda seguido de su característico directo de derecha.",
+        "name": "Puñetazo uno-dos",
+        "text": "<b>Combatir.</b> Recibes +1 [combat] para este ataque. Si tienes éxito, puedes volver a combatir con ese Enemigo. Recibes +2 [combat] e infliges +1 de daño para ese ataque.",
+        "traits": "Espíritu. Táctica."
+    },
+    {
+        "code": "60118",
+        "flavor": "¡No acabarán con nosotros tan fácilmente!",
+        "name": "Resistir juntos",
+        "text": "Elige otro investigador que esté en tu Lugar. Tanto tú como ese investigador obtenéis 2 recursos.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60120",
+        "flavor": "¡Justo como sospechaba!",
+        "name": "¡Una prueba!",
+        "text": "Rápido. Juega esta carta después de que derrotes a un Enemigo.\nDescubre 1 pista en tu Lugar, o bien 2 pistas si derrotaste a Enemigos con un total combinado de al menos 4 de salud impresa en este turno.",
+        "traits": "Inspiración."
+    },
+    {
+        "code": "60121",
+        "name": "Impulso a actuar",
+        "text": "Rápido. Juega esta carta sólo durante tu turno.\nPrepara un Apoyo [guardian] que controles. Puedes realizar una acción adicional durante tu turno, pero solo para combatir.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60122",
+        "name": "Contrapuñetazo",
+        "text": "Rápido. Juega esta carta cuando un Enemigo te ataque <i>(antes de resolver ese ataque)</i>. <b>Combatir.</b> Este ataque tiene como objetivo al Enemigo atacante. Recibes +2 [combat] e infliges +1 de daño para este ataque.",
+        "traits": "Espíritu. Táctica."
     },
     {
         "code": "60123",
-        "name": "\"Get over here!\"",
-        "text": "Fast. Play during any [free] window.\n<b>Engage. Fight.</b> Choose a non-[[Elite]] enemy up to 2 locations away. Move that enemy to your location, engage it, and attack it.",
-        "traits": "Spirit. Tactic."
+        "name": "\"¡Ven, ven!\"",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free].\n<b>Enfrentarse.</b> <b>Combatir.</b> Elige un Enemigo que no sea [[Élite]] y que esté a un máximo de 2 Lugares de distancia. Mueve ese Enemigo a tu Lugar, enfréntate a él y atácalo.",
+        "traits": "Espíritu. Táctica."
     },
     {
         "code": "60124",
-        "name": "Lesson Learned",
-        "text": "Fast. Play after you take damage from an enemy attack.\nDiscover 2 clues at your location.",
-        "traits": "Insight. Spirit."
+        "name": "Lección aprendida",
+        "text": "Rápido. Juega esta carta después de que recibas daño del ataque de un Enemigo.\nDescubre 2 pistas en tu Lugar.",
+        "traits": "Inspiración. Espíritu."
+    },
+    {
+        "code": "60125",
+        "name": "Mano a Mano",
+        "text": "Juega esta carta solo como tu primera acción.\nInflige 2 puntos de daño a un Enemigo enfrentado a ti. Esta acción no provoca ataques de oportunidad.",
+        "traits": "Espíritu. Audaz."
+    },
+    {
+        "code": "60126",
+        "flavor": "¡Muere, bestia!",
+        "name": "Dominar",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba tiene éxito, roba 1 carta, o bien 2 cartas si tiene éxito por 2 o más.",
+        "traits": "Experimentado. Experto."
+    },
+    {
+        "code": "60127",
+        "name": "Guantes de boxeo",
+        "text": "Recibes +2 [combat] al combatir.\n[reaction] Después de que derrotes a un Enemigo, agota los Guantes de boxeo: Busca entre las 9 primeras cartas de tu mazo un Evento [[Espíritu]] y añádelo a tu mano. Baraja tu mazo.",
+        "traits": "Objeto. Arma.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "60128",
+        "flavor": "\"Con hierro y sal. Con agua y fuego\"",
+        "name": "Grete Wagner",
+        "subname": "La purificadora",
+        "text": "Recibes +1 [combat] y +1 [intellect].\n[reaction] Después de que derrotes a un Enemigo, agota a Grete Wagner e inflígele 1 punto de daño: Descubre 1 pista en tu Lugar o en un Lugar conectado.",
+        "traits": "Aliado. Cazador.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "60129",
+        "name": "Explosión de dinamita",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free].\nElige tu Lugar o un Lugar conectado. Inflige 3 puntos de daño a cada Enemigo e investigador que esté en el Lugar elegido.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "60130",
+        "flavor": "Te armas de valor y gritas hacia la oscuridad: ¡Venid a por mí!",
+        "name": "Provocar",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free].\nEnfréntate a cualquier cantidad de Enemigos que estén en tu Lugar. Por cada Enemigo enfrentado de esta forma, inflígele 1 punto de daño y roba 1 carta.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "60131",
+        "name": "Entrenamiento físico",
+        "text": "Usos (2 recursos). Repón estos recursos al comienzo de cada ronda.\n[free] Gasta 1 recurso de tu reserva de recursos o de Entrenamiento físico: Recibes +1 [willpower] o +1 [combat] para esta prueba de habilidad.",
+        "traits": "Talento."
     },
     {
         "code": "60132",
-        "flavor": "Nathaniel is renowned for his rapid left jab and right cross signature move.",
-        "name": "One-Two Punch",
-        "text": "<b>Fight.</b> You automatically succeed and deal +1 damage for this attack. You may fight again. You get +3 [combat] and deal +2 damage for that attack.",
-        "traits": "Spirit. Tactic."
+        "flavor": "Nathaniel es conocido por su rápido jab de izquierda seguido de su característico directo de derecha.",
+        "name": "Puñetazo uno-dos",
+        "text": "<b>Combatir.</b> Tienes éxito automáticamente e infliges +1 de daño para este ataque. Puedes volver a combatir. Recibes +3 [combat] e infliges +2 de daño para ese ataque.",
+        "traits": "Espíritu. Táctica."
     }
 ]
