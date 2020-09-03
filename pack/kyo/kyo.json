@@ -81,14 +81,14 @@
     },
     {
         "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rouge cards ([rouge]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
         "code": "1000010",
         "deck_limit": 1,
         "deck_options": [
             {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
             {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
-        "deck_requirements": "size:32, card:1000011, card:1000012, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:1000011, card:1000011, card:1000011, card:1000012, card:1000012, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "",
@@ -105,12 +105,13 @@
         "skill_combat": 2,
         "skill_agility": 5,
         "subname": "The Black Market Dealer",
-        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other non-weakness cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; you may move up to 2 cards in your hand up to 3 positions to the left, each.",
-        "traits": "Criminal. Syndicate.",
+        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; draw a carc and you may move a card in your hand up to 3 positions to the left or right.",
+        "traits": "Criminal. Mafia.",
         "type_code": "investigator"
     },
     {
         "code": "1000011",
+        "cost": 1,
         "deck_limit": 3,
         "faction_code": "neutral",
         "illustrator": "",
@@ -120,9 +121,9 @@
         "position": 2,
         "quantity": 3,
         "restrictions": "investigator:1000010",
-		"skill_wild": 1,
-        "text": "Fast.\nIgnore this card when determining your left most card in hand.\nThis card does not count towards your maximum hand size.\nMove a non-weakness card in your hand to the left most position. Draw a card.",
-        "flavor": ""Favors bought in blood and commitment."",
+        "skill_agility": 1,
+        "text": "Fast.\nThis card does not count towards your maximum hand size. Ignore this card when determining your left most card in hand.\nMove a non-weakness card in your hand up to 2  position to the left or right. Draw a card. Shuffle this card into your deck.",
+        "flavor": "\"Favors bought in blood and loyalty.\"",
         "traits": "Favor. Service.",
         "type_code": "event"
     },
@@ -138,8 +139,8 @@
         "position": 3,
         "quantity": 2,
         "restrictions": "investigator:1000010",
-		"subtype_code": "weakness",
-        "text": "This card can only be played when it is the left most card in your hand,\nIf another copy of Prying Eyes is in your hand when you draw this card shuffle is card into your deck.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.",
+        "subtype_code": "weakness",
+        "text": "Discard all cards that were to the left of this card when it was in your hand.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.\n[forced] At the end of your turn: move Prying Eyes one position to the left.",
         "traits": "Intrusion. Blunder.",
         "type_code": "event"
     }
