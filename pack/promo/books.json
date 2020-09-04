@@ -341,9 +341,9 @@
         	"traits": "Curse.",
         	"type_code": "skill"
 	},
-  {
-    "back_flavor": "For Dexter Drake, the magic of fairy tales and myth has been a lifelong fascination. The chance discovery of an old book page during the Great War opened Drake's eyes to the possibility that magic might truly exist. Years later, the promise of arcane tomes locked away in Miskatonic University's special collection draws the successful stage magician to the quiet town of Arkham. Lured to an auction of occult items, \"Drake the Great\" and his assistant, Molly Maxwell, find themselves targeted by the depraved servants of an otherwordly force of disease and corruption. To save Molly, Arkham, and perhaps the world from a horrific transformation, Drake needs more than his wits and quick hands. He must turn to real magic, even if it risks his mind, body, and spirit.",
-    "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Showmanship, Occult Scraps, 1 random basic weakness.",
+	{	
+		"back_flavor": "For Dexter Drake, the magic of fairy tales and myth has been a lifelong fascination. The chance discovery of an old book page during the Great War opened Drake's eyes to the possibility that magic might truly exist. Years later, the promise of arcane tomes locked away in Miskatonic University's special collection draws the successful stage magician to the quiet town of Arkham. Lured to an auction of occult items, \"Drake the Great\" and his assistant, Molly Maxwell, find themselves targeted by the depraved servants of an otherwordly force of disease and corruption. To save Molly, Arkham, and perhaps the world from a horrific transformation, Drake needs more than his wits and quick hands. He must turn to real magic, even if it risks his mind, body, and spirit.",
+		"back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Showmanship, Occult Scraps, 1 random basic weakness.",
     "code": "98016",
     "deck_limit": 1,
     "deck_options": [
@@ -409,5 +409,70 @@
     "text": "Dexter Drake deck only. Replacement.\n<b>Revelation</b> - Put Yaztaroth into play in your threat area.\nYou cannot put assests into play.\n[action][action]: Discard Yaztaroth.",
     "traits": "Curse. Pact.",
     "type_code": "treachery"
-  }
+  },
+	{	
+		"back_flavor": "Gloria Goldberg flavour placeholder.",
+		"back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XXX, XXX, 1 random basic weakness.",
+		"code": "98019",
+		"deck_limit": 1,
+		"deck_options": [
+			{ "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } }
+		],
+		"deck_requirements": "size:30, card:98020, card:98021, random:subtype:basicweakness",
+		"double_sided": true,
+		"faction_code": "mystic",
+		"health": 5,
+		"illustrator": "Colin Boyer",
+		"is_unique": true,
+		"name": "Gloria Goldberg",
+		"pack_code": "dre",
+		"position": 19,
+		"quantity": 1,
+		"sanity": 9,
+		"skill_agility": 1,
+		"skill_intellect": 4,
+		"skill_combat": 2,
+		"skill_willpower": 5,
+		"subname": "The Writer",
+		"text": "You choose the investigator order during the mythos phase.\n[reaction] When you look at 1 or more cards from the encounter deck: Look at 1 additional card and choose 1 non-[[Elite]] card among them. Either discard it, put it on top of the encounter deck, or place it facedown beneath Gloria Goldberg (max 3 cards beneath her).\n[elder_sign] effect: +1. Look at the top card of the encounter deck.",
+		"traits": "Clairvoyant.",
+		"type_code": "investigator"
+	},
+	{
+		"code": "98020",
+		"cost": 3,
+		"deck_limit": 1,
+		"faction_code": "neutral",
+		"health": 2,
+		"illustrator": "Aleksander Karcz",
+		"is_unique": true,
+		"name": "Ruth Westmacott",
+		"pack_code": "dre",
+		"position": 20,
+		"quantity": 1,
+		"restrictions": "investigator:98019",
+		"sanity": 3,
+		"skill_intellect": 2,
+		"skill_wild": 1,
+		"slot": "Ally",
+		"subname": "Dark Revelations",
+		"text": "Gloria Goldberg deck only. Replacement.\n[reaction] When an investigator fights, attempts to evade, or initiates a skill test on an encounter card, discard an encounter card that shares a [[Trait]] with that encounter card from beneath Gloria Goldberg: Reduce the difficulty of this skill test by 2.",
+		"traits": "Ally. Artist.",
+		"type_code": "asset"
+	},
+	{
+		"code": "98021",
+		"deck_limit": 1,
+		"faction_code": "neutral",
+		"illustrator": "Andreas Zafiratos",
+		"name": "Liber Omnium Finium",
+		"pack_code": "dre",
+		"position": 21,
+		"quantity": 1,
+		"restrictions": "investigator:98019",
+		"subtype_code": "weakness",
+		"text": "Gloria Goldberg deck only. Replacement.\n<b>Revelation</b> - Draw a random non-weakness encounter card from beneath Gloria Goldberg. That card gains peril, its effects cannot be canceled, and you get -2 to all skills while resolving its effects. If that card is an enemy, it immediately attacks you. If no card is drawn by this effect, shuffle this card back into your deck.",
+		"traits": "Endtimes.",
+		"type_code": "treachery"
+	}
 ]
