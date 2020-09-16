@@ -43,6 +43,20 @@
         "traits": "Madness."
     },
     {
+        "code": "07018",
+        "name": "Blessed Blade",
+        "text": "[action] If Blessed Blade is ready: <b>Fight.</b> You get +1 [combat] for this attack. If a [bless] or [elder_sign] token is revealed during this attack, this attack deals +1 damage. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 1 [bless] token to the chaos bag.",
+        "traits": "Item. Weapon. Melee. Blessed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "07019",
+        "name": "Rite of Sanctification",
+        "text": "Seal (up to 5 [bless]). If Rite of Sanctification has no tokens sealed on it, discard it.\n[reaction] When an investigator at your location plays a card, exhaust Rite of Sanctification and release a chaos token sealed on it: Reduce the cost of that card by 2.",
+        "traits": "Ritual. Blessed.",
+        "slot": "Arcane"
+    },
+    {
         "code": "07022",
         "name": "Cryptic Grimoire",
         "subname": "Untranslated",
@@ -51,10 +65,25 @@
         "slot": "Hand"
     },
     {
+        "code": "07027",
+        "flavor": "Now you see me...",
+        "name": "Obfuscation",
+        "text": "Fast. Uses (3 charges).\n[reaction] When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
         "code": "07028",
         "name": "Faustian Bargain",
         "text": "As an additional cost to play Faustian Bargain, add 2 [curse] tokens to the chaos bag.\nInvestigators at your location gain a total of 5 resources, distributed as you wish.",
         "traits": "Pact. Cursed."
+    },
+    {
+        "code": "07029",
+        "name": "Sword Cane",
+        "text": "Playing Sword Cane does not provoke attacks of opportunity.\n[reaction] After Sword Cane enters play: Immediately trigger its \"[action]\" ability without paying its cost.\n[action] Exhaust Sword Cane: <b>Fight</b>/<b>Evade.</b> You may use your [willpower] in place of your [combat] or [agility] for this attack or evasion attempt.",
+        "traits": "Item. Relic. Weapon. Melee.",
+        "slot": "Hand"
     },
     {
         "code": "07030",
@@ -69,9 +98,29 @@
         "traits": "Insight. Blessed."
     },
     {
+        "code": "07032",
+        "name": "Promise of Power",
+        "text": "After you commit Promise of Power to a skill test, add 1 [curse] token to the chaos bag. If you cannot, take 2 horror instead.",
+        "traits": "Practiced. Cursed."
+    },
+    {
+        "code": "07033",
+        "name": "Token of Faith",
+        "text": "[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag.",
+        "traits": "Item. Charm.",
+        "slot": "Accessory"
+    },
+    {
         "code": "07035",
         "name": "Predestined",
         "text": "Max 1 committed per skill test.\nYou may commit Predestined to any type of test.\nIf this test fails, either add 2 [bless] tokens to the chaos bag or remove 2 [curse] tokens from the chaos bag.",
         "traits": "Fortune. Blessed."
+    },
+    {
+        "code": "07039",
+        "flavor": "We all have wings, but they have not been of any avail to us and if we could tear them off, we would do so.\n- Franz Kafka, \"The Blue Octavo Notebooks\"",
+        "name": "Dread Curse",
+        "text": "<b>Revelation</b> - Add 5 [curse] tokens to the chaos bag.",
+        "traits": "Curse."
     }
 ]
