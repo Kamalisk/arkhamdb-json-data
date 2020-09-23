@@ -11,10 +11,27 @@
 		"quantity": 2,
 		"skill_combat": 1,
 		"skill_willpower": 1,
-		"text": "<b>Fight.</b> You man use [willpower] instead of [combat] for this attack. When you initiate this attack, search the chaos bag for up to 3 [bless] tokens, and seal them here. For each [bless] token sealed on Radiant Smite, you get +1 skill value and deal +1 damage for this attack. If this attack defeats the attacked enemy, return the sealed tokens to the token pool. Otherwise, release them.",
+		"text": "<b>Fight.</b> You may use [willpower] instead of [combat] for this attack. When you initiate this attack, search the chaos bag for up to 3 [bless] tokens, and seal them here. For each [bless] token sealed on Radiant Smite, you get +1 skill value and deal +1 damage for this attack. If this attack defeats the attacked enemy, return the sealed tokens to the token pool. Otherwise, release them.",
 		"traits": "Spell. Spirit. Blessed.",
 		"type_code": "event",
 		"xp": 1
+	},
+	{
+		"code": "07154",
+		"cost": 1,
+		"deck_limit": 2,
+		"faction_code": "seeker",
+		"illustrator": "Greg Bobrowski",
+		"name": "The Truth Beckons",
+		"pack_code": "def",
+		"position": 154,
+		"quantity": 2,
+		"skill_agility": 1,
+		"skill_intellect": 1,
+		"text": "Play only if you are not engaged with an enemy.\n<b>Move.</b> Choose an unrevealed location. Move (one location at a time) along the shortest path toward that location, until you enter that location. End this effect if you reveal a location, if an enemy engages you, or if your movement is blocked.",
+		"traits": "Insight.",
+		"type_code": "event",
+		"xp": 0
 	},
 	{
 		"code": "07155",
@@ -62,7 +79,7 @@
 		"position": 162,
 		"quantity": 2,
 		"skill_wild": 1,
-		"text": "Reveal tokens from the chaos bag until you reveal a [curse], [auto_fail], [bless], or [elder_sign] token. If you revealed...\n- ... a [curse] or [auto_fail] token, deal 2 damage to an enemy at your location.\n- ... a [bless] or [curse] token, heal 2 damage from an investigator or [[Ally]] asset at your location.\nThis action does not provoke attacks of opportunity.",
+		"text": "Reveal tokens from the chaos bag until you reveal a [curse], [auto_fail], [bless], or [elder_sign] token. If you revealed...\n- ...a [curse] or [auto_fail] token, deal 2 damage to an enemy at your location.\n- ...a [bless] or [elder_sign] token, heal 2 damage from an investigator or [[Ally]] asset at your location.\nThis action does not provoke attacks of opportunity.",
 		"traits": "Spell.",
 		"type_code": "event",
 		"xp": 2
