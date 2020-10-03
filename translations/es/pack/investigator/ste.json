@@ -1,26 +1,32 @@
 [
     {
         "code": "60501",
-        "flavor": "\"I can hear it. Can it hear me?\"",
+        "flavor": "\"Yo puedo oírlo. ¿Me oye a mí?\"",
         "name": "Stella Clark",
-        "subname": "The Letter Carrier",
-        "text": "[reaction] After you fail a skill test: You may take an additional action during your turn this round. (Limit once per round.)\n[elder_sign] effect: +1. You may instead choose to automatically fail this skill test to heal 1 damage and 1 horror.",
-        "traits": "Chosen. Civic.",
-        "back_flavor": "Before Stella began working for the postal service in Arkham, she knew two things with certainty. First, her parents made a mistake when they called her their son and gave her a boy's name. Second, the house on the cliff in Kingsport whispered her true name - the name she chose for herself - late at night: \"Stella.\" Delivering the mail six days a week in all kinds of weather wasn't an easy job, but Stella loved knowing that she was helping people connect with one another. Then she started finding the letters. At the end of her route, there was always one extra envelope in her bag. It was always addressed to her. It was always postmarked from Kingsport. And it always contained a letter with one typed word: Stella.\"",
-        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Neither Rain nor Snow, 1 copy of Called by the Mists, 1 random basic weakness."
+        "subname": "La cartera",
+        "text": "[reaction] Después de que fracases en una prueba de habilidad: Puedes realizar una acción adicional durante tu turno en esta ronda. Límite de una vez por ronda.\nEfecto [elder_sign]: +1. En lugar de eso, puedes elegir fracasar automáticamente en esta prueba de habilidad para curarte 1 punto de daño y 1 punto de horror.",
+        "traits": "Elegido. Cívico.",
+        "back_flavor": "Antes de que Stella empezara a trabajar en el servicio postal de Arkham, había dos cosas que sabía con certeza: la primera, que sus padres habían cometido un error al considerarla su hijo y darle un nombre de chico; la segunda, que la casa sobre el acantilado de Kingsport susurraba por las noches su verdadero nombre, el nombre que había elegido para sí misma: Stella. Entregar el correo seis días a la semana pese al tiempo que hiciera no era un trabajo fácil, pero a Stella le encantaba saber que estaba ayudando a que las personas conectaran entre sí. Luego empezó a encontrar las cartas. Al final de su ruta, siempre había un sobre adicional en su bolsa. Siempre iba dirigido a ella. Siempre estaba franqueado en Kingsport. Y siempre contenía una carta con una única palabra mecanografíada: «Stella».",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Superviviente ([survivor]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): 3 copias de Ni la lluvia ni la nieve, 1 copia de Llamada de las nieblas, 1 Debilidad básica aleatoria."
     },
     {
         "code": "60502",
-        "flavor": "...nor gloom of night stays these couriers from the swift completion of their appointed rounds.",
-        "name": "Neither Rain nor Snow",
-        "text": "Stella Clark deck only.\nIf this skill test fails, cancel all effects of the failed test.",
-        "traits": "Innate. Developed."
+        "flavor": "…ni la oscuridad de la noche impide que estos mensajeros completen velozmente sus rutas designadas.",
+        "name": "Ni la lluvia ni la nieve",
+        "text": "Solo para el mazo de Stella Clark.\nSi esta prueba de habilidad fracasa, cancela todos los efectos de la prueba fracasada.",
+        "traits": "Innato. Desarrollado."
     },
     {
         "code": "60503",
-        "name": "Called by the Mists",
-        "text": "<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Omen."
+        "name": "Llamada de las nieblas",
+        "text": "<b>Revelación</b> - Pon Llamada de las nieblas en juego en tu zona de amenaza.\n<b>Obligado</b> - Después de que inicies una prueba de habilidad de dificultad 4 o más: Recibe 1 punto de daño.\n[action][action]: Descarta Llamada de las nieblas.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "60504",
+        "name": "Atiquifobia",
+        "text": "<b>Revelación</b> - Pon Atiquifobia en juego en tu zona de amenaza.\n<b>Obligado</b> - Después de que fracases en una prueba de habilidad: Recibe 1 punto de horror.",
+        "traits": "Locura."
     },
     {
         "code": "60504",
@@ -30,24 +36,59 @@
     },
     {
         "code": "60505",
-        "name": ".18 Derringer",
-        "text": "Uses (2 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer.",
-        "traits": "Item. Weapon. Firearm. Illicit.",
-        "slot": "Hand"
+        "name": "Derringer del .18",
+        "text": "Usos (2 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque. Si fracasas, coloca 1 munición sobre el Derringer del .18.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
     },
     {
         "code": "60506",
-        "name": "Grimm's Fairy Tales",
-        "text": "Uses (4 secrets).\n[reaction] After an investigator at your location fails a skill test by 2 or more, exhaust Grimm's Fairy Tales and spend 1 secret: Heal 1 horror from that investigator.",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "name": "Cuentos de hadas de los hermanos Grimm",
+        "text": "Usos (4 secretos).\n[reaction] Después de que un investigador que esté en tu Lugar fracase en una prueba de habilidad por 2 o más, agota los Cuentos de hadas de los hermanos Grimm y gasta 1 secreto: Cúrale 1 punto de horror a ese investigador.",
+        "traits": "Objeto. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "60507",
-        "name": "Old Keyring",
-        "text": "Uses (2 keys). If there are no keys on Old Keyring, discard it.\n[action]: <b>Investigate.</b> Your location gets -2 shroud for this investigation. If you succeed, remove 1 key from Old Keyring.",
-        "traits": "Item. Tool.",
-        "slot": "Hand"
+        "name": "Llavero viejo",
+        "text": "Usos (2 llaves). Si no hay llaves en el Llavero viejo, descártalo.\n[action]: <b>Investigar.</b> Tu Lugar recibe -2 al velo para esta investagación. Si tienes éxito, retira 1 llave del Llavero viejo.",
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
+    },
+    {
+        "code": "60508",
+        "name": "Abuelita Orne",
+        "subname": "Carroza severa",
+        "text": "Recibes +1 [willpower].\n[reaction] Cuando un investigador que esté en tu Lugar vaya a fracasar en una prueba de habilidad, agota a la Abuelita Orne: Ese investigador fracasa por 1 menos o 1 más.",
+        "traits": "Aliado.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "60509",
+        "flavor": "Y sus ojos tienen la apariencia de los de un demonio que está soñando…\n\nEdgar Allan Poe, El cuervo.",
+        "name": "Cuervo misterioso",
+        "text": "[fast] Descarta el Cuervo misterioso y recibe 1 punto de horror: Descubre 1 pista en tu Lugar.",
+        "traits": "Aliado. Criatura.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "60511",
+        "name": "Pendenciero",
+        "text": "[free] Gasta 1 recurso: Recibes +1 [combat] para esta prueba de habilidad.\n[free] Gasta 1 recurso: Recibes +1 [agility] para esta prueba de habilidad.",
+        "traits": "Talento."
+    },
+    {
+        "code": "60512",
+        "name": "Voluntad de supervivencia",
+        "text": "Rápido. Juego esta carta solo durante tu turno.\nNo reveles fichas de Caos para la siguiente prueba de habilidad que realices este turno.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60513",
+        "flavor": "Con esperanza o sin ella, lo único que puedes hacer es resistir.",
+        "name": "Una prueba de voluntad",
+        "text": "Rápido. Juega esta carta cuando un investigador que esté en tu Lugaar robe una carta de Traición que no sea de Debilidad.\nRealiza una prueba de [willpower] (3). Si tienes éxito, cancela el efecto «Revelación» de esa carta.",
+        "traits": "Espíritu."
     },
     {
         "code": "60508",
@@ -86,9 +127,25 @@
     },
     {
         "code": "60515",
-        "name": "Grit Your Teeth",
-        "text": "Fast. Play after you fail a skill test.\nYou get +1 to each of your skills for the remainder of the round.",
-        "traits": "Spirit."
+        "name": "Apretar los dientes",
+        "text": "Rápido. Juega esta carta después de que fracases en una prueba de habilidad.\nRecibes +1 a cada una de tus habilidades durante el resto de la ronda.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60520",
+        "flavor": "El señor Osito siempre le decía a Wendy que las cosas saldrían bien. Pero claro, el señor Osito era un oso de peluche, así que tampoco sabía gran cosa.",
+        "name": "Recuerdo querido",
+        "text": "<b>Obligado</b> - Cuando el Recuerdo querido sea derrotado por horror: Exílialo.",
+        "traits": "Objeto. Amuleto.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "60521",
+        "flavor": "El abrigo no era la opción más elegante, pero proporcionaba una sensación cálida y reconfortante gracias a su grosor.",
+        "name": "Abrigo de cuero",
+        "text": "<b>Obligado</b> - Cuando el Abrigo de cuero sea derrotado por daño: Exílialo.",
+        "traits": "Objeto. Protección.",
+        "slot": "Cuerpo"
     },
     {
         "code": "60520",
@@ -108,10 +165,36 @@
     },
     {
         "code": "60522",
-        "name": ".18 Derringer",
-        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack. If you fail, place 1 ammo on .18 Derringer and the next time you trigger this ability this round, you get an additional +1 [combat] for that attack.",
-        "traits": "Item. Weapon. Firearm. Illicit.",
-        "slot": "Hand"
+        "name": "Derringer del .18",
+        "text": "Usos (3 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque. Si fracasas, coloca 1 munición sobre el Derringer del .18 y la próxima vez que actives esta capacidad en esta ronda, recibes +1 [combat] adicional para ese ataque.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
+    },
+    {
+        "code": "60523",
+        "flavor": "Con esperanza o sin ella, lo único que puedes hacer es resistir.",
+        "name": "Una prueba de voluntad",
+        "text": "Rápido. Juega esta carta cuando un investigador que esté en tu Lugar robe una carta de Traición que no sea de Debilidad.\nCancela el efecto «Revelación» de esa carta. A continuación, realiza una prueba de [willpower] (3). Si fracasas, exilia Una prueba de voluntad.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "60524",
+        "name": "\"¡Mira lo que he encontrado\"",
+        "text": "Rápido. Juega esta carta después de que fracases en una prueba de habilidad por 3 o menos al investigar.\nDescubre 2 pistas en total entre tu Lugar y los Lugares conectados.",
+        "traits": "Fortuna."
+    },
+    {
+        "code": "60525",
+        "flavor": "La fortuna favorece a los inconscientes.",
+        "name": "Chiripa",
+        "text": "Rápido. Juega esta carta después de que fracases en una prueba de habilidad por 3 o menos durante un intento de evitar contra un Enemigo que no sea [[Élite]].\nColoca ese Enemigo en la parte inferior del mazo de Encuentros.",
+        "traits": "Fortuna."
+    },
+    {
+        "code": "60526",
+        "name": "Coraje inesperado",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba fracasa, devuelve Coraje inesperado a tu mano.",
+        "traits": "Innato. Desarrollado."
     },
     {
         "code": "60523",
@@ -141,11 +224,24 @@
     },
     {
         "code": "60527",
-        "name": "Granny Orne",
-        "subname": "Tough Old Bird",
-        "text": "You get +1 [willpower] and +1 [intellect].\n[reaction] When an investigator at your location would fail a skill test, exhaust Granny Orne: That investigator either gets +1 skill value or -1 skill value for that test.",
-        "traits": "Ally.",
-        "slot": "Ally"
+        "name": "Abuelita Orne",
+        "subname": "Carroza severa",
+        "text": "Recibes +1 [willpower] y +1 [intellect].\n[reaction] Cuando un investigador que esté en tu Lugar vaya a fracasar en una prueba de habilidad, agota a la Abuelita Orne: Ese investigador recibe +1 o -1 al valor de la habilidad para esa prueba.",
+        "traits": "Aliado.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "60528",
+        "name": "¡Qué suerte!",
+        "text": "Rápido. Juega esta carta cuando un investigador que esté en tu Lugar fuese a fracasar en una prueba de habilidad.\nRecibe +3 a su valor de habilidad para esa prueba. Ese investigador roba 1 carta.",
+        "traits": "Fortuna."
+    },
+    {
+        "code": "60529",
+        "name": "Motosierra",
+        "text": "Usos (3 suministros).\n[action] Gasta 1 suministro: <b>Combatir.</b> Recibes +2 [combat] e infliges +2 de daño para este ataque. Si este ataque fracasa, coloca 1 suministro sobre la Motosierra o bien inflige 1 punto de daño al Enemigo atacado.",
+        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo.",
+        "slot": "2 Manos"
     },
     {
         "code": "60528",
@@ -162,15 +258,15 @@
     },
     {
         "code": "60530",
-        "name": "Quick Learner",
-        "text": "Permanent.\nDuring or before your first action of each of your turns, each skill test you perform gets +1 difficulty.\nDuring or after your third action of each of your turns, each skill test you performed gets -1 difficulty.",
-        "traits": "Condition."
+        "name": "Espabilado",
+        "text": "Permanente.\nDurante o antes de tu primera acción de cada uno de tus turnos, cada prueba de habilidad que realices recibe +1 a su dificultad.\nDurante o después de la tercera acción de cada uno de tus turnos, cada prueba de habilidad que realices recibe -1 a su dificultad.",
+        "traits": "Estado."
     },
     {
         "code": "60531",
-        "flavor": "Haven't you seen this before?",
+        "flavor": "¿No habías visto esto antes?",
         "name": "Déjà Vu",
-        "text": "Permanent.\nIn between two scenarios of a campaign, reduce the experience cost to repurchase up to 3 cards that you exiled during the last scenario by 1 each.",
-        "traits": "Talent. Cursed."
+        "text": "Permanente.\nEntre ds escenarios de una campaña, reduce el coste de experiencia para volver a adquirir hasta 3 cartas que hayas exiliado durante el último escenario en 1 cada una.",
+        "traits": "Talento. Maldito."
     }
 ]
