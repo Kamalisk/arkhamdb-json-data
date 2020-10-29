@@ -411,12 +411,13 @@
     "type_code": "treachery"
   },
 	{	
-		"back_flavor": "Gloria Goldberg flavour placeholder.",
-		"back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XXX, XXX, 1 random basic weakness.",
+		"back_flavor": "Nightmares and apocalyptic visions have plagued novelist Gloria Goldberg her entire life. Although she learned to exorcise her terrors onto the page, she has never revealed the inspiration for her weird tales, not even to fellow author Jamie Galbraith. One day, she is struck by a vision of Jamie begging her to help finish what he started. Moments later, she receives word of his sudden death. As Gloria reads Jamie's unfinished book, the story takes hold of her, and the words on the page begin to bleed into reality.",
+		"back_text": "<b>Deck Size</b>: 30.\n<b>Secondary Class Choice</b>: At deck creation, choose Guardian ([guardian]), Seeker ([seeker]), or Rogue ([rogue]).\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness.",
 		"code": "98019",
 		"deck_limit": 1,
 		"deck_options": [
-			{ "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } }
+			{ "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } },
+			{"name":"Secondary Class", "faction_select":["guardian","seeker","rogue"], "level":{"min":0, "max":1}, "type": ["event","skill"], "limit": 10 }
 		],
 		"deck_requirements": "size:30, card:98020, card:98021, random:subtype:basicweakness",
 		"double_sided": true,
