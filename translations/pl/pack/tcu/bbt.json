@@ -1,23 +1,65 @@
 [
     {
+        "code": "05313",
+        "name": "Święte lustro",
+        "text": "Limit 1 na talię.\n<b>Wymuszony</b> - Po tym, jak Święte lustro wejdzie do gry: przeszukaj twoje powiązane karty w poszukiwaniu 3 kopii Kojącej melodii. Dodaj 1 z nich na twoją rękę I wtasuj 2 pozostałe do twojej talii. Kiedy Święte lustro opuszcza grę, znajdź każdą z danych kopi Kojącej melodii (<i>nawet jeśli są poza grą</i>) i usuń je z gry.",
+        "traits": "Przedmiot. Relikwia. Okultyzm. Błogosławiony.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "05314",
+        "flavor": "...Et leur chanson se mêle au clair de lune,\nAu calme clair de lune triste et beau...\n- Paul Verlaine, \"Pełnia miesięczna\"",
+        "name": "Kojąca melodia",
+        "text": "Powiązana (Święte lustro).\nWylecz łącznie 2 obrażenia lub 2 punkty przerażenia (lub dowolną ich kombinację o sumie 2) z dowolnych badaczy i/lub atutów z cechą [[Sprzymierzeniec]] w twojej lokalizacji. Dobierz 1 kartę.",
+        "traits": "Zaklęcie."
+    },
+    {
+        "code": "05315",
+        "name": "\"Bywało gorzej…\"",
+        "text": "Szybka. Zagraj, kiedy otrzymujesz obrażenia i/lub punkty przerażenia. \nAnuluj maksymalnie 2 z właśnie otrzymanych obrażeń i/lub punktów przerażenia. Następnie zyskujesz taką samą liczbę żetonów zasobów.",
+        "traits": "Duch."
+    },
+    {
+
         "code": "05316",
-        "name": "Occult Lexicon",
-        "text": "Limit 1 per deck.\n<b>Forced</b> - After Occult Lexicon enters play: Search your bonded cards for 3 copies of Blood-Rite. Add 1 to your hand and shuffle the other 2 into your deck. When Occult Lexicon leaves play, find each of those copies of Blood-Rite (even if they are out of play) and remove them from the game.",
-        "traits": "Item. Tome. Occult.",
-        "slot": "Hand"
+        "name": "Okultystyczny leksykon",
+        "text": "Limit 1 na talię.\n<b>Wymuszony</b> - Po tym, jak Okultystyczny leksykon wejdzie do gry: przeszukaj twoje powiązane karty w poszukiwaniu 3 kopii Rytuału krwi. Dodaj 1 z nich na twoją rękę i wtasuj 2 pozostałe do twojej talii. Kiedy Okultystyczny leksykon opuszcza grę, znajdź każdą z danych kopii Rytuału krwi (nawet jeśli są poza grą) i usuń je z gry.",
+        "traits": "Przedmiot. Księga. Okultyzm.",
+        "slot": "Ręka"
     },
     {
         "code": "05317",
-        "name": "Blood-Rite",
-        "text": "Bonded (Occult Lexicon).\nDraw 2 cards. Discard up to 2 cards from your hand. For each card thusly discarded, you may either gain 1 resource, or spend 1 resource to deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity.",
-        "traits": "Spell."
+        "name": "Rytuał krwi",
+        "text": "Powiązany (Okultystyczny leksykon).\nDobierz 2 karty. Odrzuć maksymalnie 2 karty z twojej ręki. Za każdą odrzuconą w ten sposób kartę możesz zyskać 1 żeton zasobu albo wydać 1 żeton zasobu, aby zadać 1 obrażenie wrogowi w twojej lokalizacji. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Zaklęcie."
+    },
+    {
+        "code": "05318",
+        "name": "Przebłysk nieprawdopodobnego",
+        "text": "Wtasuj do twojej talii dowolną liczbę kart niebędących osłabieniami z twojej ręki. Dobieraj karty, dopóki nie osiągniesz maksymalnej liczby kart na twojej ręce. Usuń przebłysk nieprawdopodobnego z gry.",
+        "traits": "Informacja."
     },
     {
         "code": "05319",
-        "flavor": "\"Yeah, yeah, sure. That's what you said the last 3 times.\"",
-        "name": "\"You owe me one!\"",
-        "text": "Look at another investigator's hand. You may play a non-weakness card in that investigator's hand, under your control. If you do, you and that investigator each draw 1 card.",
-        "traits": "Favor. Gambit."
+        "flavor": "\"Tak, tak, jasne. Mówiłeś to samo ostatnie 3 razy.\"",
+        "name": "\"Masz u mnie dług!\"",
+        "text": "Podejrzyj rękę innego badacza. Możesz zagrać pod swoją kontrolą kartę niebędącą osłabieniem z ręki danego badacza. Jeśli to zrobisz, ty i dany badacz dobieracie po 1 karcie.",
+        "traits": "Przysługa. Gambit."
+    },
+    {
+        "code": "05320",
+        "flavor": "Harpia woła, \"'Już czas, już czas.\"\n- William Shakespeare, Makbet",
+        "name": "Podwójmy Trudy",
+        "text": "Wyjątkowa.\n[reaction] Po tym, jak zagrasz wydarzenie, wyczerp Podwójmy Trudy: zagraj dane wydarzenie ponownie, jakby znajdowało się na twojej ręce.",
+        "traits": "Rytuał.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "05321",
+        "name": "Wither",
+        "text": "[action]: <b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] for this attack. If a [skull], [cultist], [tablet], or [elder_thing] symbol is revealed during this attack, the attacked enemy gets -1 fight, -1 health, and -1 evade for the remainder of the turn (to a minimum of 1).",
+        "traits": "Spell.",
+        "slot": "Arcane"
     },
     {
         "code": "05322",
@@ -27,9 +69,15 @@
         "slot": "Arcane"
     },
     {
+        "code": "05323",
+        "name": "Przynęta",
+        "text": "Dołącz do swojej lokalizacji albo do sąsiadującej lokalizacji.\nPodczas fazy wrogów, During the enemy phase, each enemy that moves does so along the shortest path toward the attached location, instead of to where it would normally move.\n <b>Forced</b> - While attached, at the end of the round: Discard Lure. ",
+        "traits": "Sztuczka."
+    },
+    {
         "code": "05324",
-        "name": "Eucatastrophe",
-        "text": "Fast. Play when you reveal a chaos token that would reduce your skill value to 0 during a skill test (including the [auto_fail] token).\nCancel that token and treat it as an [elder_sign] token, instead.",
-        "traits": "Fortune. Blessed."
+        "name": "Szczęśliwe zakończenie",
+        "text": "Szybka. Zagraj, kiedy odkryłeś żeton chaosu, który podczas testu umiejętności miałby obniżyć wartość twojej umiejętności do 0 (łącznie z żetonem [auto_fail]).\nAnuluj dany żeton i zamiast tego traktuj go jak żeton [elder_sign].",
+        "traits": "Los. Błogosłowiony."
     }
 ]
