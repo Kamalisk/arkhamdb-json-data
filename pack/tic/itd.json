@@ -13,16 +13,16 @@
 		"skill_willpower": 1,
 		"slot": "Accessory",
 		"text": "You may take an additional action during your turn, which can only be used to <b>engage</b>.",
-	    "traits": "Item. Tool.",
+		"traits": "Item. Tool.",
 		"type_code": "asset",
-	    "xp": 0
+		"xp": 0
 	},
 	{
 		"code": "07109",
 		"cost": 1,
 		"deck_limit": 2,
 		"faction_code": "guardian",
-		"flavor": "Lita narrowed her eyes and tightened her grip. They wouldn't go away. Not this time. Not ever again.",
+		"flavor": "Lita narrowed her eyes and tightened her grip. They wouldn't get away. Not this time. Not ever again.",
 		"illustrator": "Alexandr Elichev",
 		"name": "Righteous Hunt",
 		"pack_code": "itd",
@@ -46,9 +46,9 @@
 		"permanent": true,
 		"position": 110,
 		"quantity": 1,
-		"type_code": "asset",
+		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] After an investigator at any location performs the \"reveal chaos token\" step of a skill test, exhaust Sacred Covenant: Return any number of [bless] tokens revealed during this test to the chaos bag, ignoring their modifiers for this test.",
 		"traits": "Covenant. Blessed.",
-		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] After an investigator at any location performs the \"reveal chaos token\" step of a skill test, exhaust Scred Covenant: Return any number of [bless] tokens revealed during this test to the chaos bag, ignoring their modifiers for this test.",
+		"type_code": "asset",
 		"xp": 2
 	},
 	{
@@ -85,8 +85,8 @@
 		"skill_combat": 1,
 		"skill_intellect": 1,
 		"text": "As an additional cost to play Stirring Up Trouble, add [curse] tokens to the chaos bag equal to your location's shroud value.\nDiscover 2 clues at your location.",
-		"type_code": "event",
 		"traits": "Insight. Cursed.",
+		"type_code": "event",
 		"xp": 1
 	},
 	{
@@ -99,7 +99,7 @@
 		"pack_code": "itd",
 		"permanent": true,
 		"position": 113,
-		"quantity": 2,
+		"quantity": 1,
 		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",
 		"traits": "Covenant. Cursed.",
 		"type_code": "asset",
@@ -149,7 +149,7 @@
 		"pack_code": "itd",
 		"permanent": true,
 		"position": 116,
-		"quantity": 2,
+		"quantity": 1,
 		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust False Covenant: Cancel that chaos token, return it to the token pool, and reveal another token.",
 		"traits": "Covenant. Cursed.",
 		"type_code": "asset",
@@ -201,7 +201,7 @@
 		"quantity": 2,
 		"skill_agility": 1,
 		"slot": "Arcane",
-		"text": "Uses (3 charges).\n[Action] Spend 1 charge: <b>Evade.<b/> This evasion uses [willpower] instead of [agility]. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. If a [curse] token is revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",
+		"text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Evade.<b/> This evasion uses [willpower] instead of [agility]. If you succeed and the evaded enemy is non-[[Elite]], you may move that enemy to a connecting location. If a [curse] token is revealed during this evasion attempt, you may move to a connecting location or place 1 charge on Shroud of Shadows.",
 		"traits": "Spell. Cursed.",
 		"type_code": "asset",
 		"xp": 0
@@ -217,7 +217,7 @@
 		"permanent": true,
 		"position": 120,
 		"quantity": 1,
-		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] After an investigator at your location performs the \"reveal the chaos token\" step of a skill test, if both a [bless] and a [curse] token were revealed during that test, exhaust Paradoxical Covenant: This test automatically succeeds. <i>(Remove each [bless] and [curse] token revealed from the chaos bag after this test ends.)</i>",
+		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] After an investigator at your location performs the \"reveal the chaos token\" step of a skill test, if both a [bless] token and a [curse] token were revealed during that test, exhaust Paradoxical Covenant: This test automatically succeeds. <i>(Remove each [bless] and [curse] token revealed from the chaos bag after this test ends.)</i>",
 		"traits": "Covenant. Blessed. Cursed.",
 		"type_code": "asset",
 		"xp": 2
@@ -249,7 +249,7 @@
 		"pack_code": "itd",
 		"permanent": true,
 		"position": 122,
-		"quantity": 2,
+		"quantity": 1,
 		"text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",
 		"traits": "Covenant. Blessed.",
 		"type_code": "asset",
