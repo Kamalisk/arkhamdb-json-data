@@ -1,126 +1,276 @@
 [
     {
         "code": "07001",
-        "flavor": "\"The Lord watches over my path. I am armored in faith.\"",
-        "name": "Sister Mary",
-        "subname": "The Nun",
-        "text": "During setup, add 2 [bless] tokens to the chaos bag.\n[reaction] When the round ends: Add 1 [bless] token to the chaos bag.\n[elder_sign] effect: +1. If you succeed, add 1 [bless] token to the chaos bag.",
-        "traits": "Believer. Blessed.",
-        "back_flavor": "The more Sister Mary learns of the strange and arcane forces that sometimes manifest in this world, the more certain she is that she has been set upon a path to ward off these forces and protect the innocent wherever possible. Armed only with the trappings of her church and an unshakeable faith, Sister Mary seeks out every supernatural threat she hears of through her fellow priests and nuns. Other members of her church may dismiss such things as medieval nonsense, but Sister Mary knows the real evils that exist in the shadows - and she knows that if such evils are left untouched, they will bring ruin and horror to all of creation.",
-        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, Mystic cards ([mystic]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Guardian Angel, Crisis of Faith, 1 random basic weakness."
+        "flavor": "El Señor vela en mi camino. Estoy protegida por la fe.",
+        "name": "Hermana Mary",
+        "subname": "La monja",
+        "text": "Durante la preparación, añade 2 fichas [bless] a la bolsa de caos.\n[reaction] Cuando acabe la ronda: Añade 1 ficha [bless] a la bolsa de caos.\nEfecto [elder_sign]: +1. Si tienes éxito, añade 1 ficha [bless] a la bolsa de caos.",
+        "traits": "Creyente. Bendecido.",
+        "back_flavor": "Cuantas más cosas descubre la hermana Mary sobre las fuerzas extrañas y arcanas que se manifiestan a veces en este mundo, más segura está de que su destino es seguir un camino para detener a esas fuerzas y proteger a los inocentes donde sea posible. Armada únicamente con los símbolos de su iglesia y una fe inquebrantable, la hermana Mary busca todas las amenazas sobrenaturales de las que tiene noticias a través de otras monjas o sacerdotes. Hay miembros de su iglesia que consideran esas cosas simples supercherías medievales, pero la hermana Mary conoce el mal verdadero que existe en las sombras; y sabe que, si esos males no se atajan, traerán la perdición y el horror a toda la creación.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5, cartas Místico ([mystic]) de nivel 0-2.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Ángel guardián, Crisis de fe, 1 Debilidad básica aleatoria."
     },
     {
         "code": "07002",
         "name": "Amanda Sharpe",
-        "subname": "The Student",
-        "text": "<b>Forced</b> - At the start of the investigation phase: Draw 1 card. Discard the card beneath Amanda Sharpe. Choose a card from your hand and place it beneath her.\n[reaction] At the start of a skill test you are performing: Commit the card beneath Amanda Sharpe, if able. Do not discard it when the test ends.\n[elder_sign] effect: +0. For this test, you may double the number of skill icons on the card beneath Amanda Sharpe.",
-        "traits": "Miskatonic. Scholar",
-        "back_flavor": "Amanda Sharpe was on track to become one of Miskatonic University's most accomplished graduates. However, ever since she saw a strange painting on an enormous creature's emergence from the depths of the ocean, her classwork has suffered. Her dreams are overwhelmed by images of a vast submerged city and whispers in a language she does not understand. She remains dedicated to her studies, but her goal is no longer to graduate at the top of her class; rather, she seeks to discover the meaning behind the occult secrets concealed between the lines of reality.",
-        "back_text": "<b>Deck size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, [[Practiced]] skills level 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Obscure Studies, Whispers from the Deep, 1 random basic weakness."
+        "subname": "La estudiante",
+        "text": "<b>Obligado</b> - Al comienzo de la fase de Investigación: Roba 1 carta. Descartala carta que hay bajo Amanda Sharpe. Elige una carta de tu mano y colócala bajo Amanda Sharpe.\n[reaction] Al comienzo de una prueba de habilidad que estés realizando: Asigna la carta que hay bajo Amanda Sharpe si es posible. No la descartes cuando acabe la prueba.\nEfecto [elder_sign]: +0. Para esta prueba, puedes duplicar la cantidad de iconos de habilidad que tenga la carta que hay bajo Amanda Sharpe.",
+        "traits": "Miskatonic. Erudito.",
+        "back_flavor": "Amanda Sharpe iba de camino de convertirse en una de las más ilustres graduadas de la Universidad Miskatonic. Sin embargo, desde que vio un extraño cuadro que mostraba el surgimiento de una enorme criatura desde las profundidades del océano, sus estudios se han resentido. En sus sueños la ahogan imágenes de una gigantesca ciudad sumergida y susurros en un idioma que no entiende. Sigue dedicada a sus clases, pero su objetivo ya no es graduarse como la primera de su promoción; en lugar de eso, quiere descubrir el significado que hay tras los secretos ocultistas que se esconden entre las líneas de la realidad.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Buscador ([seeker]) de nivel 0-5, cartas neutrales de nivel 0-5, Habilidades [[Experimentado]] de nivel 0-3.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Estudios de los recóndito, Susurros desde las profundidades, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "07003",
+        "name": "Trish Scarborough",
+        "subname": "La espía",
+        "text": "[reaction] Después de que descubras 1 o más pistas en un Lugar con un Enemigo: Descubre 1 pista adicional en ese Lugar o bien evita automáticamente a ese Enemigo. Límite de una vez por ronda.\nEfecto [elder_sign]: +2. Si es durante una investigación, puedes elegir cualquier Lugar revelado; ahora estás investigando como estuvieras en ese Lugar en lugar del original.",
+        "traits": "Agencia. Detective.",
+        "back_flavor": "Trish siempre destacó tanto física como mentalmente, pues su férrea voluntad para alcanzar la excelencia y su intrépida disposición constituyen una combinación imbatible. Gracias a su impresionante historial académico y deportivo, todo el mundo esperaba que aspirase a un puesto de éxito. Sin embargo, Trish aceptó un puesto en una empresa de código de comercio. Cuando el asombro inicial ante un trabajo tan humilde acabó por pasar, la excepcional Trish Scarborough quedó en el olvido. Esto era lo más conveniente para Trish, pues hacía que fuera más difícil que alguien descubriera la verdad: su trabajo era una tapadera para su verdadero puesto como espía para la Cámara Negra, la agencia encargada del descifrado de códigos.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Rebelde ([rogue]) de nivel 0-5, cartas neutrales de nivel 0-5, cartas Buscador ([seeker]) de nivel 0-2.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): En las sombras, Agentes encubiertos, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "07004",
+        "flavor": "¿Queieres ver magia de verdad?",
+        "name": "Dexter Drake",
+        "subname": "El mago",
+        "text": "[free] Durante tu turno, descarta un Apoyo que controles: Juega un Apoyo que tenga un nombre distinto desde tu mano, reduciendo su coste en 1. Límite de una vez por ronda.\nEfecto [elder_sign]: +2. Puedes devolver un Apoyo de tu zona de juego a tu mano. A continuación, roba 1 carta.",
+        "traits": "Hechicero. Veterano.",
+        "back_flavor": "Dexter Drake volvió de la Gran Guerra y se convirtió en un mago de éxito que cautivaba al público con sus elaboradas ilusiones y sus ingeniosos trucos. Pese a su éxito meteórico, Dexter ansiaba descubrir magia de verdad. Le intrigaban los trozos quemados y rotos de escritos ocultistas que había encontrado durante la guerra: fragmentos del infame Necronomicón. Dexter empleó su riqueza para buscar la verdad sobre este antiguo saber, y lo que encontró lo horrorizó. Sabe que podría ser la única persona del mundo con la capacidad de evitar que el mal consuma el mundo entero.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Místico ([mystic]) de nivel 0-5, cartas Rebelde ([rogue]) de nivel 0-2, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Maestría escénica, Retazos de ocultismo, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "07005",
+        "flavor": "Dejad vuestros miedos en el puerto, amigos.",
+        "name": "Silas Marsh",
+        "subname": "El marinero",
+        "text": "[reaction] Después de que reveles una ficha de Caos durante una prueba de habilidad que estés realizando: Devuelve a tu mano una Habilidad que hayas asignado a esta prueba. Límite de 1 vez por ronda.\nEfecto [elder_sign]: +0. Puedes asignar a esta prueba una Habilidad de tu pila de descartes. Después de que termine esta prueba, devuelve esa Habilidad a tu mano en lugar de descartarla.",
+        "traits": "Vagabundo.",
+        "back_flavor": "Silas Marsh se enamoró del mar desde que tuvo edad suficiente para andar chapoteando por las aguas salobres poco profundas. Hacerse marinero fue la decisión más fácil de su vida, y su recia constitución y excelente percepción del tiempo le han dado una buena reputación a bordo de cualquier embarcación. Solo hay una cosa que preocupa a Silas: no deja de soñar una y otra vez con inquietantes ciudades ocultas bajo las olas y habitadas por extrañas criaturas. Estos sueños lo llaman y agitan algo en lo más profundo de su interior que pensaba que habñia dejado atrás en su ciudad natal: Innsmouth.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Superviviente ([survivor]) de nivel 0-5, cartas neutrales de nivel 0-5, Habilidades [[Innato]] de nivel 0-2.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Arpón marino, Red de Silas, Canto de sirena, 1 Debilidad básica aleatoria."
     },
     {
         "code": "07006",
-        "name": "Guardian Angel",
-        "text": "Sister Mary deck only.\n<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Innate."
+        "name": "Ángel guardián",
+        "text": "Solo para el mazo de la Hermana Mary.\nPuede asignarse al Ángel guardián daño infligido a otros investigadores que estén en tu Lugar y en Lugares conectados.\n[reaction] Cuando se asigne cualquier cantidad de daño al Ángel guardián: Añade esa misma cantidad de fichas [bless] a la bolsa del caos.",
+        "traits": "Innato."
     },
     {
         "code": "07007",
-        "name": "Crisis of Faith",
-        "text": "<b>Revelation</b> - For each [bless] token in the chaos bag, you must either replace it with a [curse] token or take 1 horror.",
-        "traits": "Madness."
+        "name": "Crisis de fe",
+        "text": "<b>Revelación<b> - Por cada ficha [bless] que haya en la bolsa de caos, debe sustituirla por una ficha [curse] o bien recibir 1 punto de horror.",
+        "traits": "Locura."
     },
     {
         "code": "07008",
-        "name": "Obscure Studies",
-        "text": "Amanda Sharpe deck only.\n<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Innate."
+        "name": "Estudios de lo recóndito",
+        "text": "Solo para el mazo de Amanda Sharpe.\nRápido. Juega esta carta cuando inicies una prueba de habilidad.\nDevuelve a tu mano la carta que haya bajo Amanda Sharpe y coloca Estudios de lo recóndito bajo ella.",
+        "traits": "Innato."
     },
     {
         "code": "07009",
-        "name": "Whispers from the Deep",
-        "text": "<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Madness."
+        "name": "Susurros desde las profundidades",
+        "text": "Los iconos de esta Habilidad se restan de tu valor de habilidad en lugar de sumarse.\n<b>Obligado</b> - Al elegir una carta para colocar bajo Amanda Sharpe, si los Susurros desde las profundidades están en tu mano: Debes elegirlos.",
+        "traits": "Locura."
+    },
+    {
+        "code": "07010",
+        "name": "En las sombras",
+        "text": "Solo para el mazo de Trish Scarborough.\nRápido. Juega esta carta después de que comience tu turno.\nDeja de estar enfrentado a todos los Enemigos enfrentados a ti. Hasta el final de la ronda, los Enemigos no pueden enfrentarse a ti y tú no puedes infligir daño a los Enemigos.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "07011",
+        "name": "Agentes encubiertos",
+        "text": "<b>Presa</b> - Solo Trish Scarborough.\nCazador.\nMientras los agentes encubiertos estén enfrentados a ti, no puedes descubrir pistas excepto investigando.\n<b>Obligado</b> - Después de que los Agentes encubiertos sean evitados: Descártalos.",
+        "traits": "Humanoide. Sectario."
+    },
+    {
+        "code": "07012",
+        "name": "Maestría escénica",
+        "text": "Solo para el mazo de Dexter Drake.\n[reaction] Después de que un Apoyo entre en juego bajo tu control: Hasta el final de la ronda, recibes +2 a cada una de tus habilidades al resolver una capacidad activada de ese Apoyo.",
+        "traits": "Talento."
+    },
+    {
+        "code": "07013",
+        "name": "Retazos de ocultismo",
+        "text": "Los Retazos de ocultismo no se pueden jugar usando una acción de jugar.\nMientras los Retazos de ocultismo estén en tu mano, recibes -2 [willpower].\nMientras los Retazos de ocultismo estén en juego, recibes -1 [willpower].",
+        "traits": "Objeto."
+    },
+    {
+        "code": "07014",
+        "name": "Arpón marino",
+        "text": "Solo para el mazo de Silas Marsh.\n[action]: <b>Combatir.</b> Recibes +1 [combat] para este ataque. Si asignaste 1 o más Habilidades a esta prueba de habilidad, este ataque inflige +1 de daño. Cuando termine esta prueba de habilidad, puedes devolver a tu mano el Arpón marino para devolver a tu mano todas tus Habilidades asignadas en lugar de descartarlas.",
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "07015",
+        "name": "Red de Silas",
+        "text": "Solo para el mazo de Silas Marsh.\n[action]: <b>Evitar.</b> Recibes +1 [agility] para este intento de evitar. Si tienes éxito y asignaste 1 o más Habilidades a esta prueba de habilidad, puedes evitar automáticamente a otro Enemigo enfrentado a ti. Cuando termine esta prueba de habilidad, puedes devolver a tu mano la Red de Silas para devolver a tu mano todas las Habilidades asignadas en lugar de descartarlas.",
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
+    },
+    {
+        "code": "07016",
+        "name": "Canto de sirena",
+        "text": "<b>Revelación</b> - Pon el Canto de Sirena en juego en tu zona de amenaza.\nComo coste adicional para asignar 1 o más cartas a una prueba de habilidad, debes pagar 1 recurso por cada icono de habilidad que coincida con el tipo de habilidad de la prueba que tengas esas cartas.\n[action][action]: Descarta el Canto de sirena.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "07017",
+        "name": "Libro de salmos",
+        "text": "Usos (4 secretos).\n[action] Gasta 1 secreto: Cura 1 punto de horror a un investigador que esté en tu Lugar. Añade 2 fichas [bless] a la bolsa del caos.",
+        "traits": "Objeto. Tomo. Bendecido.",
+        "slot": "Mano"
     },
     {
         "code": "07018",
-        "name": "Blessed Blade",
-        "text": "[action] If Blessed Blade is ready: <b>Fight.</b> You get +1 [combat] for this attack. If a [bless] or [elder_sign] token is revealed during this attack, this attack deals +1 damage. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 1 [bless] token to the chaos bag.",
-        "traits": "Item. Weapon. Melee. Blessed.",
-        "slot": "Hand"
+        "name": "Hoja bendecida",
+        "text": "[action] Si la Hoja bendecida está preparada: <b>Combatir.</b> Recibes +1 [combat] para este ataque. Si es revelada una ficha [bless] o [elder_sign] durante este ataque, este ataque inflige +1 de daño. Antes de revelar fichas de Caos para este ataque, puedes agotar la Hoja bendecida para añadir 1 ficha [bless] a la bolsa de caos.",
+        "traits": "Objeto. Arma. Cuerpo a cuerpo. Bendecido.",
+        "slot": "Mano"
     },
     {
         "code": "07019",
-        "name": "Rite of Sanctification",
-        "text": "Seal (up to 5 [bless]). If Rite of Sanctification has no tokens sealed on it, discard it.\n[reaction] When an investigator at your location plays a card, exhaust Rite of Sanctification and release a chaos token sealed on it: Reduce the cost of that card by 2.",
-        "traits": "Ritual. Blessed.",
-        "slot": "Arcane"
+        "name": "Rito de santificación",
+        "text": "Sello (hasta 5 [bless]). Si el rito de santificación no tiene fichas selladas en él, descártalo.\n[reaction] Cuando un investigador que esté en tu Lugar juegue una carta, agota el Rito de santificación y libera una ficha de Caos sellada en él: Reduce en 2 el coste de esa carta.",
+        "traits": "Ritaul. Bendecido.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "07020",
+        "name": "La mano del destino",
+        "text": "Rápido. Juega esta carta cuando un Enemigo ataque a un investigador que esté en tu Lugar.\nCancela ese ataque. A continuación, añade a la bolsa de caos una cantidad de fichas [bless] igual a los valores combinados de daó y horror totales del Enemigo atacante.",
+        "traits": "Hechizo. Bendecido."
+    },
+    {
+        "code": "07021",
+        "name": "Código criptográfico",
+        "text": "Usos (3 secretos).\n[free] Agota el Código criptográfico y gasta 1 secreto: <b>Investigar.</b> Tu Lugar recibe +1 a velo para esta investigación.\n[action] Agota el Código criptográfico y gasta 1 secreto: <b>Investigar.</b> Tu Lugar recibe -2 a velor para esta investigación.",
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
     },
     {
         "code": "07022",
-        "name": "Cryptic Grimoire",
-        "subname": "Untranslated",
-        "text": "[action]: Add 1 [curse] token to the chaos bag.\n[action] If there are 10 [curse] tokens in the chaos bag, discard Cryptic Grimoire: Record in your Campaign Log that \"you have translated the grimoire.\" Replace 5 [curse] tokens in the chaos bag with 5 [bless] tokens.",
-        "traits": "Item. Tome. Occult.",
-        "slot": "Hand"
+        "name": "Grimorio críptico",
+        "subname": "Sin traducir",
+        "text": "[action]: Añade 1 ficha [curse] a la bolsa de Caos.\n[action] Si hay 10 fichas [curse] en la bolsa de caos, descarta el Grimorio críptico: Anota en el registro de campaña que «los investigadores han traducido el grimorio». Sustituye 5 fichas [curse] de la bolsa de caos por 5 fichas [bless].",
+        "traits": "Objeto. Tomo. Ocultismo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "07023",
+        "name": "Conocimiento profundo",
+        "text": "Como coste adicional para jugar el Conocimiento profundo, añade 2 fichas [curse] a la bolsa de Caos.\nLos investigadores que estén en tu Lugar roban un total combinado de 3 cartas <i>(tú decides cuántas cartas roba cada investigador)</i>.",
+        "traits": "Inspiración. Maldito."
+    },
+    {
+        "code": "07024",
+        "name": "Plan de acción",
+        "text": "Si esta prueba de habilidad tiene lugar durante o antes de la primera acción de este turno, el Plan de acción obtiene [willpower][agility].\nSi esta prueba de habilidad tiene lugar entre la primera y tercera acciones de este turno, roba 1 carta si tiene éxito.\nSi esta prueba de habilidad tiene lugar durante o después de la tercera acción de este turno, el Plan de acción obtiene [combat][intellect].",
+        "traits": "Experimentado."
+    },
+    {
+        "code": "07025",
+        "name": "Automática del .25",
+        "text": "Rápida. Usos (4 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Si el Enemigo atacado está agotado, recibes +2 [combat] e infliges +1 de daño para este ataque.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
+    },
+    {
+        "code": "07026",
+        "name": "Ritual oscuro",
+        "text": "Sello (hasta 5 [curse]).\n<b>Obligado</b> - Al final de la fase de Mitos: Debes gastar 1 recurso o bien descartar el Ritual oscuro.",
+        "traits": "Ritual. Maldito.",
+        "slot": "Arcano"
     },
     {
         "code": "07027",
-        "flavor": "Now you see me...",
-        "name": "Obfuscation",
-        "text": "Fast. Uses (3 charges).\n[reaction] When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "flavor": "Ahora me ves…",
+        "name": "Ofuscación",
+        "text": "Rápido. Usos (3 cargas).\n[reaction] Cuando un Enemigo realice un ataque de oportunidad contra ti, gasta 1 carga: Cancela ese ataque.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
     },
     {
         "code": "07028",
-        "name": "Faustian Bargain",
-        "text": "As an additional cost to play Faustian Bargain, add 2 [curse] tokens to the chaos bag.\nInvestigators at your location gain a total of 5 resources, distributed as you wish.",
-        "traits": "Pact. Cursed."
+        "name": "Pacto fáustico",
+        "text": "Como coste adicional para jugar el Pacto fáustico, añade 2 fichas [curse] a la bolsa de caos.\nLos investigadores que estén en tu Lugar reciben un total de 5 recursos, distribuidos como quieras.",
+        "traits": "Pacto. Maldito."
     },
     {
         "code": "07029",
-        "name": "Sword Cane",
-        "text": "Playing Sword Cane does not provoke attacks of opportunity.\n[reaction] After Sword Cane enters play: Immediately trigger its \"[action]\" ability without paying its cost.\n[action] Exhaust Sword Cane: <b>Fight</b>/<b>Evade.</b> You may use your [willpower] in place of your [combat] or [agility] for this attack or evasion attempt.",
-        "traits": "Item. Relic. Weapon. Melee.",
-        "slot": "Hand"
+        "name": "Bastón estoque",
+        "text": "Jugar el Bastón estoque no provoca ataques de oportunidad.\n[reaction] Después de que el Bastón estoque entre en juego: Activa inmediatamente su «capacidad [action]» sin pagar su coste.\n[action] Agota el Bastón estoque: <b>Combatir/Evitar.</b> Puedes usar tu [willpower] en lugar de tu [combat] o tu [agility] para esta ataque o intento de evitar.",
+        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "07030",
-        "name": "Tides of Fate",
-        "text": "Fast. Play during any [fast] window, or at the start of the round.\nReplace all [curse] tokens in the chaos bag with an equal number of [bless] tokens. At the end of the round, replace all [bless] tokens in the chaos bag with an equal number of [curse] tokens.",
-        "traits": "Spell. Blessed."
+        "name": "Mareas del destino",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free], o al comienzo de la ronda.\nSustituye todas las fichas [curse] que haya en la bolsa de caos por esa misma cantidad de fichas [bless]. Al final de la ronda, sustituye todas las fichas [bless] que haya en la bolsa de caos por esa misma cantidad de fichas [curse].",
+        "traits": "Hechizo. Bendecido."
     },
     {
         "code": "07031",
-        "name": "Ward of Radiance",
-        "text": "Fast. Play when an investigator at your location draws a non-weakness treachery card.\nReveal 5 random chaos tokens from the chaos bag\nIf a [bless] or [elder_sign] token is revealed, cancel that treachery card's revelation effect.",
-        "traits": "Insight. Blessed."
+        "name": "Salvaguardia radiante",
+        "text": "Rápido. Juega esta carta cuando un investigador que esté en tu Lugar robe una carta de Traición que no sea de Debilidad.\nRevela 5 fichas de Caos aleatorias de la bolsa de caos. Si es revelada una ficha [bless] o [elder_sign], cancela el efecto de revelación de esa carta de Traición.",
+        "traits": "Inspiración. Bendecido."
     },
     {
         "code": "07032",
-        "name": "Promise of Power",
-        "text": "After you commit Promise of Power to a skill test, add 1 [curse] token to the chaos bag. If you cannot, take 2 horror instead.",
-        "traits": "Practiced. Cursed."
+        "name": "Promesa de poder",
+        "text": "Después de que asignes la Promesa de poder a una prueba de habilidad, añade 1 ficha [curse] a la bolsa de caos. Si no puedes, en vez de eso recibe 2 puntos de horror.",
+        "traits": "Experimentado. Maldito."
     },
     {
         "code": "07033",
-        "name": "Token of Faith",
-        "text": "[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag.",
-        "traits": "Item. Charm.",
-        "slot": "Accessory"
+        "name": "Símbolo religioso",
+        "text": "[reaction] Después de que termine una prueba de habilidad en la que se hayan revelado 1 o más fichas [curse] o [auto_fail], agota el Símbolo religioso: Añade esa misma cantidad de fichas [bless] a bolsa de caos.",
+        "traits": "Objeto. Amuleto.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "07034",
+        "name": "Mantener la fe",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free].\nAñade 4 fichas [bless] a la bolsa de caos.",
+        "traits": "Fortuna. Bendecido."
     },
     {
         "code": "07035",
-        "name": "Predestined",
-        "text": "Max 1 committed per skill test.\nYou may commit Predestined to any type of test.\nIf this test fails, either add 2 [bless] tokens to the chaos bag or remove 2 [curse] tokens from the chaos bag.",
-        "traits": "Fortune. Blessed."
+        "name": "Predestinado",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nPuedes asignar Predestinado a cualquier tipo de prueba.\nSi esta prueba fracasa, añade 2 fichas [bless] a la bolsa de caos o bien retira 2 fichas [curse] de la bolsa de caos.",
+        "traits": "Fortuna. Bendecido."
+    },
+    {
+        "code": "07036",
+        "flavor": "El amor es posiblemente el hechizo más fuerte de todos.",
+        "name": "Amada",
+        "text": "Si es revelada una ficha [bless] durante esta prueba, puedes retirar Amada de la partida para sustituir los efectos de esa ficha por el siguiente: Tienes éxito automáticamente. <i>(No reveles otra ficha. Devuelve esta ficha a la bolsa de caos después de que termine esta prueba.)</i>",
+        "traits": "Innato. Bendecido."
+    },
+    {
+        "code": "07037",
+        "name": "Tentar al destino",
+        "text": "Rápido. Juega esta carta durante cualquier oportunidad [free].\nAñade 3 fichas [curse] a la bolsa de caos. A continuación, añade 3 fichas [bless] a la bolsa de caos y roba 1 carta.",
+        "traits": "Fortuna. Bendecido. Maldito."
+    },
+    {
+        "code": "07038",
+        "name": "Seguidor maldito",
+        "text": "<b>Apararición</b> - Lugar más alejado de ti.\nIndiferente.\n<b>Obligado</b> - Al final de la fase de Enemigos: Añade 1 ficha [curse] a la bolsa de caos.",
+        "traits": "Humanoide. Sectario. Maldito."
     },
     {
         "code": "07039",
-        "flavor": "We all have wings, but they have not been of any avail to us and if we could tear them off, we would do so.\n- Franz Kafka, \"The Blue Octavo Notebooks\"",
-        "name": "Dread Curse",
-        "text": "<b>Revelation</b> - Add 5 [curse] tokens to the chaos bag.",
-        "traits": "Curse."
+        "flavor": "\"todos nosotros tenemos alas, pero no nos han servido de nada y, si pudiésemos, nos las arrancaríamos.\" —Franz Kafka, Redonda",
+        "name": "Maldición temible",
+        "text": "<b>Revelación</b> - Añade 5 fichas [curse] a la bolsa de caos.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "07040",
+        "name": "La hora de la verdad",
+        "text": "<b>Revelación</b> - Vincula La hora de la verdad al plan en curso. A continuación, busca en la bolsa de caos una ficha [elder_sign] y séllala sobre La hora de la verdad.\n<b>Diseño de la carta inspirado en los acontecimientos de las Arkham Nights 2018.</b>",
+        "traits": "Fin de los tiempos."
     }
 ]
