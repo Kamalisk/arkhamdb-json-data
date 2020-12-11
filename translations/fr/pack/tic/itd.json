@@ -1,36 +1,104 @@
 [
     {
+        "code": "07108",
+        "flavor": "\"Si tu souffles encore une fois dans ce truc, je te le fais manger.\"",
+        "name": "Sifflet Antiémeute",
+        "text": "Vous avez le droit d'effectuer une action supplémentaire lors de votre tour qui ne peut être utilisée que pour <b>Engager</b>.",
+        "traits": "Objet. Outil",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "07109",
+        "flavor": "Lita étrécit ses yeux et raffermit sa prise. Ils ne partiront pas. Pas cette fois. Plus jamais",
+        "name": "Chasse Vertueuse",
+        "text": "<b>Engager.</b> Choississez un ennemi éloigné de 2 lieux ou moins. Déplacez-vous (d'un lieu à la fois) jusqu'au lieu de cet ennemi, engagez-le et ajoutez à la réserve du Chaos un nombre de pions [bless] égal à la valeur d'horreur de cet enenmi.",
+        "traits": "Tactique. Béni."
+    },
+    {
+        "code": "07110",
+        "name": "Traité Sacré",
+        "text": "Permanent. Limite de 1 [[Traité]] par deck.\n[reaction] Après qu'un investigateur dans n'importe quel lieu a effectué l'étape \"révélez un pion Chaos\" d'un test de compétence, inclinez le Traité Sacré : renvoyez dans le réserve du Chaos n'importe quel nombre de pions [bless] révélés lors de ce test, en ignorant leurs modifications pour ce test.",
+        "traits": "Traité. Béni."
+    },
+    {
         "code": "07111",
-        "flavor": "Once you let go of your assumptions, anything is possible",
-        "name": "Eldritch Sophist",
-        "text": "Uses (3 secrets).\n[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",
-        "traits": "Ally. Miskatonic",
-        "slot": "Ally"
+        "flavor": "Une fois que vous avez abandonné vos certitudes, tout devient possible.",
+        "name": "Étudiant Énigmatique",
+        "text": "Utilisation (3 secrets).\n[fast]: Inclinez l'Étudiant Énigmatique : déplacez 1 secret ou 1 charge d'un soutien que vous contrôlez vers un autre soutien contrôlé par un investigateur dans votre lieu.",
+        "traits": "Allié. Miskatonic",
+        "slot": "Allié"
+    },
+    {
+        "code": "07112",
+        "flavor": "Quand vous commencez à suivre une piste, il est difficile de savoir où elle va vous mener.",
+        "name": "Attirer les Ennuis",
+        "text": "En tant que coût supplémentaire pour jouer Attirer les Ennuis, ajoutez à la réserve du Chaos un nombre de pions [curse] égal à la valeur occulte de votre lieu.\nDécouvrez 2 indices dans votre lieu.",
+        "traits": "Perspicacité. Maudit."
     },
     {
         "code": "07113",
-        "name": "Blasphemous Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",
-        "traits": "Covenant. Cursed."
+        "name": "Traité Blasphématoire",
+        "text": "Permanent. Limite de 1 [[Traité]] par deck.\n[reaction] Quand un investigateur dans votre lieu révèle un pion [curse] lors d'un test de compétence, inclnez le Traité Blasphématoire : traitez le modificateur de ce pion comme un +1 au lieu de son modificateur normal. Après la fin de ce test, renvoyez ce pion dans la réserve du Chaos.",
+        "traits": "Traité. Maudit."
+    },
+    {
+        "code": "07114",
+        "flavor": "Si vous êtes prudent, même pas besoin de forcer",
+        "name": "Forcer l'Entrée",
+        "text": "<b>enquêter.</b> Ajoutez votre valeur de [agility] à votre valeur de compétence pour cette enquête. En cas de réussite avec une différence de 2 ou plus, vous avez le droit d'échapper automatiquement à un ennemi dans ce lieu. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Ruse."
     },
     {
         "code": "07115",
-        "flavor": "\"Oh, hooey. What's the worst that could happen?\"",
-        "name": "Skeptic",
-        "text": "During this skill test, treat the modifier of each [bless] and each [curse] token as +1 instead of its normal modifier.",
-        "traits": "Practiced."
+        "flavor": "\"Ce ne sont que des sornettes. Qu'est-ce qui pourrait bien arriver ?\"",
+        "name": "Sceptique",
+        "text": "Lors de ce test de compétence, traitez le modificateur de chaque pion [bless] et [curse] comme un +1 au lieu de son modificateur habituel.",
+        "traits": "Entrainé."
     },
     {
-        "code": "07118",
-        "name": "Eye of Chaos",
-        "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect] If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
-        "traits": "Spell. Cursed.",
+        "code": "07116",
+        "name": "Faux Traité",
+        "text": "Permanent. Limite de 1 [[Traité]] par deck.\n[reaction] Quand un investigateur dans votre lieu révèle un pion [curse] lors d'un test de compétence, inclinez le Faux Traité : annulez ce pion Chaos, renvoyez-le dans la réserve d epions et révélez un autre pion.",
+        "traits": "Traité. Maudit."
+    },
+    {
+        "code": "07117",
+        "name": "Armageddon",
+        "text": "Utilisation (3 charges).\n[action] Dépensez 1 charge : <b>Combattre.</b> Cette attaque utilise [willpower] au lieu de [combat] et inflige +1 dégât. Si un pion [curse] est révélé lors de cette attaque, vous avez le droit d'infliger 1 dégât à un ennemi dans votre lieu ou de placer 1 charge sur Armageddon.",
+        "traits": "Sort. Maudit.",
         "slot": "Arcane"
     },
     {
+        "code": "07118",
+        "name": "Oeil du Chaos",
+        "text": "Utilisation (3 charges).\n[action] Dépensez 1 charge : <b>Enquêter.</b> Enquêtez en utilisant [willpower] au lieu de [intellect] En cas de réussite, découvrez 1 indice supplémentaire dans ce lieu. Si un pion [curse] est révélé lors de cette enquête, vous avez le droit de découvrir un indice dans un lieu connexe ou de placer 1 charge sur l'Oeil du Chaos.",
+        "traits": "Sort. Maudit.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "07119",
+        "name": "Voile d'Ombres",
+        "text": "Utilisation (3 charges).\n[action] Dépensez 1 charge : <b>Échapper à.</b> Cette tentative d'évasion utilise [willpower] au lieu de [agility]. En cas de réussite, si l'ennemi auquel vous échappez est non-[[Elite]], vous avez le droit de déplacer cet ennemi vers un lieu connexe. Si un pion [curse] est révélé lors de cette tentative d'évasion, vous avez le droit de vous déplacer vers un lieu connexe ou de placer 1 charge sur Voile d'Ombres.",
+        "traits": "Sort. Maudit.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "07120",
+        "name": "Traité Paradoxal",
+        "text": "Permanent. Limite de 1 [[Traité]] par deck.\n[reaction] Après qu'un investigateur dans votre lieu a effectué l'étape \"révélez un pion Chaos\" d'un test de compétence, si un pion [bless] et un pion [curse] ont été révélés lors de ce test, inclinez le Traité Paradoxal : ce test réussit automatiquement. <i>(Retirez chaque pion [bless] et [curse] révélé de la réserve du Chaos après la fin de ce test.)</i>",
+        "traits": "Traité. Béni. Maudit."
+    },
+    {
+        "code": "07121",
+        "name": "Boussole de Marin",
+        "text": "[action] Inclinez la Boussole de Marin : <b>enquêter.</b> En cas de réussite, si vous n'avez pas de ressources dans votre réserve de ressources, découvrez 1 indice supplémentaire dans votre lieu.\n[fast] Lors d'une enquête utilisant la Boussole de Marin, dépensez 1 ressource : vous gagnez +1 [intellect] pour ce test. (Limite de trois fois par enquête.)",
+        "traits": "Objet. Outil.",
+        "slot": "Main"
+    },
+    {
         "code": "07122",
-        "name": "Ancient Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",
-        "traits": "Covenant. Blessed."
+        "name": "Antique Traité",
+        "text": "Permanent. Limite de 1 [[Traité]] par deck.\n[reaction] Quand un investigateur dans votre lieu résout un pion [bless] lors d'un test de compétence, inclinez l'Antique Traité : ne révélez pas d'autre pion via l'effet de ce pion [bless].",
+        "traits": "Traité. Béni."
     }
 ]
