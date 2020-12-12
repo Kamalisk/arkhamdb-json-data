@@ -5,8 +5,15 @@
         "code": "02001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Guardian or Neutral"}
+            {
+                "faction": ["guardian", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Guardian or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02006, card:02007, random:subtype:basicweakness",
         "double_sided": true,
@@ -35,9 +42,16 @@
         "code": "02002",
         "deck_limit": 1,
         "deck_options": [
-            {"not": true, "trait": ["fortune"] },
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Seeker or Neutral"}
+            { "not": true, "trait": ["fortune"] },
+            {
+                "faction": ["seeker", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Seeker or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02008, card:02009, random:subtype:basicweakness",
         "double_sided": true,
@@ -66,8 +80,15 @@
         "code": "02003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Rogue or Neutral"}
+            {
+                "faction": ["rogue", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Rogue or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
         "double_sided": true,
@@ -96,8 +117,15 @@
         "code": "02004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Mystic or Neutral"}
+            {
+                "faction": ["mystic", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Mystic or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02012, card:02013, random:subtype:basicweakness",
         "double_sided": true,
@@ -126,8 +154,15 @@
         "code": "02005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Survivor or Neutral"}
+            {
+                "faction": ["survivor", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Survivor or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02014, card:02015, random:subtype:basicweakness",
         "double_sided": true,
@@ -673,7 +708,7 @@
         "is_unique": true,
         "name": "Peter Sylvestre",
         "pack_code": "dwl",
-        "position": 35  ,
+        "position": 35,
         "quantity": 2,
         "sanity": 3,
         "skill_willpower": 1,
@@ -692,7 +727,7 @@
         "illustrator": "Ilich Henriquez",
         "name": "Kukri",
         "pack_code": "dwl",
-        "position": 36  ,
+        "position": 36,
         "quantity": 2,
         "skill_combat": 1,
         "slot": "Hand",
