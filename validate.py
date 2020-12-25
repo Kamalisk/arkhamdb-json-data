@@ -369,7 +369,7 @@ def validate_sides(args, sides_data):
     return retval
 
 def check_translations_simple(args, base_translations_path, locale_name, base_file_name):
-    file_name = "%s.%s.json" % (base_file_name, locale_name)
+    file_name = "%s.json" % (base_file_name)
     verbose_print(args, "Loading file %s...\n" % file_name, 1)
     file_path = os.path.join(base_translations_path, locale_name, file_name)
     if check_file_access(file_path):
