@@ -5,8 +5,15 @@
         "code": "02001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Guardian or Neutral"}
+            {
+                "faction": ["guardian", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Guardian or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02006, card:02007, random:subtype:basicweakness",
         "double_sided": true,
@@ -35,9 +42,16 @@
         "code": "02002",
         "deck_limit": 1,
         "deck_options": [
-            {"not": true, "trait": ["fortune"] },
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Seeker or Neutral"}
+            { "not": true, "trait": ["fortune"] },
+            {
+                "faction": ["seeker", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Seeker or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02008, card:02009, random:subtype:basicweakness",
         "double_sided": true,
@@ -66,8 +80,15 @@
         "code": "02003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5, "error": "You cannot have more than 5 cards that are not Rogue or Neutral"}
+            {
+                "faction": ["rogue", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Rogue or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
         "double_sided": true,
@@ -91,13 +112,20 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "Jazz has been nothing but trouble for Jim since the day he picked up his daddy's trumpet. There was something weird and otherworldly about the writing on the inside of the bell, but the tones from it were smooth and dark, like good coffee. That trumpet landed Jim a lot of gigs until the time it made Widow Jenkins get up and dance, the day he played at her funeral. After that, it was kind of hard to find work. Since then, Jim has learned a lot about jazz — and the things the graveyard ghouls talk about on cold autumn nights. Lately, they've been talking about The End, as in the end of everything that is and could be. The Final Rhapsody. The fact is, Jim isn't too keen on that idea.",
+        "back_flavor": "Jazz has been nothing but trouble for Jim since the day he picked up his daddy's trumpet. There was something weird and otherworldly about the writing on the inside of the bell, but the tones from it were smooth and dark, like good coffee. That trumpet landed Jim a lot of gigs until the time it made Widow Jenkins get up and dance, the day he played at her funeral. After that, it was kind of hard to find work. Since then, Jim has learned a lot about jazz - and the things the graveyard ghouls talk about on cold autumn nights. Lately, they've been talking about The End, as in the end of everything that is and could be. The Final Rhapsody. The fact is, Jim isn't too keen on that idea.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jim's Trumpet, Final Rhapsody, 1 random basic weakness.",
         "code": "02004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Mystic or Neutral"}
+            {
+                "faction": ["mystic", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Mystic or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02012, card:02013, random:subtype:basicweakness",
         "double_sided": true,
@@ -126,8 +154,15 @@
         "code": "02005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"level":{"min":0, "max":0}, "limit":5,  "error": "You cannot have more than 5 cards that are not Survivor or Neutral"}
+            {
+                "faction": ["survivor", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Survivor or Neutral"
+            }
         ],
         "deck_requirements": "size:30, card:02014, card:02015, random:subtype:basicweakness",
         "double_sided": true,
@@ -181,7 +216,7 @@
         "quantity": 1,
         "restrictions": "investigator:02001",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> – Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.\n<b>Forced</b> – When the game ends, if attached enemy is in play: You suffer 1 mental trauma.",
+        "text": "<b>Revelation</b> - Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.\n<b>Forced</b> - When the game ends, if attached enemy is in play: You suffer 1 mental trauma.",
         "traits": "Task.",
         "type_code": "treachery"
     },
@@ -250,7 +285,7 @@
         "quantity": 1,
         "restrictions": "investigator:02003",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> - Attach Searching for Izzie to the location farthest from you.\n[action][action]: <b>Investigate</b>. If you succeed, instead of discovering clues, discard Searching for Izzie.\n<b>Forced</b> - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma.",
+        "text": "<b>Revelation</b> - Attach Searching for Izzie to the location farthest from you.\n[action] [action]: <b>Investigate</b>. If you succeed, instead of discovering clues, discard Searching for Izzie.\n<b>Forced</b> - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma.",
         "traits": "Task.",
         "type_code": "treachery"
     },
@@ -321,7 +356,7 @@
         "quantity": 1,
         "restrictions": "investigator:02005",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.\nAssets you control cannot ready.\n[action][action]: Discard Wracked by Nightmares.",
+        "text": "<b>Revelation</b> - Exhaust all assets you control and put Wracked by Nightmares into play in your threat area.\nAssets you control cannot ready.\n[action] [action]: Discard Wracked by Nightmares.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -531,7 +566,7 @@
         "sanity": 1,
         "skill_combat": 1,
         "slot": "Ally",
-        "text": "You get +1 [combat].\n<b>Forced</b> – At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle.",
+        "text": "You get +1 [combat].\n<b>Forced</b> - At the end of the upkeep phase: You must either pay 1 resource or discard Hired Muscle.",
         "traits": "Ally. Criminal.",
         "type_code": "asset",
         "xp": 1
@@ -673,7 +708,7 @@
         "is_unique": true,
         "name": "Peter Sylvestre",
         "pack_code": "dwl",
-        "position": 35  ,
+        "position": 35,
         "quantity": 2,
         "sanity": 3,
         "skill_willpower": 1,
@@ -692,7 +727,7 @@
         "illustrator": "Ilich Henriquez",
         "name": "Kukri",
         "pack_code": "dwl",
-        "position": 36  ,
+        "position": 36,
         "quantity": 2,
         "skill_combat": 1,
         "slot": "Hand",
@@ -727,7 +762,7 @@
         "position": 38,
         "quantity": 2,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Place Internal Injury into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 1 direct damage.\n[action][action]: Discard Internal Injury.",
+        "text": "<b>Revelation</b> - Place Internal Injury into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 1 direct damage.\n[action] [action]: Discard Internal Injury.",
         "traits": "Injury.",
         "type_code": "treachery"
     },
@@ -741,7 +776,7 @@
         "position": 39,
         "quantity": 2,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Place Chronophobia into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 1 direct horror.\n[action][action]: Discard Chronophobia.",
+        "text": "<b>Revelation</b> - Place Chronophobia into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 1 direct horror.\n[action] [action]: Discard Chronophobia.",
         "traits": "Madness.",
         "type_code": "treachery"
     }

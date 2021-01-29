@@ -10,13 +10,13 @@
             "type": "string"
         },
         "code": {
-            "pattern": "^[0-9abcdef]{5}$",
+            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
             "type": "string"
         },
         "cost": {
             "oneOf": [
                 {
-                    "minimum": 0,
+                    "minimum": -2,
                     "type": "integer"
                 },
                 {
@@ -32,7 +32,7 @@
             "type": "array"
         },
         "deck_limit": {
-            "minimum": 1,
+            "minimum": 0,
             "type": "integer"
         },
         "double_sided": {
@@ -69,7 +69,7 @@
             "type": "string"
         },
         "health": {
-            "minimum": 1,
+            "minimum": -2,
             "type": "integer"
         },
         "illustrator": {
@@ -121,7 +121,7 @@
             "type": "integer"
         },
         "sanity": {
-            "minimum": 1,
+            "minimum": -2,
             "type": "integer"
         },
         "slot": {
@@ -185,7 +185,6 @@
     "required": [
         "code",
         "faction_code",
-        "deck_limit",
         "name",
         "pack_code",
         "position",

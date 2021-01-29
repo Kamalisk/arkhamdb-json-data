@@ -19,8 +19,11 @@
         "code": "01001",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["guardian", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["seeker"], "level":{"min":0, "max":2} }
+            {
+                "faction": ["guardian", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { "faction": ["seeker"], "level": { "min": 0, "max": 2 } }
         ],
         "deck_requirements": "size:30, card:01006:98005, card:01007:98006, random:subtype:basicweakness",
         "double_sided": true,
@@ -49,8 +52,11 @@
         "code": "01002",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["seeker", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["mystic"], "level":{"min":0, "max":2} }
+            {
+                "faction": ["seeker", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { "faction": ["mystic"], "level": { "min": 0, "max": 2 } }
         ],
         "deck_requirements": "size:30, card:01008:90002, card:01009:90003, random:subtype:basicweakness",
         "double_sided": true,
@@ -79,10 +85,13 @@
         "code": "01003",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["guardian"], "level":{"min":0, "max":2} }
+            {
+                "faction": ["rogue", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { "faction": ["guardian"], "level": { "min": 0, "max": 2 } }
         ],
-        "deck_requirements": "size:30, card:01010, card:01011, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:01010:90009, card:01011:90010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "\"I didn't get out of the joint just to watch the world end.\"",
@@ -104,15 +113,18 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "Agnes Baker may be just an unassuming waitress in this life, but in a previous life, in a time and age undreamed of in the modern world, she had been a powerful witch. It began when she found a strange artifact — a key of some kind — in a dusty collection of family belongings in her attic. When she touched it, the memories came flooding back, along with one word: \"Hyperborea.\" The more she delved into the visions and memories of her former life, the stronger her powers grew... and the more frightened she became.",
+        "back_flavor": "Agnes Baker may be just an unassuming waitress in this life, but in a previous life, in a time and age undreamed of in the modern world, she had been a powerful witch. It began when she found a strange artifact - a key of some kind - in a dusty collection of family belongings in her attic. When she touched it, the memories came flooding back, along with one word: \"Hyperborea.\" The more she delved into the visions and memories of her former life, the stronger her powers grew... and the more frightened she became.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Survivor cards ([survivor]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Heirloom of Hyperborea, Dark Memory, 1 random basic weakness.",
         "code": "01004",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["mystic", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["survivor"], "level":{"min":0, "max":2} }
+            {
+                "faction": ["mystic", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { "faction": ["survivor"], "level": { "min": 0, "max": 2 } }
         ],
-        "deck_requirements": "size:30, card:01012, card:01013, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:01012:90018, card:01013:90019, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
         "flavor": "\"I remember another life, one of sorcery and conquest.\"",
@@ -139,8 +151,11 @@
         "code": "01005",
         "deck_limit": 1,
         "deck_options": [
-            {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
-            {"faction":["rogue"], "level":{"min":0, "max":2} }
+            {
+                "faction": ["survivor", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { "faction": ["rogue"], "level": { "min": 0, "max": 2 } }
         ],
         "deck_requirements": "size:30, card:01014, card:01015, random:subtype:basicweakness",
         "double_sided": true,
@@ -285,7 +300,7 @@
         "skill_willpower": 1,
         "slot": "Accessory",
         "subname": "Artifact from Another Life",
-        "text": "Agnes Baker deck only.\n[reaction] After you play a spell card: Draw 1 card.",
+        "text": "Agnes Baker deck only.\n[reaction] After you play a [[Spell]] card: Draw 1 card.",
         "traits": "Item. Relic.",
         "type_code": "asset"
     },
@@ -1059,7 +1074,7 @@
         "pack_code": "core",
         "position": 56,
         "quantity": 1,
-        "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"–\" to a \"+\".",
+        "text": "Fast. Play after you reveal a chaos token with a negative modifier.\nSwitch that token's \"-\" to a \"+\".",
         "traits": "Fortune. Insight.",
         "type_code": "event",
         "xp": 3
@@ -1770,7 +1785,7 @@
         "position": 98,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Add Haunted to your threat area.\nYou get -1 to each of your skills.\n[action][action]: Discard Haunted.",
+        "text": "<b>Revelation</b> - Add Haunted to your threat area.\nYou get -1 to each of your skills.\n[action] [action]: Discard Haunted.",
         "traits": "Curse.",
         "type_code": "treachery"
     },
@@ -1784,7 +1799,7 @@
         "position": 99,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Add Psychosis to your threat area.\n<b>Forced</b> - After you take 1 or more horror: Take 1 direct damage.\n[action][action]: Discard Psychosis.",
+        "text": "<b>Revelation</b> - Add Psychosis to your threat area.\n<b>Forced</b> - After you take 1 or more horror: Take 1 direct damage.\n[action] [action]: Discard Psychosis.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -1798,7 +1813,7 @@
         "position": 100,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Add Hypochondria to your threat area.\n<b>Forced</b> - After you take 1 or more damage: Take 1 direct horror.\n[action][action]: Discard Hypochondria.",
+        "text": "<b>Revelation</b> - Add Hypochondria to your threat area.\n<b>Forced</b> - After you take 1 or more damage: Take 1 direct horror.\n[action] [action]: Discard Hypochondria.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
