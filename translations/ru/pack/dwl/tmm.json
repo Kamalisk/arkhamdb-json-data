@@ -1,90 +1,87 @@
 [
     {
         "code": "02105",
-        "name": "Неотложная помощь",
-        "text": "Выберите сыщика в вашей локации. Вылечите 2 раны этому сыщику или активу-[[союзнику]] под его контролем.",
-        "traits": "Интуиция. Наука."
+        "name": "Emergency Aid",
+        "text": "Choose an investigator at your location. Heal 2 damage from that investigator or from an [[Ally]] asset he or she controls.",
+        "traits": "Insight. Science."
     },
     {
         "code": "02106",
-        "name": "Брат Хавьер",
-        "subname": "Чистый духом",
-        "text": "У вас +1 [willpower].\nНа «Брата Хавьера» можно назначать раны и/или ужас, нанесённые другим сыщикам в вашей локации.\n[reaction] Когда «Брат Хавьер» побежден: Нанесите 2 раны одному врагу в вашей локации.",
-        "traits": "Союзник. ",
-        "slot": "Союзник"
+        "name": "Brother Xavier",
+        "subname": "Pure of Spirit",
+        "text": "You get +1 [willpower].\nBrother Xavier may be assigned damage and/or horror dealt to other investigators at your location.\nWhen Brother Xavier is defeated: Deal 2 damage to an enemy at your location.",
+        "traits": "Ally. ",
+        "slot": "Ally"
     },
     {
         "code": "02107",
-        "flavor": "«Это худший из всех планов, что я когда-либо слышал. Так чего же мы ждём?»",
-        "name": "«У меня есть план!»",
-        "text": "<b>Бой.</b> Эта атака использует [intellect]. В этой атаке вы наносите +1 рану за каждую вашу улику (максимум +3 раны).",
-        "traits": "Интуиция. Тактика."
+        "name": "\"I've got a plan!\"",
+        "text": "<b>Fight</b>. This attack uses [intellect]. You deal +1 damage for this attack for each clue you have (max +3 damage).",
+        "traits": "Insight. Tactic."
     },
     {
         "code": "02108",
-        "flavor": "Искатели острых ощущений любят наведываться в глухие, потаенные места.\nГовард Ф. Лавкрафт «Картинка в старой книге»",
-        "name": "Следопыт",
-        "text": "[free] В свой ход, если вы не сражаетесь ни с одним врагом, поверните «Следопыта»: Переместитесь в связанную локацию.",
-        "traits": "Талант."
+        "name": "Pathfinder",
+        "text": "[free]During your turn, if you are not engaged with any enemies, exhaust Pathfinder: Move to a connecting location.",
+        "traits": "Talent."
     },
     {
         "code": "02109",
-        "flavor": "Может, это и не законно, зато работает.",
-        "name": "Контрабанда",
-        "text": "Выберите актив под контролем сыщика в вашей локации. Удвойте количество патронов или запасов на этом активе.",
-        "traits": "Запас. Незаконное."
+        "name": "Contraband",
+        "text": "Choose an asset controlled by an investigator at your location. Double the number of ammo or supply tokens on that asset.",
+        "traits": "Supply. Illicit."
     },
     {
         "code": "02110",
-        "name": "Приспособляемость",
-        "text": "Постоянный.\nМежду любыми играми кампании вы можете обменять до двух карт нулевого уровня из своей колоды на столько же карт нулевого уровня. (При этом вы обязаны следовать всем правилам создания колоды своего сыщика.)",
-        "traits": "Талант."
+        "name": "Adaptable",
+        "text": "Permanent.\nIn between each game of a campaign, you may swap up to two level 0 cards out of your deck in exchange for an equal number of level 0 cards. (You must still follow all deckbuilding rules for your investigator).",
+        "traits": "Talent."
     },
     {
         "code": "02111",
-        "flavor": "Такое увидишь — никогда не забудешь.",
-        "name": "Забраться слишком далеко",
-        "text": "Каждый сыщик в порядке игроков берёт 1 карту с верха колоды контактов. Затем добавьте «Забраться слишком далеко» к победному счету.",
-        "traits": "Интуиция."
+        "flavor": "Some things, once seen, can't be unseen.",
+        "name": "Delve Too Deep",
+        "text": "In player order, each investigator draws 1 card from the top of the encounter deck. Then, add Delve Too Deep to the victory display.",
+        "traits": "Insight."
     },
     {
         "code": "02112",
-        "name": "Песнь Мертвых",
-        "text": "Многоразовая (5 зарядов).\n[action] Потратьте 1 заряд: <b>Бой.</b> Эта атака использует [willpower] вместо [combat]. У вас +1 [willpower] в этой атаке. Если при этой атаке вытянуть [skull], эта атака наносит +2 раны.",
-        "traits": "Заклинание. Песнопение.",
-        "slot": "Магический"
+        "name": "Song of the Dead",
+        "text": "Uses (5 charges).\n[action]<b> </b>Spend 1 charge: <b>Fight. </b>This attack uses [willpower] instead of [combat]. You get +1 [willpower] for this attack. If a [skull] symbol is revealed during this attack, this attack deals +2 damage.",
+        "traits": "Spell. Song.",
+        "slot": "Arcane"
     },
     {
         "code": "02113",
-        "name": "Упс!",
-        "text": "Быстрое. Играйте после того, как вы провалили проверку, атакуя врага, с которым сражаетесь, из-за того, что вам не хватило 2 или меньше.\nНанесите раны от этой атаки другому врагу в вашей локации.",
-        "traits": "Удача."
+        "name": "Oops!",
+        "text": "Fast. Play after you fail a skill test by 2 or less while attacking an enemy engaged with you.\nDeal this attack's damage to a different enemy at your location.",
+        "traits": "Fortune."
     },
     {
         "code": "02114",
-        "name": "Огнетушитель",
-        "text": "[action]: <b>Бой.</b> У вас +1 [combat] в этой атаке.\n[action] Изгоните «Огнетушитель»: <b>Уход.</b> У вас +3 [agility] в этой проверке. При успехе также уйдите от каждого другого врага, с которым сражаетесь.",
-        "traits": "Вещь. Инструмент. Рукопашное.",
-        "slot": "Рука"
+        "name": "Fire Extinguisher",
+        "text": "[action]: <b>Fight</b>. You get +1 [combat] for this attack.\n[action] Exile Fire Extinguisher: <b>Evade</b>. You get +3 [agility] for this test. If you are successful, evade each other enemy engaged with you, as well.",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
     },
     {
         "code": "02115",
-        "name": "Сигнальная ракета",
-        "text": "Выберите одно:\n• <b>Бой.</b> У вас +3 [combat] и вы наносите +2 раны в этой атаке. Изгоните «Сигнальную ракету».\n• Найдите среди 9 верхних карт колоды любого сыщика актив-[[союзника]] и введите его в игру под свой контроль. Затем изгоните «Сигнальную ракету». Перемешайте колоду, в которой искали.",
-        "traits": "Тактика."
+        "name": "Flare",
+        "text": "Either (choose one):\n- <b>Fight</b>. You get +3 [combat] and deal +2 damage for this attack. Exile Flare.\n- Search the top 9 cards of any investigator's deck for an [[Ally]] asset and put it into play under your control. Then, exile Flare. Shuffle the searched deck.",
+        "traits": "Tactic."
     },
     {
         "code": "02116",
-        "flavor": "Хорошая трубка успокоит самые расшатанные нервы.",
-        "name": "Трубка",
-        "text": "Многоразовая (3 запаса).\n[free] Потратьте 1 запас, поверните «Трубку» и получите 1 рану: Вылечите 1 ужас.",
-        "traits": "Вещь."
+        "flavor": "A good pipe can calm the most frazzled of nerves.",
+        "name": "Smoking Pipe",
+        "text": "Uses (3 supplies).\n[free]Spend 1 supply, exhaust Smoking Pipe, and take 1 damage: Heal 1 horror.",
+        "traits": "Item."
     },
     {
         "code": "02117",
-        "flavor": "Не превышайте рекомендуемую дозировку.",
-        "name": "Болеутоляющее",
-        "text": "Многоразовое (3 запаса).\n[free] Потратьте 1 запас, поверните «Болеутоляющее» и получите 1 ужас: Вылечите 1 рану.",
-        "traits": "Вещь."
+        "flavor": "Do not exceed the recommended dosage.",
+        "name": "Painkillers",
+        "text": "Uses (3 supplies).\n[free]Spend 1 supply, exhaust Painkillers, and take 1 horror: Heal 1 damage.",
+        "traits": "Item."
     }
 ]

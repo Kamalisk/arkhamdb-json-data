@@ -1,0 +1,483 @@
+[
+    {
+        "code": "02040",
+        "flavor": "Armitage sabía muy bien que iban a tener que habérselas con pavorosas fuerzas, pero también veía claramente que era el único medio de acabar con aquel maléfico embrollo que otros antes que él habían venido a complicar y agravar. - H. P. Lovecraft, \"El Horror de Dunwich\"",
+        "name": "Dr. Henry Armitage",
+        "subname": "El bibliotecario jefe",
+        "text": "[reaction] Después de que robes una carta, descarta esa carta y agota al Dr. Henry Armitage: Obtén 3 recursos.",
+        "traits": "Aliado. Miskatonic.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "02041",
+        "name": "Actividad extracurricular",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -1. Si fallas, descarta las 3 primeras cartas de tu mazo.\n[cultist]: -1, o bien -3 si hay 10 o más cartas en tu pila de descartes.\n[elder_thing]: -X. Descarta las 2 primeras cartas de tu mazo. X es el coste impreso total de las cartas descartadas.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -2. Si fallas, descarta las 5 primeras cartas de tu mazo.\n[cultist]: -1, o bien -5 si hay 10 o más cartas en tu pila de descartes.\n[elder_thing]: -X. Descarta las 3 primeras cartas de tu mazo. X es el coste impreso total de las cartas descartadas."
+    },
+    {
+        "code": "02042",
+        "flavor": "Habéis llegado al campus de la Universidad Miskatonic en busca del profesor Warren Rice. Las clases han terminado, y un misterioso silencio reina en el ambiente del patio principal.",
+        "name": "Aulas tranquilas",
+        "back_name": "Algo se agita",
+        "back_flavor": "En la universidad no se oye ni un alma. Las sombras se enroscan alrededor de vuestros pues al caminar, y juraríais que hay algo que os sigue a cada paso que dais. ¿Es sólo vuestra imaginación? ¿O realmente hau algo, o alguien, que os acecha?",
+        "back_text": "Cada investigador que tenga 5 o más cartas en su pila de descartes recibe 1 punto de horror. Cada investigaddor que tenga 10 o más cartas en su pila de descartes recibe 2 puntos de horror en lugar de 1.\nSi los jugadores han completado La casa siempre gana, avanza directamente al plan 2b.\nSi Actividad extracurricular es el primer escenario de la campaña, avanza al plan 2a."
+    },
+    {
+        "code": "02043",
+        "flavor": "La desaparición del profesor Rice no es el único suceso extraño en la Universidad. No estáis seguros de qué está sucediendo exactamente, pero empezáis a creer que Armitage tenía razón en pedir vuestra ayuda.",
+        "name": "En mitad de la noche",
+        "text": "El tamaño de mano máximo de cada investigador queda reducido en 3 cuando compruebe el tamaño de su mano durante la fase de mantenimiento.",
+        "back_name": "Un experimento que salió mal",
+        "back_flavor": "Un grito de miedo resuena por el campus, y varios estudiantes vienen huyendo desde el lado este de la universidad, donde se encuentra el edificio de Ciencias. ¿Estará relacionado este alboroto con la desaparición del profesor Rice?",
+        "back_text": "Si el Lugar Residencia Estudiantil no está en juego, ponlo en juego.\nSi El experimento está en juego, muévelo 1 Lugar hacia la Residencia Estudiantil.\nSi El experimento no está en juego, haz que aparezca en el Edificio de Ciencias."
+    },
+    {
+        "code": "02044",
+        "flavor": "Una especie de criatura salvaje anda suelta. Sea lo que sea, parece que se dirige hacia la residencia estudiantil de la universidad.",
+        "name": "La bestia desatada",
+        "text": "<b>Obligado</b> - Cuando fueses a hacer avanzar este plan por llegar a su umbral de perdición: En lugar de eso, retira toda la perdición que haya en juego y mueve El experimento 1 Lugar hacia la Residencia estudiantil.\n<b>Objetivo</b> - Si El experimento entra en la Residencia estudiantil, haz avanzar el plan.",
+        "back_name": "No llegáis a tiempo",
+        "back_flavor": "Antes de que podáis actuar, oís gritos provenientes de la parte norte del campus. Comenzáis a dirigiros hacia los gritos, pero vuestra visión se va oscureciendo con cada paso que dais. En cuanto tenéis a la criatura a la vista, sentís cómo la oscuridad se apodera de vosotros, y una fuerza os arrebata la consciencia. Todo se vuelve negro, y os desmayáis.",
+        "back_text": "Cada investigador recibe 3 puntos de horror inmediatamente. A continuación, pasa a <b>(→R4)</b>."
+    },
+    {
+        "code": "02045",
+        "flavor": "Uno de los alumnos de Armitage vio por última vez al profesor Rice hace varias horas en el edificio de Humanidades.",
+        "name": "Después de clase",
+        "back_name": "El jefe de bedeles",
+        "back_flavor": "No lográis encontrar al profesor Rice, pero uno de los estudiantes con los que habláis menciona a un hombre extraño que entró en el despacho de Rice. Por desgracia, la puerta que lleva a los despachos del profesorado está cerrada a esta hora. El estudiante os dice que el jefe de bedeles, “Jazz”, podía dejaros entrar si lográis encontrarlo.",
+        "back_text": "Añade la pila de descartes de Encuentros y la carta “Jazz” Mulligan puesta aparte al mazo de Encuentros y barájalo."
+    },
+    {
+        "code": "02046",
+        "flavor": "Preocupados por la seguridad del profesor Rice, buscáis al jefe de bedeles, que puede dejaros entrar en las secciones cerradas del campus.",
+        "name": "El paradero de Rice",
+        "text": "[action] Gasta 1 pista: Descarta las 5 primeras cartas del mazo de Encuentros, o bien las 10 primeras si sólo hay 1 jugador en la partida.\n<b>Obligado</b> - Si descartas a “Jazz” Mulligan por cualquier motivo, resuelve su efecto “Revelación”.\n<b>Objetivo</b> - Cuando tomes el control de “Jazz” Mulligan, haz avanzar el acto.",
+        "back_name": "¡El experimento anda suelto!",
+        "back_flavor": "Convencéis a “Jazz” de que está ocurriendo algo extraño y el profesor Rice podría estar en peligro. No confía tanto en vosotros como para daros sus llaves, pero accede a acompañaros.\nDe pronto, oís un estruendo que proviene del edificio de Ciencias, y un estudiante viene corriendo hacia vosotos. —¡Ayuda! —grita—. ¡Hay una especie de animal suelto en los laboratorios de química! Apenos lo he entrevisto, pero… —se estremece—. ¡Creo que se dirige a la residencia estudiantil! ¡Tenéis que hacer algo!",
+        "back_text": "Si el Lugar Laboratorios de alquimia no está en juego, ponlo en juego. Si estás en el plan 1 o 2, haz aparecer El experimento puesto aparte en los Laboratorios de alquimia.\nSi los jugadores han completado La casa siempre gana, pon la Pócima alquímica puesta aparte en juego bajo los Laboratorios de alquimia. Si Actividad extracurricular es el primer escenario de la campaña, en lugar de eso retira de la partida la Pócima alquímica puesta aparte."
+    },
+    {
+        "code": "02047",
+        "flavor": "Sólo tenéis unos instantes para reaccionar. Podéis advertir a los estudiantes de la residencia estudiantil y acompañarlos a un lugar seguro, o bien podéis continuar vuestra tarea de registrar los despachos del profesorado en busca del profesor Rice. O quizás podéis intentar matar a la bestia que amenaza el campus.",
+        "name": "Seguridad del campus",
+        "text": "<b>Objetivo<b> - Encuentra y completa un objetivo de otra carta de Encuentro.",
+        "back_name": "La muerte de la bestia",
+        "back_flavor": "La monstruosa criatura emite un terrible aullido cuando sucumbe a sus heridas y de desploma en el suelo. Un nauseabundo olor emana de su cadáver mientras su carne comienza a burbujear y espumar. Vuestro alivio se convierte en repulsión cuando el cuerpo empieza a encoger y desintegrarse. Minutos más tarde, el cuerpo se ha evaporado casi por completo dejando una masa pegajosa, y el terrible olor ha desaparecido. Dentro de los restos del cuerpo de la criatura no encontráis más que huesos: la estructura esquelética de un canino.",
+        "back_text": "<b>(→R3)</b>"
+    },
+    {
+        "code": "02048",
+        "flavor": "Rodeados de vallas y puertas de hierro forjado, no lagráis evitar sentir que aquí tenéis tanto de prisioneros como de invitados.",
+        "name": "Patio principal de Miskatonic",
+        "text": "[action]: <b>Desistir.</b> “No logramos encontrar a Rice por ninguna parte…”. Os marcháis del campus, esperando que Armitage os perdone.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Un invierno demasiado precoz ha dejado los árboles desnudos. Sus ramas muertas silban cuando un gélido y cortante viento surca el patio vacío."
+    },
+    {
+        "code": "02049",
+        "flavor": "Se ha ido la luz, lo que sume a los pasillos del edificio en una densa oscuridad. No hay ni rastro del profesor Rice.",
+        "name": "Edificio de Humanidades",
+        "text": "<b>Obligado</b> - Al final de tu turno, si estás en el Edificio de Humanidades: Descarta las X primeras cartas de tu mazo, donde X es la cantidad de horror que tengas.",
+        "traits": "Miskatonic.",
+        "back_flavor": "La última vez que vieron al profesor Rice fue en el edificio de Humanidades, dando una de sus clases de latín. De las turbias ventanas de la desgastada estructura no sale ninguna luz, y todo es silencioso en la noche a vuestro alrededor."
+    },
+    {
+        "code": "02050",
+        "flavor": "La biblioteca Orne es un laberinto de estanterías polvorientas y pasillos mal iluminados.",
+        "name": "Biblioteca Orne",
+        "text": "Debes gastar 1 acción adicional para investigar la Biblioteca Orne.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Con sus tres pisos de desgastado granito gris, la biblioteca parece más un relicario que un lugar de aprendizaje. Gárgolas de piedra montan guardia sobre las ventanas arqueadas, y hay una inscripción en latín alrededor de las puertas dobles que coronan una ancha escalinata de piedra."
+    },
+    {
+        "code": "02051",
+        "name": "Sindicato de estudiantes",
+        "text": "<b>Obligado</b> - Después de que el Sindicato de estudiantes sea revelado: Pon en juego la Residencia estudiantil puesta aparte.\n[action][action]: Cúrate 1 punto de daño y 1 punto de horror.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Incluso a una hora tan tardía, podéis oír voces apagadas que llegan del interior del sindicato de estudiantes. Puede que alguno de ellos sepa dónde está el profesor Rice."
+    },
+    {
+        "code": "02052",
+        "flavor": "Mientras exploráis estos edificios antiguos pero bien conservados, os descubrís preguntándoos si las camas son cómodas…",
+        "name": "Residencia estudiantil",
+        "text": "<b>Objetivo</b> - Si los investigadores que estén en la Residencia estudiantil gastan, como grupo, 3 pistas[per_investigator]: <b>(→R2)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "La silueta de ladrillos rojos de la residencia del oeste era visible a trávés de los árboles…<br><cite>Graham McNeill, Los gules de Miskatonic</cite>",
+        "back_text": "La puerta que da acceso a la Residencia estudiantil está cerrada con llave. No puedes moverte a la Residencia estudiantil."
+    },
+    {
+        "code": "02053",
+        "name": "Edificio de administración",
+        "text": "<b>Obligado</b> - Después de que el Edificio de administración sea revelado: Pon en juego los Despachos del profesorado puestos aparte.\n<b>Obligado</b> - Al final del turno, si estás en el Edificio de administración: Descarta la primera carta de tu mazo.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Varias enredaderas suben por el avejentado edificio de administración como si quisieran hacerse con él. El antiguo inmueble está en una sección aislada del campus, alejado del bullicio cotidionao de los alumnos."
+    },
+    {
+        "code": "02054",
+        "name": "Despachos del profesorado",
+        "subname": "La noche aún es joven",
+        "text": "<b>Obligado</b> - Después de que los Despachos del profesorado sean revelados: Busca un Enemigo [[Humanoide]] en el mazo y la pila de descartes de Encuentros y haz que aparezca aquí. Baraja el mazo de encuentros.\n<b>Objetivo</b> - Si los investigadores que están en los Despachos del profesorado gastan, como grupo, 2 pistas[per_investigator]: <b>(→R1)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "Llegáis a una puerta cerrada que se encuentra al final de las escaleras que llevan al tercer piso del edificio de administración. A través del cristal esmerilado, atisbáis una sombra que cruza el pasillo a toda velocidad.",
+        "back_text": "La puerta que da acceso a los Despachos del profesorado está cerrada con llave. No puedes moverte a los Despachos del profesorado."
+    },
+    {
+        "code": "02055",
+        "flavor": "No hay ni rastro del profesor Rice en su despacho. Le llamáis, pero su nombre resuena por el pasillo sin que haya respuesta.",
+        "name": "Despachos del profesorado",
+        "subname": "Se ha hecho tarde",
+        "traits": "Miskatonic.",
+        "back_flavor": "Llegáis a una puerta cerrada que se encuentra al final de las escaleras que llevan al tercer piso del edificio de administración. A través del cristal esmerilado, creéis ver una sombra que cruza el pasillo a toda velocidad… o quizá sea sólo vuestra imaginación.",
+        "back_text": "La puerta que da acceso a los Despachos del profesorado está cerrada con llave. No puedes moverte a los Despachos del profesorado."
+    },
+    {
+        "code": "02056",
+        "flavor": "Un rastro de cieno viscoso surca los pasillos del primer piso del edificio de Ciencias, en dirección al sótano.",
+        "name": "Edificio de Ciencias",
+        "text": "<b>Obligado</b> - Después de que el Edificio de Ciencias sea revelado: Pon en juego los Laboratorios de alquimia puestos aparte.",
+        "traits": "Miskatonic.",
+        "back_flavor": "El edificio de Ciencias domina el lado este del campus. No hay luz en ninguna de las ventanas, excepto en una que brilla débilmente en la esquina del sótano."
+    },
+    {
+        "code": "02057",
+        "flavor": "Los estantes de este laboratorio están poblados de peculiares brebajes y extraños reactivos. ¿Qué clase de ciencia se estudia aquí abajo?",
+        "name": "Laboratorios de alquimia",
+        "text": "[action]: <b>Investigar.</b> Si tienes éxito, en lugar de descubrir pistas, coge la Pócima alquímica de debajo de este Lugar si es posible.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Un olor acre sube desde el laboratorio del piso inferior. El inconfundible siseo de un quemador rompe el silencio del pasillo.",
+        "back_text": "La puerta que da acceso a los Laboratorios de alquimia está cerrada con llave. No puedes moverte a los Laboratorios de alquimia."
+    },
+    {
+        "code": "02058",
+        "name": "El experimento",
+        "subname": "Algo ha ido terriblemente mal",
+        "text": "Descomunal.\nEl experimento recibe +3 de salud [per_investigator].\n<b>Obligado</b> - Cuando comience la fase de Enemigos: Prepara El experimento.\n<b>Objetivo</b> - Si El experimento es derrotado, haz avanzar el acto al acto 3b.",
+        "traits": "Monstruo. Abominación. Élite."
+    },
+    {
+        "code": "02059",
+        "name": "Pócima alquímica",
+        "text": "[action]: <b>Combatir.</b> Este ataque usa [intellect] en lugar de [combat]. Si se usa para atacar a El experimento, este ataque inflige +6 de daño. Si tienes éxito, retira la Pócima alquímica de la partida.",
+        "traits": "Objeto. Ciencia."
+    },
+    {
+        "code": "02060",
+        "name": "\"Jazz\" Mulligan",
+        "subname": "El jefe de bedeles",
+        "text": "<b>Revelación</b> - Pon a “Jazz” Mulligan en juego en tu Lugar.\nMientras “Jazz” Mulligan no esté controlado por un investigador, obtiene: “[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (3). Si tiene éxito, toma el control de 'Jazz' Mulligan.”.\nMientras controles a “Jazz” Mulligan, ignoras el texto de todos los Lugares [[Miskatonic]] sin revelar.",
+        "traits": "Aliado. Miskatonic."
+    },
+    {
+        "code": "02061",
+        "name": "Profesor Warren Rice",
+        "subname": "Profesor de idiomas",
+        "text": "Recibes +1 [intellect].\n[reaction] Después de que descubras la última pusta restante en tu Lugar, agota al Profesor Warren Rice: Roba 1 carta.",
+        "traits": "Aliado. Miskatonic.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "02062",
+        "name": "La casa siempre gana",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -2. Puedes gastar 2 recursos para considerar esta ficha como un 0 en lugar de su valor normal.\n[cultist]: -3. Si tienes éxito, obtén 3 recursos.\n[tablet]: -2. Si fallas, descarta 3 recursos.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -3. Puedes gastar 3 recursos para considerar esta ficha como un 0 en lugar de su valor normal.\n[cultist]: -3. Si fallas, descarta 3 recursos.\n[tablet]: -2. Descarta 3 recursos."
+    },
+    {
+        "code": "02063",
+        "flavor": "Habéis entrado en el casino del Clover Club en busca del Dr. Morgan. El club está abarrotado a estas horas de la noche, repleto de clientes que quieren relajarse y beber o bien ganar a lo grande. No parece que estéis en peligro.",
+        "name": "El Clover Club",
+        "text": "Cada Enemigo [[Criminal]] obtiene indiferente.\n<b>Obligado</b> - Si un investigador inflige daño a un Enemigo [[Criminal]]: Haz avanzar el plan inmediatamente.",
+        "back_name": "Tras la buena pista",
+        "back_flavor": "Vuestras preguntas han atraído la atención de varios hombres con aspecto de matones a sueldo. —Francis no quiere que le molesten —dice uno de ellos—. Les sugerimos que abandonen el local antes de que debamos obligarles a marcharse.",
+        "back_text": "Añade la pila de descartes de Encuentros al mazo de Encuentros y barájalo.\nSi los jugadores han completado Actividad extracurricular, avanza directamente al plan 2b. Si La casa siempre gana es el primer escenario de la campaña, avanza al plan 2a."
+    },
+    {
+        "code": "02064",
+        "flavor": "La mayoría de los demás clientes parecen ajenos a los mafiosos y matones que empiezan a rodearos. Pero vosotros sois conscientes de lo que ocurre: están a punto de daros una paliza.",
+        "name": "Matones de los bajos fondos",
+        "back_name": "Caos repentino",
+        "back_flavor": "Oís un estruendo que viene de fuera y gritos de dolor en el salón. Una terrible monstruosidad atraviesa la entrada del club, haciendo añicos la escalera y llevándose por delante tanto a clientes como a gánsteres.",
+        "back_text": "Haz aparecer un Enemigo aleatorio del conjunto de encuentros puesto aparte <i>Abominaciones espantosas</i> en el Salón del Clover Club. Añade el resto de ese conjunto de encuentros, el conjunto de encuentros puesto aparte <i>Miedo impactante</i> y la pila de descartes de Encuentros al mazo de Encuentros y barájalo.\nMueve todos los investigadores y Enemigos sin enfrentar de La Bella Luna al Salón del Clover CLub. Retira La Bella Luna de la partida."
+    },
+    {
+        "code": "02065",
+        "flavor": "Las extrañas abominaciones atacan a todos los presentes en el club entre el caos y la confusión. Las salas se llenan de gritos cuando comienza a correr la sangre.",
+        "name": "Caos en el Clover Club",
+        "text": "<b>Obligado</b> - Al comienzo de la fase de Enemigos: Descarta todos los Enemigos [[Criminal]] que estén en el mismo Lugar que un Enemigo [[Abominación]].",
+        "back_name": "El edificio se desploma",
+        "back_flavor": "Mientras las extrañas abominaciones siguen arrasando el club, los cimientos del edificio comienzan a sacudirse y temblar. Huis hacia la salida, pero quedáis atrapados por los escombros que caen cuando el club queda destruido.",
+        "back_text": "<b>(→R4)</b>"
+    },
+    {
+        "code": "02066",
+        "flavor": "Debéis encontrar el Dr. Morgan. El club está abarrotado, y quizás alguien sepa dónde está.",
+        "name": "La suerte del principiante",
+        "text": "[reaction] Cuando reveles una ficha de Caos: Puedes considerar esa ficha como si fuese cualquier otra ficha de la bolsa de caos. Si lo haces, recuerda que “has hecho trampas”. Límite de grupo de una vez por ronda.\n<b>Objetivo</b> - Cuando los investigadores hayan obtenido la cantidad necesaria de pistas, deben gastarlas inmediatamente y hacer avanzar el acto.",
+        "back_name": "Jugador de altos vuelos",
+        "back_flavor": "Tras hablar con varios de los jugadores y camareros, parece que el Dr. Morgan ha tenido una racha increíble últimamente. En lugar de cobrar sus ganancias, le convencieron para que se lo jugara a doble o nada. La última vez que lo vieron, estaba entrando en el pasillo vigilado por guardias que hay en la parte trasera de la sala de juego.",
+        "back_text": "Pon en juego el Pasillo en penumbra puesto aparte.\nSi está en juego el plan 1, descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo [[Criminal]] y haz aparecer ese Enemigo en el Pasillo en penumbra."
+    },
+    {
+        "code": "02067",
+        "flavor": "El Dr. Morgan está en alguna parte de la sección privada del club, donde sólo se permite entrar a los VIP y a los encargados del club. Si queréis encontrarlo, vais a tener que colaros o abriros paso peleando.",
+        "name": "Juego sucio",
+        "text": "<b>Objetivo</b> - Sólo los investigadores que estén en la Zona VIP pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+        "back_name": "El destino del Dr. Morgan",
+        "back_text": "<b>Si los jugadores no han completado Actividad extracurricular:</b><blockquote><em>Encontráis al Dr. Morgan jugando en una de las salas VIP… pero parece estar jugando a las cartas con dos cuerpos inconscientes, con las pupilas dilatadas como si estuviera en trance. No deja de reír, sonreír y charlar con los otros “jugadores”.</em></blockquote>Pon en juego al Dr. Morgan puesto aparte en la Zona VIP. Haz avanzar el acto al acto 3a - “No va más”.\n<hr><b>Si los jugadores han completado Actividad extracurricular</b>:<blockquote><em>Las salas VIP están llenas de los cuerpos mutilados y ensangrentados de infortunados clientes, pero no parece haber ni rastro del Dr. Morgan. Oís griyos y disparos provenientes de la zona principal del club.</em></blockquote>Pon en juego la carta Peter Clover puesta aparte en el Bar del Clover CLub. Busca un Enemigo [[Abominación]] en el mazo de Encuentros (o fuera del juego) y haz que aparezca en el Bar del Clover Club. Haz avanzar el acto al acto 3a - “Abandono”."
+    },
+    {
+        "code": "02068",
+        "flavor": "Tenéis que salir de aquí, con el Dr. Morgan o sin él. Y rápido.",
+        "name": "No va más",
+        "text": "Mientras el Dr. Morgan no esté controlado por un jugador, obtiene “[action]: <b>Negociar.</b> Realizar una pruena de [willpower] (3) para sacar al Dr. Morgan de su estupor. Si tienes éxito, coloca 1 pista de la reserva de pistas sobre él. Si hay 1 pista [per_investigator] sobre el Dr. Morgan, toma su control.”.\n<b>Obligado</b> - Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+        "back_name": "A salvo… Por ahora.",
+        "back_flavor": "Huis del club, tratando de pasar desapercibidos, cuando varios coches paran en la calle. De ellos salen hombres y mujeres de rostro adusto, que corren hacia la entrada del restaurante para controlar la situación. Uno se os queda mirando mientras aferra su arma del .38, pero, por suerte, vuelve dirigir su atención al resto de su grupo y los sigue al interior del club. Dais un suspiro de alivio…",
+        "back_text": "— Si un investigador desistió con el Dr. Francis Morgan bajo su control, <b>(→R2)</b>\n— Si no es así, <b>(→R1)</b>"
+    },
+    {
+        "code": "02069",
+        "flavor": "—¡Barra libre para quien me saque de esta locura! —exclama un hombre desde el bar.",
+        "name": "Abandono",
+        "text": "Mientras Peter Clover no esté controlado por un jugador, obtiene “[action]: <b>Negociar.</b> Realiza una prueba de [willpower] (3) para convencer a Peter Clover de que os siga. Si tienes éxito, coloca 1 pista de la reserva de pistas sobre él. Si hay 1 pista [per_investigator] sobre Peter Clover, toma su control.”\n<b>Objetivo</b> - Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+        "back_name": "Huida del club",
+        "back_flavor": "Os ponéis en marcha para salir a las calles de Arkham, mojadas por la lluvia.",
+        "back_text": "— Si un investigador desistió con Peter Clover bajo su control, <b>(→R3)</b>\n— Si no es así, <b>(→R1)</b>"
+    },
+    {
+        "code": "02070",
+        "flavor": "La música es un cliché, y sólo sirven espaguetis. En lo que a tapaderas de tugurios clandestinos se refiere, no es particularmente creativa.",
+        "name": "La Bella Luna",
+        "text": "[action]: <b>Desistir</b>. Esto ha sido un fiasco.",
+        "traits": "Arkham.",
+        "back_flavor": "La Bella Luna era un establecimiento “multiusos”."
+    },
+    {
+        "code": "02071",
+        "name": "Salón del Clover Club",
+        "text": "Mientras esté en juego el acto 1, el Salón del Clover obtiene:\n“[action] Descarta un Apoyo [[Aliado]] de tu mano: Obtén 2 pistas de la reserva de fichas. Límite de una vez por partida.”.",
+        "traits": "Clover Club.",
+        "back_flavor": "Cómodos sillones de cuero, muebles de caoba y toda una exposición de arte reciben a los jugadores y los tientan a tratar de acceder a la vida de los más pudientes."
+    },
+    {
+        "code": "02072",
+        "name": "Bar del Clover Club",
+        "text": "Mientras esté en juego el acto 1, el Bar del Clover Club obtiene:\n“[action] Gasta 2 recursos: Obtén 2 pistas de la reserva de fichas y roba 2 cartas. Recuerda que te has 'tomado una copa'. Límite de una vez por partida.”.",
+        "traits": "Clover Club.",
+        "back_flavor": "Los estantes que hay tras la barra se comban bajo el peso de todo tipo de bebidas de contrabando: cervezas baratas, licor casero, botellas de vino caro, whisky añejo. Ojalá tuvierais un par de horas de tiempo libre…"
+    },
+    {
+        "code": "02073",
+        "name": "Sala de juego del Clover Club",
+        "text": "Mientras esté en juego el acto 1, la Sala de juego del Clover Club obtiene:\n“[action] Gasta 2 recursos: Revela una ficha de Caos aleatoria.\nSi es un símbolo [elder_sign], obtén 2 pistas y 2 recursos de la reserva de fichas.\nSi es un número par, obtén 2 pistas de la reserva de fichas.\nSi es un número impar o un símbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail], no ocurre nada.”.",
+        "traits": "Clover Club.",
+        "back_flavor": "Al aproximaros a la sala de juego, el entrechocar de las fichas de póquer y el ruido de las cartas se ven acompañado por gritos de júbilo y frustración. El escándalo prácticamente ahoga vuestros pensamientos."
+    },
+    {
+        "code": "02074",
+        "flavor": "La puerta se cierra de golpe después de cruzarla, y os encontrais en medio de un repentino silencio. Esta zona del club es solitaria y está desprovista de calidez y color. De algún modo, el impecable suelo y las paredes parecen más siniestros que acogedores.",
+        "name": "Pasillo en penumbra",
+        "text": "<b>Obligado</b> - Cuando el Pasillo en penumbra sea revelado: Pon en juego los 3 Lugares Puerta del final del pasillo puestos aparte.",
+        "traits": "Clover Club.",
+        "back_flavor": "Hay una pesada puerta de roble en un rincón apartado del club. Al acercaros a ella, el aire se vuelve pesado, y el clamor de la sala de juego se atenúa a vuestra espalda."
+    },
+    {
+        "code": "02075",
+        "flavor": "Las paredes de la galería privada de Peter Clover están adornadas con obras de arte y antigüedades exóticas. Una brisa vespertina pasa las manoseadas páginas de un libro de cuentas adelanta y atrás.",
+        "name": "Galería de arte",
+        "text": "<b>Obligado</b> - Después de que fracases en una prueba de habilidad al investigar la Galería de arte: Descarta 2 recursos.",
+        "traits": "Clover Club.",
+        "back_name": "Puerta al final del pasillo",
+        "back_flavor": "Os acercáis a una puerta del fondo del Clover Club que no tiene ningún distintivo."
+    },
+    {
+        "code": "02076",
+        "flavor": "El metálico olor de sangre asalta vuestros sentidos. El suelo está cubierto de cristales rotos, y el tapizado está hecho pedazos. ¿Dónde está el Dr. Morgan?",
+        "name": "Zona VIP",
+        "text": "Mientras estés en la Zona VIP, no puedes robar cartas ni obtener recursos durante la fase de Mantenimiento.",
+        "traits": "Clover Club.",
+        "back_name": "Puerta al final del pasillo",
+        "back_flavor": "Os acercáis a una puerta del fondo del Clover Club que no tiene ningún distintivo."
+    },
+    {
+        "code": "02077",
+        "flavor": "Una empinada y estrecha escalera sube hacia una segunda puerta sin ningún distintivo. Para vuestra sorpresa, da a un callejón trasero que hay detrás de La Bella Luna. Por aquí debe de ser por donde traen sus \"artículos\" de contrabando.",
+        "name": "Callejón trasero",
+        "text": "[action]: <b>Desistir</b>. ¡Podemos salir por aquí!",
+        "traits": "Clover Club.",
+        "back_name": "Puerta al final del pasillo",
+        "back_flavor": "Os acercáis a una puerta del fondo del Clover Club que no tiene ningún distintivo."
+    },
+    {
+        "code": "02078",
+        "name": "Jefe de sala del Clover Club",
+        "text": "<b>Presa</b> - Mayor [intellect].\nCazador.\n<b>Obligado</b> - Después de que un investigador obtenga cualquier cantidad de pistas en el mismo Lugar en el que esté el Jefe de sala del Clover Club: El Jefe de sala del Clover Club se prepara, se enfrenta a ese investigador y realiza un ataque inmediatamente.",
+        "traits": "Criminal. Élite."
+    },
+    {
+        "code": "02079",
+        "name": "Peter Clover",
+        "subname": "Tiene todas las cartas",
+        "text": "<b>Obligado</b> - Al comienzo de la fase de Enemigos, si ningún investigador controla a Peter Clover: Inflígele 1 punto de daño.\n[free] Agota a Peter Clover: Evita automáticamente a un Enemigo [[Criminal]] en tu Lugar.",
+        "traits": "Humanoide. Criminal."
+    },
+    {
+        "code": "02080",
+        "name": "Dr. Francis Morgan",
+        "subname": "Profesor de Arqueología",
+        "text": "Recibes +1 [combat].\n[reaction] Después de que derrotes a un Enemigo, agota al Dr. Francis Morgan: Roba 1 carta.",
+        "traits": "Aliado. Miskatonic.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "02081",
+        "flavor": "Una desagradable calidez te recorre el cuerpo, y miras soñolientamente el vaso vacío.",
+        "name": "Algo en la bebida",
+        "text": "Oleada.\n<b>Revelación</b> - Cada jugador que haya “tomado una copa” pierde 1 acción.",
+        "traits": "Veneno. Ilegal."
+    },
+    {
+        "code": "02082",
+        "flavor": "Hay ojos por todas partes que vigilan cada uno de vuestros movimientos.",
+        "name": "Levantando sospechas",
+        "text": "<b>Revelación</b> - Coloca 1 ficha de Perdición sobre cada Enemigo [[Criminal]] que esté en tu Lugar. Si no se colocó ninguna ficha de Perdición por este efecto, descarta 2 recursos."
+    },
+    {
+        "code": "02083",
+        "flavor": "¿Son visiones de cosas que ocurrirán, o de cosas que podrían ocurrir? ¿O es posible que estos horrores ya hayan tenido lugar?",
+        "name": "Visiones de futuros pasados",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower] (5). Por cada punto que te falte para tener éxito, descarta la primera carta de tu mazo.",
+        "traits": "Maleficio."
+    },
+    {
+        "code": "02084",
+        "name": "Al otro lado del velo",
+        "text": "Oleada.\n<b>Revelación</b> - Pon Al otro lado del velo en juego en tu zona de amenaza si no hay ninguna copia de Al otro lado del velo en tu zona de amenaza.\n<b>Obligado</b> - Si no hay cartas en tu mazo: Recibe 10 puntos de daño y descarta Al otro lado del velo.",
+        "traits": "Maleficio."
+    },
+    {
+        "code": "02085",
+        "name": "Luz de Aforgomon",
+        "text": "Peligro.\n<b>Revelación</b> - Debes vincular Luz de Aforgomon al plan en curso o al acto en curso.\nLímite de 1 por plan/acto. Considera todo el daño como daño directo y todo el horror como horror directo.",
+        "traits": "Pacto. Poder."
+    },
+    {
+        "code": "02086",
+        "flavor": "Una malevolencia ha dominado sus mentes, convirtiéndolos en marionetas sin alma.",
+        "name": "Esclavo",
+        "text": "<b>Aparición</b> - El Lugar que tenga más pistas.\nRepresalia.",
+        "traits": "Humanoide. Monstruo. Abominación."
+    },
+    {
+        "code": "02087",
+        "name": "Mago de Yog-Sothoth",
+        "text": "<b>Presa</b> - Menos cartas en la mano.\nCazador.\n<b>Obligado</b> - Cuando el investigador enfrentado robe una carta [[Maleficio]] o [[Pacto]]: El Mago de Yog-Sothoth ataca a ese investigador.",
+        "traits": "Humanoide. Hechicero."
+    },
+    {
+        "code": "02088",
+        "name": "Campiña impía",
+        "text": "<b>Revelación</b> - Pon la Campiña impía en juego en tu zona de amenaza.\nNo puedes jugar Apoyos [[Aliado]]. Considera el cuadro de texto impreso de cada Apoyo [[Aliado]] que controles como si estuviera en blanco.\n<b>Obligado</b> - Al final de tu turno: Realiza una prueba de [willpower] (3). Si tienes éxito, descarta Campiña impía.",
+        "traits": "Terror."
+    },
+    {
+        "code": "02089",
+        "name": "Sórdidos y silencionsos",
+        "text": "<b>Revelación</b> - Vincula Sórdidos y silenciosos a tu Lugar.\n<b>Obligado</b> - Al final de la ronda: Cada investigador que esté en el Lugar vinculado recibe 1 punto de horror.\n<b>Obligado</b> - Cuando el plan avance: Descarta Sórdidos y silenciosos.",
+        "traits": "Terror."
+    },
+    {
+        "code": "02090",
+        "flavor": "Afirman que tales pájaros son psicopompos que están al acecho de las almas de los muertos... <cite>H. P. Lovecraft, \"El Horror de Dunwich\"</cite>",
+        "name": "Chotacabras",
+        "text": "Indiferente. Cazador.\nCada investigador que esté en el mismo Lugar que el Chotacabras recibe -1 [willpower], -1 [intellect], -1 [combat], and -1 [agility].",
+        "traits": "Criatura."
+    },
+    {
+        "code": "02091",
+        "name": "Ávidos de muerte",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower] (2). Aumenta la dificultad de esta prueba en 1 por cada punto de daño que tengas. Si fracasas, recibe 2 puntos de horror.",
+        "traits": "Augurio.",
+        "flavor": "Si consiguen atrapar el alma fugitiva en el momento en que abandona el cuerpo se ponen a revolotear al instante y prorrumpen en diabólicas risotadas... <cite>H. P. Lovecraft, \"El Horror de Dunwich\"</cite>"
+    },
+    {
+        "code": "02092",
+        "name": "Suerte maldita",
+        "text": "<b>Revelación</b> - Pon la Suerte maldita en juego en tu zona de amenaza.\nRecibes -1 al valor de habilidad durante las pruebas de habilidad.\n<b>Obligado</b> - Después de que tengas éxito en una prueba de habilidad por 1 o más: Descarta la Suerte maldita.",
+        "traits": "Augurio."
+    },
+    {
+        "code": "02093",
+        "name": "Giro del destino",
+        "text": "<b>Revelación</b> - Revela una ficha al azar de la bolsa de caos.\nSi revelas un símbolo [elder_sign] o un número positivo, no ocurre nada.\nSi revelas cualquier otro número, recibe 1 punto de daño.\nSi revelas un símbolo [skull], [cultist], [tablet], [elder_thing], o [auto_fail], recibe 2 puntos de horror.",
+        "traits": "Augurio."
+    },
+    {
+        "code": "02094",
+        "name": "Esclavo aviar",
+        "text": "<b>Presa</b> - Menor [intellect].\nCazador.\nMientras el Esclavo aviar esté siendo atacado usando un Apoyo [[A distancia]], [[Arma de fuego]], o [[Hechizo]], recibe -3 a combate.",
+        "traits": "Criatura. Monstruo. Abominación."
+    },
+    {
+        "code": "02095",
+        "flavor": "¿Qué clase de lobo tiene tantos dientes?",
+        "name": "Esclavo lobuno",
+        "text": "<b>Aparición</b> - Lugar más alejado de ti.\n<b>Presa</b> - Menor [agility].\nCazador. Represalia.",
+        "traits": "Criatura. Monstruo. Abominación."
+    },
+    {
+        "code": "02096",
+        "name": "Bestia alterada",
+        "text": "<b>Revelación</b> - Si no hay ningún Enemigo [[Abominación]] en juego, Bestia alterada obtiene Oleada. Si no es así, elige un enemigo [[Abominación]]. Cura todo el daño de ese Enemigo y vincúlale Bestia alterada.\n<b>Obligado</b> - Cuando entres en el Lugar del Enemigo vinculado (o viceversa): Recibe 1 punto de horror.",
+        "traits": "Poder."
+    },
+    {
+        "code": "02097",
+        "flavor": "\"¿Vas a causar algún problema?\"",
+        "name": "Matón de O'Bannion",
+        "text": "Mientras el Matón de O'Bannion esté enfrentado a ti, no puedes obtener recursos.",
+        "traits": "Humanoide. Criminal. Sindicato."
+    },
+    {
+        "code": "02098",
+        "flavor": "\"Más vale que te largues, amigo, a menos que quieras probar el cuero de mi bota y tragar plomo.\"",
+        "name": "Mafioso",
+        "text": "Represalia.\n<b>Obligado</b> - Después de que el Mafioso te ataque: Descarta 1 recurso.",
+        "traits": "Humanoide. Criminal. Sindicato."
+    },
+    {
+        "code": "02099",
+        "name": "Cazado",
+        "text": "<b>Revelación</b> - Si no hay ningún Enemigo [[Criminal]] sin enfrentar en juego, Cazado obtiene Oleada. Si hay 1 o más Enemigos [[Criminal]] sin enfrentar en juego, cada uno se mueve 1 Lugar hacia ti. Cada enemigo [[Criminal]] que se enfrente a ti como resultado de este efecto realiza un ataque inmediatamente.",
+        "traits": "Táctica."
+    },
+    {
+        "code": "02100",
+        "name": "Empujado al otro lado",
+        "text": "<b>Revelación</b> - Elige un Apoyo que controles que no sea de historia, añádelo a tu mazo y baraja éste. Descarta las 3 primeras cartas de tu mazo. Si es descartada una copia de ese Apoyo, recibe 2 puntos de horror.",
+        "traits": "Maleficio."
+    },
+    {
+        "code": "02101",
+        "name": "Terror del otro lado",
+        "text": "Peligro.\n<b>Revelación</b> - Elige 1 de los siguientes tipos de carta: Apoyo, Evento o Habilidad. Cada jugador debe descartar todas las cartas de su mano que sean del tipo de carta elegido. Si ésta no es la primera copia de Terror del otro lado robada en esta fase, elige 2 tipos de carta en lugar de 1.",
+        "traits": "Maleficio. Terror."
+    },
+    {
+        "code": "02102",
+        "name": "Barrera arcana",
+        "text": "<b>Revelación</b> - Vincula esta carta a tu Lugar.\nComo coste adicional para entrar o salir del Lugar vinculado, realiza una prueba de [willpower] (4). Si tiene éxito, descarta la Barrera arcana. Si no es así, debes cancelar los efectos del movimiento o bien descartar las 5 primeras cartas de tu mazo.",
+        "traits": "Maleficio. Obstáculo."
+    },
+    {
+        "code": "02103",
+        "name": "Conglomerado de esferas",
+        "text": "<b>Presa</b> - Menor [willpower].\nCazador.\n<b>Obligado</b> - Después de que realices un ataque contra el Conglomerado de esferas usando una carta [[Cuerpo a cuerpo]]: Descarta esa carta.",
+        "traits": "Monstruo. Abominación."
+    },
+    {
+        "code": "02104",
+        "name": "Sirviente del que acecha",
+        "text": "<b>Presa</b> - Menor [agility].\nCazador.\n<b>Obligado</b> - Cuando el Sirviente del que acecha te ataque: Descarta las 2 primeras cartas de tu mazo.",
+        "traits": "Monstruo. Abominación."
+    }
+]

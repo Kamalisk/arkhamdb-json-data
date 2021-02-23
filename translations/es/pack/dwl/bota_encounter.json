@@ -1,9 +1,9 @@
 [
     {
         "code": "02195",
-        "name": "Sangre en el altar",
-        "text": "<b>Fácil/Normal</b>\n[skull]: -1 por cada Lugar en juego que no tenga ninguna carta de Encuentro debajo (máx. -4).\n[cultist]: -2. Si fracasas, añade 1 pista de la reserva de fichas a tu Lugar.\n[tablet]: -2. Si estás en La cámara oculta, revela otra ficha.\n[elder_thing]: -3. Si fracasas, coloca 1 ficha de Perdición sobre el plan en curso.",
-        "back_text": "<b>Difícil/Experto</b>\n[skull]: -1 por cada Lugar en juego que no tenga ninguna carta de Encuentro debajo.\n[cultist]: -4. Si fracasas, añade 1 pista de la reserva de fichas a tu Lugar.\n[tablet]: -3. Revela otra ficha.\n[elder_thing]: -3. Coloca 1 ficha de Perdición sobre el plan en curso."
+        "name": "Blood on the Altar",
+        "text": "[skull]: -1 for each location in play with no encounter card underneath it (max -4).\n[cultist]: -2. If you fail, add 1 clue from the token pool to your location.\n[tablet]: -2. If you are in the Hidden Chamber, reveal another token.\n[elder_thing]: -3. If you fail, place 1 doom on the current agenda.",
+        "back_text": "[skull]: -1 for each location in play with no encounter card underneath it.\n[cultist]: -4. If you fail, add 1 clue from the token pool to your location.\n[tablet]: -3. Reveal another token.\n[elder_thing]: -3. Place 1 doom on the current agenda."
     },
     {
         "code": "02196",
@@ -33,7 +33,7 @@
         "code": "02199",
         "flavor": "The disappearances in town may be related to the events in Arkham. You suspect that something awful is afoot. You must find where the missing townsfolk are being held in order to unveil this conspiracy.",
         "name": "Searching for Answers",
-        "text": "<b>Objetivo</b> - When an investigator enters The Hidden Chamber, advance.",
+        "text": "<b>Objective</b> - When an investigator enters The Hidden Chamber, advance.",
         "back_name": "What Was Hidden",
         "back_flavor": "You find your way into the hidden chamber where you believe the missing folk are being held, but the horrors that confront you there fray the edges of your sanity. Bound by chains in a secluded corner of the room is an unspeakable creature with the face of a man. It wheezes and wrestles to free itself as it notices your entrance. The many mouths covering the creature’s body are covered in blood and gristles of meat, as though it were feeding recently.",
         "back_text": "Reveal each unrevealed location. \nMove all clues in play (including those on each investigator) to The Hidden Chamber.\nSpawn the set-aside Silas Bishop enemy in The Hidden Chamber."
@@ -42,178 +42,191 @@
         "code": "02200",
         "flavor": "The pitiful beast lunges to grab you with slimy arms, its many jaws snapping in hunger. Killing it would be merciful. But perhaps there is something else to discover about this creature…",
         "name": "The Chamber of the Beast",
-        "text": "<b>Objetivo</b> - If Silas Bishop is defeated: <b>(→R1)\nObjective</b> - If there are no clues in the Hidden Chamber, advance.",
+        "text": "<b>Objective</b> - If Silas Bishop is defeated: <b>(→R1)\nObjective</b> - If there are no clues in the Hidden Chamber, advance.",
         "back_name": "Banishing the Creature",
         "back_flavor": "Despite the danger, you brave the beast's horrifying presence and investigate further before killing it. What you find confirms your worst suspicions. Several journal entries written by a \"Seth Bishop\" describe the process of feeding the creature in horrifying detail - tomatoes at first, then small game, then cattle, and then finally 'human sacrifices'. But the most disturbing part is that Seth calls the creature by name: 'Silas.'",
         "back_text": "If The Necronomicon is in play: <b>(→R2)\n</b>Otherwise: <b>(→R3)</b>"
     },
     {
         "code": "02201",
-        "flavor": "...las pocas casas diseminadas a lo largo del camino presentan un sorprendente aspecto uniforme de decrepitud, suciedad y ruina.\n–H. P. Lovecraft, \"El Horror de Dunwich\"",
-        "name": "Calles de la aldea",
-        "text": "[action] <b>Desistir</b>. \"¡Esto es un suicidio! Será mejor que nos ocultemos durante la noche.\"",
+        "flavor": "…it is hard to prevent the impression of a faint, malign odour about the village street, as of the massed mould and decay of centuries.\n–H. P. Lovecraft, “The Dunwich Horror”",
+        "name": "Village Commons",
+        "text": "[action] <b>Resign</b>. \"This is suicide! We're better off hiding out the night.\"",
         "traits": "Dunwich. Central.",
-        "back_flavor": "...es difícil que a uno no le asalte la sensación de un ligero hedor al pasar por la calle principal y ver la descomposición y la mugre acumuladas a lo largo de los siglos.\n–H. P. Lovecraft, \"El Horror de Dunwich\""
+        "back_flavor": "...it is hard to prevent the impression of a faint, malign odour about the village street, as of the massed mould and decay of centuries.\n–H. P. Lovecraft, \"The Dunwich Horror\""
     },
     {
         "code": "02202",
-        "name": "Arroyo Bishop",
+        "name": "Bishop's Brook",
         "text": "Each enemy at Bishop's Brook deals +1 horror while it is attacking.\n[free]If there are no clues here: Draw the encounter card underneath Bishop's Brook. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it. –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it.\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it. –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02203",
-        "name": "Arroyo Bishop",
+        "name": "Bishop's Brook",
         "text": "If there is an investigator at Bishop's Brook, other investigators cannot enter Bishop's Brook.\n[free]If there are no clues here: Draw the encounter card underneath Bishop's Brook. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it. –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it.\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "One dreads to trust the tenebrous tunnel of the bridge, yet there is no way to avoid it. –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02204",
-        "name": "Ruinas calcinadas",
+        "name": "Burned Ruins",
         "text": "Each enemy in the Burned Ruins gets +1 evade.\n[free]If there are no clues here: Draw the encounter card underneath Burned Ruins. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin... –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin...\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin... –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02205",
-        "name": "Ruinas calcinadas",
+        "name": "Burned Ruins",
         "text": "[reaction] After you fail a skill test while investigating the Burned Ruins: Flip 1 clue token on the Burned Ruins to its doom side.\n[free]If there are no clues here: Draw the encounter card underneath Burned Ruins. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin... –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin...\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "It is not reassuring to see, on a closer glance, that most of the houses are deserted and falling to ruin... –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02206",
-        "name": "Almacén general de Osborn",
+        "name": "Osborn's General Store",
         "text": "You cannot gain resources while you are in Osborn's General Store.\n[free] If there are no clues here: Draw the encounter card underneath Osborn's General Store. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened... –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened...\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened... –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02207",
-        "name": "Almacén general de Osborn",
-        "text": "[action]Spend 1 resource: Search the top 3 cards of your deck for an [[Objeto]] card and add it to your hand. Shuffle your deck.\n[free] If there are no clues here: Draw the encounter card underneath Osborn's General Store. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened... –H. P. Lovecraft, \"El Horror de Dunwich\""
+        "name": "Osborn's General Store",
+        "text": "[action]Spend 1 resource: Search the top 3 cards of your deck for an [[Item]] card and add it to your hand. Shuffle your deck.\n[free] If there are no clues here: Draw the encounter card underneath Osborn's General Store. (Group limit once per game).",
+        "traits": "Dunwich.",
+        "back_flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened...\n–H. P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "From the air of hushed fright at Osborn’s store they knew something hideous had happened... –H. P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02208",
-        "name": "Iglesia congregacional",
-        "text": "<b>Obligado</b> - After Congregational Church is revealed: Search the encounter deck for a [[Humanoide]] enemy and spawn it at the Village Commons. Shuffle the encounter deck.\n[free]If there are no clues here: Draw the encounter card underneath Congregational Church. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "“I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up…”\n–H.P. Lovecraft, \"El Horror de Dunwich\""
+        "name": "Congregational Church",
+        "text": "<b>Forced</b> - After Congregational Church is revealed: Search the encounter deck for a [[Humanoid]] enemy and spawn it at the Village Commons. Shuffle the encounter deck.\n[free]If there are no clues here: Draw the encounter card underneath Congregational Church. (Group limit once per game).",
+        "traits": "Dunwich.",
+        "back_flavor": "\"I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up...\"\n–H.P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "“I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up…”\n–H.P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02209",
-        "name": "Iglesia congregacional",
+        "name": "Congregational Church",
         "text": "[action] Choose and discard a card from your hand: Gain 2 resources.\nIf there are no clues here: Draw the encounter card underneath Congregational Church. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "“I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up…”\n–H.P. Lovecraft, \"El Horror de Dunwich\""
+        "traits": "Dunwich.",
+        "back_flavor": "\"I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up...\"\n–H.P. Lovecraft, \"The Dunwich Horror\"",
+        "flavor": "“I my self did not more than a Fortnight ago catch a very plain Discourse of evill Powers in the Hill behind my House; wherein there were a Rattling and Rolling, Groaning, Screeching, and Hissing, such as no Things of this Earth cou’d raise up…”\n–H.P. Lovecraft, “The Dunwich Horror”"
     },
     {
         "code": "02210",
-        "name": "Casa entre juncos",
+        "name": "House in the Reeds",
         "text": "While you are in the House in the Reeds, you cannot play events.\n If there are no clues here: Draw the encounter card underneath House in the Reeds. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "Ni siquiera los lugareños se acercan a esta choza medio hundida."
+        "traits": "Dunwich.",
+        "back_flavor": "Even the locals stay away from this half-sunken hovel.",
+        "flavor": "Even the locals stay away from this half-sunken hovel."
     },
     {
         "code": "02211",
-        "name": "Casa entre juncos",
-        "text": "<b>Obligado</b> - After House in the Reeds is revealed: Search the encounter deck for a [[Nightgaunt]] enemy and spawn it in the Village Commons. Shuffle the encounter deck.\n[free] If there are no clues here: Draw the encounter card underneath House in the Reeds. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "Ni siquiera los lugareños se acercan a esta choza medio hundida."
+        "name": "House in the Reeds",
+        "text": "<b>Forced</b> - After House in the Reeds is revealed: Search the encounter deck for a [[Nightgaunt]] enemy and spawn it in the Village Commons. Shuffle the encounter deck.\n[free] If there are no clues here: Draw the encounter card underneath House in the Reeds. (Group limit once per game).",
+        "traits": "Dunwich.",
+        "back_flavor": "Even the locals stay away from this half-sunken hovel.",
+        "flavor": "Even the locals stay away from this half-sunken hovel."
     },
     {
         "code": "02212",
-        "name": "Escuela",
+        "name": "Schoolhouse",
         "text": "While you are in the Schoolhouse, you cannot commit skill cards to skill tests.\n[free] If there are no clues here: Draw the encounter card underneath Schoolhouse. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse."
+        "traits": "Dunwich.",
+        "back_flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse.",
+        "flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse."
     },
     {
         "code": "02213",
-        "name": "Escuela",
+        "name": "Schoolhouse",
         "text": "You cannot discover clues here except by investigating.\n[free] If there are no clues here: Draw the encounter card underneath Schoolhouse. (Group limit once per game).",
-        "traits": "Dunwich",
-        "back_flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse."
+        "traits": "Dunwich.",
+        "back_flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse.",
+        "flavor": "With its crumbling rooftop and rat-infested walls, this is hardly even a house, let alone a schoolhouse."
     },
     {
         "code": "02214",
-        "name": "La cámara oculta",
-        "subname": "Prisión de la bestia",
-        "text": "<b>Revelación</b> - Pon La cámara oculta en juego.\nLa cámara oculta y el Lugar del que fue robada están conectados entre sí.\nLa puerta que da a La cámara oculta está cerrada. No puedes entrar en La cámara oculta a menos que la Llave de la cámara esté vinculada a La cámara oculta.",
-        "traits": "Dunwich",
+        "name": "The Hidden Chamber",
+        "subname": "Prison of the Beast",
+        "text": "<b>Revelation</b> - Put The Hidden Chamber into play.\nThe Hidden Chamber and the location from which it was drawn are connected to one another.\nThe door to The Hidden Chamber is locked. You cannot enter The Hidden Chamber unless Key to the Chamber is attached to The Hidden Chamber.",
+        "traits": "Dunwich.",
+        "back_text": "<b>Revelation</b> - Put The Hidden Chamber into play.\nThe Hidden Chamber is connected to the location from which it was drawn.\nThe door to The Hidden Chamber is locked. You cannot enter The Hidden Chamber unless Key to the Chamber is attached to The Hidden Chamber."
     },
     {
         "code": "02215",
-        "flavor": "Esta deslustrada llave de plata estaba muy bien escondida. Debe de abrir algo importante.",
-        "name": "Llave de la cámara",
-        "text": "<b>Revelación</b> - Toma el control de la Llave de la cámara.\n[free] Si La cámara oculta está conectada a tu Lugar: Vincula la Llave de la cámara a La cámara oculta.",
-        "traits": "Objeto. Llave."
+        "flavor": "This tarnished silver key was hidden and kept safe out of sight. It must lead somewhere important.",
+        "name": "Key to the Chamber",
+        "text": "<b>Revelation</b> - Take control of Key to the Chamber.\n[free] If The Hidden Chamber is connected to your location: Attach Key to the Chamber to The Hidden Chamber.",
+        "traits": "Item. Key."
     },
     {
         "code": "02216",
-        "flavor": "¿Qué pasaba en las montañas aquella noche de mayo? ¿Qué horror engendrado el día de la Invención de la Cruz se había abatido sobre el mundo en forma de carne y hueso semihumanos?\n—H. P. Lovecraft, “El Horror de Dunwich”",
+        "flavor": "What walked on the mountains that May-Night?\nWhat Roodmas horror fastened itself on the world in half human flesh and blood?\n—H. P. Lovecraft, “The Dunwich Horror”",
         "name": "Silas Bishop",
-        "subname": "Impregnado por el mal",
-        "text": "Descomunal.\nSilas Bishop no puede realizar ataques de oportunidad.",
-        "traits": "Monstruo. Abominación. Élite."
+        "subname": "Infused With Evil",
+        "text": "Massive.\nSilas Bishop cannot make attacks of opportunity.",
+        "traits": "Monster. Abomination. Elite."
     },
     {
         "code": "02217",
-        "flavor": "...sus recuerdos de cantos en los grandes círculos de piedra no tenían nada que ver con lo que pudieran haber hecho Wilbur y su abuelo.\n–H. P. Lovecraft, “El Horror de Dunwich”",
+        "flavor": "He came of a line where tradition ran strong, and his memories of chantings in the great stone circles were not altogether connected with Wilbur and his grandfather. –H. P. Lovecraft, “The Dunwich Horror”",
         "name": "Zebulon Whateley",
-        "subname": "Recordando cosas antiguas",
-        "text": "Recibes +1 [willpower].\n[reaction] Después de que tengas éxito en una prueba de [willpower] de una carta de Traición, agota a Zebulon Whateley: Roba 1 carta.",
-        "traits": "Aliado. Dunwich.",
-        "slot": "Aliado"
+        "subname": "Recalling Ancient Things",
+        "text": "You get +1 [willpower].\n[reaction] After you succeed at a [willpower] test on a treachery card, exhaust Zebulon Whateley: Draw 1 card.",
+        "traits": "Ally. Dunwich.",
+        "slot": "Ally"
     },
     {
         "code": "02218",
-        "flavor": "Earl Sawyer, que cuidaba del caballo y del ganado desde el fallecimiento de Wilbur, había sufrido una aguda crisis de nervios.\n–H. P. Lovecraft, “El Horror de Dunwich”",
+        "flavor": "Earl Sawyer, who tended the horse and cattle during Wilbur’s absence, had developed a woefully acute case of nerves. –H. P. Lovecraft, “The Dunwich Horror”",
         "name": "Earl Sawyer",
-        "subname": "Más listo de lo que aparenta",
-        "text": "Recibes +1 [agility].\n Después de que evites a un Enemigo, agota a Earl Sawyer: Roba 1 carta.",
-        "traits": "Aliado. Dunwich.",
-        "slot": "Aliado"
+        "subname": "Smarter Than He Lets On",
+        "text": "You get +1 [agility].\n After you evade an enemy, exhaust Earl Sawyer: Draw 1 card.",
+        "traits": "Ally. Dunwich.",
+        "slot": "Ally"
     },
     {
         "code": "02219",
-        "name": "Polvo de Ibn-Ghazi",
-        "subname": "Ver cosas invisibles",
-        "text": "El Polvo de Ibn-Ghazi entra en juego con X pistas sobre él, donde X es el número de personajes que \"sobrevivieron a El legado de Dunwich\" de tu registro de campaña.\n[free]: Mueve 1 pista del Polvo de Ibn-Ghazi a una Progenie de Yog-Sothoth agotada que esté en tu Lugar.",
-        "traits": "Objeto."
+        "name": "Powder of Ibn Ghazi",
+        "subname": "Seeing Things Unseen",
+        "text": "Powder of Ibn Ghazi enters play with X clues on it, where X is the number of characters who \"survived the Dunwich Legacy\" in your Campaign Log.\n[free]: Move 1 clue from Powder of Ibn Ghazi to an exhausted Brood of Yog-Sothoth at your location.",
+        "traits": "Item."
     },
     {
         "code": "02220",
-        "name": "¡Secuestrado!",
-        "text": "<b>Revelación</b> - Realiza una prueba de [willpower] (4) o de [agility] (4). Si fracasas, añade un Apoyo [[Aliado]] que controles a la reserva de sacrificios potenciales. A continuación, vincula ¡Secuestrado! al plan en curso. Si no tienes ningún Apoyo [[Aliado]], en lugar de eso recibe 2 puntos de daño y descarta ¡Secuestrado!.\n<b>Obligado</b> - Cuando el plan vinculado avance: Elige un sacrificio potencial aleatorio y colócalo bajo el mazo de Plan."
+        "name": "Kidnapped!",
+        "text": "<b>Revelation</b> - Test [willpower] (4) or [agility] (4). If you fail, add an [[Ally]] asset you control to the pool of potential sacrifices. Then, attach Kidnapped! to the current agenda. If you have no [[Ally]] assets, take 2 damage and discard Kidnapped! instead.\n<b>Forced</b> - When attached agenda advances: Choose a potential sacrifice at random and place it underneath the agenda deck."
     },
     {
         "code": "02221",
-        "name": "Canción del psicopompo",
-        "text": "Oleada. Peligro.\n<b>Revelación</b> - Añade la Canción del psicopompo a la zona de amenaza de cualquier investigador.\n<b>Obligado</b> - Cuando fueses a recibir 1 o más puntos de daño: Recibe 2 puntos de daño adicionales y descarta la Canción del psicopompo.",
-        "traits": "Augurio."
+        "name": "Psychopomp's Song",
+        "text": "Surge. Peril.\n<b>Revelation</b> - Add Psychopomp's Song to any investigator's threat area.\n<b>Forced</b> - When you would take 1 or more damage: Take 2 additional damage and discard Psychopomp's Song.",
+        "traits": "Omen."
     },
     {
         "code": "02222",
-        "name": "Señales extrañas",
-        "text": "<b>Revelación</b> - Realiza una prueba de [intellect] (3). Si fracasas, añade 1 pista de la reserva de fichas a tu Lugar, o bien 2 pistas si hay 3 o 4 investigadores en la partida.",
-        "traits": "Augurio."
+        "name": "Strange Signs",
+        "text": "<b>Revelation</b> - Test [intellect] (3). If you fail, add 1 clue from the token pool to your location (2 clues instead if there are 3 or 4 investigators in the game).",
+        "traits": "Omen."
     },
     {
         "code": "02223",
-        "flavor": "Una nauseabunda exhibición de sangre y vísceras te provoca arcadas. Te alegra no ser tú.",
-        "name": "Restos en descomposición",
-        "text": "<b>Revelación</b> - Realiza una prueba de [willpower] (3). Por cada punto que te falte para tener éxito, recibe 1 punto de horror.",
+        "flavor": "A sickening display of gore causes you to retch. You’re glad this wasn’t you.",
+        "name": "Rotting Remains",
+        "text": "<b>Revelation</b> - Test [willpower] (3). For each point you fail by, take 1 horror.\n",
         "traits": "Terror."
     },
     {
         "code": "02224",
-        "name": "Sirviente de muchas bocas",
-        "text": "<b>Aparición</b> - Cualquier Lugar vacío.\nRepresalia.\n[reaction] Después de que derrotes al Sirviente de muchas bocas: Descubre 1 pista en cualquier Lugar.",
-        "traits": "Humanoide."
+        "name": "Servant of Many Mouths",
+        "text": "<b>Spawn</b> - Any empty location.\nRetaliate.\n[reaction] </b>After you defeat Servant of Many Mouths: Discover 1 clue at any location.",
+        "traits": "Humanoid."
     }
 ]

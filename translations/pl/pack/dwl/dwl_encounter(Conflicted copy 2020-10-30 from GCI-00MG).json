@@ -1,0 +1,485 @@
+[
+    {
+        "code": "02040",
+        "flavor": "Armitage knew he would be meddling with terrible powers, yet saw that there was no other way to annul the deeper and more malign meddling which others had done before him. - H. P. Lovecraft, \"The Dunwich Horror\"",
+        "name": "Dr. Henry Armitage",
+        "subname": "Główny bibliotekarz",
+		"flavor": "Armitage zdawał sobie sprawę, że będzie miał do czynienia ze strasznymi mocami, ale nie widział innej możliwości zniweczenia o wiele poważniejszej i złowrogiej działalności podjętej przez jego poprzedników.<br><cite>H. P. Lovecraf, Koszmar w Dunwich</cite>",
+        "text": "[reaction] Po tym, jak dobierzesz kartę niebędącą osłabieniem, odrzuć daną kartę i wyczerp dr. Henry'ego Armitage'a: otrzymujesz 3 żetony zasobów.",
+        "traits": "Sprzymierzeniec. Miskatonic.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "02041",
+        "name": "Zajęcia pozalekcyjne",
+        "text": "<b>Łatwy / Standardowy</b>\n[skull]: -1. Jeśli test zakończy się porażką, odrzuć 3 wierzchnie karty z twojej talii.\n[cultist]: -1 (zamiast tego -3, jeśli na twoim stosie kart odrzuconych znajduje się co najmniej 10 kart).\n[elder_thing]: -X. Odrzuć 2 wierzchnie karty z twojej talii. X to całkowity wydrukowany koszt odrzucanych kart.",
+        "back_text": "<b>Trudny / Ekspercki</b>\n[skull]: -2. Jeśli test zakończy się porażką, z twojej talii.\n[cultist]: -1 (zamiast tego -5 jeśli na twoim stosie kart odrzuconych znajduje się co najmniej 10 kart).\n[elder_thing]: -X. Odrzuć 3 wierzchnie karty (6 z twojej talii. X to całkowity wydrukowany koszt odrzucanych kart."
+    },
+    {
+        "code": "02042",
+        "flavor": "Aby odszukać profesora Warrena Rice'a, i udajecie się na Uniwersytet Miskatonic. Zajęcia się skończyły i na kampusie panuje upiorna cisza.",
+        "name": "Opustoszałe korytarze",
+        "back_name": "Coś się tu czai",
+        "back_flavor": "Na uniwersytecie jest śmiertelnie cicho. Cienie wiją się u waszych stóp, gdy idziecie przed siebie i nie potraficie pozbyć się uczucia, że cały czas jesteście śledzeni. Czyżby wyobraźnia płatała wam figle? A może ktoś - albo coś - naprawdę was obserwuje?",
+        "back_text": "Każdy badacz, który na swoim stosie kart odrzuconych ma co najmniej 5 kart, otrzymuje 1 punkt przerażenia. Zamiast tego, każdy badacz, który na swoim stosie kart odrzuconych ma co najmniej 10 kart, otrzymuje 2 punkty przerażenia.\nJeśli gracze ukończyli Kasyno zawsze wygrywa, talia postępuje bezpośrednio do Tajemnicy 2b.Jeśli Zajęcia pozalekcyjne są pierwszym scenariuszem w kampanii, talia postępuje do Tajemnicy 2a."
+    },
+    {
+        "code": "02043",
+        "flavor": "Zniknięcie profesora Rice'a to nie jedyna podejrzana rzecz związana z tym miejscem. Nie jesteście do końca pewni, co się tutaj dzieje, ale zaczynacie dochodzić do wniosku, że Armitage dobrze zrobił prosząc was o pomoc.",
+        "name": "Środek nocy",
+        "text": "Podczas sprawdzania liczby kart na ręce w fazie utrzymania, maksymalna liczba kart na ręce każdego badacza zostaje zredukowana o 3.",
+        "back_name": "Eksperyment poszedł źle",
+        "back_flavor": "W kampusie rozległ się pełen przerażenia krzyk. Widzicie kilku studentów uciekających ze wschodniej części uniwersytetu, gdzie mieści się budynek naukowy. Czyżby to zamieszanie było w jakiś sposób powiązane ze zniknięciem profesora Rice'a?",
+        "back_text": "Jeśli lokalizacja Akademiki nie znajduje się w grze, umieść ją w grze.\nJeśli Eksperyment znajduje się w grze, należy poruszyć go o 1 lokalizację w kierunku Akademików.\nJeśli Eksperyment nie znajduje się w grze, należy rozstawić go w Budynku naukowym."
+    },
+    {
+        "code": "02044",
+        "flavor": "Wałęsa się tu jakieś dzikie zwierzę. Cokolwiek to jest, zmierza w stronę akademików.",
+        "name": "Bestia na wolności",
+        "text": "<b>Wymuszony</b> - Kiedy ta tajemnica miałaby postąpić poprzez osiągnięcie progu zagłady: zamiast tego należy usunąć wszystkie żetony zagłady znajdujące się w grze i poruszyć Eksperyment o 1 lokalizację w kierunku Akademików.\n<b>Cel</b> - Jeśli Eksperyment poruszy się na Akademiki, talia postępuje.",
+        "back_name": "Za wolno",
+        "back_flavor": "Zanim zdążycie podjąć działania, w północnej części kampusu rozlegają się wrzaski. Ruszacie w stronę krzyków, ale z każdym krokiem coraz bardziej ciemnieje wam przed oczami. W chwili, gdy dostrzegacie stwora, mrok ogrania was całkowicie i jakaś dziwna siła tłamsi waszą świadomość. Zapada ciemność i tracicie przytomność.",
+        "back_text": "Każdy badacz natychmiast otrzymuje 3 punkty przerażenia. Następnie należy przejść do <b>(→Z4)</b>."
+    },
+    {
+        "code": "02045",
+        "flavor": "Kilka godzin temu jeden ze studentów Armitage'a widział profesora Rice'a na wydziale humanistycznym.",
+        "name": "Po godzinach",
+        "back_name": "Główny woźny",
+        "back_flavor": "Nie możecie znaleźć profesora, ale jeden ze studentów wspomniał, że jakiś dziwny człowiek wchodził dziś do gabinetu Rice'a. Niestety o tak późnej porze gabinety wydziału są już zamknięte. Student poradził wam jednak, żebyście porozmawiali z głównym woźnym, \"Jazzem\". Powinien was wpuścić do środka, jeśli go znajdziecie.",
+        "back_text": "Do tali spotkań należy wtasować stos odrzuconych kart spotkań oraz odłożoną na bok kartę \"Jazz\" Mulligan."
+    },
+    {
+        "code": "02046",
+        "flavor": "Obawiając się o bezpieczeństwo profesora Rice'a, szukacie głównego woźnego, który może was wpuścić do zamkniętej części kampusu.",
+        "name": "Gdzie jest dr Rice?",
+        "text": "[action] Wydaj 1 żeton wskazówki: odrzuć S wierzchnich kart z talii spotkań (zamiast tego 10, jeśli w grze jest tylko 1 gracz).\n<b>Wymuszony</b> - Jeśli z dowolnego powodu odrzucisz \"Jazza\" Mulligana, rozpatrz jego efekt odkrycia.\n<b>Cel</b> - Kiedy przejmiesz kontrolę nad \"Jazzem\" Mulliganem, talia postępuje.",
+        "back_name": "Eksperyment się wydostał!",
+        "back_flavor": "Przekonujecie \"Jazza\", że dzieje się tu coś podejrzanego i profesor Rice może być w niebezpieczeństwie. Woźny nie ufa want na tyle, żeby powierzyć wam swoje klucze, ale zgadza się pójść razem z wami. Nagle od strony budynku naukowego rozlega się jakiś łoskot i po chwili widzicie studenta, pędzącego w waszym kierunku. \"Pomocy!\" - krzyczy rozpaczliwe. \"Jakieś zwierzę uciekło z laboratorium chemicznego! Mignęło mi tylko przed oczami, ale...\" Chłopak jest ewidentnie przerażony. \"Myślę, że ruszyło w stronę akademików! Musicie coś zrobić!\"",
+        "back_text": "Jeśli lokalizacja Pracownie alchemiczne nie znajduje się w grze, umieść ją w grze. Jeśli badacze są w Tajemnicy 1 lub 2, w Pracowniach alchemicznych należy rozstawić odłożony na bok Eksperyment.\nJeśli badacze ukończyli Kasyno zawsze wygrywa, należy umieścić w grze odłożoną na bok Miksturę alchemiczną, kładąc ją pod Pracowniami alchemicznymi. Jeśli Zajęcia pozalekcyjne są pierwszym scenariuszem w kampanii, zamiast tego należy usunąć z gry odłożoną na bok Miksturę alchemiczną."
+    },
+    {
+        "code": "02047",
+        "flavor": "Macie tylko kilka chwil na reakcję. Możecie ostrzec studentów w akademikach i zabrać ich w bezpieczne miejsce albo kontynuować poszukiwania profesora Rice'a w gabinetach. Ewentualnie moglibyście spróbować zabić bestię, która zagraża ludziom w kampusie.",
+        "name": "Bezpieczeństwo kampusu",
+        "text": "<b>Cel</b> - Znajdź i ukończ cel z innej karty spotkania.",
+        "back_name": "Śmierć bestii",
+        "back_flavor": "Zadane rany w końcu przynoszą efekt. Potworna istota wydaje z siebie rozdzierający wrzask i pada na ziemię. Na ciele stwora pojawiają się pęcherze i truchło zaczyna bulgotać, wydzielając z siebie ohydny odór. Z ulgą odwracacie się od obrzydliwych zwłok, gdy te zaczynają się kurczyć i znikać. Wciągu kilku minut ciało stwora niemal całkowicie wyparowuje, zmieniając się w lepką masę, a okropny smród rozprasza się zupełnie. W szczątkach bestii zauważacie kości - szkielet wygląda, jakby należał do psa.",
+        "back_text": "<b>(→Z3)</b>"
+    },
+    {
+        "code": "02048",
+        "flavor": "Żelazne ogrodzenie i brany wokół was sprawiają, że czujecie się tu bardziej jak więźniowie niż jak goście.",
+        "name": "Dziedziniec Miskatonic",
+        "text": "[action]: <b>Rezygnacja</b>. \"Nie możemy nigdzie znaleźć Rice...\" Opuszczacie kampus, mając nadzieję, że Armitage wam wybaczy.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Zima przyszła wcześniej w tynt roku i ogołociła z liści wszystkie drzewa. Chłodny wiatr świszcze ponuro między konarami i hula po terenie uczelni."
+    },
+    {
+        "code": "02049",
+        "flavor": "Nie ma prądu i w korytarzach panują egipskie ciemności. Nigdzie nie widać śladu profesora Rice'a.",
+        "name": "Wydział humanistyczny",
+        "text": "<b>Wymuszony</b> - Na koniec twojej tury, jeśli znajdujesz się w Wydziale humanistycznym: odrzuć X wierzchnich kart z twojej talii. X to liczba twoich punktów przerażenia.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Profesora Rice'a widziano ostatnio na wydziale humanistycznym, gdzie prowadził zajęcia z łaciny. W ciemnych oknach starego budynku nie pali się żadne światło, a nocne powietrze wypełnia cisza."
+    },
+    {
+        "code": "02050",
+        "flavor": "Biblioteka Orne'a to istny labirynt zakurzonych regałów z książkami i pogrążonych w półmroku korytarzy.",
+        "name": "Biblioteka Orne'a",
+        "text": "Aby zbadać Bibliotekę Orne'a, musisz wydać 1 dodatkową akcję.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Trzypiętrowy gmach biblioteki z szarego granitu przypomina bardziej relikwiarz, niż miejsce, w którym się uczy. Kamienne gargulce spoglądają znad łukowatych okien, a u szczytu schodów, nad podwójnymi drzwiami widać łacińskie sentencje."
+    },
+    {
+        "code": "02051",
+        "name": "Związek studencki",
+        "text": "<b>Wymuszony</b> - Po odkryciu Związku studenckiego: umieść w grze odłożone na bok Akademiki.\n[action][action]: Wylecz 1 obrażenie i 1 punkt przerażenia.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Nawet o tak późnej porze słychać ściszone rozmowy dobiegające z pomieszczeń związku studenckiego. Może uczniowie będą wiedzieć, gdzie jest profesor Rice."
+    },
+    {
+        "code": "02052",
+        "flavor": "Przemierzając te stare, dobrze zachowane budynki, mimowolnie zastanawiasz się, czy mają tu wygodne łóżka...",
+        "name": "Akademiki",
+        "text": "<b>Cel</b> - Jeśli badacze znajdujący się w Akademikach wydadzą, jako grupa, 3 żetony wskazówek: <b>(→Z2)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "Pomiędzy drzewami dostrzec można czerwone cegły budynku akademika w zachodniej części uczelni...<br><cite>Graham McNeill, Ghoule z Miskatonic</cite>",
+        "back_text": "Drzwi prowadzące do Akademików są zablokowane. Nie możesz poruszyć się do Akademików."
+    },
+    {
+        "code": "02053",
+        "name": "Budynek administracyjny",
+        "text": "<b>Wymuszony</b> - Po odkryciu Budynku administracyjnego: umieść w grze odłożone na bok Gabinety wydziału.\n<b>Wymuszony</b> - Na koniec twojej tury, jeśli znajdujesz się w Budynku administracyjnym: odrzuć wierzchnią kartę z twojej talii.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Na ścianach wiekowego budynku administracyjnego widać bluszcz, który zazdrośnie oplata budowlę w zielonych objęciach. Gmach stoi w ustronnej części kampusu, z dala od codziennego gwaru studentów."
+    },
+    {
+        "code": "02054",
+        "name": "Gabinety wydziału",
+        "subname": "Noc jest jeszcze młoda",
+        "text": "<b>Wymuszony</b> - Po odkryciu Gabinetów wydziału: przeszukaj talię spotkań oraz stos odrzuconych kart spotkań w poszukiwaniu karty z cechą Humanoid i rozstaw ją tutaj. Potasuj talię spotkań.\n<b>Cel</b> - Jeśli badacze znajdujący się w Gabinetach wydziału wydadzą, jako grupa, 2 [per_investigator] żetony wskazówek: <b>(→Z1)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "U szczytu schodów wiodących na trzecie piętro budynku administracyjnego natrafiasz na zamknięte drzwi. Za szybą z matowego szkła, w korytarzu przemknął jakiś cień.",
+        "back_text": "Drzwi prowadzące do Gabinetów wydziału są zablokowane. Nie możesz poruszyć się do Gabinetów wydziału."
+    },
+    {
+        "code": "02055",
+        "flavor": "Profesora Rice'a nie ma w jego biurze. Wołasz go, ale odpowiada ci tylko echo w pustych korytarzach.",
+        "name": "Gabinety wydziału",
+        "subname": "Jest już późno",
+        "traits": "Miskatonic.",
+        "back_flavor": "U szczytu schodów wiodących na trzecie piętro budynku administracyjnego natrafiasz na zamknięte drzwi. Za szybą z matowego szkła, w korytarzu przemknął jakiś cień... or maybe it's just your imagination.",
+        "back_text": "Drzwi prowadzące do Gabinetów wydziału są zablokowane. Nie możesz poruszyć się do Gabinetów wydziału."
+    },
+    {
+        "code": "02056",
+        "flavor": "W korytarzu na parterze na podłodze dostrzegasz lepki śluz. Ohydny ślad prowadzi zygzakiem do piwnicy.",
+        "name": "Budynek naukowy",
+        "text": "<b>Wymuszony</b> - Po odkryciu Budynku naukowego: umieść w grze odłożone na bok Pracownie alchemiczne.\n<b>Wymuszony</b> - Kiedy twój test w Budynku Naukowym zakończy się porażką: otrzymujesz 1 obrażenie.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Budynek naukowy zajmuje większość wschodniej części kampusu. Budowla pogrążona jest w mroku, jednak z jednego z okien piwnicy sączy się słabe światło."
+    },
+    {
+        "code": "02057",
+        "flavor": "Na pólkach laboratorium stoją rzędy dziwnych roztworów i nieznanych odczynników. Jakież badania naukowe mają tu miejsce?",
+        "name": "Pracownie alchemiczne",
+        "text": "[action]: <b>Badanie.</b> Jeśli test zakończy się sukcesem, zamiast odkrywać wskazówki, weź Miksturę alchemiczną spod tej lokalizacji, jeśli to możliwe.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Z laboratorium na niższym piętrze czuć jakiś gryzący odór. Pośród panującej w korytarzu ciszy słychać syk palnika.",
+        "back_text": "Drzwi prowadzące do Pracowni alchemicznych są zablokowane. Nie możesz poruszyć się do Pracowni alchemicznych."
+    },
+    {
+        "code": "02058",
+        "name": "Eksperyment",
+        "subname": "Coś poszło bardzo nie tak",
+        "text": "Masywny.\nEksperyment dostaje +3[per_investigator] wytrzymałości.\n<b>Wymuszony</b> - Początek fazy wrogów: przygotuj Eksperyment.\n<b>Cel</b> - Jeśli Eksperyment zostanie pokonany, spowoduj postęp do aktu 3b.",
+        "traits": "Potwór. Wynaturzenie. Elitarny."
+    },
+    {
+        "code": "02059",
+        "name": "Mikstura alchemiczna",
+        "text": "[action]: <b>Walka</b>. Ten atak używa [intellect] zamiast [combat]. Ten atak zadaje +6 obrażeń, jeśli zostanie użyty do zaatakowania Eksperymentu. Jeśli test zakończy się sukcesem, usuń Miksturę alchemiczną z gry.",
+        "traits": "Przedmiot. Nauka."
+    },
+    {
+        "code": "02060",
+        "name": "\"Jazz\" Mulligan",
+        "subname": "Główny woźny",
+        "text": "<b>Odkrycie</b> - Umieść \"Jazza\" w grze, w twojej lokalizacji.\nDopóki \"Jazz\" Mulligan nie jest kontrolowany przez żadnego z graczy, zyskuje: \"[action]: <b>Pertraktacje</b>. Wykonaj test [intellect] (3). Jeśli test zakończy się sukcesem, przejmij kontrolę nad \"Jazzem\" Mulligananrm.\"\nDopóki kontrolujesz \"Jazza\" Mulligana, ignorujesz tekst znajdujący się na każdej nieodkrytej lokalizacji z cechą [[Miskatonic]].",
+        "traits": "Sprzymierzeniec. Miskatonic."
+    },
+    {
+        "code": "02061",
+        "name": "Profesor Warren Rice",
+        "subname": "Profesor językoznawstwa",
+        "text": "Dostajesz +1 [intellect].\n[reaction] Wyczerp profesora Warrena Rice'a po tym, jak odkryjesz ostatnią wskazówkę w twojej lokalizacji: dobierz 1 kartę.",
+        "traits": "Sprzymierzeniec. Miskatonic.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "02062",
+        "name": "Kasyno zawsze wygrywa",
+        "text": "<b>Łatwy / Standardowy</b>\n[skull]: -2. Zamiast tego możesz wydać 2 żetony zasobów, aby traktować ten żeton jako 0.\n[cultist]: -3. Jeśli test zakończy się sukcesem, zyskujesz 3 żetony zasobów.\n[tablet]: -2. Jeśli test zakończy się porażką, tracisz 3 żetony zasobów.",
+        "back_text": "<b>Trudny / Ekspercki</b>\n[skull]: -3. Zamiast tego możesz wydać 3 żetony zasobów, aby traktować ten żeton jako 0.\n[cultist]: -3. Jeśli test zakończy się porażką, tracisz 3 żetony zasobów.\n[tablet]: -2. Tracisz 3 żetony zasobów."
+    },
+    {
+        "code": "02063",
+        "flavor": "Wchodzicie do Kasyna Clover Club, aby odszukać dr. Morgana. O tak późnej porze w lokalu panuje gwar. Wokół kłębi się tłum klientów, którzy przyszli się zrelaksować przy drinkach albo wygrać duże pieniądze. Nie sądzicie, żeby coś want tutaj groziło.",
+        "name": "Clover Club",
+        "text": "Każdy wróg z cechą [[Przestępca]] zyskuje słowo kluczowe Powściągliwy.\nJeśli badacz zada obrażenia wrogowi z cechą [[Przestępca]]: talia natychmiast postępuje.",
+        "back_name": "Na właściwym tropie",
+        "back_flavor": "Wasze pytania przyciągnęły niepożądaną uwagę kilku mężczyzn - prawdopodobnie najemnych zbirów, sądząc po wyglądzie. \"Francis nie chce, żeby mu przeszkadzano\" - odzywa się jeden z nich. \"Sugerujemy opuścić lokal, zanim zostaniecie stąd usunięci siłą\".",
+        "back_text": "Wtasuj stos odrzuconych kart spotkań do talii spotkań. Jeśli gracze ukończyli Zajęcia pozalekcyjne, talia postępuje bezpośrednio do Tajemnicy 2b. Jeśli Kasyno zawsze wygrywa jest pierwszym scenariuszem w kampanii, talia postępuje do Tajemnicy 2a."
+    },
+    {
+        "code": "02064",
+        "flavor": "Większość klientów nie jest nawet świadoma, że z kilku stron przez tłum przeciskają się w waszą stronę gangsterzy i oprychy. Wy jednak doskonale wiecie, co się święci - lada moment dobiorą się want do skóry.",
+        "name": "Zbiry",
+        "back_name": "Niespodziewany zamęt",
+        "back_flavor": "Na zewnątrz rozlega się głośny łoskot i słyszycie wrzaski bólu dobiegające z salonu. Jakaś potworna istota wdarła się do lokalu, niszcząc klatkę schodową i powalając na ziemię zarówno gangsterów jak i klientów.",
+        "back_text": "Rozstaw w Salonie w Clover Club losowego wroga z odłożonego na bok zestawu spotkań <em>Ohydne wynaturzenia</em>  Wtasuj do talii spotkań pozostałą część tego zestawu spotkań, odłożony na bok zestaw spotkań <em>Paniczny strach</em> oraz stos odrzuconych kart spotkań.\nPorusz do Salonu w Clover Club wszystkich badaczy oraz niebędących w zwarciu wrogów z La Bella Luny. Usuń z gry La Bella Lunę."
+    },
+    {
+        "code": "02065",
+        "flavor": "Rozpętał się chaos. Szkaradne stwory rzucają się na ludzi znajdujących się w klubie, wokół tryska krew, a korytarze wypełniają się echem wrzasków.",
+        "name": "Zamęt w Clover Club",
+        "text": "<b>Wymuszony</b> - Początek fazy wrogów: odrzuć każdego wroga z cechą Przestępca znajdującego się w tej samej lokalizacji co wróg z cechą [[Wynaturzenie]].",
+        "back_name": "Budynek się zawala",
+        "back_flavor": "Szkaradne stwory sieją zniszczenie z taką zajadłością, że w końcu fundamenty zaczynają się trząść i pękać. Natychmiast rzucacie się do ucieczki, jednak jest już za późno. Wciągu chwili budynek zmienia się w stertę gruzu, zawalając się na wasze głowy.",
+        "back_text": "<b>(→Z4)</b>"
+    },
+    {
+        "code": "02066",
+        "flavor": "Musicie znaleźć dr. Morgana. W klubie jest mnóstwo ludzi, może ktoś wie, gdzie go szukać.",
+        "name": "Szczęście nowicjusza",
+        "text": "[reaction] Kiedy odkrywasz żeton chaosu: możesz traktować dany żeton jakby był dowolnym innym żetonem znajdującym się w worku chaosu. Jeśli to zrobisz, zapamiętaj, że \"oszukiwałeś\". (Limit grupowy raz na rundę).\n<b>Cel</b> - Kiedy badacze zgromadzą wymaganą liczbę wskazówek, muszą je natychmiast wydać, a talia postępuje.",
+        "back_name": "Wysoka stawka",
+        "back_flavor": "Po rozmowie z kilkoma graczami i pracownikami udało się ustalić, że dr Morgan miał ostatnio dobrą passę. Przekonano go jednak, żeby nie spieniężał wygranej, tylko spróbował ją podwoić. Ostatnio widziano go, jak wchodził do zastrzeżonego korytarza na tyłach sali gier karcianych.",
+        "back_text": "Umieść w grze odłożony na bok Zacieniony korytarz. \nJeśli jest to Tajemnica 1, odrzucaj karty z talii, dopóki nie zostanie odrzucony wróg z cechą [[Przestępca]] Rozstaw danego wroga w Zacienionym korytarzu."
+    },
+    {
+        "code": "02067",
+        "flavor": "Dr Morgan jest gdzieś w prywatnej części klubu, do której dostęp mają jedynie VIP-owie i kierownicy lokalu. Jeśli macie go odnaleźć, będziecie musieli się przekraść, a może nawet przedrzeć się tam siłą.",
+        "name": "Szwindel",
+        "text": "<b>Cel</b> - Tylko badacze znajdujący się w Strefie dla VIP-ów mogą, jako grupa, wydać wymaganą liczbę wskazówek, aby nastąpił postęp talii.",
+        "back_name": "Los dr. Morgana",
+        "back_text": "<b>Jeśli gracze nie ukończyli Zajęć pozalekcyjnych:</b><blockquote><i>Znajdujecie dr. Morgana uprawiającego hazard w jednym z pomieszczeń dla VIP-ów, ale... wygląda na to, że gra w karty z dwójką nieprzytomnych ludzi, a jego źrenice są rozszerzone, jakby był w jakimś transie. Najwidoczniej nie jest w stanie przestać się śmiać, rozmawiać i uśmiechać się do innych \"graczy\".</i></blockquote>Umieść w grze, w Strefie dla VIP-ów, odłożonego na bok Dr. Morgana. Talia postępuje do Aktu 3a - \"Stawiam wszystko\".\n<hr><b>Jeśli gracze ukończyli Zajęcia pozalekcyjne:</b><blockquote><em>Pomieszczenia dla VIP-ów pełne są zdeformowanych i zakrwawionych ciał. Nigdzie nie widać dr. Morgana. Nagle słyszycie, że w głównej części klubu rozlegają się krzyki i odgłosy strzałów.</em></blockquote></b>Umieść w grze, w Barze w Clover Club, odłożonego na bok Petera Clovera. Przeszukaj talię spotkań (lub karty poza grą) w poszukiwaniu wroga z cechą [[Wynaturzenie]] i rozstaw go w Barze w Clover Club. Talia postępuje do Aktu 3a — \"Pas\"."
+    },
+    {
+        "code": "02068",
+        "flavor": "Z dr. Morganent czy bez, musicie się stąd wynosić i to szybko.",
+        "name": "Stawiam wszystko",
+        "text": "Dopóki dr Morgan nie jest kontrolowany przez żadnego z graczy, zyskuje \"[action]: <b>Pertraktacje</b>. Wykonaj test [willpower] (3) aby wybudzić dr. Morgana z jego oszołomienia. Jeśli test zakończy się sukcesem, umieść na nim 1 wskazówkę z puli żetonów. Jeśli na dr. Morganie znajduje się 1 [per_investigator]wskazówka, przejmij nad nim kontrolę.\"\n<b>Cel</b> - Jeśli każdy niepokonany badacz zrezygnował, talia postępuje.",
+        "back_name": "Bezpieczni... póki co",
+        "back_flavor": "Uciekacie z klubu, a kiedy kilka samochodów zatrzymuje się przy ulicy, staracie się nie rzucać się w oczy. Z pojazdów wysiada grupka ponurych mężczyzn i kobiet, którzy biegną w stronę wejścia do restauracji, żeby przejąć kontrolę nad sytuacją. Jeden z nich dostrzega wasze spojrzenia i sięga po rewolwer, ale cale szczęście szybko odwraca się i dołącza do pozostałych w klubie. Wzdychacie z ulgą...",
+        "back_text": "— Jeśli badacz zrezygnował mając dr. Francisa Morgana pod swoją kontrolą,<b>(→Z2)</b>\n— W przeciwnym wypadku <b>(→Z1)</b>"
+    },
+    {
+        "code": "02069",
+        "flavor": "\"Darmowe drinki dla każdego, kto mnie stąd zabierze!\" - krzyczy jakiś n:ężczyzna przy barze.",
+        "name": "Pas",
+        "text": "Dopóki Peter Clover nie jest kontrolowany przez żadnego z graczy, zyskuje:\"[action]: <b>Pertraktacje</b>. Wykonaj test [willpower] (3) aby przekonać Petera, aby poszedł za tobą. Jeśli test zakończy się sukcesem, umieść na nim 1 wskazówkę z puli żetonów. Jeśli na Peterze Cloverze znajduje się 1 [per_investigator] wskazówka, przejmij nad nim kontrolę.\"\n<b>Cel</b> - Jeśli każdy niepokonany badacz zrezygnował, talia postępuje.",
+        "back_name": "Ucieczka z klubu",
+        "back_flavor": "Przedzieracie się na skąpane deszczem ulice Arkham.",
+        "back_text": "— Jeśli badacz zrezygnował, mając Petera Clovera pod swoją kontrolą, <b>(→Z3)</b>\n— W przeciwnym wypadku, <b>(→Z1)</b>"
+    },
+    {
+        "code": "02070",
+        "flavor": "Muzyka jest sztampowa, a w menu mają tylko spaghetti. Jak na przykrywkę dla nielegalnego baru nie wykazali się zbytnią kreatywnością.",
+        "name": "La Bella Luna",
+        "text": "[action]: <b>Rezygnacja.</b> To była podpucha.",
+        "traits": "Arkham.",
+        "back_flavor": "La Bella Luna to \"wszechstronny\" lokal."
+    },
+    {
+        "code": "02071",
+        "name": "Salon w Clover Club",
+        "text": " Dopóki trwa Akt 1, Salon w Clover Club zyskuje:\n\"[action] Odrzuć z twojej ręki atut z cechą [[Sprzymierzeniec]]zyskujesz 2 wskazówki z puli żetonów. (Limit raz na grę.)\"",
+        "traits": "Clover Club.",
+        "back_flavor": "Wygodne skórzane kanapy, mahoniowe meble i piękne dzieła sztuki witają graczy, kusząc ich perspektywą zamożnego życia."
+    },
+    {
+        "code": "02072",
+        "name": "Bar w Clover Club",
+        "text": "Dopóki trwa Akt 1, Barw Clover Club zyskuje:\n\"[action] Wydaj 2 żetony zasobów: zyskujesz 2 wskazówki z puli żetonów i dobierasz 2 karty. Pamiętaj, że \"wypiłeś drinka\". (Limit raz na grę.)\"",
+        "traits": "Clover Club.",
+        "back_flavor": "Półki za barem uginają się od przeróżnych butelek z alkoholem: tanie piwa, bimber, drogie wina, wiekowa whiskey. Szkoda, że nie masz kilku wolnych godzin na relaks..."
+    },
+    {
+        "code": "02073",
+        "name": "Sala gier karcianych w Clover Club",
+        "text": "Dopóki trwa Akt 1, Sala gier karcianych w Clover Club zyskuje:\n\"[action] Wydaj 2 żetony zasobów: odkryj losowy żeton chaosu. \nJeśli jest to symbol [elder_sign], zyskujesz 2 wskazówki oraz 2 żetony zasobów z puli żetonów.\nJeśli jest to liczba parzysta, zyskujesz 2 wskazówki z puli żetonów.\nJeśli jest to liczba nieparzysta, symbol [skull], [cultist], [tablet], [elder_thing], lub [auto_fail] nic się nie dzieje.\"",
+        "traits": "Clover Club.",
+        "back_flavor": "Gdy zbliżasz się do sali gier karcianych, słyszysz stukot żetonów pokerowych i odgłos tasowanych kart, zagłuszany co jakiś czas czyimś okrzykiem radości lub frustracji. Niemal nie słyszysz swoich myśli w tynt hałasie."
+    },
+    {
+        "code": "02074",
+        "flavor": "Drzwi gwałtownie zatrzaskują się za tobą i zapada cisza. Ta część klubu jest wyjątkowo pusta, pozbawiona ciepła i kolorów. Nieskazitelne podłogi i ściany wyglądają raczej złowrogo niż przyjemnie.",
+        "name": "Zacieniony korytarz",
+        "text": "<b>Wymuszony</b> - Odkrycie Zacienionego korytarza: Umieść w grze odłożone na bok 3 lokalizacje Drzwi w korytarzu.",
+        "traits": "Clover Club.",
+        "back_flavor": "W zacisznym zakątku klubu widać grube dębowe drzwi. Gdy do nich podchodzisz, powietrze robi się coraz cięższe, a zgiełk sali karcianej zostaje gdzieś za tobą."
+    },
+    {
+        "code": "02075",
+        "flavor": "Wzdłuż ścian prywatnej galerii Petera Clovera stoją egzotyczne dzieła sztuki i cenne antyki. Słychać szelest kartek, kiedy wieczorna bryza przewraca strony starej księgi oprawionej w czarną skórę.",
+        "name": "Galeria sztuki",
+        "text": "<b>Wymuszony</b> - Po tym, jak twój test podczas badania Galerii sztuki zakończył się porażką: tracisz 2 żetony zasobów.",
+        "traits": "Clover Club.",
+        "back_name": "Drzwi w korytarzu",
+        "back_flavor": "Podchodzisz do nieoznaczonych drzwi wiodących na tyły Clover Club."
+    },
+    {
+        "code": "02076",
+        "flavor": "W twe nozdrza uderza charakterystyczny, metaliczny zapach krwi. Na podłodze leżą odłamki szkła, a tapicerka jest rozdarta na strzępy. Pytanie tylko, gdzie jest dr Morgan?",
+        "name": "Strefa dla VIP-ów",
+        "text": "Dopóki znajdujesz się w Strefie dla VIP-ów, podczas fazy utrzymania nie możesz dobierać kart ani zyskiwać zasobów.",
+        "traits": "Clover Club.",
+        "back_name": "Drzwi w korytarzu",
+        "back_flavor": "Podchodzisz do nieoznaczonych drzwi wiodących na tyły Clover Club."
+    },
+    {
+        "code": "02077",
+        "flavor": "Wąskie schody biegną stromo w górę, w kierunku kolejnych nieoznaczonych drzwi. Ku twemu zaskoczeniu wyjście prowadzi do alejki na tyłach La Bella Luny. Zapewne tędy przemycają do lokalu swoje \"towary\".",
+        "name": "Alejka na tyłach",
+        "text": "[action]: <b>Rezygnacja.</b> Tędy możemy uciec!",
+        "traits": "Clover Club.",
+        "back_name": "Drzwi w korytarzu",
+        "back_flavor": "Podchodzisz do nieoznaczonych drzwi wiodących na tyły Clover Club."
+    },
+    {
+        "code": "02078",
+        "name": "Kierownik kasyna Clover Club",
+        "text": "<b>Polowanie</b> - Najwyższa [intellect].\nŁowca.\n<b>Wymuszony</b> - Po tym, jak dowolny badacz znajdujący się w lokalizacji Kierownika kasyna Clover Club otrzyma dowolną liczbę wskazówek: Kierownik kasyna Clover Club zostaje przygotowany, wchodzi w zwarcie z danym badaczem i wykonuje natychmiastowy atak.",
+        "traits": "Przestępca. Elitarny."
+    },
+    {
+        "code": "02079",
+        "name": "Peter Clover",
+        "subname": "Wszystkie atuty w ręku",
+        "text": "<b>Wymuszony</b> - Początek fazy wrogów, jeśli żaden z badaczy nie kontroluje Petera Clovera: zadaj mu 1 obrażenie.\n[free]Wyczerp Petera Clovera: automatycznie wymknij się wrogowi z cechą [[Przestępca]] w twojej lokalizacji.",
+        "traits": "Humanoid. Przestępca."
+    },
+    {
+        "code": "02080",
+        "name": "Dr. Francis Morgan",
+        "subname": "Profesor archeologii",
+        "text": "Dostajesz +1 [combat].\n[reaction] Wyczerp dr. Francisa Morgana po tym, jak pokonasz dowolnego wroga: dobierz 1 kartę.",
+        "traits": "Sprzymierzeniec. Miskatonic.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "02081",
+        "flavor": "Ogarnia cię nieprzyjemne ciepło i wpatrujesz się otępiałym wzrokiem w pusty kieliszek, który trzymasz w dłoni.",
+        "name": "Dodali coś do drinków",
+        "text": "Mroczna fala.\n<b>Odkrycie</b> - Każdy gracz, który \"wypił drinka\", traci 1 akcję.",
+        "traits": "Trucizna. Nielegalny."
+    },
+    {
+        "code": "02082",
+        "flavor": "Ze wszystkich stron otaczają cię spojrzenia śledzące każdy twój ruch.",
+        "name": "Wzbudzanie podejrzeń",
+        "text": "<b>Odkrycie</b> - Umieść po 1 żetonie zagłady, na każdym wrogu z cechą [[Przestępca]] w twojej lokalizacji. Jeśli w wyniku tego efektu nie został umieszczony żaden żeton zagłady, tracisz 2 żetony zasobów."
+    },
+    {
+        "code": "02083",
+        "flavor": "Czy to wizje przyszłości, czy tylko tego, co może się stać? A może to koszmary dawnych wydarzeń?",
+        "name": "Wizje z innego czasu",
+        "text": "<b>Odkrycie</b> - Wykonaj test [willpower] (5). Za każdy punkt, o który test się nie powiódł (porażka), odrzuć wierzchnią kartę z twojej talii.",
+        "traits": "Urok."
+    },
+    {
+        "code": "02084",
+        "name": "Za zasłoną",
+        "text": "Mroczna fala.\n<b>Odkrycie</b> - Jeśli na twoim obszarze zagrożenia nie ma żadnej kopii Za zasłoną, umieść Za zasłoną w grze, na twoim obszarze zagrożenia.\n<b>Wymuszony</b> - Jeśli w twojej talii nie ma żadnych kart: otrzymujesz 10 obrażeń i odrzucasz Za zasłoną.",
+        "traits": "Urok."
+    },
+    {
+        "code": "02085",
+        "flavor": "",
+        "name": "Światło Aforgomona",
+        "text": "Zagrożenie.\n<b>Odkrycie</b> - Musisz dołączyć Światło Aforgomona do obecnej tajemnicy lub do obecnego aktu.\nLimit 1 per agenda/act. Limit 1 na tajemnicę/akt. Traktuj wszystkie obrażenia jako bezpośrednie obrażenia oraz wszystkie punkty przerażenia jako bezpośrednie punkty przerażenia.",
+        "traits": "Pakt. Moc."
+    },
+    {
+        "code": "02086",
+        "flavor": "Wrogość zawładnęła ich umysłami, zamieniając ich w bezduszne marionetki.",
+        "name": "Niewolnik",
+        "text": "<b>Rozstawienie</b> - Lokalizacja z największą liczbą wskazówek.\nMściwy.",
+        "traits": "Humanoid. Potwór. Wynaturzenie."
+    },
+    {
+        "code": "02087",
+        "name": "Czarownik Yog-Sothotha",
+        "text": "<b>Polowanie</b> - Najmniej kart na ręce.\nŁowca.\n<b>Wymuszony</b> - Kiedy badacz znajdujący się w zwarciu dobierze kartę z cechą Urok lub Pakt: Czarownik Yog-Sothotha atakuje danego badacza.",
+        "traits": "Humanoid. Czarnoksiężnik."
+    },
+    {
+        "code": "02088",
+        "name": "Plugawa okolica",
+        "text": "<b>Odkrycie</b> - Umieść Plugawą okolicę w grze, na twoim obszarze zagrożenia.\nNie możesz zagrywać kart atutów z cechą [[Sprzymierzeniec]]. Traktuj wydrukowane pole tekstowe każdego kontrolowanego przez ciebie atutu z cechą [[Sprzymierzeniec]].\n<b>Wymuszony</b> - Koniec twojej tury: wykonaj test [willpower] (3). Jeśli test zakończy się sukcesem, odrzuć Plugawą okolicę.",
+        "traits": "Koszmar."
+    },
+    {
+        "code": "02089",
+        "name": "Groźna cisza",
+        "text": "<b>Odkrycie</b> - Dołącz Groźną ciszę do twojej lokalizacji.\n<b>Wymuszony</b> - Koniec rundy: każdy badacz znajdujący się w lokalizacji, do której dołączono tę kartę, otrzymuje 1 punkt przerażenia.\n<b>Wymuszony</b> - Kiedy tajemnica postępuje: odrzuć Groźną ciszę.",
+        "traits": "Koszmar."
+    },
+    {
+        "code": "02090",
+        "flavor": "\"Panuje przekonanie, że te ptaki oczekują na dusze umierających ludzi...\" <cite>H. P. Lovecraft, \"Koszmar z Dunwich\"</cite>",
+        "name": "Lelek kozodój",
+        "text": "Powściągliwy. Łowca.\nKażdy badacz w lokalizacji z Lelkiem kozodojem otrzymuje -1 [willpower], -1 [intellect], -1 [combat], oraz -1 [agility].",
+        "traits": "Stworzenie."
+    },
+    {
+        "code": "02091",
+		"flavor": "\"Jeżeli pochwycą ulatującą duszę w momencie opuszczania ciała, natychmiast odlatują trzepocząc skrzydłami pośród demonicznego chichotu...\" <cite>H. P. Lovecraft, \"Koszmar z Dunwich\"</cite>",
+        "name": "Pragnienie śmierci",
+        "text": "<b>Odkrycie</b> - Wykonaj test [willpower] (2). Zwiększ poziom trudności tego testu o 1 za każde obrażenie, które posiadasz. Jeśli test zakończy się porażką, otrzymujesz 2 punkty przerażenia.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02092",
+        "name": "Parszywe szczęście",
+        "text": "<b>Odkrycie</b> - Umieść Parszywe szczęście w grze, na twoim obszarze zagrożenia.\nPodczas testów umiejętności dostajesz -1 do wartości umiejętności.\n<b>Wymuszony</b> - Po tym, jak zakończysz test umiejętności z sukcesem o 1 lub więcej: odrzuć Parszywe szczęście.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02093",
+        "name": "Zrządzenie losu",
+        "text": "<b>Odkrycie</b> - Odkryj losowy żeton z worka chaosu.\nJeśli odkryjesz symbol [elder_sign] lub dodatnią wartość, nic się nie dzieje.\nJeśli odkryjesz dowolną inną wartość, otrzymujesz 1 obrażenie.\nJeśli odkryjesz symbol [skull], [cultist], [tablet], [elder_thing], lub [auto_fail] otrzymujesz 2 punkty przerażenia.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02094",
+        "name": "Ptasi niewolnik",
+        "text": "<b>Polowanie</b> - Najniższa [intellect].\nŁowca.\nPtasi niewolnik dostaje -3 do walki, dopóki jest atakowany przy pomocy atutu z cechą [[Zdalna]], [[Palna]], lub [[Zaklęcie]].",
+        "traits": "Stworzenie. Potwór. Wynaturzenie."
+    },
+    {
+        "code": "02095",
+        "flavor": "Jakiż rodzaj wilka ma tak dużo zębów?",
+        "name": "Wilczy niewolnik",
+        "text": "<b>Rozstawienie</b> - Lokalizacja najdalsza od ciebie.\n<b>Polowanie</b> - Najniższa [agility].\nŁowca. Mściwy.",
+        "traits": "Stworzenie. Potwór. Wynaturzenie."
+    },
+    {
+        "code": "02096",
+        "name": "Przemienione zwierzę",
+        "text": "<b>Odkrycie</b> - Jeśli w grze nie ma żadnych wrogów z cechą [[Wynaturzenie]]  Przemienione zwierzę zyskuje słowo kluczowe Mroczna fala. W przeciwnym wypadku wybierz wroga z cechą [[Wynaturzenie]]. Wylecz wszystkie obrażenia z danego wroga i dołącz do niego Przemienione zwierzę.\n<b>Wymuszony</b> - Kiedy wchodzisz do lokalizacji wroga, do którego dołączono tę kartę (lub wchodzi on do twojej lokalizacji): otrzymujesz 1 punkt przerażenia.",
+        "traits": "Moc."
+    },
+    {
+        "code": "02097",
+        "flavor": "\"Masz jakiś problem?\"",
+        "name": "Zbir O'Bannion's",
+        "text": "Nie możesz otrzymywać żadnych zasobów, dopóki Zbir O'Bannionów znajduje się w zwarciu z tobą.",
+        "traits": "Humanoid. Przestępca. Syndykat."
+    },
+    {
+        "code": "02098",
+		"flavor":"\"Lepiej stąd spadaj, koleś, chyba że chcesz posmakować butów i ołowiu.\"",
+        "name": "Gangster",
+        "text": "Mściwy.\n<b>Wymuszony</b> - Po tym, jak Gangster cię zaatakuje: tracisz 1 żeton zasobu.",
+        "traits": "Humanoid. Przestępca. Syndykat."
+    },
+    {
+        "code": "02099",
+        "name": "Zaszczuty",
+        "text": "<b>Odkrycie</b> - Jeśli w grze nie ma żadnych nieznajdujących się w zwarciu wrogów z cechą [[Przestępca]], Zaszczuty zyskuje słowo kluczowe Mroczna fala. Jeśli w grze znajduje się 1 lub więcej, nieznajdujących się w zwarciu wrogów z cechą [[Przestępca]], każdy z nich porusza się o I lokalizację w twoją stronę. Każdy wróg z cechą [[Przestępca]] który wejdzie z tobą w zwarcie w wyniku tego efektu, wykonuje natychmiastowy atak.",
+        "traits": "Taktyka."
+    },
+    {
+        "code": "02100",
+        "name": "Zepchnięty w otchłań",
+        "text": "<b>Odkrycie</b> - Wybierz i wtasuj do twojej talii nie-fabularny, kontrolowany przez ciebie atut i odrzuć 3 wierzchnie karty z twojej talii. Jeśli odrzucona zostanie jakakolwiek kopia danego atutu, otrzymujesz 2 punkty przerażenia.",
+        "traits": "Urok."
+    },
+    {
+        "code": "02101",
+        "name": "Groza z otchłani",
+        "text": "Zagrożenie.\n<b>Odkrycie</b> - Wybierz jeden z następujących rodzajów kart (atut, wydarzenie lub umiejętność). Każdy gracz musi odrzucić ze swojej ręki wszystkie karty wybranego rodzaju. Zamiast tego wybierz dwa rodzaje kart, jeśli nie jest to pierwsza kopia Grozy z otchłani dobrana w tej fazie.",
+        "traits": "Urok. Koszmar."
+    },
+    {
+        "code": "02102",
+        "name": "Magiczna bariera",
+        "text": "<b>Odkrycie</b> - Dołącz do twojej lokalizacji.\nJako dodatkowy koszt poruszenia się do lub z lokalizacji, do której dołączono tę kartę, należy wykonać test [willpower] (4). Jeśli test zakończy się sukcesem, odrzuć Magiczną barierę. W przeciwnym wypadku musisz anulować efekty poruszenia się lub odrzucić 5 wierzchnich kart z twojej talii.",
+        "traits": "Urok. Przeszkoda."
+    },
+    {
+        "code": "02103",
+        "name": "Skupisko sfer",
+        "text": "<b>Polowanie</b> - Najniższa [willpower].\nŁowca.\n<b>Wymuszony</b> - Po tym, jak wykonasz atak skierowany przeciwko Skupisku sfer przy pomocy karty z cechą [[Biała]]: 1odrzuć daną kartę.",
+        "traits": "Potwór. Wynaturzenie."
+    },
+    {
+        "code": "02104",
+        "name": "Sługa Czyhającego",
+        "text": "<b>Polowanie</b> - Najniższa [agility].\nŁowca.\n<b>Wymuszony</b> - Kiedy Sługa Czyhającego cię atakuje: odrzuć 2 wierzchnie karty z twojej talii.",
+        "traits": "Potwór. Wynaturzenie."
+    }
+]
