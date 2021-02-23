@@ -38,6 +38,10 @@
         "double_sided": {
             "type": "boolean"
         },
+        "duplicate_of": {
+            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
+            "type": "string"
+        },
         "enemy_damage": {
             "minimum": 0,
             "type": "integer"
@@ -168,7 +172,7 @@
                     "type": "null"
                 }
             ]
-            
+
         },
         "xp": {
             "oneOf": [
@@ -184,12 +188,15 @@
     },
     "required": [
         "code",
-        "faction_code",
-        "name",
         "pack_code",
         "position",
-        "quantity",
-        "type_code"
+        "quantity"
     ],
+    "dependencies": {
+        "name" : [
+            "faction_code",
+            "type_code"
+        ]
+    },
     "type": "object"
 }
