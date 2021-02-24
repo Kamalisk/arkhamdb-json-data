@@ -40,6 +40,7 @@ loadCards = (root) ->
                 fileContents = fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8')
                 if !!fileContents.trim()
                     json = JSON.parse fileContents
+                    json = json.filter((card) -> !!!card.duplicate_of)
                     result["#{path.join(file, pack_file)}"] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
         else
             #console.log "Reading regular #{path.join(localeRoot, file)}"
@@ -76,7 +77,7 @@ for code in codes when not locale? or code is locale
         if !_.isEqual(l_things[file], m_things[file])
             fs.writeFileSync target, JSON.stringify(m_things[file], null, 4)+"\n"
             console.log "Written #{target}"
-    
+
     for file in _.keys m_cards
         target = path.join localeRoot, 'pack', file
         mkdirp path.dirname target
