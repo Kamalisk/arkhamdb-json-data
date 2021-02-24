@@ -43,11 +43,11 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
     "Performs more in-depth sanity checks than jsonschema validator is capable of. Assumes that the basic schema validation has already completed successfully."
     if card["pack_code"] != pack_code:
         raise jsonschema.ValidationError("Pack code '%s' of the card '%s' doesn't match the pack code '%s' of the file it appears in." % (card["pack_code"], card["code"], pack_code))
-    if card["faction_code"] not in [f["code"] for f in factions_data]:
+    if card.get("faction_code") and card["faction_code"] not in [f["code"] for f in factions_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
-    if card["type_code"] not in [f["code"] for f in types_data]:
+    if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
-    
+
 def custom_pack_check(args, pack, cycles_data):
    if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
         raise jsonschema.ValidationError("Cycle code '%s' of the pack '%s' doesn't match any valid cycle code." % (pack["cycle_code"], pack["code"]))
@@ -79,12 +79,12 @@ def load_json_file(args, path):
 
     verbose_print(args, "%s: Checking JSON formatting...\n" % path, 1)
     formatted_raw_data = format_json(json_data)
-   
+
     if "<sup>" in formatted_raw_data:
         verbose_print(args, "%s: File contains invalid content (<sup>)\n" % path, 0)
         validation_errors += 1
         return None
-    
+
     if formatted_raw_data != raw_data:
         ##verbose_print(args, "%s: File is not correctly formatted JSON.\n" % path, 0)
         formatting_errors += 0
@@ -183,7 +183,7 @@ def validate_card(args, card, card_schema, pack_code, factions_data, types_data)
     global validation_errors
 
     try:
-        verbose_print(args, "Validating card %s... " % card["name"], 2)
+        verbose_print(args, "Validating card %s... " % card["code"], 2)
         jsonschema.validate(card, card_schema)
         custom_card_check(args, card, pack_code, factions_data, types_data)
         verbose_print(args, "OK\n", 2)
@@ -429,7 +429,7 @@ def main():
     packs = load_packs(args, cycles)
 
     factions = load_factions(args)
-    
+
     types = load_types(args)
 
     if packs and factions and types:
@@ -447,4 +447,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-   
+
