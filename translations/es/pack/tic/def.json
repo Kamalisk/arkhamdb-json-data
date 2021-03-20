@@ -1,32 +1,70 @@
 [
     {
+        "code": "07152",
+        "name": "Ojo de lince",
+        "text": "[free] Gasta 2 recursos: Recibes +1 [intellect] hasta el final de la fase.\n[free] Gasta 2 recursos: Recibes +1 [combat] hasta el final de la fase.",
+        "traits": "Talento."
+    },
+    {
         "code": "07153",
-        "name": "Radiant Smite",
-        "text": "<b>Fight.</b> You may use [willpower] instead of [combat] for this attack. When you initiate this attack, search the chaos bag for up to 3 [bless] tokens, and seal them here. For each [bless] token sealed on Radiant Smite, you get +1 skill value and deal +1 damage for this attack. If this attack defeats the attacked enemy, return the sealed tokens to the token pool. Otherwise, release them.",
-        "traits": "Spell. Spirit. Blessed."
+        "name": "Destrucción radiante",
+        "text": "<b>Combatir.</b> Puedes usar [willpower] en lugar de [combat] para este ataque. Cuando inicies este ataque, busca en la bolsa de caos hasta 3 fichas [bless] y séllalas aquí. Por cada ficha [bless] sellada sobre Destrucción radiante, recibes +1 a tu valor de habilidad e infliges +1 de daño para este ataque. Si este ataque derrota al Enemigo atacado, devuelve las fichas selladas a la reserva de fichas. Si no es así, libéralas.",
+        "traits": "Hechizo. Espíritu. Bendecido."
     },
     {
         "code": "07154",
-        "name": "The Truth Beckons",
-        "text": "Play only if you are not engaged with an enemy.\n<b>Move.</b> Choose an unrevealed location. Move (one location at a time) along the shortest path toward that location, until you enter that location. End this effect if you reveal a location, if an enemy engages you, or if your movement is blocked.",
-        "traits": "Insight."
+        "name": "La verdad te llama",
+        "text": "Juega esta carta solo si no estás enfrentado a un Enemigo.\n<b>Movimiento.</b> Elige un Lugar sin revelar. Muévete de Lugar en Lugar por el camino más corto hacia ese Lugar, hasta que entres en él. Termina esta efecto si revelas un Lugar, si un Enemigo se enfrenta a ti o si tu movimiento está bloqueado.",
+        "traits": "Inspiración."
     },
     {
         "code": "07155",
-        "name": "Gaze of Ouraxsh",
-        "text": "Reveal 7 random chaos tokens from the chaos bag. Deal a total of 1 damage plus 1 additional damage for each [curse] or [auto_fail] token revealed, divided as you choose among enemies at your location. This action does not provoke attacks of opportunity.",
-        "traits": "Spell. Cursed."
+        "name": "Mirada de Ouraxsh",
+        "text": "Revela 7 fichas de Caos al azar de la bolsa de caos. Inflige un total de 1 de daño más 1 de daño adicional por cada ficha [curse] o [auto_fail] revelada, dividido como elijas entre los Enemigos que estén en tu Lugar. Esta acción no provoca ataques de oportunidad.",
+        "traits": "Hechizo. Maldito."
+    },
+    {
+        "code": "07156",
+        "name": "Sacerdote de dos cultos",
+        "text": "[reaction] Después de que el Sacerdote de dos cultos entre en juego: Añade 3 fichas [bless] a la bolsa de caos.\n<b>Obligado</b> - Al final de la fase de Mantenimiento: Debes añadir 1 ficha [curse] a la bolsa de caos o bien descartar el Sacerdote de dos cultos.",
+        "traits": "Aliado. Bendecido. Maldito.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "07157",
+        "name": "Bajo vigilancia",
+        "text": "Vincula esta carta a tu Lugar. Límite de 1 por Lugar.\n<b>Obligado</b> - Después de que un Enemigo que no sea [[Élite]] entre en el Lugar vinculado, descarta Bajo vigilancia: Evita automáticamente a ese Enemigo y descubre 1 pista en el Lugar vinculado. Ese Enemigo no se prepara durante la próxima fase de Mantenimiento.",
+        "traits": "Táctica. Trampa."
+    },
+    {
+        "code": "07158",
+        "name": "Pacto de sangre",
+        "text": "[free] Añade 1 ficha de Perdición al Pacto de sangre: Recibes +2 [willpower] para esta prueba de habilidad. Límite de una vez por prueba.\n[free] Añade 1 ficha de Perdición al Pacto de sangre: Recibes +2 [combat] para esta prueba de habilidad. Límite de una vez por prueba.",
+        "traits": "Hechizo. Pacto."
+    },
+    {
+        "code": "07159",
+        "name": "Tomo abisal",
+        "text": "[action] Agota el Tomo abisal: <b>Combatir.</b> Puedes usar [intellect] o [willpower] para este ataque en lugar de [combat]. Cuando inicies este ataque, puedes colocar 1 ficha de Perdición sobre el Tomo abisal (hasta un máximo de 3). Recibes +1 a tu valor de habilidad e infliges +1 de daño para este ataque por cada ficha de Perdición que haya sobre el Tomo abisal.",
+        "traits": "Objeto. Tomo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "07160",
+        "name": "Efecto mariposa",
+        "text": "Rápido. Juega esta carta cuando sea revelada una ficha de Caos con un símbolo durante una prueba de habilidad realizada en tu Lugar <i>(antes de resolver sus efectos)</i>.\nEl investigador que realiza la prueba o tú podéis asignar una carta a esta prueba de habilidad o bien devolver a la mano una carta que hayáis asignado a esta prueba.",
+        "traits": "Paradoja. Bendecido. Maldito."
     },
     {
         "code": "07161",
-        "name": "Third Time's a Charm",
-        "text": "Fast. Play when a skill test at your location begins.\nTwice during this test, when an investigator reveals a chaos token, they may cancel it, return it to the chaos bag, and reveal a new chaos token.",
-        "traits": "Spirit."
+        "name": "A la tercera va la vencida",
+        "text": "Rápido. Juega esta carta cuando comience una prueba de habilidad en tu Lugar.\nDos veces durante esta prueba, cuando un investigador revele una ficha de Caos, puede cancelarla, devolverla a la bolsa de caos y revelar una nueva ficha de Caos.",
+        "traits": "Espíritu."
     },
     {
         "code": "07162",
-        "name": "Manipulate Destiny",
-        "text": "Reveal tokens from the chaos bag until you reveal a [curse], [auto_fail], [bless], or [elder_sign] token. If you revealed...\n- ...a [curse] or [auto_fail] token, deal 2 damage to an enemy at your location.\n- ...a [bless] or [elder_sign] token, heal 2 damage from an investigator or [[Ally]] asset at your location.\nThis action does not provoke attacks of opportunity.",
-        "traits": "Spell."
+        "name": "Manipular el destino",
+        "text": "Revela fichas de la bolsa de caos hasta que revelas una ficha [curse], [auto_fail], [bless] o [elder_sign]. Si has revelado…\n- …una ficha [curse] o [auto_fail], inflige 2 puntos de daño a un Enemigo que esté en tu Lugar.\n- …una ficha [bless] o [elder_sign], cura 2 puntos de daño a un investigador o Apoyo [[Aliado]] que esté en tu Lugar.\nEsta acción no provoca ataque de oportunidad.",
+        "traits": "Hechizo."
     }
 ]
