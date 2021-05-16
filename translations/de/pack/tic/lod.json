@@ -1,35 +1,85 @@
 [
     {
+        "code": "07261",
+        "name": "Waffe verzaubern",
+        "text": "Hänge diese Karte an einen [[Waffe]]-Vorteil an, der von einem Ermittler an deinem Ort kontrolliert wird. Nur 1 pro Vorteilskarte.\nDer Vorteil mit dieser Verstärkung erhält das Merkmal [[Relikt]] und benötigt zusätzliche zu seinen anderen Slots einen arkanen Slot.\n[reaction] Sobald du eine <b>Kampf</b>-Aktion durchführst, in der du den Vorteil mit dieser Verstärkung verwendest, erschöpfe diese Karte: Füge für diesen Angriff den [willpower]-Wert des Besitzers dieser Karte zu deinem [combat]-Wert hinzu. Dieser Angriff fügt +1 Schaden zu.",
+        "traits": "Zauber. Verbesserung."
+    },
+    {
         "code": "07262",
         "name": "Nephthys",
-        "subname": "Huntress of Bast",
-        "text": "You get +1 [willpower].\n[reaction] When 1 or more [bless] tokens would be removed from the chaos bag during a skill test: Seal them on Nephthys, instead.\n[free] Exhaust Nephthys: Either release 3 [bless] tokens sealed on her, or return 3 [bless] tokens sealed on her to the token pool to deal 2 damage to an enemy at your location.",
-        "traits": "Ally. Blessed.",
-        "slot": "Ally"
+        "subname": "Bastets Jägerin",
+        "text": "Du bekommst +1 [willpower].\n[reaction] Sobald während einer Fertigkeitsprobe 1 oder mehr [bless]-Marker aus dem Chaosbeutel entfernt werden würden: Versiegle sie stattdessen auf Nephtys.\n[free] Erschöpfe Nephtys: Setze entweder 3 auf ihr versiegelte [bless]-Marker frei; oder lege 3 auf ihr versiegelte [bless]-Marker in den Markervorrat zurück, um einem Gegner an deinem Ort 2 Schaden zuzufügen.",
+        "traits": "Verbündeter. Gesegnet.",
+        "slot": "Verbündeter"
     },
     {
         "code": "07263",
-        "name": "The Stygian Eye",
-        "text": "Fast. Play only during your turn.\nReduce the cost to play The Stygian Eye by 1 for each [curse] token in the chaos bag.\nUntil the end of the round, you get +3 to each of your skills.",
-        "traits": "Insight. Cursed."
+        "name": "Das Stygische Auge",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nSenke die Kosten, um Das Stygische Auge zu spielen, für jeden [curse]-Marker im Chaosbeutel um 1.\nBis zum Ende der Runde bekommst du +3 auf jede deiner Fertigkeiten.",
+        "traits": "Erkenntnis. Verflucht."
     },
     {
         "code": "07264",
-        "name": "Hyperawareness",
-        "text": "Uses (2 resources). Replenish these resources at the start of each round.\n[free] Spend 1 resource from your resource pool or from Hyperawareness: You get +1 [intellect] or +1 [agility] for this skill test.",
+        "name": "Gesteigerte Aufmerksamkeit",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\n[free] Gib 1 Ressource aus deinem Ressourcenvorrat oder von Gesteigerte Aufmerksamkeit aus: Du bekommst für diese Fertigkeitsprobe +1 [intellect] oder +1 [agility].",
         "traits": "Talent."
     },
     {
+        "code": "07265",
+        "name": "Fluchgelübde",
+        "text": "Außergewöhnlich.\nDu bekommst +1 [willpower], +1 [intellect], +1 [combat] und +1 [agility].\n<b>Erzwungen</b> - Nachdem Fluchgelübde ins Spiel gekommen ist: Mache ein Versprechen, indem du folgende Formulierung verwendest - „Ich gelobe, dass ich in meinen Zügen keine Karte (ziehen/spielen/beitragen) werde”. Falls du dieses Versprechen brichst, solange Fluchgelübde im Spiel ist, lege es ab und füge dem Chaosbeutel 10 [curse]-Marker hinzu.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "07266",
+        "name": "Die harte Schule des Lebens",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\n[free] Gib 1 Ressource aus deinem Ressourcenvorrat oder von Die Harte Schule des Lebens aus: Du bekommst für diese Fertigkeitsprobe +1 [combat] oder +1 [agility].",
+        "traits": "Talent."
+    },
+    {
+        "code": "07267",
+        "name": "Ikiaq",
+        "subname": "Die Auserwählte des Rates",
+        "text": "Du bekommst +1 [willpower] und +1 [intellect]. Du bekommst für jede Schwäche unter Ikiaq -1 [willpower] und -1 [intellect].\n[reaction] Sobald ein Ermittler an deinem Ort eine Grundschwäche zieht, erschöpfe Ikiaq: Hebe die Effekte jener Schwäche auf und platziere sie verdeckt unter Ikiaq. Falls Ikiaq das Spiel verlässt, muss der Besitzer der Schwäche jene ziehen.",
+        "traits": "Verbündeter. Zauberer.",
+        "slot": "Verbündeter"
+    },
+    {
         "code": "07268",
-        "name": "Flute of the Outer Gods",
-        "text": "Exceptional. Seal (up to X [curse]).\n[action] Exhaust Flute of the Outer Gods and release 1 [curse] token sealed on it: Choose a non-[[Elite]] enemy at your location. Either move the chosen enemy to a connecting location, or deal its damage to any enemy at its location. This action does not provoke attacks of opportunity.",
-        "traits": "Item. Instrument. Relic. Cursed.",
+        "name": "Flöte der Äußeren Götter",
+        "text": "Außergewöhnlich. Versiegeln (bis zu X [curse]).\n[action] Erschöpfe die Flöte der Äußeren Götter und setze 1 darauf versiegelten [curse]-Marker frei: Wähle einen Nicht-[[Elite]]-Gegner an deinem Ort. Bewege den gewählten Gegner entweder an einen verbundenen Ort oder füge seinen Schaden einem beliebigen Gegner an seinem Ort zu. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Gegenstand. Instrument. Relikt. Verflucht.",
         "slot": "Hand"
     },
     {
+        "code": "07269",
+        "name": "Ein vorsichtiger Frieden",
+        "text": "Als zusätzliche Kosten, um Ein vorsichtiger Frieden zu spielen, durchsuche den Chaosbeutel und/oder Karten im Spiel nach insgesamt 5 [bless]-Markern und lege sie in den Markervorrat zurück.\nSchnell. Spiele diese Karte, sobald der Schritt „Begegnungskarten ziehen” in der Mythosphase beginnen würde. Überspringe diesen Schritt der Mythosphase.",
+        "traits": "Geist. Gesegnet."
+    },
+    {
+        "code": "07270",
+        "name": "Große Anstrengung",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\n[free] Gib 1 Ressource aus deinem Ressourcenvorrat oder von Große Anstrengung aus: Du bekommst für diese Fertigkeitsprobe +1 [willpower] oder +1 [agility].",
+        "traits": "Talent."
+    },
+    {
         "code": "07271",
-        "name": "Favor of the Moon",
-        "text": "Fast. Seal (up to 3 [curse]). If there are no tokens sealed on Favor of the Moon, discard it.\n[reaction] When you would reveal a chaos token from the chaos bag, exhaust Favor of the Moon: Resolve a token sealed here instead, as if it were just revealed from the chaos bag. Then, gain 1 resource.",
-        "traits": "Pact. Cursed"
+        "name": "Gunst des Mondes",
+        "text": "Schnell. Versiegeln (bis zu 3 [curse]). Falls sich auf Gunst des Mondes keine versiegelten Marker befinden, lege diese Karte ab.\n[reaction] Sobald du einen Chaosmarker aus dem Chaosbeutel enthüllen würdest, erschöpfe Gunst des Mondes: Handle stattdessen einen hier versiegelten Marker ab, als ob er gerade aus dem Chaosbeutel enthüllt worden wäre. Dann erhältst du 1 Ressource.",
+        "traits": "Pakt. Verflucht"
+    },
+    {
+        "code": "07272",
+        "name": "Gunst der Sonne",
+        "text": "Schnell. Versiegeln (bis zu 3 [bless]). Falls sich auf Gunst der Sonne keine versiegelten Marker befinden, lege diese Karte ab.\n[reaction] Sobald du einen Chaosmarker aus dem Chaosbeutel enthüllen würdest, erschöpfe Gunst der Sonne: Handle stattdessen einen hier versiegelten Marker ab, als ob er gerade aus dem Chaosbeutel enthüllt worden wäre.",
+        "traits": "Pakt. Gesegnet."
+    },
+    {
+        "code": "07273",
+        "name": "Reinigende Verderbnis",
+        "text": "[reaction] Sobald du eine Nicht-Schwäche-Verratskarte ziehst, nimm 1 Schaden und 1 Horror: Hebe den Enthüllungseffekt jener Karte auf und platziere 1 Ressource als Verfall auf dieser Karte. Falls sich auf dieser Karte 3 oder mehr Verfall befindet, entferne die Karte aus dem Spiel.\n[fast] Ziehe die oberste Karte des Begegnungsdecks: Heile entweder 1 Schaden und 1 Horror oder entferne 1 Verfall von dieser Karte.",
+        "traits": "Ritual. Gesegnet. Verflucht."
     }
 ]
