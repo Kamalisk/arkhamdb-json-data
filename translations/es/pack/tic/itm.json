@@ -1,30 +1,70 @@
 [
     {
         "code": "07301",
-        "flavor": "Even in the deepest darkness, light can still bloom.",
-        "name": "Hallow",
-        "text": "As an additional cost to play Hallow, return a total of 10 [bless] tokens to the token pool from the chaos bag or sealed on cards in play.\nRemove 1 doom from any card in play.",
-        "traits": "Spell. Blessed."
+        "flavor": "La luz puede brotar incluso en la oscuridad más profunda.",
+        "name": "Consagrar",
+        "text": "Como coste adicional para jugar Consagrar, devuelve a la reserva de fichas un total de 10 fichas [bless] de la bolsa de caos o selladas sobre cartas en juego.\nRetira 1 ficha de Perdición de cualquier carta en juego.",
+        "traits": "Hechizo. Bendecido."
+    },
+    {
+        "code": "07302",
+        "name": "Lanza sagrada",
+        "text": "[action]: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque. Cuando inicies esta capacidad, puedes liberar una ficha [bless] sellada sobre la Lanza sagrada.\n[action] Busca 2 fichas [bless] en la bolsa de caos y séllalas sobre la Lanza sagrada: <b>Combatir.</b> Recibes +4 [combat] e infliges +2 de daño para este ataque.",
+        "traits": "Objeto. Arma. Cuerpo a cuerpo. Bendecido.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "07303",
+        "name": "Conocimiento ancestral",
+        "text": "Permanente. Excepcional.\nTu mazo debe incluir al menos 10 Habilidades. Tu tamaño de mano aumenta en 5.\n[reaction] Antes de que robes tu mano inicial: Vincula boca abajo a esta carta 5 Habilidades aleatorias que no sean Debilidad de tu mazo.\n[free] Agota el Conocimiento ancestral: Roba 1 Habilidad vinculada.",
+        "traits": "Talento."
     },
     {
         "code": "07304",
-        "name": "Ariadne's Twine",
-        "text": "Uses (0 secrets).\nSecrets on Ariadne's Twine can be spent as if they were on any asset controlled by an investigator at your location.\n[free] Exhaust Ariadne's Twine: Move 1 secret from an asset you control to your resource pool, as a resource, or vice versa.",
+        "name": "El hilo de Ariadna",
+        "text": "Usos (0 secretos).\nLos secretos que haya en el Hilo de Ariadna se pueden gastar como si estuvieran en cualquier Apoyo controlado por un investigador que esté en tu Lugar.\n[free] Agota El hilo de Ariadna: Mueve 1 secreto de un Apoyo que controles a tu reserva de recursos como recurso, o viceversa.",
         "traits": "Ritual.",
-        "slot": "Arcane"
+        "slot": "Arcano"
+    },
+    {
+        "code": "07305",
+        "name": "Automática del .25",
+        "text": "Rápido. Usos (4 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Si el Enemigo atacado está agotado, recibes +2 [combat] e infliges +1 de daño para este ataque.\n[reaction] Después de que evites a un Enemigo en tu Lugar: Realiza la capacidad <b>Combatir</b> anterior sin gastar una acción.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
     },
     {
         "code": "07306",
-        "name": "Justify the Means",
-        "text": "You may commit Justify the Means to any type of test.\nAs an additional cost to commit Justify the Means to a skill test, add [curse] tokens to the chaos bag equal to this test's difficulty.\nThis test automatically succeeds.",
-        "traits": "Practiced. Cursed."
+        "name": "Justificar los medios",
+        "text": "Puedes asignar Justificar los medios a cualquier tipo de prueba.\nComo coste adicional para asignar Justificar los medios a una prueba de habilidad, añade a la bolsa de caos una cantidad de fichas [curse] igual a la dificultad de esta prueba.\nEsta prueba tiene éxito automáticamente.",
+        "traits": "Experimentado. Maldito."
     },
     {
         "code": "07307",
-        "name": "Lucky Dice",
-        "subname": "...Or Are They?",
-        "text": "Exceptional.\n[reaction] When you reveal a non-[curse], non-[auto_fail] chaos token, add 1 [curse] token to the chaos bag: Ignore the just revealed chaos token and reveal another one to resolve. If that token has a [curse] or [auto_fail] symbol, return Lucky Dice to your hand (cannot be ignored/canceled).",
-        "traits": "Item. Relic.",
-        "slot": "Accessory"
+        "name": "Dados de la suerte",
+        "subname": "¿…o no?",
+        "text": "Excepcional.\n[reaction] Cuando reveles una ficha de Caos que no sea [curse] ni [auto_fail], añade 1 ficha [curse] a la bolsa de caos: Ignora la ficha que acabas de revelar y revela otra para resolverla. Si esa ficha tiene un símbolo [curse] o [auto_fail], devuelve los Dados de la suerte a tu mano (no se puede ignorar/cancelar).",
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "07308",
+        "name": "Rito de equilibrio",
+        "text": "Elige una sola opción:\n- Añade X fichas [curse] a la bolsa de caos para añadir X fichas [bless] a la bolsa de caos.\n- Retira X fichas [curse] y X fichas [bless] de la bolsa de caos para curar un total de X puntos de horror entre cartas que estén en tu Lugar.",
+        "traits": "Hechizo. Bendecido. Maldito."
+    },
+    {
+        "code": "07309",
+        "name": "Jacob Morrison",
+        "subname": "Capitán de la guardia costera",
+        "text": "Jacob Morrison no se prepara durante la fase de Mantenimiento.\n[reaction] Cuando fueses a fracasar en una prueba de habilidad, agota a Jacob Morrison: Recibes +2 a tu valor de habilidad para esa prueba.\n[reaction] Después de que sea revelada una ficha [bless] de la bolsa de caos durante una prueba de habilidad que estés realizando: Prepara a Jacob Morrison.",
+        "traits": "Aliado. Bendecido.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "07310",
+        "name": "Altar de las Moiras",
+        "text": "Vincula esta carta a tu Lugar. Usos (3 ofrendas).\nEl Lugar vinculado obtiene: «[free] Roba la primera carta del mazo de Encuentros, agota el Altar de las Moiras y gasta 1 ofrenda: Devuelve a tu mano desde tu pila de descartes hasta 2 cartas que tengan un nivel total combinado de 5 o menos».\n<b>Carta diseñada por las Moiras en Arkham Nights 2019.</b>",
+        "traits": "Fortuna. Bendecido. Maldito."
     }
 ]
