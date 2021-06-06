@@ -1,75 +1,75 @@
 [
     {
         "code": "51001",
-        "name": "Bandolier",
-        "text": "You have two additional hand slots, which can only be used to hold [[Weapon]] assets.\nWhile you have [[Weapon]] assets held in 2 or more hand slots, you get +1 [willpower].",
-        "traits": "Item.",
-        "slot": "Body"
+        "name": "子彈袋",
+        "text": "你擁有額外2個手部槽位，只能用於放置[[武器]]支援卡。\n只要你的[[武器]]支援卡總共占用2個或更多的手部槽位，你獲得+1[willpower]。",
+        "traits": "道具",
+        "slot": "服裝"
     },
     {
         "code": "51002",
-        "name": "Blackjack",
-        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. If you perform this attack against an enemy engaged with another investigator, you deal +1 damage for this attack if you succeed, and no damage if you fail.",
-        "traits": "Item. Weapon. Melee.",
-        "slot": "Hand"
+        "name": "金屬棍棒",
+        "text": "[action]：<b>攻擊</b>。這次攻擊中你+2[combat]。如果你對與另一位調查員交戰的敵人攻擊，你這次攻擊造成+1傷害。失敗時不會對調查員造成傷害。",
+        "traits": "道具. 武器. 近戰",
+        "slot": "手部"
     },
     {
         "code": "51003",
-        "name": "Preposterous Sketches",
-        "text": "Play only if there is a clue on your location.\nDraw 3 cards.",
-        "traits": "Insight."
+        "name": "荒唐的素描像",
+        "text": "只能在你所在地點有至少1個線索時打出。\n抽取3張卡牌。",
+        "traits": "洞察"
     },
     {
         "code": "51004",
-        "name": "Strange Solution",
-        "subname": "Empowering Elixir",
-        "text": "You can only include this asset in your deck by upgrading it from Strange Solution <i>(Unidentified)</i>, and only if you have \"identified the solution\" in your Campaign Log.\nUses (3 supplies).\n[action] Spend 1 supply and exhaust Strange Solution: Choose an investigator at your location to gain 2 resources and draw 1 card.",
-        "traits": "Item. Science."
+        "name": "奇怪的溶液",
+        "subname": "充能萬靈藥",
+        "text": "該卡只能通過升級奇怪的溶液<i>(未鑑定)</i>獲得，升級該卡時，你的冒險日誌必須\"確認溶液成分\"才能升級。\n使用(3補給)。\n[action]花費1補給並消耗奇怪的溶液：選擇你所在地點的一位調查員，該調查員獲得2資源並抽取1張卡牌。",
+        "traits": "道具. 科學"
     },
     {
         "code": "51005",
-        "flavor": "It may not be legal, but it gets the job done",
-        "name": "Contraband",
-        "text": "Choose an asset controlled by an investigator at your location. Either (choose one):\n- Place 2 ammo or supply tokens on that asset and draw 1 card.\n- Double the number of ammo or supply tokens on that asset.",
-        "traits": "Supply. Illicit."
+        "flavor": "管他違不違法，能辦事就成。",
+        "name": "走私品",
+        "text": "選擇一張你所在地點的調查員控制的支援卡。選擇以下一項：\n- 在該支援卡上放置2個子彈或補給標記，並抽取1張卡牌。\n- 將該支援卡上的子彈或補給標記數量翻倍。",
+        "traits": "供給. 違法"
     },
     {
         "code": "51006",
-        "name": "Think on Your Feet",
-        "text": "Fast. Play when an enemy enters your location.\nImmediately move to a connecting location. (The enemy still enters your previous location.)",
-        "traits": "Trick."
+        "name": "逃跑本能",
+        "text": "快速。在敵人將要進入你所在地點時打出。\n立刻移動到一個連接地點。(該敵人依然進入原本地點。)",
+        "traits": "技巧"
     },
     {
         "code": "51007",
-        "name": "Rite of Seeking",
-        "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed you discover 1 additional clue at this location. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, after this test resolves lose all remaining actions and immediately end your turn.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "禮尋術",
+        "text": "使用(3充能)。\n[action]花費1充能：<b>調查</b>。這次調查不使用[intellect]，改為使用[willpower]。這次檢定中你+2[willpower]。如果成功，額外發現所在地點1個線索。如果檢定中抽出[skull]、[cultist]、[tablet]、[elder_thing]或[auto_fail]標記，在檢定結束後，失去所有剩餘行動，並立刻結束你的回合。",
+        "traits": "法術",
+        "slot": "法術"
     },
     {
         "code": "51008",
-        "flavor": "From the unreal lead me to the real\nFrom the darkness lead me to the light\nFrom the dead lead me to the immortal",
-        "name": "Clarity of Mind",
-        "text": "Uses (4 charges).\n[action] Spend 1 charge: Heal 2 horror from among investigators at your location.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "flavor": "虛幻帶來現實\n黑暗帶來光明\n死亡帶來永恆",
+        "name": "淨心術",
+        "text": "使用(4充能)。\n[action]花費1充能：治癒你所在地點的調查員總計2點恐懼。",
+        "traits": "法術",
+        "slot": "法術"
     },
     {
         "code": "51009",
-        "name": "Oops!",
-        "text": "Fast. Play after you fail a skill test by 3 or less while attacking an enemy.\nDeal this attack's damage to any enemy at your location. If the attacked enemy is engaged with another investigator, this attack deals no damage to that investigator.",
-        "traits": "Fortune."
+        "name": "哎呀！",
+        "text": "快速。在你攻擊失敗，並且低於難度3點及以內後打出。\n對你所在地點的另一名敵人造成該次攻擊的傷害。如果被攻擊的敵人與另一位調查員交戰，這次攻擊不會對調查員造成傷害。",
+        "traits": "幸運"
     },
     {
         "code": "51010",
-        "name": "Rise to the Occasion",
-        "text": "Commit only to a skill test you are performing, and only if the difficulty of that test is higher than your base skill value.\nRise to the Occasion gets +X [wild] icons, where X is the difference between your base skill and this test's difficulty (to a maximum of +3 [wild] icons).",
-        "traits": "Innate."
+        "name": "隨機應變",
+        "text": "只能在你執行的技能檢定中投入，且該檢定難度必須比你基礎技能值高。\n隨機應變獲得+X[wild]圖標，其中X為你的基礎技能值與該檢定難度的差值(最多+3[wild]圖標)。",
+        "traits": "天性"
     },
     {
         "code": "51011",
-        "name": "Through the Gates",
-        "text": "<b>Revelation</b> - Draw the top card of your deck. If it is not a weakness, remove that card from the game. Then, search your deck, discard pile, hand, and all play areas for each other copy of that card you own, and remove them from the game, as well.",
-        "traits": "Pact. Mystery."
+        "name": "穿越傳送門",
+        "text": "<b>顯現</b> - 抽取你牌堆頂部1張卡牌。如果不是弱點卡，將該卡移出遊戲。然後，查找你的牌堆、棄牌堆、手牌和其他遊戲區域中你持有的同名卡牌，將這些卡牌也移出遊戲。",
+        "traits": "契約. 神秘"
     }
 ]
