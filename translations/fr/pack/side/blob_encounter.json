@@ -75,7 +75,7 @@
         "flavor": "Bullet casings litter the blackened dirt, though there are no bodies to be found anywhere. A gentle humming fills the air.",
         "name": "The Crater",
         "text": "[action] Spend 1 countermeasure: Deal 3 damage to Subject 8L-08 or a [[Manifold]] enemy at any location.\n<b>Forced</b> - At the end of the round: Each investigator at The Crater takes 1 damage.",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_flavor": "The impact site is a barren farm in the center of the quarantine zone. A ramshackle homestead lies nearby, mostly consumed by globs of green ooze. Smoke still rises from the center of the crater where the alien meteorite sits. A soft green glow emanates from within; a harbinger that something here is not quite right."
     },
     {
@@ -102,7 +102,7 @@
         "flavor": "These sewers intersect throughout Blackwater. Though you would not relish the journey, you could use these passages to move unhindered from one section of the town to the next.",
         "name": "Sewer",
         "text": "[action]: Test [intellect] (1). If you succeed, move to a location up to X connections away from Sewer, where X is the amount you succeeded by.",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -110,7 +110,7 @@
         "code": "85015",
         "name": "Bridge",
         "text": "[free]: Choose an exhausted [[Manifold]] enemy at Bridge and test [intellect] (X), where X is that enemy's evade value. If you succeed, defeat the chosen enemy. (Max one success per game.)",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -119,7 +119,7 @@
         "flavor": "This rusty old water tower has seen better days.",
         "name": "Water Tower",
         "text": "[action] If there are no clues on Water Tower: Test [intellect] (3) to find the structure's weakness. If you succeed, deal 3 damage to each [[Ooze]] enemy at Water Tower and at each connecting location. (Max one success per game.)",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -127,7 +127,7 @@
         "code": "85017",
         "name": "Church",
         "text": "[action] If there are no clues on Church: Choose an [[Ooze]] enemy at Church, or a connecting location. Move the chosen enemy one location away from Church and automatically evade it. (Group limit once per game.)",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -135,7 +135,7 @@
         "code": "85018",
         "name": "Oozy Lakebed",
         "text": "<b>Forced</b> - After a [[Manifold]] enemy spawns at Oozy Lakebed: Place 1 clue on Oozy Lakebed. That enemy cannot take damage this round.",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -143,7 +143,7 @@
         "code": "85019",
         "name": "Slimy Streets",
         "text": "<b>Forced</b> - After you discover any number of clues from Slimy Streets: Reveal that many random tokens from the chaos bag. For each [skull] or [auto-fail] token revealed by this effect, take 1 damage or 1 horror.",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -151,7 +151,7 @@
         "code": "85020",
         "name": "Desiccated Farmland",
         "text": "While you are at Desiccated Farmland, you cannot gain resources.\n<b>Forced</b> - After you end your turn at Desiccated Farmland: Lose 1 resource.",
-        "traits": "Oozified.",
+        "traits": "Muqueux.",
         "back_name": "Quarantine Zone",
         "back_flavor": "Very little of Blackwater has been left untouched by the anomaly."
     },
@@ -189,14 +189,14 @@
     },
     {
         "code": "85025",
-        "name": "University Chemist",
-        "text": "[action]: <b>Parley.</b> Test [willpower] or [intellect] (3). If you succeed, place 1 resource <i>(from the token pool)</i> on University Chemist. Then, if there are 1 [per_investigator] resources on it, take control of it.",
+        "name": "Chimiste de l'Université",
+        "text": "[action] : <b>Discussion</b>. Effectuez un test de [willpower] ou de [intellect] (3). En cas de réussite, placez 1 ressource <i>(prise dans la réserve de pions)</i> sur la Chimiste de l'Université. Ensuite, s'il y a 1[per_investigator] ressource sur elle, prenez-en le contrôle.",
         "traits": "Passant. Miskatonic."
     },
     {
         "code": "85026",
-        "name": "Meteorite Sample",
-        "text": "If uncontrolled and unattached, attach Meteorite Sample to its location. If attached to a location with no clues on it, Meteorite Sample gains: \"[action] Test [willpower] or [agility] (6). If you succeed, detach Meteorite Sample and take control of it.\"",
+        "name": "Fragment de Météorite",
+        "text": "Sil n'est ni contrôlé ni attaché, attachez le Fragment de Météorite à son lieu. S'il est attaché à un lieu sans indice dessus, le Fragment de Météorite gagne : « [action] : effectuez un test de [willpower] ou de [agility] (6). En cas de réussite, détachez le Fragment de Météorite et prenez-en le contrôle. »",
         "traits": "Objet."
     },
     {
@@ -207,34 +207,34 @@
     },
     {
         "code": "85028",
-        "name": "The Military's Plan",
-        "text": "Horror tokens on locations represent explosives.\nEach location with explosives gains: \"[action]: Test [intellect] or [agility] (3). If you succeed, remove the horror token on this location.\"\n<b>Forced</b> - At the end of the round: Remove 1 damage from this card."
+        "name": "Le Plan des Militaires",
+        "text": "Les pions Horreur sur les lieux représentent des explosifs.\nChaque lieu avec des explosifs gagne : « [action] : effectuez un test de [intellect] ou de [agility] (3). En cas de réussite, retirez le pion Horreur de ce lieu. »\n<b>Forcé</b> – À la fin du round : retirez 1 dégât de cette carte."
     },
     {
         "code": "85029",
-        "name": "Universal Solvent",
-        "text": "Uses (4 supplies).\n[action] Spend 1 supply: Test [intellect] (1). If you succeed, discard an [[Obstacle]] treachery at your location.\n[action] Spend 1 supply: Choose a non-[[Elite]] enemy at your location and test [intellect] (X), where X is 1 more than that enemy's remaining health. If you succeed, that enemy is defeated. Does not provoke attacks of opportunity.",
+        "name": "Solvant Universel",
+        "text": "Utilisations (4 provisions).\n[action] Dépensez 1 provision : effectuez un test de [intellect] (1). En cas de réussite, défaussez une traîtrise [[Obstacle]] dans votre lieu.\n[action] Dépensez 1 provision : choisissez un ennemi non-[[Élite]] dans votre lieu et effectuez un test de [intellect] (X), X étant la vie restante de cet ennemi plus 1. En cas de réussite, cet ennemi est vaincu. Cette action ne provoque pas d'attaque d'opportunité.",
         "traits": "Objet. Science."
     },
     {
         "code": "85030",
-        "flavor": "WARNING: DO NOT FEED OOZELING UNDER ANY CIRCUMSTANCES",
-        "name": "Pet Oozeling",
-        "text": "[fast] Defeat a non-[[Elite]] enemy at your location with 2 or less remaining health. Then, heal all damage from Pet Oozeling, place 1 resource on it, and reveal X chaos tokens, where X is the number of resources on it. If an [auto_fail] symbol is revealed, you are defeated and suffer 1 physical trauma.",
-        "traits": "Allié. Monstre. Ooze."
+        "flavor": "ATTENTION : NE NOURRISSEZ LA MUCOSITÉ SOUS AUCUN PRÉTEXTE",
+        "name": "Mucosité Apprivoisée",
+        "text": "[fast] Vainquez un ennemi non-[[Élite]] dans votre lieu avec une vie restante de 2 ou moins. Ensuite, soignez tous les dégâts sur la Mucosité Apprivoisée, placez 1 ressource dessus et révélez X pions Chaos, X étant le nombre de ressources sur elle. Si un symbole [auto_fail] est révélé, vous êtes vaincu et subissez 1 traumatisme physique.",
+        "traits": "Allié. Monstre. Mucus."
     },
     {
         "code": "85031",
-        "name": "Mi-Go Weapon",
-        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> The device fires a blast of entropic energy. You get +2 [combat] and deal +1 damage for this attack. If you succeed and the enemy is not defeated, move it one location away from you. (If you succeed by 3 or more, deal +1 damage and move the enemy an additional location away.)",
+        "name": "Arme Mi-Go",
+        "text": "Utilisations (3 munitions).\n[action] Dépensez 1 munition : <b>Combattre</b>. L'engin laisse échapper une déflagration d'énergie entropique. Vous gagnez +2 [combat] et infligez +1 dégât pour cette attaque. En cas de réussite, si l'ennemi n'est pas vaincu, déplacez-le de 1 lieu en l'éloignant de vous. (En cas de réussite avec une différence de 3 ou plus, infligez +1 dégât et déplacez l'ennemi de 1 lieu supplémentaire en l'éloignant de vous.)",
         "traits": "Arme. Science.",
         "slot": "Main"
     },
     {
         "code": "85032",
-        "name": "Lt. Wilson Stewart",
-        "subname": "Logistical Genius",
-        "text": "[fast] Exhaust Lt. Wilson Stewart: Discard a card from your hand or from the top of your deck. Then, for each...\n...[willpower] icon on that card, get +1 for your next test this round.\n...[intellect] icon on that card, draw 1 card.\n...[combat] icon on that card, heal 1 damage or horror from him.\n...[agility] icon on that card, gain 1 resource.",
+        "name": "Lt Wilson Stewart",
+        "subname": "Génie Logistique",
+        "text": "[fast] Inclinez le Lt Wilson Stewart : défaussez une carte de votre main ou du dessus de votre deck. Ensuite, pour chaque...\n...icône [willpower] sur la carte, gagnez +1 lors de votre prochain test à ce round.\n...icône [intellect] sur la carte, piochez 1 carte.\n...icône [combat] sur la carte, soignez le Lt Wilson Stewart de 1 dégât ou 1 horreur.\n...icône [agility] sur la carte, gagnez 1 ressource.",
         "traits": "Allié. Agence. Vétéran.",
         "slot": "Allié"
     },
@@ -267,45 +267,45 @@
         "name": "Subject 8L-08",
         "subname": "Extraspacial Anomaly",
         "text": "*Subject 8L-08 has a global health pool <i>(see page 6 of the rules for details)</i>. If Subject 8L-08 is defeated, proceed to <b>(→R2)</b>.",
-        "traits": "Monstre. Ooze. Élite."
+        "traits": "Monstre. Mucus. Élite."
     },
     {
         "code": "85038",
         "name": "Subject 8L-08",
         "subname": "Extraspacial Anomaly",
         "text": "Subject 8L-08 gets +15 health.\nIf Subject 8L-08 is defeated, proceed to <b>(→R2)</b>.",
-        "traits": "Monstre. Ooze. Élite."
+        "traits": "Monstre. Mucus. Élite."
     },
     {
         "code": "85039",
         "flavor": "Subject Report: 8L-08-b\n1846 hours - Recovered subject sample (8L-08-b) for further study. Subject appears to share same physiological qualities as 8L‑08, but acts with its own sentience. The pH levels observed in subject are similar to those found in 8L-08... (report continues on next page)",
         "name": "Oozeling",
         "text": "<b>Spawn</b> - Any empty [[Oozified]] location.\n<b>Blob 1.</b>",
-        "traits": "Monstre. Ooze. Collecteur."
+        "traits": "Monstre. Mucus. Réplique."
     },
     {
         "code": "85040",
         "name": "Grasping Ooze",
         "text": "<b>Spawn</b> - Nearest [[Oozified]] location.\nHunter.\n<b>Forced</b> - After you perform an attack against Grasping Ooze using a [[Melee]] card: Subject 8L-08 devours that card.\n<b>Blob 3.</b>",
-        "traits": "Monstre. Ooze. Collecteur."
+        "traits": "Monstre. Mucus. Réplique."
     },
     {
         "code": "85041",
         "name": "Cubic Ooze",
         "text": "<b>Revelation</b> - Immediately attempt to evade Cubic Ooze <i>(without spending an action)</i>. If you fail, spawn Cubic Ooze engaged with you, and it attacks you. If you succeed, spawn Cubic Ooze at your location, exhausted and unengaged.\n<b>Blob 2.</b>",
-        "traits": "Monstre. Ooze. Collecteur."
+        "traits": "Monstre. Mucus. Réplique."
     },
     {
         "code": "85042",
         "name": "Oozewraith",
         "text": "<b>Spawn</b> - Farthest [[Oozified]] location.\nAlert. Hunter. Retaliate.\n<b>Blob 5.</b>",
-        "traits": "Monstre. Ooze. Collecteur."
+        "traits": "Monstre. Mucus. Réplique."
     },
     {
         "code": "85043",
         "name": "Vulnerable Heart",
         "text": "Massive. Retaliate.\nX is the amount of damage on Vulnerable Heart.\nVulnerable Heart cannot be evaded and cannot make attacks of opportunity.\nVulnerable Heart cannot have more than 15 damage on it. All excess damage is canceled.",
-        "traits": "Monstre. Ooze. Élite."
+        "traits": "Monstre. Mucus. Élite."
     },
     {
         "code": "85044",
@@ -345,14 +345,14 @@
         "code": "85049",
         "name": "Caustic Dissemination",
         "text": "<b>Revelation</b> - Put Caustic Dissemination into play next to the agenda deck.\n<b>Forced</b> - At the end of the round: Each investigator at an [[Oozified]] location takes 1 damage and 1 horror. Subject 8L-08 devours each card defeated by this effect. Discard Caustic Dissemination. (Max once per round.)",
-        "traits": "Ooze. Risque."
+        "traits": "Mucus. Risque."
     },
     {
         "code": "85050",
         "flavor": "\"I just bought those shoes!\"",
         "name": "Sticky Feet",
         "text": "<b>Revelation</b> - Attach to the nearest [[Oozified]] location.\nAs an additional cost to enter or leave attached location, an investigator must spend an action.\n[action] Spend 1 countermeasure: Discard Sticky Feet.",
-        "traits": "Ooze. Obstacle."
+        "traits": "Mucus. Obstacle."
     },
     {
         "code": "85051",
@@ -370,6 +370,6 @@
         "code": "85053",
         "name": "Alien Food Chain",
         "text": "<b>Revelation</b> - If there are no [[Manifold]] enemies in play, Alien Food Chain gains surge. Otherwise, attach to the [[Manifold]] enemy with the least remaining health and fully heal that enemy.\nAttached enemy gets +1 fight, +1 evade, and gains hunter.",
-        "traits": "Ooze. Pouvoir."
+        "traits": "Mucus. Pouvoir."
     }
 ]
