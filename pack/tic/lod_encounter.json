@@ -10,7 +10,7 @@
         "pack_code": "lod",
         "position": 274,
         "quantity": 1,
-        "text": "Easy / Standard\n[skull]: -1 for each key on this card.\n[cultist]: -0. Reveal an additional chaos token. If you reveal 1 or more [curse] tokens during this test, you automatically fail.\n[tablet]: -3. If you fail, place each key you control on your location.\n[elder_thing]: -4. If you fail, add 1 [curse] token to the chaos bag.",
+        "text": "Easy / Standard\n[skull]: -1 for each key on this card.\n[cultist]: 0. Reveal an additional chaos token. If you reveal 1 or more [curse] tokens during this test, you automatically fail.\n[tablet]: -3. If you fail, place each key you control on your location.\n[elder_thing]: -4. If you fail, add 1 [curse] token to the chaos bag.",
         "type_code": "scenario"
     },
     {
@@ -36,7 +36,7 @@
     {
         "back_flavor": "In a flooded hall of the Order, you come across an onyx statue depicting a creature similar to the ones you saw in Devil Reef. Just as you are pondering the nature of its existence, you hear faint chanting up ahead: \"Y'ha-nthlei! Y'ha-nthlei!\" Before you can interpret the strange syllables, there is a splash behind you. You retreat as the figures approach, hoping to evade them. Their muffled chanting reaches a crescendo when, suddenly, all goes quiet.",
         "back_name": "Encounter in the Deep",
-        "back_text": "Add 2 [curse] tokens to the chaos bag. Check Campaign Log.\n- If <i>a jailbreak</i> is listed under \"Memories Recovered\" in your Campaign Log, spawn the set-aside [[Suspect]] enemy at a [[Third Floor]] location, or at the Grand Entryway if a [[Third Floor]] location is not in play <i>(ignoring that enemy's revelation ability)</i>. Place the set-aside blue key on that enemy.\n- Otherwise, nothing else happens.",
+        "back_text": "Remove 2 [curse] tokens from the chaos bag. Check Campaign Log.\n- If <i>a jailbreak</i> is listed under \"Memories Recovered\" in your Campaign Log, spawn the set-aside [[Suspect]] enemy at a [[Third Floor]] location, or at the Grand Entryway if a [[Third Floor]] location is not in play <i>(ignoring that enemy's revelation ability)</i>. That enemy enters play exhausted.\n- Otherwise, nothing else happens.",
         "code": "07276",
         "doom": 6,
         "double_sided": true,
@@ -96,7 +96,7 @@
     {
         "back_flavor": "Suddenly, a tremendous sound thunders through the building, like a furious explosion and the resonance of a booming voice all at once. At first you think the building must be collapsing. You take cover and lift your arms above your head to shield yourself from falling rubble, but no debris strikes you. Instead, it is an echoing roar that brings you to your knees and forces the air out of your lungs. Your eardrums threaten to shatter as the sound grows louder and louder. Darkness creeps into your vision until it swallows your memories whole.",
         "back_name": "An Awakening",
-        "back_text": "Each investigator who has not resigned is defeated and suffers 1 mental trauma.\nIn your Campaign Log, record <i>Dagon has awakened</i>. <b>(→R1)</b>",
+        "back_text": "Each investigator who has not resigned is defeated and suffers 1 mental trauma.\nIn your Campaign Log, record <i>Dagon has awakened</i>.\n<b>(→R1)</b>",
         "code": "07279",
         "doom": 6,
         "double_sided": true,
@@ -235,6 +235,7 @@
     {
         "back_flavor": "Behind the door to the hall, muffled footsteps fade into the distance. Is there someone here?",
         "back_illustrator": "Yoann Boissonnet",
+        "back_traits": "Second Floor.",
         "clues": 0,
         "code": "07286",
         "double_sided": true,
@@ -357,13 +358,14 @@
         "victory": 1
     },
 	{
-		"code": "07292",
+		"code": "07292a",
 		"encounter_code": "the_lair_of_dagon",
 		"encounter_position": 19,
 		"enemy_evade": null,
 		"enemy_fight": null,
 		"faction_code": "mythos",
 		"health": null,
+        "hidden": true,
 		"illustrator": "Stanislav Dikolenko",
 		"is_unique": true,
 		"name": "Dagon",
@@ -376,7 +378,7 @@
 		"type_code": "enemy"
 	},
 	{
-		"back_link": "07292",
+		"back_link": "07292a",
 		"code": "07292b",
 		"encounter_code": "the_lair_of_dagon",
 		"encounter_position": 19,
@@ -423,6 +425,7 @@
         "code": "07294",
         "encounter_code": "the_lair_of_dagon",
         "encounter_position": 21,
+        "enemy_damage": 1,
         "enemy_evade": 2,
         "enemy_fight": 2,
         "enemy_horror": 1,
@@ -513,6 +516,7 @@
         "encounter_code": "the_lair_of_dagon",
         "encounter_position": 36,
         "faction_code": "neutral",
+        "hidden": true,
         "illustrator": "Mathias Kollros",
         "is_unique": true,
         "name": "Y'ha-nthlei Statue",
