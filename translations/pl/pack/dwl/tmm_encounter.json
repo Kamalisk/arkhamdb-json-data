@@ -1,9 +1,9 @@
 [
     {
         "code": "02118",
-        "name": "The Miskatonic Museum",
-        "text": "[skull]: -1 (-3 instead if Hunting Horror is at your location.)\n[cultist]: -1. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.\n[tablet]: -2. Return 1 of your clues to your current location.\n[elder_thing]: -3. If you fail, discard an asset you control.",
-        "back_text": "[skull]: -2 (-4 instead if Hunting Horror is at your location.)\n[cultist]: -3. If you fail, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, if able.\n[tablet]: -4. If Hunting Horror is at your location, it immediately attacks you.\n[elder_thing]: -5. If you fail, discard an asset you control."
+        "name": "Muzeum Miskatonic",
+        "text": "[skull]: -1 (zamiast tego -3, jeśli w twojej lokalizacji znajduje się Straszliwy Łowca).\n[cultist]: -1. Jeśli test zakończy się porażką, przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz pustkę w poszukiwaniu Straszliwego Łowcy i rozstaw go w twojej lokalizacji (jeśli to możliwe).\n[tablet]: -2. Cofnij 1 z twoich wskazówek na twoją obecną lokalizację.\n[elder_thing]: -3. Jeśli test zakończy się porażką, odrzuć atut, który kontrolujesz.",
+        "back_text": "[skull]: -2 (zamiast tego -4,jeśli w twojej lokalizacji znajduje się Straszliwy Łowca).\n[cultist]: -3. Jeśli test zakończy się porażką, przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz pustkę w poszukiwaniu Straszliwego Łowcy i rozstaw go w twojej lokalizacji (jeśli to możliwe).\n[tablet]: -4. Jeśli Straszliwy Łowca znajduje się w twojej lokalizacji, natychmiast cię atakuje.\n[elder_thing]: -5. Jeśli test zakończy się porażką, odrzuć atut, który kontrolujesz."
     },
     {
         "code": "02119",
@@ -171,16 +171,16 @@
     {
         "code": "02138",
         "name": "Harold Walsted",
-        "subname": "Curator of the Museum",
-        "text": "You get +2 [intellect] while investigating [[Miskatonic]] locations.\n<b>Forced</b> - When Harold Walsted leaves play: Remove him from the game and add 1 [tablet] token to the chaos bag for the remainder of the campaign.",
-        "traits": "Ally. Miskatonic."
+        "subname": "Kustosz muzeum",
+        "text": "Dostajesz +2 [intellect], dopóki badasz lokalizacje z cechą [[Miskatonic]].\n<b>Wymuszony</b> - Harold Walsted opuszcza grę: usuń go z gry i do końca kampanii dodaj do worka chaosu 1 żeton [tablet].",
+        "traits": "Sprzymierzeniec. Miskatonic."
     },
     {
         "code": "02139",
         "name": "Adam Lynch",
-        "subname": "Museum Security",
-        "text": "While you control Adam Lynch, treat the \"[action] [action]\" ability on the Security Office as if it were an \"[action]\" ability.\n<b>Forced</b> - When Adam Lynch leaves play: Remove him from the game and add 1 [tablet] token to the chaos bag for the remainder of the campaign.",
-        "traits": "Ally. Miskatonic."
+        "subname": "Strażnik muzeum",
+        "text": "Dopóki kontrolujesz Adama Lyncha, traktuj zdolność \"[action] [action]\" Biura ochrony, jak gdyby była to zdolność \"[action]\" .\n<b>Wymuszony</b> - Adam Lynch opuszcza grę: usuń go z gry i do końca kampanii dodaj do worka chaosu 1 żeton [tablet].",
+        "traits": "Sprzymierzeniec. Miskatonic."
     },
     {
         "code": "02140",
@@ -193,40 +193,40 @@
     },
     {
         "code": "02141",
-        "name": "Hunting Horror",
-        "subname": "Spawned from the Void",
-        "text": "Hunter. Retaliate.\n<b>Forced</b> - At the start of the enemy phase: Reveal a random token from the chaos bag. If the revealed token has a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, ready Hunting Horror.\n<b>Forced</b> - When Hunting Horror leaves play, place it in the void.",
-        "traits": "Monster. Elite."
+        "name": "Straszliwy Łowca",
+        "subname": "Pomiot z otchłani",
+        "text": "Łowca. Mściwy.\n<b>Wymuszony</b> - Początek fazy wrogów: odkryj losowy żeton z worka chaosu. Jeśli na odkrytym żetonie znajduje się symbol [skull], [cultist], [tablet], [elder_thing], lub [auto_fail], przygotuj Straszliwego Łowcę.\n<b>Wymuszony</b> - Kiedy Straszliwy Łowca opuszcza grę, umieść go w pustce.",
+        "traits": "Potwór. Elitarny."
     },
     {
         "code": "02142",
-        "name": "Shadow-spawned",
-        "text": "Shadow-spawned remains attached to Hunting Horror if it enters the void.\nHunting Horror gets +1 fight, +1 health, and +1 evade for each resource on Shadow-spawned. If there are 3 resources on Shadow-spawned, Hunting Horror also gains Massive.",
-        "traits": "Power."
+        "name": "Cienisty pomiot",
+        "text": "Cienisty pomiot pozostaje dołączony do Straszliwego Łowcy, jeśli ten wejdzie do pustki.\nStraszliwy Łowca dostaje +1 do walki, +1 do wytrzymałości oraz +1 do wymykania się za każdy żeton zasobu znajdujący się na Cienistym pomiocie. Jeśli na Cienistym pomiocie znajdują się co najmniej 3 żetony zasobów, Straszliwy Łowca zyskuje także słowo kluczowe Masywny.",
+        "traits": "Moc."
     },
     {
         "code": "02143",
-        "flavor": "...viperine creatures, which had curiously distorted heads, and grotesquely great clawed appendages...\n–H.P. Lovecraft & August Derleth, The Lurker at the Threshold",
-        "name": "Stalked in the Dark",
-        "text": "<b>Revelation</b> - If Hunting Horror is in play, it readies, engages you, and attacks each investigator at your location. Otherwise, Stalked in the Dark gains surge.",
-        "traits": "Tactic."
+        "flavor": "Wężopodobne stworzenia o dziwacznie zniekształconych łbach i groteskowo dużych, szponiastych kończynach...\n–H.P. Lovecraft i August Derleth, Czychający w progu",
+        "name": "Czający się w mroku",
+        "text": "<b>Odkrycie</b> - Jeśli Straszliwy Łowca znajduje się w grze, przygotowuje się, wchodzi z tobą w zwarcie oraz atakuje każdego badacza w twojej lokalizacji. W przeciwnym wypadku Czający się w mroku zyskuje słowo kluczowe Mroczna fala.",
+        "traits": "Taktyka."
     },
     {
         "code": "02144",
-        "name": "Passage into the Veil",
-        "text": "<b>Revelation</b> - Test [willpower] (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your <i><b>Ally</b></i> assets.",
-        "traits": "Power."
+        "name": "Przekroczenie zasłony",
+        "text": "<b>Odkrycie</b> - Wykonaj test [willpower] (3). Jeśli w twojej lokalizacji znajduje się Straszliwy Łowca, ten test ma trudność +2. Jeśli test zakończy się porażką, musisz (wybierz jedno): odrzucić 5 wierzchnich kart z twojej talii lub otrzymujesz 1 bezpośrednie obrażenie i zadajesz po 1 obrażeniu każdemu z twoich atutów z cechą <i><b>Sprzymierzeniec</b></i>.",
+        "traits": "Moc."
     },
     {
         "code": "02145",
-        "flavor": "Are you watching the exhibits, or are the exhibits watching you?",
-        "name": "Ephemeral Exhibits",
-        "text": "<b>Revelation</b> - Test [intellect] (3). If you fail, lose 1 action for each point you failed by.",
-        "traits": "Terror."
+        "flavor": "Patrzysz na eksponaty czy może to one patrzą na ciebie?",
+        "name": "Efemeryczne eksponaty",
+        "text": "<b>Odkrycie</b> - Wykonaj test [intellect] (3). Jeśli test zakończy się porażką, za każdy punkt, o który się nie powiódł, tracisz 1 akcję.",
+        "traits": "Koszmar."
     },
     {
         "code": "02146",
-        "name": "Slithering Behind You",
-        "text": "<b>Revelation</b> - If Hunting Horror is in play, add 1 doom to it. If Hunting Horror is not in play, search the encounter deck, discard pile, and the void for Hunting Horror and spawn it at your location, engaged with you. Shuffle the encounter deck."
+        "name": "Coś prześliznęło się za tobą",
+        "text": "<b>Odkrycie</b> - Jeśli Straszliwy Łowca znajduje się w grze, dołóż na niego 1 żeton zagłady. Jeśli Straszliwy Łowca nie znajduje się w grze, przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz pustkę w poszukiwaniu Straszliwego Łowcy i rozstaw go w twojej lokalizacji, w zwarciu z tobą. Potasuj talię spotkań."
     }
 ]
