@@ -73,7 +73,7 @@ These can be used in a card's `text` section.
 
 * `[reaction]`
 * `[action]`
-* `[lightning]`
+* `[free]`
 * `[eldersign]`
 * `[will]`
 * `[lore]`
@@ -81,3 +81,13 @@ These can be used in a card's `text` section.
 * `[agility]`
 * `[health]`
 * `[sanity]`
+
+#### Translations
+
+To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
+
+Pre-requisites:
+ * `node` and `npm` installed
+ * `npm -g install coffee-script`
+
+Usage: `coffee update_locales.coffee`

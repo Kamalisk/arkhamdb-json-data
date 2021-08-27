@@ -1,0 +1,30 @@
+{
+    "name": "json-data",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --write \"**/*.json\"",
+        "prettier:check": "prettier --check \"**/*.json\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.13.1",
+        "mkdirp": "^0.5.1"
+    },
+    "devDependencies": {
+        "husky": ">=4",
+        "lint-staged": ">=10",
+        "prettier": "^2.0.2"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.json": "prettier --write"
+    }
+}

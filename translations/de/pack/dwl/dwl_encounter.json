@@ -1,0 +1,484 @@
+[
+    {
+        "code": "02040",
+        "flavor": "Armitage knew he would be meddling with terrible powers, yet saw that there was no other way to annul the deeper and more malign meddling which others had done before him. - H. P. Lovecraft, „The Dunwich Horror”",
+        "name": "Dr. Henry Armitage",
+        "subname": "Leiter der Bibliothek",
+        "text": "[reaction] Nachdem du eine Nicht-Schwäche-Karte gezogen hast, lege jene Karte ab und erschöpfe Dr. Henry Armitage: Du erhälst 3 Ressourcen.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "02041",
+        "name": "Aktivitäten außerhalb des Lehrplans",
+        "text": "<b>Einfach / Normal</b>\n[skull]: -1. Falls die Probe misslingt, lege die obersten 3 Karten deines Decks ab.\n[cultist]: -1 (-3 stattdessen, falls sich 10 oder mehr Karten in deinem Ablagestapel befinden).\n[elder_thing]: -X. Lege die obersten 2 Karten deines Decks ab. X ist die Gesamtsumme der aufgedruckten Kosten der abgelegten Karten.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull]: -2. Falls die Probe misslingt, lege die obersten 5 Karten deines Decks ab.\n[cultist]: -1 (-5 stattdessen, falls sich 10 oder mehr Karten in deinem Ablagestapel befinden).\n[elder_thing]: -X. Lege die obersten 3 Karten deines Decks ab. X ist die Gesamtsumme der aufgedruckten Kosten der abgelegten Karten."
+    },
+    {
+        "code": "02042",
+        "flavor": "Auf der Suche nach Professor Warren Rice bist du auf dem Campus der Miskatonic Universität angekommen. Der Unterricht ist für heute vorbei und eine geheimnisvolle Stille legt sich über das Freigelände der Universität.",
+        "name": "Stille Flure",
+        "back_name": "Etwas regt sich",
+        "back_flavor": "Die Universität ist totenstill. Die Schatten winden sich beim gehen um die Füße und du hast das sichere Gefühl, verfolgt zu werden. Bildest du dir das nur ein? Oder ist wirklich jemand - oder etwas - hinter dir her?",
+        "back_text": "Jeder Ermittler mit 5 oder mehr Karten in seinem Ablagestapel nimmt 1 Horror. Jeder Ermittler mit 10 oder mehr Karten in seinem Ablagestapel nimmt stattdessen 2 Horror.\nFalls die Spieler Das Haus gewinnt immer bereits abgeschlossen haben, rücke direkt zu Agenda 2b vor. Falls Aktivitäten außerhalb des Lehrplans das erste Szenario der Kampagne ist, rücke zu Agenda 2a vor."
+    },
+    {
+        "code": "02043",
+        "flavor": "Das Verschwinden von Professor Rice ist nicht das einzige Merkwürdige an dieser Universität. Du bist dir nicht sicher, was genau vor sich geht, aber langsam glaubst du, dass Armitage Recht hatte, als er dich um Hilfe gebeten hat.",
+        "name": "Tiefste Nacht",
+        "text": "Das Handkartenlimit jedes Ermittlers wird um 3 gesenkt, solange das Handkartenlimit in der Unterhaltsphase überprüüft wird.",
+        "back_name": "Ein fehlgeschlagenes Experiment",
+        "back_flavor": "Ein Angstschrei hallt auf dem Campus wider und einige Studenten fliehen aus dem östlichen Teil der Universität, wo sich das naturwissenschaftliche Gebäude befindet. Könnte dieser Tumult mit dem Verschwinden von Professor Rice im Zusammenhang stehen?",
+        "back_text": "Falls der Ort Studentenwohnheime nicht im Spiel ist, bringe ihn ins Spiel.\nFalls Das Experiment im Spiel ist, bewege es 1 Ort in Richtung Studentenwohnheime.\nFalls Das Experiment nicht im Spiel ist, erscheint es im Naturwissenschaftlichen Gebäude."
+    },
+    {
+        "code": "02044",
+        "flavor": "Eine wilde Kreatur läuft frei herum. Was es auch ist, es scheint sich auf die Studentenwohnheime der Universität zuzubewegen.",
+        "name": "Die entfesselte Bestie",
+        "text": "<b>Erzwungen</b> - Sobald von dieser Agenda vorgerückt werden würde, weil ihr Schwellenwert für das Verderben erreicht worden ist: Entferne stattdessen alle Verderbensmarker im Spiel und bewege Das Experiment 1 Ort in Richtung Studentenwohnheime.\n<b>Ermittlungsziel</b> - Falls Das Experiment die Studentenwohnheime betritt, rücke vor.",
+        "back_name": "Nicht schnell genug",
+        "back_flavor": "Bevor du etwas tun kannst, hörst du Schreie aus dem nördlichen Teil des Campus. Du eilst in die Richtung, aus der die Schreie gekommen sind, aber mit jedem Schritt verdunkelt sich deine Sicht. Als du die Kreatur erblickst, fühlst du, wie die Dunkelheit von dir Besitz ergreift und eine Kraft an deinem Bewusstsein zerrt. Alles wird schwarz und du wirst bewusstlos.",
+        "back_text": "Jeder Ermittler nimmt sofort 3 Horror. Fahre dann mit <b>(→A4)</b> fort."
+    },
+    {
+        "code": "02045",
+        "flavor": "Professor Rice wurde zuletzt vor einigen Stunden von einem Studenten von Armitage im geisteswissenschaftlichen Gebäude gesehen.",
+        "name": "Nach Feierabend",
+        "back_name": "Chefhausmeister",
+        "back_flavor": "Du konntest Professor Rice nicht finden, aber einer der Studenten, mit denen du gesprochen hast, erwähnte einen merkwürdigen Mann, der das Büro von Rice betreten hat. Leider ist die Tür zu den Büros der Lehrkräfte so spät in der Nacht verschlossen. Der Student meint, dass der Chefhausmeister „Jazz” dich vielleicht hineinlässt, falls du ihn finden kannst.",
+        "back_text": "Mische den Begegnungs-Ablagestapel und den beiseitegelegten „Jazz” Mulligan in das Begegnungsdeck."
+    },
+    {
+        "code": "02046",
+        "flavor": "Besorgt um die Sicherheit von Professor Rice suchst du den Chefhausmeister, der dich in die verschlossenen Bereiche des Campus lassen könnte.",
+        "name": "Wo ist Rice?",
+        "text": "[action] Gib 1 Hinweis aus: Lege die obersten 5 Karten des Begegnungsdecks ab (falls 1 Spieler im Spiel ist, stattdessen die obersten 10).\n<b>Erzwungen</b> - Falls du „Jazz” Mulligan aus irgendeinem Grund ablegst, handle seinen Enthüllungseffekt ab.\n<b>Ermittlungsziel</b> - Sobald du die Kontrolle über „Jazz” Mulligan übernimmst, rücke vor.",
+        "back_name": "Das Experiment läuft frei herum!",
+        "back_flavor": "Du überzeugst „Jazz”, dass irgendetwas Merkwürdiges vorgeht und das Professor Rice Möglicherweise in Schwierigkeiten ist. Er traut dir nicht genug, um dir die Schlüssel auszuhändigen, ist aber bereit dich zu begleiten \nPlötzlich hörst du ein lautes Krachen aus dem Naturwissenschaftlichen Gebäude und ein Student rennt auf dich zu. „Hilfe!”, schreit er. „Da ist irgendein Tier im Chemielabor! Ich konnte es nur ganz kurz sehen, aber…” Er schauder. „Ich glaube es ist auf den Weg zu den Studentenwohnheimen! Sie müssen etwas unternehmen!”",
+        "back_text": "Falls das Alchemistenlabor nicht im Spiel ist, bringe es ins Spiel. Falls du bei Agenda 1 oder 2 bist, erscheint das beiseitegelegte Das Experiment im Alchemistenlabor.\nFalls Das Haus gewinnt immer bereits abgeschlossen ist, bringe die beiseitegelegte Karte Alchemistisches Gebräu unter dem Alchemistenlabor ins Spiel. Falls Aktivitäten außerhalb des Lehrplans das erste Szenario der Kampagne ist, entferne die die beiseiteglegte Karte Alchemistisches Gebräu stattdessen aus dem Spiel."
+    },
+    {
+        "code": "02047",
+        "flavor": "Dir bleibt nur wenig Zeit, um zu reagieren. Du könntest die Studenten in den Studentwohnheimen warnen und in Sicherheit bringen oder deine Aufgabe erfüllen und in den Büros der Lehrkräfte nach Professor Rice suchen. Vielleicht könntest du auch versuchen die Bestie, die den Campus terrorisiert, zu überwältigen.",
+        "name": "Campussicherheit",
+        "text": "<b>Ermittlungsziel</b> - Finde ein Ermittlungsziel auf einer anderen Begegnungskarte und schließe es ab.",
+        "back_name": "Der Tod der Bestie",
+        "back_flavor": "Die monströse Kreatur kreischt schrill auf, als sie ihren Wunden erliegt und zusammenbricht. Ein fauliger Gestank steigt von dem Kadaver auf, als das Fleisch zu blubbern und zu schäumen beginnt. Deine Erleichterung hält nicht lange an, als du angewidert siehst, dass der Körper zunächst schrumpft und sich dann auflöst. Kurz darauf ist er nur noch eine klebrige Masse und der fürchterliche Gestank ist verschwunden. In den Überresten befindet sich aber nur ein Skelett - das eines Hundes.",
+        "back_text": "<b>(→A3)</b>"
+    },
+    {
+        "code": "02048",
+        "flavor": "Umgeben von Zäunen und schmiedeeisernen Toren fühlst du dich eher wie ein Gefangener als wir ein Gast …",
+        "name": "Miskatonic-Freigelände",
+        "text": "[action]: <b>Aufgeben</b>. „Ich kann Rice nirgendwwo finden…” Du verlässt das Gelände und hoffst, dass Armitage dir verzeihen wird.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Ein viel zu früher Wintereinbruch hat dafür gesorgt, dass die Bäume bereits kahl sind. Ihre toten Äste pfeifen im scharfen, kalten Wind, der über das leere Freigelände weht."
+    },
+    {
+        "code": "02049",
+        "flavor": "Der ausgefallene Strom taucht das Innere des Gebäudes in tiefste Finsternis. Es gibt keine Spur von Professor Rice.",
+        "name": "Geisteswissenschaftliches Gebäude",
+        "text": "<b>Erzwungen</b> - Falls du dich am Ende deines Zuges im geisteswissenschaftlichen Gebäude befindest: Lege die obersten X Karten deines Decks ab, wobei X die Menge an Horror auf dir ist.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Professor Rice wurde zuletzt im geisteswissenschatlichen Gebäude gesehen, wo er Latein unterrichtet. Die trüben Fenster des verwitterten Gebäudes sind dunkel und um dich herum gerrscht nächtliche Stille."
+    },
+    {
+        "code": "02050",
+        "flavor": "Die Orne-Bibliothek ist ein Labyrinth aus staubigen Bücherregalen und schlecht beleuchteten Hallen.",
+        "name": "Orne-Bibliothek",
+        "text": "Du musst 1 zusätzliche Aktion ausgeben, um in der Orne-Bibliothek zu ermitteln.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Das dreistöckige Gebäude aus grauem Granit ähnelt eher einem Reliquienschrein als einem Ort zum Lernen. Steinerne Wasserspeier fletschen über den Bogenfenstern die Zähne und über breite Steinstufen erreicht man die Doppeltür, um die sich ein lateinischer Shriftzug rankt."
+    },
+    {
+        "code": "02051",
+        "name": "Studentenvereinigung",
+        "text": "<b>Erzwungen</b> - Nachdem Studentenvereinigung enthüllt worden ist: Bringe die beiseitegelegten Studentenwohnheime ins Spiel.\n[action][action]: Heile 1 Schaden und 1 Horror.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Selbst zu so später Stunde kann man den gedämpften Klang von Gesprächen aus dem Inneren der Studentenvereinigung hören. Vielleicht weiß einer der Studenten, wo Professor Rice ist."
+    },
+    {
+        "code": "02052",
+        "flavor": "Beim Durchsuchen der alten, aber gut in Schuss gehaltenen Gebäude, stellt sich die Frage, ob die Betten wohl bequem sind.",
+        "name": "Studentenwohnheime",
+        "text": "<b>Ermittlungsziel</b> - Falls die Ermittler in Studentenwohnheime als Gruppe 3[per_investigator] Hinweise ausgeben: <b>(→A2)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "Durch die Blätter der Bäume seht ihr die roten Ziegelsteinmauern des westlichen Studentenwohnheims.<br><cite>Graham McNeill, Die Guhle von Miskatonic</cite>",
+        "back_text": "Die Tür, die in die Studentenwohnheime führt, ist verschlossen. Du kannst dich nicht in die Studentenwohnheime bewegen."
+    },
+    {
+        "code": "02053",
+        "name": "Verwaltungsgebäude",
+        "text": "<b>Erzwungen</b> - Nachdem Verwaltungsgebäude enthüllt worden ist: Bringe die beiseitegelegten Büros der Lehrkräfte ins Spiel.\n<b>Erzwungen</b> - Falls du dich am Ende deines Zuges im Verwaltujngsgebäude befindest: Lege die oberste Karte deines Decks ab.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Das alte Verwaltungsgebäude ist fast vollständig von Efeuranken umschlungen, die den Eindruck machen, als wollten sie das Gebäude übernehmen. Das alte Gemäuer steht allein in einem vom täglichen Trubel des Universitätslebens etwas abgeschiedenen Bereich des Campus."
+    },
+    {
+        "code": "02054",
+        "name": "Büros der Lehrkräfte",
+        "subname": "Die Nacht ist noch jung",
+        "text": "<b>Erzwungen</b> - Nachdem Büros der Lehrkräfte enthüllt worden ist: Durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Humanoid]]-Gegner, der hier erscheit. Mische das Begegnungsdeck.\n<b>Ermittlungsziel</b> - Falls die Ermittler in den Büros der Lehrkräfte als Gruppe 2[per_investigator] Hinweise ausgeben: <b>(→A1)</b>",
+        "traits": "Miskatonic.",
+        "back_flavor": "Am oberen Ende der Treppe in den dritten Stock des Verwaltungsgebäudes befindet sich eine verschlossene Tür. Durch das Milchglasfenster ist ein Schatten zu sehen, der durch den Flur eilt.",
+        "back_text": "Die Tür, die zu den Büros der Lehrkräfte führt, ist verschlossen. Du kannst dich nicht in die Büros der Lehrkräfte bewegen."
+    },
+    {
+        "code": "02055",
+        "flavor": "In seinem Büro gibt es keine Spur von Professor Rice. Du rufst seinen Namen, aber die einzige Antwort ist der Widerhall deiner Stimme im Flur.",
+        "name": "Büros der Lehrkräfte",
+        "subname": "Es wird spät",
+        "traits": "Miskatonic.",
+        "back_flavor": "Am oberen Ende der Treppe in den dritten Stock des Verwaltungsgebäudes befindet sich eine verschlossene Tür. Durch das Milchglasfenster glaubst du einen Schatten zu sehen, der durch den Flur eilt… vielleicht spielt dir aber auch deine Fantasie einen Streich.",
+        "back_text": "Die Tür, die zu den Büros der Lehrkräfte führt, ist verschlossen. Du kannst dich nicht in die Büros der Lehrkräfte bewegen."
+    },
+    {
+        "code": "02056",
+        "flavor": "Durch die Flure im ersten Stock des naturwissenschaftlichen Gebäudes zieht sich eine Spur aus zähflüssigem Schleim, die ins Untergeschoss führt.",
+        "name": "Naturwissenschaftliches Gebäude",
+        "text": "<b>Erzwungen</b> - Nachdem naturwissenschaftlichen Gebäude enthüllt worden ist: Bringe das beiseitegelegte Alchemistenlabor ins Spiel.\n<b>Erzwungen</b> - Sobald dir eine [willpower]-Probe im naturwissenschaftlichen Gebäude misslingt: Nimm 1 Schaden.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Das naturwissenschaftliche Gebäude nimmt den östlichen Teil des Campus ein. Seine Fenster sind dunkel, bis auf ein einzelnes Fenster im Untergeschoss, von dem ein schwacher Lichtschein ausgeht."
+    },
+    {
+        "code": "02057",
+        "flavor": "Auf den Regalen des Labors stehen merkwürdige Gebräue und obskure Reagenzien. Welche Art von Wissenschaft wird hier betrieben?",
+        "name": "Alchemistenlabor",
+        "text": "[action]: <b>Ermitteln.</b> Falls die Probe gelingt, nimm statt Hinweise zu entdecken das Alchemistische Gebräu unter diesem Ort, falls möglich.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Ein stechender Geruch kommt aus dem unteren Laborbereich. Die Stille der Halle wird durch das unverkennbare Zischen eines Brenners unterbrochen.",
+        "back_text": "Die Tür, die ins Alchemistenlabor führt, ist verschlossen. Du kannst dich nicht ins Alchemistenlabor bewegen."
+    },
+    {
+        "code": "02058",
+        "name": "Das Experiment",
+        "subname": "Irgendwas ist fürchterlich schiefgegangen",
+        "text": "Gewaltig.\nDas Experiment bekommt +3[per_investigator] Ausdauer.\n<b>Erzwungen</b> – Sobald die Gegnerphase beginnt: Mache Das Experiment spielbereit.\n<b>Ermittlungsziel</b> - Wenn Das Experiment besiegt wird, rücke zu Szene 3b vor.",
+        "traits": "Monster. Abscheulichkeit. Elite."
+    },
+    {
+        "code": "02059",
+        "name": "Alchemistisches Gebräu",
+        "text": "[action]: <b>Kampf</b>. Dieser Angriff verwendet [intellect] statt [combat]. Falls dieser Vorteil verwendet wird, um Das Experiment anzugreifen, fügt dieser Angriff +6 Schaden zu. Falls die Probe gelingt, entferne Alchemistisches Gebräu aus dem Spiel.",
+        "traits": "Gegenstand. Wissenschaft."
+    },
+    {
+        "code": "02060",
+        "name": "„Jazz” Mulligan",
+        "subname": "Chefhausmeister",
+        "text": "<b>Enthüllung</b> - Bringe „Jazz” Mulligan an deinem Ort ins Spiel.\nSolange „Jazz” Mulligan nicht von einem Ermittler kontrolliert wird, erhält er: „[action]: <b>Verhandlung</b>. Lege eine [intellect] (3) ab. Falls die Probe gelingt, übernimm die Kontrolle über ”Jazz„ Mulligan.”\nSolange du „Jazz” Mulligan kontrollierst, ignoriere den Text auf jedem unverhüllten [[Miskatonic]]-Ort.",
+        "traits": "Ally. Miskatonic."
+    },
+    {
+        "code": "02061",
+        "name": "Professor Warren Rice",
+        "subname": "Professor für Linguistik",
+        "text": "Du bekommst +1 [intellect].\n[reaction] Nachdem du den letzten verbliebenen Hinweis an deinem Ort entdeckt hast, erschöpfe Professor Warren Rice: Ziehe 1 Karte.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "02062",
+        "name": "Das Haus gewinnt immer",
+        "text": "<b>Einfach / Normal</b>\n[skull]: -2. Du darfst 2 Ressourcen ausgeben, um diesen Marker stattdessen als 0 zu behandeln.\n[cultist]: -3. Falls die Probe gelingt, erhalte 3 Ressourcen.\n[tablet]: -2. Falls die Probe misslingt, lege 3 Ressourcen ab.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull]: -3. Du darfst 3 Ressourcen ausgeben, um diesen Marker stattdessen als 0 zu behandeln.\n[cultist]: -3. Falls die Probe misslingt, lege 3 Ressourcen ab.\n[tablet]: -2. Lege 3 Ressourcen ab."
+    },
+    {
+        "code": "02063",
+        "flavor": "Die Suche nach Dr. Morgan hat dich in den Clover Club geführt. Zu dieser späten Stunde ist der Club voller Gäste, die Entspannung suchen, etwas trinken wollen oder auf den großen Gewinn hoffen. Es scheint keine Gefahr zu drohen.",
+        "name": "Der Clover Club",
+        "text": "Jeder [[Krimineller]]-Gegner erhält Zurückhaltend.\n<b>Erzwungen</b> – Falls ein Ermittler einem [[Krimineller]]-Gegner Schaden zufügt: Rücke sofort vor.",
+        "back_name": "Auf der richtigen Spur",
+        "back_flavor": "Deine Befragungen haben die Aufmerksamkeit einiger Männer auf dich gelenkt – ihrem Aussehen nach sind es angeheuerte Schläger. „Francis möchte nicht gestört werden,” sagt einer von ihnen. „Wir würden vorschlagen, du gehst einfach, bevor wir dich dazu zwingen müssen.”",
+        "back_text": "Mische den Begegnungs-Ablagestapel in des Begegnungsdeck.\nFalls Aktivitäten außerhalb des Lehrplans bereits abgeschlossen ist, rücke direkt zu Agenda 2b vor. Falls Das Haus gewinnt immer das erste Szenario der Kampagne ist, rücke zu Agenda 2a vor."
+    },
+    {
+        "code": "02064",
+        "flavor": "Die meisten anderen Gäste scheinen gar nicht zu bemerken, wie sich die Mafiosi und Schläger um dich herum sammeln. Aber du erkennst deutlich, was vor sich geht – man will dich aufmischen.",
+        "name": "Krimineller Schläger",
+        "back_name": "Plötzliches Chaos",
+        "back_flavor": "Von draußen hört man ein Krachen und Schmerzensschreie ertönen aus der Lounge. Ein fürchterliches Monster bricht durch den Eingang in den Club, zerstört das Treppenhaus und schlägt Gangster und Gäste gleichermaßen nieder.",
+        "back_text": "Ein zufälliger Gegner aus dem beiseitegelegten Begegnungsset <em>Grässliche Abscheulichkeiten</em> erscheint in der Lounge des Clover Clubs. Mischen den Rest des Begegnungssets, das beiseitelegete Begegnungsset <em>Lähmende Angst</em> und den Begegnungs-Ablagstapel in des Begegnungsdeck.\nBewege alle Ermittler und nicht in einen Kampf verwickelte Gegner von La Bella Luna in die Lounge des Clover Clubs. Entferne La Bella Luna aus dem Spiel."
+    },
+    {
+        "code": "02065",
+        "flavor": "Im Club herrschen Chaos und Verwirrung, als die seltsamen Abscheulichkeiten jeden Einzelnen angreifen. Schreie hallen durch die Flure und Blut spritzt.",
+        "name": "Chaos im Clover Club",
+        "text": "<b>Erzwungen</b> - Zu Beginn der Gegnerphase: Lege jeden [[Krimineller]]-Gegner ab, der sich auf demselben Ort wie ein [[Abscheulichkeit]]-Gegner befindet.",
+        "back_name": "Das Gebäude stürzt ein",
+        "back_flavor": "Während die seltsamen Abscheulichkeiten weiter im Club toben, erzittern die Grundmauern des Gebäudes. Deine Flucht zum Ausgang wird durch das niederprasselnde Geröll des zusammenstürzenden Clubs verhindert. Du sitzt in der Falle.",
+        "back_text": "<b>(→A4)</b>"
+    },
+    {
+        "code": "02066",
+        "flavor": "Du musste Dr. Morgan finden. Der Club ist voll, vielleicht weiß jemand, wo er sich aufhält.",
+        "name": "Anfängerglück",
+        "text": "[reaction] Sobald du einen Chaosmarker enthüllst: Du darfst diesen Marker behandeln, als ob er ein beliebiger anderer Marker aus dem Chaosbeutel wäre. Falls du dies tust, merke dir, dass du „falsch gespielt” hast. (Nur ein mal pro Runde für die gesamte Gruppe.)\n<b>Ermittlungsziel</b> - Sobald die Ermittler die geforderte Anzahl Hinweise gesammelt haben, müssen sie diese sofort ausgeben und vorrücken.",
+        "back_name": "High Roller",
+        "back_flavor": "Nach Gesprächen mit einigen Spielern und Kellnern scheint es, als hätte Dr. Morgan in letzter Zeit ungewöhnlich viel Glück gehabt. Statt sich seine Gewinne auszahlen zu lassen, wurde er überredet seine Einsätze zu verdoppeln. Zuletzt wurde er beim Betreten des bewachten Flures im hinteren Bereich des Spielzimmers gesehen.",
+        "back_text": "Bringe den beiseitegelegten Ort Dunkler Flur ins Spiel.\nFalls Agenda 1 aktuell ist, lege Karten oben vom Begegnungsdeck ab, bis ein [[Krimineller]]-Gegner enthüllt worden ist, dieser Gegner erscheint im Dunklen Flur."
+    },
+    {
+        "code": "02067",
+        "flavor": "Dr. Morgan befindet sich irgendwo im privaten Bereich des Clubs, zu dem nur VIPs und diee Manager des Clubs Zutritt haben. Falls du ihn finden willst, musst du dich hineinschleichen oder den Weg hinein erkämpfen.",
+        "name": "Falsches Spiel",
+        "text": "<b>Ermittlungsziel</b> - Nur Ermittler im VIP-Bereich können als Gruppe die geforderten Hinweise ausgeben, um vorzurücken.",
+        "back_name": "Das Schicksal von Dr. Morgan",
+        "back_text": "<b>Falls die Spieler Aktivitäten außerhalb des Lehrplans noch nicht abgeschlossen haben:</b><blockquote><i>Du findest Dr. Morgan beim Spielen in einem der VIP-Räume… aber seine beiden Mitspieler scheinen nicht bei Bewusstsein zu sein und seine Pupillen sind wie in einer Trance erweitert. Er scheint nicht damit aufhören zu können schrill zu lachen, zu lächeln und sich mit den anderen „Spielern” zu unterhalten.</i></blockquote>Bringe den beiseitegelegten Dr. Morgan im VIP-Bereich ins Spiel. Rücke zu Szene 3a - „All In” vor.\n<hr><b>Falls die Spieler Aktivitäten außerhalb des Lehrplans abgeschlossen haben:</b><blockquote><em>Die VIP-Räume sind voll zerfleischter, blutender Leichen unglückseeliger Gäste. Es scheint keine Spur von Dr. Morgan zu geben. Aus denm öffentlichen Bereich des Clubs sind Schreie und Schüsse zu hören.</em></blockquote></b>Bringe den beiseitegelegten Peter Clover in der Bar des Clover Clubs ins Spiel. Durchsuche das Begegnungsdeck (oder die Zone außerhalb des Spiels) nach einem [[Abscheulichkeit]]-Gegner, der in der Bar des Clover Clubs erscheint. Rücke zu Szene 3a - „Fold” vor."
+    },
+    {
+        "code": "02068",
+        "flavor": "Du musst hier raus - mit oder ohne Dr. Morgan. Und zwar schnell.",
+        "name": "All In",
+        "text": "Solange Dr. Francis Morgan nicht von einem Spieler kontrolliert wird, erhält er: „[action]: <b>Verhandlung</b>. Lege eine [willpower]-Probe (3) ab, um Dr. Francis Morgan aus seiner Benommenheit zu wecken. Falls die Probe gelingt, platziere 1 Hinweis aus dem Markervorrat auf ihn. Falls sich 1[per_investigator] Hinweise auf Dr. Francis Morgan befinden, übernimm die Kontrolle über ihn.”\n<b>Ermittlungsziel</b> - Falls jeder unbesiegte Ermittler aufgegeben hat, rücke vor.",
+        "back_name": "Sicher… zumindest im Moment",
+        "back_flavor": "Du entkommst aus dem Club und bemühst dich unverdächtig auszusehen, als mehrere Wagen am Straßenrand anhalten. Einige grimmig wirkende Männer und Frauen steigen aus und rennen zum Eingang des Restaurants, um die Situation dort unter Kontrolle zu bringen. Einer von ihnen blickt in deine Richtung und seine Hand wandert zum Griff seiner 38er, aber dann wendet er zum Glück seine Aufmerksamkeit wieder dem Rest der Truppe zu und folgt ihnen in den Club. Du atmest erleichtert auf.",
+        "back_text": "— Falls ein Ermittler mit Dr. Francis Morgan unter seiner Kontrolle aufgegeben hat <b>(→A2)</b>\n— Ansonsten <b>(→A1)</b>"
+    },
+    {
+        "code": "02069",
+        "flavor": "„Freigetränke für denjenigen, der mich hier rausbringt!”, ruft ein Mann an der Bar.",
+        "name": "Fold",
+        "text": "Solange Peter Clover nicht von einem Spieler kontrolliert wird, erhält er: „[action]: <b>Verhandlung</b>. Lege eine [willpower]-Probe (3) ab, um Peter davon zu überzeugen, dir zu folgen. Falls die Probe gelingt, platziere 1 Hinweis aus dem Markervorrat auf ihn. Falls sich 1[per_investigator] Hinweise auf Peter Clover befinden, übernimm die Kontrolle über ihn.”\n<b>Ermittlungsziel</b> - Falls jeder unbesiegte Ermittler aufgegeben hat, rücke vor.",
+        "back_name": "Flucht aus dem Club",
+        "back_flavor": "Du rennst durch die vom Regen rutschigen Straßen von Arkham.",
+        "back_text": "— Falls ein Ermittler mit Peter Clover unter seiner Kontrolle aufgegeben hat <b>(→A3)</b>\n— Ansonsten <b>(→A1)</b>"
+    },
+    {
+        "code": "02070",
+        "flavor": "Die Musik ist klischeehaft und es werden nur Spaghetti serviert. Keine besonders kreative Tarnung für eine illegale Kneipe.",
+        "name": "La Bella Luna",
+        "text": "[action]: <b>Aufgeben.</b> Das war ein Reinfall.",
+        "traits": "Arkham.",
+        "back_flavor": "Das La Bella Luna ist ein „Mehrzweck”-Etablissement."
+    },
+    {
+        "code": "02071",
+        "name": "Lounge des Clover Clubs",
+        "text": "Solange Szene 1 aktuell ist, erhält Lounge des Clover Clubs:\n„[action] Lege eine [[Verbündeter]]-Vorteilskarte von deiner Hand ab: Erhalte 2 Hinweise aus dem Markervorrat. (Nur einmal pro Spiel.)”",
+        "traits": "Clover Club.",
+        "back_flavor": "Bequeme Ledersofas, Mahagonimöbel und ein Arrangement wunderschöner Kunstwerke begrüßen die Spieler und locken sie in das Leben der Möchtegern-Reichen."
+    },
+    {
+        "code": "02072",
+        "name": "Bar des Clover Clubs",
+        "text": "Solange Szene 1 aktuell ist, erhält Bar des Clover Clubs:\n„[action] Gib 2 Ressourcen aus: Erhalte 2 Hinweise aus dem Markervorrat und ziehe 2 Karten. Merke dir, dass du 'einen Drink hattest.' (Nur einmal pro Spiel.)”",
+        "traits": "Clover Club.",
+        "back_flavor": "Die Regale hinter der Bar biegen sich unter dem Gewicht geschmuggelter Getränke aller Art: billige Biere, schwarzgebrannter Schnaps, teure Weinflaschen, alte Whiskeys. Hättest du doch nur ein paar Stunden zum totschlagen…"
+    },
+    {
+        "code": "02073",
+        "name": "Spielzimmer des Clover Clubs",
+        "text": "Solange Szene 1 aktuell ist, erhält Spielzimmer des Clover Clubs:\n\"[action] Gib 2 Ressourcen aus: Enthülle einen zufälligen Chaosmarker.\nFalls es ein [elder_sign]-Symbol ist, erhalte 2 Hinweise und 2 Ressourcen aus dem Markervorrat.\nFalls es eine gerade Zahl ist, erhalte 2 Hinweise aus dem Markervorrat.\nFalls es eine ungerade Zahl oder ein [skull], [cultist], [tablet], [elder_thing], or [auto_fail]-Symbol it, passiert nichts.\"",
+        "traits": "Clover Club.",
+        "back_flavor": "Als du dich dem Spielzimmer näherst, hörst du das Klackern von Pokerchips und das Geräusch von Karten, die gemischt werden, durchsetzt mit Aurufen der Freude und der Frustration. Der Lärm macht es beinahe unmöglich, einen klaren Gedanken zu fassen."
+    },
+    {
+        "code": "02074",
+        "flavor": "Hinter dir fällt die Tür mit einem Knall ins Schloss und plötzlich umgibt dich Stille. Dieser Bereich des Clubs ist verlassen, kalt und farblos. Die fleckenlosen Böden und Wände wirken eher unheimlich als einladend.",
+        "name": "Dunkler Flur",
+        "text": "<b>Erzwungen</b> - Sobald Dunkler Flur enthüllt wird: Bringe die 3 beiseitegelegten Orte Tür zum hinteren Bereich ins Spiel.",
+        "traits": "Clover Club.",
+        "back_flavor": "In einer abgelegenen Ecke des Clubs befindet sich eine schwere Eichentür. Je näher du ihr kommst, desto dicker wird die Luft während der Lärm aus dem Spielzimmer hinter dir leiser wird."
+    },
+    {
+        "code": "02075",
+        "flavor": "Exotische Kunstwerke und Antiquitäten säumen die Wände von Peter Clovers Privatgalerie. Im lauen Abendwind bewegen sich die abgenutzten Blätter eines Hauptbuches.",
+        "name": "Kunstgalerie",
+        "text": "<b>Erzwungen</b> - Nachdem dir eine Fertigkeitsprobe misslungen ist, solange du in der Kunsgalerie ermittelst: Verliere 2 Ressourcen.",
+        "traits": "Clover Club.",
+        "back_name": "Tür zum hinteren Bereich",
+        "back_flavor": "Du näherst dich einer nicht beschrifteten Tür zum hinteren Bereich des Clover Clubs."
+    },
+    {
+        "code": "02076",
+        "flavor": "Der an Kupfer erinnernde Geruch von Blut steigt in deine Nase. Der Boden ist bedeckt mit Glasscherben und die Polstermöbel sind völlig zerfetzt. Wo ist Dr. Morgan?",
+        "name": "VIP-Bereich",
+        "text": "Solange du dich im VIP-Bereich befindets, kannst du während deiner Unterhaltsphase keine Karten ziehen und keine Ressourcen erhalten.",
+        "traits": "Clover Club.",
+        "back_name": "Tür zum hinteren Bereich",
+        "back_flavor": "Du näherst dich einer nicht beschrifteten Tür zum hinteren Bereich des Clover Clubs."
+    },
+    {
+        "code": "02077",
+        "flavor": "Eine steile, schmale Treppe führt zu einer zweiten Tür ohne Aufschrift. Zu deiner Überraschung führt sie auf eine kleine Gasse hinter dem La Bella Luna. Wahrscheinlich werden hier die „Waren” geschmuggelt.",
+        "name": "Gasse hinter dem Haus",
+        "text": "[action]: <b>Aufgeben.</b> Wir können hier raus!",
+        "traits": "Clover Club.",
+        "back_name": "Tür zum hinteren Bereich",
+        "back_flavor": "Du näherst dich einer nicht beschrifteten Tür zum hinteren Bereich des Clover Clubs."
+    },
+    {
+        "code": "02078",
+        "name": "Pit Boss des Clover Clubs",
+        "text": "<b>Beute</b> - Höchster [intellect]-Wert.\nJäger.\n<b>Erzwungen</b> - Nachdem ein Ermittler am Ort des Pit Boss des Clover Clubs eine beliebige Anzahl Hinweise erhält: Pit Boss des Clover Clubs wird spielbereit gemacht, er verwickelt den Ermittler in einen Kampf und führt sofort einen Angriff durch.",
+        "traits": "Krimineller. Elite."
+    },
+    {
+        "code": "02079",
+        "name": "Peter Clover",
+        "subname": "Alle Trümpfe in der Hand",
+        "text": "<b>Erzwungen</b> - Zu Beginn der Gegnerphase, falls kein Ermittler Peter Clover kontrolliert: Füge ihm 1 Schden zu.\n[free]Erschöpfe Peter Clover: Entkomme automatisch einem [[Krimineller]]-Gegner an deinem Ort.",
+        "traits": "Human. Criminal."
+    },
+    {
+        "code": "02080",
+        "name": "Dr. Francis Morgan",
+        "subname": "Professor der Archäologie",
+        "text": "Du bekommst +1 [combat].\n[reaction] nachdem du einen Gegner besiegt hast, erschöpfe Dr. Francis Morgan: Ziehe 1 Karte.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "02081",
+        "flavor": "Eine unangenehme Wärme durchströmt deinen Körper und du schaust träge in dein leeres Glas.",
+        "name": "Etwas ist in den Drinks",
+        "text": "Nachrüsten.\n<b>Enthüllung</b> - Jeder Spieler, der „einen Drink hatte” verliert 1 Aktion.",
+        "traits": "Gift. Illegal."
+    },
+    {
+        "code": "02082",
+        "flavor": "Um dich herum sind lauter Augen, die jede deiner Bewegungen beobachten.",
+        "name": "Verdacht erregen",
+        "text": "<b>Enthüllung</b> - Platziere 1 Verderbensmarker auf jeden [[Krimineller]]-Gegner an deinem Ort. Falls durch diesen Effekt kein Verderbensmarker platziert worden ist, verlierst du 2 Ressourcen."
+    },
+    {
+        "code": "02083",
+        "flavor": "Zeigen diese Visionen die Zukunft oder etwas, das in der Gegenwart sein könnte? Oder ist dieser Schrecken vielleicht schon Vergangenheit?",
+        "name": "Visionen vergangener Zukünfte",
+        "text": "<b>Enthüllung</b> - Lege eine [willpower]-Probe (5) ab. Für jeden Punkt, um den die Probe misslingt, lege die oberste Karte deines Decks ab.",
+        "traits": "Verwünschung."
+    },
+    {
+        "code": "02084",
+        "name": "Hinter dem Schleier",
+        "text": "Nachrüsten.\n<b>Enthüllung</b> - Bringe Hinter dem Schleier in deiner Bedrohungszone ins Spiel, falls sich keine Kopie von Hinter dem Schleier in deiner Bedrohungszone befindet.\n<b>Erzwungen</b> - Falls dein Deck keine Karten hat: Nimm 10 Schaden und lege Hinter dem Schleier ab.",
+        "traits": "Verwünschung."
+    },
+    {
+        "code": "02085",
+        "name": "Licht von Aforgomon",
+        "text": "Wagnis.\n<b>Enthüllung</b> - Du musst Licht von Aforgomon entweder an die aktuelle Agenda oder die aktuelle Szene anhängen.\nNur 1 pro Agenda/Szene. Behandle allen Schaden als direkten Schaden und allen Horror als direkten Horror.",
+        "traits": "Pakt. Macht.",
+        "flavor": ""
+    },
+    {
+        "code": "02086",
+        "flavor": "Eine bösartige Macht hat ihren Geist übernommen und sie zu einer seelenlosen Marionette gemacht.",
+        "name": "Willenlose Marionette",
+        "text": "<b>Erscheinen</b> - Ort mit den meisten Hinweisen.\nZurückschlagen.",
+        "traits": "Humanoid. Monster. Abscheulichkeit."
+    },
+    {
+        "code": "02087",
+        "name": "Hexenmeister von Yog-Sothoth",
+        "text": "<b>Beute</b> - Die wenigsten Handkarten.\nJäger.\n<b>Erzwungen</b> - Sobald der mit ihm in einen Kampf verwickelte Ermittler eine [[Verwünschung]] oder [[Pakt]]-Karte zieht: Hexenmeister von Yog-Sothoth greift diesen Ermittler an.",
+        "traits": "Humanoid. Zauberer."
+    },
+    {
+        "code": "02088",
+        "name": "Unheiliges Land",
+        "text": "<b>Enthüllung</b> - Bringe Unheiliges Land in deiner Bedrohungszone ins Spiel.\nDu kannst keine [[Verbündeter]]-Vorteilskarten spielen. Behandle das aufgedruckte Textfeld jeder [[Verbündeter]]-Vorteilskarten, die du kontrollierst, als ob es leer wäre.\n<b>Erzwungen</b> - Am Ende deines Zuges: Lege eine [willpower]-Probe (3) ab. Falls die Probe gelingt, lege Unheiliges Land ab.",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "02089",
+        "name": "Schäbig und still",
+        "text": "<b>Enthüllung</b> - Hänge Schäbig und still an deinen Ort an.\n<b>Erzwungen</b> - Am Ende der Runde: Jeder Ermittler am Ort mit der Verstärkung nimmt 1 Horro.\n<b>Erzwungen</b> - Sobald von der aktuellen Agenda vorgerückt wird: Lege Schäbig und still ab.",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "02090",
+        "flavor": "„Man glaubt, diese Vögel warten auf die Seelen der Sterbenden…” <cite>H. P. Lovecraft, „Das Grauen von Dunwich”</cite>",
+        "name": "Ziegenmelker",
+        "text": "Zurückhaltend. Jäger.\nJeder Ermittler am Ort von Ziegenmelker bekommt -1 [willpower], -1 [intellect], -1 [combat], und -1 [agility].",
+        "traits": "Kreatur."
+    },
+    {
+        "code": "02091",
+        "flavor": "\"If they can catch the fleeing soul when it leaves the body, they instantly flutter away chittering in daemonic laughter...\" <cite>H. P. Lovecraft, \"The Dunwich Horror\"</cite>",
+        "name": "Begierig auf den Tod",
+        "text": "<b>Enthüllung</b> - Lege eine [willpower]-Probe (2) ab. Erhöhe die Schwierigkeit dieser Fertigkeitsprobe um 1 für jeden Schaden, den du genommen hast. Falls die Probe misslingt, nimm 2 Horror.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02092",
+        "name": "Vom Pech verfolgt",
+        "text": "<b>Enthüllung</b> - Bringe Vom Pech verfolgt in deiner Bdrohungszone ins Spiel.\nDu bekommst bei Fertigkeitsproben -1 auf deinen Fertigkeitswert.\n<b>Erzwungen</b> - Nachdem dir eine Fertigkeitsprobe um 1 oder mehr gelungen ist: Lege Vom Pech verfolgt ab.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02093",
+        "name": "Schicksalswende",
+        "text": "<b>Enthüllung</b> - Enthülle einen zufälligen Marker aus dem Chaosbeutel.\nWenn du ein [elder_sign]-Symbol oder eine positive Zahl enthüllst, passiert nichts.\nFalls du eine andere Zahl enthüllst, nimm 1 Schaden.\nFalls du ein [skull], [cultist], [tablet], [elder_thing], oder [auto_fail]-Symbol enthüllst, nimm 2 Horror.",
+        "traits": "Omen."
+    },
+    {
+        "code": "02094",
+        "name": "Vogeldiener",
+        "text": "<b>Beute</b> - Niedrigster [intellect]-Wert.\nJäger.\nSolange Vogeldiener mit einer [[Fernkampf-]], [[Feuerwaffe-]] oder [[Zauber]]-Vorteilskarte angegriffen wird, bekommt er -3 Kampf.",
+        "traits": "Kreatur. Monster. Abscheulichkeit."
+    },
+    {
+        "code": "02095",
+        "flavor": "Welcher Wolf hat so viele Zähne?",
+        "name": "Wolfsdiener",
+        "text": "<b>Erscheinen</b> - Am weitesten von dir entfernter Ort.\n<b>Beute</b> - Niedrigster [agility]-Wert.\nJäger. Zurückschlagen.",
+        "traits": "Kreatur. Monster. Abscheulichkeit."
+    },
+    {
+        "code": "02096",
+        "name": "Veränderte Bestie",
+        "text": "<b>Enthüllung</b> - Falls sich keine [[Abscheulichkeit]]-Gegner im Spiel befinden, erhält Veränderte Bestie Nachrüsten. Ansonsten wähle einen [[Abscheulichkeit]]-Gegner. Heile sämtlichen Schaden von diesem Gegner und hänge Veränderte Bestie an ihn an.\n<b>Erzwungen</b> - Sobald du den Ort des Gegners mit dieser Verstärkung betrittst (oder er deinen): Nimm 1 Horror.",
+        "traits": "Macht."
+    },
+    {
+        "code": "02097",
+        "flavor": "„Haben wir hier etwa ein Probelm?”",
+        "name": "O'Bannions Schläger",
+        "text": "Solange O'Bannions Schläger mit dir in einen Kampf verwickelt ist, kannst du keine Ressourcen erhalten.",
+        "traits": "Mensch. Krimineller. Syndikat."
+    },
+    {
+        "code": "02098",
+        "flavor": "„Du verschwindest besser, Freundchen, falls du nicht wild darauf bist, Stiefelleder und Blei zu schmecken”",
+        "name": "Mafiosi",
+        "text": "Zurückschlagen.\n<b>Erzwungen</b> - Nachdem dich Mafiosi angegriffen hat: Verliere 1 Ressource.",
+        "traits": "Mensch. Krimineller. Syndikat."
+    },
+    {
+        "code": "02099",
+        "name": "Zur Strecke gebracht",
+        "text": "<b>Enthüllung</b> - Falls sich keine nicht in einen Kampf verwickelte [[Krimineller]]-Gegner im Spiel befinden, enthält Zur Strecke gebracht Nachrüsten. Falls sich 1 oder mehr nicht in einem Kampf verwickelte [[Krimineller]]-Gegner im Spiel befinden, bewegt sich jeder von ihnen 1 Ort auf dich zu. Jeder [[Krimineller]]-Gegner, der dich als Ergebnis diese Effektes in einen Kampf verwickelt, führt sofort einen Angriff durch.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "02100",
+        "name": "Ins Jenseits gedrängt",
+        "text": "<b>Enthüllung</b> - Wähle eine Nicht-Storyvorteilskarte, die du kontrollierst, mische sie in dein Deck und lege die obersten 3 Karten deines Decks ab. Falls eine Kopie dieser Vorteilskarte abgelegt wird, nimm 2 Horror.",
+        "traits": "Verwünschung."
+    },
+    {
+        "code": "02101",
+        "name": "Schrecken aus dem Jenseits",
+        "text": "Wagnis.\n<b>Enthüllung</b> - Wähle einen der folgenden Kartentypen (Vorteil, Ereignis oder Fertigkeit). Jeder Spieler muss jede Karte des gewählten Kartentyps von seiner Hand ablegen. Falls dies nicht die erste in dieser Phase gezogene Kopie von Schrecken aus dem Jenseits ist, wähle stattdessen zwei Kartentypen.",
+        "traits": "Verwünschung. Schrecken."
+    },
+    {
+        "code": "02102",
+        "name": "Arkane Barriere",
+        "text": "<b>Enthüllung</b> - Hänge diese Karte an deinen Ort an.\nLege als zusätzliche Kosten für das Bewegen zum oder vom Ort mit dieser Verstärkung eine [willpower]-Probe (4) ab. Falls die Probe gelingt, lege Arkane Barriere ab. Ansonsten musst du die Effekte der Bewegung entweder aufheben oder die obersten 5 Karten deines Decks ablegen.",
+        "traits": "Verwünschung. Hindernis."
+    },
+    {
+        "code": "02103",
+        "name": "Ansammlung schillernder Kugeln",
+        "text": "<b>Beute</b> - Lowest [willpower].\nJäger.\n<b>Erzwungen</b> - Nachem du einen Angriff gegen Ansammlung schillernder Kugeln durchgeführt hast, in dem du eine <i>Nahkampf-</i>-Karte verwendet hast: Lege diese Karte ab.",
+        "traits": "Monster. Abscheulichkeit."
+    },
+    {
+        "code": "02104",
+        "name": "Diener des Lauerers",
+        "text": "<b>Beute</b> - Niedrigster [agility]-Wert.\nJäger.\n<b>Erzwungen</b> - Sobald dich Diener des Lauerers angreift: Lege die obersten 2 Karten deines Decks ab.",
+        "traits": "Monster. Abscheulichkeit."
+    }
+]
