@@ -164,7 +164,7 @@
             "type": "integer"
         },
         "is_unique": {
-            "oneof":[
+            "oneof": [
                 {
                     "type": "boolean"
                 },
@@ -172,7 +172,6 @@
                     "type": "null"
                 }
             ]
-
         },
         "xp": {
             "oneOf": [
@@ -186,17 +185,9 @@
             ]
         }
     },
-    "required": [
-        "code",
-        "pack_code",
-        "position",
-        "quantity"
-    ],
+    "required": ["code", "pack_code", "position", "quantity"],
     "dependencies": {
-        "name" : [
-            "faction_code",
-            "type_code"
-        ]
+        "name": ["faction_code", "type_code"]
     },
     "type": "object"
 }
