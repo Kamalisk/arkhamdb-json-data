@@ -491,6 +491,23 @@
         "xp": 0
     },
     {
+        "code": "08021",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Isuardi Therianto",
+        "name": "\"Get behind me!\"",
+        "pack_code": "eoep",
+        "position": 21,
+        "quantity": 2,
+        "skill_combat": 1,
+        "skill_willpower": 1,
+        "text": "Fast. Play during any [fast] window.\nUntil the end of the phase, whenever an enemy would attack another investigator at your location, it attacks you instead, then engages you. Cancel 1 horror dealt by each attack made in this way.",
+        "traits": "Spirit. Tactic.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "08022",
         "cost": 3,
         "deck_limit": 2,
@@ -694,7 +711,7 @@
         "pack_code": "eoep",
         "permanent": true,
         "position": 46,
-        "quantity": 2,
+        "quantity": 1,
         "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nYour deck cannot include more than 1 copy of each non-weakness, non-signature card (by title).\nReduce your deck size by 5.",
         "traits": "Favor. Illicit.",
         "type_code": "asset",
@@ -807,6 +824,23 @@
         "xp": 3
     },
     {
+        "code": "08071",
+        "cost": null,
+        "deck_limit": 1,
+        "faction_code": "survivor",
+        "flavor": "You can only pray that it's enough.",
+        "illustrator": "Duallbrush",
+        "name": "Short Supply",
+        "pack_code": "eoep",
+        "permanent": true,
+        "position": 71,
+        "quantity": 1,
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\n<b>Forced</b> - When your first turn of the game begins: Discard the top 10 cards of your deck.",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "08072",
         "cost": 2,
         "deck_limit": 2,
@@ -839,6 +873,21 @@
         "xp": 1
     },
     {
+        "code": "08082",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Robert Laskey",
+        "name": "Fend Off",
+        "pack_code": "eoep",
+        "position": 82,
+        "quantity": 2,
+        "skill_agility": 2,
+        "text": "Fast. Play when a non-[[Elite]] enemy spawns at your location.\nThat enemy attacks you. Then, automatically evade that enemy and attach Fend Off to it.\nAttached enemy cannot ready.",
+        "traits": "Gambit. Trick.",
+        "type_code": "event",
+        "xp": 3
+    },
+    {
         "code": "08083",
         "cost": 2,
         "deck_limit": 2,
@@ -858,6 +907,26 @@
         "traits": "Ally. Miskatonic. Science.",
         "type_code": "asset",
         "xp": 0
+    },
+    {
+        "code": "08085",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "faction2_code": "seeker",
+        "flavor": "\"The game is afoot!\"",
+        "illustrator": "Billy Norrby",
+        "name": "On the Trail",
+        "pack_code": "eoep",
+        "position": 85,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "skill_intellect": 2,
+        "text": "Choose an enemy at any location other than yours. Move twice toward that enemy. Discover 1 clue at each location you entered by this effect.",
+        "traits": "Insight. Tactic.",
+        "type_code": "event",
+        "xp": 3
     },
     {
         "code": "08086",
@@ -943,6 +1012,26 @@
         "xp": 5
     },
     {
+        "code": "08100",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "faction2_code": "rogue",
+        "illustrator": "Ignacio Bazán Lazcano",
+        "name": "Eon Chart",
+        "pack_code": "eoep",
+        "position": 100,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "slot": "Accessory",
+        "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take two of the following actions, in any order (move, evade, or investigate).",
+        "traits": "Item. Relic.",
+        "type_code": "asset",
+        "xp": 4
+    },
+    {
         "code": "08101",
         "cost": 3,
         "deck_limit": 2,
@@ -1015,5 +1104,21 @@
         "traits": "Ally. Creature.",
         "type_code": "asset",
         "xp": 0
+    },
+    {
+        "code": "08129",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "Adam Schumpert",
+        "name": "Call for Backup",
+        "pack_code": "eoep",
+        "position": 129,
+        "quantity": 2,
+        "skill_wild": 1,
+        "text": "One at a time, in any order, if you control a...\n- [rogue] card, you may move to a connecting location.\n- [guardian] card, deal 1 damage to an enemy at your location.\n- [seeker] card, discover 1 clue at your location.\n- [mystic] card, heal 1 horror from any card.\n- [survivor] card, heal 1 damage from any card.",
+        "traits": "Favor. Synergy.",
+        "type_code": "event",
+        "xp": 2
     }
 ]
