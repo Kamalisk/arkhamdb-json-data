@@ -74,13 +74,28 @@ These can be used in a card's `text` section.
 * `[reaction]`
 * `[action]`
 * `[free]`
-* `[eldersign]`
-* `[will]`
-* `[lore]`
-* `[strength]`
+* `[elder_sign]`
+* `[skull]`
+* `[cultist]`
+* `[tablet]`
+* `[elder_thing]`
+* `[auto_fail]`
+* `[curse]`
+* `[bless]`
+* `[willpower]`
+* `[intellect]`
+* `[combat]`
 * `[agility]`
+* `[wild]`
+* `[mystic]`
+* `[rogue]`
+* `[seeker]`
+* `[survivor]`
+* `[guardian]`
+* `[neutral]`
 * `[health]`
 * `[sanity]`
+* `[per_investigator]`
 
 #### Translations
 
