@@ -204,13 +204,15 @@
         "code": "08009",
         "deck_limit": 1,
         "faction_code": "neutral",
+        "illustrator": "Raymond Bonilla",
         "name": "Buried Secrets",
         "pack_code": "eoep",
         "position": 9,
         "quantity": 1,
         "restrictions": "investigator:08007",
         "subtype_code": "weakness",
-        "text": "<b>This is a placeholder weakness. This card has not yet been announced.</b>",
+        "text": "<b>Revelation</b> - Put Buried Secrets into play in your threat area.\nIf your location can be investigated, you cannot move except by scenario card effects.\n[action]: Investigate. If you succeed, instead of discovering clues, discard Buried Secrets. If you faily, you make take 2 horror to shuffle it into your deck.",
+        "traits": "Mystery.",
         "type_code": "treachery"
     },
     {
@@ -622,8 +624,8 @@
         "position": 27,
         "quantity": 2,
         "sanity": 1,
-        "skill_combat": 2,
         "skill_agility": 2,
+        "skill_combat": 2,
         "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [combat] and +1 [agility].\nNon-direct damage/horror must be assigned to Combat Training before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [combat] or +1 [agility] for this skill test.",
         "traits": "Talent. Composure.",
         "type_code": "asset",
@@ -660,7 +662,7 @@
         "quantity": 2,
         "skill_agility": 2,
         "skill_combat": 2,
-        "text": "<b>Fight.</b> Choose an enemy at any revealed location as the target for this attack. Before resolving this attack, you may move to that enemies location. Add your [agility] to your [combat] for this attack. This attack deals +3 damage.",
+        "text": "<b>Fight.</b> Choose an enemy at any revealed location as the target for this attack. Before resolving this attack, you may move to that enemy's location. Add your [agility] to your [combat] for this attack. This attack deals +3 damage.",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 4
@@ -687,7 +689,7 @@
     {
         "code": "08031",
         "cost": null,
-        "deck_limit": 2,
+        "deck_limit": 1,
         "faction_code": "seeker",
         "illustrator": "Derek D. Edgell",
         "name": "Forced Learning",
@@ -695,7 +697,7 @@
         "permanent": true,
         "position": 31,
         "quantity": 1,
-        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nIncrease your deck size by 15.\n During each upkeep phase, instead of drawing 1 card, draw 2 cards and discard 1 of them.",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nIncrease your deck size by 15.\nDuring each upkeep phase, instead of drawing 1 card, draw 2 cards and discard 1 of them.",
         "traits": "Talent. Ritual.",
         "type_code": "asset",
         "xp": 0
@@ -853,7 +855,7 @@
         "sanity": 3,
         "skill_combat": 2,
         "skill_intellect": 2,
-        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 skill value during skill tests on [[Spell]] cards.\nNon-direct damage/horror must be assigned to Grounded before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [intellect] and +1 [combat].\nNon-direct damage/horror must be assigned to Scientific Theory before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
         "type_code": "asset",
         "xp": 3
     },
@@ -871,7 +873,7 @@
         "skill_wild": 1,
         "slot": "Arcane",
         "subname": "Gateway to Tindalos",
-        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. You may remove the leyline to deal 1 damage to that enemy.",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. That investigator moves to that location. You may remove the leyline to deal 1 damage to that enemy.",
         "traits": "Ritual.",
         "type_code": "asset",
         "xp": 4
@@ -890,7 +892,7 @@
         "skill_wild": 1,
         "slot": "Arcane",
         "subname": "Gateway to Acheron",
-        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator may remove the leyline to have them take an investigate action.",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator moves to that location. You may remove the leyline to have them take an investigate action.",
         "traits": "Ritual.",
         "type_code": "asset",
         "xp": 4
@@ -924,8 +926,8 @@
         "pack_code": "eoep",
         "position": 44,
         "quantity": 1,
-        "skill_willpower": 2,
         "skill_wild": 1,
+        "skill_willpower": 2,
         "slot": "Arcane",
         "subname": "Gateway to Paradise",
         "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to an investigator.\n[action]: Choose an investigator with a leyline. That investigator draws 1 card and heals 1 damage or 1 horror. You may remove the leyline to have them instead draw 2 cards and heal 2 damage or 2 horror.",
@@ -1056,7 +1058,7 @@
     {
         "code": "08052",
         "deck_limit": 2,
-        "faction_code": "survivor",
+        "faction_code": "rogue",
         "flavor": "Fifty percent luck, a hundred percent skill.",
         "illustrator": "Sarah Finnigan",
         "name": "Savant",
@@ -1113,7 +1115,7 @@
         "pack_code": "eoep",
         "position": 55,
         "quantity": 2,
-        "text": "Fast. Play at the start of the investigation phase.\nOne at a time, reveal cards from the top of any investigator's deck(s) until exactly 5 cards have been revealed. Set those cards aside, out of play. While set aside, any investigator may play any of those cards as if they were in their hand. At the start of the next investigation phase, shuffle each of those cards still set aside into its owner's deck.",
+        "text": "Fast. Play at the start of the investigation phase.\nOne at a time, reveal cards from the top of any investigator deck(s) until exactly 5 cards have been revealed. Set those cards aside, out of play. While set aside, any investigator may play any of those cards as if they were in their hand. At the start of the next investigation phase, shuffle each of those cards still set aside into its owner's deck.",
         "traits": "Favor.",
         "type_code": "event",
         "xp": 2
@@ -1130,8 +1132,8 @@
         "position": 56,
         "quantity": 2,
         "sanity": 1,
-        "skill_willpower": 1,
-        "skill_agility": 1,
+        "skill_agility": 2,
+        "skill_willpower": 2,
         "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [agility].\nNon-direct damage/horror must be assigned to Moxie before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [agility] for this skill test.",
         "traits": "Talent. Composure.",
         "type_code": "asset",
@@ -1218,7 +1220,7 @@
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Mauro Dal Bo",
-        "flavor": "You let your mind drift into cold, meaningless oblivion.\nThe emptiness feels like home.",
+        "flavor": "You let your mind drift into cold, meaningless oblivion. The emptiness feels like home.",
         "name": "Meditative Trance",
         "pack_code": "eoep",
         "position": 61,
@@ -1260,9 +1262,9 @@
         "position": 63,
         "quantity": 2,
         "skill_willpower": 2,
-        "text": "Place 2 charges on an asset you conrol.\n[reaction] After you draw Winds of Power during your turn: Play it.",
+        "text": "Place 2 charges on an asset you control.\n[reaction] After you draw Winds of Power during your turn: Play it.",
         "traits": "Spirit.",
-        "type_code": "asset",
+        "type_code": "event",
         "xp": 1
     },
     {
@@ -1291,7 +1293,7 @@
         "pack_code": "eoep",
         "position": 65,
         "quantity": 2,
-        "text": "While Occul Theory is in your hand or committed to a skill test, it gainst [willpower] icons equal to your [intellect], and [intellect] icons equal to your [willpower].",
+        "text": "While Occult Theory is in your hand or committed to a skill test, it gains [willpower] icons equal to your [intellect], and [intellect] icons equal to your [willpower].",
         "traits": "Practiced. Expert.",
         "type_code": "skill",
         "xp": 1
@@ -1309,7 +1311,7 @@
         "quantity": 2,
         "skill_wild": 1,
         "skill_willpower": 1,
-        "text": "Look at the top 6 cards of an investigator's deck or the encounter deck. You may either return them to the top of that deck in any order, or shufflethem into that deck. If you looked at an investigator's deck, that investigatgor may draw 1 card.",
+        "text": "Look at the top 6 cards of an investigator's deck or the encounter deck. You may either return them to the top of that deck in any order, or shuffle them into that deck. If you looked at an investigator's deck, that investigator may draw 1 card.",
         "traits": "Augury.",
         "type_code": "event",
         "xp": 2
@@ -1475,6 +1477,7 @@
         "code": "08076",
         "cost": 1,
         "deck_limit": 2,
+        "exile": true,
         "faction_code": "survivor",
         "illustrator": "Romana Kendelic",
         "name": "Burn After Reading",
@@ -1535,8 +1538,8 @@
         "xp": 2
     },
     {
-        "cost": 2,
         "code": "08080",
+        "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
         "illustrator": "Marcin Jakubowski",
@@ -1552,8 +1555,8 @@
         "xp": 3
     },
     {
-        "cost": 0,
         "code": "08081",
+        "cost": 0,
         "deck_limit": 2,
         "faction_code": "survivor",
         "health": 1,
@@ -1565,7 +1568,7 @@
         "sanity": 3,
         "skill_intellect": 2,
         "skill_willpower": 2,
-        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [intellect].\nNon-direct damage/horror must be assigned to Combat Training before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [intellect] for this skill test.",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [intellect].\nNon-direct damage/horror must be assigned to Plucky before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [intellect] for this skill test.",
         "traits": "Talent. Composure.",
         "type_code": "asset",
         "xp": 3
