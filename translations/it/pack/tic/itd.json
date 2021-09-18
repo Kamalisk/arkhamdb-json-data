@@ -1,36 +1,104 @@
 [
     {
+        "code": "07108",
+        "flavor": "\"Se ti sento soffiare di nuovo in quell'affare, te lo faccio ingoiare.\"",
+        "name": "Fischietto Antisommossa",
+        "text": "Durante il tuo turno, puoi effettuare 1 azione di impegno aggiuntiva.",
+        "traits": "Oggetto. Strumento.",
+        "slot": "Accessorio"
+    },
+    {
+        "code": "07109",
+        "flavor": "Gli occhi di Lita si fecero piccoli, la sua stretta più salda. Non le sarebbero sfuggiti. Né ora, né mai più.",
+        "name": "Caccia del Giusto",
+        "text": "<b>Impegna.</b> Scegli 1 nemico entro un massimo di 2 luoghi di distanza. Muoviti di un luogo alla volta fino al luogo di quel nemico, impegnalo e aggiungi un ammontare di segnalini [bless] al sacchetto del caos pari al valore di Orrore di quel nemico.",
+        "traits": "Tattica. Benedetto."
+    },
+    {
+        "code": "07110",
+        "name": "Sodalizio Sacro",
+        "text": "Permanente. Limite di 1 carta [[Sodalizio]] per mazzo.\n[reaction] Dopo che un investigatore in un qualsiasi luogo ha effettuato il passo \"rivelare il segnalino caos\" di una prova di abilità, esaurisci il Sodalizio Sacro: Rimetti un qualsiasi numero di segnalini [bless] rivelati durante questa prova nel sacchetto del caos, ignorandone i modificatori in questa prova.",
+        "traits": "Sodalizio. Benedetto."
+    },
+    {
         "code": "07111",
-        "flavor": "Once you let go of your assumptions, anything is possible",
-        "name": "Eldritch Sophist",
-        "text": "Uses (3 secrets).\n[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",
-        "traits": "Ally. Miskatonic",
-        "slot": "Ally"
+        "flavor": "Una volta abbandonate le proprie convinzioni, tutto è possibile.",
+        "name": "Sofista Esoterico",
+        "text": "Utilizzo (3 segreti).\n[fast]: Esaurisci il Sofista Esoterico: Sposta 1 segreto o 1 carica da un supporto che controlli a un altro supporto controllato da un investigatore nel tuo luogo.",
+        "traits": "Alleato. Miskatonic",
+        "slot": "Alleato"
+    },
+    {
+        "code": "07112",
+        "flavor": "Quando cominci a seguire una pista, è difficile dire a cosa possa condurre.",
+        "name": "Guai in Vista",
+        "text": "Come costo aggiuntivo per giocare Guai in Vista, aggiungi un ammontare di segnalini [curse] al sacchetto del caos pari al valore di Oscurità del tuo luogo.\nScopri 2 indizi nel tuo luogo.",
+        "traits": "Intuizione. Maledetto."
     },
     {
         "code": "07113",
-        "name": "Blasphemous Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",
-        "traits": "Covenant. Cursed."
+        "name": "Sodalizio Blasfemo",
+        "text": "Permanente. Limite di 1 carta [[Sodalizio]] per mazzo.\n[reaction] Quando un investigatore nel tuo luogo rivela un segnalino [curse] durante una prova di abilità, esaurisci il Sodalizio Blasfemo: Considera il modificatore di quel segnalino come se fosse \"+1\", invece del suo normale modificatore. Dopo che questa prova è terminata, rimetti quel segnalino nel sacchetto del caos.",
+        "traits": "Sodalizio. Maledetto."
+    },
+    {
+        "code": "07114",
+        "flavor": "Con un po' di cautela, può diventare semplicemente \"intrusione\".",
+        "name": "Effrazione",
+        "text": "<b>Indaga.</b> Aggiungi il tuo valore di [agility] al tuo valore di abilità in questa indagine. Se hai successo di 2 o più punti, puoi eludere automaticamente 1 nemico in questo luogo. Questa azione non provoca attacchi di opportunità.",
+        "traits": "Trucchetto."
     },
     {
         "code": "07115",
-        "flavor": "\"Oh, hooey. What's the worst that could happen?\"",
-        "name": "Skeptic",
-        "text": "During this skill test, treat the modifier of each [bless] and each [curse] token as +1 instead of its normal modifier.",
-        "traits": "Practiced."
+        "flavor": "\"Balle. Cosa potrebbe succedere di così grave?\"",
+        "name": "Scetticismo",
+        "text": "Durante questa prova di abilità, considera il modificatore di ogni segnalino [bless] e [curse] come se fosse \"+1\", invece del suo normale modificatore.",
+        "traits": "Allenamento."
+    },
+    {
+        "code": "07116",
+        "name": "Sodalizio Contraffatto",
+        "text": "Permanente. Limite di 1 carta [[Sodalizio]] per mazzo.\n[reaction] Quando un investigatore nel tuo luogo rivela un segnalino [curse] durante una prova di abilità, esaurisci il Sodalizio Contraffatto: Annulla quel segnalino caos, rimettilo nella riserva dei segnalini e rivela 1 altro segnalino.",
+        "traits": "Sodalizio. Maledetto."
+    },
+    {
+        "code": "07117",
+        "name": "Armageddon",
+        "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: <b>Combatti.</b> Usa [willpower] invece di [combat]. Infliggi +1 danno in questo attacco. Se viene rivelato un segnalino [curse], puoi infliggere 1 danno a un nemico nel tuo luogo oppure collocare 1 carica sull'Armageddon.",
+        "traits": "Incantesimo. Maledetto.",
+        "slot": "Arcano"
     },
     {
         "code": "07118",
-        "name": "Eye of Chaos",
-        "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect] If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
-        "traits": "Spell. Cursed.",
-        "slot": "Arcane"
+        "name": "Occhio del Caos",
+        "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: <b>Indaga.</b> Usa [willpower] invece di [intellect]. Se hai successo, scopri 1 indizio aggiuntivo in questo luogo. Se viene rivelato un segnalino [curse], puoi scoprire 1 indizio in un luogo collegato al tuo oppure collocare 1 carica sull'Occhio del Caos.",
+        "traits": "Incantesimo. Maledetto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "07119",
+        "name": "Velo delle Ombre",
+        "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: <b>Eludi.</b> Usa [willpower] invece di [agility]. Se hai successo e il nemico eluso è non [[Elite]], puoi muovere quel nemico fino a un luogo collegato al suo. Se viene rivelato un segnalino [curse], puoi muoverti fino a un luogo collegato al tuo oppure collocare 1 carica sul Velo delle Ombre.",
+        "traits": "Incantesimo. Maledetto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "07120",
+        "name": "Sodalizio Paradossale",
+        "text": "Permanente. Limite di 1 carta [[Sodalizio]] per mazzo.\n[reaction] Dopo che un investigatore nel tuo luogo ha effettuato il passo \"rivelare il segnalino caos\" di una prova di abilità, se hai rivelato sia un segnalino [bless] che un segnalino [curse], esaurisci il Sodalizio Paradossale: Questa prova ha successo automaticamente <i>(dopo che questa prova è terminata, rimuovi dal sacchetto del caos tutti i segnalini [bless] e [curse] rivelati)</i>.",
+        "traits": "Sodalizio. Benedetto. Maledetto."
+    },
+    {
+        "code": "07121",
+        "name": "Bussola da Marinaio",
+        "text": "[action] Esaurisci la Bussola da Marinaio: <b>Indaga.</b> Se hai successo e non hai risorse nella tua riserva delle risorse, scopri 1 indizio aggiuntivo nel tuo luogo.\n[fast] Durante un'indagine che usa la Bussola da Marinaio, spendi 1 risorsa: Ricevi +1 [intellect] in questa prova di abilità. (Limite di 3 volte per indagine).",
+        "traits": "Oggetto. Strumento.",
+        "slot": "Mano"
     },
     {
         "code": "07122",
-        "name": "Ancient Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",
-        "traits": "Covenant. Blessed."
+        "name": "Sodalizio Antico",
+        "text": "Permanente. Limite di 1 carta [[Sodalizio]] per mazzo.\n[reaction] Quando un investigatore nel tuo luogo risolve un segnalino [bless] durante una prova di abilità, esaurisci il Sodalizio Antico: Non rivelare un altro segnalino come parte dell'effetto di questo segnalino [bless].",
+        "traits": "Sodalizio. Benedetto."
     }
 ]

@@ -1,89 +1,89 @@
 [
     {
         "code": "52001",
-        "name": ".32 Colt",
-        "text": "Uses (6 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You deal +1 damage for this attack.\n[free] Spend 1 resource: Return .32 Colt to your hand.",
-        "traits": "Item. Weapon. Firearm.",
-        "slot": "Hand"
+        "name": ".32柯爾特手槍",
+        "text": "使用(6子彈)。\n[action]花費1子彈：<b>攻擊</b>。這次攻擊造成+1傷害。\n[free]花費1資源：將.32柯爾特手槍返回你的手牌。",
+        "traits": "道具. 武器. 槍械",
+        "slot": "手部"
     },
     {
         "code": "52002",
-        "name": "\"Eat lead!\"",
-        "text": "Fast. Play when you activate the <b>Fight</b> ability on a [[Firearm]] asset.\nSpend 1 additional ammo token from that asset. When you reveal chaos tokens for this attack, reveal 1 additional chaos token. Choose one to resolve and ignore the other.",
-        "traits": "Tactic."
+        "name": "\"吃槍子吧！\"",
+        "text": "快速。在你啟動[[槍械]]支援卡上的<b>攻擊</b>能力時打出。\n額外花費該支援卡上的1子彈。本次攻擊中，在你抽取混亂標記時，抽取額外1個混亂標記。選擇其中一個結算並忽略其餘標記。",
+        "traits": "策略"
     },
     {
         "code": "52003",
-        "flavor": "\"I am the wisest man alive, for I know one thing, and that is that I know nothing.\"\n- Plato, <u>The Republic</u>",
-        "name": "Logical Reasoning",
-        "text": "For each clue you have (to a maximum of 3), either heal 2 horror from an investigator at your location or discard a [[Terror]] card at your location.",
-        "traits": "Insight."
+        "flavor": "\"我是活著的最智慧的人，因為我知道一件事，那就是我知道我一無所知。\"\n<cite>《理想國》，柏拉圖著</cite>",
+        "name": "邏輯推理",
+        "text": "你每有1個線索(最多3)，治癒你所在地點的一位調查員的2點恐懼，或丟棄你所在地點的1張[[恐怖]]卡。",
+        "traits": "洞察"
     },
     {
         "code": "52004",
-        "name": "Archaic Glyphs",
-        "subname": "Markings of Isis",
-        "text": "You can only include this asset in your deck by upgrading it from Archaic Glyphs <i>(Untranslated)</i>, and only if \"you have translated the glyphs\" in your Campaign Log.\nUses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> If you succeed, you may put an asset with printed cost of X or lower into play from your hand. X is the amount you succeeded by.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "古代雕文",
+        "subname": "伊西斯印記",
+        "text": "只有你的冒險日誌中寫有\"你翻譯出了雕文\"時，你才可通過升級古代雕文<i>(未翻譯)</i>來將本支援卡加入你的牌組。\n使用(3充能)。\n[action]花費1充能：<b>調查</b>。如果你成功，你可以將手牌中1張打印費用最多為X的支援卡打出，其中X為你成功且超過難度的點數。",
+        "traits": "法術",
+        "slot": "法術"
     },
     {
         "code": "52005",
-        "name": "Stealth",
-        "text": "[free] During your turn, exhaust Stealth: <b>Evade.</b> The chosen enemy gets -2 evade for this evasion attempt. If you successfully evade the enemy, disengage with it but do not exhaust it. Until the end of your turn, that enemy cannot engage you.",
-        "traits": "Talent."
+        "name": "潛行",
+        "text": "[free]在你回合中，消耗潛行：<b>躲避</b>。本次躲避中所選敵人-2躲避。如果你成功躲避該敵人，它解除交戰狀態但不消耗。你回合結束前，該敵人不能與你交戰。",
+        "traits": "才能"
     },
     {
         "code": "52006",
-        "name": "Suggestion",
-        "text": "Uses (3 charges). If Suggestion has no charges, discard it.\n[action] Exhaust Suggestion: <b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you do not succeed by at least 2, remove 1 charge from Suggestion.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "建議",
+        "text": "使用(3充能)。如果建議沒有充能，則將其丟棄。\n[action]消耗建議：<b>躲避</b>。本次躲避中將你的[willpower]數值加入你的技能值。如果你沒有成功並超過難度至少2點，移除建議上的1充能。",
+        "traits": "法術",
+        "slot": "法術"
     },
     {
         "code": "52007",
-        "name": "Alchemical Transmutation",
-        "text": "Uses (4 charges).\n[action] Exhaust Alchemical Transmutation, spend 1 charge: Test [willpower] (0). For each point you succeed by, gain 1 resource (to a maximum of 4). If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol is revealed during this test, take 1 damage.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "煉金轉化",
+        "text": "使用(4充能)。\n[action]消耗煉金轉化，花費1充能：檢定[willpower](0)。你成功時每超過難度1點，獲得1個資源(上限4個)。如果本次檢定中抽出[skull]、[cultist]、[tablet]、[elder_thing]或[auto_fail]標記，受到1點傷害。",
+        "traits": "法術",
+        "slot": "法術"
     },
     {
         "code": "52008",
-        "name": "Storm of Spirits",
-        "text": "<b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] for this attack. If you succeed, instead of its standard damage, this attack deals 3 damage to each enemy at your location <i>(any additional damage is dealt to the attacked enemy)</i>. If a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] token is revealed during this attack, deal 2 damage to each investigator at your location.",
-        "traits": "Spell."
+        "name": "靈力風暴",
+        "text": "<b>攻擊</b>。這次攻擊不使用[combat]，改為使用[willpower]。這次攻擊你獲得+2[willpower]。如果你成功，這次攻擊不造成基礎傷害，而是對你所在地點的每名敵人造成3點傷害<i>(所有額外傷害只對受到攻擊的敵人造成)</i>如果這次攻擊中抽出[skull]、[cultist]、[tablet]、[elder_thing]或[auto_fail]標記，對所在地點每位調查員造成2點傷害。",
+        "traits": "法術"
     },
     {
         "code": "52009",
-        "name": "Lantern",
-        "text": "[action]: <b>Investigate.</b> Your location gets -1 shroud for this investigation.\n[action] Discard Lantern: Deal 1 damage to an enemy at your location (or remove Lantern from the game to deal 2 damage, instead). This action does not provoke attacks of opportunity.",
-        "traits": "Item. Tool.",
-        "slot": "Hand"
+        "name": "提燈",
+        "text": "[action]：<b>調查</b>。本次調查中你所在地點-1隱藏值。\n[action]丟棄提燈：對你所在地點的一個敵人造成1點傷害(或者改為造成2點傷害，並將提燈從遊戲中移除)。本行動不會引起趁亂攻擊。",
+        "traits": "道具. 工具",
+        "slot": "手部"
     },
     {
         "code": "52010",
-        "flavor": "I knew I should have, but I couldn't stop digging.",
-        "name": "Gravedigger's Shovel",
-        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack.\n[action] Discard Gravedigger's Shovel: Discover 1 clue at your location (or remove Gravedigger's Shovel from the game to discover 2 clues, instead).",
-        "traits": "Item. Tool. Weapon. Melee.",
-        "slot": "Hand"
+        "flavor": "我知道我不應該再挖了，但我就是停不下來。",
+        "name": "挖墓人的鏟子",
+        "text": "[action]：<b>攻擊</b>。這次攻擊中你+2[combat]。\n[action]丟棄挖墓人的鏟子：發現你所在地點的1個線索(或者改為發現2個線索，並將挖墓人的鏟子從遊戲中移除)。",
+        "traits": "道具. 工具. 武器. 近戰",
+        "slot": "手部"
     },
     {
         "code": "52011",
-        "name": "Unspeakable Oath (Bloodthirst)",
-        "text": "Campaign Mode only. Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.\n[reaction] When you deal damage to an enemy in excess of its remaining health: Discard this card from your hand.",
-        "traits": "Madness. Pact."
+        "name": "邪穢誓約(嗜血)",
+        "text": "劇本模式專用。禍害。隱私。\n<b>顯現</b> - 將本卡牌秘密地加入你的手牌。\n<b>強制</b> - 在遊戲結束或你退場時，如果本卡牌仍在你手牌中：你少獲得2點經驗。\n[reaction]在你對一個敵人造成過量傷害時：從你手牌中丟棄本卡牌。",
+        "traits": "瘋狂. 契約"
     },
     {
         "code": "52012",
-        "name": "Unspeakable Oath (Curiosity)",
-        "text": "Campaign Mode only. Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.\n[reaction] After you successfully investigate a location with no clues on it: Discard this card from your hand.",
-        "traits": "Madness. Pact."
+        "name": "邪穢誓約(好奇)",
+        "text": "劇本模式專用。禍害。隱私。\n<b>顯現</b> - 將本卡牌秘密地加入你的手牌。\n<b>強制</b> - 在遊戲結束或你退場時，如果本卡牌仍在你手牌中：你少獲得2點經驗。\n[reaction]在你成功調查一個沒有線索的地點後：從你手牌中丟棄本卡牌。",
+        "traits": "瘋狂. 契約"
     },
     {
         "code": "52013",
-        "name": "Unspeakable Oath (Cowardice)",
-        "text": "Campaign Mode only. Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.\n[action]: <b>Evade.</b> Use only on an exhausted unengaged enemy at your location. If you succeed, discard this card from your hand.",
-        "traits": "Madness. Pact."
+        "name": "邪穢誓約(懦弱)",
+        "text": "劇本模式專用。禍害。隱私。\n<b>顯現</b> - 將本卡牌秘密地加入你的手牌。\n<b>強制</b> - 在遊戲結束或你退場時，如果本卡牌仍在你手牌中：你少獲得2點經驗。\n[action]：<b>躲避</b>。對象僅限你所在地點處於消耗且未交戰狀態的敵人。如果你成功，從你手牌中丟棄本卡牌。",
+        "traits": "瘋狂. 契約"
     }
 ]
