@@ -1,9 +1,9 @@
 [
     {
         "code": "03043",
-        "name": "Curtain Call",
-        "text": "<b>Easy / Standard</b>\n[skull]: -1 (-3 instead if you have 3 or more horror on you).\n[cultist] [tablet] [elder_thing]: -4. If your location has at least 1 horror on it, take 1 horror <i>(from the token pool)</i>. If your location has no horror on it, place 1 horror on it instead.",
-        "back_text": "<b>Hard / Expert</b>\n[skull]: -X, where X is the amount of horror on you. (If you have no horror on you, X is 1.)\n[cultist] [tablet] [elder_thing]: -5. If your location has at least 1 horror on it, take 1 horror <i>(from the token pool)</i>. If your location has no horror on it, place 1 horror on it instead."
+        "name": "Baisser de Rideau",
+        "text": "<b>FACILE / STANDARD</b>\n[skull] -1 (-3 à la place si vous avez au moins 3 horreurs sur vous).\n[cultist] [tablet] [elder_thing] -4. Si votre lieu a au moins 1 horreur sur lui, subissez 1 horreur <i>(prise dans la réserve de pions)</i>. Si votre lieu n'a pas d'horreur sur lui, placez-y 1 horreur à la place.",
+        "back_text": "<b>DIFFICILE / EXPERT</b>\n[skull] -X. X est le nombre d'horreurs sur vous. (Si vous n'avez pas d'horreurs sur vous, X esr égal à 1.)\n[cultist] [tablet] [elder_thing] -5. Si votre lieu a au moins 1 horreur sur lui, subissez 1 horreur <i>(prise dans la réserve de pions)</i>. Si votre lieu n'a pas d'horreur sur lui, placez-y 1 horreur à la place."
     },
     {
         "code": "03044",
@@ -148,7 +148,7 @@
     },
     {
         "code": "03059",
-        "flavor": "« Vraiment, il est temps. Nous avons tous ôté nos déguisements, sauf vous. » – Robert W. Chambers, « Le Masque »,\nLe Roi en Jaune",
+        "flavor": "« Vraiment, il est temps. Nous avons tous ôté nos déguisements, sauf vous. »\n– Robert W. Chambers, « Le Masque », <i>Le Roi en Jaune</i>",
         "name": "L'Homme au Masque Blême",
         "text": "<b>Génération</b> – Lieu le plus éloigné de tous les investigateurs.\nDistant.\n[action] : <b>Enquêter</b>. Votre lieu gagne +2 de valeur occulte pour cette enquête. En cas de réussite, vainquez L'Homme au Masque Blême au lieu de découvrir des indices.",
         "traits": "Humanoïde. Élite."
@@ -162,9 +162,9 @@
     },
     {
         "code": "03061",
-        "name": "The Last King",
-        "text": "<b>Easy / Standard</b>\n[skull]: Reveal another token. If you fail, place 1 doom on a [[Lunatic]] enemy in play.\n[cultist]: -2. If you fail, place 1 of your clues on your location.\n[tablet]: -4. If you fail, take 1 horror.\n[elder_thing]: -X. X is the shroud value of your location.",
-        "back_text": "<b>Hard / Expert</b>\n[skull]: Reveal another token. If you fail, place 1 doom on the [[Lunatic]] enemy in play with the most remaining health.\n[cultist]: -3. Place 1 of your clues on your location.\n[tablet]: -4. Take 1 horror.\n[elder_thing]: -X. X is the shroud value of your location. If you fail, take 1 damage."
+        "name": "Le Dernier Roi",
+        "text": "<b>FACILE / STANDARD</b>\n[skull] Révélez un autre pion Chaos. En cas d'échec, placez 1 fatalité sur un ennemi [[Aliéné]] en jeu.\n[cultist] -2. En cas d'échec, placez 1 de vos indices sur votre lieu.\n[tablet] -4. En cas d'échec, subissez 1 horreur.\n[elder_thing] -X. X est la valeur occulte de votre lieu.",
+        "back_text": "<b>DIFFICILE / EXPERT</b>\n[skull] Révélez un autre pion Chaos. En cas d'échec, placez 1 fatalité sur l'ennemi [[Aliéné]] en jeu avec le plus de vie restante.\n[cultist] -3. Placez 1 de vos indices sur votre lieu.\n[tablet] -4. Subissez 1 horreur.\n[elder_thing] -X. X est la valeur occulte de votre lieu. En cas d'échec, subissez 1 dégât."
     },
     {
         "code": "03062",
@@ -203,7 +203,7 @@
         "name": "Constance Dumaine",
         "subname": "A Little Too Sociable",
         "text": "Chasseur.\nWhile Constance Dumaine is exhausted, she gets +3 fight.",
-        "traits": "Monstre. Lunatique. Élite."
+        "traits": "Monstre. Aliéné. Élite."
     },
     {
         "code": "03066",
@@ -217,7 +217,7 @@
         "name": "Jordan Perry",
         "subname": "An Imposing Presence",
         "text": "Chasseur.\n<b>Forced</b> - At the beginning of the enemy phase: Heal 1 damage from Jordan Perry.",
-        "traits": "Monstre. Lunatique. Élite."
+        "traits": "Monstre. Aliéné. Élite."
     },
     {
         "code": "03067",
@@ -231,7 +231,7 @@
         "name": "Ishimaru Haruko",
         "subname": "Just Skin and Bones",
         "text": "Chasseur.\n<b>Forced</b> - After you deal damage to Ishimaru Haruko by an effect other than an attack: Draw the top card of the encounter deck.",
-        "traits": "Monstre. Lunatique. Élite."
+        "traits": "Monstre. Aliéné. Élite."
     },
     {
         "code": "03068",
@@ -245,7 +245,7 @@
         "name": "Sebastien Moreau",
         "subname": "Savage Hysteria",
         "text": "Chasseur. Retaliate.\nSebastien Moreau's attacks cannot be canceled.",
-        "traits": "Monstre. Lunatique. Élite."
+        "traits": "Monstre. Aliéné. Élite."
     },
     {
         "code": "03069",
@@ -259,7 +259,7 @@
         "name": "Ashleigh Clarke",
         "subname": "Songs Die Unheard",
         "text": "Chasseur.\nEach investigator at Ashleigh Clarke's location does not draw cards during the upkeep phase.",
-        "traits": "Monstre. Lunatique. Élite."
+        "traits": "Monstre. Aliéné. Élite."
     },
     {
         "code": "03070",
@@ -304,10 +304,10 @@
     },
     {
         "code": "03076a",
-        "flavor": "\"Can I offer you a glass of champagne?\"",
+        "flavor": "« Puis-je vous offrir une coupe de champagne ? »",
         "name": "Constance Dumaine",
-        "subname": "Sociable Hostess",
-        "text": "[action]: <b>Parley.</b> Test [intellect] (3) to ask Constance about the play. If you succeed, take control of 1 of the clues on Constance Dumaine.\n<b>Forced</b> - When the last clue is removed from Constance Dumaine: Flip this card over and resolve its text.",
+        "subname": "Hôtesse Sociable",
+        "text": "[action] : <b>Discussion</b>. Effectuez un test de [intellect] (3) pour interroger Constance au sujet de la pièce. En cas de réussite, prenez le contrôle de 1 des indices sur Constance Dumaine.\n<b>Forcé</b> – Quand le dernier indice est retiré de Constance Dumaine : retournez cette carte et résolvez son texte.",
         "traits": "Passant."
     },
     {
@@ -318,10 +318,10 @@
     },
     {
         "code": "03077",
-        "flavor": "Time is money, and Mr. Perry has all the time in the world.",
+        "flavor": "Le temps, c'est de l'argent. Et M. Perry a tout le temps du monde.",
         "name": "Jordan Perry",
-        "subname": "Dignified Financier",
-        "text": "[action] If you have 10 or more resources: <b>Parley.</b> Test [intellect] (2) to fraternize with Jordan. If you succeed, take control of 1 of the clues on Jordan Perry.\n<b>Forced</b> - When the last clue is removed from Jordan Perry: Flip this card over and resolve its text.",
+        "subname": "Financier Respectable",
+        "text": "[action] Si vous avez au moins 10 ressources : <b>Discussion</b>. Effectuez un test de [intellect] (2) pour fraterniser avec Jordan. En cas de réussite, prenez le contrôle de 1 des indices sur Jordan Perry.\n<b>Forcé</b> – Quand le dernier indice est retiré de Jordan Perry : retournez cette carte et résolvez son texte.",
         "traits": "Passant."
     },
     {
@@ -332,10 +332,10 @@
     },
     {
         "code": "03078",
-        "flavor": "\"My, what a <b>bold</b> choice of dress.\"",
+        "flavor": "« Oh là là, voilà un choix de robe... audacieux. »",
         "name": "Ishimaru Haruko",
-        "subname": "Costume Designer",
-        "text": "[action] If you have 6 or more cards in your hand: <b>Parley.</b> Test [willpower] (2) to question Haruko about the play. If you succeed, take control of 1 of the clues on Ishimaru Haruko.\n<b>Forced</b> - When the last clue is removed from Ishimaru Haruko: Flip this card over and resolve its text.",
+        "subname": "Costumière",
+        "text": "[action] Si vous avez au moins 6 cartes dans votre main : <b>Discussion</b>. Effectuez un test de [willpower] (2) pour questionner Haruko sur la pièce. En cas de réussite, prenez le contrôle de 1 des indices sur Ishimaru Haruko.\n<b>Forcé</b> – Quand le dernier indice est retiré d'Ishimaru Haruko : retournez cette carte et résolvez son texte.",
         "traits": "Passant."
     },
     {
@@ -346,10 +346,10 @@
     },
     {
         "code": "03079",
-        "flavor": "He’s a visionary, but you wouldn’t want to be in his visions.",
+        "flavor": "C'est un visionnaire, mais vous n'aimeriez pas faire partie de ses visions.",
         "name": "Sebastien Moreau",
-        "subname": "Impassioned Producer",
-        "text": "[action]: <b>Parley.</b> Test [willpower] (3) to get information about the production from Sebastien. If you succeed, take control of 1 of the clues on Sebastien Moreau.\n<b>Forced</b> - When the last clue is removed from Sebastien Moreau: Flip this card over and resolve its text.",
+        "subname": "Metteur en Scène Passionné",
+        "text": "[action] : <b>Discussion</b>. Effectuez un test de [willpower] (3) pour obtenir de Sebastien des informations sur la mise en scène. En cas de réussite, prenez le contrôle de 1 des indices sur Sebastien Moreau.\n<b>Forcé</b> – Quand le dernier indice est retiré de Sebastien Moreau : retournez cette carte et résolvez son texte.",
         "traits": "Passant."
     },
     {
@@ -360,10 +360,10 @@
     },
     {
         "code": "03080",
-        "flavor": "Her voice is beautiful and full of passion.\nIf only you knew what the lyrics meant…",
+        "flavor": "Sa voix est belle et pleine de passion.\nSi seulement vous compreniez les paroles...",
         "name": "Ashleigh Clarke",
-        "subname": "Talented Entertainer",
-        "text": "[action][action]: <b>Parley.</b> You listen to Ashleigh perform. Take control of 1 of the clues on Ashleigh Clarke.\n<b>Forced</b> - When the last clue is removed from Ashleigh Clarke: Flip this card over and resolve its text.",
+        "subname": "Artiste Talentueuse",
+        "text": "[action][action] : <b>Discussion</b>. Vous écoutez la prestation d'Ashleigh. Prenez le contrôle de 1 des indices sur Ashleigh Clarke.\n<b>Forcé</b> – Quand le dernier indice est retiré d'Ashleigh Clarke : retournez cette carte et résolvez son texte.",
         "traits": "Passant."
     },
     {
@@ -483,14 +483,14 @@
         "flavor": "\"Get out! Get out! Get out of my head!\"",
         "name": "Maniac",
         "text": "<b>Forced</b> - After Maniac engages you: Take 1 damage and deal 1 damage to Maniac.",
-        "traits": "Humanoïde. Lunatique."
+        "traits": "Humanoïde. Aliéné."
     },
     {
         "code": "03096",
         "flavor": "Her eyes widened, and she picked up the knife.",
         "name": "Young Psychopath",
         "text": "<b>Forced</b> - After Young Psychopath engages you: You must either take 1 horror, or Young Psychopath gets +3 fight until the end of the investigation phase.",
-        "traits": "Humanoïde. Lunatique."
+        "traits": "Humanoïde. Aliéné."
     },
     {
         "code": "03097",
