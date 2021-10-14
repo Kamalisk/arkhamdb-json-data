@@ -211,7 +211,7 @@
         "quantity": 1,
         "restrictions": "investigator:08007",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> - Put Buried Secrets into play in your threat area.\nIf your location can be investigated, you cannot move except by scenario card effects.\n[action]: Investigate. If you succeed, instead of discovering clues, discard Buried Secrets. If you faily, you make take 2 horror to shuffle it into your deck.",
+        "text": "<b>Revelation</b> - Put Buried Secrets into play in your threat area.\nIf your location can be investigated, you cannot move except by scenario card effects.\n[action]: Investigate. If you succeed, instead of discovering clues, discard Buried Secrets. If you fail, you make take 2 horror to shuffle it into your deck.",
         "traits": "Mystery.",
         "type_code": "treachery"
     },
@@ -334,7 +334,7 @@
         "position": 13,
         "quantity": 1,
         "restrictions": "investigator:08010",
-        "subname": "Prescience of Faith",
+        "subname": "Prescience of Fate",
         "text": "Lily Chen deck only. Permanent.\nYou get +1 [combat].\n[action]: You get +5 skill value for the next skill test you perform this turn. After that skill test ends, flip this asset over. This action does not provoke attacks of opportunity.",
         "traits": "Unbroken.",
         "type_code": "asset"
@@ -350,7 +350,7 @@
         "permanent": true,
         "position": 13,
         "quantity": 1,
-        "subname": "Prescience of Faith",
+        "subname": "Prescience of Fate",
         "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if you performed no skill tests this round: Flip this asset over to its [[Unbroken]] side.",
         "traits": "Broken.",
         "type_code": "asset"
@@ -856,6 +856,7 @@
         "skill_combat": 2,
         "skill_intellect": 2,
         "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [intellect] and +1 [combat].\nNon-direct damage/horror must be assigned to Scientific Theory before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
+        "traits": "Talent. Composure.",
         "type_code": "asset",
         "xp": 3
     },
@@ -1094,6 +1095,7 @@
     {
         "code": "08054",
         "cost": 0,
+        "deck_limit": 2,
         "faction_code": "rogue",
         "illustrator": "Robert Laskey",
         "name": "Money Talks",
@@ -1454,6 +1456,7 @@
         "skill_combat": 1,
         "skill_intellect": 1,
         "text": "Uses (3 durability).\nAttach to an [[Item]] asset controlled by an investigator at your location.\n[fast] During a skill test on attached asset, spend 1 durability: You get +2 skill value for this test.",
+        "traits": "Upgrade.",
         "type_code": "event",
         "xp": 0
     },
@@ -1487,6 +1490,7 @@
         "quantity": 2,
         "skill_wild": 1,
         "text": "Exile a level 0-5 card in your hand. Discover 2 clues at your location. If the exiled card was level 2 or higher, remove 1 doom from the current agenda. Exile Burn After Reading.\n<b>Card designed by the Council-in-Exile at Gen Con 2020</b>",
+        "traits": "Insight.",
         "type_code": "event",
         "xp": 1
     },
@@ -1576,6 +1580,7 @@
     },
     {
         "code": "08082",
+        "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
         "illustrator": "Robert Laskey",
@@ -1922,7 +1927,7 @@
         "slot": "Ally",
         "subname": "Intrepid Explorer",
         "text": "You get +1 [intellect] and +1 [agility].\n[reaction] During your turn, after you move to a location, exhaust Gené Beauregard: Move a clue or a non-[[Elite]] enemy from a connecting location to your location, or vice versa.",
-        "trais": "Ally. Wayfarer.",
+        "traits": "Ally. Wayfarer.",
         "type_code": "asset",
         "xp": 3
     },
