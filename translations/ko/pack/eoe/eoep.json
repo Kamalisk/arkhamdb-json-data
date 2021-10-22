@@ -1,0 +1,957 @@
+[
+    {
+        "code": "08001",
+        "flavor": "\"Relax, tough guy. I'll handle this. You stand over there and look pretty.\"",
+        "name": "Daniela Reyes",
+        "subname": "The Mechanic",
+        "text": "[reaction] After an enemy attacks you (except an attack of opportunity you provoked), even if that attack was canceled: Either deal 1 damage to that enemy, or automatically evade it.\n[elder_sign] effect: +1. If you were attacked by an enemy this round, you automatically succeed, instead.",
+        "traits": "Entrepreneur.",
+        "back_flavor": "Daniela always figured she had a good life. She had a loving, boisterous family. She had a steady job that used her brains and her hands. She had enough money to spend on fast cars, pretty girls, and her motorcycle, Gabriel. Then her brother, Ramon, got caught up in some trouble. Her mother warned her to be careful, that darkness lay ahead. Daniela set a glass of water behind the door for her mother's sake, to catch evil spirits - just as she'd been taught as a child. When Daniela awoke to find it shattered, she was determined to figure out what happened and fix it. Just like she always did.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0, Survivor cards ([survivor]) level 1-5, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Mechanic's Wrench, Mob Goons, 1 random basic weakness."
+    },
+    {
+        "code": "08002",
+        "name": "Mechanic's Wrench",
+        "text": "Daniela Reyes deck only.\n[fast] Exhaust Mechanic's Wrench: Choose an enemy at your location. That enemy attacks you.\n[action]: <b>Fight.</b> Use this ability only against an enemy that has attacked you since the end of your last turn. You get +2 [combat] for this attack and deal +1 damage for this attack.",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08003",
+        "flavor": "Debt is a family affair.",
+        "name": "Mob Goons",
+        "text": "Hunter.\n<b>Prey</b> - Daniela Reyes only.\nThis enemy's attacks cannot be canceled.\nDamage/horror dealt by this enemy's attacks is treated as direct.",
+        "traits": "Humanoid. Criminal."
+    },
+    {
+        "code": "08004",
+        "name": "Norman Withers",
+        "subname": "The Astronomer",
+        "text": "Play with the top card of your deck revealed.\nOnce per round, you may play the top card of your deck as if it were in your hand, at -1 resource cost.\n<b>Forced</b> - After a weakness is revealed while on top of your deck: Draw it.\n[elder_sign] effect: +X. You may swap the top card of your deck with a card in your hand. X is the resource cost of the top card of your deck.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Nobody believes him, and why should they? How could six stars vanish from sight all at once, never to reappear? Astronomer and Miskatonic University professor Norman Withers had all but given up on regaining his colleagues' esteem when a protege of the renowned Albert Einstein comes to speak on campus. The visiting physicist, with unsettling theories about the curvature of space-time, may hold the key to helping Norman explain the phenomenon of the vanishing stars...",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0, Mystic cards ([mystic]) level 1-5, Neutral cards level 0-5, up to 5 other Mystic cards ([mystic]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Livre d'Eibon, The Harbinger, 1 random basic weakness."
+    },
+    {
+        "code": "08005",
+        "name": "Livre d'Eibon",
+        "subname": "Hyperborean Grimoire",
+        "text": "Norman Withers deck only.\n[fast] Exhaust Livre d'Eibon: Swap the top card of your deck with a card in your hand.\n[fast] Exhaust Livre d'Eibon: Commit the top card of your deck to an eligible skill test performed by an investigator at your location.",
+        "traits": "Item. Relic. Tome.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08006",
+        "name": "The Harbinger",
+        "text": "<b>Revelation</b> - Place this card on top of your deck.\nWhile The Harbinger is revealed and on top of your deck, cards in your deck cannot be searched, drawn, or manipulated in any way except by the below ability.\n[action] [action]: Discard The Harbinger. This ability may be activated while The Harbinger is on top of your deck, as if it were in your threat area.",
+        "traits": "Omen. Endtimes."
+    },
+    {
+        "code": "08007",
+        "name": "Monterey Jack",
+        "subname": "The Archaeologist",
+        "text": "[reaction] At the end of your turn, if you started this round 1 location away from your current location: Either gain 1 resource or draw 1 card (if you started this round 2 or more locations away, do both instead).\n[elder_sign] effect: +1. If you started this round 1 or more locations away from your current location, gain 1 resource or draw 1 card.",
+        "traits": "Wayfarer.",
+        "back_flavor": "Young Jack traveled the world with his father's archaeological expeditions. Now a globe-trotting treasure hunter and an accomplished archaeologist in his own right, \"Monterey\" follows in his father's footsteps, securing the treasures of ancient civilizations and lost cultures. But after discovering a silver pendant with a familiar symbol on it, Monterey must explore his own past. Years ago, his father was found murdered with the very same sigil carved in his forehead. The image has haunted Monterey's dreams ever since. But he's getting close. He won't stop until he solves the mystery of his father's murder... no matter what it takes.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0, Seeker cards ([seeker]) level 1-5, Neutral cards level 0-5, up to 5  other Seeker cards ([seeker]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Trusty Bullwhip, Buried Secrets, 1 random basic weakness."
+    },
+    {
+        "code": "08008",
+        "name": "Trusty Bullwhip",
+        "text": "Fast. Monterey Jack deck only.\n[action]: <b>Fight.</b> This attack uses [agility] instead of [combat]. If this attack succeeds, you may exhaust Trusty Bullwhip to either automatically evade the attacked enemy or deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08009",
+        "name": "Buried Secrets",
+        "text": "<b>Revelation</b> - Put Buried Secrets into play in your threat area.\nIf your location can be investigated, you cannot move except by scenario card effects.\n[action]: Investigate. If you succeed, instead of discovering clues, discard Buried Secrets. If you fail, you make take 2 horror to shuffle it into your deck.",
+        "traits": "Mystery."
+    },
+    {
+        "code": "08010",
+        "flavor": "\"I have been preparing to confront this evil my entire life. My focus must be absolute.\"",
+        "name": "Lily Chen",
+        "subname": "The Martial Artist",
+        "text": "You begin the game with each Discipline in your deck in play, [[Unbroken]] side faceup.\n[elder_sign] effect: +2. After this test ends, flip a [[Broken]] Discipline you control to its [[Unbroken]] side.",
+        "traits": "Chosen. Warden.",
+        "back_flavor": "Chen Li speaks rarely. When she does, her words are measured and wise. After a lifetime of disciplined training, every gesture is graceful, uncluttered by hesitation. The monks who raised her said that she was born for a special purpose, to face a great evil. Now, they believe that evil is at hand, and she is the only one who can stop it.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0, Guardian cards ([guardian]) level 1-5, Neutral cards level 0-5, up to 5  other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 1 Burden of Destiny for each Discipline asset (see below), 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No [[Firearm]] assets.\n<b>Additional Requirements</b>: At deck creation, choose a Discipline asset to add to your deck. It is considered part of your Deckbuilding Requirements. For every 15 experience you've earned in total, you may choose and add a different Discipline asset to your deck."
+    },
+    {
+        "code": "08011a",
+        "name": "Discipline",
+        "subname": "Alignment of Spirit",
+        "text": "Lily Chen deck only. Permanent.\nYou get +1 [willpower].\n[action]: Take 1 direct damage to heal 3 horror, or take 1 direct horror to heal 3 damage. Flip this asset over.",
+        "traits": "Unbroken."
+    },
+    {
+        "code": "08011b",
+        "name": "Discipline",
+        "subname": "Alignment of Spirit",
+        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if you took no damage or horror this round: Flip this asset over to its [[Unbroken]] side.",
+        "traits": "Broken."
+    },
+    {
+        "code": "08012a",
+        "name": "Discipline",
+        "subname": "Quiescence of Thought",
+        "text": "Lily Chen deck only. Permanent.\nYou get +1 [intellect].\n[action]: If you have fewer than 5 cards in your hand: Draw cards until there are 5 cards in your hand. Flip this asset over.",
+        "traits": "Unbroken."
+    },
+    {
+        "code": "08012b",
+        "name": "Discipline",
+        "subname": "Quiescence of Thought",
+        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if your hand did not have 2 or more cards in it at any point this round: Flip this asset over to its [[Unbroken]] side.",
+        "traits": "Broken."
+    },
+    {
+        "code": "08013a",
+        "name": "Discipline",
+        "subname": "Prescience of Fate",
+        "text": "Lily Chen deck only. Permanent.\nYou get +1 [combat].\n[action]: You get +5 skill value for the next skill test you perform this turn. After that skill test ends, flip this asset over. This action does not provoke attacks of opportunity.",
+        "traits": "Unbroken."
+    },
+    {
+        "code": "08013b",
+        "name": "Discipline",
+        "subname": "Prescience of Fate",
+        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if you performed no skill tests this round: Flip this asset over to its [[Unbroken]] side.",
+        "traits": "Broken."
+    },
+    {
+        "code": "08014a",
+        "name": "Discipline",
+        "subname": "Balance of Body",
+        "text": "Lily Chen deck only. Permanent.\nYou get +1 [agility].\n[action]: One at a time, take up to 3 different fight or evade actions. Flip this asset over. This action does not provoke attacks of opportunity.",
+        "traits": "Unbroken."
+    },
+    {
+        "code": "08014b",
+        "name": "Discipline",
+        "subname": "Balance of Body",
+        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if no enemies were at the same location as you at any point this round: Flip this asset over to its [[Unbroken]] side.",
+        "traits": "Broken."
+    },
+    {
+        "code": "08015",
+        "flavor": "\"How can I save them if I can't even save myself",
+        "name": "Burden of Destiny",
+        "text": "<b>Revelation</b> - You must either (choose one):\n- Flip a Discipline you control to its [[Broken]] side. It cannot be flipped back this round.\n- Take 1 damage and 1 horror.",
+        "traits": "Flaw."
+    },
+    {
+        "code": "08016",
+        "name": "Bob Jenkins",
+        "subname": "The Salesman",
+        "text": "At any time, an investigator at your location may reveal to you the [[Item]] assets in their hand.\nYou may take an additional action during your turn, which can only be used to play an [[Item]] asset from the hand of an investigator at your location, under their control. (Both investigators may spend resources to pay its cost).\n[elder_sign] effect: +1 for each [[Item]] asset you control.",
+        "traits": "Entrepreneur.",
+        "back_flavor": "According to Bob, the secret to success as a salesman is persistence. People just need to be told what it is that they want. Repeatedly. Recently, Bob came into possession of a handful of \"cursed\" golden coins, and he hopes the same persistence he so famously advocates will help him to uncover their origin and purpose. If he plays his cards right, maybe this will be his big score. Maybe he'll finally be able to retire and buy that boat he's had his eye on and spend the rest of his days fishing in a tropical paradise. Or maybe Bob will finally come to see all that glitters is not gold.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0, Rogue cards ([rogue]) level 1-5, Neutral cards level 0-5, up to 5  other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Shrewd Dealings, Greed, 1 random basic weakness."
+    },
+    {
+        "code": "08017",
+        "flavor": "\"You say the 'end of the world.' I hear 'business opportunity.'\"",
+        "name": "Shrewd Dealings",
+        "text": "Bob Jenkins deck only.\nReduce the cost of each [[Item]] asset you play by 1.\n[reaction]: When you play an [[Item]] asset: Play it under the control of any investigator at your location.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08018",
+        "flavor": "Worshipped by its own cult, one might say.",
+        "name": "Greed",
+        "text": "<b>Revelation</b> - Take 1 horror. If you have...\n- ...10 or fewer resources, take 1 additional horror.\n- ...5 or fewer resources, take 1 additional horror.\n- ...0 resources, take 1 additional horror.",
+        "traits": "Flaw."
+    },
+    {
+        "code": "08019",
+        "name": "Geared Up",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\n<b>Forced</b> - When your first turn of the game begins: Play any number of [[Item]] assets from your hand, reducing the cost of each by 1. During this turn, you have 3 fewer actions to take.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08020",
+        "flavor": "Sometimes, the only way out is through.",
+        "name": "Toe to Toe",
+        "text": "<b>Fight.</b> This attack deals +1 damage and is automatically successful. As an additional cost to perform this attack, the chosen enemy makes an attack against you.",
+        "traits": "Spirit. Tactic."
+    },
+    {
+        "code": "08021",
+        "name": "\"Get behind me!\"",
+        "text": "Fast. Play during any [fast] window.\nUntil the end of the phase, whenever an enemy would attack another investigator at your location, it attacks you instead, then engages you. Cancel 1 horror dealt by each attack made in this way.",
+        "traits": "Spirit. Tactic."
+    },
+    {
+        "code": "08022",
+        "flavor": "\"You mess wit' one of us, you mess wit' all of us!\"",
+        "name": "Gang Up",
+        "text": "<b>Fight.</b> For each different class among cards you control, you get +1 [combat] and deal +1 damage for this attack.",
+        "traits": "Spirit. Synergy."
+    },
+    {
+        "code": "08023",
+        "flavor": "\"Very good, Li. Now, again.\"",
+        "name": "Sweeping Kick",
+        "text": "<b>Fight.</b> Add your [agility] to your skill value for this attack. This attack deals +1 damage. If you succeed, automatically evade the attacked enemy.",
+        "traits": "Spirit. Tactic. Trick."
+    },
+    {
+        "code": "08024",
+        "flavor": "You slide your feet into position, take a deep breath, and center yourself. They are many, but you are one.",
+        "name": "Defensive Stance",
+        "text": "While Defensive Stance is in your hand or committed to a skill test, it gains [combat] icons equal to your [agility], and [agility] icons equal to your [combat].",
+        "traits": "Practiced. Expert."
+    },
+    {
+        "code": "08025",
+        "flavor": "In a practiced grip, they are an extension of the empty hand.",
+        "name": "Butterfly Swords",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. After this attack, you may exhaust Butterfly Swords to fight again, adding your [agility] to your skill value for that attack. That attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08026",
+        "name": "Dodge",
+        "text": "Fast. Play when an enemy attacks an investigator at your location.\nCancel that attack. Then, test [agility] (1). If you succeed, deal 1 damage to that enemy.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "08027",
+        "name": "Combat Training",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [combat] and +1 [agility].\nNon-direct damage/horror must be assigned to Combat Training before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [combat] or +1 [agility] for this skill test.",
+        "traits": "Talent. Composure."
+    },
+    {
+        "code": "08028",
+        "name": "On the Hunt",
+        "text": "Fast. Play when you would draw an encounter card during the mythos phase.\nInstead, search the  encounter deck for an enemy, spawn it engaged with you <i>(instead of its normal spawn location)</i>, attach On the Hunt to it, and shuffle the encounter deck.\n[reaction] When you defeat attached enemy: Gain 3 resources.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "08029",
+        "flavor": "The fangs of Tindalos reach any prey.",
+        "name": "Fang of Tyr'thrha",
+        "text": "<b>Fight.</b> Choose an enemy at any revealed location as the target for this attack. Before resolving this attack, you may move to that enemy's location. Add your [agility] to your [combat] for this attack. This attack deals +3 damage.",
+        "traits": "Spell."
+    },
+    {
+        "code": "08030",
+        "name": "Butterfly Swords",
+        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. After this attack, you may fight again, adding your [agility] to your skill value for that attack. If both attacks are successful, you may exhaust Butterfly Swords to have the second attack deal +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08031",
+        "name": "Forced Learning",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nIncrease your deck size by 15.\nDuring each upkeep phase, instead of drawing 1 card, draw 2 cards and discard 1 of them.",
+        "traits": "Talent. Ritual."
+    },
+    {
+        "code": "08032",
+        "name": "Jeremiah Kirby",
+        "subname": "Arctic Archaeologist",
+        "text": "You get +1 [intellect].\n[reaction] After Jeremiah Kirby enters play, choose \"even\" or \"odd:\" Reveal the top 5 cards of your deck. Draw each card with a cost that matches the chosen option. Shuffle the remaining cards into your deck.",
+        "traits": "Ally. Miskatonic. Wayfarer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08033",
+        "name": "Archive of Conduits",
+        "subname": "Unidentified",
+        "text": "Limit 1 per deck. As an additional cost to play this asset, place 1 resource on 4 different locations, as leylines.\n[reaction] After you successfully investigate a location with a leyline, exhaust this asset: Move that leyline onto this asset. Then, if there are 4 leylines on it, discard it, take its leylines as resources, and record in your Campaign Log that \"you have identified the gateway.\"",
+        "traits": "Item. Tome. Occult.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08034",
+        "name": "Written in the Stars",
+        "text": "Fast. Play only during your turn.\nDiscard the top card of your deck. If that card is a weakness, shuffle it back into your deck. Otherwise, for the remainder of your turn, while that card is in your discard pile, commit it to each eligible skill test you perform.",
+        "traits": "Insight."
+    },
+    {
+        "code": "08035",
+        "name": "Hiking Boots",
+        "text": "Limit 1 [[Footwear]] per investigator.\nYou get +1 [agility].\n[reaction] After the last clue is discovered from your location, exhaust Hiking Boots: Move to a connecting location with at least 1 clue, or to a connecting unrevealed location.",
+        "traits": "Item. Clothing. Footwear."
+    },
+    {
+        "code": "08036",
+        "flavor": "The true journey is the one we take in our minds.",
+        "name": "Join the Caravan",
+        "text": "Fast. Play only during your turn. Reduce the cost of this card by 1 for each different class among cards you control.\nMove to any revealed location.",
+        "traits": "Insight. Synergy."
+    },
+    {
+        "code": "08037",
+        "flavor": "They won't believe you if you don't capture it on film. Hell, they probably still won't believe you.",
+        "name": "Survey the Area",
+        "text": "While Survey the Area is in your hand or committed to a skill test, it gains [intellect] icons equal to your [agility], and [agility] icons equal to your [intellect].",
+        "traits": "Practiced. Expert."
+    },
+    {
+        "code": "08038",
+        "name": "Medical Texts",
+        "text": "[action]: Choose an investigator at your location and test [intellect] (2). If you succeed, heal 1 damage from that investigator (2 damage instead if you succeed by 2 or more). If you fail, either exhaust Medical Texts or deal 1 damage to that investigator.",
+        "traits": "Item. Tome.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08039",
+        "name": "Unearth the Ancients",
+        "text": "<b>Investigate.</b> Choose up to 2 [seeker] assets in your hand. The difficulty of this skill test is equal to the combined cost of the chosen assets. If you succeed, put the chosen assets into play, one at a time. For each [[Relic]] asset put into play by this ability, draw 1 card.",
+        "traits": "Insight."
+    },
+    {
+        "code": "08040",
+        "name": "Scientific Theory",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [intellect] and +1 [combat].\nNon-direct damage/horror must be assigned to Scientific Theory before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [intellect] or +1 [combat] for this skill test.",
+        "traits": "Talent. Composure."
+    },
+    {
+        "code": "08041",
+        "name": "Archive of Conduits",
+        "subname": "Gateway to Tindalos",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. That investigator moves to that location. You may remove the leyline to deal 1 damage to that enemy.",
+        "traits": "Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08042",
+        "name": "Archive of Conduits",
+        "subname": "Gateway to Acheron",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator moves to that location. You may remove the leyline to have them take an investigate action.",
+        "traits": "Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08043",
+        "name": "Archive of Conduits",
+        "subname": "Gateway to Aldebaran",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator engaged with an enemy with a leyline. That investigator disengages from that enemy and moves to a connecting location. You may remove the leyline to automatically evade that enemy. This action does not provoke attacks of opportunity.",
+        "traits": "Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08044",
+        "name": "Archive of Conduits",
+        "subname": "Gateway to Paradise",
+        "text": "Researched. Uses (4 leylines). Limit 1 per deck.\n[fast]: Move 1 leyline from this asset to an investigator.\n[action]: Choose an investigator with a leyline. That investigator draws 1 card and heals 1 damage or 1 horror. You may remove the leyline to have them instead draw 2 cards and heal 2 damage or 2 horror.",
+        "traits": "Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08045",
+        "name": "Prophesiae Profana",
+        "subname": "Atlas of the Unknowable",
+        "text": "While you are not at the locus, you get +1 [intellect], +1 [agility], and you may ignore attacks of opportunity.\n[reaction] After Prophesiae Profana enters play: Choose a revealed location. That location is \"the locus\" until Prophesiae Profana leaves play.\n[action]: Move any investigator to the locus.",
+        "traits": "Item. Relic. Tome.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08046",
+        "name": "Underworld Support",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nYour deck cannot include more than 1 copy of each non-weakness, non-signature card (by title).\nReduce your deck size by 5.",
+        "traits": "Favor. Illicit."
+    },
+    {
+        "code": "08047",
+        "flavor": "\"... a viewless aura repelled me and bade me retreat from antique and sinister secrets that no man should see, and no man else had ever dared to see.\" - H. P. Lovecraft, \"The Nameless City\"",
+        "name": "Scout Ahead",
+        "text": "<b>Move.</b> Move up to 3 times. Enemies do not engage you during this movement.",
+        "traits": "Insight. Trick."
+    },
+    {
+        "code": "08048",
+        "name": "21 or Bust",
+        "text": "One at a time, reveal random tokens from the chaos bag until you choose to stop. Treat each [skull], [cultist], [tablet], or [elder_thing] as a 5; the [auto_fail] as a 10; and the [elder_sign] as either a 1 or an 11. If the combined value of those tokens (ignoring +/-) is...\n- ...18 or less, gain 4 resources.\n- ...19, gain 5 resources.\n- ...20, gain 6 resources.\n- ...21, gain 9 resources.",
+        "traits": "Fortune. Gambit."
+    },
+    {
+        "code": "08049",
+        "name": "Counterespionage",
+        "text": "Fast. Play when you draw a non-weakness treachery.\nCancel that card's revelation effect and draw the top card of the encounter deck.\n[reaction] When you play Counterespionage, increase its cost by 2. Change \"the encounter deck\" to \"your deck\".\n[reaction] When you play Counterespionage, increase its cost by 2: Change \"you\" to \"any investigator\".",
+        "traits": "Favor. Service."
+    },
+    {
+        "code": "08050",
+        "flavor": "If you weren't supposed to do it, it wouldn't be legal.",
+        "name": "Cheat the System",
+        "text": "Fast. Play during any [fast] window.\nGain 1 resource for each different class among cards you control.",
+        "traits": "Trick. Synergy."
+    },
+    {
+        "code": "08051",
+        "flavor": "\"Really? You're going to haggle with me now?\"",
+        "name": "Untimely Transaction",
+        "text": "Reveal an [[Item]] asset in your hand. Another investigator at your location may play that asset as if it were in their hand. If they do, draw 1 card and gain resources equal to that asset's printed cost.",
+        "traits": "Favor."
+    },
+    {
+        "code": "08052",
+        "flavor": "Fifty percent luck, a hundred percent skill.",
+        "name": "Savant",
+        "text": "Savant gains [wild] icons equal to your lowest skill other than the skill being tested.",
+        "traits": "Innate. Developed."
+    },
+    {
+        "code": "08053",
+        "name": "The Red Clock",
+        "subname": "Broken but Reliable",
+        "text": "Exceptional. Uses (0 charges).\n<b>Forced</b> - After your turn begins: Either place 1 charge here, or take all charges here, as resources. Then, if it has exactly...\n- 1 charge, you get +3 skill value for your next skill test.\n- 2 charges, you may move up to 2 times.\n- 3 charges, you may take an additional action this turn.",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08054",
+        "name": "Money Talks",
+        "text": "Fast. Play when an investigator at any location initiates a skill test.\nInstead of the skill type indicated for this test ([willpower], [intellect], [combat], or [agility]), this is a resource skill test. The performing investigator's base skill value for this test is equal to half the number of resources in your resource pool (rounded down). Draw 1 card.",
+        "traits": "Favor. Gambit."
+    },
+    {
+        "code": "08055",
+        "name": "Black Market",
+        "text": "Fast. Play at the start of the investigation phase.\nOne at a time, reveal cards from the top of any investigator deck(s) until exactly 5 cards have been revealed. Set those cards aside, out of play. While set aside, any investigator may play any of those cards as if they were in their hand. At the start of the next investigation phase, shuffle each of those cards still set aside into its owner's deck.",
+        "traits": "Favor."
+    },
+    {
+        "code": "08056",
+        "name": "Moxie",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [agility].\nNon-direct damage/horror must be assigned to Moxie before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [agility] for this skill test.",
+        "traits": "Talent. Composure."
+    },
+    {
+        "code": "08057",
+        "name": "The Black Fan",
+        "subname": "Symbol of Power",
+        "text": "Exceptional.\nWhile you have...\n- ...10+ resources, you get +1 health and +1 sanity.\n- ...15+ resources, you may take one additional action during your turn.\n- ...20+ resources, you get +1 to each of your skills.",
+        "traits": "Item. Relic.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08058",
+        "name": "The Red Clock",
+        "subname": "Broken but Reliable",
+        "text": "Exceptional. Uses (0 charges).\n<b>Forced</b> - After your turn begins: You may take all charges here, as resources. Place 1 charge here. If it has exactly...\n- 1 charge, you get +4 skill value for your next skill test.\n- 2 charges, you may move up to 3 times.\n- 3 charges, you may take 2 additional actions this turn.",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08059",
+        "name": "Down the Rabbit Hole",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nAfter each scenario of a campaign, reduce the experience cost of the first 2 cards you upgrade before the next scenario by 1.\nIncrease the experience cost for you to purchase new cards by 1.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08060",
+        "name": "Dragon Pole",
+        "text": "You have 1 additional arcane slot.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack for each of your arcane slots that is filled. If at least 2 of your arcane slots are filled, this attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08061",
+        "flavor": "You let your mind drift into cold, meaningless oblivion. The emptiness feels like home.",
+        "name": "Meditative Trance",
+        "text": "For each of your arcane slots that is filled, either heal 1 damage or 1 horror.",
+        "traits": "Insight. Spirit."
+    },
+    {
+        "code": "08062",
+        "name": "Close the Circle",
+        "text": "Uses (1 charge for each class among cards you control, including this one).\n[fast] Spend 1 charge and exhaust Close the Circle: Take a basic action. For each skill test performed during that action, you may use your [willpower] instead of the skill indicated for that action.",
+        "traits": "Ritual. Synergy.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08063",
+        "flavor": "May Oya's breath guide us all.",
+        "name": "Winds of Power",
+        "text": "Place 2 charges on an asset you control.\n[reaction] After you draw Winds of Power during your turn: Play it.",
+        "traits": "Spirit."
+    },
+    {
+        "code": "08064",
+        "name": "Foresight",
+        "text": "Fast. Play when an investigator at your location would draw a card from their deck or from the encounter deck.\nName a card. If the drawn card is the named card, that investigator may either (choose one):\n- Cancel that card's effects and discard it.\n- Immediately play that card at -2 cost.",
+        "traits": "Augury."
+    },
+    {
+        "code": "08065",
+        "flavor": "When knowledge is lacking, belief must suffice.",
+        "name": "Occult Theory",
+        "text": "While Occult Theory is in your hand or committed to a skill test, it gains [willpower] icons equal to your [intellect], and [intellect] icons equal to your [willpower].",
+        "traits": "Practiced. Expert."
+    },
+    {
+        "code": "08066",
+        "flavor": "\"If I said that I could tell you when you were going to die, would you want to know?\"",
+        "name": "Parallel Fates",
+        "text": "Look at the top 6 cards of an investigator's deck or the encounter deck. You may either return them to the top of that deck in any order, or shuffle them into that deck. If you looked at an investigator's deck, that investigator may draw 1 card.",
+        "traits": "Augury."
+    },
+    {
+        "code": "08067",
+        "name": "Astronomical Atlas",
+        "text": "[fast] Exhaust Astronomical Atlas: Look at the top card of your deck. If it is not a weakness, attach it facedown to Astronomical Atlas (max 5 cards attached).\n[fast]: Commit a card attached to Astronomical Atlas to an eligible skill test. If that test succeeds, add that card to your hand instead of discarding it. (Limit once per test.)",
+        "traits": "Item. Tome.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08068",
+        "flavor": "You don't necessarily trust the occult words, but you have no other choice.",
+        "name": "Healing Words",
+        "text": "Uses (4 charges).\n[action] Spend 1 charge: Heal 2 damage from among investigators at your location.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08069",
+        "name": "Grounded",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 skill value during skill tests on [[Spell]] cards.\nNon-direct damage/horror must be assigned to Grounded before it can be assigned to your investigator card.\n[fast] During a skill test on a [[Spell]] card, spend 1 resource: You get +1 skill value for this test.",
+        "traits": "Talent. Composure."
+    },
+    {
+        "code": "08070",
+        "name": "True Magick",
+        "subname": "Reworking Reality",
+        "text": "Uses (1 charge). Replenish this charge at the start of each round.\nYou may resolve abilities on [[Spell]] assets in your hand by revealing them from your hand. Treat True Magick as if it were the revealed asset <i>(to pay its costs, spend charges, perfom its effect, etc)</i>.",
+        "traits": "Item. Relic. Tome.",
+        "slot": "Hand. Arcane"
+    },
+    {
+        "code": "08071",
+        "flavor": "You can only pray that it's enough.",
+        "name": "Short Supply",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\n<b>Forced</b> - When your first turn of the game begins: Discard the top 10 cards of your deck.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08072",
+        "name": "Schoffner's Catalogue",
+        "text": "Uses (5 secrets). If Schoffner's Catalogue has no secrets, discard it.\nYou may spend secrets on Schoffner's Catalogue as resources to pay for [[Item]] assets played by any investigator at your location.",
+        "traits": "Item. Tome."
+    },
+    {
+        "code": "08073",
+        "name": "Bandages",
+        "text": "Uses (3 supplies). If Bandages has no supplies, discard it.\n[reaction] After an investigator or [[Ally]] asset at your location takes 1 or more damage, spend 1 supply: Heal 1 damage from that card.",
+        "traits": "Item."
+    },
+    {
+        "code": "08074",
+        "flavor": "If it ain't broke, make it better.",
+        "name": "Jury-Rig",
+        "text": "Uses (3 durability).\nAttach to an [[Item]] asset controlled by an investigator at your location.\n[fast] During a skill test on attached asset, spend 1 durability: You get +2 skill value for this test.",
+        "traits": "Upgrade."
+    },
+    {
+        "code": "08075",
+        "name": "Bangle of Jinxes",
+        "text": "Uses (1 charge).\n[fast] Spend 1 charge: You get +2 skill value for this test. (Limit once per test.)\n[reaction] After an enemy attacks you: Place 1 charge on Bangle of Jinxes.",
+        "traits": "Item. Charm. Cursed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08076",
+        "name": "Burn After Reading",
+        "text": "Exile a level 0-5 card in your hand. Discover 2 clues at your location. If the exiled card was level 2 or higher, remove 1 doom from the current agenda. Exile Burn After Reading.\n<b>Card designed by the Council-in-Exile at Gen Con 2020</b>",
+        "traits": "Insight."
+    },
+    {
+        "code": "08077",
+        "flavor": "\"Watch my back, will ya? In fact, watch my front, too.\"",
+        "name": "Strength in Numbers",
+        "text": "Strength in Numbers gains a [wild] icon for each different class among cards you control.",
+        "traits": "Innate. Synergy."
+    },
+    {
+        "code": "08078",
+        "flavor": "This day just keeps getting better and better.",
+        "name": "Dauntless Spirit",
+        "text": "While Dauntless Spirit is in your hand or committed to a skill test, it gains [willpower] icons equal to your [combat], and [combat] icons equal to your [willpower].",
+        "traits": "Innate. Developed."
+    },
+    {
+        "code": "08079",
+        "name": "Blood Will Have Blood",
+        "text": "Fast. Play after an enemy attacks you. Max 1 per attack.\nDamage/horror from this attack cannot be assigned to [[Ally]] assets. For each point of damage and/or horror you took from this attack, draw 1 card.",
+        "traits": "Pact. Cursed."
+    },
+    {
+        "code": "08080",
+        "name": "Fire Extinguisher",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +1 damage for this attack.\n[action] Discard Fire Extinguisher: <b>Evade.</b> Automatically evade all enemies engaged with you. You may exile Fire Extinguisher instead of discarding it to discard each non-[[Elite]] enemy evaded by this effect.",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08081",
+        "name": "Plucky",
+        "text": "Fast. Limit 1 [[Composure]] in play.\nYou get +1 [willpower] and +1 [intellect].\nNon-direct damage/horror must be assigned to Plucky before it can be assigned to your investigator card.\n[fast] Spend 1 resource: You get +1 [willpower] or +1 [intellect] for this skill test.",
+        "traits": "Talent. Composure."
+    },
+    {
+        "code": "08082",
+        "name": "Fend Off",
+        "text": "Fast. Play when a non-[[Elite]] enemy spawns at your location.\nThat enemy attacks you. Then, automatically evade that enemy and attach Fend Off to it.\nAttached enemy cannot ready.",
+        "traits": "Gambit. Trick."
+    },
+    {
+        "code": "08083",
+        "flavor": "\"Can I get course credit for this?\"",
+        "name": "Medical Student",
+        "text": "[reaction] After Medical Student enters play: Heal 1 damage and 1 horror from an investigator or [[Ally]] asset at your location.",
+        "traits": "Ally. Miskatonic. Science.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08084",
+        "flavor": "\"The game is afoot!\"",
+        "name": "On the Trail",
+        "text": "Choose an enemy at any location other than yours. Either move twice toward that enemy, or discover 1 clue at any empty location between you and the chosen enemy, along the shortest path to reach that enemy.",
+        "traits": "Insight. Tactic."
+    },
+    {
+        "code": "08085",
+        "flavor": "\"The game is afoot!\"",
+        "name": "On the Trail",
+        "text": "Choose an enemy at any location other than yours. Move twice toward that enemy. Discover 1 clue at each location you entered by this effect.",
+        "traits": "Insight. Tactic."
+    },
+    {
+        "code": "08086",
+        "name": "Michael Leigh",
+        "subname": "Experienced Hunter",
+        "text": "You get +1 [intellect] and +1 [combat].\n[reaction] After you successfully investigate: Place 1 resource <i>(from the token pool)</i> on Michael Leigh, as evidence (to a maximum of 3 evidence).\n[reaction] When you initiate an attack, exhaust Michael Leigh and spend 1 evidence: You deal +1 damage for this attack.",
+        "traits": "Ally. Detective.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08087",
+        "name": "Snipe",
+        "text": "During the next fight action you perform this turn using a [[Ranged]] or [[Firearm]] asset, treat each [skull], [cultist], [tablet], [elder_thing], or [auto_fail] token you reveal as a \"0\" token. This action does not provoke attacks of opportunity.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "08088",
+        "name": "Old Shotgun",
+        "text": "Uses (0 ammo). While playing an event, treat Old Shotgun's uses value as 2.\n[action] Spend 1 ammo: <b>Fight.</b> You get +3 [combat] for this attack. Instead of its standard damage, this attack's damage is equal to the amount you succeed by, or fail by if you fail and would damage another investigator (to a minimum of 1, to a maximum of 3).",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08089",
+        "name": "Quickdraw Holster",
+        "text": "[fast]: Choose a [[Firearm]] asset taking up only 1 hand slot in your play area. Attach it to Quickdraw Holster, or switch it with the attached asset. The attached asset takes up no hand slots. (Limit 1 attached asset.)\n[fast] Exhaust Quickdraw Holster: Perform a fight action on the attached asset without paying its [action] cost.",
+        "traits": "Item. Tool. Illicit.",
+        "slot": "Body"
+    },
+    {
+        "code": "08090",
+        "name": "Brand of Cthugha",
+        "text": "Uses (6 charges).\n[action]: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat], and you get +1 skill value. If you succeed, spend 1 or 2 charges. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 1 action.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08091",
+        "name": "Nkosi Mabati",
+        "subname": "Enigmatic Warlock",
+        "text": "[reaction] After Nkosi Mabati enters play: Name a non-[elder_sign] chaos token with a symbol. Until this card leaves play, the named symbol is your \"sigil.\"\n[reaction] When an investigator at your location reveals a [cultist], [tablet], or [elder_thing] symbol, exhaust Nkosi Mabati: Search the chaos bag for your sigil and reveal it, instead <i>(returning the other token to the chaos bag)</i>.",
+        "traits": "Ally. Sorcerer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08092",
+        "name": "Brand of Cthugha",
+        "text": "Uses (9 charges).\n[action]: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat], and you get +2 skill value. If you succeed, spend 1, 2, or 3 charges. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 2 actions.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08093",
+        "name": "Cyclopean Hammer",
+        "text": "[action]: <b>Fight.</b> Add your [willpower] to your skill value for this attack. You deal +1 damage for this attack. If you succeed and the enemy is non-[[Elite]], you may move it one location away from you. (If you succeed by 3 or more, you instead deal +2 damage and may move the enemy up to two locations away from you.)",
+        "traits": "Item. Relic. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08094",
+        "flavor": "Twenty pounds of steel vengeance.",
+        "name": "Sledgehammer",
+        "text": "[action]: <b>Fight.</b> You get -1 [combat] and deal +1 damage for this attack.\n[action] [action]: <b>Fight.</b> You get +2 [combat] and deal +2 damage for this attack.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08095",
+        "flavor": "After what you've seen, you intend to sleep in it.",
+        "name": "Protective Gear",
+        "text": "[reaction] When you draw a [[Hazard]] treachery, deal 1 damage and 1 horror to Protective Gear: Cancel that card's revelation effect.",
+        "traits": "Item. Armor.",
+        "slot": "Body"
+    },
+    {
+        "code": "08096",
+        "flavor": "Twenty-five pounds of steel vengeance.",
+        "name": "Sledgehammer",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +1 damage for this attack.\n[action] [action] [action]: <b>Fight.</b> You get +5 [combat] and deal +5 damage for this attack.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08097",
+        "name": "Pocket Telescope",
+        "text": "[fast] Exhaust Pocket Telescope: Look at the revealed side of a connecting unrevealed location.\n[action]: <b>Investigate.</b> Investigate a revealed connecting location as if you were there.",
+        "traits": "Item. Tool.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08098",
+        "name": "Eon Chart",
+        "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take one of the following actions (move, evade, or investigate).",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08099",
+        "name": "Gené Beauregard",
+        "subname": "Intrepid Explorer",
+        "text": "You get +1 [intellect] and +1 [agility].\n[reaction] During your turn, after you move to a location, exhaust Gené Beauregard: Move a clue or a non-[[Elite]] enemy from a connecting location to your location, or vice versa.",
+        "traits": "Ally. Wayfarer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08100",
+        "name": "Eon Chart",
+        "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take two of the following actions, in any order (move, evade, or investigate).",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08101",
+        "name": "Divination",
+        "text": "Uses (4 charges).\n[action]: <b>Investigate.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +1 skill value. If you succeed, spend 1 or 2 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard a card from your hand.",
+        "traits": "Spell. Augury.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08102",
+        "flavor": "All living things have breath.\nBe careful they do not curse you with theirs.",
+        "name": "Protecting the Anirniq",
+        "text": "Fast. Play after an [[Ally]] asset at your location is discarded by a card effect or is defeated.\nEither return that asset to its owner's hand, or its owner draws 3 cards.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "08103",
+        "name": "Divination",
+        "text": "Uses (6 charges).\n[action]: <b>Investigate.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +2 skill value. If you succeed, spend 1, 2, or 3 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard 2 cards from your hand.",
+        "traits": "Spell. Augury.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08104",
+        "name": "Professor William Webb",
+        "subname": "Finder of Hidden Connections",
+        "text": "Uses (3 secrets).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Instead of discovering a clue at your location, either choose an [[Item]] card in your discard pile and add it to your hand, or discover a clue at a connecting location.",
+        "traits": "Ally. Miskatonic.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08105",
+        "name": "Ice Pick",
+        "text": "Fast.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: You get +1 skill value for this test.",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08106",
+        "name": "Professor William Webb",
+        "subname": "Finder of Hidden Connections",
+        "text": "Uses (3 secrets).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Choose an [[Item]] card in your discard pile and add it to your hand. Instead of discovering a clue at your location, you may discover a clue at a connecting location.",
+        "traits": "Ally. Miskatonic.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08107",
+        "name": "Ice Pick",
+        "text": "Fast.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: You get +1 skill value for this test. If you succeed, you may discard Ice Pick to have this attack deal +1 damage <i>(if you are fighting)</i>, or to discover 1 additional clue at your location <i>(if you are investigating)</i>.",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08108",
+        "flavor": "\"Now, for my next trick...\"",
+        "name": "Ethereal Slip",
+        "text": "Choose a non-[[Elite]] enemy at a revealed location up to 2 connections away. Swap places with that enemy.",
+        "traits": "Spell. Trick."
+    },
+    {
+        "code": "08109",
+        "name": "Blur",
+        "text": "Uses (3 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility], and you get +1 skill value. If you succeed, spend 1 charge and you may take an additional action this turn. If you succeed by 0, take 1 damage.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08110",
+        "flavor": "\"Now, for my next trick...\"",
+        "name": "Ethereal Slip",
+        "text": "Choose a non-[[Elite]] enemy at any revealed location. Swap places with that enemy.",
+        "traits": "Spell. Trick."
+    },
+    {
+        "code": "08111",
+        "name": "Blur",
+        "text": "Uses (4 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility] and get +2 skill value. If you succeed, spend 1 or 2 charges and you may take that many additional actions this turn. If you succeed by 0, take 2 damage.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08112",
+        "name": "\"Hit me!\"",
+        "text": "Fast. Play after you reveal a chaos token during a skill test.\nReveal an additional chaos token, switching its \"-\" to a \"+\". If that chaos token is a [skull] token, you automatically fail.",
+        "traits": "Fortune. Gambit."
+    },
+    {
+        "code": "08113",
+        "name": "Unscrupulous Loan",
+        "text": "Limit 1 per investigator. Cannot leave play.\n[reaction] After you play Unscrupulous Loan: Gain 10 resources.\n<b>Forced</b> - When the game ends or you are eliminated, if you have fewer than 10 resources in your resource pool: Exile Unscrupulous Loan.",
+        "traits": "Pact."
+    },
+    {
+        "code": "08114",
+        "name": "Precious Memento",
+        "subname": "From a Former Life",
+        "text": "Limit 1 Precious Memento <i>(From a Former Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.",
+        "traits": "Item. Charm. Blessed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08115",
+        "name": "Precious Memento",
+        "subname": "From a Future Life",
+        "text": "Limit 1 Precious Memento <i>(From a Future Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.",
+        "traits": "Item. Charm. Cursed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08116",
+        "name": "Talisman of Protection",
+        "text": "Fast. Play only during your turn.\nPlay Talisman of Protection under the control of any investigator at your location.\n[reaction] When you assign damage and/or horror that would defeat you, discard Talisman of Protection: Cancel up to 2 of that damage and/or horror.",
+        "traits": "Item. Charm.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08117",
+        "name": "Earthly Serenity",
+        "text": "Uses (4 charges).\n[action]: Test [willpower] (1). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 1 resource.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08118",
+        "name": "Enchanted Bow",
+        "text": "Uses (3 charges).\n[action] Exhaust Enchanted Bow: <b>Fight.</b> You must use either [willpower] or [agility] instead of [combat] and get +1 skill value for this attack. This attack deals +1 damage. As an additional cost to initiate this ability, you may spend 1 charge to have this attack target a non-[[Elite]] enemy at a connecting location; if you do, ignore the aloof and retaliate keywords for this attack.",
+        "traits": "Spell. Blessed. Weapon. Ranged.",
+        "slot": "Hand x2. Arcane"
+    },
+    {
+        "code": "08119",
+        "name": "Earthly Serenity",
+        "text": "Uses (6 charges).\n[action]: Test [willpower] (0). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 2 resources.",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08120",
+        "name": "Prophetic",
+        "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Prophetic may be spent to pay for [[Fortune]], [[Spell]], or [[Spirit]] cards.\n[fast] During a skill test on a [[Fortune]], [[Spell]], or [[Spirit]] card, spend 1 resource from Prophetic: You get +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08121",
+        "name": "Sleuth",
+        "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Sleuth may be spent to pay for [[Charm]], [[Tactic]], or [[Tome]] cards.\n[fast] During a skill test on a [[Charm]], [[Tactic]], or [[Tome]] card, spend 1 resource from Sleuth: You get +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08122",
+        "name": "Bruiser",
+        "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Bruiser may be spent to pay for [[Armor]], [[Firearm]], or [[Melee]] cards.\n[fast] During a skill test on a [[Armor]], [[Firearm]], or [[Melee]] card, spend 1 resource from Bruiser: You get +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08123",
+        "name": "Crafty",
+        "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Crafty may be spent to pay for [[Insight]], [[Tool]], or [[Trick]] cards.\n[fast] During a skill test on a [[Insight]], [[Tool]], or [[Trick]] card, spend 1 resource from Crafty: You get +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08124",
+        "name": "Antiquary",
+        "text": "Uses (2 resources). Replenish these resources at the start of each round.\nResources on Antiquary may be spent to pay for [[Favor]], [[Relic]] or [[Ritual]] cards.\n[fast] During a skill test on a [[Favor]], [[Relic]] or [[Ritual]] card, spend 1 resource from Antiquary: You get +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08125",
+        "name": "In the Thick of It",
+        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nWhen you purchase In the Thick of It, suffer 2 total physical and/or mental trauma. Then, earn 3 experience.",
+        "traits": "Curse."
+    },
+    {
+        "code": "08126",
+        "name": "Heavy Furs",
+        "text": "[reaction] After you reveal a non-[auto_fail] symbol on a chaos token during a skill test you are perfoming, deal 1 damage to Heavy Furs: Cancel that chaos token and return it to the bag. Reveal a new chaos token.",
+        "traits": "Item. Armor.",
+        "slot": "Body"
+    },
+    {
+        "code": "08127",
+        "name": "Sled Dog",
+        "text": "You may include up to 4 copies of Sled Dog in your deck. Up to 2 Sled Dog cards take up a single ally slot.\n[action] Exhaust X Sled Dogs: <b>Move.</b> Move X times.\n[action] Exhaust X Sled Dogs: <b>Fight.</b> You get +X [combat] for this attack. Instead of its standard damage, this attack deals X damage.",
+        "traits": "Ally. Creature.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08128",
+        "name": "Rod of Animalism",
+        "text": "You have 2 additional ally slots, which can only be used to hold [[Creature]] assets.\n[reaction] When you play a [[Creature]] asset during your turn: Reduce that asset's cost by 1.",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08129",
+        "name": "Call for Backup",
+        "text": "One at a time, in any order, if you control a...\n- [rogue] card, you may move to a connecting location.\n- [guardian] card, deal 1 damage to an enemy at your location.\n- [seeker] card, discover 1 clue at your location.\n- [mystic] card, heal 1 horror from any card.\n- [survivor] card, heal 1 damage from any card.",
+        "traits": "Favor. Synergy."
+    },
+    {
+        "code": "08130",
+        "name": "Arm Injury",
+        "text": "<b>Revelation</b> - Put Arm Injury into play in your threat area.\nArm Injury can be healed as if it were a single point of damage on you <i>(if it is healed, discard it)</i>.\n<b>Forced</b> - After you take a fight or activate action: You cannot take any of those types of actions for the remainder of the turn.",
+        "traits": "Injury."
+    },
+    {
+        "code": "08131",
+        "name": "Leg Injury",
+        "text": "<b>Revelation</b> - Put Leg Injury into play in your threat area.\nLeg Injury can be healed as if it were a single point of damage on you <i>(if it is healed, discard it)</i>.\n<b>Forced</b> - After you take a move, resign, or evade action: You cannot take any of those types of actions for the remainder of the turn.",
+        "traits": "Injury."
+    },
+    {
+        "code": "08132",
+        "name": "Panic",
+        "text": "<b>Revelation</b> - Put Panic into play in your threat area.\nPanic can be healed as if it were a single point of horror on you <i>(if it is healed, discard it)</i>.\n<b>Forced</b> - After you take a play, engage, or resource action: You cannot take any of those types of actions for the remainder of the turn.",
+        "traits": "Madness."
+    },
+    {
+        "code": "08133",
+        "name": "Stupor",
+        "text": "<b>Revelation</b> - Put Stupor into play in your threat area.\nStupor can be healed as if it were a single point of horror on you <i>(if it is healed, discard it)</i>.\n<b>Forced</b> - After you take a parley, draw, or investigate action: You cannot take any of those types of actions for the remainder of the turn.",
+        "traits": "Madness."
+    }
+]
