@@ -13,7 +13,8 @@
         "code": "08002",
         "name": "Llave inglesa de mecánico",
         "text": "Sólo para el mazo de Daniela Reyes.\n[fast] Agota la Llave inglesa de mecánico: Elige un Enemigo que esté en tu Lugar. Ese Enemigo te ataca.\n[action]: <b>Combatir.</b> Usa esta capacidad únicamente contra un Enemigo que te haya atacado desde el final de tu último turno. Recibes +2 [combat] para este ataque e infliges +1 de daño para este ataque.",
-        "traits": "Objeto. Herramienta. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "08003",
@@ -36,7 +37,8 @@
         "name": "Livre d'Eibon",
         "subname": "Grimorio hiperbóreo",
         "text": "Sólo para el mazo de Norman Withers.\n[fast] Agota el Livre d'Eibon: Cambia la primera carta de tu mazo por una carta de tu mano.\n[fast] Agota el Livre d'Eibon: Asigna la primera carta de tu mazo a una prueba de habilidad válida que esté realizando un investigador que esté en tu Lugar.",
-        "traits": "Objeto. Reliquia. Tomo."
+        "traits": "Objeto. Reliquia. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "08006",
@@ -57,7 +59,8 @@
         "code": "08008",
         "name": "Látigo fiable",
         "text": "Rápido. Sólo para el mazo de Monterey Jack.\n[action]: <b>Combatir.</b> Este ataque usa [agility] en lugar de [combat]. Si este ataque tiene éxito, puedes agotar el Látigo fiable para evitar automáticamente al Enemigo atacado o bien infligir +1 de daño para este ataque.",
-        "traits": "Objeto. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "08009",
@@ -206,7 +209,8 @@
         "flavor": "In a practiced grip, they are an extension of the empty hand.",
         "name": "Butterfly Swords",
         "text": "[action]: <b>Combatir.</b> Recibes+1 [combat] for this attack. After this attack, you may exhaust Butterfly Swords to fight again, adding your [agility] to your skill value for that attack. That attack deals +1 damage.",
-        "traits": "Objeto. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08026",
@@ -237,7 +241,8 @@
         "code": "08030",
         "name": "Butterfly Swords",
         "text": "[action]: <b>Combatir.</b> Recibes+2 [combat] for this attack. After this attack, you may fight again, adding your [agility] to your skill value for that attack. If both attacks are successful, you may exhaust Butterfly Swords to have the second attack deal +1 damage.",
-        "traits": "Objeto. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08031",
@@ -250,14 +255,16 @@
         "name": "Jeremiah Kirby",
         "subname": "Arctic Archaeologist",
         "text": "Recibes+1 [intellect].\n[reaction] After Jeremiah Kirby enters play, choose \"even\" or \"odd:\" Reveal the top 5 cards of your deck. Draw each card with a cost that matches the chosen option. Shuffle the remaining cards into your deck.",
-        "traits": "Aliado. Miskatonic. Viajero."
+        "traits": "Aliado. Miskatonic. Viajero.",
+        "slot": "Ally"
     },
     {
         "code": "08033",
         "name": "Archive of Conduits",
         "subname": "Sin identificar",
         "text": "Límite de 1 por mazo. As an additional cost to play this asset, place 1 resource on 4 different locations, as leylines.\n[reaction] After you successfully investigate a location with a leyline, exhaust this asset: Move that leyline onto this asset. Then, if there are 4 leylines on it, discard it, take its leylines as recursos, and record in your Campaign Log that \"you have identified the gateway.\"",
-        "traits": "Objeto. Tomo. Ocultismo."
+        "traits": "Objeto. Tomo. Ocultismo.",
+        "slot": "Mano"
     },
     {
         "code": "08034",
@@ -289,7 +296,8 @@
         "code": "08038",
         "name": "Medical Texts",
         "text": "[action]: Choose an investigator at your location and test [intellect] (2). If you succeed, heal 1 damage from that investigator (2 damage instead if you succeed by 2 or more). If you fail, either exhaust Medical Texts or deal 1 damage to that investigator.",
-        "traits": "Objeto. Tomo."
+        "traits": "Objeto. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "08039",
@@ -308,35 +316,40 @@
         "name": "Archive of Conduits",
         "subname": "Gateway to Tindalos",
         "text": "Researched. Usos (4 leylines). Límite de 1 por mazo.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator, and an enemy with a leyline at a revealed location. That investigator moves to that location. You may remove the leyline to deal 1 damage to that enemy.",
-        "traits": "Ritual."
+        "traits": "Ritual.",
+        "slot": "Arcane"
     },
     {
         "code": "08042",
         "name": "Archive of Conduits",
         "subname": "Gateway to Acheron",
         "text": "Researched. Usos (4 leylines). Límite de 1 por mazo.\n[fast]: Move 1 leyline from this asset to a revealed location.\n[action]: Choose an investigator and a revealed location with a leyline. That investigator moves to that location. You may remove the leyline to have them take an investigate action.",
-        "traits": "Ritual."
+        "traits": "Ritual.",
+        "slot": "Arcane"
     },
     {
         "code": "08043",
         "name": "Archive of Conduits",
         "subname": "Gateway to Aldebaran",
         "text": "Researched. Usos (4 leylines). Límite de 1 por mazo.\n[fast]: Move 1 leyline from this asset to a non-[[Elite]] enemy.\n[action]: Choose an investigator engaged with an enemy with a leyline. That investigator disengages from that enemy and moves to a connecting location. You may remove the leyline to automatically evade that enemy. Esta acción no provoca ataques de oportunidad.",
-        "traits": "Ritual."
+        "traits": "Ritual.",
+        "slot": "Arcane"
     },
     {
         "code": "08044",
         "name": "Archive of Conduits",
         "subname": "Gateway to Paradise",
         "text": "Researched. Usos (4 leylines). Límite de 1 por mazo.\n[fast]: Move 1 leyline from this asset to an investigator.\n[action]: Choose an investigator with a leyline. That investigator draws 1 card and heals 1 damage or 1 horror. You may remove the leyline to have them instead draw 2 cards and heal 2 damage or 2 horror.",
-        "traits": "Ritual."
+        "traits": "Ritual.",
+        "slot": "Arcane"
     },
     {
         "code": "08045",
         "name": "Prophesiae Profana",
         "subname": "Atlas of the Unknowable",
         "text": "While you are not at the locus, Recibes+1 [intellect], +1 [agility], and you may ignore attacks of opportunity.\n[reaction] After Prophesiae Profana enters play: Choose a revealed location. That location is \"the locus\" until Prophesiae Profana leaves play.\n[action]: Move any investigator to the locus.",
-        "traits": "Objeto. Reliquia. Tomo."
+        "traits": "Objeto. Reliquia. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "08046",
@@ -389,7 +402,8 @@
         "name": "The Red Clock",
         "subname": "Roto but Reliable",
         "text": "Exceptional. Usos (0 cargas).\n<b>Obligado</b> - After your turn begins: Either place 1 charge here, or take all cargas here, as recursos. Then, if it has exactly...\n- 1 charge, Recibes+3 skill value for your next skill test.\n- 2 cargas, you may move up to 2 times.\n- 3 cargas, you may take an additional action this turn.",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accessory"
     },
     {
         "code": "08054",
@@ -414,14 +428,16 @@
         "name": "The Black Fan",
         "subname": "Symbol of Power",
         "text": "Exceptional.\nWhile you have...\n- ...10+ recursos, Recibes+1 health and +1 sanity.\n- ...15+ recursos, you may take one additional action during your turn.\n- ...20+ recursos, Recibes+1 to each of your skills.",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Mano"
     },
     {
         "code": "08058",
         "name": "The Red Clock",
         "subname": "Roto but Reliable",
         "text": "Exceptional. Usos (0 cargas).\n<b>Obligado</b> - After your turn begins: You may take all cargas here, as recursos. Place 1 charge here. If it has exactly...\n- 1 charge, Recibes+4 skill value for your next skill test.\n- 2 cargas, you may move up to 3 times.\n- 3 cargas, you may take 2 additional actions this turn.",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accessory"
     },
     {
         "code": "08059",
@@ -433,7 +449,8 @@
         "code": "08060",
         "name": "Dragon Pole",
         "text": "You have 1 additional arcane slot.\n[action]: <b>Combatir.</b> Recibes+1 [combat] for this attack for each of your arcane slots that is filled. If at least 2 of your arcane slots are filled, this attack deals +1 damage.",
-        "traits": "Objeto. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08061",
@@ -446,7 +463,8 @@
         "code": "08062",
         "name": "Close the Circle",
         "text": "Usos (1 charge for each class among cards you control, including this one).\n[fast] Spend 1 charge and exhaust Close the Circle: Take a basic action. For each skill test performed during that action, you may use your [willpower] instead of the skill indicated for that action.",
-        "traits": "Ritual. Sinergia."
+        "traits": "Ritual. Sinergia.",
+        "slot": "Arcane"
     },
     {
         "code": "08063",
@@ -479,14 +497,16 @@
         "code": "08067",
         "name": "Astronomical Atlas",
         "text": "[fast] Exhaust Astronomical Atlas: Look at the top card of your deck. If it is not a weakness, attach it facedown to Astronomical Atlas (max 5 cards attached).\n[fast]: Commit a card attached to Astronomical Atlas to an eligible skill test. If that test succeeds, add that card to your hand instead of discarding it. (Limit once per test.)",
-        "traits": "Objeto. Tomo."
+        "traits": "Objeto. Tomo.",
+        "slot": "Mano"
     },
     {
         "code": "08068",
         "flavor": "You don't necessarily trust the occult words, but you have no other choice.",
         "name": "Healing Words",
         "text": "Usos (4 cargas).\n[action] Spend 1 charge: Heal 2 damage from among investigators at your location.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08069",
@@ -499,7 +519,8 @@
         "name": "True Magick",
         "subname": "Reworking Reality",
         "text": "Usos (1 charge). Replenish this charge at the start of each round.\nYou may resolve abilities on [[Hechizo]] assets in your hand by revealing them from your hand. Treat True Magick as if it were the revealed asset <i>(to pay its costs, spend cargas, perfom its effect, etc)</i>.",
-        "traits": "Objeto. Reliquia. Tomo."
+        "traits": "Objeto. Reliquia. Tomo.",
+        "slot": "Hand. Arcane"
     },
     {
         "code": "08071",
@@ -531,7 +552,8 @@
         "code": "08075",
         "name": "Bangle of Jinxes",
         "text": "Usos (1 carga).\n[fast] Spend 1 charge: Recibes+2 skill value for this test. (Limit once per test.)\n[reaction] After an enemy attacks you: Place 1 charge on Bangle of Jinxes.",
-        "traits": "Objeto. Amuleto. Maldito."
+        "traits": "Objeto. Amuleto. Maldito.",
+        "slot": "Accessory"
     },
     {
         "code": "08076",
@@ -563,7 +585,8 @@
         "code": "08080",
         "name": "Fire Extinguisher",
         "text": "[action]: <b>Combatir.</b> Recibes+1 [combat] and deal +1 de daño para este ataque.\n[action] Discard Fire Extinguisher: <b>Evade.</b> AutomaticAliado evade all enemies engaged with you. You may exile Fire Extinguisher instead of discarding it to discard each non-[[Elite]] enemy evaded by this effect.",
-        "traits": "Objeto. Herramienta. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "08081",
@@ -582,7 +605,8 @@
         "flavor": "\"Can I get course credit for this?\"",
         "name": "Medical Student",
         "text": "[reaction] After Medical Student enters play: Heal 1 damage and 1 horror from an investigator or [[Aliado]] asset at your location.",
-        "traits": "Aliado. Miskatonic. Ciencia."
+        "traits": "Aliado. Miskatonic. Ciencia.",
+        "slot": "Ally"
     },
     {
         "code": "08084",
@@ -603,7 +627,8 @@
         "name": "Michael Leigh",
         "subname": "Experienced Hunter",
         "text": "Recibes+1 [intellect] and +1 [combat].\n[reaction] After you successfully investigate: Place 1 resource <i>(from the token pool)</i> on Michael Leigh, as evidence (to a maximum of 3 evidence).\n[reaction] When you initiate an attack, exhaust Michael Leigh and spend 1 evidence: You deal +1 de daño para este ataque.",
-        "traits": "Aliado. Detective."
+        "traits": "Aliado. Detective.",
+        "slot": "Ally"
     },
     {
         "code": "08087",
@@ -615,90 +640,104 @@
         "code": "08088",
         "name": "Old Shotgun",
         "text": "Usos (0 ammo). While playing an event, treat Old Shotgun's uses value as 2.\n[action] Spend 1 ammo: <b>Combatir.</b> Recibes+3 [combat] for this attack. Instead of its standard damage, this attack's damage is equal to the amount you succeed by, or fail by if you fail and would damage another investigator (to a minimum of 1, to a maximum of 3).",
-        "traits": "Objeto. Arma. Arma de fuego."
+        "traits": "Objeto. Arma. Arma de fuego.",
+        "slot": "Hand x2"
     },
     {
         "code": "08089",
         "name": "Quickdraw Holster",
         "text": "[fast]: Choose a [[Firearm]] asset taking up only 1 hand slot in your play area. Attach it to Quickdraw Holster, or switch it with the attached asset. The attached asset takes up no hand slots. (Limit 1 attached asset.)\n[fast] Exhaust Quickdraw Holster: Perform a fight action on the attached asset without paying its [action] cost.",
-        "traits": "Objeto. Herramienta. Ilegal."
+        "traits": "Objeto. Herramienta. Ilegal.",
+        "slot": "Body"
     },
     {
         "code": "08090",
         "name": "Brand of Cthugha",
         "text": "Usos (6 cargas).\n[action]: <b>Combatir.</b> For this attack, you may use [willpower] instead of [combat], and Recibes+1 skill value. If you succeed, spend 1 or 2 cargas. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 1 action.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08091",
         "name": "Nkosi Mabati",
         "subname": "Brujo enigmático",
         "text": "[reaction] After Nkosi Mabati enters play: Name a non-[elder_sign] chaos token with a symbol. Until this card leaves play, the named symbol is your \"sigil.\"\n[reaction] When an investigator at your location reveals a [cultist], [tablet], or [elder_thing] symbol, exhaust Nkosi Mabati: Search the chaos bag for your sigil and reveal it, instead <i>(returning the other token to the chaos bag)</i>.",
-        "traits": "Aliado. Hechicero."
+        "traits": "Aliado. Hechicero.",
+        "slot": "Ally"
     },
     {
         "code": "08092",
         "name": "Brand of Cthugha",
         "text": "Usos (9 cargas).\n[action]: <b>Combatir.</b> For this attack, you may use [willpower] instead of [combat], and Recibes+2 skill value. If you succeed, spend 1, 2, or 3 cargas. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 2 actions.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08093",
         "name": "Cyclopean Hammer",
         "text": "[action]: <b>Combatir.</b> Add your [willpower] to your skill value for this attack. You deal +1 de daño para este ataque. If you succeed and the enemy is non-[[Elite]], you may move it one location away from you. (If you succeed by 3 or more, you instead deal +2 damage and may move the enemy up to two locations away from you.)",
-        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08094",
         "flavor": "Twenty pounds of steel vengeance.",
         "name": "Sledgehammer",
         "text": "[action]: <b>Combatir.</b> Recibes-1 [combat] and deal +1 de daño para este ataque.\n[action] [action]: <b>Combatir.</b> Recibes+2 [combat] and deal +2 damage for this attack.",
-        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08095",
         "flavor": "After what you've seen, you intend to sleep in it.",
         "name": "Protective Gear",
         "text": "[reaction] When you draw a [[Hazard]] treachery, deal 1 damage and 1 horror to Protective Gear: Cancel that card's Revelación effect.",
-        "traits": "Objeto. Protección."
+        "traits": "Objeto. Protección.",
+        "slot": "Body"
     },
     {
         "code": "08096",
         "flavor": "Twenty-five pounds of steel vengeance.",
         "name": "Sledgehammer",
         "text": "[action]: <b>Combatir.</b> Recibes+1 [combat] and deal +1 de daño para este ataque.\n[action] [action] [action]: <b>Combatir.</b> Recibes+5 [combat] and deal +5 damage for this attack.",
-        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo.",
+        "slot": "Hand x2"
     },
     {
         "code": "08097",
         "name": "Pocket Telescope",
         "text": "[fast] Exhaust Pocket Telescope: Look at the revealed side of a connecting unrevealed location.\n[action]: <b>Investigar.</b> Investigate a revealed connecting location as if you were there.",
-        "traits": "Objeto. Herramienta."
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
     },
     {
         "code": "08098",
         "name": "Eon Chart",
         "text": "Usos (3 secretos).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take one of the following actions (move, evade, or investigate).",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accessory"
     },
     {
         "code": "08099",
         "name": "Gené Beauregard",
         "subname": "Intrepid Explorer",
         "text": "Recibes+1 [intellect] and +1 [agility].\n[reaction] During your turn, after you move to a location, exhaust Gené Beauregard: Move a clue or a non-[[Elite]] enemy from a connecting location to your location, or vice versa.",
-        "traits": "Aliado. Viajero."
+        "traits": "Aliado. Viajero.",
+        "slot": "Ally"
     },
     {
         "code": "08100",
         "name": "Eon Chart",
         "text": "Usos (3 secretos).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take two of the following actions, in any order (move, evade, or investigate).",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accessory"
     },
     {
         "code": "08101",
         "name": "Divination",
         "text": "Usos (4 cargas).\n[action]: <b>Investigar.</b> For this investigation, you may use [willpower] instead of [intellect], and Recibes+1 skill value. If you succeed, spend 1 or 2 cargas. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard a card from your hand.",
-        "traits": "Hechizo. Presagio."
+        "traits": "Hechizo. Presagio.",
+        "slot": "Arcane"
     },
     {
         "code": "08102",
@@ -711,33 +750,38 @@
         "code": "08103",
         "name": "Divination",
         "text": "Usos (6 cargas).\n[action]: <b>Investigar.</b> For this investigation, you may use [willpower] instead of [intellect], and Recibes+2 skill value. If you succeed, spend 1, 2, or 3 cargas. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard 2 cards from your hand.",
-        "traits": "Hechizo. Presagio."
+        "traits": "Hechizo. Presagio.",
+        "slot": "Arcane"
     },
     {
         "code": "08104",
         "name": "Professor William Webb",
         "subname": "Finder of Hidden Connections",
         "text": "Usos (3 secretos).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Instead of discovering a clue at your location, either choose an [[Objeto]] card in your discard pile and add it to your hand, or discover a clue at a connecting location.",
-        "traits": "Aliado. Miskatonic."
+        "traits": "Aliado. Miskatonic.",
+        "slot": "Ally"
     },
     {
         "code": "08105",
         "name": "Ice Pick",
         "text": "Rápido.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: Recibes+1 skill value for this test.",
-        "traits": "Objeto. Herramienta. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "08106",
         "name": "Professor William Webb",
         "subname": "Finder of Hidden Connections",
         "text": "Usos (3 secretos).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Choose an [[Objeto]] card in your discard pile and add it to your hand. Instead of discovering a clue at your location, you may discover a clue at a connecting location.",
-        "traits": "Aliado. Miskatonic."
+        "traits": "Aliado. Miskatonic.",
+        "slot": "Ally"
     },
     {
         "code": "08107",
         "name": "Ice Pick",
         "text": "Rápido.\n[fast] During a skill test while fighting or investigating, exhaust Ice Pick: Recibes+1 skill value for this test. If you succeed, you may discard Ice Pick to have this attack deal +1 damage <i>(if you are fighting)</i>, or to discover 1 additional clue at your location <i>(if you are investigating)</i>.",
-        "traits": "Objeto. Herramienta. Cuerpo a cuerpo."
+        "traits": "Objeto. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
     },
     {
         "code": "08108",
@@ -750,7 +794,8 @@
         "code": "08109",
         "name": "Blur",
         "text": "Usos (3 cargas).\n[action] If Blur has cargas remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility], and Recibes+1 skill value. If you succeed, spend 1 charge and you may take an additional action this turn. If you succeed by 0, take 1 damage.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08110",
@@ -763,7 +808,8 @@
         "code": "08111",
         "name": "Blur",
         "text": "Usos (4 cargas).\n[action] If Blur has cargas remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility] and get +2 skill value. If you succeed, spend 1 or 2 cargas and you may take that many additional actions this turn. If you succeed by 0, take 2 damage.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08112",
@@ -782,38 +828,44 @@
         "name": "Recuerdo preciado",
         "subname": "From a Former Life",
         "text": "Limit 1 Recuerdo preciado <i>(From a Former Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Recuerdo preciado: Heal 1 damage from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Recuerdo preciado: Heal 1 horror from it.",
-        "traits": "Objeto. Amuleto. Bendecido."
+        "traits": "Objeto. Amuleto. Bendecido.",
+        "slot": "Accessory"
     },
     {
         "code": "08115",
         "name": "Recuerdo preciado",
         "subname": "From a Future Life",
         "text": "Limit 1 Recuerdo preciado <i>(From a Future Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Recuerdo preciado: Heal 1 horror from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Recuerdo preciado: Heal 1 damage from it.",
-        "traits": "Objeto. Amuleto. Maldito."
+        "traits": "Objeto. Amuleto. Maldito.",
+        "slot": "Accessory"
     },
     {
         "code": "08116",
         "name": "Talisman of Protection",
         "text": "Rápido. Juega esta carta sólo durante tu turno.\nPlay Talisman of Protection under the control of any investigator at your location.\n[reaction] When you assign damage and/or horror that would defeat you, discard Talisman of Protection: Cancel up to 2 of that damage and/or horror.",
-        "traits": "Objeto. Amuleto."
+        "traits": "Objeto. Amuleto.",
+        "slot": "Arcane"
     },
     {
         "code": "08117",
         "name": "Earthly Serenity",
         "text": "Usos (4 cargas).\n[action]: Test [willpower] (1). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 1 resource.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08118",
         "name": "Enchanted Bow",
         "text": "Usos (3 cargas).\n[action] Exhaust Enchanted Bow: <b>Combatir.</b> You must use either [willpower] or [agility] instead of [combat] and get +1 skill value for this attack. This attack deals +1 damage. As an additional cost to initiate this ability, you may spend 1 charge to have this attack target a non-[[Elite]] enemy at a connecting location; if you do, ignore the aloof and retaliate keywords for this attack.",
-        "traits": "Hechizo. Bendecido. Arma. A distancia."
+        "traits": "Hechizo. Bendecido. Arma. A distancia.",
+        "slot": "Hand x2. Arcane"
     },
     {
         "code": "08119",
         "name": "Earthly Serenity",
         "text": "Usos (6 cargas).\n[action]: Test [willpower] (0). For each point you succeed by, you may spend 1 charge to heal 1 damage or 1 horror from an investigator at your location. If you succeed by 0, lose 2 recursos.",
-        "traits": "Hechizo."
+        "traits": "Hechizo.",
+        "slot": "Arcane"
     },
     {
         "code": "08120",
@@ -855,19 +907,22 @@
         "code": "08126",
         "name": "Pieles pesadas",
         "text": "[reaction] Después de que reveles un símbolo que no sea [auto_fail] en una ficha de Caos durante una prueba de habilidad que estés realizando, inflige 1 punto de daño a las  Pieles pesadas: Cancela esa ficha de Caos y devuélvela a la bolsa. Revela una nueva ficha de Caos.",
-        "traits": "Objeto. Protección."
+        "traits": "Objeto. Protección.",
+        "slot": "Body"
     },
     {
         "code": "08127",
         "name": "Perro de trineo",
         "text": "Puedes incluir hasta 4 copias del Perro de trineo en tu mazo. Hasta 2 cartas de Perro de trineo ocupan un solo espacio de aliado.\n[action] Agota X Perros de trineo: <b>Movimiento.</b> Muévete X veces.\n[action] Agota X Perros de trineo: <b>Combatir.</b> Recibes +X [combat] para este ataque. En lugar de su daño estándar, este ataque inflige X de daño.",
-        "traits": "Aliado. Criatura."
+        "traits": "Aliado. Criatura.",
+        "slot": "Ally"
     },
     {
         "code": "08128",
         "name": "Vara de animalismo",
         "text": "Tienes 2 espacios de aliado adicionales que sólo pueden usarse para Apoyos [[Criatura]].\n[reaction] Cuando juegues un Apoyo [[Criatura]] durante tu turno: Reduce en 1 el coste de ese Apoyo.",
-        "traits": "Objeto. Reliquia."
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accessory"
     },
     {
         "code": "08129",
