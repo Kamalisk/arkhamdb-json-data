@@ -1,476 +1,957 @@
 [
     {
         "code": "08001",
-        "flavor": "\"Relax, tough guy. I'll handle this. You stand over there and look pretty.\"",
+        "flavor": "„Keine Panik, starker Mann, ich erledige das schon. Bleib einfach da stehen und mach ein hübsches Gesicht.”",
         "name": "Daniela Reyes",
-        "subname": "The Mechanic",
-        "text": "[reaction] After an enemy attacks you (except an attack of opportunity you provoked), even if that attack was canceled: Either deal 1 damage to that enemy, or automatically evade it.\n[elder_sign] effect: +1. If you were attacked by an enemy this round, you automatically succeed, instead.",
-        "traits": "Entrepreneur.",
-        "back_flavor": "Daniela always figured she had a good life. She had a loving, boisterous family. She had a steady job that used her brains and her hands. She had enough money to spend on fast cars, pretty girls, and her motorcycle, Gabriel. Then her brother, Ramon, got caught up in some trouble. Her mother warned her to be careful, that darkness lay ahead. Daniela set a glass of water behind the door for her mother's sake, to catch evil spirits - just as she'd been taught as a child. When Daniela awoke to find it shattered, she was determined to figure out what happened and fix it. Just like she always did.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0, Survivor cards ([survivor]) level 1-5, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Mechanic's Wrench, Mob Goons, 1 random basic weakness."
+        "subname": "Die Mechanikerin",
+        "text": "[reaction] Nachdem dich ein Gegner angegriffen hat (außer nach einem Gelegenheitsangriff, den du provoziert hast), auch wenn dieser Angriff aufgehoben worden ist: Füge jenem Gegner entweder 1 Schaden zu oder entkomme ihm automatisch.\n[elder_sign]-Effekt: +1. Falls du in dieser Runde von einem Gegner angegriffen wurdest, gelingt diese Probe stattdessen automatisch.",
+        "traits": "Unternehmer.",
+        "back_flavor": "Daniela hat immer angenommen, ein gutes Leben zu führen. Sie hatte eine ungestüme Familie, die sie liebte. Sie hatte einen beständigen Job, der ihren Verstand und ihr Geschick forderte. Sie hatte genug Geld, das sie für schnelle Autos, schöne Frauen und ihr Motorrad „Gabriel” ausgeben konnte. Aber dann geriet ihr Bruder Ramon in Schwierigkeiten. Ihre Mutter warnte sie, sich von der vor ihr liegenden Dunkelheit in Acht zu nehmen. Daniela stellte ihrer Mutter zuliebe ein Glas Wasser hinter die Tür, um die bösen Geister zu fangen - so wie sie es von ihr gelernt hatte. Als sie am nächsten Morgen erwachte, war das Glas in Tausende Scherben zersprungen. Also nahm sie die Sache selbst in die Hand un versuchte, der Sache auf den Grund zu gehen.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbauoptionen</b>: Wächterkarten ([guardian]) Stufe 0, Überlebenderkarten ([survivor]) Stufe 1-5, Neutrale Karten Stufe 0-5, bis zu 5 andere Überlebenderkarten ([survivor]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Mechaniker-Schraubenschlüssel, Mobschläger, 1 zufällige Grundschwäche."
     },
     {
         "code": "08002",
-        "name": "Mechanic's Wrench",
-        "text": "Daniela Reyes deck only.\n[fast] Exhaust Mechanic's Wrench: Choose an enemy at your location. That enemy attacks you.\n[action]: <b>Fight.</b> Use this ability only against an enemy that has attacked you since the end of your last turn. You get +2 [combat] for this attack and deal +1 damage for this attack.",
-        "traits": "Item. Tool. Melee.",
+        "name": "Mechaniker-Schraubenschlüssel",
+        "text": "Nur für das Deck von Daniela Reyes.\n[fast] Erschöpfe Mechaniker-Schraubenschlüssel: Wähle einen Gegner an deinem Ort. Jener Gegner greift dich an.\n[action]: <b>Kampf.</b> Verwende diese Fähigkeit nur gegen einen Gegner, der dich seit dem Ende deines letzten Zuges angegriffen hat. Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu.",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
         "slot": "Hand"
     },
     {
         "code": "08003",
-        "flavor": "Debt is a family affair.",
-        "name": "Mob Goons",
-        "text": "Hunter.\n<b>Prey</b> - Daniela Reyes only.\nThis enemy's attacks cannot be canceled.\nDamage/horror dealt by this enemy's attacks is treated as direct.",
-        "traits": "Humanoid. Criminal."
+        "flavor": "Schulden sind eine Familienangelegenheit.",
+        "name": "Mobschläger",
+        "text": "Jäger.\n<b>Beute</b> - Nur Daniela Reyes.\nDie Angriffe dieses Gegners können nicht aufgehoben werden.\nSchaden/Horror, der durch die Angriffe dieses Gegners zugefügt wird, wird als direkter Schaden/Horror behandelt.",
+        "traits": "Humanoid. Krimineller."
     },
     {
         "code": "08004",
         "name": "Norman Withers",
-        "subname": "The Astronomer",
-        "text": "Play with the top card of your deck revealed.\nOnce per round, you may play the top card of your deck as if it were in your hand, at -1 resource cost.\n<b>Forced</b> - After a weakness is revealed while on top of your deck: Draw it.\n[elder_sign] effect: +X. You may swap the top card of your deck with a card in your hand. X is the resource cost of the top card of your deck.",
+        "subname": "Der Astronom",
+        "text": "Spiele mit der obersten Karte deines Decks enthüllt.\nEin Mal pro Runde darfst du die oberste Karte deines Decks für -1 Ressourcenkosten spielen, als ob sie sich auf deiner Hand befände.\n<b>Erzwungen</b> - Nachdem eine Schwäche als oberste Karte deines Decks enthüllt wird: Ziehe sie.\n[elder_sign]-Effekt: +X. Du darfst die oberste Karte gegen eine Karte auf deiner Hand austauschen. X sind die Ressourcenkosten der obersten Karte deines Decks.",
         "traits": "Miskatonic.",
-        "back_flavor": "Nobody believes him, and why should they? How could six stars vanish from sight all at once, never to reappear? Astronomer and Miskatonic University professor Norman Withers had all but given up on regaining his colleagues' esteem when a protege of the renowned Albert Einstein comes to speak on campus. The visiting physicist, with unsettling theories about the curvature of space-time, may hold the key to helping Norman explain the phenomenon of the vanishing stars...",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0, Mystic cards ([mystic]) level 1-5, Neutral cards level 0-5, up to 5 other Mystic cards ([mystic]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Livre d'Eibon, The Harbinger, 1 random basic weakness."
+        "back_flavor": "In den Sternen sind viele Geheimnisse verborgen und Norman war nie jemand, der einem Mysterium aus dem Weg ging. Als sechs Sterne vom Himmel verschwanden, konnte er dies jedoch nicht auf sich beruhen lassen, auch nicht, als ihm seine Kollegen sagten, er bilde sich dies alles nur ein. Nach jahrelanger Suche und dem fast sicheren Ende seiner Wissenschaftskarriere stieß er in einem uralten Buch endlich auf Antworten. Darin stand geschrieben, welche Sterne in welcher Reihenfolge verschwinden würden, bis hin zu dem genauen Datum und der genauen Uhrzeit. Dies sei ein Zeichen für das Ende von allem, wie im Buch geschrieben stand - der Vorbote der großen Bestie, die alles auseinanderreißen würde, was die Menschheit je erschaffen hatte. Norman ist sich nicht sicher, was er tun kann, um die Bestie aufzuhalten, aber wenn die Antwort in den Sternen steht, dann wird er sie finden.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbauoptionen</b>: Sucherkarten ([seeker]) Stufe 0, Mystikerkarten ([mystic]) Stufe 1-5, Neutrale Karten Stufe 0-5, bis zu 5 andere Mystikerkarten ([mystic]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Livre d'Eibon, Der Vorbote, 1 zufällige Grundschwäche."
     },
     {
         "code": "08005",
         "name": "Livre d'Eibon",
-        "subname": "Hyperborean Grimoire",
-        "text": "Norman Withers deck only.\n[fast] Exhaust Livre d'Eibon: Swap the top card of your deck with a card in your hand.\n[fast] Exhaust Livre d'Eibon: Commit the top card of your deck to an eligible skill test performed by an investigator at your location.",
-        "traits": "Item. Relic. Tome.",
+        "subname": "Zauberbuch aus Hyperborea",
+        "text": "Nur für das Deck von Norman Withers.\n[fast] Erschöpfe Livre d'Eibon: Tausche die oberste Karte deines Decks gegen eine Karte auf deiner Hand aus.\n[fast] Erschöpfe Livre d'Eibon: Trage die oberste Karte deines Decks zu einer gültigen Fertigkeitsprobe bei, die ein Ermittler an deinem Ort durchführt.",
+        "traits": "Gegenstand. Relikt. Buch.",
         "slot": "Hand"
     },
     {
         "code": "08006",
-        "name": "The Harbinger",
-        "text": "<b>Revelation</b> - Place this card on top of your deck.\nWhile The Harbinger is revealed and on top of your deck, cards in your deck cannot be searched, drawn, or manipulated in any way except by the below ability.\n[action] [action]: Discard The Harbinger. This ability may be activated while The Harbinger is on top of your deck, as if it were in your threat area.",
+        "name": "Der Vorbote",
+        "text": "<b>Enthüllung</b> - Platziere diese Karte oben auf deinem Deck.\nSolange Der Vorbote als oberste Karte deines Decks enthüllt ist, können Karten nicht in deinem Deck gesucht, davon gezogen und darin auf irgendeine Weise manipuliert werden, außer durch die unten stehende Fähigkeit.\n[action] [action]: Lege Der Vorbote ab. Diese Fähigkeit darf aktiviert werden, solange Der Vorbote die oberste Karte deines Decks ist, als ob sie sich in deiner Bedrohungszone befände.",
         "traits": "Omen. Endtimes."
     },
     {
         "code": "08007",
         "name": "Monterey Jack",
-        "subname": "The Archaeologist",
-        "text": "[reaction] At the end of your turn, if you started this round 1 location away from your current location: Either gain 1 resource or draw 1 card (if you started this round 2 or more locations away, do both instead).\n[elder_sign] effect: +1. If you started this round 1 or more locations away from your current location, gain 1 resource or draw 1 card.",
-        "traits": "Wayfarer.",
-        "back_flavor": "Young Jack traveled the world with his father's archaeological expeditions. Now a globe-trotting treasure hunter and an accomplished archaeologist in his own right, \"Monterey\" follows in his father's footsteps, securing the treasures of ancient civilizations and lost cultures. But after discovering a silver pendant with a familiar symbol on it, Monterey must explore his own past. Years ago, his father was found murdered with the very same sigil carved in his forehead. The image has haunted Monterey's dreams ever since. But he's getting close. He won't stop until he solves the mystery of his father's murder... no matter what it takes.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0, Seeker cards ([seeker]) level 1-5, Neutral cards level 0-5, up to 5  other Seeker cards ([seeker]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Trusty Bullwhip, Buried Secrets, 1 random basic weakness."
+        "subname": "Der Archäologe",
+        "text": "[reaction] Am Ende deines Zuges, falls du diese Runde 1 Ort entfernt von deinem aktuellen Ort begonnen hast: Du erhältst entweder 1 Ressource oder ziehst 1 Karte (falls du 2 oder mehr Orte entfernt begonnen hast, mache stattdessen beides).\n[elder_sign]-Effekt: +1. Falls du diese Runde 1 oder mehr Orte entfernt von deinem aktuellen Ort begonnen hast, erhältst du 1 Ressource oder ziehst 1 Karte.",
+        "traits": "Wanderer.",
+        "back_flavor": "Mit seinem Vater reiste der junge Jack von einer archäologischen Ausgrabungzur nächsten. Heute ist der durch die ganze Welt reisende Schatzjäger selbst ein renommierter Altertumsforscher, der in die Fußstapfen seines Vaters getreten ist, um die Schätze alter Zivilisationen und Kulturen aufzuspüren und zu bergen. Als „Monterey” auf ein Silberamulett mit einem vertraut wirkenden Symbol stößt, beginnt er, seine eigene Vergangenheit zu erforschen. Vor Jahren wurde sein Vater ermordet aufgefunden, in seine Stirn war das gleiche Symbol eingebrannt. Seitdem verfolgt es ihn bis in seine Träume. Er ist überzeugt, kurz davor zu stehen, den mysteriösen Mord an seinem Vater aufzuklären… koste es, was es wolle.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbauoptionen</b>: Schurkenkarten ([rogue]) Stufe 0, Sucherkarten ([seeker]) Stufe 1-5, Neutrale Karten Stufe 0-5, bis zu 5 andere Sucherkarten ([seeker]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Zuverlässige Peitsche, Vergrabene Geheimnisse, 1 zufällige Grundschwäche."
     },
     {
         "code": "08008",
-        "name": "Trusty Bullwhip",
-        "text": "Fast. Monterey Jack deck only.\n[action]: <b>Fight.</b> This attack uses [agility] instead of [combat]. If this attack succeeds, you may exhaust Trusty Bullwhip to either automatically evade the attacked enemy or deal +1 damage for this attack.",
-        "traits": "Item. Weapon. Melee.",
+        "name": "Zuverlässige Peitsche",
+        "text": "Schnell. Nur für das Deck von Monterey Jack.\n[action]: <b>Kampf.</b> Dieser Angriff verwendet [agility] statt [combat]. Falls dieser Angriff gelingt, darfst du Zuverlässige Peitsche erschöpfen, um dem angegriffenen Gegner entweder automatisch zu entkommen oder für diesen Angriff +1 Schaden zuzufügen.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
         "slot": "Hand"
     },
     {
         "code": "08009",
-        "name": "Buried Secrets",
-        "text": "<b>This is a placeholder weakness. This card has not yet been announced.</b>"
+        "name": "Vergrabene Geheimnisse",
+        "text": "<b>Enthüllung</b> - Bringe Vergrabene Geheimnisse in deiner Bedrohungszone ins Spiel.\nFalls an deinem Ort ermittelt werden kann, kannst du dich nicht bewegen, außer durch Szenarioeffekte.\n[action]: <b>Ermitteln.</b> Falls die Probe gelingt, lege Vergrabene Geheimnisse ab, statt Hinweise zu entdecken. Falls die Probe misslingt, darfst du 2 Horror nehmen, um diese Probe in dein Deck zu mischen",
+        "traits": "Mysterium."
     },
     {
         "code": "08010",
-        "flavor": "\"I have been preparing to confront this evil my entire life. My focus must be absolute.\"",
+        "flavor": "„Mein ganzes Leben habe ich mich auf diesen Kampf vorbereitet. Ich muss mein inneres Gleichgewicht finden.”",
         "name": "Lily Chen",
-        "subname": "The Martial Artist",
-        "text": "You begin the game with each Discipline in your deck in play, [[Unbroken]] side faceup.\n[elder_sign] effect: +2. After this test ends, flip a [[Broken]] Discipline you control to its [[Unbroken]] side.",
-        "traits": "Chosen. Warden.",
-        "back_flavor": "Chen Li speaks rarely. When she does, her words are measured and wise. After a lifetime of disciplined training, every gesture is graceful, uncluttered by hesitation. The monks who raised her said that she was born for a special purpose, to face a great evil. Now, they believe that evil is at hand, and she is the only one who can stop it.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0, Guardian cards ([guardian]) level 1-5, Neutral cards level 0-5, up to 5  other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 1 Burden of Destiny for each Discipline asset (see below), 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No [[Firearm]] assets.\n<b>Additional Requirements</b>: At deck creation, choose a Discipline asset to add to your deck. It is considered part of your Deckbuilding Requirements. For every 15 experience you've earned in total, you may choose and add a different Discipline asset to your deck."
+        "subname": "Die Kampfsportlerin",
+        "text": "Du beginnst das Spiel mit jeder deiner Disziplin-Karten im Spiel, mit der [[Ungebrochen]]-Seite nach oben.\n[elder_sign]-Effekt: +2. Nachdem diese Probe beendet worden ist, drehe eine [[Gebrochen]]-Disziplin, die du kontrollierst, auf ihre [[Ungebrochen]]-Seite um.",
+        "traits": "Auserwählt. Wärter.",
+        "back_flavor": "Lily spricht nur selten und wenn sie es tut, sind ihre Worte sorgsam gewählt und weise. Ihr ganzes Leben hat sie sich in Disziplinen geübt. Jede ihrer Bewegungen ist geschmeidig und ohne den Hauch eines Zögerns. Die Mönche, die sie aufzogen, behaupten, sie sei auserwählt, um gegen ein großes Übel zu kämpfen. Jetzt, so glauben sie, steht das Böse vor der Tür. Und sie ist die Einzige, die es stoppen kann.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbauoptionen</b>: Mystikerkarten ([mystic]) Stufe 0, Wächterkarten ([guardian]) Stufe 1-5, Neutrale Karten Stufe 0-5, bis zu 5 andere Wächterkarten ([guardian]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): 1 Bürde des Schicksals für jede Disziplin-Vorteilskarte (siehe unten), 1 zufällige Grundschwäche.\n<b>Deckbau-Einschränkungen</b>: Keine [[Feuerwaffe]]-Vorteilskarten.\n<b>Zusätzliche Voraussetzungen</b>: Wähle beim Deckbau als zusätzliche Deckbau-Voraussetzung 1 Disziplin-Vorteilskarte und füge sie deinem Deck hinzu. Für je 15 Erfahrungspunkte, die du insgesamt verdient hast, darfst du 1 weitere verschiedene Disziplin-Vorteilskarte wählen und deinem Deck hinzufügen."
     },
     {
         "code": "08011a",
-        "name": "Discipline",
-        "subname": "Alignment of Spirit",
-        "text": "Lily Chen deck only. Permanent.\nYou get +1 [willpower].\n[action]: Take 1 direct damage to heal 3 horror, or take 1 direct horror to heal 3 damage. Flip this asset over.",
-        "traits": "Unbroken."
+        "name": "Disziplin",
+        "subname": "Fokussierung des Geistes",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\nDu bekommst +1 [willpower].\n[action]: Nimm 1 direkten Schaden, um 3 Horror zu heilen; oder nimm 1 direkten Horror, um 3 Schaden zu heilen. Drehe diese Vorteilskarte um.",
+        "traits": "Ungebrochen."
     },
     {
         "code": "08011b",
-        "name": "Discipline",
-        "subname": "Alignment of Spirit",
-        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if you took no damage or horror this round: Flip this asset over to its [[Unbroken]] side.",
-        "traits": "Broken."
+        "name": "Disziplin",
+        "subname": "Fokussierung des Geistes",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\n[reaction] Nachdem die Runde beendet worden ist, falls du in dieser Runde keinen Schaden und Horror genommen hast: Drehe diese Vorteilskarte auf ihre [[Ungebrochen]]-Seite um.",
+        "traits": "Gebrochen."
     },
     {
         "code": "08012a",
-        "name": "Discipline",
-        "subname": "Quiescence of Thought",
-        "text": "Lily Chen deck only. Permanent.\nYou get +1 [intellect].\n[action]: If you have fewer than 5 cards in your hand: Draw cards until there are 5 cards in your hand. Flip this asset over.",
-        "traits": "Unbroken."
+        "name": "Disziplin",
+        "subname": "Ruhe der Gedanken",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\nDu bekommst +1 [intellect].\n[action]: Falls du weniger als 5 Karten auf deiner Hand hast: Ziehe Karten, bis du 5 Karten auf deiner Hand hast. Drehe diese Vorteilskarte um.",
+        "traits": "Ungebrochen."
     },
     {
         "code": "08012b",
-        "name": "Discipline",
-        "subname": "Quiescence of Thought",
-        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if your hand did not have 2 or more cards in it at any point this round: Flip this asset over to its [[Unbroken]] side.",
-        "traits": "Broken."
+        "name": "Disziplin",
+        "subname": "Ruhe der Gedanken",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\n[reaction] Nachdem die Runde beendet worden ist, falls du zu keinem Zeitpunkt dieser Runde 2 oder mehr Karten auf deiner Hand hattest: Drehe diese Vorteilskarte auf ihre [[Ungebrochen]]-Seite um.",
+        "traits": "Gebrochen."
     },
     {
         "code": "08013a",
-        "name": "Discipline",
-        "subname": "Prescience of Faith",
-        "text": "Lily Chen deck only. Permanent.\nYou get +1 [combat].\n[action]: You get +5 skill value for the next skill test you perform this turn. After that skill test ends, flip this asset over. This action does not provoke attacks of opportunity.",
-        "traits": "Unbroken."
+        "name": "Disziplin",
+        "subname": "Vorahnung des Schicksals",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\nDu bekommst +1 [combat].\n[action]: Du bekommst +5 auf den Wert deiner nächsten Fertigkeitsprobe, die du in diesem Zug durchführst. Nachdem jene Fertigkeitsprobe beendet worden ist, drehe diese Vorteilskarte um. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Ungebrochen."
     },
     {
         "code": "08013b",
-        "name": "Discipline",
-        "subname": "Prescience of Faith",
-        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if you performed no skill tests this round: Flip this asset over to its [[Unbroken]] side.",
-        "traits": "Broken."
+        "name": "Disziplin",
+        "subname": "Vorahnung des Schicksals",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\n[reaction] Nachdem die Runde beendet worden ist, falls du in dieser Runde keine Fertigkeitsproben durchgeführt hast: Drehe diese Vorteilskarte auf ihre [[Ungebrochen]]-Seite um.",
+        "traits": "Gebrochen."
     },
     {
         "code": "08014a",
-        "name": "Discipline",
-        "subname": "Balance of Body",
-        "text": "Lily Chen deck only. Permanent.\nYou get +1 [agility].\n[action]: One at a time, take up to 3 different fight or evade actions. Flip this asset over. This action does not provoke attacks of opportunity.",
-        "traits": "Unbroken."
+        "name": "Disziplin",
+        "subname": "Gleichgewicht des Körpers",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\nDu bekommst +1 [agility].\n[action]: Nimm nacheinander bis zu 3 verschiedene Kampf- und/oder Entkommen-Aktionen. Drehe diese Vorteilskarte um. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Ungebrochen."
     },
     {
         "code": "08014b",
-        "name": "Discipline",
-        "subname": "Balance of Body",
-        "text": "Lily Chen deck only. Permanent.\n[reaction] After the round ends, if no enemies were at the same location as you at any point this round: Flip this asset over to its [[Unbroken]] side.",
-        "traits": "Broken."
+        "name": "Disziplin",
+        "subname": "Gleichgewicht des Körpers",
+        "text": "Nur für das Deck von Lily Chen. Dauerhaft.\n[reaction] Nachdem die Runde beendet worden ist, falls sich zu keinem Zeitpunkt in dieser Runde ein Gegner am gleichen Ort wie du befunden hat: Drehe diese Vorteilskarte auf ihre [[Ungebrochen]]-Seite um.",
+        "traits": "Gebrochen."
     },
     {
         "code": "08015",
-        "flavor": "\"How can I save them if I can't even save myself",
-        "name": "Burden of Destiny",
-        "text": "<b>Revelation</b> - You must either (choose one):\n- Flip a Discipline you control to its [[Broken]] side. It cannot be flipped back this round.\n- Take 1 damage and 1 horror.",
-        "traits": "Flaw."
+        "flavor": "„Wie kann ich sie retten, wenn ich mich noch nicht einmal selbst retten kann?”",
+        "name": "Bürde des Schicksals",
+        "text": "<b>Enthüllung</b> - Du musst entweder (wähle eins):\n- Drehe eine Disziplin-Karte, die du kontrollierst, auf ihre [[Gebrochen]]-Seite um. Sie kann diese Runde nicht wieder umgedreht werden.\n- Nimm 1 Schaden und 1 Horror.",
+        "traits": "Makel."
     },
     {
         "code": "08016",
         "name": "Bob Jenkins",
-        "subname": "The Salesman",
-        "text": "At any time, an investigator at your location may reveal to you the [[Item]] assets in their hand.\nYou may take an additional action during your turn, which can only be used to play an [[Item]] asset from the hand of an investigator at your location, under their control. (Both investigators may spend resources to pay its cost).\n[elder_sign] effect: +1 for each [[Item]] asset you control.",
-        "traits": "Entrepreneur.",
-        "back_flavor": "According to Bob, the secret to success as a salesman is persistence. People just need to be told what it is that they want. Repeatedly. Recently, Bob came into possession of a handful of \"cursed\" golden coins, and he hopes the same persistence he so famously advocates will help him to uncover their origin and purpose. If he plays his cards right, maybe this will be his big score. Maybe he'll finally be able to retire and buy that boat he's had his eye on and spend the rest of his days fishing in a tropical paradise. Or maybe Bob will finally come to see all that glitters is not gold.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0, Rogue cards ([rogue]) level 1-5, Neutral cards level 0-5, up to 5  other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Shrewd Dealings, Greed, 1 random basic weakness."
+        "subname": "Der Geschäftsmann",
+        "text": "Ermittler an deinem Ort können dir jederzeit [[Gegenstand]]-Vorteilskarten enthüllen.\nDu darfst während deines Zuges eine zusätzliche Aktion nehmen, die nur dafür verwendet werden kann, um eine [[Gegenstand]]-Vorteilskarte von der Hand eines Ermittlers an deinem Ort unter seiner Kontrolle zu spielen. (Beide Ermittler dürfen Ressourcen ausgeben, um dafür zu bezahlen).\n[elder_sign]-Effekt: +1 für jede [[Gegenstand]]-Vorteilskarte, die du kontrollierst.",
+        "traits": "Unternehmer.",
+        "back_flavor": "Hartnäckigkeit ist laut Bob das Erfolgsgeheimnis eines jeden Verkäufers. Man muss den Leuten nur oft genug einreden, dass sie etwas wirklich, wirklich haben wollen. Immer wieder. Und wieder. Erst kürzlich hat Bob eine Handvoll außergewöhnlicher „verfluchter” Goldmünzen erstanden und hofft, dass seine viel beschworene Hartnäckigkeit ihm dabei helfen wird, sie zu identifizieren. Wenn er seine Karten richtig ausspielt, könnten sie der große Wurf sein. Vielleicht kann er sich dann endlich zur Ruhe setzen und sich das Boot kaufen, auf das er schon lange ein Auge geworfen hat, um bis ans Ende seiner Tage im tropischen Paradies auf Angeltour zu gehen. Oder vielleicht erkennt er, dass nicht alles Gold ist, was glänzt.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbauoptionen</b>: Überlebenderkarten ([survivor]) Stufe 0, Schurkenkarten ([rogue]) Stufe 1-5, Neutrale Karten Stufe 0-5, bis zu 5 andere Schurkenkarten ([rogue]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Gewiefte Geschäfte, Gier, 1 zufällige Grundschwäche."
     },
     {
         "code": "08017",
-        "flavor": "\"You say the 'end of the world.' I hear 'business opportunity.'\"",
-        "name": "Shrewd Dealings",
-        "text": "Bob Jenkins deck only.\nReduce the cost of each [[Item]] asset you play by 1.\n[reaction]: When you play an [[Item]] asset: Play it under the control of any investigator at your location.",
+        "flavor": "„Sie sagen ‚Ende der Welt‛, ich sage ‚Gutes Geschäft‛.”",
+        "name": "Gewiefte Geschäfte",
+        "text": "Nur für das Deck von Bob Jenkins.\nSenke die Kosten jeder [[Gegenstand]]-Vorteilskarte, die du spielst, um 1.\n[reaction]: Sobald du eine [[Gegenstand]]-Vorteilskarte spielst: Spiele sie unter die Kontrolle eines beliebigen Ermittlers an deinem Ort.",
         "traits": "Talent."
     },
     {
         "code": "08018",
-        "flavor": "Worshipped by its own cult, one might say.",
-        "name": "Greed",
-        "text": "<b>Revelation</b> - Take 1 horror. If you have...\n- ...10 or fewer resources, take 1 additional horror.\n- ...5 or fewer resources, take 1 additional horror.\n- ...0 resources, take 1 additional horror.",
-        "traits": "Flaw."
+        "flavor": "Der Kult der Gier findet viele Anhänger.",
+        "name": "Gier",
+        "text": "<b>Enthüllung</b> - Nimm 1 Horror. Falls du…\n- … 10 oder weniger Ressourcen hast, nimm 1 zusätzlichen Horror.\n- … 5 oder weniger Ressourcen hast, nimm 1 zusätzlichen Horror.\n- … 0 Ressourcen hast, nimm 1 zusätzlichen Horror.",
+        "traits": "Makel."
     },
     {
         "code": "08019",
-        "name": "Geared Up",
-        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\n<b>Forced</b> - When your first turn of the game begins: Play any number of [[Item]] assets from your hand, reducing the cost of each by 1. During this turn, you have 3 fewer actions to take.",
+        "name": "Voll ausgerüstet",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\n<b>Erzwungen</b> - Sobald dein erster Zug des Spiels beginnt: Spiele beliebig viele [[Gegenstand]]-Vorteilskarten von deiner Hand, wobei ihre Kosten je um 1 gesenkt werden. Während dieses Zuges hast du 3 Aktionen weniger, die du nehmen kannst.",
         "traits": "Talent."
     },
     {
         "code": "08020",
-        "flavor": "Sometimes, the only way out is through.",
-        "name": "Toe to Toe",
-        "text": "<b>Fight.</b> This attack deals +1 damage and is automatically successful. As an additional cost to perform this attack, the chosen enemy makes an attack against you.",
-        "traits": "Spirit. Tactic."
+        "flavor": "Manchmal ist der einzige Ausweg der Weg mittendurch.",
+        "name": "Auge in Auge",
+        "text": "<b>Kampf.</b> Dieser Angriff fügt +1 Schaden zu und gelingt automatisch. Als zusätzliche Kosten, um diesen Angriff durchzuführen, greift dich der gewählte Gegner an.",
+        "traits": "Geist. Taktik."
     },
     {
         "code": "08021",
-        "name": "\"Get behind me!\"",
-        "text": "Fast. Play during any [fast] window.\nUntil the end of the phase, whenever an enemy would attack another investigator at your location, it attacks you instead, then engages you. Cancel 1 horror dealt by each attack made in this way.",
-        "traits": "Spirit. Tactic."
+        "name": "„Bleib hinter mir!”",
+        "text": "Schnell. Spiele diese Karte in einem beliebigen [fast]-Fenster.\nImmer wenn bis zum Ende der Phase ein Gegner einen anderen Ermittler an deinem Ort angreifen würde, greift er stattdessen dich an und verwickelt dich dann in einen Kampf. Hebe je 1 Horror auf, der dir durch jeden so durchgeführten Angriff zugefügt wird.",
+        "traits": "Geist. Taktik."
     },
     {
         "code": "08022",
-        "flavor": "\"You mess wit' one of us, you mess wit' all of us!\"",
-        "name": "Gang Up",
-        "text": "<b>Fight.</b> For each different class among cards you control, you get +1 [combat] and deal +1 damage for this attack.",
-        "traits": "Spirit. Synergy."
+        "flavor": "„Wenn du dich mit einem von uns anlegst, legst du dich mit allen von uns an!”",
+        "name": "Zusammentun",
+        "text": "<b>Kampf.</b> Für jede verschiedene Klasse unter den Karten, die du kontrollierst, bekommst du für diesen Angriff +1 [combat] und fügst +1 Schaden zu.",
+        "traits": "Geist. Synergie."
     },
     {
         "code": "08023",
-        "flavor": "\"Very good, Li. Now, again.\"",
-        "name": "Sweeping Kick",
-        "text": "<b>Fight.</b> Add your [agility] to your skill value for this attack. This attack deals +1 damage. If you succeed, automatically evade the attacked enemy.",
-        "traits": "Spirit. Tactic. Trick."
+        "flavor": "„Sehr gut, Li. Und jetzt noch einmal.”",
+        "name": "Schwungvoller Tritt",
+        "text": "<b>Kampf.</b> Füge für diesen Angriff deinen [agility]-Wert zu deinem Fertigkeitswert hinzu. Dieser Angriff fügt +1 Schaden zu. Falls die Probe gelingt, entkommst du dem angegriffenen Gegner automatisch.",
+        "traits": "Geist. Taktik. Trick."
     },
     {
         "code": "08024",
-        "flavor": "You slide your feet into position, take a deep breath, and center yourself. They are many, but you are one.",
-        "name": "Defensive Stance",
-        "text": "While Defensive Stance is in your hand or committed to a skill test, it gains [combat] icons equal to your [agility], and [agility] icons equal to your [combat].",
-        "traits": "Practiced. Expert."
+        "flavor": "Du bringst deinen Körper in Position, atmest tief durch und konzentrierst dich. Sie sind viele, aber du bis eins mit dir.",
+        "name": "Verteidigungshaltung",
+        "text": "Solange sich diese Karte auf deiner Hand befindet oder zu einer Fertigkeitsprobe beigetragen wird, erhält sie [combat]-Symbole in Höhe deines [agility]-Wertes und [agility]-Symbole in Höhe deines [combat]-Wertes.",
+        "traits": "Trainiert. Experte."
     },
     {
         "code": "08025",
-        "flavor": "In a practiced grip, they are an extension of the empty hand.",
-        "name": "Butterfly Swords",
-        "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack. After this attack, you may exhaust Butterfly Swords to fight again, adding your [agility] to your skill value for that attack. That attack deals +1 damage.",
-        "traits": "Item. Weapon. Melee.",
+        "flavor": "In den Händen eines geübten Kämpfers werden sie zu tödlichen Begleitern.",
+        "name": "Schmetterlingsschwerter",
+        "text": "[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat]. Nach diesem Angriff darfst du Schmetterlingsschwerter erschöpfen, um erneut zu kämpfen, wobei du für jenen Angriff deinen [agility]-Wert zu deinem Fertigkeitswert hinzufügst. Jener Angriff fügt +1 Schaden zu.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
         "slot": "Hand x2"
+    },
+    {
+        "code": "08026",
+        "name": "Ausweichen",
+        "text": "Schnell. Spiele diese Karte, sobald ein Gegner einen Ermittler an deinem Ort angreift.\nHebe jenen Angriff auf. Lege dann eine [agility]-Probe (1) ab. Falls die Probe gelingt, füge jenem Gegner 1 Schaden zu.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "08027",
+        "name": "Kampftraining",
+        "text": "Schnell. Nur 1 [[Gelassenheit]] im Spiel.\nDu bekommst +1 [combat] und +1 [agility].\nNicht-direkter Schaden/Horror muss Kampftraining zugewiesen werden, bevor er deiner Ermittlerkarte zugewiesen kann.\n[fast] Gib 1 Ressource aus: Du bekommst +1 [combat] oder +1 [agility] für diese Fertigkeitsprobe.",
+        "traits": "Talent. Gelassenheit."
+    },
+    {
+        "code": "08028",
+        "name": "Auf der Jagd",
+        "text": "Schnell. Spiele diese Karte, sobald du in der Mythosphase eine Begegnungskarte ziehen würdest.\nDurchsuche stattdessen das Begegnungsdeck nach einem Gegner, der mit dir in einen Kampf verwickelt erscheint <i>(statt an dem Ort, an dem er normalerweise erscheinen würde)</i>, hänge Auf der Jagd an den Gegner an und mische das Begegnungsdeck.\n[reaction] Sobald du den Gegner mit dieser Verstärkung besiegst: Du erhältst 3 Ressourcen.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "08029",
+        "flavor": "Die Fänge von Tindalos erreichen stets ihre Beute.",
+        "name": "Fangzahn von Tyr'thrha",
+        "text": "<b>Kampf.</b> Wähle einen Gegner an einem beliebigen enthüllten Ort als Ziel für diesen Angriff. Bevor dieser Angriff abgehandelt wird, darfst du dich an den Ort jenes Gegners bewegen. Füge deinen [agility]-Wert zu deinem [combat]-Wert hinzu. Dieser Angriff fügt +3 Schaden zu.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "08030",
+        "name": "Schmetterlingsschwerter",
+        "text": "[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat]. Nach diesem Angriff darfst du erneut kämpfen, wobei du für jenen Angriff deinen [agility]-Wert zu deinem Fertigkeitswert hinzufügst. Falls beide Angriffe erfolgreich sind, darfst du Schmetterlingsschwerter erschöpfen, um den zweiten Angriff +1 Schaden zufügen zu lassen.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08031",
+        "name": "Erzwungenes Lernen",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\nErhöhe deine Deckgröße um 15.\nWährend jeder Unterhaltsphase ziehst du 2 Karten und legst 1 davon ab, statt 1 Karte zu ziehen.",
+        "traits": "Talent. Ritual."
     },
     {
         "code": "08032",
         "name": "Jeremiah Kirby",
-        "subname": "Arctic Archaeologist",
-        "text": "You get +1 [intellect].\n[reaction] After Jeremiah Kirby enters play, choose \"even\" or \"odd:\" Reveal the top 5 cards of your deck. Draw each card with a cost that matches the chosen option. Shuffle the remaining cards into your deck.",
-        "traits": "Ally. Miskatonic. Wayfarer.",
-        "slot": "Ally"
+        "subname": "Arktis-Archäologe",
+        "text": "Du bekommst +1 [intellect].\n[reaction] Nachdem Jeremiah Kirby ins Spiel gekommen ist, wähle „gerade” oder „ungerade”: Enthülle die obersten 5 Karten deines Decks. Ziehe jede Karte, deren Kosten zu der gewählten Option passt. Mische die verbliebenen Karten in dein Deck.",
+        "traits": "Verbündeter. Miskatonic. Wanderer.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08033",
+        "name": "Ley-Linien-Sammlung",
+        "subname": "Unidentifiziert",
+        "text": "Nur 1 pro Deck. Als zusätzliche Kosten, um diese Vorteilskarte zu spielen, platziere je 1 Ressource als Ley-Linie auf 4 verschiedene Orte.\n[reaction] Nachdem du erfolgreich an einem Ort mit einer Ley-Linie ermittelt hast, erschöpfe diese Karte: Bewege jene Ley-Linie auf diese Karte. Falls sich dann 4 Ley-Linien darauf befinden, lege die Karte ab, nimm dir die Ley-Linien als Ressourcen und notiere in deinem Kampagnenlogbuch, dass „du das Tor identifiziert hast”.",
+        "traits": "Gegenstand. Buch. Okkult.",
+        "slot": "Hand"
     },
     {
         "code": "08034",
-        "name": "Written in the Stars",
-        "text": "Fast. Play only during your turn.\nDiscard the top card of your deck. If that card is a weakness, shuffle it back into your deck. Otherwise, for the remainder of your turn, while that card is in your discard pile, commit it to each eligible skill test you perform.",
-        "traits": "Insight."
+        "name": "In den Sternen geschrieben",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nLege die oberste Karte deines Decks ab. Falls jene Karte eine Schwäche ist, mische sie in dein Deck zurück. Ansonsten trage jene Karte für den Rest deines Zuges zu jeder gültigen Fertigkeitsprobe bei, die du durchführst, solange sie sich in deinem Ablagestapel befindet.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "08035",
+        "name": "Wanderstiefel",
+        "text": "Nur 1 [[Schuhwerk]] pro Ermittler.\nDu bekommst +1 [agility].\n[reaction] Nachdem der letzte Hinweis an deinem Ort entdeckt worden ist, erschöpfe Wanderstiefel: Bewege dich an einen verbundenen Ort.",
+        "traits": "Gegenstand. Kleidung. Schuhwerk."
     },
     {
         "code": "08036",
-        "flavor": "The true journey is the one we take in our minds.",
-        "name": "Join the Caravan",
-        "text": "Fast. Play only during your turn. Reduce the cost of this card by 1 for each different class among cards you control.\nMove to any revealed location.",
-        "traits": "Insight. Synergy."
+        "flavor": "Die wahre Reise ist die, die wir in unseren Gedanken erleben.",
+        "name": "Der Karawane anschließen",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug. Senke die Kosten dieser Karte um 1 für jede verschiedene Klasse unter den Karten, die du kontrollierst.\nBewege dich an einen beliebigen enthüllten Ort.",
+        "traits": "Erkenntnis. Synergie."
     },
     {
         "code": "08037",
-        "flavor": "They won't believe you if you don't capture it on film. Hell, they probably still won't believe you.",
-        "name": "Survey the Area",
-        "text": "While Survey the Area is in your hand or committed to a skill test, it gains [intellect] icons equal to your [agility], and [agility] icons equal to your [intellect].",
-        "traits": "Practiced. Expert."
+        "flavor": "Sie werden es dir nicht glauben, wenn du es nicht auf Film hast. Verdammt, wahrscheinlich selbst dann noch nicht.",
+        "name": "Das Gelände vermessen",
+        "text": "Solange sich diese Karte auf deiner Hand befindet oder zu einer Fertigkeitsprobe beigetragen wird, erhält sie [intellect]-Symbole in Höhe deines [agility]-Wertes und [agility]-Symbole in Höhe deines [intellect]-Wertes.",
+        "traits": "Trainiert. Experte."
     },
     {
         "code": "08038",
-        "name": "Medical Texts",
-        "text": "[action]: Choose an investigator at your location and test [intellect] (2). If you succeed, heal 1 damage from that investigator (2 damage instead if you succeed by 2 or more). If you fail, either exhaust Medical Texts or deal 1 damage to that investigator.",
-        "traits": "Item. Tome.",
+        "name": "Medizinische Texte",
+        "text": "[action]: Wähle einen Ermittler an deinem Ort und lege eine [intellect]-Probe (2) ab. Falls die Probe gelingt, heile 1 Schaden von jenem Ermittler (stattdessen 2 Schaden, falls die Probe um 2 oder mehr gelingt). Falls die Probe misslingt, musst du entweder Medizinische Texte erschöpfen oder jenem Ermittler 1 Schaden zufügen.",
+        "traits": "Gegenstand. Buch.",
         "slot": "Hand"
     },
     {
         "code": "08039",
-        "name": "Unearth the Ancients",
-        "text": "<b>Investigate.</b> Choose up to 2 [seeker] assets in your hand. The difficulty of this skill test is equal to the combined cost of the chosen assets. If you succeed, put the chosen assets into play, one at a time. For each [[Relic]] asset put into play by this ability, draw 1 card.",
-        "traits": "Insight."
+        "name": "Bergung uralter Relikte",
+        "text": "<b>Erkenntnis.</b> Wähle bis zu 2 [seeker] Vorteilskarten auf deiner Hand. Die Schwierigkeit dieser Fertigkeitsprobe entspricht den aufgedruckten Gesamtkosten der gewählten Vorteilskarten. Falls die Probe gelingt, bringe die gewählten Vorteilskarten nacheinander ins Spiel. Ziehe 1 Karte für jede durch diese Fähigkeit ins Spiel gebrachte [[Relikt]]-Vorteilskarte.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "08040",
+        "name": "Wissenschaftliche Theorie",
+        "text": "Schnell. Nur 1 [[Gelassenheit]] im Spiel.\nDu bekommst +1 [intellect] und +1 [combat].\nNicht-direkter Schaden/Horror muss Wissenschaftliche Theorie zugewiesen werden, bevor er deiner Ermittlerkarte zugewiesen werden kann.\n[fast] Gib 1 Ressource aus: Du bekommst +1 [intellect] oder +1 [combat] für diese Fertigkeitsprobe.",
+        "traits": "Talent. Gelassenheit."
+    },
+    {
+        "code": "08041",
+        "name": "Ley-Linien-Sammlung",
+        "subname": "Tor nach Tindalos",
+        "text": "Erforscht. Anwendungen (4 Ley-Linien). Nur 1 pro Deck.\n[fast]: Bewege 1 Ley-Linie von dieser Karte auf einen Nicht-[[Elite]]-Gegner.\n[action]: Wähle einen Ermittler und einen Gegner mit Ley-Linie, der sich an einem enthüllten Ort befindet. Jener Ermittler bewegt sich an jenen Ort. Du darfst die Ley-Linie entfernen, um jenem Gegner 1 Schaden zuzufügen.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08042",
+        "name": "Ley-Linien-Sammlung",
+        "subname": "Tor nach Archeron",
+        "text": "Erforscht. Anwendungen (4 Ley-Linien). Nur 1 pro Deck.\n[fast]: Bewege 1 Ley-Linie von dieser Karte auf einen enthüllten Ort.\n[action]: Wähle einen Ermittler und einen enthüllten Ort mit Ley-Linie. Jener Ermittler bewegt sich zu jenem Ort. Du darfst die Ley-Linie entfernen, um ihn eine Ermitteln-Aktion nehmen zu lassen.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08043",
+        "name": "Ley-Linien-Sammlung",
+        "subname": "Tor nach Aldebaran",
+        "text": "Erforscht. Anwendungen (4 Ley-Linien). Nur 1 pro Deck.\n[fast]: Bewege 1 Ley-Linie von dieser Karte auf einen Nicht-[[Elite]]-Gegner.\n[action]: Wähle einen Ermittler, der mit einem Gegner mit Ley-Linie in einen Kampf verwickelt ist. Jener Ermittler löst sich von jenem Gegner und bewegt sich an einen verbundenen Ort. Du darfst die Ley-Linie entfernen, um jenem Gegner automatisch zu entkommen. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08044",
+        "name": "Ley-Linien-Sammlung",
+        "subname": "Tor ins Paradies",
+        "text": "Erforscht. Anwendungen (4 Ley-Linien). Nur 1 pro Deck.\n[fast]: Bewege 1 Ley-Linie von dieser Karte auf einen Ermittler.\n[action]: Wähle einen Ermittler mit Ley-Linie. Jener Ermittler zieht 1 Karte und heilt 1 Schaden oder 1 Horror. Du darfst die Ley-Linie entfernen, um ihn stattdessen 2 Karten ziehen zu lassen und 2 Schaden oder 2 Horror heilen zu lassen.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
     },
     {
         "code": "08045",
         "name": "Prophesiae Profana",
-        "subname": "Atlas of the Unknowable",
-        "text": "While you are not at the locus, you get +1 [intellect], +1 [agility], and you may ignore attacks of opportunity.\n[reaction] After Prophesiae Profana enters play: Choose a revealed location. That location is \"the locus\" until Prophesiae Profana leaves play.\n[action]: Move any investigator to the locus.",
-        "traits": "Item. Relic. Tome.",
+        "subname": "Atlas des Unwissbaren",
+        "text": "Solange du dich nicht am Fokuspunkt befindest, bekommst du +1 [intellect], +1 [agility] und du darfst Gelegenheitsangriffe ignorieren.\n[reaction] Nachdem Prophesiae Profana ins Spiel gekommen ist: Wähle einen entühllten Ort, der zum „Fokuspunkt” wird, bis Prophesiae Profana das Spiel verlässt.\n[action]: Bewege einen beliebigen Ermittler zum Fokuspunkt.",
+        "traits": "Gegenstand. Relikt. Buch.",
         "slot": "Hand"
     },
     {
         "code": "08046",
-        "name": "Underworld Support",
-        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\nYour deck cannot include more than 1 copy of each non-weakness, non-signature card (by title).\nReduce your deck size by 5.",
-        "traits": "Favor. Illicit."
+        "name": "Von der Mafia unterstützt",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\nDein Deck kann nicht mehr als 1 Kopie von jeder Nicht-Schwäche-, Nicht-Signatur-Karte enthalten (nach Name).\nSenke deine Deckgröße um 5.",
+        "traits": "Gefallen. Illegal."
     },
     {
         "code": "08047",
-        "flavor": "\"... a viewless aura repelled me and bade me retreat from antique and sinister secrets that no man should see, and no man else had ever dared to see.\" - H. P. Lovecraft, \"The Nameless City\"",
-        "name": "Scout Ahead",
-        "text": "<b>Move.</b> Move up to 3 times. Enemies do not engage you during this movement.",
-        "traits": "Insight. Trick."
+        "flavor": "„… und eine unsichtbare Ausstrahlung ließ mich ab und befahl mir, mich von den antiken und düsteren Geheimnissen zurückzuziehen, die kein Mensch zu Gesicht bekommen soll und die noch niemand zu sehen gewagt hatte.” - H. P. Lovecraft, „Stadt ohne Namen”",
+        "name": "Auskundschaften",
+        "text": "<b>Bewegen.</b> Bewege dich bis zu 3 Mal. Gegner verwickeln dich bei dieser Bewegung nicht in einen Kampf.",
+        "traits": "Erkenntnis. Trick."
     },
     {
         "code": "08048",
-        "name": "21 or Bust",
-        "text": "One at a time, reveal random tokens from the chaos bag until you choose to stop. Treat each [skull], [cultist], [tablet], or [elder_thing] as a 5; the [auto_fail] as a 10; and the [elder_sign] as either a 1 or an 11. If the combined value of those tokens (ignoring +/-) is...\n- ...18 or less, gain 4 resources.\n- ...19, gain 5 resources.\n- ...20, gain 6 resources.\n- ...21, gain 9 resources.",
-        "traits": "Fortune. Gambit."
+        "name": "21 oder raus",
+        "text": "Enthülle nacheinander zufällige Marker aus dem Chaosbeutel, bis du dich entscheidest aufzuhören. Behandle jeden [skull]-, [cultist]-, [tablet]- oder [elder_thing]-Marker als eine 5; den [auto_fail]-Marker als eine 10; und den [elder_sign]-Marker entweder als eine 1 oder eine 11. Falls der Gesamtwert jener Marker (wobei +/- ignoriert wird)…\n- … 18 oder weniger ist, erhältst du 4 Ressourcen.\n- … 19 ist, erhätst du 5 Ressourcen.\n- … 20 ist, erhältst du 6 Ressourcen.\n- … 21 ist, erhältst du 9 Ressourcen.",
+        "traits": "Glücksfall. Schachzug."
+    },
+    {
+        "code": "08049",
+        "name": "Gegenspionage",
+        "text": "Schnell. Spiele diese Karte, sobald du eine Nicht-Schwäche-Verratskarte ziehst.\nHebe den Enthüllungseffekt jener Karte auf und ziehe die oberste Karte des Begegnungsdecks.\n[reaction] Sobald du Gegenspionage spielst, erhöhe die Kosten dieser Karte um 2: Ändere „des Begegnungsdecks” in „deines Decks”.\n[reaction] Sobald du Gegenspionage spielst, erhöhe die Kosten dieser Karte um 2: Ändere „du … ziehst” in „ein beliebiger Ermittler … zieht”.",
+        "traits": "Gefallen. Dienst."
     },
     {
         "code": "08050",
-        "flavor": "If you weren't supposed to do it, it wouldn't be legal.",
-        "name": "Cheat the System",
-        "text": "Fast. Play during any [fast] window.\nGain 1 resource for each different class among cards you control.",
-        "traits": "Trick. Synergy."
+        "flavor": "Wenn man das nicht tun sollte, warum ist es dann legal?",
+        "name": "Das System überlisten",
+        "text": "Schnell. Spiele diese Karte in einem beliebigen [fast]-Fenster.\nDu erhältst 1 Ressource für jede verschiedene Klasse unter den Karten, die du kontrollierst.",
+        "traits": "Trick. Synergie."
     },
     {
         "code": "08051",
-        "flavor": "\"Really? You're going to haggle with me now?\"",
-        "name": "Untimely Transaction",
-        "text": "Reveal an [[Item]] asset in your hand. Another investigator at your location may play that asset as if it were in their hand. If they do, draw 1 card and gain resources equal to that asset's printed cost.",
-        "traits": "Favor."
+        "flavor": "„Ist das Ihr Ernst? Sie wollen <i>jetzt</i> mit mir feilschen?”",
+        "name": "Ungelegener Handel",
+        "text": "Enthülle eine [[Gegenstand]]-Vorteilskarte von deiner Hand. Ein anderer Ermittler an deinem Ort darf jene Vorteilskarte spielen, als ob sie sich auf seiner Hand befände. Falls er dies tut, ziehe 1 Karte und erhalte Ressourcen in Höhe der aufgedruckten Kosten jener Vorteilskarte.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "08052",
+        "flavor": "Fünfzig Prozent Glück, hundert Prozent Können.",
+        "name": "Hochbegabt",
+        "text": "Hochbegabt erhält [wild]-Symbole in Höhe deines niedrigesten Fertigkeitswert, mit dem diese Probe nicht abgelegt wird.",
+        "traits": "Angeboren. Entwickelt."
     },
     {
         "code": "08053",
-        "name": "The Red Clock",
-        "subname": "Broken but Reliable",
-        "text": "Exceptional. Uses (0 charges).\n<b>Forced</b> - After your turn begins: Either place 1 charge here, or take all charges here, as resources. Then, if it has exactly...\n- 1 charge, you get +3 skill value for your next skill test.\n- 2 charges, you may move up to 2 times.\n- 3 charges, you may take an additional action this turn.",
-        "traits": "Item. Relic.",
-        "slot": "Accessory"
+        "name": "Die Rote Uhr",
+        "subname": "Kaputt, aber zuverlässig",
+        "text": "Außergewöhnlich. Anwendungen (0 Ladungen).\n<b>Erzwungen</b> - Nachdem dein Zug begonnen hat: Platziere hier entweder 1 Ladung oder nimm dir alle Marker von hier als Ressourcen. Falls hier dann genau …\n- … 1 Ladung liegt, bekommst du +3 auf den Fertigkeitswert deiner nächsten Fertigkeitsprobe.\n- … 2 Ladungen liegen, darfst du dich bis zu 2 Mal bewegen.\n- … 3 Ladungen liegen, darfst du in diesem Zug 1 zusätzliche Aktion nehmen.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "08054",
+        "name": "Geld regiert die Welt",
+        "text": "Schnell. Spiele diese Karte, sobald ein Ermittler an einem beliebigen Ort eine Fertigkeitsprobe initiiert.\nStatt einer Probe für die angegebene Fertigkeitsart ([willpower], [intellect], [combat] oder [agility]) handelt es sich um eine Ressourcen-Fertigkeitsprobe. Für diese Probe entspricht der Grundfertigkeitswert des Ermittlers, der diese Probe durchführt, der Hälfte der Ressourcen in seinem Ressourcenvorrat (abgerundet). Ziehe 1 Karte.",
+        "traits": "Gefallen. Schachzug."
+    },
+    {
+        "code": "08055",
+        "name": "Schwarzmarkt",
+        "text": "Schnell. Spiele diese Karte zu Beginn der Ermittlungsphase.\nEnthülle nacheinander Karten oben von beliebigen Ermittlerdecks, bis genau 5 Karten enthüllt worden sind. Lege jene Karten als nicht im Spiel befindlich beseite. Solange jene Karten beiseitegelegt sind, darf sie jeder beliebiger Ermittler spielen, als ob sie sich auf seiner Hand befänden. Zu Beginn der nächsten Ermittlungsphase werden jene Karten, die noch immer beiseitegelegt sind, ins jeweilige Deck ihrer Besitzer gemischt.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "08056",
+        "name": "Tatkraft",
+        "text": "Schnell. Nur 1 [[Gelassenheit]] im Spiel.\nDu bekommst +1 [willpower] und +1 [agility].\nNicht-direkter Schaden/Horror muss Tatkraft zugewiesen werden, bevor er deiner Ermittlerkarte zugewiesen werden kann.\n[fast] Gib 1 Ressource aus: Du bekommst +1 [willpower] oder +1 [agility] für diese Fertigkeitsprobe.",
+        "traits": "Talent. Gelassenheit."
+    },
+    {
+        "code": "08057",
+        "name": "Der Schwarze Fächer",
+        "subname": "Symbol der Macht",
+        "text": "Außergewöhnlich.\nSolange du …\n- … 10+ Ressourcen hast, bekommst du +1 Ausdauer und +1 geistige Gesundheit.\n- … 15+ Ressourcen hast, darfst du in deinem Zug eine zusätzliche Aktion nehmen.\n- … 20+ Ressourcen hast, bekommst du +1 auf jeden deiner Fertigkeitswerte.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08058",
+        "name": "Die Rote Uhr",
+        "subname": "Kaputt, aber zuverlässig",
+        "text": "Außergewöhnlich. Anwendungen (0 Ladungen).\n<b>Erzwungen</b> - Nachdem dein Zug begonnen hat: Du darfst dir alle Marker von hier als Ressourcen nehmen. Platziere hier 1 Ladung. Falls hier genau…\n- … 1 Ladung liegt, bekommst du +4 auf den Fertigkeitswert deiner nächsten Fertigkeitsprobe.\n- … 2 Ladungen liegen, darfst du dich bis zu 3 Mal bewegen.\n- … 3 Ladungen liegen, darfst du in diesem Zug 2 zusätzliche Aktionen nehmen.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "08059",
+        "name": "Hinunter in den Kaninchenbau",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\nSenke nach jedem Szenario einer Kampagne die Erfahrungspunktekosten der ersten 2 Karten, die du vor dem nächsten Szenario verbesserst, um 1.\nErhöhe für dich die Erfahrungspunktekosten, um neue Karten zu erwerben, um 1.",
+        "traits": "Talent."
     },
     {
         "code": "08060",
-        "name": "Dragon Pole",
-        "text": "You have 1 additional arcane slot.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack for each of your arcane slots that is filled. If at least 2 of your arcane slots are filled, this attack deals +1 damage.",
-        "traits": "Item. Weapon. Melee.",
+        "name": "Drachenstab",
+        "text": "Du hast 1 zusätzlichen arkanen Slot.\n[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat] für jeden deiner gefüllten arkanen Slots. Falls mindestens 2 deiner arkanen Slots gefüllt sind, fügt dieser Angriff +1 Schaden zu.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
         "slot": "Hand x2"
     },
     {
         "code": "08061",
-        "flavor": "You let your mind drift into cold, meaningless oblivion.\nThe emptiness feels like home.",
+        "flavor": "Lass deinen Geist in die kalte Bedeutungslosigkeit abschweifen.\nLass die Leere, die dich dort erwartet, zu deinem zweiten Zuhause werden.",
         "name": "Meditative Trance",
-        "text": "For each of your arcane slots that is filled, either heal 1 damage or 1 horror.",
-        "traits": "Insight. Spirit."
+        "text": "Für jeden deiner gefüllten arkanen Slots heile entweder 1 Schaden oder 1 Horror.",
+        "traits": "Erkenntnis. Geist."
+    },
+    {
+        "code": "08062",
+        "name": "Den Kreis schließen",
+        "text": "Anwendungen (1 Ladung für jede verschiedene Klasse unter den Karten, die du kontrollierst, inklusive dieser).\n[fast] Gib 1 Ladung aus und erschöpfe diese Karte: Nimm eine Basisaktion. Für jede Fertigkeitsprobe, die du während jener Aktion durchführst, darfst du deine [willpower] verwenden, statt die bei jener Aktion angegebene Fertigkeit.",
+        "traits": "Ritual. Synergie.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08063",
+        "flavor": "Auf das uns Oyas Atem leiten möge.",
+        "name": "Winde der Macht",
+        "text": "Platziere 2 Ladungen auf einer Vorteilskarte, die du kontrollierst.\n[reaction] Nachdem du diese Karte in deinem Zug gezogen hast: Spiele sie.",
+        "traits": "Geist."
     },
     {
         "code": "08064",
-        "name": "Foresight",
-        "text": "Fast. Play when an investigator at your location would draw a card from their deck or from the encounter deck.\nName a card. If the drawn card is the named card, that investigator may either (choose one):\n- Cancel that card's effects and discard it.\n- Immediately play that card at -2 cost.",
-        "traits": "Augury."
+        "name": "Voraussicht",
+        "text": "Schnell. Spiele diese Karte, sobald ein Ermittler an deinem Ort eine Karte von seinem Deck oder vom Begegnungsdeck ziehen würde.\nBenenne eine Karte. Falls die gezogene Karte die benannte Karte ist, darf jener Ermittler entweder (wähle eins):\n- Hebe jene Karteneffekte auf und lege jene Karte ab.\n- Spiele jene Karte sofort für -2 Kosten.",
+        "traits": "Weissagung."
+    },
+    {
+        "code": "08065",
+        "flavor": "Wenn es an Wissen fehlt, muss Glaube ausreichen.",
+        "name": "Okkulte Theorie",
+        "text": "Solange sich diese Karte auf deiner Hand befindet oder zu einer Fertigkeitsprobe beigetragen wird, erhält sie [willpower]-Symbole in Höhe deines [intellect]-Wertes und [intellect]-Symbole in Höhe deiner [willpower].",
+        "traits": "Trainiert. Experte."
+    },
+    {
+        "code": "08066",
+        "flavor": "„Wenn ich Ihnen sagen würde, dass ich Ihnen den Zeitpunkt Ihres Todes nennen könnte, würden Sie es wissen wollen?”",
+        "name": "Gleichlaufende Schicksale",
+        "text": "Sieh dir die obersten 6 Karten eines Ermittlerdecks oder des Begegnungsdecks an. Du darfst sie entweder in beliebiger Reihenfolge auf das jeweilige Deck zurücklegen oder sie ins jeweilige Deck mischen. Falls du dir ein Ermittlerdeck angesehen hast, darf jener Ermittler 1 Karte ziehen.",
+        "traits": "Weissagung."
     },
     {
         "code": "08067",
-        "name": "Astronomical Atlas",
-        "text": "[fast] Exhaust Astronomical Atlas: Look at the top card of your deck. If it is not a weakness, attach it facedown to Astronomical Atlas (max 5 cards attached).\n[fast]: Commit a card attached to Astronomical Atlas to an eligible skill test. If that test succeeds, add that card to your hand instead of discarding it. (Limit once per test.)",
-        "traits": "Item. Tome.",
+        "name": "Astronomischer Atlas",
+        "text": "[fast] Erschöpfe Astronomischer Atlas: Sieh dir die oberste Karte deines Decks an. Falls es keine Schwäche ist, hänge sie verdeckt an Astronomischer Atlas an. (Max. 5 angehänge Karten)\n[fast]: Trage eine Karte, die an Astronomischer Atlas angehängt ist, zu einer gültigen Fertigkeitsprobe bei. Falls jene Probe gelingt, füge jene Karte deiner Hand hinzu, anstatt sie abzulegen. (Nur ein Mal pro Probe.)",
+        "traits": "Gegenstand. Buch.",
         "slot": "Hand"
     },
     {
+        "code": "08068",
+        "flavor": "Du vertraust den okkulten Worten nicht wirklich, aber du hast keine andere Wahl.",
+        "name": "Worte der Heilung",
+        "text": "Anwendungen (4 Ladungen).\n[action] Gib 1 Ladung aus: Heile 2 Schaden von Ermittlern an deinem Ort.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08069",
+        "name": "In sich ruhend",
+        "text": "Schnell. Nur 1 [[Gelassenheit]] im Spiel.\nDu bekommst +1 auf deinen Fertigkeitswert während Fertigkeitsproben auf [[Zauber]]-Karten.\nNicht-direkter Schaden/Horror muss In sich ruhend zugewiesen werden, bevor er deiner Ermittlerkarte zugewiesen werden kann.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Zauber]]-Karte, gib 1 Ressource aus: Du bekommst +1 auf deinen Fertigkeitswert für diese Probe.",
+        "traits": "Talent. Gelassenheit."
+    },
+    {
+        "code": "08070",
+        "name": "Wahre Magick",
+        "subname": "Umwandlung der Realität",
+        "text": "Anwendungen (1 Ladung). Fülle diese Ladung zu Beginn jeder Runde auf.\nDu darfst Fähigkeiten auf [[Zauber]]-Vorteilskarten auf deiner Hand abhandeln, indem du sie von deiner Hand enthüllst. Behandle Wahre Magick, als ob diese die enthüllte Vorteilskarte wäre <i>(um Kosten zu bezahlen, Ladungen auszugeben, ihre Effekte durchzuführen usw.)</i>.",
+        "traits": "Gegenstand. Relikt. Buch.",
+        "slot": "Hand. Arkan"
+    },
+    {
         "code": "08071",
-        "flavor": "You can only pray that it's enough.",
-        "name": "Short Supply",
-        "text": "Permanent. Limit 1 per deck. Purchase at deck creation.\n<b>Forced</b> - When your first turn of the game begins: Discard the top 10 cards of your deck.",
+        "flavor": "Jetzt hilft nur noch beten, dass er ausreicht.",
+        "name": "Knapper Vorrat",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\n<b>Erzwungen</b> - Sobald dein erster Zug des Spiels beginnt: Lege die obersten 10 Karten deines Decks ab.",
         "traits": "Talent."
     },
     {
         "code": "08072",
-        "name": "Schoffner's Catalogue",
-        "text": "Uses (5 secrets). If Schoffner's Catalogue has no secrets, discard it.\nYou may spend secrets on Schoffner's Catalogue as resources to pay for [[Item]] assets played by any investigator at your location.",
-        "traits": "Item. Tome."
+        "name": "Schoffners Katalog",
+        "text": "LAnwendungen (5 Geheimnisse). Falls Schoffners Katalog keine Geheimnisse hat, lege diese Karte ab.\nDu darfst Geheimnisse auf Schoffners Katalog als Ressourcen ausgeben, um für [[Gegenstand]]-Vorteilskarten zu bezahlen, die von einem beliebigen Ermittler an deinem Ort gespielt werden.",
+        "traits": "Gegenstand. Buch."
+    },
+    {
+        "code": "08073",
+        "name": "Wundverbände",
+        "text": "Anwendungen (3 Vorräte). Falls Wundverbände keine Vorräte hat, lege diese Karte ab.\n[reaction] Nachdem ein Ermittler oder eine [[Verbündeter]]-Vorteilskarte an deinem Ort 1 oder mehr Schaden nimmt, gib 1 Vorrat aus: Heile 1 Schaden von jener Karte.",
+        "traits": "Gegenstand."
+    },
+    {
+        "code": "08074",
+        "flavor": "Wenn es nicht in alle Einzelteile zerbrochen ist, kann man es noch verbessern.",
+        "name": "Aufgepeppt",
+        "text": "Anwendungen (3 Haltbarkeit).\nHänge diese Karte an eine [[Gegenstand]]-Vorteilskarte an, die ein Ermittler an deinem Ort kontrolliert.\n[fast] Gib während einer Fertigkeitsprobe auf der Vorteilskarte mit dieser Verstärkung 1 Haltbarkeit aus: Du bekommst +2 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Verbesserung."
+    },
+    {
+        "code": "08075",
+        "name": "Armband der Flüche",
+        "text": "Anwendungen (1 Ladung).\n[fast] Gib 1 Ladung aus: Du bekommst +2 auf den Fertigkeitswert dieser Probe. (Nur ein Mal pro Probe.)\n[reaction] Nachdem dich ein Gegner angegriffen hat: Platziere 1 Ladung auf Armband der Flüche.",
+        "traits": "Gegenstand. Glücksbringer. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "08076",
+        "name": "Nach dem Lesen verbrennen",
+        "text": "Schicke eine Karte der Stufe 0-5 von deiner Hand ins Exil. Entdecke 2 Hinweise an deinem Ort. Falls die ins Exil geschickte Karte Stufe 2 oder höher war, entferne 1 Verderben von der aktuellen Agenda. Schicke Nach dem Lesen verbrennen ins Exil.\n<b>Kartenentwurf vom Council-in-Exile auf der Gen Con 2020</b>",
+        "traits": "Erkenntnis."
     },
     {
         "code": "08077",
-        "flavor": "\"Watch my back, will ya? In fact, watch my front, too.\"",
-        "name": "Strength in Numbers",
-        "text": "Strength in Numbers gains a [wild] icon for each different class among cards you control.",
-        "traits": "Innate. Synergy."
+        "flavor": "„Achte drauf, was von hinten kommt? Und auch auf das, was von vorne kommt.”",
+        "name": "Gemeinsam sind wir stark",
+        "text": "Diese Karte erhält ein [wild]-Symbol für jede verschiedene Klasse unter den Karten, die du kontrollierst.",
+        "traits": "Angeboren. Synergie."
+    },
+    {
+        "code": "08078",
+        "flavor": "Das wird ja immer besser und besser.",
+        "name": "Unverzagter Geist",
+        "text": "Solange sich diese Karte auf deiner Hand befindet oder zu einer Fertigkeitsprobe beigetragen wird, erhält sie [willpower]-Symbole in Höhe deines [combat]-Wertes und [combat]-Symbole in Höhe deines [willpower]-Wertes.",
+        "traits": "Angeboren. Entwickelt."
+    },
+    {
+        "code": "08079",
+        "name": "Blut fordert Blut",
+        "text": "Schnell. Spiele diese Karte, nachdem dich ein Gegner angegriffen hat. Max. 1 pro Angriff.\nSchaden/Horror dieses Angriffs kann nicht [[Verbündeter]]-Vorteilskarten zugewiesen werden. Ziehe 1 Karte für jeden Punkt Schaden und/oder Horror, den du durch diesen Angriff genommen hast.",
+        "traits": "Pakt. Verflucht."
     },
     {
         "code": "08080",
-        "name": "Fire Extinguisher",
-        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +1 damage for this attack.\n[action] Discard Fire Extinguisher: <b>Evade.</b> Automatically evade all enemies engaged with you. You may exile Fire Extinguisher instead of discarding it to discard each non-[[Elite]] evaded by this effect.",
+        "name": "Feuerlöscher",
+        "text": "[action]: <b>Kampf.</b> Du bekommst +1 [combat] und fügst für diesen Angriff +1 Schaden zu.\n[action] Lege Feuerlöscher ab: <b>Entkommen.</b> Du entkommst automatisch allen Gegnern, die mit dir in einen Kampf verwickelt sind. Du darfst Feuerlöscher ins Exil schicken, statt ihn abzulegen, um jeden durch diesen Efffekt entkommenen Nicht-[[Elite]]-Gegner abzulegen.",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
         "slot": "Hand"
     },
     {
+        "code": "08081",
+        "name": "Beherzt",
+        "text": "Schnell. Nur 1 [[Gelassenheit]] im Spiel.\nDu bekommst +1 [willpower] und +1 [intellect].\nNicht-direkter Schaden/Horror muss Beherzt zugewiesen werden, bevor er deiner Ermittlerkarte zugewiesen werden kann.\n[fast] Gib 1 Ressource aus: Du bekommst +1 [willpower] oder +1 [intellect] für diese Fertigkeitsprobe.",
+        "traits": "Talent. Gelassenheit."
+    },
+    {
         "code": "08082",
-        "name": "Fend Off",
-        "text": "Fast. Play when a non-[[Elite]] enemy spawns at your location.\nThat enemy attacks you. Then, automatically evade that enemy and attach Fend Off to it.\nAttached enemy cannot ready.",
-        "traits": "Gambit. Trick."
+        "name": "Davonkommen",
+        "text": "Schnell. Spiele diese Karte, sobald ein Nicht-[[Elite]]-Gegner an deinem Ort erscheint.\nJener Gegner greift dich an. Dann entkommst du jenem Gegner automatisch und hängst Davonkommen an ihn an.\nDer Gegner mit dieser Verstärkung kann nicht spielbereit gemacht werden.",
+        "traits": "Schachzug. Trick."
     },
     {
         "code": "08083",
-        "flavor": "\"Can I get course credit for this?\"",
-        "name": "Medical Student",
-        "text": "[reaction] After Medical Student enters play: Heal 1 damage and 1 horror from an investigator or [[Ally]] asset at your location.",
-        "traits": "Ally. Miskatonic. Science.",
-        "slot": "Ally"
+        "flavor": "„Ist das auch klausurrelevant?”",
+        "name": "Medizinstudentin",
+        "text": "[reaction] Nachdem Medizinstudentin ins Spiel gekommen ist: Heile 1 Schaden und 1 Horror von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte an deinem Ort.",
+        "traits": "Verbündeter. Miskatonic. Wissenschaft.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08084",
+        "flavor": "„Das Spiel hat begonnen!”",
+        "name": "Auf der Fährte",
+        "text": "Wähle einen Gegner an einem beliebigen Ort außer deinem Ort. Bewege dich entweder 2 Mal auf jenen Gegner zu oder entdecke 1 Hinweis an einem beliebigen leeren Ort auf der kürzesten Verbindung zwischen dir und dem gewählten Gegner.",
+        "traits": "Erkenntnis. Taktik."
     },
     {
         "code": "08085",
-        "flavor": "\"The game is afoot!\"",
-        "name": "On the Trail",
-        "text": "Choose an enemy at any location other than yours. Move twice toward that enemy. Discover 1 clue at each location you entered by this effect.",
-        "traits": "Insight. Tactic."
+        "flavor": "„Das Spiel hat begonnen!”",
+        "name": "Auf der Fährte",
+        "text": "Wähle einen Gegner an einem beliebigen Ort außer deinem Ort. Bewege dich 2 Mal auf jenen Gegner zu. Du entdeckst 1 Hinweis an jedem Ort, den du durch diesen Effekt betrittst.",
+        "traits": "Erkenntnis. Taktik."
     },
     {
         "code": "08086",
         "name": "Michael Leigh",
-        "subname": "Experienced Hunter",
-        "text": "You get +1 [intellect] and +1 [combat].\n[reaction] After you successfully investigate: Place 1 resource <i>(from the token pool)</i> on Michael Leigh, as evidence (to a maximum of 3 evidence).\n[reaction] When you initiate an attack, exhaust Michael Leigh and spend 1 evidence: You deal +1 damage for this attack.",
-        "traits": "Ally. Detective.",
-        "slot": "Ally"
+        "subname": "Erfahrener Jäger",
+        "text": "Du bekommst +1 [intellect] und +1 [combat].\n[reaction] nachdem du erfolgreich ermittelt hast: Platziere 1 Ressource <i>(aus dem Markervorrat)</i> als ein Beweis auf Michael Leigh (bis zu einem Maximum von 3 Beweisen).\n[reaction] Sobald du einen Angriff initiierst, erschöpfe Michael Leigh und gib 1 Beweis aus: Du fügst für diesen Angriff +1 Schaden zu.",
+        "traits": "Verbündeter. Detective.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08087",
+        "name": "Gezielter Schuss",
+        "text": "Während deiner nächsten Kampfaktion, die du in diesem Zug durchführst, bei der du eine [[Fernkampf]]- oder [[Feuerwaffe]]-Vorteilskarte verwendest, behandle jeden [skull]-, [cultist]-, [tablet]-, [elder_thing]- oder [auto_fail]-Marker, den du enthüllst, als „0”-Marker. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "08088",
+        "name": "Alte Schrotflinte",
+        "text": "Anwendungen (0 Munition). Solange du ein Ereignis spielst, behandle den Anwendungen-Wert von Alte Schrotflinte als 2.\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst +3 [combat]. Statt seines normalen Schadens fügt dieser Angriff Schaden in Höhe der Punkte zu, um die diese Probe gelungen ist oder, falls du einem anderen Ermittler Schaden zufügen würdest, um die sie misslungen ist (Minimum 1, Maximum 3).",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08089",
+        "name": "Schnellzug-Holster",
+        "text": "[fast]: Wähle eine [[Feuerwaffe]]-Vorteilskarte in deiner Spielzone, die nur 1 Handslot benötigt. Hänge jene Karte an Schnellzug-Holster an oder tausche sie mit einer an Schnellzug-Holster angehängten Vorteilskarte aus. Die angehängte Vorteilskarte benötigt keine Handslots. (Nur 1 angehängte Vorteilskarte.)\n[fast] Erschöpfe Schnellzug-Holster: Führe eine Kampfaktion auf der angehängten Vorteilskarte aus, ohne ihre [action]-Kosten zu zahlen.",
+        "traits": "Gegenstand. Werkzeug. Illegal.",
+        "slot": "Körper"
     },
     {
         "code": "08090",
-        "name": "Brand of Cthugha",
-        "text": "Uses (6 charges).\n[action]: <b>Fight.</b> You may use [willpower] instead of [combat], and you get +1 skill value for this attack. If you succeed, spend 1 or 2 charges. Instead of its standard damage, this attack deals 1 damage for each charge spent. If you succeed by 0, lose 1 action.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Flamme von Cthugha",
+        "text": "Anwendungen (6 Ladungen).\n[action]: <b>Kampf.</b> Für diesen Angriff darfst du [willpower] statt [combat] verwenden und bekommst +1 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1 oder 2 Ladungen aus. Statt seines normalen Schadens fügt dieser Angriff 1 Schaden für jede ausgegebene Ladung zu. Falls die Probe um 0 gelingt, verlierst du 1 Aktion.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
     },
     {
         "code": "08091",
         "name": "Nkosi Mabati",
-        "subname": "Enigmatic Warlock",
-        "text": "[reaction] After Nkosi Mabati enters play: Name a non-[elder_sign] chaos token with a symbol. Until this card leaves play, the named symbol is your \"sigil.\"\n[reaction] When an investigator at your location reveals a [cultist], [tablet], or [elder_thing] symbol, exhaust Nkosi Mabati: search the chaos bag for your sigil and reveal it, instead <i>(returning the other token to the chaos bag)</i>.",
-        "traits": "Ally. Sorcerer.",
-        "slot": "Ally"
+        "subname": "Mysteriöser Hexer",
+        "text": "[reaction] Nachdem Nkosi Mabati ins Spiel gekommen ist: Benenne einen Nicht-[elder_sign]-Chaosmarker mit einem Symbol. Solange diese Karte im Spiel ist, ist das benannte Symbol dein „Siegel”.\n[reaction] Sobald ein Ermittler an deinem Ort ein [cultist]-, [tablet]- oder [elder_thing]-Symbol enthüllt, erschöpfe Nkosi Mabati: Durchsuche stattdessen den Chaosbeutel nach deinem Siegel und enthülle es <i>(der andere Marker wird in den Chaosbeutel zurückgeschickt)</i>.",
+        "traits": "Verbündeter. Zauberer.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08092",
+        "name": "Flamme von Cthugha",
+        "text": "Anwendungen (9 Ladungen).\n[action]: <b>Kampf.</b> Für diesen Angriff darfst du [willpower] statt [combat] verwenden und bekommst +2 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1, 2 oder 3 Ladungen aus. Statt seines normalen Schadens fügt dieser Angriff 1 Schaden für jede ausgegebene Ladung zu. Falls die Probe um 0 gelingt, verlierst du 2 Aktionen.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
     },
     {
         "code": "08093",
-        "name": "Cyclopean Hammer",
-        "text": "[action]: <b>Fight.</b> Add your [willpower] to your skill value for this attack. You deal +1 damage for this attack. If you succeed and the enemy is non-[[Elite]], you may move it one location away from you. (If you succeed by 3 or more, you instead deal +2 damage and may move the enemy up to two locations away from you.)",
-        "traits": "Item. Relic. Weapon. Melee.",
+        "name": "Zyklopischer Hammer",
+        "text": "[action]: <b>Kampf.</b> Füge für diesen Angriff deinen [willpower]-Wert zu deinem Fertigkeitswert hinzu. Du fügst für diesen Angriff +1 Schaden zu. Falls die Probe gelingt und der Gegner Nicht-[[Elite]] ist, darfst du ihn 1 Ort von dir weg bewegen. (Falls die Probe um 3 oder mehr gelingt, füge dem Gegner stattdessen +2 Schaden zu und du darfst ihn bis zu 2 Orte von dir weg bewegen.)",
+        "traits": "Gegenstand. Relikt. Waffe. Nahkampf.",
         "slot": "Hand x2"
+    },
+    {
+        "code": "08094",
+        "flavor": "20 Pfund reinste Rache aus Stahl.",
+        "name": "Vorschlaghammer",
+        "text": "[action]: <b>Kampf.</b> Du bekommst für diesen Angriff -1 [combat] und fügst +1 Schaden zu.\n[action] [action]: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat] und fügst +2 Schaden zu.",
+        "traits": "Gegenstand. Werkzeug. Waffe. Nahkampf.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08095",
+        "flavor": "Nach all dem, was du gesehen hast, ist es wohl besser, auch darin zu schlafen.",
+        "name": "Schutzanzug",
+        "text": "[reaction] Sobald du eine [[Gefahr]]-Verratskarte ziehst, füge Schutzanzug 1 Schaden und 1 Horror zu: Hebe den Enthüllungseffekt jener Karte auf.",
+        "traits": "Gegenstand. Rüstung.",
+        "slot": "Körper"
+    },
+    {
+        "code": "08096",
+        "flavor": "25 Pfund reinste Rache aus Stahl.",
+        "name": "Vorschlaghammer",
+        "text": "[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat] und fügst +1 Schaden zu.\n[action] [action] [action]: <b>Kampf.</b> Du bekommst für diesen Angriff +5 [combat] und fügst +5 Schaden zu.",
+        "traits": "Gegenstand. Werkzeug. Waffe. Nahkampf.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08097",
+        "name": "Taschenteleskop",
+        "text": "[fast] Erschöpfe Taschenteleskop: Sieh dir die enthüllte Seite eines verbundenen verhüllten Ortes an.\n[action]: <b>Ermitteln.</b> Ermittle an einem verbundenen Ort, als ob du dich an jenem Ort befändest.",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08098",
+        "name": "Karte der Zeitalter",
+        "text": "Anwendungen (3 Geheimnisse).\n[fast] Erschöpfe während deines Zuges Karte der Zeitalter und gib 1 Geheimnis aus: Wähle und nimm 1 der folgenden Aktionen (Bewegen, Entkommen oder Ermitteln).",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
     },
     {
         "code": "08099",
         "name": "Gené Beauregard",
-        "text": "You get +1 [intellect] and +1 [agility].\n[reaction] During your turn, after you move to a location, exhaust Gené Beauregard: Move a clue or a non-[[Elite]] elite enemy from a connecting location to your location, or vice versa.",
-        "slot": "Ally"
+        "subname": "Unerschrockene Entdeckerin",
+        "text": "Du bekommst +1 [intellect] und +1 [agility].\n[reaction] Nachdem du dich während deines Zuges an einen Ort bewegt hast, erschöpfe Gené Beauregard: Bewege einen Hinweis oder einen Nicht-[[Elite]]-Gegner von einem verbundenen Ort an deinen Ort oder umgekehrt.",
+        "traits": "Verbündeter. Wanderer.",
+        "slot": "Verbündeter"
     },
     {
         "code": "08100",
-        "name": "Eon Chart",
-        "text": "Uses (3 secrets).\n[fast] During your turn, exhaust Eon Chart and spend 1 secret: Choose and take two of the following actions, in any order (move, evade, or investigate).",
-        "traits": "Item. Relic.",
-        "slot": "Accessory"
+        "name": "Karte der Zeitalter",
+        "text": "Anwendungen (3 Geheimnisse).\n[fast] Erschöpfe während deines Zuges Karte der Zeitalter und gib 1 Geheimnis aus: Wähle 2 der folgenden Aktionen und nimm sie in beliebiger Reihenfolge (Bewegen, Entkommen oder Ermitteln).",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
     },
     {
         "code": "08101",
-        "name": "Divination",
-        "text": "Uses (4 charges).\n[action]: <b>Investigate.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +1 skill value. If you succeed, spend 1 or 2 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. If you succeed by 0, choose and discard a card from your hand.",
-        "traits": "Spell. Augury.",
-        "slot": "Arcane"
+        "name": "Vorhersagung",
+        "text": "Anwendungen (4 Ladungen).\n[action]: <b>Ermitteln.</b> Für diese Ermittlung darfst du [willpower] statt [intellect] verwenden und bekommst +1 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1 oder 2 Ladungen aus. Statt einen Hinweis an deinem Ort zu entdecken, entdeckst du 1 Hinweis an deinem Ort für jede ausgegebene Ladung. Falls die Probe um 0 gelingt, wähle 1 Karte von deiner Hand und lege sie ab.",
+        "traits": "Zauber. Weissagung.",
+        "slot": "Arkan"
     },
     {
         "code": "08102",
-        "flavor": "All living things have breath.\nBe careful they do not curse you with theirs.",
-        "name": "Protecting the Anirniq",
-        "text": "Fast. Play after an [[Ally]] asset at your location is discarded by a card effect or is defeated.\nEither return that asset to its owner's hand, or its owner draws 3 cards.",
+        "flavor": "Alles, was lebt, hat einen Atem.\nPass auf, dass dich nichts damit verflucht.",
+        "name": "Die Anirniq beschützen",
+        "text": "Schnell. Spiele diese Karte, nachdem eine [[Verbündeter]]-Vorteilskarte an deinem Ort durch einen Karteneffekt abgelegt oder besiegt worden ist.\nSchicke jene Vorteilskarte entweder auf die Hand ihres Besitzers zurück oder ihr Besitzer zieht 3 Karten.",
         "traits": "Ritual."
+    },
+    {
+        "code": "08103",
+        "name": "Vorhersagung",
+        "text": "Anwendungen (6 Ladungen).\n[action]: <b>Ermitteln.</b> Für diese Ermittlung darfst du [willpower] statt [intellect] verwenden und bekommst +2 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1, 2 oder 3 Ladungen aus. Statt einen Hinweis an deinem Ort zu entdecken, entdeckst du 1 Hinweis an deinem Ort für jede ausgegebene Ladung. Falls die Probe um 0 gelingt, wähle 2 Karten von deiner Hand und lege sie ab.",
+        "traits": "Zauber. Weissagung.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08104",
+        "name": "Professor William Webb",
+        "subname": "Finder verborgener Verbindungen",
+        "text": "Anwendungen (3 Geheimnisse).\n[reaction] Sobald du erfolgreich ermittelt hast, erschöpfe Professor William Webb und gib 1 Geheimnis aus: Statt einen Hinweis an deinem Ort zu entdecken, wähle entweder eine [[Gegenstand]]-Karte in deinem Ablagestapel und füge sie deiner Hand hinzu oder du entdeckst 1 Hinweis an einem verbundenen Ort.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08105",
+        "name": "Eispickel",
+        "text": "Schnell.\n[fast] Während einer Fertigkeitsprobe, bei der du kämpfst oder ermittelst, erschöpfe Eispickel: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
+        "slot": "Hand"
     },
     {
         "code": "08106",
         "name": "Professor William Webb",
-        "subname": "Finder of Hidden Connections",
-        "text": "Uses (3 secrets).\n[reaction] When you successfully investigate, exhaust Professor William Webb and spend 1 secret: Choose an [[Item]] card in your discard pile and add it to your hand. Instead of discovering a clue at your location, you may discover a clue at a connecting location.",
-        "traits": "Ally. Miskatonic.",
-        "slot": "Ally"
+        "subname": "Finder verborgener Verbindungen",
+        "text": "Anwendungen (3 Geheimnisse).\n[reaction] Sobald du erfolgreich ermittelt hast, erschöpfe Professor William Webb und gib 1 Geheimnis aus: Wähle eine [[Gegenstand]]-Karte in deinem Ablagestapel und füge sie deiner Hand hinzu. Statt einen Hinweis an deinem Ort zu entdecken, darfst du 1 Hinweis an einem verbundenen Ort entdecken.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08107",
+        "name": "Eispickel",
+        "text": "Schnell.\n[fast] Während einer Fertigkeitsprobe, bei der du kämpfst oder ermittelst, erschöpfe Eispickel: Du bekommst +1 auf den Fertigkeitswert dieser Probe. Falls die Probe gelingt, darfst du Eispickel ablegen, um diesen Angriff +1 Schaden zufügen zu lassen <i>(falls du kämpfst)</i>, oder um an deinem Ort 1 zusätzlichen Hinweis zu entdecken <i>(falls du ermittelst)</i>.",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08108",
+        "flavor": "„Und nun zu meinem nächsten Trick…”",
+        "name": "Ätherischer Tausch",
+        "text": "Wähle einen Nicht-[[Elite]]-Gegner an einem bis zu 2 Verbindungen entfernten enthüllten Ort. Tausche mit jenem Gegner den Platz.",
+        "traits": "Zauber. Trick."
     },
     {
         "code": "08109",
-        "name": "Blur",
-        "text": "Uses (3 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility], and you get +1 skill value. If you succeed, spend 1 charge and you may take an additional action this turn. If you succeed by 0, take 1 damage.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Verschwimmen",
+        "text": "Anwendungen (3 Ladungen).\n[action] Falls Verschwimmen noch Ladungen hat: <b>Entkommen.</b> Für diesen Entkommen-Versuch darfst du [willpower] statt [agility] verwenden und bekommst +1 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1 Ladung aus und nimm 1 zusätzliche Aktion in diesem Zug. Falls die Probe um 0 gelingt, nimmst du 1 Schaden.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08110",
+        "flavor": "„Und nun zu meinem nächsten Trick…”",
+        "name": "Ätherischer Tausch",
+        "text": "Wähle einen Nicht-[[Elite]]-Gegner an einem beliebigen enthüllten Ort. Tausche mit jenem Gegner den Platz.",
+        "traits": "Zauber. Trick."
     },
     {
         "code": "08111",
-        "name": "Blur",
-        "text": "Uses (4 charges).\n[action] If Blur has charges remaining: <b>Evade.</b> You may use [willpower] instead of [agility] and get +2 skill value for this evasion attempt. If you succeed, spend 1 or 2 charges and you may take that many additional actions this turn. If you succeed by 0, take 2 damage.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Verschwimmen",
+        "text": "Anwendungen (4 Ladungen).\n[action] Falls Verschwimmen noch Ladungen hat: <b>Entkommen.</b> Für diesen Entkommen-Versuch darfst du [willpower] statt [agility] verwenden und bekommst +2 auf den Fertigkeitswert. Falls die Probe gelingt, gib 1 oder 2 Ladungen aus und nimm so viele zusätzliche Aktionen in diesem Zug. Falls die Probe um 0 gelingt, nimmst du 2 Schaden.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
     },
     {
         "code": "08112",
-        "name": "\"Hit me!\"",
-        "text": "Fast. Play after you reveal a chaos token during a skill test.\nReveal an additional chaos token, switching its \"-\" to a \"+\". If that chaos token is a [skull] token, you automatically fail.",
-        "traits": "Fortune. Gambit."
+        "name": "„Noch ’ne Karte!”",
+        "text": "Schnell. Spiele diese Karte, nachde du während einer Fertigkeitsprobe einen Chaosmarker enthüllt hast.\nEnthülle einen weiteren Chaosmarker und ändere sein „-” in ein „+”. Falls jener Marker ein [skull]-Marker ist, misslingt die Probe automatisch.",
+        "traits": "Glücksfall. Schachzug."
+    },
+    {
+        "code": "08113",
+        "name": "Unvernünftiger Kredit",
+        "text": "Nur 1 pro Ermittler. Kann das Spiel nicht verlassen.\n[reaction] Nachdem du Unvernünftiger Kredit gespielt hast: Du erhältst 10 Ressourcen.\n<b>Erzwungen</b> - Sobald das Spiel endet oder du ausscheidest, falls du weniger als 10 Ressourcen in deinem Ressourcenvorrat hast: Schicke Unvernünftiger Kredit ins Exil.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "08114",
+        "name": "Geliebtes Andenken",
+        "subname": "Aus einem früheren Leben",
+        "text": "Nur 1 Geliebtes Andenken <i>(Aus einem früheren Leben)</i> pro Deck.\n[reaction] Nachdem dir eine Fertigkeitsprobe um 2 oder mehr missulngen ist, erschöpfe diese Karte: Heile 1 Schaden von ihr.\n[reaction] Nachdem dir eine Fertigkeitsprobe um 2 oder mehr gelungen ist, erschöpfe diese Karte: Heile 1 Horror von ihr.",
+        "traits": "Gegenstand. Glücksbringer. Gesegnet.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "08115",
+        "name": "Geliebtes Andenken",
+        "subname": "Aus einem zukünftigen Leben",
+        "text": "Nur 1 Geliebtes Andenken <i>(Aus einem zukünftigen Leben)</i> pro Deck.\n[reaction] Nachdem dir eine Fertigkeitsprobe um 2 oder mehr misslungen ist: Heile 1 Horror von ihr.\n[reaction] Nachdem dir eine Fertigkeitsprobe um 2 oder mehr gelungen ist: Heile 1 Schaden von ihr.",
+        "traits": "Gegenstand. Glücksbringer. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "08116",
+        "name": "Schutztalisman",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nSpiele Schutztalisman unter die Kontrolle eines beliebigen Ermittlers an deinem Ort.\n[reaction] Sobald dir Schaden und/oder Horror zugewiesen wird, der dich besiegen würde, lege Schutztalisman ab: Hebe bis zu 2 von jenem Schaden und/oder Horror auf.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08117",
+        "name": "Irdische Seelenruhe",
+        "text": "Anwendungen (4 Ladungen).\n[action]: Lege eine [willpower]-Probe (1) ab. Für jeden Punkt, um den dir die Probe gelingt, darfst du 1 Ladung ausgeben, um 1 Schaden oder 1 Horror von einem Ermittler an deinem Ort zu heilen. Falls die Probe um 0 gelingt, verlierst du 1 Ressource.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08118",
+        "name": "Verzauberter Bogen",
+        "text": "Anwendungen (3 Ladungen).\n[action] Erschöpfe Verzauberter Bogen: <b>Kampf.</b> Für diesen Angriff musst du entweder [willpower] oder [agility] statt [combat] verwenden und bekommst +1 auf den Fertigkeitswert. Dieser Angriff fügt +1 Schaden zu. Als zusätzliche Kosten, um diese Fähigkeit zu initiieren, darfst du 1 Ladung ausgeben, um diesen Angriff einen Nicht-[[Elite]]-Gegner an einem verbundenen Ort zum Ziel haben zu lassen; falls du dies tust, ignoriere für diesen Angriff die Schlüsselwörter Zurückhaltend und Zurückschlagen.",
+        "traits": "Zauber. Gesegnet. Waffe. Fernkampf.",
+        "slot": "Hand x2. Arkan"
+    },
+    {
+        "code": "08119",
+        "name": "Irdische Seelenruhe",
+        "text": "Anwendungen (6 Ladungen).\n[action]: Lege eine [willpower]-Probe (0) ab. Für jeden Punkt, um den dir die Probe gelingt, darfst du 1 Ladung ausgeben, um 1 Schaden oder 1 Horror von einem Ermittler an deinem Ort zu heilen. Falls die Probe um 0 gelingt, verlierst du 2 Ressourcen.",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "08120",
+        "name": "Prophetisch",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\nRessourcen auf Prophetisch dürfen ausgegeben werden, um für [[Glücksfall]]-, [[Zauber]]- oder [[Geist]]-Karten zu bezahlen.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Glücksfall]]-, [[Zauber]]- oder [[Geist]]-Karte 1 Ressource auf Prophetisch aus: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08121",
+        "name": "Schnüffler",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\nRessourcen auf Schnüffler dürfen ausgegeben werden, um für [[Glücksbringer]]-, [[Taktik]]- oder [[Buch]]-Karten zu bezahlen.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Glücksbringer]]-, [[Taktik]]- oder [[Buch]]-Karte 1 Ressource auf Schnüffler aus: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08122",
+        "name": "Raufbold",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\nRessourcen auf Raufbold dürfen ausgegeben werden, um für [[Rüstung]]-, [[Feuerwaffe]]- oder [[Nahkampf]]-Karten zu bezahlen.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Rüstung]]-, [[Feuerwaffe]]- oder [[Nahkampf]]-Karte 1 Ressource auf Raufbold aus: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08123",
+        "name": "Raffiniert",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\nRessourcen auf Raffiniert dürfen ausgegeben werden, um für [[Erkenntnis]]-, [[Werkzeug]]- oder [[Trick]]-Karten zu bezahlen.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Erkenntnis]]-, [[Werkzeug]]- oder [[Trick]]-Karte 1 Ressource auf Raffiniert aus: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08124",
+        "name": "Antiquar",
+        "text": "Anwendungen (2 Ressourcen). Fülle diese Ressourcen zu Beginn jeder Runde auf.\nRessourcen auf Antiquar dürfen ausgegeben werden, um für [[Gefallen]]-, [[Relikt]]- oder [[Ritual]]-Karten zu bezahlen.\n[fast] Gib während einer Fertigkeitsprobe auf einer [[Gefallen]]-, [[Relikt]]-oder [[Ritual]]-Karte 1 Ressource auf Antiquar aus: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08125",
+        "name": "Mittendrin",
+        "text": "Dauerhaft. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\nSobald du Mittendrin erwirbst, erleidest du insgesamt 2 körperliche und/oder seelische Traumata. Dann verdienst du 3 Erfahrungspunkte.",
+        "traits": "Fluch."
+    },
+    {
+        "code": "08126",
+        "name": "Dicker Pelzmantel",
+        "text": "[reaction] Nachdem du während einer Fertigkeitsprobe, die du durchführst, ein Nicht-[auto_fail]-Symbol enthüllt hast, füge dieser Karte 1 Schaden zu: Hebe jenen Chaosmarker auf und schicke ihn in den Chaosbeutel zurück. Enthülle einen neuen Chaosmarker.",
+        "traits": "Gegenstand. Rüstung.",
+        "slot": "Körper"
     },
     {
         "code": "08127",
-        "name": "Sled Dog",
-        "text": "You may include up to 4 copies of Sled Dog in your deck. Up to 2 Sled Dog cards take up a single ally slot.\n[action] Exhaust X Sled Dogs: <b>Move.</b> Move X times.\n[action] Exhaust X Sled Dogs: <b>Fight.</b> You get +X [combat] for this attack. Instead of its standard damage, this attack deals X damage.",
-        "traits": "Ally. Creature.",
-        "slot": "Ally"
+        "name": "Schlittenhund",
+        "text": "Dein Deck kann bis zu 4 Kopien von Schlittenhund enthalten. Bis zu 2 Schlittenhunde benötigen einen einzigen Verbündeter-Slot.\n[action] Erschöpfe X Schlittenhunde: <b>Bewegen.</b> Bewege dich X Mal.\n[action] Erschöpfe X Schlittenhunde: <b>Kampf.</b> Du bekommst für diesen Angriff +X [combat]. Statt seines normalen Schadens fügt dieser Angriff X Schaden zu.",
+        "traits": "Verbündeter. Kreatur.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "08128",
+        "name": "Animalismus-Stab",
+        "text": "Du hast 2 zusätzliche Verbündeter-Slots, die nur für [[Kreatur]]-Vorteilskarten verwendet werden können.\n[reaction] Sobald du während deines Zuges eine [[Kreatur]]-Vorteilskarte spielst: Senke die Kosten jener Vorteilskarte um 1.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
     },
     {
         "code": "08129",
-        "name": "Call for Backup",
-        "text": "One at a time, in any order, if you control a...\n- [rogue] card, you may move to a connecting location.\n- [guardian] card, deal 1 damage to an enemy at your location.\n- [seeker] card, discover 1 clue at your location.\n- [mystic] card, heal 1 horror from any card.\n- [survivor] card, heal 1 damage from any card.",
-        "traits": "Favor. Synergy."
+        "name": "Verstärkung anfordern",
+        "text": "Für jede verschiedene Klasse unter Karten, die du kontrollierst, handle nacheinander und in beliebiger Reihenfolge den passenden Effekt unten ab.\n[rogue] - Du darfst dich an einen verbundenen Ort bewegen.\n[guardian] - Füge einem Gegner an deinem Ort 1 Schaden zu.\n[seeker] - Entdecke 1 Hinweis an deinem Ort.\n[mystic] - Heile 1 Horror von einer beliebigen Karte.\n[survivor] - Heile 1 Schaden von einer beliebigen Karte.",
+        "traits": "Gefallen. Synergie."
+    },
+    {
+        "code": "08130",
+        "name": "Armverletzung",
+        "text": "<b>Enthüllung</b> - Bringe Armverletzung in deiner Bedrohungszone ins Spiel.\nArmverletzung kann geheilt werden, als ob sie 1 Punkt Schaden auf dir wäre <i>(falls sie geheilt wird, lege sie ab)</i>.\n<b>Erzwungen</b> - Nachdem du eine Kampf- oder Aktivieren-Aktion genommen hast: Für den Rest des Zuges kannst du keine Aktion jener Arten nehmen.",
+        "traits": "Verletzung."
+    },
+    {
+        "code": "08131",
+        "name": "Beinverletzung",
+        "text": "<b>Enthüllung</b> - Bringe Beinverletzung in deiner Bedrohungszone ins Spiel.\nBeinverletzung kann geheilt werden, als ob sie 1 Punkt Schaden auf dir wäre <i>(falls sie geheilt wird, lege sie ab)</i>.\n<b>Erzwungen</b> - Nachdem du eine Bewegen-, Aufgeben- oder Entkommen-Aktion genommen hast: Für den Rest des Zuges kannst du keine Aktion jener Arten nehmen.",
+        "traits": "Verletzung."
+    },
+    {
+        "code": "08132",
+        "name": "Panik",
+        "text": "<b>Enthüllung</b> - Bringe Panik in deiner Bedrohungszone ins Spiel.\nPanik kann geheilt werden, als ob sie 1 Punkt Horror auf dir wäre <i>(falls sie geheilt wird, lege sie ab)</i>.\n<b>Erzwungen</b> - Nachdem du eine Spielen-, Verwickeln- oder Ressource-Aktion genommen hast: Für den Rest des Zuges kannst du keine Aktion jener Arten nehmen.",
+        "traits": "Madness."
+    },
+    {
+        "code": "08133",
+        "name": "Starre",
+        "text": "<b>Enthüllung</b> - Bringe Starre in deiner Bedrohungszone ins Spiel.\nStarre kann geheilt werden, als ob sie 1 Punkt Horror auf dir wäre <i>(falls sie geheilt wird, lege sie ab)</i>.\n<b>Erzwungen</b> - Nachdem du eine Verhandlung-, Ziehen- oder Ermitteln-Aktion genommen hast: Für den Rest des Zuges kannst du keine Aktion jener Arten nehmen.",
+        "traits": "Madness."
     }
 ]
