@@ -1,0 +1,957 @@
+[
+    {
+        "code": "08001",
+        "flavor": "« Du calme, bonhomme. Je m'en occupe. Sois mignon et ne t'en mêle pas. »",
+        "name": "Daniela Reyes",
+        "subname": "La Mécanicienne",
+        "text": "[reaction] Après qu'un ennemi vous a attaqué (sauf dans le cas d'une attaque d'opportunité que vous avez provoquée), même si cette attaque a été annulée : soit vous infligez 1 dégât à cet ennemi, soit vous lui échappez automatiquement.\n[elder_sign] : +1. Si vous avez été attaqué par un ennemi lors de ce round, vous réussissez automatiquement à la place.",
+        "traits": "Entrepreneur.",
+        "back_flavor": "Daniela a toujours considéré qu'elle avait une belle vie. Sa famille était turbulente, mais aimante. Elle avait un emploi stable qui occupait à la fois son esprit et ses mains. Elle gagnait assez d'argent pour se payer des voitures rapides, des jolies filles et pour entretenir Gabriel, sa bécane. Tout bascula le jour où son frère Ramon se retrouva mêlé à une sombre histoire. Sa mère lui avait conseillé d'être prudente, que les ténèbres attendaient, tapies. Daniela posa un verre d'eau derrière la porte pour conjurer le mauvais sort comme sa mère le lui avait enseigné, enfant. Quand Daniela se réveilla, elle découvrit le verre brisé et se jura de découvrir ce qui s'était passé afin de tout remettre en ordre. Comme à chaque fois.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Gardien ([guardian]) de niveau 0, cartes Survivant ([survivor]) de niveaux 1 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Survivant ([survivor]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Clé Plate, Brutes de la Mafia, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "08002",
+        "name": "Clé Plate",
+        "text": "Deck de Daniela Reyes uniquement.\n[fast] Inclinez la Clé Plate : choisissez un ennemi dans votre lieu. Cet ennemi vous attaque.\n[action] : <b>Combattre.</b> Vous ne pouvez utiliser cette capacité que contre un ennemi qui vous a attaqué depuis la fin de votre tour précédent. Vous gagnez +2 [combat] et infligez +1 dégât pour cette attaque.",
+        "traits": "Objet. Outil. Corps à Corps.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08003",
+        "flavor": "Les dettes sont une affaire de famille.",
+        "name": "Brutes de la Mafia",
+        "text": "Chasseur.\n<b>Proie</b> - Daniela Reyes uniquement.\nLes attaques de cet ennemi ne peuvent pas être annulées\nLes dégâts/horreurs infligés par les attaques de cet ennemi sont traités comme étant directs",
+        "traits": "Humanoïde. Criminel."
+    },
+    {
+        "code": "08004",
+        "name": "Norman Withers",
+        "subname": "L'Astronome",
+        "text": "Jouez avec la carte du dessus de votre deck révélée\nUne fois par round, vous avez le droit de jouer la carte du dessus de votre deck comme si elle était dans votre main, en réduisant de 1 son coût en ressources.\n<b>Forcé</b> - Après qu'une faiblesse a été révélée sur le dessus de votre deck : piochez-la.\n[elder_sign] : +X. Vous avez le droit d'échanger la carte du dessus de votre deck avec une carte de votre main. X est le coût en ressource de la carte du dessus de votre deck.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Les étoiles recèlent de nombreux secrets, et Norman n'est pas du genre à ignorer un mystère. Par conséquent, quand six étoiles disparurent du ciel, il ne put simplement passer outre ; pas même quand ses collègues lui assurèrent qu'il avait tout imaginé. Cela lui prit des années, et faillit mettre sa carrière en péril, mais il finit par trouver la réponse dans un vieux grimoire. Ce dernier décrivait les étoiles et l'ordre dans le quel elles étaient censées disparaître, il allait même jusqu'à indiquer la date et l'heure. C'était, ajoutait le livre, un signe annonciateur de la fin de toute chose, d'une immense bête qui réduirait en poussière tout ce que l'humanité avait bâti. Norman n'était pas certain de pouvoir empêcher la bête de détruire le monde, mais si les étoiles détenaient la réponse, alors il la trouverait.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Chercheur ([seeker]) de niveau 0, cartes Mystique ([mystic]) de niveaux 1 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Mystique ([mystic]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Livre d'Eibon, L'Annonciateur, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "08005",
+        "name": "Livre d'Eibon",
+        "subname": "Grimoire Hyperboréen",
+        "text": "Deck de Norman Withers uniquement.\n[fast] Inclinez le Livre d'Eibon : échangez la carte du dessus de votre deck avec une carte de votre main.\n[fast] Inclinez le Livre d'Eibon : attribuez la carte du dessus de votre deck à un test de compétence éligible effectué par un investigateur dans votre lieu.",
+        "traits": "Objet. Relique. Livre.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08006",
+        "name": "L'Annonciateur",
+        "text": "<b>Révélation</b> - Placez cette carte sur le dessus de votre deck.\nTant que L'Annonciateur est révélé sur le dessus de votre deck, les cartes de votre deck ne peuvent pas être consultées, piochées ou manipulées de quelque manière que ce soit, sauf par la capacité ci-dessous.\n[action] [action] : défaussez L'Annonciateur. Cette capacité ne peut être activée que lorsque L'Annonciateur est sur le dessus de votre deck (faites comme s'il se trouvait dans votre zone de menace).",
+        "traits": "Présage. Fin des Temps."
+    },
+    {
+        "code": "08007",
+        "name": "Monterey Jack",
+        "subname": "L'Archéologue",
+        "text": "[reaction] À la fin de votre tour, si vous êtes dans un lieu éloigné de 1 connexion par rapport au lieu où vous avez débuté ce round : soit vous gagnez 1 ressource, soit vous piochez 1 carte (si vous êtes éloigné de 2 connexions ou plus, faites les deux à la place).\n[elder_sign] : +1. Si vous êtes dans un lieu éloigné d'au moins 1 connexion par rapport au lieu où vous avez débuté ce round, gagnez 1 ressource ou piochez 1 carte.",
+        "traits": "Voyageur.",
+        "back_flavor": "Quand il était jeune, Jack parcourait le monde grâce aux expéditions archéologiques de son père. Devenu lui-même un archéologue accompli, mais aussi un globe-trotter et un chasseur de trésors, « Monterey » suit les traces de son père en mettant en lieu sûr les trésors d'anciennes civilisations et de cultures disparues. Mais lorsqu'il découvrit un pendentif en argent orné d'un symbole familier, Monterey dut faire face à son propre passé. Il y a des années de cela, son père fut retrouvé assassiné, on lui avait gravé ce même symbole sur le front. Cette image hante les cauchemars de Monterey depuis lors. Mais il touche au but, il élucidera bientôt le meurtre de son père... quel qu'en soit le prix.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Truand ([rogue]) de niveau 0, cartes Chercheur ([seeker]) de niveaux 1 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Chercheur ([seeker]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Fidèle Fouet, Secrets Enfouis, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "08008",
+        "name": "Fidèle Fouet",
+        "text": "Rapide. Deck de Monterey Jack uniquement.\n[action] : <b>Combattre.</b> Cette attaque utilise [agility] au lieu de [combat]. En cas de réussite, vous avez le droit d'incliner le Fidèle Fouet pour soit échapper automatiquement à l'ennemi attaqué, soit infliger +1 dégât pour cette attaque.",
+        "traits": "Objet. Arme. Corps à Corps.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08009",
+        "name": "Secrets Enfouis",
+        "text": "<b>Révélation</b> - Mettez Secrets Enfouis en jeu dans votre zone de menace.\nS'il est possible d'enquêter dans votre lieu, vous ne pouvez pas vous déplacer sauf par des effets de carte Scénario.\n[action] : <b>Enquêter.</b> En cas de réussite, au lieu de découvrir des indices, défaussez Secrets Enfouis. En cas d'échec, vous avez le droit de subir 2 horreurs pour mélanger Secrets Enfouis dans votre deck.",
+        "traits": "Mystère."
+    },
+    {
+        "code": "08010",
+        "flavor": "« On m'a préparé depuis toujours à affronter ce mal. Ma concentration doit être absolue. »",
+        "name": "Lily Chen",
+        "subname": "L'Artiste Martiale",
+        "text": "Vous débutez la partie avec chaque Discipline de votre deck en jeu, face [[Intacte]] visible.\n[elder_sign] : +2. Après la fin de ce test, retournez une Discipline [[Brisée]] que vous contrôlez pour afficher sa face [[Intacte]].",
+        "traits": "Élu. Veilleur",
+        "back_flavor": "Chen Li parlait rarement. Quand elle le faisait, ses mots étaient sages et mesurés. Après une vie entière dédiée à la discipline, chaque geste était mesuré et gracieux. Les moines qui l'avaient élevée assuraient qu'elle était née dans un but précis, pour affronter une grande menace. Maintenant, ils pensent que cette menace est à portée de main, et elle seule peut l'arrêter.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveau 0, cartes Gardien ([guardian]) de niveaux 1 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Gardien ([guardian]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : 1 Destinée Pesante pour chaque soutien Discipline (voir ci-dessous), 1 faiblesse de base au hasard.\n<b>Restrictions du Deck</b> : pas de soutiens [[Arme à Feu]].\n<b>Exigences Supplémentaires</b> : lors de la création du deck, choisissez un soutien Discipline à ajouter à votre deck. Il est considéré comme faisant partie de vos Exigences du Deck. Pour chaque palier de 15 points d'expérience gagnés au total, vous avez le droit de choisir et d'ajouter un soutien Discipline différent à votre deck."
+    },
+    {
+        "code": "08011a",
+        "name": "Discipline",
+        "subname": "Harmonie de l'Esprit",
+        "text": "Deck de Lily Chen uniquement. Permanent.\nVous gagnez +1 [willpower].\n[action] : subissez 1 dégât direct pour soigner 3 horreurs, ou subissez 1 horreur directe pour soigner 3 dégâts. Retournez ce soutien.",
+        "traits": "Intacte."
+    },
+    {
+        "code": "08011b",
+        "name": "Discipline",
+        "subname": "Harmonie de l'Esprit",
+        "text": "Deck de Lily Chen uniquement. Permanent.\n[reaction] Après la fin du round, si vous n'avez subi ni dégât ni horreur lors de ce round : retournez ce soutien pour afficher sa face [[Intacte]].",
+        "traits": "Brisée."
+    },
+    {
+        "code": "08012a",
+        "name": "Discipline",
+        "subname": "Quiétude de la pensée",
+        "text": "Deck de Lily Chen uniquement. Permanent.\nVous gagnez +1 [intellect].\n[action] : si vous avez moins de 5 cartes dans votre main : piochez des cartes jusqu'à en avoir 5 dans votre main. Retournez ce soutien.",
+        "traits": "Intacte."
+    },
+    {
+        "code": "08012b",
+        "name": "Discipline",
+        "subname": "Quiétude de la pensée",
+        "text": "Deck de Lily Chen uniquement. Permanent.\n[reaction] Après la fin de ce round, si à aucun moment lors de ce round vous n'avez eu 2 cartes ou plus en main : retournez ce soutien pour afficher sa face [[Intacte]].",
+        "traits": "Brisée."
+    },
+    {
+        "code": "08013a",
+        "name": "Discipline",
+        "subname": "Prescience du Destin",
+        "text": "Deck de Lily Chen uniquement. Permanent.\nVous gagnez +1 [combat].\n[action] : Vous gagnez +5 à votre valeur de compétence pour le prochain test de compétence que vous effectuez à ce tour. Après la fin de ce test, retournez ce soutien. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Intacte."
+    },
+    {
+        "code": "08013b",
+        "name": "Discipline",
+        "subname": "Prescience du Destin",
+        "text": "Deck de Lily Chen uniquement. Permanent.\n[reaction] Après la fin de ce round, si vous n'avez effectué aucun test de compétence lors de ce round : retournez ce soutien pour afficher sa face [[Intacte]].",
+        "traits": "Brisée."
+    },
+    {
+        "code": "08014a",
+        "name": "Discipline",
+        "subname": "Équilibre du Corps",
+        "text": "Deck de Lily Chen uniquement. Permanent.\nVous gagnez +1 [agility].\n[action] : effectuez jusqu'à 3 actions Combattre ou Échapper à différentes, une à la fois. Retournez ce soutien. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Intacte."
+    },
+    {
+        "code": "08014b",
+        "name": "Discipline",
+        "subname": "Équilibre du Corps",
+        "text": "Deck de Lily Chen uniquement. Permanent.\n[reaction] Après la fin de ce round, si à aucun moment lors de ce round il n'y a eu d'ennemi dans le même lieu que vous : retournez ce soutien pour afficher sa face [[Intacte]].",
+        "traits": "Brisée."
+    },
+    {
+        "code": "08015",
+        "flavor": "« Comment pourrais-je les sauver si je ne peux pas me sauver moi-même ? »",
+        "name": "Destinée Pesante",
+        "text": "<b>Révélation</b> - Vous devez (choisir une option) :\n- Soit retourner une Discipline que vous contrôlez pour afficher sa face [[Brisée]]. Elle ne peut plus être retournée lors de ce round.\n- Soit subit 1 dégât et 1 horreur.",
+        "traits": "Défaut."
+    },
+    {
+        "code": "08016",
+        "name": "Bob Jenkins",
+        "subname": "Le Représentant",
+        "text": "À n'importe quel moment, un investigateur dans votre lieu peut vous révéler les soutiens [[Objet]] de sa main.\nVous avez le droit d'effectuer une action supplémentaire durant votre tour, qui ne peut être utilisée que pour jouer un soutien [[Objet]] de la main d'un investigateur dans votre lieu, sous son contrôle. (Les deux investigateurs ont le droit de dépenser des ressources pour payer son coût).\n[elder_sign] : +1 pour chaque soutien [[Objet]] que vous contrôlez.",
+        "traits": "Entrepreneur.",
+        "back_flavor": "Pour Bob, la persévérance est le secret du succès d'un bon représentant. Les gens ont juste besoin qu'on leur dise ce qu'ils veulent entendre. Et qu'on le répète inlassablement. Récemment, Bob a fait l'acquisition d'une poignée de pièces d'or « maudites » et il espère que cette fameuse persévérance lui sera utile pour découvrir leur origine et leur raison d'être. S'il se débrouille bien, ce sera sa plus belle affaire. Il pourra peut-être enfin prendre sa retraite, acheter ce bateau qu'il convoite et passer le reste de sa vie à pêcher sur une île tropicale. À moins que Bob ne découvre finalement que tout ce qui brille n'est pas or...",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Survivant ([survivor]) de niveau 0, cartes Truand ([rogue]) de niveaux 1 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Truand ([rogue]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Opération Juteuse, Avidité, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "08017",
+        "flavor": "« Vous dites \"Fin du monde\", moi j'entends \"Opportunité de gains\". »",
+        "name": "Opération Juteuse",
+        "text": "Deck de Bob Jenkins uniquement.\nRéduisez de 1 le coût de chaque soutien [[Objet]] que vous jouez.\n[reaction]: Quand vous jouez un soutien [[Objet]] : jouez-le sous le contrôle de n'importe quel investigateur dans votre lieu.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08018",
+        "flavor": "On pourrait dire que l'argent a son propre culte.",
+        "name": "Avidité",
+        "text": "<b>Révélation</b> - Subissez 1 horreur. Si vous avez...\n- ... 10 ressources ou moins, subissez 1 horreur supplémentaire.\n- ... 5 ressources ou moins, subissez 1 horreur supplémentaire.\n- ... 0 ressourcee, subissez 1 horreur supplémentaire",
+        "traits": "Défaut."
+    },
+    {
+        "code": "08019",
+        "name": "Bien Équipé",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\n<b>Forcé</b> - Quand votre premier tour de la partie débute : jouez n'importe quel nombre de soutiens [[Objet]] de votre main, en réduisant de 1 le coût de chacun. Lors de ce tour, effectuez 3 actions de moins.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08020",
+        "flavor": "Parfois, le seul moyen de s'en sortir, c'est de foncer dans le tas.",
+        "name": "Coup pour Coup",
+        "text": "<b>Combattre.</b> Cette attaque inflige +1 dégât et réussit automatiquement. En tant que coût supplémentaire pour effectuver cette attaque, l'ennemi choisi effectue une attaque contre vous.",
+        "traits": "Esprit. Tactique."
+    },
+    {
+        "code": "08021",
+        "name": "« Restez Derrière Moi ! »",
+        "text": "Rapide. À jouer lors de n'importe quelle fenêtre [fast].\nJusqu'à la fin de la phase, chaque fois qu'un ennemi devrait attaquer un autre investigateur dans votre lieu, il vous attaque à la place ; ensuite, il vous engage. Annulez 1 horreur infligée par chaque attaque ainsi effectuée.",
+        "traits": "Esprit. Tactique."
+    },
+    {
+        "code": "08022",
+        "flavor": "« Si tu t'attaques à l'un d'entre nous, tu t'attaques à nous tous ! »",
+        "name": "Se Liguer",
+        "text": "<b>Combattre.</b> Pour chaque classe différente parmi les cartes que vous contrôlez, vous gagnez +1 [combat] et infligez +1 dégât pour cette attaque.",
+        "traits": "Esprit. Synergie."
+    },
+    {
+        "code": "08023",
+        "flavor": "« Très bien Li. Encore une fois. »",
+        "name": "Coup de Pied Rotatif",
+        "text": "<b>Combattre.</b> Ajoutez votre [agility] à votre valeur de compétence pour cette attaque. Cette attaque inflige +1 dégât. En cas de réussite, échappez automatiquement à l'ennemi attaqué.",
+        "traits": "Esprit. Tactique. Ruse."
+    },
+    {
+        "code": "08024",
+        "flavor": "Vous mettez vos pieds en position, prenez une profonde inspiration et vous recentrez sur vous-même. Ils sont nombreux, mais vous êtes prête.",
+        "name": "Posture Défensive",
+        "text": "Tant que Posture Défensive est dans votre main ou attribuée à un test de compétence, elle gagne un nombre d'icônes [combat] égal à votre [agility], et un nombre d'icônes [agility] égal à votre [combat].",
+        "traits": "Entraîné. Expert."
+    },
+    {
+        "code": "08025",
+        "flavor": "Pour quelqu'un d'habile, ils sont une véritable extension de la main.",
+        "name": "Couteaux Papillons",
+        "text": "[action] : <b>Combattre.</b> Vous gagnez +1 [combat] pour cette attaque. Après cette attaque, vous avez le droit d'incliner les Couteaux Papillons pour combattre à nouveau en ajoutant votre [agility] à votre valeur de compétence pour cette attaque, elle inflige +1 dégât.",
+        "traits": "Objet. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08026",
+        "name": "Esquive",
+        "text": "Rapide. À jouer quand un ennemi attaque un investigateur dans votre lieu.\nAnnulez cette attaque. Ensuite, effectuez un test de [agility] (1). En cas de réussite, infligez 1 dégât à cet ennemi.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "08027",
+        "name": "Entraînement au Combat",
+        "text": "Rapide. Limit 1 [[Aplomb]] en jeu.\nVous gagnez +1 [combat] et +1 [agility].\nLes dégâts/horreurs non-directs doivent être assignés à Entraînement au Combat avant de pouvoir être assignés à votre carte investigateur.\n[fast] Dépensez 1 ressource : vous gagnez +1 [combat] ou +1 [agility] pour ce test de compétence.",
+        "traits": "Talent. Aplomb."
+    },
+    {
+        "code": "08028",
+        "name": "En Chasse",
+        "text": "Rapide. À jouer quand vous devriez piocher une carte Rencontre lors de la phase du Mythe..\nÀ la place, cherchez un ennemi dans le deck Rencontre, et générez-le engagé avec vous<i>(au lieu de son lieu de génération normal)</i>, attachez-lui En Chasse et mélangez le deck Rencontre.\n[reaction] Quand vous vainquez l'ennemi attaché : gagnez 3 ressources.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "08029",
+        "flavor": "Les crocs de Tindalos atteignent n'importe quelle proie",
+        "name": "Croc de Tyr'thrha",
+        "text": "<b>Combattre.</b> Choisissez un ennemi dans n'importe quel lieu révélé comme cible de cette attaque. Avant de résoudre cette attaque, vous avez le droit de vous déplacer vers le lieu de cet ennemi. Ajoutez votre [agility] à votre [combat] pour cette attaque. Cette attaque inflige +3 dégâts.",
+        "traits": "Sort."
+    },
+    {
+        "code": "08030",
+        "name": "Couteaux Papillons",
+        "text": "[action] : <b>Combattre.</b> Vous gagnez +2 [combat] pour cette attaque. Après cette attaque, vous avez le droit de combattre à nouveau en ajoutant votre [agility] à votre valeur de compétence pour cette attaque. En cas de réussite des deux attaques, vous avez le droit d'incliner les Couteaux Papillons pour que la deuxième attaque inflige +1 dégât.",
+        "traits": "Objet. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08031",
+        "name": "Apprentissage Forcé",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nAugmentez de 15 la taille de votre deck.\nLors de chaque phase d'Entretien, au lieu de piocher 1 carte, piochez 2 cartes et défaussez 1 d'elles.",
+        "traits": "Talent. Rituel."
+    },
+    {
+        "code": "08032",
+        "name": "Jeremiah Kirby",
+        "subname": "Archéologue de l'Arctique",
+        "text": "Vous gagnez +1 [intellect].\n[reaction] Après que Jeremiah Kirby est entré en jeu, choisissez « pair » ou « impair » : révélez les 5 cartes du dessus de votre deck. Piochez chaque carte dont le coût correspond à l'option choisie. Mélangez les cartes restantes dans votre deck.",
+        "traits": "Allié. Miskatonic. Voyageur.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08033",
+        "name": "Archive des Voies",
+        "subname": "Non-identifiée",
+        "text": "Limite de 1 par deck. En tant que coût supplémentaire pour jouer ce soutien, placez 1 ressource sur 4 lieux différents, en tant que lignes Ley.\n[reaction] Après avoir enquêté avec succès dans un lieu qui contient une ligne Ley, inclinez ce soutien : déplacez cette ligne Ley vers ce soutien. Ensuite, s'il a 4 lignes Ley sur lui, défaussez-le, prenez ses lignes Ley en tant que ressources et indiquez dans votre Carnet de Campagne que « vous avez identifié le portail ».",
+        "traits": "Objet. Livre. Occulte.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08034",
+        "name": "Écrit dans les Étoiles",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nDéfaussez la carte du dessus de votre deck. Si cette carte est une faiblesse, mélangez-la dans votre deck. Sinon, pour le reste de votre tour, tant que la carte défaussée est dans votre pile de défausse, attribuez-la à chaque test de compétence éligible que vous effectuez.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "08035",
+        "name": "Chaussures de Randonnée",
+        "text": "Limite de 1 [[Paire de Chaussures]] par investigateur.\nVous gagnez +1 [agility].\n[reaction] Après que le dernier indice de votre lieu a été découvert, inclinez Paire de chaussures : déplacez-vous vers un lieu connexe ayant au moins 1 indice ou vers un lieu connexe non-révélé.",
+        "traits": "Objet. Vêtement. Paire de Chaussures."
+    },
+    {
+        "code": "08036",
+        "flavor": "Le véritable voyage est celui que l'on effectue à l'intérieur de soi.",
+        "name": "Rejoindre la Caravane",
+        "text": "Rapide. À jouer uniquement lors de votre tour. Réduisez de 1 le coût de cette carte pour chaque classe différente parmi les cartes que vous contrôlez.\nDéplacez-vous vers n'importe quel lieu révélé.",
+        "traits": "Perspicacité. Synergie."
+    },
+    {
+        "code": "08037",
+        "flavor": "Ils ne vous croiront pas si vous ne le photographiez pas. Quand bien même, ils ne vous croiront pas de toute façon.",
+        "name": "Inspecter les Alentours",
+        "text": "Tant qu'Inspecter les Alentours est dans votre main ou attribuée à un test de compétence, elle gagne un nombre d'icônes [intellect] égal à votre [agility], et un nombre d'icônes [agility] égal à votre [intellect].",
+        "traits": "Entraîné. Expert."
+    },
+    {
+        "code": "08038",
+        "name": "Ouvrages Médicaux",
+        "text": "[action] : choisissez un investigateur dans votre lieu et effectuez un test de [intellect] (2). En cas de réussite, soignez 1 dégât de cet investigateur (2 dégâts à la place en cas de réussite avec une différence de 2 ou plus). En cas d'échec, vous devez soit incliner Ouvrages Médicaux, soit infliger 1 dégât à cet investigateur.",
+        "traits": "Objet. Livre.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08039",
+        "name": "Révéler les Anciens",
+        "text": "<b>Enquêter.</b> Choisissez jusqu'à 2 soutiens [seeker] dans votre main. La difficulté de ce test de compétence est égale à la somme des coûts imprimés des soutiens choisis. En cas de réussite, mettez en jeu les soutiens choisis, un à la fois. Pour chaque soutien [[Relic]] mis en jeu par cette capacité, piochez 1 carte.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "08040",
+        "name": "Théorie Scientifique",
+        "text": "Rapide. Limite de 1 [[Aplomb]] en jeu.\nVous gagnez +1 [intellect] and +1 [combat].\nLes dégâts/horreurs non-directs doivent être assignés à Théorie Scientifique avant de pouvoir être assignés à votre carte Investigateur.\n[fast] Dépensez 1 ressource : vous gagnez +1 [intellect] ou +1 [combat] pour ce test de compétence.",
+        "traits": "Talent. Aplomb."
+    },
+    {
+        "code": "08041",
+        "name": "Archive des Voies",
+        "subname": "Portail vers Tindalos",
+        "text": "Étudiée. Utilisations (4 lignes Ley). Limite de 1 par deck.\n[fast] : déplacez 1 ligne Ley de ce soutien vers un ennemi non-[[Élite]].\n[action] : choisissez un investigateur et un ennemi ayant une ligne Ley dans un lieu révélé. L'investigateur choisi se déplace vers ce lieu. Vous avez le droit de retirer la ligne Ley pour infliger 1 dégât à cet ennemi.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08042",
+        "name": "Archive des Voies",
+        "subname": "Portail vers Achéron",
+        "text": "Étudiée. Utilisations (4 lignes Ley). Limite de 1 par deck.\n[fast] : déplacez 1 ligne Ley de ce soutien vers un lieu révélé.\n[action] : choisissez un investigateur et un lieu révélé ayant une ligne Ley. L'investigateur choisi se déplace vers ce lieu. Vous avez le droit de retirer la ligne Ley pour qu'il effectue une action Enquêter.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08043",
+        "name": "Archive des Voies",
+        "subname": "Portail vers Aldébaran",
+        "text": "Étudiée. Utilisations (4 lignes Ley). Limite de 1 par deck.\n[fast] : déplacez 1 ligne Ley de ce soutien vers un ennemi non-[[Élite]].\n[action] : choisissez un investigateur engagé avec un ennemi ayant une ligne Ley. L'investigateur choisi se désengage de cet ennemi et se déplace vers un lieu connexe. Vous avez le droit de retirer la ligne Ley pour échapper automatiquement à cet ennemi. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08044",
+        "name": "Archive des Voies",
+        "subname": "Portail vers le Paradis",
+        "text": "Étudiée. Utilisations (4 lignes Ley). Limite de 1 par deck.\n[fast] : déplacez 1 ligne Ley de ce soutien vers un investigateur.\n[action] : choisissez un investigateur ayant une ligne Ley. Il pioche 1 carte et soigne 1 dégât ou 1 horreur. Vous avez le droit de retirer la ligne Ley pour qu'il pioche 2 cartes et soigne 2 dégâts ou 2 horreurs à la place.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08045",
+        "name": "Prophesiae Profana",
+        "subname": "Atlas de l'Inconcevable",
+        "text": "Tant que vous n'êtes pas dans le locus, vous gagnez +1 [intellect], +1 [agility], et vous avez le droit d'ignorer les attaques d'opportunité.\n[reaction] Après que Prophesiae Profana est entré en jeu : choisissez un lieu révélé. Ce lieu est « le locus » jusqu'à ce que le Prophesiae Profana quitte le jeu.\n[action] : deplacez n'importe quel investigateur vers le locus.",
+        "traits": "Objet. Relique. Livre.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08046",
+        "name": "Soutien de la Pègre",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nVotre deck ne peut inclure qu'un seul exemplaire (par titre) de chaque carte à l'exception des cartes Faiblesse et des cartes spécifiques à l'investigateur.\nDiminuez de 5 la taille de votre deck.",
+        "traits": "Faveur. Illicite."
+    },
+    {
+        "code": "08047",
+        "flavor": "« ... une aura invisible me repoussait et m'engageait à fuir les antiques et sinistres secrets que nul ne devrait connaître, que nul devant moi n'avait osé pénétrer. » - H.P. Lovecraft, « La Cité sans nom »",
+        "name": "Partir en Éclaireur",
+        "text": "<b>Se Déplacer.</b> Déplacez-vous jusqu'à 3 fois. Les ennemis ne vous engagent pas lors de ce déplacement.",
+        "traits": "Perspicacité. Ruse."
+    },
+    {
+        "code": "08048",
+        "name": "Blackjack",
+        "text": "Un à la fois, révélez des pions pris au hasard dans la réserve du Chaos jusqu'à ce que vous choisissiez d'arrêter. Traitez chaque [skull], [cultist], [tablet], ou [elder_thing] comme étant un « 5 » ; le [auto_fail] comme un « 10 » ; le [elder_sign] soit comme un « 1 », soit comme un « 11 ». Si la somme de ces pions (ignorez les +/-) est égale à...\n- ... 18 ou moins, gagnez 4 ressources.\n- ... 19, gagnez 5 ressources.\n- ... 20, gagnez 6 ressources.\n- ... 21, gagnez 9 ressources.",
+        "traits": "Chance. Stratagème."
+    },
+    {
+        "code": "08049",
+        "name": "Contre-Espionnage",
+        "text": "Rapide. À jouer quand vous piochez une traîtrise non-faiblesse.\nAnnulez l'effet Révélation de cette carte et piochez la carte du dessus du deck Rencontre.\n[reaction] Quand vous jouez Contre-Espionnage, augmentez de 2 son coût : changez « du deck Rencontre » en « de votre deck ».\n[reaction] Quand vous jouez Contre-Espionnage, augmentez de 2 son coût : changez  « vous piochez » en « un investigateur pioche ».",
+        "traits": "Faveur. Service."
+    },
+    {
+        "code": "08050",
+        "flavor": "Si on était pas censé le faire, ce ne serait pas légal.",
+        "name": "Flouer le Système",
+        "text": "Rapide. À jouer lors de n'importe quelle fenêtre [fast].\nGagnez 1 ressource pour chaque classe différente parmi les cartes que vous contrôlez.",
+        "traits": "Ruse. Synergie."
+    },
+    {
+        "code": "08051",
+        "flavor": "« Sérieusement ? Tu as l'intention de marchander avec moi, maintenant ? »",
+        "name": "Transaction Inopinée",
+        "text": "Révélez un soutien [[Objet]] de votre main. Un autre investigateur dans votre lieu a le droit de jouer ce soutien comme s'il était dans sa main. S'il le fait, piochez 1 carte et gagnez un nombre de ressources égal au coût imprimé de ce soutien.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "08052",
+        "flavor": "Cinquante pour cent chance, cent pour cent talent.",
+        "name": "Surdouée",
+        "text": "Surdouée gagne un nombre d'icônes [wild] égal à la valeur de compétence la plus faible autre que la compétence actuellement testée.",
+        "traits": "Inné. Développé."
+    },
+    {
+        "code": "08053",
+        "name": "La Pendule Rouge",
+        "subname": "Cassée mais Fiable",
+        "text": "Exceptionnel. Utilisations (0 charge).\n<b>Forcé</b> - Après le début de votre tour : soit vous placez 1 charge sur cette carte, soit vous prenez toutes les charges qui sont dessus, en tant que ressources. Ensuite, si dessus il y a exactement...\n- 1 charge, vous gagnez +3 à votre valeur de compétence pour votre prochain test de compétence.\n- 2 charges, vous avez le droit de vous déplacer jusqu'à 2 fois.\n- 3 charges, vous avez le droit d'effectuer une action supplémentaire à ce tour.",
+        "traits": "Objet. Relique.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08054",
+        "name": "L'Argent est Roi",
+        "text": "Rapide. À jouer quand un investigateur dans n'importe quel lieu initie un test de compétence.\nAu lieu du type de compétence indiqué pour ce test ([willpower], [intellect], [combat], ou [agility]), il effectue un test de ressources. Sa valeur de compétence de base pour ce test est égale à la moitié du nombre de ressources dans votre réserve de ressources (arrondir à l'inférieur). Piochez 1 carte.",
+        "traits": "Faveur. Stratagème."
+    },
+    {
+        "code": "08055",
+        "name": "Marché Noir",
+        "text": "Rapide. À jouer au début de la phase d'Investigation.\nUne à la fois, révélez des cartes du dessus des decks de n'importe quel nombre d'investigateurs jusqu'à avoir révélé exactement 5 cartes. Mettez de côté ces cartes, hors jeu. Tant que ces cartes sont mises de côté, n'importe quel investigateur a le droit de les jouer comme si elles étaient dans sa main. Au début de la prochaine phase d'Investigation, mélangez dans le deck de son propriétaire chacune de ces cartes qui serait encore de côté.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "08056",
+        "name": "Téméraire",
+        "text": "Rapide. Limite de 1 [[Aplomb]] en jeu.\nVous gagnez +1 [willpower] et +1 [agility].\nLes dégâts/horreurs non-directs doivent être assignés à Téméraire avant de pouvoir être assignés à votre carte Investigateur.\n[fast] Dépendez 1 ressource : vous gagnez +1 [willpower] ou +1 [agility] pour ce test de compétence.",
+        "traits": "Talent. Aplomb."
+    },
+    {
+        "code": "08057",
+        "name": "L'Éventail Noir",
+        "subname": "Symbole de Pouvoir",
+        "text": "Exceptionnel.\nTant que vous avez...\n- ... au moins 10 ressources, vous gagnez +1 vie and +1 santé mentale.\n- ... au moins 15 ressources, vous avez le droit d'effectuer une action supplémentaire lors de votre tour.\n- ... au moins 20 ressources, vous gagnez +1 à chacune de vos compétences.",
+        "traits": "Objet. Relique.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08058",
+        "name": "La Pendule Rouge",
+        "subname": "Cassée mais Fiable",
+        "text": "Exceptionnel. Utilisations (0 charge).\n<b>Forcé</b> - Après le début de votre tour : vous avez le droit de prendre toutes les charges de cette carte, en tant que ressources. Placez 1 charge sur cette carte. Si dessus il y a exactement...\n- 1 charge, vous gagnez +4 à votre valeur de compétence pour votre prochain test de compétence.\n- 2 charges, vous avez le droit de vous déplacer jusqu'à 3 fois.\n- 3 charges, vous avez le droit d'effectuer 2 actions supplémentaires à ce tour.",
+        "traits": "Objet. Relique.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08059",
+        "name": "Dans le Terrier du Lapin",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nAprès chaque scénario d'une campagne, réduisez de 1 le coût en expérience des 2 premières cartes que vous améliorez avant le prochain scénario.\nAugmentez de 1 le coût en expérience des nouvelles cartes que vous achetez.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08060",
+        "name": "Bâton du Dragon",
+        "text": "Vous avez 1 emplacement d'arcane supplémentaire.\n[action] : <b>Combattre.</b> Vous gagnez +1 [combat] pour cette attaque pour chacun de vos emplacements d'arcane occupé. Si au moins 2 de vos emplacements d'arcane sont occupés, cette attaque inflige +1 dégât.",
+        "traits": "Objet. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08061",
+        "flavor": "Vous laissez votre âme vagabonder dans un oubli froid et inconséquent. Le vide est rassurant.",
+        "name": "Transe Méditative",
+        "text": "Pour chacun de vos emplacements d'arcane occupé, soignez soit 1 dégât, soit 1 horreur.",
+        "traits": "Perspicacité. Esprit."
+    },
+    {
+        "code": "08062",
+        "name": "Fermer le Cercle",
+        "text": "Utilisations (1 charge pour chaque classe parmi les cartes que vous contrôlez, celle-ci comprise).\n[fast] Dépensez 1 charge et inclinez Fermer le Cercle : effectuez une action basique. Pour chaque test de compétence effectué lors de cette action, vous avez le droit d'utiliser votre [willpower] au lieu de la compétence indiquée pour cette action.",
+        "traits": "Rituel. Synergie.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08063",
+        "flavor": "Puisse le souffle d'Oya nous guider tous.",
+        "name": "Vents du Pouvoir",
+        "text": "Placez 2 sur un soutien que vous contrôlez.\n[reaction] Après avoir pioché Vents du Pouvoir lors de votre tour : jouez cette carte.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "08064",
+        "name": "Prévoyance",
+        "text": "Rapide. À jouer quand un investigateur dans votre lieu devrait piocher une carte de son deck ou du deck Rencontre.\nNommez une carte. Si la carte piochée est la carte nommée, cet investigateur peut (choisir une option) :\n- Soit annuler les effets de cette carte et la défausser.\n- Soit jouer immédiatement cette carte en réduisant de 2 son coût.",
+        "traits": "Augure."
+    },
+    {
+        "code": "08065",
+        "flavor": "Quand nos connaissances manquent, nous devons nous reposer sur nos croyances.",
+        "name": "Théorie Occulte",
+        "text": "Tant que Théorie Occulte est dans votre main ou attribuée à un test de compétence, elle gagne un nombre d'icônes [willpower] égal à votre [intellect], et un nombre d'icônes [intellect] égal à votre [willpower].",
+        "traits": "Entraîné. Expert."
+    },
+    {
+        "code": "08066",
+        "flavor": "« Si je vous disais que je peux vous révéler l'heure de votre mort, voudriez-vous la connaître ? »",
+        "name": "Destinées Parallèles",
+        "text": "Regardez les 6 cartes du dessus du deck d'un investigateur ou du deck Rencontre. Vous pouvez soit les remettre au-dessus de ce deck dans l'ordre de votre choix, soit les mélanger dans ce deck. Si vous avez consulté le deck d'un investigateur, cet investigateur a le droit de piocher 1 carte.",
+        "traits": "Augure."
+    },
+    {
+        "code": "08067",
+        "name": "Atlas Astronomique",
+        "text": "[fast] Inclinez l'Atlas Astronomique : regardez la carte du dessus de votre deck. Si ce n'est pas une faiblesse, attachez-la face cachée à l'Atlas Astronomique (maximum 5 cartes attachées).\n[fast] : attribuez une carte attachée à l'Atlas Astronomique à un test de compétence éligible. En cas de réussite, ajoutez cette carte à votre main au lieu de la défausser. (Limite d'une fois par test.)",
+        "traits": "Objet. Livre.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08068",
+        "flavor": "Vous ne faites généralement pas confiance aux formules occultes, mais vous n'avez pas d'autre choix.",
+        "name": "Mots Guérisseurs",
+        "text": "Utilisations (4 charges).\n[action] dépensez 1 charge : soignez 2 dégâts parmi les investigateurs dans votre lieu.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08069",
+        "name": "Inébranlable",
+        "text": "Rapide. Limite de 1 [[Aplomb]] en jeu.\nVous gagnez +1 à votre valeur de compétence lors des tests de compétences sur une carte [Sort]].\nLes dégâts/horreurs non-directs doivent être assignés à Inébranlable avant de pouvoir être assignés à votre carte investigateur.\n[fast] Lors d'un test de compétence sur une carte [[Sort]], dépensez 1 ressource : vous gagnez +1 à votre valeur de compétence pour ce test.",
+        "traits": "Talent. Aplomb."
+    },
+    {
+        "code": "08070",
+        "name": "Magie Véritable",
+        "subname": "Refaçonner la Réalité",
+        "text": "Utilisations (1 charge). Reconstituez cette charge au début de chaque round.\nVous avez le droit de résoudre les capacités sur les soutiens [[Sort]] dans votre main, en les révélant de votre main. Traitez Magie Véritable comme s'il s'agissait du soutien révélé <i>(pour payer ses coûts, dépenser des charges, effectuer ses effets, etc.)</i>.",
+        "traits": "Objet. Relique. Livre.",
+        "slot": "Hand. Arcane"
+    },
+    {
+        "code": "08071",
+        "flavor": "Vous espérez que ce sera suffisant.",
+        "name": "Équipement Limité",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\n<b>Forcé</b> - Quand votre premier tour de la partie débute : défaussez les 10 cartes du dessus de votre deck.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08072",
+        "name": "Catalogue de chez Schoffner",
+        "text": "Utilisations (5 secrets). S'il n'y a pas de secret sur le Catalogue de chez Schoffner, défaussez-le.\nVous avez le droit de dépensez les secrets du Catalogue de chez Schoffner en tant que ressources pour payer des soutiens [[Objet]] joués par n'importe quel investigateur dans votre lieu.",
+        "traits": "Objet. Livre."
+    },
+    {
+        "code": "08073",
+        "name": "Bandages",
+        "text": "Utilisations (3 provisions). S'il n'y a pas de provision sur les Bandages, défaussez-les.\n[reaction] Après qu'un investigateur ou un soutien [[Allié]] dans votre lieu a subi au moins 1 dégât, dépensez 1 provision : soignez 1 dégât de cette carte.",
+        "traits": "Objet."
+    },
+    {
+        "code": "08074",
+        "flavor": "Si ça l'casse pas, ça l'rendra plus efficace.",
+        "name": "Amélioration de Fortune",
+        "text": "Utilisations (3 durabilités).\nAttachez cette carte à un soutien [[Objet]] contrôlé par un investigateur dans votre lieu.\n[fast] Lors d'un test de compétence sur le soutien attaché, dépensez 1 durabilité : vous gagnez +2 à votre valeur de compétence pour ce test.",
+        "traits": "Amélioration."
+    },
+    {
+        "code": "08075",
+        "name": "Bracelet du Mauvais Œil",
+        "text": "Utilisations (1 charge).\n[fast] Dépensez 1 charge : vous gagnez +2 à votre valeur de compétence pour ce test. (Limite d'une fois par test.)\n[reaction] Après qu'un ennemi vous a attaqué : placez 1 charge sur le Bracelet du Mauvais Œil.",
+        "traits": "Objet. Charme. Maudit.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08076",
+        "name": "À Brûler Après Lecture",
+        "text": "Bannissez une carte de niveau 0 à 5 de votre main. Découvrez 2 indices dans votre lieu. Si la carte bannie était de niveau 2 ou plus, retirez 1 fatalité de l'intrigue en cours. Bannissez À Brûler Après Lecture.\n<b>Carte conçue par <i>The Council-in-Exile</i> lors de la Gen Con 2020</b>",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "08077",
+        "flavor": "« Surveille mes arrières, veux-tu ? En fait, surveille mes avants aussi. »",
+        "name": "La Force du Nombre",
+        "text": "La Force du Nombre gagne une icône [wild] pour chaque classe différente parmi les cartes que vous contrôlez.",
+        "traits": "Inné. Synergie."
+    },
+    {
+        "code": "08078",
+        "flavor": "Cette journée se déroule vraiment de mieux en mieux.",
+        "name": "Esprit Audacieux",
+        "text": "Tant qu'Esprit Audacieux est dans votre main ou attribuée à un test de compétence, elle gagne un nombre d'icônes [willpower] égal à votre [combat], et un nombre d'icônes [combat] égal à votre [willpower].",
+        "traits": "Inné. Développé."
+    },
+    {
+        "code": "08079",
+        "name": "Le Sang Appelle le Sang",
+        "text": "Rapide. À jouer après qu'un ennemi vous a attaqué. 1 max par attaque.\nLes dégâts/horreurs de cette attaque ne peuvent pas être assignés aux soutiens [[Allié]]. Pour chaque dégât et/ou horreur que vous subissez de cette attaque, piochez 1 carte.",
+        "traits": "Pacte. Maudit."
+    },
+    {
+        "code": "08080",
+        "name": "Extincteur",
+        "text": "[action] : <b>Combattre.</b> Vous gagnez +1 [combat] et infligez +1 dégât pour cette attaque.\n[action] Défaussez l'Extincteur : <b>Échapper à.</b> Échappez automatiquement à tous les ennemis engagés avec vous. Vous avez le droit de bannir l'extincteur au lieu de le défausser pour défausser chaque ennemi non-[[Élite]] auquel vous échappez par cet effet.",
+        "traits": "Objet. Outil. Corps à Corps.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08081",
+        "name": "Courageux",
+        "text": "Rapide. Limite de 1 [[Aplomb]] en jeu.\nVous gagnez +1 [willpower] et +1 [intellect].\nLes dégâts/horreurs non-directs doivent être assignés à Courageux avant de pouvoir être assignés à votre carte Investigateur.\n[fast] Dépensez 1 ressource : vous gagnez +1 [willpower] ou +1 [intellect] pour ce test de compétence.",
+        "traits": "Talent. Aplomb."
+    },
+    {
+        "code": "08082",
+        "name": "Retenir l'Ennemi",
+        "text": "Rapide. À jouer quand un ennemi non-[[Élite]] est généré dans votre lieu.\nCet ennemi vous attaque. Ensuite, échappez automatiquement à cet ennemi et attachez-lui Retenir l'Ennemi.\nL'ennemi attaché ne peut pas se redresser.",
+        "traits": "Stratagème. Ruse."
+    },
+    {
+        "code": "08083",
+        "flavor": "« Ça me rapporte des points supplémentaires pour ce semestre ? »",
+        "name": "Étudiante en Médecine",
+        "text": "[reaction] After Étudiante en Médecine enters play: Heal 1 dégât and 1 horreur from an investigateur or [[Allié]] asset at your location.",
+        "traits": "Allié. Miskatonic. Science.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08084",
+        "flavor": "« The game is afoot! »",
+        "name": "Sur la Piste",
+        "text": "Choose an enemy at any location other than yours. Either move twice toward that enemy, or discover 1 clue at any empty location between you and the chosen enemy, along the shortest path to reach that enemy.",
+        "traits": "Perspicacité. Tactique."
+    },
+    {
+        "code": "08085",
+        "flavor": "« The game is afoot! »",
+        "name": "Sur la Piste",
+        "text": "Choose an enemy at any location other than yours. Move twice toward that enemy. Discover 1 clue at each location you entered by this effect.",
+        "traits": "Perspicacité. Tactique."
+    },
+    {
+        "code": "08086",
+        "name": "Michael Leigh",
+        "subname": "Chasseur Expérimenté",
+        "text": "Vous gagnez +1 [intellect] and +1 [combat].\n[reaction] After you successfully investigate: Place 1 ressource <i>(from the token pool)</i> on Michael Leigh, as evidence (to a maximum of 3 evidence).\n[reaction] When you initiate an attack, exhaust Michael Leigh and spend 1 evidence: You deal +1 dégât pour cette attaque.",
+        "traits": "Allié. Détective.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08087",
+        "name": "Viser Juste",
+        "text": "During the next fight action you perform this turn using a [[À distance]] or [[Arme à Feu]] asset, treat each [skull], [cultist], [tablet], [elder_thing], or [auto_fail] token you reveal as a \"0\" token. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "08088",
+        "name": "Vieux Fusil",
+        "text": "Utilisations (0 ammo). While playing an event, treat Old Shotgun's uses value as 2.\n[action] Spend 1 ammo: <b>Combattre.</b> Vous gagnez +3 [combat] pour cette attaque. Instead of its standard damage, this attack's damage is equal to the amount you succeed by, or fail by if you fail and would damage another investigateur (to a minimum of 1, to a maximum of 3).",
+        "traits": "Objet. Arme. Arme à Feu.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08089",
+        "name": "Étui Pratique",
+        "text": "[fast]: Choose a [[Arme à Feu]] asset taking up only 1 hand slot in your play area. Attach it to Étui Pratique, or switch it with the attached asset. The attached asset takes up no hand slots. (Limit 1 attached asset.)\n[fast] Exhaust Étui Pratique: Perform a fight action on the attached asset without paying its [action] cost.",
+        "traits": "Objet. Outil. Illicite.",
+        "slot": "Body"
+    },
+    {
+        "code": "08090",
+        "name": "Flambeau de Cthugha",
+        "text": "Utilisations (6 charges).\n[action] : <b>Combattre.</b> Pour cette attaque, you may use [willpower] instead of [combat], and you get +1 skill value. En cas de réussite, spend 1 or 2 charges. Instead of its standard damage, this attack deals 1 dégât for each charge spent. En cas de réussite by 0, lose 1 action.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08091",
+        "name": "Nkosi Mabati",
+        "subname": "Démoniste Énigmatique",
+        "text": "[reaction] After Nkosi Mabati enters play: Name a non-[elder_sign] chaos token with a symbol. Until this card leaves play, the named symbol is your \"sigil.\"\n[reaction] When an investigateur at your location reveals a [cultist], [tablet], or [elder_thing] symbol, exhaust Nkosi Mabati: Search the chaos bag for your sigil and reveal it, instead <i>(returning the other token to the chaos bag)</i>.",
+        "traits": "Allié. Sorcier.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08092",
+        "name": "Flambeau de Cthugha",
+        "text": "Utilisations (9 charges).\n[action] : <b>Combattre.</b> For this attack, you may use [willpower] instead of [combat], and you get +2 skill value. En cas de réussite, spend 1, 2, or 3 charges. Instead of its standard damage, this attack deals 1 dégât for each charge spent. En cas de réussite by 0, lose 2 actions.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08093",
+        "name": "Marteau Cyclopéen",
+        "text": "[action] : <b>Combattre.</b> Add your [willpower] to your skill value for this attack. You deal +1 dégât for this attack. If you succeed and the enemy is non-[[Elite]], you may move it one location away from you. (If you succeed by 3 or more, you instead deal +2 dégâts and may move the enemy up to two locations away from you.)",
+        "traits": "Objet. Relique. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08094",
+        "flavor": "Twenty pounds of steel vengeance.",
+        "name": "Masse",
+        "text": "[action] : <b>Combattre.</b> You get -1 [combat] and deal +1 dégât for this attack.\n[action] [action] : <b>Combattre.</b> Vous gagnez +2 [combat] and deal +2 dégâts for this attack.",
+        "traits": "Objet. Outil. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08095",
+        "flavor": "After what you've seen, you intend to sleep in it.",
+        "name": "Équipement de Protection",
+        "text": "[reaction] When you draw a [[Hazard]] treachery, deal 1 dégât and 1 horreur to Équipement de Protection : Cancel that card's revelation effect.",
+        "traits": "Objet. Armure.",
+        "slot": "Body"
+    },
+    {
+        "code": "08096",
+        "flavor": "Twenty-five pounds of steel vengeance.",
+        "name": "Masse",
+        "text": "[action] : <b>Combattre.</b> Vous gagnez +1 [combat] and deal +1 dégât for this attack.\n[action] [action] [action] : <b>Combattre.</b> Vous gagnez +5 [combat] and deal +5 damage for this attack.",
+        "traits": "Objet. Outil. Arme. Corps à Corps.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "08097",
+        "name": "Télescope de Poche",
+        "text": "[fast] Exhaust Télescope de Poche : Look at the revealed side of a connecting unrevealed location.\n[action] : <b>Enquêter.</b> Investigate a revealed connecting location as if you were there.",
+        "traits": "Objet. Outil.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08098",
+        "name": "Carte Ancestrale",
+        "text": "Utilisations (3 secrets).\n[fast] During your turn, exhaust Carte Ancestrale and spend 1 secret: Choose and take one of the following actions (move, evade, or investigate).",
+        "traits": "Objet. Relique.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08099",
+        "name": "Gené Beauregard",
+        "subname": "Exploratrice Intrépide",
+        "text": "Vous gagnez +1 [intellect] and +1 [agility].\n[reaction] During your turn, after you move to a location, exhaust Gené Beauregard: Move a clue or a non-[[Elite]] enemy from a connecting location to your location, or vice versa.",
+        "traits": "Allié. Voyageur.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08100",
+        "name": "Carte Ancestrale",
+        "text": "Utilisations (3 secrets).\n[fast] During your turn, exhaust Carte Ancestrale and spend 1 secret: Choose and take two of the following actions, in any order (move, evade, or investigate).",
+        "traits": "Objet. Relique.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08101",
+        "name": "Lire l'Avenir",
+        "text": "Utilisations (4 charges).\n[action] : <b>Enquêter.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +1 skill value. En cas de réussite, spend 1 or 2 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. En cas de réussite by 0, choose and discard a card from your hand.",
+        "traits": "Sort. Augure.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08102",
+        "flavor": "All living things have breath.\nBe careful they do not curse you with theirs.",
+        "name": "Protéger l'Anirniq",
+        "text": "Rapide. Play after an [[Allié]] asset at your location is discarded by a card effect or is defeated.\nEither return that asset to its owner's hand, or its owner draws 3 cards.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "08103",
+        "name": "Lire l'Avenir",
+        "text": "Utilisations (6 charges).\n[action] : <b>Enquêter.</b> For this investigation, you may use [willpower] instead of [intellect], and you get +2 skill value. En cas de réussite, spend 1, 2, or 3 charges. Instead of discovering a clue at your location, discover 1 clue at your location for each charge spent. En cas de réussite by 0, choose and discard 2 cards from your hand.",
+        "traits": "Sort. Augure.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08104",
+        "name": "Professeur William Webb",
+        "subname": "Trouve des Liens Cachés",
+        "text": "Utilisations (3 secrets).\n[reaction] When you successfully investigate, exhaust Professeur William Webb and spend 1 secret: Instead of discovering a clue at your location, either choose an [[Objet]] card in your discard pile and add it to your hand, or discover a clue at a connecting location.",
+        "traits": "Allié. Miskatonic.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08105",
+        "name": "Pic à Glace",
+        "text": "Rapide.\n[fast] During a skill test while fighting or investigating, exhaust Pic à Glace : Vous gagnez +1 skill value for this test.",
+        "traits": "Objet. Outil. Corps à Corps.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08106",
+        "name": "Professeur William Webb",
+        "subname": "Finder of Hidden Connections",
+        "text": "Utilisations (3 secrets).\n[reaction] When you successfully investigate, exhaust Professeur William Webb and spend 1 secret: Choose an [[Objet]] card in your discard pile and add it to your hand. Instead of discovering a clue at your location, you may discover a clue at a connecting location.",
+        "traits": "Allié. Miskatonic.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08107",
+        "name": "Pic à Glace",
+        "text": "Rapide.\n[fast] During a skill test while fighting or investigating, exhaust Pic à Glace : Vous gagnez +1 skill value for this test. If you succeed, you may discard Pic à Glace to have this attack deal +1 dégât <i>(if you are fighting)</i>, or to discover 1 additional clue at your location <i>(if you are investigating)</i>.",
+        "traits": "Objet. Outil. Corps à Corps.",
+        "slot": "Hand"
+    },
+    {
+        "code": "08108",
+        "flavor": "« Now, for my next trick... »",
+        "name": "Glissement Éthéré",
+        "text": "Choose a non-[[Elite]] enemy at a revealed location up to 2 connections away. Swap places with that enemy.",
+        "traits": "Sort. Ruse."
+    },
+    {
+        "code": "08109",
+        "name": "Embrouiller",
+        "text": "Utilisations (3 charges).\n[action] If Embrouiller has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility], and you get +1 skill value. If you succeed, spend 1 charge and you may take an additional action this turn. If you succeed by 0, take 1 dégât.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08110",
+        "flavor": "« Now, for my next trick... »",
+        "name": "Glissement Éthéré",
+        "text": "Choose a non-[[Elite]] enemy at any revealed location. Swap places with that enemy.",
+        "traits": "Sort. Ruse."
+    },
+    {
+        "code": "08111",
+        "name": "Embrouiller",
+        "text": "Utilisations (4 charges).\n[action] If Embrouiller has charges remaining: <b>Evade.</b> For this evasion attempt, you may use [willpower] instead of [agility] and get +2 skill value. If you succeed, spend 1 or 2 charges and you may take that many additional actions this turn. If you succeed by 0, take 2 dégâts.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08112",
+        "name": "« Sers-moi ! »",
+        "text": "Rapide. Play after you reveal a chaos token during a skill test.\nReveal an additional chaos token, switching its \"-\" to a \"+\". If that chaos token is a [skull] token, you automatically fail.",
+        "traits": "Chance. Stratagème."
+    },
+    {
+        "code": "08113",
+        "name": "Emprunt Peu Scrupuleux",
+        "text": "Limit 1 par investigateur. Cannot leave play.\n[reaction] After you play Emprunt Peu Scrupuleux : Gain 10 ressources.\n<b>Forcé</b> - When the game ends or you are eliminated, if you have fewer than 10 ressources in your resource pool: Exile Emprunt Peu Scrupuleux.",
+        "traits": "Pacte."
+    },
+    {
+        "code": "08114",
+        "name": "Précieuse Relique",
+        "subname": "D'une Vie Antérieure",
+        "text": "Limit 1 Précieuse Relique <i>(D'une Vie Antérieure)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Précieuse Relique : Heal 1 dégât from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Précieuse Relique : Heal 1 horreur from it.",
+        "traits": "Objet. Charme. Béni.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08115",
+        "name": "Précieuse Relique",
+        "subname": "D'une Vie Future",
+        "text": "Limit 1 Précieuse Relique <i>(D'une Vie Future)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Précieuse Relique: Heal 1 horreur from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Précieuse Relique: Heal 1 dégât from it.",
+        "traits": "Objet. Charme. Maudit.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08116",
+        "name": "Talisman Protecteur",
+        "text": "Rapide. Play only during your turn.\nPlay Talisman Protecteur under the control of any investigateur at your location.\n[reaction] When you assign damage and/or horror that would defeat you, discard Talisman Protecteur : Cancel up to 2 of that damage and/or horror.",
+        "traits": "Objet. Charme.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08117",
+        "name": "Sérénité Naturelle",
+        "text": "Utilisations (4 charges).\n[action] : Test [willpower] (1). For each point you succeed by, you may spend 1 charge to heal 1 dégât or 1 horreur from an investigateur at your location. If you succeed by 0, lose 1 ressource.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08118",
+        "name": "Arc Enchanté",
+        "text": "Utilisations (3 charges).\n[action] Exhaust Arc Enchanté : <b>Combattre.</b> You must use either [willpower] or [agility] instead of [combat] and get +1 skill value for this attack. Cette attaque inflige +1 dégât. As an additional cost to initiate this ability, you may spend 1 charge to have this attack target a non-[[Elite]] enemy at a connecting location; if you do, ignore the aloof and retaliate keywords for this attack.",
+        "traits": "Sort. Béni. Arme. À distance.",
+        "slot": "Hand x2. Arcane"
+    },
+    {
+        "code": "08119",
+        "name": "Sérénité Naturelle",
+        "text": "Utilisations (6 charges).\n[action] : Test [willpower] (0). For each point you succeed by, you may spend 1 charge to heal 1 dégât or 1 horreur from an investigateur at your location. If you succeed by 0, lose 2 ressources.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "08120",
+        "name": "Prophétique",
+        "text": "Utilisations (2 ressources). Replenish these ressources at the start of each round.\nRessources on Prophétique may be spent to pay for [[Chance]], [[Sort]], or [[Esprit]] cards.\n[fast] During a skill test on a [[Chance]], [[Sort]], or [[Esprit]] card, spend 1 ressource from Prophétique : Vous gagnez +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08121",
+        "name": "Fin Limier",
+        "text": "Utilisations (2 ressources). Replenish these ressources at the start of each round.\nRessources on  may be spent to pay for [[Charme]], [[Tactique]], or [[Livre]] cards.\n[fast] During a skill test on a [[Charme]], [[Tactique]], or [[Livre]] card, spend 1 ressource from Fin Limier: Vous gagnez +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08122",
+        "name": "Cogneur",
+        "text": "Utilisations (2 ressources). Replenish these ressources at the start of each round.\nRessources on Cogneur may be spent to pay for [[Armure]], [[Arme à Feu]], or [[Corps à Corps]] cards.\n[fast] During a skill test on a [[Armure]], [[Arme à Feu]], or [[Corps à Corps]] card, spend 1 ressource from Cogneur : Vous gagnez +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08123",
+        "name": "Ingénieux",
+        "text": "Utilisations (2 ressources). Replenish these ressources at the start of each round.\nRessources on Ingénieux may be spent to pay for [[Perspicacité]], [[Outil]], or [[Ruse]] cards.\n[fast] During a skill test on a [[Perspicacité]], [[Outil]], or [[Ruse]] card, spend 1 ressource from Ingénieux : Vous gagnez +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08124",
+        "name": "Antiquaire",
+        "text": "Utilisations (2 ressources). Replenish these ressources at the start of each round.\nRessources on Antiquaire may be spent to pay for [[Faveur]], [[Relic]] or [[Rituel]] cards.\n[fast] During a skill test on a [[Faveur]], [[Relic]] or [[Rituel]] card, spend 1 ressource from Antiquaire : Vous gagnez +1 skill value for this test.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08125",
+        "name": "Dans le Vif du Sujet",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nQuand vous achetez Dans le Vif du Sujet, subissez un total de 2 traumatismes physiques et/ou mentaux. Ensuite, recevez 3 points d'expérience.",
+        "traits": "Malédiction."
+    },
+    {
+        "code": "08126",
+        "name": "Fourrures Épaisses",
+        "text": "[reaction] Après avoir révélé un symbole non-[auto_fail] sur un pion Chaos lors d'un test de compétence que vous effectuez, infligez 1 dégât aux Fourrures Épaisses : annulez ce pion et remettez-le dans la réserve du Chaos. Révélez un nouveau pion Chaos.",
+        "traits": "Objet. Armure.",
+        "slot": "Body"
+    },
+    {
+        "code": "08127",
+        "name": "Chien de Traineau",
+        "text": "Vous pouvez inclure jusqu'à 4 exemplaires du Chien de Traineau dans votre deck. Jusqu'à 2 Chiens de Traineau occupent un seul emplacement d'allié.\n[action] Inclinez X Chiens de Traineau : <b>Se Déplacer.</b> Déplacez-vous X fois.\n[action] Inclinez X Chiens de Traineau : <b>Combattre.</b> Vous gagnez +X [combat] pour cette attaque. Cette attaque inflige X dégâts au lieu de ses dégâts normaux.",
+        "traits": "Allié. Créature.",
+        "slot": "Ally"
+    },
+    {
+        "code": "08128",
+        "name": "Baguette d'Animalisme",
+        "text": "Vous avez 2 emplacements d'allié supplémentaires, qui ne peuvent être utilisés que pour contenir des soutiens [[Créature]].\n[reaction] Quand vous jouez un soutien [[Créature]] lors de votre tour : réduisez de 1 le coût de ce soutien.",
+        "traits": "Objet. Relique.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "08129",
+        "name": "Appeler des Renforts",
+        "text": "Un à la fois, dans l'ordre de votre choix, si vous contrôlez une carte...\n- [rogue], vous avez le droit de vous déplacer vers un lieu connexe.\n- [guardian], infligez 1 dégât à un ennemi dans votre lieu.\n- [seeker], découvrez 1 indice dans votre lieu.\n- [mystic], soignez 1 horreur sur n'importe quelle carte.\n- [survivor], soignez 1 dégât sur n'importe quelle carte.",
+        "traits": "Faveur. Synergie."
+    },
+    {
+        "code": "08130",
+        "name": "Blessure au Bras",
+        "text": "<b>Révélation</b> - Mettez Blessure au Bras en jeu dans votre zone de menace.\nBlessure au Bras peut être soignée comme s'il s'agissait d'un unique point de dégât sur vous <i>(si elle est soignée, défaussez-la)</i>.\n<b>Forcé</b> - Après que vous avez effectué une action Combattre ou Activer : vous ne pouvez plus effectuer ces types d'action pour le reste du tour.",
+        "traits": "Blessure."
+    },
+    {
+        "code": "08131",
+        "name": "Blessure à la Jambe",
+        "text": "<b>Révélation</b> - Mettez Blessure à la Jambe en jeu dans votre zone de menace.\nBlessure à la Jambe peut être soignée comme s'il s'agissait d'un unique point de dégât sur vous <i>(si elle est soignée, défaussez-la)</i>.\n<b>Forcé</b> - Après que vous avez effectué une action Se Déplacer, Abandon ou Échapper à : vous ne pouvez plus effectuer ces types d'action pour le reste du tour.",
+        "traits": "Blessure."
+    },
+    {
+        "code": "08132",
+        "name": "Panique",
+        "text": "<b>Révélation</b> - Mettez Panique en jeu dans votre zone de menace.\nPanique peut être soignée comme s'il s'agissait d'un unique point d'horreur sur vous <i>(si elle est soignée, défaussez-la)</i>.\n<b>Forcé</b> - Après que vous avez effectué une action Jouer, Engager ou Ressource : vous ne pouvez plus effectuer ces types d'action pour le reste du tour.",
+        "traits": "Folie."
+    },
+    {
+        "code": "08133",
+        "name": "Stupeur",
+        "text": "<b>Révélation</b> - Mettez Stupeur en jeu dans votre zone de menace.\nStupeur peut être soignée comme s'il s'agissait d'un unique point d'horreur sur vous <i>(si elle est soignée, défaussez-la)</i>.\n<b>Forcé</b> - Après que vous avez effectué une action Discussion, Piocher ou Enquêter : vous ne pouvez plus effectuer ces types d'action pour le reste du tour.",
+        "traits": "Folie."
+    }
+]
