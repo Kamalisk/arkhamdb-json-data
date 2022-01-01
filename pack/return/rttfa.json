@@ -97,9 +97,9 @@
         "pack_code": "rttfa",
         "position": 6,
         "quantity": 2,
-        "slot": "Hand",
         "skill_agility": 1,
         "skill_combat": 1,
+        "slot": "Hand",
         "text": "Uses (5 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.\n<b>Forced</b> - At the end of the round, if you triggered Colt Vest Pocket's \"[action]\" ability: Discard it.",
         "traits": "Item. Weapon. Firearm. Illicit.",
         "type_code": "asset",
@@ -163,7 +163,12 @@
     {
         "code": "53010",
         "deck_limit": 1,
-        "deck_options": [{ "not": true, "slot": ["Ally"] }],
+        "deck_options": [
+            {
+                "not": true,
+                "slot": ["Ally"]
+            }
+        ],
         "exceptional": true,
         "faction_code": "survivor",
         "illustrator": "Alexander Kozachenko",
@@ -207,8 +212,8 @@
         "position": 12,
         "quantity": 1,
         "slot": "Hand x2",
-        "subtype_code": "basicweakness",
         "subname": "\"Natural\" Transformation",
+        "subtype_code": "basicweakness",
         "text": "<b>Revelation</b> - Put Dendromorphosis into play in your threat area. It cannot leave play while it has no damage on it.\n[fast] Take 1 direct damage: Deal 1 damage to Dendromorphosis.\n<b>Card design by the Botanists at Arkham Nights 2018.</b>",
         "traits": "Curse. Flora.",
         "type_code": "asset"

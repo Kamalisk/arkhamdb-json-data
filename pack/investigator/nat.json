@@ -7,7 +7,10 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             }
         ],
         "deck_requirements": "size:30, card:60102, card:60103, random:subtype:basicweakness",
@@ -23,8 +26,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 5,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Boxer",
         "text": "[reaction] When you deal damage to an enemy by an event or a fight ability on an event: Deal 1 additional damage. (Limit once per phase.)\n[elder_sign] effect: +1. If this skill test is successful during an attack, return an event from your discard pile to your hand.",
@@ -36,12 +39,11 @@
         "cost": 2,
         "deck_limit": 1,
         "faction_code": "guardian",
-        "health": 1,
         "flavor": "\"You gotta give this up, Nathaniel. Sooner or later, you're gonna get yourself killed.\"",
+        "health": 1,
         "illustrator": "Derek D. Edgell",
         "is_unique": true,
         "name": "Randall Cho",
-        "subname": "Concerned Brother",
         "pack_code": "nat",
         "position": 2,
         "quantity": 1,
@@ -51,6 +53,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Ally",
+        "subname": "Concerned Brother",
         "text": "Nathaniel Cho deck only.\n[fast] After Randall Cho enters play: Heal 3 damage or search your deck and discard pile for a [[Weapon]] asset, play it <i>(paying its cost)</i>, and shuffle your deck.",
         "traits": "Ally. Medic.",
         "type_code": "asset"

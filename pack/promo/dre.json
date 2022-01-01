@@ -7,14 +7,20 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "name": "Secondary Class",
                 "faction_select": ["guardian", "seeker", "rogue"],
-                "level": { "min": 0, "max": 1 },
-                "type": ["event", "skill"],
-                "limit": 10
+                "level": {
+                    "max": 1,
+                    "min": 0
+                },
+                "limit": 10,
+                "name": "Secondary Class",
+                "type": ["event", "skill"]
             }
         ],
         "deck_requirements": "size:30, card:98020, card:98021, random:subtype:basicweakness",
@@ -29,8 +35,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 1,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 5,
         "subname": "The Writer",
         "text": "You choose the investigator order during the mythos phase.\n[reaction] When you look at 1 or more cards from the encounter deck: Look at 1 additional card and choose 1 non-[[Elite]] card among them. Either discard it, put it on top of the encounter deck, or place it facedown beneath Gloria Goldberg (max 3 cards beneath her).\n[elder_sign] effect: +1. Look at the top card of the encounter deck.",

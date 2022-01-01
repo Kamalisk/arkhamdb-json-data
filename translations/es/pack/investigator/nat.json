@@ -1,22 +1,22 @@
 [
     {
+        "back_flavor": "Cuando el prometedor boxeador Nathaniel Cho recibió  una cuantiosa oferta por un combate por el título, pensó que por fin había llegado a lo más alto. Pero su promotor resultó formar parte de la conocida banda de los O'Bannion, por lo que empezó a presionar a Nathaniel para que amañara combates tirándose a la lona de vez en cuando. Su negativa provocó el «accidente» de su hermano Randall. Nathaniel está harto, y con razón, de que los mafiosos pongan en peligro a los ciudadanos de Arkham una noche tras otra. Ahora usa sus puños para un fin más noble: patrullar las calles y defender al prójimo. Pero está a punto de descubrir que en las sombras de Arkham acechan cosas mucho más peligrosas que los simples gánsteres…",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Randall Cho, Tommy Malloy, 1 Debilidad básica aleatoria.",
         "code": "60101",
         "flavor": "\"Debo seguir peleando.\"",
         "name": "Nathaniel Cho",
         "subname": "El boxeador",
         "text": "[reaction] Cuando inflijas daño a un Enemigo mediante un Evento o una capacidad <b>Combatir</b> de un Evento: Inflige 1 punto de daño adicional. Límite de 1 vez por fase.\nEfecto [elder_sign]: +1. Si esta prueba de habilidad tiene éxito durante un ataque, devuelve un Evento de tu pila de descartes a tu mano.",
-        "traits": "Criminal. Protector.",
-        "back_flavor": "Cuando el prometedor boxeador Nathaniel Cho recibió  una cuantiosa oferta por un combate por el título, pensó que por fin había llegado a lo más alto. Pero su promotor resultó formar parte de la conocida banda de los O'Bannion, por lo que empezó a presionar a Nathaniel para que amañara combates tirándose a la lona de vez en cuando. Su negativa provocó el «accidente» de su hermano Randall. Nathaniel está harto, y con razón, de que los mafiosos pongan en peligro a los ciudadanos de Arkham una noche tras otra. Ahora usa sus puños para un fin más noble: patrullar las calles y defender al prójimo. Pero está a punto de descubrir que en las sombras de Arkham acechan cosas mucho más peligrosas que los simples gánsteres…",
-        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Randall Cho, Tommy Malloy, 1 Debilidad básica aleatoria."
+        "traits": "Criminal. Protector."
     },
     {
         "code": "60102",
         "flavor": "\"Tienes que dejar de hacer esto, Nathaniel. Te acabarán matando antes o después.\"",
         "name": "Randall Cho",
+        "slot": "Aliado",
         "subname": "Hermano preocupado",
         "text": "Solo para el mazo de Nathaniel Cho.\n[free] Después de que Randall Cho entre en juego: Cúrate 3 puntos de daño o busca en tu mazo o pila de descartes un Apoyo [[Arma]], juégalo <i>(pagando su coste)</i> y baraja tu mazo.",
-        "traits": "Aliado. Médico.",
-        "slot": "Aliado"
+        "traits": "Aliado. Médico."
     },
     {
         "code": "60103",
@@ -28,31 +28,31 @@
     {
         "code": "60104",
         "name": "Autodestructivo",
-        "text": "<b>Revelación</b> — Pon Autodestructivo en juego en tu zona de amenaza.\n<b>Obligado</b> —Cuando inflijas 1 o más puntos de daño a un Enemigo: Recibe 1 punto de daño.\n[action][action]: Descarta Autodestructivo.",
+        "text": "<b>Revelación</b> — Pon Autodestructivo en juego en tu zona de amenaza.\n<b>Obligado</b> —Cuando inflijas 1 o más puntos de daño a un Enemigo: Recibe 1 punto de daño.\n[action] [action]: Descarta Autodestructivo.",
         "traits": "Defecto."
     },
     {
         "code": "60105",
         "name": "Guantes de boxeo",
+        "slot": "Dos manos",
         "text": "Recibes +1 [combat] al combatir.\n[reaction] Después de que derrotes a un Enemigo, agota los Guantes de boxeo: Busca entre las 6 primeras cartas de tu mazo un Evento [[Espíritu]] y añádelo a tu mano. Baraja tu mazo.",
-        "traits": "Objeto. Arma.",
-        "slot": "Dos manos"
+        "traits": "Objeto. Arma."
     },
     {
         "code": "60106",
         "name": "Protección corporal",
+        "slot": "Arcano",
         "text": "Usos (4 cargas).\n[reaction] Cuando se te inflija daño y/u horror por el ataque de un Enemigo, agota la Protección corporal y gasta 1 carga: Cancela 1 punto de daño o de horror que se acabe de infligir por ese ataque.",
-        "traits": "Ritual.",
-        "slot": "Arcano"
+        "traits": "Ritual."
     },
     {
         "code": "60107",
         "flavor": "\"Con hierro y sal. Con agua y fuego.\"",
         "name": "Grete Wagner",
+        "slot": "Aliado",
         "subname": "La purificadora",
         "text": "Recibes +1 [combat].\n[reaction] Después de que derrotes a un Enemigo, agota a Grete Wagner e inflígele 1 punto de daño: Descubre 1 pista en tu Lugar.",
-        "traits": "Aliado. Cazador.",
-        "slot": "Aliado"
+        "traits": "Aliado. Cazador."
     },
     {
         "code": "60109",
@@ -160,18 +160,18 @@
     {
         "code": "60127",
         "name": "Guantes de boxeo",
+        "slot": "Dos manos",
         "text": "Recibes +2 [combat] al combatir.\n[reaction] Después de que derrotes a un Enemigo, agota los Guantes de boxeo: Busca entre las 9 primeras cartas de tu mazo un Evento [[Espíritu]] y añádelo a tu mano. Baraja tu mazo.",
-        "traits": "Objeto. Arma.",
-        "slot": "Dos manos"
+        "traits": "Objeto. Arma."
     },
     {
         "code": "60128",
         "flavor": "\"Con hierro y sal. Con agua y fuego\"",
         "name": "Grete Wagner",
+        "slot": "Aliado",
         "subname": "La purificadora",
         "text": "Recibes +1 [combat] y +1 [intellect].\n[reaction] Después de que derrotes a un Enemigo, agota a Grete Wagner e inflígele 1 punto de daño: Descubre 1 pista en tu Lugar o en un Lugar conectado.",
-        "traits": "Aliado. Cazador.",
-        "slot": "Aliado"
+        "traits": "Aliado. Cazador."
     },
     {
         "code": "60129",

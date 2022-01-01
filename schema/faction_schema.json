@@ -5,6 +5,9 @@
             "minLength": 1,
             "type": "string"
         },
+        "is_primary": {
+            "type": "boolean"
+        },
         "name": {
             "minLength": 1,
             "type": "string"
@@ -19,9 +22,6 @@
                     "type": "null"
                 }
             ]
-        },
-        "is_primary": {
-            "type": "boolean"
         }
     },
     "required": ["code", "name"],

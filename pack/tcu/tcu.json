@@ -6,23 +6,44 @@
         "deck_limit": 1,
         "deck_options": [
             {
+                "level": {
+                    "max": 5,
+                    "min": 1
+                },
                 "not": true,
-                "trait": ["weapon"],
-                "level": { "min": 1, "max": 5 }
+                "trait": ["weapon"]
             },
-            { "faction": ["guardian"], "level": { "min": 0, "max": 3 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "level": {
+                    "max": 5,
+                    "min": 0
+                },
                 "text": [
                     "[Hh]eals? (that much )?((\\d+|all|(X total)) damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
-                ],
-                "level": { "min": 0, "max": 5 }
+                ]
             },
             {
+                "error": "You cannot have more than 15 level 0-1 Seeker and/or Mystic cards",
                 "faction": ["seeker", "mystic"],
-                "level": { "min": 0, "max": 1 },
-                "limit": 15,
-                "error": "You cannot have more than 15 level 0-1 Seeker and/or Mystic cards"
+                "level": {
+                    "max": 1,
+                    "min": 0
+                },
+                "limit": 15
             }
         ],
         "deck_requirements": "size:30, card:05007:98011, card:05008:98012, random:subtype:basicweakness",
@@ -38,8 +59,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 2,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Psychologist",
         "text": "[reaction] After one of your card effects heals horror from an investigator or [[Ally]] asset: The healed card's controller gains 1 resource.\n[elder_sign] effect: +1. You may heal 1 horror from an investigator or [[Ally]] asset at your location.",
@@ -54,9 +75,18 @@
         "deck_options": [
             {
                 "faction": ["seeker", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["guardian"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:40, card:05009, card:05010, random:subtype:basicweakness",
         "double_sided": true,
@@ -70,8 +100,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 2,
-        "skill_intellect": 4,
         "skill_combat": 4,
+        "skill_intellect": 4,
         "skill_willpower": 2,
         "subname": "The Private Investigator",
         "text": "<b>Forced</b> - When the investigation phase begins: Reveal the top card of your hunch deck. Until the end of the phase, you may play that card as if it were in your hand, at -2 cost. If it is still revealed at the end of the phase, shuffle it back into your hunch deck.\n[elder_sign] effect: +1. You may move an [[Insight]] event from your discard pile to the bottom of your hunch deck.",
@@ -84,12 +114,24 @@
         "code": "05003",
         "deck_limit": 1,
         "deck_options": [
-            { "not": true, "trait": ["illicit"] },
+            {
+                "not": true,
+                "trait": ["illicit"]
+            },
             {
                 "faction": ["rogue", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["survivor"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["survivor"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:05011, card:05012, random:subtype:basicweakness",
         "double_sided": true,
@@ -104,8 +146,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 1,
-        "skill_intellect": 1,
         "skill_combat": 1,
+        "skill_intellect": 1,
         "skill_willpower": 1,
         "subname": "The Millionaire",
         "text": "Anytime you gain 1 or more resources from a card effect, place them on Family Inheritance instead of in your resource pool.\n[elder_sign] effect: +0. You may spend 2 resources to automatically succeed, instead.",
@@ -120,9 +162,18 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["guardian"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:35, card:05013, card:05014, card:05015, random:subtype:basicweakness",
         "double_sided": true,
@@ -136,8 +187,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 1,
         "subname": "The Redeemed Cultist",
         "text": "Diana Stanley gets +1 [willpower] for each card beneath her.\n[reaction] After a card you own cancels or ignores a card effect or game effect, if there are fewer than 5 cards beneath Diana Stanley: Place that card facedown beneath her. Draw 1 card and gain 1 resource. (Limit once per phase.)\n[elder_sign] effect: +2. You may choose a card beneath Diana Stanley and add it to your hand.",
@@ -150,10 +201,19 @@
         "code": "05005",
         "deck_limit": 1,
         "deck_options": [
-            { "trait": ["trick"], "level": { "min": 0, "max": 3 } },
+            {
+                "level": {
+                    "max": 3,
+                    "min": 0
+                },
+                "trait": ["trick"]
+            },
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             }
         ],
         "deck_requirements": "size:30, card:05016, card:05017, random:subtype:basicweakness",
@@ -169,8 +229,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 5,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Athlete",
         "text": "[reaction] After you evade an enemy: Either deal 1 damage to that enemy, or move to a connecting location. (Limit once per round.)\n[elder_sign] effect: +2. Until the end of the round, ignore the limit on the above [reaction] ability.",
@@ -183,13 +243,40 @@
         "code": "05006",
         "deck_limit": 1,
         "deck_options": [
-            { "trait": ["spell"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["mystic"], "level": { "min": 0, "max": 3 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "trait": ["occult"], "level": { "min": 0, "max": 0 } },
+            {
+                "level": {
+                    "max": 5,
+                    "min": 0
+                },
+                "trait": ["spell"]
+            },
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "trait": ["occult"]
+            },
             {
                 "faction": ["seeker", "survivor"],
-                "level": { "min": 0, "max": 0 },
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
                 "limit": 5
             }
         ],
@@ -205,8 +292,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 3,
-        "skill_intellect": 4,
         "skill_combat": 1,
+        "skill_intellect": 4,
         "skill_willpower": 4,
         "subname": "The Entertainer",
         "text": "While you have 1 or more doom among cards you control, you may take an additional action during your turn, which can only be used to play [[Spell]] cards or activate [[Spell]] [action] abilities.\n[elder_sign] effect: +1. You may add 1 doom to or remove 1 doom from a card you control.",
@@ -328,10 +415,10 @@
         "position": 13,
         "quantity": 1,
         "restrictions": "investigator:05004",
-        "slot": "Hand",
         "skill_combat": 1,
         "skill_wild": 1,
         "skill_willpower": 1,
+        "slot": "Hand",
         "subname": "Sanctum's Reward",
         "text": "Diana Stanley deck only.\n[action]: <b>Fight.</b>. You may use [willpower] instead of [combat] for this attack.\nYou may play or commit events and skills beneath Diana Stanley as if they were in your hand. As an additional cost to play or commit a card in this way, exhaust Twilight Blade. You cannot trigger Diana Stanley's [reaction] ability while playing or committing a card in this way.",
         "traits": "Item. Relic. Weapon.",
@@ -433,9 +520,9 @@
         "position": 19,
         "quantity": 1,
         "restrictions": "investigator:05006",
-        "subtype_code": "weakness",
         "slot": "Ally",
         "subname": "Lord of the Cemetery",
+        "subtype_code": "weakness",
         "text": "<b>Revelation</b> - Put Baron Samedi into play. He cannot leave play while he has less than 3 doom on him.\n<b>Forced</b> - When any amount of damage is placed on an investigator in Baron Samedi's location: Place 1 additional damage on that investigator.\n[free] Exhaust Baron Samedi: Place 1 doom on Baron Samedi. If he has 3 or more doom on him, discard him.",
         "traits": "Avatar.",
         "type_code": "asset"
@@ -520,8 +607,8 @@
         "pack_code": "tcu",
         "position": 24,
         "quantity": 2,
-        "slot": "Hand",
         "skill_intellect": 1,
+        "slot": "Hand",
         "text": "Uses (3 supplies).\n[action] Exhaust Fingerprint Kit and spend 1 supply: <b>Investigate.</b> You get +1 [intellect] for this investigation. If you succeed, you discover 1 additional clue at your location.",
         "traits": "Item. Tool.",
         "type_code": "asset",

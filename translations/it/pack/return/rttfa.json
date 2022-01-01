@@ -8,13 +8,13 @@
     {
         "code": "53002",
         "name": "Coltello da Sopravvivenza",
+        "slot": "Mano",
         "text": "[action]: <b>Combatti.</b> Ricevi +2 [combat] in questo attacco.\n[reaction] Quando un nemico ti attacca durante la Fase dei Nemici <i>(prima di risolvere l'attacco)</i>, esaurisci il Coltello da Sopravvivenza: <b>Combatti.</b> Questo attacco bersaglia il nemico attaccante. Ricevi +2 [combat] e infliggi +1 danno in questo attacco.",
-        "traits": "Oggetto. Arma. Mischia.",
-        "slot": "Mano"
+        "traits": "Oggetto. Arma. Mischia."
     },
     {
         "code": "53003",
-        "flavor": "\"Tu che ne sai che sono pazza?\" chiese Alice. \"Devi esserlo\", rispose il Gatto, \"altrimenti non saresti venuta qui.\"–Lewis Carroll, \"Alice nel Paese delle Meraviglie\"",
+        "flavor": "\"Tu che ne sai che sono pazza?\" chiese Alice. \"Devi esserlo\", rispose il Gatto, \"altrimenti non saresti venuta qui.\"-Lewis Carroll, \"Alice nel Paese delle Meraviglie\"",
         "name": "Distinguere Verità e Finzione",
         "text": "Colloca un totale di 2 segreti  tra i supporti controllati dagli investigatori nel tuo luogo (un totale di 3 segreti se invece ci sono indizi sul tuo luogo).",
         "traits": "Intuizione."
@@ -22,40 +22,40 @@
     {
         "code": "53004",
         "name": "Pietra Antica",
+        "slot": "Mano",
         "subname": "Pensieri Fugaci",
         "text": "Puoi includere questo supporto nel tuo mazzo solo migliorandolo dalla Pietra Antica <i>(Non Identificata)</i> e solo se \"la pietra è stata identificata\".\nUtilizzo (X segreti), dove X è il numero tra parentesi accanto a \"la pietra è stata identificata\".\n[reaction] Quando peschi un qualsiasi numero di carte, spendi un pari ammontare di segreti: Muoviti di quell'ammontare di volte.",
-        "traits": "Oggetto. Reliquia.",
-        "slot": "Mano"
+        "traits": "Oggetto. Reliquia."
     },
     {
         "code": "53005",
         "name": "Teschio Decorato",
+        "slot": "Accessorio",
         "subname": "Rovina Genera Rovina",
         "text": "Utilizzo (0 cariche).\n[reaction] Dopo che un investigatore, un supporto [[Alleato]] o un nemico nel tuo luogo è stato sconfitto: Colloca 1 risorsa <i>(dalla riserva dei segnalini)</i> sul Teschio Decorato (trasformandola in carica).\n[action] Spendi fino a 3 cariche: Pesca un pari ammontare di carte e ottieni un pari ammontare di risorse.",
-        "traits": "Oggetto. Reliquia. Maledetto.",
-        "slot": "Accessorio"
+        "traits": "Oggetto. Reliquia. Maledetto."
     },
     {
         "code": "53006",
         "name": "Colt Tascabile",
-        "text": "Utilizzo (5 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +2 [combat] e infliggi +1 danno in questo attacco.\n<b>Obbligo</b> – Alla fine del round, se hai innescato la capacità \"[action]\" della Colt Tascabile: Scartala.",
-        "traits": "Oggetto. Arma. Arma da Fuoco. Illecito.",
-        "slot": "Mano"
+        "slot": "Mano",
+        "text": "Utilizzo (5 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +2 [combat] e infliggi +1 danno in questo attacco.\n<b>Obbligo</b> - Alla fine del round, se hai innescato la capacità \"[action]\" della Colt Tascabile: Scartala.",
+        "traits": "Oggetto. Arma. Arma da Fuoco. Illecito."
     },
     {
         "code": "53007",
         "name": "Nebbie di R'lyeh",
+        "slot": "Arcano",
         "text": "Utilizzo (5 cariche).\n[action] Spendi 1 carica: <b>Eludi.</b> Usa [willpower] invece di [agility]. Ricevi +1 [willpower] in questo tentativo di elusione. Se hai successo, dopo aver eluso il nemico scelto, puoi muoverti fino a un luogo collegato al tuo. Se riveli un simbolo [skull], [cultist], [tablet], [elder_thing] o [auto_fail], scegli e scarta 1 carta dalla tua mano.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "53008",
         "name": "La Pietra Chthoniana",
+        "slot": "Mano",
         "subname": "Segnalazione Stigea",
-        "text": "Sigillo ([skull], [cultist], [tablet] o [elder_thing]). Utilizzo (3 cariche). Se non ci sono cariche sulla Pietra Chthoniana, rimettila nella tua mano.\n<b>Obbligo</b> – Dopo che hai rivelato un simbolo [auto_fail] durante una prova di abilità: Rimuovi 1 carica dalla Pietra Chthoniana.",
-        "traits": "Oggetto. Reliquia. Maledetto.",
-        "slot": "Mano"
+        "text": "Sigillo ([skull], [cultist], [tablet] o [elder_thing]). Utilizzo (3 cariche). Se non ci sono cariche sulla Pietra Chthoniana, rimettila nella tua mano.\n<b>Obbligo</b> - Dopo che hai rivelato un simbolo [auto_fail] durante una prova di abilità: Rimuovi 1 carica dalla Pietra Chthoniana.",
+        "traits": "Oggetto. Reliquia. Maledetto."
     },
     {
         "code": "53009",
@@ -73,37 +73,37 @@
     {
         "code": "53011",
         "name": "Zaino",
+        "slot": "Corpo",
         "text": "[reaction] Dopo che lo Zaino è entrato in gioco: Cerca tra le 12 carte in cima al tuo mazzo fino a 3 carte [[Oggetto]] o [[Scorta]] non debolezza e assegnale a faccia in giù allo Zaino. Rimescola il tuo mazzo.\nLe carte assegnate allo Zaino possono essere giocate come se fossero nella tua mano. Se non ci sono carte assegnate allo Zaino, scartalo.",
-        "traits": "Oggetto.",
-        "slot": "Corpo"
+        "traits": "Oggetto."
     },
     {
         "code": "53012",
         "flavor": "\"Piante!\"",
         "name": "Dendromorfosi",
+        "slot": "Mano x2",
         "subname": "Trasformazione \"Naturale\"",
-        "text": "<b>Rivelazione</b> – Metti in gioco la Dendromorfosi nella tua area di minaccia. Finché non ci sono danni su di essa, la Dendromorfosi non può uscire dal gioco.\n[free] Subisci 1 danno diretto: Infliggi 1 danno alla Dendromorfosi.\n<b>Carta creata da The Botanists durante le Arkham Nights 2018.</b>",
-        "traits": "Maledizione. Flora.",
-        "slot": "Mano x2"
+        "text": "<b>Rivelazione</b> - Metti in gioco la Dendromorfosi nella tua area di minaccia. Finché non ci sono danni su di essa, la Dendromorfosi non può uscire dal gioco.\n[free] Subisci 1 danno diretto: Infliggi 1 danno alla Dendromorfosi.\n<b>Carta creata da The Botanists durante le Arkham Nights 2018.</b>",
+        "traits": "Maledizione. Flora."
     },
     {
         "code": "53013",
         "name": "Offerta Che Non Potrai Rifiutare",
-        "text": "Solo modalità campagna.\nQuando diventi il portatore di questa debolezza, guadagna 2 punti esperienza.\n<b>Rivelazione</b> – Perdi 5 risorse. Se non puoi farlo, rimuovi invece l'Offerta Che Non Potrai Rifiutare dal tuo mazzo, cerca nella collezione la Clausola Scritta in Piccolo e collocala nella tua pila degli scarti.",
+        "text": "Solo modalità campagna.\nQuando diventi il portatore di questa debolezza, guadagna 2 punti esperienza.\n<b>Rivelazione</b> - Perdi 5 risorse. Se non puoi farlo, rimuovi invece l'Offerta Che Non Potrai Rifiutare dal tuo mazzo, cerca nella collezione la Clausola Scritta in Piccolo e collocala nella tua pila degli scarti.",
         "traits": "Patto."
     },
     {
         "code": "53014",
         "flavor": "La tua firma scarlatta gocciola giù dal contratto.",
         "name": "Clausola Scritta in Piccolo",
-        "text": "<b>Rivelazione</b> – Perdi 7 risorse. Se non puoi farlo, rimuovi invece la Clausola Scritta in Piccolo dal tuo mazzo, cerca nella collezione Vendi la Tua Anima e collocala nella tua pila degli scarti.",
+        "text": "<b>Rivelazione</b> - Perdi 7 risorse. Se non puoi farlo, rimuovi invece la Clausola Scritta in Piccolo dal tuo mazzo, cerca nella collezione Vendi la Tua Anima e collocala nella tua pila degli scarti.",
         "traits": "Patto."
     },
     {
         "code": "53015",
         "flavor": "In un modo o nell'altro, il debito dev'essere ripagato.",
         "name": "Vendi la Tua Anima",
-        "text": "<b>Rivelazione</b> – Perdi 10 risorse. Se non puoi farlo, il tuo oscuro sostenitore ti strappa la mente dal corpo. <b>Impazzisci.</b>.",
+        "text": "<b>Rivelazione</b> - Perdi 10 risorse. Se non puoi farlo, il tuo oscuro sostenitore ti strappa la mente dal corpo. <b>Impazzisci.</b>.",
         "traits": "Pact."
     }
 ]

@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["seeker"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["seeker"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:01006, card:01007, random:subtype:basicweakness",
         "double_sided": true,
@@ -25,8 +34,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 4,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Fed",
         "text": "[reaction] After you defeat an enemy: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each clue on your location.",

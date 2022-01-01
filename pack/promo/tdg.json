@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["innate"], "level": { "min": 0, "max": 2 } }
+            {
+                "level": {
+                    "max": 2,
+                    "min": 0
+                },
+                "trait": ["innate"]
+            }
         ],
         "deck_requirements": "size:30, card:07014:98014, card:07015:98014, card:07016:98015, random:subtype:basicweakness",
         "double_sided": true,
@@ -25,8 +34,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 4,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Sailor",
         "text": "[reaction] After you reveal a chaos token during a skill test you are performing. Return a skill you committed to this test to your hand. (Limit once per round.)\n[elder_sign] effect: +0. You may commit a skill from your discard pile to this test. After this test ends, return that skill to your hand instead of discarding it.",
@@ -46,7 +55,7 @@
         "skill_intellect": 1,
         "skill_wild": 1,
         "skill_willpower": 1,
-        "text": "Silas Marsh deck only. Replacement.\nIf a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains [wild][wild].",
+        "text": "Silas Marsh deck only. Replacement.\nIf a chaos token with a negative modifier is revealed during this test, either draw 1 card or Nautical Prowess gains [wild] [wild].",
         "traits": "Innate. Developed.",
         "type_code": "skill"
     },

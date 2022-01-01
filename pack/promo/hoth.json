@@ -7,12 +7,18 @@
         "deck_options": [
             {
                 "faction": ["rogue", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Rogue or Neutral"
+                "error": "You cannot have more than 5 cards that are not Rogue or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
@@ -29,8 +35,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Dilettante",
         "text": "You collect 1 additional resource during each upkeep phase.\n[elder_sign] effect: +1 for each resource you have.",

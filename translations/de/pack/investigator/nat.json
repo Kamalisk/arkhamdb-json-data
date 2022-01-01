@@ -1,22 +1,22 @@
 [
     {
+        "back_flavor": "Als dem aufstrebenden Boxer Nathaniel Cho für einen Titelkampf ein großer Batzen Geld angeboten wurde, glaubte er, es endlich geschafft zu haben. Es stellte sich aber bald heraus, dass sein Promoter der berüchtigten O'Bannion-Bande angehörte und Nathaniel dazu drängte, Kämpfe zu manipulieren, in denen er ab und zu freiwillig auf die Bretter gehen sollte. Als er sich weigerte, hatte sein Bruder Randall einen „Unfall”. Nathaniel hat es satt, dass diese Gangster die Bürger von Arkham Nacht für Nacht in Gefahr bringen. Jetzt wandert er durch die Straßen der Stadt und setzt seine Fäuste dazu ein, Andere vor Schaden zu bewahren. Schon bald wird er herausfinden, dass noch viel gefährlichere Dinge als einfache Gangster in den Schatten von Arkham lauern…",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0-5, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Randall Cho, Tommy Malloy, 1 zufällige Grundschwäche.",
         "code": "60101",
         "flavor": "„Ich muss weiterkämpfen.”",
         "name": "Nathaniel Cho",
         "subname": "Der Boxer",
         "text": "[reaction] Sobald du einem Gegner durch eine Ereigniskarte oder die Kampf-Fähigkeit einer Ereigniskarte Schaden zufügst: Füge 1 zusätzlichen Schaden zu. (Nur ein Mal pro Phase)\n[elder_sign]-Effekt: +1. Falls diese Fertigkeitsprobe während eines Angriffs erfolgreich ist, schicke eine Ereigniskarte von deinem Ablagestapel auf deine Hand zurück.",
-        "traits": "Krimineller. Wärter.",
-        "back_flavor": "Als dem aufstrebenden Boxer Nathaniel Cho für einen Titelkampf ein großer Batzen Geld angeboten wurde, glaubte er, es endlich geschafft zu haben. Es stellte sich aber bald heraus, dass sein Promoter der berüchtigten O'Bannion-Bande angehörte und Nathaniel dazu drängte, Kämpfe zu manipulieren, in denen er ab und zu freiwillig auf die Bretter gehen sollte. Als er sich weigerte, hatte sein Bruder Randall einen „Unfall”. Nathaniel hat es satt, dass diese Gangster die Bürger von Arkham Nacht für Nacht in Gefahr bringen. Jetzt wandert er durch die Straßen der Stadt und setzt seine Fäuste dazu ein, Andere vor Schaden zu bewahren. Schon bald wird er herausfinden, dass noch viel gefährlichere Dinge als einfache Gangster in den Schatten von Arkham lauern…",
-        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0-5, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Randall Cho, Tommy Malloy, 1 zufällige Grundschwäche."
+        "traits": "Krimineller. Wärter."
     },
     {
         "code": "60102",
         "flavor": "„Du musst damit aufhören, Nathaniel. Früher oder später wird es dich umbringen.”",
         "name": "Randall Cho",
+        "slot": "Verbündeter",
         "subname": "Besorgert Bruder",
         "text": "Nur für das Deck von Nathaniel Cho.\n[fast] Nachdem Randall Cho ins Spiel gekommen ist: Heile 3 Schaden oder durchsuche dein Deck oder deinen Ablagestapel nach einer [[Waffe]]-Vorteilskarte, spiele sie <i>(zahle ihre Kosten)</i> und mische dein Deck.",
-        "traits": "Verbündeter. Mediziner.",
-        "slot": "Verbündeter"
+        "traits": "Verbündeter. Mediziner."
     },
     {
         "code": "60103",
@@ -34,25 +34,25 @@
     {
         "code": "60105",
         "name": "Boxhandschuhe",
+        "slot": "Hand x2",
         "text": "Du bekommst +1 [combat], solange du kämpfst.\n[reaction] Nachdem du einen Gegner besiegt hast, erschöpfe Boxhandschuhe: Durchsuche die obersten 6 Karten deines Decks nach einer [[Geist]]-Ereigniskarte und füge sie deiner Hand hinzu. Miche dein Deck.",
-        "traits": "Gegenstand. Waffe.",
-        "slot": "Hand x2"
+        "traits": "Gegenstand. Waffe."
     },
     {
         "code": "60106",
         "name": "Körperschutz",
+        "slot": "Arkan",
         "text": "Anwendungen (4 Ladungen).\n[reaction] Sobald dir Schaden und/oder Horror durch einen Gegnerangriff zugefügt wird, erschöpfe Körperschutz und gib 1 Ladung aus: Hebe 1 Schaden oder Horror auf, der dir gerade durch jenen Angriff zugefügt worden ist.",
-        "traits": "Ritual.",
-        "slot": "Arkan"
+        "traits": "Ritual."
     },
     {
         "code": "60107",
         "flavor": "„Mit Eisen und Salz. Mit Wasser und Feuer.”",
         "name": "Grete Wagner",
+        "slot": "Verbündeter",
         "subname": "Die Läuternde",
         "text": "Du bekommst +1 [combat].\n[reaction] NAchdem du einen Gegner besiegt hast, erschöpfe Grete Wagner und füge ihr 1 Schaden zu: Du entdeckst 1 Hinweis an deinem Ort.",
-        "traits": "Verbündeter. Jäger.",
-        "slot": "Verbündeter"
+        "traits": "Verbündeter. Jäger."
     },
     {
         "code": "60109",
@@ -160,18 +160,18 @@
     {
         "code": "60127",
         "name": "Boxhandschuhe",
+        "slot": "Hand x2",
         "text": "Du bekommst +2 [combat], solange du kämpfst.\n[reaction] Nachdem du einen Gegner besiegt hast, erschöpfe Boxhandschuhe: Durchsuche die obersten 9 Karten deines Decks nach einer [[Geist]]-Ereigniskarte und füge sie deiner Hand hinzu. Mische dein Deck.",
-        "traits": "Gegenstand. Waffe.",
-        "slot": "Hand x2"
+        "traits": "Gegenstand. Waffe."
     },
     {
         "code": "60128",
         "flavor": "„Mit Eisen und Saltz. Mit Wasser und Feuer.”",
         "name": "Grete Wagner",
+        "slot": "Verbündeter",
         "subname": "Die Läuternde",
         "text": "Du bekommst +1 [combat] und +1 [intellect].\n[reaction] Nachdem du einen Gegner besiegt hasst, erschöpfe Grete Wagner und füge ihr 1 Schaden zu: Du entdeckst 1 Hinweis an deinem oder einem verbundenen Ort.",
-        "traits": "Verbündeter. Jäger.",
-        "slot": "Verbündeter"
+        "traits": "Verbündeter. Jäger."
     },
     {
         "code": "60129",

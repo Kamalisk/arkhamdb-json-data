@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["rogue"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:07012:98017, card:07013:98018, random:subtype:basicweakness",
         "double_sided": true,
@@ -25,8 +34,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 5,
         "subname": "The Magician",
         "text": "[free] During your turn, discard an asset you control: Play an asset with a different title from your hand, reducing its cost by 1. (Limit once per round.)\n[elder_sign] effect: +2. You may return an asset from your play area to your hand. Then, draw 1 card.",

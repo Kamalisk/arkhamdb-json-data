@@ -1,22 +1,22 @@
 [
     {
+        "back_flavor": "Kiedy dobrze zapowiadającemu się bokserowi Nathanielowi Cho zaproponowano niezłą sumkę za walkę o tytuł mistrzowski, myślał, że w końcu nadeszła jego wielka chwila. Okazało się jednak, że jego mecenas to członek cieszącego się złą sławą gangu O'Banniona, a Nathaniel został zmuszony do ustawiania walk, od czasu do czasu udając nokaut. Kiedy odmówił, jego brata, Randalla, spotkał przykry \"wypadek.\" Nathaniel ma pełne prawo mieć dość gangsterów, którzy każdej nocy zagrażają mieszkańcom Arkham. Postanowił, że lepiej wykorzysta swoje pięści - patroluje ulice i broni innych przed krzywdą. Jednak już niedługo dowie się, że pośród cieni Arkham czają się bardziej znacznie niebezpieczne rzeczy niż zwykli gangsterzy...",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Wymogi tworzenia talii</b>: karty strażnika ([guardian]) o poziomie 0-5, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Randall Cho, Tommy Malloy, 1 losowe podstawowe osłabienie.",
         "code": "60101",
         "flavor": "\"Muszę walczyć dalej.\"",
         "name": "Nathaniel Cho",
         "subname": "Bokser",
         "text": "[reaction] Kiedy zadajesz obrażenia wrogowi poprzez kartę wydarzenia lub zdolność Walka z karty wydarzenia: zadaj 1 dodatkowe obrażenie. (Limit raz na fazę.)\n[elder_sign] effect: +1. Jeśli ten test zakończy się sukcesem podczas ataku, cofnij na twoją rękę kartę wydarzenia z twojego stosu kart odrzuconych.",
-        "traits": "Przestępca. Stróż.",
-        "back_flavor": "Kiedy dobrze zapowiadającemu się bokserowi Nathanielowi Cho zaproponowano niezłą sumkę za walkę o tytuł mistrzowski, myślał, że w końcu nadeszła jego wielka chwila. Okazało się jednak, że jego mecenas to członek cieszącego się złą sławą gangu O'Banniona, a Nathaniel został zmuszony do ustawiania walk, od czasu do czasu udając nokaut. Kiedy odmówił, jego brata, Randalla, spotkał przykry \"wypadek.\" Nathaniel ma pełne prawo mieć dość gangsterów, którzy każdej nocy zagrażają mieszkańcom Arkham. Postanowił, że lepiej wykorzysta swoje pięści - patroluje ulice i broni innych przed krzywdą. Jednak już niedługo dowie się, że pośród cieni Arkham czają się bardziej znacznie niebezpieczne rzeczy niż zwykli gangsterzy...",
-        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Wymogi tworzenia talii</b>: karty strażnika ([guardian]) o poziomie 0-5, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Randall Cho, Tommy Malloy, 1 losowe podstawowe osłabienie."
+        "traits": "Przestępca. Stróż."
     },
     {
         "code": "60102",
         "flavor": "\"Musisz odpuścić, Nathanielu! Prędzej czy później to cię zabije.\"",
         "name": "Randall Cho",
+        "slot": "Strefa sprzymierzeńca",
         "subname": "Zaniepokojony brat",
         "text": "Tylko talia Nathaniela Cho.\n[fast] Po tym, jak Randall Cho wejdzie do gry: wylecz 3 obrażenia albo przeszukaj twoją talię lub stos kart odrzuconych w poszukiwaniu atutu z cechą [[Broń]], zagraj go <i>(płacąc jego koszt)</i> i potasuj twoją talię.",
-        "traits": "Sprzymierzeniec. Lekarz.",
-        "slot": "Strefa sprzymierzeńca"
+        "traits": "Sprzymierzeniec. Lekarz."
     },
     {
         "code": "60103",
@@ -34,25 +34,25 @@
     {
         "code": "60105",
         "name": "Rękawice bokserskie",
+        "slot": "2 strefy rąk",
         "text": "Podczas walki dostajesz +1 [combat].\n[reaction] Po tym, jak pokonasz wroga, wyczerp Rękawice bokserskie: przeszukaj 6 kart z wierzchu twojej talii w poszukiwaniu karty wydarzenia z cechą [[Duch]] i dodaj ją do twojej ręki. Potasuj twoją talię.",
-        "traits": "Przedmiot. Broń.",
-        "slot": "2 strefy rąk"
+        "traits": "Przedmiot. Broń."
     },
     {
         "code": "60106",
         "name": "Ochrona ciała",
+        "slot": "Strefa mistyczna",
         "text": "Zużywalny (4 ładunki).\n[reaction] Kiedy zostają ci zadane obrażenia i/lub punkty przerażenia z ataku wroga, wyczerp Ochronę ciała i wydaj 1 ładunek: anuluj 1 obrażenie lub punkt przerażenia właśnie zadane z danego ataku.",
-        "traits": "Rytuał.",
-        "slot": "Strefa mistyczna"
+        "traits": "Rytuał."
     },
     {
         "code": "60107",
         "flavor": "\"Żelazem i Solą. Wodą i ogniem.\"",
         "name": "Grete Wagner",
+        "slot": "Sprzymierzeniec",
         "subname": "Czyścicielka",
         "text": "Dostajesz +1 [combat].\n[reaction] Po tym, jak pokonasz wroga, wyczerp Grete Wagner i zadaj jej 1 obrażenie: odkryj 1 żeton wskazówki w twojej lokalizacji.",
-        "traits": "Sprzymierzeniec. Łowca.",
-        "slot": "Sprzymierzeniec"
+        "traits": "Sprzymierzeniec. Łowca."
     },
     {
         "code": "60109",
@@ -160,18 +160,18 @@
     {
         "code": "60127",
         "name": "Rękawice bokserskie",
+        "slot": "2 strefy rąk",
         "text": "Podczas walki dostajesz +2 [combat].\n[reaction] Po tym, jak pokonasz wroga, wyczerp Rękawice bokserskie: przeszukaj 9 kart z wierzchu twojej talii w poszukiwaniu karty wydarzenia z cechą [[Duch]] i dodaj ją do twojej ręki. Potasuj twoją talię.",
-        "traits": "Przedmiot. Broń.",
-        "slot": "2 strefy rąk"
+        "traits": "Przedmiot. Broń."
     },
     {
         "code": "60128",
         "flavor": "\"Żelazem i Solą. Wodą i Ogniem.\"",
         "name": "Grete Wagner",
+        "slot": "Sprzymierzeniec",
         "subname": "Czyścicielka",
         "text": "Dostajesz +1 [combat] i +1 [intellect].\n[reaction] Po tym, jak pokonasz wroga, wyczerp Grete Wagner i zadaj jej 1 obrażenie: odkryj 1 żeton wskazówki w twojej lub połączonej lokalizacji.",
-        "traits": "Sprzymierzeniec. Łowca.",
-        "slot": "Sprzymierzeniec"
+        "traits": "Sprzymierzeniec. Łowca."
     },
     {
         "code": "60129",

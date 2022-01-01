@@ -1,13 +1,13 @@
 [
     {
+        "back_flavor": "Sang. Feu. Destruction. Chaque nuit, les rêves de Jacqueline sont remplis d'événements qui ne se sont pas encore produits. Au début, elle considérait ces rêves comme une terrible malédiction. Cependant, maintenant qu'elle commence à contrôler ses visions et à pouvoir observer les événements de manière plus détaillée, elle comprend qu'il ne s'agit pas d'une malédiction mais d'un appel. Le monde est sur le point d'être plongé dans un millénaire d'indescriptible chaos et elle seule peut voir les signes d'alerte. Ses rêves n'ont jamais menti, et elle ne peut pas laisser les cauchemars qui les hantent devenir réalité.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Arbitre des Destinées, Sombre Futur, 1 faiblesse de base au hasard.",
         "code": "60401",
         "flavor": "« Le futur peut être réécrit. »",
         "name": "Jacqueline Fine",
         "subname": "La Voyante",
         "text": "[reaction] Quand un investigateur dans votre lieu devrait révéler n'importe quel nombre de pions Chaos : révélez 2 pions supplémentaires. Parmi les pions révélés, choisissez et annulez 2 pions non-[auto_fail] ou 1 pion [auto_fail]. (Limite d'une fois par round.)\n[elder_sign] : +1. Si cet effet est annulé ou ignoré, piochez une carte.",
-        "traits": "Clairvoyant.",
-        "back_flavor": "Sang. Feu. Destruction. Chaque nuit, les rêves de Jacqueline sont remplis d'événements qui ne se sont pas encore produits. Au début, elle considérait ces rêves comme une terrible malédiction. Cependant, maintenant qu'elle commence à contrôler ses visions et à pouvoir observer les événements de manière plus détaillée, elle comprend qu'il ne s'agit pas d'une malédiction mais d'un appel. Le monde est sur le point d'être plongé dans un millénaire d'indescriptible chaos et elle seule peut voir les signes d'alerte. Ses rêves n'ont jamais menti, et elle ne peut pas laisser les cauchemars qui les hantent devenir réalité.",
-        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Arbitre des Destinées, Sombre Futur, 1 faiblesse de base au hasard."
+        "traits": "Clairvoyant."
     },
     {
         "code": "60402",
@@ -19,65 +19,65 @@
     {
         "code": "60403",
         "name": "Sombre Futur",
-        "text": "<b>Révélation</b> – Mettez Sombre Futur en jeu dans votre zone de menace.\nVous ne pouvez ni annuler ni ignorer les pions [elder_sign], [skull], [cultist], [tablet], [elder_thing] et [auto_fail].\n<b>Forcé</b> – À la fin de votre tour : révélez 5 pions pris au hasard dans la réserve du Chaos. Si un symbole [elder_sign] est révélé, défaussez Sombre Futur.",
+        "text": "<b>Révélation</b> - Mettez Sombre Futur en jeu dans votre zone de menace.\nVous ne pouvez ni annuler ni ignorer les pions [elder_sign], [skull], [cultist], [tablet], [elder_thing] et [auto_fail].\n<b>Forcé</b> - À la fin de votre tour : révélez 5 pions pris au hasard dans la réserve du Chaos. Si un symbole [elder_sign] est révélé, défaussez Sombre Futur.",
         "traits": "Présage. Fin des Temps."
     },
     {
         "code": "60404",
         "name": "Nihilisme",
-        "text": "<b>Révélation</b> – Mettez Nihilisme en jeu dans votre zone de menace.\n<b>Forcé</b> – Après que vous avez révélé, annulé ou ignoré un pion [auto_fail] : subissez 1 dégât et 1 horreur.\n[action] [action] : défaussez Nihilisme.",
+        "text": "<b>Révélation</b> - Mettez Nihilisme en jeu dans votre zone de menace.\n<b>Forcé</b> - Après que vous avez révélé, annulé ou ignoré un pion [auto_fail] : subissez 1 dégât et 1 horreur.\n[action] [action] : défaussez Nihilisme.",
         "traits": "Folie."
     },
     {
         "code": "60406",
         "name": "Miroir de Divination",
+        "slot": "Main",
         "text": "Utilisations (4 secrets).\n[reaction] Après qu'un test de compétence dans votre lieu a débuté, inclinez le Miroir de Divination et dépensez 1 secret : effectuez immédiatement l'étape « révéler le pion\nChaos » du test <i>(avant d'attribuer des cartes)</i>, au lieu de l'effectuer après l'attribution des cartes.",
-        "traits": "Objet. Charme.",
-        "slot": "Main"
+        "traits": "Objet. Charme."
     },
     {
         "code": "60407",
         "name": "Flamme Azurée",
+        "slot": "Arcane",
         "text": "Utilisations (4 charges).\n[action] Dépensez 1 charge : <b>Combattre</b>. Cette attaque utilise [willpower] au lieu de [combat] et inflige +1 dégât. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette attaque, subissez 1 dégât.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60408",
         "name": "Clairvoyance",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Enquêter</b>. Cette enquête utilise [willpower] au lieu de [intellect]. En cas de réussite, découvrez 1 indice supplémentaire dans ce lieu. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette enquête, subissez 1 horreur.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60409",
         "name": "Ineffable Vérité",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Échapper à</b>. Cette tentative d'évasion utilise [willpower] au lieu de [agility]. En cas de réussite, infligez 1 dégât à l'ennemi auquel vous échappez. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette tentative d'évasion, perdez 1 ressource.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60410",
         "flavor": "« Vous n'en êtes point digne, mais je dois vous servir pour le moment. »",
         "name": "Esprit Familier",
+        "slot": "Allié",
         "text": "Vous avez un emplacement d'arcane supplémentaire qui ne peut être utilisé que pour contenir un soutien [[Sort]].",
-        "traits": "Allié. Créature. Invocation.",
-        "slot": "Allié"
+        "traits": "Allié. Créature. Invocation."
     },
     {
         "code": "60411",
         "name": "Pendule en Cristal",
+        "slot": "Accessoire",
         "text": "Vous gagnez +1 [willpower].\n[reaction] Après qu'un test de compétence dans votre lieu a débuté, inclinez le Pendule en Cristal : nommez un nombre. Si ce test échoue ou réussit avec une différence égale à ce nombre, piochez 1 carte.",
-        "traits": "Objet. Charme.",
-        "slot": "Accessoire"
+        "traits": "Objet. Charme."
     },
     {
         "code": "60412",
         "flavor": "Sombre est l'abîme au dehors. Lumineux est l'abîme au dedans.",
         "name": "Robe de la Nuit Éternelle",
+        "slot": "Corps",
         "text": "[reaction] Quand vous jouez une carte [[Sort]], inclinez la Robe de la Nuit Éternelle : réduisez de 1 le coût de cette carte.",
-        "traits": "Objet. Vêtement.",
-        "slot": "Corps"
+        "traits": "Objet. Vêtement."
     },
     {
         "code": "60415",
@@ -107,17 +107,17 @@
     {
         "code": "60421",
         "name": "Statue Grotesque",
+        "slot": "Main",
         "text": "Utilisations (3 charges). Si la Statue Grotesque n'a pas de charges, défaussez-la.\n[reaction] Quand vous devriez révéler un pion Chaos, dépensez 1 charge : révélez 2 pions Chaos au lieu de 1. Choisissez 1 de ces pions à résoudre et ignorez l'autre.",
-        "traits": "Objet. Relique.",
-        "slot": "Main"
+        "traits": "Objet. Relique."
     },
     {
         "code": "60422",
         "flavor": "Sombre est l'abîme au dehors. Lumineux est l'abîme au dedans.",
         "name": "Robe de la Nuit Éternelle",
+        "slot": "Corps",
         "text": "[reaction] Quand vous jouez une carte [[Sort]], inclinez la Robe de la Nuit Éternelle : réduisez de 1 le coût de cette carte et la jouer ne provoque pas d'attaques d'opportunité.",
-        "traits": "Objet. Vêtement.",
-        "slot": "Corps"
+        "traits": "Objet. Vêtement."
     },
     {
         "code": "60423",
@@ -135,23 +135,23 @@
     {
         "code": "60425",
         "name": "Flamme Azurée",
+        "slot": "Arcane",
         "text": "Utilisations (4 charges).\n[action] Dépensez 1 charge : <b>Combattre</b>. Cette attaque utilise [willpower] au lieu de [combat]. Vous gagnez +2 [willpower] et infligez +1 dégât pour cette attaque. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette attaque, subissez 1 dégât.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60426",
         "name": "Clairvoyance",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Enquêter</b>. Cette enquête utilise [willpower] au lieu de [intellect]. Vous gagnez +2 [willpower] pour cette enquête. En cas de réussite, découvrez 1 indice supplémentaire dans ce lieu. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette enquête, subissez 1 horreur.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60427",
         "name": "Ineffable Vérité",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Échapper à</b>. Cette tentative d'évasion utilise [willpower] au lieu de [agility]. Vous gagnez +2 [willpower] pour cette tentative d'évasion. En cas de réussite, infligez 1 dégât à l'ennemi auquel vous échappez. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette tentative d'évasion, perdez 1 ressource.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60428",
@@ -168,22 +168,22 @@
     {
         "code": "60430",
         "name": "Flamme Azurée",
+        "slot": "Arcane",
         "text": "Utilisations (4 charges).\n[action] Dépensez 1 charge : <b>Combattre</b>. Cette attaque utilise [willpower] au lieu de [combat]. Vous gagnez +3 [willpower] et infligez +2 dégâts pour cette attaque. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette attaque, subissez 2 dégâts.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60431",
         "name": "Clairvoyance",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Enquêter</b>. Cette enquête utilise [willpower] au lieu de [intellect]. Vous gagnez +3 [willpower] pour cette enquête. En cas de réussite, découvrez 2 indices supplémentaires dans ce lieu. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette enquête, subissez 2 horreurs.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     },
     {
         "code": "60432",
         "name": "Ineffable Vérité",
+        "slot": "Arcane",
         "text": "Utilisations (3 charges).\n[action] Dépensez 1 charge : <b>Échapper à</b>. Cette tentative d'évasion utilise [willpower] au lieu de [agility]. Vous gagnez +3 [willpower] pour cette tentative d'évasion. En cas de réussite, infligez 2 dégâts à l'ennemi auquel vous échappez. Si un pion [elder_sign], « +1 » ou « 0 » est révélé lors de cette tentative d'évasion, perdez 2 ressources.",
-        "traits": "Sort.",
-        "slot": "Arcane"
+        "traits": "Sort."
     }
 ]

@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["mystic"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:07006, card:07007, random:subtype:basicweakness",
         "double_sided": true,
@@ -24,8 +33,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Nun",
         "text": "During setup, add 2 [bless] tokens to the chaos bag.\n[reaction] When the round ends: Add 1 [bless] token to the chaos bag.\n[elder_sign] effect: +1. If you succeed, add 1 [bless] token to the chaos bag.",
@@ -40,12 +49,18 @@
         "deck_options": [
             {
                 "faction": ["seeker", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
+                "level": {
+                    "max": 3,
+                    "min": 0
+                },
                 "trait": ["practiced"],
-                "type": ["skill"],
-                "level": { "min": 0, "max": 3 }
+                "type": ["skill"]
             }
         ],
         "deck_requirements": "size:30, card:07008, card:07009, random:subtype:basicweakness",
@@ -60,8 +75,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 2,
+        "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Student",
         "text": "<b>Forced</b> - At the start of the investigation phase: Draw 1 card. Discard the card beneath Amanda Sharpe. Choose a card from your hand and place it beneath her.\n[reaction] At the start of a skill test you are performing: Commit the card beneath Amanda Sharpe, if able. Do not discard it when the test ends.\n[elder_sign] effect: +0. For this test, you may double the number of skill icons on the card beneath Amanda Sharpe.",
@@ -76,9 +91,18 @@
         "deck_options": [
             {
                 "faction": ["rogue", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["seeker"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["seeker"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:07010, card:07011, random:subtype:basicweakness",
         "double_sided": true,
@@ -92,8 +116,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 4,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 2,
         "subname": "The Spy",
         "text": "[reaction] After you discover 1 or more clues at a location with an enemy: Either discover 1 additional clue at that location, or automatically evade that enemy. (Limit once per round.)\n[elder_sign] effect: +2. If this is an investigation, you may choose any revealed location; you are now investigating as if you were at that location instead.",
@@ -108,9 +132,18 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["rogue"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:07012:98017, card:07013:98018, random:subtype:basicweakness",
         "double_sided": true,
@@ -125,8 +158,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 5,
         "subname": "The Magician",
         "text": "[free] During your turn, discard an asset you control: Play an asset with a different title from your hand, reducing its cost by 1. (Limit once per round.)\n[elder_sign] effect: +2. You may return an asset from your play area to your hand. Then, draw 1 card.",
@@ -141,9 +174,18 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["innate"], "level": { "min": 0, "max": 2 } }
+            {
+                "level": {
+                    "max": 2,
+                    "min": 0
+                },
+                "trait": ["innate"]
+            }
         ],
         "deck_requirements": "size:30, card:07014:98014, card:07015:98014, card:07016:98015, random:subtype:basicweakness",
         "double_sided": true,
@@ -158,8 +200,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 4,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Sailor",
         "text": "[reaction] After you reveal a chaos token during a skill test you are performing: Return a skill you committed to this test to your hand. (Limit once per round.)\n[elder_sign] effect: +0. You may commit a skill from your discard pile to this test. After this test ends, return that skill to your hand instead of discarding it.",
@@ -253,8 +295,8 @@
         "code": "07011",
         "deck_limit": 1,
         "enemy_damage": 2,
-        "enemy_fight": 3,
         "enemy_evade": 5,
+        "enemy_fight": 3,
         "faction_code": "neutral",
         "health": 3,
         "illustrator": "Borja Pindado",
@@ -713,8 +755,8 @@
         "enemy_fight": 2,
         "enemy_horror": 1,
         "faction_code": "neutral",
-        "illustrator": "Borja Pindado",
         "health": 2,
+        "illustrator": "Borja Pindado",
         "name": "Accursed Follower",
         "pack_code": "tic",
         "position": 38,

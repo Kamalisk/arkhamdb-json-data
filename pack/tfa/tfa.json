@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["rogue"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:04006, card:04007, random:subtype:basicweakness",
         "double_sided": true,
@@ -40,9 +49,18 @@
         "deck_options": [
             {
                 "faction": ["seeker", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["relic"], "level": { "min": 0, "max": 4 } }
+            {
+                "level": {
+                    "max": 4,
+                    "min": 0
+                },
+                "trait": ["relic"]
+            }
         ],
         "deck_requirements": "size:30, card:04008, card:04009, random:subtype:basicweakness",
         "double_sided": true,
@@ -71,12 +89,33 @@
         "code": "04003",
         "deck_limit": 1,
         "deck_options": [
-            { "trait": ["illicit"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["rogue"], "level": { "min": 0, "max": 3 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
+            {
+                "level": {
+                    "max": 5,
+                    "min": 0
+                },
+                "trait": ["illicit"]
+            },
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["seeker", "survivor"],
-                "level": { "min": 0, "max": 0 },
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
                 "limit": 5
             }
         ],
@@ -109,9 +148,18 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["blessed"], "level": { "min": 0, "max": 3 } }
+            {
+                "level": {
+                    "max": 3,
+                    "min": 0
+                },
+                "trait": ["blessed"]
+            }
         ],
         "deck_requirements": "size:30, card:04013, card:04014, random:subtype:basicweakness",
         "double_sided": true,
@@ -125,8 +173,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 2,
+        "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Priest",
         "text": "[reaction] After an investigator reveals an [auto_fail] chaos token: Cancel that token and treat it as an [elder_sign] token, instead. (Limit once per game.)\n[elder_sign] effect: You automatically succeed. After this test ends, either (choose one):\n - Draw 1 card and gain 1 resource.\n - If it is your turn, you may take an additional action this turn.",
@@ -141,9 +189,18 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["spirit"], "level": { "min": 0, "max": 3 } }
+            {
+                "level": {
+                    "max": 3,
+                    "min": 0
+                },
+                "trait": ["spirit"]
+            }
         ],
         "deck_requirements": "size:30, card:04015, card:04016, random:subtype:basicweakness",
         "double_sided": true,
@@ -158,8 +215,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 0,
-        "skill_intellect": 0,
         "skill_combat": 0,
+        "skill_intellect": 0,
         "skill_willpower": 0,
         "subname": "The Haunted",
         "text": "You get +1 [willpower] and +1 [intellect] for each horror on you.\nYou get +1 [combat] and +1 [agility] for each damage on you.\n[elder_sign] effect: +0. You may either heal 1 damage or horror, or take 1 direct damage or direct horror.",
@@ -451,8 +508,8 @@
         "quantity": 2,
         "sanity": 2,
         "skill_willpower": 1,
-        "subname": "Assistant Curator",
         "slot": "Ally",
+        "subname": "Assistant Curator",
         "text": "[reaction] After Dr. Elli Horowitz enters play: Search the top 9 cards of your deck for a [[Relic]] asset and attach it to her. Shuffle your deck.\nEach [[Relic]] asset attached to Dr. Elli Horowitz does not take up any slots <i>(it is still considered to be in play and under your control)</i>.",
         "traits": "Ally. Assistant.",
         "type_code": "asset",

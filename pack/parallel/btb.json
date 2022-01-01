@@ -6,9 +6,27 @@
         "code": "90024",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["guardian"], "level": { "min": 0, "max": 3 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "trait": ["insight", "tactic"], "level": { "min": 0, "max": 3 } }
+            {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "level": {
+                    "max": 3,
+                    "min": 0
+                },
+                "trait": ["insight", "tactic"]
+            }
         ],
         "deck_requirements": "size:30, card:01006:98005:90030, card:01007:98006:90031, random:subtype:basicweakness",
         "double_sided": true,
@@ -24,8 +42,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 4,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Fed",
         "text": "At deck creation, choose 3 different Directive assets to add to your deck.\n[fast]: Flip a Directive asset facedown <i>(ignoring its permanent keyword)</i>. (Limit once per game.)\n[elder_sign] effect: +2. Choose a Directive asset. You may ignore its regulation ability this round.",

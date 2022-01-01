@@ -7,9 +7,18 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "trait": ["tactic"], "level": { "min": 0, "max": 0 } }
+            {
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "trait": ["tactic"]
+            }
         ],
         "deck_requirements": "size:30, card:03007, card:03008, card:03009, random:subtype:basicweakness",
         "double_sided": true,
@@ -24,8 +33,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 5,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Soldier",
         "text": "You begin the game with Sophie <i>(In Loving Memory)</i> in play.\n[reaction] After damage is placed on a card you control: Draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1 for each damage on Mark Harrigan.",
@@ -40,9 +49,18 @@
         "deck_options": [
             {
                 "faction": ["seeker", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["survivor"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["survivor"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:03010, card:03011, random:subtype:basicweakness",
         "double_sided": true,
@@ -57,8 +75,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 2,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 4,
         "subname": "The Secretary",
         "text": "[reaction] After an investigator at your location commits a card to a skill test: That card gains a [wild] icon until the end of the test. (Limit once for each investigator per round.)\n[elder_sign] effect: +1. You may choose a skill card committed to this skill test to return to its owner's hand after this test ends.",
@@ -73,9 +91,18 @@
         "deck_options": [
             {
                 "faction": ["rogue", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["mystic"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:33, card:03012, card:03013, random:subtype:basicweakness",
         "double_sided": true,
@@ -89,8 +116,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 4,
-        "skill_intellect": 2,
         "skill_combat": 2,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Painter",
         "text": "<b>Forced</b> - When you would draw your opening hand: Draw 13 cards, instead. Choose up to 5 events to place beneath this card and keep 8 cards as your opening hand. Discard the rest. <i>(You cannot mulligan.)</i>\n[action]: Choose an event beneath this card and draw it. Does not provoke attacks of opportunity.\n[elder_sign] effect: +3. You may choose an event beneath this card and draw it.",
@@ -105,10 +132,25 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "uses": ["charges", "charge"], "level": { "min": 0, "max": 4 } },
-            { "trait": ["occult"], "level": { "min": 0, "max": 0 } }
+            {
+                "level": {
+                    "max": 4,
+                    "min": 0
+                },
+                "uses": ["charges", "charge"]
+            },
+            {
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "trait": ["occult"]
+            }
         ],
         "deck_requirements": "size:30, card:03014, card:03015, random:subtype:basicweakness",
         "double_sided": true,
@@ -123,8 +165,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 5,
         "subname": "The Shaman",
         "text": "Your assets with \"uses (charges)\" enter play with 1 additional charge on them.\n[elder_sign] effect: +1. Add 1 charge to an asset with \"uses (charges)\" you control.",
@@ -139,9 +181,18 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
-            { "faction": ["guardian"], "level": { "min": 0, "max": 2 } }
+            {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 2,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:03016, card:03017, random:subtype:basicweakness",
         "double_sided": true,
@@ -156,8 +207,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Gravedigger",
         "text": "[reaction] After you defeat an enemy: Play an asset from your discard pile <i>(paying its cost)</i>. (Limit once per round.)\n[elder_sign] effect: +2. If this test is successful, return 1 card from your discard pile to your hand.",
@@ -171,6 +222,11 @@
         "deck_limit": 1,
         "deck_options": [
             {
+                "atleast": {
+                    "factions": 3,
+                    "min": 7
+                },
+                "error": "You must have at least 7 cards from 3 different factions",
                 "faction": [
                     "survivor",
                     "guardian",
@@ -178,11 +234,18 @@
                     "rogue",
                     "mystic"
                 ],
-                "level": { "min": 0, "max": 3 },
-                "atleast": { "factions": 3, "min": 7 },
-                "error": "You must have at least 7 cards from 3 different factions"
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
             },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } }
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:35, card:03018, card:03018, card:03019, card:03019, random:subtype:basicweakness",
         "double_sided": true,
@@ -197,8 +260,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Actress",
         "text": "<b>Forced</b> - After you draw your opening hand: Choose a role ([survivor], [guardian], [seeker], [rogue], [mystic], or Neutral).\nYou can only play, commit, or trigger abilities on Neutral cards or cards of your role.\n[free]: Switch your role. (Limit once per round.)\n[elder_sign] effect: +2. You may switch roles.",
@@ -300,9 +363,9 @@
         "position": 11,
         "quantity": 1,
         "restrictions": "investigator:03002",
-        "subtype_code": "weakness",
         "slot": "Hand",
         "subname": "Act 1",
+        "subtype_code": "weakness",
         "text": "<b>Revelation</b> - Put The King in Yellow into play in your threat area. It cannot leave play except through the [reaction] ability below.\nYou cannot commit exactly 1 or 2 cards to a skill test.\n[reaction] After a skill test is successful in which Minh Thi Phan has committed at least 6 matching skill icons for that test: Discard The King in Yellow.",
         "traits": "Tome.",
         "type_code": "asset"

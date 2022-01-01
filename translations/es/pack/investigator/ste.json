@@ -1,13 +1,13 @@
 [
     {
+        "back_flavor": "Antes de que Stella empezara a trabajar en el servicio postal de Arkham, había dos cosas que sabía con certeza: la primera, que sus padres habían cometido un error al considerarla su hijo y darle un nombre de chico; la segunda, que la casa sobre el acantilado de Kingsport susurraba por las noches su verdadero nombre, el nombre que había elegido para sí misma: Stella. Entregar el correo seis días a la semana pese al tiempo que hiciera no era un trabajo fácil, pero a Stella le encantaba saber que estaba ayudando a que las personas conectaran entre sí. Luego empezó a encontrar las cartas. Al final de su ruta, siempre había un sobre adicional en su bolsa. Siempre iba dirigido a ella. Siempre estaba franqueado en Kingsport. Y siempre contenía una carta con una única palabra mecanografíada: «Stella».",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Superviviente ([survivor]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): 3 copias de Ni la lluvia ni la nieve, 1 copia de Llamada de las nieblas, 1 Debilidad básica aleatoria.",
         "code": "60501",
         "flavor": "\"Yo puedo oírlo. ¿Me oye a mí?\"",
         "name": "Stella Clark",
         "subname": "La cartera",
         "text": "[reaction] Después de que fracases en una prueba de habilidad: Puedes realizar una acción adicional durante tu turno en esta ronda. Límite de una vez por ronda.\nEfecto [elder_sign]: +1. En lugar de eso, puedes elegir fracasar automáticamente en esta prueba de habilidad para curarte 1 punto de daño y 1 punto de horror.",
-        "traits": "Elegido. Cívico.",
-        "back_flavor": "Antes de que Stella empezara a trabajar en el servicio postal de Arkham, había dos cosas que sabía con certeza: la primera, que sus padres habían cometido un error al considerarla su hijo y darle un nombre de chico; la segunda, que la casa sobre el acantilado de Kingsport susurraba por las noches su verdadero nombre, el nombre que había elegido para sí misma: Stella. Entregar el correo seis días a la semana pese al tiempo que hiciera no era un trabajo fácil, pero a Stella le encantaba saber que estaba ayudando a que las personas conectaran entre sí. Luego empezó a encontrar las cartas. Al final de su ruta, siempre había un sobre adicional en su bolsa. Siempre iba dirigido a ella. Siempre estaba franqueado en Kingsport. Y siempre contenía una carta con una única palabra mecanografíada: «Stella».",
-        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Superviviente ([survivor]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): 3 copias de Ni la lluvia ni la nieve, 1 copia de Llamada de las nieblas, 1 Debilidad básica aleatoria."
+        "traits": "Elegido. Cívico."
     },
     {
         "code": "60502",
@@ -19,7 +19,7 @@
     {
         "code": "60503",
         "name": "Llamada de las nieblas",
-        "text": "<b>Revelación</b> - Pon Llamada de las nieblas en juego en tu zona de amenaza.\n<b>Obligado</b> - Después de que inicies una prueba de habilidad de dificultad 4 o más: Recibe 1 punto de daño.\n[action][action]: Descarta Llamada de las nieblas.",
+        "text": "<b>Revelación</b> - Pon Llamada de las nieblas en juego en tu zona de amenaza.\n<b>Obligado</b> - Después de que inicies una prueba de habilidad de dificultad 4 o más: Recibe 1 punto de daño.\n[action] [action]: Descarta Llamada de las nieblas.",
         "traits": "Maldición."
     },
     {
@@ -31,39 +31,39 @@
     {
         "code": "60505",
         "name": "Derringer del .18",
+        "slot": "Mano",
         "text": "Usos (2 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque. Si fracasas, coloca 1 munición sobre el Derringer del .18.",
-        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
-        "slot": "Mano"
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal."
     },
     {
         "code": "60506",
         "name": "Cuentos de hadas de los hermanos Grimm",
+        "slot": "Mano",
         "text": "Usos (4 secretos).\n[reaction] Después de que un investigador que esté en tu Lugar fracase en una prueba de habilidad por 2 o más, agota los Cuentos de hadas de los hermanos Grimm y gasta 1 secreto: Cúrale 1 punto de horror a ese investigador.",
-        "traits": "Objeto. Tomo.",
-        "slot": "Mano"
+        "traits": "Objeto. Tomo."
     },
     {
         "code": "60507",
         "name": "Llavero viejo",
+        "slot": "Mano",
         "text": "Usos (2 llaves). Si no hay llaves en el Llavero viejo, descártalo.\n[action]: <b>Investigar.</b> Tu Lugar recibe -2 al velo para esta investigación. Si tienes éxito, retira 1 llave del Llavero viejo.",
-        "traits": "Objeto. Herramienta.",
-        "slot": "Mano"
+        "traits": "Objeto. Herramienta."
     },
     {
         "code": "60508",
         "name": "Abuelita Orne",
+        "slot": "Aliado",
         "subname": "Carroza severa",
         "text": "Recibes +1 [willpower].\n[reaction] Cuando un investigador que esté en tu Lugar vaya a fracasar en una prueba de habilidad, agota a la Abuelita Orne: Ese investigador fracasa por 1 menos o 1 más.",
-        "traits": "Aliado.",
-        "slot": "Aliado"
+        "traits": "Aliado."
     },
     {
         "code": "60509",
         "flavor": "Y sus ojos tienen la apariencia de los de un demonio que está soñando…\n\nEdgar Allan Poe, El cuervo.",
         "name": "Cuervo misterioso",
+        "slot": "Aliado",
         "text": "[fast] Descarta el Cuervo misterioso y recibe 1 punto de horror: Descubre 1 pista en tu Lugar.",
-        "traits": "Aliado. Criatura.",
-        "slot": "Aliado"
+        "traits": "Aliado. Criatura."
     },
     {
         "code": "60511",
@@ -94,24 +94,24 @@
         "code": "60520",
         "flavor": "El señor Osito siempre le decía a Wendy que las cosas saldrían bien. Pero claro, el señor Osito era un oso de peluche, así que tampoco sabía gran cosa.",
         "name": "Recuerdo querido",
+        "slot": "Accesorio",
         "text": "<b>Obligado</b> - Cuando el Recuerdo querido sea derrotado por horror: Exílialo.",
-        "traits": "Objeto. Amuleto.",
-        "slot": "Accesorio"
+        "traits": "Objeto. Amuleto."
     },
     {
         "code": "60521",
         "flavor": "El abrigo no era la opción más elegante, pero proporcionaba una sensación cálida y reconfortante gracias a su grosor.",
         "name": "Abrigo de cuero",
+        "slot": "Cuerpo",
         "text": "<b>Obligado</b> - Cuando el Abrigo de cuero sea derrotado por daño: Exílialo.",
-        "traits": "Objeto. Protección.",
-        "slot": "Cuerpo"
+        "traits": "Objeto. Protección."
     },
     {
         "code": "60522",
         "name": "Derringer del .18",
+        "slot": "Mano",
         "text": "Usos (3 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] e infliges +1 de daño para este ataque. Si fracasas, coloca 1 munición sobre el Derringer del .18 y la próxima vez que actives esta capacidad en esta ronda, recibes +1 [combat] adicional para ese ataque.",
-        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
-        "slot": "Mano"
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal."
     },
     {
         "code": "60523",
@@ -142,10 +142,10 @@
     {
         "code": "60527",
         "name": "Abuelita Orne",
+        "slot": "Aliado",
         "subname": "Carroza severa",
         "text": "Recibes +1 [willpower] y +1 [intellect].\n[reaction] Cuando un investigador que esté en tu Lugar vaya a fracasar en una prueba de habilidad, agota a la Abuelita Orne: Ese investigador recibe +1 o -1 al valor de la habilidad para esa prueba.",
-        "traits": "Aliado.",
-        "slot": "Aliado"
+        "traits": "Aliado."
     },
     {
         "code": "60528",
@@ -156,9 +156,9 @@
     {
         "code": "60529",
         "name": "Motosierra",
+        "slot": "Dos manos",
         "text": "Usos (3 suministros).\n[action] Gasta 1 suministro: <b>Combatir.</b> Recibes +2 [combat] e infliges +2 de daño para este ataque. Si este ataque fracasa, coloca 1 suministro sobre la Motosierra o bien inflige 1 punto de daño al Enemigo atacado.",
-        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo.",
-        "slot": "Dos manos"
+        "traits": "Objeto. Herramienta. Arma. Cuerpo a cuerpo."
     },
     {
         "code": "60530",

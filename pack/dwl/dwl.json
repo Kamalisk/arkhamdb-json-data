@@ -7,12 +7,18 @@
         "deck_options": [
             {
                 "faction": ["guardian", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Guardian or Neutral"
+                "error": "You cannot have more than 5 cards that are not Guardian or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02006, card:02007, random:subtype:basicweakness",
@@ -28,8 +34,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 2,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Chef",
         "text": "[reaction] After you become engaged with an enemy: Gain 1 resource.\n[elder_sign] effect: +1. If this skill test is successful during an attack, that attack deals +1 damage.",
@@ -42,15 +48,24 @@
         "code": "02002",
         "deck_limit": 1,
         "deck_options": [
-            { "not": true, "trait": ["fortune"] },
             {
-                "faction": ["seeker", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "not": true,
+                "trait": ["fortune"]
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Seeker or Neutral"
+                "faction": ["seeker", "neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "error": "You cannot have more than 5 cards that are not Seeker or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02008, card:02009, random:subtype:basicweakness",
@@ -66,8 +81,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 3,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Reporter",
         "text": "[reaction] After you succeed at a skill test by 2 or more while investigating: Discover 1 clue at your location.\n[elder_sign] effect: +2. You may instead choose to automatically fail this skill test to draw 3 cards.",
@@ -82,12 +97,18 @@
         "deck_options": [
             {
                 "faction": ["rogue", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Rogue or Neutral"
+                "error": "You cannot have more than 5 cards that are not Rogue or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02010:98002, card:02011:98003, random:subtype:basicweakness",
@@ -103,8 +124,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 3,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Dilettante",
         "text": "You collect 1 additional resource during each upkeep phase.\n[elder_sign] effect: +1 for each resource you have.",
@@ -119,12 +140,18 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Mystic or Neutral"
+                "error": "You cannot have more than 5 cards that are not Mystic or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02012, card:02013, random:subtype:basicweakness",
@@ -140,8 +167,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Musician",
         "text": "Treat the modifier on [skull] tokens you reveal as \"0.\"\nAnytime you reveal a [elder_sign] token, you may choose to instead treat it as a [skull] token.\n[elder_sign] effect: +1.",
@@ -156,12 +183,18 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             },
             {
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 cards that are not Survivor or Neutral"
+                "error": "You cannot have more than 5 cards that are not Survivor or Neutral",
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:02014, card:02015, random:subtype:basicweakness",
@@ -177,8 +210,8 @@
         "quantity": 1,
         "sanity": 5,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 2,
+        "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Drifter",
         "text": "You begin the game with Duke in play.\n[free] Discard a card from your hand: Ready an asset you control. (Limit once per round.)\n[elder_sign] effect: +2. Ready Duke.",

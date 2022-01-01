@@ -6,23 +6,44 @@
         "deck_limit": 1,
         "deck_options": [
             {
+                "level": {
+                    "max": 5,
+                    "min": 1
+                },
                 "not": true,
-                "trait": ["weapon"],
-                "level": { "min": 1, "max": 5 }
+                "trait": ["weapon"]
             },
-            { "faction": ["guardian"], "level": { "min": 0, "max": 3 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 3,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
+            {
+                "level": {
+                    "max": 5,
+                    "min": 0
+                },
                 "text": [
                     "[Hh]eals? (that much )?((\\d+|all|(X total)) damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
-                ],
-                "level": { "min": 0, "max": 5 }
+                ]
             },
             {
+                "error": "You cannot have more than 15 level 0-1 Seeker and/or Mystic cards",
                 "faction": ["seeker", "mystic"],
-                "level": { "min": 0, "max": 1 },
-                "limit": 15,
-                "error": "You cannot have more than 15 level 0-1 Seeker and/or Mystic cards"
+                "level": {
+                    "max": 1,
+                    "min": 0
+                },
+                "limit": 15
             }
         ],
         "deck_requirements": "size:30, card:05007:98011, card:05008:98012, random:subtype:basicweakness",
@@ -38,8 +59,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 2,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Psychologist",
         "text": "[reaction] After one of your card effects heals horror from an investigator or [[Ally]] asset: The healed card's controller gains 1 resource.\n[elder_sign] effect: +1. You may heal 1 horror from an investigator or [[Ally]] asset at your location.",

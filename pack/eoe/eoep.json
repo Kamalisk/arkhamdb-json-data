@@ -5,14 +5,35 @@
         "code": "08001",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["guardian"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["survivor"], "level": { "min": 1, "max": 5 } },
+            {
+                "faction": ["guardian"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["survivor"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Survivor cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Survivor cards",
+                "faction": ["survivor"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08002, card:08003, random:subtype:basicweakness",
@@ -28,8 +49,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 2,
-        "skill_intellect": 1,
         "skill_combat": 5,
+        "skill_intellect": 1,
         "skill_willpower": 4,
         "subname": "The Mechanic",
         "text": "[reaction] After an enemy attacks you (except an attack of opportunity you provoked), even if that attack was canceled: Either deal 1 damage to that enemy, or automatically evade it.\n[elder_sign] effect: +1. If you were attacked by an enemy this round, you automatically succeed, instead.",
@@ -81,14 +102,35 @@
         "code": "08004",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["seeker"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["mystic"], "level": { "min": 1, "max": 5 } },
+            {
+                "faction": ["seeker"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["mystic"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Mystic cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Mystic cards",
+                "faction": ["mystic"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08005:98008, card:08006:98009, random:subtype:basicweakness",
@@ -103,8 +145,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 1,
-        "skill_intellect": 5,
         "skill_combat": 2,
+        "skill_intellect": 5,
         "skill_willpower": 4,
         "subname": "The Astronomer",
         "text": "Play with the top card of your deck revealed.\nOnce per round, you may play the top card of your deck as if it were in your hand, at -1 resource cost.\n<b>Forced</b> - After a weakness is revealed while on top of your deck: Draw it.\n[elder_sign] effect: +X. You may swap the top card of your deck with a card in your hand. X is the resource cost of the top card of your deck.",
@@ -152,14 +194,35 @@
         "code": "08007",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["rogue"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["seeker"], "level": { "min": 1, "max": 5 } },
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["seeker"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Seeker cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Seeker cards",
+                "faction": ["seeker"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08008, card:08009, random:subtype:basicweakness",
@@ -174,8 +237,8 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 5,
-        "skill_intellect": 4,
         "skill_combat": 2,
+        "skill_intellect": 4,
         "skill_willpower": 1,
         "subname": "The Archaeologist",
         "text": "[reaction] At the end of your turn, if you started this round 1 location away from your current location: Either gain 1 resource or draw 1 card (if you started this round 2 or more locations away, do both instead).\n[elder_sign] effect: +1. If you started this round 1 or more locations away from your current location, gain 1 resource or draw 1 card.",
@@ -221,15 +284,39 @@
         "code": "08010",
         "deck_limit": 1,
         "deck_options": [
-            { "not": true, "trait": ["firearm"] },
-            { "faction": ["mystic"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["guardian"], "level": { "min": 1, "max": 5 } },
+            {
+                "not": true,
+                "trait": ["firearm"]
+            },
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["guardian"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Guardian cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Guardian cards",
+                "faction": ["guardian"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08015, random:subtype:basicweakness",
@@ -245,8 +332,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 3,
-        "skill_intellect": 2,
         "skill_combat": 4,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Martial Artist",
         "text": "You begin the game with each Discipline in your deck in play, [[Unbroken]] side faceup.\n[elder_sign] effect: +2. After this test ends, flip a [[Broken]] Discipline you control to its [[Unbroken]] side.",
@@ -410,14 +497,35 @@
         "code": "08016",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["survivor"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["rogue"], "level": { "min": 1, "max": 5 } },
+            {
+                "faction": ["survivor"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["rogue"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Rogue cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Rogue cards",
+                "faction": ["rogue"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08017, card:08018, random:subtype:basicweakness",
@@ -432,8 +540,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 3,
-        "skill_intellect": 4,
         "skill_combat": 3,
+        "skill_intellect": 4,
         "skill_willpower": 2,
         "subname": "The Salesman",
         "text": "At any time, an investigator at your location may reveal to you the [[Item]] assets in their hand.\nYou may take an additional action during your turn, which can only be used to play an [[Item]] asset from the hand of an investigator at your location, under their control. (Both investigators may spend resources to pay its cost).\n[elder_sign] effect: +1 for each [[Item]] asset you control.",
@@ -1222,8 +1330,8 @@
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
-        "illustrator": "Mauro Dal Bo",
         "flavor": "You let your mind drift into cold, meaningless oblivion. The emptiness feels like home.",
+        "illustrator": "Mauro Dal Bo",
         "name": "Meditative Trance",
         "pack_code": "eoep",
         "position": 61,
@@ -1598,8 +1706,8 @@
         "code": "08083",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "seeker",
+        "faction_code": "guardian",
         "flavor": "\"Can I get course credit for this?\"",
         "health": 1,
         "illustrator": "Jen Zee",
@@ -1619,8 +1727,8 @@
         "code": "08084",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "seeker",
+        "faction_code": "guardian",
         "flavor": "\"The game is afoot!\"",
         "illustrator": "Billy Norrby",
         "name": "On the Trail",
@@ -1638,8 +1746,8 @@
         "code": "08085",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "seeker",
+        "faction_code": "guardian",
         "flavor": "\"The game is afoot!\"",
         "illustrator": "Billy Norrby",
         "name": "On the Trail",
@@ -1658,8 +1766,8 @@
         "code": "08086",
         "cost": 4,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "seeker",
+        "faction_code": "guardian",
         "health": 3,
         "illustrator": "Derek D. Edgell",
         "is_unique": true,
@@ -1682,8 +1790,8 @@
         "code": "08087",
         "cost": 0,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "rogue",
+        "faction_code": "guardian",
         "illustrator": "Steve Ellis",
         "name": "Snipe",
         "pack_code": "eoep",
@@ -1700,8 +1808,8 @@
         "code": "08088",
         "cost": 0,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "rogue",
+        "faction_code": "guardian",
         "illustrator": "Duallbrush",
         "name": "Old Shotgun",
         "pack_code": "eoep",
@@ -1718,8 +1826,8 @@
         "code": "08089",
         "cost": 4,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "rogue",
+        "faction_code": "guardian",
         "illustrator": "Drazenka Kimpel",
         "name": "Quickdraw Holster",
         "pack_code": "eoep",
@@ -1737,8 +1845,8 @@
         "code": "08090",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "mystic",
+        "faction_code": "guardian",
         "illustrator": "Michele Giorgi",
         "name": "Brand of Cthugha",
         "pack_code": "eoep",
@@ -1755,8 +1863,8 @@
         "code": "08091",
         "cost": 4,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "mystic",
+        "faction_code": "guardian",
         "health": 2,
         "illustrator": "Tony Foti",
         "is_unique": true,
@@ -1777,8 +1885,8 @@
         "code": "08092",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "mystic",
+        "faction_code": "guardian",
         "illustrator": "Michele Giorgi",
         "name": "Brand of Cthugha",
         "pack_code": "eoep",
@@ -1796,8 +1904,8 @@
         "code": "08093",
         "cost": 5,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "mystic",
+        "faction_code": "guardian",
         "illustrator": "Robert Laskey",
         "name": "Cyclopean Hammer",
         "pack_code": "eoep",
@@ -1815,8 +1923,8 @@
         "code": "08094",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "survivor",
+        "faction_code": "guardian",
         "flavor": "Twenty pounds of steel vengeance.",
         "illustrator": "Tysen Johnson",
         "name": "Sledgehammer",
@@ -1834,8 +1942,8 @@
         "code": "08095",
         "cost": 4,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "survivor",
+        "faction_code": "guardian",
         "flavor": "After what you've seen, you intend to sleep in it.",
         "health": 3,
         "illustrator": "Tony Foti",
@@ -1856,8 +1964,8 @@
         "code": "08096",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "survivor",
+        "faction_code": "guardian",
         "flavor": "Twenty-five pounds of steel vengeance.",
         "illustrator": "Tysen Johnson",
         "name": "Sledgehammer",
@@ -1875,8 +1983,8 @@
         "code": "08097",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
+        "faction_code": "seeker",
         "illustrator": "Felicia Cano",
         "name": "Pocket Telescope",
         "pack_code": "eoep",
@@ -1893,8 +2001,8 @@
         "code": "08098",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
+        "faction_code": "seeker",
         "illustrator": "Ignacio Bazán Lazcano",
         "name": "Eon Chart",
         "pack_code": "eoep",
@@ -1912,8 +2020,8 @@
         "code": "08099",
         "cost": 5,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
+        "faction_code": "seeker",
         "health": 2,
         "illustrator": "Vlad Ricean",
         "is_unique": true,
@@ -1935,8 +2043,8 @@
         "code": "08100",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
+        "faction_code": "seeker",
         "illustrator": "Ignacio Bazán Lazcano",
         "name": "Eon Chart",
         "pack_code": "eoep",
@@ -1955,8 +2063,8 @@
         "code": "08101",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "mystic",
+        "faction_code": "seeker",
         "illustrator": "Adam S. Doyle",
         "name": "Divination",
         "pack_code": "eoep",
@@ -1973,8 +2081,8 @@
         "code": "08102",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "mystic",
+        "faction_code": "seeker",
         "flavor": "All living things have breath.\nBe careful they do not curse you with theirs.",
         "illustrator": "Chris Pritchard",
         "name": "Protecting the Anirniq",
@@ -1992,8 +2100,8 @@
         "code": "08103",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "mystic",
+        "faction_code": "seeker",
         "illustrator": "Adam S. Doyle",
         "name": "Divination",
         "pack_code": "eoep",
@@ -2011,8 +2119,8 @@
         "code": "08104",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "survivor",
+        "faction_code": "seeker",
         "health": 1,
         "illustrator": "Romana Kendelic",
         "is_unique": true,
@@ -2033,8 +2141,8 @@
         "code": "08105",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "survivor",
+        "faction_code": "seeker",
         "illustrator": "Tiziano Baracchi",
         "name": "Ice Pick",
         "pack_code": "eoep",
@@ -2051,8 +2159,8 @@
         "code": "08106",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "survivor",
+        "faction_code": "seeker",
         "health": 1,
         "illustrator": "Romana Kendelic",
         "is_unique": true,
@@ -2074,8 +2182,8 @@
         "code": "08107",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "survivor",
+        "faction_code": "seeker",
         "illustrator": "Tiziano Baracchi",
         "name": "Ice Pick",
         "pack_code": "eoep",
@@ -2093,8 +2201,8 @@
         "code": "08108",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "mystic",
+        "faction_code": "rogue",
         "flavor": "\"Now, for my next trick...\"",
         "illustrator": "Lin Hsiang",
         "name": "Ethereal Slip",
@@ -2112,8 +2220,8 @@
         "code": "08109",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "mystic",
+        "faction_code": "rogue",
         "illustrator": "Andreas Zafiratos",
         "name": "Blur",
         "pack_code": "eoep",
@@ -2130,8 +2238,8 @@
         "code": "08110",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "mystic",
+        "faction_code": "rogue",
         "flavor": "\"Now, for my next trick...\"",
         "illustrator": "Lin Hsiang",
         "name": "Ethereal Slip",
@@ -2149,8 +2257,8 @@
         "code": "08111",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "mystic",
+        "faction_code": "rogue",
         "illustrator": "Andreas Zafiratos",
         "name": "Blur",
         "pack_code": "eoep",
@@ -2168,8 +2276,8 @@
         "code": "08112",
         "cost": 1,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "survivor",
+        "faction_code": "rogue",
         "illustrator": "Drazenka Kimpel",
         "name": "\"Hit me!\"",
         "pack_code": "eoep",
@@ -2185,8 +2293,8 @@
         "code": "08113",
         "cost": 0,
         "deck_limit": 2,
-        "faction_code": "rogue",
         "faction2_code": "survivor",
+        "faction_code": "rogue",
         "illustrator": "Drazenka Kimpel",
         "name": "Unscrupulous Loan",
         "pack_code": "eoep",
@@ -2201,8 +2309,8 @@
         "code": "08114",
         "cost": 3,
         "deck_limit": 1,
-        "faction_code": "rogue",
         "faction2_code": "survivor",
+        "faction_code": "rogue",
         "health": 3,
         "illustrator": "Greg Bobrowski",
         "name": "Precious Memento",
@@ -2211,8 +2319,8 @@
         "quantity": 1,
         "sanity": 3,
         "skill_wild": 2,
-        "subname": "From a Former Life",
         "slot": "Accessory",
+        "subname": "From a Former Life",
         "text": "Limit 1 Precious Memento <i>(From a Former Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.",
         "traits": "Item. Charm. Blessed.",
         "type_code": "asset",
@@ -2222,8 +2330,8 @@
         "code": "08115",
         "cost": 3,
         "deck_limit": 1,
-        "faction_code": "rogue",
         "faction2_code": "survivor",
+        "faction_code": "rogue",
         "health": 3,
         "illustrator": "Greg Bobrowski",
         "name": "Precious Memento",
@@ -2232,8 +2340,8 @@
         "quantity": 1,
         "sanity": 3,
         "skill_wild": 2,
-        "subname": "From a Future Life",
         "slot": "Accessory",
+        "subname": "From a Future Life",
         "text": "Limit 1 Precious Memento <i>(From a Future Life)</i> per deck.\n[reaction] After you fail a skill test by 2 or more, exhaust Precious Memento: Heal 1 horror from it.\n[reaction] After you succeed at a skill test by 2 or more, exhaust Precious Memento: Heal 1 damage from it.",
         "traits": "Item. Charm. Cursed.",
         "type_code": "asset",
@@ -2243,8 +2351,8 @@
         "code": "08116",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "mystic",
         "faction2_code": "survivor",
+        "faction_code": "mystic",
         "illustrator": "Alex Aguilar",
         "name": "Talisman of Protection",
         "pack_code": "eoep",
@@ -2261,8 +2369,8 @@
         "code": "08117",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "mystic",
         "faction2_code": "survivor",
+        "faction_code": "mystic",
         "illustrator": "Drazenka Kimpel",
         "name": "Earthly Serenity",
         "pack_code": "eoep",
@@ -2279,8 +2387,8 @@
         "code": "08118",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "mystic",
         "faction2_code": "survivor",
+        "faction_code": "mystic",
         "illustrator": "Kate Laird",
         "name": "Enchanted Bow",
         "pack_code": "eoep",
@@ -2298,8 +2406,8 @@
         "code": "08119",
         "cost": 2,
         "deck_limit": 2,
-        "faction_code": "mystic",
         "faction2_code": "survivor",
+        "faction_code": "mystic",
         "illustrator": "Drazenka Kimpel",
         "name": "Earthly Serenity",
         "pack_code": "eoep",
@@ -2316,9 +2424,9 @@
         "code": "08120",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "mystic",
         "faction3_code": "survivor",
+        "faction_code": "guardian",
         "illustrator": "Pavel Kolomeyets",
         "name": "Prophetic",
         "pack_code": "eoep",
@@ -2334,9 +2442,9 @@
         "code": "08121",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "seeker",
         "faction3_code": "mystic",
+        "faction_code": "guardian",
         "illustrator": "Daniel Masso",
         "name": "Sleuth",
         "pack_code": "eoep",
@@ -2352,9 +2460,9 @@
         "code": "08122",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "guardian",
         "faction2_code": "rogue",
         "faction3_code": "survivor",
+        "faction_code": "guardian",
         "illustrator": "Rafał Hrynkiewicz",
         "name": "Bruiser",
         "pack_code": "eoep",
@@ -2370,9 +2478,9 @@
         "code": "08123",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
         "faction3_code": "survivor",
+        "faction_code": "seeker",
         "illustrator": "Falk",
         "name": "Crafty",
         "pack_code": "eoep",
@@ -2388,9 +2496,9 @@
         "code": "08124",
         "cost": 3,
         "deck_limit": 2,
-        "faction_code": "seeker",
         "faction2_code": "rogue",
         "faction3_code": "mystic",
+        "faction_code": "seeker",
         "illustrator": "Caravan Studio",
         "name": "Antiquary",
         "pack_code": "eoep",
@@ -2423,8 +2531,8 @@
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "neutral",
-        "illustrator": "Tiziano Baracchi",
         "health": 2,
+        "illustrator": "Tiziano Baracchi",
         "name": "Heavy Furs",
         "pack_code": "eoep",
         "position": 126,
@@ -2441,8 +2549,8 @@
         "cost": 3,
         "deck_limit": 4,
         "faction_code": "neutral",
-        "illustrator": "Dleoblack",
         "health": 2,
+        "illustrator": "Dleoblack",
         "name": "Sled Dog",
         "pack_code": "eoep",
         "position": 127,
