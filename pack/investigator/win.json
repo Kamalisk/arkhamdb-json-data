@@ -5,7 +5,13 @@
         "code": "60301",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["rogue", "neutral"], "level": { "min": 0, "max": 5 } }
+            {
+                "faction": ["rogue", "neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            }
         ],
         "deck_requirements": "size:30, card:60302, card:60303, random:subtype:basicweakness",
         "double_sided": true,
@@ -20,8 +26,8 @@
         "quantity": 1,
         "sanity": 7,
         "skill_agility": 5,
-        "skill_intellect": 3,
         "skill_combat": 3,
+        "skill_intellect": 3,
         "skill_willpower": 1,
         "subname": "The Aviatrix",
         "text": "[free] If 2 different non-weakness cards you control are committed to this skill test: Draw 1 card. (Limit once per test.)\n[elder_sign] effect: +1. After this test ends, for every 2 points you succeeded by, return a card you committed to this test to your hand.",
@@ -403,7 +409,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "[reaction] When you use a fight ability on a [[Firearm]] asset, exhaust Sharpshooter: Choose one, or both - \n- This attack uses [agility] instead of [combat]. All modifiers to your [combat] for this attack modify your [agility] instead.\n- Use the attacked enemy's evade value for this attack, instead of their fight value.",
+        "text": "[reaction] When you use a fight ability on a [[Firearm]] asset, exhaust Sharpshooter: Choose one, or both -\n- This attack uses [agility] instead of [combat]. All modifiers to your [combat] for this attack modify your [agility] instead.\n- Use the attacked enemy's evade value for this attack, instead of their fight value.",
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 3
@@ -480,17 +486,17 @@
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "rogue",
+        "health": 2,
         "illustrator": "Derek D. Edgell",
         "is_unique": true,
-        "health": 2,
         "name": "Chuck Fergus",
         "pack_code": "win",
         "position": 32,
         "quantity": 2,
+        "sanity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
         "skill_wild": 1,
-        "sanity": 2,
         "slot": "Ally",
         "subname": "O'Bannion Driver",
         "text": "[reaction] When you play a [[Tactic]] or [[Trick]] event, exhaust Chuck Fergus: Choose two -\n- That event gains fast.\n- That event costs 2 fewer resources to play.\n- You get +2 skill value while performing a skill test during the resolution of that event.",

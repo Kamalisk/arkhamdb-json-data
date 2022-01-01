@@ -7,7 +7,10 @@
         "deck_options": [
             {
                 "faction": ["mystic", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             }
         ],
         "deck_requirements": "size:30, card:60402, card:60403, random:subtype:basicweakness",
@@ -23,8 +26,8 @@
         "quantity": 1,
         "sanity": 9,
         "skill_agility": 2,
-        "skill_intellect": 3,
         "skill_combat": 2,
+        "skill_intellect": 3,
         "skill_willpower": 5,
         "subname": "The Psychic",
         "text": "[reaction] When an investigator at your location would reveal any number of chaos tokens: Reveal 2 additional tokens. Of the revealed tokens, choose and cancel 2 non-[auto_fail] tokens, or 1 [auto_fail] token. (Limit once per round.)\n[elder_sign] effect: +1. If this effect is canceled or ignored, draw 1 card.",
@@ -44,8 +47,8 @@
         "quantity": 1,
         "restrictions": "investigator:60401",
         "skill_agility": 1,
-        "skill_willpower": 1,
         "skill_wild": 1,
+        "skill_willpower": 1,
         "text": "Jacqueline Fine deck only.\n[reaction] When you use Jacqueline Fine's [reaction] ability, exhaust Arbiter of Fates: This use of her ability does not count towards its limit.",
         "traits": "Talent.",
         "type_code": "asset"
@@ -75,7 +78,7 @@
         "position": 4,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> - Put Nihilism into play in your threat area.\n<b>Forced</b> - After you reveal, cancel, or ignore an [auto_fail] token: Take 1 damage and 1 horror.\n[action][action]: Discard Nihilism.",
+        "text": "<b>Revelation</b> - Put Nihilism into play in your threat area.\n<b>Forced</b> - After you reveal, cancel, or ignore an [auto_fail] token: Take 1 damage and 1 horror.\n[action] [action]: Discard Nihilism.",
         "traits": "Madness.",
         "type_code": "treachery"
     },

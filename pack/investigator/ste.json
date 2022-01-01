@@ -7,7 +7,10 @@
         "deck_options": [
             {
                 "faction": ["survivor", "neutral"],
-                "level": { "min": 0, "max": 5 }
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
             }
         ],
         "deck_requirements": "size:30, card:60502, card:60503, random:subtype:basicweakness",
@@ -23,8 +26,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 4,
-        "skill_intellect": 2,
         "skill_combat": 3,
+        "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Letter Carrier",
         "text": "[reaction] After you fail a skill test: You may take an additional action during your turn this round. (Limit once per round.)\n[elder_sign] effect: +1. You may instead choose to automatically fail this skill test to heal 1 damage and 1 horror.",
@@ -303,8 +306,8 @@
         "exile": true,
         "faction_code": "survivor",
         "flavor": "The coat was not the most fashionable choice, but it did feel warm and reassuring in its bulk.",
-        "illustrator": "Andreia Ugrai",
         "health": 4,
+        "illustrator": "Andreia Ugrai",
         "name": "Leather Coat",
         "pack_code": "ste",
         "position": 21,

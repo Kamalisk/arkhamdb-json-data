@@ -5,14 +5,35 @@
         "code": "98007",
         "deck_limit": 1,
         "deck_options": [
-            { "faction": ["seeker"], "level": { "min": 0, "max": 0 } },
-            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
-            { "faction": ["mystic"], "level": { "min": 1, "max": 5 } },
+            {
+                "faction": ["seeker"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "max": 5,
+                    "min": 0
+                }
+            },
             {
                 "faction": ["mystic"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5,
-                "error": "You cannot have more than 5 level 0 Mystic cards"
+                "level": {
+                    "max": 5,
+                    "min": 1
+                }
+            },
+            {
+                "error": "You cannot have more than 5 level 0 Mystic cards",
+                "faction": ["mystic"],
+                "level": {
+                    "max": 0,
+                    "min": 0
+                },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:08005:98008, card:08006:98009, random:subtype:basicweakness",
@@ -28,8 +49,8 @@
         "quantity": 1,
         "sanity": 8,
         "skill_agility": 1,
-        "skill_intellect": 5,
         "skill_combat": 2,
+        "skill_intellect": 5,
         "skill_willpower": 4,
         "subname": "The Astronomer",
         "text": "Play with the top card of your deck revealed.\nOnce per round, you may play the top card of your deck as if it were in your hand, at -1 resource cost.\n<b>Forced</b> - After a weakness is revealed while on top of your deck: Draw it.\n[elder_sign] effect: +X. You may swap the top card of your deck with a card in your hand. X is the resource cost of the top card of your deck.",

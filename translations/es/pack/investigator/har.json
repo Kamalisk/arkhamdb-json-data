@@ -1,220 +1,220 @@
 [
-    {
-        "code": "60201",
-        "flavor": "\"Tengo experiencia tratando con esta clase de horrores.\"",
-        "name": "Harvey Walters",
-        "subname": "El profesor",
-        "text": "[reaction] Después de que un investigador que esté en tu Lugar robe 1 o más cartas de su mazo durante la fase de Investigación: Ese investigador roba 1 carta. Límite de una vez por ronda.\nEfecto [elder_sign]: +1. Roba 1 carta.",
-        "traits": "Miskatonic.",
-        "back_flavor": "El profesor Walters empezó siendo un devoto de lo arcaico y lo extraño, pero a lo largo del tiempo ha descubierto que su conocimiento de idiomas antiguos, de reliquias profanas y de rituales extraños es vital para encarar peligros en la era moderna. Es tanto un ávido coleccionista de recuerdos prehistóricos como una fuente de conocimiento sobre las extrañas religiones primordiales que adoraban a dioses de pesadilla hace eones. Es posible que no quede ninguna persona cuerda con vida que sepa más sobre el ocultismo que Harvey. Cuando tiene lugar un suceso sobrenatural, el profesor Walters aporta sus considerables recursos y experiencia.",
-        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Buscador ([seeker]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Depósito de conocimiento, Maldita curiosidad, 1 Debilidad básica aleatoria."
-    },
-    {
-        "code": "60202",
-        "name": "Depósito de conocimiento",
-        "text": "Solo para el mazo de Harvey Walters.\nTu tamaño de mano máximo aumenta en 2.\n[reaction] Después de que investigues con éxito, agota Depósito de conocimiento y elige un investigador que esté en tu Lugar: Ese investigador roba 1 carta.",
-        "traits": "Talento."
-    },
-    {
-        "code": "60203",
-        "flavor": "Hoy solo puedo esperar que mis relatos no despierten una curiosidad más grande que toda precaución.\n- H. P. Lovecraft, \"En las montañas de la locura\"",
-        "name": "Maldita curiosidad",
-        "text": "<b>Revelación</b> - Por cada 3 cartas que tengas en la mano: Recibe 1 punto de daño.",
-        "traits": "Defecto."
-    },
-    {
-        "code": "60204",
-        "name": "Obsesivo",
-        "text": "<b>Revelación</b> - Pon Obsesivo en juego en tu zona de amenaza.\n<b>Obligado</b> - Cuando comience tu turno: Descarta de tu mano al azar 1 carta que no sea de Debilidad.\n[action][action]: Descarta Obsesivo.",
-        "traits": "Defecto."
-    },
-    {
-        "code": "60205",
-        "flavor": "Una mente aumentada puede memorizar volúmenes de libros enteros.",
-        "name": "Entendimiento arcano",
-        "text": "Tu tamaño de mano máximo aumenta en 1.\nTienes 1 espacio de mano adicional que solo puede usarse para un Apoyo [[Tomo]].",
-        "traits": "Ritual.",
-        "slot": "Arcano"
-    },
-    {
-        "code": "60206",
-        "name": "Fragmentos de Celeno",
-        "subname": "El libro de libros",
-        "text": "Mientras tengas…\n- …5 o más cartas en la mano, recibes +1 [intellect].\n- …10 o más cartas en la mano, recibes +1 [willpower].\n- …15 o más cartas en la mano, recibes +1 [intellect].",
-        "traits": "Objeto. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60207",
-        "flavor": "¿Lo temen por lo que les hará? ¿O lo temen por lo que te hará?",
-        "name": "Disco de Itzamna",
-        "subname": "Amuleto protector",
-        "text": "[reaction] Cuando un Enemigo que no sea [[Élite]] aparezca en tu Lugar, descarta el Disco de Itzamna: Evita automáticamente a ese Enemigo o inflígele 2 puntos de daño.",
-        "traits": "Objeto. Reliquia.",
-        "slot": "Accesorio"
-    },
-    {
-        "code": "60208",
-        "name": "Enciclopedia",
-        "text": "Usos (5 secretos).\n[action] Agota la Enciclopedia y gasta 1 secreto: Elige un investigador que esté en tu Lugar. Ese investigador recibe +2 a una habilidad de tu elección hasta el final de la fase.",
-        "traits": "Objeto. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60209",
-        "name": "Alimentar la mente",
-        "text": "Usos (3 secretos).\n[action] Agota Alimentar la mente y gasta 1 secreto: Realiza una prueba de [intellect] (1). Por cada punto que tengas por encima del valor mínimo de éxito (hasta un máximo de 3), roba 1 carta.",
-        "traits": "Hechizo.",
-        "slot": "Arcano"
-    },
-    {
-        "code": "60210",
-        "name": "Tomo prohibido",
-        "subname": "Sin traducir",
-        "text": "Usos (5 secretos).\n[action] Agota el Tomo prohibido y gasta 1 secreto: Roba 1 carta. A continuación, si tienes 10 o más cartas en la mano y no hay secretos sobre el Tomo prohibido, puedes descartarlo para anotar en el registro de campaña que «los investigadores han traducido el tomo».",
-        "traits": "Objeto. Reliquia. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60211",
-        "name": "Educación superior",
-        "text": "Mientras tengas 5 o más cartas en la mano, Educación superior obtiene:\n«[free] Gasta 1 recurso: Recibes +1 [willpower] para esta prueba de habilidad.\n[free] Gasta 1 recurso: Recibes +1 [intellect] para esta prueba de habilidad».",
-        "traits": "Talento."
-    },
-    {
-        "code": "60213",
-        "name": "Whitton Greene",
-        "subname": "Rastreadora de libros raros",
-        "text": "Mientras controles un Apoyo [[Tomo]] o [[Reliquia]], recibes +1 [intellect].\n[reaction] Después de que reveles un Lugar o pongas un nuevo Lugar en juego, agota a Whitton Greene: Busca entre las 6 primeras cartas de tu mazo un Apoyo [[Tomo]] o [[Reliquia]] y róbalo. Baraja tu mazo.",
-        "traits": "Aliado. Miskatonic.",
-        "slot": "Aliado"
-    },
-    {
-        "code": "60214",
-        "flavor": "Ya dormirás cuando estés muerto.",
-        "name": "Quemarse las pestañas",
-        "text": "<b>Investigar.</b> Cuando comience esta acción, obtén 2 recursos.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60215",
-        "flavor": "(…) muy pocos, comparados con los escritos en idiomas que no entiendo.\n\nH. P. Lovecraft, El testimonio de Randolph Carter",
-        "name": "Inscripciones crípticas",
-        "text": "Obtén 2 recursos.\n[reaction] Después de que robes las Inscripciones crípticas durante tu turno: Juégalas.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60216",
-        "flavor": "—Aquí tampoco hay nada. ¿Cuántos nos quedan?\n—¿Ves la pared que tienes detrás?",
-        "name": "Investigación exhaustiva",
-        "text": "Reduce el coste para jugar Investigación exhaustiva en 1 por cada una de las demás cartas de tu mano.\nDescubre 2 pistas en tu Lugar.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60217",
-        "name": "Invocación ocultista",
-        "text": "Como coste adicional para jugar Invocación ocultista, descarta hasta 2 cartas de tu mano.\n<b>Combatir.</b> Este ataque usa [intellect] en lugar de [combat]. Recibes +1 [intellect] e infliges +1 de daño para este ataque por cada carta descartada como parte del coste de esta carta.",
-        "traits": "Hechizo."
-    },
-    {
-        "code": "60220",
-        "name": "Guía de biblioteca",
-        "text": "[reaction] Después de que la Guía de biblioteca entre en juego, devuelve un Apoyo [[Tomo]] que controles a la mano de su propietario: Juega un Apoyo [[Tomo]] distinto (por nombre) desde tu mano, reduciendo su coste en 2.",
-        "traits": "Aliado. Miskatonic.",
-        "slot": "Aliado"
-    },
-    {
-        "code": "60221",
-        "flavor": "La ignorancia es una bendición que no te puedes permitir.",
-        "name": "Atisbar lo impensable",
-        "text": "Roba 1 carta. Añade cualquier cantidad de cartas que no sean Debilidad de tu mano a tu mazo y baraja este. A continuación, roba esa misma cantidad de cartas.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60222",
-        "name": "Atlas esotérico",
-        "text": "Usos (4 secretos).\n[action] Gasta 1 secreto: Elige un Lugar revelado que esté a un máximo de 3 conexiones de distancia de tu Lugar. Muévete a ese Lugar.",
-        "traits": "Objeto. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60223",
-        "name": "Whitton Greene",
-        "subname": "Rastreadora de libros raros",
-        "text": "Mientras controles un Apoyo [[Tomo]] o [[Reliquia]], recibes +1 [willpower] y +1 [intellect].\n[reaction] Después de que reveles un Lugar o pongas un nuevo Lugar en juego, agota a Whitton Greene: Busca entre las 9 primeras cartas de tu mazo un Apoyo [[Tomo]] o [[Reliquia]] y róbalo. Baraja tu mazo.",
-        "traits": "Aliado. Miskatonic.",
-        "slot": "Aliado"
-    },
-    {
-        "code": "60224",
-        "flavor": "(…) muy pocos, comparados con los escritos en idiomas que no entiendo.\n\nH. P. Lovecraft, El testimonio de Randolph Carter",
-        "name": "Inscripciones crípticas",
-        "text": "Obtén 3 recursos, o bien 4 recursos si tienes 10 o más cartas en la mano.\n[reaction] Después de que robes las Inscripciones crípticas durante tu turno: Juégalas.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60225",
-        "flavor": "Es el peor plan que he oído jamás en mi vida. Venga, ¿a qué estás esperando?",
-        "name": "\"¡Tengo un plan!\"",
-        "text": "<b>Combatir.</b> Este ataque usa [intellect] en lugar de [combat]. Recibes +2 [intellect] para esta prueba. Infliges +1 de daño para este ataque por cada pista que tengas (máx. +3 de daño).",
-        "traits": "Inspiración. Táctica."
-    },
-    {
-        "code": "60226",
-        "name": "La mente sobre la materia",
-        "text": "Rápido. Juega esta carta durante tu turno.\nHasta el final de la ronda, añade tu [intellect] a tu [combat] y a tu [agility]. Roba 1 carta.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60227",
-        "flavor": "Hay gente que necesita saber la verdad a toda costa. Algunas verdades pueden cortar como cuchillos.",
-        "name": "Buscando respuestas",
-        "text": "<b>Investigar.</b> Si tienes éxito, descubre 2 pistas en total entre tu Lugar y los Lugares conectados.",
-        "traits": "Inspiración."
-    },
-    {
-        "code": "60228",
-        "flavor": "¡Por fin lo he encontrado!",
-        "name": "Percepción",
-        "text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba tiene éxito, roba 1 carta, o bien 2 cartas si tiene éxito por 2 o más.",
-        "traits": "Experimentado. Experto."
-    },
-    {
-        "code": "60229",
-        "name": "Tomo prohibido",
-        "subname": "Conocimiento oscuro",
-        "text": "Solo puedes incluir este Apoyo en tu mazo si lo mejoras a partide del Tomo prohibido (Sin traducir), y solo si en el registro de campaña aparece que «los investigadores han traducido el tomo».\n[action][action][action][action] Agota el Tomo prohibido: Mueve 1 punto de daño de una carta de Jugador de tu Lugar a un Enemigo que esté en tu Lugar. Reduce el coste de esta capacidad en 1 acción por cada 4 cartas que tengas en la mano (hasta un mínimo de [action]).",
-        "traits": "Objeto. Reliquia. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60230",
-        "name": "Tomo prohibido",
-        "subname": "Secretos revelados",
-        "text": "Solo puedes incluir este Apoyo en tu mazo si lo mejoras a partide del Tomo prohibido (Sin traducir), y solo si en el registro de campaña aparece que «los investigadores han traducido el tomo».\n[action][action][action][action] Agota el Tomo prohibido: Puedes moverte a un Lugar conectado. Descubre 1 pista en tu Lugar. Reduce el coste de esta capacidad en 1 acción por cada 4 cartas que tengas en la mano (hasta un mínimo de [action]).",
-        "traits": "Objeto. Reliquia. Tomo.",
-        "slot": "Mano"
-    },
-    {
-        "code": "60231",
-        "flavor": "Más allá de todos los puntos del tiempo. Más allá de todos los ángulos del espacio. Más allá de las curvas de la realidad.",
-        "name": "Visión de futuro",
-        "text": "[free] Durante tu turno, si tienes 8 o más cartas en la mano, agota la Visión de futuro: Juega un evento desde tu mano <i>(pagando su coste)</i>.",
-        "traits": "Ritual.",
-        "slot": "Arcano"
-    },
-    {
-        "code": "60232",
-        "name": "Financiación arqueológica de Miskatonic",
-        "text": "Permanente. Límite de 1 por mazo.\nTienes 2 espacios de aliado adicionales que solo pueden usarse para Apoyos [[Miskatonic]].\n<b>Obligado</b> - Cuando recibas daño u horror: No puede asignarse más de 1 punto de ese daño/horror a un Apoyo [[Miskatonic]]",
-        "traits": "Beca."
-    },
-    {
-        "code": "60233",
-        "name": "El Necronomicón",
-        "subname": "Traducción de Petrus de Dacia",
-        "text": "Usos (6 secretos). Límite de 1 por mazo.\n[free] Gasta 1 secreto: Recibes +2 al valor de habilidad para esta prueba de habilidad.\n[free] Gasta 2 secretos: Roba 2 cartas.\n[free] Gasta 3 secretos: Descubre 1 pista en cualquier Lugar.\n[free] Gasta 4 secretos: Inflige 3 puntos de daño a un Enemigo enfrentado a ti.",
-        "traits": "Objeto. Tomo.",
-        "slot": "Mano"
-    }
+	{
+		"back_flavor": "El profesor Walters empezó siendo un devoto de lo arcaico y lo extraño, pero a lo largo del tiempo ha descubierto que su conocimiento de idiomas antiguos, de reliquias profanas y de rituales extraños es vital para encarar peligros en la era moderna. Es tanto un ávido coleccionista de recuerdos prehistóricos como una fuente de conocimiento sobre las extrañas religiones primordiales que adoraban a dioses de pesadilla hace eones. Es posible que no quede ninguna persona cuerda con vida que sepa más sobre el ocultismo que Harvey. Cuando tiene lugar un suceso sobrenatural, el profesor Walters aporta sus considerables recursos y experiencia.",
+		"back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Buscador ([seeker]) de nivel 0-5, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño del mazo): Depósito de conocimiento, Maldita curiosidad, 1 Debilidad básica aleatoria.",
+		"code": "60201",
+		"flavor": "\"Tengo experiencia tratando con esta clase de horrores.\"",
+		"name": "Harvey Walters",
+		"subname": "El profesor",
+		"text": "[reaction] Después de que un investigador que esté en tu Lugar robe 1 o más cartas de su mazo durante la fase de Investigación: Ese investigador roba 1 carta. Límite de una vez por ronda.\nEfecto [elder_sign]: +1. Roba 1 carta.",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "60202",
+		"name": "Depósito de conocimiento",
+		"text": "Solo para el mazo de Harvey Walters.\nTu tamaño de mano máximo aumenta en 2.\n[reaction] Después de que investigues con éxito, agota Depósito de conocimiento y elige un investigador que esté en tu Lugar: Ese investigador roba 1 carta.",
+		"traits": "Talento."
+	},
+	{
+		"code": "60203",
+		"flavor": "Hoy solo puedo esperar que mis relatos no despierten una curiosidad más grande que toda precaución.\n- H. P. Lovecraft, \"En las montañas de la locura\"",
+		"name": "Maldita curiosidad",
+		"text": "<b>Revelación</b> - Por cada 3 cartas que tengas en la mano: Recibe 1 punto de daño.",
+		"traits": "Defecto."
+	},
+	{
+		"code": "60204",
+		"name": "Obsesivo",
+		"text": "<b>Revelación</b> - Pon Obsesivo en juego en tu zona de amenaza.\n<b>Obligado</b> - Cuando comience tu turno: Descarta de tu mano al azar 1 carta que no sea de Debilidad.\n[action] [action]: Descarta Obsesivo.",
+		"traits": "Defecto."
+	},
+	{
+		"code": "60205",
+		"flavor": "Una mente aumentada puede memorizar volúmenes de libros enteros.",
+		"name": "Entendimiento arcano",
+		"slot": "Arcano",
+		"text": "Tu tamaño de mano máximo aumenta en 1.\nTienes 1 espacio de mano adicional que solo puede usarse para un Apoyo [[Tomo]].",
+		"traits": "Ritual."
+	},
+	{
+		"code": "60206",
+		"name": "Fragmentos de Celeno",
+		"slot": "Mano",
+		"subname": "El libro de libros",
+		"text": "Mientras tengas…\n- …5 o más cartas en la mano, recibes +1 [intellect].\n- …10 o más cartas en la mano, recibes +1 [willpower].\n- …15 o más cartas en la mano, recibes +1 [intellect].",
+		"traits": "Objeto. Tomo."
+	},
+	{
+		"code": "60207",
+		"flavor": "¿Lo temen por lo que les hará? ¿O lo temen por lo que te hará?",
+		"name": "Disco de Itzamna",
+		"slot": "Accesorio",
+		"subname": "Amuleto protector",
+		"text": "[reaction] Cuando un Enemigo que no sea [[Élite]] aparezca en tu Lugar, descarta el Disco de Itzamna: Evita automáticamente a ese Enemigo o inflígele 2 puntos de daño.",
+		"traits": "Objeto. Reliquia."
+	},
+	{
+		"code": "60208",
+		"name": "Enciclopedia",
+		"slot": "Mano",
+		"text": "Usos (5 secretos).\n[action] Agota la Enciclopedia y gasta 1 secreto: Elige un investigador que esté en tu Lugar. Ese investigador recibe +2 a una habilidad de tu elección hasta el final de la fase.",
+		"traits": "Objeto. Tomo."
+	},
+	{
+		"code": "60209",
+		"name": "Alimentar la mente",
+		"slot": "Arcano",
+		"text": "Usos (3 secretos).\n[action] Agota Alimentar la mente y gasta 1 secreto: Realiza una prueba de [intellect] (1). Por cada punto que tengas por encima del valor mínimo de éxito (hasta un máximo de 3), roba 1 carta.",
+		"traits": "Hechizo."
+	},
+	{
+		"code": "60210",
+		"name": "Tomo prohibido",
+		"slot": "Mano",
+		"subname": "Sin traducir",
+		"text": "Usos (5 secretos).\n[action] Agota el Tomo prohibido y gasta 1 secreto: Roba 1 carta. A continuación, si tienes 10 o más cartas en la mano y no hay secretos sobre el Tomo prohibido, puedes descartarlo para anotar en el registro de campaña que «los investigadores han traducido el tomo».",
+		"traits": "Objeto. Reliquia. Tomo."
+	},
+	{
+		"code": "60211",
+		"name": "Educación superior",
+		"text": "Mientras tengas 5 o más cartas en la mano, Educación superior obtiene:\n«[free] Gasta 1 recurso: Recibes +1 [willpower] para esta prueba de habilidad.\n[free] Gasta 1 recurso: Recibes +1 [intellect] para esta prueba de habilidad».",
+		"traits": "Talento."
+	},
+	{
+		"code": "60213",
+		"name": "Whitton Greene",
+		"slot": "Aliado",
+		"subname": "Rastreadora de libros raros",
+		"text": "Mientras controles un Apoyo [[Tomo]] o [[Reliquia]], recibes +1 [intellect].\n[reaction] Después de que reveles un Lugar o pongas un nuevo Lugar en juego, agota a Whitton Greene: Busca entre las 6 primeras cartas de tu mazo un Apoyo [[Tomo]] o [[Reliquia]] y róbalo. Baraja tu mazo.",
+		"traits": "Aliado. Miskatonic."
+	},
+	{
+		"code": "60214",
+		"flavor": "Ya dormirás cuando estés muerto.",
+		"name": "Quemarse las pestañas",
+		"text": "<b>Investigar.</b> Cuando comience esta acción, obtén 2 recursos.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60215",
+		"flavor": "(…) muy pocos, comparados con los escritos en idiomas que no entiendo.\n\nH. P. Lovecraft, El testimonio de Randolph Carter",
+		"name": "Inscripciones crípticas",
+		"text": "Obtén 2 recursos.\n[reaction] Después de que robes las Inscripciones crípticas durante tu turno: Juégalas.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60216",
+		"flavor": "—Aquí tampoco hay nada. ¿Cuántos nos quedan?\n—¿Ves la pared que tienes detrás?",
+		"name": "Investigación exhaustiva",
+		"text": "Reduce el coste para jugar Investigación exhaustiva en 1 por cada una de las demás cartas de tu mano.\nDescubre 2 pistas en tu Lugar.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60217",
+		"name": "Invocación ocultista",
+		"text": "Como coste adicional para jugar Invocación ocultista, descarta hasta 2 cartas de tu mano.\n<b>Combatir.</b> Este ataque usa [intellect] en lugar de [combat]. Recibes +1 [intellect] e infliges +1 de daño para este ataque por cada carta descartada como parte del coste de esta carta.",
+		"traits": "Hechizo."
+	},
+	{
+		"code": "60220",
+		"name": "Guía de biblioteca",
+		"slot": "Aliado",
+		"text": "[reaction] Después de que la Guía de biblioteca entre en juego, devuelve un Apoyo [[Tomo]] que controles a la mano de su propietario: Juega un Apoyo [[Tomo]] distinto (por nombre) desde tu mano, reduciendo su coste en 2.",
+		"traits": "Aliado. Miskatonic."
+	},
+	{
+		"code": "60221",
+		"flavor": "La ignorancia es una bendición que no te puedes permitir.",
+		"name": "Atisbar lo impensable",
+		"text": "Roba 1 carta. Añade cualquier cantidad de cartas que no sean Debilidad de tu mano a tu mazo y baraja este. A continuación, roba esa misma cantidad de cartas.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60222",
+		"name": "Atlas esotérico",
+		"slot": "Mano",
+		"text": "Usos (4 secretos).\n[action] Gasta 1 secreto: Elige un Lugar revelado que esté a un máximo de 3 conexiones de distancia de tu Lugar. Muévete a ese Lugar.",
+		"traits": "Objeto. Tomo."
+	},
+	{
+		"code": "60223",
+		"name": "Whitton Greene",
+		"slot": "Aliado",
+		"subname": "Rastreadora de libros raros",
+		"text": "Mientras controles un Apoyo [[Tomo]] o [[Reliquia]], recibes +1 [willpower] y +1 [intellect].\n[reaction] Después de que reveles un Lugar o pongas un nuevo Lugar en juego, agota a Whitton Greene: Busca entre las 9 primeras cartas de tu mazo un Apoyo [[Tomo]] o [[Reliquia]] y róbalo. Baraja tu mazo.",
+		"traits": "Aliado. Miskatonic."
+	},
+	{
+		"code": "60224",
+		"flavor": "(…) muy pocos, comparados con los escritos en idiomas que no entiendo.\n\nH. P. Lovecraft, El testimonio de Randolph Carter",
+		"name": "Inscripciones crípticas",
+		"text": "Obtén 3 recursos, o bien 4 recursos si tienes 10 o más cartas en la mano.\n[reaction] Después de que robes las Inscripciones crípticas durante tu turno: Juégalas.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60225",
+		"flavor": "Es el peor plan que he oído jamás en mi vida. Venga, ¿a qué estás esperando?",
+		"name": "\"¡Tengo un plan!\"",
+		"text": "<b>Combatir.</b> Este ataque usa [intellect] en lugar de [combat]. Recibes +2 [intellect] para esta prueba. Infliges +1 de daño para este ataque por cada pista que tengas (máx. +3 de daño).",
+		"traits": "Inspiración. Táctica."
+	},
+	{
+		"code": "60226",
+		"name": "La mente sobre la materia",
+		"text": "Rápido. Juega esta carta durante tu turno.\nHasta el final de la ronda, añade tu [intellect] a tu [combat] y a tu [agility]. Roba 1 carta.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60227",
+		"flavor": "Hay gente que necesita saber la verdad a toda costa. Algunas verdades pueden cortar como cuchillos.",
+		"name": "Buscando respuestas",
+		"text": "<b>Investigar.</b> Si tienes éxito, descubre 2 pistas en total entre tu Lugar y los Lugares conectados.",
+		"traits": "Inspiración."
+	},
+	{
+		"code": "60228",
+		"flavor": "¡Por fin lo he encontrado!",
+		"name": "Percepción",
+		"text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba tiene éxito, roba 1 carta, o bien 2 cartas si tiene éxito por 2 o más.",
+		"traits": "Experimentado. Experto."
+	},
+	{
+		"code": "60229",
+		"name": "Tomo prohibido",
+		"slot": "Mano",
+		"subname": "Conocimiento oscuro",
+		"text": "Solo puedes incluir este Apoyo en tu mazo si lo mejoras a partide del Tomo prohibido (Sin traducir), y solo si en el registro de campaña aparece que «los investigadores han traducido el tomo».\n[action] [action] [action] [action] Agota el Tomo prohibido: Mueve 1 punto de daño de una carta de Jugador de tu Lugar a un Enemigo que esté en tu Lugar. Reduce el coste de esta capacidad en 1 acción por cada 4 cartas que tengas en la mano (hasta un mínimo de [action]).",
+		"traits": "Objeto. Reliquia. Tomo."
+	},
+	{
+		"code": "60230",
+		"name": "Tomo prohibido",
+		"slot": "Mano",
+		"subname": "Secretos revelados",
+		"text": "Solo puedes incluir este Apoyo en tu mazo si lo mejoras a partide del Tomo prohibido (Sin traducir), y solo si en el registro de campaña aparece que «los investigadores han traducido el tomo».\n[action] [action] [action] [action] Agota el Tomo prohibido: Puedes moverte a un Lugar conectado. Descubre 1 pista en tu Lugar. Reduce el coste de esta capacidad en 1 acción por cada 4 cartas que tengas en la mano (hasta un mínimo de [action]).",
+		"traits": "Objeto. Reliquia. Tomo."
+	},
+	{
+		"code": "60231",
+		"flavor": "Más allá de todos los puntos del tiempo. Más allá de todos los ángulos del espacio. Más allá de las curvas de la realidad.",
+		"name": "Visión de futuro",
+		"slot": "Arcano",
+		"text": "[free] Durante tu turno, si tienes 8 o más cartas en la mano, agota la Visión de futuro: Juega un evento desde tu mano <i>(pagando su coste)</i>.",
+		"traits": "Ritual."
+	},
+	{
+		"code": "60232",
+		"name": "Financiación arqueológica de Miskatonic",
+		"text": "Permanente. Límite de 1 por mazo.\nTienes 2 espacios de aliado adicionales que solo pueden usarse para Apoyos [[Miskatonic]].\n<b>Obligado</b> - Cuando recibas daño u horror: No puede asignarse más de 1 punto de ese daño/horror a un Apoyo [[Miskatonic]]",
+		"traits": "Beca."
+	},
+	{
+		"code": "60233",
+		"name": "El Necronomicón",
+		"slot": "Mano",
+		"subname": "Traducción de Petrus de Dacia",
+		"text": "Usos (6 secretos). Límite de 1 por mazo.\n[free] Gasta 1 secreto: Recibes +2 al valor de habilidad para esta prueba de habilidad.\n[free] Gasta 2 secretos: Roba 2 cartas.\n[free] Gasta 3 secretos: Descubre 1 pista en cualquier Lugar.\n[free] Gasta 4 secretos: Inflige 3 puntos de daño a un Enemigo enfrentado a ti.",
+		"traits": "Objeto. Tomo."
+	}
 ]

@@ -1,15 +1,18 @@
 {
-    "additionalProperties": false,
-    "properties": {
-        "code": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "name": {
-            "minLength": 1,
-            "type": "string"
-        }
-    },
-    "required": ["code", "name"],
-    "type": "object"
+	"additionalProperties": false,
+	"properties": {
+		"code": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"name": {
+			"minLength": 1,
+			"type": "string"
+		}
+	},
+	"required": [
+		"code",
+		"name"
+	],
+	"type": "object"
 }

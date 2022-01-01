@@ -1,13 +1,13 @@
 [
     {
+        "back_flavor": "Professor Walters began as a devotee of the archaic and obscure, but over the years he has discovered that his knowledge of ancient languages, profane relics, and strange rituals is vital to addressing dangers in the modern day. He is both an avid collector of prehistoric ephemera and a fount of knowledge regarding the bizarre primordial religions that worshipped nightmarish gods eons ago. There is perhaps no sane person alive who knows more about the occult than Harvey. When a supernatural event occurs, Professor Walters brings his considerable resources and experience to bear.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Vault of Knowledge, Thrice-Damned Curiosity, 1 random basic weakness.",
         "code": "60201",
         "flavor": "\"I have experience dealing with these sorts of horrors.\"",
         "name": "Harvey Walters",
         "subname": "The Professor",
         "text": "[reaction] After an investigator at your location draws 1 or more cards from their deck during the investigation phase: That investigator draws 1 card. (Limit once per round.)\n[elder_sign] effect: +1. Draw 1 card.",
-        "traits": "Miskatonic.",
-        "back_flavor": "Professor Walters began as a devotee of the archaic and obscure, but over the years he has discovered that his knowledge of ancient languages, profane relics, and strange rituals is vital to addressing dangers in the modern day. He is both an avid collector of prehistoric ephemera and a fount of knowledge regarding the bizarre primordial religions that worshipped nightmarish gods eons ago. There is perhaps no sane person alive who knows more about the occult than Harvey. When a supernatural event occurs, Professor Walters brings his considerable resources and experience to bear.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Vault of Knowledge, Thrice-Damned Curiosity, 1 random basic weakness."
+        "traits": "Miskatonic."
     },
     {
         "code": "60202",
@@ -32,48 +32,48 @@
         "code": "60205",
         "flavor": "An augmented mind can memorize entire volumes of books.",
         "name": "Arcane Enlightenment",
+        "slot": "Arcane",
         "text": "Your maximum hand size is increased by 1.\nYou have 1 additional hand slot, which can only be used to hold a [[Tome]] asset.",
-        "traits": "Ritual.",
-        "slot": "Arcane"
+        "traits": "Ritual."
     },
     {
         "code": "60206",
         "name": "Celaeno Fragments",
+        "slot": "Hand",
         "subname": "Book of Books",
         "text": "While you have...\n- ...5 or more cards in hand, you get +1 [intellect].\n- ...10 or more cards in hand, you get +1 [willpower].\n- ...15 or more cards in hand, you get +1 [intellect].",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Tome."
     },
     {
         "code": "60207",
         "flavor": "Do they fear it because of what it will do to them? Or, do they fear it because of what it will do to you?",
         "name": "Disc of Itzamna",
+        "slot": "Accessory",
         "subname": "Protective Amulet",
         "text": "[reaction] When a non-[[Elite]] enemy spawns at your location, discard Disc of Itzamna: Automatically evade that enemy or deal it 2 damage.",
-        "traits": "Item. Relic.",
-        "slot": "Accessory"
+        "traits": "Item. Relic."
     },
     {
         "code": "60208",
         "name": "Encyclopedia",
+        "slot": "Hand",
         "text": "Uses (5 secrets).\n[action] Exhaust Encyclopedia and spend 1 secret: Choose an investigator at your location. That investigator gets +2 to a skill of your choice until the end of the phase.",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Tome."
     },
     {
         "code": "60209",
         "name": "Feed the Mind",
+        "slot": "Arcane",
         "text": "Uses (3 secrets).\n[action] Exhaust Feed the Mind and spend 1 secret: Test [intellect] (1). For each point you succeed by (to a maximum of 3), draw 1 card.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "traits": "Spell."
     },
     {
         "code": "60210",
         "name": "Forbidden Tome",
+        "slot": "Hand",
         "subname": "Untranslated",
         "text": "Uses (5 secrets).\n[action] Exhaust Forbidden Tome and spend 1 secret: Draw 1 card. Then, if you have 10 or more cards in your hand and there are no secrets on Forbidden Tome, you may discard it to record in your Campaign Log that \"you have translated the tome.\"",
-        "traits": "Item. Relic. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Relic. Tome."
     },
     {
         "code": "60211",
@@ -84,10 +84,10 @@
     {
         "code": "60213",
         "name": "Whitton Greene",
+        "slot": "Ally",
         "subname": "Hunter of Rare Books",
         "text": "While you control a [[Tome]] or [[Relic]] asset, you get +1 [intellect].\n[reaction] After you reveal a location or put a new location into play, exhaust Whitton Greene: Search the top 6 cards of your deck for a [[Tome]] or [[Relic]] asset and draw it. Shuffle your deck.",
-        "traits": "Ally. Miskatonic.",
-        "slot": "Ally"
+        "traits": "Ally. Miskatonic."
     },
     {
         "code": "60214",
@@ -119,9 +119,9 @@
     {
         "code": "60220",
         "name": "Library Docent",
+        "slot": "Ally",
         "text": "[reaction] After Library Docent enters play, return a [[Tome]] asset you control to its owner's hand: Play a different [[Tome]] asset (by title) from your hand, reducing its cost by 2.",
-        "traits": "Ally. Miskatonic.",
-        "slot": "Ally"
+        "traits": "Ally. Miskatonic."
     },
     {
         "code": "60221",
@@ -133,17 +133,17 @@
     {
         "code": "60222",
         "name": "Esoteric Atlas",
+        "slot": "Hand",
         "text": "Uses (4 secrets).\n[action] Spend 1 secret: Choose a revealed location up to 3 connections away from your location. Move to that location.",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Tome."
     },
     {
         "code": "60223",
         "name": "Whitton Greene",
+        "slot": "Ally",
         "subname": "Hunter of Rare Books",
         "text": "While you control a [[Tome]] or [[Relic]] asset, you get +1 [willpower] and +1 [intellect].\n[reaction] After you reveal a location or put a new location into play, exhaust Whitton Greene: Search the top 9 cards of your deck for a [[Tome]] or [[Relic]] asset and draw it. Shuffle your deck.",
-        "traits": "Ally. Miskatonic.",
-        "slot": "Ally"
+        "traits": "Ally. Miskatonic."
     },
     {
         "code": "60224",
@@ -182,26 +182,26 @@
     {
         "code": "60229",
         "name": "Forbidden Tome",
+        "slot": "Hand",
         "subname": "Dark Knowledge",
         "text": "You can only include this asset in your deck by upgrading it from Forbidden Tome <i>(Untranslated)</i>, and only if \"you have translated the tome\" in your Campaign Log.\n[action] [action] [action] [action] Exhaust Forbidden Tome: Move 1 damage from a player card at your location to an enemy at your location. Reduce this ability's cost by 1 action for every 4 cards in your hand (to a minimum of [action]).",
-        "traits": "Item. Relic. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Relic. Tome."
     },
     {
         "code": "60230",
         "name": "Forbidden Tome",
+        "slot": "Hand",
         "subname": "Secrets Revealed",
         "text": "You can only include this asset in your deck by upgrading it from Forbidden Tome <i>(Untranslated)</i>, and only if \"you have translated the tome\" in your Campaign Log.\n[action] [action] [action] [action] Exhaust Forbidden Tome: You may move to a connecting location. Discover 1 clue at your location. Reduce this ability's cost by 1 action for every 4 cards in your hand (to a minimum of [action]).",
-        "traits": "Item. Relic. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Relic. Tome."
     },
     {
         "code": "60231",
         "flavor": "Beyond all points in time. Beyond all angles of space. Beyond the curves of reality.",
         "name": "Farsight",
+        "slot": "Arcane",
         "text": "[fast] During your turn, if you have 8 or more cards in your hand, exhaust Farsight: Play an event from your hand <i>(paying its cost)</i>.",
-        "traits": "Ritual.",
-        "slot": "Arcane"
+        "traits": "Ritual."
     },
     {
         "code": "60232",
@@ -212,9 +212,9 @@
     {
         "code": "60233",
         "name": "The Necronomicon",
+        "slot": "Hand",
         "subname": "Petrus de Dacia Translation",
         "text": "Uses (6 secrets). Limit 1 per deck.\n[free] Spend 1 secret: You get +2 skill value for this skill test.\n[free] Spend 2 secrets: Draw 2 cards.\n[free] Spend 3 secrets: Discover 1 clue at any location.\n[free] Spend 4 secrets: Deal 3 damage to an enemy engaged with you.",
-        "traits": "Item. Tome.",
-        "slot": "Hand"
+        "traits": "Item. Tome."
     }
 ]

@@ -1,13 +1,13 @@
 [
     {
+        "back_flavor": "Sangue. Fuoco. Distruzione. Le notti di Jacqueline sono tormentate da sogni di eventi non ancora accaduti. All'inizio li riteneva un'orribile maledizione ma poi, più riusciva a controllare le sue visioni e ad analizzare in dettaglio le vicende di cui era testimone, più capiva che non si trattava di una disgrazia: era una vocazione. Il mondo sta per precipitare in un periodo di mille anni di indescrivibile caos, e solo lei sa come riconoscere i segni premonitori. I suoi sogni si sono sempre avverati e Jacqueline non può permettere che gli incubi che la tormentano diventino realtà.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 30 carte.\n<b>Opzioni del Mazzo</b>: Carte Mistico ([mystic]) di livello 0-5; carte neutrali di livello 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Arbitro del Destino, Futuro Oscuro, 1 debolezza base casuale.",
         "code": "60401",
         "flavor": "\"Il futuro può essere riscritto.\"",
         "name": "Jacqueline Fine",
         "subname": "La Sensitiva",
         "text": "[reaction] Quando un investigatore nel tuo luogo sta per rivelare un qualsiasi numero di segnalini caos: Rivela 2 segnalini aggiuntivi. Dei segnalini rivelati, scegline e annullane 2 non [auto_fail] oppure 1 [auto_fail]. (Limite di una volta per round.)\n<b>Effetto di</b> [elder_sign]: +1. Se questo effetto è annullato o ignorato, pesca 1 carta.",
-        "traits": "Chiaroveggente.",
-        "back_flavor": "Sangue. Fuoco. Distruzione. Le notti di Jacqueline sono tormentate da sogni di eventi non ancora accaduti. All'inizio li riteneva un'orribile maledizione ma poi, più riusciva a controllare le sue visioni e ad analizzare in dettaglio le vicende di cui era testimone, più capiva che non si trattava di una disgrazia: era una vocazione. Il mondo sta per precipitare in un periodo di mille anni di indescrivibile caos, e solo lei sa come riconoscere i segni premonitori. I suoi sogni si sono sempre avverati e Jacqueline non può permettere che gli incubi che la tormentano diventino realtà.",
-        "back_text": "<b>Dimensione del Mazzo</b>: 30 carte.\n<b>Opzioni del Mazzo</b>: Carte Mistico ([mystic]) di livello 0-5; carte neutrali di livello 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Arbitro del Destino, Futuro Oscuro, 1 debolezza base casuale."
+        "traits": "Chiaroveggente."
     },
     {
         "code": "60402",
@@ -19,65 +19,65 @@
     {
         "code": "60403",
         "name": "Futuro Oscuro",
-        "text": "<b>Rivelazione</b> - Metti in gioco il Futuro Oscuro nella tua area di minaccia.\nNon puoi annullare né ignorare i segnalini  [elder_sign], [skull], [cultist], [tablet], [elder_thing] e [auto_fail].\n<b>Obbligo –</b> Alla fine del tuo turno: Rivela 5 segnalini caos. Se riveli un simbolo [elder_sign], scarta il Futuro Oscuro.",
+        "text": "<b>Rivelazione</b> - Metti in gioco il Futuro Oscuro nella tua area di minaccia.\nNon puoi annullare né ignorare i segnalini  [elder_sign], [skull], [cultist], [tablet], [elder_thing] e [auto_fail].\n<b>Obbligo -</b> Alla fine del tuo turno: Rivela 5 segnalini caos. Se riveli un simbolo [elder_sign], scarta il Futuro Oscuro.",
         "traits": "Presagio. Ultimi Giorni."
     },
     {
         "code": "60404",
         "name": "Nichilismo",
-        "text": "<b>Rivelazione</b> – Metti in gioco il Nichilismo nella tua area di minaccia.\n<b>Obbligo</b> – Dopo che hai rivelato, annullato o ignorato un segnalino [auto_fail]: Subisci 1 danno e 1 orrore.\n[action] [action]: Scarta il Nichilismo.",
+        "text": "<b>Rivelazione</b> - Metti in gioco il Nichilismo nella tua area di minaccia.\n<b>Obbligo</b> - Dopo che hai rivelato, annullato o ignorato un segnalino [auto_fail]: Subisci 1 danno e 1 orrore.\n[action] [action]: Scarta il Nichilismo.",
         "traits": "Follia."
     },
     {
         "code": "60406",
         "name": "Specchio Divinatorio",
+        "slot": "Mano",
         "text": "Utilizzo (4 segreti).\n[reaction] Dopo che una prova di abilità nel tuo luogo è iniziata, esaurisci lo Specchio Divinatorio e spendi 1 segreto: Effettua il passo \"rivelare il segnalino caos\" ora <i>(prima di investire le carte)</i>, invece che dopo aver investito le carte.",
-        "traits": "Oggetto. Amuleto.",
-        "slot": "Mano"
+        "traits": "Oggetto. Amuleto."
     },
     {
         "code": "60407",
         "name": "Fiamma Azzurra",
+        "slot": "Arcano",
         "text": "Utilizzo (4 cariche).\n[action] Spendi 1 carica: Combatti. Usa [willpower] invece di [combat]. Infliggi +1 danno in questo attacco. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 1 danno.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60408",
         "name": "Chiaroveggenza",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Indaga. Usa [willpower] invece di [intellect]. Se hai successo, scopri 1 indizio aggiuntivo in questo luogo. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 1 orrore.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60409",
         "name": "Verità Ineffabile",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Eludi. Usa [willpower] invece di [agility]. Se hai successo, infliggi 1 danno al nemico eluso. Se riveli un segnalino [elder_thing], \"+1\" o \"0\", perdi 1 risorsa.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60410",
         "flavor": "\"La vostra arte è a dir poco indegna, ma mi metterò al vostro servizio, per ora.\"",
         "name": "Spirito Famiglio",
+        "slot": "Alleato",
         "text": "Possiedi 1 slot arcano aggiuntivo, a cui può essere associato solo un supporto [[Incantesimo]].",
-        "traits": "Alleato. Creatura. Evocazione.",
-        "slot": "Alleato"
+        "traits": "Alleato. Creatura. Evocazione."
     },
     {
         "code": "60411",
         "name": "Pendolo di Cristallo",
+        "slot": "Accessorio",
         "text": "Ricevi +1 [willpower].\n[reaction] Dopo che una prova di abilità nel tuo luogo è iniziata, esaurisci il Pendolo di Cristallo: Dichiara un numero. Se questa prova ha successo o fallisce di un ammontare di punti pari a quel numero, pesca 1 carta.",
-        "traits": "Oggetto. Amuleto.",
-        "slot": "Accessorio"
+        "traits": "Oggetto. Amuleto."
     },
     {
         "code": "60412",
         "flavor": "Buio nell'abisso esteriore. Luce nell'abisso interiore.",
         "name": "Veste della Notte Eterna",
+        "slot": "Corpo",
         "text": "[reaction] Quando giochi una carta [[Incantesimo]], esaurisci la Veste della Notte Eterna: Riduci di 1 il costo di quella carta.",
-        "traits": "Oggetto. Vestiario.",
-        "slot": "Corpo"
+        "traits": "Oggetto. Vestiario."
     },
     {
         "code": "60415",
@@ -107,17 +107,17 @@
     {
         "code": "60421",
         "name": "Statua Grottesca",
+        "slot": "Mano",
         "text": "Utilizzo (3 cariche). Se non ci sono cariche sulla Statua Grottesca, scartala.\n[reaction] Quando stai per rivelare 1 segnalino caos, spendi 1 carica: Rivela 2 segnalini caos invece di 1. Scegli 1 di quei segnalini da risolvere e ignora l'altro.",
-        "traits": "Oggetto. Reliquia.",
-        "slot": "Mano"
+        "traits": "Oggetto. Reliquia."
     },
     {
         "code": "60422",
         "flavor": "Buio nell'abisso esteriore. Luce nell'abisso interiore.",
         "name": "Veste della Notte Eterna",
+        "slot": "Corpo",
         "text": "[reaction] Quando giochi una carta [[Incantesimo]], esaurisci la Veste della Notte Eterna: riduci di 1 il costo di quella carta. Giocare quella carta non provoca attacchi di opportunità.",
-        "traits": "Oggetto. Vestiario.",
-        "slot": "Corpo"
+        "traits": "Oggetto. Vestiario."
     },
     {
         "code": "60423",
@@ -135,23 +135,23 @@
     {
         "code": "60425",
         "name": "Fiamma Azzurra",
+        "slot": "Arcano",
         "text": "Utilizzo (4 cariche).\n[action] Spendi 1 carica: Combatti. Usa [willpower] invece di [combat]. Ricevi +2 [willpower] e infliggi +1 danno in questo attacco. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 1 danno.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60426",
         "name": "Chiaroveggenza",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Indaga. Usa [willpower] invece di [intellect]. Ricevi +2 [willpower] in questa indagine. Se hai successo, scopri 1 indizio aggiuntivo in questo luogo. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 1 orrore.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60427",
         "name": "Verità Ineffabile",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Eludi. Usa [willpower] invece di [agility]. Ricevi +2 [willpower] in questo tentativo di elusione. Se hai successo, infliggi 1 danno al nemico eluso. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", perdi 1 risorsa.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60428",
@@ -168,22 +168,22 @@
     {
         "code": "60430",
         "name": "Fiamma Azzurra",
+        "slot": "Arcano",
         "text": "Utilizzo (4 cariche).\n[action] Spendi 1 carica: Combatti. Usa [willpower] invece di [combat]. Ricevi +3 [willpower] e infliggi +2 danni in questo attacco. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 2 danni.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60431",
         "name": "Chiaroveggenza",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Indaga. Usa [willpower] invece di [intellect]. Ricevi +3 [willpower] in questa indagine. Se hai successo, scopri 2 indizi aggiuntivi in questo luogo. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", subisci 2 orrori.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     },
     {
         "code": "60432",
         "name": "Verità Ineffabile",
+        "slot": "Arcano",
         "text": "Utilizzo (3 cariche).\n[action] Spendi 1 carica: Eludi. Usa [willpower] invece di [agility]. Ricevi +3 [willpower] in questo tentativo di elusione. Se hai successo, infliggi 2 danni al nemico eluso. Se riveli un segnalino [elder_sign], \"+1\" o \"0\", perdi 2 risorse.",
-        "traits": "Incantesimo.",
-        "slot": "Arcano"
+        "traits": "Incantesimo."
     }
 ]
