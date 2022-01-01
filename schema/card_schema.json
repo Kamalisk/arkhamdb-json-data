@@ -32,11 +32,25 @@
             "type": "integer"
         },
         "deck_options": {
-            "type": "array"
+            "oneof": [
+                {
+                    "type": "array"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "deck_requirements": {
-            "minLength": 1,
-            "type": "string"
+            "oneof": [
+                {
+                    "minLength": 1,
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "double_sided": {
             "type": "boolean"
@@ -50,12 +64,26 @@
             "type": "integer"
         },
         "enemy_evade": {
-            "minimum": 0,
-            "type": "integer"
+            "oneof": [
+                {
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                {
+                    "enum": [-2]
+                }
+            ]
         },
         "enemy_fight": {
-            "minimum": 0,
-            "type": "integer"
+            "oneof": [
+                {
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                {
+                    "enum": [-2]
+                }
+            ]
         },
         "enemy_horror": {
             "minimum": 0,
@@ -76,8 +104,15 @@
             "type": "string"
         },
         "health": {
-            "minimum": -2,
-            "type": "integer"
+            "oneof": [
+                {
+                    "type": "null"
+                },
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                }
+            ]
         },
         "illustrator": {
             "pattern": ".*",
@@ -173,7 +208,7 @@
             "type": "string"
         },
         "victory": {
-            "minimum": 1,
+            "minimum": 0,
             "type": "integer"
         },
         "xp": {
