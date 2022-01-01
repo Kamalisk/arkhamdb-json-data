@@ -218,7 +218,7 @@ def validate_cards(args, packs_data, factions_data, types_data):
             verbose_print(args, "Validating encounter cards...\n", 1)
             pack_path = os.path.join(args.pack_path, p["cycle_code"], "{}_encounter.json".format(p["code"]))
             pack_data = load_json_file(args, pack_path)
-            if not pack_data:
+            if pack_data:
                 for card in pack_data:
                     validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data)
 
