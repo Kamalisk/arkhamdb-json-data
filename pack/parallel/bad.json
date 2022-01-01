@@ -1,85 +1,91 @@
 [
-    {
-        "alternate_of": "01004",
-        "back_flavor": "Agnes Baker may be just an unassuming waitress in this life, but in a previous life, she had been a powerful witch. It began when she found a strange artifact - a key of some kind - in a dusty collection of family belongings in her attic. When she touched it, the memories came flooding back, along with one word: \"Hyperborea.\"",
-        "back_text": "<b>Deck size</b>: 25.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, [[Spell]] cards level 0-3, [[Occult]] cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Heirloom of Hyperborea, Dark Memory, 1 random basic weakness.\n<b>Additional Options</b>: When you upgrade a [[Spell]] card, you may instead pay the full experience cost of the higher level version and leave the lower level version in your deck (it does not count towards your deck size or the number of copies of that card in your deck).",
-        "code": "90017",
-        "deck_limit": 1,
-        "deck_options": [
-            {
-                "faction": ["mystic", "neutral"],
-                "level": {
-                    "max": 5,
-                    "min": 0
-                }
-            },
-            {
-                "level": {
-                    "max": 3,
-                    "min": 0
-                },
-                "trait": ["spell", "occult"]
-            }
-        ],
-        "deck_requirements": "size:25, card:01012:90018, card:01013:90019, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "mystic",
-        "flavor": "\"The magic is in my blood.\nCoursing through my veins.\nPumping through my heart.\"",
-        "health": 8,
-        "hidden": true,
-        "illustrator": "Magali Villeneuve",
-        "is_unique": true,
-        "name": "Agnes Baker",
-        "pack_code": "bad",
-        "position": 17,
-        "quantity": 1,
-        "sanity": 6,
-        "skill_agility": 3,
-        "skill_combat": 2,
-        "skill_intellect": 2,
-        "skill_willpower": 5,
-        "subname": "The Waitress",
-        "text": "As an additional cost to play a [[Spell]] event, you may take 1 damage. If you do, reduce the cost to play that event by 2, and you may shuffle that event back into your deck instead of discarding it.\n[elder_sign] effect: +1. You may heal 1 damage.",
-        "traits": "Sorcerer.",
-        "type_code": "investigator"
-    },
-    {
-        "code": "90018",
-        "cost": 3,
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "health": 3,
-        "illustrator": "Dani Hartel",
-        "is_unique": true,
-        "name": "Heirloom of Hyperborea",
-        "pack_code": "bad",
-        "position": 18,
-        "quantity": 1,
-        "restrictions": "investigator:01004",
-        "sanity": 3,
-        "skill_combat": 1,
-        "skill_wild": 2,
-        "skill_willpower": 1,
-        "slot": "Accessory",
-        "subname": "Artifact from Another Life",
-        "text": "Agnes Baker deck only. Advanced.\nOnly damage and/or horror from player card effects can be assigned to Heirloom of Hyperborea.\n[reaction] After you play a [[Spell]] card: Draw 1 card.",
-        "traits": "Item. Relic.",
-        "type_code": "asset"
-    },
-    {
-        "code": "90019",
-        "cost": 4,
-        "deck_limit": 1,
-        "faction_code": "neutral",
-        "illustrator": "Falk",
-        "name": "Dark Memory",
-        "pack_code": "bad",
-        "position": 19,
-        "quantity": 1,
-        "restrictions": "investigator:01004",
-        "subtype_code": "weakness",
-        "text": "Advanced.\nPlace 1 doom on the current agenda. This effect may cause the current agenda to advance.\n<b>Forced</b> - If Dark Memory is in your hand at the end of your turn, reveal it and take 2 horror.",
-        "traits": "Spell.",
-        "type_code": "event"
-    }
+	{
+		"alternate_of": "01004",
+		"back_flavor": "Agnes Baker may be just an unassuming waitress in this life, but in a previous life, she had been a powerful witch. It began when she found a strange artifact - a key of some kind - in a dusty collection of family belongings in her attic. When she touched it, the memories came flooding back, along with one word: \"Hyperborea.\"",
+		"back_text": "<b>Deck size</b>: 25.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, [[Spell]] cards level 0-3, [[Occult]] cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Heirloom of Hyperborea, Dark Memory, 1 random basic weakness.\n<b>Additional Options</b>: When you upgrade a [[Spell]] card, you may instead pay the full experience cost of the higher level version and leave the lower level version in your deck (it does not count towards your deck size or the number of copies of that card in your deck).",
+		"code": "90017",
+		"deck_limit": 1,
+		"deck_options": [
+			{
+				"faction": [
+					"mystic",
+					"neutral"
+				],
+				"level": {
+					"max": 5,
+					"min": 0
+				}
+			},
+			{
+				"level": {
+					"max": 3,
+					"min": 0
+				},
+				"trait": [
+					"spell",
+					"occult"
+				]
+			}
+		],
+		"deck_requirements": "size:25, card:01012:90018, card:01013:90019, random:subtype:basicweakness",
+		"double_sided": true,
+		"faction_code": "mystic",
+		"flavor": "\"The magic is in my blood.\nCoursing through my veins.\nPumping through my heart.\"",
+		"health": 8,
+		"hidden": true,
+		"illustrator": "Magali Villeneuve",
+		"is_unique": true,
+		"name": "Agnes Baker",
+		"pack_code": "bad",
+		"position": 17,
+		"quantity": 1,
+		"sanity": 6,
+		"skill_agility": 3,
+		"skill_combat": 2,
+		"skill_intellect": 2,
+		"skill_willpower": 5,
+		"subname": "The Waitress",
+		"text": "As an additional cost to play a [[Spell]] event, you may take 1 damage. If you do, reduce the cost to play that event by 2, and you may shuffle that event back into your deck instead of discarding it.\n[elder_sign] effect: +1. You may heal 1 damage.",
+		"traits": "Sorcerer.",
+		"type_code": "investigator"
+	},
+	{
+		"code": "90018",
+		"cost": 3,
+		"deck_limit": 1,
+		"faction_code": "neutral",
+		"health": 3,
+		"illustrator": "Dani Hartel",
+		"is_unique": true,
+		"name": "Heirloom of Hyperborea",
+		"pack_code": "bad",
+		"position": 18,
+		"quantity": 1,
+		"restrictions": "investigator:01004",
+		"sanity": 3,
+		"skill_combat": 1,
+		"skill_wild": 2,
+		"skill_willpower": 1,
+		"slot": "Accessory",
+		"subname": "Artifact from Another Life",
+		"text": "Agnes Baker deck only. Advanced.\nOnly damage and/or horror from player card effects can be assigned to Heirloom of Hyperborea.\n[reaction] After you play a [[Spell]] card: Draw 1 card.",
+		"traits": "Item. Relic.",
+		"type_code": "asset"
+	},
+	{
+		"code": "90019",
+		"cost": 4,
+		"deck_limit": 1,
+		"faction_code": "neutral",
+		"illustrator": "Falk",
+		"name": "Dark Memory",
+		"pack_code": "bad",
+		"position": 19,
+		"quantity": 1,
+		"restrictions": "investigator:01004",
+		"subtype_code": "weakness",
+		"text": "Advanced.\nPlace 1 doom on the current agenda. This effect may cause the current agenda to advance.\n<b>Forced</b> - If Dark Memory is in your hand at the end of your turn, reveal it and take 2 horror.",
+		"traits": "Spell.",
+		"type_code": "event"
+	}
 ]

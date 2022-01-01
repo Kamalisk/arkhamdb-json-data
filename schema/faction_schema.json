@@ -1,29 +1,32 @@
 {
-    "additionalProperties": false,
-    "properties": {
-        "code": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "is_primary": {
-            "type": "boolean"
-        },
-        "name": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "octgn_id": {
-            "oneof": [
-                {
-                    "minLength": 1,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        }
-    },
-    "required": ["code", "name"],
-    "type": "object"
+	"additionalProperties": false,
+	"properties": {
+		"code": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"is_primary": {
+			"type": "boolean"
+		},
+		"name": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"octgn_id": {
+			"oneof": [
+				{
+					"minLength": 1,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		}
+	},
+	"required": [
+		"code",
+		"name"
+	],
+	"type": "object"
 }

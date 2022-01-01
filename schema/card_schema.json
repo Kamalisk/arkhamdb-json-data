@@ -1,228 +1,240 @@
 {
-    "additionalProperties": true,
-    "dependencies": {
-        "name": ["faction_code", "type_code"]
-    },
-    "properties": {
-        "back_flavor": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "back_text": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "code": {
-            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
-            "type": "string"
-        },
-        "cost": {
-            "oneOf": [
-                {
-                    "minimum": -2,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "deck_limit": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "deck_options": {
-            "oneof": [
-                {
-                    "type": "array"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "deck_requirements": {
-            "oneof": [
-                {
-                    "minLength": 1,
-                    "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "double_sided": {
-            "type": "boolean"
-        },
-        "duplicate_of": {
-            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
-            "type": "string"
-        },
-        "enemy_damage": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "enemy_evade": {
-            "oneof": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "enum": [-2]
-                }
-            ]
-        },
-        "enemy_fight": {
-            "oneof": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "enum": [-2]
-                }
-            ]
-        },
-        "enemy_horror": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "exceptional": {
-            "type": "boolean"
-        },
-        "exile": {
-            "type": "boolean"
-        },
-        "faction_code": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "flavor": {
-            "minLength": 0,
-            "type": "string"
-        },
-        "health": {
-            "oneof": [
-                {
-                    "type": "null"
-                },
-                {
-                    "minimum": -2,
-                    "type": "integer"
-                }
-            ]
-        },
-        "illustrator": {
-            "pattern": ".*",
-            "type": "string"
-        },
-        "is_unique": {
-            "oneof": [
-                {
-                    "type": "boolean"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "name": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "pack_code": {
-            "maxLength": 10,
-            "minLength": 2,
-            "type": "string"
-        },
-        "permanent": {
-            "type": "boolean"
-        },
-        "position": {
-            "minimum": 1,
-            "type": "integer"
-        },
-        "quantity": {
-            "minimum": 1,
-            "type": "integer"
-        },
-        "restrictions": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "sanity": {
-            "minimum": -2,
-            "type": "integer"
-        },
-        "skill_agility": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "skill_combat": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "skill_intellect": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "skill_wild": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "skill_willpower": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "slot": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "subname": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "subtype_code": {
-            "oneOf": [
-                {
-                    "minLength": 0,
-                    "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        },
-        "text": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "traits": {
-            "minLength": 0,
-            "type": "string"
-        },
-        "type_code": {
-            "minLength": 1,
-            "type": "string"
-        },
-        "victory": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "xp": {
-            "oneOf": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
-        }
-    },
-    "required": ["code", "pack_code", "position", "quantity"],
-    "type": "object"
+	"additionalProperties": true,
+	"dependencies": {
+		"name": [
+			"faction_code",
+			"type_code"
+		]
+	},
+	"properties": {
+		"back_flavor": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"back_text": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"code": {
+			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
+			"type": "string"
+		},
+		"cost": {
+			"oneOf": [
+				{
+					"minimum": -2,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"deck_limit": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"deck_options": {
+			"oneof": [
+				{
+					"type": "array"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"deck_requirements": {
+			"oneof": [
+				{
+					"minLength": 1,
+					"type": "string"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"double_sided": {
+			"type": "boolean"
+		},
+		"duplicate_of": {
+			"pattern": "^[0-9a-z]{5}[0-9a-z]?$",
+			"type": "string"
+		},
+		"enemy_damage": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"enemy_evade": {
+			"oneof": [
+				{
+					"minimum": 0,
+					"type": "integer"
+				},
+				{
+					"enum": [
+						-2
+					]
+				}
+			]
+		},
+		"enemy_fight": {
+			"oneof": [
+				{
+					"minimum": 0,
+					"type": "integer"
+				},
+				{
+					"enum": [
+						-2
+					]
+				}
+			]
+		},
+		"enemy_horror": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"exceptional": {
+			"type": "boolean"
+		},
+		"exile": {
+			"type": "boolean"
+		},
+		"faction_code": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"flavor": {
+			"minLength": 0,
+			"type": "string"
+		},
+		"health": {
+			"oneof": [
+				{
+					"type": "null"
+				},
+				{
+					"minimum": -2,
+					"type": "integer"
+				}
+			]
+		},
+		"illustrator": {
+			"pattern": ".*",
+			"type": "string"
+		},
+		"is_unique": {
+			"oneof": [
+				{
+					"type": "boolean"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"name": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"pack_code": {
+			"maxLength": 10,
+			"minLength": 2,
+			"type": "string"
+		},
+		"permanent": {
+			"type": "boolean"
+		},
+		"position": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"quantity": {
+			"minimum": 1,
+			"type": "integer"
+		},
+		"restrictions": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"sanity": {
+			"minimum": -2,
+			"type": "integer"
+		},
+		"skill_agility": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"skill_combat": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"skill_intellect": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"skill_wild": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"skill_willpower": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"slot": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"subname": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"subtype_code": {
+			"oneOf": [
+				{
+					"minLength": 0,
+					"type": "string"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"text": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"traits": {
+			"minLength": 0,
+			"type": "string"
+		},
+		"type_code": {
+			"minLength": 1,
+			"type": "string"
+		},
+		"victory": {
+			"minimum": 0,
+			"type": "integer"
+		},
+		"xp": {
+			"oneOf": [
+				{
+					"minimum": 0,
+					"type": "integer"
+				},
+				{
+					"type": "null"
+				}
+			]
+		}
+	},
+	"required": [
+		"code",
+		"pack_code",
+		"position",
+		"quantity"
+	],
+	"type": "object"
 }
