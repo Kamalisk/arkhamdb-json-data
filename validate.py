@@ -90,14 +90,17 @@ def load_json_file(args, path):
         formatting_errors += 0
         if args.fix_formatting and len(formatted_raw_data) > 0:
             verbose_print(args, "%s: Fixing JSON formatting...\n" % path, 0)
-            try:
-                with open(path, "wb") as json_file:
-                    bin_formatted_data = formatted_raw_data.encode("utf-8")
-                    json_file.write(bin_formatted_data)
-            except IOError as e:
-                verbose_print(args, "%s: Cannot open file to write.\n" % path, 0)
-                print(e)
+            save(args, path, formatted_raw_data)
     return json_data
+
+def save(args, path, formatted_data):
+    try:
+        with open(path, "wb") as json_file:
+            bin_formatted_data = formatted_data.encode("utf-8")
+            json_file.write(bin_formatted_data)
+    except IOError as e:
+        verbose_print(args, "%s: Cannot open file to write.\n" % path, 0)
+        print(e)
 
 def load_cycles(args):
     verbose_print(args, "Loading cycle index file...\n", 1)
