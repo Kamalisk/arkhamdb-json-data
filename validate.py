@@ -54,6 +54,51 @@ def custom_pack_check(args, pack, cycles_data):
    if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
         raise jsonschema.ValidationError("Cycle code '%s' of the pack '%s' doesn't match any valid cycle code." % (pack["cycle_code"], pack["code"]))
 
+last_encounter_code = None
+def fix_card(args, card, pack_code, factions_data, types_data):
+    global last_encounter_code
+    last_encounter_code = card.get("encounter_code") or last_encounter_code
+
+    dirty = False
+
+    try:
+        verbose_print(args, "Fixing card %s... " % card["code"], 2)
+        if card.get("type_code") == "story" and "encounter_code" not in card:
+            verbose_print(args, "fixing a story...\n", 0)
+            card['encounter_code'] = last_encounter_code
+            dirty = True
+        verbose_print(args, "OK\n", 2)
+    except Exception as e:
+        verbose_print(args, "ERROR\n",2)
+        verbose_print(args, "Error while fixing card: (pack code: '%s' card code: '%s' title: '%s')\n" % (pack_code, card.get("code"), card.get("name")), 0)
+        verbose_print(args, "%s\n" % str(e), 0)
+
+    return dirty
+
+def fix_cards(args, packs_data, factions_data, types_data):
+    for pack in packs_data:
+        verbose_print(args, "Fixing cards from %s...\n" % pack["name"], 1)
+
+        dirty = False
+
+        if (pack['player']):
+            verbose_print(args, "Fixing player cards...\n", 1)
+            pack_path = os.path.join(args.pack_path, pack["cycle_code"], "{}.json".format(pack["code"]))
+            pack_data = load_json_file(args, pack_path)
+            if pack_data:
+                for card in pack_data:
+                    dirty |= fix_card(args, card, pack["code"], factions_data, types_data)
+        if (pack['encounter']):
+            verbose_print(args, "Fixing encounter cards...\n", 1)
+            pack_path = os.path.join(args.pack_path, pack["cycle_code"], "{}_encounter.json".format(pack["code"]))
+            pack_data = load_json_file(args, pack_path)
+            if pack_data:
+                for card in pack_data:
+                    dirty |= fix_card(args, card, pack["code"], factions_data, types_data)
+        
+        if dirty:
+            save_json_file(args, pack_path, format_json(pack_data))
+    
 def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
@@ -438,8 +483,10 @@ def main():
     types = load_types(args)
 
     if packs and factions and types:
-        validate_cards(args, packs, factions, types)
-        check_all_translations(args)
+        if args.fix_formatting:
+            fix_cards(args, packs, factions, types)
+        # validate_cards(args, packs, factions, types)
+        # check_all_translations(args)
     else:
         verbose_print(args, "Skipping card validation...\n", 0)
 
