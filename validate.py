@@ -47,6 +47,8 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
     if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
+    if card.get("type_code") == "story" and  "encounter_code" not in card:
+        raise jsonschema.ValidationError("Encounter code missing for story card '%s'." % (card["code"],))
 
 def custom_pack_check(args, pack, cycles_data):
    if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
@@ -90,10 +92,10 @@ def load_json_file(args, path):
         formatting_errors += 0
         if args.fix_formatting and len(formatted_raw_data) > 0:
             verbose_print(args, "%s: Fixing JSON formatting...\n" % path, 0)
-            save(args, path, formatted_raw_data)
+            save_json_file(args, path, formatted_raw_data)
     return json_data
 
-def save(args, path, formatted_data):
+def save_json_file(args, path, formatted_data):
     try:
         with open(path, "wb") as json_file:
             bin_formatted_data = formatted_data.encode("utf-8")
