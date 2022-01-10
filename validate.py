@@ -191,7 +191,7 @@ def validate_card(args, card, card_schema, pack_code, factions_data, types_data)
         verbose_print(args, "ERROR\n",2)
         verbose_print(args, "Validation error in card: (pack code: '%s' card code: '%s' title: '%s')\n" % (pack_code, card.get("code"), card.get("name")), 0)
         validation_errors += 1
-        verbose_print(args, "%s\n" % e.message, 0)
+        verbose_print(args, "%s: %s\n" % (e.path, e.message), 0)
 
 def validate_cards(args, packs_data, factions_data, types_data):
     global validation_errors
