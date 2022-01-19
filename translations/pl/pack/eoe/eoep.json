@@ -1,0 +1,957 @@
+[
+    {
+        "code": "08001",
+        "flavor": "„Spokojnie, twardzielu. Ja się tym zajmę. Ty po prostu tam stój i ładnie wyglądaj.”",
+        "name": "Daniela Reyes",
+        "subname": "Mechanik",
+        "text": "[reaction] Po tym, jak zaatakuje cię wróg (z wyjątkiem ataku towarzyszącego, który sam wywołałeś), nawet jeśli dany atak został anulowany: zadaj danemu wrogowi 1 obrażenie albo automatycznie się mu wymknij.\nEfekt [elder_sign]: +1. Jeśli w tej rundzie zostałeś zaatakowany przez wroga, zamiast tego test automatycznie kończy się sukcesem.",
+        "traits": "Przedsiębiorca.",
+        "back_flavor": "Daniela zawsze uważała, że ma dobre życie. Miała hałaśliwą, ale kochającą rodzinę. Miała stałą pracę, w której mogła używać zarówno siły rąk, jak i umysłu. Miała wystarczająco pieniędzy, aby wydawać je na szybkie samochody, piękne kobiety i swój motocykl, Gabriel. Do momentu, gdy jej brat, Ramon, wpakował się w kłopoty. Jej matka ostrzegła ją, aby była ostrożna, bo dybie na nią ciemność. Aby uspokoić matkę, Daniela ustawiła za drzwiami szklankę wody, aby złapać złe duchy tak jak uczono ją w dzieciństwie. Kiedy Daniela się obudziła i znalazła rozbitą szklankę, postanowiła odkryć, dlaczego tak się stało, by móc to naprawić. Tak, jak to zawsze robiła.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Strażnika ([guardian]) o poziomie 0, karty Ocalałego ([survivor]) o poziomie 1-5, karty neutralne o poziomie 0-5, do 5 innych kart Ocalałego ([survivor]) o poziomie 0.\n<b>Wymogi tworzenia talii</b> (niewliczane do wielkości talii): Klucz mechanika, Zbiry mafii, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "08002",
+        "name": "Klucz mechanika",
+        "text": "Tylko talia Danieli Reyes.\n[fast] Wyczerp Klucz mechanika: wybierz wroga w twojej lokalizacji. Dany wróg atakuje cię.\n[action]: <b>Walka.</b> Użyj tej zdolności tylko przeciwko wrogowi, który zaatakował cię od czasu zakończenia twojej ostatniej tury. Do tego ataku dostajesz +2 [combat] i zadajesz +1 obrażenie.",
+        "traits": "Przedmiot. Narzędzie. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08003",
+        "flavor": "Dług to sprawa całej rodziny.",
+        "name": "Zbiry mafii",
+        "text": "Łowca.\n<b>Polowanie</b> - Tylko Daniela Reyes.\nAtaki tego wroga nie mogą zostać anulowane.\nObrażenia/punkty przerażenia zadawane przez ataki tego wroga są traktowane jako bezpośrednie.",
+        "traits": "Humanoid. Przestępca."
+    },
+    {
+        "code": "08004",
+        "name": "Norman Withers",
+        "subname": "Astronom",
+        "text": "Graj z odkrytą wierzchnią kartą twojej talii.\nRaz na rundę możesz zagrać wierzchnią kartę twojej talii tak, jakby znajdowała się na twojej ręce za koszt niższy o 1.\n<b>Wymuszony</b> - Po tym, jak na wierzchu twojej talii zostanie odkryte osłabienie: dobierz je.\nEfekt [elder_sign]: +X. Możesz zamienić miejscami wierzchnią kartę twojej talii z dowolną kartą na twojej ręce. X to koszt w zasobach wierzchniej karty twojej talii.",
+        "traits": "Miskatonic.",
+        "back_flavor": "Gwiazdy mają wiele sekretów, a Norman nigdy nie potrafił przejść obojętnie obok tajemnicy. Dlatego kiedy sześć gwiazd zniknęło z nieba, po prostu nie mógł odpuścić, nawet gdy współpracownicy powiedzieli mu, że wyobraźnia płata mu figle. Zajęło mu to wiele lat i prawie uśmierciło jego karierę, ale w końcu znalazł odpowiedzi w starożytnym tomie. Opisano w nim gwiazdy i kolejność, w której znikną, z dokładnością co do minuty. Według książki miała być to oznaka końca wszechrzeczy. To zwiastun wielkiej bestii, która rozerwie na strzępy wszystko, co udało się stworzyć ludzkości. Norman nie jest pewien, co może zrobić, aby powstrzymać bestię przed zniszczeniem świata, ale jeśli odpowiedź jest ukryta pośród gwiazd, to on ją znajdzie.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: Karty Poszukiwacza ([seeker]) o poziomie 0, karty Mistyka ([mystic]) o poziomie 1-5, karty neutralne o poziomie 0-5, do pięciu innych kart Mistyka ([mystic]) o poziomie 0.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Livre d'Eibon, Herald, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "08005",
+        "name": "Livre d'Eibon",
+        "subname": "Grymuar z Hiperborei",
+        "text": "Tylko talia Normana Withersa.\n[fast] Wyczerp Livre d'Eibon: zamień miejscami wierzchnią kartę twojej talii z dowolną kartą na twojej ręce.\n[fast] Wyczerp Livre d'Eibon: przeznacz wierzchnią kartę twojej talii do dozwolonego testu umiejętności wykonywanego przez dowolnego badacza w twojej lokalizacji.",
+        "traits": "Przedmiot. Relikwia. Księga.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08006",
+        "name": "Herald",
+        "text": "<b>Odkrycie</b> - Umieść tę kartę na wierzchu twojej talii.\nDopóki Herald jest odkryty i znajduje się na wierzchu twojej talii, nie można przeszukiwać kart w twojej talii, dobierać ich ani manipulować nimi w żaden sposób z wyjątkiem poniższej zdolności.\n[action] [action]: Odrzuć Heralda. Ta zdolność może zostać aktywowana, dopóki Herald znajduje się na wierzchu twojej talii, tak jakby znajdował się w twoim obszarze zagrożenia.",
+        "traits": "Omen. Kres."
+    },
+    {
+        "code": "08007",
+        "name": "Monterey Jack",
+        "subname": "Archeolog",
+        "text": "[reaction] Koniec twojej tury, jeśli rozpocząłeś tę rundę w lokalizacji oddalonej o 1 połączenie od twojej obecnej lokalizacji: zyskaj 1 żeton zasobu albo dobierz 1 kartę (jeśli rozpocząłeś tę rundę w lokalizacji oddalonej o 2 lub więcej, zamiast tego zrób obie te rzeczy).\nEfekt [elder_sign]: +1. Jeśli rozpocząłeś tę rundę w lokalizacji oddalonej o 1 lub więcej połączeń od twojej obecnej lokalizacji, zyskaj 1 żeton zasobu albo dobierz 1 kartę.",
+        "traits": "Podróżnik.",
+        "back_flavor": "Młody Jack podróżował po świecie z ekspedycjami archeologicznymi swojego ojca. Teraz, jako przemierzający glob poszukiwacz skarbów i znakomity archeolog, „Monterey” idzie w ślady ojca i zabezpiecza skarby starożytnych cywilizacji oraz zaginionych kultur. Ale po odkryciu srebrnego wisiorka ze znanym mu symbolem Monterey zdecydował, że musi lepiej poznać swoją przeszłość. Wiele lat temu jego ojciec został zamordowany, a na jego czole wyryto ten sam znak. Od tamtej pory widok ten prześladuje Montereya w snach. Ale jest już coraz bliżej prawdy i nie spocznie, dopóki nie rozwiąże tajemnicy morderstwa ojca... bez względu na cenę.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Łotra ([rogue]) o poziomie 0, karty Poszukiwacza ([seeker]) o poziomie 1-5, karty neutralne o poziomie 0-5, do 5 innych kart Poszukiwacza ([seeker]) o poziomie 0.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Wierny bat, Pogrzebane sekrety, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "08008",
+        "name": "Wierny bat",
+        "text": "Szybka. Tylko talia Montereya Jacka.\n[action]: <b>Walka.</b> Ten atak używa [agility] zamiast [combat]. Jeśli ten atak zakończy się sukcesem, możesz wyczerpać Wierny bat, aby automatycznie wymknąć się atakowanemu wrogowi albo zadać +1 obrażenie do tego ataku.",
+        "traits": "Przedmiot. Broń. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08009",
+        "name": "Pogrzebane sekrety",
+        "text": "<b>Odkrycie</b> - Umieść Pogrzebane sekrety w grze, w twoim obszarze zagrożenia.\nJeśli twoja lokalizacja może zostać zbadana, nie możesz się poruszyć, chyba że na skutek efektów karty scenariusza.\n[action]: <b>Badanie</b>. Jeśli test zakończy się sukcesem, zamiast odkrywać wskazówki, odrzuć Pogrzebane sekrety. Jeśli test zakończy się porażką, możesz otrzymać 2 punkty przerażenia, aby wtasować tę kartę do twojej talii.",
+        "traits": "Tajemnica."
+    },
+    {
+        "code": "08010",
+        "flavor": "„Całe życie przygotowywałam się do starcia z tym złem. Moje skupienie musi być całkowite.”",
+        "name": "Lily Chen",
+        "subname": "Mistrzyni sztuk walki",
+        "text": "Rozpoczynasz grę z każdą kartą Dyscyplina w twojej talii w grze, stroną [[Niezłamana]] do góry.\nEfekt [elder_sign]: +2. Po tym, jak ten test się zakończy, odwróć dowolną kartę Dyscyplina z cechą [[Naruszona]], którą kontrolujesz, na stronę z cechą [[Niezłamana]].",
+        "traits": "Wybraniec. Stróż.",
+        "back_flavor": "Chen Li rzadko się odzywa. Jednak kiedy przemówi, jej słowa są zawsze wyważone i mądre. Życie przepełnione zdyscyplinowanym treningiem sprawiło, że każdy jej gest jest pełen wdzięku i pozbawiony cienia zawahania. Mnisi, którzy ją wychowali, mawiali, że urodziła się w konkretnym celu: aby stawić czoła wielkiemu złu. Teraz wierzą, że zło jest na wyciągnięcie ręki, a Chen Li jest jedyną osobą, która może je powstrzymać",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Mistyka ([mystic]) o poziomie 0, karty Strażnika ([guardian]) o poziomie 1-5, karty neutralne o poziomie 0-5, do 5 innych kart Strażnika ([guardian]) o poziomie 0.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): 1 Brzemię przeznaczenia za każdy atut Dyscyplina (patrz niżej), 1 losowe podstawowe osłabienie.\n<b>Ograniczenia w tworzeniu talii</b>: bez atutów z cechą [[Palna]].\n<b>Dodatkowe wymogi</b>: podczas tworzenia talii wybierz atut Dyscyplina, który dodasz do twojej talii. Jest on uważany za część twoich wymogów tworzenia talii. Za każde 15 punktów doświadczenia, które łącznie zdobędziesz, możesz wybrać inny atut Dyscyplina i dodać go do twojej talii"
+    },
+    {
+        "code": "08011a",
+        "name": "Dyscyplina",
+        "subname": "Harmonia ducha",
+        "text": "Tylko talia Lily Chen. Trwały.\nDostajesz +1 [willpower].\n[action] Otrzymaj 1 bezpośrednie obrażenie, aby wyleczyć 3 punkty przerażenia, albo otrzymaj 1 bezpośredni punkt przerażenia, aby wyleczyć 3 obrażenia. Odwróć ten atut na drugą stronę.",
+        "traits": "Niezłamana."
+    },
+    {
+        "code": "08011b",
+        "name": "Dyscyplina",
+        "subname": "Harmonia ducha",
+        "text": "Tylko talia Lily Chen. Trwały.\n[reaction] Po tym, jak skończy się runda, jeśli w tej rundzie nie otrzymałeś żadnego obrażenia ani żadnego punktu przerażenia: odwróć ten atut na stronę z cechą [[Niezłamana]].",
+        "traits": "Naruszona."
+    },
+    {
+        "code": "08012a",
+        "name": "Dyscyplina",
+        "subname": "Wyciszenie myśli",
+        "text": "Tylko talia Lily Chen. Trwały.\nDostajesz +1 [intellect].\n[action] Jeśli masz mniej niż 5 kart na twojej ręce: dobieraj karty, dopóki nie będziesz miał na ręce 5 kart. Odwróć ten atut na drugą stronę",
+        "traits": "Niezłamana."
+    },
+    {
+        "code": "08012b",
+        "name": "Dyscyplina",
+        "subname": "Wyciszenie myśli",
+        "text": "Tylko talia Lily Chen. Trwały.\n[reaction] Po tym, jak skończy się runda, jeśli w żadnym momencie tej rundy nie miałeś na ręce 2 lub więcej kart: odwróć ten atut na stronę z cechą [[Niezłamana]]",
+        "traits": "Naruszona."
+    },
+    {
+        "code": "08013a",
+        "name": "Dyscyplina",
+        "subname": "Przewidywanie losu",
+        "text": "Tylko talia Lily Chen. Trwały.\nDostajesz +1 [combat].\n[action] Dostajesz +5 do wartości umiejętności do następnego testu umiejętności, który będziesz wykonywał w tej turze. Kiedy dany test dobiegnie końca, odwróć ten atut na drugą stronę. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Niezłamana."
+    },
+    {
+        "code": "08013b",
+        "name": "Dyscyplina",
+        "subname": "Przewidywanie losu",
+        "text": "Tylko talia Lily Chen. Trwały.\n[reaction] Po tym, jak skończy się runda, jeśli w tej rundzie nie wykonałeś żadnego testu umiejętności: odwróć ten atut na stronę z cechą [[Niezłamana]].",
+        "traits": "Naruszona."
+    },
+    {
+        "code": "08014a",
+        "name": "Dyscyplina",
+        "subname": "Równowaga ciała",
+        "text": "Tylko talia Lily Chen. Trwały.\nDostajesz +1 [agility].\n[action] Wykonaj do 3 różnych akcji walki lub wymykania się, jedna po drugiej. Odwróć ten atut na drugą stronę. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Niezłamana."
+    },
+    {
+        "code": "08014b",
+        "name": "Dyscyplina",
+        "subname": "Równowaga ciała",
+        "text": "Tylko talia Lily Chen. Trwały.\n[reaction] Po tym, jak skończy się runda, jeśli w żadnym momencie tej rundy żaden wróg nie znajdował się w tej samej lokalizacji co ty: odwróć ten atut na stronę z cechą [[Niezłamana]].",
+        "traits": "Naruszona."
+    },
+    {
+        "code": "08015",
+        "flavor": "„Jak mam ich uratować, skoro nie mogę uratować nawet siebie?”",
+        "name": "Brzemię przeznaczenia",
+        "text": "<b>Odkrycie</b> - Musisz zdecydować (wybierz jedno):\n- Odwróć kontrolowany przez ciebie atut Dyscyplina na stronę z cechą [[Naruszona]]. W tej rundzie nie może zostać odwrócony ponownie.\n- Otrzymaj 1 obrażenie i 1 punkt przerażenia.",
+        "traits": "Skaza."
+    },
+    {
+        "code": "08016",
+        "name": "Bob Jenkins",
+        "subname": "Sprzedawca",
+        "text": "W dowolnym momencie badacz w twojej lokalizacji może pokazać ci atut z cechą [[Przedmiot]] na swojej ręce.\nPodczas twojej tury możesz wykonać dodatkową akcję, która może być użyta tylko na zagranie atutu z cechą [[Przedmiot]] z ręki dowolnego badacza w twojej lokalizacji, pod kontrolą danego badacza. (Obaj badacze mogą wydawać żetony zasobów, aby opłacić koszt zagrania danej karty).",
+        "traits": "Przedsiębiorca.",
+        "back_flavor": "Bob wierzył, że kluczem do sukcesu sprzedażowego jest wytrwałość. Ludziom po prostu trzeba powiedzieć, że czegoś potrzebują. Wielokrotnie. Niedawno Bob wszedł w posiadanie garści „przeklętych” złotych monet i ma nadzieję, że ta sama wytrwałość, na którą liczył w swojej pracy, pomoże mu odkryć ich pochodzenie i przeznaczenie. Jeśli dobrze to rozegra, może się nieźle obłowić. Być może w końcu uda mu się przejść na emeryturę, kupić tę łódź, którą od dłuższego czasu ma na oku, i spędzić resztę swoich dni na wędkowaniu w jakimś tropikalnym raju. A może Bob w końcu zrozumie, że nie wszystko złoto, co się świeci.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Ocalałego ([survivor]) o poziomie 0, karty Łotra ([rogue]) o poziomie 1-5, karty neutralne o poziomie 0-5, do 5 innych kart Łotra ([rogue]) o poziomie 0.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Intratny biznes, Chciwość, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "08017",
+        "flavor": "„Ty mówisz: «koniec świata». Ja słyszę: «szansa na zysk»”.",
+        "name": "Intratny biznes",
+        "text": "Tylko talia Boba Jenkinsa.\nObniż o 1 koszt każdego atutu z cechą [[Przedmiot]], który zagrywasz.\n[reaction]: Kiedy zagrasz atut z cechą [[Przedmiot]]: zagraj go pod kontrolę dowolnego badacza w twojej lokalizacji.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08018",
+        "flavor": "Czczone przez niektórych niczym bożek.",
+        "name": "Chciwość",
+        "text": "<b>Odkrycie</b> - Otrzymujesz 1 punkt przerażenia. Jeśli posiadasz...\n- ...10 lub mniej żetonów zasobów, otrzymujesz 1 dodatkowy punkt przerażenia.\n- ...5 lub mniej żetonów zasobów, otrzymujesz 1 dodatkowy punkt przerażenia.\n- ...0 żetonów zasobów, otrzymujesz 1 dodatkowy punkt przerażenia.",
+        "traits": "Skaza."
+    },
+    {
+        "code": "08019",
+        "name": "Wyposażony",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\n<b>Wymuszony</b> - Kiedy zaczyna się twoja pierwsza tura podczas gry: zagraj dowolną liczbę atutów z cechą [[Przedmiot]] z twojej ręki, obniżając o 1 koszt zagrania każdego z nich. Podczas tej tury masz 3 akcje mniej do wykonania.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08020",
+        "flavor": "Czasem, aby się czegoś pozbyć, trzeba się z tym zmierzyć.",
+        "name": "Jeden na jednego",
+        "text": "<b>Walka.</b> Ten atak zadaje +1 obrażenie i automatycznie kończy się sukcesem. Jako dodatkowy koszt wykonania tego ataku, wybrany wróg atakuje cię.",
+        "traits": "Duch. Taktyka."
+    },
+    {
+        "code": "08021",
+        "name": "„Stań za mną!”",
+        "text": "Szybka. Zagraj podczas dowolnego okna [fast].\nDo końca fazy, za każdym razem gdy wróg miałby zaatakować innego badacza w twojej lokalizacji, zamiast tego atakuje ciebie, po czym wchodzi z tobą w zwarcie. Anuluj 1 punkt przerażenia zadany przez każdy wykonany w ten sposób atak.",
+        "traits": "Duch. Taktyka."
+    },
+    {
+        "code": "08022",
+        "flavor": "„Zadzierasz z jednym z nas, zadzierasz ze wszystkimi!”",
+        "name": "W grupie siła",
+        "text": "<b>Walka.</b> Za każdą różną klasę pośród kart, które kontrolujesz, do tego ataku dostajesz +1 [combat] i zadajesz +1 obrażenie.",
+        "traits": "Duch. Synergia."
+    },
+    {
+        "code": "08023",
+        "flavor": "„Bardzo dobrze, Li. Jeszcze raz.”",
+        "name": "Kopnięcie podcinające",
+        "text": "<b>Walka.</b> Dodaj wartość twojej [agility] do wartości twojej umiejętności do tego ataku. Ten atak zadaje +1 obrażenie. Jeśli test zakończy się sukcesem, automatycznie wymykasz się zaatakowanemu wrogowi.",
+        "traits": "Duch. Taktyka. Sztuczka."
+    },
+    {
+        "code": "08024",
+        "flavor": "Układasz odpowiednio stopy, bierzesz głęboki wdech i odnajdujesz równowagę. Jest ich wielu, ale ty jesteś jednością.",
+        "name": "Postawa obronna",
+        "text": "Dopóki Postawa obronna znajduje się na twojej ręce lub zostaje przeznaczona do testu umiejętności, zyskuje symbole [combat] równe twojej [agility] oraz symbole [agility] równe twojej [combat].",
+        "traits": "Nabyta. Ekspercka."
+    },
+    {
+        "code": "08025",
+        "flavor": "We wprawnych rękach stają się przedłużeniem pustych dłoni.",
+        "name": "Miecze motylkowe",
+        "text": "[action]: <b>Walka.</b> Do tego ataku dostajesz +1 [combat]. Po tym ataku możesz wyczerpać Miecze motylkowe, aby ponownie wykonać atak, dodając [agility] do twojej wartości umiejętności do tego ataku. Dany atak zadaje +1 obrażenie.",
+        "traits": "Przedmiot. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08026",
+        "name": "Unik",
+        "text": "Szybka. Zagraj, kiedy wróg zaatakuje badacza w twojej lokalizacji.\nAnuluj ten atak. Następnie wykonaj test [agility] (1). Jeśli test zakończy się sukcesem, zadaj 1 obrażenie danemu wrogowi.",
+        "traits": "Taktyka."
+    },
+    {
+        "code": "08027",
+        "name": "Szkolenie bojowe",
+        "text": "Szybka. Limit 1 [[Opanowanie]] w grze.\nDostajesz +1 [combat] i +1 [agility].\nNie-bezpośrednie obrażenia/punkty przerażenia muszą zostać przypisane Szkoleniu bojowemu, zanim można będzie je przypisać twojej karcie badacza.\n[fast] Wydaj 1 żeton zasobu: dostajesz +1 [combat] lub +1 [agility] do tego testu umiejętności.",
+        "traits": "Talent. Opanowanie."
+    },
+    {
+        "code": "08028",
+        "name": "Polowanie",
+        "text": "Szybka. Zagraj, kiedy miałbyś dobrać kartę spotkania podczas Fazy Mitów.\nZamiast tego przeszukaj talię spotkań w poszukiwaniu wroga, rozstaw go w zwarciu z tobą <i>(zamiast jego normalnej lokalizacji Rozstawienia)</i>, dołącz do niego Polowanie i potasuj talię spotkań.\n[reaction] Kiedy pokonasz wroga, do którego dołączono tę kartę: zyskujesz 3 żetony zasobów.",
+        "traits": "Taktyka."
+    },
+    {
+        "code": "08029",
+        "flavor": "Kły z Tindalos dosięgną każdej ofiary.",
+        "name": "Kieł Tyr’thrha",
+        "text": "<b>Walka.</b> Wybierz wroga w dowolnej odkrytej lokalizacji jako cel tego ataku. Przed rozpatrzeniem tego ataku możesz poruszyć się do lokalizacji danego wroga. Do tego ataku dodaj twoją [agility] do twojej [combat]. Ten atak zadaje +3 obrażenia.",
+        "traits": "Zaklęcie."
+    },
+    {
+        "code": "08030",
+        "name": "Miecze motylkowe",
+        "text": "[action]: <b>Walka.</b> Do tego ataku dostajesz +2 [combat]. Po tym ataku możesz ponownie wykonać atak, dodając [agility] do twojej wartości umiejętności do tego ataku. Jeśli oba ataki zakończą się sukcesem, możesz wyczerpać Miecze motylkowe, aby drugi atak zadał +1 obrażenie.",
+        "traits": "Przedmiot. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08031",
+        "name": "Wpojenie wiedzy",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\nRozmiar twojej talii jest zwiększony o 15.\nPodczas każdej fazy utrzymania, zamiast dobierać 1 kartę, dobierz 2 karty i odrzuć 1 z nich.",
+        "traits": "Talent. Rytuał."
+    },
+    {
+        "code": "08032",
+        "name": "Jeremiah Kirby",
+        "subname": "Archeolog z Arktyki",
+        "text": "Dostajesz +1 [intellect].\n[reaction] Po tym, jak Jeremiah Kirby wejdzie do gry, wybierz „parzyste” lub „nieparzyste”: odkryj 5 wierzchnich kart z twojej talii. Dobierz każdą kartę, której koszt odpowiada wybranej przez ciebie opcji. Wtasuj pozostałe karty z powrotem do twojej talii.",
+        "traits": "Sprzymierzeniec. Miskatonic. Podróżnik.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08033",
+        "name": "Księga połączeń",
+        "subname": "Niezidentyfikowany",
+        "text": "Limit 1 na talię. Jako dodatkowy koszt zagrania tego atutu, umieść po 1 żetonie zasobu na 4 różnych lokalizacjach jako linie geomantyczne.\n[reaction] Po tym, jak z sukcesem zbadasz lokalizację, na której znajduje się linia geomantyczna, wyczerp ten atut: porusz daną linię geomantyczną na ten atut. Następnie, jeśli znajdują się na nim 4 linie geomantyczne, odrzuć ten atut, weź je jako zasoby i zanotuj w Dzienniku kampanii, że „zlokalizowaliście przejście”.",
+        "traits": "Przedmiot. Księga. Okultyzm.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08034",
+        "name": "Zapisane w gwiazdach",
+        "text": "Szybka. Zagraj tylko podczas twojej tury.\nOdrzuć wierzchnią kartę twojej talii. Jeśli dana karta jest osłabieniem, wstasuj ją z powrotem do twojej talii. W przeciwnym razie do końca twojej tury, dopóki dana karta znajduje się na twoim stosie kart odrzuconych, przeznacz ją do każdego dozwolonego testu umiejętności, który wykonujesz.",
+        "traits": "Informacja."
+    },
+    {
+        "code": "08035",
+        "name": "Buty górskie",
+        "text": "Limit 1 [[Obuwie]] na badacza.\nDostajesz +1 [agility].\n[reaction] Po tym, jak zostanie odkryta ostatnia wskazówka z twojej lokalizacji, wyczerp Buty górskie: porusz się do połączonej lokalizacji z przynajmniej 1 żetonem wskazówki lub do połączonej nieodkrytej lokalizacji.",
+        "traits": "Przedmiot. Ubranie. Obuwie."
+    },
+    {
+        "code": "08036",
+        "flavor": "Prawdziwą podróż odbywamy w swoich umysłach.",
+        "name": "Dołącz do karawany",
+        "text": "Szybka. Zagraj tylko podczas twojej tury. Obniż koszt tej karty o 1 za każdą różną klasę pośród kart, które kontrolujesz.\nPorusz się do dowolnej odkrytej lokalizacji.",
+        "traits": "Informacja. Synergia."
+    },
+    {
+        "code": "08037",
+        "flavor": "Nie uwierzą ci, jeśli nie uwiecznisz tego na kliszy.\nZresztą, pewnie nawet wtedy ci nie uwierzą",
+        "name": "Obserwacja terenu",
+        "text": "Dopóki Obserwacja terenu znajduje się na twojej ręce lub jest przeznaczona do testu umiejętności, zyskuje symbole [intellect] równe twojej [agility] oraz symbole [agility] równe twojej [intellect].",
+        "traits": "Nabyta. Ekspercka."
+    },
+    {
+        "code": "08038",
+        "name": "Traktaty medyczne",
+        "text": "[action]: Wybierz badacza w twojej lokalizacji i wykonaj test [intellect] (2). Jeśli test zakończy się sukcesem, wylecz 1 obrażenie z danego badacza (zamiast tego 2 obrażenia, jeśli zakończył się sukcesem o 2 lub więcej). Jeśli test zakończy się porażką, musisz wyczerpać Traktaty medyczne albo zadać danemu badaczowi 1 obrażenie.",
+        "traits": "Przedmiot. Księga.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08039",
+        "name": "Wykopaliska",
+        "text": "<b>Badanie.</b> Wybierz do 2 [seeker] atutów na twojej ręce. Trudność tego testu umiejętności jest równa łącznemu kosztowi wybranych atutów. Jeśli test zakończy się powodzeniem, umieść wybrane atuty w grze, jeden po drugim. Za każdy atut z cechą [[Relikwia]], który umieścisz w grze przy pomocy tej zdolności, dobierz 1 kartę.",
+        "traits": "Informacja."
+    },
+    {
+        "code": "08040",
+        "name": "Teoria naukowa",
+        "text": "Szybka. Limit 1 [[Opanowanie]] w grze.\nDostajesz +1 [intellect] i +1 [combat].\nNie-bezpośrednie obrażenia/punkty przerażenia muszą zostać przypisane Teorii naukowej, zanim można będzie je przypisać twojej karcie badacza.\n[fast] Wydaj 1 żeton zasobu: dostajesz +1 [intellect] i +1 [combat] do tego testu umiejętności.",
+        "traits": "Talent. Opanowanie."
+    },
+    {
+        "code": "08041",
+        "name": "Księga połączeń",
+        "subname": "Brama do Tindalos",
+        "text": "Zbadany. Zużywalny (4 linie geomantyczne). Limit 1 na talię.\n[fast]: Porusz 1 linię geomantyczną z tego atutu na dowolnego nie-[[Elitarnego]] wroga.\n[action]: Wybierz dowolnego badacza oraz wroga z linią geomantyczną znajdującego się w odkrytej lokalizacji. Dany badacz porusza się do danej lokalizacji. Możesz usunąć daną linię geomantyczną, aby zadać 1 obrażenie danemu wrogowi.",
+        "traits": "Rytuał.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08042",
+        "name": "Księga połączeń",
+        "subname": "Brama do Acheron",
+        "text": "Zbadany. Zużywalny (4 linie geomantyczne). Limit 1 na talię.\n[fast]: Porusz 1 linię geomantyczną z tego atutu na odkrytą lokalizację.\n[action]: Wybierz dowolnego badacza oraz odkrytą lokalizację z linią geomantyczną. Dany badacz porusza się do danej lokalizacji. Możesz usunąć daną linię geomantyczną, aby dany badacz wykonał akcję badania.",
+        "traits": "Rytuał.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08043",
+        "name": "Księga połączeń",
+        "subname": "Brama do Aldebarana",
+        "text": "Zbadany. Zużywalny (4 linie geomantyczne). Limit 1 na talię.\n[fast]: Porusz 1 linię geomantyczną z tego atutu na dowolnego nie-[[Elitarnego]] wroga.\n[action]: Wybierz dowolnego badacza będącego w zwarciu z wrogiem z linią geomantyczną. Dany badacz uwalnia się ze zwarcia z danym wrogiem i porusza się do połączonej lokalizacji. Możesz usunąć daną linię geomantyczną, aby automatycznie wymknąć się danemu wrogowi. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Rytuał.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08044",
+        "name": "Księga połączeń",
+        "subname": "Brama do raju",
+        "text": "Zbadany. Zużywalny (4 linie geomantyczne). Limit 1 na talię.\n[fast]: Porusz 1 linię geomantyczną z tego atutu na dowolnego badacza.\n[action]: Wybierz dowolnego badacza z linią geomantyczną. Dany badacz dobiera 1 kartę i leczy 1 obrażenie lub 1 punkt przerażenia. Możesz usunąć daną linię geomantyczną, aby zamiast tego dobrał 2 karty i wyleczył 2 obrażenia lub 2 punkty przerażenia.",
+        "traits": "Rytuał.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08045",
+        "name": "Prophesiae Profana",
+        "subname": "Atlas niepoznawalnego",
+        "text": "Dopóki nie znajdujesz się w miejscu mocy, dostajesz +1 [intellect], +1 [agility] i możesz ignorować ataki towarzyszące.\n[reaction] Po tym, jak Prophesiae Profana wejdzie do gry: wybierz odkrytą lokalizację. Dana lokalizacja to „miejsce mocy”, dopóki Prophesiae Profana nie opuści gry.\n[action]: Porusz dowolnego badacza na miejsce mocy.",
+        "traits": "Przedmiot. Relikwia. Księga.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08046",
+        "name": "Wsparcie półświatka",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\nW twojej talii nie może znajdować się więcej niż 1 kopia każdej karty niebędącej osłabieniem ani kartą osobistą o tej samej nazwie.\nRozmiar twojej talii jest mniejszy o 5.",
+        "traits": "Przysługa. Nielegalny."
+    },
+    {
+        "code": "08047",
+        "flavor": "„... jakaś niepostrzegalna aura odstręczała mnie, kazała odstąpić od posępnych starożytnych sekretów, których żaden człowiek nie powinien oglądać i żaden człowiek nigdy dotąd oglądać się nie ośmielił”. - H. P. Lovecraft, „Bezimienne miasto”",
+        "name": "Daleki zwiad",
+        "text": "<b>Ruch.</b> Porusz się do 3 razy. Podczas tego ruchu wrogowie nie wchodzą z tobą w zwarcie.",
+        "traits": "Informacja. Sztuczka."
+    },
+    {
+        "code": "08048",
+        "name": "21 albo fura",
+        "text": "Odkrywaj pojedynczo losowe żetony z worka chaosu, dopóki nie zdecydujesz się przestać. Traktuj każdy żeton [skull], [cultist], [tablet] lub [elder_thing] jako żeton „5”, [auto_fail] jako żeton „10”, a żeton [elder_sign] jako żeton „1” albo „11”. Jeśli połączona wartość danych żetonów (ignorując +/-) wynosi...\n- ...18 lub mniej, zyskujesz 4 żetony zasobów.\n- ...19, zyskujesz 5 żetonów zasobów.\n- ...20, zyskujesz 6 żetonów zasobów.\n- ...21, zyskujesz 9 żetonów zasobów.",
+        "traits": "Los. Gambit."
+    },
+    {
+        "code": "08049",
+        "name": "Kontrwywiad",
+        "text": "Szybka. Zagraj, kiedy dobierasz kartę podstępu inną niż osłabienie.\nAnuluj efekt odkrycia danej karty i dobierz wierzchnią kartę talii spotkań.\n[reaction] Kiedy zagrywasz Kontrwywiad, zwiększ jego koszt o 2: zmień „talii spotkań” na „twojej talii”.\n[reaction] Kiedy zagrywasz Kontrwywiad, zwiększ jego koszt o 2: zmień „dobierasz” na „dowolny badacz dobiera”.",
+        "traits": "Przysługa. Służba."
+    },
+    {
+        "code": "08050",
+        "flavor": "Gdybyś nie miał tego zrobić, nie byłoby to legalne.",
+        "name": "Oszukać system",
+        "text": "Szybka. Zagraj podczas dowolnego okna [fast].\nZyskujesz 1 żeton zasobu za każdą różną klasę pośród kart, które kontrolujesz.",
+        "traits": "Sztuczka. Synergia."
+    },
+    {
+        "code": "08051",
+        "flavor": "„Serio? Chcesz się teraz targować?”",
+        "name": "Transakcja nie w porę",
+        "text": "Odkryj atut z cechą [[Przedmiot]] znajdujący się na twojej ręce. Inny badacz w twojej lokalizacji może zagrać dany atut tak, jakby znajdował się na jego ręce. Jeśli to zrobi, dobierz 1 kartę i zyskaj żetony zasobów w liczbie równej wydrukowanemu kosztowi danego atutu.",
+        "traits": "Przysługa."
+    },
+    {
+        "code": "08052",
+        "flavor": "Pięćdziesiąt procent szczęścia, sto procent umiejętności.",
+        "name": "Sawant",
+        "text": "Sawant zyskuje symbole [wild] w liczbie równej twojej najniższej umiejętności innej niż testowana umiejętność.",
+        "traits": "Wrodzona. Rozwinięta."
+    },
+    {
+        "code": "08053",
+        "name": "Czerwony zegar",
+        "subname": "Zepsuty, ale niezawodny",
+        "text": "Wyjątkowa. Zużywalny (0 ładunków).\n<b>Wymuszony </b> - Po tym, jak zacznie się twoja tura: umieść tu 1 ładunek albo weź wszystkie znajdujące się tu ładunki jako żetony zasobów. Następnie, jeśli są tu dokładnie...\n- 1 ładunek, dostajesz +3 do wartości umiejętności do twojego następnego testu umiejętności.\n- 2 ładunki, możesz poruszyć się do 2 razy.\n- 3 ładunki, możesz wykonać w tej turze dodatkową akcję.",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08054",
+        "name": "Gdy pieniądze mówią",
+        "text": "Szybka. Zagraj, kiedy badacz w dowolnej lokalizacji inicjuje test umiejętności.\nZamiast wykonywać test umiejętności [willpower], [intellect], [combat] lub [agility], ten badacz wykonuje test umiejętności zasobów. Podstawowa wartość umiejętności badacza do tego testu jest równa połowie liczby żetonów zasobów w twojej puli zasobów (zaokrąglając w dół). Dobierz 1 kartę.",
+        "traits": "Przysługa. Gambit."
+    },
+    {
+        "code": "08055",
+        "name": "Czarny rynek",
+        "text": "Szybka. Zagraj na początku fazy badaczy.\nOdkrywaj jedna po drugiej karty z wierzchu dowolnych talii badaczy, dopóki nie zostanie odkrytych dokładnie 5 kart. Odłóż te karty na bok, poza grę. Dopóki dane karty są odłożone na bok, dowolny badacz może zagrać dowolne z tych kart tak, jakby znajdowały się na jego ręce. Na początku następnej fazy badaczy wtasuj każdą z danych kart, która nadal jest odłożona na bok, do talii jej właściciela.",
+        "traits": "Przysługa."
+    },
+    {
+        "code": "08056",
+        "name": "Werwa",
+        "text": "Szybka. Limit 1 [[Opanowanie]] w grze.\nDostajesz +1 [willpower] i +1 [agility].\nNie-bezpośrednie obrażenia/punkty przerażenia muszą zostać przypisane Werwie, zanim można będzie je przypisać twojej karcie badacza.\n[fast] Wydaj 1 żeton zasobu: dostajesz +1 [willpower] lub +1 [agility] do tego testu umiejętności.",
+        "traits": "Talent. Opanowanie."
+    },
+    {
+        "code": "08057",
+        "name": "Czarny wachlarz",
+        "subname": "Symbol władzy",
+        "text": "Wyjątkowa.\nDopóki posiadasz...\n- ...10 lub więcej żetonów zasobów, dostajesz +1 do wytrzymałości i +1 do poczytalności.\n- ...15 lub więcej żetonów zasobów, możesz wykonać 1 dodatkową akcję w twojej turze.\n- ...20 lub więcej żetonów zasobów, dostajesz +1 do każdej z twoich umiejętności.",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08058",
+        "name": "Czerwony zegar",
+        "subname": "Zepsuty, ale niezawodny",
+        "text": "Wyjątkowa. Zużywalny (0 ładunków).\n<b>Wymuszony</b> - Po tym, jak zacznie się twoja tura: możesz wziąć wszystkie znajdujące się tu ładunki jako żetony zasobów. Umieść tu 1 ładunek. Jeśli jest tu dokładnie...\n- 1 ładunek, dostajesz +4 do wartości umiejętności do twojego następnego testu umiejętności.\n- 2 ładunki, możesz poruszyć się do 3 razy.\n- 3 ładunki, możesz wykonać w tej turze 2 dodatkowe akcje.",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08059",
+        "name": "Przez króliczą norę",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\nPo każdym scenariuszu kampanii obniż o 1 koszt w punktach doświadczenia 2 pierwszych kart, które ulepszysz przed następnym scenariuszem.\nZwiększ o 1 koszt w punktach doświadczenia nowych kart, które kupujesz.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08060",
+        "name": "Smoczy kij",
+        "text": "Masz 1 dodatkową strefę mistyczną.\n[action]: <b>Walka.</b> Do tego ataku dostajesz +1 [combat] za każdą twoją zajętą strefę mistyczną. Jeśli przynajmniej 2 twoje strefy mistyczne są zajęte, ten atak zadaje +1 obrażenie.",
+        "traits": "Przedmiot. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08061",
+        "flavor": "Pozwalasz swojemu umysłowi odpłynąć w zimną,\npozbawioną rozterek otchłań zapomnienia.\nWszechobecna pustka sprawia,\nże czujesz się jak w domu.",
+        "name": "Trans medytacyjny",
+        "text": "Za każdą twoją zajętą strefę mistyczną wylecz 1 obrażenie albo 1 punkt przerażenia.",
+        "traits": "Informacja. Duch."
+    },
+    {
+        "code": "08062",
+        "name": "Domknięcie kręgu",
+        "text": "Zużywalny (1 ładunek za każdą różną klasę pośród kart, które kontrolujesz, łącznie z tą kartą).\n[fast] Wydaj 1 ładunek i wyczerp Domknięcie kręgu: wykonaj podstawową akcję. Dla każdego testu umiejętności wykonanego podczas danej akcji możesz użyć twojej [willpower] zamiast umiejętności wskazanej dla danej akcji.",
+        "traits": "Rytuał. Synergia.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08063",
+        "flavor": "Niech prowadzi nas tchnienie Oyi.",
+        "name": "Powiew mocy",
+        "text": "Umieść 2 ładunki na atucie, który kontrolujesz.\n[reaction] Po tym, jak podczas twojej tury dobierzesz Powiew mocy: zagraj go.",
+        "traits": "Duch."
+    },
+    {
+        "code": "08064",
+        "name": "Wgląd w przyszłość",
+        "text": "Szybka. Zagraj, kiedy badacz w twojej lokalizacji miałby dobrać kartę ze swojej talii lub talii spotkań. Wymień nazwę karty. Jeśli dobrana karta ma wymienioną nazwę, dany badacz może (wybierz jedno):\n- Anulować efekt danej karty i ją odrzucić.\n- Natychmiast zagrać daną kartę, obniżając jej koszt o 2.",
+        "traits": "Zapowiedź."
+    },
+    {
+        "code": "08065",
+        "flavor": "Kiedy brakuje wiedzy, musi wystarczyć wiara.",
+        "name": "Teoria okultystyczna",
+        "text": "Dopóki Teoria okultystyczna znajduje się na twojej ręce lub zostaje przeznaczona do testu umiejętności, zyskuje symbole [willpower] równe twojej [intellect] oraz symbole [intellect] równe twojej [willpower].",
+        "traits": "Nabyta. Ekspercka."
+    },
+    {
+        "code": "08066",
+        "flavor": "„Gdybym powiedziała ci, że wiem, kiedy umrzesz, chciałbyś wiedzieć?”",
+        "name": "Losy równoległe",
+        "text": "Podejrzyj 6 wierzchnich kart z talii dowolnego badacza lub talii spotkań. Możesz odłożyć je z powrotem na wierzch odpowiedniej talii w dowolnej kolejności albo wtasować je do danej talii. Jeśli podejrzałeś talię badacza, dany badacz może dobrać 1 kartę.",
+        "traits": "Zapowiedź."
+    },
+    {
+        "code": "08067",
+        "name": "Atlas astronomiczny",
+        "text": "[fast] Wyczerp Atlas astronomiczny: podejrzyj wierzchnią kartę z twojej talii. Jeśli nie jest to osłabienie, dołącz ją zakrytą do Atlasu astronomicznego (maks. 5 dołączonych kart).\n[fast]: Przeznacz kartę dołączoną do Atlasu astronomicznego do dozwolonego testu umiejętności. Jeśli test zakończy się sukcesem, dodaj daną kartę na twoją rękę zamiast ją odrzucać. (Limit raz na test.)",
+        "traits": "Przedmiot. Księga.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08068",
+        "flavor": "Nie ufasz za bardzo okultystycznym słowom, ale nie masz raczej innego wyjścia.",
+        "name": "Lecznicze słowa",
+        "text": "Zużywalny (4 ładunki).\n[action] Wydaj 1 ładunek: wylecz łącznie 2 obrażenia z dowolnych badaczy w twojej lokalizacji.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08069",
+        "name": "Spokój umysłu",
+        "text": "Szybka. Limit 1 [[Opanowanie]] w grze.\nPodczas testów umiejętności z kart z cechą [[Zaklęcie]] dostajesz +1 do wartości umiejętności.\nNie-bezpośrednie obrażenia/punkty przerażenia muszą zostać przypisane Spokojowi umysłu, zanim można będzie je przypisać twojej karcie badacza.\n[fast] Wydaj 1 żeton zasobu podczas testu umiejętności z karty z cechą [[Zaklęcie]]: do tego testu dostajesz + 1 do wartości umiejętności.",
+        "traits": "Talent. Opanowanie."
+    },
+    {
+        "code": "08070",
+        "name": "Prawdziwa Magija",
+        "subname": "Przekształcanie rzeczywistości",
+        "text": "Zużywalny (1 ładunek). Uzupełnij ten ładunek na początku każdej rundy.\nMożesz rozpatrzyć zdolności atutów z cechą [[Zaklęcie]] znajdujących się na twojej ręce, odkrywając je z twojej ręki. Traktuj Prawdziwą magiję tak, jakby była tym odkrytym atutem <i>(aby zapłacić jej koszt, wydawać ładunki, wykonywać jej efekt itd.)</i>.",
+        "traits": "Przedmiot. Relikwia. Księga.",
+        "slot": "Ręka. Mistyczna"
+    },
+    {
+        "code": "08071",
+        "flavor": "Módl się, żeby wystarczyły.",
+        "name": "Skromne zapasy",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\n<b>Wymuszony</b> - Kiedy zaczyna się twoja pierwsza tura podczas gry: odrzuć 10 wierzchnich kart z twojej talii.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08072",
+        "name": "Katalog Schoffnera",
+        "text": "Zużywalny (5 sekretów). Jeśli na Katalogu Schoffnera nie ma żadnych sekretów, odrzuć go.\nMożesz wydać sekrety znajdujące się na Katalogu Schoffnera jako żetony zasobów, aby opłacić koszt atutów z cechą [[Przedmiot]] zagranych przez dowolnego badacza w twojej lokalizacji.",
+        "traits": "Przedmiot. Księga."
+    },
+    {
+        "code": "08073",
+        "name": "Bandaże",
+        "text": "Zużywalny (3 zapasy). Jeśli na Bandażach nie ma żadnych zapasów, odrzuć je.\n[reaction] Po tym, jak dowolny badacz lub atut z cechą [[Sprzymierzeniec]] w twojej lokalizacji otrzyma 1 lub więcej obrażeń, wydaj 1 zapasy: wylecz 1 obrażenie z danej karty.",
+        "traits": "Przedmiot."
+    },
+    {
+        "code": "08074",
+        "flavor": "Lepsze jest wrogiem dobrego.",
+        "name": "Prowizorka",
+        "text": "Zużywalny (3 trwałości).\nDołącz do atutu z cechą [[Przedmiot]] kontrolowanego przez badacza w twojej lokalizacji.\n[fast] Wydaj 1 trwałości podczas testu umiejętności z atutu, do którego dołączono tę kartę: do tego testu dostajesz +2 do wartości umiejętności.",
+        "traits": "Usprawnienie."
+    },
+    {
+        "code": "08075",
+        "name": "Pechowa bransoleta",
+        "text": "Zużywalny (1 ładunek).\n[fast] Wydaj 1 ładunek: do tego testu dostajesz +2 do wartości umiejętności. (Limit raz na test.)\n[reaction] Po tym, jak zaatakuje cię wróg: umieść 1 ładunek na Pechowej bransolecie.",
+        "traits": "Przedmiot. Amulet. Przeklęty.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08076",
+        "name": "Spal po przeczytaniu",
+        "text": "Wygnaj z ręki kartę o poziomie 0-5. Odkryj 2 żetony wskazówek w twojej lokalizacji. Jeśli wygnana karta miała poziom 2 lub wyższy, usuń 1 żeton zagłady z obecnej tajemnicy. Wygnaj Spal po przeczytaniu.\n<b>Karta zaprojektowana przez Radę na Wygnaniu podczas Gen Con 2020</b>",
+        "traits": "Informacja."
+    },
+    {
+        "code": "08077",
+        "flavor": "„Pilnuj tyłów, dobra? W zasadzie, przodu też mógłbyś popilnować”.",
+        "name": "Siła w liczebności",
+        "text": "Siła w liczebności zyskuje symbol [wild] za każdą różną klasę pośród kart, które kontrolujesz.",
+        "traits": "Wrodzona. Synergia."
+    },
+    {
+        "code": "08078",
+        "flavor": "Z każdą chwilą ten dzień robi się lepszy.",
+        "name": "Nieustraszony duch",
+        "text": "Dopóki Nieustraszony duch znajduje się na twojej ręce lub zostaje przeznaczony do testu umiejętności, zyskuje symbole [willpower] równe twojej [combat] oraz symbole [combat] równe twojej [willpower].",
+        "traits": "Wrodzona. Rozwinięta."
+    },
+    {
+        "code": "08079",
+        "name": "Krew krwi pragnie",
+        "text": "Szybka. Zagraj po tym, jak zaatakuje cię wróg. Maksymalnie raz na atak.\nObrażenia/punkty przerażenia pochodzące z tego ataku nie mogą zostać przypisane do atutów z cechą [[Sprzymierzeniec]]. Za każde obrażenie i/lub punkt przerażenia, który otrzymasz z tego ataku, dobierz 1 kartę.",
+        "traits": "Pakt. Przeklęty."
+    },
+    {
+        "code": "08080",
+        "name": "Gaśnica",
+        "text": "[action]: <b>Walka.</b> Do tego ataku dostajesz +1 [combat] i zadajesz +1 obrażenie.\n[action] Odrzuć Gaśnicę: <b>Wymykanie się.</b> Automatycznie wymknij się wszystkim wrogom, którzy są z tobą w zwarciu. Możesz wygnać Gaśnicę zamiast ją odrzucać, aby odrzucić każdego nie-[[Elitarnego]] wroga, któremu wymknąłeś się w wyniku tego efektu.",
+        "traits": "Przedmiot. Narzędzie. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08081",
+        "name": "Śmiałość",
+        "text": "Szybka. Limit 1 [[Opanowanie]] w grze.\nDostajesz +1 [willpower] i +1 [intellect].\nNie-bezpośrednie obrażenia/punkty przerażenia muszą zostać przypisane Śmiałości, zanim można będzie je przypisać twojej karcie badacza.\n[fast] Wydaj 1 żeton zasobu: dostajesz +1 [willpower] lub +1 [intellect]  do tego testu umiejętności.",
+        "traits": "Talent. Opanowanie."
+    },
+    {
+        "code": "08082",
+        "name": "Odparcie ataku",
+        "text": "Szybka. Zagraj, kiedy nie-[[Elitarny]] wróg zostaje rozstawiony w twojej lokalizacji.\nDany wróg atakuje cię. Następnie automatycznie wymknij się danemu wrogowi i dołącz do niego Odparcie ataku.\nWróg, do którego dołączono tę kartę, nie może zostać przygotowany.",
+        "traits": "Gambit. Sztuczka."
+    },
+    {
+        "code": "08083",
+        "flavor": "„Dostanę za to dodatkowe punkty?”",
+        "name": "Studentka medycyny",
+        "text": "[reaction] Po tym, jak Studentka medycyny wejdzie do gry: wylecz 1 obrażenie i 1 punkt przerażenia z dowolnego badacza lub atutu z cechą [[Sprzymierzeniec]] w twojej lokalizacji.",
+        "traits": "Sprzymierzeniec. Miskatonic. Nauka.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08084",
+        "flavor": "„Gra się rozpoczyna!”",
+        "name": "Na tropie",
+        "text": "Wybierz dowolnego wroga w dowolnej lokalizacji innej niż twoja. Porusz się dwa razy w kierunku danego wroga albo odkryj 1 żeton wskazówki w dowolnej pustej lokalizacji znajdującej się pomiędzy tobą a wybranym wrogiem (wzdłuż najkrótszej drogi do danego wroga).",
+        "traits": "Informacja. Taktyka."
+    },
+    {
+        "code": "08085",
+        "flavor": "„Gra się rozpoczyna!”",
+        "name": "Na tropie",
+        "text": "Wybierz dowolnego wroga w dowolnej lokalizacji innej niż twoja. Porusz się dwa razy w kierunku danego wroga. Odkryj 1 żeton wskazówki w każdej lokalizacji, do której wejdziesz w wyniku tego efektu.",
+        "traits": "Informacja. Taktyka."
+    },
+    {
+        "code": "08086",
+        "name": "Michael Leigh",
+        "subname": "Doświadczony łowca",
+        "text": "Dostajesz +1 [intellect] i +1 [combat].\n[reaction] Po tym, jak twój test badania zakończy się sukcesem: umieść 1 żeton zasobu <i>(z puli żetonów)</i> na Michaelu Leigh jako dowód (do maks. 3 dowodów).\n[reaction] Kiedy zainicjujesz atak, wyczerp Michaela Leigha i wydaj 1 dowód: do tego ataku zadajesz +1 obrażenie.",
+        "traits": "Sprzymierzeniec. Detektyw.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08087",
+        "name": "Strzał z ukrycia",
+        "text": "Podczas następnej akcji walki, którą wykonasz w tej turze przy pomocy atutu z cechą [[Dystansowa]] lub [[Palna]], traktuj każdy żeton [skull], [cultist], [tablet], [elder_thing] lub [auto_fail], który odkryjesz, jako żeton „0”. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Taktyka."
+    },
+    {
+        "code": "08088",
+        "name": "Stara strzelba",
+        "text": "Zużywalny (0 naboi). Dopóki zagrywasz wydarzenie, traktuj wartość słowa kluczowego Zużywalny Starej strzelby jako 2.\n[action] Wydaj 1 nabój: <b>Walka.</b> Do tego ataku dostajesz +3 [combat]. Zamiast standardowych obrażeń, ten atak zadaje obrażenia równe liczbie punktów, o które test się powiódł, albo jeśli zakończył się porażką, zadaje obrażenia innemu badaczowi w liczbie równej liczbie punktów, o które test się nie powiódł (minimum 1, maksimum 3).",
+        "traits": "Przedmiot. Broń. Palna.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08089",
+        "name": "Poręczna kabura",
+        "text": "[fast]: Wybierz atut z cechą [[Palna]] zajmujący tylko 1 strefę ręki w twoim obszarze gry. Dołącz go do Poręcznej kabury albo zamień go miejscami z atutem, który dołączono do tej karty. Atut, który dołączono do tej karty, nie zajmuje żadnej strefy ręki. (Maksymalnie 1 dołączony atut).\n[fast] Wyczerp Poręczną kaburę: wykonaj akcję walki z atutu, który dołączono do tej karty, nie płacąc jej kosztu [action].",
+        "traits": "Przedmiot. Narzędzie. Nielegalny.",
+        "slot": "Ciało"
+    },
+    {
+        "code": "08090",
+        "name": "Piętno Cthughi",
+        "text": "Zużywalny (6 ładunków).\n[action]: <b>Walka.</b> Do tego ataku możesz użyć [willpower] zamiast [combat] i dostajesz +1 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1 lub 2 ładunki. Zamiast standardowych obrażeń ten atak zadaje 1 obrażenie za każdy wydany ładunek. Jeśli test zakończył się sukcesem o 0, tracisz 1 akcję.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08091",
+        "name": "Nkosi Mabati",
+        "subname": "Tajemniczy czarnoksiężnik",
+        "text": "[reaction] Po tym, jak Nkosi Mabati wejdzie do gry: wymień żeton chaosu z symbolem innym niż [elder_sign]. Dopóki ta karta nie opuści gry, wymieniony symbol to twój „znak”.\n[reaction] Kiedy badacz w twojej lokalizacji odkryje symbol [cultist], [tablet] lub [elder_thing], wyczerp Nkosi Mabati: zamiast tego przeszukaj worek chaosu w poszukiwaniu twojego znaku i odkryj go <i>(drugi żeton chaosu odłóż z powrotem do worka)</i>.",
+        "traits": "Sprzymierzeniec. Czarnoksiężnik.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08092",
+        "name": "Piętno Cthughi",
+        "text": "Zużywalny (9 ładunków).\n[action]: <b>Walka.</b> Do tego ataku możesz użyć [willpower] zamiast [combat] i dostajesz +2 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1, 2 lub 3 ładunki. Zamiast standardowych obrażeń ten atak zadaje 1 obrażenie za każdy wydany ładunek. Jeśli test zakończył się sukcesem o 0, tracisz 2 akcje.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08093",
+        "name": "Cyklopowy młot",
+        "text": "[action]: <b>Walka.</b> Dodaj wartość twojej [willpower] do wartości twojej umiejętności do tego ataku. Do tego ataku zadajesz +1 obrażenie. Jeśli test zakończy się sukcesem i zaatakowany wróg jest nie-[[Elitarny]], możesz poruszyć go o 1 lokalizację, oddalając go od ciebie. (Jeśli test zakończy się sukcesem o 3 lub więcej, zamiast tego zadajesz +2 obrażenia i możesz poruszyć wroga o maksymalnie 2 lokalizacje, oddalając go od ciebie)",
+        "traits": "Przedmiot. Relikwia. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08094",
+        "flavor": "Dziewięć kilo stalowej zemsty.",
+        "name": "Młot dwuręczny",
+        "text": "[action]: <b>Walka.</b> Do tego ataku dostajesz -1 [combat] i zadajesz +1 obrażenie.\n[action] [action]: <b>Walka.</b> Do tego ataku dostajesz +2 [combat] i zadajesz +2 obrażenia.",
+        "traits": "Przedmiot. Narzędzie. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08095",
+        "flavor": "Po tym, co zobaczyłeś, nie zdejmiesz go nawet do snu.",
+        "name": "Kombinezon ochronny",
+        "text": "[reaction] Kiedy dobierasz kartę podstępu z cechą [[Niebezpieczeństwo]], zadaj 1 obrażenie i 1 punkt przerażenia Kombinezonowi ochronnemu: anuluj efekt odkrycia danej karty.",
+        "traits": "Przedmiot. Pancerz.",
+        "slot": "Ciało"
+    },
+    {
+        "code": "08096",
+        "flavor": "Dziewięć kilo stalowej zemsty.",
+        "name": "Młot dwuręczny",
+        "text": "[action]: <b>Walka.</b> Do tego ataku dostajesz +1 [combat] i zadajesz +1 obrażenie.\n[action] [action] [action]: <b>Walka.</b> Do tego ataku dostajesz +5 [combat] i zadajesz +5 obrażeń.",
+        "traits": "Przedmiot. Narzędzie. Broń. Biała.",
+        "slot": "Ręka x2"
+    },
+    {
+        "code": "08097",
+        "name": "Teleskop kieszonkowy",
+        "text": "[fast] Wyczerp Teleskop kieszonkowy: podejrzyj odkrytą stronę połączonej, nieodkrytej lokalizacji.\n[action]: <b>Badanie</b>. Zbadaj odkrytą połączoną lokalizację tak, jakbyś się w niej znajdował.",
+        "traits": "Przedmiot. Narzędzie.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08098",
+        "name": "Mapa eonów",
+        "text": "Zużywalny (3 sekrety).\n[fast] Podczas twojej tury wyczerp Mapę eonów i wydaj 1 sekret: wybierz i wykonaj jedną z następujących akcji (ruch, wymykanie się lub badanie).",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08099",
+        "name": "Gené Beauregard",
+        "subname": "Nieustraszony odkrywca",
+        "text": "Dostajesz +1 [intellect] i +1 [agility].\n[reaction] Podczas twojej tury, po tym jak poruszysz się do dowolnej lokalizacji, wyczerp Gené Beauregard: porusz 1 żeton wskazówki albo nie-[[Elitarnego]] wroga z połączonej lokalizacji do twojej lokalizacji, albo na odwrót.",
+        "traits": "Sprzymierzeniec. Podróżnik.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08100",
+        "name": "Mapa eonów",
+        "text": "Zużywalny (3 sekrety).\n[fast] Podczas twojej tury wyczerp Mapę eonów i wydaj 1 sekret: wybierz i wykonaj dwie z następujących akcji, w dowolnej kolejności (ruch, wymykanie się lub badanie).",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08101",
+        "name": "Przepowiadanie przyszłości",
+        "text": "Zużywalny (4 ładunki).\n[action]: <b>Badanie.</b> Do tego badania możesz użyć [willpower] zamiast [intellect] i dostajesz +1 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1 lub 2 ładunki. Zamiast odkrywać 1 żeton wskazówki w twojej lokalizacji, odkryj 1 żeton wskazówki w twojej lokalizacji za każdy wydany ładunek. Jeśli test zakończył się sukcesem o 0, wybierz i odrzuć 1 kartę z twojej ręki.",
+        "traits": "Zaklęcie. Zapowiedź.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08102",
+        "flavor": "Każda żywa istota musi wydać ostatni dech.\nUważaj, aby nie był on dla ciebie przekleństwem.",
+        "name": "Ochrona anirniq",
+        "text": "Szybka. Zagraj po tym, jak atut z cechą [[Sprzymierzeniec]] w twojej lokalizacji zostanie odrzucony przez efekt karty lub zostanie pokonany.\nZwróć dany atut na rękę jego właściciela albo jego właściciel dobiera 3 karty.",
+        "traits": "Rytuał."
+    },
+    {
+        "code": "08103",
+        "name": "Przepowiadanie przyszłości",
+        "text": "Zużywalny (6 ładunków).\n[action]: <b>Badanie.</b> Do tego badania możesz użyć [willpower] zamiast [intellect] i dostajesz +2 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1, 2 lub 3 ładunki. Zamiast odkrywać 1 żeton wskazówki w twojej lokalizacji, odkryj 1 żeton wskazówki w twojej lokalizacji za każdy wydany ładunek. Jeśli test zakończył się sukcesem o 0, wybierz i odrzuć 2 karty z twojej ręki.",
+        "traits": "Zaklęcie. Zapowiedź.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08104",
+        "name": "Profesor William Webb",
+        "subname": "Poszukiwacz ukrytych połączeń",
+        "text": "Zużywalny (3 sekrety).\n[reaction] Kiedy twoje badanie zakończy się sukcesem, wyczerp Profesora Williama Webba i wydaj 1 sekret: zamiast odkrywać 1 żeton wskazówki w twojej lokalizacji, wybierz kartę z cechą [[Przedmiot]] w twoim stosie kart odrzuconych i dodaj ją na twoją rękę albo odkryj 1 żeton wskazówki w połączonej lokalizacji.",
+        "traits": "Sprzymierzeniec. Miskatonic.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08105",
+        "name": "Szpikulec do lodu",
+        "text": "Szybka.\n[fast] Wyczerp Szpikulec do lodu podczas testu umiejętności dla walki lub badania: do tego testu dostajesz +1 do wartości umiejętności.",
+        "traits": "Przedmiot. Narzędzie. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08106",
+        "name": "Professor William Webb",
+        "subname": "Poszukiwacz ukrytych połączeń",
+        "text": "Zużywalny (3 sekrety).\n[reaction] Kiedy twoje badanie zakończy się sukcesem, wyczerp Profesora Williama Webba i wydaj 1 sekret: wybierz kartę z cechą [[Przedmiot]] w twoim stosie kart odrzuconych i dodaj ją na twoją rękę. Zamiast odkrywać żeton wskazówki w twojej lokalizacji, możesz odkryć żeton wskazówki w połączonej lokalizacji.",
+        "traits": "Sprzymierzeniec. Miskatonic.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08107",
+        "name": "Szpikulec do lodu",
+        "text": "Szybka.\n[fast] Wyczerp Szpikulec do lodu podczas testu umiejętności dla walki lub badania: do tego testu dostajesz +1 do wartości umiejętności. Jeśli test zakończy się sukcesem, możesz odrzucić Szpikulec do lodu, aby ten atak zadał +1 obrażenie <i>(jeśli walczysz)</i> albo aby odkryć 1 dodatkowy żeton wskazówki w twojej lokalizacji <i>(jeśli badasz).</i>",
+        "traits": "Przedmiot. Narzędzie. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "08108",
+        "flavor": "„Moją kolejną sztuczką będzie...”",
+        "name": "Eteryczne zniknięcie",
+        "text": "Wybierz nie-[[Elitarnego]] wroga w odkrytej lokalizacji oddalonej od ciebie o maksymalnie 2 połączenia. Zamień się miejscami z danym wrogiem.",
+        "traits": "Zaklęcie. Sztuczka."
+    },
+    {
+        "code": "08109",
+        "name": "Rozmycie",
+        "text": "Zużywalny (3 ładunki).\n[action] Jeśli na Rozmyciu pozostały jakieś ładunki: <b>Wymykanie się.</b> Do tej próby wymknięcia się możesz użyć [willpower] zamiast [agility] i dostajesz +1 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1 ładunek i możesz wykonać dodatkową akcję w tej turze. Jeśli test zakończył się sukcesem o 0, otrzymujesz 1 obrażenie.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08110",
+        "flavor": "„Moją kolejną sztuczką będzie...”",
+        "name": "Eteryczne zniknięcie",
+        "text": "Wybierz nie-[[Elitarnego]] wroga w dowolnej odkrytej lokalizacji. Zamień się miejscami z danym wrogiem.",
+        "traits": "Zaklęcie. Sztuczka."
+    },
+    {
+        "code": "08111",
+        "name": "Rozmycie",
+        "text": "Zużywalny (4 ładunki).\n[action] Jeśli na Rozmyciu pozostały jakieś ładunki: <b>Wymykanie się.</b> Do tej próby wymknięcia się możesz użyć [willpower] zamiast [agility] i dostajesz +2 do wartości umiejętności. Jeśli test zakończy się sukcesem, wydaj 1 lub 2 ładunki i możesz wykonać dodatkową akcję w tej turze. Jeśli test zakończył się sukcesem o 0, otrzymujesz 2 obrażenia.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08112",
+        "name": "„Jeszcze jedna!”",
+        "text": "Szybka. Zagraj po tym, jak odkryjesz żeton chaosu podczas testu umiejętności.\nOdkryj dodatkowy żeton chaosu, zamieniając jego „-” na „+”. Jeśli dany żeton to [skull], test automatycznie kończy się porażką.",
+        "traits": "Los. Gambit."
+    },
+    {
+        "code": "08113",
+        "name": "Bezwzględna lichwa",
+        "text": "Limit 1 na badacza. Nie może opuścić gry.\n[reaction] Po tym, jak zagrasz Bezwzględną lichwę: zyskujesz 10 żetonów zasobów.\n<b>Wymuszony</b> - Kiedy gra się kończy lub zostaniesz wyeliminowany, jeśli posiadasz mniej niż 10 żetonów zasobów w swojej puli zasobów: wygnaj Bezwzględną lichwę.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "08114",
+        "name": "Cenna pamiątka",
+        "subname": "Z poprzedniego życia",
+        "text": "Limit 1 Cenna pamiątka <i>(Z poprzedniego życia)</i> na talię.\n[reaction] Kiedy twój test umiejętności zakończy się porażką o 2 lub więcej, wyczerp Cenną pamiątkę: wylecz z niej 1 obrażenie.\n[reaction] Kiedy twój test umiejętności zakończy się sukcesem o 2 lub więcej, wyczerp Cenną pamiątkę: wylecz z niej 1 punkt przerażenia.",
+        "traits": "Przedmiot. Amulet. Błogosławiony.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08115",
+        "name": "Cenna pamiątka",
+        "subname": "Z przyszłego życia",
+        "text": "Limit 1 Cenna pamiątka <i>(Z przyszłego życia)</i> na talię.\n[reaction] Kiedy twój test umiejętności zakończy się porażką o 2 lub więcej, wyczerp Cenną pamiątkę: wylecz z niej 1 punkt przerażenia.\n[reaction] Kiedy twój test umiejętności zakończy się sukcesem o 2 lub więcej, wyczerp Cenną pamiątkę: wylecz z niej 1 obrażenie.",
+        "traits": "Przedmiot. Amulet. Błogosławiony.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08116",
+        "name": "Talizman ochronny",
+        "text": "Szybka. Zagraj tylko podczas twojej tury.\nZagraj Talizman ochronny pod kontrolą dowolnego badacza w twojej lokalizacji.\n[reaction] Kiedy zostają ci przydzielone obrażenia i/lub punkty przerażenia, które miałyby cię pokonać, odrzuć Talizman ochronny: anuluj do 2 z danych obrażeń i/lub punktów przerażenia.",
+        "traits": "Przedmiot. Amulet.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08117",
+        "name": "Ziemska łagodność",
+        "text": "Zużywalny (4 ładunki).\n[action]: Wykonaj test [willpower] (1). Za każdy punkt, o który test zakończył się sukcesem, możesz wydać 1 ładunek, aby wyleczyć 1 obrażenie lub 1 punkt przerażenia z dowolnego badacza w twojej lokalizacji. Jeśli test zakończył się sukcesem o 0, tracisz 1 żeton zasobu.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08118",
+        "name": "Zaklęty łuk",
+        "text": "Zużywalny (3 ładunki).\n[action] Wyczerp Zaklęty łuk: <b>Walka.</b> Do tego ataku musisz użyć [willpower] albo [agility] zamiast [combat] i dostajesz +1 do wartości umiejętności. Ten atak zadaje +1 obrażenie. Jako dodatkowy koszt zainicjowania tej zdolności możesz wydać 1 ładunek, aby celem tego ataku stał się nie-[[Elitarny]] wróg w połączonej lokalizacji; jeśli to zrobisz, do tego ataku zignoruj słowa kluczowe Powściągliwy i Mściwy.",
+        "traits": "Zaklęcie. Błogosławiony. Broń. Dystansowa.",
+        "slot": "Ręka x2. Mistyczna"
+    },
+    {
+        "code": "08119",
+        "name": "Ziemska łagodność",
+        "text": "Zużywalny (6 ładunków).\n[action]: Wykonaj test [willpower] (0). Za każdy punkt, o który test zakończył się sukcesem, możesz wydać 1 ładunek, aby wyleczyć 1 obrażenie lub 1 punkt przerażenia z dowolnego badacza w twojej lokalizacji. Jeśli test zakończył się sukcesem o 0, tracisz 2 żetony zasobów.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "08120",
+        "name": "Prorocza wizja",
+        "text": "Zużywalny (2 zasoby). Uzupełnij dane zasoby na początku każdej rundy.\nŻetony zasobów na Proroczej wizji mogą zostać wydane, aby opłacić koszt kart z cechą [[Los]], [[Zaklęcie]] lub [[Duch]].\n[fast] Podczas testu umiejętności z karty z cechą [[Los]], [[Zaklęcie]] lub [[Duch]] wydaj 1 żeton zasobu z Proroczej wizji: do tego testu dostajesz +1 do wartości umiejętności.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08121",
+        "name": "Tajny agent",
+        "text": "Zużywalny (2 zasoby). Uzupełnij dane zasoby na początku każdej rundy.\nŻetony zasobów na Tajnym agencie mogą zostać wydane, aby opłacić koszt kart z cechą [[Amulet]], [[Taktyka]] lub [[Księga]].\n[fast] Podczas testu umiejętności z karty z cechą [[Amulet]], [[Taktyka]] lub [[Księga]] wydaj 1 żeton zasobu z Tajnego agenta: do tego testu dostajesz +1 do wartości umiejętności.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08122",
+        "name": "Groźny typ",
+        "text": "Zużywalny (2 zasoby). Uzupełnij dane zasoby na początku każdej rundy.\nŻetony zasobów na Groźnym typie mogą zostać wydane, aby opłacić koszt kart z cechą [[Pancerz]], [[Palna]] lub [[Biała]].\n[fast] Podczas testu umiejętności z karty z cechą [[Pancerz]], [[Palna]] lub [[Biała]] wydaj 1 żeton zasobu z Groźnego typa: do tego testu dostajesz +1 do wartości umiejętności",
+        "traits": "Talent."
+    },
+    {
+        "code": "08123",
+        "name": "Bystrzak",
+        "text": "Zużywalny (2 zasoby). Uzupełnij dane zasoby na początku każdej rundy.\nŻetony zasobów na Bystrzaku mogą zostać wydane, aby opłacić koszt kart z cechą [[Informacja]], [[Narzędzie]] lub [[Sztuczka]].\n[fast] Podczas testu umiejętności z karty z cechą [[Informacja]], [[Narzędzie]] lub [[Sztuczka]] wydaj 1 żeton zasobu z Bystrzaka: do tego testu dostajesz +1 do wartości umiejętności.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08124",
+        "name": "Antykwiariusz",
+        "text": "Zużywalny (2 zasoby). Uzupełnij dane zasoby na początku każdej rundy.\nŻetony zasobów na Antykwariuszu mogą zostać wydane, aby opłacić koszt kart z cechą [[Przysługa]], [[Relikwia]] lub [[Rytuał]].\n[fast] Podczas testu umiejętności z karty z cechą [[Przysługa]], [[Relikwia]] lub [[Rytuał]] wydaj 1 żeton zasobu z Antykwariusza: do tego testu dostajesz +1 do wartości umiejętności.",
+        "traits": "Talent."
+    },
+    {
+        "code": "08125",
+        "name": "W centrum wydarzeń",
+        "text": "Trwały. Limit 1 na talię. Kup podczas budowania talii.\nKiedy kupujesz W centrum wydarzeń, otrzymujesz łącznie 2 punkty traumy fizycznej i/lub psychicznej. Następnie otrzymujesz 3 punkty doświadczenia.",
+        "traits": "Klątwa."
+    },
+    {
+        "code": "08126",
+        "name": "Ciężkie futro",
+        "text": "[reaction] Po tym, jak podczas wykonywanego przez ciebie testu umiejętności odkryjesz żeton chaosu z symbolem innym niż [auto_fail], zadaj 1 obrażenie Ciężkiemu futru: anuluj dany żeton chaosu i odłóż go z powrotem do worka. Odkryj nowy żeton chaosu.",
+        "traits": "Przedmiot. Pancerz.",
+        "slot": "Ciało"
+    },
+    {
+        "code": "08127",
+        "name": "Pies zaprzęgowy",
+        "text": "Twoja talia może zawierać do 4 kopii Psa zaprzęgowego. Do 2 kart Psów zaprzęgowych zajmuje jedną strefę sprzymierzeńca.\n[action] Wyczerp X Psów zaprzęgowych: <b>Ruch.</b> Porusz się X razy.\n[action] Wyczerp X Psów zaprzęgowych: <b>Walka.</b> Do tego ataku dostajesz +X [combat]. Zamiast standardowych obrażeń ten atak zadaje X obrażeń.",
+        "traits": "Sprzymierzeniec. Stworzenie.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "08128",
+        "name": "Różdżka animalizmu",
+        "text": "Masz 2 dodatkowe strefy sprzymierzeńca, w których możesz przechowywać jedynie atuty z cechą [[Stworzenie]].\n[reaction] Kiedy zagrywasz atut z cechą [[Stworzenie]] podczas twojej tury: obniż koszt danego atutu o 1.",
+        "traits": "Przedmiot. Relikwia.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "08129",
+        "name": "Wezwanie wsparcia",
+        "text": "Pojedynczo i w dowolnej kolejności, jeśli kontrolujesz kartę...\n- [rogue], możesz poruszyć się do połączonej lokalizacji.\n- [guardian], zadaj 1 obrażenie dowolnemu wrogowi w twojej lokalizacji.\n- [seeker], odkryj 1 żeton wskazówki w twojej lokalizacji.\n- [mystic], wylecz 1 punkt przerażenia z dowolnej karty.\n- [survivor], wylecz 1 obrażenie z dowolnej karty.",
+        "traits": "Przysługa. Synergia."
+    },
+    {
+        "code": "08130",
+        "name": "Uraz ręki",
+        "text": "<b>Odkrycie</b> - Umieść Uraz ręki w grze, w twoim obszarze zagrożenia.\nUraz ręki może zostać wyleczony tak, jakby był pojedynczym obrażeniem na twojej karcie badacza <i>(jeśli został wyleczony, odrzuć go)</i>.\n<b>Wymuszony</b> - Po tym, jak wykonasz akcję walki lub aktywacji: do końca tury nie możesz wykonywać żadnej z tych akcji.",
+        "traits": "Uraz."
+    },
+    {
+        "code": "08131",
+        "name": "Uraz nogi",
+        "text": "<b>Odkrycie</b> - Umieść Uraz nogi w grze, w twoim obszarze zagrożenia.\nUraz nogi może zostać wyleczony tak, jakby był pojedynczym obrażeniem na twojej karcie badacza <i>(jeśli został wyleczony, odrzuć go)</i>.\n<b>Wymuszony</b> - Po tym, jak wykonasz akcję ruchu, rezygnacji lub wymykania się: do końca tury nie możesz wykonywać żadnej z tych akcji.",
+        "traits": "Uraz."
+    },
+    {
+        "code": "08132",
+        "name": "Panika",
+        "text": "<b>Odkrycie</b> - Umieść Panikę w grze, w twoim obszarze zagrożenia.\nPanika może zostać wyleczona tak, jakby była pojedynczym punktem przerażenia na twojej karcie badacza <i>(jeśli została wyleczona, odrzuć ją)</i>.\n<b>Wymuszony</b> - Po tym, jak wykonasz akcję zagrania karty, wejścia w zwarcie lub dobrania zasobów: do końca tury nie możesz wykonywać żadnej z tych akcji.",
+        "traits": "Szaleństwo."
+    },
+    {
+        "code": "08133",
+        "name": "Odrętwienie",
+        "text": "<b>Odkrycie</b> - Umieść Odrętwienie w grze, w twoim obszarze zagrożenia.\nOdrętwienie może zostać wyleczone tak, jakby było pojedynczym punktem przerażenia na twojej karcie badacza <i>(jeśli zostało wyleczone, odrzuć go)</i>.\n<b>Wymuszony</b> - Po tym, jak wykonasz akcję pertaktacji, dobrania karty lub badania: do końca tury nie możesz wykonywać żadnej z tych akcji.",
+        "traits": "Szaleństwo."
+    }
+]
