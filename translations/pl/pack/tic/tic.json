@@ -1,126 +1,276 @@
 [
     {
         "code": "07001",
-        "flavor": "\"The Lord watches over my path. I am armored in faith.\"",
-        "name": "Sister Mary",
-        "subname": "The Nun",
-        "text": "During setup, add 2 [bless] tokens to the chaos bag.\n[reaction] When the round ends: Add 1 [bless] token to the chaos bag.\n[elder_sign] effect: +1. If you succeed, add 1 [bless] token to the chaos bag.",
-        "traits": "Believer. Blessed.",
-        "back_flavor": "The more Sister Mary learns of the strange and arcane forces that sometimes manifest in this world, the more certain she is that she has been set upon a path to ward off these forces and protect the innocent wherever possible. Armed only with the trappings of her church and an unshakeable faith, Sister Mary seeks out every supernatural threat she hears of through her fellow priests and nuns. Other members of her church may dismiss such things as medieval nonsense, but Sister Mary knows the real evils that exist in the shadows - and she knows that if such evils are left untouched, they will bring ruin and horror to all of creation.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, Mystic cards ([mystic]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Guardian Angel, Crisis of Faith, 1 random basic weakness."
+        "flavor": "„Pan czuwa nad moją ścieżką. Moją tarczą jest wiara”.",
+        "name": "Siostra Mary",
+        "subname": "Zakonnica",
+        "text": "Podczas przygotowania, dodaj do worka chaosu 2 żetony [bless].\n[reaction] Koniec rundy: dodaj do worka chaosu 1 żeton [bless].\nEfekt [elder_sign]: +1. Jeśli test zakończy się sukcesem, dodaj do worka chaosu 1 żeton [bless].",
+        "traits": "Wyznawca. Błogosławiony.",
+        "back_flavor": "Im dłużej Siostra Mary poznaje dziwne i tajemne siły, które od czasu do czasu manifestują swoją obecność na tym świecie, tym bardziej jest pewna, że jej przeznaczeniem jest odeprzeć te nieznane moce i chronić niewinnych wszędzie tam, gdzie jest to możliwe. Uzbrojona jedynie w symbole swego kościoła i niezachwianą wiarę, Siostra Mary wyszukuje wszelkie nadprzyrodzone zagrożenia, o których donoszą jej zaprzyjaźnieni księża i zakonnice. Chociaż większość członków jej Kościoła odrzuca takie „średniowieczne zabobony”, Siostra Mary zna prawdziwe zło, które kryje się w ciemności - i wie, że jeśli pozostanie ono bez kontroli, przyniesie zniszczenie i niewyobrażalny koszmar wszelkiemu stworzeniu.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Strażnika ([guardian]) o poziomie 0-5, karty neutralne o poziomie 0-5, karty Mistyka ([mystic]) o poziomie 0-2.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Anioł Stróż, Kryzys wiary, 1 losowe podstawowe osłabienie."
     },
     {
         "code": "07002",
         "name": "Amanda Sharpe",
-        "subname": "The Student",
-        "text": "<b>Forced</b> - At the start of the investigation phase: Draw 1 card. Discard the card beneath Amanda Sharpe. Choose a card from your hand and place it beneath her.\n[reaction] At the start of a skill test you are performing: Commit the card beneath Amanda Sharpe, if able. Do not discard it when the test ends.\n[elder_sign] effect: +0. For this test, you may double the number of skill icons on the card beneath Amanda Sharpe.",
-        "traits": "Miskatonic. Scholar",
-        "back_flavor": "Amanda Sharpe was on track to become one of Miskatonic University's most accomplished graduates. However, ever since she saw a strange painting on an enormous creature's emergence from the depths of the ocean, her classwork has suffered. Her dreams are overwhelmed by images of a vast submerged city and whispers in a language she does not understand. She remains dedicated to her studies, but her goal is no longer to graduate at the top of her class; rather, she seeks to discover the meaning behind the occult secrets concealed between the lines of reality.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, [[Practiced]] skills level 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Obscure Studies, Whispers from the Deep, 1 random basic weakness."
+        "subname": "Studentka",
+        "text": "<b>Wymuszony</b> - Początek fazy badaczy: dobierz 1 kartę. Odrzuć kartę znajdującą się pod Amandą Sharpe. Wybierz kartę z twojej ręki i umieść ją pod Amandą Sharpe.\n[reaction] Na początku wykonywanego przez ciebie testu umiejętności: przeznacz kartę znajdującą się pod Amandą Sharpe, jeśli to możliwe. Nie odrzucaj jej, kiedy test dobiegnie końca.\nEfekt [elder_sign]: +0. Do tego testu możesz podwoić liczbę symboli umiejętności znajdujących się na karcie pod Amandą Sharpe.",
+        "traits": "Miskatonic. Uczony",
+        "back_flavor": "Amanda Sharpe była na dobrej drodze, aby zostać jedną z najbardziej uznanych absolwentek Uniwersytetu Miskatonic. Jednak odkąd zobaczyła dziwny obraz przedstawiający potężne stworzenie wynurzające się z głębin oceanu, nie była już w stanie skupić się na nauce. Jej sny wypełniają wizje ogromnego zatopionego miasta i szepty w niezrozumiałym dla niej języku. Nadal poświęca czas nauce, ale jej celem nie jest już ukończenie studiów z wyróżnieniem; zamiast tego stara się odkryć znaczenie niezbadanych tajemnic ukrytych między liniami rzeczywistości.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Poszukiwacza ([seeker]) o poziomie 0-5, karty neutralne o poziomie 0-5, karty umiejętności z cechą [[Nabyta]] o poziomie 0-3.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Nauki tajemne, Szepty z głębin, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "07003",
+        "name": "Trish Scarborough",
+        "subname": "Szpieg",
+        "text": "[reaction] Po tym, jak odkryjesz 1 lub więcej żetonów wskazówek w lokalizacji, w której znajduje się wróg: odkryj 1 dodatkowy żeton wskazówki w danej lokalizacji albo automatycznie wymknij się danemu wrogowi. (Limit raz na rundę).\nEfekt [elder_sign]: +2. Jeśli ten test to badanie, możesz wybrać dowolną odkrytą lokalizację; wykonujesz to badanie tak, jakbyś zamiast tego znajdował się w danej lokalizacji.",
+        "traits": "Agencja. Detektyw.",
+        "back_flavor": "Trish zawsze wyróżniała się zarówno sprawnością fizyczną, jak i mądrością, a jej niezachwiane skupienie na samodoskonaleniu i nieustraszona postawa gwarantowały jej zwycięstwo. Biorąc pod uwagę jej znakomite wyniki w nauce i sporcie, wszyscy oczekiwali, że osiągnie w życiu naprawdę wiele. Jednak zamiast tego Trish podjęła pracę w firmie specjalizującej się w prawie handlowym. Początkowy szok wynikający z podjęcia przez nią tak skromnej pracy w końcu minął, a wyjątkowa Trish Scarborough popadła w zapomnienie. Dla Trish była to idealna sytuacja, ponieważ utrudniała innym odkrycie prawdy: jej praca była jedynie przykrywką dla prawdziwej kariery jako szpiega w Czarnej Komorze, agencji Biura łamiącej tajne szyfry.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Łotra ([rogue]) o poziomie 0-5, karty neutralne o poziomie 0-5, karty Poszukiwacza ([seeker]) o poziomie 0-2.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Pośród cieni, Nieustępliwi śledczy, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "07004",
+        "flavor": "„Chcesz zobaczyć prawdziwą magię?”",
+        "name": "Dexter Drake",
+        "subname": "Magik",
+        "text": "[free] Podczas twojej tury odrzuć atut, który kontrolujesz: zagraj z twojej ręki atut o innym tytule, obniżając jego koszt o 1. (Limit raz na rundę).\nEfekt [elder_sign]: +2. Możesz cofnąć na twoją rękę atut z twojego obszaru gry. Następnie dobierz 1 kartę.",
+        "traits": "Czarnoksiężnik. Weteran.",
+        "back_flavor": "Dexter Drake powrócił z Wielkiej Wojny, aby zostać odnoszącym sukcesy magikiem i oczarowywać publiczność swoimi wyszukanymi iluzjami i przebiegłymi sztuczkami scenicznymi. Pomimo błyskawicznego sukcesu Dexter nadal pragnął odkryć prawdziwą magię. Zaintrygowały go nadpalone i podarte skrawki okultystycznej księgi, które znalazł podczas wojny - fragmenty niesławnego Necronomiconu. Dexter wykorzystał swoje bogactwa, by odkryć prawdę o tej starożytnej wiedzy, a to, co znalazł, przeraziło go. Wie, że może być jedyną osobą, która jest w stanie powstrzymać zło przed pochłonięciem całego świata.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Mistyka ([mystic]) o poziomie 0-5, karty Łotra ([rogue]) o poziomie 0-2, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): W centrum uwagi, Okultystyczne skrawki, 1 losowe podstawowe osłabienie."
+    },
+    {
+        "code": "07005",
+        "flavor": "„Swoje lęki zostawcie w dokach”.",
+        "name": "Silas Marsh",
+        "subname": "Żeglarz",
+        "text": "[reaction] Po tym, jak podczas wykonywanego przez ciebie testu umiejętności odkryjesz żeton chaosu: cofnij na twoją rękę kartę umiejętności, którą przeznaczyłeś do tego testu. (Limit raz na rundę).\nEfekt [elder_sign]: +0. Do tego testu możesz przeznaczyć kartę umiejętności z twojego stosu kart odrzuconych. Kiedy ten test dobiegnie końca, cofnij daną kartę umiejętności na twoją rękę zamiast ją odrzucać.",
+        "traits": "Tułacz.",
+        "back_flavor": "Silas Marsh kochał morze, odkąd był na tyle duży, by przemierzać jego słone płycizny. Decyzja o staniu się żeglarzem było najłatwiejszą, jaką kiedykolwiek podjął, a jego rosła postura i doskonałe wyczucie zmian pogody zapewniły mu poważanie pośród załóg na wielu statkach. Jest jednak coś, co niepokoi Silasa: powtarzające się niepokojące sny o miastach ukrytych pośród fal i zamieszkujących je dziwnych stworzeniach. Te sny wzywają go, poruszając coś tkwiącego głęboko w nim - coś, co jak sądził, pozostawił daleko w swoim rodzinnym mieście, Innsmouth.",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Ocalałego ([survivor]) o poziomie 0-5, karty neutralne o poziomie 0-5, karty umiejętności z cechą [[Wrodzona]] o poziomie 0-2.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Harpun pełnej przemiany, Sieć Silasa, Syreni śpiew, 1 losowe podstawowe osłabienie."
     },
     {
         "code": "07006",
-        "name": "Guardian Angel",
-        "text": "Sister Mary deck only.\n<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Innate."
+        "name": "Anioł Stróż",
+        "text": "Tylko talia Siostry Mary.\nAnioł Stróż może otrzymać obrażenia zadawane innym badaczom w twojej i połączonych lokalizacjach.\n[reaction] Kiedy do Anioła Stróża zostanie przypisana dowolna liczba obrażeń: dodaj tyle samo żetonów [bless] do worka chaosu.",
+        "traits": "Rytuał. Błogosławiony."
     },
     {
         "code": "07007",
-        "name": "Crisis of Faith",
-        "text": "<b>Revelation</b> - For each [bless] token in the chaos bag, you must either replace it with a [curse] token or take 1 horror.",
-        "traits": "Madness."
+        "name": "Kryzys wiary",
+        "text": "<b>Odkrycie</b> - Za każdy znajdujący się w worku chaosu żeton [bless] musisz albo zamienić go na żeton [curse], albo otrzymać 1 punkt przerażenia.",
+        "traits": "Szaleństwo."
     },
     {
         "code": "07008",
-        "name": "Obscure Studies",
-        "text": "Amanda Sharpe deck only.\n<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Innate."
+        "name": "Nauki tajemne",
+        "text": "Tylko talia Amandy Sharpe.\nSzybka. Zagraj, kiedy inicjujesz test umiejętności.\nCofnij na rękę kartę znajdującą się pod Amandą Sharpe i umieść pod nią Nauki tajemne.",
+        "traits": "Informacja."
     },
     {
         "code": "07009",
-        "name": "Whispers from the Deep",
-        "text": "<b>This card has not yet been announced and is a placeholder.</b>",
-        "traits": "Madness."
+        "name": "Szepty z głębin",
+        "text": "Symbole z tej karty umiejętności odejmij od twojej wartości umiejętności zamiast je dodawać.\n<b>Wymuszony</b> - Kiedy wybierasz kartę do umieszczenia pod Amandą Sharpe, jeśli Szepty z głębin znajdują się na twojej ręce: musisz je wybrać.",
+        "traits": "Klątwa."
+    },
+    {
+        "code": "07010",
+        "name": "Pośród cieni",
+        "text": "Tylko talia Trish Scarborough.\nSzybka. Zagraj po rozpoczęciu twojej tury.\nUwolnij się ze zwarcia z każdym wrogiem, który jest z tobą w zwarciu. Do końca rundy wrogowie nie mogą wchodzić z tobą w zwarcie i nie możesz zadawać obrażeń wrogom.",
+        "traits": "Taktyka."
+    },
+    {
+        "code": "07011",
+        "name": "Nieustępliwi śledczy",
+        "text": "<b>Polowanie</b> - Tylko Trish Scarborough.\nŁowca.\nDopóki Nieustępliwi śledczy są z tobą w zwarciu, nie możesz odkrywać żetonów wskazówek inaczej niż poprzez badanie.\n<b>Wymuszony</b> - Po tym, jak uda się wymknąć Nieustępliwym śledczym: odrzuć ich.",
+        "traits": "Humanoid. Kultysta."
+    },
+    {
+        "code": "07012",
+        "name": "W centrum uwagi",
+        "text": "Tylko talia Dextera Drake'a.\n[reaction] Po tym, jak dowolny atut wejdzie do gry pod twoją kontrolą: do końca rundy podczas rozpatrywania aktywowanej zdolności z danego atutu dostajesz +2 do każdej twojej umiejętności.",
+        "traits": "Talent."
+    },
+    {
+        "code": "07013",
+        "name": "Okultystyczne skrawki",
+        "text": "Okultystyczne skrawki nie mogą zostać zagrane przy użyciu akcji zagrania karty.\nDopóki Okultystyczne skrawki znajdują się na twojej ręce, dostajesz -2 [willpower].\nDopóki Okultystyczne skrawki znajdują się w grze, dostajesz -1 [willpower].",
+        "traits": "Przedmiot."
+    },
+    {
+        "code": "07014",
+        "name": "Harpun pełnej przemiany",
+        "text": "Tylko talia Silasa Marsha.\n[action]: <b>Walka.</b> Do tego ataku dostajesz +1 [combat]. Jeśli do tego testu umiejętności przeznaczyłeś 1 lub więcej kart umiejętności, ten atak zadaje +1 obrażenie. Kiedy ten test dobiegnie końca, możesz cofnąć Harpun pełnej przemiany na rękę, aby cofnąć wszystkie twoje przeznaczone karty umiejętności na rękę zamiast je odrzucać.",
+        "traits": "Przedmiot. Broń. Biała.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "07015",
+        "name": "Sieć Silasa",
+        "text": "Tylko talia Silasa Marsha.\n[action]: <b>Wymykanie się.</b> Do tej próby wymknięcia się dostajesz +1 [agility]. Jeśli test zakończy się sukcesem i przeznaczyłeś do tego testu umiejętności 1 lub więcej kart umiejętności, możesz automatycznie wymknąć się innemu wrogowi, który jest z tobą w zwarciu. Kiedy ten test dobiegnie końca, możesz cofnąć Sieć Silasa na rękę, aby cofnąć wszystkie twoje przeznaczone karty umiejętności na rękę zamiast je odrzucać.",
+        "traits": "Przedmiot. Narzędzie.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "07016",
+        "name": "Syreni śpiew",
+        "text": "<b>Odkrycie</b> - Umieść Syreni śpiew w grze, w twoim obszarze zagrożenia.\nJako dodatkowy koszt przeznaczenia 1 lub więcej kart do testu umiejętności musisz zapłacić 1 żeton zasobu za każdy znajdujący się na danych kartach symbol odpowiadający testowanej umiejętności.\n[action] [action]: Odrzuć Syreni śpiew.",
+        "traits": "Klątwa."
+    },
+    {
+        "code": "07017",
+        "name": "Księga Psalmów",
+        "text": "Zużywalny (4 sekrety).\n[action] Wydaj 1 sekret: wylecz 1 punkt przerażenia z dowolnego badacza w twojej lokalizacji. Dodaj 2 żetony [bless] do worka chaosu.",
+        "traits": "Przedmiot. Księga. Błogosławiony.",
+        "slot": "Ręka"
     },
     {
         "code": "07018",
-        "name": "Blessed Blade",
-        "text": "[action] If Blessed Blade is ready: <b>Fight.</b> You get +1 [combat] for this attack. If a [bless] or [elder_sign] token is revealed during this attack, this attack deals +1 damage. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 1 [bless] token to the chaos bag.",
-        "traits": "Item. Weapon. Melee. Blessed.",
-        "slot": "Hand"
+        "name": "Błogosławione ostrze",
+        "text": "[action] Jeśli Błogosławione ostrze jest przygotowane: <b>Walka.</b> Do tego ataku dostajesz +1 [combat]. Jeśli podczas tego ataku zostanie odkryty żeton [bless] lub [elder_sign], ten atak zadaje +1 obrażenie. Zanim odkryjesz żeton(y) chaosu do tego ataku możesz wyczerpać Błogosławione ostrze, aby dodać 1 żeton [bless] do worka chaosu.",
+        "traits": "Przedmiot. Broń. Biała. Błogosławiony.",
+        "slot": "Ręka"
     },
     {
         "code": "07019",
-        "name": "Rite of Sanctification",
-        "text": "Seal (up to 5 [bless]). If Rite of Sanctification has no tokens sealed on it, discard it.\n[reaction] When an investigator at your location plays a card, exhaust Rite of Sanctification and release a chaos token sealed on it: Reduce the cost of that card by 2.",
-        "traits": "Ritual. Blessed.",
-        "slot": "Arcane"
+        "name": "Rytuał uświęcenia",
+        "text": "Pieczęć (maksymalnie 5 [bless]). Jeśli na Rytuale uświęcenia nie ma żadnych zapieczętowanych żetonów, odrzuć go.\n[reaction] Kiedy dowolny badacz w twojej lokalizacji zagra kartę, wyczerp Rytuał uświęcenia i uwolnij zapieczętowany na nim żeton chaosu: obniż o 2 koszt danej karty.",
+        "traits": "Rytuał. Błogosławiony.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "07020",
+        "name": "Palec boży",
+        "text": "Szybka. Zagraj, kiedy wróg zaatakuje badacza w twojej lokalizacji.\nAnuluj dany atak. Następnie dodaj do worka chaosu tyle żetonów [bless], ile wynosi łączna wartość obrażeń i przerażenia atakującego wroga.",
+        "traits": "Zaklęcie. Błogosławiony."
+    },
+    {
+        "code": "07021",
+        "name": "Klucz kryptograficzny",
+        "text": "Zużywalny (3 sekrety).\n[fast] Wyczerp Klucz kryptograficzny i wydaj 1 sekret: <b>Badanie.</b> Do tego badania twoja lokalizacja dostaje +1 zasłony.\n[action] Wyczerp Klucz kryptograficzny i wydaj 1 sekret: <b>Badanie.</b> Do tego badania twoja lokalizacja dostaje -2 zasłony.",
+        "traits": "Przedmiot. Narzędzie.",
+        "slot": "Ręka"
     },
     {
         "code": "07022",
-        "name": "Cryptic Grimoire",
-        "subname": "Untranslated",
-        "text": "[action]: Add 1 [curse] token to the chaos bag.\n[action] If there are 10 [curse] tokens in the chaos bag, discard Cryptic Grimoire: Record in your Campaign Log that \"you have translated the grimoire.\" Replace 5 [curse] tokens in the chaos bag with 5 [bless] tokens.",
-        "traits": "Item. Tome. Occult.",
-        "slot": "Hand"
+        "name": "Tajemny grymuar",
+        "subname": "Nieprzetłumaczone",
+        "text": "[action]: Dodaj 1 żeton [curse] do worka chaosu.\n[action] Jeśli w worku chaosu znajduje się 10 żetonów [curse], odrzuć Tajemny grymuar: zanotuj w Dzienniku kampanii, że „udało się przetłumaczyć grymuar”. Zamień 5 żetonów [curse] z worka chaosu na 5 żetonów [bless].",
+        "traits": "Przedmiot. Księga. Okultyzm.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "07023",
+        "name": "Dogłębna wiedza",
+        "text": "Jako dodatkowy koszt zagrania Dogłębnej wiedzy dodaj 2 żetony [curse] do worka chaosu.\nBadacze w twojej lokalizacji dobierają łącznie 3 karty <i>(ty decydujesz, ile kart dobierze każdy z badaczy)</i>.",
+        "traits": "Informacja. Przeklęty."
+    },
+    {
+        "code": "07024",
+        "name": "Plan działania",
+        "text": "Jeśli ten test umiejętności odbywa się podczas lub przed pierwszą akcją w tej turze, Plan działania zyskuje [willpower] [agility].\nJeśli ten test umiejętności odbywa się pomiędzy pierwszą a trzecią akcją w tej turze, dobierz 1 kartę, jeśli zakończy się sukcesem.\nJeśli ten test umiejętności odbywa się podczas lub po trzeciej akcji w tej turze, Plan działania zyskuje [combat] [intellect].",
+        "traits": "Nabyta."
+    },
+    {
+        "code": "07025",
+        "name": "Automatyczna .25",
+        "text": "Szybka. Zużywalny (4 naboje).\n[action] Wydaj 1 nabój: <b>Walka.</b> Jeśli atakowany wróg jest wyczerpany, do tego ataku dostajesz +2 [combat] i zadajesz +1 obrażenie.",
+        "traits": "Przedmiot. Broń. Palna. Nielegalny.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "07026",
+        "name": "Mroczny rytuał",
+        "text": "Pieczęć (maksymalnie 5 [curse]).\n<b>Wymuszony</b> - Koniec fazy Mitów: musisz wydać 1 żeton zasobu albo odrzucić Mroczny rytuał.",
+        "traits": "Rytuał. Przeklęty.",
+        "slot": "Mistyczna"
     },
     {
         "code": "07027",
-        "flavor": "Now you see me...",
-        "name": "Obfuscation",
-        "text": "Fast. Uses (3 charges).\n[reaction] When an enemy makes an attack of opportunity against you, spend 1 charge: Cancel that attack.",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "flavor": "Teraz mnie widzisz...",
+        "name": "Zaciemnienie",
+        "text": "Szybka. Zużywalny (3 ładunki).\n[reaction] Kiedy wróg wykonuje przeciwko tobie atak towarzyszący, wydaj 1 ładunek: anuluj dany atak.",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
     },
     {
         "code": "07028",
-        "name": "Faustian Bargain",
-        "text": "As an additional cost to play Faustian Bargain, add 2 [curse] tokens to the chaos bag.\nInvestigators at your location gain a total of 5 resources, distributed as you wish.",
-        "traits": "Pact. Cursed."
+        "name": "Zaprzedać duszę",
+        "text": "Jako dodatkowy koszt zagrania Zaprzedać duszę, dodaj 2 żetony [curse] do worka chaosu.\nBadacze w twojej lokalizacji zyskują łącznie 5 żetonów zasobów, które rozdzielasz między nich według twojego uznania.",
+        "traits": "Pakt. Przeklęty."
     },
     {
         "code": "07029",
-        "name": "Sword Cane",
-        "text": "Playing Sword Cane does not provoke attacks of opportunity.\n[reaction] After Sword Cane enters play: Immediately trigger its \"[action]\" ability without paying its cost.\n[action] Exhaust Sword Cane: <b>Fight</b>/<b>Evade.</b> You may use your [willpower] in place of your [combat] or [agility] for this attack or evasion attempt.",
-        "traits": "Item. Relic. Weapon. Melee.",
-        "slot": "Hand"
+        "name": "Laska z mieczem",
+        "text": "Zagranie Laski z mieczem nie wywołuje ataków towarzyszących.\n[reaction] Po tym, jak Laska z mieczem wejdzie do gry: natychmiast aktywuj jej zdolność \"[action]\" bez płacenia jej kosztu.\n[action] Wyczerp Laskę z mieczem: <b>Walka</b>/<b>Wymykanie się.</b> Do tego ataku lub próby wymknięcia się możesz użyć twojej [willpower] zamiast twojej [combat] lub [agility].",
+        "traits": "Przedmiot. Relikwia. Broń. Biała.",
+        "slot": "Ręka"
     },
     {
         "code": "07030",
-        "name": "Tides of Fate",
-        "text": "Fast. Play during any [fast] window, or at the start of the round.\nReplace all [curse] tokens in the chaos bag with an equal number of [bless] tokens. At the end of the round, replace all [bless] tokens in the chaos bag with an equal number of [curse] tokens.",
-        "traits": "Spell. Blessed."
+        "name": "Odmiana losu",
+        "text": "Szybka. Zagraj podczas dowolnego okna [fast] lub na początku rundy.\nZamień wszystkie żetony [curse] w worku chaosu na taką samą liczbę żetonów [bless]. Na koniec rundy zamień wszystkie żetony [bless] w worku chaosu na taką samą liczbę żetonów [curse].",
+        "traits": "Zaklęcie. Błogosławiony."
     },
     {
         "code": "07031",
-        "name": "Ward of Radiance",
-        "text": "Fast. Play when an investigator at your location draws a non-weakness treachery card.\nReveal 5 random chaos tokens from the chaos bag\nIf a [bless] or [elder_sign] token is revealed, cancel that treachery card's revelation effect.",
-        "traits": "Insight. Blessed."
+        "name": "Krąg światłości",
+        "text": "Szybka. Zagraj, kiedy badacz w twojej lokalizacji dobierze kartę podstępu inną niż osłabienie.\nOdkryj 5 losowych żetonów chaosu z worka chaosu. Jeśli zostanie odkryty żeton [bless] lub [elder_sign], anuluj efekt odkrycia danej karty podstępu.",
+        "traits": "Informacja. Błogosławiony."
     },
     {
         "code": "07032",
-        "name": "Promise of Power",
-        "text": "After you commit Promise of Power to a skill test, add 1 [curse] token to the chaos bag. If you cannot, take 2 horror instead.",
-        "traits": "Practiced. Cursed."
+        "name": "Obietnica potęgi",
+        "text": "Po tym, jak przeznaczysz Obietnicę potęgi do testu umiejętności, dodaj 1 żeton [curse] do worka chaosu. Jeśli nie możesz, zamiast tego otrzymujesz 2 punkty przerażenia.",
+        "traits": "Nabyta. Przeklęty."
     },
     {
         "code": "07033",
-        "name": "Token of Faith",
-        "text": "[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag.",
-        "traits": "Item. Charm.",
-        "slot": "Accessory"
+        "name": "Symbol wiary",
+        "text": "[reaction] Po tym, jak zakończy się test umiejętności, podczas którego zostało odkrytych 1 lub więcej żetonów [curse] lub [auto_fail], wyczerp Symbol wiary: dodaj taką samą liczbę żetonów [bless] do worka chaosu.",
+        "traits": "Przedmiot. Amulet.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "07034",
+        "name": "Niezachwiana wiara",
+        "text": "Szybka. Zagraj podczas dowolnego okna [fast].\nDodaj 4 żetony [bless] do worka chaosu.",
+        "traits": "Los. Błogosławiony."
     },
     {
         "code": "07035",
-        "name": "Predestined",
-        "text": "Max 1 committed per skill test.\nYou may commit Predestined to any type of test.\nIf this test fails, either add 2 [bless] tokens to the chaos bag or remove 2 [curse] tokens from the chaos bag.",
-        "traits": "Fortune. Blessed."
+        "name": "Predestynacja",
+        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nMożesz przeznaczyć Predestynację do dowolnego rodzaju testu.\nJeśli ten test zakończy się porażką, dodaj 2 żetony [bless] do worka chaosu albo usuń 2 żetony [curse] z worka chaosu.",
+        "traits": "Los. Błogosławiony."
+    },
+    {
+        "code": "07036",
+        "flavor": "Miłość to prawdopodobnie najsilniejsze z zaklęć.",
+        "name": "Ukochana",
+        "text": "Jeśli podczas tego testu zostanie odkryty żeton [bless], możesz usunąć Ukochaną z gry, aby zamienić efekt danego żetonu na następujący: „Twój test automatycznie kończy się sukcesem. <i>(Nie odkrywaj nowego żetonu. Po zakończeniu tego testu umiejętności cofnij ten żeton do worka chaosu)</i>”.",
+        "traits": "Wrodzona. Błogosławiony."
+    },
+    {
+        "code": "07037",
+        "name": "Kuszenie losu",
+        "text": "Szybka. Zagraj podczas dowolnego okna [fast].\nDodaj 3 żetony [curse] do worka chaosu. Następnie dodaj 3 żetony [bless] do worka chaosu i dobierz 1 kartę.",
+        "traits": "Los. Błogosławiony. Przeklęty."
+    },
+    {
+        "code": "07038",
+        "name": "Przeklęty wyznawca",
+        "text": "<b>Rozstawienie</b> - Lokalizacja najdalsza od ciebie.\nPowściągliwy.\n<b>Wymuszony</b> - Koniec fazy wrogów: dodaj 1 żeton [curse] do worka chaosu.",
+        "traits": "Humanoid. Kultysta. Przeklęty."
     },
     {
         "code": "07039",
-        "flavor": "We all have wings, but they have not been of any avail to us and if we could tear them off, we would do so.\n- Franz Kafka, \"The Blue Octavo Notebooks\"",
-        "name": "Dread Curse",
-        "text": "<b>Revelation</b> - Add 5 [curse] tokens to the chaos bag.",
-        "traits": "Curse."
+        "flavor": "Wszyscy mamy skrzydła, jednak nigdy nie umieliśmy zrobić z nich pożytku i gdybyśmy tylko mogli, od razu byśmy je wyrwali.\n- Franz Kafka, „Osiem notatników”",
+        "name": "Przerażająca klątwa",
+        "text": "<b>Odkrycie</b> - Dodaj 5 żetonów [curse] do worka chaosu.",
+        "traits": "Klątwa."
+    },
+    {
+        "code": "07040",
+        "name": "Dzień Sądu",
+        "text": "<b>Odkrycie</b> - Dołącz Dzień Sądu do aktualnej tajemnicy. Następnie przeszukaj worek chaosu w poszukiwaniu żetonu [elder_sign] i zapieczętuj go na Dniu Sądu.\n<b>Karta zainspirowana wydarzeniami Arkham Nights 2018.</b>",
+        "traits": "Kres."
     }
 ]
