@@ -1240,10 +1240,10 @@
         "traits": "瘋狂"
     },
     {
-        "back_text": "困難 / 專家\n[skull]：–2 (–4 instead if there is an [[Ancient One]] enemy at your location).\n[cultist]：–1. If there is a seal at your location, or if your location is a Mist-Pylon, treat this token as a [frost] token in addition to its modifier.\n[tablet]：–3. Draw the top card of the 忒咳哩-哩牌堆.\n[elder_thing]：–5. If you fail by 3 or more, place 1 doom on the current agenda. This can cause the current agenda to advance.",
+        "back_text": "困難 / 專家\n[skull]：–2 (–4 instead if there is an [[Ancient One]]敵人 at your location).\n[cultist]：–1. If there is a seal at your location, or if your location is a Mist-Pylon, treat this token as a [frost] token in addition to its modifier.\n[tablet]：–3. 抽取忒咳哩-哩牌堆頂的1張卡牌.\n[elder_thing]：–5. If you fail by 3 or more, place 1 doom on the current agenda. This can cause the current agenda to advance.",
         "code": "08648",
         "name": "The Heart of Madness",
-        "text": "簡單 / 普通\n[skull]：–1 (–3 instead if there is an [[Ancient One]] enemy at your location).\n[cultist]：–1. If there is a seal at your location, or if your location is a Mist-Pylon, treat this token as a [frost] token, instead.\n[tablet]：–3. 如果你檢定失敗，draw the top card of the 忒咳哩-哩牌堆.[elder_thing]：–4. If you fail by 3 or more, place 1 doom on the current agenda. This can cause the current agenda to advance."
+        "text": "簡單 / 普通\n[skull]：–1 (–3 instead if there is an [[Ancient One]]敵人 at your location).\n[cultist]：–1. If there is a seal at your location, or if your location is a Mist-Pylon, treat this token as a [frost] token, instead.\n[tablet]：–3. 如果你檢定失敗，抽取忒咳哩-哩牌堆頂的1張卡牌.[elder_thing]：–4. If you fail by 3 or more, place 1 doom on the current agenda. This can cause the current agenda to advance."
     },
     {
         "back_flavor": "-the black pit - the carven rim - the proto-shoggoths -  the windowless solids with five dimensions - the nameless cylinder - the elder pharos - the primal white jelly - the wings - the eyes in darkness - the moon-ladder - the original - the eternal - the undying-",
@@ -1291,7 +1291,7 @@
         "back_name": "Ancient Facility",
         "code": "08654",
         "name": "Hall of the Sunless Sea",
-        "text": "[action] If you control the [seal_e] seal, investigators at Hall of the Sunless Sea spend 1 [per_investigator] clues and discard 2 [per_investigator] cards from their hands, as a group: Activate the [seal_e] seal.",
+        "text": "[action] If you control the [seal_e] seal, investigators at Hall of the Sunless Sea spend 1 [per_investigator] clues and 丟棄2 [per_investigator] cards from their hands, as a group: Activate the [seal_e] seal.",
         "traits": "Ruins."
     },
     {
@@ -1424,7 +1424,7 @@
     {
         "back_flavor": "From the nameless depths at the very core of the Earth, the miasma’s true form emerges. It is a shapeless thing, a creature of whirling mist and putrid ichor that screams and whispers and crawls and flies. It seeps through the walls and up from the ice; it is everywhere; it is everything.",
         "back_name": "It Emerges...",
-        "back_text": "Spawn 1 set-aside copy of The Nameless Madness enemy at the Mist-Pylon nearest to an investigator.\n<b><hr>Check the Campaign Log. <i>If the truth of the mirage eludes you:</i></b>\n<blockquote><i>You stare, dumbstruck, at the hideous phantasmagoria. The air shimmers with a dreamlike quality about its damnable form, an endless weave of intermingled nightmare and memory. The very sight of it drives you to your knees. It is the final truth. Reality was the mirage.</i></blockquote>\n每位調查員查找各自牌組，找出所有copy of Tekeli-li and draws them one at a time in a random order, without placing them on the bottom of the 忒咳哩-哩牌堆. After resolving all of them, shuffle each of them back into their bearer’s deck.",
+        "back_text": "Spawn 1 set-aside copy of The Nameless Madness enemy at the Mist-Pylon nearest to an investigator.\n<b><hr>Check the Campaign Log. <i>If the truth of the mirage eludes you:</i></b>\n<blockquote><i>You stare, dumbstruck, at the hideous phantasmagoria. The air shimmers with a dreamlike quality about its damnable form, an endless weave of intermingled nightmare and memory. The very sight of it drives you to your knees. It is the final truth. Reality was the mirage.</i></blockquote>\n每位調查員查找各自牌組，找出所有copy of 忒咳哩-哩 and draws them one at a time in a random order, without placing them on the bottom of the 忒咳哩-哩牌堆. After resolving all of them, shuffle each of them back into their bearer’s deck.",
         "code": "08671",
         "flavor": "Miasma has completely consumed this part of the facility. The walls and ceiling drip with polychromatic ooze, polar mist swirls through the halls, and the air shimmers with the insubstantial quality of a mirage. What manner of power is this? And how can you possibly hope to destroy it?",
         "name": "The Seal Weakens"
@@ -1497,7 +1497,7 @@
     {
         "code": "08680",
         "name": "Unsealed Phantasm",
-        "text": "<b>生成</b> – 最近的Mist-Pylon that is not collapsed (or your location, if there are none in play)。While Unsealed Phantasm is ready and at a Mist-Pylon, damage cannot be dealt to that Mist-Pylon.\n<b>強制</b> – At the end of the enemy phase, if Unsealed Phantasm is ready: Move it once toward the Mist-Pylon nearest to it that is not collapsed.",
+        "text": "<b>生成</b> – 最近的Mist-Pylon that is not collapsed (or your location, if there are none in play)。While Unsealed Phantasm is ready and at a Mist-Pylon, damage cannot be dealt to that Mist-Pylon.\n<b>強制</b> – 當敵軍階段結束時，if Unsealed Phantasm處於準備狀態：Move it once toward the Mist-Pylon nearest to it that is not collapsed.",
         "traits": "怪物. 幻靈. 修格斯."
     },
     {
@@ -1551,354 +1551,352 @@
     },
     {
         "code": "08687",
-        "name": "Primordial Evil",
-        "text": "獵手。 反擊。\n<b>強制</b> – When you deal any amount of damage to Primordial Evil: 將忒咳哩-哩牌堆頂的1張卡牌混洗入你的牌堆，不要查看內容(如果你不能這麼做，Primordial Evil attacks you).",
+        "name": "原初惡魔",
+        "text": "獵手。反擊。\n<b>強制</b> – 在你對原初惡魔造成任意數量的傷害時：將忒咳哩-哩牌堆頂的1張卡牌混洗入你的牌堆，不要查看內容(如果你不能這麼做，原初惡魔攻擊你)。",
         "traits": "怪物. 幻靈"
     },
     {
         "code": "08688",
-        "name": "The Madness Within",
-        "text": "<b>顯現</b> - 檢定[willpower](4)。你檢定失敗且每低於難度1點，將忒咳哩-哩牌堆頂的1張卡牌混洗入你的牌堆，不要查看內容(每有1張卡牌不能混洗入你的牌堆，受到1點恐懼).",
+        "name": "潛藏的瘋狂",
+        "text": "<b>顯現</b> - 檢定[willpower](4)。你檢定失敗且每低於難度1點，將忒咳哩-哩牌堆頂的1張卡牌混洗入你的牌堆，不要查看內容(每有1張卡牌不能混洗入你的牌堆，受到1點恐懼)。",
         "traits": "詛咒"
     },
     {
         "code": "08689",
-        "name": "Manifestation of Madness",
-        "text": "獵手。\n<b>強制</b> – When Manifestation of Madness attacks you: Shuffle the top 2 cards of the 忒咳哩-哩牌堆 into your deck without looking at them (每有1張卡牌不能混洗入你的牌堆，Manifestation of Madness deals +1點傷害 and +1點恐懼 for this attack).",
+        "name": "實體瘋狂",
+        "text": "獵手。\n<b>強制</b> – 在實體瘋狂攻擊你時：將忒咳哩-哩牌堆頂的2張卡牌混洗入你的牌堆，不要查看內容(每有1張卡牌不能混洗入你的牌堆，實體瘋狂該次攻擊造成+1點傷害和+1點恐懼)。",
         "traits": "怪物. 幻靈"
     },
     {
         "code": "08690",
-        "name": "Glacial Phantasm",
-        "text": "<b>強制</b> – At the end of the enemy phase, if Glacial Phantasm is ready: Move it once toward the location with the most investigators. 按玩家順序，each investigator at Glacial Phantasm’s location or a connecting location shuffles the top card of the 忒咳哩-哩牌堆 into their deck without looking at it (每位不能這麼做的調查員takes 1點恐懼).",
+        "name": "冰川幻影",
+        "text": "<b>強制</b> – 當敵軍階段結束時，如果冰川幻影處於準備狀態：將其向調查員最多的地點移動一次。按玩家順序，每位在冰川幻影所在地點或連接地點的調查員，將忒咳哩-哩牌堆頂的1張卡牌混洗入自己的牌堆，不要查看內容(每位不能這麼做的調查員受到1點恐懼)。",
         "traits": "怪物. 幻靈"
     },
     {
         "code": "08691",
-        "name": "Kindred Mist",
-        "text": "<b>顯現</b> – Attach to the nearest location without a copy of Kindred Mist attached.\n<b>強制</b> – When 1 or more cards from the 忒咳哩-哩牌堆 would be shuffled into your deck while you are at attached location: Draw them instead, placing them on the bottom of your deck instead of the bottom of the 忒咳哩-哩牌堆. Discard Kindred Mist at the end of this round.",
+        "name": "同源迷霧",
+        "text": "<b>顯現</b> – 疊加到最近且沒有疊加同源迷霧的地點。\n<b>強制</b> – 你位於被疊加的地點時，在1張或更多忒咳哩-哩牌堆的卡牌將要混洗入你的牌堆時：改為抽取那些卡牌，不要將它們放在忒咳哩-哩牌堆底，改為放在你的牌堆底。當本輪結束時丟棄同源迷霧。",
         "traits": "詛咒"
     },
-
     {
         "code": "08692",
-        "name": "Antarctic Wind",
-        "text": "<b>顯現</b> – Attach to the nearest location without a copy of Antarctic Wind attached. Investigators at attached location cannot play cards or draw cards from their deck.\n<b>強制</b> – At the end of the round: Discard Antarctic Wind.",
+        "name": "南極寒風",
+        "text": "<b>顯現</b> – 疊加到最近且沒有疊加南極寒風的地點。位於被疊加地點的調查員不能打出卡牌，或從自己的牌堆抽取卡牌。\n<b>強制</b> – 當一輪結束時：丟棄南極寒風。",
         "traits": "危險"
     },
     {
         "code": "08693",
-        "name": "Whiteout",
-        "text": "<b>顯現</b> – Attach to your location. Each investigator at attached location gets –1 [willpower], –1 [intellect], –1 [combat], and –1 [agility].\n<b>強制</b> – At the end of the round: Discard Whiteout.",
+        "name": "雪盲危機",
+        "text": "<b>顯現</b> – 疊加到你所在地點。位於被疊加的地點的調查員得到–1[willpower]、–1 [intellect]、–1 [combat]、–1 [agility]。\n<b>強制</b> – 當一輪結束時：丟棄雪盲危機。",
         "traits": "危險"
     },
     {
         "code": "08694",
-        "name": "Polar Vortex",
-        "text": "<b>顯現</b> – Attach to your location.\n<b>強制</b> – When you end your turn at attached location: Each card you control with health <i>(including your investigator)</i> takes 1 direct damage.\n<b>強制</b> – At the end of the round: Discard Polar Vortex.",
+        "name": "極地旋渦",
+        "text": "<b>顯現</b> – 疊加到你所在地點。\n<b>強制</b> – 在你在被疊加地點結束回合時：你控制的每張有生命值的卡牌<i>(包括你的調查員)</i>受到1點直接傷害。\n<b>強制</b> – 當一輪結束時：丟棄極地旋渦。",
         "traits": "危險"
     },
     {
         "code": "08695",
-        "flavor": "\"Of the life of the Old Ones, both under the sea and after part of them migrated to land, volumes could be written.\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Elder Thing Scavenger",
-        "text": "獵手。\n<b>強制</b> – After Elder Thing Scavenger attacks you: Discard the top 3 cards of your deck. Draw each weakness discarded this way.",
+        "flavor": "\"古老者的生活，不論是在海底，還是一部分遷移到陸地上之後，都足以出好幾本書了。\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "古老者清道夫",
+        "text": "獵手。\n<b>強制</b> – 在古老者清道夫攻擊你後：丟棄你牌堆頂3張卡牌。抽取所有以此方式棄掉的弱點。",
         "traits": "怪物. 古老者"
     },
     {
         "code": "08696",
-        "flavor": "\"Of the life of the Old Ones, both under the sea and after part of them migrated to land, volumes could be written.\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Guardian Elder Thing",
-        "text": "獵手。\n<b>強制</b> – When you deal damage to Guardian Elder Thing: For each point of damage dealt, discard the top card of your deck. Draw each weakness discarded this way.",
+        "name": "古老者守衛",
+        "text": "獵手。\n<b>強制</b> – 在你對古老者守衛造成傷害時：每造成1點傷害，丟棄你牌堆頂的1張卡牌。抽取所有以此方式棄掉的弱點。",
         "traits": "怪物. 古老者"
     },
     {
         "code": "08697",
-        "name": "Rise of the Elder Things",
-        "text": "<b>顯現</b> – Find the topmost [[古老者]] enemy in the encounter discard pile and spawn it engaged with you. Each [[古老者]] enemy currently engaged with you gets +1 fight and +1 evade until the end of the round. If Rise of the Elder Things put no enemies into play, it gains surge.",
+        "name": "古老者崛起",
+        "text": "<b>顯現</b> – 找出遭遇棄牌堆最頂部的一張[[古老者]]敵人，並將其生成，與你交戰。當前與你交戰的每個[[古老者]]敵人得到+1攻擊和+1躲避，直到本輪結束。如果古老者崛起沒有放置敵人入場，其獲得湧動。",
         "traits": "危險"
     },
     {
         "code": "08698",
-        "flavor": "One false step...",
-        "name": "Ice Shaft",
-        "text": "<b>顯現</b> – 檢定[agility](3)。For each [frost] token revealed during this test, 受到1點傷害. 如果你檢定失敗，take 2 damage.",
+        "flavor": "走錯一步……",
+        "name": "冰井",
+        "text": "<b>顯現</b> – 檢定[agility](3)。本次檢定期間每抽出一個[frost]標記，受到1點傷害。如果你檢定失敗，受到2點傷害。",
         "traits": "危險"
     },
     {
         "code": "08699",
-        "name": "Through the Ice",
-        "text": "<b>顯現</b> – Attach to the nearest location without a copy of Through the Ice attached.\nAs an additional cost for you to enter or leave attached location (except by a scenario card effect), 檢定[agility](2)。如果你檢定失敗，cancel the effects of the move, 受到1點傷害 and 1點恐懼, and discard Through the Ice.",
+        "name": "穿越冰雪",
+        "text": "<b>顯現</b> – 疊加到最近且沒有疊加穿越冰雪的地點。\n做為你進入或離開被疊加地點(除因冒險卡牌效果外)的額外費用，檢定[agility](2)。如果你檢定失敗，取消本次移動的效果，受到1點傷害和1點恐懼，並丟棄穿越冰雪。",
         "traits": "危險"
     },
     {
         "code": "08700",
-        "name": "Lost Researcher",
-        "text": "<b>生成</b> – Any location (empty, if able).\nLost Researcher enters play with 1 doom on it.\n<b>強制</b> – When Lost Researcher is defeated: Move each doom on it to its location.\n[action]：<b>談判</b>。檢定[willpower]或[intellect](3)。如果你檢定成功，take control of 1 doom on Lost Researcher and flip it to its clue side. Then, if there is no doom on Lost Researcher, discard it.",
+        "name": "迷失的研究員",
+        "text": "<b>生成</b> – 任意地點(如可能，則生成在無人地點)。\n迷失的研究員入場時，帶有1個毀滅標記。\n<b>強制</b> – 在迷失的研究員被擊敗時：將其上的所有毀滅標記移動到其所在地點。\n[action]：<b>談判</b>。檢定[willpower]或[intellect](3)。如果你檢定成功，控制迷失的研究員上的1個毀滅標記並將其翻至線索面。然後，如果迷失的研究員上沒有毀滅標記，將其丟棄。",
         "traits": "類人. 附身"
     },
     {
         "code": "08701",
-        "name": "Lost Researcher",
-        "text": "Frenzied Explorer enters play with 1 doom on it.\n<b>強制</b> – When Frenzied Explorer is defeated: Move each doom on it to its location.\n[reaction] After you successfully evade Frenzied Explorer by 2 or more: Take control of 1 doom on Frenzied Explorer and flip it to its clue side. Then, if there is no doom on Frenzied Explorer, discard it.",
+        "name": "狂亂的探險家",
+        "text": "狂亂的探險家入場時，帶有1個毀滅標記。\n<b>強制</b> – 在狂亂的探險家被擊敗時：將其上的所有毀滅標記移動到其所在地點。\n[reaction]在你成功躲避狂亂的探險家，且超過難度至少2點後：控制狂亂的探險家上的1個毀滅標記並將其翻至線索面。然後，如果狂亂的探險家上沒有毀滅標記，將其丟棄。",
         "traits": "類人. 附身"
     },
     {
         "code": "08702",
-        "name": "Abandoned to Madness",
-        "text": "<b>顯現</b> – Attach to 最近的[[附身]] enemy and place 1 doom on that enemy. If there are no [[附身]] enemies in play, search the encounter deck and discard pile for a [[附身]] enemy, draw it, and attach Abandoned to Madness to it (shuffle the encounter deck).\nIncrease the difficulty to fight, evade, or parley with attached enemy by 1.",
+        "name": "身陷瘋狂",
+        "text": "<b>顯現</b> – 疊加到最近的[[附身]]敵人，並在該敵人上放置1個毀滅標記。如果場上沒有[[附身]]敵人，查找遭遇牌堆及棄牌堆，找出並抽取一個[[附身]]敵人，並將身陷瘋狂疊加到該敵人(混洗遭遇牌堆)。\n攻擊、躲避或與該敵人談判的難度增加1。",
         "traits": "詛咒"
     },
     {
         "code": "08703",
-        "name": "Blasphemous Visions",
-        "text": "<b>顯現</b> – Shuffle the top card of the 忒咳哩-哩牌堆 into your deck without looking at it. Then, put Blasphemous Visions into play in your threat area.\nResolve the effects of each 忒咳哩-哩弱點 you draw an additional time.\n[action]：檢定[willpower](3)。如果你檢定成功，discard Blasphemous Visions.",
-        "traits": "恐怖."
+        "name": "瀆神幻象",
+        "text": "<b>顯現</b> – 將忒咳哩-哩牌堆頂的1張卡牌混洗入你的牌堆，不要查看內容。然後，將瀆神幻象放置入場，放到你的威脅區遇。\n額外結算一次你抽取到的所有忒咳哩-哩弱點的效果。\n[action]：檢定[willpower](3)。如果你檢定成功，丟棄瀆神幻象。",
+        "traits": "恐怖"
     },
     {
         "code": "08704",
-        "name": "Glimpse the Unspeakable",
-        "text": "禍害。\n<b>顯現</b> – Draw the top card of the 忒咳哩-哩牌堆 (and resolve its effects)。Shuffle it into any investigator’s deck instead of placing it on the bottom of the 忒咳哩-哩牌堆. If no 忒咳哩-哩弱點 is drawn by this effect, Glimpse the Unspeakable gains surge.",
-        "traits": "恐怖."
+        "name": "窺看不可說之事",
+        "text": "禍害。\n<b>顯現</b> – 抽取忒咳哩-哩牌堆頂的1張卡牌(並結算其效果)。不要將其放到忒咳哩-哩牌堆底，改為混洗入任意一位調查員的牌堆。如果沒有以此效果抽取忒咳哩-哩弱點，窺看不可說之事獲得湧動。",
+        "traits": "恐怖"
     },
     {
         "code": "08705",
-        "name": "Nightmarish Vapors",
-        "text": "禍害。\n<b>顯現</b> – 你必須(選擇一項)：\n- Lose 2 actions.\n- Shuffle the top 2 cards of the 忒咳哩-哩牌堆 into your deck without looking at them.",
-        "traits": "恐怖."
+        "name": "噩夢煙氣",
+        "text": "禍害。\n<b>顯現</b> – 你必須(選擇一項)：\n- 失去2個行動。\n- 將忒咳哩-哩牌堆頂的2張卡牌混洗入你的牌堆，不要查看內容。",
+        "traits": "恐怖"
     },
     {
         "code": "08706",
-        "name": "Miasmatic Torment",
-        "text": "禍害。\n<b>顯現</b> – If you control a partner asset, exhaust them and attach Miasmatic Torment to them. Otherwise, Miasmatic Torment gains surge.\nAttached asset cannot ready.\n<b>強制</b> – At the end of your turn: Attached asset takes 1點傷害 or 1點恐懼.\n[action]：檢定[willpower]或[intellect](3)。如果你檢定成功，discard Miasmatic Torment.",
+        "name": "瘴氣折磨",
+        "text": "禍害。\n<b>顯現</b> – 如果你控制夥伴支援，將其消耗，並將瘴氣折磨疊加到該支援。否則，瘴氣折磨獲得湧動。\n被疊加的支援不能準備。\n<b>強制</b> – 當你的回合結束時：被疊加的支援受到1點傷害或1點恐懼。\n[action]：檢定[willpower]或[intellect](3)。如果你檢定成功，丟棄瘴氣折磨。",
         "traits": "詛咒"
     },
     {
         "code": "08707",
-        "name": "Nebulous Miasma",
-        "text": "禍害。\n<b>顯現</b> – Attach to your location.\n<b>強制</b> – When you end your turn at attached location: Each card you control with sanity <i>(including your investigator)</i> takes 1 direct horror.\n<b>強制</b> – At the end of the round: Discard Nebulous Miasma.",
-        "traits": "詛咒. 危險."
+        "name": "朦朧瘴氣",
+        "text": "禍害。\n<b>顯現</b> – 疊加到你所在地點。\n<b>強制</b> – 在你在被疊加地點結束回合時：你控制的每張有神智值的卡牌<i>(包括你的調查員)</i>受到1點直接恐懼。\n<b>強制</b> – 當一輪結束時：丟棄朦朧瘴氣。",
+        "traits": "詛咒. 危險"
     },
     {
         "code": "08708",
-        "flavor": "\"...it was only a penguin - albeit of a huge, unknown species larger than the greatest of the known king penguins, and monstrous in its combined albinism and virtual eyelessness.\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Giant Albino Penguin",
-        "text": "冷漠。\nAs an additional cost for you to enter or leave this enemy’s location, you must spend 1 action.",
-        "traits": "Creature."
+        "flavor": "\"……那只是一隻企鵝——是一種未知的巨型白化種，比國王企鵝中已知最大的還要大，而其白化的外觀和無目的的眼睛非常怪異。\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "巨型白化企鵝",
+        "text": "冷漠。\n作為進入或離開本敵人所在地點的額外費用，你必須花費1個行動。",
+        "traits": "生物"
     },
     {
         "code": "08709",
-        "name": "Wuk! Wuk! Wuk!",
-        "text": "<b>顯現</b> – Find the Giant Albino Penguin enemy farthest from you. 你必須move it to your location or place 1 doom on it. If there are no Giant Albino Penguins in play, search the encounter deck and discard pile for a Giant Albino Penguin, draw it, and shuffle the encounter deck.",
-        "traits": "危險."
+        "name": "嗚啊！嗚啊！嗚啊！",
+        "text": "<b>顯現</b> – 找到離你最遠的巨型白化企鵝敵人。你必須將其移動到你所在地點，或在其上放置1個毀滅標記。如果場上沒有巨型白化企鵝，查找遭遇牌堆和棄牌堆，找出並抽取一個巨型白化企鵝，並混洗遭遇牌堆。",
+        "traits": "危險"
     },
     {
         "code": "08710",
-        "flavor": "\"...shoggoths and their work ought not to be seen by human beings or portrayed by any beings.\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Forgotten Shoggoth",
-        "text": "獵手。\n<b>強制</b> – After Forgotten Shoggoth engages you: Draw the top card of the 忒咳哩-哩牌堆 (如果你不能這麼做，Forgotten Shoggoth attacks you).",
-        "traits": "怪物. 修格斯."
+        "flavor": "\"……修格斯與其作為，不該被任何人目睹，也不該被任何生物記述。\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "失落的修格斯",
+        "text": "獵手。\n<b>強制</b> – 在失落的修格斯與你交戰後：抽取忒咳哩-哩牌堆頂的1張卡牌(如果你不能這麼做，失落的修格斯攻擊你)。",
+        "traits": "怪物. 修格斯"
     },
     {
         "code": "08711",
-        "name": "Rampaging Shoggoth",
-        "text": "獵手。 龐大。\nRampaging Shoggoth gets +2 [per_investigator]生命值。\n<b>強制</b> – At the end of the enemy phase: Deal 2 damage to each investigator and non-[[修格斯]] enemy at Rampaging Shoggoth’s location. Each of those investigators draws the top card of the 忒咳哩-哩牌堆.",
+        "name": "狂暴的修格斯",
+        "text": "獵手。 龐大。\n狂暴的修格斯擁有+2[per_investigator]生命值。\n<b>強制</b> – 當敵軍階段結束時：對狂暴的修格斯所在地點的每位調查員和每個非[[修格斯]]敵人造成2點傷害。這些調查員各自抽取忒咳哩-哩牌堆頂的1張卡牌。",
         "traits": "怪物. 修格斯. 精英"
     },
     {
         "code": "08712",
-        "name": "Polar Mirage",
-        "text": "<b>顯現</b> – Attach to the nearest location with at least 1 clue, and without a copy of Polar Mirage attached.\n<b>強制</b> – After you discover or take control of 1 or more clues at attached location: Discard each non-weakness card in your hand. Discard Polar Mirage.",
-        "traits": "恐怖."
+        "name": "極地幻景",
+        "text": "<b>顯現</b> – 疊加到最近的有線索且沒有疊加極地幻景的地點。\n<b>強制</b> – 在你發現或控制被疊加地點的線索後：丟棄你手中所有非弱點卡牌。丟棄極地幻景。",
+        "traits": "恐怖"
     },
     {
         "code": "08713",
-        "flavor": "\"The phosphorescent organisms supplied light with vast effectiveness, and doubtless atoned for the loss of the familiar polar auroras of the outer-world night.\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Dark Aurora",
-        "text": "<b>顯現</b> – 檢定[willpower](3)。For each [frost] token revealed during this test, 受到1點恐懼. 如果你檢定失敗，take 2 horror.",
-        "traits": "恐怖."
+        "flavor": "\"這種磷光生物提供的光線非常有效，毫無疑問，此處缺失的如同外界夜晚的極光的問題被它彌補了。\"\n – H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "黑暗極光",
+        "text": "<b>顯現</b> – 檢定[willpower](3)。本次檢定期間每抽出一個[frost]標記，受到1點恐懼。如果你檢定失敗，受到2點恐懼。",
+        "traits": "恐怖"
     },
     {
         "code": "08714",
-        "flavor": "\"Doubt of the real facts, as I must reveal them, is inevitable.\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "flavor": "\"我必須揭露事實真相，儘管質疑是無法避免的。\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
         "name": "威廉·戴爾教授",
         "subname": "地質學教授",
-        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗威廉·戴爾教授: Heal 2 horror from an investigator or another [[盟友]] asset at your location.",
-        "traits": "盟友. 米斯卡塔尼克."
+        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗威廉·戴爾教授：治癒你所在地點的一位調查員或另一個[[盟友]]支援2點恐懼。",
+        "traits": "盟友. 米斯卡塔尼克"
     },
     {
         "code": "08715",
-        "flavor": "\"丹佛斯 was a great reader of bizarre material...\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "flavor": "\"丹佛斯讀了不少稀奇古怪的書……\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
         "name": "丹佛斯",
         "subname": "傑出學生",
-        "text": "夥伴。使用(5秘密)。\n[reaction] After an investigator at your location resolves a 忒咳哩-哩弱點, exhaust 丹佛斯 and spend 1 secret: That investigator draws 2 cards.",
-        "traits": "盟友. 米斯卡塔尼克."
+        "text": "夥伴。使用(5秘密)。\n[reaction]在你所在地點的一位調查員結算忒咳哩-哩弱點後，消耗丹佛斯並花費1秘密：該調查員抽取2張卡牌。",
+        "traits": "盟友. 米斯卡塔尼克"
     },
     {
         "code": "08716",
-        "flavor": "\"Anyu's got the scent. Haven't you, girl?\"",
+        "flavor": "\"安雨聞到了氣味。是吧，小姑娘？\"",
         "name": "伊里亞·阿什瓦克",
         "subname": "馴犬師",
-        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗伊里亞·阿什瓦克: <b>躲避</b>。 Attempt to evade with a base [agility] skill of 5. 如果你檢定成功，you may move to a connecting location.",
-        "traits": "盟友. 旅人."
+        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗伊里亞·阿什瓦克：<b>躲避</b>。以基礎[agility]值為5的躲避。如果你檢定成功，你可以移動到一個連接地點。",
+        "traits": "盟友. 旅人"
     },
     {
         "code": "08717",
-        "flavor": "\"Want to survive the trip? Good. Then don't get on my bad side.\"",
+        "flavor": "\"想活著回去嗎？很好。那就不要惹毛我。\"",
         "name": "瑪拉·辛哈醫生",
         "subname": "無畏醫師",
-        "text": "夥伴。使用(3補給)。\n[action]花費1補給並消耗瑪拉·辛哈醫生: Heal 2 damage from an investigator or another [[盟友]] asset at your location.",
-        "traits": "盟友. 旅人."
+        "text": "夥伴。使用(3補給)。\n[action]花費1補給並消耗瑪拉·辛哈醫生：治癒你所在地點的一位調查員或另一個[[盟友]]支援2點傷害。",
+        "traits": "盟友. 旅人"
     },
     {
         "code": "08718",
-        "flavor": "\"Weather is turning foul again. I would tell you to turn back, but I gather you would refuse - right?\"",
+        "flavor": "\"天氣又變壞了。我建議你回頭，但我猜你不會同意——是吧？\"",
         "name": "艾弗里·克萊普爾",
         "subname": "南極嚮導",
-        "text": "夥伴。使用(5補給)。\n[reaction] When an investigator at your location reveals a [frost] token during a skill test, exhaust 艾弗里·克萊普爾 and spend 1 supply: Cancel that token and reveal a new one.",
-        "traits": "盟友. 旅人."
+        "text": "夥伴。使用(5補給)。\n[reaction]技能檢定期間，在你所在地點的一位調查員抽出一個[frost]標記時，消耗艾弗里·克萊普爾並花費1補給：取消該標記並抽出一個新的標記。",
+        "traits": "盟友. 旅人"
     },
     {
         "code": "08719",
-        "flavor": "\"No I ain't leavin' my damn gun back at camp!\"",
+        "flavor": "\"老子可不打算把槍留在營地裡！\"",
         "name": "詹姆斯·\"曲奇\"·弗雷德里克斯",
         "subname": "不可靠人選",
-        "text": "夥伴。使用(3子彈)。\n[action] 花費1子彈並消耗詹姆斯·\"曲奇\"·弗雷德里克斯: <b>攻擊</b>。 Fight with a base [combat] skill of 5. If you succceed and the attacked enemy is 非[[精英]], it cannot attack for the remainder of the round.",
-        "traits": "盟友. 老兵. 旅人."
+        "text": "夥伴。使用(3子彈)。\n[action] 花費1子彈並消耗詹姆斯·\"曲奇\"·弗雷德里克斯：<b>攻擊</b>。以基礎[combat]值為5的攻擊。如果你檢定成功，且被攻擊的敵人非[[精英]]，則直到本輪結束其不能攻擊。",
+        "traits": "盟友. 老兵. 旅人"
     },
     {
         "code": "08720",
-        "flavor": "\"All of this is so fascinating! Do you not agree?\"",
+        "flavor": "\"這一切太迷人了！你不這麼認為嗎？\"",
         "name": "艾米·肯斯勒博士",
         "subname": "生物學教授",
-        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗艾米·肯斯勒博士：<b>調查</b>。 Investigate with a base [intellect] skill of 5. If you succceed, look at the top card of any investigator's deck or the encounter deck. You may discard that card.",
-        "traits": "盟友. 米斯卡塔尼克."
+        "text": "夥伴。使用(3秘密)。\n[action]花費1秘密並消耗艾米·肯斯勒博士：<b>調查</b>。以基礎[intellect]值為5的調查。如果你檢定成功，查看任意一位調查員牌堆頂的1張卡牌或遭遇牌堆頂的1張卡牌。你可以丟棄該卡牌。",
+        "traits": "盟友. 米斯卡塔尼克"
     },
     {
         "code": "08721",
-        "flavor": "\"I have been all over the world. Please, just trust me.\"",
+        "flavor": "\"我去過世界各地。拜託了，相信我就行。\"",
         "name": "羅爾德·埃爾斯沃思",
         "subname": "英勇的探險家",
-        "text": "夥伴。使用(5補給)。\n[fast] During an investigator's turn, exhaust 羅爾德·埃爾斯沃思 and spend 1 supply: Choose a treachery attached to any location. Treat that treachery's text box as if it were blank until the end of this turn.",
-        "traits": "盟友. 米斯卡塔尼克. 旅人."
+        "text": "夥伴。使用(5補給)。\n[fast]任意調查員回合期間，消耗羅爾德·埃爾斯沃思並花費1補給：選擇一張疊加到任意地點的詭計。將所選詭計的印刷文字方塊視為如同空白，直到本回合結束。",
+        "traits": "盟友. 米斯卡塔尼克. 旅人"
     },
     {
         "code": "08722",
-        "flavor": "\"Nobody knows these machines better than I do.\"",
+        "flavor": "\"沒有人比我更瞭解這些機器。\"",
         "name": "高田弘子",
         "subname": "飛機技師",
-        "text": "夥伴。使用(9資源)。\n[action] Exhaust 高田弘子: Move up to 3 resources from 高田弘子 to your resource pool.",
-        "traits": "盟友. 旅人."
+        "text": "夥伴。使用(9資源)。\n[action]消耗高田弘子：將高田弘子上的最多3資源移動到你的資源池。",
+        "traits": "盟友. 旅人"
     },
     {
         "code": "08723",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - 受到1點恐懼. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 受到1點恐懼。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08724",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - 受到1點傷害. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 受到1點傷害。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08725",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - Discard 1 card at random from your hand. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 隨機丟棄1張手牌。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08726",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - Lose 2 resources. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 失去2資源。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08727",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - If it is your turn, lose 1 action. Otherwise, lose 1 action during your next turn. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 如果現在是你的回合，失去1個行動。否則，你的下一個回合失去1個行動。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08728",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - 將你的1個線索放到你所在地點。 Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 將你的1個線索放到你所在地點。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08729",
-        "flavor": "\"Still came that eldritch, mocking cry - '忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
-        "name": "Tekeli-li",
-        "text": "<b>顯現</b> - 從場上丟棄一個非[[精英]]屬性的asset you control. Place Tekeli-li on the bottom of the 忒咳哩-哩牌堆.",
-        "traits": "瘋狂."
+        "flavor": "\"耳邊依舊傳來那怪異、嘲弄般的喊聲——'忒咳哩-哩！忒咳哩-哩！'\"\n - H. P. 洛夫克拉夫特《瘋狂山脈》",
+        "name": "忒咳哩-哩",
+        "text": "<b>顯現</b> - 丟棄你控制的一張支援。將忒咳哩-哩放到忒咳哩-哩牌堆底。",
+        "traits": "瘋狂"
     },
     {
         "code": "08730",
-        "name": "克萊普爾's Furs",
-        "slot": "Body",
-        "text": "Fast.\n[reaction]在你在技能檢定期間抽出[frost]標記時, deal 1點傷害 to 克萊普爾's Furs: Cancel that chaos token and return it to the bag. Reveal a new chaos token.",
-        "traits": "道具. Clothing."
+        "name": "克萊普爾的皮草",
+        "slot": "服裝",
+        "text": "快速。\n[reaction]你執行的技能檢定期間，在你抽出一個[frost]標記時，對克萊普爾的皮草造成1點傷害：取消該混亂標記並將其返回混亂袋。抽出一個新的混亂標記。",
+        "traits": "道具. 服裝"
     },
     {
         "code": "08731",
-        "name": "Collected Works of Poe",
-        "slot": "Hand",
-        "text": "使用(3充能)。\n[action]花費1充能： Choose an investigator at your location to search the top 6 cards of their deck for each copy of Tekeli-li and place each of them on the bottom of the 忒咳哩-哩牌堆. Shuffle that investigator's deck. That investigator draws 1 card.",
-        "traits": "道具. Tome."
+        "name": "愛倫·坡作品集",
+        "slot": "手部",
+        "text": "使用(3充能)。\n[action]花費1充能：選擇你所在地點的一位調查員，其查找自己牌堆頂的6張卡牌，找出其中所有忒咳哩-哩，並將這些卡牌都放在忒咳哩-哩牌堆底。混洗該調查員的牌堆。該調查員抽取1張卡牌。",
+        "traits": "道具. 書籍"
     },
     {
         "code": "08732",
-        "name": "Cookie's Custom .32",
-        "slot": "Hand",
-        "text": "Fast. 使用(2子彈)。\n[action] Spend 1 ammo: <b>攻擊</b>。 Either fight with a base [combat] skill of 5, or get +2 [combat] for this attack. This attack deals +1點傷害.",
-        "traits": "道具. Weapon. Firearm."
+        "name": "曲奇的特製.32手槍",
+        "slot": "手部",
+        "text": "快速。 使用(2子彈)。\n[action]花費1子彈：<b>攻擊</b>。以基礎[combat]值為5的攻擊，或者本次攻擊得到+2[combat]。本次攻擊造成+1點傷害。",
+        "traits": "道具. 武器. 槍械"
     },
     {
         "code": "08733",
-        "flavor": "Professor Dyer kept many sketches depicting the creatures he encountered.",
-        "name": "Dyer's Sketches",
-        "text": "Fast. Play during any [fast] window.\nDraw 3 cards.",
-        "traits": "Insight."
+        "flavor": "戴爾教授保留著許多描繪著他遇到的生物的素描。",
+        "name": "戴爾的素描",
+        "text": "快速。可在任何[fast]時間段期間打出。\n抽取3張卡牌。",
+        "traits": "洞察"
     },
     {
         "code": "08734",
-        "name": "埃爾斯沃思's Boots",
-        "text": "Limit 1 [[Footwear]] per investigator.\n[reaction] After the last clue is discovered from your location, exhaust 埃爾斯沃思's Boots: Move to a connecting location, or discard 埃爾斯沃思's Boots to move to any revealed location.",
-        "traits": "道具. Clothing. Footwear."
+        "name": "埃爾斯沃思的靴子",
+        "text": "每位調查員限制1張[[鞋子]]。\n[reaction]在你所在地點的最後一個線索被發現後，消耗埃爾斯沃思的靴子：移動到一個連接地點，或者丟棄埃爾斯沃思的靴子來移動到任意一個已揭示地點。",
+        "traits": "道具. 服裝. 鞋子"
     },
     {
         "code": "08735",
-        "name": "Kensler's Log",
-        "slot": "Hand",
-        "text": "Fast. 使用(2秘密)。\n[action] Spend 1 secret：<b>調查</b>。 Either investigate with a base [intellect] skill of 5, or get +2 [intellect] for this investigation. 如果你檢定成功，you discover 1 additional clue at your location.",
-        "traits": "道具. Tome."
+        "name": "肯斯勒的日誌",
+        "slot": "手部",
+        "text": "快速。使用(2秘密)。\n[action]花費1秘密：<b>調查</b>。以基礎[intellect]值為5的調查，或者本次調查得到+2[intellect]。如果你檢定成功，發現你所在地點額外1個線索。",
+        "traits": "道具. 書籍"
     },
     {
         "code": "08736",
-        "name": "Sinha's Medical Kit",
-        "text": "使用(3補給)。\n[fast] Exhaust Sinha's Medical Kit and spend 1 supply: Heal 1點傷害 or 1點恐懼 from an investigator or [[盟友]] asset at your location.",
-        "traits": "道具. Science."
+        "name": "辛哈的醫藥箱",
+        "text": "使用(3補給)。\n[fast]消耗辛哈的醫藥箱並花費1補給：治癒你所在地點的一位調查員或一個[[盟友]]支援的1點傷害或1點恐懼。",
+        "traits": "道具. 科學"
     },
     {
         "code": "08737",
-        "flavor": "高田 left these spare supplies behind. Maybe you can make use of them.",
-        "name": "高田's Cache",
-        "text": "Fast. Play during any [fast] window.\nGain 3 resources and draw 1 card. Remove 高田's Cache from the game.",
-        "traits": "Supply."
+        "flavor": "高田留下了這些備用物資。也許你可以利用它們。",
+        "name": "高田的物品",
+        "text": "快速。可在任何[fast]時間段期間打出。\n獲得3資源並抽取1張卡牌。將高田的物品從遊戲中移除。",
+        "traits": "供給"
     },
     {
         "code": "08738",
-        "name": "Anyu",
-        "slot": "Ally",
-        "subname": "Faithful Companion",
-        "text": "[fast] Exhaust Anyu: Choose one, or discard Anyu to choose up to three, in any order -\n - Move to a connecting location.\n - You get +2 skill value for your next skill test this round.\n - <b>躲避</b>。 Attempt to evade with a base [agility] skill of 4.",
-        "traits": "盟友. Creature."
+        "name": "安雨",
+        "slot": "盟友",
+        "subname": "忠誠伴侶",
+        "text": "[fast]消耗安雨：選擇一項，或丟棄安雨來選擇最多三項(以任意順序)——\n- 移動到一個連接地點。\n- 本輪下次技能檢定中你得到技能值+2。\n - <b>躲避</b>。以基礎[agility]值為4的躲避。",
+        "traits": "盟友. 生物"
     }
 ]
