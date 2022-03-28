@@ -1,36 +1,104 @@
 [
     {
+        "code": "07108",
+        "flavor": "„Dmuchnij w niego jeszcze raz, a sprawię, że się nim udławisz”.",
+        "name": "Gwizdek policyjny",
+        "text": "Podczas twojej tury możesz wykonać dodatkową akcję, która może być zużyta tylko na <b>wejście w zwarcie</b>.",
+        "traits": "Przedmiot. Narzędzie.",
+        "slot": "Drobiazg"
+    },
+    {
+        "code": "07109",
+        "flavor": "Lita zmrużyła oczy i wzmocniła chwyt. Nie uciekną. Nie tym razem. Już nigdy więcej.",
+        "name": "Szlachetne polowanie",
+        "text": "<b>Wejście w zwarcie.</b> Wybierz wroga znajdującego się w lokalizacji oddalonej o maksymalnie 2 połączenia. Porusz się (po jednej lokalizacji na raz) do lokalizacji danego wroga, wejdź z nim w zwarcie i dodaj do worka chaosu żetony [bless] w liczbie równej wartości przerażenia danego wroga.",
+        "traits": "Taktyka. Błogosławiony."
+    },
+    {
+        "code": "07110",
+        "name": "Święte Przymierze",
+        "text": "Trwały. Limit 1 karta z cechą [[Przymierze]] na talię.\n[reaction] Po tym, jak badacz w dowolnej lokalizacji wykona krok testu „odkryj żeton chaosu”, wyczerp Święte Przymierze: odłóż do worka chaosu dowolną liczbę żetonów [bless] odkrytych podczas tego testu, ignorując ich modyfikatory dla tego testu.",
+        "traits": "Przymierze. Błogosławiony."
+    },
+    {
         "code": "07111",
-        "flavor": "Once you let go of your assumptions, anything is possible",
-        "name": "Eldritch Sophist",
-        "text": "Uses (3 secrets).\n[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",
-        "traits": "Ally. Miskatonic",
-        "slot": "Ally"
+        "flavor": "Gdy uwolnisz się od swoich przekonań, wszystko stanie się możliwe.",
+        "name": "Tajemniczy sofista",
+        "text": "Zużywalny (3 sekrety).\n[fast]: Wyczerp Tajemniczego sofistę: porusz 1 sekret lub 1 ładunek z atutu, który kontrolujesz, na inny atut kontrolowany przez dowolnego badacza w twojej lokalizacji.",
+        "traits": "Sprzymierzeniec. Miskatonic",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "07112",
+        "flavor": "Kiedy zaczniesz podążać jakimś tropem, nigdy nie wiadomo, co znajdziesz na jego końcu.",
+        "name": "Proszenie się o kłopoty",
+        "text": "Jako dodatkowy koszt zagrania Proszenia się o kłopoty dodaj do worka chaosu żetony [curse] w liczbie równej wartości zasłony twojej lokalizacji.\nOdkryj 2 żetony wskazówek w twojej lokalizacji.",
+        "traits": "Informacja. Przeklęty."
     },
     {
         "code": "07113",
-        "name": "Blasphemous Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",
-        "traits": "Covenant. Cursed."
+        "name": "Bluźniercze Przymierze",
+        "text": "Trwały. Limit 1 karta z cechą [[Przymierze]] na talię.\n[reaction] Kiedy dowolny badacz w twojej lokalizacji podczas testu umiejętności odkryje żeton [curse], wyczerp Bluźniercze Przymierze: traktuj modyfikator danego żetonu jako +1 zamiast jego normalnego modyfikatora. Po tym, jak ten test się zakończy, odłóż dany żeton z powrotem do worka chaosu.",
+        "traits": "Przymierze. Przeklęty."
+    },
+    {
+        "code": "07114",
+        "flavor": "Jeśli będziesz ostrożny, pozostanie „dyskretne”.",
+        "name": "Dyskretne włamanie",
+        "text": "<b>Badanie.</b> Dodaj wartość twojej [agility] do wartości twojej umiejętności do tego badania. Jeśli test zakończy się sukcesem o 2 lub więcej, możesz automatycznie wymknąć się wrogowi w tej lokalizacji. Ta akcja nie wywołuje ataków towarzyszących.",
+        "traits": "Sztuczka."
     },
     {
         "code": "07115",
-        "flavor": "\"Oh, hooey. What's the worst that could happen?\"",
-        "name": "Skeptic",
-        "text": "During this skill test, treat the modifier of each [bless] and each [curse] token as +1 instead of its normal modifier.",
-        "traits": "Practiced."
+        "flavor": "Dajcie spokój. Co złego może cię stać?”",
+        "name": "Sceptyk",
+        "text": "Podczas tego testu umiejętności traktuj modyfikator każdego żetonu [bless] i każdego żetonu [curse] jako +1 zamiast ich normalnych modyfikatorów.",
+        "traits": "Nabyta."
+    },
+    {
+        "code": "07116",
+        "name": "Fałszywe Przymierze",
+        "text": "Trwały. Limit 1 karta z cechą [[Przymierze]] na talię.\n[reaction] Kiedy dowolny badacz w twojej lokalizacji podczas testu umiejętności odkryje żeton [curse], wyczerp Fałszywe Przymierze: anuluj dany żeton chaosu, odłóż go z powrotem do puli żetonów i odkryj nowy żeton.",
+        "traits": "Przymierze. Przeklęty."
+    },
+    {
+        "code": "07117",
+        "name": "Armagedon",
+        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Walka.</b> Ten atak używa [willpower] zamiast [combat] i zadaje +1 obrażenie. Jeśli podczas tego ataku zostanie odkryty żeton [curse], możesz zadać 1 obrażenie wrogowi w twojej lokalizacji albo umieścić 1 ładunek na Armagedonie.",
+        "traits": "Zaklęcie. Przeklęty.",
+        "slot": "Mistyczna"
     },
     {
         "code": "07118",
-        "name": "Eye of Chaos",
-        "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect] If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
-        "traits": "Spell. Cursed.",
-        "slot": "Arcane"
+        "name": "Oko chaosu",
+        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Badanie.</b> Przeprowadź badanie przy pomocy [willpower] zamiast [intellect]. Jeśli test zakończy się sukcesem, odkryj w tej lokalizacji 1 dodatkowy żeton wskazówki. Jeśli podczas tego badania został odkryty żeton [curse], możesz odkryć 1 żeton wskazówki w połączonej lokalizacji albo umieścić 1 ładunek na Oku chaosu.",
+        "traits": "Zaklęcie. Przeklęty.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "07119",
+        "name": "Całun cieni",
+        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Wymykanie się.</b> Ta próba wymknięcia się używa [willpower] zamiast [agility]. Jeśli test zakończy się sukcesem, a wróg, któremu udało się wymknąć, jest nie-[[Elitarny]], możesz poruszyć danego wroga do połączonej lokalizacji. Jeśli podczas tej próby wymknięcia się został odkryty żeton [curse] możesz poruszyć się do połączonej lokalizacji albo umieścić 1 ładunek na Całunie cieni.",
+        "traits": "Zaklęcie. Przeklęty.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "07120",
+        "name": "Paradoksalne Przymierze",
+        "text": "Trwały. Limit 1 karta z cechą [[Przymierze]] na talię.\n[reaction] Po tym, jak badacz w twojej lokalizacji wykona krok testu „odkryj żeton chaosu”, jeśli podczas danego testu został odkryty zarówno żeton [bless], jak i [curse], wyczerp Paradoksalne Przymierze: ten test automatycznie kończy się sukcesem. <i>(Po zakończeniu tego testu usuń każdy odkryty z worka chaosu żeton [bless] oraz [curse].)</i>",
+        "traits": "Przymierze. Błogosławiony. Przeklęty."
+    },
+    {
+        "code": "07121",
+        "name": "Kompas marynarza",
+        "text": "[action] Wyczerp Kompas marynarza: <b>Badanie.</b> Jeśli test zakończy się sukcesem i w twojej puli żetonów nie ma żadnych żetonów zasobów, odkryj 1 dodatkowy żeton wskazówki w twojej lokalizacji.\n[fast] Wydaj 1 żeton zasobu podczas badania, w którym używany jest Kompas marynarza: dostajesz +1 [intellect] do tego testu umiejętności. (Limit trzy razy na badanie).",
+        "traits": "Przedmiot. Narzędzie.",
+        "slot": "Ręka"
     },
     {
         "code": "07122",
-        "name": "Ancient Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",
-        "traits": "Covenant. Blessed."
+        "name": "Starożytne Przymierze",
+        "text": "Trwały. Limit 1 karta z cechą [[Przymierze]] na talię.\n[reaction] Kiedy badacz w twojej lokalizacji podczas testu umiejętności rozpatruje żeton [bless], wyczerp Starożytne Przymierze: nie odkrywaj kolejnego żetonu z efektu tego żetonu [bless].",
+        "traits": "Przymierze. Błogosławiony."
     }
 ]
