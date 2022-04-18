@@ -1,48 +1,48 @@
 [
     {
         "code": "90011",
-        "name": "All or Nothing",
-        "text": "Easy / Standard\n[skull]: -1 for each clue you have.\n[cultist]: -2 (-4 instead if you have 10 or more resources).\n[tablet]: -2. If you fail, lose 3 resources.\n[elder_thing]: -3. If you fail, \"Skids\" O'Toole takes 1 horror.",
-        "back_text": "Hard / Expert\n[skull]: -2 for each clue you have.\n[cultist]: -4 (-8 instead if you have 10 or more resources).\n[tablet]: -3. Lose 3 resources.\n[elder_thing]: -5. If you fail, \"Skids\" O'Toole takes 1 horror."
+        "name": "모 아니면 도",
+        "text": "쉬움 / 보통\n[skull]: 당신이 가진 단서마다 -1\n[cultist]: -2 (당신이 자원을 10개 이상 가지고 있다면, -2 대신 -4).\n[tablet]: -2. 실패하면, 자원을 3개 잃습니다.\n[elder_thing]: -3. 실패하면, ‘스키즈 오’툴’은 공포를 1 받습니다.",
+        "back_text": "어려움 / 전문가\n[skull]: 당신이 가진 단서마다 -2\n[cultist]: -4 (당신이 자원을 10개 이상 가지고 있다면, -4 대신 -8).\n[tablet]: -3. 자원을 3개 잃습니다.\n[elder_thing]: -5. 실패하면, ‘스키즈 오’툴’은 공포를 1 받습니다."
     },
     {
         "code": "90012",
         "flavor": "The Clover Club is filled with mobsters and gamblers from all walks of life. Winning big without causing alarm may not be as easy as you thought.",
-        "name": "Eyes All Around You",
+        "name": "감시의 눈길",
         "text": "[action] If you are in the Clover Club Cardroom, spend any number of clues: You cash in your chips. Gain 5 resources for each clue just spent.\n<b>Forced</b> - If \"Skids\" O'Toole is defeated: <b>(→R2)</b>",
-        "back_name": "The Mob Always Wins",
+        "back_name": "떡대들은 언제나 이긴다",
         "back_flavor": "It's getting late, and you've been gambling all night. Exhausted, you try to stand up, but stumble and spill your drink all over a scruffy-looking fellow at your table. Slowly turning to you with a wicked scowl, the husky hoodlum stares at you with contempt. The man leaps out of his seat and lunges at you. Now you've done it. The mobsters are sure to kick you out...",
         "back_text": "Each investigator who has not resigned is defeated and suffers 1 physical trauma.\nIf \"Skids\" O'Toole has resigned, proceed to <b>(→R1)</b>. Otherwise, proceed to <b>(→R2)</b>"
     },
     {
         "code": "90013",
         "flavor": "You don't want trouble, so it's best not to cause it. Try not to go all in too soon, or you'll likely take the bounce.",
-        "name": "Playing Cards",
+        "name": "카드 게임",
         "text": "Investigators cannot resign.\nClover Club Pit Boss gains aloof.\n<b>Forced</b> - After a [[Criminal]] enemy is defeated: Place 1 doom on the agenda.\n<b>Objective</b> - At the end of the round: If an investigator has 15 or more resources, advance.",
-        "back_name": "Feeling the Heat",
+        "back_name": "도박장의 열기",
         "back_flavor": "Fueled by luck and adrenaline, you've wont a bit too much and failed to keep a low profile. The O'Bannions know you're here and despise having their money stolen by \"cheaters.\" A commanding voice from La Bella Luna calls out, \"That O'Toole vermin is here. Split up and get him!\"\nYou freeze and your mind clears at the sound of your name. It may be time to stop. Once-oblivious mobsters now rise and pursue you with fierce determination. Do you confront the trouble before escaping out the front, or do you try to find the back door?",
         "back_text": "Spawn the set-aside Siobhan Riley enemy in La Bella Luna. Each investigator spawns 1 set-aside Clover Club Bouncer enemy engaged with them."
     },
     {
         "code": "90014",
         "flavor": "Collect your winnings and escape!",
-        "name": "Hot on your Tail",
+        "name": "맹렬한 추격",
         "text": "Each [[Criminal]] enemy gains hunter and gets +1 health.\n<b>Forced</b> - When an investigator resigns: Place each of that investigator's resources on this act.\n<b>Objective</b> - Collect as many resources as you can and get out. When each undefeated investigator has resigned, advance.",
-        "back_name": "The Thrill of Victory",
+        "back_name": "승리의 짜릿함",
         "back_flavor": "You run out the door and sprint around the corner, winnings in hand. The adrenaline rush is like no other. Once at a safe distance, you count your money. You take a deep breath and are relieved; this outing put a big dent in your debts. Surely this night will only add to your reputation. Lady Luck is always on your side!",
         "back_text": "<b>(→R1)</b>"
     },
     {
         "code": "90015",
-        "name": "Siobhan Riley",
-        "subname": "O'Bannion Enforcer",
+        "name": "쇼번 라일리",
+        "subname": "오베니언 행동대장",
         "text": "<b>Forced</b> - After Siobhan Riley engages you: For every 5 resources you have, lose 1 resource.\n<b>Forced</b> - After an investigator at Siobhan Riley's location gains 1 or more resources during the investigation phase: Siobhan Riley readies, engages that investigator, and makes an attack.",
-        "traits": "Humanoid. Criminal. Elite."
+        "traits": "인간형. 범죄자. 정예."
     },
     {
         "code": "90016",
-        "name": "Clover Club Bouncer",
+        "name": "클로버 클럽 문지기",
         "text": "When Clover Club Bouncer is engaged with you, it gets +1 fight and +1 evade for every 5 resources you have.\n[action] Spend 3 resources: <b>Parley.</b> Test [intellect] (2). If you succeed, disengage from Clover Club Bouncer and exhaust it. It does not ready during the next upkeep phase.",
-        "traits": "Humanoid. Criminal."
+        "traits": "인간형. 범죄자."
     }
 ]
