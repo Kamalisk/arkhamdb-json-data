@@ -1,0 +1,81 @@
+[
+  {
+      "back_flavor": "Charlie Kane promised the people of Arkham a safer future. He made a lot of promises - lower taxes, better schools, less crime. It was part of the job, after all. And although he sometimes had to do things he wasn't proud of, Charlie always did work for the greater good. So when he started hearing the reports, he put the people first. Of course, he couldn't tell anyone. Widespread panic would not serve the public good. Besides, who'd believe him? Still, Charlie has always had connections in town. So he made a few calls, put a task force together, and went to work.",
+      "back_text": "<b>Deck Size</b>: 30.\n<b>Class Choices</b>: At deck creation, choose 2 classes ([guardian], [seeker], [rogue], [mystic], or [survivor]).\n<b>Deckbuilding Options</b>: [[Ally]] cards level 0-5, Neutral cards level 0-5, cards from your chosen classes level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonnie Walsh, Burden of Leadership, 1 random basic weakness.",
+      "code": "09018",
+      "deck_limit": 1,
+      "deck_options": [
+          { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
+          { "trait": ["ally"], "level": { "min": 0, "max": 5 } },
+          {
+              "name": "Class Choice",
+              "id": "faction_1",
+              "faction_select": ["guardian", "seeker", "rogue", "mystic", "survivor"],
+              "level": { "min": 0, "max": 2 }
+          },
+          {
+              "name": "Class Choice",
+              "id": "faction_2",
+              "faction_select": ["guardian", "seeker", "rogue", "mystic", "survivor"],
+              "level": { "min": 0, "max": 2 }
+          }
+      ],
+      "deck_requirements": "size:30, card:09019, card:09020, random:subtype:basicweakness",
+      "double_sided": true,
+      "faction_code": "neutral",
+      "flavor": "\"It can be arranged. It's just a matter of acceptable terms.\"",
+      "health": 6,
+      "illustrator": "Magali Villeneuve",
+      "is_unique": true,
+      "name": "Charlie Kane",
+      "pack_code": "tskp",
+      "position": 18,
+      "quantity": 1,
+      "sanity": 6,
+      "skill_agility": 1,
+      "skill_intellect": 1,
+      "skill_combat": 1,
+      "skill_willpower": 1,
+      "subname": "The Politician",
+      "text": "You have 3 additional ally slots.\n[fast] During a skill test you are performing, exhaust an [[Ally]] asset you control: For this test, you get +1 skill value, plus an additional +1 for each skill icon that [[Ally]] asset has that matches this test's type.\n[elder_sign] effect: +3. Ready an [[Ally]] asset at your location.",
+      "traits": "Civic. Socialite.",
+      "type_code": "investigator"
+  },
+  {
+      "code": "09019",
+      "cost": 3,
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "flavor": "\"Don't forget you have a 9 p.m. appointment with Mr. Sanford. Shall I book your usual table at La Bella Luna? Also, you bought me a wristwatch for my birthday. Thank you very much.\"",
+      "health": 2,
+      "illustrator": "Isuardi Therianto",
+      "is_unique": true,
+      "name": "Bonnie Walsh",
+      "pack_code": "tskp",
+      "position": 19,
+      "quantity": 1,
+      "restrictions": "investigator:09018",
+      "sanity": 2,
+      "skill_wild": 2,
+      "slot": "Ally",
+      "text": "Charlie Kane deck only.\n[reaction] After you exhaust Bonnie Walsh: Ready another [[Ally]] asset you control. (Limit once per round.)",
+      "traits": "Ally. Civic. Assistant.",
+      "type_code": "asset"
+  },
+  {
+      "code": "09020",
+      "deck_limit": 1,
+      "faction_code": "neutral",
+      "flavor": "\"I tell myself it was for the greater good. Was it, Bonnie?\"",
+      "illustrator": "Borja Pindado",
+      "name": "Burden of Leadership",
+      "pack_code": "tskp",
+      "position": 20,
+      "quantity": 1,
+      "restrictions": "investigator:09018",
+      "subtype_code": "weakness",
+      "text": "<b>Revelation</b> - If you control no [[Ally]] assets, shuffle Burden of Leadership back into your deck. Otherwise, for each [[Ally]] asset you control, either exhaust it or deal it 1 direct damage and 1 direct horror.",
+      "traits": "Flaw.",
+      "type_code": "treachery"
+  }
+]
