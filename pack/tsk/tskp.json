@@ -29,6 +29,7 @@
         "traits": "Flaw.",
         "type_code": "treachery"
     },
+<<<<<<< HEAD
     {
         "back_flavor": "After the third or fourth mutilated body showed up during his time at St. Mary’s Hospital in Arkham, Vincent Lee began to suspect that these were not mere wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, cards that \"heal damage\" level 0-5, up to 15 other Guardian and/or Survivor cards level 0-1 ([guardian] and/or [survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonesaw, 1 [per_investigator] copies of On the Mend, Wounded Bystander, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 1 [per_investigator] copies of On the Mend set aside, out of play.",
@@ -122,6 +123,8 @@
         "traits": "Ally. Bystander.",
         "type_code": "asset"
     },
+=======
+>>>>>>> 629445ef (Add customizable cards)
     {
         "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode).",
@@ -381,6 +384,103 @@
         "text": "<b>Revelation</b> - If you control no [[Ally]] assets, shuffle Burden of Leadership back into your deck. Otherwise, for each [[Ally]] asset you control, either exhaust it or deal it 1 direct damage and 1 direct horror.",
         "traits": "Flaw.",
         "type_code": "treachery"
+    },
+    {
+        "code": "09021",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "You cobbled this suit together yourself from the remnants of ancient armor, mixed with more modern \"bulletproof\" plating used in the Great War. It's not much, yet. But with some improvements, maybe it'll be enough.",
+        "customization_options": [
+            {
+                "xp": 1,
+                "real_traits": "Item. Armor. Relic.",
+                "real_slot": "Arcane"
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2,
+                "health": 2
+            },
+            {
+                "xp": 2,
+                "sanity": 2
+            },
+            {
+                "xp": 2,
+                "cost": -1
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            }
+        ],
+        "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy",
+        "health": 2,
+        "illustrator": "Rob Laskey",
+        "name": "Hunter's Armor",
+        "pack_code": "tskp",
+        "position": 21,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_willpower": 1,
+        "slot": "Body",
+        "text": "Customizable.",
+        "traits": "Item. Armor.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09022",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1,
+                "cost": -1,
+                "real_traits": "Item. Weapon. Melee. Relic."
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror."
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            }
+        ],
+        "customization_text": "□ <b>Heirloom.</b> This asset gets -1 cost and gains the [[Relic]] trait.\n□ <b>Inscription of Glory.</b> Add this inscription: \"- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\".\n□ <b>Inscription of Elders.</b> Add this inscription: \"- <i>Elders</i> - If this attack succeeds by an amount equal or greater than your location's shroud, discover 1 clue at your location.\"\n□ <b>Inscription of the Hunt.</b> Add this inscription: \"- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\"\n□ <b>Inscription of Fury.</b> Add this inscription: \"- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\"\n□□□ <b>Ancient Power.</b> You may imbue the same inscription up to three times.\n□□□ <b>Saga.</b> Replenish 2 of Runic Axe's charges at the start of each round, instead of only 1.\n□□□ <b>Scriptweaver.</b> For every charge spent, you may imbue the axe with up to two different inscriptions.",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Pizoloid Studios",
+        "is_unique": true,
+        "name": "Runic Axe",
+        "pack_code": "tskp",
+        "position": 22,
+        "quantity": 2,
+        "skill_combat": 1,
+        "slot": "Hand x2",
+        "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions --\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "09027",
@@ -735,6 +835,97 @@
         "xp": 3
     },
     {
+        "code": "09080",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "health": 3
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2,
+                "choice": "remove_slot"
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 5
+            }
+        ],
+        "customization_text": "□ <b>Armored Carapace.</b> Summoned Servitor gains a health value of 3. It can be assigned damage dealt to any investigator at its location.\n□ <b>Claws that Clatch.</b> Add this action: \"- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\"\n□ <b>Jaws that Snatch.</b> Add this action: \"- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\"\n□ <b>Eyes of Flame.</b> Add this action: \"- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\"\n□ <b>Wings of Night.</b> After Summoned Servitor moves from your location to a connecting location, you may move to that location as well.\n□□ <b>Dominance.</b> Summoned Servitor no longer takes up an (circle one): arcane / ally slot.\n□□□ <b>Dreaming Call.</b> Instead of discarding another asset you control in order to play Summoned Servitor, you may return the asset to its owner's hand.\n□□□□□ <b>Dæmonic Influence.</b> Summoned Servitor can take 2 different actions instead of 1 during each of your turns.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Summoned Servitor",
+        "pack_code": "tskp",
+        "position": 80,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "slot": "Ally. Arcane.",
+        "text": "Customizable. As an additional cost to play Summoned Servitor, you must discard another asset you control.\nSummoned Servitor enters play at your location. It can only take 1 action during each of your turns, which can only be used to take the following action:\n- Move Summoned Servitor to a connecting location.",
+        "traits": "Summon.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09081",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value."
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3,
+                "deck_limit": 3
+            }
+        ],
+        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister</b> When you play with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Power Word",
+        "pack_code": "tskp",
+        "position": 81,
+        "quantity": 3,
+        "skill_intellect": 1,
+        "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
+        "traits": "Spell.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "09082",
         "cost": 3,
         "deck_limit": 2,
@@ -906,6 +1097,48 @@
         "traits": "Item. Charm. Weapon. Melee.",
         "type_code": "asset",
         "xp": 4
+    },
+    {
+        "code": "09099",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1
+            },
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 4
+            }
+        ],
+        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "But wait - there's more!",
+        "illustrator": "JB Casacop",
+        "name": "Pocket Multi Tool",
+        "pack_code": "tskp",
+        "position": 99,
+        "quantity": 2,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "text": "Customizable. Limit 1 per investigator.\n[fast] During a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "09102",
