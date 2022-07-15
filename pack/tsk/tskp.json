@@ -29,7 +29,6 @@
         "traits": "Flaw.",
         "type_code": "treachery"
     },
-<<<<<<< HEAD
     {
         "back_flavor": "After the third or fourth mutilated body showed up during his time at St. Mary’s Hospital in Arkham, Vincent Lee began to suspect that these were not mere wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, cards that \"heal damage\" level 0-5, up to 15 other Guardian and/or Survivor cards level 0-1 ([guardian] and/or [survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonesaw, 1 [per_investigator] copies of On the Mend, Wounded Bystander, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 1 [per_investigator] copies of On the Mend set aside, out of play.",
@@ -123,8 +122,6 @@
         "traits": "Ally. Bystander.",
         "type_code": "asset"
     },
-=======
->>>>>>> 629445ef (Add customizable cards)
     {
         "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode).",
@@ -696,6 +693,44 @@
         "xp": 1
     },
     {
+        "code": "09059",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 2
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 3
+            },
+            {
+                "xp": 4
+            }
+        ],
+        "customization_text": "□ <b>Search Warrant.</b> While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.\n□□ <b>Fabricated Evidence.</b> Damning Testimony enters play with 2 additional evidence on it.\n□□ <b>Blackmail.</b> You get +2 [intellect] while investigating using Damning Testimony.\n□□□ <b>Extort.</b> When you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.\n□□□ <b>Surveil.</b> You may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.\n□□□□ <b>Expose.</b> When you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-[[Elite]]. X is that enemy's remaining health.",
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Pixoloid Studios",
+        "name": "Damning Testimony",
+        "pack_code": "tskp",
+        "position": 59,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "slot": "Hand",
+        "text": "Customizable. Uses (3 evidence).\n[action] Exhaust Damning Testimony and choose an enemy at any location: <b>Investigate.</b> <i>(your location)</i>. If you succeed, you may spend 1 evidence to discover 1 additional clue at the chosen enemy's location.",
+        "traits": "Item. Illicit.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "09064",
         "cost": 3,
         "deck_limit": 2,
@@ -993,6 +1028,26 @@
         "traits": "Ritual.",
         "type_code": "event",
         "xp": 0
+    },
+    {
+        "code": "09092",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "health": 1,
+        "illustrator": "Andreas Zafiratos",
+        "name": "Elle Rubash",
+        "pack_code": "tskp",
+        "position": 92,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_agility": 1,
+        "skill_willpower": 1,
+        "slot": "Ally",
+        "text": "You get +1 skill value while resolving a skill test on an attached asset.\n1 doom on each attached asset does not count towards the agenda's doom threshold.\n[fast] Exhaust Elle Rubash: Choose an asset in your play area with 1 or more doom on it. Attach it to Elle Rubash, or switch it with an attached asset. (Limit 2 attached assets).",
+        "traits": "Ally. Witch.",
+        "type_code": "asset",
+        "xp": 2
     },
     {
         "code": "09088",
