@@ -389,10 +389,12 @@
             {
                 "xp": 1,
                 "real_traits": "Item. Armor. Relic.",
-                "real_slot": "Arcane"
+                "real_slot": "Arcane",
+                "text_change": "trait"
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "append"
             },
             {
                 "xp": 2,
@@ -404,15 +406,19 @@
             },
             {
                 "xp": 2,
-                "cost": -1
+                "cost": -1,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "append"
             }
         ],
+        "customization_change": "Item. Armor. Relic.\nHunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n\n\nPlaying Hunter's Armor does not provoke attacks of opportunity.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
         "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's Armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -438,31 +444,43 @@
             {
                 "xp": 1,
                 "cost": -1,
-                "real_traits": "Item. Weapon. Melee. Relic."
+                "real_traits": "Item. Weapon. Melee. Relic.",
+                "text_change": "trait"
             },
             {
                 "xp": 1,
-                "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror."
+                "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.",
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "replace",
+                "position": 0
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "insert",
+                "position": 1
             },
             {
-                "xp": 4
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
             }
         ],
+        "customization_change": "Item. Weapon. Melee. Relic.\n- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\n- <i>Elders</i> - If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.\n- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\n- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\nYou may imbue the same inscription up to three times.\nCustomizable. Uses (4 charges). Replenish 2 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with twice as many different inscriptions -",
         "customization_text": "□ <b>Heirloom.</b> This asset gets -1 cost and gains the [[Relic]] trait.\n□ <b>Inscription of Glory.</b> Add this inscription: \"- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\".\n□ <b>Inscription of the Elders.</b> Add this inscription: \"- <i>Elders</i> - If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.\"\n□ <b>Inscription of the Hunt.</b> Add this inscription: \"- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\"\n□ <b>Inscription of Fury.</b> Add this inscription: \"- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\"\n□□□ <b>Ancient Power.</b> You may imbue the same inscription up to three times.\n□□□ <b>Saga.</b> Replenish 2 of Runic Axe's charges at the start of each round, instead of only 1.\n□□□□ <b>Scriptweaver.</b> For every charge spent, you may imbue the axe with up to two different inscriptions.",
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -697,24 +715,32 @@
         "cost": 4,
         "customization_options": [
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "replace",
+                "position": 0
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "append"
             },
             {
-                "xp": 4
+                "xp": 4,
+                "text_change": "append"
             }
         ],
+        "customization_change": "While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.\nCustomizable. Uses (5 evidence).\nYou get +2 [intellect] while investigating using Damning Testimony.\nWhen you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.\nYou may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.\nWhen you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-[[Elite]]. X is that enemy's remaining health.",
         "customization_text": "□ <b>Search Warrant.</b> While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.\n□□ <b>Fabricated Evidence.</b> Damning Testimony enters play with 2 additional evidence on it.\n□□ <b>Blackmail.</b> You get +2 [intellect] while investigating using Damning Testimony.\n□□□ <b>Extort.</b> When you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.\n□□□ <b>Surveil.</b> You may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.\n□□□□ <b>Expose.</b> When you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-[[Elite]]. X is that enemy's remaining health.",
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -875,31 +901,42 @@
         "customization_options": [
             {
                 "xp": 1,
-                "health": 3
+                "health": 3,
+                "text_change": "insert",
+                "position": 1
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
                 "xp": 2,
                 "choice": "remove_slot"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "replace",
+                "position": 0
             },
             {
-                "xp": 5
+                "xp": 5,
+                "text_change": "replace",
+                "position": 1
             }
         ],
+        "customization_change": "Summoned Servitor can be assigned damage dealt to any investigator at its location.\n- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\n- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\n- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\nAfter Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n\nCustomizable. As an additional cost to play Summoned Servitor, you must discard another asset you control or return that asset to its owner's hand.\nSummoned Servitor enters play at your location. It can take 2 different actions during each of your turns, which can only be used to take the following actions:",
         "customization_text": "□ <b>Armored Carapace.</b> Summoned Servitor gains a health value of 3. It can be assigned damage dealt to any investigator at its location.\n□ <b>Claws that Catch.</b> Add this action: \"- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\"\n□ <b>Jaws that Snatch.</b> Add this action: \"- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\"\n□ <b>Eyes of Flame.</b> Add this action: \"- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\"\n□ <b>Wings of Night.</b> After Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n□□ <b>Dominance.</b> Summoned Servitor no longer takes up an (circle one): arcane / ally slot.\n□□□ <b>Dreaming Call.</b> Instead of discarding another asset you control in order to play Summoned Servitor, you may return that asset to its owner's hand.\n□□□□□ <b>Dæmonic Influence.</b> Summoned Servitor can take 2 different actions instead of 1 during each of your turns.",
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -920,33 +957,46 @@
         "cost": 3,
         "customization_options": [
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
                 "xp": 1,
-                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value."
+                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.",
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 2
-            },
-            {
-                "xp": 3
-            },
-            {
-                "xp": 3
+                "xp": 2,
+                "text_change": "insert",
+                "position": 2
             },
             {
                 "xp": 3,
-                "deck_limit": 3
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 3,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 3,
+                "deck_limit": 3,
+                "text_change": "insert",
+                "position": 2
             }
         ],
-        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_change": "- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\nWhen you parley with Power Word, you may give up to two different commands.\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Anders Finer",
@@ -1158,28 +1208,37 @@
         "cost": 3,
         "customization_options": [
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 1
+                "xp": 1,
+                "text_change": "append"
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "append"
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "append"
             },
             {
-                "xp": 2
+                "xp": 2,
+                "text_change": "append"
             },
             {
-                "xp": 3
+                "xp": 3,
+                "text_change": "append"
             },
             {
-                "xp": 4
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
             }
         ],
-        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "But wait - there's more!",
