@@ -603,6 +603,7 @@
         "xp": 2
     },
     {
+<<<<<<< HEAD
         "code": "09038",
         "cost": 4,
         "deck_limit": 2,
@@ -638,6 +639,58 @@
         "slot": "Hand",
         "text": "[reaction] After a player card ability places 1 or more of your clues on your location: Place that many resources on Research Notes, as evidence.\n[action]: Test [intellect] (0). For each point you succeed by, you may spend 1 evidence to discover 1 clue at your location.",
         "traits": "Item. Tome. Science.",
+=======
+        "code": "09040",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "real_text": "- Heal 2 damage.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "real_text": "- Heal 2 horror.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 4,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 5,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "- Heal 2 damage.\n- Heal 2 horror.\n- Place 1 charge or secret on an asset you control.\n- Move up to 2 times.\nCustomizable. Uses (5 supplies).\nWhen you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options (2 options instead if you succeed by 2 or more) -",
+        "customization_text": "□ <b>Mending Distillate.</b> Add this option: \"- Heal 2 damage.\".\n□ <b>Calming Distillate.</b> Add this option: \"- Heal 2 horror.\"\n□ <b>Enlightening Distillate.</b> Add this option: \"- Place 1 charge or secret on an asset you control.\"\n□ <b>Quickening Distillate.</b> Add this option: \"- Move up to 2 times.\"\n□□ <b>Refined.</b> Alchemical Distillation enters play with 2 additional supplies on it.\n□□□□ <b>Empowered.</b> When you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n□□□□□ <b>Perfected.</b> If you succeed by 2 or more, the chosen investigator may perform two different options instead of one.",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Steven Hamilton",
+        "name": "Alchemical Distillation",
+        "pack_code": "tskp",
+        "position": 40,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
+        "traits": "Item. Science.",
+>>>>>>> 9c339015 (Add Alchemical Distillation + Sin-Eater)
         "type_code": "asset",
         "xp": 0
     },
@@ -1080,26 +1133,6 @@
         "xp": 0
     },
     {
-        "code": "09092",
-        "cost": 3,
-        "deck_limit": 2,
-        "faction_code": "mystic",
-        "health": 1,
-        "illustrator": "Andreas Zafiratos",
-        "name": "Elle Rubash",
-        "pack_code": "tskp",
-        "position": 92,
-        "quantity": 2,
-        "sanity": 2,
-        "skill_agility": 1,
-        "skill_willpower": 1,
-        "slot": "Ally",
-        "text": "You get +1 skill value while resolving a skill test on an attached asset.\n1 doom on each attached asset does not count towards the agenda's doom threshold.\n[fast] Exhaust Elle Rubash: Choose an asset in your play area with 1 or more doom on it. Attach it to Elle Rubash, or switch it with an attached asset. (Limit 2 attached assets).",
-        "traits": "Ally. Witch.",
-        "type_code": "asset",
-        "xp": 2
-    },
-    {
         "code": "09088",
         "cost": 1,
         "deck_limit": 2,
@@ -1202,6 +1235,57 @@
         "traits": "Item. Charm. Weapon. Melee.",
         "type_code": "asset",
         "xp": 4
+    },
+    {
+        "code": "09099",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "But wait - there's more!",
+        "illustrator": "JB Casacop",
+        "name": "Pocket Multi Tool",
+        "pack_code": "tskp",
+        "position": 99,
+        "quantity": 2,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "text": "Customizable. Limit 1 per investigator.\n[fast] During a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "09099",
