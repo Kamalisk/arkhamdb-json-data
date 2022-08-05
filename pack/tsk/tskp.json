@@ -466,13 +466,13 @@
             },
             {
                 "xp": 3,
-                "text_change": "replace",
-                "position": 0
+                "text_change": "insert",
+                "position": 1
             },
             {
                 "xp": 3,
-                "text_change": "insert",
-                "position": 1
+                "text_change": "replace",
+                "position": 0
             },
             {
                 "xp": 4,
@@ -654,7 +654,7 @@
             {
                 "xp": 4,
                 "text_change": "insert",
-                "position": 2
+                "position": 1
             },
             {
                 "xp": 5,
@@ -675,6 +675,64 @@
         "slot": "Hand",
         "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options -\n- Draw 2 cards.\n- Gain 2 resources.",
         "traits": "Item. Science.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09041",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 4
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "insert",
+                "position": 4
+            }
+        ],
+        "customization_change": "- You run out of cards in your hand.\n- You are dealt damage or horror.\n- You discard a treachery or enemy from play.\n- You enter a location with 3 or more shroud.\nWhen the chosen criteria is met by any investigator at your location, you may exhaust Empirical Hypothesis to add 1 evidence to it. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n[fast] Spend 2 evidence: Reduce the cost of the next card you play by 3.\n[fast] Spend 3 evidence: Discover 1 clue at your location.\nAfter you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+        "customization_text": "□ <b>Pessimistic Outlook.</b> Add the following criteria:\"you run out of cards in your hand\".\n□ <b>Trial and Error.</b> Add the following criteria: \"you are dealt damage or horror.\"\n□ <b>Independent Variable.</b> Add the following criteria: \"you discard a treachery or enemy from play.\"\n□ <b>Field Research.</b> Add the following criteria: \"you enter a location with 3 or more shroud.\"\n□□ <b>Peer Review.</b> The chosen criteria is met if any investigator at your location meets it, instead of only you. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n□□ <b>Research Grant.</b> Empirical Hypothesis gains: \"[fast] Spend 2 evidence: Reduce the cost of the next card you play by 3.\"\n□□□ <b>Irrefutable Proof.</b> Empirical Hypothesis gains: \"[fast] Spend 3 evidence: Discover 1 clue at your location.\"\n□□□□ <b>Alternative Hypothesis.</b> After you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Isuardi Therianto",
+        "name": "Empirical Hypothesis",
+        "pack_code": "tskp",
+        "position": 41,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "text": "Customizable. Limit 1 per investigator.\n<b>Forced</b> - At the start of the round: Choose one of the following criteria for this round -\n- You fail a test by 2 or more.\n- You succeed at a test by 3 or more.\nWhen the chosen criteria is met, you may exhaust Empirical Hypothesis to add 1 evidence to it.\n[fast] Spend 1 evidence: Draw 1 card.",
+        "traits": "Talent. Science.",
         "type_code": "asset",
         "xp": 0
     },
@@ -726,7 +784,7 @@
                 "position": 1
             }
         ],
-        "customization_change": "Named [[Tome]] or [[Spell]] asset: .\nUsing attached asset's [action] abilities does not provoke attacks of opportunity.\nAttached asset does not take up any slots.\nYou get +2 skill value while performing skill tests on attached asset.\n\n[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\nAttach to a named asset you control, or you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
+        "customization_change": "Named asset:\nUsing attached asset's [action] abilities does not provoke attacks of opportunity.\nAttached asset does not take up any slots.\nYou get +2 skill value while performing skill tests on attached asset.\nAdditional named assets:\n[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\nAttach to a named asset you control, or you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
         "customization_text": "Named [[Tome]] or [[Spell]] asset:\n□ <b>Living Quill.</b> Using attached asset's [action] abilities does not provoke attacks of opportunity.\n□ <b>Spectral Binding.</b> Attached asset does not take up any slots.\n□□ <b>Mystic Vane.</b> You get +2 skill value while performing skill tests on attached asset.\n□□ <b>Endless Inkwell.</b> Name two more [[Tome]] or [[Spell]] assets:\n□□ <b>Energy Sap.</b> The Raven Quill gains: \"[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\"\n□□□□ <b>Supernatural Record.</b> When you play The Raven Quill, instead of attaching it to a named asset you control, you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -1093,27 +1151,27 @@
             {
                 "xp": 2,
                 "text_change": "insert",
-                "position": 2
+                "position": 1
             },
             {
                 "xp": 3,
                 "text_change": "insert",
-                "position": 2
+                "position": 1
             },
             {
                 "xp": 3,
-                "text_change": "insert",
+                "text_change": "replace",
                 "position": 2
             },
             {
                 "xp": 3,
                 "deck_limit": 3,
                 "text_change": "insert",
-                "position": 2
+                "position": 1
             }
         ],
-        "customization_change": "- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\nWhen you parley with Power Word, you may give up to two different commands.\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
-        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_change": "- <i>\"Betray.\"</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>\"Mercy.\"</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>\"Confess.\"</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>\"Distract.\"</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it up to two different commands (limit once per round per command) -\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.'</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Anders Finer",
