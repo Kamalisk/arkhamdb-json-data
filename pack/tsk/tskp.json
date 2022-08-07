@@ -1480,6 +1480,61 @@
         "type_code": "asset",
         "xp": 0
     },
+
+
+
+    {
+        "code": "09101",
+        "customization_options": [
+            {
+                "xp": 0,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "append"
+            },
+            {
+                "xp": 5,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "[[Traits]] chosen: \nAdditional [[Trait]:\nAdditional [[Trait]]:\nIf this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\nIf this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\nAfter you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+        "customization_text": "[[Traits]] chosen: \n□ <b>Specialist.</b> Choose another trait:\n□□ <b>Specialist.</b> Choose another trait:\n□□□ <b>Nemesis</b> If this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\n□□□□ <b>Mythos-Hardened.</b> If this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\n□□□□□ <b>Always Prepared.</b> After you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "David Hovey",
+        "name": "Grizzled",
+        "pack_code": "tskp",
+        "position": 101,
+        "quantity": 2,
+        "skill_wild": 1,
+        "text": "Customizable. When you purchase Grizzled, choose and record two [[Traits]] on its upgrade sheet.\nIf this is a skill test on or against an encounter card <i>(including fighting, evading, or parleying)</i>, Grizzled gains [wild][wild] for each of the chosen traits that encounter card possesses.",
+        "traits": "Innated. Developed.",
+        "type_code": "skill",
+        "xp": 0
+    },
     {
         "code": "09099",
         "cost": 3,
