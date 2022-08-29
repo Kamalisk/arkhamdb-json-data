@@ -191,15 +191,15 @@
         "skill_wild": 1,
         "subname": "Proof in the Pudding",
         "restrictions": "investigator:09015",
-        "text": "Darrell Simmons deck only.\n[reaction] After an enemy or treachery enters play, exhaust Darrell's Kodak: Place 1 resource <i>(from the token pool)</i> on that enmey or treachery, as evidence.\n[reaction] After you discover any number of clues: Move that many evidence on enemies or treacheries at that location (or not any location) to Darrell's Kodak.",
+        "text": "Darrell Simmons deck only.\n[reaction] After an enemy or treachery enters play, exhaust Darrell's Kodak: Place 1 resource <i>(from the token pool)</i> on that enemy or treachery, as evidence.\n[reaction] After you discover any number of clues: Move that many evidence on enemies or treacheries at that location (or not at any location) to Darrell's Kodak.",
         "traits": "Item. Tool.",
-        "type_code": "event"
+        "type_code": "asset"
     },
     {
         "code": "09017",
         "deck_limit": 1,
         "faction_code": "neutral",
-        "flavor": "Irrefutable proof, reduced to nothing in the light of day.",
+        "flavor": "Irrefutable proof, reduced to nothing by the light of day.",
         "illustrator": "Pixoloid Studios",
         "name": "Ruined Film",
         "pack_code": "tskp",
@@ -301,7 +301,7 @@
         "pack_code": "tskp",
         "position": 27,
         "quantity": 2,
-        "skill_combat": 1,
+        "skill_combat": 2,
         "text": "Fast. Play after you successfully attack a non-[[Elite]] enemy using a [[Melee]] asset.\nAttach Grievous Wound to the attacked enemy.\n<b>Forced</b> - At the end of the round: Deal 1 damage to attached enemy.",
         "traits": "Tactic.",
         "type_code": "event",
@@ -337,7 +337,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "Fast. PLay at the end of an attack or effect that spends the last ammon from a [[Firearm]] asset you control.\nAdd 1 ammo to that asset. You get +3 skill value for your next attack with that asset this round.",
+        "text": "Fast. Play at the end of an attack or effect that spends the last ammo from a [[Firearm]] asset you control.\nAdd 1 ammo to that asset. You get +3 skill value for your next attack with that asset this round.",
         "traits": "Fortune. Tactic.",
         "type_code": "event",
         "xp": 0
@@ -443,7 +443,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "slot": "Hand",
-        "text": "Uses (4 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> You may use [agility] instead of [intellect] for this investigation. If you succeed, gain 1 resource.",
+        "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> You may use [agility] instead of [intellect] for this investigation. If you succeed, gain 1 resource.",
         "traits": "Item. Tool. Illicit.",
         "type_code": "asset",
         "xp": 0
@@ -545,7 +545,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one - \n- Exhaust Ceremonial Sickle and place 1 doom on it to get +1 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, remove 1 doom from Ceremonial Sickle.",
+        "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one\n- Exhaust Ceremonial Sickle and place 1 doom on it to get +1 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, remove 1 doom from Ceremonial Sickle.",
         "traits": "Item. Charm. Weapon. Melee.",
         "type_code": "asset",
         "xp": 0
@@ -562,7 +562,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "slot": "Hand",
-        "text": "[action]: <b>Investigate.</b> Either use your [willpower] or get +1 [intellect] for this investigation. When you initiate this ability, choose one - \n- Exhaust Dowsing Rod and place 1 doom on it to move to a connection location.\n- If this investigation discovers the last clue at a location, remove 1 doom from Dowsing Rod.",
+        "text": "[action]: <b>Investigate.</b> Either use your [willpower] or get +1 [intellect] for this investigation. When you initiate this ability, choose one\n- Exhaust Dowsing Rod and place 1 doom on it to move to a connection location.\n- If this investigation discovers the last clue at a location, remove 1 doom from Dowsing Rod.",
         "traits": "Item. Charm.",
         "type_code": "asset",
         "xp": 0
@@ -579,7 +579,7 @@
         "quantity": 2,
         "skill_willpower": 1,
         "slot": "Hand",
-        "text": "[action]: Choose an investigator at your locationand either (choose one) - \n- Exhaust Hallowed Chalice and place 1 doom on it to heal 2 damage or 2 horror from that investigator.\n- Heal 1 damage or 1 horror from that investigator. If you heal the last damage or horror from that investigator, remove 1 doom from Hallowed Chalice.",
+        "text": "[action]: Choose an investigator at your location and either (choose one)\n- Exhaust Hallowed Chalice and place 1 doom on it to heal 2 damage or 2 horror from that investigator.\n- Heal 1 damage or 1 horror from that investigator. If you heal the last damage or horror from that investigator, remove 1 doom from Hallowed Chalice.",
         "traits": "Item. Charm.",
         "type_code": "asset",
         "xp": 0
@@ -596,7 +596,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one):\n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
+        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one): \n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 0
