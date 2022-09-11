@@ -163,8 +163,8 @@
     {
         "code": "03061",
         "name": "마지막 왕",
-        "text": "<b>쉬움 / 보통</b>\n[skull]: 다른 혼돈 토큰을 하나 더 공개합니다. 실패하면, 플레이 상태인 [[광인]] 적 하나에게 파멸을 1개 올려놓습니다.\n[cultist]: -2. 실패하면, 당신이 가진 단서 1개를 당신이 위치한 장소에 올려놓습니다.\n[tablet]: -4. 실패하면, 공포를 1 받습니다.\n[elder_thing]: -X. X는 당신이 위치한 장소의 장막값입니다.",
-        "back_text": "<b>어려움 / 전문가</b>\n[skull]: 다른 혼돈 토큰을 하나 더 공개합니다. 실패하면, 플레이 상태인 [[광인]] 적 중에서 남은 체력이 가장 높은 적 하나에게 파멸을 1개 올려놓습니다.\n[cultist]: -3. 당신이 가진 단서 1개를 당신이 위치한 장소에 올려놓습니다.\n[tablet]: -4. 공포를 1 받습니다.\n[elder_thing]: -X. XX는 당신이 위치한 장소의 장막값입니다. 실패하면, 피해를 1 받습니다."
+        "text": "<b>쉬움 / 보통</b>\n[skull]: 다른 혼돈 토큰을 하나 더 공개합니다. 실패하면, 플레이 상태인 [[홀린]] 적 하나에게 파멸을 1개 올려놓습니다.\n[cultist]: -2. 실패하면, 당신이 가진 단서 1개를 당신이 위치한 장소에 올려놓습니다.\n[tablet]: -4. 실패하면, 공포를 1 받습니다.\n[elder_thing]: -X. X는 당신이 위치한 장소의 장막값입니다.",
+        "back_text": "<b>어려움 / 전문가</b>\n[skull]: 다른 혼돈 토큰을 하나 더 공개합니다. 실패하면, 플레이 상태인 [[홀린]] 적 중에서 남은 체력이 가장 높은 적 하나에게 파멸을 1개 올려놓습니다.\n[cultist]: -3. 당신이 가진 단서 1개를 당신이 위치한 장소에 올려놓습니다.\n[tablet]: -4. 공포를 1 받습니다.\n[elder_thing]: -X. XX는 당신이 위치한 장소의 장막값입니다. 실패하면, 피해를 1 받습니다."
     },
     {
         "code": "03062",
@@ -203,7 +203,7 @@
         "name": "콘스탄스 듀메인",
         "subname": "과하게 사교적이다",
         "text": "Hunter.\nWhile Constance Dumaine is exhausted, she gets +3 fight.",
-        "traits": "괴물. 광인. 정예."
+        "traits": "괴물. 홀린. 정예."
     },
     {
         "code": "03066",
@@ -217,7 +217,7 @@
         "name": "조던 페리",
         "subname": "어마어마한 거구",
         "text": "Hunter.\n<b>Forced</b> - At the beginning of the enemy phase: Heal 1 damage from Jordan Perry.",
-        "traits": "괴물. 광인. 정예."
+        "traits": "괴물. 홀린. 정예."
     },
     {
         "code": "03067",
@@ -231,7 +231,7 @@
         "name": "이시마루 하루코",
         "subname": "살갗과 뼈만 남았다",
         "text": "Hunter.\n<b>Forced</b> - After you deal damage to Ishimaru Haruko by an effect other than an attack: Draw the top card of the encounter deck.",
-        "traits": "괴물. 광인. 정예."
+        "traits": "괴물. 홀린. 정예."
     },
     {
         "code": "03068",
@@ -245,7 +245,7 @@
         "name": "세바스티앙 모로",
         "subname": "흉폭하고 몹시 흥분해있다",
         "text": "Hunter. Retaliate.\nSebastien Moreau's attacks cannot be canceled.",
-        "traits": "괴물. 광인. 정예."
+        "traits": "괴물. 홀린. 정예."
     },
     {
         "code": "03069",
@@ -259,7 +259,7 @@
         "name": "애쉴레이 클라크",
         "subname": "귓가에도 못 이를 노래",
         "text": "Hunter.\nEach investigator at Ashleigh Clarke's location does not draw cards during the upkeep phase.",
-        "traits": "괴물. 광인. 정예."
+        "traits": "괴물. 홀린. 정예."
     },
     {
         "code": "03070",
@@ -394,25 +394,29 @@
     },
     {
         "code": "03084a",
-        "name": "머릿속의 속삭임(경악)",
+        "name": "머릿속의 속삭임",
+        "subname": "경악",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Whispers in Your Head (Dismay) to your hand.\nYou cannot commit skill cards to skill tests.\n[action][action]: Discard Whispers in Your Head (Dismay) from your hand.",
         "traits": "두려움."
     },
     {
         "code": "03084b",
-        "name": "머릿속의 속삭임(공포)",
+        "name": "머릿속의 속삭임",
+        "subname": "공포",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Whispers in Your Head (Dread) to your hand.\nYou cannot move more than once each turn.\n[action][action]: Discard Whispers in Your Head (Dread) from your hand.",
         "traits": "두려움."
     },
     {
         "code": "03084c",
-        "name": "머릿속의 속삭임(불안)",
+        "name": "머릿속의 속삭임",
+        "subname": "불안",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Whispers in Your Head (Anxiety) to your hand.\nYou cannot trigger [free] abilities.\n[action][action]: Discard Whispers in Your Head (Anxiety) from your hand.",
         "traits": "두려움."
     },
     {
         "code": "03084d",
-        "name": "머릿속의 속삭임(의심)",
+        "name": "머릿속의 속삭임",
+        "subname": "의심",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Whispers in Your Head (Doubt) to your hand.\nYou cannot play events.\n[action][action]: Discard Whispers in Your Head (Doubt) from your hand.",
         "traits": "두려움."
     },
@@ -481,16 +485,16 @@
     {
         "code": "03095",
         "flavor": "\"Get out! Get out! Get out of my head!\"",
-        "name": "미치광이",
+        "name": "표식을 목도한 자",
         "text": "<b>Forced</b> - After Maniac engages you: Take 1 damage and deal 1 damage to Maniac.",
-        "traits": "인간형. 광인."
+        "traits": "인간형. 홀린."
     },
     {
         "code": "03096",
         "flavor": "Her eyes widened, and she picked up the knife.",
-        "name": "젊은 사이코패스",
+        "name": "하스터의 꼭두각시",
         "text": "<b>Forced</b> - After Young Psychopath engages you: You must either take 1 horror, or Young Psychopath gets +3 fight until the end of the investigation phase.",
-        "traits": "인간형. 광인."
+        "traits": "인간형. 홀린."
     },
     {
         "code": "03097",
