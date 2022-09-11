@@ -29,7 +29,99 @@
         "traits": "Flaw.",
         "type_code": "treachery"
     },
-
+    {
+        "back_flavor": "After the third or fourth mutilated body showed up during his time at St. Mary’s Hospital in Arkham, Vincent Lee began to suspect that these were not mere wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, cards that \"heal damage\" level 0-5, up to 15 other Guardian and/or Survivor cards level 0-1 ([guardian] and/or [survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonesaw, 1 [per_investigator] copies of On the Mend, Wounded Bystander, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 1 [per_investigator] copies of On the Mend set aside, out of play.",
+        "code": "09004",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["seeker"], "level": { "min": 0, "max": 3 } },
+            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
+            {
+                "text": [
+                    "[Hh]eals? (that much )?((((\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\d+)|(all)|(X total)) )?damage"
+                ],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["guardian", "survivor"],
+                "level": { "min": 0, "max": 1 },
+                "limit": 15,
+                "error": "You cannot have more than 15 level 0-1 Guardian and/or Survivor cards"
+            }
+        ],
+        "deck_requirements": "size:30, card:09005, card:09006, card:09007, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"I will find the answers, even if it kills me.\"",
+        "health": 9,
+        "illustrator": "Cristi Balanescu",
+        "is_unique": true,
+        "name": "Vincent Lee",
+        "pack_code": "tskp",
+        "position": 4,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 1,
+        "skill_intellect": 4,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Doctor",
+        "text": "[reaction] After one of your card effects heals damage from an investigator or an investigator's [[Ally]] asset: Add one of your set-aside On the Mend skills to that investigator's hand.\n[elder_sign] effect: +1. You may heal 1 damage from an investigator or [[Ally]] asset at your location.",
+        "traits": "Medic.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "09005",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "JB Casacop",
+        "name": "Bonesaw",
+        "pack_code": "tskp",
+        "position": 5,
+        "quantity": 1,
+        "skill_combat": 1,
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "restrictions": "investigator:09004",
+        "text": "Vincent Lee deck only.\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, you may take 1 damage to deal +1 damage for this attack.\n[action]: Heal 5 damage from an investigator at your location. Test [intellect] (4). If you fail, that investigator suffers 1 physical trauma. (Max once per game.)",
+        "traits": "Item. Tool. Melee.",
+        "type_code": "asset"
+    },
+    {
+        "code": "09006",
+        "deck_limit": 4,
+        "faction_code": "neutral",
+        "illustrator": "JB Casacop",
+        "name": "On the Mend",
+        "pack_code": "tskp",
+        "position": 6,
+        "quantity": 4,
+        "skill_wild": 2,
+        "restrictions": "investigator:09004",
+        "text": "Limit 1 On the Mend in your hand.\nCommit only to a test you are performing.\n<b>Forced</b> - When On the Mend would be discarded from anywhere: Set it aside, out of play, instead.",
+        "traits": "Innate.",
+        "type_code": "skill"
+    },
+    {
+        "code": "09007",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "health": 5,
+        "illustrator": "Rafał Hrynkiewicz",
+        "name": "Wounded Bystander",
+        "pack_code": "tskp",
+        "position": 7,
+        "quantity": 1,
+        "restrictions": "investigator:09004",
+        "subname": "On Death's Doorstep",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Put Wounded Bystander into play in your play area with 3 damage on it. It cannot leave play while it has damage (unless it is defeated). If it has no damage, discard it.\n<b>Forced</b> - When you take non-direct damage: At least 1 of it must be assigned to Wounded Bystander, if able.\n<b>Forced</b> - If Wounded Bystander is defeated: You suffer 1 mental trauma.",
+        "traits": "Ally. Bystander.",
+        "type_code": "asset"
+    },
     {
         "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode).",
