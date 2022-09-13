@@ -1,5 +1,114 @@
 [
     {
+        "code": "09002",
+        "name": "\"As you wish\"",
+        "text": "Carson Sinclair deck only.\nCommit only to a skill test being performed by another investigator.\nIf this test succeeds, the performing investigator draws 1 card. If this test fails, you draw 1 card.",
+        "traits": "Practiced. Expert."
+    },
+    {
+        "code": "09003",
+        "name": "Selfless to a Fault",
+        "text": "<b>Revelation</b> - Put Selfless to a Fault into play in your threat area.\n<b>Forced</b> - At the end of your turn, if you did not commit at least 1 card to a skill test performed by another investigator this turn: Take 1 horror and shuffle Selfless to a Fault into your deck.",
+        "traits": "Flaw."
+    },
+    {
+        "code": "09004",
+        "flavor": "\"I will find the answers, even if it kills me.\"",
+        "name": "Vincent Lee",
+        "subname": "The Doctor",
+        "text": "[reaction] After one of your card effects heals damage from an investigator or an investigator's [[Ally]] asset: Add one of your set-aside On the Mend skills to that investigator's hand.\n[elder_sign] effect: +1. You may heal 1 damage from an investigator or [[Ally]] asset at your location.",
+        "traits": "Medic.",
+        "back_flavor": "After the third or fourth mutilated body showed up during his time at St. Mary’s Hospital in Arkham, Vincent Lee began to suspect that these were not mere wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, cards that \"heal damage\" level 0-5, up to 15 other Guardian and/or Survivor cards level 0-1 ([guardian] and/or [survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonesaw, 1 [per_investigator] copies of On the Mend, Wounded Bystander, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 1 [per_investigator] copies of On the Mend set aside, out of play."
+    },
+    {
+        "code": "09005",
+        "name": "Bonesaw",
+        "text": "Vincent Lee deck only.\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, you may take 1 damage to deal +1 damage for this attack.\n[action]: Heal 5 damage from an investigator at your location. Test [intellect] (4). If you fail, that investigator suffers 1 physical trauma. (Max once per game.)",
+        "traits": "Item. Tool. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09006",
+        "name": "On the Mend",
+        "text": "Limit 1 On the Mend in your hand.\nCommit only to a test you are performing.\n<b>Forced</b> - When On the Mend would be discarded from anywhere: Set it aside, out of play, instead.",
+        "traits": "Innate."
+    },
+    {
+        "code": "09007",
+        "name": "Wounded Bystander",
+        "subname": "On Death's Doorstep",
+        "text": "<b>Revelation</b> - Put Wounded Bystander into play in your play area with 3 damage on it. It cannot leave play while it has damage (unless it is defeated). If it has no damage, discard it.\n<b>Forced</b> - When you take non-direct damage: At least 1 of it must be assigned to Wounded Bystander, if able.\n<b>Forced</b> - If Wounded Bystander is defeated: You suffer 1 mental trauma.",
+        "traits": "Ally. Bystander."
+    },
+    {
+        "code": "09008",
+        "flavor": "\"This doesn't belong to you.\"",
+        "name": "Kymani Jones",
+        "subname": "The Security Consultant",
+        "text": "[fast]: Engage an exhausted enemy at your location.\n[reaction] When you attempt to evade an exhausted non-[[Elite]] enemy: Add your [intellect] to your skill value for this attempt. If you succeed by at least X, discard that enemy. X is that enemy's remaining health.\n[elder_sign] effect: +1. If there is an exhausted enemy at your location, you automatically succeed instead.",
+        "traits": "Criminal.",
+        "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode)."
+    },
+    {
+        "code": "09009",
+        "name": "Grappling Hook",
+        "text": "Kymani Jones deck only.\nActions performed using Grappling Hook do not provoke attacks of opportunity.\n[action][action] Exhaust Grappling Hook: Take up to 3 different basic actions from the following list, in any order (engage, evade, investigate, or move). If you investigate, use your [agility] instead of your [intellect].",
+        "traits": "Item. Tool.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09010",
+        "flavor": "\"I know who you really are, Jones.\"",
+        "name": "Agent Fletcher",
+        "text": "Alert. Hunter.\n<b>Prey</b> - Kymani Jones only.\nWhile Kymani Jones is evading Agent Fletcher, reduce their [intellect] value to 0.",
+        "traits": "Humanoid. Coterie. Detective."
+    },
+    {
+        "code": "09012",
+        "name": "Word of Woe",
+        "text": "Amina Zidane deck only.\nFast. Play only during your turn.\nPlace 1 doom on an asset you control to resolve an [action] ability on it, ignoring all costs <i>(including its [action] cost)</i>. Then, if Word of Weal is in your discard pile, you may shuffle it into your deck.",
+        "traits": "Pact."
+    },
+    {
+        "code": "09013",
+        "name": "Word of Weal",
+        "text": "Amina Zidane deck only.\nFast. Play when you perform a skill test on an asset with 1 or more doom on it.\nAdd your [willpower] to your skill value for this test. Then, if Word of Woe is in your discard pile, you may shuffle it into your deck.",
+        "traits": "Pact."
+    },
+    {
+        "code": "09014",
+        "flavor": "\"UNINTELLIGIBLE SQUIGGLES\"",
+        "name": "Deafening Silence",
+        "text": "<b>Revelation</b> - Move 1 doom from an asset you control to the current agenda. This may cause the current agenda to advance. If no doom is moved in this way, shuffle Deafening Silence back into your deck.",
+        "traits": "Omen."
+    },
+    {
+        "code": "09015",
+        "flavor": "\"The truth is darker than any of us know.\"",
+        "name": "Darrell Simmons",
+        "subname": "The Photographer",
+        "text": "You begin the game with Darrell's Kodak in play.\n[fast] During a skill test at your location, spend 1 evidence from an asset you control: Reduce the difficulty of this test by 2. (Limit once per test.)\n[elder_sign] effect: +1. Place 1 evidence on an asset you control.",
+        "traits": "Reporter.",
+        "back_flavor": "Even while growing up in Arkham, Darrell always knew that there was something not quite right about the strange little town. After graduating from high school, he went to work for the <i>Arkham Advertiser</i> as a photographer, and in the years since, he's scoured every inch of the city. But on one fateful night, he saw something truly indescribable - a horror that shook his world to the core. His editor says he was just seeing things, but he knows the truth. With his trusty camera in tow, he will not rest until he has captured photographic evidence of the horrors that dwell in the shadows of his hometown and beyond. Just one good shot is all he needs.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Seeker cards ([seeker]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Darrell's Kodak, Ruined Film, 1 random basic weakness."
+    },
+    {
+        "code": "09016",
+        "name": "Darrell's Kodak",
+        "subname": "Proof in the Pudding",
+        "text": "Darrell Simmons deck only.\n[reaction] After an enemy or treachery enters play, exhaust Darrell's Kodak: Place 1 resource <i>(from the token pool)</i> on that enemy or treachery, as evidence.\n[reaction] After you discover any number of clues: Move that many evidence on enemies or treacheries at that location (or not at any location) to Darrell's Kodak.",
+        "traits": "Item. Tool."
+    },
+    {
+        "code": "09017",
+        "flavor": "Irrefutable proof, reduced to nothing by the light of day.",
+        "name": "Ruined Film",
+        "text": "<b>Revelation</b> - Remove 4 evidence from cards you control. For each evidence you cannot remove in this way, take 1 horror.",
+        "traits": "Blunder."
+    },
+    {
         "code": "09018",
         "flavor": "\"It can be arranged. It's just a matter of acceptable terms.\"",
         "name": "찰리 케인",
@@ -13,10 +122,10 @@
         "code": "09019",
         "flavor": "\"Don't forget you have a 9 p.m. appointment with Mr. Sanford. Shall I book your usual table at La Bella Luna? Also, you bought me a wristwatch for my birthday. Thank you very much.\"",
         "name": "보니 월시",
-        "subname": "충직한 비서",
         "text": "찰리 케인 덱 전용.\n[reaction] 당신이 '보니 월시'를 소진시킨 후: 당신이 조종하는 다른 [[조력자]] 자산 하나를 준비시킵니다. (라운드당 1번 한정.)",
         "traits": "조력자. 공공근로자. 조수.",
-        "slot": "조력자"
+        "slot": "조력자",
+        "subname": "충직한 비서"
     },
     {
         "code": "09020",
@@ -24,5 +133,301 @@
         "name": "지도자의 부담감",
         "text": "<b>폭로</b> - 당신이 조종하는 [[조력자]] 자산이 없다면, '지도자의 부담감'을 당신의 덱에 섞어 넣습니다. 그 외의 경우, 당신이 조종하는 [[조력자]] 자산마다 각기 해당 자산을 소진시키거나 해당 자산에게 직접적인 피해 1과 직접적인 공포 1을 줍니다.",
         "traits": "결함."
+    },
+    {
+        "code": "09027",
+        "flavor": "This is gonna hurt.",
+        "name": "Grievous Wound",
+        "text": "Fast. Play after you successfully attack a non-[[Elite]] enemy using a [[Melee]] asset.\nAttach Grievous Wound to the attacked enemy.\n<b>Forced</b> - At the end of the round: Deal 1 damage to attached enemy.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "09028",
+        "flavor": "\"Think they bought it?\"\n\"They certainly do not suspect the world is ending, Mr. Kane.\"",
+        "name": "Motivational Speech",
+        "text": "<b>Parley.</b> Choose an investigator at your location. That investigator may play an [[Ally]] asset from their hand, reducing its cost by 3.",
+        "traits": "Spirit."
+    },
+    {
+        "code": "09029",
+        "name": "One in the Chamber",
+        "text": "Fast. Play at the end of an attack or effect that spends the last ammo from a [[Firearm]] asset you control.\nAdd 1 ammo to that asset. You get +3 skill value for your next attack with that asset this round.",
+        "traits": "Fortune. Tactic."
+    },
+    {
+        "code": "09030",
+        "flavor": "\"Aim and pull the damned trigger. It ain't hard, kid.\"",
+        "name": "Fighting Lessons",
+        "text": "Commit only to a skill test during an attack or evasion attempt.\nYou can commit this skill to an investigator's test at any location.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "09031",
+        "name": "Helping Hand",
+        "text": "You may commit Helping Hand to any type of test. Max 1 committed per test.\nWhile Helping Hand is committed to a skill test, double the skill icons of each other card committed to that test.",
+        "traits": "Innate."
+    },
+    {
+        "code": "09033",
+        "flavor": "Day 15. The entities appear to be feeding. On what, I cannot imagine. I dare not approach further.",
+        "name": "Field Agent",
+        "text": "You get +1 [intellect].\n[fast] Exhaust Field Agent and deal 1 horror to it: Discover 1 clue at your location.",
+        "traits": "Ally. Agency.",
+        "slot": "Ally"
+    },
+    {
+        "code": "09038",
+        "name": "Girish Kadakia",
+        "subname": "ICPC Punjab Detective",
+        "text": "Girish Kadakia may be assigned damage and/or horror dealt to other investigators at your location.\n[fast] During a skill test being performed by an investigator at your location, exhaust Girish Kadakia: That investigator gets +2 skill value for this test. If this test is successful, heal 1 damage or horror from Girish Kadakia.",
+        "traits": "Ally. Police.",
+        "slot": "Ally"
+    },
+    {
+        "code": "09045",
+        "name": "Research Notes",
+        "text": "[reaction] After a player card ability places 1 or more of your clues on your location: Place that many resources on Research Notes, as evidence.\n[action]: Test [intellect] (0). For each point you succeed by, you may spend 1 evidence to discover 1 clue at your location.",
+        "traits": "Item. Tome. Science.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09047",
+        "flavor": "\"Don't you realize what this means?\"\n\"Why don't you calm down and tell me very slowly?\"",
+        "name": "Captivating Discovery",
+        "text": "Search the top 6 cards of your deck. You may place up to 3 of your clues on your location. For each clue placed in this way, choose and add 2 of the searched cards to your hand. Shuffle your deck.",
+        "traits": "Insight."
+    },
+    {
+        "code": "09048",
+        "name": "Map the Area",
+        "text": "<b>Investigate.</b> Add your [willpower] or [agility] to your skill value for this investigation. If you succeed, instead of discovering clues at this location, attach Map the Area to it. Limit 1 per location.\nReduce the difficulty of all skill tests at attached location by 1.",
+        "traits": "Insight. Tactic."
+    },
+    {
+        "code": "09051",
+        "name": "Orphic Theory",
+        "text": "Uses (4 secrets).\n[fast] Spend 1 secret: Choose any non-weakness treachery not attached to an [[Elite]] enemy. Until the end of the round, treat that card's printed text box as if it were blank (except for [[Traits]]).",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "09052",
+        "name": "Existential Riddle",
+        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and test [willpower] or [intellect] (8). This test gets -1 difficulty for each other card in your hand. If you succeed, automatically evade the chosen enemy and attach Existential Riddle to it.\nAttached enemy gains aloof.",
+        "traits": "Insight. Paradox."
+    },
+    {
+        "code": "09064",
+        "flavor": "\"Why do I keep these on me? Why, to be better informed regarding the unsavory methods of art thieves, of course.\"",
+        "name": "Thieves' Kit",
+        "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> You may use [agility] instead of [intellect] for this investigation. If you succeed, gain 1 resource.",
+        "traits": "Item. Tool. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09065",
+        "flavor": "\"Thanks! It has pockets!\"",
+        "name": "Hidden Pocket",
+        "text": "Fast. Play only during your turn.\nAttach to a [[Clothing]] or [[Armor]] asset you control.\nAttached asset gains: \"You have 1 additional hand or accessory slot (your choice), which can only be used to hold an [[Illicit]] asset.\"",
+        "traits": "Upgrade. Illicit."
+    },
+    {
+        "code": "09066",
+        "flavor": "\"Impeccable timing, Mr. Fergus.\"",
+        "name": "Hit and Run",
+        "text": "Fast. Play only during your turn.\nPut an [[Ally]] asset from your hand into play. At the end of your turn, if that asset is still in play, return it to your hand.",
+        "traits": "Tactic. Trick."
+    },
+    {
+        "code": "09067",
+        "name": "\"I'll take that!\"",
+        "text": "Fast. Play when you successfully evade a [[Humanoid]] enemy or successfully investigate.\nPlay an [[Item]] asset from your hand, reducing its cost by X, where X is the amount you succeeded by. Attach \"I'll take that!\" to that asset. Attached asset gains [[Illicit]].",
+        "traits": "Trick. Upgrade. Illicit."
+    },
+    {
+        "code": "09069",
+        "flavor": "It's out of sight, but never out of mind.",
+        "name": "Quick Getaway",
+        "text": "Fast. Play when an enemy attacks you.\n<b>Evade.</b> Attempt to evade the attacking enemy. If you succeed, cancel that enemy's attack.",
+        "traits": "Trick."
+    },
+    {
+        "code": "09070",
+        "name": "Calculated Risk",
+        "text": "Max 1 committed per skill test.\nCommit only to a test you are performing of any type, and only if it is your turn.\nCalculated Risk gains [wild] for each action you performed this turn <i>(including this one)</i>.\nAfter this test ends, end your turn.",
+        "traits": "Gambit. Fated."
+    },
+    {
+        "code": "09074",
+        "flavor": "If you're careful, it's just \"entering.\"",
+        "name": "Breaking and Entering",
+        "text": "<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed by 1 or more, you may automatically evade an enemy at this location. If you succeed by 3 or more, return Breaking and Entering to your hand at the end of your turn. This action does not provoke attacks of opportunity.",
+        "traits": "Trick."
+    },
+    {
+        "code": "09075",
+        "flavor": "\"...okay, fine, they're mine.\"",
+        "name": "Thieves' Kit",
+        "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate.</b> For this investigation, you may use [agility] instead of [intellect], and you get +1 skill value. If you succeed, gain 1 resource (2 resources instead if you succeed by 2 or more).",
+        "traits": "Item. Tool. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09082",
+        "name": "Ceremonial Sickle",
+        "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one\n- Exhaust Ceremonial Sickle and place 1 doom on it to get +1 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, remove 1 doom from Ceremonial Sickle.",
+        "traits": "Item. Charm. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09083",
+        "name": "Dowsing Rod",
+        "text": "[action]: <b>Investigate.</b> Either use your [willpower] or get +1 [intellect] for this investigation. When you initiate this ability, choose one\n- Exhaust Dowsing Rod and place 1 doom on it to move to a connection location.\n- If this investigation discovers the last clue at a location, remove 1 doom from Dowsing Rod.",
+        "traits": "Item. Charm.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09084",
+        "name": "Hallowed Chalice",
+        "text": "[action]: Choose an investigator at your location and either (choose one)\n- Exhaust Hallowed Chalice and place 1 doom on it to heal 2 damage or 2 horror from that investigator.\n- Heal 1 damage or 1 horror from that investigator. If you heal the last damage or horror from that investigator, remove 1 doom from Hallowed Chalice.",
+        "traits": "Item. Charm.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09086",
+        "flavor": "By both light and shadow /\nmay dusk beget dawn;\nMay the turning of the world /\nlead to power everlasting.",
+        "name": "Eldritch Initiation",
+        "text": "For each arcane slot you have, draw 1 card (max 5). For each filled arcane slot you have, choose and discard 1 card from your hand.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09088",
+        "name": "String of Curses",
+        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one): \n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
+        "traits": "Spell."
+    },
+    {
+        "code": "09090",
+        "name": "Ghastly Possession",
+        "text": "After you commit Ghastly Possession to a skill test on an asset, choose one:\n- Place 1 doom on that asset. Ghastly Possession gains [wild][wild].\n- If this test is successful, either remove 1 doom from this asset, or replenish half of its uses (rounded down).",
+        "traits": "Innate. Spell."
+    },
+    {
+        "code": "09091",
+        "name": "Astral Mirror",
+        "text": "For each of your arcane slots that are empty, you have one additional hand slot.\nYou may take an additional action during your turn, which can only be used to play an asset into one of your hand slots.",
+        "traits": "Ritual.",
+        "slot": "Body"
+    },
+    {
+        "code": "09092",
+        "name": "Elle Rubash",
+        "text": "You get +1 skill value while resolving a skill test on an attached asset.\n1 doom on each attached asset does not count towards the agenda's doom threshold.\n[fast] Exhaust Elle Rubash: Choose an asset in your play area with 1 or more doom on it. Attach it to Elle Rubash, or switch it with an attached asset. (Limit 2 attached assets).",
+        "traits": "Ally. Witch.",
+        "slot": "Ally"
+    },
+    {
+        "code": "09094",
+        "name": "Sin-Eater",
+        "text": "Permanent. Exceptional.\n[fast] Exhaust Sin-Eater: Move 1 doom from an asset you control to Sin-Eater. Then, either ready that asset or place 1 charge on it.\n[action]: Remove all doom from Sin-Eater.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09096",
+        "name": "Ceremonial Sickle",
+        "text": "[action]: <b>Fight.</b> Either use your [willpower] or get +1 [combat] for this attack. When you initiate this ability, choose one\n- Exhaust Ceremonial Sickle and place 1 doom on it to get +3 skill value and deal +1 damage for this attack.\n- If this attack defeats an enemy, ready Ceremonial Sickle and remove all doom from it.",
+        "traits": "Item. Charm. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09102",
+        "flavor": "The weight of it was reassuring, the metal warm against her skin.",
+        "name": "Idol of Xanatos",
+        "subname": "Watcher Beyond Time",
+        "text": "[reaction] When you are dealt damage and/or horror, exhaust Idol of Xanatos and discard up to 3 cards from your hand: Cancel that much damage/horror.",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "09103",
+        "name": "Improvised Shield",
+        "text": "Improvised Shield can only be played from your discard pile.\n<b>Forced</b> - When Improvised Shield is defeated: Shuffle it into your deck instead of discarding it.",
+        "traits": "Item. Armor. Improvised.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09105",
+        "name": "Exploit Weakness",
+        "text": "Fast. Play before revealing a chaos token during an attack or evasion attempt you are performing, and only if the difficulty of this test is currently 0.\nThis test automatically succeeds. Instead of this test's normal effects, discard the attacked or evaded enemy (if it is [[Elite]], automatically evade it and deal it 3 damage instead).",
+        "traits": "Tactic. Trait."
+    },
+    {
+        "code": "09106",
+        "flavor": "There is a certain clarity in the grim mathematics of survival.",
+        "name": "Making Preparations",
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - Choose two skills ([willpower], [intellect], [combat], or [agility]). Until the end of the investigation phase, each investigator gets +1 to each of the chosen skills, and -1 to each other skill.",
+        "traits": "Dilemma. Tactic."
+    },
+    {
+        "code": "09107",
+        "name": "Predator or Prey",
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - If there are no enemies in play, draw 1 card. Otherwise, you must decide (choose one):\n- Each unengaged enemy moves once toward the nearest investigator.\n- Each investigator disengages from each enemy engaged with them and moves once away from the nearest enemy.",
+        "traits": "Dilemma. Tactic."
+    },
+    {
+        "code": "09109",
+        "name": "At a Crossroads",
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - Choose an investigator and decide (choose one):\n- The chosen investigator must immediately take an action as if it were their turn, then discards 1 card at random from their hand.\n- The chosen investigator loses 1 action during their next turn, then draws 3 cards.",
+        "traits": "Dilemma. Insight."
+    },
+    {
+        "code": "09111",
+        "name": "Nature of the Beast",
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - Reveal the top 3 cards of the encounter deck. Choose an investigator to draw 1 of the revealed cards and discard the rest. Then, choose an investigator to discover 1 clue at any revealed location.",
+        "traits": "Dilemma. Insight."
+    },
+    {
+        "code": "09115",
+        "name": "Heed the Dream",
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - Reveal the top card from each investigator's deck and place them in a pile. Repeat this two more times. Choose one of the three piles. Each investigator draws each of their cards from that pile. Shuffle each weakness in each other pile into its owner's deck. Remove each other revealed card from the game.",
+        "traits": "Augury. Dilemma."
+    },
+    {
+        "code": "09116",
+        "flavor": "You feel a bit discarded, too.",
+        "name": "Salvage",
+        "text": "Choose an [[Item]] asset in your discard pile. Either (choose one):\n- Remove that asset from the game and gain resources equal to its cost.\n- Play that asset <i>(paying its cost)</i>.",
+        "traits": "Insight."
+    },
+    {
+        "code": "09120",
+        "name": "Tool Belt",
+        "text": "Each attached asset takes up no slots and its text box is treated as if it were blank (except for [[Traits]]).\n[fast] Exhaust Tool Belt: Choose one - attach a [[Tool]] asset in your play area to Tool Belt, switch a [[Tool]] asset in your play area with an attached asset, or detach an attached asset.",
+        "traits": "Item. Clothing.",
+        "slot": "Body"
+    },
+    {
+        "code": "09123",
+        "name": "Soul Sanctification",
+        "text": "Permanent. Exceptional.\nFor every point of damage and/or horror you heal in excess of an investigator's current damage/horror, place 1 resource on Soul Sanctification, as an offering. This still counts as healing.\n[fast] Spend 1 offering: You get +2 skill value for this test. (Limit twice per test.)",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09125",
+        "name": "Quantum Paradox",
+        "text": "[seeker] investigator only.\nAs an additional cost to play Quantum Paradox, you must choose and discard 4 other cards from your hand.\n<b>Forced</b> - If Quantum Paradox is in your hand at the end of your turn: Reveal it and take 1 horror.",
+        "traits": "Paradox."
+    },
+    {
+        "code": "09127",
+        "name": "Ectoplasmic Horror",
+        "text": "[mystic] investigator only.\nHunter.\nThe first time you reveal a chaos token while attacking or attempting to evade Ectoplasmic Horror, reveal an additional token for each empty arcane slot you have.",
+        "traits": "Monster. Geist."
+    },
+    {
+        "code": "09128",
+        "name": "Underprepared",
+        "text": "[survivor] investigator only.\nPlay only if Underprepared is the only card in your hand and you have exactly 1 resource in your resource pool.\nWhile Underprepared is in your hand, each card you commit to skill tests is considered to have 1 fewer matching skill icon.",
+        "traits": "Blunder."
     }
 ]
