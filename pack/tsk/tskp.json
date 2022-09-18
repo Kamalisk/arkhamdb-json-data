@@ -39,8 +39,9 @@
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
                 "text": [
-                    "[Hh]eals? (that much )?((((\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\d+)|(all)|(X total)) )?damage"
+                    "[Hh]eals? (that much )?((((\\+?\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\+?\\d+)|(all)|(X total)) )?damage"
                 ],
+                "heals_damage": true,
                 "level": { "min": 0, "max": 5 }
             },
             {
@@ -942,7 +943,7 @@
         "skill_willpower": 1,
         "slot": "Hand",
         "subname": "The Doctors' Bible",
-        "text": "[action]: Choose a card at your location and test [intellect](1). For each point you succeed by, choose one\n-The next time that card would be healed this round, heal +1 damage/horro (to a maximum of +3).\n- The next time that card would be dealt damage this round, deal +1 damage (to a maximum of +3).",
+        "text": "[action]: Choose a card at your location and test [intellect](1). For each point you succeed by, choose one\n-The next time that card would be healed this round, heal +1 damage/horror (to a maximum of +3).\n- The next time that card would be dealt damage this round, deal +1 damage (to a maximum of +3).",
         "traits": "Item. Tome.",
         "type_code": "asset",
         "xp": 5
