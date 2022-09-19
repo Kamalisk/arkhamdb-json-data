@@ -39,9 +39,9 @@
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
                 "text": [
-                    "[Hh]eals? (that much )?((((\\+?\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\+?\\d+)|(all)|(X total)) )?damage"
+                    "[Hh]eals? (that much )?((((\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\d+)|(all)|(X total)) )?damage"
                 ],
-                "heals_damage": true,
+                "tags": ["hd"],
                 "level": { "min": 0, "max": 5 }
             },
             {
@@ -451,6 +451,7 @@
             {
                 "xp": 1,
                 "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.",
+                "tags": "hd.hh.",
                 "text_change": "append"
             },
             {
@@ -654,11 +655,13 @@
             {
                 "xp": 1,
                 "real_text": "- Heal 2 damage.",
+                "tags": "hd.",
                 "text_change": "append"
             },
             {
                 "xp": 1,
                 "real_text": "- Heal 2 horror.",
+                "tags": "hh.",
                 "text_change": "append"
             },
             {
@@ -923,6 +926,7 @@
         "position": 56,
         "quantity": 2,
         "skill_intellect": 2,
+        "tags": "hd.hh.",
         "text": "Uses (4 supplies).\n[reaction] When one of your card effects heals damage from an investigator, spend 1 supply: Either that effect heals 1 additional damage, or you draw 1 card and heal 1 horror.\n[action] [action]: Heal 3 damage from an investigator or [[Ally]] asset at your location.",
         "traits": "Item. Tool. Science.",
         "type_code": "asset",
@@ -943,6 +947,7 @@
         "skill_willpower": 1,
         "slot": "Hand",
         "subname": "The Doctors' Bible",
+        "tags": "hd.hh.",
         "text": "[action]: Choose a card at your location and test [intellect](1). For each point you succeed by, choose one\n-The next time that card would be healed this round, heal +1 damage/horror (to a maximum of +3).\n- The next time that card would be dealt damage this round, deal +1 damage (to a maximum of +3).",
         "traits": "Item. Tome.",
         "type_code": "asset",
@@ -1311,6 +1316,7 @@
             {
                 "xp": 1,
                 "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.",
+                "tags": "hd.hh.",
                 "text_change": "append"
             },
             {
