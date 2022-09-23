@@ -568,6 +568,53 @@
         "xp": 0
     },
     {
+        "code": "09023",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "cost": -1,
+                "text_change": "insert",
+                "position": 0
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 5,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "If you make an attack with attached asset against an enemy engaged with another investigator and fail, deal no damage.\nYou get +2 [combat] when attacking with attached asset.\nAfter you attach an [[Upgrade]] card other than Custom Modifications to the attached asset, draw 1 card.\nFast. Play this card only during your turn.\nAfter the attached asset is emptied or ammo is placed on it by another event, place 1 ammo on attached firearm.\nIf you succeed by 3 or more when attacking with attached asset, this attack deals +1 damage.",
+        "customization_text": "□ <b>Calibrated Sight.</b> If you make an attack with attached asset against an enemy engaged with another investigator and fail, deal no damage.\n□□ <b>Enlarged Stock.</b> You get +2 [combat] when attacking with attached asset.\n□□ <b>Counterweight.</b> After you attach an [[Upgrade]] card other than Custom Modifications to the attached asset, draw 1 card.\n□□□ <b>Leather Grip.</b> Custom Modifications gets -1 to their cost and gains: \"Fast. Play this card only during your turn.\"\n□□□ <b>Extended Charger.</b> After the attached asset is emptied or ammo is placed on it by another event, place 1 ammo on attached firearm.\n□□□□□ <b>Mercury Bullets.</b> If you succeed by 3 or more when attacking with attached asset, this attack deals +1 damage.",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "",
+        "name": "Custom Modifications",
+        "pack_code": "tskp",
+        "position": 23,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "text": "Customizable.",
+        "traits": "Upgrade.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "09027",
         "cost": 1,
         "deck_limit": 2,
@@ -1779,6 +1826,60 @@
         "xp": 0
     },
     {
+        "code": "09100",
+        "cost": 1,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 0
+            },
+            {
+                "xp": 1,
+                "text_change": "replace",
+                "position": 3
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": -1
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 0
+            }
+        ],
+        "customization_change": "When you play Improvised Trap, you may add or reduce the uses by 1.\n<b>Forced</b> - At the end of the round, if there is at least one enemey at attached location: Remove 1 time from Improved Trap.\nFast. Play during any [fast] window.\nWhen you remove 1 time from Improvised Trap, deal 1 damage to enemies at attached location.\nAttach this card to your location or a connecting location.\nNon-[[Elite]] enemies at attached location cannot move or deal attacks of opportunity.\nCustomizable. Uses (2 time). If Improvised Trap has no time, discard it and deal 3 damage to all enemies and investigators at attached location.",
+        "customization_text": "□ <b>Improved Timer.</b> When you play Improvised Trap, you may add or reduce the uses by 1.\n□ <b>Cable Trap.</b> Activate the Forced effect only if there is an enemy at attached location.\n□□ <b>Simple.</b> Improvised Trap gains Fast and \"Play during any [fast] window.\"\n□□ <b>Poisonous.</b> When you remove 1 time from Improvised Trap, deal 1 damage to enemies at attached location.\n□□ <b>Remote Controlled.</b> When you play Improvised Trap, you may attach it to connection locations.\n□□□ <b>Net.</b> Non-[[Elite]] enemies at attached location cannot move or deal attacks of opportunity.\n□□□□ <b>Explosive Device.</b> When Improvised Timer has no more time and is discarded, deal 3 damage to all enemies and investigators at attached location.",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Tiziano Baracchi",
+        "name": "Improvised Trap",
+        "pack_code": "tskp",
+        "position": 100,
+        "quantity": 2,
+        "skill_wild": 1,
+        "text": "Customizable. Uses (2 time). If Improvised Trap has no time, discard it.\nAttach this card to your location.\nNon-[[Elite]] enemies at attached location get -1 fight and -1 evade.\n<b>Forced</b> - At the end of the round: Remove 1 time from Improved Trap.",
+        "traits": "Improvised. Trap.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "09101",
         "customization_options": [
             {
@@ -1946,6 +2047,58 @@
         "xp": 1
     },
     {
+        "code": "09112",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "",
+        "illustrator": "",
+        "name": "Bravery",
+        "pack_code": "tskp",
+        "position": 112,
+        "quantity": 1,
+        "text": "Max 1 committed per skill test.\nYou can commit Bravery to any kind of skill test.\nWhen you commit Bravery to a skill test, the test difficulty gets -2.",
+        "traits": "Innate.",
+        "type_code": "skill",
+        "xp": 1
+    },
+    {
+        "code": "09113",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Robert Laskey",
+        "name": "Baseball Bat",
+        "pack_code": "tskp",
+        "position": 113,
+        "quantity": 1,
+        "skill_combat": 2,
+        "slot": "Hand x2",
+        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage. If a [skull] or [auto_fail] symbol is revealed during this attack, choose one:\n- Return Baseball Bat to your hand after this attack.\n- This attack deals +1 damage. Discard Baseball Bat after this attack.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
+        "code": "09114",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Katja Eastbank",
+        "pack_code": "tskp",
+        "position": 114,
+        "quantity": 2,
+        "skill_intellectr": 1,
+        "skill_willpower": 1,
+        "slot": "Ally",
+        "subname": "Guardian of the esoteric knowledge",
+        "text": "[reaction]: When you draw a non-weakness Card from the top of your deck, before resolving any of its effects, exhaust Katja Eastbank: Place that card facedown under it (limit 5). Draw a new card instead.\n[action]: Draw any card that is under Katja Eastbank.",
+        "traits": "Ally.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
         "code": "09115",
         "cost": null,
         "deck_limit": 2,
@@ -1976,6 +2129,91 @@
         "traits": "Insight.",
         "type_code": "event",
         "xp": 2
+    },
+    {
+        "code": "09117",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Robert Laskey",
+        "name": "Old Keyring",
+        "pack_code": "tskp",
+        "position": 117,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "slot": "Hand",
+        "text": "Uses (3 keys). If there are no keys on Old Keyring, discard it.\n[action]: <b>Investigate.</b> Your location gets -2 shroud for this investigation. If you succeed, remove 1 key from Old Keyring. If this test has 0 difficulty, you discover 1 additional clue.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
+        "code": "09118",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "",
+        "name": "Capricious Fortune",
+        "pack_code": "tskp",
+        "position": 118,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "text": "Max 2 [[Dilemma]] per round.\n<b>Revelation</b> - Choose an investigator and decide (choose one):\n- Place one doom on the current agenda, each investigator heals 3 damage and 3 horror.\n- Remove 1 doom from the current agenda, each investigator takes 1 direct damage and 1 direct horror. Remove this card from the game.",
+        "traits": "Dilemma. Fortune.",
+        "type_code": "event",
+        "xp": 3
+    },
+    {
+        "code": "09119",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 4,
+                "text_change": "insert",
+                "position": 1
+            }
+        ],
+        "customization_change": "Form: <i>Manifest</i> - <b>Fight.</b> Fight with any skill. This attack deals +1 damage.\nForm: <i>Manifest</i> - <b>Investigate.</b> Investigate with any skill. If you succeed, discover a clue at any revealed location instead of your location.\nForm: <i>Manifest</i> - <b>Evade.</b> Attempt to evade with any skill. Before or after this attempt, you may move an investigator or a non-[[Elite]] enemy at your location to a connecting location, or vice versa.\nForm: <i>Manifest</i> - Text any skill (3). If you succeed, discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.\nForm: <i>Manifest</i> - Choose an asset in your hand and test any skill (X), where X is that asset's cost. If you succeed, play that asset at no cost.\nCustomizable. Uses (6 aether). If Hyperphysical Shotcaster has no aether, discard it.\nWhile using a <i>Manifest</i> ability, you get +2 skill value.",
+        "customization_text": "□□ <b>Railshooter.</b> Hyperphysical Shotcaster has this form: \"<i>Manifest</i> - <b>Fight.</b> Fight with any skill. This attack deals +1 damage.\"\n□□ <b>Telescanner.</b> Hyperphysical Shotcaster has this form: \"<i>Manifest</i> - <b>Investigate.</b> Investigate with any skill. If you succeed, discover a clue at any revealed location instead of your location.\"\n□□ <b>Translocator.</b> Hyperphysical Shotcaster has this form: \"<i>Manifest</i> - <b>Evade.</b> Attempt to evade with any skill. Before or after this attempt, you may move an investigator or a non-[[Elite]] enemy at your location to a connecting location, or vice versa.\"\n□□ <b>Realitycollapser.</b> Hyperphysical Shotcaster has this form: \"<i>Manifest</i> - Text any skill (3). If you succeed, discard from play a non-weakness treachery that is not attached to an [[Elite]] enemy.\"\n□□ <b>Matterweaver.</b> Hyperphysical Shotcaster has this form: \"<i>Manifest</i> - Choose an asset in your hand and test any skill (X), where X is that asset's cost. If you succeed, play that asset at no cost.\"\n□□□□ <b>Aethetic Link.</b> Hyperphysical Shotcaster enters play with 2 additional aether.\n□□□□ <b>Empowered Configuration.</b> While using a <i>Manifest</i> ability, you get +2 skill value.",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "JB Casacop",
+        "is_unique": true,
+        "name": "Hyperphysical Shotcaster",
+        "pack_code": "tskp",
+        "position": 119,
+        "quantity": 2,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "subname": "Theoretical Device",
+        "text": "Customizable. Uses (4 aether). If Hyperphysical Shotcaster has no aether, discard it.\n[action] Spend 1 aether: Resolve the <i>Manifest</i> ability on the Hyperphysical Shotcaster's current form.\n[fast] Exhaust Hyperphysical Shotcaster: Change its form <i>(to one you have unlocked on its upgrade sheet).</i>",
+        "traits": "Item. Relic. Weapon. Firearm.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "09120",
