@@ -5,12 +5,12 @@
         "subname": "El mayordomo",
         "text": "Puedes realizar una acción adicional durante tu turno, pero sólo se puede usar en la siguiente capacidad [action].\n[action]: Elige otro investigador que esté en tu Lugar. Éste realiza una acción inmediatamente como si fuera su turno. Límite de ronda de una vez por cada investigador.\nEfecto [elder_sign]: +0. Roba 1 carta. Puedes resolver este efecto en cualquier momento en el que otro investigador que esté en tu Lugar resuelva su efecto [elder_sign].",
         "traits": "Ayudante.",
-        "back_flavor": "???",
-        "back_text": "???"
+        "back_flavor": "Carson Sinclair ha servido a tres generaciones de la familia Webb en Arkham. Siempre correcto, Carson observó con desaprobación cómo su patrón más reciente, Hercule Webb empezaba a traer extraños artefactos y tomos profanos a casa, ayudado en estas actividades por Dupuis, el encargado de los negocios de Webb. Cuando el Sr. Webb fue engullido por una grieta dimensional, nadie creyó la descripción del suceso que hizo Carson, quien se ha entregado a la causa de demostrar la culpabilidad de Dupuis y de lograr que los niños vuelvan a ser los herederos legítimos de la fortuna Webb.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Elección de clase secundaria:</b> Elige entre Buscador ([seeker]), Místico ([mystic]) o Superviviente ([survivor]) al crear el mazo.\n<b>Opciones de creación de mazos:</b> Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5, hasta 10 Eventos y/o Habilidades de nivel 0-1 de la clase secundaria elegida.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 2 copias de \"Como desee\", Abnegado en exceso, 1 Debilidad básica aleatoria."
     },
     {
         "code": "09002",
-        "name": "Como desee",
+        "name": "\"Como desee\"",
         "text": "Sólo para el mazo de Carson Sinclair.\nAsigna esta carta sólo a una prueba de habilidad que esté realizando otro investigador.\nSi esta prueba tiene éxito, el investigador que la realiza roba 1 carta. Si esta prueba fracasa, robas 1 carta.",
         "traits": "Experimentado. Experto."
     },
@@ -24,29 +24,30 @@
         "code": "09004",
         "name": "Vincent Lee",
         "subname": "El médico",
-        "text": "???",
+        "text": "[reaction] Después de que el efecto de una de tus cartas cure horror de un investigador o de un Apoyo [[Aliado]] de un investigador: Añade una de tus Habilidades En recuperación a la mano de ese investigador.\nEfecto [elder_sign]: +1. Puedes curar 1 punto de daño de un investigador o de un Apoyo [[Aliado]] que esté en tu Lugar.",
         "traits": "Médico.",
-        "flavor": "???",
-        "back_text": "???",
-        "back_flavor": "???"
+        "flavor": "\"Encontraré las respuestas aunque me cueste la vida.\"",
+        "back_text": "<b>Tamaño del mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Buscador([seeker]) de nivel 0-3, cartas neutrales de nivel 0-5, cartas que \"curen daño\" de nivel 0-5, hasta otras 15 cartas Guardián y/o Superviviente de nivel 0-1 ([guardian] y/o [survivor]).\n<b>Requisitos de creación de mazos </b>(no cuentan para el tamaño del mazo): Sierra para huesos, 1 [per_investigator] copia de En recuperación, Transeúnte herido, 1 Debilidad básica aleatoria.",
+        "back_flavor": "Después de que apareciera el tercer o cuarto cadáver mutilado desde su llegada al Hospital de Santa María en Arkham, Vincent Lee empezó a sospechar de que no se trataban de meros ataques de animales. Cuando un joven murió entre gritos mientras dormía porque le reventó el corazón, Vincent supo a ciencia cierta que se avecinaban tiempos oscuros. Tras pedir unas excedencia de su puesto en el hospital, se ha propuesto aliviar el sufrimiento de los afectados por el caos que se extiende, con la esperanza de que el rastro de cuerpos lo lleve hasta las respuestas que ansía."
     },
     {
         "code": "09005",
-        "name": "<Sierra de Vincent>",
-        "text": "Sólo para el mazo de Vincent Lee.\n[???]",
+        "name": "Sierra para huesos",
+        "text": "Sólo para el mazo de Vincent Lee.\n[action]: <b>Combatir.</b> Recibes +2 [combat] para este ataque. Si este ataque tiene éxito, puedes recibir 1 punto de daño para infligir +1 punto de daño para este ataque.\n[action]: Cura 5 puntos de daño a un investigador que esté en tu Lugar. Realiza una prueba de [intellect} (4). Si fracasas, ese investigador sufre 1 trauma físico. Máximo una vez por partida.",
         "traits": "Objeto. Herramienta. Cuerpo a cuerpo.",
         "slot": "Mano."
     },
     {
         "code": "09006",
-        "name": "???",
-        "text": "???",
+        "name": "En recuperación",
+        "text": "Límite de 1 En recuperación en tu mano.\nAsigna esta carta sólo a una prueba que estés realizando.\n<b>Obligado</b> - Cuando En recuperación fuera a ser descartada desde cualquier parte: En vez de eso, ponla aparte fuera del juego.",
         "traits": "Innato."
     },
     {
         "code": "09007",
-        "name": "???",
+        "name": "Pon el Transeúnte herido",
         "subname": "A las puertas de la muerte",
+        "text": "<b>Revelación</b> - Pon el Transeúnte herido en juego en tu zona de juego con 3 puntos de daño sobre él. No puede abandonar el juego mientras tenga daño (a menos de que sea derrotado). Si no tiene daño, descártalo.\n<b>Obligado</b> - Cuando recibas daño que no sea directo: Al menos 1 punto de ese daño debe asignarse al Transeúnte herido si es posible.\n<b>Obligado</b> - Si el Transeúnte herido queda derrotado: Sufres 1 trauma mental.",
         "traits": "Aliado. Transeúnte."
     },
     {
@@ -56,21 +57,22 @@
         "text": "[free]: Enfréntate a un Enemigo agotado que esté een tu Lugar\n[reaction]Cuando intentes evitar a un Enemigo agotado que no sea [[Élite]]. Añade tu [intellect] a tu valor de habilidad para este intento. Si tienes éxito por al menos X, descarta ese Enemigo. X es la salud restante de ese Enemigo.\nEfecto [elder_sign]: +1. Si hay un enemigo agotado en tu Lugar, en vez de eso tienes éxito automáticamente.",
         "traits": "Criminal.",
         "flavor": "Esto no te pertenece.",
-        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos</b>: Cartas Rebelde ([rogue]) de nivel 0-5, cartas [[Herramienta]] de nivel 0-4, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): ???.\n<b>Experiencia extra</b>: Comienzas la campaña con 5 puntos de experiencia adicionales (no afecta a la cantidad de Debilidades que debes coger al jugar como escenario independiente).",
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos</b>: Cartas Rebelde ([rogue]) de nivel 0-5, cartas [[Herramienta]] de nivel 0-4, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Gancho de arpeo, Agente Fletcher, 1 Debilidad básica aleatoria.\n<b>Experiencia extra</b>: Comienzas la campaña con 5 puntos de experiencia adicionales (no afecta a la cantidad de Debilidades que debes coger al jugar como escenario independiente).",
         "back_flavor": "???"
     },
     {
         "code": "09009",
-        "name": "???",
+        "name": "Gancho de arpeo",
         "traits": "Objeto. Herramienta.",
-        "text": "",
+        "text": "Sólo para el mazo de Kymani Jones.\nLas acciones realizadas usando el Gancho de arpeo no provocan ataques de oportunidad.\n[action][action] Agota el Gancho de arpeo: Realiza hasta 3 acciones básicas distintas de la siguiente lista, en cualquier orden (enfrentarte, evitar, investigar o moverte). Si investigas, usa tu [agility] en lugar de tu [intellect].",
         "slot": "Mano"
     },
     {
         "code": "09010",
         "name": "Agente Fletcher",
         "traits": "Humanoide. Camarilla. Detective.",
-        "text": "Alerta. Cazador.\n<b>Presa</b> - Sólo Kymani Jones.\n[???]"
+        "text": "Alerta. Cazador.\n<b>Presa</b> - Sólo Kymani Jones.\nMientras Kymani Jones esté evitando al Agente Fletcher, reduce su valor de [intellect] a 0.",
+        "flavor": "Sé quien eres realmente, Jones."
     },
     {
         "code": "09011",
@@ -79,8 +81,8 @@
         "subname": "La operadora",
         "text": "[reaction]: Cuando juegues un Apoyo: Reduce el coste de recursos en 3. Entra en juego con 1 ficha de Perdición sobre él. Límite de una vez por ronda.\nEfecto [elder_sign]: +2. Puedes mover toda la perdición de una carta que esté en tu Lugar a otra carta que esté en tu Lugar.",
         "traits": "Elegido. Maldito.",
-        "back_text": "???",
-        "back_flavor": "???"
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, cartas [[Amuleto]].\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Palabra de desagrado, Palabra de agrado, Silencio ensordecedor, 1 Debilidad básica aleatoria.",
+        "back_flavor": "Amina es una refugiada de la Argelia ocupada por los franceses que llegó a Arkham con tan sólo lo que podía llevar encima. Seis años después, la aguda mente de Amina y su habilidad técnica la llevaron a la centralista de la empresa de telefonía del Valle del Miskatonic. Poco después, empezó a percibir fragmentos de algo extraño mientras trabajaba: palabras distorsionadas en un idioma irreconocible, ruidos fuera de lugar, llamadas que no conectaban con ninguna parte y se cortaban casi de inmediato... Cuando la frecuencia de las llamadas espectrales empezó a aumentar, Amina buscó respuestas. Encontró la extensión apropiada, se conectó a la línea y escuchó. Pese a que no entendía ni una palabra del idioma alienígena del otro lado, percibía que las palabras arcanas contenían verdadero poder."
     },
     {
         "code": "09012",
@@ -103,26 +105,26 @@
     },
     {
         "code": "09015",
-        "flavor": "\"[???]\"",
+        "flavor": "\"La verdad es más siniestra de lo que ninguno sabemos.\"",
         "name": "Darrell Simmons",
         "subname": "El fotógrafo",
-        "text": "Comienzas la partida con [???] en juego.\n[free] Durante una prueba de habilidad en tu Lugar, gasta 1 evidencia de un apoyo que controles: Reduce la dificultad de esta prueba en 2. Límite de una vez por prueba.\nEfecto [elder_sign]: +1. Coloca 1 evidencia a un Apoyo que controles.",
+        "text": "Comienzas la partida con la Kodak de Darrell en juego.\n[free] Durante una prueba de habilidad en tu Lugar, gasta 1 prueba de un Apoyo que controles: Reduce en 2 la dificultad de esta prueba. Límite de una vez por prueba.\nEfecto [elder_sign]: +1. Coloca 1 prueba sobre un Apoyo que controles.",
         "traits": "Reportero.",
-        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos</b>: Cartas Superviviente ([survivor]) de nivel 0-5, cartas Buscador ([seeker]) de nivel 0-2, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): ???.",
-        "back_flavor": "???"
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Opciones de creación de mazos:</b> Cartas Superviviente ([survivor]) de nivel 0-5, cartas Buscador ([seeker]) de nivel 0-2, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Kodak de Darrell, Película estropeada, 1 Debilidad básica aleatoria",
+        "back_flavor": "Incluso durante su infancia y adolescencia en Arkham, Darrell siempre supo que había algo que no iba bien en la extraña ciudad. Tras graduarse en el instituto, empezó a trabajar en el Arkham Advertiser como fotógrafo, y en los años que han pasado desde entonces, ha recorrido hasta el último rincón de la ciudad. Sin embargo, una fatídica noche, vio algo verdaderamente indescriptible: un horror que hizo estremecerse su mundo por completo. Su editor dice que está viendo visiones, pero él sabe la verdad. Con su fiel cámara en ristre, no descansará hasta haber capturado pruebas fotográficas de los horrores que moran en las sombras de su ciudad natal y más allá. Sólo necesita una buena foto."
     },
     {
         "code": "09016",
         "name": "Kodak de Darrell",
-        "subname": "???",
-        "text": "???",
+        "subname": "Pruebas fehacientes",
+        "text": "Sólo para el mazo de Darrell Simmons.\n[reaction] Después de que un Enemigo o Traición entre en juego, agota la Kodak de Darrell: Coloca 1 recurso <i>(de la reserva de fichas)</i> sobre ese Enemigo o Traición como prueba.\n[reaction] Después de que descubras cualquier cantidad de pistas: Mueve a la Kodak de Darrell esa misma cantidad de pruebas que estén sobre Enemigos o Traiciones que estén en ese Lugar (o que no estén en ningún Lugar).",
         "traits": "Objeto. Herramienta."
     },
     {
         "code": "09017",
-        "name": "Película arruinada",
-        "subname": "???",
-        "text": "???",
+        "name": "Película estropeada",
+        "flavor": "Pruebas irrefutables reducidas a nada por la luz del día.",
+        "text": "<b>Revelación</b> - Retira 4 pruebas de cartas que controles. Recibe 1 punto de horror por cada prueba que no puedas retirar de esta forma.",
         "traits": "Equivocación."
     },
     {
@@ -131,7 +133,9 @@
         "name": "Charlie Kane",
         "subname": "El político",
         "text": "Tienes 3 espacios de aliado adicionales.\n[fast] Durante una prueba de habilidad que estés realizando, agota un Apoyo [[Aliado]] que controles: Recibes +1 a tu valor de habilidad para esta prueba, más un +1 adicional por cada icono de habilidad que tenga ese Apoyo [[Aliado]] que coincida con el tipo de la prueba.\nEfecto [elder_sign]: +3. Prepara un Apoyo [[Aliado]] que esté en tu Lugar.",
-        "traits": "Cívico. Alta sociedad."
+        "traits": "Cívico. Alta sociedad.",
+        "back_text": "<b>Tamaño de mazo:</b> 30.\n<b>Elección de clases:</b> Elige 2 clases ([guardian], [seeker], [rogue], [mystic], o [survivor] al crear el mazo.<b>Opciones de creación de mazos:</b> Cartas <b><i>Aliado</i></b> de nivel 0-5, cartas neutrales de nivel 0-5, cartas de tus clases elegidas de nivel 0-2.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Bonnie Walsh, El peso del liderazgo, 1 Debilidad básica aleatoria.",
+        "back_flavor": "Charlie prometió un futuro más seguro a las gentes de Arkham. Hizo muchas promesas: menos impuestos, mejores escuelas, menos delincuencia... Al fin y al cabo, era parte de su trabajo. Y aunque a veces tuvo que hacer cosas de las que no se sentía orgulloso, Charlie siempre trabajó por el bien común. Así que cuando empezó a oír los informes, antepuso a la población. Por su puesto que no se lo contaría a nadie, porque el pánico generalizado no serviría al bien común. Además, ¿quién iba a creerlo? aun así, Charlie siempre ha tenido contactos en la ciudad, así que hizo algunas llamadas, organizó una fuerza especial y se puso manos a la obra."
     },
     {
         "code": "09019",
