@@ -41,13 +41,13 @@ loadCards = (root) ->
                 if !!fileContents.trim()
                     json = JSON.parse fileContents
                     json = json.filter((card) -> !!!card.duplicate_of)
-                    result["#{path.join(file, pack_file)}"] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
+                    result["#{path.join(file, pack_file)}"] = stripProps json, ['code', 'flavor', 'name', 'subname', 'customization_text', 'customization_change', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
         else
             #console.log "Reading regular #{path.join(localeRoot, file)}"
             fileContents = fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
             if !!fileContents.trim()
                 json = JSON.parse fileContents
-                result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
+                result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'customization_text', 'customization_change', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
     result
 
 merge_data = (defaultLocale, locale) ->

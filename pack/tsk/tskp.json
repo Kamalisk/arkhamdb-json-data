@@ -41,6 +41,7 @@
                 "text": [
                     "[Hh]eals? (that much )?((((\\d+)|(all)|(X total)) )?horror (from that asset )?(and|or) )?(((\\d+)|(all)|(X total)) )?damage"
                 ],
+                "tag": ["hd"],
                 "level": { "min": 0, "max": 5 }
             },
             {
@@ -383,6 +384,122 @@
         "type_code": "treachery"
     },
     {
+        "code": "09021",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1,
+                "real_traits": "Item. Armor. Relic.",
+                "real_slot": "Arcane",
+                "text_change": "trait"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "health": 2
+            },
+            {
+                "xp": 2,
+                "sanity": 2
+            },
+            {
+                "xp": 2,
+                "cost": -1,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "Item. Armor. Relic.\nHunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n\n\nPlaying Hunter's Armor does not provoke attacks of opportunity.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
+        "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's Armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "You cobbled this suit together yourself from the remnants of ancient armor, mixed with more modern \"bulletproof\" plating used in the Great War. It's not much, yet. But with some improvements, maybe it'll be enough.",
+        "health": 2,
+        "illustrator": "Rob Laskey",
+        "name": "Hunter's Armor",
+        "pack_code": "tskp",
+        "position": 21,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_willpower": 1,
+        "slot": "Body",
+        "text": "Customizable.",
+        "traits": "Item. Armor.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09022",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1,
+                "cost": -1,
+                "real_traits": "Item. Weapon. Melee. Relic.",
+                "text_change": "trait"
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.",
+                "tags": "hd.hh.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "insert",
+                "position": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "Item. Weapon. Melee. Relic.\n- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\n- <i>Elders</i> - If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.\n- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\n- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\nYou may imbue the same inscription up to three times.\nCustomizable. Uses (4 charges). Replenish 2 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with twice as many different inscriptions -",
+        "customization_text": "□ <b>Heirloom.</b> This asset gets -1 cost and gains the [[Relic]] trait.\n□ <b>Inscription of Glory.</b> Add this inscription: \"- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\".\n□ <b>Inscription of the Elders.</b> Add this inscription: \"- <i>Elders</i> - If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.\"\n□ <b>Inscription of the Hunt.</b> Add this inscription: \"- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\"\n□ <b>Inscription of Fury.</b> Add this inscription: \"- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\"\n□□□ <b>Ancient Power.</b> You may imbue the same inscription up to three times.\n□□□ <b>Saga.</b> Replenish 2 of Runic Axe's charges at the start of each round, instead of only 1.\n□□□□ <b>Scriptweaver.</b> For every charge spent, you may imbue the axe with up to two different inscriptions.",
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Pixoloid Studios",
+        "is_unique": true,
+        "name": "Runic Axe",
+        "pack_code": "tskp",
+        "position": 22,
+        "quantity": 2,
+        "skill_combat": 1,
+        "slot": "Hand x2",
+        "text": "Customizable. Uses (4 charges). Replenish 1 of these charges at the start of each round.\n[action]: <b>Fight.</b> You get +1 [combat] for this attack. Before this attack, you may spend any number of charges to imbue the axe with that many different inscriptions -\n- <i>Accuracy</i> - You get an additional +2 [combat] for this attack.\n- <i>Power</i> - This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "09027",
         "cost": 1,
         "deck_limit": 2,
@@ -488,6 +605,28 @@
         "xp": 2
     },
     {
+        "code": "09037",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "health": 2,
+        "is_unique": true,
+        "illustrator": "Carlos Palma Cruchaga",
+        "name": "Martyr's Vambrace",
+        "pack_code": "tskp",
+        "position": 37,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Accessory",
+        "subname": "Remnant of the Unknown",
+        "text": "You get +1 skill value while resolving revelation abilities on encounter cards.\n[reaction] After another investigator at your location draws a non-peril encounter card, before resolving that card's effects, exhaust Martyr's Vambrace: You are considered to have drawn that encounter card, instead.",
+        "traits": "Item. Charm. Armor.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
         "code": "09038",
         "cost": 4,
         "deck_limit": 2,
@@ -508,6 +647,187 @@
         "traits": "Ally. Police.",
         "type_code": "asset",
         "xp": 4
+    },
+    {
+        "code": "09040",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "real_text": "- Heal 2 damage.",
+                "tags": "hd.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "real_text": "- Heal 2 horror.",
+                "tags": "hh.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 4,
+                "text_change": "insert",
+                "position": 1
+            },
+            {
+                "xp": 5,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "- Heal 2 damage.\n- Heal 2 horror.\n- Place 1 charge or secret on an asset you control.\n- Move up to 2 times.\nCustomizable. Uses (5 supplies).\nWhen you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options (2 options instead if you succeed by 2 or more) -",
+        "customization_text": "□ <b>Mending Distillate.</b> Add this option: \"- Heal 2 damage.\".\n□ <b>Calming Distillate.</b> Add this option: \"- Heal 2 horror.\"\n□ <b>Enlightening Distillate.</b> Add this option: \"- Place 1 charge or secret on an asset you control.\"\n□ <b>Quickening Distillate.</b> Add this option: \"- Move up to 2 times.\"\n□□ <b>Refined.</b> Alchemical Distillation enters play with 2 additional supplies on it.\n□□□□ <b>Empowered.</b> When you initiate this skill test, you may increase its difficulty by 2. If you do, increase the value of the effect granted by each option by 1 for this test.\n□□□□□ <b>Perfected.</b> If you succeed by 2 or more, the chosen investigator may perform two different options instead of one.",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Steve Hamilton",
+        "name": "Alchemical Distillation",
+        "pack_code": "tskp",
+        "position": 40,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "text": "Customizable. Uses (3 supplies).\n[action] Spend 1 supply: Choose an investigator at your location and test [intellect] (1). If you succeed, that investigator performs one of the following options\n- Draw 2 cards.\n- Gain 2 resources.",
+        "traits": "Item. Science.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09041",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 3
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 4
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "insert",
+                "position": 4
+            }
+        ],
+        "customization_change": "- You run out of cards in your hand.\n- You are dealt damage or horror.\n- You discard a treachery or enemy from play.\n- You enter a location with 3 or more shroud.\nWhen the chosen criteria is met by any investigator at your location, you may exhaust Empirical Hypothesis to add 1 evidence to it. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n[fast] Spend 2 evidence: Reduce the cost of the next card you play this phase by 3.\n[fast] Spend 3 evidence: Discover 1 clue at your location.\nAfter you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+        "customization_text": "□ <b>Pessimistic Outlook.</b> Add the following criteria:\"you run out of cards in your hand\".\n□ <b>Trial and Error.</b> Add the following criteria: \"you are dealt damage or horror.\"\n□ <b>Independent Variable.</b> Add the following criteria: \"you discard a treachery or enemy from play.\"\n□ <b>Field Research.</b> Add the following criteria: \"you enter a location with 3 or more shroud.\"\n□□ <b>Peer Review.</b> The chosen criteria is met if any investigator at your location meets it, instead of only you. Other investigators at your location may trigger [fast] abilities on Empirical Hypothesis.\n□□ <b>Research Grant.</b> Empirical Hypothesis gains: \"[fast] Spend 2 evidence: Reduce the cost of the next card you play by 3.\"\n□□□ <b>Irrefutable Proof.</b> Empirical Hypothesis gains: \"[fast] Spend 3 evidence: Discover 1 clue at your location.\"\n□□□□ <b>Alternative Hypothesis.</b> After you exhaust Empirical Hypothesis, you may resolve its forced effect, choosing a criteria you have not chosen this round. Then, ready it.",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Isuardi Therianto",
+        "name": "Empirical Hypothesis",
+        "pack_code": "tskp",
+        "position": 41,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "text": "Customizable. Limit 1 per investigator.\n<b>Forced</b> - At the start of the round: Choose one of the following criteria for this round\n- You fail a test by 2 or more.\n- You succeed at a test by 3 or more.\nWhen the chosen criteria is met, you may exhaust Empirical Hypothesis to add 1 evidence to it.\n[fast] Spend 1 evidence: Draw 1 card.",
+        "traits": "Talent. Science.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09042",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 0,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_card",
+                "quantity": 1,
+                "card": {
+                    "type": ["asset"],
+                    "trait": ["Tome", "Spell"]
+                }
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_card",
+                "quantity": 2,
+                "card": {
+                    "type": ["asset"],
+                    "trait": ["Tome", "Spell"]
+                }
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "Named asset:\nUsing attached asset's [action] abilities does not provoke attacks of opportunity.\nAttached asset does not take up any slots.\nYou get +2 skill value while performing skill tests on attached asset.\nAdditional named assets:\n[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\nAfter you resolve an [action] ability on attached asset, you may exhaust The Raven Quill to ready another asset you control.\nAttach to a named asset you control, or you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
+        "customization_text": "Named [[Tome]] or [[Spell]] asset:\n□ <b>Living Quill.</b> Using attached asset's [action] abilities does not provoke attacks of opportunity.\n□ <b>Spectral Binding.</b> Attached asset does not take up any slots.\n□□ <b>Mystic Vane.</b> You get +2 skill value while performing skill tests on attached asset.\n□□ <b>Endless Inkwell.</b> Name two more [[Tome]] or [[Spell]] assets:\n□□ <b>Energy Sap.</b> The Raven Quill gains: \"[fast] Exhaust The Raven Quill: Move 1 secret or charge from an asset you control to attached asset.\"\n□□□ <b>Interwoven Ink.</b> After you resolve an [action] ability on attached asset, you may exhaust The Raven Quill to ready another asset you control.\n□□□□ <b>Supernatural Record.</b> When you play The Raven Quill, instead of attaching it to a named asset you control, you may search your deck, discard pile, and hand for a copy of a named asset and play it <i>(paying its cost)</i>. Then, attach The Raven Quill to it.",
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Ethan Patrick Harris",
+        "name": "The Raven Quill",
+        "pack_code": "tskp",
+        "position": 42,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "text": "Customizable. When you purchase The Raven Quill, name a [[Tome]] or [[Spell]] asset and record that name on its upgrade sheet.\nAttach to a named asset you control.\n[reaction] When you resign or the game ends: Either mark a checkbox on The Raven Quill's upgrade sheet, or reduce the experience cost to upgrade the attached asset before the next scenario by 1.",
+        "traits": "Item. Relic. Upgrade.",
+        "type_code": "event",
+        "xp": 0
     },
     {
         "code": "09045",
@@ -594,6 +914,184 @@
         "traits": "Insight. Paradox.",
         "type_code": "event",
         "xp": 1
+    },
+    {
+        "code": "09056",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Mauro Dal Bo",
+        "name": "Surgical Kit",
+        "pack_code": "tskp",
+        "position": 56,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "tags": "hd.hh.",
+        "text": "Uses (4 supplies).\n[reaction] When one of your card effects heals damage from an investigator, spend 1 supply: Either that effect heals 1 additional damage, or you draw 1 card and heal 1 horror.\n[action] [action]: Heal 3 damage from an investigator or [[Ally]] asset at your location.",
+        "traits": "Item. Tool. Science.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
+        "code": "09058",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Pixoloid Studios",
+        "name": "Gray's Anatomy",
+        "pack_code": "tskp",
+        "position": 58,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "subname": "The Doctors' Bible",
+        "tags": "hd.hh.",
+        "text": "[action]: Choose a card at your location and test [intellect](1). For each point you succeed by, choose one\n-The next time that card would be healed this round, heal +1 damage/horror (to a maximum of +3).\n- The next time that card would be dealt damage this round, deal +1 damage (to a maximum of +3).",
+        "traits": "Item. Tome.",
+        "type_code": "asset",
+        "xp": 5
+    },
+    {
+        "code": "09059",
+        "cost": 4,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.\nCustomizable. Uses (5 evidence).\nYou get +2 [intellect] while investigating using Damning Testimony.\nWhen you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.\nYou may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.\nWhen you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-[[Elite]]. X is that enemy's remaining health.",
+        "customization_text": "□ <b>Search Warrant.</b> While investigating using Damning Testimony, you may ignore any effect or keyword on the investigated location that would trigger.\n□□ <b>Fabricated Evidence.</b> Damning Testimony enters play with 2 additional evidence on it.\n□□ <b>Blackmail.</b> You get +2 [intellect] while investigating using Damning Testimony.\n□□□ <b>Extort.</b> When you successfully investigate using Damning Testimony, you may spend 1 evidence to automatically evade the chosen enemy.\n□□□ <b>Surveil.</b> You may use Damning Testimony's ability to investigate the chosen enemy's location instead of your location.\n□□□□ <b>Expose.</b> When you successfully investigate using Damning Testimony, you may spend X evidence to discard the chosen enemy if it is non-[[Elite]]. X is that enemy's remaining health.",
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Pixoloid Studios",
+        "name": "Damning Testimony",
+        "pack_code": "tskp",
+        "position": 59,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "slot": "Hand",
+        "text": "Customizable. Uses (3 evidence).\n[action] Exhaust Damning Testimony and choose an enemy at any location: <b>Investigate.</b> <i>(your location)</i>. If you succeed, you may spend 1 evidence to discover 1 additional clue at the chosen enemy's location.",
+        "traits": "Item. Illicit.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09060",
+        "cost": 0,
+        "customization_options": [
+            {
+                "xp": 0,
+                "text_change": "replace",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": -1
+            },
+            {
+                "xp": 3,
+                "text_change": "replace",
+                "position": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "Customizable. Chosen trait: _____\nWhen you play Friends in Low Places, you may choose another investigator at your location to resolve its effects.\nChoose another trait: _____. When you play Friends in Low Places, you may choose one of the looked-at cards with both chosen [[Traits]] to add to your hand without spending 1 resource.\nEach card added to your hand by Friends in Low Places gains a [wild] icon until the end of the phase.\nInstead of shuffling the remaining cards into your deck, you may place each of them on the top of your deck, in any order.\nFast. Play during any [fast] window.\nLook at the top 9 cards of your deck. For each looked-at card with the chosen [[Trait]](s), you may spend 1 resource to add that card to your hand. Shuffle the remaining cards into your deck.\nYou may play one of the cards added to your hand <i>(paying its cost)</i>.",
+        "customization_text": "Chosen [[Trait]]: _____\n□ <b>Helpful.</b> When you play Friends in Low Places, you may choose another investigator at your location to resolve its effects.\n□□ <b>Versatile.</b> Choose another [[Trait]]: _____. When you play Friends in Low Places, you may choose one of the looked-at cards with both chosen [[Traits]] to add to your hand without spending 1 resource.\n□□ <b>Bolstering.</b> Each card added to your hand by Friends in Low Places gains a [wild] icon until the end of the phase.\n□□ <b>Clever.</b> Instead of shuffling the remaining cards into your deck, you may place each of them on the top of your deck, in any order.\n□□ <b>Prompt.</b> Friends in Low Places gains fast and \"play during any [fast] window\".\n□□□ <b>Experienced.</b> Increase the number of cards looked at by 3.\n□□□ <b>Swift.</b> You may play one of the cards added to your hand <i>(paying its cost)</i>.",
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "flavor": "\"Pleasure doing business with you, Ms. O'Bannion.\"",
+        "illustrator": "Borja Pindado",
+        "name": "Friends in Low Places",
+        "pack_code": "tskp",
+        "position": 60,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "text": "Customizable. When you purchase Friends in Low Places, choose and record a [[Trait]] on its upgrade sheet.\nLook at the top 6 cards of your deck. For each looked-at card with the chosen [[Trait]](s), you may spend 1 resource to add that card to your hand. Shuffle the remaining cards into your deck.",
+        "traits": "Favor.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "09062",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Drazenka Kimpel",
+        "name": "Disguise",
+        "pack_code": "tskp",
+        "position": 62,
+        "quantity": 2,
+        "skill_agility": 1,
+        "text": "Uses (4 supplies).\n[action] Spend 1 supply: <b>Evade.</b> You get +2 [agility] for this evasion attempt. If you succeed and the evaded enemy is non-[[Elite]], it does not ready during the next upkeep phase.",
+        "traits": "Talent. Trick. Illicit.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09063",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Steve Hamilton",
+        "name": "Embezzled Treasure",
+        "pack_code": "tskp",
+        "position": 63,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "text": "[fast] Exhaust Embezzled Treasure: Move up to 2 resources from your resource pool to Embezzled Treasure (to a maximum of 10 resources on it).\n<b>Forced</b> - When you resign or the game ends: For every two resources on Embezzled Treasure, an investigator of your choice begins the next scenario of the campaign with 1 additional resource in their resource pool.",
+        "traits": "Item. Illicit.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "09064",
@@ -735,6 +1233,138 @@
         "xp": 3
     },
     {
+        "code": "09077",
+        "deck_limit": 1,
+        "exceptional": true,
+        "faction_code": "rogue",
+        "illustrator": "Anders Finer",
+        "name": "Underworld Market",
+        "pack_code": "tskp",
+        "permanent": true,
+        "position": 77,
+        "quantity": 1,
+        "text": "Permanent. Exceptional. You get +10 deck size.\n[reaction] Before drawing your opening hand, choose 10 [[Illicit]] cards from your deck: Shuffle them together and place them next to Underworld Market, as your market deck.\n[reaction] At the start of your turn: Reveal the top 2 cards of your market deck. You may spend 1 resource to draw 1 of them. Place the rest on the bottom, in any order.",
+        "traits": "Connection. Illicit.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
+        "code": "09080",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 1,
+                "health": 3,
+                "text_change": "insert",
+                "position": 1
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "choice": "remove_slot"
+            },
+            {
+                "xp": 3,
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 5,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "Summoned Servitor can be assigned damage dealt to any investigator at its location.\n- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\n- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\n- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\nAfter Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n\nCustomizable. As an additional cost to play Summoned Servitor, you must discard another asset you control or return that asset to its owner's hand.\nSummoned Servitor enters play at your location. It can take 2 different actions during each of your turns, which can only be used to take the following actions:",
+        "customization_text": "□ <b>Armored Carapace.</b> Summoned Servitor gains a health value of 3. It can be assigned damage dealt to any investigator at its location.\n□ <b>Claws that Catch.</b> Add this action: \"- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\"\n□ <b>Jaws that Snatch.</b> Add this action: \"- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\"\n□ <b>Eyes of Flame.</b> Add this action: \"- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\"\n□ <b>Wings of Night.</b> After Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n□□ <b>Dominance.</b> Summoned Servitor no longer takes up an (circle one): arcane / ally slot.\n□□□ <b>Dreaming Call.</b> Instead of discarding another asset you control in order to play Summoned Servitor, you may return that asset to its owner's hand.\n□□□□□ <b>Dæmonic Influence.</b> Summoned Servitor can take 2 different actions instead of 1 during each of your turns.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Summoned Servitor",
+        "pack_code": "tskp",
+        "position": 80,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "slot": "Ally. Arcane",
+        "text": "Customizable. As an additional cost to play Summoned Servitor, you must discard another asset you control.\nSummoned Servitor enters play at your location. It can take 1 action during each of your turns, which can only be used to take the following action:\n- Move Summoned Servitor to a connecting revealed location.",
+        "traits": "Summon.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09081",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.",
+                "tags": "hd.hh.",
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "insert",
+                "position": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "replace",
+                "position": 2
+            },
+            {
+                "xp": 3,
+                "deck_limit": 3,
+                "text_change": "insert",
+                "position": 1
+            }
+        ],
+        "customization_change": "- <i>\"Betray.\"</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>\"Mercy.\"</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>\"Confess.\"</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>\"Distract.\"</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it up to two different commands (limit once per round per command) -\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.'</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "Anders Finer",
+        "name": "Power Word",
+        "pack_code": "tskp",
+        "position": 81,
+        "quantity": 3,
+        "skill_intellect": 1,
+        "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
+        "traits": "Spell.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "09082",
         "cost": 3,
         "deck_limit": 2,
@@ -815,7 +1445,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one): \n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
+        "text": "<b>Parley.</b> Choose a non-[[Elite]] enemy at your location and either (choose one):\n- Automatically evade that enemy and place 1 doom on it. It cannot take damage for the remainder of the round. Discover 1 clue at your location.\n- If that enemy has 1 or more doom on it, defeat it. Gain 1 resource for each doom that was on it.",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 0
@@ -906,6 +1536,109 @@
         "traits": "Item. Charm. Weapon. Melee.",
         "type_code": "asset",
         "xp": 4
+    },
+    {
+        "code": "09099",
+        "cost": 3,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "replace",
+                "position": 1
+            }
+        ],
+        "customization_change": "Other investigators at your location may use the ability on Pocket Multi Tool.\nYou get an additional +1 skill value if this is during a skill test on a treachery.\nYou get an additional +1 skill value if this is during an attack.\nYou get an additional +1 skill value if this is during an evasion attempt.\nYou get an additional +1 skill value if this is during an investigation.\nAfter you fail a skill test, ready Pocket Multi Tool.\n[reaction] When you would fail a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "customization_text": "□ <b>Detachable.</b> Other investigators at your location may use the ability on Pocket Multi Tool.\n□ <b>Pry Bar.</b> You get an additional +1 skill value if this is during a skill test on a treachery.\n□□ <b>Sharpened Knife.</b> You get an additional +1 skill value if this is during an attack.\n□□ <b>Signal Mirror.</b> You get an additional +1 skill value if this is during an evasion attempt.\n□□ <b>Magnifying Lens.</b> You get an additional +1 skill value if this is during an investigation.\n□□□ <b>Lucky Charm.</b> After you fail a skill test, ready Pocket Multi Tool.\n□□□ <b>Spring-Loaded.</b> Pocket Multi Tool's ability is now a [reaction] ability with the trigger: \"When you would fail a skill test you are performing, exhaust Pocket Multi Tool...\"",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "But wait - there's more!",
+        "illustrator": "JB Casacop",
+        "name": "Pocket Multi Tool",
+        "pack_code": "tskp",
+        "position": 99,
+        "quantity": 2,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "text": "Customizable. Limit 1 per investigator.\n[fast] During a skill test you are performing, exhaust Pocket Multi Tool: You get +1 skill value for this test.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "09101",
+        "customization_options": [
+            {
+                "xp": 0,
+                "text_change": "replace",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 2,
+                "text_change": "insert",
+                "position": 0,
+                "choice": "choose_trait",
+                "quantity": 1
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 4,
+                "text_change": "append"
+            },
+            {
+                "xp": 5,
+                "text_change": "append"
+            }
+        ],
+        "customization_change": "Customizable. Traits chosen: _____\nAdditional Trait:  _____\nAdditional Trait: _____\nIf this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\nIf this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\nAfter you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+        "customization_text": "[[Traits]] chosen: _____\n□ <b>Specialist.</b> Choose another trait: _____\n□□ <b>Specialist.</b> Choose another trait: _____\n□□□ <b>Nemesis.</b> If this is a skill test on or against an enemy with a chosen trait and the test is successful, you may attach Grizzled to that enemy. Reduce the difficulty of tests on or against the attached enemy by 1.\n□□□□ <b>Mythos-Hardened.</b> If this skill test is on a treachery with a chosen trait and the test is successful, you may add both Grizzled and this treachery to the victory display.\n□□□□□ <b>Always Prepared.</b> After you draw an encounter card with a chosen trait, return one copy of Grizzled from your discard pile to your hand. (Max once per round.)",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "David Hovey",
+        "name": "Grizzled",
+        "pack_code": "tskp",
+        "position": 101,
+        "quantity": 2,
+        "skill_wild": 1,
+        "text": "Customizable. When you purchase Grizzled, choose and record two [[Traits]] on its upgrade sheet.\nIf this is a skill test on or against an encounter card <i>(including fighting, evading, or parleying)</i>, Grizzled gains [wild][wild] for each of the chosen traits that encounter card possesses.",
+        "traits": "Innate. Developed.",
+        "type_code": "skill",
+        "xp": 0
     },
     {
         "code": "09102",
@@ -1102,6 +1835,21 @@
         "subtype_code": "basicweakness",
         "text": "[seeker] investigator only.\nAs an additional cost to play Quantum Paradox, you must choose and discard 4 other cards from your hand.\n<b>Forced</b> - If Quantum Paradox is in your hand at the end of your turn: Reveal it and take 1 horror.",
         "traits": "Paradox.",
+        "type_code": "event"
+    },
+    {
+        "code": "09126",
+        "cost": 10,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "John Moriarty",
+        "name": "Pay Your Due",
+        "pack_code": "tskp",
+        "position": 126,
+        "quantity": 1,
+        "subtype_code": "basicweakness",
+        "text": "[rogue] investigator only.\nAs an additional cost to play Pay Your Due, you may spend any number of additional actions. Reduce its cost by 5 for each additional action spent.\n<b>Forced</b> - If Pay Your Due is in your hand at the end of your turn: Reveal it and take 1 damage.",
+        "traits": "Pact.",
         "type_code": "event"
     },
     {
