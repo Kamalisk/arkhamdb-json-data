@@ -1,13 +1,51 @@
 [
     {
-        "code": "09002",
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Secondary Class Choice</b>: At deck creation, choose Seeker ([seeker]), Mystic ([mystic]), or Survivor ([survivor]).\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 2 copies of \"As you wish\", Selfless to a Fault, 1 random basic weakness.",
+        "code": "09001",
         "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["guardian", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "name": "Secondary Class",
+                "faction_select": ["seeker", "mystic", "survivor"],
+                "level": { "min": 0, "max": 1 },
+                "type": ["event", "skill"],
+                "limit": 10
+            }
+        ],
+        "deck_requirements": "size:30, card:09002, card:09003, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "guardian",
+        "health": 6,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Carson Sinclair",
+        "pack_code": "tskp",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 2,
+        "skill_intellect": 2,
+        "skill_combat": 2,
+        "skill_willpower": 2,
+        "subname": "The Butler",
+        "text": "You may take an additional action during your turn, which can only be used on the below [action] ability.\n[action]: Choose another investigator at your location. They immediately take an action as if it were their turn. (Limit once per round for each investigator.)\n[elder_sign] effect: +0. Draw 1 card. You may resolve this effect anytime another investigator at your location resolves their [elder_sign] effect.",
+        "traits": "Assistant.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "09002",
+        "deck_limit": 2,
         "faction_code": "neutral",
         "illustrator": "Tiziano Baracchi",
         "name": "\"As you wish\"",
         "pack_code": "tskp",
         "position": 2,
-        "quantity": 1,
+        "quantity": 2,
         "restrictions": "investigator:09001",
         "skill_wild": 3,
         "text": "Carson Sinclair deck only.\nCommit only to a skill test being performed by another investigator.\nIf this test succeeds, the performing investigator draws 1 card. If this test fails, you draw 1 card.",
@@ -192,6 +230,36 @@
         "text": "Alert. Hunter.\n<b>Prey</b> - Kymani Jones only.\nWhile Kymani Jones is evading Agent Fletcher, reduce their [intellect] value to 0.",
         "traits": "Humanoid. Coterie. Detective.",
         "type_code": "enemy"
+    },
+    {
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards level 0-5, Neutral cards level 0-5, [[Charm]] cards level 0-4.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Word of Woe, Word of Weal, Deafening Silence, 1 random basic weakness.",
+        "code": "09011",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["mystic", "neutral"], "level": { "min": 0, "max": 5 } },
+            { "trait": ["charm"], "level": { "min": 0, "max": 4 } }
+        ],
+        "deck_requirements": "size:30, card:09011, card:09012, card:09013, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "\"What is it trying to tell me?\"",
+        "health": 5,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Amina Zidane",
+        "pack_code": "tskp",
+        "position": 11,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Operator",
+        "text": "[reaction] When you play an asset: Reduce its resouce cost by 3. It enters play with 1 doom on it. (Limit once per round.)\n[elder_sign] effect: +2. You may move all doom from a card at your location to another card at your location.",
+        "traits": "Chosen. Cursed.",
+        "type_code": "investigator"
     },
     {
         "code": "09012",
@@ -1063,6 +1131,65 @@
         "xp": 0
     },
     {
+        "code": "09061",
+        "cost": 1,
+        "customization_options": [
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 1,
+                "text_change": "insert",
+                "position": 2
+            },
+            {
+                "xp": 2,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "deck_limit": 3,
+                "cost": -1
+            },
+            {
+                "xp": 5,
+                "text_change": "replace",
+                "position": 3
+            }
+        ],
+        "customization_change": "- You are dealt damage/horror.\n- A new location enters play or is revealed.\n- An enemy engages you.\n- A treachery enters your threat area.\n- You play an asset\nDuring the additional action, you get +2 to each skill.\n\nPlay two actions as if it was your turn, then remove this card from the game. (Max 1 per turn).",
+        "customization_text": "□ <b>???.</b> Add the following condition: \"- You are dealt damage/horror.\"\n□ <b>???.</b> Add the following condition: \"- A new location enters play or is revealed.\"\n□ <b>???.</b> Add the following condition: \"- An enemy engages you.\"\n□ <b>???.</b> Add the following condition: \"- A treachery enters your threat area.\"\n□ <b>???.</b> Add the following condition: \"- You play an asset.\"\n□□ <b>???.</b> During the additional action, you get +2 to each skill.\n□□□ <b>???.</b> You can add up to 3 copies and they cost 1 less resource.\n□□□□□ <b>???.</b> When you play it, you can play 2 actions. After remove from the game.",
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "",
+        "name": "Perfected Insight",
+        "pack_code": "tskp",
+        "position": 61,
+        "quantity": 3,
+        "skill_agility": 1,
+        "text": "Customizable. Fast. Play this card only after one of the following situations:\n- The Act/Agenda advances.\n- You succeed by 3 or more.\nPlay one action as if it was your turn (Max 1 per turn).",
+        "traits": "Gambit.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "09062",
         "cost": 3,
         "deck_limit": 2,
@@ -1250,6 +1377,67 @@
         "xp": 2
     },
     {
+        "code": "09079",
+        "cost": 2,
+        "customization_options": [
+            {
+                "xp": 0,
+                "choice": "choose_skill",
+                "text_change": "replace",
+                "position": 0
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 1,
+                "text_change": "append"
+            },
+            {
+                "xp": 2,
+                "real_slot": "Body",
+                "text_change": "replace",
+                "position": 1
+            },
+            {
+                "xp": 2,
+                "choice": "choose_skill",
+                "text_change": "insert",
+                "position": 0
+            },
+            {
+                "xp": 3,
+                "choice": "choose_skill",
+                "text_change": "insert",
+                "position": 0
+            },
+            {
+                "xp": 3,
+                "text_change": "append"
+            },
+            {
+                "xp": 3,
+                "text_change": "replace",
+                "position": 3
+            }
+        ],
+        "customization_change": "Customizable. Chosen skill: _____\nYou can play Living Ink under the control of another investigator.\nAt the beginning of your turn, you can choose to not spend 1 charge and ignore it until the end of the round.\nUses (5 charges).\nAdditional skill: _____\nAdditional skill: _____\n[reaction] After you reveal a chaos token with a symbol, exhaust Living Ink: Add 1 charge.\nYou get +2 to the chosen skills, and -1 to all others.",
+        "customization_text": "Chosen skill:\n□ <b>Changing Ink.</b> You can play Living Ink under the control of another investigator.\n□ <b>Subtle Representation.</b> At the beginning of your turn, you can choose to not spend 1 charge and ignore it until the end of the round.\n□□ <b>Imbued Ink.</b> 2 additional charges and uses an Arcane slot instead of a Body slot.\n□□ <b>Arcane Ink.</b> Choose another skill.\n□□□ <b>Arcane Ink.</b> Choose another skill.\n□□□ <b>Macabre Representation.</b> Living Ink gains: \"[reaction] After you reveal a chaos token with a symbol, exhaust Living Ink: Add 1 charge.\"\n□□□ <b>Intensity.</b> Living Ink gives an additional +1 to the circled skills, and -1 to all others.",
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "illustrator": "",
+        "name": "Living Ink",
+        "pack_code": "tskp",
+        "position": 79,
+        "quantity": 2,
+        "slot": "Body",
+        "text": "Customizable. When you obtain Living Ink, choose one skill and indicate it.\nUses (3 charges).\nSpend 1 charge at the beginning of each turn. If it has no charges, discard it.\nYou get +1 to the chosen skill(s).",
+        "traits": "Ritual.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "09080",
         "cost": 2,
         "customization_options": [
@@ -1257,7 +1445,7 @@
                 "xp": 1,
                 "health": 3,
                 "text_change": "insert",
-                "position": 1
+                "position": 0
             },
             {
                 "xp": 1,
