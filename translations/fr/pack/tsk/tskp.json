@@ -68,8 +68,8 @@
         "type_code": "treachery"
     },
     {
-        "back_flavor": "After the third or fourth mutilated body showed up during his time at St. Mary’s Hospital in Arkham, Vincent Lee began to suspect that these were not mere wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, Neutral cards level 0-5, cards that \"heal damage\" level 0-5, up to 15 other Guardian and/or Survivor cards level 0-1 ([guardian] and/or [survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Bonesaw, 1 [per_investigator] copies of On the Mend, Wounded Bystander, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 1 [per_investigator] copies of On the Mend set aside, out of play.",
+        "back_flavor": "Après l'arrivée du troisième ou quatrième corps mutilé lors de sa garde à l'hôpital St. Mary’s d'Arkham, Vincent Lee commença à soupçonner qu'il ne s'agissait pas de simples attaques d'animaux sauvages. Lorsqu'un jeune homme décéda dans son sommeil en hurlant à cause de son coeur qui avait éclaté, Vincent sut pertinemment que des heures sombres l'attendaient. Ayant pris un congé sabbatique, il s'est mis en tête de soulager les souffrances de ceux qui sont affligés par le chaos qui se répand, en espérant que suivre la piste de ces morts étranges le mènera aux réponses qu'il cherche.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Chercheur ([seeker]) de niveaux 0 à 3, cartes neutres de niveaux 0 à 5, cartes qui \"soignent les dégâts\" de niveaux 0 à 5, jusqu'à 15 autres cartes Gardien et/ou Survivant de niveaux 0 à 1 ([guardian] et/ou [survivor]).\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Scie à Os, 1 [per_investigator] exemplaire d'En Convalescence, Badaud blessé, 1 faiblesse de base au hasard.\n<b>Mise en Place Complémentaire</b> : au début de chaque partie, mettez 1 [per_investigator] exemplaire d'En Convalescence, hors jeu.",
         "code": "09004",
         "deck_limit": 1,
         "deck_options": [
@@ -86,13 +86,13 @@
                 "faction": ["guardian", "survivor"],
                 "level": { "min": 0, "max": 1 },
                 "limit": 15,
-                "error": "You cannot have more than 15 level 0-1 Guardian and/or Survivor cards"
+                "error": "Vous ne pouvez avoir plus de 15 cartes Gardien et/ou Survivant de niveaux 0 à 1"
             }
         ],
         "deck_requirements": "size:30, card:09005, card:09006, card:09007, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "seeker",
-        "flavor": "\"I will find the answers, even if it kills me.\"",
+        "flavor": "\"Je trouverai les réponses, même s'il en va de ma vie.\"",
         "health": 9,
         "illustrator": "Cristi Balanescu",
         "is_unique": true,
@@ -105,9 +105,9 @@
         "skill_intellect": 4,
         "skill_combat": 3,
         "skill_willpower": 3,
-        "subname": "The Doctor",
-        "text": "[reaction] After one of your card effects heals damage from an investigator or an investigator's [[Ally]] asset: Add one of your set-aside On the Mend skills to that investigator's hand.\n[elder_sign] effect: +1. You may heal 1 damage from an investigator or [[Ally]] asset at your location.",
-        "traits": "Medic.",
+        "subname": "Le Docteur",
+        "text": "[reaction] Après que l'un de vos effets de carte a soigné au moins 1 dégât d'un investigateur ou d'un soutien [[Allié]] d'un investigateur : ajoutez à la main de cet investigateur une de vos compétences En Convalescence mises de côté.\n[elder_sign] : +1. Vous avez le droit de soigner 1 dégât d'un investigateur ou d'un soutien [[Allié]] dans votre lieu.",
+        "traits": "Médecin.",
         "type_code": "investigator"
     },
     {
@@ -116,17 +116,17 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "JB Casacop",
-        "name": "Bonesaw",
+        "name": "Scie à Os",
         "pack_code": "tskp",
         "position": 5,
         "quantity": 1,
         "skill_combat": 1,
         "skill_intellect": 1,
         "skill_wild": 1,
-        "slot": "Hand",
+        "slot": "Main",
         "restrictions": "investigator:09004",
-        "text": "Vincent Lee deck only.\n[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, you may take 1 damage to deal +1 damage for this attack.\n[action]: Heal 5 damage from an investigator at your location. Test [intellect] (4). If you fail, that investigator suffers 1 physical trauma. (Max once per game.)",
-        "traits": "Item. Tool. Melee.",
+        "text": "Deck de Vincent Lee uniquement.\n[action]: <b>Combattre.</b> Vous gagnez +2 [combat] pour cette attaque. En cas de réussite, vous avez le droit de subir 1 dégât pour que cette attaque inflige +1 dégât.\n[action] : soignez 5 dégâts d'un investigateur dans votre lieu. Effectuez un test de [intellect] (4). En cas d'échec, cet investigateur subit 1 traumatisme physique. (Max. une fois par partie.)",
+        "traits": "Objet. Outil. Corps-à-corps.",
         "type_code": "asset"
     },
     {
@@ -134,14 +134,14 @@
         "deck_limit": 4,
         "faction_code": "neutral",
         "illustrator": "JB Casacop",
-        "name": "On the Mend",
+        "name": "En Convalescence",
         "pack_code": "tskp",
         "position": 6,
         "quantity": 4,
         "skill_wild": 2,
         "restrictions": "investigator:09004",
-        "text": "Limit 1 On the Mend in your hand.\nCommit only to a test you are performing.\n<b>Forced</b> - When On the Mend would be discarded from anywhere: Set it aside, out of play, instead.",
-        "traits": "Innate.",
+        "text": "Limite 1 En Convalescence dans votre main.\nÀ attribuer uniquement lors d'un test de compétence que vous effectuez.\n<b>Forcé</b> - Quand En Convalescence devrait être défaussée de n'importe où : mettez-la de côté/hors jeu, au lieu de la défausser.",
+        "traits": "Inné.",
         "type_code": "skill"
     },
     {
@@ -150,15 +150,15 @@
         "faction_code": "neutral",
         "health": 5,
         "illustrator": "Rafał Hrynkiewicz",
-        "name": "Wounded Bystander",
+        "name": "Badaud Blessé",
         "pack_code": "tskp",
         "position": 7,
         "quantity": 1,
         "restrictions": "investigator:09004",
-        "subname": "On Death's Doorstep",
+        "subname": "Au seuil de la Mort",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> - Put Wounded Bystander into play in your play area with 3 damage on it. It cannot leave play while it has damage (unless it is defeated). If it has no damage, discard it.\n<b>Forced</b> - When you take non-direct damage: At least 1 of it must be assigned to Wounded Bystander, if able.\n<b>Forced</b> - If Wounded Bystander is defeated: You suffer 1 mental trauma.",
-        "traits": "Ally. Bystander.",
+        "text": "<b>Révélation</b> - mettez le Badaud Blessé en jeu dans votre zone de jeu avec 3 dégâts sur lui. Il ne peut pas quitter le jeu tant qu'il a des dégâts sur lui (sauf s'il est vaincu). S'il n'a aucun dégât, défaussez-le.\n<b>Forcé</b> - Quand vous subissez des dégâts non-directs : au moins 1 de ces dégâts doit être assigné au Badaud Blessé, si possible.\n<b>Forcé</b> - Si le Badaud Blessé est vaincu : vous subissez 1 traumatisme mental.",
+        "traits": "Allié. Passant.",
         "type_code": "asset"
     },
     {
