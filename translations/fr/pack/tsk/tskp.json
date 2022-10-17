@@ -162,8 +162,8 @@
         "type_code": "asset"
     },
     {
-        "back_flavor": "When the Taíno artifacts went missing from the Miskatonic Museum, Kymani was hired to assess the museum's liability. Of course, Kymani already knew who the thief was - it has been their own heist, all along. But Kymani had no interest in selling the relics. As far as Kymani was concerned, they weren't the one who really stole them. No; Kymani had sent the historical artifacts back home, where they truly belonged. The museum and the insurance company see only a villain to catch, but Kymani is faster, smarter, and better.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, [[Tool]] cards level 0-4, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grappling Hook, Agent Fletcher, 1 random basic weakness.\n<b>Bonus Experience</b>: You begin the campaign with 5 additional experience (does not affect the number of weaknesses you must take in Standalone Mode).",
+        "back_flavor": "Lorsque des objets taïnos disparurent du Musée Miskatonic, Kymani fut engagé pour évaluer la sécurité du musée. Bien sûr, Kymani savait depuis le début qui était le voleur - il s'agissait de son propre larcin. Mais il ne voulait pas vendre ces artefacts. En ce qui concerne Kymani, ce n'était pas lui qui les avait volés. Non ; il avait simplement restitué des reliques historiques à leur lieu d'origine, là où elles auraient toujours dû demeurer. Le musée et la compagnie d'assurance ne voient qu'une crapule à attraper, mais Kymani est plus rapide, plus intelligent, bref... inégalable !",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Truand ([rogue]) de niveaux 0 à 5, cartes [[Outil]] de niveaux 0 à 4, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Grappin, Agent Fletcher, 1 faiblesse de base au hasard.\n<b>Expérience Bonus</b> : vous débutez la campagne avec 5 points d'expérience supplémentaires (ne les comptez pas pour déterminer le nombre de faiblesses à inclure si vous jouez en mode indépendant).",
         "code": "09008",
         "deck_limit": 1,
         "deck_options": [
@@ -173,7 +173,7 @@
         "deck_requirements": "size:30, card:09009, card:09010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
-        "flavor": "\"This doesn't belong to you.\"",
+        "flavor": "\"Ceci ne vous appartient pas.\"",
         "health": 8,
         "illustrator": "Aleksander Karcz",
         "is_unique": true,
@@ -186,9 +186,9 @@
         "skill_intellect": 2,
         "skill_combat": 2,
         "skill_willpower": 3,
-        "subname": "The Security Consultant",
-        "text": "[fast]: Engage an exhausted enemy at your location.\n[reaction] When you attempt to evade an exhausted non-[[Elite]] enemy: Add your [intellect] to your skill value for this attempt. If you succeed by at least X, discard that enemy. X is that enemy's remaining health.\n[elder_sign] effect: +1. If there is an exhausted enemy at your location, you automatically succeed instead.",
-        "traits": "Criminal.",
+        "subname": "Le Consultant en Sécurité",
+        "text": "[fast] : engagez un ennemi incliné dans votre lieu.\n[reaction] Quand vous tentez d'échapper à un ennemi non-[[Élite]] incliné : ajoutez votre [intellect] à votre valeur de compétence pour cette tentative. En cas de réussite avec une différence de X ou plus, défaussez cet ennemi. X est la vie restante de cet ennemi.\n[elder_sign] : +1. S'il y a un ennemi incliné dans votre lieu, vous réussissez automatiquement à la place.",
+        "traits": "Criminel.",
         "type_code": "investigator"
     },
     {
@@ -197,7 +197,7 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "JB Casacop",
-        "name": "Grappling Hook",
+        "name": "Grappin",
         "pack_code": "tskp",
         "position": 9,
         "quantity": 1,
@@ -205,9 +205,9 @@
         "skill_agility": 1,
         "skill_intellect": 1,
         "skill_wild": 1,
-        "slot": "Hand",
-        "text": "Kymani Jones deck only.\nActions performed using Grappling Hook do not provoke attacks of opportunity.\n[action][action] Exhaust Grappling Hook: Take up to 3 different basic actions from the following list, in any order (engage, evade, investigate, or move). If you investigate, use your [agility] instead of your [intellect].",
-        "traits": "Item. Tool.",
+        "slot": "Main",
+        "text": "Deck de Kymani Jones uniquement.\nLes actions effectuées en utilisant le Grappin ne provoquent pas d'attaques d'opportunité.\n[action][action] Inclinez le Grappin : effectuez jusqu'à 3 actions basiques différentes parmi les suivantes, dans l'ordre de votre choix (Échapper à, Engager, Enquêter, Se Déplacer). Si vous enquêtez, utilisez votre [agility] à la place de votre [intellect].",
+        "traits": "Objet. Outil.",
         "type_code": "asset"
     },
     {
@@ -218,7 +218,7 @@
         "enemy_fight": 2,
         "enemy_horror": 1,
         "faction_code": "neutral",
-        "flavor": "\"I know who you really are, Jones.\"",
+        "flavor": "\"Jones, je sais qui vous êtes en réalité.\"",
         "health": 3,
         "illustrator": "Lin Hsiang",
         "name": "Agent Fletcher",
@@ -227,8 +227,8 @@
         "quantity": 1,
         "restrictions": "investigator:09008",
         "subtype_code": "weakness",
-        "text": "Alert. Hunter.\n<b>Prey</b> - Kymani Jones only.\nWhile Kymani Jones is evading Agent Fletcher, reduce their [intellect] value to 0.",
-        "traits": "Humanoid. Coterie. Detective.",
+        "text": "Alerte. Chasseur.\n<b>Proie</b> - Kymani Jones uniquement.\nTant que Kymani Jones est en train d'échapper à l'Agent Fletcher, réduisez à 0 sa valeur de [intellect].",
+        "traits": "Humanoïde. Coterie. Détective.",
         "type_code": "enemy"
     },
     {
