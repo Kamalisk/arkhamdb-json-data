@@ -6,7 +6,7 @@
             "type": "string"
         },
         "back_flavor": {
-            "minLength": 1,
+            "minLength": 0,
             "type": "string"
         },
         "code": {
@@ -25,11 +25,25 @@
             ]
         },
         "deck_requirements": {
-            "minLength": 1,
-            "type": "string"
+            "oneOf": [
+                {
+                    "minLength": 0,
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "deck_options": {
-            "type": "array"
+            "oneOf": [
+                {
+                    "type": "array"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "deck_limit": {
             "minimum": 0,
@@ -43,20 +57,48 @@
             "type": "string"
         },
         "enemy_damage": {
-            "minimum": 0,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "enemy_evade": {
-            "minimum": 0,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "enemy_fight": {
-            "minimum": 0,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "enemy_horror": {
-            "minimum": 0,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "exceptional": {
             "type": "boolean"
@@ -73,8 +115,15 @@
             "type": "string"
         },
         "health": {
-            "minimum": -2,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "illustrator": {
             "pattern": ".*",
@@ -125,8 +174,15 @@
             "type": "integer"
         },
         "sanity": {
-            "minimum": -2,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "slot": {
             "minLength": 1,
@@ -160,8 +216,15 @@
             "type": "string"
         },
         "victory": {
-            "minimum": 1,
-            "type": "integer"
+            "oneOf": [
+                {
+                    "minimum": 0,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
         },
         "is_unique": {
             "oneof": [

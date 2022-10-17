@@ -1,0 +1,48 @@
+[
+    {
+        "code": "90032",
+        "name": "Suivre les Règles",
+        "text": "<b>FACILE / STANDARD</b>\n[skull] –X. X est le nombre d’ennemis [[Cultiste]] dans la pile de victoire. (–5 max.)\n[cultist] –2. Si un ennemi [[Cultiste]] est engagé avec vous, révélez un pion Chaos supplémentaire.\n[tablet] –3. Redressez chaque ennemi [[Cultiste]] engagé avec vous.\n[elder_thing] –4. En cas d’échec, Roland Banks subit 1 dégât.",
+        "back_text": "<b>DIFFICILE / EXPERT</b>\n[skull] –X. X est le nombre d’ennemis [[Cultiste]] dans la pile de victoire plus 1.\n[cultist] –3. Si un ennemi [[Cultiste]] est engagé avec vous, révélez un pion Chaos supplémentaire.\n[tablet] –4. Redressez chaque ennemi [[Cultiste]] engagé avec vous.\n[elder_thing] –5. En cas d’échec, Roland Banks subit 1 dégât."
+    },
+    {
+        "code": "90033a",
+        "flavor": "M. Grey est un homme influent qui connaît beaucoup de monde haut placé. Le mettre derrière les barreaux risque d’être difficile.",
+        "name": "Une Conspiration Cachée",
+        "text": "<b>Forcé</b> –  Quand un ennemi [[Cultiste]] non-faiblesse devrait être vaincu : à la place, soignez des dégâts de cet ennemi jusqu’à ce que sa vie restante soit de 1.\n<b>Forcé</b> – Si Roland Banks est vaincu : continuez à (→ <b>C2</b>).\n[action] : <b>Abandon</b>. Vous préférez clore l’enquête avant que la date butoir ne soit dépassée."
+    },
+    {
+        "code": "90033b",
+        "flavor": "« Savoir que votre mort servira un dessein supérieur devrait vous apporter quelque réconfort. »",
+        "name": "M. Grey",
+        "subname": "Homme Politique Corrompu",
+        "text": "<b>Génération</b> – Engagé avec Roland Banks.\nChasseur. M. Grey gagne +2[per_investigator] vies.\n<b>Forcé</b> – Après que M. Grey a attaqué un investigateur : cet investigateur pioche la carte du dessus du deck Rencontre.",
+        "traits": "Humanoïde. Cultiste. Élite."
+    },
+    {
+        "code": "90034",
+        "flavor": "Vos supérieurs vous pressent de boucler votre enquête, sans doute sous la pression des amis de M. Grey. Pendant ce temps, ses sbires et lui font tout ce qui est en leur pouvoir pour vous écarter de l’équation, une fois pour toutes.",
+        "name": "La Date Butoir Approche",
+        "text": "<b>Forcé</b> –  Quand un ennemi [[Cultiste]] non-faiblesse devrait être vaincu : à la place, soignez des dégâts de cet ennemi jusqu’à ce que sa vie restante soit de 1.\n<b>Forcé</b> – Si Roland Banks est vaincu : continuez à (→ <b>C2</b>).\n[action] : <b>Abandon</b>. Vous préférez clore l’enquête avant que la date butoir ne soit dépassée.",
+        "back_name": "Le Temps est Écoulé",
+        "back_flavor": "« C’est insuffisant », tance votre supérieur. « Je suis désolé, mais c’est bien trop tiré par les cheveux. Et si moi je n’y crois pas, alors aucun tribunal n’y croira non plus. Je veux dire... des cultistes... des sacrifices humains, vous êtes sérieux ? »\nVous serrez les dents et abattez votre main sur la pile de documents et de preuves que vous avez récoltés. Vous insistez, tout est là.\n« Vous y avez travaillé pendant plusieurs semaines et on peut à peine qualifier ça d’enquête. Juste un ramassis de coïncidences bancales », rétorque-t-il. « De plus, M. Grey est un pilier de la communauté. Que vous tentiez de le salir avec de telles accusations... » La pointe de sarcasme dans sa voix le trahit. Grey l’a-t-il soudoyé ? Ou pire ? Dans tous les cas, cet entretien ne mènera nulle part. Vous savez que vous avez levé un lièvre. Vous allez devoir faire profil bas et faire les choses à votre manière si vous voulez que les choses changent à Arkham.",
+        "back_text": "Retirez de la partie un ennemi [[Cultiste]] de la pile de victoire (M. Grey si possible).\n(→ <b>C1</b>)."
+    },
+    {
+        "code": "90035",
+        "flavor": "C’est avec des preuves et une cour de justice que vous allez mettre fin aux agissements de ceux qui sont derrière ces sacrifices. Vous allez devoir mener cette enquête dans les règles.",
+        "name": "Capturer les Conspirateurs",
+        "text": "[fast]  Dépensez collectivement 1[per_investigator] indice : retournez un conspirateur qui est face cachée dans votre lieu et mettez-le en jeu, engagé avec vous.\n[fast] Dépensez 1 ressource : inclinez un ennemi [[Cultiste]] engagé avec vous <i>(il reste engagé)</i>. Seul Roland Banks peut déclencher cette capacité.\n<b>Objectif</b> – Discutez avec autant de conspirateurs que possible. S’il y a 10 ennemis [[Cultiste]] dans la pile de victoire, avancez.",
+        "back_name": "Conspiration Dévoilée",
+        "back_flavor": "M. Grey fait les cent pas dans sa cellule, vous fusillant du regard derrière les barreaux. « Vous allez regretter ça, agent Banks », menace-t-il. « Vous implorerez ma clémence quand tout sera terminé. »\nVous lui rappelez poliment que menacer un agent fédéral est un crime.\n« Il existe des choses bien plus effrayantes que les gens de votre espèce », répond-il d’un ton las avant d’aller s’affaler dans un coin de sa cellule.\nLe responsable a beau être derrière les barreaux, vous ignorez toujours quel était son objectif en aidant les meurtriers. Comment est-il possible de convaincre quelqu’un de prendre tant de vies ? Vous n’avez pas la réponse à cette question, mais vous comptez bien la trouver.",
+        "back_text": "(→ <b>C1</b>)."
+    },
+    {
+        "code": "90036",
+        "name": "Poste de Police d’Arkham",
+        "text": "Le Poste de Police d’Arkham est connexe au Quartier de la Rivière, au Centre-Ville et au Quartier Est, et vice versa.\n[fast] : déplacez-vous vers un lieu connexe.\n[fast] Choisissez un ennemi [[Cultiste]] non-faiblesse dans ce lieu et dépensez un nombre d’indices égal à sa vie restante : <b>Discussion</b>. Ajoutez cet ennemi à la pile de victoire.",
+        "traits": "Arkham.",
+        "back_flavor": "Ni le Shérif Engle ni les autres officiers ne semblent accorder foi à vos soupçons. Vous allez devoir enquêter seul sur ces meurtres.",
+        "back_text": "Le Poste de Police d’Arkham est connexe au Quartier de la Rivière, au Centre-Ville et au Quartier Est, et vice versa."
+    }
+]

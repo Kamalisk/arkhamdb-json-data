@@ -1,36 +1,104 @@
 [
     {
+        "code": "07108",
+        "flavor": "\"你要是再吹一下，我就讓你把它吃下去。\"",
+        "name": "警哨",
+        "slot": "飾品",
+        "text": "在你的回合中你可以執行一次額外的行動，該行動只能用於<b>交戰</b>。",
+        "traits": "道具. 工具"
+    },
+    {
+        "code": "07109",
+        "flavor": "麗塔眼睛瞇起，手上攥緊。牠們逃不掉了。這次一定。不會失手。",
+        "name": "正義獵殺",
+        "text": "<b>交戰</b>。選擇一名最多2個連接地點遠的敵人。移動(一次一個地點)到該敵人的地點，與其交戰，並加入等於該敵人的恐懼值數量的[bless]標記到混亂袋。",
+        "traits": "策略. 祝福"
+    },
+    {
+        "code": "07110",
+        "name": "莊嚴聖約",
+        "text": "永久。每副牌組限制1張[[聖約]]。\n[reaction]在任意地點的調查員執行技能檢定的\"抽出混亂標記\"步驟(步驟3)後，消耗莊嚴聖約: 將這次檢定中抽出的任意數量的[bless]標記返回混亂袋，這次檢定忽略其修正值。",
+        "traits": "聖約. 祝福"
+    },
+    {
         "code": "07111",
-        "flavor": "Once you let go of your assumptions, anything is possible",
-        "name": "Eldritch Sophist",
-        "text": "Uses (3 secrets).\n[fast]: Exhaust Eldritch Sophist: Move 1 secret or charge from an asset you control to another asset controlled by an investigator at your location.",
-        "traits": "Ally. Miskatonic",
-        "slot": "Ally"
+        "flavor": "一旦你放非自己的假想，一切皆有可能。",
+        "name": "驚悚賢人",
+        "slot": "盟友",
+        "text": "使用(3秘密)。\n[fast]：消耗驚悚賢人：將你控制的支援卡上的1個秘密或充能移動到你所在地點調查員控制的另一張支援卡上。",
+        "traits": "盟友. 米斯卡塔尼克"
+    },
+    {
+        "code": "07112",
+        "flavor": "要是你追蹤線索，很難說你在另一頭究竟會找到什麼。",
+        "name": "掀起麻煩",
+        "text": "作為打出掀起麻煩的額外費用，加入數量等於你所在地點隱藏值的[curse]標記到混亂袋。\n發現你所在地點的2個線索。",
+        "traits": "洞察. 詛咒縈繞"
     },
     {
         "code": "07113",
-        "name": "Blasphemous Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location reveals a [curse] token during a skill test, exhaust Blasphemous Covenant: Treat that token's modifier as +1 instead of its normal modifier. After this test ends, return that token to the chaos bag.",
-        "traits": "Covenant. Cursed."
+        "name": "褻瀆聖約",
+        "text": "永久。每副牌組限制1張[[聖約]]。\n[reaction]你所在地點的調查員在技能檢定中抽出一個[curse]標記時，消耗褻瀆聖約：將將該標記的修正值改為視為+1。在這次檢定結束後，將該標記返回混亂袋。",
+        "traits": "聖約. 詛咒縈繞"
+    },
+    {
+        "code": "07114",
+        "flavor": "要是你小心點，這就只是一次\"進入\"。",
+        "name": "破門而入",
+        "text": "<b>調查</b>。將你的[agility]值加入你這次調查的技能值。如果你成功且超過難度至少2點，你可以自動躲避此地點的一名敵人。這個行動不會引起趁亂攻擊。",
+        "traits": "技巧"
     },
     {
         "code": "07115",
-        "flavor": "\"Oh, hooey. What's the worst that could happen?\"",
-        "name": "Skeptic",
-        "text": "During this skill test, treat the modifier of each [bless] and each [curse] token as +1 instead of its normal modifier.",
-        "traits": "Practiced."
+        "flavor": "\"哦，別這樣。最壞還能發生什麼事呢？\"",
+        "name": "無神論者",
+        "text": "這次技能檢定中，將每個[bless]和[curse]標記的修正值改為視為+1。",
+        "traits": "精通"
+    },
+    {
+        "code": "07116",
+        "name": "虛假聖約",
+        "text": "永久。每副牌組限制1張[[聖約]]。\n[reaction]你所在地點的調查員在技能檢定中抽出一個[curse]標記時，消耗虛假聖約：取消該混亂標記，將其返回供應堆，並抽出另一個標記。",
+        "traits": "聖約. 詛咒縈繞"
+    },
+    {
+        "code": "07117",
+        "name": "哈米吉多頓",
+        "slot": "法術",
+        "text": "使用(3充能)。\n[action]花費1充能：<b>攻擊</b>。這次攻擊不使用[combat]，改為使用[willpower]，並造成+1傷害。如果這次攻擊中抽出[curse]標記，你可以對你所在地點的一名敵人造成1點傷害，或在哈米吉多頓上放置1充能。",
+        "traits": "法術. 詛咒縈繞"
     },
     {
         "code": "07118",
-        "name": "Eye of Chaos",
-        "text": "Uses (3 charges).\n[action] Spend 1 charge: <b>Investigate.</b> Investigate using [willpower] instead of [intellect] If you succeed, discover 1 additional clue at this location. If a [curse] token is revealed during this investigation, you may discover 1 clue at a connecting location or place 1 charge on Eye of Chaos.",
-        "traits": "Spell. Cursed.",
-        "slot": "Arcane"
+        "name": "混亂之眼",
+        "slot": "法術",
+        "text": "使用(3充能)。\n[action] 花費1充能：<b>調查</b>。不使用[intellect]，改為使用[willpower]調查。如果你成功，發現此地點的額外1個線索。如果這次調查中抽出[curse]標記，你可以發現連接地點的1個線索，或在混亂之眼上放置1充能。",
+        "traits": "法術. 詛咒縈繞"
+    },
+    {
+        "code": "07119",
+        "name": "暗影遁形",
+        "slot": "法術",
+        "text": "使用(3充能)。\n[action]花費1充能：<b>躲避</b>。這次躲避不使用[agility]，改為使用[willpower]。如果你成功，且躲避的敵人非[[精英]]，你可以移動該敵人到連接地點。如果這次躲避中抽出[curse]標記，你可以移動到連接地點，或在暗影遁形上放置1充能。",
+        "traits": "法術. 詛咒縈繞"
+    },
+    {
+        "code": "07120",
+        "name": "矛盾聖約",
+        "text": "永久。每副牌組限制1張[[聖約]]。\n[reaction]你所在地點的調查員在執行技能檢定的\"抽出混亂標記\"步驟(步驟3)後，如果該檢定中同時抽出[bless]標記和[curse]標記，消耗矛盾聖約：這次檢定自動成功。<i>(在這次檢定結束後，移除所有從混亂袋抽出的[bless]和[curse]標記。)</i>",
+        "traits": "聖約. 祝福. 詛咒縈繞"
+    },
+    {
+        "code": "07121",
+        "name": "水手的羅盤",
+        "slot": "手部",
+        "text": "[action]消耗水手的羅盤：<b>調查</b>。如果你成功且你的資源池裡沒有資源，發現你所在地點的額外1個線索。\n[fast]在使用水手的羅盤調查中，花費1資源：這次技能檢定你+1[intellect]。(每次調查限制3次。)",
+        "traits": "道具. 工具"
     },
     {
         "code": "07122",
-        "name": "Ancient Covenant",
-        "text": "Permanent. Limit 1 [[Covenant]] per deck.\n[reaction] When an investigator at your location resolves a [bless] token during a skill test, exhaust Ancient Covenant: Do not reveal another token as part of this [bless] token's effect.",
-        "traits": "Covenant. Blessed."
+        "name": "古代聖約",
+        "text": "永久。每副牌組限制1張[[聖約]]。\n[reaction]你所在地點的調查員在技能檢定中結算一個[bless]標記時，消耗古代聖約：不要為此[bless]標記的效果抽出另一個標記。",
+        "traits": "聖約. 祝福"
     }
 ]

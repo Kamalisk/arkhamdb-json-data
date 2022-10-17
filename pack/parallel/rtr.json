@@ -1,0 +1,110 @@
+[
+    {
+        "alternate_of": "01005",
+        "back_flavor": "Mama used to let Wendy play with her necklace when she was small. Mama would tell her stories, and Wendy would spin the necklace and watch as it glittered. Then, word came that her father had been lost at sea, and Mama started acting strange, drawing unusual symbols in chalk all over the house. They took Mama to the asylum, and Wendy went to the orphanage. Before they took her away, Mama gave her the necklace, to \"protect her.\" Wendy stayed in the orphanage for several years before running away, deciding that she could take better care of herself on her own.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>[[Trait]] Choice</b>: At deck creation, choose [[Blessed]] or [[Cursed]], or choose both and gain +5 Deck Size.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, cards of your chosen trait(s) 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Wendy's Amulet, Abandoned and Alone, 1 random basic weakness.",
+        "code": "90037",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["survivor", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "name": "Trait Choice",
+                "option_select": [
+                    {
+                        "id": "blessed",
+                        "name": "Blessed",
+                        "trait": ["blessed"],
+                        "level": { "min": 0, "max": 5 }
+                    },
+                    {
+                        "id": "cursed",
+                        "name": "Cursed",
+                        "trait": ["cursed"],
+                        "level": { "min": 0, "max": 5 }
+                    },
+                    {
+                        "id": "both",
+                        "name": "Blessed and Cursed",
+                        "trait": ["blessed", "cursed"],
+                        "level": { "min": 0, "max": 5 },
+                        "size": 5
+                    }
+                ]
+            }
+        ],
+        "deck_requirements": "size:30, card:01014:90039, card:01015:90040, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "\"The little things are important. Grown-ups don't see that.\"",
+        "health": 7,
+        "illustrator": "Jacob Murray",
+        "is_unique": true,
+        "name": "Wendy Adams",
+        "pack_code": "rtr",
+        "position": 37,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 4,
+        "skill_intellect": 3,
+        "skill_combat": 1,
+        "skill_willpower": 4,
+        "subname": "The Urchin",
+        "text": "Add Tidal Memento to your deck.\n[reaction] After you successfully evade a non-[[Elite]] enemy: Seal either 1 [bless] or [curse] token from the chaos bag, or any [bless] or [curse] tokens revealed from the chaos bag during this test, on that enemy.\n[elder_sign] effect: +2. Search the chaos bag for up to 2 [bless] and/or [curse] tokens and reveal them, ignoring their effects.",
+        "traits": "Drifter. Blessed. Cursed.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90038",
+        "cost": null,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Richard Jossy",
+        "is_unique": true,
+        "name": "Tidal Memento",
+        "pack_code": "rtr",
+        "permanent": true,
+        "position": 38,
+        "quantity": 1,
+        "restrictions": "investigator:01005",
+        "text": "Wendy Adams deck only. Permanent.\n[reaction] When an enemy would ready or doom would be placed on it, release a [bless] or [curse] token sealed on that enemy: Cancel that effect.\n[reaction] During a skill test you are performing, when a chaos token would be revealed from the chaos bag: Resolve a [bless] or [curse] token sealed on an enemy instead.",
+        "type_code": "asset"
+    },
+    {
+        "code": "90039",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Linda Tso",
+        "is_unique": true,
+        "name": "Wendy's Amulet",
+        "pack_code": "rtr",
+        "position": 39,
+        "quantity": 1,
+        "restrictions": "investigator:01005",
+        "skill_willpower": 1,
+        "skill_wild": 2,
+        "slot": "Accessory",
+        "text": "Wendy Adams deck only. Advanced.\nYou may play any event in your discard pile as if it were in your hand.\n<b>Forced</b> - After you play an event or discard an event from play: Place it on the bottom of your deck instead of in your discard pile.",
+        "traits": "Item. Relic.",
+        "type_code": "asset"
+    },
+    {
+        "code": "90040",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "I don't need them. I don't need anyone.",
+        "illustrator": "Ben Zweifel",
+        "name": "Abandoned and Alone",
+        "pack_code": "rtr",
+        "position": 40,
+        "quantity": 1,
+        "restrictions": "investigator:01005",
+        "subtype_code": "weakness",
+        "text": "Advanced.\n<b>Revelation</b> - Remove all non-weakness cards in your discard pile from the game. If no cards were removed by this effect, shuffle this card back into your deck. Otherwise, take 3 direct horror.",
+        "traits": "Madness.",
+        "type_code": "treachery"
+    }
+]

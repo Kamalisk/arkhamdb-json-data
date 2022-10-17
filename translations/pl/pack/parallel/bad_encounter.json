@@ -1,0 +1,37 @@
+[
+    {
+        "code": "90020",
+        "name": "Zła krew",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to liczba wspomnień zebranych przez Agnes Baker.\n[cultist]: -2. Przygotuj Elspeth Baudin i rozpatrz jej słowo kluczowe Wędrujący.\n[tablet]: -3. Jeżeli test zakończył się niepowodzeniem i na lokalizacji Elspeth Baudin znajduje się wspomnienie, umieść ten żeton chaosu na tej lokalizacji.\n[elder_thing]: -6. Agnes Baker może otrzymać do 3 obrażeń aby zwiększyć o 2 wartość twojej umiejętności do tego testu za każde otrzymane w ten sposób obrażenie.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to liczba wspomnień zebranych przez Agnes Baker zwiększona o 1.\n[cultist]: -3. Przygotuj Elspeth Baudin i rozpatrz jej słowo kluczowe Wędrujący. Jeżeli znajduje się w zwarciu z badaczem, atakuje tego badacza.\n[tablet]: -5. Jeżeli test zakończył się niepowodzeniem i na lokalizacji Elspeth Baudin znajduje się wspomnienie, umieć ten żeton chaosu na tej lokalizacji.\n[elder_thing]: -8. Agnes Baker może otrzymać do 3 obrażeń aby zwiększyć o 2 wartość twojej umiejętności do tego testu za każde otrzymane w ten sposób obrażenie."
+    },
+    {
+        "code": "90021",
+        "name": "Krew Hiperborei",
+        "text": "<b>Wymuszony</b> - Na końcu fazy wrogów, jeśli Elspeth Baudin jest przygotowana i na jej lokalizacji znajduje się wspomnienie: odkryj losowy żeton chaosu z worka chaosu i umieść go na tej lokalizacji.\n<b>Wymuszony</b> - Jeśli na lokalizacji bez wspomnienia znajduje się 1 lub więcej żetonów chaosu: zwróć dane żetony chaosu do worka chaosu.\n<b>Wymuszony</b> - Jeśli na lokalizacji ze wspomnieniem znajdują się żetony chaosu o łącznej wartości 6 lub więcej (zignoruj +/- i traktuj każdy z żetonów [auto_fail] i [elder_sign] jako -6): zwróć dane żetony chaosu do worka chaosu i Elspeth Baudin zbiera to wspomnienie.",
+        "back_name": "W poszukiwaniu krwi",
+        "back_flavor": "Tajemna moc z trzaskiem przecina niebo niczym bicz, wyraźnie szukając ciebie i twoich towarzyszy. Przez moment cierpienie jest niewyobrażalne. Ból przeszywa twoje ciało niczym trucizna krążąca w żyłach. Nagle oślepia cię blask na granicy pola widzenia. Następnie wszystko dobiega końca, tak samo szybko jak się zaczęło. Lecz czujesz, że czegoś Ci brakuje. Coś straciłaś. Czyżby usiłowała ukraść twoje wspomnienia?",
+        "back_text": "Elspeth Baudin atakuje każdego badacza w kolejności badaczy, niezależnie od tego w jakiej lokalizacji się znajdują <i>(nawet jeżeli jest wyczerpana)</i>.\nOdwróć tę tajemnicę na drugą stronę."
+    },
+    {
+        "code": "90022",
+        "flavor": "Musisz odzyskać zagubione wspomnienia minionego życia, nim wpadną w ręce Elspeth!",
+        "name": "Wspomnienia dawnych dziejów",
+        "text": "[fast] Badacze w lokalizacji z Agnes Baker wydają, jako grupa 2 [per_investigator] żetony wskazówek: Agnes Baker zbiera wspomnienie z jej lokalizacji.\n<b>Wymuszony</b> - Jeśli Agnes Baker została pokonana, przejdź do <b>(→Z2)</b>.\n<b>Cel</b> - Zbierz więcej wspomnień niż Elspeth. Jeżeli wszystkie 9 wspomnień zostało zebranych <i>(łącznie przez badaczy i Elspeth)</i>, talia postępuje.",
+        "back_name": "Wspomnienie wiecznego podboju",
+        "back_text": "<b>Jeśli Agnes zebrała więcej wspomnień niż Elspeth:</b>\n<blockquote><i>Elspeth upada przed tobą, wyraźnie targana bólem. „Śmiało. Zakończ to.” syczy przez zaciśnięte zęby, wpatrując się w ciebie z nieskrywaną nienawiścią. Iskry tajemnej mocy przeskakują ci między palcami. Ona jest twoim wrogiem. Twoją zdobyczą. Jej życie i wspomnienia są w twoich rękach. Czas odebrać to co ci się należy.</i></blockquote>\n<b>(→Z1)</b>\n<hr><b>Jeśli Elspeth zebrała więcej wspomnień niż Agnes:</b>\n<blockquote><i>Upadasz na kolana, obezwładniona bólem. Elspeth spogląda na ciebie, zaś w jej rękach pulsuje tajemna moc. „Jesteś słaba”, rzuca prowokująco. „Nie zasługujesz na tę moc. Za to ja...” kontynuuje z szerokim uśmiechem. „Ja stanę się dzięki niej jeszcze doskonalsza”.</i></blockquote>\n<b>(→Z2)</b>"
+    },
+    {
+        "code": "90023",
+        "name": "Elspeth Baudin",
+        "subname": "Czarownica z Hiperborei",
+        "text": "Czujny. Wędrujący (najbliższa lokalizacja z co najmniej 1 wspomnieniem). Mściwy.\nElspeth Baudin nie można się automatycznie wymykać i otrzymuje do –1 walki i –1 do wymykania się za każde zebrane przez nią wspomnienie.\n<b>Wymuszony</b> - Kiedy Elspeth Baudin miała by zostać pokonana: zamiast tego wylecz z niej wszystkie obrażenia, odwróć ją i rozpatrz tekst na odwrocie.",
+        "traits": "Humanoid. Czarnoksiężnik. Elitarny."
+    },
+    {
+        "code": "90023b",
+        "flavor": "Światło rozdziera nocne niebo, gdy magia twoja i Elspeth ścierają się ze sobą. Ryczący świst - niczym sądny skowyt pozaziemskiej syreny - posyła was obie na kolana. Elspeth zmaga się z bólem, wpijając paznokcie w skronie. Sięgasz mocą w kierunku jej wspomnień, chwytasz je z całych sił i próbujesz wyciągnąć.",
+        "name": "Tryumf i Dominacja",
+        "text": "Agnes Baker musi zdecydować (wybierz jedno):\n- Agnes Baker zabiera jedno wspomnienie od Elspeth Baudin.\n- Agnes Baker zyskuje 2 [per_investigator] żetony wskazówek z puli żetonów.\nNastępnie, odwróć tę kartę, wyczerp ją i uwolnij ze zwarcia."
+    }
+]

@@ -14,8 +14,9 @@
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
                 "text": [
-                    "[Hh]eals? (that much )?((\\d+|all|(X total)) damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
+                    "[Hh]eals? (that much )?(((\\d+|all|(X total)) )?damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
                 ],
+                "tag": ["hh"],
                 "level": { "min": 0, "max": 5 }
             },
             {
@@ -27,6 +28,7 @@
         ],
         "deck_requirements": "size:30, card:05007:98011, card:05008:98012, random:subtype:basicweakness",
         "double_sided": true,
+        "errata_date": "2019-04-23",
         "faction_code": "guardian",
         "flavor": "The mind is fragile, but through understanding, we can protect it.",
         "health": 6,

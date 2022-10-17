@@ -134,7 +134,7 @@
         "type_code": "enemy"
     },
     {
-        "back_text": "- Remove Agenda 1a - \"Fashionably Late\" from the game and replace it with the new Agenda 1a - \"Better Never Than Late.\"\n- Remove the original Dianne Devine from the game and replace it with the new version of Dianne Devine <i>(Mercurial and Mischevious)</i>.\n- Place the 3 new \"Sickening Reality\" cards underneath the scenario reference card, along with the 5 original ones, for a total of 8.\n- Set the Shocking Display treachery aside, out of play.",
+        "back_text": "- Remove Agenda 1a - \"Fashionably Late\" from the game and replace it with the new Agenda 1a - \"Better Never Than Late.\"\n- Remove the original Dianne Devine <i>(Mercurial and Mischevious)</i> from the game and replace it with the new version of Dianne Devine <i>(Hiding an Oath Unspoken)</i>.\n- Place the 3 new \"Sickening Reality\" cards underneath the scenario reference card, along with the 5 original ones, for a total of 8.\n- Set the Shocking Display treachery aside, out of play.",
         "code": "52021",
         "double_sided": true,
         "encounter_code": "return_to_the_last_king",
@@ -190,6 +190,7 @@
         "enemy_evade": 2,
         "enemy_fight": 4,
         "enemy_horror": 1,
+        "errata_date": "2022-08-26",
         "faction_code": "mythos",
         "health": 3,
         "illustrator": "Felipe Escobar",
@@ -200,7 +201,7 @@
         "quantity": 1,
         "subname": "Knows What You're Up To",
         "text": "<b>Prey</b> - Most clues.\nHunter.\nDianne Devine gets +3 [per_investigator] health.\n<b>Forced</b> - After any investigator performs a parley action: Move Dianne Devine once toward that investigator.",
-        "traits": "Monster. Cultist. Lunatic. Elite.",
+        "traits": "Monster. Cultist. Possessed. Elite.",
         "type_code": "enemy",
         "victory": 1
     },
@@ -226,6 +227,7 @@
         "enemy_damage": 1,
         "enemy_evade": 4,
         "enemy_fight": 3,
+        "errata_date": "2022-08-26",
         "faction_code": "mythos",
         "health": 5,
         "illustrator": "Andreia Ugrai",
@@ -234,7 +236,7 @@
         "position": 23,
         "quantity": 2,
         "text": "Hunter.\n[action]: <b>Parley.</b> Test [intellect] (4). If you succeed, you manage to get through to them for just a moment; automatically evade Crazed Guest. If you fail, your words fall on deaf ears.",
-        "traits": "Humanoid. Monster. Lunatic.",
+        "traits": "Humanoid. Monster. Possessed.",
         "type_code": "enemy",
         "victory": 0
     },
@@ -827,6 +829,7 @@
         "position": 57,
         "quantity": 1,
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Hastur's Gaze to your hand.\n<b>Forced</b> - After 1 or more doom is placed on the \"c\" agenda: Take 2 horror and discard Hastur's Gaze from your hand.",
+        "traits": "Power.",
         "type_code": "treachery"
     },
     {
@@ -840,6 +843,7 @@
         "position": 58,
         "quantity": 1,
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add Hastur's Grasp to your hand.\n<b>Forced</b> - After 1 or more doom is placed on the \"a\" agenda: Take 2 damage and discard Hastur's Grasp from your hand.",
+        "traits": "Power.",
         "type_code": "treachery"
     },
     {
@@ -1098,10 +1102,11 @@
         "encounter_position": 1,
         "faction_code": "mythos",
         "illustrator": "Kyri Koniotou",
-        "name": "Visions in Your Mind (Horrors)",
+        "name": "Visions in Your Mind",
         "pack_code": "rtptc",
         "position": 71,
         "quantity": 1,
+        "subname": "Horrors",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When your turn ends, if you did not perform at least 1 play action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror.",
         "traits": "Terror.",
         "type_code": "treachery"
@@ -1112,10 +1117,11 @@
         "encounter_position": 2,
         "faction_code": "mythos",
         "illustrator": "Kyri Koniotou",
-        "name": "Visions in Your Mind (Failure)",
+        "name": "Visions in Your Mind",
         "pack_code": "rtptc",
         "position": 72,
         "quantity": 1,
+        "subname": "Failure",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When your turn ends, if you did not perform at least 1 resource action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror.",
         "traits": "Terror.",
         "type_code": "treachery"
@@ -1126,10 +1132,11 @@
         "encounter_position": 3,
         "faction_code": "mythos",
         "illustrator": "Kyri Koniotou",
-        "name": "Visions in Your Mind (Death)",
+        "name": "Visions in Your Mind",
         "pack_code": "rtptc",
         "position": 73,
         "quantity": 1,
+        "subname": "Death",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When your turn ends, if you did not perform at least 1 move action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror.",
         "traits": "Terror.",
         "type_code": "treachery"
@@ -1140,10 +1147,11 @@
         "encounter_position": 4,
         "faction_code": "mythos",
         "illustrator": "Kyri Koniotou",
-        "name": "Visions in Your Mind (Hatred)",
+        "name": "Visions in Your Mind",
         "pack_code": "rtptc",
         "position": 74,
         "quantity": 1,
+        "subname": "Hatred",
         "text": "Peril. Hidden.\n<b>Revelation</b> - Secretly add this card to your hand.\n<b>Forced</b> - When your turn ends, if you did not perform at least 1 draw action during your turn: Discard this card from your hand and take 1 direct damage and 1 direct horror.",
         "traits": "Terror.",
         "type_code": "treachery"
