@@ -457,7 +457,7 @@
         "customization_options": [
             {
                 "xp": 1,
-                "real_traits": "Objet. Armure. Relique.",
+                "real_traits": "Item. Armor. Relic.",
                 "real_slot": "Arcane",
                 "text_change": "trait"
             },
@@ -487,22 +487,22 @@
                 "text_change": "append"
             }
         ],
-        "customization_change": "Objet. Armure. Relique.\nL'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n\n\njouer l'Armure de Chasseur ne provoque pas d'attaques d'opportunités.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
-        "customization_text": "□ <b>Enchantée.</b> L'Armure de Chasseur gagne le trait [[Relique]] et occupe un emplacement d'arcane au lieu d'un emplacement de corps.\n□□ <b>Runes Protectrices.</b> L'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n□□ <b>Résistante.</b> L'Armure du Chasseur gagne +2 vies.\n□□ <b>Sacrée.</b> L'Armure de Chasseur gagne +2 santés mentales.\n□□ <b>Légère.</b> Réduisez de 1 le coût de l'Armure de Chasseur et la jouer ne provoque pas d'attaques d'opportunités.\n□□□ <b>Absorbeuse de Sorts.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\n□□□ <b>Armure d'Épines.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
+        "customization_change": "Item. Armor. Relic.\nHunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n\n\nPlaying Hunter's Armor does not provoke attacks of opportunity.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
+        "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's Armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
         "deck_limit": 2,
         "faction_code": "guardian",
-        "flavor": "Vous avez bricolé cette protection à partir des restes d'une ancienne armure, en y ajoutant un blindage \"pare-balles\" plus moderne datant de la Grande Guerre. Ce n'est pas encore au point, mais avec quelques améliorations, ce sera peut-être suffisant.",
+        "flavor": "You cobbled this suit together yourself from the remnants of ancient armor, mixed with more modern \"bulletproof\" plating used in the Great War. It's not much, yet. But with some improvements, maybe it'll be enough.",
         "health": 2,
         "illustrator": "Rob Laskey",
-        "name": "L'Armure de Chasseur",
+        "name": "Hunter's Armor",
         "pack_code": "tskp",
         "position": 21,
         "quantity": 2,
         "sanity": 2,
         "skill_willpower": 1,
-        "slot": "Corps",
-        "text": "Personnalisable.",
-        "traits": "Objet. Armure.",
+        "slot": "Body",
+        "text": "Customizable.",
+        "traits": "Item. Armor.",
         "type_code": "asset",
         "xp": 0
     },
@@ -2891,13 +2891,13 @@
         "faction_code": "neutral",
         "health": 2,
         "illustrator": "Brynn Metheney",
-        "name": "Lurker in the Dark",
+        "name": "Rôdeur dans l'Obscurité",
         "pack_code": "tskp",
         "position": 124,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "[guardian] investigator only.\nHunter.\n<b>Spawn</b> - Any connecting location.\nLurker in the Dark can only be attacked or damaged using [[Weapon]] assets or [[Tactic]] events, and takes 1 fewer damage from each source.",
-        "traits": "Monster. Shoggoth.",
+        "text": "Investigateur [guardian] uniquement.\nChasseur.\n<b>Génération</b> - N'importe quel lieu connexe.\nLe Rôdeur dans l'Obscurité ne peut être attaqué ou blessé qu'en utilisant des soutiens [[Arme]] ou des événements [[Tactique]], et subit 1 dégât de moins de chaque source.",
+        "traits": "Monstre. Shoggoth.",
         "type_code": "enemy"
     },
     {
@@ -2906,13 +2906,13 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "Bryce Cook",
-        "name": "Quantum Paradox",
+        "name": "Paradoxe Quantique",
         "pack_code": "tskp",
         "position": 125,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "[seeker] investigator only.\nAs an additional cost to play Quantum Paradox, you must choose and discard 4 other cards from your hand.\n<b>Forced</b> - If Quantum Paradox is in your hand at the end of your turn: Reveal it and take 1 horror.",
-        "traits": "Paradox.",
+        "text": "Investigateur [seeker] uniquement.\nEn tant que coût supplémentaire pour jouer Paradoxe Quantique, vous devez choisir et défausser 4 autres cartes de votre main.\n<b>Forcé</b> - Si Paradoxe Quantique est dans votre main à la fin de votre tour: révélez-le et subissez 1 horreur.",
+        "traits": "Paradoxe.",
         "type_code": "event"
     },
     {
@@ -2921,13 +2921,13 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "John Moriarty",
-        "name": "Pay Your Due",
+        "name": "Payer son Dû",
         "pack_code": "tskp",
         "position": 126,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "[rogue] investigator only.\nAs an additional cost to play Pay Your Due, you may spend any number of additional actions. Reduce its cost by 5 for each additional action spent.\n<b>Forced</b> - If Pay Your Due is in your hand at the end of your turn: Reveal it and take 1 damage.",
-        "traits": "Pact.",
+        "text": "Investigateur [rogue] uniquement.\nEn tant que coût supplémentaire pour jouer Payer son Dû, vous avez le droit de dépenser n'importe quel nombre d'actions supplémentaires. Réduisez de 5 le coût de cet événement pour chaque action supplémentaire ainsi dépensée.\n<b>Forced</b> - Si Payer son Dû est dans votre main à la fin de votre tour: révélez-le et subissez 1 dégât.",
+        "traits": "Pacte.",
         "type_code": "event"
     },
     {
@@ -2940,13 +2940,13 @@
         "faction_code": "neutral",
         "health": 2,
         "illustrator": "Rafał Hrynkiewicz",
-        "name": "Ectoplasmic Horror",
+        "name": "Horreur Ectoplasmique",
         "pack_code": "tskp",
         "position": 127,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "[mystic] investigator only.\nHunter.\nThe first time you reveal a chaos token while attacking or attempting to evade Ectoplasmic Horror, reveal an additional token for each empty arcane slot you have.",
-        "traits": "Monster. Geist.",
+        "text": "Investigateur [mystic] uniquement.\nChasseur.\nLa première fois que vous révélez un pion Chaos lorsque vous attaquez ou tentez d'échapper à l'Horreur Ectoplasmique, révélez un pion supplémentaire pour chacun de vos emplacements d'arcane inoccupés.",
+        "traits": "Monstre. Geist.",
         "type_code": "enemy"
     },
     {
@@ -2955,13 +2955,13 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "Anders Finer",
-        "name": "Underprepared",
+        "name": "Mal Préparé",
         "pack_code": "tskp",
         "position": 128,
         "quantity": 1,
         "subtype_code": "basicweakness",
-        "text": "[survivor] investigator only.\nPlay only if Underprepared is the only card in your hand and you have exactly 1 resource in your resource pool.\nWhile Underprepared is in your hand, each card you commit to skill tests is considered to have 1 fewer matching skill icon.",
-        "traits": "Blunder.",
+        "text": "Investigateur [survivor] uniquement.\nÀ jouer si Mal Préparé est la seule carte de votre main et que vous avez exactement 1 ressource dans votre réserve.\nTant que Mal Préparé est dans votre main, chaque carte que vous attribuez à des tests de compétence est considérée comme ayant 1 icône de compétence appropriée de moins.",
+        "traits": "Bévue.",
         "type_code": "event"
     }
   ]
