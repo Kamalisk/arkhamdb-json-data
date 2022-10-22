@@ -1,0 +1,922 @@
+[
+    {
+        "code": "09001",
+        "name": "Carson Sinclair",
+        "subname": "Der Butler",
+        "text": "Du darfst während deines Zuges eine zusätzliche Aktion nehmen, die du nur für die unten angegebene [action]-Fähigkeit verwenden kannst.\n[action]: Wähle einen anderen Ermittler an deinem Ort. Er darf sofort eine Aktion nehmen, als ob es sein Zug wäre. (Nur 1 Mal pro Runde für jeden Ermittler.)\n[elder_sign]-Effekt: +0. Ziehe 1 Karte. Du darfst diesen Effekt abhandeln, immer wenn ein anderer Ermittler an deinem Ort seinen [elder_sign]-Effekt abhandelt.",
+        "traits": "Assistent.",
+        "back_flavor": "Carson Sinclair hat drei Generationen der Familie Webb in Arkham gedient. Carson war stets loyal, doch jüngst beobachtete er mit Missfallen, wie sein derzeitiger Arbeitgeber, Hercule Webb, damit begann, bizarre Artefakte und lästerliche Bücher ins Haus zu bringen. Ein Interesse, das sein Geschäftsleiter Dupuis anzufachen schien. Als Mr. Webb von einem Dimensionsriss verschluckt wurde, glaubte niemand Carsons Bericht über den erschütternden Vorfall. Carson machte es sich zur Aufgabe, Dupuis’ Schuld zu beweisen und die Kinder als rechtmäßige Erben des Webb-Vermögens wieder einzusetzen.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Wahl der Sekundärklasse</b>: Wähle beim Deckbau Sucher ([seeker]), Mystiker ([mystic]) oder Überlebender ([survivor]).\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0-5, Neutrale Karten Stufe 0-5, bis zu 10 Ereignis- und/oder Fertigkeitskarten Stufe 0-1 deiner gewählten Sekundärklasse.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): 2 Kopien von „Wie Sie wünschen”, Zu selbstlos, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "09002",
+        "name": "„Wie Sie wünschen”",
+        "text": "Nur für das Deck von Carson Sinclair.\nTrage diese Karte nur zu einer Fertigkeitsprobe bei, die ein anderer Ermittler durchführt.\nFalls die Probe gelingt, zieht der Ermittler, der sie durchführt, 1 Karte. Falls die Probe misslingt, ziehst du 1 Karte.",
+        "traits": "Trainiert. Experte."
+    },
+    {
+        "code": "09003",
+        "name": "Zu selbstlos",
+        "text": "<b>Enthüllung</b> - Bringe Zu selbstlos in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> - Am Ende deines Zuges, falls du nicht mindestens 1 Karte zu einer Fertigkeitsprobe beigetragen hast, die ein anderer Ermittler in diesem Zug durchgeführt hat: Nimm 1 Horror und mische Zu selbstlos in dein Deck.",
+        "traits": "Makel."
+    },
+    {
+        "code": "09004",
+        "flavor": "„Ich werde eine Antwort finden, und wenn es mich das Leben kostet.”",
+        "name": "Vincent Lee",
+        "subname": "Der Arzt",
+        "text": "[reaction] Nachdem einer deiner Karteneffekte Schaden von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte eines Ermittlers geheilt hat: Füge 1 deiner beiseitegelegten Fertigkeitskarten Auf dem Weg der Besserung der Hand jenes Ermittlers hinzu.\n[elder_sign]-Effekt: +1. Du darfst 1 Schaden von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte an deinem Ort heilen.",
+        "traits": "Mediziner.",
+        "back_flavor": "Nachdem die dritte oder vierte verstümmelte Leiche in Arkhams St. Mary’s Hospital aufgetaucht war, hörte Vincent Lee auf, an Angriffe von wilden Tieren zu glauben. Als einem im Schlaf laut aufschreienden jungen Mann der Herzmuskel platzte, wusste Vincent, dass finstere Zeiten bevorstanden. Er beantrage einen längeren Urlaub und beschloss, den Opfern des grassierenden Chaos zu helfen. Die Spur von Leichen, so hofft Vincent, wird ihn zu den ersehnten Antworten führen.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Sucherkarten ([seeker]) Stufe 0-3, Neutrale Karten Stufe 0-5, Karten, die „Schaden heilen”, Stufe 0-5, bis zu 15 andere Wächter- und/oder Überlebenderkarten ([guardian] und/oder [survivor]) Stufe 0-1.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Knochensäge, 1 [per_investigator] Kopie von Auf dem Weg der Besserung, Verwundeter Unbeteiligter, 1 zufällige Grundschwäche.\n<b>Zusätzliche Vorbereitung</b>: Du beginnst jedes Spiel mit 1 [per_investigator] Kopie von Auf dem Weg der Besserung als nicht im Spiel befindlich beiseitegelegt."
+    },
+    {
+        "code": "09005",
+        "name": "Knochensäge",
+        "text": "Nur für das Deck von Vincent Lee.\n[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat]. Falls dieser Angriff gelingt, darfst du 1 Schaden nehmen, um mit diesem Angriff +1 Schaden zuzufügen.\n[action]: Heile 5 Schaden von einem Ermittler an deinem Ort. Lege eine [intellect]-Probe (4) ab. Falls die Probe misslingt, erleidet jener Ermittler 1 körperliches Trauma. (Max. 1 Mal pro Spiel.)",
+        "traits": "Gegenstand. Werkzeug. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09006",
+        "name": "Auf dem Weg der Besserung",
+        "text": "Nur 1 Kopie von Auf dem Weg der Besserung auf deiner Hand.\nTrage diese Karte nur zu einer Fertigkeitsprobe bei, die du durchführst.\n<b>Erzwungen</b> - Sobald Auf dem Weg der Besserung abgelegt werden würde <i>(egal von woher)</i>: Lege diese Karte stattdessen als nicht im Spiel befindlich beiseite.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "09007",
+        "name": "Verwundeter Unbeteiligter",
+        "subname": "Auf der Schwelle des Todes",
+        "text": "<b>Enthüllung</b> - Bringe Verwundeter Unbeteiligter in deiner Spielzone mit 3 Schaden ins Spiel. Er kann das Spiel nicht verlassen, solange er Schaden hat (außer er wird besiegt). Falls er keinen Schaden hat, lege ihn ab.\n<b>Erzwungen</b> - Sobald du nicht-direkten Schaden nimmst: Mindestens 1 Schaden davon muss falls möglich Verwundeter Unbeteiligter zugewiesen werden.\n<b>Erzwungen</b> - Falls Verwundeter Unbeteiligter besiegt wird: Du erleidest 1 seelisches Trauma.",
+        "traits": "Verbündeter. Unbeteiligter."
+    },
+    {
+        "code": "09008",
+        "flavor": "„Das gehört Ihnen nicht”",
+        "name": "Kymani Jones",
+        "subname": "Sicherheitsberatung",
+        "text": "[fast]: Verwickle einen erschöpften Gegner an deinem Ort in einen Kampf.\n[reaction] Sobald du versuchst, einem erschöpften Nicht-[[Elite]]-Gegner zu entkommen: Füge für diesen Versuch deinen [intellect]-Wert deinem Fertigkeitswert hinzu. Falls die Probe um mindestens X gelingt, lege jenen Gegner ab. X ist die verbliebene Ausdauer jenes Gegners.\n[elder_sign]-Effekt: +1. Falls ein erschöpfter Gegner an deinem Ort ist, gelingt dir die Probe stattdessen automatisch.",
+        "traits": "Krimineller.",
+        "back_flavor": "Als die Taíno-Artefakte aus dem Miskatonic-Museum verschwanden, wurde Kymani damit beauftragt, die Haftung des Museums zu  bewerten. Natürlich wusste Kymani von Anfang an, wer für den Diebstahl verantwortlich war - Kymani selbst hatte den Raub geplant und durchgeführt. Doch nicht, um die erbeuteten Relikte zu verkaufen. Die <i>wahren</i> Diebe waren nämlich andere. Kymani wollte nur sicherstellen, dass die historischen Artefakte nach Hause zurückgeschickt wurden, wo sie rechtmäßig hingehörten. Das Museum und die Versicherungsgesellschaft wollen nach üblen Kriminellen fahnden, aber Kymani ist schneller, schlauer und einfach besser.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Schurkenkarten ([rogue]) Stufe 0-5, [[Werkzeug]]-Karten Stufe 0-4, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Wurfhaken, Agent Fletcher, 1 zufällige Grundschwäche.\n<b>Bonus-Erfahrungspunkte</b>: Du hast zu Beginn der Kampagne 5 zusätzliche Erfahrungspunkte (diese Punkte zählen nicht mit bei der Bestimmung der Anzahl der Schwächen, die du im Einzelspielmodus nehmen musst)."
+    },
+    {
+        "code": "09009",
+        "name": "Wurfhaken",
+        "text": "Nur für das Deck von Kymani Jones.\nAktionen, die unter Verwendung des Wurfhakens durchgeführt werden, provozieren keine Gelegenheitsangriffe.\n[action][action] Erschöpfe Wurfhaken: Nimm in beliebiger Reihenfolge bis zu 3 verschiedene Basisaktionen (Bewegen, Ermitteln, Entkommen, In einen Kampf verwickeln). Falls du ermittelst, verwende deinen [agility]-Wert statt deines [intellect]-Wertes.",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09010",
+        "flavor": "„Ich weiß, wer Sie wirklich sind, Jones.”",
+        "name": "Agent Fletcher",
+        "text": "Alarmiert. Jäger.\n<b>Beute</b> - Nur Kymani Jones.\nSolange Kymani Jones dabei ist, Agent Fletcher zu entkommen, senke Kymanis [intellect]-Wert auf 0.",
+        "traits": "Humanoid. Coterie. Detective."
+    },
+    {
+        "code": "09011",
+        "flavor": "„Was versucht es mir mitzuteilen?”",
+        "name": "Amina Zidane",
+        "subname": "Die Telefonistin",
+        "text": "[reaction] Sobald du eine Vorteilskarte spielst: Senke ihre Ressourcenkosten um 3. Sie kommt mit 1 Verderben ins Spiel. (Nur 1 Mal pro Runde.)\n[elder_sign]-Effekt: +2. Du darfst alles Verderben von einer Karte an deinem Ort auf eine andere Karte an deinem Ort bewegen.",
+        "traits": "Auserwählt. Verflucht.",
+        "back_flavor": "Amina kam als Flüchtling aus dem von Frankreich besetzten Algerien nach Arkham, nur mit dem, was sie tragen konnte. Sechs Jahre später sicherte sie sich dank ihres scharfen Verstandes und ihres technischen Geschicks einen Job in der Telefonzentrale der Miskatonic Valley Telephone Company. Bald nach ihrem Beginn fing sie während der Arbeit zum ersten Mal seltsame Geräuchfetzen auf - verzerrte Worte in einer nicht erkennbaren Sprache, ungewöhnliche Störgeräusche, Anrufe, die nirgendwohin verbunden waren oder unmittelbar abgebrochen wurden. Als sich die Phantomanrufe häuften, versuchte Amira der Sache auf den Grund zu gehen. Sie fand den richtigen Anschluss, stellte die Verbindung her und hörte zu. Obwohl sie kein Wort der fremdartigen Sprache am anderen Ende der Leitung verstand, spürte sie deutlich, welch enorme Macht von den unheimlichen Worten ausging.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Mystikerkarten ([mystic]) Stufe 0-5, Neutrale Karten Stufe 0-5, [[Glücksbringer]]-Karten Stufe 0-4.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Wort des Leids, Wort der Freude, Ohrenbetäubende Stille, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "09012",
+        "name": "Wort des Leids",
+        "text": "Nur für das Deck von Amina Zidane.\nSchnell. Spiele diese Karte nur in deinem Zug.\nPlatziere 1 Verderben auf einer Vorteilskarte, die du kontrollierst, um eine [action]-Fähigkeit darauf abzuhandeln, wobei du alle Kosten ignorierst <i>(einschließlich ihrer [action]-Kosten)</i>. Falls sich dann Wort der Freude in deinem Ablagestapel befindet, darfst du es in dein Deck mischen.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "09013",
+        "name": "Wort der Freude",
+        "text": "Nur für das Deck von Amina Zidane.\nSchnell. Spiele diese Karte, sobald du eine Fertigkeitsprobe auf einer Vorteilskarte durchführst, auf der 1 oder mehr Verderben liegt.\nFüge deinen [willpower]-Wert deinem Fertigkeitswert für diese Probe hinzu. Falls sich dann Wort des Leids in deinem Ablagestapel befindet, darfst du es in dein Deck mischen.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "09014",
+        "flavor": "„UNINTELLIGIBLE SQUIGGLES”",
+        "name": "Ohrenbetäubende Stille",
+        "text": "<b>Enthüllung</b> - Bewege 1 Verderben von einer Vorteilskarte, die du kontrollierst, auf die aktuelle Agenda. Dadurch kann die aktuelle Agenda vorrücken. Falls so kein Verderben bewegt wird, mische Ohrenbetäubende Stille in dein Deck zurück.",
+        "traits": "Omen."
+    },
+    {
+        "code": "09015",
+        "flavor": "„Die Wahrheit ist finsterer, als wir alle denken.”",
+        "name": "Darrell Simmons",
+        "subname": "Der Fotograf",
+        "text": "Du beginnst das Spiel mit Darrells Kodak im Spiel.\n[fast] Gib während einer Fertigkeitsprobe an deinem Ort 1 Beweis von einer Vorteilskarte aus, die du kontrollierst: Senke die Schwierigkeit dieser Probe um 2. (Nur ein Mal pro Probe.)\n[elder_sign]-Effekt: +1. Platziere 1 Beweis auf einer Vorteilskarte, die du kontrollierst.",
+        "traits": "Reporter.",
+        "back_flavor": "Schon als er in Arkham aufwuchs, wusste Darrell, dass mit dieser seltsamen Kleinstadt etwas nicht stimmte. Nach seinem Schulabschluss begann er, als Fotograf für den <i>Arkham Advertiser</i> zu arbeiten, und in den vergangenen Jahren durchkämmte er für seinen Job jeden Winkel der Stadt. Doch in dieser einen schicksalhaften Nacht sah er etwas wirklich Unbeschreibliches - einen Schrecken, der seine Welt bis in die Grundfesten erschütterte. Sein Chefredakteur meint, er habe es sich nur eingebildet, aber Darrell kennt die Wahrheit. Mit seiner treuen Kamera im Gepäck wird er nicht eher ruhen, bis er den fotografischen Beweis für die Schrecken in der Tasche hat, die in den Schatten seiner Heimatstadt und darüber hinaus lauern. Ein einziger guter Schnappschuss ist alles, was er braucht.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Überlebenderkarten ([survivor]) Stufe 0-5, Sucherkarten ([seeker]) Stufe 0-2, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Darrells Kodak, Überbelichteter Film, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "09016",
+        "name": "Darrells Kodak",
+        "subname": "Bitte recht freundlich!",
+        "text": "Nur für das Deck von Darrell Simmons.\n[reaction] Nachdem ein Gegner oder eine Verratskarte ins Spiel gekommen ist, erschöpfe Darrells Kodak: Platziere 1 Ressource <i>(aus dem Markervorrat)</i> als Beweis auf jenem Gegner oder jener Verratskarte.\n[reaction] Nachdem du eine beliebige Anzahl Hinweise entdeckt hast: Bewege so viele Beweise von Gegnern oder Verratskarten an jenem Ort (oder an gar keinem Ort) auf Darrells Kodak.",
+        "traits": "Gegenstand. Werkzeug."
+    },
+    {
+        "code": "09017",
+        "flavor": "Der unwiderlegbare Beweis, zunichtegemacht durch das Licht des Tages.",
+        "name": "Überbelichteter Film",
+        "text": "<b>Enthüllung</b> - Entferne 4 Beweise von Karten, die du kontrollierst. Für jeden Beweis, den du so nicht entfernen kannst, nimm 1 Horror.",
+        "traits": "Patzer."
+    },
+    {
+        "code": "09018",
+        "flavor": "„Das lässt sich schon arrangieren. Alles nur eine Frage der Verhandlungsbasis.”",
+        "name": "Charlie Kane",
+        "subname": "Der Politiker",
+        "text": "Du hast 3 zusätzliche Verbündeter-Slots.\n[fast] Während du eine Fertigkeitsprobe durchführst, erschöpfe eine [[Verbündeter]]-Vorteilskarte, die du kontrollierst: Du bekommst für diese Probe +1 auf deinen Fertigkeitswert und zusätzlich +1 für jedes Fertigkeitsszmbol jener [[Verbündeter]]-Vorteilskarte, das zur Art der Probe passt.\n[elder_sign]-Effekt: +3. Mache eine [[Verbündeter]]-Vorteilskarte an deinem Ort spielbereit.",
+        "traits": "Staatsdiener. Salonlöwe.",
+        "back_flavor": "Charlie Kane hatte den Bürgern von Arkham eine sichere Zukunft versprochen. Er hatte viele Versprechungen gemacht - niedrigere Steuern, bessere Schulen, weniger Kriminalität. Das war schließlich Teil seines Jobs. Und obwohl er manchmal Dinge tun musste, auf die er nicht stolz war, hat sich Charlie immer für das Allgemeinwohl eingesetzt. Als ihm die Berichte zugetragen wurden, hatte das Wohl der Menschen für ihn oberste Priorität. Natürlich konnte er keinem davon erzählen. Eine Massenpanik würde die öffentliche Ordnung gefährden. Außerdem, wer würde ihm schon glauben? Doch Charlie hatte schon immer gute Beziehungen in der Stadt. Also tätigte er ein paar Anrufe, stellte eine Einsatztruppe zusammen und machte sich an die Arbeit.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Wahl der Klassen</b>: Wähle beim Deckbau 2 Klassen ([guardian], [seeker], [rogue], [mystic] oder [survivor]).\n<b>Deckbau-Optionen</b>: [[Verbündeter]]-Karten Stufe 0-5, Neutrale Karten Stufe 0-5, Karten deiner gewählten Klassen Stufe 0-2.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Bonnie Walsh, Die Last der Verantwortung, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "09019",
+        "flavor": "„Vergessen Sie nicht, dass Sie um 21 Uhr einen Termin mit Mr. Sanford haben. Soll ich Ihren üblichen Tisch im La Bella Luna reservieren? Außerdem: Sie haben mir zum Geburtstag eine Armbanduhr geschenkt. Vielen Dank dafür.”",
+        "name": "Bonnie Walsh",
+        "text": "Nur für das Deck von Charlie Kane.\n[reaction] Nachdem du Bonnie Walsh erschöpft hast: Mache eine andere [[Verbündeter]]-Vorteilskarte, die du kontrollierst, spielbereit. (Nur 1 Mal pro Runde.)",
+        "traits": "Verbündeter. Staatsdiener. Assistent.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09020",
+        "flavor": "„Ich sage mir immer, dass es für das Allgemeinwohl war. War es das denn wirklich, Bonnie?”",
+        "name": "Die Last der Verantwortung",
+        "text": "<b>Enthüllung</b> - Falls du keine [[Verbündeter]]-Vorteilskarte kontrollierst, mische Die Last der Verantwortung in dein Deck zurück. Ansonsten erschöpfe für jede [[Verbündeter]]-Vorteilskarte, die du kontrollierst, entweder jene Karte oder füge ihr 1 direkten Schaden und 1 direkten Horror zu.",
+        "traits": "Makel."
+    },
+    {
+        "code": "09021",
+        "flavor": "Diese Rüstung hast du dir selbst aus ein paar antiken Überresten und modernen „kugelsicheren” Komponenten aus dem Großen Krieg zusammengebastelt. Sie gibt noch nicht viel her, aber mit ein paar zusätzlichen Anpassungen wird sie sich schon noch als nützlich erweisen.",
+        "name": "Rüstung des Jägers",
+        "customization_text": "□ <b>Verzaubert.</b> Rüstung des Jägers erhält das Merkmal [[Relikt]] und benötigt 1 arkanen Slot statt 1 Körperslot.\n□□ <b>Schutzrunen.</b> Rüstung des Jägers darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.\n□□ <b>Haltbar.</b> Rüstung des Jägers bekommt +2 Ausdauer.\n□□ <b>Geweiht.</b> Rüstung des Jägers bekommt +2 geistige Gesundheit.\n□□ <b>Leichtbau.</b> Rüstung des Jägers bekommt -1 Kosten und das Spielen provoziert keine Gelegenheitsangriffe.\n□□□ <b>Fluchtrinker.</b> Nachdem Rüstung des Jägers 1 oder mehr Schaden oder Horror durch den Effekt einer Verratskarte zugewiesen worden ist, darfst du Rüstung des Jägers erschöpfen, um 1 Karte zu ziehen.\n□□□ <b>Dornenrüstung.</b> Nachdem Rüstung des Jägers 1 oder mehr Schaden oder Horror durch einen gegnerischen Angriff zugewiesen worden ist, darfst du Rüstung des Jägers erschöpfen, um jenem Gegner 1 Schaden zuzufügen.",
+        "customization_change": "Gegenstand. Rüstung. Relikt.\nRüstung des Jägers darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.\n\n\nDas Spielen von Rüstung des Jägers provoziert keine Gelegenheitsangriffe.\nNachdem Rüstung des Jägers 1 oder mehr Schaden oder Horror durch den Effekt einer Verratskarte zugewiesen worden ist, darfst du Rüstung des Jägers erschöpfen, um 1 Karte zu ziehen.\nNachdem Rüstung des Jägers 1 oder mehr Schaden oder Horror durch einen gegnerischen Angriff zugewiesen worden ist, darfst du Rüstung des Jägers erschöpfen, um jenem Gegner 1 Schaden zuzufügen.",
+        "text": "Individualisierbar.",
+        "traits": "Gegenstand. Rüstung.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09022",
+        "name": "Runenaxt",
+        "customization_text": "□ <b>Erbstück.</b> Runenaxt bekommt -1 Kosten und erhält das Merkmal [[Relikt]].\n□ <b>Inschrift des Ruhms.</b> Füge diese Inschrift hinzu: „- <i>Ruhm</i> - Falls dieser Angriff einen Gegner besiegt, wähle eins: Ziehe 1 Karte, heile 1 Schaden oder heile 1 Horror.”\n□ <b>Inschrift der Ältesten.</b> Füge diese Inschrift hinzu: „- <i>Älteste</i> - Falls dieser Angriff um mindestens den Schleierwert deines Ortes gelingt, entdeckst du 1 Hinweis an deinem Ort.”\n□ <b>Inschrift der Jagd.</b> Füge diese Inschrift hinzu: „- <i>Jagd</i> - Bewege dich sofort an einen verbundenen Ort oder verwickle einen Gegner an deinem Ort in einen Kampf.”\n□ <b>Inschrift der Wut.</b> Füge diese Inschrift hinzu: „- <i>Wut</i> - Falls dieser Angriff erfolgreich ist, füge zusätzlich zum normalen Schaden jedem anderen Gegner, der mit dir in einen Kampf verwickelt ist, 1 Schaden zu.”\n□□□ <b>Uralte Macht.</b> Du darfst Runenaxt mit derselben Inschrift bis zu 3 Mal aufladen.\n□□□ <b>Saga.</b> Fülle zu Beginn jeder Runde 2 Ladungen auf Runenaxt auf statt nur 1 Ladung.\n□□□□ <b>Spruchweber.</b> Für jede ausgegebene Ladung darfst du Runenaxt mit bis zu 2 verschiedenen Inschriften aufladen.",
+        "customization_change": "Gegenstand. Waffe. Nahkampf. Relikt.\n- <i>Ruhm</i> - Falls dieser Angriff einen Gegner besiegt, wähle ein: Ziehe 1 Karte, heile 1 Schaden oder heile 1 Horror.\n- <i>Älteste</i> - Falls dieser Angriff um mindestens den Schleierwert deines Ortes gelingt, entdeckst du 1 Hinweis an deinem Ort.\n- <i>Jagd</i> - Bewege dich sofort an einen verbundenen Ort oder verwickle einen Gegner an deinem Ort in einen Kampf.\n- <i>Wut</i> - Falls dieser Angriff erfolgreich ist, füge zusätzlich zum normalen Schaden jedem anderen Gegner, der mit dir in einen Kampf verwickelt ist, 1 Schaden zu.\nDu darfst Runenaxt mit derselben Inschrift bis zu 3 Mal aufladen.\nIndividualisierbar. Anwendungen (4 Ladungen). Fülle 2 dieser Ladungen zu Beginn jeder Runde auf.\n[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat]. Vor diesem Angriff darfst du beliebig viele Ladungen ausgeben, um die Axt mit zweimal so vielen verschiedenen Inschriften aufzuladen …",
+        "text": "Individualisierbar. Anwendungen (4 Ladungen). Fülle 1 dieser Ladungen zu Beginn jeder Runde auf.\n[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat]. Vor diesem Angriff darfst du beliebig viele Ladungen ausgeben, um die Axt mit so vielen verschiedenen Inschriften aufzuladen …\n- <i>Genauigkeit</i> - Du bekommst für diesen Angriff zusätzlich +2 [combat].\n- <i>Macht</i> - Dieser Angriff fügt +1 Schaden zu.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "09023",
+        "flavor": "Liegt in der Hand, als wäre er ein alter Freund.",
+        "name": "Individuelle Anpassungen",
+        "customization_text": "□ <b>Gekerbtes Visier.</b> Falls du einen Angriff mit der Vorteilskarte mit dieser Verstärkung gegen einen Gegner, der mit einem anderen Ermittler in einen Kampf verwickelt ist, durchführst und der Angriff misslingt, fügst du keinen Schaden zu.\n□□ <b>Verlängerter Schaft.</b> Du bekommst +2 [combat], solange du mit der Vorteilskarte mit dieser Verstärkung angreifst.\n□□ <b>Gegengewicht.</b> Nachdem du eine [[Verbesserung]]-Karte (außer Individuelle Anpassungen) an die Vorteilskarte mit dieser Verstärkung angehängt hast, ziehe 1 Karte.\n□□□ <b>Ledergriff.</b> Individuelle Anpassungen bekommt -1 Kosten und erhält „Schnell. Spiele diese Karte nur in deinem Zug.”\n□□□ <b>Erweitertes Magazin.</b> Nachdem durch ein anderes Ereignis Munition von der Vorteilskarte mit dieser Verstärkung ausgegeben oder darauf platziert worden ist, platziere 1 Munition auf der Vorteilskarte mit dieser Verstärkung.\n□□□□ <b>Quecksilberkugeln.</b> Falls die Probe um 3 oder mehr gelingt, solange du mit der Vorteilskarte mit dieser Verstärkung angreifst, fügt dieser Angriff +1 Schaden zu.",
+        "customization_change": "Falls du einen Angriff mit der Vorteilskarte mit dieser Verstärkung gegen einen Gegner, der mit einem anderen Ermittler in einen Kampf verwickelt ist, durchführst und der Angriff misslingt, fügst du keinen Schaden zu.\nDu bekommst +2 [combat], solange du mit der Vorteilskarte mit dieser Verstärkung angreifst.\nNachdem du eine [[Verbesserung]]-Karte (außer Individuelle Anpassungen) an die Vorteilskarte mit dieser Verstärkung angehängt hast, ziehe 1 Karte.\nSchnell. Spiele diese Karte nur in deinem Zug.\nNachdem durch ein anderes Ereignis Munition von der Vorteilskarte mit dieser Verstärkung ausgegeben oder darauf platziert worden ist, platziere 1 Munition auf der Vorteilskarte mit dieser Verstärkung.\nFalls die Probe um 3 oder mehr gelingt, solange du mit der Vorteilskarte mit dieser Verstärkung angreifst, fügt dieser Angriff +1 Schaden zu.",
+        "text": "Individualisierbar.\nHänge diese Karte an eine [[Feuerwaffe]]-Vorteilskarte an, die du kontrollierst. Nur 1 pro Vorteilskarte.\n[reaction] Sobald du einen Nicht-[auto_fail]-Chaosmarker enthüllst, solange du mit der Vorteilskarte mit dieser Verstärkung angreifst, erschöpfe Individuelle Anpassungen: Hebe jenen Chaosmarker auf, schicke ihn in den Chaosbeutel zurück und enthülle einen neuen Marker.",
+        "traits": "Verbesserung. Vorrat."
+    },
+    {
+        "code": "09024",
+        "flavor": "Du willst gar nicht wissen, wie es funktioniert. Wichtig ist nur, dass du es nicht mehr ablegen willst.",
+        "name": "Obsidianarmband",
+        "text": "Obsidianarmband darf nur Schaden und/oder Horror zugewiesen werden, der durch Effekte von Verratskarten zugefügt wird.\nObsidianarmband darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09025",
+        "name": "Bolas",
+        "text": "<b>Entkommen.</b> Versuche zu entkommen, wobei du [combat] statt [agility] verwendest. Falls die Probe gelingt und der Gegner Nicht-[[Elite]] ist, hänge Bolas an ihn an.\nDer Gegner mit dieser Verstärkung bekommt -1 Entkommen.\n<b>Erzwungen.</b> - Nachdem sich der Gegner mit dieser Verstärkung bewegt hat: Erschöpfe ihn.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "09026",
+        "flavor": "„Hände hoch!”",
+        "name": "Die Tür eintreten",
+        "text": "Lege eine [combat]-Probe (1) ab. Falls die Probe gelingt, hänge Die Tür eintreten an deinen Ort an und platziere für jeden Punkt, um den die Probe gelungen ist, 1 Ressource als Spur auf dieser Karte.\nSenke den Schleierwert des Ortes mit dieser Verstärkung für jede Spur auf dieser Karte um 1.",
+        "traits": "Erkenntnis. Taktik. Polizei."
+    },
+    {
+        "code": "09027",
+        "flavor": "„Das wird wehtun!”",
+        "name": "Schwere Wunde",
+        "text": "Schnell. Spiele diese Karte, nachdem du erfolgreich einen Nicht-[[Elite]]-Gegner angegriffen hast, indem du eine [[Nahkampf]]-Vorteilskarte verwendet hast.\nHänge Schwere Wunde an den angegriffenen Gegner an.\n<b>Erzwungen</b> - Am Ende der Runde: Füge dem Gegner mit dieser Verstärkung 1 Schaden zu.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "09028",
+        "flavor": "„Denken Sie, sie haben es mir abgekauft?”\n„Sie gehen mit Sicherheit nicht davon aus, dass uns der Weltuntergang bevorsteht, Mr. Kane.”",
+        "name": "Motivierende Ansprache",
+        "text": "<b>Verhandlung.</b> Wähle einen Ermittler an deinem Ort. Jener Ermittler darf eine [[Verbündeter]]-Vorteilskarte von seiner Hand spielen und dabei ihre Kosten um 3 senken.",
+        "traits": "Geist."
+    },
+    {
+        "code": "09029",
+        "name": "Die allerletzte Patrone",
+        "text": "Schnell. Spiele diese Karte am Ende eines Angriffs oder Effekts, bei dem die letzte Munition von einer [[Feuerwaffe]]-Vorteilskarte, die du kontrollierst, ausgegeben wurde.\nPlatziere 1 Munition auf jener Vorteilskarte.\nDu bekommst bei deinem nächsten Angriff mit jener Vorteilskarte in dieser Runde +3 auf den Fertigkeitswert.",
+        "traits": "Glücksfall. Taktik."
+    },
+    {
+        "code": "09030",
+        "flavor": "„Ziel und drück verdammt noch mal ab.\nJunge, so schwer ist es nicht.”",
+        "name": "Kampfunterricht",
+        "text": "Trage diese Karte nur zu einer Fertigkeitsprobe während eines Angriffs oder eines Entkommen-Versuchs bei.\nDu kannst diese Fertigkeit zu einer Fertigkeitsprobe eines Ermittlers an einem beliebigen Ort beitragen.",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "09031",
+        "name": "Helfende Hand",
+        "text": "Du darfst Helfende Hand zu einer beliebigen Art von Fertigkeitsprobe beitragen. Max. 1 pro Fertigkeitsprobe beitragen.\nSolange Helfende Hand zu einer Fertigkeitsprobe beigetragen wird, verdopple die Fertigkeitssymbole jeder anderen Karte, die zu jener Probe beigetragen wird.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "09032",
+        "name": "Mut zusprechen",
+        "text": "Anwendungen (4 Ladungen).\n[fast] Gib während einer Fertigkeitsprobe, die von einem Ermittler an deinem Ort oder einem verbundenen Ort durchgeführt wird, 1 Ladung aus: Trage zu jener Probe eine Nicht-Schwäche-Karte von deiner Hand bei, wobei alle ihre Fertigkeitssymbole als [wild] behandelt werden.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "09033",
+        "flavor": "Tag 15. Die Wesen scheinen sich von etwas zu ernähren. Von was, kann ich nicht sagen. Ich wage mich nicht näher heran.",
+        "name": "Agentin im Außendienst",
+        "text": "Du bekommst +1 [intellect].\n[fast] Erschöpfe Agentin im Außendienst und füge ihr 1 Horror zu: Entdecke 1 Hinweis an deinem Ort.",
+        "traits": "Verbündeter. Behörde.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09034",
+        "name": "Wachhund",
+        "text": "[fast] Erschöpfe Wachhund: Verwickle einen Gegner an deinem Ort in einen Kampf. Jener Gegner greift dich an.\n[reaction] Sobald ein Gegnerangriff Wachhund Schaden und/oder Horror zufügt: Füge dem angreifenden Gegner 1 Schaden zu.\n<b>Kartenentwurf vom Council-in-Exile bei den Arkham Nights 2020.</b>",
+        "traits": "Verbündeter. Kreatur.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09035",
+        "name": "Handschellen",
+        "text": "Schnell.\n[action] Falls Handschellen nicht an einen Gegner angehängt sind: <b>Entkommen.</b> Verwende diese Karte nur bei einem [[Humanoid]]-Gegner. Dieser Entkommen-Versuch verwendet [combat] statt [agility]. Falls die Probe gelingt, entferne alles Verderben von dem Gegner, dem du gerade entkommen bist, und hänge Handschellen an ihn an.\nFalls der Gegner mit dieser Verstärkung Nicht-[[Elite]] ist, kann er nicht spielbereit gemacht werden und Verderben kann nicht auf ihm platziert werden.",
+        "traits": "Gegenstand. Polizei."
+    },
+    {
+        "code": "09036",
+        "name": "Auf das Schlimmste vorbereitet",
+        "text": "Wähle einen Ermittler an deinem Ort. Jener Ermittler durchsucht die obersten 9 Karten seines Decks nach einer [[Waffe]]-Vorteilskarte, fügt sie seiner Hand hinzu oder spielt sie <i>(und zahlt die Ressourcenkosten dafür)</i> und mischt sein Deck.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "09037",
+        "name": "Armschiene des Märtyrers",
+        "subname": "Überreste des Unbekannten",
+        "text": "Du bekommst +1 auf deinen Fertigkeitswert, solange du Enthüllungsfähigkeiten auf Begegnungskarten abhandelst.\n[reaction] Nachdem ein anderer Ermittler an deinem Ort eine Nicht-Wagnis-Begegnungskarte gezogen hat und bevor der Effekt jener Karte abgehandelt wird, erschöpfe Armschiene des Märtyrers: Du gilst stattdessen als der Spieler, der die Begegnungskarte gezogen hat.",
+        "traits": "Gegenstand. Glücksbringer. Rüstung.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "09038",
+        "name": "Girish Kadakia",
+        "subname": "ICPC-Detective aus Punjab",
+        "text": "Girish Kadakia darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.\n[fast] Erschöpfe Girish Kadakia während einer Fertigkeitsprobe, die von einem Ermittler an deinem Ort durchgeführt wird: Jener Ermittler bekommt für diese Probe +2 auf seinen Fertigkeitswert. Falls die Probe gelingt, heile 1 Schaden oder 1 Horror von Girish Kadakia.",
+        "traits": "Verbündeter. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09039",
+        "flavor": "Das musste er Logan lassen: Dieser Mann wusste, wie man sich für den Weltuntergang rüstet.",
+        "name": "Immer wachsam",
+        "text": "Ermittler an deinem Ort dürfen als Gruppe nacheinander bis zu 4 Vorteilskartes von ihren Händen spielen, wobei die Ressourcenkosten jeder jener Karten um 1 gesenkt werden.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "09040",
+        "name": "Alchemistische Destillation",
+        "customization_text": "□ <b>Heilendes Destillat.</b> Füge diese Option hinzu: „- Heile 2 Schaden.”\n□ <b>Beruhigendes Destillat.</b> Füge diese Option hinzu: „- Heile 2 Horror.”\n□ <b>Erleuchtendes Destillat.</b> Füge diese Option hinzu: „- Platziere 1 Ladung oder 1 Geheimnis auf einer Vorteilskarte, die du kontrollierst.”\n□ <b>Beschleunigendes Destillat.</b> Füge diese Option hinzu: „- Bewege dich bis zu 2 Mal.”\n□□ <b>Verfeinert.</b> Alchemistische Destillation kommt mit 2 zusätzlichen Vorräten ins Spiel.\n□□□□ <b>Kraftspendend.</b> Sobald du diese Fertigkeitsprobe initiierst, darfst du ihre Schwierigkeit um 2 erhöhen. Falls du dies tust, erhöhe den Wert jedes Effekts, der durch jede Option gewährt wird, für diese Probe um 1.\n□□□□□ <b>Perfektioniert.</b> Falls die Probe um 2 oder mehr gelingt, darf der gewählte Ermittler 2 verschiedene Optionen durchführen statt nur 1 Option.",
+        "customization_change": "- Heile 2 Schaden.\n- Heile 2 Horror.\n- Platziere 1 Ladung oder 1 Geheimnis auf einer Vorteilskarte, die du kontrollierst.\n- Bewege dich bis zu 2 Mal.\nIndividualisierbar. Anwendungen (5 Vorräte).\nSobald du diese Fertigkeitsprobe initiierst, darfst du ihre Schwierigkeit um 2 erhöhen. Falls du dies tust, erhöhe den Wert jedes Effekts, der durch jede Option gewährt wird, für diese Probe um 1.\n[action] Gib 1 Vorrat aus: Wähle einen Ermittler an deinem Ort und lege eine [intellect]-Probe (1) ab. Falls die Probe gelingt, führt jener Ermittler 1 der folgenden Optionen durch (stattdessen 2 Optionen, falls die Probe um 2 oder mehr gelingt) …",
+        "text": "Individualisierbar. Anwendungen (3 Vorräte).\n[action] Gib 1 Vorrat aus: Wähle einen Ermittler an deinem Ort und lege eine [intellect]-Probe (1) ab. Falls die Probe gelingt, führt jener Ermittler 1 der folgenden Optionen durch …\n- Ziehe 2 Karten.\n- Du erhälst 2 Ressourcen.",
+        "traits": "Gegenstand. Wissenschaft.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09041",
+        "name": "Empirische Hypothese",
+        "customization_text": "□ <b>Pessimistischer Ausblick.</b> Füge dieses Kriterium hinzu: „Du hast keine Karten mehr auf der Hand.”\n□ <b>Versuch und Irrtum.</b> Füge dieses Kriterium hinzu: „Du erleidest Schaden oder Horror.”\n□ <b>Unabhängige Variable.</b> Füge dieses Kriterium hinzu: „Du legst eine Verratskarte oder einen Gegner aus dem Spiel ab.”\n□ <b>Feldforschung.</b> Füge dieses Kriterium hinzu: „Du betrittst einen Ort mit 3 oder mehr Schleier.”\n□□ <b>Peer-Review.</b> Das gewählte Kriterium trifft zu, falls bei einem beliebigen Ermittler an deinem Ort das Kriterium zutrifft statt nur bei dir. Andere Ermittler an deinem Ort dürfen die [fast]-Fähigkeiten auf Empirische Hypothese auslösen.\n□□ <b>Forschungszuschuss.</b> Empirische Hypothese erhält: „[fast] Gib 2 Beweise aus: Senke die Kosten der nächsten Karte, die du in dieser Phase spielst, um 3.”\n□□□ <b>Unwiderlegbarer Beweis.</b> Empirische Hypothese erhält: „[fast] Gib 3 Beweise aus: Du entdeckst 1 Hinweis an deinem Ort.”\n□□□□ <b>Alternative Hypothese.</b> Nachdem du Empirische Hypothese erschöpft hast, darfst du ihren Erzwungen-Effekt abhandeln und ein Kriterium wählen, das du in dieser Runde noch nicht gewählt hast. Mache Empirische Hypothese dann wieder spielbereit.",
+        "customization_change": "- Du hast keine Karten mehr auf der Hand.\n- Du erleidest Schaden oder Horror.\n- Du legst eine Verratskarte oder einen Gegner aus dem Spiel ab.\n- Du betrittst einen Ort mit 3 oder mehr Schleier.\nSobald das gewählte Kriterium bei einem beliebigen Ermittler an deinem Ort zutrifft, darfst du Empirische Hypothese erschöpfen, um 1 Beweis darauf zu platzieren. Andere Ermittler an deinem Ort dürfen die [fast]-Fähigkeiten auf Empirische Hypothese auslösen.\n[fast] Gib 2 Beweise aus: Senke die Kosten der nächsten Karte, die du in dieser Phase spielst, um 3.\n[fast] Gib 3 Beweise aus: Du entdeckst 1 Hinweis an deinem Ort.\nNachdem du Empirische Hypothese erschöpft hast, darfst du ihren Erzwungen-Effekt abhandeln und ein Kriterium wählen, das du in dieser Runde noch nicht gewählt hast. Mache Empirische Hypothese dann wieder spielbereit.",
+        "text": "Individualisierbar. Nur 1 pro Ermittler.\n<b>Erzwungen</b> - Zu Beginn der Runde: Wähle für diese Runde 1 der folgenden Kriterien\n- Dir misslingt eine Probe um 2 oder mehr.\n- Dir gelingt eine Probe um 3 oder mehr.\nSobald das gewählte Kriterium zutrifft, darfst du Empirische Hypothese erschöpfen, um 1 Beweis darauf zu platzieren.\n[fast] Gib 1 Beweis aus: Ziehe 1 Karte.",
+        "traits": "Talent. Wissenschaft."
+    },
+    {
+        "code": "09042",
+        "name": "Die Rabenfeder",
+        "customization_text": "Benenne 1 [[Buch]]- oder [[Zauber]]-Vorteilskarte:\n□ <b>Lebendiger Federkiel.</b> Das Verwenden von [action]-Fähigkeiten auf der Vorteilskarte mit dieser Verstärkung provoziert keine Gelegenheitsangriffe.\n□ <b>Spektrale Bindung.</b> Die Vorteilskarte mit dieser Verstärkung benötigt keine Slots.\n□□ <b>Mystische Fahne.</b> Du bekommst +2 auf deinen Fertigkeitswert, solange du Fertigkeitsproben auf der Vorteilskarte mit dieser Verstärkung durchführst.\n□□ <b>Bodenloses Tintenfass.</b> Benenne 2 weitere [[Buch]]- oder [[Zauber]]-Vorteilskarten:\n□□ <b>Energieentzug.</b> Die Rabenfeder erhält: „[fast] Erschöpfe Die Rabenfeder: Bewege 1 Geheimnis oder 1 Ladung von einer Vorteilskarte, die du kontrollierst, auf die Vorteilskarte mit dieser Verstärkung.”\n□□□ <b>Verwobene Tinte.</b> Nachdem du eine [action]-Fähigkeit auf der Vorteilskarte mit dieser Verstärkung abgehandelt hast, darfst du Die Rabenfeder erschöpfen, um eine andere Vorteilskarte, die du kontrollierst, spielbereit zu machen.\n□□□□ <b>Übernatürliche Aufzeichnung.</b> Sobald du Die Rabenfeder spielst, darfst du, anstatt sie an eine benannte von dir kontrollierte Vorteilskarte anzuhängen, dein Deck, deinen Ablagestapel und deine Hand nach einer Kopie einer benannten Vorteilskarte durchsuchen und sie spielen <i>(zahle ihre Kosten)</i>. Hänge dann Die Rabenfeder daran an.",
+        "customization_change": "Benenne 1 [[Buch]]- oder [[Zauber]]-Vorteilskarte:\nDas Verwenden von [action]-Fähigkeiten auf der Vorteilskarte mit dieser Verstärkung provoziert keine Gelegenheitsangriffe.\nDie Vorteilskarte mit dieser Verstärkung benötigt keine Slots.\nDu bekommst +2 auf deinen Fertigkeitswert, solange du Fertigkeitsproben auf der Vorteilskarte mit dieser Verstärkung durchführst.\nBenenne 2 weitere [[Buch]]- oder [[Zauber]]-Vorteilskarten:\n[fast] Erschöpfe Die Rabenfeder: Bewege 1 Geheimnis oder 1 Ladung von einer Vorteilskarte, die du kontrollierst, auf die Vorteilskarte mit dieser Verstärkung.\nNachdem du eine [action]-Fähigkeit auf der Vorteilskarte mit dieser Verstärkung abgehandelt hast, darfst du Die Rabenfeder erschöpfen, um eine andere Vorteilskarte, die du kontrollierst, spielbereit zu machen.\nHänge diese Karte an eine benannte Vorteilskarte an, die du kontrollierst, oder durchsuche dein Deck, deinen Ablagestapel und deine Hand nach einer Kopie einer benannten Vorteilskarte und spiele sie <i>(zahle ihre Kosten)</i>. Hänge dann Die Rabenfeder daran an.",
+        "text": "Individualisierbar. Sobald du Die Rabenfeder erwirbst, benenne eine [[Buch]]- oder [[Zauber]]-Vorteilskarte und notiere jenen Namen auf dem entsprechenden Verbesserungsbogen.\nHänge diese Karte an eine benannte Vorteilskarte an, die du kontrollierst.\n[reaction] Sobald du aufgibst oder das Spiel endet: Kreuze entweder ein Kästchen auf dem Verbesserungsbogen von Die Rabenfeder an oder senke die Erfahrungspunktekosten, um die Vorteilskarte mit dieser Verstärkung vor dem nächsten Scenario zu verbessern, um 1.",
+        "traits": "Gegenstand. Relikt. Verbesserung."
+    },
+    {
+        "code": "09043",
+        "name": "Sezierbesteck",
+        "text": "[reaction] Nachdem ein Gegner an deinem Ort besiegt worden ist: Platziere 1 Ressource <i>(aus dem Markervorrat)</i> als Beweis auf dieser Karte.\nSolange Sezierbesteck …\n- … 1 oder mehr Beweise hat, bekommst du +1 [agility].\n- … 2 oder mehr Beweise hat, bekommst du +1 [combat].\n- … 3 oder mehr Beweise hat, bekommst du +1 Geistige Gesundheit.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09044",
+        "flavor": "Was nun folgt, sind wahre Begebenheiten. Ich wünschte, es wäre nicht so.",
+        "name": "Düstere Memoiren",
+        "text": "Anwendungen (4 Geheimnisse).\n[action] Gib 1 Geheimnis aus: <b>Ermitteln.</b> Du bekommst für diese Ermittlung +2 [intellect]. Falls die Probe um 2 oder mehr gelingt, darfst du 1 Karte ziehen.",
+        "traits": "Gegenstand. Buch.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09045",
+        "name": "Forschungsnotizen",
+        "text": "[reaction] Nachdem eine Spielerkartenfähigkeit 1 oder mehr deiner Hinweise auf deinem Ort platziert hat: Platziere so viele Ressourcen als Beweise auf Forschungsnotizen.\n[action]: Lege eine [intellect]-Probe (0) ab. Für jeden Punkt, um den dir die Probe gelingt, darfst du 1 Beweis ausgeben, um 1 Hinweis an deinem Ort zu entdecken.",
+        "traits": "Gegenstand. Buch. Wissenschaft.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09046",
+        "flavor": "Unkonventionelle Leiden erfordern unkonventionelle Behandlungsmethoden.",
+        "name": "Bizarre Diagnose",
+        "text": "Platziere 1 deiner Hinweise auf deinem Ort.\nHeile dann 3 Schaden von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte an deinem Ort.",
+        "traits": "Erkenntnis. Wissenschaft."
+    },
+    {
+        "code": "09047",
+        "flavor": "„Verstehen Sie nicht, was das bedeutet?”\n„Warum beruhigen Sie sich nicht erst mal und fangen noch mal ganz langsam von vorne an?”",
+        "name": "Fesselnde Entdeckung",
+        "text": "Durchsuche die obersten 6 Karten deines Decks. Du darfst bis zu 3 deiner Hinweise auf deinem Ort platzieren. Für jeden so platzierten Hinweis wähle 2 der durchsuchten Karten und füge sie deiner Hand hinzu. Mische dein Deck.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "09048",
+        "name": "Karte der Umgebung",
+        "text": "<b>Ermitteln.</b> Füge für diese Ermittlung deinen [willpower]- oder [agility]-Wert deinem Fertigkeitswert hinzu. Falls die Probe gelingt, hänge Karte der Umgebung an diesen Ort an, statt hier Hinweise zu entdecken. Nur 1 pro Ort.\nSenke die Schwierigkeit jeder Fertigkeitsprobe am Ort mit dieser Verstärkung um 1.",
+        "traits": "Erkenntnis. Taktik."
+    },
+    {
+        "code": "09049",
+        "name": "Analyse",
+        "text": "Nachdem ein Chaosmarker für diese Fertigkeitsprobe enthüllt worden ist, darfst du 1 deiner Hinweise auf deinem Ort platzieren, um jenen Chaosmarker aufzuheben, ihn in den Chaosbeutel zurückzuschicken und einen neuen Chaosmarker zu enthüllen. <i>(Du darfst dies beliebig oft tun.)</i>",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "09050",
+        "flavor": "Wenn du ihn trägst, weißt du einfach, was du tun musst, auch wenn das Problem viel zu kompliziert für dich ist.",
+        "name": "Laborkittel",
+        "text": "[reaction] Sobald dir eine Fertigkeitsprobe auf einer [seeker]-Karte um 1 oder weniger misslingen würde, erschöpfe Laborkittel: Dir gelingt die Probe stattdessen um 0.",
+        "traits": "Gegenstand. Kleidung. Wissenschaft.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09051",
+        "name": "Orphische Theorie",
+        "text": "Anwendungen (4 Geheimnisse).\n[fast] Gib 1 Geheimnis aus: Wähle eine Nicht-Schwäche-Verratskarte, die nicht an einen [[Elite]]-Gegner angehängt ist. Behandle das aufgedruckte Textfeld jener Karte bis zum Ende der Runde, als ob es leer wäre (mit Ausnahme von [[Merkmalen]]).",
+        "traits": "Zauber.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "09052",
+        "name": "Existenzielles Rätsel",
+        "text": "<b>Verhandlung.</b> Wähle einen Nicht-[[Elite]]-Gegner an deinem Ort und lege eine [willpower]- oder [intellect]-Probe (8) ab. Diese Probe bekommt -1 Schwierigkeit für jede Karte auf deiner Hand. Falls die Probe gelingt, entkomme automatisch dem gewählten Gegner und hänge Existenzielles Rätsel an ihn an.\nDer Gegner mit dieser Verstärkung erhält Zurückhaltend.",
+        "traits": "Erkenntnis. Paradox."
+    },
+    {
+        "code": "09053",
+        "name": "Unterweisung",
+        "text": "Wähle einen anderen Ermittler an deinem Ort, der in dieser Runde noch seinen Zug nehmen muss. Der gewählte Ermittler bekommt in seinem Zug in dieser Runde +1 auf jede seiner Fertigkeiten und darf eine zusätzliche Aktion nehmen. Das Spielen von Unterweisung provoziert keine Gelegenheitsangriffe.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "09054",
+        "name": "Dr. William T. Maleson",
+        "subname": "An etwas Größerem arbeiten",
+        "text": "[reaction] Sobald ein beliebiger Ermittler eine Begegnungskarte vom Begegnungsdeck zieht, erschöpfe Dr. William T. Maleson und platziere 1 deiner Hinweise auf deinem Ort: Jener Ermittler zieht eine weitere Karte oben vom Begegnungsdeck, wählt eine der beiden Karten, um sie abzuhandeln, hebt die andere auf und legt sie ab.",
+        "traits": "Verbündeter. Miskatonic.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09055",
+        "flavor": "Es ist erstaunlich, wie anders du behandelt wirst, wenn du dieses kleine Stück Papier trägst.",
+        "name": "Presseausweis",
+        "text": "[reaction] Nachdem du 1 oder mehr Hinweise ausgegeben oder auf deinem Ort platziert hast, erschöpfe Presseausweis: Du darfst in diesem Zug eine zusätzliche Aktion nehmen (oder in deinem nächsten Zug, falls du aktuell nicht am Zug bist.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "09056",
+        "name": "Operationsbesteck",
+        "text": "Anwendungen (4 Vorräte).\n[reaction] Sobald einer deiner Karteneffekte Schaden von einem Ermittler heilt, gib 1 Vorrat aus: Entweder heilt jener Effekt 1 zusätzlichen Schaden oder du ziehst 1 Karte und heilst 1 Horror.\n[action] [action]: Heile 3 Schaden von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte an deinem Ort.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft."
+    },
+    {
+        "code": "09057",
+        "name": "Fingerabdruck-Set",
+        "text": "Anwendungen (3 Vorräte).\n[action] Erschöpfe Fingerabdruck-Set und gib 1 Vorrat aus: <b>Ermitteln.</b> Du bekommst für diese Ermittlung +2 [intellect]. Falls die Probe gelingt, entdeckst du 2 zusätzliche Hinweise an deinem Ort.",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09058",
+        "name": "Gray's Anatomy",
+        "subname": "Die Ärztebibel",
+        "text": "[action]: Wähle eine Karte an deinem Ort und lege eine [intellect]-Probe (1) ab. Für jeden Punkt, um den die Probe gelingt, wähle eins …\n- Das nächste Mal, wenn jene Karte in dieser Runde geheilt werden würde, heile +1 Schaden/Horror (bis zu einem Maximum von +3).\n- Das nächste Mal, wenn jener Karte in dieser Runde Schaden zugefügt werden würde, füge ihr +1 Schaden zu (bis zu einem Maximum von +3).",
+        "traits": "Gegenstand. Buch.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09059",
+        "name": "Belastende Zeugenaussage",
+        "customization_text": "□ <b>Durchsuchungsbeschluss.</b> Solange du unter Verwendung von Belastende Zeugenaussage ermittelst, darfst du einen beliebigen Effekt oder ein beliebiges Schlüsselwort ignorieren, der/das auf dem Ort ausgelöst werden würde, an dem du ermittelst.\n□□ <b>Gefälschte Beweise.</b> Belastende Zeugenaussage kommt mit 2 zusätzlichen Beweisen ins Spiel.\n□□ <b>Erpressung.</b> Du bekommst +2 [intellect], solange du unter Verwendung von Belastende Zeugenaussage ermittelst.\n□□□ <b>Nötigung.</b> Sobald du unter Verwendung von Belastende Zeugenaussage erfolgreich ermittelst, darfst du 1 Beweis ausgeben, um dem gewählten Gegner automatisch zu entkommen.\n□□□ <b>Beschattung.</b> Du darfst die Fähigkeit auf Belastende Zeugenaussage verwenden, um am Ort des gewählten Gegner zu ermitteln statt an deinem Ort.\n□□□□ <b>Enttarnung.</b> Sobald du unter Verwendung von Belastende Zeugenaussage erfolgreich ermittelst, darfst du X Beweise ausgeben, um den gewählten Gegner abzulegen, falls er ein Nicht-[[Elite]]-Gegner ist. X ist die verbleibende Ausdauer jenes Gegners.",
+        "customization_change": "Solange du unter Verwendung von Belastende Zeugenaussage ermittelst, darfst du einen beliebigen Effekt oder ein beliebiges Schlüsselwort ignorieren, der/das auf dem Ort ausgelöst werden würde, an dem du ermittelst.\nIndividualisierbar. Anwendungen (5 Beweise).\nDu bekommst +2 [intellect], solange du unter Verwendung von Belastende Zeugenaussage ermittelst.\nSobald du unter Verwendung von Belastende Zeugenaussage erfolgreich ermittelst, darfst du 1 Beweis ausgeben, um dem gewählten Gegner automatisch zu entkommen.\nDu darfst die Fähigkeit auf Belastende Zeugenaussage verwenden, um am Ort des gewählten Gegner zu ermitteln statt an deinem Ort.\nSobald du unter Verwendung von Belastende Zeugenaussage erfolgreich ermittelst, darfst du X Beweise ausgeben, um den gewählten Gegner abzulegen, falls er ein Nicht-[[Elite]]-Gegner ist. X ist die verbleibende Ausdauer jenes Gegners.",
+        "text": "Individualisierbar. Anwendungen (3 Beweise).\n[action] Erschöpfe Belastende Zeugenaussage und wähle einen Gegner an einem beliebigen Ort: <b>Ermitteln</b> <i>(an deinem Ort)</i>. Falls die Probe gelingt, darfst du 1 Beweis ausgeben, um 1 zusätzlichen Hinweis am Ort des gewählten Gegners zu entdecken.",
+        "traits": "Gegenstand. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09060",
+        "flavor": "„Ein Vergnügen, mit Ihnen Geschäfte zu machen, Ms. O'Bannion.”",
+        "name": "Freunde bei der Mafia",
+        "customization_text": "Wähle 1 [[Merkmal]]: _____\n□ <b>Hilfreich.</b> Sobald du Freunde bei der Mafia spielst, darfst du einen anderen Ermittler an deinem Ort wählen, um ihn statt dich die Effekte der Karte abhandeln zu lassen.\n□□ <b>Vielseitig.</b> Wähle 1 weiteres [[Merkmal]]: _____. Sobald du Freunde bei der Mafia spielst, darfst du 1 der angesehenen Karten mit beiden gewählten [[Merkmalen]] wählen, um sie deiner Hand hinzuzufügen, ohne 1 Ressource auszugeben.\n□□ <b>Stärkend.</b> Jede Karte, die durch Freunde bei der Mafia deiner Hand hinzugefügt wird, erhält bis zum Ende der Phase ein [wild]-Symbol.\n□□ <b>Gerissen.</b> Anstatt die verbliebenen Karten in dein Deck zu mischen, darfst du jede davon in beliebiger Reihenfolge oben auf deinem Deck platzieren.\n□□ <b>Pünktlich.</b> Freunde bei der Mafia erhält Schnell und „Spiele diese Karte in einem beliebigen [fast]-Fenster.”\n□□□ <b>Erfahren.</b> Erhöhe die Anzahl an Karten, die du dir ansiehst, um 3.\n□□□ <b>Flink.</b> Du darfst 1 der Karten, die du deiner Hand hinzufügst spielen <i>(zahle ihre Kosten)</i>.",
+        "customization_change": "Individualisierbar. Wähle 1 [[Merkmal]]: _____\nSobald du Freunde bei der Mafia spielst, darfst du einen anderen Ermittler an deinem Ort wählen, um ihn statt dich die Effekte der Karte abhandeln zu lassen.\nWähle 1 weiteres [[Merkmal]]: _____. Sobald du Freunde bei der Mafia spielst, darfst du 1 der angesehenen Karten mit beiden gewählten [[Merkmalen]] wählen, um sie deiner Hand hinzuzufügen, ohne 1 Ressource auszugeben.\nJede Karte, die durch Freunde bei der Mafia deiner Hand hinzugefügt wird, erhält bis zum Ende der Phase ein [wild]-Symbol.\nAnstatt die verbliebenen Karten in dein Deck zu mischen, darfst du jede davon in beliebiger Reihenfolge oben auf deinem Deck platzieren.\nSchnell. Spiele diese Karte in einem beliebigen [fast]-Fenster.\nSieh dir die obersten 9 Karten deines Decks an. Für jede angesehene Karte mit dem/den gewählten [[Merkmal(en)]], darfst du 1 Ressource ausgeben, um jene Karte deiner Hand hinzuzufügen. Mische die verbliebenen Karten in dein Deck.\nDu darfst 1 der Karten, die du deiner Hand hinzufügst spielen <i>(zahle ihre Kosten)</i>.",
+        "text": "Individualisierbar. Sobald du Freunde bei der Mafia erwirbst, wähle ein [[Merkmal]] und notiere es auf dem entsprechenden Verbesserungsbogen.\nSieh dir die obersten 6 Karten deines Decks an. Für jede angesehene Karte mit dem/den gewählten [[Merkmal(en)]] darfst du 1 Ressource ausgeben, um jene Karte deiner Hand hinzuzufügen. Mische die verbliebenen Karten in dein Deck.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "09061",
+        "name": "Geschärfte Instinkte",
+        "customization_text": "□ <b>Reflexhandlung.</b> Füge diese Bedingung hinzu: „- Du nimmst Schaden oder Horror.”\n□ <b>Situationsverständnis.</b> Füge diese Bedingung hinzu: „- Ein Ort kommt ins Spiel oder wird enthüllt.”\n□ <b>Killerinstinkt.</b> Füge diese Bedingung hinzu: „- Ein Gegner verwickelt dich in einen Kampf.”\n□ <b>Bauchgefühl.</b> Füge diese Bedingung hinzu: „- Eine Verratskarte betritt deine Bedrohungszone.”\n□ <b>Muskelgedächtnis.</b> Füge diese Bedingung hinzu: „- Du spielst eine Vorteilskarte.”\n□□ <b>Geschärftes Talent.</b> Du bekommst während der Aktion, die durch Geschärfte Instinkte gewährt wird, +2 auf jede deiner Fertigkeiten.\n□□□ <b>Impulskontrolle.</b> Dein Deck darf bis zu 3 Kopien von Geschärfte Instinkte enthalten. Geschärfte Instinkte bekommt -1 Kosten.\n□□□□□ <b>Macht der Gewohnheit.</b> Sobald du Geschärfte Instinkte spielst, darfst du (nacheinander) 2 Aktionen nehmen statt 1 Aktion. Entferne diese Karte dann aus dem Spiel.",
+        "customization_change": "- Du nimmst Schaden oder Horror.\n- Ein Ort kommt ins Spiel oder wird enthüllt.\n- Ein Gegner verwickelt dich in einen Kampf.\n- Eine Verratskarte betritt deine Bedrohungszone.\n- Du spielst eine Vorteilskarte.\nDu bekommst während der Aktion, die durch Geschärfte Instinkte gewährt wird, +2 auf jede deiner Fertigkeiten.\n\nNimm sofort (nacheinander) 2 Aktionen, als ob es dein Zug wäre. Entferne diese Karte dann aus dem Spiel. (Max. 1 pro Runde.)",
+        "text": "Individualisierbar. Schnell. Spiele diese Karte nur, nachdem 1 der folgenden Bedingungen eingetroffen ist:\n- Die Agenda oder die Szene rückt vor.\n- Dir gelingt eine Fertigkeitsprobe um 3 oder mehr.\nNimm sofort eine Aktion, als ob es dein Zug wäre. (Max. 1 pro Runde.)",
+        "traits": "Schachzug."
+    },
+    {
+        "code": "09062",
+        "name": "Verkleidung",
+        "text": "Anwendungen (4 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Entkommen.</b> Du bekommst für diesen Entkommen-Versuch +2 [agility]. Falls die Probe gelingt und du damit einem Nicht-[[Elite]]-Gegner entkommen bist, wird er während der nächsten Unterhaltsphase nicht spielbereit gemacht.",
+        "traits": "Talent. Trick. Illegal."
+    },
+    {
+        "code": "09063",
+        "name": "Unterschlagene Beute",
+        "text": "[fast] Erschöpfe Unterschlagene Beute: Bewege bis zu 2 Ressourcen aus deinem Ressourcenvorrat auf Unterschlagene Beute (bis zu einem Maximum von 10 Ressourcen darauf).\n<b>Erzwungen</b> - Sobald du aufgibst oder das Spiel endet: Für je 2 Ressourcen auf Unterschlagene Beute darf 1 Ermittler deiner Wahl das nächste Szenario der Kampagne mit 1 zusätzlichen Ressource in seinem Ressourcenvorrat beginnen.",
+        "traits": "Gegenstand. Illegal."
+    },
+    {
+        "code": "09064",
+        "flavor": "„Warum habe ich so was bei mir? Natürlich nur, um besser über die widerlichen Methoden der Kunstdiebe informiert zu sein.”",
+        "name": "Diebeswerkzeug",
+        "text": "Anwendungen (6 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Ermitteln.</b> Du darfst für diese Ermittlung [agility] statt [intellect] verwenden. Falls die Probe gelingt, erhälst du 1 Ressource.",
+        "traits": "Gegenstand. Werkzeug. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09065",
+        "flavor": "„Gott sei Dank! Sie hat Taschen!”",
+        "name": "Verborgene Tasche",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an eine [[Kleidung]]- oder [[Rüstung]]-Vorteilskarte an, die du kontrollierst.\nDie Vorteilskarte mit dieser Verstärkung erhält: „Du hast 1 zusätzlichen Hand- oder Zubehörslot (deiner Wahl), der nur für eine [[Illegal]]-Vorteilskarte verwendet werden darf.”",
+        "traits": "Verbesserung. Illegal."
+    },
+    {
+        "code": "09066",
+        "flavor": "„Perfektes Timing, Mr. Fergus.”",
+        "name": "Überfallfahrt",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nBringe eine [[Verbündeter]]-Vorteilskarte von deiner Hand ins Spiel. Falls jene Vorteilskarte am Ende deines Zuges noch im Spiel ist, schicke sie auf deine Hand zurück.",
+        "traits": "Taktik. Trick."
+    },
+    {
+        "code": "09067",
+        "name": "„Den nehme ich!”",
+        "text": "Schnell. Spiele diese Karte, sobald du einem [[Humanoid]]-Gegner erfolgreich entkommen bist oder erfolgreich ermittelt hast.\nSpiele eine [[Gegenstand]]-Vorteilskarte von deiner Hand. Senke ihre Kosten dabei um X, wobei X die Anzahl der Punkte ist, um welche die Probe gelungen ist. Hänge „Den nehme ich!” an jene Vorteilskarte an. Jene Karte erhält [[Illegal]].",
+        "traits": "Trick. Verbesserung. Illegal."
+    },
+    {
+        "code": "09068",
+        "name": "Ins Wespennest stechen",
+        "text": "Durchsuche die obersten 9 Karten des Begegnungsdecks nach einem Nicht-[[Elite]]-Gegner. Er erscheint mit dir in einen Kampf verwickelt <i>(statt an dem Ort, an dem er normalerweise erscheinen würde)</i>. Du entdeckst dann 1 Hinweis an deinem Ort und erhälst X Ressourcen, wobei X der Ausdauerwert jenes Gegners ist. Mische das Begegnungsdeck.",
+        "traits": "Schachzug. Taktik."
+    },
+    {
+        "code": "09069",
+        "flavor": "Aus den Augen, aber niemals aus dem Sinn.",
+        "name": "Rasante Flucht",
+        "text": "Schnell. Spiele diese Karte, sobald dich ein Gegner angreift.\n<b>Entkommen.</b> Versuche, dem angreifenden Gegner zu entkommen. Falls die Probe gelingt, hebe den Angriff jenes Gegners auf.",
+        "traits": "Trick."
+    },
+    {
+        "code": "09070",
+        "name": "Kalkuliertes Risiko",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nTrage diese Karte nur zu einer Fertigkeitsprobe beliebiger Art bei, die du durchführst, und nur in deinem Zug.\nKalkuliertes Risiko erhält [wild] für jede Aktion, die du in diesem Zug durchgeführt hast <i>(inklusive dieser)</i>.\nNachdem diese Probe beendet ist, endet dein Zug.",
+        "traits": "Schachzug. Schicksalhaft."
+    },
+    {
+        "code": "09071",
+        "flavor": "„Sie meinen also, ich soll mich passend zu dem Job kleiden, den ich haben will? Was aber, wenn ich Ihren will?”",
+        "name": "Stilvoller Mantel",
+        "text": "[reaction] Sobald du während deines Zuges 1 oder mehr Ressourcen durch einen anderen Spielerkarteneffekt erhälst, erschöpfe Stilvoller Mantel: Du erhälst 1 zusätzliche Ressource.",
+        "traits": "Gegenstand. Kleidung.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09072",
+        "name": "Chuck Fergus",
+        "subname": "O'Bannions Fahrer",
+        "text": "[reaction] Sobald du eine [[Taktik]]- oder [[Trick]]-Ereigniskarte spielst, erschöpfe Chuck Fergus: Wähle eins …\n- Jene Ereigniskarte erhält das Schlüsselwort Schnell.\n- Jene Ereigniskarte kostet zum Spielen 2 Ressourcen weniger.\n- Du bekommst +2 auf deinen Fertigkeitswert, solange du eine Fertigkeitsprobe während der Abhandlung jener Ereigniskarte durchführst.",
+        "traits": "Verbündeter. Krimineller.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09073",
+        "name": "Schmutzig kämpfen",
+        "text": "Nur 1 pro Ermittler.\nWährend du einen erschöpften Gegner angreifst, mit ihm verhandelst oder versuchst, ihm zu entkommen, bekommst du +2 auf deinen Fertigkeitswert.\n[reaction] Nachdem du einem Gegner entkommen bist, erschöpfe Schmutzig kämpfen: Nimm gegen jenen Gegner eine Kampfaktion. Ignoriere für diesen Angriff das Schlüsselwort Zurückhaltend.",
+        "traits": "Talent. Trick. Illegal."
+    },
+    {
+        "code": "09074",
+        "flavor": "Wenn ein „Einbruch” nicht genug ist …",
+        "name": "Einbruchdiebstahl",
+        "text": "<b>Ermitteln.</b> Füge für diese Ermittlung deinen [agility]-Wert deinem Fertigkeitswert hinzu. Falls die Probe um 1 oder mehr gelingt, darfst du einem Gegner an diesem Ort automatisch entkommen. Falls die Probe um 3 oder mehr gelingt, schicke Einbruchdiebstahl am Ende deines Zuges auf deine Hand zurück. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Trick."
+    },
+    {
+        "code": "09075",
+        "flavor": "„Na schön, ich geb's zu. Es gehört mir.”",
+        "name": "Diebeswerkzeug",
+        "text": "Anwendungen (6 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Ermitteln.</b> Du darfst für diese Ermittlung [agility] statt [intellect] verwenden und du bekommst +1 auf deinen Fertigkeitswert. Falls die Probe gelingt, erhälst du 1 Ressource (stattdessen 2 Ressourcen, falls die Probe um 2 oder mehr gelingt).",
+        "traits": "Gegenstand. Werkzeug. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09076",
+        "name": "Mann am Abzug",
+        "text": "[reaction] Nachdem Mann am Abzug ins Spiel gekommen ist: Hänge eine [[Illegal]]-Vorteilskarte von deiner Hand an Mann am Abzug an <i>(sie gilt als unter deiner Kontrolle im Spiel)</i>.\n[fast] Erschöpfe Mann am Abzug und gib 1 Ressource aus: Handle eine [action]-Fähigkeit auf der angehängten Vorteilskarte ab, ohne ihre [action]-Kosten zu zahlen. Handle jene Fähigkeit mit einem Grundfertigkeitswert von 4 ab.",
+        "traits": "Verbündeter. Krimineller.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09077",
+        "name": "Markt der Mafia",
+        "text": "Dauerhaft. Außergewöhnlich. Du bekommst +10 Deckgröße.\n[reaction] Bevor du deine Starthand ziehst, wähle 10 [[Illegal]]-Karten in deinem Deck: Mische sie zusammen und platziere sie als dein Marktdeck neben Markt der Mafia.\n[reaction] Zu Beginn deines Zuges: Enthülle die obersten 2 Karten deines Marktdecks. Du darfst 1 Ressource ausgeben, um 1 davon zu ziehen. Platziere den Rest in beliebiger Reihenfolge unter deinem Marktdeck.",
+        "traits": "Verbindung. Illegal."
+    },
+    {
+        "code": "09078",
+        "name": "Sauberer Einbruch",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nWähle für jeden erschöpften Nicht-Schwarm-Gegner an deinem Ort eine andere Option:\n- Du erhälst 2 Ressourcen.\n- Füge jenem Gegner 2 Schaden zu.\n- Entdecke 1 Hinweis an deinem Ort.\n- Ziehe 1 Karte.",
+        "traits": "Schachzug. Trick."
+    },
+    {
+        "code": "09079",
+        "name": "Lebendige Tinte",
+        "customization_text": "Gewählte Fertigkeit: \n□ <b>Wandernde Tinte.</b> Du darfst Lebendige Tinte unter die Kontrolle eines anderen Ermittlers an deinem Ort spielen.\n□ <b>Subtile Abbildung.</b> Zu Beginn deines Zuges darfst du wählen, die 1 Ladung nicht von Lebendige Tinte zu entfernen und ihre Fähigkeiten bis zum Ende der Runde zu ignorieren.\n□□ <b>Aufgeladene Tinte.</b> Lebendige Tinte kommt mit 2 zusätzlichen Ladungen ins Spiel und benötigt 1 arkanen Slot statt 1 Körperslot.\n□□ <b>Unheimliche Tinte.</b> Kreise 1 weitere Fähigkeit ein.\n□□□ <b>Unheimliche Tinte.</b> Kreise 1 weitere Fähigkeit ein.\n□□□ <b>Makabere Abbildung.</b> Lebendige Tinte erhält: „[reaction] Nachdem du einen Chaosmarker mit einem Symbol enthüllt hast, erschöpfe Lebendige Tinte: Platziere 1 Ladung auf ihr.”\n□□□ <b>Leuchtkraft.</b> Lebendige Tinte gewährt zusätzlich +1 auf die eingekreiste(n) Fertigkeit(en) und -1 auf jede andere Fertigkeit.",
+        "customization_change": "Individualisierbar. Gewählte Fertigkeit: _____\nDu darfst Lebendige Tinte unter die Kontrolle eines anderen Ermittlers an deinem Ort spielen.\nZu Beginn deines Zuges, entferne entweder 1 Ladung von Lebendige Tinte oder ignoriere ihre Fähigkeiten bis zum Ende der Runde. Falls Lebendige Tinte keine Ladungen hat, lege sie ab.\nAnwendungen (5 Ladungen).\nZusätzliche Fertigkeit: _____\nZusätzliche Fertigkeit: _____\n[reaction] Nachdem du einen Chaosmarker mit einem Symbol enthüllt hast, erschöpfe Lebendige Tinte: Platziere 1 Ladung auf ihr.\nDu bekommst +2 auf die gewählte(n) Fertigkeit(en) und -1 auf jede andere Fertigkeit.",
+        "text": "Individualisierbar. Sobald du Lebendige Tinte erwirbst, wähle eine Fertigkeit und kreise sie auf dem entsprechenden Verbesserungsbogen ein.\nAnwendungen (3 Ladungen).\nEntferne zu Beginn jedes deiner Züge 1 Ladung von Lebendige Tinte. Falls Lebendige Tinte keine Ladungen hat, lege sie ab.\nDu bekommst +1 auf die gewählte(n) Fertigkeit(en).",
+        "traits": "Ritual.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09080",
+        "name": "Beschworener Diener",
+        "customization_text": "□ <b>Verstärkter Panzer.</b> Beschworener Diener erhält einen Ausdauerwert von 3. Ihm kann Schaden zugewiesen werden, der einem beliebigen Ermittler an seinem Ort zugefügt wird.\n□ <b>Reißende Krallen.</b> Füge diese Aktion hinzu: „- <b>Kampf.</b> Du kämpfst mit einem [combat]-Grundwert von 4 gegen einen beliebigen Gegner an diesem Ort. Ignoriere für diesen Angriff die Schlüsselwörter Zurückhaltend und Zurückschlagen.”\n□ <b>Schnappender Kiefer.</b> Füge diese Aktion hinzu: „- <b>Entkommen.</b> Du versuchst, einem beliebigen Gegner an diesem Ort mit einem [agility]-Grundwert von 4 zu entkommen. Ignoriere für diesen Entkommen-Versuch das Schlüsselwort Alarmiert.”\n□ <b>Flammende Augen.</b> Füge diese Aktion hinzu: „- <b>Ermitteln.</b> Du ermittelst an diesem Ort mit einem [intellect]-Grundwert von 4.”\n□ <b>Schwingen der Nacht.</b> Nachdem sich Beschworener Diener von deinem Ort an einen verbundenen Ort bewegt hat, darfst du dich auch an jenen Ort bewegen.\n□□ <b>Dominanz.</b> Beschworener Diener benötigt nicht länger folgenden Slot (kreise 1 ein): arkaner Slot / Verbündeter-Slot.\n□□□ <b>Traumruf.</b> Anstatt eine andere Vorteilskarte abzulegen, um Beschworener Diener zu spielen, darfst du jene Karte auf die Hand ihres Besitzers zurückschicken.\n□□□□□ <b>Dämonischer Einfluss.</b> Beschworener Diener kann während deinen Zügen 2 verschiedene Aktionen nehmen statt 1 Aktion.",
+        "customization_change": "Beschworener Diener kann Schaden zugewiesen werden, der einem beliebigen Ermittler an seinem Ort zugefügt wird.\n- <b>Kampf.</b> Du kämpfst mit einem [combat]-Grundwert von 4 gegen einen beliebigen Gegner an diesem Ort. Ignoriere für diesen Angriff die Schlüsselwörter Zurückhaltend und Zurückschlagen.\n- <b>Entkommen.</b> Du versuchst, einem beliebigen Gegner an diesem Ort mit einem [agility]-Grundwert von 4 zu entkommen. Ignoriere für diesen Entkommen-Versuch das Schlüsselwort Alarmiert.\n- <b>Ermitteln.</b> Du ermittelst an diesem Ort mit einem [intellect]-Grundwert von 4.\nNachdem sich Beschworener Diener von deinem Ort an einen verbundenen Ort bewegt hat, darfst du dich auch an jenen Ort bewegen.\n\nIndividualisierbar. Als zusätzliche Kosten, um Beschworener Diener zu spielen, musst du entweder eine andere Vorteilskarte, die du kontrollierst, ablegen oder jene Karte auf die Hand ihres Besitzers zurückschicken.\nBeschworener Diener kommt an deinem Ort ins Spiel. Er kann während deiner Züge 2 verschiedene Aktionen nehmen, die er für eine der folgenden Aktionen verwenden kann:",
+        "text": "Individualisierbar. Als zusätzliche Kosten, um Beschworener Diener zu spielen, musst du eine andere Vorteilskarte ablegen, die du kontrollierst.\nBeschworener Diener kommt an deinem Ort ins Spiel. Er kann während deiner Züge 1 Aktion nehmen, die er für eine der folgenden Aktionen verwenden kann:\n- Bewege Beschworener Diener an einen verbundenen enthüllten Ort.",
+        "traits": "Beschwörung.",
+        "slot": "Verbündeter. Arkan"
+    },
+    {
+        "code": "09081",
+        "name": "Machtwort",
+        "customization_text": "□ <b>Verrat.</b> Füge diesen Befehl hinzu: „- <i>‚Verrat!‛</i> Füge einem beliebigen Gegner mit einem Kampfwert gleich oder niedriger als der dieses Gegners am Ort dieses Gegners 1 Schaden zu.”\n□ <b>Gnade.</b> Füge diesen Befehl hinzu: „- <i>‚Gnade!‛</i> Ein Ermittler am Ort dieses Gegners heilt Schaden oder Horror in Höhe des entsprechendem Schaden- oder Horrorwertes dieses Gegners.”\n□ <b>Beichte.</b> Füge diesen Befehl hinzu: „- <i>‚Beichte!‛</i> Du entdeckst 1 Hinweis am Ort dieses Gegners, falls sein Ausdauerwert gleich oder höher ist als der Schleierwert jenes Ortes.”\n□ <b>Ablenkung.</b> Füge diesen Befehl hinzu: „- <i>‚Ablenkung!‛</i> Du entkommst am Ort dieses Gegners automatisch einem beliebigen Gegner mit einem Entkommen-Wert gleich oder niedriger als der dieses Gegners.”\n□□ <b>Bessere Kontrolle.</b> Machtwort erhält „[fast]: Schicke Machtwort auf deine Hand zurück.”\n□□□ <b>Gebunden.</b> Du darfst die Verhandlung-Fähigkeit auf Machtwort von bis zu 1 Ort entfernt vom Gegner mit dieser Verstärkung aktivieren.\n□□□ <b>Zungenbrecher.</b> Sobald du die Verhandlung-Fähigkeit auf Machtwort verwendest, darfst du bis zu 2 verschiedene Befehle erteilen.\n□□□ <b>Dreimal ausgesprochen.</b> Dein Deck darf bis zu 3 Kopien von Machtwort enthalten. Sobald du mit einer Kopie einen Befehl erteilst, erteile jenen Befehl auch jedem anderen Gegner, an den eine deiner Kopien von Machtwort angehängt ist.",
+        "customization_change": "- <i>„Verrat!”</i> Füge einem beliebigen Gegner mit einem Kampfwert gleich oder niedriger als der dieses Gegners am Ort dieses Gegners 1 Schaden zu.\n- <i>„Gnade!”</i> Ein Ermittler am Ort dieses Gegners heilt Schaden oder Horror in Höhe des entsprechendem Schaden- oder Horrorwertes dieses Gegners.\n- <i>„Beichte!”</i> Du entdeckst 1 Hinweis am Ort dieses Gegners, falls sein Ausdauerwert gleich oder höher ist als der Schleierwert jenes Ortes.\n- <i>„Ablenkung!”</i> Du entkommst am Ort dieses Gegners automatisch einem beliebigen Gegner mit einem Entkommen-Wert gleich oder niedriger als der dieses Gegners.\n[fast]: Schicke Machtwort auf deine Hand zurück.\nDu darfst die Verhandlung-Fähigkeit auf Machtwort von bis zu 1 Ort entfernt vom Gegner mit dieser Verstärkung aktivieren.\n[action] Falls der Gegner mit dieser Verstärkung an deinem Ort ist: <b>Verhandlung.</b> Erteile ihm bis zu 2 verschiedene Befehle (nur 1 Mal pro Runde pro Befehl) … -\nDein Deck darf bis zu 3 Kopien von Machtwort enthalten. Sobald du mit einer Kopie einen Befehl erteilst, erteile jenen Befehl auch jedem anderen Gegner, an den eine deiner Kopien von Machtwort angehängt ist.",
+        "text": "Individualisierbar. Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an einen Nicht-[[Elite]]-Gegner an deinem Ort an.\n[action] Falls der Gegner mit dieser Verstärkung an deinem Ort ist: <b>Verhandlung.</b> Erteile ihm einen Befehl (nur 1 Mal pro Runde pro Befehl) … -\n- <i>„Beweg dich!”</i> Dieser Gegner bewegt sich 1 Mal in die Richtung deiner Wahl.\n- <i>„Zu Boden!”</i> Dieser Gegner wird erschöpft.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "09082",
+        "name": "Zeremoniensichel",
+        "text": "[action]: <b>Kampf.</b> Verwende entweder für diesen Angriff deinen [willpower]-Wert oder du bekommst für diesen Angriff +1 [combat]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Zeremoniensichel und platziere 1 Verderben darauf, um für diesen Angriff +1 auf deinen Fertigkeitswert zu bekommen und +1 Schaden zuzufügen.\n- Falls dieser Angriff einen Gegner besiegt, entferne 1 Verderben von Zeremoniensichel.",
+        "traits": "Gegenstand. Glücksbringer. Waffe. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09083",
+        "name": "Wünschelrute",
+        "text": "[action]: <b>Ermitteln.</b> Verwende entweder für diese Ermittlung deinen [willpower]-Wert oder du bekommst für diese Ermittlung +1 [intellect]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Wünschelrute und platziere 1 Verderben darauf, um dich an einen verbundenen Ort zu bewegen.\n- Falls durch diese Ermittlung der letzte Hinweis an einem Ort entdeckt wird, entferne 1 Verderben von Wünschelrute.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09084",
+        "name": "Geweihter Kelch",
+        "text": "[action]: Wähle einen Ermittler und entweder (wähle eins) …\n- Erschöpfe Geweihter Kelch und platziere 1 Verderben darauf, um 2 Schaden oder 2 Horror von jenem Ermittler zu heilen.\n- Heile 1 Schaden oder 1 Horror von jenem Ermittler. Falls du den letzten Schaden oder Horror von jenem Ermittler heilst, entferne 1 Verderben von Geweihter Kelch.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09085",
+        "name": "Onyxpentagramm",
+        "text": "[action]: <b>Entkommen.</b> Verwende entweder für diesen Entkommen-Versuch deinen [willpower]-Wert oder du bekommst für diesen Entkommen-Versuch +1 [agility]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Onyxpentagramm und platziere 1 Verderben darauf, um auf einen beliebigen Gegner an deinem oder an einem verbundenen Ort zu zielen und für diesen Entkommen-Versuch +1 auf deinen Fertigkeitswert zu bekommen.\n- Falls die Probe um 2 oder mehr gelingt, entferne 1 Verderben von dieser Karte.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09086",
+        "flavor": "Möge durch Licht und Schatten /\nder Abend zu neuem Morgen werden;\nMöge das Weiterdrehen der Welt /\nzu immerwährender Macht führen.",
+        "name": "Unheimliche Initiation",
+        "text": "Ziehe für jeden deiner arkanen Slots 1 Karte (maximal 5). Wähle für jeden deiner gefüllten arkanen Slots 1 Karte von deiner Hand und lege sie ab.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09087",
+        "name": "Explosives Siegel",
+        "text": "Bevor du Explosives Siegel spielst, darfst du beliebig viele Karten von deinen arkanen Slots ablegen.\nFüge einem Nicht-[[Elite]]-Gegner, der mit dir in einen Kampf verwickelt ist, X Schaden zu. X kann nicht größer sein als die Anzahl deiner leeren arkanen Slots. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "09088",
+        "name": "Flüchekette",
+        "text": "<b>Verhandlung.</b> Wähle einen Nicht-[[Elite]]-Gegner an deinem Ort und entweder (wähle eins):\n- Entkomme jenem Gegner und platziere 1 Verderben auf ihm. Er kann für den Rest der Runde keinen Schaden nehmen. Entdecke 1 Hinweis an deinem Ort.\n- Falls jener Gegner 1 oder mehr Verderben auf sich hat, besiege ihn. Du erhältst 1 Ressource für jedes Verderben, das auf jenem Gegner lag.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "09089",
+        "name": "Verschlossenes Gefäß",
+        "subname": "Interdimensionales Gefängnis",
+        "text": "Du bekommst für jeden Gegner unter Verschlossenes Gefäß +1 arkaner Slot.\n[reaction] Nachdem ein Nicht-[[Elite]]-Gegner an deinem Ort besiegt worden ist: Platziere jenen Gegner verdeckt unter Verschlossenes Gefäß (Nur 2 Gegner unter dieser Karte).\n[reaction] Sobald dich ein Gegner angreift, lege einen Gegner unter Verschlossenes Gefäß ab, der sich ein [[Merkmal]] mit dem angreifenden Gegner teilt: Hebe jenen Angriff auf.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "09090",
+        "name": "Gespenstige Besessenheit",
+        "text": "Nachdem du Gespenstige Besessenheit zu einer Fertigkeitsprobe auf einer Vorteilskarte beigetragen hast, wähle eins:\n- Platziere 1 Verderben auf jener Vorteilskarte. Gespenstige Besessenheit erhält [wild][wild].\n- Falls die Probe erfolgreich ist, entferne entweder 1 Verderben von jener Vorteilskarte oder fülle die Hälfte ihrer Anwendungen auf (abgerundet).",
+        "traits": "Angeboren. Zauber."
+    },
+    {
+        "code": "09091",
+        "name": "Astralspiegel",
+        "text": "Du hast 1 zusätzlichen Handslot für jeden deiner leeren arkanen Slots.\nDu darfst während deines Zuges eine zusätzliche Aktion nehmen, die du nur verwenden kannst, um eine Vorteilskarte auf 1 deiner Handslots zu spielen.",
+        "traits": "Ritual.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09092",
+        "name": "Elle Rubash",
+        "subname": "In reinigender Absicht",
+        "text": "Du bekommst +1 auf deinen Fertigkeitswert, solange du eine Fertigkeitsprobe auf einer hier angehängten Vorteilskarte durchführst.\nJe 1 Verderben auf jeder hier angehängten Vorteilskarte zählt nicht gegen den Verderbensschwellwert der Agenda mit.\n[fast] Erschöpfe Elle Rubash: Wähle eine Vorteilskarte in deiner Spielzone mit 1 oder mehr Verderben darauf. Hänge sie an Elle Rubash an oder tausche sie mit einer hier angehängten Vorteilskarte aus. (Nur 2 angehängte Vorteilskarten).",
+        "traits": "Verbündeter. Hexe.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09093",
+        "flavor": "„Im Namen des Mondes …”",
+        "name": "Mondlichtritual",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nEntferne alles Verderben von einer Nicht-[[Elite]]-Karte an deinem Ort.",
+        "traits": "Zauber. Erkenntnis."
+    },
+    {
+        "code": "09094",
+        "name": "Sündenfresser",
+        "text": "Dauerhaft. Außergewöhnlich.\n[fast] Erschöpfe Sündenfresser: Bewege 1 Verderben von einer Vorteilskarte, die du kontrollierst, auf Sündenfresser. Dann mache jene Vorteilskarte entweder spielbereit oder platziere 1 Ladung darauf.\n[action]: Entferne alles Verderben von Sündenfresser.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09095",
+        "flavor": "Die Macht ergriff sie, ließ sie erschaudern und verkrampfen. Die Energie dieser Macht vereinte sich mit ihr und dann öffnete sie die Augen …",
+        "name": "Befreie die Seele",
+        "text": "Du darfst eine [[Zauber]]- oder [[Ritual]]-Vorteilskarte ablegen, die du kontrollierst. Spiele eine [[Zauber]]- oder [[Ritual]]-Karte von deiner Hand oder aus deinem Ablagestapel und senke ihre Kosten dabei um 3.",
+        "traits": "Geist."
+    },
+    {
+        "code": "09096",
+        "name": "Zeremoniensichel",
+        "text": "[action]: <b>Kampf.</b> Verwende entweder für diesen Angriff deinen [willpower]-Wert oder du bekommst für diesen Angriff +1 [combat]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Zeremoniensichel und platziere 1 Verderben darauf, um für diesen Angriff +3 auf deinen Fertigkeitswert zu bekommen und +1 Schaden zuzufügen.\n- Falls dieser Angriff einen Gegner besiegt, mache Zeremoniensichel spielbereit und entferne alles Verderben von dieser Karte.",
+        "traits": "Gegenstand. Glücksbringer. Waffe. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09097",
+        "name": "Wünschelrute",
+        "text": "[action]: <b>Ermitteln.</b> Verwende entweder für diese Ermittlung deinen [willpower]-Wert oder du bekommst für diese Ermittlung +1 [intellect]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Wünschelrute und platziere 1 Verderben darauf, um dich an einen verbundenen Ort zu bewegen und für diese Ermittlung +2 auf deinen Fertigkeitswert zu bekommen.\n- Falls durch diese Ermittlung der letzte Hinweis an einem Ort entdeckt wird, mache Wünschelrute spielbereit und entferne alles Verderben von dieser Karte.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09098",
+        "name": "Onyxpentagramm",
+        "text": "[action]: <b>Entkommen.</b> Verwende entweder für diesen Entkommen-Versuch deinen [willpower]-Wert oder du bekommst für diesen Entkommen-Versuch +1 [agility]. Sobald du diese Fähigkeit initiierst, wähle eins …\n- Erschöpfe Onyxpentagramm und platziere 1 Verderben darauf, um auf einen beliebigen Gegner an deinem oder an einem verbundenen Ort zu zielen und für diesen Entkommen-Versuch +3 auf deinen Fertigkeitswert zu bekommen.\n- Falls die Probe um 2 oder mehr gelingt, mache Onyxpentagramm spielbereit und entferne alles Verderben von dieser Karte.",
+        "traits": "Gegenstand. Glücksbringer.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09099",
+        "flavor": "Aber aufgepasst - es kann noch mehr!",
+        "name": "Multifunktionswerkzeug",
+        "customization_text": "□ <b>Abnehmbar.</b> Andere Ermittler an deinem Ort dürfen die Fähigkeit auf Multifunktionswerkzeug verwenden.\n□ <b>Nageleisen.</b> Du bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während einer Fertigkeitsprobe auf einer Verratskarte passiert.\n□□ <b>Scharfes Messer.</b> Du bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während eines Angriffs passiert.\n□□ <b>Signalspiegel.</b> Du bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während eines Entkommen-Versuchs passiert.\n□□ <b>Lupe.</b> Du bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während einer Ermittlung passiert.\n□□□ <b>Glücksbringer.</b> Nachdem dir eine Fertigkeitsprobe misslungen ist, mache Multifunktionswerkzeug spielbereit.\n□□□ <b>Federmechanismus.</b> Die Fähigkeit von Multifunktionswerkzeug ist jetzt eine [reaction]-Fähigkeit mit dem Auslöser: „Sobald dir eine Fertigkeitsprobe misslingen würde, die du durchführst, erschöpfe Multifunktionswerkzeug: …”",
+        "customization_change": "Andere Ermittler an deinem Ort dürfen die Fähigkeit auf Multifunktionswerkzeug verwenden.\nDu bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während einer Fertigkeitsprobe auf einer Verratskarte passiert.\nDu bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während eines Angriffs passiert.\nDu bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während eines Entkommen-Versuchs passiert.\nDu bekommst zusätzlich +1 auf den Fertigkeitswert, falls dies während einer Ermittlung passiert.\nNachdem dir eine Fertigkeitsprobe misslungen ist, mache Multifunktionswerkzeug  spielbereit.\n[reaction] Sobald dir eine Fertigkeitsprobe misslingen würde, die du durchführst, erschöpfe Multifunktionswerkzeug: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "text": "Individualisierbar. Nur 1 pro Ermittler.\n[fast] Erschöpfe Multifunktionswerkzeug während einer Fertigkeitsprobe, die du durchführst: Du bekommst +1 auf den Fertigkeitswert dieser Probe.",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09100",
+        "name": "Improvisierte Falle",
+        "customization_text": "□ <b>Verbesserter Zünder.</b> Sobald du Improvisierte Falle spielst, darfst du ihre Anwendungen um 1 erhöhen oder senken.\n□ <b>Stolperdraht.</b> Löse die Erzwungen-Fähigkeit auf Improvisierte Falle nur aus, falls sich 1 oder mehr Gegner am Ort mit dieser Verstärkung befinden.\n□□ <b>Einfach.</b> Improvisierte Falle erhält Schnell und „Spiele diese Karte in einem beliebigen [fast]-Fenster.”\n□□ <b>Giftig.</b> Sobald du 1 oder mehr Zeit von Improvisierte Falle entfernst, füge einem Gegner am Ort mit dieser Verstärkung 1 Schaden zu.\n□□ <b>Ferngesteuert.</b> Sobald du Improvisierte Falle spielst, darfst du sie an einen enthüllten verbundenen Ort anhängen.\n□□□ <b>Netz.</b> Nicht-[[Elite]]-Gegner am Ort mit dieser Verstärkung können sich nicht bewegen und keine Gelegenheitsangriffe durchführen.\n□□□□ <b>Sprengsatz.</b> Sobald Improvisierte Falle keine Zeit mehr auf sich hat und abgelegt wird, füge jedem Gegner und Ermittler am Ort mit dieser Verstärkung 3 Schaden zu.",
+        "customization_change": "Sobald du Improvisierte Falle spielst, darfst du ihre Anwendungen um 1 erhöhen oder senken.\n<b>Erzwungen</b> - Am Ende der Runde, falls sich 1 oder mehr Gegner am Ort mit dieser Verstärkung befinden: Entferne 1 Zeit von Improvisierte Falle.\nSchnell. Spiele diese Karte in einem beliebigen [fast]-Fenster.\nSobald du 1 oder mehr Zeit von Improvisierte Falle entfernst, füge einem Gegner am Ort mit dieser Verstärkung 1 Schaden zu.\nHänge diese Karte an deinen Ort oder an einen enthüllten verbundenen Ort an.\nJeder Nicht-[[Elite]]-Gegner am Ort mit dieser Verstärkung bekommt -1 Kampf und -1 Entkommen und kann sich nicht bewegen und keine Gelegenheitsangriffe durchführen.\nIndividualisierbar. Anwendungen (2 Zeit). Falls Improvisierte Falle keine Zeit auf sich hat, lege sie ab und füge jedem Gegner und Ermittler am Ort mit dieser Verstärkung 3 Schaden zu.",
+        "text": "Individualisierbar. Anwendungen (2 Zeit). Falls Improvisierte Falle keine Zeit auf sich hat, lege sie ab.\nHänge diese Karte an deinen Ort an.\nJeder Nicht-[[Elite]]-Gegner am Ort mit dieser Verstärkung bekommt -1 Kampf und -1 Entkommen.\n<b>Erzwungen</b> - Am Ende der Runde: Entferne 1 Zeit von Improvisierte Falle.",
+        "traits": "Improvisiert. Falle."
+    },
+    {
+        "code": "09101",
+        "name": "Ergraut",
+        "customization_text": "Wähle 2 [[Merkmale]]: _____\n□ <b>Spezialist.</b> Wähle 1 weiteres Merkmal: _____\n□□ <b>Spezialist.</b> Wähle 1 weiteres Merkmal: _____\n□□□ <b>Erzfeind.</b> Falls dies eine Fertigkeitsprobe auf einem oder gegen einen Gegner mit einem gewählten Merkmal ist und die Probe erfolgreich ist, darfst du Ergraut an jenen Gegner anhängen. Senke die Schwierigkeit von Proben auf oder gegen den Gegner mit dieser Verstärkung um 1.\n□□□□ <b>Vom Mythos gestählt.</b> Falls dies eine Fertigkeitsprobe auf einer oder gegen eine Verratskarte mit einem gewählten Merkmal ist und die Probe erfolgreich ist, darfst du Ergraut und jene Verratskarte dem Siegpunktstapel hinzufügen.\n□□□□□ <b>Immer vorbereitet.</b> Nachdem du eine Begegnungskarte mit einem gewählten Merkmal gezogen hast, schicke 1 Kopie von Ergraut aus deinem Ablagestapel auf deine Hand zurück. (Max. 1 Mal pro Runde.)",
+        "customization_change": "Individualisierbar. Wähle 2 [[Merkmale]]: _____\nWähle 1 weiteres Merkmal:  _____\nWähle 1 weiteres Merkmal: _____\nFalls dies eine Fertigkeitsprobe auf einem oder gegen einen Gegner mit einem gewählten Merkmal ist und die Probe erfolgreich ist, darfst du Ergraut an jenen Gegner anhängen. Senke die Schwierigkeit von Proben auf oder gegen den Gegner mit dieser Verstärkung um 1.\nFalls dies eine Fertigkeitsprobe auf einer oder gegen eine Verratskarte mit einem gewählten Merkmal ist und die Probe erfolgreich ist, darfst du Ergraut und jene Verratskarte dem Siegpunktstapel hinzufügen.\nNachdem du eine Begegnungskarte mit einem gewählten Merkmal gezogen hast, schicke 1 Kopie von Ergraut aus deinem Ablagestapel auf deine Hand zurück. (Max. 1 Mal pro Runde.)",
+        "text": "Individualisierbar. Sobald du Ergraut erwirbst, wähle 2 [[Merkmale]] und notiere sie auf dem entsprechenden Verbesserungsbogen.\nFalls dies eine Fertigkeitsprobe auf einer oder gegen eine Begegnungskarte ist <i>(einschließlich Kampf, Entkommen und Verhandlung)</i>, erhält Ergraut [wild][wild] für jedes gewählte Merkmal, das die Begegnungskarte besitzt.",
+        "traits": "Angeboren. Entwickelt."
+    },
+    {
+        "code": "09102",
+        "flavor": "Das Gewicht beruhigte sie und das Metall schmiegte sich warm an ihre Haut.",
+        "name": "Götze von Xanatos",
+        "subname": "Beobachter jenseits der Zeit",
+        "text": "[reaction] Sobald dir Schaden und/oder Horror zugefügt wird, erschöpfe Götze von Xanatos und lege bis zu 3 Karten von deiner Hand ab: Hebe Schaden/Horror in Höhe der abgelegten Karten auf.",
+        "traits": "Gegenstand. Relikt.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "09103",
+        "name": "Improvisierter Schild",
+        "text": "Improvisierter Schild kann nur aus deinem Ablagestapel gespielt werden.\n<b>Erzwungen</b> - Sobald Improvisierter Schild besiegt wird: Mische ihn in dein Deck, statt ihn abzulegen.",
+        "traits": "Gegenstand. Rüstung. Improvisiert.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09104",
+        "flavor": "„Und jetzt … sollen wir umdrehen?”",
+        "name": "Am Ende des Weges",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug, falls die letzte Agenda im Spiel ist.\nDu ziehst 1 Karte, erhälst 1 Ressource und 1 zusätzliche Aktion. Entferne Am Ende des Weges aus dem Spiel.",
+        "traits": "Erkenntnis. Geist."
+    },
+    {
+        "code": "09105",
+        "name": "Schwäche ausnutzen",
+        "text": "Schnell. Spiele diese Karte, bevor ein Chaosmarker während eines Angriffs oder Entkommen-Versuchs, den du durchführst, enthüllt wird, und nur, falls die aktuelle Schwierigkeit dieser Probe 0 ist.\nDiese Probe gelingt automatisch. Statt der normalen Effekte dieser Probe lege den angegriffenen Gegner oder den Gegner, dem du entkommen bist, ab (falls er [[Elite]] ist, entkomme ihm stattdessen automatisch und füge ihm 3 Schaden zu).",
+        "traits": "Taktik. Trick."
+    },
+    {
+        "code": "09106",
+        "flavor": "Hinter der harten Arithmetik des Überlebens liegt eine gewisse Klarheit verborgen.",
+        "name": "Vorbereitungen treffen",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Wähle 2 Fertigkeiten ([willpower], [intellect], [combat], oder [agility]). Bis zum Ende der Ermittlungsphase bekommt jeder Ermittler +1 auf jede der gewählten Fertigkeiten und -1 auf jede andere Fertigkeit.",
+        "traits": "Dilemma. Taktik."
+    },
+    {
+        "code": "09107",
+        "name": "Jäger oder Gejagter",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Falls keine Gegner im Spiel sind, ziehe 1 Karte. Ansonsten musst du entscheiden (wähle eins):\n- Jeder Gegner, der nicht in einen Kampf verwickelt ist, bewegt sich 1 Mal auf den nächstgelegenen Ermittler zu.\n- Jeder Ermittler löst sich von jedem Gegner, mit dem er in einem Kampf ist, und bewegt sich 1 Mal vom nächstgelegenen Gegner weg.",
+        "traits": "Dilemma. Taktik."
+    },
+    {
+        "code": "09108",
+        "name": "Licht spenden",
+        "text": "Schnell. Spiele diese Karte, bevor ein Chaosmarker während einer Ermittlung, die du durchführst, enthüllt wird, und nur, falls die aktuelle Schwierigkeit dieser Probe 0 ist.\nDiese Probe gelingt automatisch. Entdecke 1 zusätzlichen Hinweis an diesem Ort und 1 zusätzlichen Hinweis an einem beliebigen Ort.",
+        "traits": "Erkenntnis. Trick."
+    },
+    {
+        "code": "09109",
+        "name": "Am Scheideweg",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Wähle einen Ermittler und entscheide (wähle eins):\n- Der gewählte Ermittler muss sofort eine Aktion nehmen, als ob es sein Zug wäre, und dann 1 zufällige Karte von seiner Hand ablegen.\n- Der gewählte Ermittler verliert in seinem nächsten Zug 1 Aktion und zieht dann 3 Karten.",
+        "traits": "Dilemma. Erkenntnis."
+    },
+    {
+        "code": "09110",
+        "name": "Rettungsleine",
+        "text": "Max. 1 pro Zug.\nSchnell. Spiele diese Karte, sobald ein Zug eines Ermittlers enden würde.\nJener Ermittler darf in seinem Zug X zusätzliche Aktionen nehmen. X ist die Anzahl der Fertigkeitsproben, die ihm in seinem Zug misslungen sind. Schicke Rettungsleine ins Exil.",
+        "traits": "Glücksfall."
+    },
+    {
+        "code": "09111",
+        "name": "In der Natur der Bestie",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Enthülle die obersten 3 Karten des Begegnungsdecks. Wähle einen Ermittler, der 1 der enthüllten Karten zieht, und lege die restlichen ab. Wähle dann einen Ermittler, der 1 Hinweis an einem beliebigen enthüllten Ort entdeckt.",
+        "traits": "Dilemma. Erkenntnis."
+    },
+    {
+        "code": "09112",
+        "flavor": "„Jetzt rede ich … Mister!”",
+        "name": "Schneid",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nDu darfst Schneid zu jeder Art von Fertigkeitsprobe beitragen.\nSolange Schneid zu einer Fertigkeitsprobe beigetragen wird, bekommt jene Probe -2 Schwierigkeit.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "09113",
+        "name": "Baseballschläger",
+        "text": "[action]: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat]. Dieser Angriff fügt +1 Schaden zu. Falls während dieses Angriffs ein [skull]- oder [auto_fail]-Symbol enthüllt wird, entweder (wähle eins) …\n- Schicke Baseballschläger nach diesem Angriff auf deine Hand zurück.\n- Dieser Angriff fügt zusätzlich +1 Schaden zu. Lege Baseballschläger nach diesem Angriff ab.",
+        "traits": "Gegenstand. Waffe. Nahkampf.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "09114",
+        "flavor": "„Das sollte ich mir für später vormerken.”",
+        "name": "Katja Eastbank",
+        "subname": "Bewahrerin von esoterischem Wissen",
+        "text": "[reaction] Sobald du eine Nicht-Schwäche-Karte oben von deinem Deck ziehst, aber bevor die Effekte jener Karte abgehandelt werden, erschöpfe Katja Eastbank: Platziere jene Karte verdeckt unter ihr. (Nur 5 Karten unter ihr.) Ziehe eine neue Karte, um sie zu ersetzen.\n[action]: Ziehe eine beliebige Karte unter Katja Eastbank.",
+        "traits": "Verbündeter. Gelehrter.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "09115",
+        "name": "Seinen Traum verwirklichen",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Enthülle die oberste Karte jedes Ermittlerdecks und lege sie auf einen Stapel. Wiederhole dies noch 2 Mal. Wähle 1 der 3 Stapel. Jeder Ermittler zieht seine Karten aus jenem Stapel. Mische jede Schwäche aus den anderen Stapeln in das Deck ihres Besitzers. Entferne jede andere jener enthüllten Karten aus dem Spiel.",
+        "traits": "Weissagung. Dilemma."
+    },
+    {
+        "code": "09116",
+        "flavor": "Fühlst du dich auch ein wenig ausrangiert?",
+        "name": "Wiederverwerten",
+        "text": "Wähle eine [[Gegenstand]]-Vorteilskarte in deinem Ablagestapel. Entweder (wähle eins):\n- Entferne jene Vorteilskarte aus dem Spiel und erhalte Ressourcen in Höhe ihrer Kosten.\n- Spiele jene Vorteilskarte <i>(zahle ihre Kosten)</i>.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "09117",
+        "name": "Alter Schlüsselbund",
+        "text": "Anwendungen (3 Schlüssel). Falls sich keine Schlüssel auf Alter Schlüsselbund befinden, lege diese Karte ab.\n[action]: <b>Ermitteln.</b> Dein Ort bekommt für diese Ermittlung -2 Schleier. Falls die Probe gelingt, entferne 1 Schlüssel von Alter Schlüsselbund, und falls sie eine Schwierigkeit von 0 hat, entdeckst du 1 zusätzlichen Hinweis.",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09118",
+        "name": "Launenhaftes Schicksal",
+        "text": "Max. 2 [[Dilemmas]] pro Runde.\n<b>Enthüllung</b> - Du musst entscheiden (wähle eine):\n- Platziere 1 Verderben auf der aktuellen Agenda. Jeder Ermittler heilt 3 Schaden und 3 Horror.\n- Entferne 1 Verderben von der aktuellen Agenda. Jeder Ermittler nimmt 1 direkten Schaden und 1 direkten Horror. Entferne Launenhaftes Schicksal aus dem Spiel.",
+        "traits": "Dilemma. Glücksfall."
+    },
+    {
+        "code": "09119",
+        "name": "Hypertechnisches Schießeisen",
+        "subname": "Hochtheoretisches Gerät",
+        "customization_text": "□□ <b>Schnellfeuer.</b> Hypertechnisches Schießeisen hat diese Form: „<i>Manifestation</i> - <b>Kampf.</b> Kämpfe mit einer beliebigen Fertigkeit. Dieser Angriff fügt +1 Schaden zu.”\n□□ <b>Telescanner.</b> Hypertechnisches Schießeisen hat diese Form: „<i>Manifestation</i> - <b>Ermitteln.</b> Ermittle mit einer beliebigen Fertigkeit. Falls die Probe gelingt, entdeckst du einen Hinweis an einem beliebigen enthüllten Ort statt an deinem Ort.”\n□□ <b>Translokator.</b> Hypertechnisches Schießeisen hat diese Form: „<i>Manifestation</i> - <b>Entkommen.</b> Versuche, mit einer beliebigen Fertigkeit zu entkommen. Vor oder nach diesem Versuch darfst du einen Ermittler oder einen Nicht-Elite-Gegner von deinem Ort an einen verbundenen Ort bewegen oder umgekehrt.”\n□□ <b>Realitätsvernichter.</b> Hypertechnisches Schießeisen hat diese Form: „<i>Manifestation</i> - Lege eine beliebige Fertigkeitsprobe (3) ab. Falls die Probe gelingt, lege eine Nicht-Schwäche-Verratskarte aus dem Spiel ab, die nicht an einen [[Elite]]-Gegner angehängt ist.”\n□□ <b>Materieformer.</b> Hypertechnisches Schießeisen hat diese Form: „<i>Manifestation</i> - Wähle eine Vorteilskarte auf deiner Hand und lege eine beliebige Fertigkeitsprobe (X) ab, wobei X die Kosten jener Vorteilskarte sind. Falls die Probe gelingt, spiele jene Vorteilskarte kostenlos.”\n□□□□ <b>Ätherische Verbindung.</b> Hypertechnisches Schießeisen kommt mit 2 zusätzlichem Äther ins Spiel.\n□□□□ <b>Ermächtigte Konfiguration.</b> Solange du eine <i>Manifestation</i>-Fähigkeit verwendest, bekommst du +2 auf deinen Fertigkeitswert.",
+        "customization_change": "Schnellfeuer-Form: <i>Manifestation</i> - <b>Kampf.</b> Kämpfe mit einer beliebigen Fertigkeit. Dieser Angriff fügt +1 Schaden zu.\nTelescanner-Form: <i>Manifestation</i> - <b>Ermitteln.</b> Ermittle mit einer beliebigen Fertigkeit. Falls die Probe gelingt, entdeckst du einen Hinweis an einem beliebigen enthüllten Ort statt an deinem Ort.\nTranslokator-Form: <i>Manifestation</i> - <b>Entkommen.</b> Versuche, mit einer beliebigen Fertigkeit zu entkommen. Vor oder nach diesem Versuch darfst du einen Ermittler oder einen Nicht-Elite-Gegner von deinem Ort an einen verbundenen Ort bewegen oder umgekehrt.\nRealitätsvernichter-Form: <i>Manifestation</i> - Lege eine beliebige Fertigkeitsprobe (3) ab. Falls die Probe gelingt, lege eine Nicht-Schwäche-Verratskarte aus dem Spiel ab, die nicht an einen [[Elite]]-Gegner angehängt ist.\nMaterieformer-Form: <i>Manifestation</i> - Wähle eine Vorteilskarte auf deiner Hand und lege eine beliebige Fertigkeitsprobe (X) ab, wobei X die Kosten jener Vorteilskarte sind. Falls die Probe gelingt, spiele jene Vorteilskarte kostenlos.\nIndividualisierbar. Anwendungen (6 Äther). Falls Hypertechnisches Schießeisen keinen Äther hat, lege es ab.\nSolange du eine <i>Manifestation</i>-Fähigkeit verwendest, bekommst du +2 auf deinen Fertigkeitswert.",
+        "text": "Individualisierbar. Anwendungen (4 Äther). Falls Hypertechnisches Schießeisen keinen Äther hat, lege es ab.\n[action] Gib 1 Äther aus: Handle die <i>Manifestation</i>-Fähigkeit der aktuellen Form von Hypertechnisches Schießeisen ab.\n[fast] Erschöpfe Hypertechnisches Schießeisen: Verändere seine Form <i>(in eine, die du auf dem Verbesserungsbogen freigeschaltet hast).</i>",
+        "traits": "Gegenstand. Relikt. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09120",
+        "name": "Werkzeuggürtel",
+        "text": "Jede hier angehängte Vorteilskarte benötigt keinen Slot und ihr Textfeld wird behandelt, als ob es leer wäre (mit Ausnahme von [[Merkmalen]]).\n[fast] Erschöpfe Werkzeuggürtel: Wähle eins - hänge eine [[Werkzeug]]-Vorteilskarte in deiner Spielzone an Werkzeuggürtel an, tausche eine [[Werkzeug]]-Vorteilskarte in deiner Spielzone mit einer hier angehängten Vorteilskarte oder hänge eine hier angehängte Vorteilskarte ab.",
+        "traits": "Gegenstand. Kleidung.",
+        "slot": "Körper"
+    },
+    {
+        "code": "09121",
+        "name": "Verfeinern",
+        "text": "Als zusätzliche Kosten, um Verfeinern zu spielen, gib 1 Aktion aus.\nKreuze sofort ein Kästchen auf einem Verbesserungsbogen einer individualisierbaren Karte an, die du besitzt, auch wenn sie nicht im Spiel ist.\nMax. 1 Mal pro Spiel für jeden Ermittler.",
+        "traits": "Vorrat. Doppelt."
+    },
+    {
+        "code": "09122",
+        "name": "Taschenlampe",
+        "text": "Anwendungen (4 Vorräte).\n[reaction] Sobald du eine Fertigkeitsprobe durchführst, solange du ermittelst oder zu entkommen versuchst, gib 1 Vorrat aus: Diese Probe bekommt -2 Schwierigkeit.\n<b>Kartenentwurf vom Council-in-Exile bei den Arkham Nights 2020.</b>",
+        "traits": "Gegenstand. Werkzeug.",
+        "slot": "Hand"
+    },
+    {
+        "code": "09123",
+        "name": "Seelenweihe",
+        "text": "Dauerhaft. Außergewöhnlich.\nFür jeden Punkt Schaden und/oder Horror, den du über den aktuellen Schaden/Horror eines Ermittlers hinaus heilst, platziere 1 Ressource als Opfergabe auf Seelenweihe. Dies zählt noch immer als Heilung.\n[fast] Gib 1 Opfergabe aus: Du bekommst für diese Probe +2 auf deinen Fertigkeitswert. (Nur 2 Mal pro Probe.)",
+        "traits": "Ritual."
+    },
+    {
+        "code": "09124",
+        "name": "Lauerer in der Dunkelheit",
+        "text": "Nur [guardian]-Ermittler.\nJäger.\n<b>Erscheinen</b> - Beliebiger verbundener Ort.\nLauerer in der Dunkelheit kann nur mit [[Waffe]]-Vorteilskarten oder [[Taktik]]-Ereigniskarten angegriffen werden und durch sie Schaden nehmen und er nimmt von jeder Quelle 1 Schaden weniger.",
+        "traits": "Monster. Shoggothe."
+    },
+    {
+        "code": "09125",
+        "name": "Quantenparadox",
+        "text": "Nur [seeker]-Ermittler.\nAls zusätzliche Kosten, um Quantenparadox zu spielen, musst du 4 andere Karten von deiner Hand wählen und ablegen.\n<b>Erzwungen</b> - Falls sich Quantenparadox am Ende deines Zuges auf deiner Hand befindet: Enthülle diese Karte und nimm 1 Horror.",
+        "traits": "Paradox."
+    },
+    {
+        "code": "09126",
+        "name": "„Zahlen Sie Ihre Schulden!”",
+        "text": "Nur [rogue]-Ermittler.\nAls zusätzliche Kosten, um „Zahlen Sie Ihre Schulden!” zu spielen, darfst du eine beliebige Anzahl an zusätzlichen Aktionen ausgeben. Senke die Kosten dieser Karte für jede zusätzlich ausgegebene Aktion um 5.\n<b>Erzwungen</b> - Falls sich „Zahlen Sie Ihre Schulden!” am Ende deines Zuges auf deiner Hand befindet: Enthülle diese Karte und nimm 1 Schaden.",
+        "traits": "Pakt."
+    },
+    {
+        "code": "09127",
+        "name": "Ektoplasmatischer Schrecken",
+        "text": "Nur [mystic]-Ermittler.\nJäger.\nSobald du zum ersten Mal einen Chaosmarker enthüllst, während du Ektoplasmatischer Schrecken angreifst oder von ihm zu entkommen versuchst, enthülle 1 zusätzlichen Chaosmarker für jeden deiner leeren arkanen Slots.",
+        "traits": "Monster. Spuk."
+    },
+    {
+        "code": "09128",
+        "name": "Schlecht vorbereitet",
+        "text": "Nur [survivor]-Ermittler.\nSpiele diese Karte nur, falls Schlecht vorbereitet deine einzige Karte auf deiner Hand ist und du genau 1 Ressource in deinem Ressourcenvorrat hast.\nSolange sich Schlecht vorbereitet auf deiner Hand befindet, gilt jede Karte, die du zu Fertigkeitsproben beiträgst, als hätte sie 1 übereinstimmendes Fertigkeitssymbol weniger.",
+        "traits": "Patzer."
+    }
+]
