@@ -1,0 +1,76 @@
+[
+    {
+        "back_flavor": "\"Skids\" O'Drool always wanted to be a good boy. But his nose for trouble kept landing him in the pound, where the \"bad dogs\" go. Usually this was because of his favourite pastime: begging for a car ride, then fervently wrenching the wheel away from the hapless human. How this obsession with cars began, we may never know. All we know is that other drivers should be careful when \"Skids\" is on the loose.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, up to five other level 0 cards that \"move\" you (and by \"move\" we mean physically, not emotionally.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Take the Wheel, Dogcatchers, 1 random basic weakness.",
+        "code": "90046",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["rogue", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 cards that are not Guardian or Neutral"
+            }
+        ],
+        "deck_requirements": "size:30, card:90047, card:90048, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "rogue",
+        "health": 8,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "\"Skids\" O'Drool",
+        "pack_code": "bmm",
+        "position": 7,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 4,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 2,
+        "subname": "The Pound Escapee",
+        "text": "[action] Spend 1 resource: <b>Move</b>. You give a human puppy dog eyes until they give you a car ride. Move up to 3 times, ignoring enemy engagement. (Limit once per round) \n[elder_sign] effect: +2. Deal 1 damage to the next enemy whose location you enter this round.",
+        "traits": "Criminal.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90047",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "What? No. Stop. That's bad. Bad dog.",
+        "illustrator": "Ryan Barger, C. Lemm-Thompson",
+        "name": "Take the Wheel",
+        "pack_code": "bmm",
+        "position": 8,
+        "quantity": 1,
+        "restrictions": "investigator:90046",
+        "skill_agility": 1,
+        "skill_cowbat": 1,
+        "skill_wild": 1,
+        "text": "\"Skids\" O'Drool deck only.\nFast. Play only during your turn.\nFor the remainder of your turn, whenever you enter a location, deal 3 damage to an enemy at that location.",
+        "type_code": "event"
+    },
+    {
+        "code": "90048",
+        "deck_limit": 1,
+        "enemy_damage": 1,
+        "enemy_evade": 3,
+        "enemy_fight": 2,
+        "enemy_horror": 1,
+        "faction_code": "neutral",
+        "health": 3,
+        "illustrator": "Jeff Lee Johnson, C. Beck",
+        "name": "Dogcatchers",
+        "pack_code": "bmm",
+        "position": 9,
+        "quantity": 1,
+        "restrictions": "investigator:90046",
+        "subtype_code": "weakness",
+        "text": "<b>Prey</b> - \"Skids\" O'Drool.\nHunter.\n<b>Forced</b> - After you enter Dogcatchers' location or Dogcatchers enters your location: You cannot move for the remainder of the round.",
+        "traits": "Humanoid.",
+        "type_code": "enemy"
+    }
+]
