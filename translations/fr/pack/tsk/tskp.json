@@ -232,8 +232,8 @@
         "type_code": "enemy"
     },
     {
-        "back_flavor": "A refugee from French-occupied Algeria, Amina arrived in Arkham with nothing more than she could carry. Six years later, Amina's sharp mind and technical skill placed her at the switchboard for the Miskatonic Valley Telephone Company. Soon after, she began to catch snippets of something strange while at work - distorted words in an unrecognizable language, out-of-place noises, calls that connected to nowhere at all and dropped almost immediately. As the phantom calls grew in frequency, Amina sought answers. She found the right extension, connected to the line, and listened in. Despite not understanding a word of the alien language on the other side, she could tell the eldritch words held real power.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, [[Charm]] cards level 0-4.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Word of Woe, Word of Weal, Deafening Silence, 1 random basic weakness.",
+        "back_flavor": "Ayant précipitamment quitté l'Algérie française, Amina est arrivée à Arkham avec rien de plus que ce qu'elle pouvait porter. Six ans plus tard, grâce à un esprit vif et à ses compétences techniques, elle se retrouva à travailler au standard téléphonique de la Compagnie de Téléphone de la Vallée du Miskatonic. Mais bientôt, elle commença à capter des bribes d'information étranges au cours de son travail : des mots déformés dans une langue méconnaissable, des bruits bizarres, des appels qui n'aboutissaient nulle part et qui étaient immédiatement coupés. Commes ces appels fantômes devenaient de plus en plus fréquents, Amina chercha des réponses. Elle réussit à trouver la bonne extension, à se connecter à la ligne et à écouter... Bien qu'elle ne comprenait pas un mot de l'étrange langue qu'elle entendait, elle pouvait sentir que ces mots surnaturels étaient porteurs d'un réel pouvoir.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, cartes [[Charme]] de niveaux 0 à 4.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Mot d'Affliction, Mot de Fortune, Silence Assourdissant, 1 faiblesse de base au hasard.",
         "code": "09011",
         "deck_limit": 1,
         "deck_options": [
@@ -243,7 +243,7 @@
         "deck_requirements": "size:30, card:09012, card:09013, card:09014, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
-        "flavor": "\"What is it trying to tell me?\"",
+        "flavor": "\"Qu'est-ce qu'il essaie de me dire ?\"",
         "health": 5,
         "illustrator": "Aleksander Karcz",
         "is_unique": true,
@@ -256,9 +256,9 @@
         "skill_intellect": 3,
         "skill_combat": 3,
         "skill_willpower": 3,
-        "subname": "The Operator",
-        "text": "[reaction] When you play an asset: Reduce its resouce cost by 3. It enters play with 1 doom on it. (Limit once per round.)\n[elder_sign] effect: +2. You may move all doom from a card at your location to another card at your location.",
-        "traits": "Chosen. Cursed.",
+        "subname": "L'Opératrice",
+        "text": "[reaction] Quand vous jouez un soutien : réduisez de 3 son coût en ressources. Il entre en jeu avec 1 fatalité sur lui. (Limite d'une fois par round.)\n[elder_sign] : +2. Vous avez le droit de déplacer toutes les fatalités d'une carte dans votre lieu vers une autre carte dans votre lieu.",
+        "traits": "Élu. Maudit.",
         "type_code": "investigator"
     },
     {
@@ -267,13 +267,13 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "Aleksander Karcz",
-        "name": "Word of Woe",
+        "name": "Mot d'Affliction",
         "pack_code": "tskp",
         "position": 12,
         "quantity": 1,
         "restrictions": "investigator:09011",
-        "text": "Amina Zidane deck only.\nFast. Play only during your turn.\nPlace 1 doom on an asset you control to resolve an [action] ability on it, ignoring all costs <i>(including its [action] cost)</i>. Then, if Word of Weal is in your discard pile, you may shuffle it into your deck.",
-        "traits": "Pact.",
+        "text": "Deck d'Amina Zidane uniquement.\nRapide. À jouer uniquement lors de votre tour.\nPlacez 1 fatalité sur un soutien que vous contrôlez pour résoudre une des capacités [action], en ignorant tous ses coûts <i>(y compris son coût [action])</i>. Ensuite, vous avez le droit de mélanger Mot de Fortune dans votre deck s'il se trouve dans votre pile de défausse.",
+        "traits": "Pacte.",
         "type_code": "event"
     },
     {
@@ -282,29 +282,29 @@
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "Aleksander Karcz",
-        "name": "Word of Weal",
+        "name": "Mot de Fortune",
         "pack_code": "tskp",
         "position": 13,
         "quantity": 1,
         "restrictions": "investigator:09011",
-        "text": "Amina Zidane deck only.\nFast. Play when you perform a skill test on an asset with 1 or more doom on it.\nAdd your [willpower] to your skill value for this test. Then, if Word of Woe is in your discard pile, you may shuffle it into your deck.",
-        "traits": "Pact.",
+        "text": "Deck d'Amina Zidane uniquement.\nRapide. À jouer quand vous effectuez un test de compétence sur un soutien ayant au moins 1 fatalité sur lui.\nAjoutez votre [willpower] à votre valeur de compétence pour ce test. Ensuite, vous avez le droit de mélanger Mot d'Affliction dans votre deck s'il se trouve dans votre pile de défausse.",
+        "traits": "Pacte.",
         "type_code": "event"
     },
     {
         "code": "09014",
         "deck_limit": 1,
         "faction_code": "neutral",
-        "flavor": "\"UNINTELLIGIBLE SQUIGGLES\"",
+        "flavor": "\"SIGNES INDÉCHIFFRABLES\"",
         "illustrator": "Adam Doyle",
-        "name": "Deafening Silence",
+        "name": "Silence Assourdissant",
         "pack_code": "tskp",
         "position": 14,
         "quantity": 1,
         "restrictions": "investigator:09011",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> - Move 1 doom from an asset you control to the current agenda. This may cause the current agenda to advance. If no doom is moved in this way, shuffle Deafening Silence back into your deck.",
-        "traits": "Omen.",
+        "text": "<b>Révélation</b> - Déplacez vers l'intrigue en cours 1 fatalité qui est sur un soutien que vous contrôlez. Cet effet peut faire avancer l'intrigue en cours. Si aucune fatalité n'est déplacée de cette façon, remélangez Silence Assourdissant dans votre deck.",
+        "traits": "Présage.",
         "type_code": "treachery"
     },
     {
@@ -457,7 +457,7 @@
         "customization_options": [
             {
                 "xp": 1,
-                "real_traits": "Item. Armor. Relic.",
+                "real_traits": "Objet. Armure. Relique.",
                 "real_slot": "Arcane",
                 "text_change": "trait"
             },
@@ -487,22 +487,22 @@
                 "text_change": "append"
             }
         ],
-        "customization_change": "Item. Armor. Relic.\nHunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n\n\nPlaying Hunter's Armor does not provoke attacks of opportunity.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\nAfter 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
-        "customization_text": "□ <b>Enchanted.</b> Hunter's Armor gains the [[Relic]] trait and takes up an arcane slot instead of a body slot.\n□□ <b>Protective Runes.</b> Hunter's Armor may be assigned damage and/or horror dealt to other investigators at your location.\n□□ <b>Durable.</b> Hunter's Armor gains +2 health.\n□□ <b>Hallowed.</b> Hunter's Armor gains +2 sanity.\n□□ <b>Lightweight.</b> Hunter's Armor gets -1 cost and playing it does not provoke attacks of opportunity.\n□□□ <b>Hexdrinker.</b> After 1 or more damage or horror is assigned to Hunter's Armor from a treachery effect, you may exhaust it to draw 1 card.\n□□□ <b>Armor of Thorns.</b> After 1 or more damage or horror is assigned to Hunter's Armor from an enemy attack, you may exhaust it to deal 1 damage to that enemy.",
+        "customization_change": "Objet. Armure. Relique.\nL'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n\n\njouer l'Armure de Chasseur ne provoque pas d'attaques d'opportunités.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
+        "customization_text": "□ <b>Enchantée.</b> L'Armure de Chasseur gagne le trait [[Relique]] et occupe un emplacement d'arcane au lieu d'un emplacement de corps.\n□□ <b>Runes Protectrices.</b> L'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n□□ <b>Résistante.</b> L'Armure du Chasseur gagne +2 vies.\n□□ <b>Sacrée.</b> L'Armure de Chasseur gagne +2 santés mentales.\n□□ <b>Légère.</b> Réduisez de 1 le coût de l'Armure de Chasseur et la jouer ne provoque pas d'attaques d'opportunités.\n□□□ <b>Absorbeuse de Sorts.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\n□□□ <b>Armure d'Épines.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
         "deck_limit": 2,
         "faction_code": "guardian",
-        "flavor": "You cobbled this suit together yourself from the remnants of ancient armor, mixed with more modern \"bulletproof\" plating used in the Great War. It's not much, yet. But with some improvements, maybe it'll be enough.",
+        "flavor": "Vous avez bricolé cette protection à partir des restes d'une ancienne armure, en y ajoutant un blindage \"pare-balles\" plus moderne datant de la Grande Guerre. Ce n'est pas encore au point, mais avec quelques améliorations, ce sera peut-être suffisant.",
         "health": 2,
         "illustrator": "Rob Laskey",
-        "name": "Hunter's Armor",
+        "name": "L'Armure de Chasseur",
         "pack_code": "tskp",
         "position": 21,
         "quantity": 2,
         "sanity": 2,
         "skill_willpower": 1,
-        "slot": "Body",
-        "text": "Customizable.",
-        "traits": "Item. Armor.",
+        "slot": "Corps",
+        "text": "Personnalisable.",
+        "traits": "Objet. Armure.",
         "type_code": "asset",
         "xp": 0
     },
@@ -1887,8 +1887,8 @@
                 "position": 3
             }
         ],
-        "customization_change": "Customizable. Chosen skill: _____\nYou may play Living Ink under the control of any investigator at your location.\nAt the start of your turn, either remove 1 charge from Living Ink or ignore its ability for the remainder of the round. If Living Ink has no charges, discard it.\nUses (5 charges).\nAdditional skill: _____\nAdditional skill: _____\n[reaction] After you reveal a chaos token with a symbol, exhaust Living Ink: Place 1 charge on it.\nYou get +2 to the chosen skill(s) and -1 to each other skill.",
-        "customization_text": "Chosen skill:\n□ <b>Shifting Ink.</b> You may play Living Ink under the control of another investigator at your location.\n□ <b>Subtle Depiction.</b> At the start of your turn, you may choose not to remove 1 charge from Living Ink and ignore its ability for the remainder of the round.\n□□ <b>Imbued Ink.</b> Living Ink enters play with 2 additional charges and takes up an arcane slot instead of a body slot.\n□□ <b>Eldritch Ink.</b> Choose another skill.\n□□□ <b>Eldritch Ink.</b> Choose another skill.\n□□□ <b>Macabre Depiction.</b> Living Ink gains: \"[reaction] After you reveal a chaos token with a symbol, exhaust Living Ink: Place 1 charge on it.\"\n□□□ <b>Vibrancy.</b> Living Ink grants an additional +1 to the chosen skills and -1 to each other skill.",
+        "customization_change": "Personnalisable. Compétence entourée : _____\nVous avez le droit de jouer l'Encre Animée sous le contrôle d'un autre investigateur dans votre lieu.\nAu début de votre tour, retirez 1 charge de l'Encre Animée ou ignorez sa capacité pour le reste du round. S'il n'y a pas de charges sur l'Encre Animée, défaussez-la.\nUtilisations (5 charges).\nCompétence Additionnelle : _____\nCompétence Additionnelle : _____\n[reaction] Après avoir révélé un pion Chaos affichant un symbole, inclinez l'Encre Animée : placez 1 charge sur elle.\nVous gagnez +1 supplémentaire à la(aux) compétence(s) entourée(s) et -1 à celles qui ne sont pas entourées.",
+        "customization_text": "Compétence entourée :\n□ <b>Encre Mouvante.</b> Vous avez le droit de jouer l'Encre Animée sous le contrôle d'un autre investigateur dans votre lieu.\n□ <b>Image Subtile.</b> Au début de votre tour, vous avez le droit de choisir de ne pas retirer 1 charge de l'Encre Animée et d'ignorer sa capacité pour le reste du round.\n□□ <b>Encre Imprégnée.</b> L'Encre Animée entre en jeu avec 2 charges supplémentaires et occupe un emplacement d'arcane au lieu d'un emplacement de corps.\n□□ <b>Encre Surnaturelle.</b> Entourez une autre compétence.\n□□□ <b>Encre Surnaturelle.</b> Entourez une autre compétence.\n□□□ <b>Image Macabre.</b> L'Encre Animée gagne [reaction] Après avoir révélé un pion Chaos affichant un symbole, inclinez l'Encre Animée : placez 1 charge sur elle.\"\n□□□ <b>Vibration.</b> L'Encre Animée octroie +1 supplémentaire à la(aux) compétence(s) entourée(s) et -1 à celles qui ne sont pas entourées.",
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Kelley R. Harris",
@@ -1896,9 +1896,9 @@
         "pack_code": "tskp",
         "position": 79,
         "quantity": 2,
-        "slot": "Body",
-        "text": "Customizable. When you purchase Living Ink, choose a skill and circle it on its upgrade sheet.\nUses (3 charges).\nRemove 1 charge from Living Ink at the start of each of your turns. If Living Ink has no charges, discard it.\nYou get +1 to the chosen skill(s).",
-        "traits": "Ritual.",
+        "slot": "Corps",
+        "text": "Personnalisable. Quand vous achetez l'Encre Animée, choisissez une compétence et entourez-la sur sa feuille Amélioration.\nUtilisations (3 charges).\nRetirez 1 charge de l'Encre Animée au début de chacun de vos tours. S'il n'y a pas de charges sur l'Encre Animée, défaussez-la.\nVous gagnez +1 à la(aux) compétence(s) entourée(s).",
+        "traits": "Rituel.",
         "type_code": "asset",
         "xp": 0
     },
@@ -1943,19 +1943,19 @@
                 "position": 1
             }
         ],
-        "customization_change": "Summoned Servitor can be assigned damage dealt to any investigator at its location.\n- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\n- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\n- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\nAfter Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n\nCustomizable. As an additional cost to play Summoned Servitor, you must discard another asset you control or return that asset to its owner's hand.\nSummoned Servitor enters play at your location. It can take 2 different actions during each of your turns, which can only be used to take the following actions:",
-        "customization_text": "□ <b>Armored Carapace.</b> Summoned Servitor gains a health value of 3. It can be assigned damage dealt to any investigator at its location.\n□ <b>Claws that Catch.</b> Add this action: \"- <b>Fight.</b> You fight any enemy at this location with a base [combat] of 4. Ignore the aloof and retaliate keywords for this attack.\"\n□ <b>Jaws that Snatch.</b> Add this action: \"- <b>Evade.</b> You attempt to evade any enemy at this location with a base [agility] of 4. Ignore the alert keyword for this evasion attempt.\"\n□ <b>Eyes of Flame.</b> Add this action: \"- <b>Investigate.</b> You investigate this location with a base [intellect] of 4.\"\n□ <b>Wings of Night.</b> After Summoned Servitor moves from your location to a connecting location, you may move to that location, as well.\n□□ <b>Dominance.</b> Summoned Servitor no longer takes up an (circle one): arcane / ally slot.\n□□□ <b>Dreaming Call.</b> Instead of discarding another asset you control in order to play Summoned Servitor, you may return that asset to its owner's hand.\n□□□□□ <b>Dæmonic Influence.</b> Summoned Servitor can take 2 different actions instead of 1 during each of your turns.",
+        "customization_change": "Le Serviteur Invoqué peut se voir assigner les dégâts infligés à n'importe quel investigateur dans ce lieu.\n- <b>Combattre.</b> Vous attaquez un ennemi dans ce lieu avec une compétence [combat] de base de 4. Ignorez les mots-clés Distant and Riposte pour cette attaque.\n- <b>Échapper à.</b> Vous tentez d'échapper à un ennemi dans ce lieu avec une compétence [agility] de base de 4. Ignorez le mot-clé Alerte pour cette tentative d'évasion.\n- <b>Enquêter.</b> Vous enquêtez dans ce lieu avec une compétence [intellect] de base de 4.\nAprès que le Serviteur Invoqué s'est déplacé de votre lieu vers un lieu connexe, vous avez le droit de vous déplacer vers ce même lieu.\n\nPersonnalisable. En tant que coût supplémentaire pour jouer le Serviteur Invoqué, vous devez défausser un autre soutien que vous contrôlez or renvoyer cet autre soutien dans la main de son propriétaire.\nLe Serviteur Invoqué entre en jeu dans votre lieu. Le Serviteur Invoqué peut effectuer 2 différentes actions:",
+        "customization_text": "□ <b>Carapace Blindée.</b> Le Serviteur Invoqué gagne une valeur de vie de 3. On peut lui assigner les dégâts infligés à n'importe quel investigateur dans ce lieu.\n□ <b>Griffes Lacérantes.</b> Ajoutez cette action: \"- <b>Combattre.</b> Vous attaquez un ennemi dans ce lieu avec une compétence [combat] de base de 4. Ignorez les mots-clés Distant and Riposte pour cette attaque.\"\n□ <b>Mâchoires Agrippantes.</b> Ajoutez cette action: \"- <b>Échapper à.</b> Vous tentez d'échapper à un ennemi dans ce lieu avec une compétence [agility] de base de 4. Ignorez le mot-clé Alerte pour cette tentative d'évasion.\"\n□ <b>Pupilles de Feu.</b> Ajoutez cette action: \"- <b>Enquêter.</b> Vous enquêtez dans ce lieu avec une compétence [intellect] de base de 4.\"\n□ <b>Ailes de la Nuit.</b> Après que le Serviteur Invoqué s'est déplacé de votre lieu vers un lieu connexe, vous avez le droit de vous déplacer vers ce même lieu.\n□□ <b>Dominance.</b> Le Serviteur Invoqué n'occupe plus l'un des emplacements suivants (entourez le): arcane / allié.\n□□□ <b>l'Appel du Rêve.</b> Au lieu de défausser un autre soutien que vous contrôlez pour pouvoir jouer le Serviteur Invoqué, you avez le droit de le renvoyer dans la main de son propriétaire.\n□□□□□ <b>Influence Démoniaque.</b> Le Serviteur Invoqué peut effectuer 2 différentes actions au lieu de 1 action à chacun de vos tours.",
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Anders Finer",
-        "name": "Summoned Servitor",
+        "name": "Serviteur Invoqué",
         "pack_code": "tskp",
         "position": 80,
         "quantity": 2,
         "skill_willpower": 1,
-        "slot": "Ally. Arcane",
-        "text": "Customizable. As an additional cost to play Summoned Servitor, you must discard another asset you control.\nSummoned Servitor enters play at your location. It can take 1 action during each of your turns, which can only be used to take the following action:\n- Move Summoned Servitor to a connecting revealed location.",
-        "traits": "Summon.",
+        "slot": "Allié. Arcane",
+        "text": "Personnalisable. En tant que coût supplémentaire pour jouer ce soutien, vous devez défausser un autre soutien que vous contrôlez.\nLe Serviteur Invoqué entre en jeu dans votre lieu. Il peut effectuer 1 action à chacun de vos tours à choisir parmi l'(les) action(s) suivante(s) :\n- Déplacez le Serviteur Invoqué vers un lieu connexe révélé.",
+        "traits": "Invocation.",
         "type_code": "asset",
         "xp": 0
     },
@@ -1969,7 +1969,7 @@
             },
             {
                 "xp": 1,
-                "real_text": "- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.",
+                "real_text": "- <i>'Charité.'</i> Un investigateur dans le lieu de cet ennemi se soigne d'un nombre de dégâts ou d'horreurs égal respectivement à la valeur de dégât/horreur de cet ennemi.",
                 "tags": "hd.hh.",
                 "text_change": "append"
             },
@@ -2003,22 +2003,22 @@
                 "position": 1
             }
         ],
-        "customization_change": "- <i>\"Betray.\"</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\n- <i>\"Mercy.\"</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\n- <i>\"Confess.\"</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\n- <i>\"Distract.\"</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\n[fast]: Return Power Word to your hand.\nYou may activate the parley ability on Power Word from up to one location away from the attached enemy.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it up to two different commands (limit once per round per command) -\nYou may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
-        "customization_text": "□ <b>Betray.</b> Add the command: \"- <i>'Betray.'</i> Deal 1 damage to any enemy at this enemy's location with an equal or lower fight value than this enemy.\"\n□ <b>Mercy.</b> Add the command: \"- <i>'Mercy.'</i> An investigator at this enemy's location heals damage or horror equal to this enemy's respective damage/horror value.\"\n□ <b>Confess.</b> Add the command: \"- <i>'Confess.'</i> Discover 1 clue at this enemy's location if its health is equal to or higher than its location's shroud.\"\n□ <b>Distract.</b> Add the command: \"- <i>'Distract.'</i> Automatically evade any enemy at this enemy's location with an equal or lower evade value than this enemy.\"\n□□ <b>Greater Control.</b> Power Word gains \"[fast]: Return Power Word to your hand.\"\n□□□ <b>Bonded.</b> You may activate the parley ability on Power Word from up to one location away from the attached enemy.\n□□□ <b>Tonguetwister.</b> When you parley with Power Word, you may give up to two different commands.\n□□□ <b>Thrice Spoken.</b> You may include three copies of Power Word in your deck. When you give a command using one copy, also give that command to each other enemy with one of your copies of Power Word attached.",
+        "customization_change": "- <i>\"Trahison.\"</i> Infligez 1 dégât à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur de combat est inférieure ou égale à celle de l'ennemi attaché.\n- <i>\"Charité.\"</i> Un investigateur dans le lieu de cet ennemi se soigne d'un nombre de dégâts ou d'horreurs égal respectivement à la valeur de dégât/horreur de cet ennemi.\n- <i>\"Confession.\"</i> Découvrez 1 indice dans le lieu de cet ennemi si sa vie est supérieure ou égale à la valeur occulte du lieu.\n- <i>\"Diversion.\"</i> Échappez automatiquement à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur d'évasion est inférieure ou égale à celle de l'ennemi attaché.\n[fast]: renvoyez dans votre main Mot de Pouvoir.\nVous avez le droit d'activer la capacité Discussion du Mot de Pouvoir depuis votre lieu ou depuis un lieu éloigné de 1 connexion de l'ennemi attaché.\n[action] Si l'ennemi attaché est dans votre lieu: <b>Discussion.</b> Vous avez le droit de donner jusqu'à deux ordres différents (limite une fois par round et par commande) -\nVous avez le droit d'inclure 3 exemplaires de Mot de Pouvoir dans votre deck. Quand vous donnez un ordre en utilisant un de ces exemplaires, donnez également cet ordre à chaque autre ennemi auquel vous avez attaché un exemplaire du Mot de Pouvoir.",
+        "customization_text": "□ <b>Trahison.</b> Ajouter l'ordre: \"- <i>'Révolte-toi.'</i> Infligez 1 dégât à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur de combat est inférieure ou égale à celle de l'ennemi attaché.\"\n□ <b>Charité.</b> Ajouter l'ordre: \"- <i>'Aide-le.'</i> Un investigateur dans le lieu de cet ennemi se soigne d'un nombre de dégâts ou d'horreurs égal respectivement à la valeur de dégât/horreur de cet ennemi.\"\n□ <b>Confession.</b> Ajouter l'ordre: \"- <i>'Confesse-toi.'</i> Découvrez 1 indice dans le lieu de cet ennemi si sa vie est supérieure ou égale à la valeur occulte du lieu.\"\n□ <b>Diversion.</b> Ajouter l'ordre: \"- <i>'Fais diversion.'</i> Échappez automatiquement à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur d'évasion est inférieure ou égale à celle de l'ennemi attaché.\"\n□□ <b>Contrôle Accru.</b> Mot de Pouvoir gagne \"[fast]: renvoyez dans votre main Mot de Pouvoir.\"\n□□□ <b>Lié.</b> Vous avez le droit d'activer la capacité Discussion du Mot de Pouvoir depuis votre lieu ou depuis un lieu éloigné de 1 connexion de l'ennemi attaché.\n□□□ <b>Virelangue.</b> Quand vous discutez via le Mot de Pouvoir, vous avez le droit de donner jusqu'à deux ordres différents.\n□□□ <b>Trois Paroles.</b> Vous avez le droit d'inclure 3 exemplaires de Mot de Pouvoir dans votre deck. Quand vous donnez un ordre en utilisant un de ces exemplaires, donnez également cet ordre à chaque autre ennemi auquel vous avez attaché un exemplaire du Mot de Pouvoir.",
         "deck_limit": 2,
         "faction_code": "mystic",
         "illustrator": "Anders Finer",
-        "name": "Power Word",
+        "name": "Mot de Pouvoir",
         "pack_code": "tskp",
         "position": 81,
         "quantity": 3,
         "skill_intellect": 1,
-        "text": "Customizable. Fast. Play only during your turn.\nAttach to a non-[[Elite]] enemy at your location.\n[action] If attached enemy is at your location: <b>Parley.</b> Give it a command (limit once per round per command) -\n- <i>\"Go.\"</i> This enemy moves once in a direction of your choice.\n- <i>\"Cower.\"</i> This enemy exhausts.",
-        "traits": "Spell.",
+        "text": "Personnalisable. Rapide. À jouer uniquement lors de votre tour.\nAttachez cette carte à un ennemi non-[[Élite]] dans votre lieu.\n[action] Si l'ennemi attaché est dans votre lieu: <b>Discussion.</b> Donnez-lui un ordre (limite d'une fois par round et par ordre) -\n- <i>\"Va-t'en.\"</i> Cet ennemi se déplace une fois dans la direction de votre choix.\n- <i>\"Affaisse-toi.\"</i> Inclinez cet ennemi.",
+        "traits": "Sort.",
         "type_code": "event",
         "xp": 0
     },
-    {
+      {
         "code": "09082",
         "cost": 3,
         "deck_limit": 2,
