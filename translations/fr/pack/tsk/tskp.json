@@ -1,0 +1,922 @@
+[
+    {
+        "back_flavor": "Carson Sinclair a été au service de trois générations de Webb à Arkham. Irréprochable professionnellement, Carson a vu avec désapprobation son dernier employeur, Hercule Webb, commencer à rapporter dans la demeure familiale d'étranges artefacts et autres livres impies, aidé en cela par son directeur commercial M. Dupuis. Lorsque M. Webb fut englouti par une faille dimensionnelle, personne ne crut le récit de Carson au sujet de cet effroyable événement. Carson s'est alors juré de prouver la culpabilité de Dupuis, et de rétablir les enfant Webb dans leurs droits, en tant qu'héritiers légitimes de la fortune familiale.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Deuxième Classe</b> : lors de la création du deck, choisissez Chercheur ([seeker]), Mystique ([mystic]), ou Survivant ([survivor]).\n<b>Construction du Deck</b> : cartes Gardien ([guardian]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 10 événements et/ou compétences de niveau 0 à 1 de votre deuxième classe.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite du deck) : 2 exemplaires de « Selon vos Souhaits », Désintéressé à l'Excès, 1 faiblesse de base au hasard.",
+        "code": "09001",
+        "name": "Carson Sinclair",
+        "subname": "Le Majordome",
+        "text": "Vous avez le droit d'effectuer une action supplémentaire durant votre tour, qui ne peut être utilisée que pour activer la capacité [action] ci-dessous.\n[action] : choisissez un autre investigateur dans votre lieu. Il effectue immédiatement une action comme si c'était son tour. (Limite d'une fois par round pour chaque investigateur.)\n[elder_sign] : +0. Piochez 1 carte. Vous avez le droit de résoudre cet effet chaque fois qu'un autre investigateur dans votre lieu résout son effet [elder_sign].",
+        "traits": "Assistant."
+    },
+    {
+        "code": "09002",
+        "name": "« Selon vos souhaits »",
+        "text": "Deck de Carson Sinclair uniquement.\nÀ attribuer uniquement lors d'un test de compétence effectué par un autre investigateur.\nEn cas de réussite, l'investigateur qui effectuait le test pioche 1 carte. En cas d'échec, vous piochez 1 carte.",
+        "traits": "Entrainé. Expert."
+    },
+    {
+        "code": "09003",
+        "name": "Désintéressé à l'Excès",
+        "text": "<b>Révélation</b> - Mettez Désintéressé à l'Excès en jeu dans votre zone de menace.\n<b>Forcé</b> - À la fin de votre tour, si vous n'avez pas attribué au moins 1 carte à un test de compétence effectué par un autre investigateur à ce tour : subissez 1 horreur et mélangez Désintéressé à l'Excès dans votre deck.",
+        "traits": "Défaut."
+    },
+    {
+        "back_flavor": "Après l'arrivée du troisième ou quatrième corps mutilé lors de sa garde à l'hôpital St. Mary's d'Arkham, Vincent Lee commença à soupçonner qu'il ne s'agissait pas de simples attaques d'animaux sauvages. Lorsqu'un jeune homme décéda dans son sommeil en hurlant à cause de son cœur qui avait éclaté, Vincent sut pertinemment que des heures sombres l'attendaient. Ayant pris un congé sabbatique, il s'est mis en tête de soulager les souffrances de ceux qui sont affligés par le chaos qui se répand, en espérant que suivre la piste de ces morts étranges le mènera aux réponses qu'il cherche.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Chercheur ([seeker]) de niveaux 0 à 3, cartes neutres de niveaux 0 à 5, cartes qui « soignent les dégâts » de niveaux 0 à 5, jusqu'à 15 autres cartes Gardien et/ou Survivant de niveaux 0 à 1 ([guardian] et/ou [survivor]).\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Scie à Os, 1 [per_investigator] exemplaire d'En Convalescence, Badaud blessé, 1 faiblesse de base au hasard.\n<b>Mise en Place Complémentaire</b> : au début de chaque partie, mettez 1 [per_investigator] exemplaire d'En Convalescence, hors jeu.",
+        "code": "09004",
+        "flavor": "« Je trouverai les réponses, même s'il en va de ma vie. »",
+        "name": "Vincent Lee",
+        "subname": "Le Docteur",
+        "text": "[reaction] Après que l'un de vos effets de carte a soigné au moins 1 dégât d'un investigateur ou d'un soutien [[Allié]] d'un investigateur : ajoutez à la main de cet investigateur une de vos compétences En Convalescence mises de côté.\n[elder_sign] : +1. Vous avez le droit de soigner 1 dégât d'un investigateur ou d'un soutien [[Allié]] dans votre lieu.",
+        "traits": "Médecin."
+    },
+    {
+        "code": "09005",
+        "name": "Scie à Os",
+        "slot": "Main",
+        "text": "Deck de Vincent Lee uniquement.\n[action] : <b>Combattre.</b> Vous gagnez +2 [combat] pour cette attaque. En cas de réussite, vous avez le droit de subir 1 dégât pour que cette attaque inflige +1 dégât.\n[action] : soignez 5 dégâts d'un investigateur dans votre lieu. Effectuez un test de [intellect] (4). En cas d'échec, cet investigateur subit 1 traumatisme physique. (Max. une fois par partie.)",
+        "traits": "Objet. Outil. Corps-à-corps."
+    },
+    {
+        "code": "09006",
+        "name": "En Convalescence",
+        "text": "Limite 1 En Convalescence dans votre main.\nÀ attribuer uniquement lors d'un test de compétence que vous effectuez.\n<b>Forcé</b> - Quand En Convalescence devrait être défaussée de n'importe où : mettez-la de côté/hors jeu, au lieu de la défausser.",
+        "traits": "Inné."
+    },
+    {
+        "code": "09007",
+        "name": "Badaud Blessé",
+        "subname": "Au seuil de la Mort",
+        "text": "<b>Révélation</b> - mettez le Badaud Blessé en jeu dans votre zone de jeu avec 3 dégâts sur lui. Il ne peut pas quitter le jeu tant qu'il a des dégâts sur lui (sauf s'il est vaincu). S'il n'a aucun dégât, défaussez-le.\n<b>Forcé</b> - Quand vous subissez des dégâts non-directs : au moins 1 de ces dégâts doit être assigné au Badaud Blessé, si possible.\n<b>Forcé</b> - Si le Badaud Blessé est vaincu : vous subissez 1 traumatisme mental.",
+        "traits": "Allié. Passant."
+    },
+    {
+        "back_flavor": "Lorsque des objets taïnos disparurent du Musée Miskatonic, Kymani fut engagé pour évaluer la sécurité du musée. Bien sûr, Kymani savait depuis le début qui était le voleur - il s'agissait de son propre larcin. Mais il ne voulait pas vendre ces artefacts. En ce qui concerne Kymani, ce n'était pas lui qui les avait volés. Non ; il avait simplement restitué des reliques historiques à leur lieu d'origine, là où elles auraient toujours dû demeurer. Le musée et la compagnie d'assurance ne voient qu'une crapule à attraper, mais Kymani est plus rapide, plus intelligent, bref... inégalable !",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Truand ([rogue]) de niveaux 0 à 5, cartes [[Outil]] de niveaux 0 à 4, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Grappin, Agent Fletcher, 1 faiblesse de base au hasard.\n<b>Expérience Bonus</b> : vous débutez la campagne avec 5 points d'expérience supplémentaires (ne les comptez pas pour déterminer le nombre de faiblesses à inclure si vous jouez en mode indépendant).",
+        "code": "09008",
+        "flavor": "« Ceci ne vous appartient pas. »",
+        "name": "Kymani Jones",
+        "subname": "Le Consultant en Sécurité",
+        "text": "[fast] : engagez un ennemi incliné dans votre lieu.\n[reaction] Quand vous tentez d'échapper à un ennemi non-[[Élite]] incliné : ajoutez votre [intellect] à votre valeur de compétence pour cette tentative. En cas de réussite avec une différence de X ou plus, défaussez cet ennemi. X est la vie restante de cet ennemi.\n[elder_sign] : +1. S'il y a un ennemi incliné dans votre lieu, vous réussissez automatiquement à la place.",
+        "traits": "Criminel."
+    },
+    {
+        "code": "09009",
+        "name": "Grappin",
+        "slot": "Main",
+        "text": "Deck de Kymani Jones uniquement.\nLes actions effectuées en utilisant le Grappin ne provoquent pas d'attaques d'opportunité.\n[action] [action] Inclinez le Grappin : effectuez jusqu'à 3 actions basiques différentes parmi les suivantes, dans l'ordre de votre choix (Échapper à, Engager, Enquêter, Se Déplacer). Si vous enquêtez, utilisez votre [agility] à la place de votre [intellect].",
+        "traits": "Objet. Outil."
+    },
+    {
+        "code": "09010",
+        "flavor": "« Jones, je sais qui vous êtes en réalité. »",
+        "name": "Agent Fletcher",
+        "text": "Alerte. Chasseur.\n<b>Proie</b> - Kymani Jones uniquement.\nTant que Kymani Jones est en train d'échapper à l'Agent Fletcher, réduisez à 0 sa valeur de [intellect].",
+        "traits": "Humanoïde. Coterie. Détective."
+    },
+    {
+        "back_flavor": "Ayant précipitamment quitté l'Algérie française, Amina est arrivée à Arkham avec rien de plus que ce qu'elle pouvait porter. Six ans plus tard, grâce à un esprit vif et à ses compétences techniques, elle se retrouva à travailler au standard téléphonique de la Compagnie de Téléphone de la Vallée du Miskatonic. Mais bientôt, elle commença à capter des bribes d'information étranges au cours de son travail : des mots déformés dans une langue méconnaissable, des bruits bizarres, des appels qui n'aboutissaient nulle part et qui étaient immédiatement coupés. Gommes ces appels fantômes devenaient de plus en plus fréquents, Amina chercha des réponses. Elle réussit à trouver la bonne extension, à se connecter à la ligne et à écouter... Bien qu'elle ne comprenait pas un mot de l'étrange langue qu'elle entendait, elle pouvait sentir que ces mots surnaturels étaient porteurs d'un réel pouvoir.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, cartes [[Charme]] de niveaux 0 à 4.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Mot d'Affliction, Mot de Fortune, Silence Assourdissant, 1 faiblesse de base au hasard.",
+        "code": "09011",
+        "flavor": "« Qu'est-ce qu'il essaie de me dire ? »",
+        "name": "Amina Zidane",
+        "subname": "L'Opératrice",
+        "text": "[reaction] Quand vous jouez un soutien : réduisez de 3 son coût en ressources. Il entre en jeu avec 1 fatalité sur lui. (Limite d'une fois par round.)\n[elder_sign] : +2. Vous avez le droit de déplacer toutes les fatalités d'une carte dans votre lieu vers une autre carte dans votre lieu.",
+        "traits": "Élu. Maudit."
+    },
+    {
+        "code": "09012",
+        "name": "Mot d'Affliction",
+        "text": "Deck d'Amina Zidane uniquement.\nRapide. À jouer uniquement lors de votre tour.\nPlacez 1 fatalité sur un soutien que vous contrôlez pour résoudre une des capacités [action], en ignorant tous ses coûts <i>(y compris son coût [action])</i>. Ensuite, vous avez le droit de mélanger Mot de Fortune dans votre deck s'il se trouve dans votre pile de défausse.",
+        "traits": "Pacte."
+    },
+    {
+        "code": "09013",
+        "name": "Mot de Fortune",
+        "text": "Deck d'Amina Zidane uniquement.\nRapide. À jouer quand vous effectuez un test de compétence sur un soutien ayant au moins 1 fatalité sur lui.\nAjoutez votre [willpower] à votre valeur de compétence pour ce test. Ensuite, vous avez le droit de mélanger Mot d'Affliction dans votre deck s'il se trouve dans votre pile de défausse.",
+        "traits": "Pacte."
+    },
+    {
+        "code": "09014",
+        "flavor": "\"SIGNES INDÉCHIFFRABLES\"",
+        "name": "Silence Assourdissant",
+        "text": "<b>Révélation</b> - Déplacez vers l'intrigue en cours 1 fatalité qui est sur un soutien que vous contrôlez. Cet effet peut faire avancer l'intrigue en cours. Si aucune fatalité n'est déplacée de cette façon, remélangez Silence Assourdissant dans votre deck.",
+        "traits": "Présage."
+    },
+    {
+        "back_flavor": "Même en ayant grandi à Arkham, Darrell a toujours su qu'il y avait quelque chose d'anormal dans cette étrange petite ville. Après avoir obtenu son diplôme, il travailla comme photographe pour l'<i>Annonceur d'Arkham</i> ce qui l'amena à parcourir chaque recoin de la ville. Mais lors d'une nuit fatidique, il vit une chose impossible à décrire, une horreur qui bouleversa entièrement sa vision du monde. Le rédacteur en chef du journal prétendit que son imagination lui jouait des tours, mais Darrell sait ce qu'il a vu. Avec son fidèle appareil Kodak, il n'aura de cesse de capturer des preuves photographiques des horreurs qui se cachent dans les ombres de sa ville natale et au-delà. Une seule bonne photo est tout ce dont il a besoin.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Survivant ([survivor]) de niveaux 0 à 5, cartes Chercheur ([seeker]) de niveaux 0 à 2, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Kodak de Darrell, Pellicule Fichue, 1 faiblesse de base au hasard.",
+        "code": "09015",
+        "flavor": "« La vérité est plus sombre que ce que nous pensons. »",
+        "name": "Darrell Simmons",
+        "subname": "Le Photographe",
+        "text": "Vous commencez la partie avec le Kodak de Darrell en jeu.\n[fast] Lors d'un test de compétence dans votre lieu, dépensez 1 preuve d'un soutien que vous contrôlez : diminuez de 2 la difficulté de ce test. (Limite d'une fois par test.)\n[elder_sign] : +1. Placez 1 preuve sur un soutien que vous contrôlez.",
+        "traits": "Reporter."
+    },
+    {
+        "code": "09016",
+        "name": "Kodak de Darrell",
+        "subname": "La Preuve par l'Image",
+        "text": "Deck de Darrell Simmons uniquement.\n[reaction] Après qu'une carte Ennemi ou Traîtrise est entrée en jeu, inclinez le Kodak de Darrell : placez 1 ressource <i>(prise dans la réserve de pions)</i> sur cet ennemi ou traîtrise en tant que preuve.\n[reaction] Après que vous avez découvert n'importe quel nombre d'indices : déplacez vers le Kodak de Darrell le même nombre de preuves qui sont sur des ennemis ou traîtrises dans ce lieu (ou dans aucun lieu).",
+        "traits": "Objet. Outil."
+    },
+    {
+        "code": "09017",
+        "flavor": "Preuve irréfutable, réduite à néant par la lumière du jour.",
+        "name": "Pellicule Fichue",
+        "text": "<b>Révélation</b> - Retirez un total de 4 preuves parmi des cartes que vous contrôlez. Pour chaque preuve que vous ne pouvez pas retirer par cet effet, subissez 1 horreur.",
+        "traits": "Bévue."
+    },
+    {
+        "back_flavor": "Charlie Kane a promis aux habitants d'Arkham un avenir plus sûr. Il a fait beaucoup de promesses - baisse des impôts, de meilleures écoles, moins de délinquance. Cela faisait partie du boulot, après tout. Et bien qu'il ait parfois dû faire des choses dont il n'était pas fier, Charlie a toujours œuvré pour le bien commun. Aussi, quand les rapports ont commencé à s'accumuler sur son bureau, il a d'abord pensé à ses concitoyens. Bien sûr, il ne pouvait en parler à personne. Une panique généralisée ne servirait en rien l'intérêt général. D'ailleurs, qui le croirait ? Charlie a cependant toujours eu de nombreux contacts en ville. Alors il a passé quelques coups de fil, a constitué un groupe de travail et a retroussé ses manches.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Choix de Classe</b> : lors de la création du deck, choisissez 2 classes ([guardian], [seeker], [rogue], [mystic], [survivor]).\n<b>Construction du Deck</b> : cartes [[Allié]] de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, cartes des classes choisies de niveaux 0 à 2.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Bonnie Walsh, Le Poids des Responsabilités, 1 faiblesse de base au hasard.",
+        "code": "09018",
+        "flavor": "« On peut s'arranger. Ce n'est qu'une question de compromis. »",
+        "name": "Charlie Kane",
+        "subname": "Le Politicien",
+        "text": "Vous avez 3 emplacements d'allié supplémentaires.\n[fast] Lors d'un test de compétence que vous effectuez, inclinez un soutien [[Allié]] que vous contrôlez : pour ce test, vous gagnez +1 à votre valeur de compétence et +1 supplémentaire pour chaque icône de compétence possédée par ce soutien [[Allié]] qui correspond au type du test.\n[elder_sign] : +3. Redressez un soutien [[Allié]] situé dans votre lieu.",
+        "traits": "Municipal. Mondain."
+    },
+    {
+        "code": "09019",
+        "flavor": "« N'oubliez pas que vous avez un rendez-vous ce soir à 9 heures avec M. Sanford. Faut-il réserver votre table habituelle à La Bella Luna ? Par ailleurs, je vous remercie pour la montre-bracelet que vous m'avez offerte pour mon anniversaire. »",
+        "name": "Bonnie Walsh",
+        "slot": "Allié",
+        "text": "Deck de Charlie Kane uniquement.\n[reaction] Après que vous avez incliné Bonnie Walsh : redressez un autre soutien [[Allié]] que vous contrôlez. (Limite d'une fois par round.)",
+        "traits": "Allié. Municipal. Assistant."
+    },
+    {
+        "code": "09020",
+        "flavor": "« Je me dis que c'était pour le bien commun. Ai-je bien fait, Bonnie ? »",
+        "name": "Le Poids des Responsabilités",
+        "text": "<b>Révélation</b> - Si vous ne contrôlez aucun soutien [[Allié]], remélangez Le Poids des Responsabilités dans votre deck. Sinon, pour chaque soutien [[Allié]] que vous contrôlez, soit vous inclinez ce soutien, soit vous lui infligez 1 dégât direct et 1 horreur directe.",
+        "traits": "Défaut."
+    },
+    {
+        "code": "09021",
+        "customization_change": "Objet. Armure. Relique.\nL'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n\n\njouer l'Armure de Chasseur ne provoque pas d'attaques d'opportunités.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\nAprès que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
+        "customization_text": "□ <b>Enchantée.</b> L'Armure de Chasseur gagne le trait [[Relique]] et occupe un emplacement d'arcane au lieu d'un emplacement de corps.\n□□ <b>Runes Protectrices.</b> L'Armure de Chasseur peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n□□ <b>Résistante.</b> L'Armure du Chasseur gagne +2 vies.\n□□ <b>Sacrée.</b> L'Armure de Chasseur gagne +2 santés mentales.\n□□ <b>Légère.</b> Réduisez de 1 le coût de l'Armure de Chasseur et la jouer ne provoque pas d'attaques d'opportunités.\n□□□ <b>Absorbeuse de Sorts.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par un effet d'une traîtrise, vous avez le droit de l'incliner pour piocher une carte.\n□□□ <b>Armure d'Épines.</b> Après que 1 ou plusieurs dégâts/horreurs ont été assignés à l'Armure de Chasseur par une attaque ennemie, vous avez le droit de l'incliner pour infliger 1 dégât à cet ennemi.",
+        "flavor": "Vous avez bricolé cette protection à partir des restes d'une ancienne armure, en y ajoutant un blindage \"pare-balles\" plus moderne datant de la Grande Guerre. Ce n'est pas encore au point, mais avec quelques améliorations, ce sera peut-être suffisant.",
+        "name": "L'Armure de Chasseur",
+        "slot": "Corps",
+        "text": "Personnalisable.",
+        "traits": "Objet. Armure."
+    },
+    {
+        "code": "09022",
+        "customization_change": "Objet. Arme. Corps-à-corps. Relique.\n- <i>Gloire</i> - Si un ennemi est vaincu par cette attaque, choisissez une option : piochez une carte, soignez 1 dégât, ou soignez 1 horreur.\n- <i>Anciens</i> - En cas de réussite de cette attaque avec une différence supérieure ou égale à la valeur occulte de votre lieu, découvrez 1 indice dans votre lieu.\n- <i>Chasse</i> - Déplacez-vous immédiatement vers un lieu connexe ou engagez un ennemi dans votre lieu.\n- <i>Fureur</i> - En cas de réussite de cette attaque, en plus de ces dégâts standards, infligez 1 dégât à chaque autre ennemi engagé avec vous.\nVous avez le droit d'activer la même inscription jusqu'à trois fois.\nPersonnalisable. Utilisations (4 charges). Reconstituez 2 de ces charges au début de chaque round.\n[action] : <b>Combattre.</b> Vous gagnez +1 [combat] pour cette attaque. Avant cette attaque, pour chaque charge dépensée, vous avez le droit d'activer jusqu'à deux inscriptions différentes -",
+        "customization_text": "□ <b>Héritage.</b> Réduisez de 1 le coût de la Hache Runique et elle gagne le trait [[Relique]] .\n□ <b>Inscription de Gloire.</b> Ajoutez cette inscription : \"- <i>Gloire</i> - Si un ennemi est vaincu par cette attaque, choisissez une option : piochez une carte, soignez 1 dégât, ou soignez 1 horreur.\".\n□ <b>Inscription des Anciens.</b> Ajoutez cette inscription : \"- <i>Anciens</i> - En cas de réussite de cette attaque avec une différence supérieure ou égale à la valeur occulte de votre lieu, découvrez 1 indice dans votre lieu.\"\n□ <b>Inscription de Chasse.</b> Ajoutez cette inscription : \"- <i>Chasse</i> - Déplacez-vous immédiatement vers un lieu connexe ou engagez un ennemi dans votre lieu.\"\n□ <b>Inscription de Fureur.</b> Ajoutez cette inscription : \"- <i>Fureur</i> - En cas de réussite de cette attaque, en plus de ces dégâts standards, infligez 1 dégât à chaque autre ennemi engagé avec vous.\"\n□□□ <b>Pouvoir Ancestral.</b> Vous avez le droit d'activer la même inscription jusqu'à trois fois.\n□□□ <b>Saga.</b> Reconstituez 2 charges de la Hache Runique au début de chaque round, au lieu d'une seule charge.\n□□□□ <b>Tisseur de Runes.</b> Pour chaque charge dépensée, vous avez le droit d'activer jusqu'à deux inscriptions différentes.",
+        "name": "Hache Runique",
+        "slot": "Main x2",
+        "text": "Personnalisable. Utilisations (4 charges). Reconstituez 1 de ces charges au début de chaque round.\n[action] : <b>Combattre.</b> Vous gagnez +1 [combat] pour cette attaque. Avant cette attaque, vous avez le droit de dépenser n'importe quel nombre de charges pour activer autant d'inscriptions différentes parmi -\n- <i>Précision</i> - Vous gagnez +2 [combat] supplémentaires pour cette attaque.\n- <i>Puissance</i> - Cette attaque inflige +1 dégât.",
+        "traits": "Objet. Arme. Corps-à-corps."
+    },
+    {
+        "code": "09023",
+        "customization_change": "Si vous échouez lors d'une attaque avec le soutien attaché contre un ennemi engagé avec un autre investigateur, vous n'infligez aucun dégât.\nVous gagnez +2 [combat] tant que vous attaquez avec le soutien attaché.\nAprès que avoir attaché au soutien attaché une carte [[Amélioration]] autre que Modifications sur Mesure, piochez 1 carte.\nRapide. À jouer uniquement lors de votre tour.\nAprès que des munitions ont été dépensées du/placées sur le soutien attaché par un autre événement, placez 1 munition sur le soutien attaché.\nEn cas de réussite avec une différence de 3 ou plus lorsque vous attaquez avec le soutien attaché, cette attaque inflige +1 dégât.",
+        "customization_text": "□ <b>Viseur Cranté.</b> Si vous échouez lors d'une attaque avec le soutien attaché contre un ennemi engagé avec un autre investigateur, vous n'infligez aucun dégât.\n□□ <b>Crosse Allongée.</b> Vous gagnez +2 [combat] tant que vous attaquez avec le soutien attaché.\n□□ <b>Contrepoids.</b> Après avoir attaché au soutien attaché une carte [[Amélioration]] autre que Modifications sur Mesure, piochez 1 carte.\n□□□ <b>Poignée en Cuir.</b> Réduisez de 1 le coût de Modifications sur Mesure et elle gagne : \"Rapide. À jouer uniquement lors de votre tour.\"\n□□□ <b>Chargeur Agrandi.</b> Après que des munitions ont été dépensées du/placées sur le soutien attaché par un autre événement, placez 1 munition sur le soutien attaché.\n□□□□ <b>Balles en Mercure.</b> En cas de réussite avec une différence de 3 ou plus lorsque vous attaquez avec le soutien attaché, cette attaque inflige +1 dégât.",
+        "flavor": "C'est comme un vieil ami que vous tenez par la main.",
+        "name": "Modifications sur Mesure",
+        "text": "Personnalisable.\nAttachez cette carte à un soutien [[Arme à feu]] que vous contrôlez. Limite de 1 par soutien.\n[reaction] Quand vous révélez un pion Chaos non-[auto_fail] alors que vous attaquez avec le soutien attaché, inclinez Modifications sur Mesure : annulez ce pion Chaos, remettez-le dans la réserve du Chaos, et révélez-en un nouveau.",
+        "traits": "Amélioration. Ravitaillement."
+    },
+    {
+        "code": "09024",
+        "flavor": "Vous n'allez pas vous demander pourquoi ça marche.\nTout ce que vous savez, c'est que vous ne l'enlèverez plus jamais .",
+        "name": "Bracelet d'Obsidienne",
+        "slot": "Main",
+        "text": "Seuls les dégâts et/ou horreurs infligés par des effets de traîtrise peuvent être assignés au Bracelet d'Obsidienne.\nLe Bracelet d'Obsidienne peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09025",
+        "name": "Bolas",
+        "text": "<b>Échapper à.</b> Cette tentative d'évasion utilise [combat] au lieu [agility]. En cas de réussite et si l'ennemi est non-[[Élite]], attachez-lui le Bolas.\nL'ennemi attaché perds -1 d'évasion.\n<b>Forcé.</b> - Après que l'ennemi attaché s'est déplacé : inclinez-le.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "09026",
+        "flavor": "« Mains en l'air ! »",
+        "name": "Enfoncer la Porte",
+        "text": "Effectuez un test de [combat](1). En cas de réussite, attachez Enfoncer la Porte à votre lieu avec 1 ressource dessus pour chaque point de réussite, en tant que pistes.\nDiminuez de 1 la valeur occulte du lieu attaché pour chaque piste sur Enfoncer la Porte.",
+        "traits": "Perspicacité. Tactique. Police"
+    },
+    {
+        "code": "09027",
+        "flavor": "Ça va faire mal.",
+        "name": "Blessure Grave",
+        "text": "Rapide. A jouer après que vous avez attaqué avec succès un ennemi non-[[Élite]] en ayant utilisé un soutien [[Corps-à-corps]] .\nAttachez Blessure Grave à l'ennemi attaqué.\n<b>Forcé</b> - A la fin du round : infligez 1 dégât à l'ennemi attaché.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "09028",
+        "flavor": "« Tu crois qu'ils y ont cru ? »\n« Ils ne se doutent sûrement pas que le monde court à sa perte, Mr. Kane. »",
+        "name": "Discours Motivant",
+        "text": "<b>Discussion.</b> Choisissez un investigateur dans votre lieu. Cet investigateur a le droit de jouer un soutien [[Allié]] de sa main, en réduisant de 3 son coût.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "09029",
+        "name": "Plus qu'une dans la Chambre",
+        "text": "Rapide. A jouer à la fin d'une attaque ou d'un effet qui a dépensé la dernière munition d'un soutien [[Arme à feu]] que vous contrôlez\nAjoutez 1 munition à ce soutien. Vous gagnez +3 à votre valeur de compétence pour votre prochaine attaque avec ce soutien à ce round.",
+        "traits": "Chance. Tactique."
+    },
+    {
+        "code": "09030",
+        "flavor": "« Vise et appuie sur cette fichue gâchette. C'est pas compliqué, bon sang! »",
+        "name": "Leçons de Combat",
+        "text": "À attribuer uniquement lors d'un test de compétence durant une attaque ou tentative d'évasion.\nVous pouvez attribuer cette carte au test d'un investigateur dans n'importe quel lieu.",
+        "traits": "Entraîné."
+    },
+    {
+        "code": "09031",
+        "name": "Main Tendue",
+        "text": "1 max. attribuée par test de compétence.\nVous avez le droit d'attribuer Main Tendue à n'importe quel type de test.\nTant que Main Tendue est attribuée à un test de compétence, doublez les icônes de compétence de chaque autre carte attribuée à ce test.",
+        "traits": "Inné."
+    },
+    {
+        "code": "09032",
+        "name": "Aller de l'Avant",
+        "slot": "Arcane",
+        "text": "Utilisations (4 charges).\n[fast] Lors d'un test de compétence effectué par un investigateur dans votre lieu ou dans un lieu connexe, dépensez 1 charge : attribuez une carte non-faiblesse de votre main à ce test de compétence, en traitant chacune de ses icônes de compétence comme étant [wild].",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09033",
+        "flavor": "Jour 15. Les entités semblent se nourrir. De quoi, je n'en ai aucune idée. Je n'ose pas m'approcher davantage.",
+        "name": "Agent de Terrain",
+        "slot": "Allié",
+        "text": "Vous gagnez +1 [intellect].\n[fast] Inclinez l'Agent de Terrain et infligez-lui 1 horreur : découvrez 1 indice dans votre lieu.",
+        "traits": "Allié. Agence."
+    },
+    {
+        "code": "09034",
+        "name": "Chien de Garde",
+        "slot": "Allié",
+        "text": "[fast] Inclinez le Chien de Garde : engagez un ennemi dans votre lieu. Cet ennemi vous attaque.\n[reaction] Quand une attaque ennemie inflige des dégâts et/ou horreurs au Chien de Garde : infligez 1 dégât à l'ennemi attaquant.\n<b>Carte conçue par the Council-in-Exile lors des Arkham Nights 2020.</b>",
+        "traits": "Allié. Créature."
+    },
+    {
+        "code": "09035",
+        "name": "Menottes",
+        "text": "Rapide.\n[action] Si les Menottes ne sont pas attachées à un ennemi : <b>Échapper à.</b> A utiliser uniquement sur un ennemi [[Humanoïde]]. Cette tentative d'évasion utilise [combat] au lieu de [agility]. En cas de réussite, retirez toutes les fatalités qui sont sur l'ennemi auquel vous venez d'échapper et attachez-lui les Menottes.\nSi l'ennemi attaché est non-[[Élite]], il ne peut pas se redresser et les fatalités ne peuvent pas être placées sur lui.",
+        "traits": "Objet. Police."
+    },
+    {
+        "code": "09036",
+        "name": "Se Préparer au Pire",
+        "text": "Choisissez un investigateur dans votre lieu. Cet investigateur cherche un soutien [[Arme]] parmi les 9 cartes du dessus de son deck, l'ajoute à sa main ou le joue <i>(en payant son coût en ressources)</i>, et mélange son deck.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "09037",
+        "name": "Brassard de Martyr",
+        "slot": "Accessoire",
+        "subname": "Vestige de l'Inconnu",
+        "text": "Vous gagnez +1 à votre valeur de compétence tant que vous résolvez les effets Révélation des cartes Rencontre.\n[reaction] Après qu'un autre investigateur dans votre lieu a pioché une carte Rencontre non-Péril et avant d'en résoudre ses effets, inclinez le Brassard de Martyr : on considère que c'est vous qui avez pioché cette carte Rencontre à la place.",
+        "traits": "Objet. Charme. Armure."
+    },
+    {
+        "code": "09038",
+        "name": "Girish Kadakia",
+        "slot": "Allié",
+        "subname": "Détective du Punjab ICPC",
+        "text": "Girish Kadakia peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n[fast] Lors d'un test de compétence effectué par un investigateur dans votre lieu, inclinez Girish Kadakia : cet investigateur gagne +2 à sa valeur de compétence pour ce test. Si ce test est réussi, soignez 1 dégât ou 1 horreur de Girish Kadakia.",
+        "traits": "Allié. Police."
+    },
+    {
+        "code": "09039",
+        "flavor": "Il fallait bien le reconnaître :\nLogan savait s'équiper pour l'Apocalypse.",
+        "name": "Toujours sur ses Gardes",
+        "text": "Les investigateurs dans votre lieu ont le droit de jouer collectivement jusqu'à 4 soutiens au total de leurs mains, un à la fois, en réduisant de 1 le coût en ressources.",
+        "traits": "Tactique."
+    },
+    {
+        "code": "09040",
+        "customization_change": "- Soigner 2 dégâts.\n- Soigner 2 horreurs.\n- Placer 1 charge ou 1 secret sur un soutien qu'il contrôle.\n- Se déplacer jusqu'à 2 fois.\nPersonnalisable. Utilisations (5 provisions).\nQuand vous initiez ce test de compétence, vous avez le droit d'augmenter de 2 sa difficulté. Dans ce cas, augmentez de 1 la valeur de l'effet octroyé par chaque option.\n[action] Dépensez 1 provision : choisissez un investigateur dans votre lieu et effectuez un test de [intellect] (1). En cas de réussite, cet investigateur effectue une des options suivantes (2 options différentes en cas de réussite avec une différence de 2 ou plus.) -",
+        "customization_text": "□ <b>Distillat de Convalescence.</b> Ajoutez cette option : - Soigner 2 dégâts.\n□ <b>Distillat de Sérénité.</b> Ajoutez cette option : - Soigner 2 horreurs.\n□ <b>Distillat d'Illumination.</b> Ajoutez cette option : - Placer 1 charge ou 1 secret sur un soutien qu'il contrôle.\n□ <b>Distillat d'Accélération.</b> Ajoutez cette option : - Se déplacer jusqu'à 2 fois.\n□□ <b>Épurée.</b> La Distillation Alchimique entre en jeu avec 2 provisions supplémentaires.\n□□□□ <b>Tonifiée.</b> Quand vous initiez ce test de compétence, vous avez le droit d'augmenter de 2 sa difficulté. Dans ce cas, augmentez de 1 la valeur de l'effet octroyé par chaque option.\n□□□□□ <b>Optimisée.</b> En cas de réussite avec une différence de 2 ou plus, l'investigateur choisi a le droit d'effectuer deux options au lieu d'une seule.",
+        "name": "Distillation Alchimique",
+        "slot": "Main",
+        "text": "Personnalisable. Utilisations (3 provisions).\n[action] Dépensez 1 provision : choisissez un investigateur dans votre lieu et effectuez un test de [intellect] (1). En cas de réussite, cet investigateur effectue une des options suivantes -\n- Piocher 2 cartes.\n- Gagner 2 ressources.",
+        "traits": "Objet. Science."
+    },
+    {
+        "code": "09041",
+        "customization_change": " / vous n'avez plus de cartes en main.\n / des dégâts ou horreurs vous sont infligés.\n / vous défaussez une traîtrise ou un ennemi en jeu.\n / vous entrez dans un lieu dont la valeur occulte est de 3 ou plus.\nQuand le critère choisi est rempli par n'importe quel investigateur dans votre lieu, vous avez le droit d'incliner Hypothèse Empirique pour y ajouter 1 preuve.Les autres investigateurs dans votre lieu ont le droit de déclencher les capacités [fast] d'Hypothèse Empirique.\n[fast] Dépensez 2 preuves : réduisez de 3 le coût de la prochaine carte que vous jouez à cette phase.\n[fast] Dépensez 3 preuves : découvrez 1 indice dans votre lieu.\nAprès avoir incliné l'Hypothèse Empirique, vous avez le droit de résoudre son effet forcé en choisissant un critère que vous n'avez pas choisi à ce round. Ensuite, redressez-la.",
+        "customization_text": "□ <b>Perspectives Pessimistes.</b> Ajoutez le critère suivant : / vous n'avez plus de cartes en main.\n□ <b>Essais et Erreurs.</b> Ajoutez le critère suivant : / des dégâts ou horreurs vous sont infligés.\n□ <b>Variable Indépendante.</b> Ajoutez le critère suivant : / vous défaussez une traîtrise ou un ennemi en jeu.\n□ <b>Enquête de Terrain.</b> Ajoutez le critère suivant : / vous entrez dans un lieu dont la valeur occulte est de 3 ou plus.\n□□ <b>Évaluation entre Pairs.</b> Le critère choisi est rempli si n'importe quel investigateur dans votre lieu (pas uniquement vous) le remplit. Les autres investigateurs dans votre lieu ont le droit de déclencher les capacités [fast] d'Hypothèse Empirique.\n□□ <b>Subventions.</b> L'Hypothèse Empirique gagne : [fast] Dépensez 2 preuves : réduisez de 3 le coût de la prochaine carte que vous jouez à cette phase.\n□□□ <b>Preuve Irréfutable.</b> L'Hypothèse Empirique gagne : [fast] Dépensez 3 preuves : découvrez 1 indice dans votre lieu.\n□□□□ <b>Hypothèse Alternative.</b> Après avoir incliné l'Hypothèse Empirique, vous avez le droit de résoudre son effet forcé en choisissant un critère que vous n'avez pas choisi à ce round. Ensuite, redressez-la.",
+        "name": "Hypothèse Empirique",
+        "text": "Personnalisable. Limite de 1 par investigateur.\n<b>Forcé</b> - Au début du round : choisissez un des critères suivants pour ce round (vous échouez à un test avec une différence de 2 ou plus / vous réussissez un test avec une différence de 3 ou plus). Quand le critère choisi est rempli, vous avez le droit d'incliner Hypothèse Empirique pour y ajouter 1 preuve.\n[fast] Dépensez 1 preuve : piochez 1 carte.",
+        "traits": "Talent. Science."
+    },
+    {
+        "code": "09042",
+        "customization_change": "Nom du soutien :\nUtiliser les capacités [action] du soutien attaché ne provoque pas d'attaques d'opportunité.\nLe soutien attaché n'occupe aucun emplacement.\nVous gagnez +2 à votre valeur de compétence lorsque vous effectuez des tests de compétence du soutien attaché.\nNom des soutiens additionnels :\n[fast] Inclinez La Plume de Corbeau : déplacez vers le soutien attaché 1 secret ou 1 charge d'un soutien que vous contrôlez.\nAprès avoir résolu une capacité [action] du soutien attaché, vous avez le droit d'incliner la Plume de Corbeau pour redresser un autre soutien que vous contrôlez.\nAttachez La Plume du Corbeau à un soutien nommé que vous contrôlez, ou cherchez dans votre deck, pile de défausse ou main un exemplaire du soutien nommé et jouez-le <i>(en payant son coût)</i>. Ensuite, attachez-lui la Plume du Corbeau.",
+        "customization_text": "Nom du soutien [[Livre]] ou [[Sort]] :\n□ <b>Plume Animée.</b> Utiliser les capacités [action] du soutien attaché ne provoque pas d'attaques d'opportunité.\n□ <b>Connexion Spectrale.</b> Le soutien attaché n'occupe aucun emplacement.\n□□ <b>Vague Mystique.</b> Vous gagnez +2 à votre valeur de compétence lorsque vous effectuez des tests de compétence du soutien attaché.\n□□ <b>Encrier Inépuisable.</b> Nommez deux soutiens [[Livre]] ou [[Sort]] de plus :\n□□ <b>Sève Énergétique.</b> La Plume de Corbeau gagne : [fast] Inclinez La Plume de Corbeau : déplacez vers le soutien attaché 1 secret ou 1 charge d'un soutien que vous contrôlez.\n□□□ <b>Encres mélangées.</b> Après avoir résolu une capacité [action] du soutien attaché, vous avez le droit d'incliner la Plume de Corbeau pour redresser un autre soutien que vous contrôlez.\n□□□□ <b>Archives Surnaturelles.</b> Quand vous jouez la Plume de Corbeau, au lieu de l'attacher à un soutien nommé que vous contrôlez, vous avez le droit de chercher dans votre deck, pile de défausse ou main un exemplaire du soutien nommé et le jouer <i>(en payant son coût)</i>. Ensuite, attachez-lui la Plume du Corbeau.",
+        "name": "La Plume de Corbeau",
+        "text": "Personnalisable. Quand vous achetez La Plume de Corbeau, nommez un soutien [[Livre]] ou [[Sort]] et inscrivez ce nom sur sa fiche Amélioration.\nAttachez cette carte à un soutien nommé que vous contrôlez.\n[reaction] Quand vous abandonnez ou que la partie se termine : soit vous cochez une case sur la fiche Amélioration de La Plume de Corbeau, soit vous réduisez de 1 le coût en expérience pour améliorer le soutien attaché avant le prochain scénario.",
+        "traits": "Objet. Relique. Amélioration."
+    },
+    {
+        "code": "09043",
+        "name": "Outils de Dissection",
+        "slot": "Main",
+        "text": "[reaction] Après qu'un ennemi dans votre lieu a été vaincu : placez 1 ressource <i>(prise dans la réserve de pions)</i> sur les Outils de Dissection, en tant que preuve.\nTant que les Outils de Dissection ont...\n- ...1 preuve ou plus, vous gagnez +1 [agility].\n- ...2 preuves ou plus, vous gagnez +1 [combat].\n- ...3 preuves ou plus, vous gagnez +1 santé mentale.",
+        "traits": "Objet. Outil. Science."
+    },
+    {
+        "code": "09044",
+        "flavor": "Ce qui suit est un récit véridique. J'aurais aimé qu'il n'en soit pas ainsi.",
+        "name": "Mémoires Macabres",
+        "slot": "Main",
+        "text": "Utilisations (4 secrets).\n[action] Dépensez 1 secret : <b>Enquêter.</b> Vous gagnez +2 [intellect] pour cette enquête. En cas de réussite avec une différence de 2 ou plus, vous avez le droit de piocher 1 carte.",
+        "traits": "Objet. Livre."
+    },
+    {
+        "code": "09045",
+        "name": "Notes de Recherches",
+        "slot": "Main",
+        "text": "[reaction] Après qu'une capacité de carte Joueur a placé sur votre lieu 1 ou plusieurs de vos indices : placez le même nombre de ressources sur Notes de Recherches, en tant que preuves.\n[action] : effectuez un test de [intellect] (0). Pour chaque point de réussite, vous avez le droit de dépenser 1 preuve pour découvrir 1 indice dans votre lieu.",
+        "traits": "Objet. Livre. Science."
+    },
+    {
+        "code": "09046",
+        "flavor": "À maladies non conventionnelles, traitements non conventionnels.",
+        "name": "Diagnostic Étrange",
+        "text": "Placez 1 de vos indices sur votre lieu. Ensuite, soignez 3 dégâts d'un investigateur ou d'un soutien [[Allié]] dans votre lieu.",
+        "traits": "Perspicacité. Science."
+    },
+    {
+        "code": "09047",
+        "flavor": "« Vous ne vous rendez pas compte de ce que cela signifie? »\n« Pourquoi ne pas vous calmer et me l'expliquer très lentement ? »",
+        "name": "Découverte Fascinante",
+        "text": "Cherchez parmi les 6 cartes du dessus de votre deck. Vous avez le droit de placer jusqu'à 3 de vos indices sur votre lieu. Pour chaque indice ainsi placé, choisissez et ajoutez à votre main 2 des cartes consultées. Mélangez votre deck.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "09048",
+        "name": "Cartographier la Zone",
+        "text": "<b>Enquêter.</b> Ajoutez votre [willpower] ou [agility] à votre valeur de compétence pour cette enquête. En cas de réussite, au lieu de découvrir des indices dans ce lieu, attachez-lui Cartographier la Zone. Limite de 1 par lieu.\nDiminuez de 1 la difficulté de tous les tests de compétence dans le lieu attaché.",
+        "traits": "Perspicacité. Tactique."
+    },
+    {
+        "code": "09049",
+        "name": "Analyse",
+        "text": "Après avoir révélé un pion Chaos pour ce test de compétence, vous avez le droit de placer 1 de vos indices sur votre lieu pour annuler ce pion Chaos, le remettre dans la réserve du Chaos et en révéler un nouveau. <i>(Vous avez le droit de répéter cet effet autant de fois que souhaité.)</i>",
+        "traits": "Entraîné."
+    },
+    {
+        "code": "09050",
+        "flavor": "Cela vous donne l'impression de savoir ce que vous faites, même lorsque vous êtes dépassé par les événements.",
+        "name": "Blouse de Laboratoire",
+        "slot": "Corps",
+        "text": "[reaction] Quand vous devriez échouer à un test de compétence sur une carte [seeker] avec une différence de 1 ou moins, inclinez la Blouse de Laboratoire : vous réussissez de 0 à la place.",
+        "traits": "Objet. Vêtement. Science."
+    },
+    {
+        "code": "09051",
+        "name": "Théorie Orphique",
+        "slot": "Arcane",
+        "text": "Utilisations (4 secrets).\n[fast] Dépensez 1 secret : choisissez une traîtrise non-faiblesse qui n'est pas attachée à un ennemi [[Élite]]. Jusqu'à la fin du round, cette traîtrise perd le texte imprimé dans sa boîte de texte (à l'exception des [[Traits]]).",
+        "traits": "Sort."
+    },
+    {
+        "code": "09052",
+        "name": "Énigme Existentielle",
+        "text": "<b>Discussion.</b> Choisissez un ennemi non-[[Élite]] dans votre lieu et effectuez un test de [willpower] ou [intellect] (8). La difficulté de ce test diminue de 1 pour chaque autre carte dans votre main. En cas de réussite, échappez automatiquement à l'ennemi choisi et attachez-lui Énigme Existentielle.\nL'ennemi attaché gagne Distant.",
+        "traits": "Perspicacité. Paradoxe."
+    },
+    {
+        "code": "09053",
+        "name": "Conseils",
+        "text": "Choisissez un autre investigateur dans votre lieu qui n'a pas encore effectué son tour durant ce round. Lors de son tour à ce round, l'investigateur choisi gagne +1 à chacune de ses compétences et a le droit d'effectuer une action supplémentaire. Jouer Conseils ne provoque pas d'attaques d'opportunité.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "09054",
+        "name": "Dr William T. Maleson",
+        "slot": "Allié",
+        "subname": "Travaille sur un Truc Phénoménal",
+        "text": "[reaction] Quand un investigateur pioche une carte Rencontre du Deck Rencontre, inclinez le Dr William T. Maleson et placez 1 de vos indices sur votre lieu : cet investigateur pioche une autre carte du dessus du deck Rencontre, choisit une de ces 2 cartes pour la résoudre, et annule et défausse l'autre.",
+        "traits": "Allié. Miskatonic."
+    },
+    {
+        "code": "09055",
+        "flavor": "C'est incroyable comme tout le monde vous traite différemment, quand vous en portez une.",
+        "name": "Carte de Presse",
+        "slot": "Accessoire",
+        "text": "[reaction] Après avoir dépensé 1 ou plusieurs indices ou placé 1 ou plusieurs indices sur votre lieu, inclinez la Carte de Presse : vous avez le droit d'effectuer une action supplémentaire durant ce tour (ou lors de votre prochain tour si actuellement il ne s'agit pas de votre tour).",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09056",
+        "name": "Trousse Chirurgicale",
+        "text": "Utilisations (4 provisions).\n[reaction] Quand l'un de vos effets de carte soigne les dégâts d'un investigateur, dépensez 1 provision : soit l'effet soigne 1 dégât supplémentaire, soit vous piochez 1 carte et soignez 1 horreur.\n[action] [action] : soignez 3 dégâts d'un investigateur ou d'un soutien [[Allié]] dans votre lieu.",
+        "traits": "Objet. Outil. Science."
+    },
+    {
+        "code": "09057",
+        "name": "Kit d'Empreintes Digitales",
+        "slot": "Main",
+        "text": "Utilisations (3 provisions).\n[action] Inclinez le Kit d'Empreintes Digitales et dépensez 1 provision : <b>Enquêter.</b> Vous gagnez +2 [intellect] pour cette enquête. En cas de réussite, vous découvrez 2 indices supplémentaires dans votre lieu.",
+        "traits": "Objet. Outil."
+    },
+    {
+        "code": "09058",
+        "name": "Gray's Anatomy",
+        "slot": "Main",
+        "subname": "La Bible des Médecins",
+        "text": "[action] : choisissez une carte dans votre lieu et effectuez un test de [intellect] (1). Pour chaque point de réussite, choisissez une option -\n- La prochaine fois que la carte choisie devrait être soignée à ce round, soignez +1 dégât/horreur (jusqu'à un maximum de +3).\n- La prochaine fois que la carte choisie devrait se voir infliger des dégâts à ce round, infligez +1 dégât (jusqu'à un maximum de +3).",
+        "traits": "Objet. Livre."
+    },
+    {
+        "code": "09059",
+        "customization_change": "Tant que vous enquêtez en utilisant le Témoignage Accablant, vous avez le droit d'ignorer tout effet ou mot-clé du lieu où vous enquêtez qui devrait se déclencher.\nPersonnalisable. Utilisations (5 preuves).\nVous gagnez +2 [intellect] tant que vous enquêtez en utilisant le Témoignage Accablant.\nQuand vous enquêtez avec succès en utilisant le Témoignage Accablant, vous avez le droit de dépenser 1 preuve pour échapper automatiquement à l'ennemi choisi.\nVous avez le droit d'utiliser la capacité du Témoignage Accablant pour enquêter dans le lieu de l'ennemi choisi à la place de votre lieu.\nQuand vous enquêtez avec succès en utilisant le Témoignage Accablant, vous avez le droit de dépenser X preuves pour défausser l'ennemi choisi s'il n'est pas [[Élite]]. X est la vie restante de cet ennemi.",
+        "customization_text": "□ <b>Mandat de Recherche.</b> Tant que vous enquêtez en utilisant le Témoignage Accablant, vous avez le droit d'ignorer tout effet ou mot-clé du lieu où vous enquêtez qui devrait se déclencher.\n□□ <b>Preuves Fabriquées.</b> Le Témoignage Accablant entre en jeu avec 2 preuves supplémentaires.\n□□ <b>Chantage.</b> Vous gagnez +2 [intellect] tant que vous enquêtez en utilisant le Témoignage Accablant.\n□□□ <b>Extorquer.</b> Quand vous enquêtez avec succès en utilisant le Témoignage Accablant, vous avez le droit de dépenser 1 preuve pour échapper automatiquement à l'ennemi choisi.\n□□□ <b>Surveiller.</b> Vous avez le droit d'utiliser la capacité du Témoignage Accablant pour enquêter dans le lieu de l'ennemi choisi à la place de votre lieu.\n□□□□ <b>Démasquer.</b> Quand vous enquêtez avec succès en utilisant le Témoignage Accablant, vous avez le droit de dépenser X preuves pour défausser l'ennemi choisi s'il n'est pas [[Élite]]. X est la vie restante de cet ennemi.",
+        "name": "Témoignage Accablant",
+        "slot": "Main",
+        "text": "Personnalisable. Utilisations (3 preuves).\n[action] Inclinez le Témoignage Accablant et choisissez un ennemi dans n'importe quel lieu : <b>Enquêter</b> <i>(dans votre lieu)</i>. En cas de réussite, vous avez le droit de dépenser 1 preuve pour découvrir 1 indice supplémentaire dans le lieu de l'ennemi choisi.",
+        "traits": "Objet. Illicite."
+    },
+    {
+        "code": "09060",
+        "customization_change": "Personnalisable. Trait choisi : _____\nQuand vous jouez Amis des Bas-Fonds, vous avez le droit de choisir un autre investigateur dans votre lieu pour qu'il résolve ses effets, à votre place.\nChoisissez un autre trait : _____. Quand vous jouez Amis des Bas-Fonds, vous avez le droit de choisir une des cartes consultées dotées des deux [[Traits]] pour l'ajouter à votre main sans dépenser 1 ressource.\nChaque carte ajoutée à votre main par Amis des Bas-Fonds gagne une icône [wild] jusqu'à la fin de la phase.\nAu lieu de mélanger les cartes restantes dans votre deck, vous avez le droit de placer chacune d'elles sur le dessus de votre deck, dans l'ordre de votre choix.\nRapide. À jouer lors de n'importe quelle fenêtre [fast].\nRegardez les 9 cartes du dessus de votre deck. Pour chaque carte consultée ayant le(s) [[Trait]](s), vous avez le droit de dépenser 1 ressource pour l'ajouter à votre main. Mélangez les cartes restantes dans votre deck.\nVous avez le droit de jouer une des cartes ajoutées à votre main <i>(en payant son coût)</i>.",
+        "customization_text": "[[Trait]] choisi : _____\n□ <b>Utile.</b> Quand vous jouez Amis des Bas-Fonds, vous avez le droit de choisir un autre investigateur dans votre lieu pour qu'il résolve ses effets, à votre place.\n□□ <b>Polyvalent.</b> Choisissez un autre [[Trait]] : _____. Quand vous jouez Amis des Bas-Fonds, vous avez le droit de choisir une des cartes consultées dotées des deux [[Traits]] pour l'ajouter à votre main sans dépenser 1 ressource.\n□□ <b>Stimulant.</b> Chaque carte ajoutée à votre main par Amis des Bas-Fonds gagne une icône [wild] jusqu'à la fin de la phase.\n□□ <b>Malin.</b> Au lieu de mélanger les cartes restantes dans votre deck, vous avez le droit de placer chacune d'elles sur le dessus de votre deck, dans l'ordre de votre choix.\n□□ <b>Prompt.</b> Amis des Bas-Fonds gagne \"Rapide. À jouer lors de n'importe quelle fenêtre [fast]\".\n□□□ <b>Expérimenté</b> Augmentez de 3 le nombre de cartes regardées.\n□□□ <b>Virtuose.</b> Vous avez le droit de jouer une des cartes ajoutées à votre main <i>(en payant son coût)</i>.",
+        "flavor": "« C'est un plaisir de faire affaire avec vous, Mme O'Bannion. »",
+        "name": "Amis des Bas-Fonds",
+        "text": "Personnalisable. Quand vous achetez Amis des Bas-Fonds, choisissez et inscrivez un [[Trait]] sur sa fiche Amélioration.\nRegardez les 6 cartes du dessus de votre deck. Pour chaque carte consultée ayant le(s) [[Trait]](s), vous avez le droit de dépenser 1 ressource pour l'ajouter à votre main. Mélangez les cartes restantes dans votre deck.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "09061",
+        "customization_change": "- Vous subissez des dégâts ou horreurs.\n- Un lieu entre en jeu ou est révélé.\n- Un ennemi vous engage.\n- Une traîtrise entre dans votre zone de menace.\n- Vous jouez un soutien.\nPendant l'action octroyée par Instinct Affûté, vous gagnez +2 à chacune de vos compétences.\nVous avez le droit d'inclure jusqu'à trois exemplaires d'Instinct Affûté dans votre deck. Réduisez de 1 le coût d'Instinct Affûté.\nEffectuez immédiatement 2 actions comme si c'était votre tour (une action à la fois). Ensuite, retirez la carte de la partie. (Max. une fois par round).",
+        "customization_text": "□ <b>Réponse Réflexe.</b> Ajoutez la condition suivante : \"- Vous subissez des dégâts ou horreurs.\"\n□ <b>Bien Informé.</b> Ajoutez la condition suivante : \"- Un lieu entre en jeu ou est révélé.\"\n□ <b>Instinct de Tueur.</b>  Ajoutez la condition suivante : \"- Un ennemi vous engage.\"\n□ <b>Réaction Viscérale.</b> Ajoutez la condition suivante : \"- Une traîtrise entre dans votre zone de menace.\"\n□ <b>Mémoire Musculaire.</b> Ajoutez la condition suivante : \"- Vous jouez un soutien.\"\n□□ <b>Talent Aiguisé.</b> Pendant l'action octroyée par Instinct Affûté, vous gagnez +2 à chacune de vos compétences.\n□□□ <b>Élan Contrôlé.</b> Vous avez le droit d'inclure jusqu'à trois exemplaires d'Instinct Affûté dans votre deck. Réduisez de 1 le coût d'Instinct Affûté.\n□□□□□ <b>Force de l'Habitude.</b> Quand vous jouez Instinct Affûté, vous avez le droit d'effectuer 2 actions au lieu de 1 (une action à la fois). Ensuite, retirez la carte de la partie.",
+        "name": "Instinct Affûté",
+        "text": "Personnalisable. Rapide. À jouer uniquement après que l'une des conditions suivantes est remplie :\n- L'intrigue ou l'acte avance.\n- Vous réussissez un test de compétence avec une différence de 3 ou plus.\nEffectuez immédiatement une action comme si c'était votre tour. (Max. une fois par round).",
+        "traits": "Stratagème."
+    },
+    {
+        "code": "09062",
+        "name": "Déguisement",
+        "text": "Utilisations (4 provisions).\n[action] Dépensez 1 provision : <b>Échapper à.</b> Vous gagnez +2 [agility] pour cette tentative d'évasion. En cas de réussite et si l'ennemi auquel vous échappez est non-[[Élite]], il ne se redresse pas durant la prochaine phase d'Entretien.",
+        "traits": "Talent. Ruse. Illicite."
+    },
+    {
+        "code": "09063",
+        "name": "Trésor Détourné",
+        "text": "[fast] Inclinez le Trésor Détourné : déplacez dessus jusqu'à 2 ressources de votre réserve de ressources (jusqu'à un maximum de 10 ressources sur lui).\n<b>Forcé</b> - Quand vous abandonnez ou que la partie se termine : pour chaque groupe de 2 ressources sur le Trésor Détourné, un investigateur de votre choix débute le prochain scénario de la campagne avec 1 ressource supplémentaire dans sa réserve de ressources.",
+        "traits": "Objet. Illicite."
+    },
+    {
+        "code": "09064",
+        "flavor": "« Pourquoi est-ce que je les garde sur moi ? Pour être mieux informé sur les méthodes peu recommandables des voleurs d'art, bien sûr. »",
+        "name": "Trousse de Cambrioleur",
+        "slot": "Main",
+        "text": "Utilisations (6 provisions).\n[action] Dépensez 1 provision : <b>Enquêter.</b> Vous avez le droit d'utiliser [agility] au lieu de [intellect] pour cette enquête. En cas de réussite, gagnez 1 ressource.",
+        "traits": "Objet. Outil. Illicite."
+    },
+    {
+        "code": "09065",
+        "flavor": "« Il est muni de poches judicieusement placées ! »",
+        "name": "Poche Dissimulée",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nAttachez cette carte à un soutien [[Vêtement]] ou [[Armure]] que vous contrôlez.\nLe soutien attaché gagne : \"Vous avez 1 emplacement de main ou d'accessoire supplémentaire <i>(vous choisissez)</i> qui ne peut être utilisé que pour contenir un soutien [[Illicite]].\"",
+        "traits": "Amélioration. Illicite."
+    },
+    {
+        "code": "09066",
+        "flavor": "« Parfaite synchronisation, M. Fergus. »",
+        "name": "Tirer et Fuir",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nMettez en jeu un soutien [[Allié]] de votre main. À la fin de votre tour, si ce soutien est toujours en jeu, renvoyez-le dans votre main.",
+        "traits": "Tactique. Ruse."
+    },
+    {
+        "code": "09067",
+        "name": "« Je Vais Prendre Ça ! »",
+        "text": "Rapide. À jouer quand vous échappez avec succès à un ennemi [[Humanoïde]] ou quand vous enquêtez avec succès.\nJouez un soutien [[Objet]] de votre main en réduisant son coût de X, X étant égal au nombre de points de réussite. Attachez « Je Vais Prendre Ça ! » à ce soutien. Le soutien attaché gagne [[Illicite]].",
+        "traits": "Ruse. Amélioration. Illicite."
+    },
+    {
+        "code": "09068",
+        "name": "Taper dans la Fourmilière",
+        "text": "Cherchez un ennemi non-[[Élite]] parmi les 9 cartes du dessus du deck Rencontre et générez-le engagé avec vous <i>(au lieu de son lieu de génération normal)</i>. Ensuite, découvrez 1 indice dans votre lieu et gagnez X ressources, X étant la valeur de vie de cet ennemi. Mélangez le deck Rencontre.",
+        "traits": "Stratagème. Tactique."
+    },
+    {
+        "code": "09069",
+        "flavor": "Hors de vue, mais toujours présent.",
+        "name": "Fuite Éperdue",
+        "text": "Rapide. À jouer quand un ennemi vous attaque.\n<b>Échapper à.</b> Tentez d'échapper à l'ennemi qui vous attaque. En cas de réussite, annulez cette attaque ennemie.",
+        "traits": "Ruse."
+    },
+    {
+        "code": "09070",
+        "name": "Risque Calculé",
+        "text": "1 max. attribuée par test de compétence.\nÀ attribuer uniquement lors d'un test de n'importe quel type que vous effectuez et uniquement si c'est votre tour.\nRisque Calculé gagne [wild] pour chaque action que vous avez effectuée à ce tour <i>(en comptant celle-ci)</i>.\nAprès la fin de ce test, terminez votre tour.",
+        "traits": "Stratagème. Condamné."
+    },
+    {
+        "code": "09071",
+        "flavor": "« Adoptez le code vestimentaire à l'emploi désiré, dites-vous. Et si le boulot que je veux, c'est le vôtre ? »",
+        "name": "Manteau Élégant",
+        "slot": "Corps",
+        "text": "[reaction] Quand vous gagnez 1 ou plusieurs ressources lors de votre tour grâce à l'effet d'une autre carte Joueur, inclinez le Manteau Élégant : gagnez 1 ressource supplémentaire.",
+        "traits": "Objet. Vêtement."
+    },
+    {
+        "code": "09072",
+        "name": "Chuck Fergus",
+        "slot": "Allié",
+        "subname": "Chauffeur des O'Bannion",
+        "text": "[reaction] Quand vous jouez un événement [[Tactique]] ou [[Ruse]], inclinez Chuck Fergus : choisissez une option -\n- Cet événement gagne Rapide.\n- Cet événement coûte 2 ressources de moins pour être joué.\n- Vous gagnez +2 à votre valeur de compétence tant que vous effectuez un test de compétence lors de la résolution de cet événement.",
+        "traits": "Allié. Criminel."
+    },
+    {
+        "code": "09073",
+        "name": "Combat Déloyal",
+        "text": "Limite de 1 par investigateur.\nTant que vous attaquez, discutez ou tentez d'échapper à un ennemi incliné, vous gagnez +2 à votre valeur de compétence.\n[reaction] Après que vous avez échappé à un ennemi, inclinez Combat Déloyal : effectuez une action Combattre contre cet ennemi. Ignorez le mot-clé Distant pour cette attaque.",
+        "traits": "Talent. Ruse. Illicite."
+    },
+    {
+        "code": "09074",
+        "flavor": "Si vous êtes prudent, même pas besoin de forcer.",
+        "name": "Forcer l'Entrée",
+        "text": "<b>Enquêter.</b> Ajoutez votre valeur de [agility] à votre valeur de compétence pour cette enquête. En cas de réussite avec une différence de 1 ou plus, vous avez le droit d'échapper automatiquement à un ennemi dans ce lieu. En cas de réussite avec une différence de 3 ou plus, renvoyez dans votre main Forcer l'Entrée à la fin de votre tour. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Ruse."
+    },
+    {
+        "code": "09075",
+        "flavor": "« ...ok c'est bon, ça m'appartient. »",
+        "name": "Trousse de Cambrioleur",
+        "slot": "Main",
+        "text": "Utilisations (6 provisions).\n[action] Dépensez 1 provision : <b>Enquêter.</b> Pour cette enquête, vous gagnez +1 à votre valeur de compétence et vous avez le droit d'utiliser [agility] au lieu de [intellect]. En cas de réussite, gagnez 1 ressource (2 ressources à la place en cas de réussite avec une différence de 2 ou plus).",
+        "traits": "Objet. Outil. Illicite."
+    },
+    {
+        "code": "09076",
+        "name": "Tueur à Gages",
+        "slot": "Allié",
+        "text": "[reaction] Après que le Tueur à Gages est entré en jeu : attachez-lui un soutien [[Illicite]] de votre main <i>(la carte est considérée comme étant en jeu sous votre contrôle)</i>.\n[fast] Inclinez le Tueur à Gages et dépensez 1 ressource : résolvez une capacité [action] du soutien attaché, sans payer son coût [action]. Résolvez cette capacité avec une valeur de compétence de base de 4.",
+        "traits": "Allié. Criminel."
+    },
+    {
+        "code": "09077",
+        "name": "Marché Clandestin",
+        "text": "Permanent. Exceptionnel. Augmentez de 10 la taille de votre deck.\n[reaction] Avant de piocher votre main de départ, choisissez 10 cartes [[Illicite]] dans votre deck : mélangez-les ensemble et placez-les à côté du Marché Clandestin; elles constituent votre deck Marché.\n[reaction] Au début de votre tour : révélez les 2 cartes du dessus de votre deck Marché. Vous avez le droit de dépenser 1 ressource pour piocher 1 de ces deux cartes. Placez la (les) carte(s) restante(s) sous le deck Marché, dans n'importe quel ordre.",
+        "traits": "Relation. Illicite."
+    },
+    {
+        "code": "09078",
+        "name": "Coup d'Éclat",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nPour chaque ennemi non-nuée incliné dans votre lieu, choisissez une option différente :\n- Gagnez 2 ressources.\n- Infligez 2 dégâts à cet ennemi.\n- Découvrez 1 indice dans votre lieu.\n- Piochez 1 carte.",
+        "traits": "Stratagème. Ruse."
+    },
+    {
+        "code": "09079",
+        "customization_change": "Personnalisable. Compétence entourée : _____\nVous avez le droit de jouer l'Encre Animée sous le contrôle d'un autre investigateur dans votre lieu.\nAu début de votre tour, retirez 1 charge de l'Encre Animée ou ignorez sa capacité pour le reste du round. S'il n'y a pas de charges sur l'Encre Animée, défaussez-la.\nUtilisations (5 charges).\nCompétence Additionnelle : _____\nCompétence Additionnelle : _____\n[reaction] Après avoir révélé un pion Chaos affichant un symbole, inclinez l'Encre Animée : placez 1 charge sur elle.\nVous gagnez +1 supplémentaire à la(aux) compétence(s) entourée(s) et -1 à celles qui ne sont pas entourées.",
+        "customization_text": "Compétence entourée :\n□ <b>Encre Mouvante.</b> Vous avez le droit de jouer l'Encre Animée sous le contrôle d'un autre investigateur dans votre lieu.\n□ <b>Image Subtile.</b> Au début de votre tour, vous avez le droit de choisir de ne pas retirer 1 charge de l'Encre Animée et d'ignorer sa capacité pour le reste du round.\n□□ <b>Encre Imprégnée.</b> L'Encre Animée entre en jeu avec 2 charges supplémentaires et occupe un emplacement d'arcane au lieu d'un emplacement de corps.\n□□ <b>Encre Surnaturelle.</b> Entourez une autre compétence.\n□□□ <b>Encre Surnaturelle.</b> Entourez une autre compétence.\n□□□ <b>Image Macabre.</b> L'Encre Animée gagne [reaction] Après avoir révélé un pion Chaos affichant un symbole, inclinez l'Encre Animée : placez 1 charge sur elle.\n□□□ <b>Vibration.</b> L'Encre Animée octroie +1 supplémentaire à la(aux) compétence(s) entourée(s) et -1 à celles qui ne sont pas entourées.",
+        "name": "Encre Animée",
+        "slot": "Corps",
+        "text": "Personnalisable. Quand vous achetez l'Encre Animée, choisissez une compétence et entourez-la sur sa feuille Amélioration.\nUtilisations (3 charges).\nRetirez 1 charge de l'Encre Animée au début de chacun de vos tours. S'il n'y a pas de charges sur l'Encre Animée, défaussez-la.\nVous gagnez +1 à la(aux) compétence(s) entourée(s).",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09080",
+        "customization_change": "Le Serviteur Invoqué peut se voir assigner les dégâts infligés à n'importe quel investigateur dans ce lieu.\n- <b>Combattre.</b> Vous attaquez un ennemi dans ce lieu avec une compétence [combat] de base de 4. Ignorez les mots-clés Distant et Riposte pour cette attaque.\n- <b>Échapper à.</b> Vous tentez d'échapper à un ennemi dans ce lieu avec une compétence [agility] de base de 4. Ignorez le mot-clé Alerte pour cette tentative d'évasion.\n- <b>Enquêter.</b> Vous enquêtez dans ce lieu avec une compétence [intellect] de base de 4.\nAprès que le Serviteur Invoqué s'est déplacé de votre lieu vers un lieu connexe, vous avez le droit de vous déplacer vers ce même lieu.\n\nPersonnalisable. En tant que coût supplémentaire pour jouer le Serviteur Invoqué, vous devez défausser un autre soutien que vous contrôlez ou renvoyer cet autre soutien dans la main de son propriétaire.\nLe Serviteur Invoqué entre en jeu dans votre lieu. Le Serviteur Invoqué peut effectuer 2 différentes actions :",
+        "customization_text": "□ <b>Carapace Blindée.</b> Le Serviteur Invoqué gagne une valeur de vie de 3. On peut lui assigner les dégâts infligés à n'importe quel investigateur dans ce lieu.\n□ <b>Griffes Lacérantes.</b> Ajoutez cette action : \"- <b>Combattre.</b> Vous attaquez un ennemi dans ce lieu avec une compétence [combat] de base de 4. Ignorez les mots-clés Distant et Riposte pour cette attaque.\"\n□ <b>Mâchoires Agrippantes.</b> Ajoutez cette action : \"- <b>Échapper à.</b> Vous tentez d'échapper à un ennemi dans ce lieu avec une compétence [agility] de base de 4. Ignorez le mot-clé Alerte pour cette tentative d'évasion.\"\n□ <b>Pupilles de Feu.</b> Ajoutez cette action : \"- <b>Enquêter.</b> Vous enquêtez dans ce lieu avec une compétence [intellect] de base de 4.\"\n□ <b>Ailes de la Nuit.</b> Après que le Serviteur Invoqué s'est déplacé de votre lieu vers un lieu connexe, vous avez le droit de vous déplacer vers ce même lieu.\n□□ <b>Dominance.</b> Le Serviteur Invoqué n'occupe plus l'un des emplacements suivants (entourez le) : arcane / allié.\n□□□ <b>l'Appel du Rêve.</b> Au lieu de défausser un autre soutien que vous contrôlez pour pouvoir jouer le Serviteur Invoqué, vous avez le droit de le renvoyer dans la main de son propriétaire.\n□□□□□ <b>Influence Démoniaque.</b> Le Serviteur Invoqué peut effectuer 2 différentes actions au lieu de 1 action à chacun de vos tours.",
+        "name": "Serviteur Invoqué",
+        "slot": "Allié. Arcane",
+        "text": "Personnalisable. En tant que coût supplémentaire pour jouer ce soutien, vous devez défausser un autre soutien que vous contrôlez.\nLe Serviteur Invoqué entre en jeu dans votre lieu. Il peut effectuer 1 action à chacun de vos tours à choisir parmi l'(les) action(s) suivante(s) :\n- Déplacez le Serviteur Invoqué vers un lieu connexe révélé.",
+        "traits": "Invocation."
+    },
+    {
+        "code": "09081",
+        "customization_change": "- <i>\"Trahison.\"</i> Infligez 1 dégât à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur de combat est inférieure ou égale à celle de l'ennemi attaché.\n- <i>\"Charité.\"</i> Un investigateur dans le lieu de cet ennemi se soigne d'un nombre de dégâts ou d'horreurs égal respectivement à la valeur de dégât/horreur de cet ennemi.\n- <i>\"Confession.\"</i> Découvrez 1 indice dans le lieu de cet ennemi si sa vie est supérieure ou égale à la valeur occulte du lieu.\n- <i>\"Diversion.\"</i> Échappez automatiquement à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur d'évasion est inférieure ou égale à celle de l'ennemi attaché.\n[fast] : renvoyez dans votre main Mot de Pouvoir.\nVous avez le droit d'activer la capacité Discussion du Mot de Pouvoir depuis votre lieu ou depuis un lieu éloigné de 1 connexion de l'ennemi attaché.\n[action] Si l'ennemi attaché est dans votre lieu : <b>Discussion.</b> Vous avez le droit de donner jusqu'à deux ordres différents (limite une fois par round et par commande) -\nVous avez le droit d'inclure 3 exemplaires de Mot de Pouvoir dans votre deck. Quand vous donnez un ordre en utilisant un de ces exemplaires, donnez également cet ordre à chaque autre ennemi auquel vous avez attaché un exemplaire du Mot de Pouvoir.",
+        "customization_text": "□ <b>Trahison.</b> Ajouter l'ordre : \"- <i>'Révolte-toi.'</i> Infligez 1 dégât à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur de combat est inférieure ou égale à celle de l'ennemi attaché.\"\n□ <b>Charité.</b> Ajouter l'ordre : \"- <i>'Aide-le.'</i> Un investigateur dans le lieu de cet ennemi se soigne d'un nombre de dégâts ou d'horreurs égal respectivement à la valeur de dégât/horreur de cet ennemi.\"\n□ <b>Confession.</b> Ajouter l'ordre : \"- <i>'Confesse-toi.'</i> Découvrez 1 indice dans le lieu de cet ennemi si sa vie est supérieure ou égale à la valeur occulte du lieu.\"\n□ <b>Diversion.</b> Ajouter l'ordre : \"- <i>'Fais diversion.'</i> Échappez automatiquement à un ennemi situé dans le lieu de l'ennemi attaché dont la valeur d'évasion est inférieure ou égale à celle de l'ennemi attaché.\"\n□□ <b>Contrôle Accru.</b> Mot de Pouvoir gagne \"[fast] : renvoyez dans votre main Mot de Pouvoir.\"\n□□□ <b>Lié.</b> Vous avez le droit d'activer la capacité Discussion du Mot de Pouvoir depuis votre lieu ou depuis un lieu éloigné de 1 connexion de l'ennemi attaché.\n□□□ <b>Virelangue.</b> Quand vous discutez via le Mot de Pouvoir, vous avez le droit de donner jusqu'à deux ordres différents.\n□□□ <b>Trois Paroles.</b> Vous avez le droit d'inclure 3 exemplaires de Mot de Pouvoir dans votre deck. Quand vous donnez un ordre en utilisant un de ces exemplaires, donnez également cet ordre à chaque autre ennemi auquel vous avez attaché un exemplaire du Mot de Pouvoir.",
+        "name": "Mot de Pouvoir",
+        "text": "Personnalisable. Rapide. À jouer uniquement lors de votre tour.\nAttachez cette carte à un ennemi non-[[Élite]] dans votre lieu.\n[action] Si l'ennemi attaché est dans votre lieu : <b>Discussion.</b> Donnez-lui un ordre (limite d'une fois par round et par ordre) -\n- <i>\"Va-t'en.\"</i> Cet ennemi se déplace une fois dans la direction de votre choix.\n- <i>\"Affaisse-toi.\"</i> Inclinez cet ennemi.",
+        "traits": "Sort."
+    },
+    {
+        "code": "09082",
+        "name": "Serpe de Cérémonie",
+        "slot": "Main",
+        "text": "[action] : <b>Combattre.</b> Pour cette attaque, soit vous utilisez [willpower] soit vous gagnez +1 [combat]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez la Serpe de Cérémonie et placez 1 fatalité dessus pour gagner +1 à votre valeur de compétence et infliger +1 dégât pour cette attaque.\n- Si un ennemi est vaincu par cette attaque, retirez 1 fatalité de la Serpe de Cérémonie.",
+        "traits": "Objet. Charme. Arme. Corps-à-corps."
+    },
+    {
+        "code": "09083",
+        "name": "Baguette de Sourcier",
+        "slot": "Main",
+        "text": "[action] : <b>Enquêter.</b> Pour cette enquête, soit vous utilisez [willpower] soit vous gagnez +1 [intellect]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez la Baguette de Sourcier et placez 1 fatalité dessus pour vous déplacer vers un lieu connexe.\n- Si cette enquête permet de découvrir le dernier indice d'un lieu, retirez 1 fatalité de la Baguette de Sourcier.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09084",
+        "name": "Calice Sacré",
+        "slot": "Main",
+        "text": "[action] : choisissez un investigateur dans votre lieu et choisissez une des options suivantes -\n- Inclinez le Calice Sacré et placez 1 fatalité dessus pour soigner 2 dégâts ou 2 horreurs de cet investigateur.\n- Soignez 1 dégât ou 1 horreur de cet investigateur. Si vous soignez le dernier dégât ou horreur de cet investigateur, retirez 1 fatalité du Calice Sacré.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09085",
+        "name": "Pentacle d'Onyx",
+        "slot": "Main",
+        "text": "[action] : <b>Échapper à.</b> Pour cette tentative d'évasion, soit vous utilisez votre [willpower], soit vous gagnez +1 [agility]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez le Pentacle d'Onyx et placez une fatalité dessus pour cibler un ennemi dans votre lieu ou dans un lieu connexe, et gagnez +1 à votre valeur de compétence pour cette tentative d'évasion.\n- En cas de réussite avec une différence de 2 ou plus, retirez 1 fatalité du Pentacle d'Onyx.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09086",
+        "flavor": "Par la lumière et l'ombre /\nque le crépuscule engendre l'aube;\nQue la rotation du monde /\nconduise au pouvoir éternel.",
+        "name": "Initiation Surnaturelle",
+        "text": "Pour chacun de vos emplacements d'arcane, piochez 1 carte (5 max). Pour chacun de vos emplacements d'arcane occupés, Choisissez et défaussez 1 carte de votre main.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09087",
+        "name": "Protection Foudroyante",
+        "text": "Avant de jouer la Protection Foudroyante, vous avez le droit de défausser n'importe quel nombre de cartes de vos emplacements d'arcane.\nInfligez X dégâts à un ennemi non-[[Élite]] engagé avec vous. La valeur X ne peut pas être supérieure au nombre de vos emplacements d'arcane inoccupés. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Sort."
+    },
+    {
+        "code": "09088",
+        "name": "Chapelet de Malédictions",
+        "text": "<b>Discussion.</b> Choisissez un ennemi non-[[Élite]] dans votre lieu et choisissez une des options suivantes :\n- Échappez automatiquement à cet ennemi et placez 1 fatalité sur lui. Il ne peut pas subir de dégâts pour le reste du round. Découvrez un indice dans votre lieu.\n- Si cet ennemi a au moins 1 fatalité sur lui, il est vaincu. Gagnez 1 ressource pour chaque fatalité qui était sur lui.",
+        "traits": "Sort."
+    },
+    {
+        "code": "09089",
+        "name": "Fiole d'Asservissement",
+        "slot": "Accessoire",
+        "subname": "Prison Interdimensionnelle",
+        "text": "Vous avez 1 emplacement d'arcane pour chaque ennemi sur la Fiole d'Asservissement.\n[reaction] Après qu'un ennemi non-[[Élite]] a été vaincu dans votre lieu : placez cet ennemi face cachée sous la Fiole d'Asservissement. (Limite de 2 ennemis dessous).\n[reaction] Quand un ennemi vous attaque, défaussez un ennemi situé sous la Fiole d'Asservissement qui partage un [[Trait]] avec l'ennemi attaquant : annulez cette attaque.",
+        "traits": "Objet. Relique."
+    },
+    {
+        "code": "09090",
+        "name": "Épouvantable Possession",
+        "text": "Après avoir attribuer Épouvantable Possession à un test de compétence sur un soutien, choisissez une option :\n- Placez 1 fatalité sur ce soutien. Épouvantable Possession gagne [wild] [wild].\n- Si ce test est réussi, soit vous retirez une fatalité de ce soutien, soit vous reconstituez la moitié de ses utilisations (arrondir à l'inférieur).",
+        "traits": "Inné. Sort."
+    },
+    {
+        "code": "09091",
+        "name": "Miroir Astral",
+        "slot": "Corps",
+        "text": "Pour chacun de vos emplacements d'arcane inoccupés, vous avez un emplacement de main supplémentaire.\nVous avez le droit d'effectuer une action supplémentaire durant votre tour, qui ne peut être utilisée que pour jouer un soutien dans l'un de vos emplacements de main.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09092",
+        "name": "Elle Rubash",
+        "slot": "Allié",
+        "subname": "Purificatrice",
+        "text": "Vous gagnez +1 à votre valeur de compétence tant que vous résolvez un test de compétence sur un soutien attaché.\nPour chaque soutien attaché, 1 fatalité qui est dessus n'est pas comptabilisée pour déterminer si le seuil de fatalité de l'intrigue est atteint.\n[fast] Inclinez Elle Rubash : choisissez un soutien dans votre zone de jeu qui a au moins 1 fatalité sur lui. Attachez-le à Elle Rubash, ou échangez-le avec un soutien attaché. (Limite de 2 soutiens attachés).",
+        "traits": "Allié. Ensorceleur."
+    },
+    {
+        "code": "09093",
+        "flavor": "« En l'honneur de la lune... »",
+        "name": "Rituel du Clair de Lune",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nRetirez toutes les fatalités sur 1 carte non-[[Élite]] dans votre lieu.",
+        "traits": "Sort. Perspicacité."
+    },
+    {
+        "code": "09094",
+        "name": "Dévoreur de Péchés",
+        "text": "Permanent. Exceptionnel.\n[fast] Inclinez le Dévoreur de Péchés : déplacez dessus 1 fatalité d'un soutien que vous contrôlez. Ensuite, soit vous redressez le soutien duquel vous avez déplacé la fatalité, soit vous placez 1 charge sur lui.\n[action] : retirez toutes les fatalités qui sont sur le Dévoreur de Péchés.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09095",
+        "flavor": "Le pouvoir s'empara d'elle, la fit frémir et trembler.\nSon énergie ne fit qu'un avec elle et ensuite,\nelle ouvrit les yeux…",
+        "name": "Libérer l'Âme",
+        "text": "Vous avez le droit de défausser un soutien [[Sort]] ou [[Rituel]] que vous contrôlez. Jouez une carte [[Sort]] ou [[Rituel]] de votre main ou de votre pile de défausse, en réduisant de 3 le coût en ressource.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "09096",
+        "name": "Serpe de Cérémonie",
+        "slot": "Main",
+        "text": "[action] : <b>Combattre.</b> Pour cette attaque, soit vous utilisez votre [willpower] soit vous gagnez +1 [combat]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez la Serpe de Cérémonie et placez une fatalité dessus pour gagner +3 à votre valeur de compétence et infliger +1 dégât pour cette attaque.\n- Si un ennemi est vaincu, redressez la Serpe de Cérémonie et retirez toutes les fatalités qui sont sur elle.",
+        "traits": "Objet. Charme. Arme. Cors-à-corps."
+    },
+    {
+        "code": "09097",
+        "name": "Baguette de Sourcier",
+        "slot": "Main",
+        "text": "[action] : <b>Enquêter.</b> Pour cette enquête, soit vous utilisez votre [willpower] soit vous gagnez +1 [intellect]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez la Baguette de Sourcier et placez une fatalité dessus pour vous déplacer vers un lieu connexe et gagner +2 à votre valeur de compétence pour cette enquête.\n- Si cette enquête permet de découvrir le dernier indice d'un lieu, redressez la Baguette de Sourcier et retirez toutes les fatalités qui sont sur elle.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09098",
+        "name": "Pentacle d'Onyx",
+        "slot": "Main",
+        "text": "[action] : <b>Échapper à.</b> Pour cette tentative d'évasion, soit vous utilisez votre [willpower], soit vous gagnez +1 [agility]. Quand vous initiez cette capacité, choisissez une option -\n- Inclinez le Pentacle d'Onyx et placez une fatalité dessus pour cibler un ennemi dans votre lieu ou dans un lieu connexe, et gagner +3 à votre valeur de compétence pour cette tentative d'évasion.\n- En cas de réussite avec une différence de 2 ou plus, redressez le Pentacle d'Onyx et retirez toutes les fatalités qui sont sur lui.",
+        "traits": "Objet. Charme."
+    },
+    {
+        "code": "09099",
+        "customization_change": "Les autres investigateurs dans votre lieu ont le droit d'utiliser la capacité de l'Outil Multifonctions.\nVous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'un test de compétence sur une traîtrise.\nVous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une attaque.\nVous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une tentative d'évasion.\nVous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une enquête.\nAprès avoir échoué à un test de compétence, redressez l'Outil Multifonctions.\n[reaction] Quand vous devriez échouer à un test de compétence que vous effectuez, inclinez l'Outil Multifonctions : vous gagnez +1 à votre valeur de compétence pour ce test.",
+        "customization_text": "□ <b>Détachable.</b> Les autres investigateurs dans votre lieu ont le droit d'utiliser la capacité de l'Outil Multifonctions.\n□ <b>Pied-de-biche.</b> Vous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'un test de compétence sur une traîtrise.\n□□ <b>Couteau Aiguisé.</b> Vous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une attaque.\n□□ <b>Rétroviseur.</b> Vous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une tentative d'évasion.\n□□ <b>Lentille Grossissante.</b> Vous gagnez +1 supplémentaire à votre valeur de compétence s'il s'agit d'une enquête.\n□□□ <b>Porte-bonheur.</b> Après avoir échoué à un test de compétence, redressez l'Outil Multifonctions.\n□□□ <b>Sur Ressort.</b> La capacité de l'Outil Multifonctions est maintenant une capacité [reaction] dont la condition de déclenchement est : \"Quand vous devriez échouer à un test de compétence que vous effectuez, inclinez l'Outil Multifonctions...\"",
+        "flavor": "Mais attendez - il y a ça aussi !",
+        "name": "Outil Multifonctions",
+        "slot": "Main",
+        "text": "Personnalisable. Limite de 1 par investigateur.\n[fast] Lors d'un test de compétence que vous effectuez, inclinez l'Outil Multifonctions : vous gagnez +1 à votre valeur de compétence pour ce test.",
+        "traits": "Objet. Outil."
+    },
+    {
+        "code": "09100",
+        "customization_change": "Quand vous jouez le Piège Rudimentaire, vous avez le droit d'augmenter ou de diminuer de 1 sa valeur d'Utilisations.\n<b>Forcé</b> - À la fin du round, s'il y a au moins 1 ennemi dans le lieu attaché : retirez une \"fois\" du Piège Rudimentaire.\nRapide. À jouer lors de n'importe quelle fenêtre [fast].\nQuand vous retirez 1 ou plusieurs \"fois\" du Piège Rudimentaire, infligez 1 dégât à un ennemi dans le lieu attaché.\nAttachez le Piège Rudimentaire à votre lieu ou à un lieu connexe révélé.\nChaque ennemi non-[[Élite]] dans le lieu attaché perd -1 combat et -1 évasion et ne peut pas se déplacer ou effectuer d'attaques d'opportunité.\nPersonnalisable. Utilisations (2 \"fois\"). Quand le Piège Rudimentaire n'a plus de \"fois\" et est défaussé, infligez 3 dégâts à chaque ennemi et investigateur dans le lieu attaché.",
+        "customization_text": "□ <b>Minuteur Perfectionné.</b> Quand vous jouez le Piège Rudimentaire, vous avez le droit d'augmenter ou de diminuer de 1 sa valeur d'Utilisations.\n□ <b>Fil Déclencheur.</b> Ne déclenchez la capacité Forcé du Piège Rudimentaire que s'il y a au moins 1 ennemi dans le lieu attaché.\n□□ <b>Simplifié.</b> Le Piège Rudimentaire gagne : \"Rapide. À jouer lors de n'importe quelle fenêtre [fast].\"\n□□ <b>Vénéneux.</b> Quand vous retirez 1 ou plusieurs \"fois\" du Piège Rudimentaire, infligez 1 dégât à un ennemi dans le lieu attaché.\n□□ <b>Installation Déportée.</b> Quand vous jouez le Piège Rudimentaire, vous avez le droit de l'attacher à un lieu connexe révélé.\n□□□ <b>Filet.</b> Les ennemis non-[[Élite]] dans le lieu attaché ne peuvent pas se déplacer ou effectuer d'attaques d'opportunité.\n□□□□ <b>Engin Explosif.</b> Quand le Piège Rudimentaire n'a plus de \"fois\" et est défaussé, infligez 3 dégâts à chaque ennemi et investigateur dans le lieu attaché.",
+        "name": "Piège Rudimentaire",
+        "text": "Personnalisable. Utilisations (2 \"fois\"). S'il n'y a pas de \"fois\" sur le Piège Rudimentaire, défaussez-le.\nAttachez cette carte à votre lieu.\nChaque ennemi non-[[Élite]] dans le lieu attaché perd -1 combat et -1 évasion.\n<b>Forcé</b> - À la fin du round : retirez une \"fois\" du Piège Rudimentaire.",
+        "traits": "Improvisé. Piège"
+    },
+    {
+        "code": "09101",
+        "customization_change": "Personnalisable. Traits choisis : _____\nTrait Additionnel :  _____\nTrait Additionnel : _____\nS'il s'agit d'un test de compétence sur ou contre un ennemi doté du trait choisi, en cas de réussite vous avez le droit d'attacher Railleries à cet ennemi. Diminuez de 1 la difficulté des tests sur ou contre l'ennemi attaché.\nS'il s'agit d'un test de compétence sur une traîtrise dotée d'un trait choisi, en cas de réussite vous avez le droit d'ajouter Railleries et cette traîtrise à la pile de victoire.\nAprès que vous avez pioché une carte Rencontre dotée d'un trait choisi, renvoyez dans votre main un exemplaire de Railleries de votre pile de défausse. (Max une fois par round.)",
+        "customization_text": "[[Traits]] choisis : _____\n□ <b>Spécialiste.</b> Choisissez un autre trait : _____\n□□ <b>Spécialiste.</b> Choisissez un autre trait : _____\n□□□ <b>Némésis.</b> S'il s'agit d'un test de compétence sur ou contre un ennemi doté du trait choisi, en cas de réussite vous avez le droit d'attacher Railleries à cet ennemi. Diminuez de 1 la difficulté des tests sur ou contre l'ennemi attaché.\n□□□□ <b>Insensible au Mythe.</b> S'il s'agit d'un test de compétence sur une traîtrise dotée d'un trait choisi, en cas de réussite vous avez le droit d'ajouter Railleries et cette traîtrise à la pile de victoire.\n□□□□□ <b>Toujours prêt.</b> Après que vous avez pioché une carte Rencontre dotée d'un trait choisi, renvoyez dans votre main un exemplaire de Railleries de votre pile de défausse. (Max une fois par round.)",
+        "name": "Railleries",
+        "text": "Personnalisable. Quand vous achetez Railleries, choisissez deux [[Traits]] et inscrivez-les sur sa fiche Amélioration.\nS'il s'agit d'un test de compétence sur ou contre une carte Rencontre <i>(y compris combattre, s'échapper ou discuter)</i>, Railleries gagne [wild] [wild] pour chaque trait choisi que possède cette carte Rencontre.",
+        "traits": "Inné. Développé."
+    },
+    {
+        "code": "09102",
+        "flavor": "Son poids était rassurant et le métal chaud contre sa peau.",
+        "name": "Idole de Xanatos",
+        "slot": "Accessoire",
+        "subname": "Veilleur Intemporel",
+        "text": "[reaction] Quand des dégâts et/ou horreurs vous sont infligés, inclinez l'Idole de Xanatos et défaussez jusqu'à 3 cartes de votre main : annulez autant de dégâts/horreurs.",
+        "traits": "Objet. Relique."
+    },
+    {
+        "code": "09103",
+        "name": "Bouclier Improvisé",
+        "slot": "Main",
+        "text": "Le Bouclier Improvisé ne peut être joué que depuis votre pile de défausse.\n<b>Forcé</b> - Quand le Bouclier Improvisé est vaincu : mélangez-le dans votre deck au lieu de le défausser.",
+        "traits": "Objet. Armure. Improvisé."
+    },
+    {
+        "code": "09104",
+        "flavor": "« Heu... devons-nous faire demi-tour? »",
+        "name": "Fin de Route",
+        "text": "Rapide. À jouer lors de votre tour uniquement si l'intrigue finale est en jeu.\nPiochez 1 carte, gagnez 1 ressource et gagnez 1 action supplémentaire. Retirez Fin de Route de la partie.",
+        "traits": "Perspicacité. Esprit."
+    },
+    {
+        "code": "09105",
+        "name": "Exploiter une Faiblesse",
+        "text": "Rapide. À jouer avant de révéler un pion Chaos lors d'une attaque ou tentative d'évasion que vous effectuez et uniquement si la difficulté de ce test est actuellement de 0.\nCe test réussit automatiquement. Au lieu d'appliquer les effets normaux de ce test, défaussez l'ennemi attaqué ou auquel vous échappez (s'il est [[Élite]], échappez-lui automatiquement et infligez-lui 3 dégâts à la place).",
+        "traits": "Tactique. Ruse."
+    },
+    {
+        "code": "09106",
+        "flavor": "Il existe toujours une certaine logique à ces calculs macabres de survie.",
+        "name": "Préparatifs",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - Choisissez de compétences ([willpower], [intellect], [combat], ou [agility]). Jusqu'à la fin de la phase d'Investigation, chaque investigateur obtient +1 à chacune des compétences choisies et -1 aux autres compétences.",
+        "traits": "Dilemme. Tactique."
+    },
+    {
+        "code": "09107",
+        "name": "Prédateur ou Proie",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - S'il n'y a aucun ennemi en jeu, piochez 1 carte. Sinon, vous devez décider (choisissez une option) :\n- Chaque ennemi non-engagé se déplace une fois en direction de l'investigateur le plus proche.\n- Chaque investigateur se désengage de chaque ennemi engagé avec lui et se déplace une fois en s'éloignant de l'ennemi le plus proche.",
+        "traits": "Dilemme. Tactique."
+    },
+    {
+        "code": "09108",
+        "name": "Faire la Lumière",
+        "text": "Rapide. À jouer avant de révéler un pion Chaos lors d'une enquête que vous effectuez et uniquement si la difficulté de ce test est actuellement de 0.\nCe test réussit automatiquement. Vous découvrez 1 indice supplémentaire dans ce lieu et 1 indice supplémentaire dans n'importe quel lieu.",
+        "traits": "Perspicacité. Ruse."
+    },
+    {
+        "code": "09109",
+        "name": "À la Croisée des Chemins",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - Choisissez un investigateur et décidez (choisissez une option) :\n- L'investigateur choisi doit immédiatement effectuer une action comme si c'était son tour, ensuite il défausse 1 carte prise au hasard dans sa main.\n- L'investigateur choisi perd 1 action lors de son prochain tour, ensuite il pioche 3 cartes.",
+        "traits": "Dilemme. Perspicacité."
+    },
+    {
+        "code": "09110",
+        "name": "Bouée de Sauvetage",
+        "text": "1 max. par tour.\nRapide. À jouer quand le tour d'un investigateur devrait se terminer.\nCet investigateur a le droit d'effectuer X actions supplémentaires durant son tour. X est le nombre de tests de compétence auxquels il a échoué durant son tour. Bannissez la Bouée de Sauvetage.",
+        "traits": "Chance."
+    },
+    {
+        "code": "09111",
+        "name": "Nature de la Bête",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - Révélez les 3 cartes du dessus du deck Rencontre. Choisissez un investigateur qui pioche 1 des cartes révélées et défausse les autres. Ensuite, choisissez un investigateur qui découvre 1 indice dans n'importe quel lieu révélé.",
+        "traits": "Dilemme. Perspicacité."
+    },
+    {
+        "code": "09112",
+        "flavor": "« Maintenant, Monsieur, vous allez m'écouter ! »",
+        "name": "Discernement",
+        "text": "1 max. attribuée par test de compétence.\nVous pouvez attribuer Discernement à n'importe quel type de test.\nTant que Discernement est attribuée à un test de compétence, diminuez de 2 la difficulté de ce test.",
+        "traits": "Inné."
+    },
+    {
+        "code": "09113",
+        "name": "Batte de Base-Ball",
+        "slot": "Main x2",
+        "text": "[action] : <b>Combattre.</b> Vous gagnez +2 [combat] pour cette attaque. Cette attaque inflige +1 dégât. Si un symbole [skull] ou [auto_fail] est révélé lors de cette attaque, choisissez une des options suivantes -\n- Renvoyez dans votre main la Batte de Base-Ball après cette attaque.\n- Cette attaque inflige +1 dégât supplémentaire. Défaussez la Batte de Base-Ball après cette attaque.",
+        "traits": "Objet. Arme. Corps-à-corps."
+    },
+    {
+        "code": "09114",
+        "flavor": "« Réservons cela pour plus tard. »",
+        "name": "Katja Eastbank",
+        "slot": "Allié",
+        "subname": "Gardienne des Coutumes Ésotériques",
+        "text": "[reaction] Quand vous piochez une carte non-faiblesse du dessus de votre deck, avant de résoudre n'importe lequel de ses effets, inclinez Katja Eastbank : placez cette carte face cachée sous Katja Eastbank (limite de 5 cartes sous elle). Piochez une nouvelle carte pour la remplacer.\n[action] : piochez n'importe quelle carte sous Katja Eastbank.",
+        "traits": "Allié. Érudit."
+    },
+    {
+        "code": "09115",
+        "name": "Réaliser son Rêve",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - Révélez la carte du dessus du deck de chaque investigateur et constituez une pile distincte avec ces cartes révélées. Répétez ceci deux fois de plus. Choisissez une des trois piles. Chaque investigateur pioche sa carte dans la pile choisie. Chaque faiblesse présente dans les deux autres piles est mélangée dans le deck de son propriétaire. Retirez de la partie les autres cartes qui ont été révélées.",
+        "traits": "Augure. Dilemme."
+    },
+    {
+        "code": "09116",
+        "flavor": "Vous aussi, vous vous sentez un peu abandonné.",
+        "name": "Recyclage",
+        "text": "Choisissez un soutien [[Objet]] dans votre pile de défausse. Choisissez une des options suivantes :\n- Retirez de la partie ce soutien et gagnez un nombre de ressources égal à son coût.\n- Jouez ce soutien <i>(en payant son coût)</i>.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "09117",
+        "name": "Vieux Porte-Clés",
+        "slot": "Main",
+        "text": "Utilisations (3 clés). S'il n'y a pas de clés sur le Vieux Porte-Clés, défaussez-le.\n[action] : <b>Enquêter.</b> Votre lieu perd 2 de valeur occulte pour cette enquête. En cas de réussite, retirez 1 clé du Vieux Porte-Clés et, si la difficulté de ce test est de 0, vous découvrez 1 indice supplémentaire.",
+        "traits": "Objet. Outil."
+    },
+    {
+        "code": "09118",
+        "name": "Fortune Capricieuse",
+        "text": "2 [[Dilemme]] max. par round.\n<b>Révélation</b> - Vous devez décider (choisissez une option) :\n- Placez 1 fatalité sur l'intrigue en cours. Chaque investigateur soigne 3 dégâts et 3 horreurs.\n- Retirez 1 fatalité de l'intrigue en cours. Chaque investigateur subit 1 dégât direct et 1 horreur directe. Retirez Fortune Capricieuse de la partie.",
+        "traits": "Dilemme. Chance."
+    },
+    {
+        "code": "09119",
+        "customization_change": "Forme Tir Précis : <i>Émanation</i> - <b>Combattre.</b> Attaquez avec n'importe quelle compétence. Cette attaque inflige +1 dégât.\nForme Scan Distant : <i>Émanation</i> - <b>Enquêter.</b> Enquêtez avec n'importe quelle compétence. En cas de réussite, découvrez un indice dans n'importe quel lieu révélé à la place de votre lieu.\nForme Téléporteur : <i>Émanation</i> - <b>Échapper à.</b> Tentez de vous échapper avec n'importe quelle compétence. Avant ou après cette tentative, vous avez le droit de déplacer un investigateur ou un ennemi non-[[Élite]] de votre lieu vers un lieu connexe, ou vice versa.\nForme Annihilateur de Réalité : <i>Émanation</i> - Effectuez un test avec n'importe quelle compétence (3). En cas de réussite, défaussez une traîtrise non-faiblesse en jeu et qui n'est pas attachée à un ennemi [[Élite]].\nForme Façonneur de Matière : <i>Émanation</i> - Choisissez un soutien de votre main et effectuez un test avec n'importe quelle compétence (X), X étant le coût de ce soutien. En cas de réussite, jouez ce soutien gratuitement.\nPersonnalisable. Utilisations (6 éthers). S'il n'y a pas d'éthers sur le Flingue Hyperphysique, défaussez-le.\nTant que vous utilisez une capacité <i>Émanation</i>, vous gagnez +2 à votre valeur de compétence.",
+        "customization_text": "□□ <b>Tir Précis.</b> Le Flingue Hyperphysique a cette forme : \"<i>Émanation</i> - <b>Combattre.</b> Attaquez avec n'importe quelle compétence. Cette attaque inflige +1 dégât.\"\n□□ <b>Scan Distant.</b> Le Flingue Hyperphysique a cette forme : \"<i>Émanation</i> - <b>Enquêter.</b> Enquêtez avec n'importe quelle compétence. En cas de réussite, découvrez un indice dans n'importe quel lieu révélé à la place de votre lieu.\"\n□□ <b>Téléporteur.</b> Le Flingue Hyperphysique a cette forme : \"<i>Émanation</i> - <b>Échapper à.</b> Tentez de vous échapper avec n'importe quelle compétence. Avant ou après cette tentative, vous avez le droit de déplacer un investigateur ou un ennemi non-[[Élite]] de votre lieu vers un lieu connexe, ou vice versa.\"\n□□ <b>Annihilateur de Réalité.</b> Le Flingue Hyperphysique a cette forme : \"<i>Émanation</i> - Effectuez un test avec n'importe quelle compétence (3). En cas de réussite, défaussez une traîtrise non-faiblesse en jeu et qui n'est pas attachée à un ennemi [[Élite]].\"\n□□ <b>Façonneur de Matière.</b> Le Flingue Hyperphysique a cette forme : \"<i>Émanation</i> - Choisissez un soutien de votre main et effectuez un test avec n'importe quelle compétence (X), X étant le coût de ce soutien. En cas de réussite, jouez ce soutien gratuitement.\"\n□□□□ <b>Lien Éthérique.</b> Le Flingue Hyperphysique entre en jeu avec 2 éthers supplémentaires.\n□□□□ <b>Configuration Optimale.</b> Tant que vous utilisez une capacité <i>Émanation</i>, vous gagnez +2 à votre valeur de compétence.",
+        "name": "Flingue Hyperphysique",
+        "slot": "Main",
+        "subname": "Dispositif Théorique",
+        "text": "Personnalisable. Utilisations (4 éthers). S'il n'y a pas d'éthers sur le Flingue Hyperphysique, défaussez-le.\n[action] Dépensez 1 éther : résolvez la capacité <i>Émanation</i> de la forme actuelle du Flingue Hyperphysique.\n[fast] Inclinez le Flingue Hyperphysique : changez sa forme <i>(pour une que vous avez débloquée sur sa fiche Amélioration).</i>",
+        "traits": "Objet. Relique. Arme. Arme à feu."
+    },
+    {
+        "code": "09120",
+        "name": "Ceinture Porte-Outils",
+        "slot": "Corps",
+        "text": "Chaque soutien attaché n'occupe aucun emplacement et perd le texte imprimé dans sa boîte de texte (à l'exception des [[Traits]]).\n[fast] Inclinez la Ceinture Porte-Outils : choisissez une option - attachez à la Ceinture Porte-Outils un soutien [[Outil]] qui se trouve dans votre zone de jeu ; échangez un soutien [[Outil]] de votre zone de jeu contre un soutien attaché ; détachez un soutien attaché.",
+        "traits": "Objet. Vêtement."
+    },
+    {
+        "code": "09121",
+        "name": "Affiner",
+        "text": "En tant que coût supplémentaire pour jouer Affiner, dépensez une action.\nCochez immédiatement une case sur une fiche Amélioration d'une carte personnalisable que vous possédez, même si elle n'est pas en jeu.\nUne fois max. par partie pour chaque investigateur.",
+        "traits": "Ravitaillement. Double."
+    },
+    {
+        "code": "09122",
+        "name": "Lampe-Torche",
+        "slot": "Main",
+        "text": "utilisations (4 provisions).\n[reaction] Quand vous effectuez un test de compétence lorsque vous enquêtez ou tentez de vous échapper, dépensez 1 provision : diminuez de 2 la difficulté de ce test.\n<b>Carte conçue par the Council-in-Exile lors des Arkham Nights 2020.</b>",
+        "traits": "Objet. Outils."
+    },
+    {
+        "code": "09123",
+        "name": "Sanctification d'Âme",
+        "text": "Permanent. Exceptionnel.\nPour chaque point de dégât et/ou horreur que vous soignez en excès des dégâts/horreurs actuellement présents sur un investigateur, placez 1 ressource sur Sanctification d'Âme, en tant qu'offrande. Cela reste considéré comme étant un soin.\n[fast] Dépensez 1 offrande : vous gagnez +2 à votre valeur de compétence pour ce test. (Limite de 2 fois par test.)",
+        "traits": "Rituel."
+    },
+    {
+        "code": "09124",
+        "name": "Rôdeur dans l'Obscurité",
+        "text": "Investigateur [guardian] uniquement.\nChasseur.\n<b>Génération</b> - N'importe quel lieu connexe.\nLe Rôdeur dans l'Obscurité ne peut être attaqué ou blessé qu'en utilisant des soutiens [[Arme]] ou des événements [[Tactique]], et subit 1 dégât de moins de chaque source.",
+        "traits": "Monstre. Shoggoth."
+    },
+    {
+        "code": "09125",
+        "name": "Paradoxe Quantique",
+        "text": "Investigateur [seeker] uniquement.\nEn tant que coût supplémentaire pour jouer Paradoxe Quantique, vous devez choisir et défausser 4 autres cartes de votre main.\n<b>Forcé</b> - Si Paradoxe Quantique est dans votre main à la fin de votre tour : révélez-le et subissez 1 horreur.",
+        "traits": "Paradoxe."
+    },
+    {
+        "code": "09126",
+        "name": "Payer son Dû",
+        "text": "Investigateur [rogue] uniquement.\nEn tant que coût supplémentaire pour jouer Payer son Dû, vous avez le droit de dépenser n'importe quel nombre d'actions supplémentaires. Réduisez de 5 le coût de cet événement pour chaque action supplémentaire ainsi dépensée.\n<b>Force</b> - Si Payer son Dû est dans votre main à la fin de votre tour : révélez-le et subissez 1 dégât.",
+        "traits": "Pacte."
+    },
+    {
+        "code": "09127",
+        "name": "Horreur Ectoplasmique",
+        "text": "Investigateur [mystic] uniquement.\nChasseur.\nLa première fois que vous révélez un pion Chaos lorsque vous attaquez ou tentez d'échapper à l'Horreur Ectoplasmique, révélez un pion supplémentaire pour chacun de vos emplacements d'arcane inoccupés.",
+        "traits": "Monstre. Geist."
+    },
+    {
+        "code": "09128",
+        "name": "Mal Préparé",
+        "text": "Investigateur [survivor] uniquement.\nÀ jouer si Mal Préparé est la seule carte de votre main et que vous avez exactement 1 ressource dans votre réserve.\nTant que Mal Préparé est dans votre main, chaque carte que vous attribuez à des tests de compétence est considérée comme ayant 1 icône de compétence appropriée de moins.",
+        "traits": "Bévue."
+    }
+]
