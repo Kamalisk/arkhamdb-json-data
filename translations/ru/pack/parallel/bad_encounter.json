@@ -1,37 +1,37 @@
 [
     {
         "code": "90020",
-        "name": "Bad Blood",
-        "text": "Easy / Standard\n[skull]: -X. X is the number of memories Agnes Baker has collected.\n[cultist]: -2. Ready Elspeth Baudin and resolve her patrol keyword.\n[tablet]: -3. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.\n[elder_thing]: -6. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken.",
-        "back_text": "Hard / Expert\n[skull]: -X. X is 1 more than the number of memories Agnes Baker has collected.\n[cultist]: -3. Ready Elspeth Baudin and resolve her patrol keyword. If she is engaged with an investigator, she makes an attack.\n[tablet]: -5. If you fail and there is a memory at Elspeth Baudin's location, place this token on that location.\n[elder_thing]: -8. Agnes Baker may take up to 3 damage to increase your skill value by 2 for each damage taken."
+        "name": "Кровная вражда",
+        "text": "ЛЁГКИЙ / ОБЫЧНЫЙ\n[skull]: -X. X равен числу воспоминаний , собранных Агнес Бейкер\n[cultist]: -2. Разверните «Элспет Боден» и разыграйте её ключевое слово Стремление.\n[tablet]: -3. При провале, если в локации «Элспет Боден» есть жетон воспоминания, положите этот жетон хаоса в ту локацию. \n[elder_thing]: -6. Агнес Бейкер может получить до 3 ран, чтобы получить +2 к значению навыка за каждую полученную рану.",
+        "back_text": "СЛОЖНЫЙ / ЭКСТРЕМАЛЬНЫЙ\n[skull]: -X. X на один больше числа воспоминаний, собранных Агнес Бейкер.\n[cultist]: -3. Разверните «Элспет Боден» и разыграйте её ключевое слово Стремление. Если она сражается с сыщиком, она атакует его.\n[tablet]: -5. При провале, если в локации «Элспет Боден» есть жетон воспоминания, положите этот жетон хаоса в ту локацию.\n[elder_thing]: -8. Агнес Бейкер может получить до 3 ран, чтобы получить +2 к значению навыка за каждую полученную рану."
     },
     {
         "code": "90021",
-        "name": "Hyperborean Blood",
-        "text": "<b>Forced</b> - At the end of the enemy phase, if Elspeth Baudin is ready and there is a memory at her location: Reveal a random token from the chaos bag and place it on that location.\n<b>Forced</b> - If there are 1 or more chaos tokens on a location without a memory: Return them to the chaos bag.\n<b>Forced</b> - If there are chaos tokens on a location with a memory that have a combined value of 6 or more (ignoring +/- and treating each [auto_fail] and [elder_sign] as a -6): Return them to the chaos bag, and Elspeth Baudin collects that memory.",
-        "back_name": "Out For Blood",
-        "back_flavor": "A crackle of arcane power lashes throughout the sky, seeking out you and your companions. For a brief moment, the torment is unbearable. The pain forks through your body like poison in your veins. A flash of light in the back of your vision blinds you. Then, just as suddenly, it is over. But there is something missing. Something lost. Is she trying to steal your memories?",
-        "back_text": "Elspeth Baudin attacks each investigator in player order, regardless of their current location <i>(even if she is exhausted)</i>.\nFlip this agenda back over."
+        "name": "Кровь Гипербореи",
+        "text": "<b>Обязательно</b> - В конце фазы врагов, если «Элспет Боден» развёрнута и в её локации есть воспоминание: Вытяните случайный жетон из мешка хаоса и положите его на ту локацию.\n<b>Обязательно</b> - Если на локации без воспоминаний лежит 1 и более жетонов хаоса: Верните их в мешок хаоса.\n<b>Обязательно</b> - Если сумма модификаторов жетонов хаоса на локации с воспоминанием равна 6 или больше (игнорируйте знак +/–, считайте [auto_fail] и [elder_sign] жетонами -6): Верните те жетоны хаоса в мешок хаоса, «Элспет Боден» собирает то воспоминание.",
+        "back_name": "Жажда крови",
+        "back_flavor": "Магическая энергия с треском раскалывает небо в поисках вас и ваших спутников. На краткий миг муки становятся невыносимыми. Боль пронзает ваше тело, будто яд, растекающийся по венам. Вспышка света на задворках сознания ослепляет вас. Затем, так же внезапно, всё заканчивается. Но чего-то не хватает. Что-то исчезло. Она что, пытается украсть ваши воспоминания?",
+        "back_text": "«Элспет Боден» атакует <i>(даже если она повёрнута)</i> каждого сыщика в порядке игроков, вне зависимости от их локации.\nПереверните этот замысел обратно."
     },
     {
         "code": "90022",
-        "flavor": "You must recover the lost memories of your previous life before Elspeth does!",
-        "name": "A Walk Down Memory Lane",
-        "text": "[fast] Investigators at Agnes Baker's location spend 2 [per_investigator] clues, as a group: Agnes Baker collects the memory at her location.\n<b>Forced</b> - If Agnes Baker is defeated, proceed to <b>(→R2)</b>.\n<b>Objective</b> - Collect more memories than Elspeth. If all 9 memories have been collected <i>(by either party)</i>, advance.",
-        "back_name": "Memory of Eternal Conquest",
-        "back_text": "<b>If Agnes collected more memories than Elspeth:</b>\n<blockquote><i>Elspeth falls before you, pain coursing through her body. \"Go on, then. Finish it,\" she hisses through her teeth, glaring up at you with seething hatred. Arcane power crackles in your hand. She is your enemy. Your conquest. Her life, her memories, they are in your hands. You should take what is rightfully yours.</i></blockquote>\n<b>(→R1)</b>\n<hr><b>If Elspeth collected more memories than Agnes:</b>\n<blockquote><i>You fall to your knees, overcome by pain. Elspeth looms over you, her hands crackling with arcane energy. \"You are weak,\" she taunts. \"You are not deserving of this power. But I...\" she grins. \"I will be so much better.\"</i></blockquote>\n<b>(→R2)</b>"
+        "flavor": "Вы должны восстановить утерянную память о прошлой жизни раньше, чем это сделает Элспет!",
+        "name": "Вспомнить всё",
+        "text": "[fast] Сыщики в локации Агнес Бейкер совместно тратят 2 [per_investigator] улик: Агнес Бейкер собирает воспоминание в своей локации.\n<b>Обязательно</b> - Если Агнес Бейкер побеждена, <b>(в†’И2)</b>.\n<b>Цель</b> - соберите больше воспоминаний, чем Элспет. Если все 9 воспоминаний собраны <i>(неважно кем)</i>, продвиньтесь.",
+        "back_name": "Воспоминание о вечной борьбе",
+        "back_text": "<b>Если Агнес собрала больше воспоминаний, чем Элспет:</b>\n<blockquote><i>Элспет падает перед вами, боль пронзает её тело. «Ну, давай. Закончи это», — шипит она сквозь зубы, глядя на вас с ненавистью. Магическая энергия потрескивает в ваших руках. Она — ваш враг. Ваша соперница. Её жизнь, её память — в ваших руках. Вы должны взять то, что принадлежит вам по праву.</i></blockquote>\n<b>(в†’И1)</b>\n<hr><b>Если Элспет собрала больше воспоминаний, чем Агнес:</b>\n<blockquote><i>Вы падаете на колени, задыхаясь от боли. Элспет нависает над вами, её руки потрескивают магической энергией. «Ты слаба, — язвит она. — Ты не заслуживаешь этой силы. Я же…, — усмехается она. — Я справлюсь с ней гораздо лучше».</i></blockquote>\n<b>(в†’И2)</b>"
     },
     {
         "code": "90023",
-        "name": "Elspeth Baudin",
-        "subname": "Hyperborean Sorceress",
-        "text": "Alert. Patrol (nearest location with at least 1 memory). Retaliate.\nElspeth Baudin cannot be automatically evaded and gets -1 fight and -1 evade for each memory she has collected.\n<b>Forced</b> - When Elspeth Baudin would be defeated: Instead, heal all damage from her, flip her over, and resolve the text on her other side.",
-        "traits": "Humanoid. Sorcerer. Elite."
+        "name": "Элспет Боден",
+        "subname": "Гиперборейская чародейка",
+        "text": "Бдительная. Стремление (ближайшая локация с воспоминаниями). Мститель.\nОт «Элспет Боден» нельзя автоматически уйти. Считайте, что у неё –1 к бою и –1 к уходу за каждое собранное ею воспоминание.\n<b>Обязательно</b> - Когда «Элспет Боден» должна быть побеждена: Вместо этого вылечите ей все раны, переверните её и разыграйте текст на её обратной стороне.",
+        "traits": "Гуманоид. Чародей. Элитная."
     },
     {
         "code": "90023b",
-        "flavor": "Light crashes against the night sky as your magic and Elspeth's intersect. A blaring peal - like an otherworldly siren, calling for judgment - sends you and Elspeth both to your knees. She reels in pain, digging her nails into her temples. You reach out with your power, grasp at her memories, and pull with all your strength.",
-        "name": "Triumph and Subjugation",
-        "text": "Agnes Baker must decide (choose one):\n- Agnes Baker collects 1 memory from Elspeth Baudin.\n- Agnes Baker gains 2 [per_investigator] clues from the token bank.\nThen, flip this card over, exhausted and unengaged."
+        "flavor": "Свет разбивается о ночное небо, когда ваша магия и магия Элспет пересекаются. Пронзительный вопль — словно потусторонняя сирена, обрушивающая на вас кару — бросает вас и Элспет на колени. Она корчится от боли, впиваясь ногтями в виски. Вы направляете на неё свою магическую энергию, хватаетесь за воспоминания и тянете изо всех сил.",
+        "name": "Триумф и подчинение",
+        "text": "Агнес Бейкер должна выбрать одно:\n- Агнес Бейкер собирает 1 воспоминание с «Элспет Боден».\n- Агнес Бейкер получает 2 [per_investigator] улики из запаса.\nЗатем переверните эту карту, поверните её и перестаньте с ней сражаться."
     }
 ]

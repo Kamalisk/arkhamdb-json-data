@@ -14,8 +14,9 @@
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
                 "text": [
-                    "[Hh]eals? (that much )?((\\d+|all|(X total) )?damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
+                    "[Hh]eals? (that much )?(((\\d+|all|(X total)) )?damage (from that asset )?(and|or) )?((\\d+|all|(X total)) )?horror"
                 ],
+                "tag": ["hh"],
                 "level": { "min": 0, "max": 5 }
             },
             {
@@ -191,7 +192,8 @@
             {
                 "faction": ["seeker", "survivor"],
                 "level": { "min": 0, "max": 0 },
-                "limit": 5
+                "limit": 5,
+                "error": "You cannot have more than 5 Seeker and/or Survivor cards"
             }
         ],
         "deck_requirements": "size:30, card:05018, card:05019, random:subtype:basicweakness",
