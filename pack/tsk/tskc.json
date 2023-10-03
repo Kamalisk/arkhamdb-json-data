@@ -589,11 +589,6 @@
     "traits": "Marrakesh. Ritual Site.",
     "type_code": "location"
   },
-
-
-
-
-
   {
     "back_flavor": "The once-bustling station is now quiet and lonely. The attendants in charge have delayed the train until tomorrow; news of what is happening in Marrakesh seems to have spread quickly.",
     "clues": 0,
@@ -1028,8 +1023,6 @@
     "traits": "Buenos Aires.",
     "type_code": "location"
   },
-
-
   {
     "back_flavor": "Overlooking the Plaza de Mayo looms the impressive façade of the Metropolitan Cathedral. In addition to the usual trappings of the church, Bolívar has informed you that it houses many magnificent pieces of art, as well as a mausoleum. It seems a likely target for La Chica Roja.",
     "clues": 1,
@@ -1261,9 +1254,9 @@
     "illustrator": "Borja Pindado",
     "name": "Seeing Red",
     "pack_code": "tskc",
-    "position": 46,
+    "position": 62,
     "quantity": 1,
-    "text": "<b>Forced</b> - After a decoy is exposed: Place 1 doom on this agenda.\n<b>Objective</b> - If the Sanguine Watcher is defeated, advance.",
+    "text": "<b>Forced</b> - After a decoy is exposed: Place 1 doom on this agenda.\n<b>Forced</b> – When this agenda would advance by reaching its doom threshold: Each investigator is defeated and suffers 1 mental trauma.\n<b>Objective</b> - If the Sanguine Watcher is defeated, advance.",
     "type_code": "agenda"
   },
   {
@@ -1362,7 +1355,7 @@
   {
       "back_flavor": "The daylight dims, and you strain your eyes to examine why. A strange, black shape has begun to crawl its way over the outline of the sun. An eclipse? Whatever the cult is up to, you better stop it soon...",
       "back_name": "In a Shadow of Voidlight",
-      "back_text": "In player order, each investigator must choose: Either place 1 clue <i>(from the token pool)</i> on Clues Unveiled, or search the encounter deck and discard pile for a [[Cultist]] enemy and draw it (if no [[Cultist]] enemy is found, place 1 clue on Clues Unveiled, instead). Shuffle the encounter deck if it is searched.\nFor each eclipse that was on the agenda when it advanced, an investigator must resolve the above effect an additional time.\nFlip this agenda back over, adding 1 resource to it, as an eclipse. (It keeps each other eclipse it had, as well.)",
+      "back_text": "In player order, each investigator must choose: Either place 1 clue <i>(from the token pool)</i> on Clues Unveiled, or search the encounter deck and discard pile for a [[Cultist]] enemy and draw it; it gains concealed 1 (if no [[Cultist]] enemy is found, place 1 clue on Clues Unveiled, instead). Shuffle the encounter deck if it is searched.\nFor each eclipse that was on the agenda when it advanced, an investigator must resolve the above effect an additional time.\nFlip this agenda back over, adding 1 resource to it, as an eclipse. (It keeps each other eclipse it had, as well.)",
       "code": "09567",
       "doom": 4,
       "double_sided": true,
@@ -1400,7 +1393,7 @@
   },
   {
     "back_name": "Talisman Discovered",
-    "back_text": "If the investigators reached the clue threshold first, attach The Twisted Antiprism key to any investigator at the east gate.\nIf the cult reached the clue threshold first, attach The Twisted Antiprism key to the [[Cultist]] enemy with the most clues.\nReveal each concealed mini-card in play. For each enemy's mini-card, move that enemy from the shadows to that location. Remove each concealed mini-card from the game.\nPut the locations from act 1 that were previously set aside back into play, with Hagia Sophia to the left of the entrance to the Grand Bazaar. These two locations are connected to one another for the rest of the scenario. Put Galata Docks into play.\nIf the cult reached the clue threshold first, for every 1 [per_investigator] more clues they had than the investigators, move the [[Cultist]] enemy with The Twisted Antiprism once toward Galata Docks.\nEach investigator and [[Cultist]] enemy loses each of their clues. Flip The Unveiling story card over to its other side, removing all clues from it. Advance the act and agenda deck directly to \"The Chase.\" It is both the current act and the current agenda.",
+    "back_text": "If the investigators reached the clue threshold first, attach The Twisted Antiprism key to any investigator at the east gate.\nIf the cult reached the clue threshold first, attach The Twisted Antiprism key to the [[Cultist]] enemy with the most clues.\nReveal each concealed mini-card in play. For each enemy's mini-card, move that enemy from the shadows to that location. Set each concealed mini-card aside, out of play.\nPut the locations from act 1 that were previously set aside back into play, with Hagia Sophia to the left of the entrance to the Grand Bazaar. These two locations are connected to one another for the rest of the scenario. Put Galata Docks into play.\nIf the cult reached the clue threshold first, for every 1 [per_investigator] more clues they had than the investigators, move the [[Cultist]] enemy with The Twisted Antiprism once toward Galata Docks.\nEach investigator and [[Cultist]] enemy loses each of their clues. Flip The Unveiling story card over to its other side, removing all clues from it. Advance the act and agenda deck directly to \"The Chase.\" It is both the current act and the current agenda.",
     "clues": 8,
     "code": "09569",
     "double_sided": true,
@@ -1433,7 +1426,7 @@
     "position": 70,
     "quantity": 1,
     "stage": 2,
-    "text": "<b>Objective</b> - <i>\"Get this thing out of here!\"</i> If an investigator with The Twisted Antiprism is at Galata Docks, you may proceed to <b>(→R1)</b> <i>(page 25)</i>.\n<b>Objective</b> - <i>\"Don't let them get away with the Key!\"</i> If an enemy with The Twisted Antiprism is at Galata Docks, proceed to <b>(→R6)</b> <i>(page 25)</i>.",
+    "text": "<b>Objective</b> - <i>\"Get this thing out of here!\"</i> If an investigator with The Twisted Antiprism is at Galata Docks, you may proceed to <b>(→R1)</b> <i>(page 25)</i>.\n<b>Objective</b> - <i>\"Don't let them get away with the Key!\"</i> If an enemy with The Twisted Antiprism is at Galata Docks, or if the investigator with The Twisted Antiprism is defeated, proceed to <b>(→R6)</b> <i>(page 25)</i>.",
     "type_code": "agenda"
   },
   {
@@ -1871,7 +1864,8 @@
     "text": "<b>Shift</b> - The nearest investigator must place 1 doom on an asset they control, an encounter card at their location, or the current agenda. Then, if an investigator shifted this key, flip it to its [[Stable]] side.",
     "traits": "Unstable.",
     "type_code": "key"
-  },{
+  },
+  {
     "back_text": "Hard / Expert\n[skull]: –X. X is the number of enemies in the shadows (max 5).\n[cultist]: –6. If you fail, put a decoy into play at your location, flip it over, and shuffle each concealed mini-card at your location facedown.\n[tablet]: –3. Set each non-weakness card committed to this test aside, out of play, as a hollow.\n[elder_thing]: –1. If there is a concealed mini-card at your location, either take 2 damage or treat this token's modifier as –5.",
     "code": "09591",
     "double_sided": true,
@@ -2008,7 +2002,7 @@
   {
     "back_flavor": "From your encounters with Desi's crew, you believe you've made a startling discovery. Their mannerisms don't appear to be their own, and their hostility is feral, alien. But it is the very slight distortion that occasionally follows in their wake that leads to your realization. The people who attacked you weren't Desi and his crew at all. They were taken by the entities you and Flint had been investigating and replaced by deadly imposters. But perhaps the real Desi is still out there, somewhere. If so, he's definitely in danger!",
     "back_name": "Truths Untold",
-    "back_text": "Reveal each concealed mini-card in play. For each enemy's mini-card, move that enemy from the shadows to that location. Then, remove each concealed mini-card from the game.\nReady the Desiderio Delgado Álvarez enemy, remove all tokens from him, and discard all attachments from him. Spawn the other set-aside Desiderio Delgado Álvarez enemy at the same location as the one in play, randomizing them so you do not know which is which.\nRemove all clues from each enemy in play. For each clue removed from an enemy in this way, heal 1 damage from that enemy.",
+    "back_text": "Reveal each concealed mini-card in play. For each enemy's mini-card, move that enemy from the shadows to that location. Then, set each concealed mini-card aside, out of play.\nReady the Desiderio Delgado Álvarez enemy, remove all tokens from him, and discard all attachments from him. Spawn the other set-aside Desiderio Delgado Álvarez enemy at the same location as the one in play, randomizing them so you do not know which is which.\nRemove all clues from each enemy in play. For each clue removed from an enemy in this way, heal 1 damage from that enemy.",
     "clues": null,
     "code": "09598",
     "double_sided": true,
@@ -4118,7 +4112,7 @@
     "position": 188,
     "quantity": 1,
     "shroud": 2,
-    "text": "[action]: <b>Resign.</b> Test [willpower] or [agility] (4). If you succeed, you resign, adding each [[Conspirator]] asset you control to the victory display. If you fail, you remain trapped here, and this test gets -1 difficulty until the end of your turn.",
+    "text": "[action]: <b>Resign.</b> Test [willpower] or [agility] (4). If you succeed, you resign, adding each [[Conspirator]] asset you control to the victory display. If you fail, you remain trapped here, and this test gets -1 difficulty until the end of your turn. If each surviving investigator has resigned, immediately advance to act 3b.",
     "traits": "Otherworld.",
     "type_code": "location"
   },
@@ -5293,7 +5287,7 @@
     "position": 248,
     "quantity": 1,
     "shroud": 3,
-    "text": "<b>Forced</b> - When you move from Alien Frontier to a connecting location above or below it, test [agility] (5). If you fail, take 2 damage.\n[action] Take 1 horror: Look at the revealed side of either a location in the shadows, or the top card of the Otherworld deck. (Group limit once per game.)",
+    "text": "<b>Forced</b> - When you move from Alien Frontier to a connecting location to its left or right, test [agility] (5). If you fail, take 2 damage.\n[action] Take 1 horror: Look at the revealed side of either a location in the shadows, or the top card of the Otherworld deck. (Group limit once per game.)",
     "traits": "Otherworld.",
     "type_code": "location"
   },
