@@ -1,75 +1,984 @@
 [
     {
+        "code": "08501",
+        "name": "Hielo y muerte",
+        "text": "<b>Fácil/Normal</b>\n[skull]: –X. X es la mitad del valor de refugio de tu Lugar (redondeado hacia arriba).\n[cultist]: –2. Si fracasas, añade, sin mirarla la primera carta el mazo Tekeli-li a tu mazo y baraja éste (sino puedes, recibe 1 punto de horror).\n[tablet]: –3. Por cada punto que te falte para tener éxito, descarta la primera carta de tu mazo. Roba cada Debilidad descartada por este efecto.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: –X. X es el valor de refugio de tu Lugar.\n[cultist]: –2. Por cada punto que te falte para tener éxito, añade, sin mirarla la primera carta el mazo Tekeli-li a tu mazo y baraja éste (por cada carta que no puedas añadir, recibe 1 punto de horror).\n[tablet]: –4. Por cada punto que te falte para tener éxito, descarta la primera carta de tu mazo. Roba cada Debilidad descartada por este efecto."
+    },
+    {
+        "code": "08502",
+        "name": "Lugar del accidente",
+        "text": "[action]: Realiza una prueba de [intellect] o de [agility] (3) para rebuscar entre los restos. Si tienes éxito, anota las Piezas de repuesto en la sección \"Suministros recuperados\" del registro de campaña. Máximo 1 éxito por campaña.\n<b>Refugio 0.</b>",
+        "back_flavor": "\"Era bastabte arriesgado volar sobre la Antártida en un solo avión y sin bases…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>"
+    },
+    {
+        "code": "08503",
+        "name": "Costas heladas",
+        "text": "Las Costas heladas reciben +2 a velo si tienen una carta de Encuentro vinculada.\n<b>Refugio 2.</b>",
+        "flavor": "El sol nunca llega a ponerse tras el horizonte de la costa de hielo, pintado el cielo con un complejo tápiz de bellos colores.",
+        "back_flavor": "\"Al este se extendía la baja y blanca barrera de hielo…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Continente."
+    },
+    {
+        "code": "08504",
+        "name": "Senda traicionera",
+        "text": "<b>Obligado</b> – Después de que reveles 1 o más fichas [frost] durante una prueba de habilidad en la Senda traicionera: Recibe 1 punto de daño o de horror pocada ficha [frost] revelada.\n<b>Refugio 1.</b>",
+        "back_flavor": "\"…si quería examinar los estratos en que había decubierto aquellas curiosas huellas, tendría que hacer un largo viaje en trineo hacia las faldas mismas de las montañas.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montañas."
+    },
+    {
+        "code": "08505",
+        "name": "Capa de hielo precaria",
+        "text": "[reaction] Cuando robes una Traición [[Riesgo]] mientras estés en la Capa de hielo precaria, añade 1 ficha [frost] a la bolsa de caos: Cancela los efectos de esa carta y descártala. Limite de una vez por ronda.\n<b>Refugio 2.</b>",
+        "back_flavor": "\"La capa de hielo era muy delgada, y dejaba ver la tierra en algunos lugares…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Glaciar."
+    },
+    {
+        "code": "08506",
+        "name": "Bancos de nieve anchos",
+        "text": "[reaction] Cuando investigues con éxito los Bancos de nieve anchos, añade 1 ficha [frost] a la bolsa de caos: Descubre 3 pistas adicionales en los Bancos de nieve anchos. Límite de grupo de una vez por partida.\n<b>Refugio 4.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"…en la alta barrera de hielo del fondo, miríadas de grotescos pingüinos chillaban y agitaban sus aletas…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Continente. Inexplorado."
+    },
+    {
+        "code": "08507",
+        "name": "Páramos gélidos",
+        "text": "Trata el modificador de la priemra ficha [frost] revelada durantes una prueba de hanilidad en los Páramos gélidos como -3 en lugar de -1.\n<b>Refugio 4.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"…y diez kilómetros después llegamos a una llanura virtualmente desierta.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Glaciar. Inexplorado."
+    },
+    {
+        "code": "08508",
+        "name": "Peñascos rocosos",
+        "text": "<b>Obligado</b> – Cuando sea vinculada una Traición a los Peñascos rocosos: Esa Traición obtiene Oleada. Máximo de una vez por fase.\n<b>Refugio 3.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"…se elevaba verticalmente hasta casi cien metros de altura y señalaba los límites de la navegación hacia el sur.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montañas. Inexplorado."
+    },
+    {
+        "code": "08509",
+        "name": "Tumbas de nieve",
+        "text": "[reaction] Después de que descubras la última pista de las Tumbas de nieve, añade, sin mirarlas, las 3 primeras cartas del mazo Tekeli-li a tu mazo y baraja éste: Anota la Esteatita verde en la sección \"Suministros recuperados\" del registro de campaña. Límite de grupo de una vez por campaña.\n<b>Refugio 5.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 2 pistas [per_investigator].",
+        "back_flavor": "\"Encontrar seis monstruos cuidadosamente sepultados en la nieve, en unas tumbas de casi tres metros de profundidad, con túmulos en forma de estrella…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Continente. Inexplorado."
+    },
+    {
+        "code": "08510",
+        "name": "Atracadero del rompehielos",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (4) para registrar el barco atrapado en busca de suministros. Si tienes éxito, retira 1 ficha [frost] de la bolsa de caos o anota la Radio pequeña en la sección \"Suministros recuperados\" del registro de campaña. Máximo de 1 éxito por campaña.\n<b>Refugio 5.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 2 pistas [per_investigator].",
+        "back_flavor": "\"El 9 de noviembre, poco después de medianoche, desembarcamos con dificultades en la isla de Ross.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Glaciar. Inexplorado."
+	},
+    {
+        "code": "08511",
+        "name": "Cueva glacial",
+        "text": "[action] Añade 1 ficha [frost] a la bolsa de caos: Anota el Espécimen mineral en la sección \"Suministros recuperados\" del registro de campaña. Límite de grupo de una vezz por campaña.\n<b>Refugio 6.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 2 pistas [per_investigator].",
+        "back_flavor": "\"Desde cerca se advierten unas cuevas con entradas de forma curiosamente regular: cuadradas o semicirculares. Tienen que venir e investigar con nosostros.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montañas. Inexplorado."
+    },
+    {
+        "code": "08512",
+        "name": "Campamento de la barrera",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [willpower] (4) para convencer algunos de los otros exploradores que hay aquí de que te den algo útil. Si tienes éxito, anota la Dinamita en la sección \"Suministros recuperados\" del registro de campaña. Máximo de 1 éxito por campaña.\n<b>Refugio 7.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 4 pistas [per_investigator].",
+        "back_flavor": "\"En la costa helada, al pie del monte Erebus, instalamos un campamento provisional; los cuarteles centrales seguirían a bordo del Arkham.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Glaciar. Inexplorado."
+    },
+    {
+        "code": "08513",
+        "name": "Restos del campamento de Lake",
+        "text": "[action]: Realiza una prueba de [combat] (4) para excavar en la nieve en busca de suministros. Si tienes éxito, anota el Trineo de madera en la sección \"Suministros recuperados\" del registro de campaña. Máximo de 1 éxito por campaña.\n<b>Refugio 7.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 4 pistas [per_investigator].",
+        "back_flavor": "\"Vuelvo con gran repugnancia a evocar el campamento de Lake para hablar francamente de los que encontramos allí…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Continente. Inexplorado."
+    },
+    {
+        "code": "08514",
+        "name": "Caverna cristalina",
+        "text": "[action]: Realiza una prueba de [agility] (5) para trepar por una de las paredes cristralinas en busca de pruebas. Si tienes éxito, anota el Cristal de miasma en la sección \"Suministros recuperados\" del registro de campaña. Máximo de 1 éxito por campaña.\n<b>Refugio 8.</b>",
+        "back_text": "Como coste adicional para que entres en este Lugar, los investigadores que estén en tu Lugar, deben gastar, como grupo, 4 pistas [per_investigator].",
+        "back_flavor": "\"Algunas partes, especialmente las superiores, son de rocas más claras que los estratos visibles de las pendientes; origen cristalino, es indudable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montañas. Inexplorado."
+    },
+    {
+        "code": "08515",
+        "name": "Incoherencia deslizante",
+        "text": "Cazador.\n<b>Obligado</b> – Cuando derrotes a la Incoherencia deslizante: Añade, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y baraja éste (si no puedes, la Incoherencia deslizante te ataca).",
+        "traits": "Monstruo. Eidolón."
+    },
+    {
+        "code": "08516",
+        "name": "Apeirofobia",
+        "text": "<b>Revelación</b> – Realiza una prueba de [willpower] (X), donde X el valor de refugio de tu Lugar. Si fracasas, debes decidir (elige una opción):\n- Recibe 1 punto de horror por cada punto que te faltase para tener éxito.\n- Coloca 2 de tus pistas sobre tu Lugar.\n- Añade 1 ficha [frost] a la bolsa de caos.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08517",
+        "name": "Visibilidad cero",
+        "text": "<b>Revelación</b> – Pon Visibilidad cero en juego en tu zona de amenaza.\nComo coste adicional para que abandones un Lugar que tenga una Traición vinculada, debes gastar 1 acción.\n<b>Obligado</b> – Al final de tu turno: Realiza una prueba de [agility] (2). Si tienes éxito, descarta Visibilidad cero.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08518",
+        "name": "Fría bienvenida",
+        "text": "<b>Obligado</b> - Después de la primera vez que un investigador entre en tu Lugar: Pon en juego cada uno de los Lugares puestos aparte conectados a ese Lugar <i>(usa el mapa de la guía de campaña como referencia)</i>.",
+        "flavor": "No es así precisamente como te imaginaste tu primera incursión en el territorio antártico. El frío helador y los cortantes vientos gélidos no harán más que empeorar.",
+        "back_name": "Bajo el hielo",
+        "back_text": "Haz aparecer una Incoherencia deslizante puesta aparte en el Lugar del investigador jefe. Añade los Enemigos Incoherencia deslizante restantes puestos a aparte y el conjunto de encuentros <i>Criaturas en el hielo</i> puesto aparte al mazo de Encuentros y baraja éste.",
+        "back_flavor": "-¡Un momento! ¿Vengan a ver esto! -grita uno de los demás miembros del equipo mientras avanzas a duras penas por la nieve. Regresas para examinar lo que ha encontrado: un segundo rastro de huellas, pero más pequeñas y deformes de modo casi imposible.\n-¿Qué demonios podría haber dejado estas huellas? -pregunta otro miembro del grupo. Estáis perplejos. En estos páramos helados apenas existe fauna, y estas huellas no se parecen a nada que hayas visto antes. Ni siquiera a nada que puedas imaginar.\nNo tenéis que preguntaros durante mucho tiempo qué ha podido dejar esas huellas. Una forma surge de la nieve, retorcida y deforme como una mancha de tinta derramada sobre el lienzo de la realidad. Emite un extraño grito cadi familiar que el aullante viento tapa parcialmente: \"¡-li! ¡-li!\" A continuación, se lanza hacia vosotros con una velocidad aterradora."
+    },
+    {
+        "code": "08519",
+        "name": "Hacia el blanco",
+        "text": "<b>Obligado</b> - Después de la primera vez que un investigador entre en tu Lugar: Pon en juego cada uno de los Lugares puestos aparte conectados a ese Lugar <i>(usa el mapa de la guía de campaña como referencia)</i>.",
+        "flavor": "Algo habita bajo el hielo. Algo de lo que no has oído hablar y que tampoco has visto nunca, ni siquiera en el horrendo informe de William Dyer. Algo… irreal.",
+        "back_name": "Habita en el interior",
+        "back_text": "Haz aparecer el Enemigo Terror de las estrellas puesto aparte en el Lugar revelado con el valor de refugio más alto.",
+        "back_flavor": "Estas cosas, estas manifestaciones, no son bestias ni criaturas alienígenas como las que encontraron Dyer y Danforth en su última expedición. Ni siquiera estás seguro de que sean entidades. No tienen forma y están formadas de una sustancia casi protoplásmica que vuelve a filtrarse en el hielo al recibir daño o cuando escapáis de sus garras. Visto lo persistentes que son estas entidades y las inclementes condiciones letales de la Antártida, sabéis que no sobreviviréis a la noche si no encontráis refugio.\nMientras consideráis vuestro curso de acción, el hielo retumba bajo vuestros pies con una fuerza tremenda, emitiendo un aterrador gruñido.\n-¿Un terremoto? -pregunta un miembro de vuestro grupo tratando de hacerse oír sobre el estruendo.\n-No, es imposible -contesta otro. Os miráis con miedo. ¿Podría ser una de esas… cosas?"
+    },
+    {
+        "code": "08520",
+        "name": "El tiempo se agota",
+        "text": "<b>Obligado</b> - Después de la primera vez que un investigador entre en tu Lugar: Pon en juego cada uno de los Lugares puestos aparte conectados a ese Lugar <i>(usa el mapa de la guía de campaña como referencia)</i>.",
+        "flavor": "El sol está a poca altura, pero nunca se pone. Tu grupo está agotado tras el largo y arduo día. Aunque el cielo nunca se tiñe con la oscuridad de la noche, sabes que es cuestión de tiempo que os veáis obligados a acampar.",
+        "back_name": "Obligados a refugiarse",
+        "back_text": "Cada investigador, incluidos los que hayan sido eliminados, añade la primera carta del mazo Tekeli-li a su mazo y baraja éste.\nElige un Lugar en juego que no tenga pistas. Cada investigador no derrotado se mueve a ese Lugar y desiste inmediatamente. Cuanto mayor sea el valor de refugio de ese Lugar, mejor. Si los investigadores no pueden elegir ningún Lugar así, deben moverse al Lugar del accidente y desistir inmediatamente, incluso si no pudieran hacerlo de otro modo. <i>(A continuación, resuelve el [[Objetivo]] del acto 1a.)</i>",
+        "back_flavor": "No podéis seguir. No es una ubicación ideal, pero tendréis que apañaros con el refugio que habéis encontrado. Sólo esperáis que baste para evitar que el grupo se congele… o algo peor."
+    },
+    {
+        "code": "08521",
+        "name": "En busca de un campamento",
+        "text": "[action] Si todos los investigadores están en el mismo Lugar y ese Lugar no tiene pistas: <b>Desistir.</b> Establecéis un campamento. Todos los investigadores desisten.\n<b>Objetivo</b> – Encontrad algún sitio seguro para acampar. Si todos los investigadores no derrotados han desistido, haz avanzar el acto. Cuanto mayor sea el valor de refugio del Lugar en el que desistieron, mejor. ",
+        "flavor": "Tenéis que encontrar el modo de volver al campamento a no mucho tardar… o tendréis que apañaros acampando en mitad de la nada.",
+        "back_name": "Bajo las estrellas",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Agotados y aterrados por vuestra odisea, decidís que este sitio es tan bueno como cualquier otro para acampar y pasar la noche. Tal vez mañana podáis sacar algún valor académico de este infernal viaje, pero ahora mismo esas cosas parecen triviales. Lo único que tenéis en mente es sobrevivir."
+    },
+    {
+        "code": "08522",
+        "name": "Terror de las estrellas",
+        "subname": "Portador de hielo y muerte",
+		"text": "Cazador. Descomunal.\nEl Terror de las estrellas recibe +3 de salud [per_investigator].\nMientras el Terror de las estrellas esté preparado, los investigadores no pueden desistir en su LUgar ni descubrir pistas en su Lugar.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08523",
+        "name": "Sopla un viento cruel",
+        "flavor": "Varios miembros del grupo han desaparecido misteriosamente durante la noche. Al no haber señales de pelea, sólo puedes suponer que se fueron por voluntad propia pero… ¿por qué?",
+        "back_name": "Huellas en la nieve",
+        "back_text": "Elige una carta de Encuentro que esté boca abajo bajo un Lugar. Mira el otro lado de esa carta <i>(sin resolver su texto)</i>. Luego devuélvela boca abajo bajo ese Lugar.",
+        "back_flavor": "Mientras afrontáis los vientos glaciares, encontráis un rastro de huellas en la nieve que se alejan del campamento. Os detenéis para examinarlas. ¿Son huellas que han dejado los miembros del equipo desaparecidos? ¿O pertenecen a algo más… monstruoso?"
+    },
+    {
+        "code": "08524",
+        "name": "El frío de la noche",
+        "flavor": "El sol a baja altura ilumina tenuemente la noche antártica. El cielo está cubierto por nubes grises que amenazan con una tormenta helada.",
+        "back_name": "Huellas en la nieve",
+        "back_text": "Elige una carta de Encuentro que esté boca abajo bajo un Lugar. Mira el otro lado de esa carta <i>(sin resolver su texto)</i>. Luego devuélvela boca abajo bajo ese Lugar.",
+        "back_flavor": "Mientras afrontáis los vientos glaciares, encontráis un rastro de huellas en la nieve que se alejan del campamento. Os detenéis para examinarlas. ¿Son huellas que han dejado los miembros del equipo desaparecidos? ¿O pertenecen a algo más… monstruoso?"
+    },
+    {
+        "code": "08525",
+        "name": "Locura y muerte",
+        "flavor": "La tormenta está cada vez más cerca, y ese maldito sonido vuelve con ella. Te persigue con su presencia, introduciéndose en tu mente. ¿Es la causa de este enajenamiento? ¿De esta locura?",
+        "back_name": "Obligados a retirarse",
+        "back_text": "Cada investigador restante queda derrotado y sufre 1 trauma mental.\n<b>(→R1)</b>",
+        "back_flavor": "Cuando acaba la noche, la tormenta llega con plena ferocidad. Los gélidos vientos y la densa nevada que arrecia hacen que tu tarea sea imposible. En estas condiciones no encontrarás nunca a los miembros del equipo restantes, y aunque lo hicieras…\nSientes un gran nudo de culpa y desesperación en la garganta. Es imposible que sobrevivan a esta tormenta sin provisiones y un refugio. Tener que elegir entre tu vida y la suya es una carga que pesará sobre ti durante lo que te quede de vida. Y tendrás suerte si dura más de un par de días."
+    },
+    {
+        "code": "08526",
+        "name": "La expedición perdida",
+        "text": "[fast] Los investigadores que estén en tu Lugar gastan, como grupo, 1 pista [per_investigator]: Roba la carta de Encuentro que haya bajo tu Lugar.\n[action] Si estás en el campamento: <b>Desistir.</b> Te vas a descansar.\n<b>Objetivo</b> – Encuentra tantos miembros desaparecidos de la expedición como puedas añadiéndolos a la zona de victoria y luego vuelve al campamento antes del amanecer. Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+        "flavor": "Emprendes la búsqueda de los miembros del equipo desaparecidos, con la esperanza de encontralos antes de que despunte el día…",
+        "back_name": "Hora de descansar",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "La tormenta se acerca cada vez más rápido a medida que la noche toca a su fin. El tiempo no tardará en volverse demasiado letal como para proseguir la búsqueda. Si queda alguien fuera, dudas que vaya a sobrevivir, y tampoco lo harás tú si sigues mucho tiempo más sin refugio. Vuelves al campamento con el peso de la culpa en el corazón y la mente confusa por ese terrible ruido que supura en su interior."
+    },
+    {
+        "code": "08527",
+        "name": "Callejón sin salida",
+        "text": "Retira 1 ficha [frost] de la bolsa de caos.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Aquí sólo hay hielo y nieve, pero ni rastro de los miembros del equipo desaparecidos. Te das media vuelta presa de la frustración. No vas a encontrar a nadie aquí."
+    },
+    {
+        "code": "08528",
+        "name": "Grietas en el hielo",
+        "text": "Busca una copia de Tekeli-li en tu mazo y colócala en la parte inferior del mazo Tekeli-li sin resolverla. Baraja tu mazo.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Mientras recorres la llanura glacial, algo retumba y se agita bajo tus pies. ¿Es de donde provienen estas criaturas? ¿De las profundidades del hielo?\nUn lúgubre pensamiento te cruza la mente. Si tienes razón, estas entidades podrían ejercer su maligna influencia independientemente de dónde te encuentres. Puede que al final esto sí que tenga algo que ver con tus compañeros desaparecidos, aunque no hay ni rastro de ellos por aquí."
+    },
+    {
+        "code": "08529",
+        "name": "Restos sombríos",
+        "text": "Busca todas las copias de Tekeli-li que haya entra las 9 primeras cartas de tu mazo y coloca todas las que encuentres en la parte inferior del mazo Tekeli-li sin resolverlas. Baraja tu mazo.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Encuentras indicios de uno de tus compañeros perdidos que están abandonados y medio enterrados en la nieve: trozos rotos de un pesado abrigo de pieles y unas gafas. Al exeminar éstas, realizas un terrible descubrimiento: una oscura y pegajosa sustancia que no logras identificar de ninguna manera."
+    },
+    {
+        "code": "08530",
+        "name": "Pisadas que desaparecen",
+        "text": "Retira 1 ficha [frost] de la bolsa de caos.\nAñade esta carta de Historia a la zona de victoria..",
+        "flavor": "El rastro continúa durante un tiempo antes de desaparecer en la nieve de forma incomprensible. No hay signos de pelea, ni tampoco algún otro rastro que pueda indicar adónde ha ido. ¿Habrá cubierto el viento las huellas? Y si es así, ¿por qué pudiste seguir el resto de las pisadas tan fácilmente?\nPero cuando te vuelves para examinar las huellas que habías venido siguiendo, también han desaparecido."
+    },
+    {
+        "code": "08531",
+        "name": "Explorador diseccionado",
+        "text": "Busca una copia de Tekeli-li en tu mazo y colócala en la parte inferior del mazo Tekeli-li sin resolverla. Baraja tu mazo.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Sigues un rastro de huellas hasta una pequeña caverna metida en una pared glacial y el estómago se te revuelve por lo que ves ante ti. Uno de tus compañeros de equipo desaparecidos está tirado al final de la abertura con la ropa desgarrada. Una incisión vertical limpia ha cortado en dos su torso desde el esternón hasta la barriga, y han extraído sus entrañas meticulosamente. Te cuesta no vomitar. ¿Quién podría haber hecho algo semejante?"
+    },
+    {
+        "code": "08532",
+        "name": "El mal interior",
+        "text": "Descarta del juego un Enemigo [[Eidolón]] que no tenga el rasgo [[Élite]].\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Está huyendo de una criatura formada por cinco caleidoscópicos cuando de repente te detienes en seco al ver una telaraña de grietas que surca el hielo bajo tus botas. La respiración se te queda atenazada en la garganta. Otro paso más podría se tu perdición o salvarte la vida. A tu espalda, la entidad gana terreno, extendiendo unos brazos que no son ni sólidos ni líquidos. Te sientes con suerte y decides jugártela, por lo que golpeas el suelo que tienes detrás y huyes hacia un lado. Como esperabas, el hielo es lo bastante delgado como para abrirse, y la criatura se precipita por la grieta hacia las gélidas profundidades. Das un suspiro de alivio y agradeces no haber compartido su destino"
+    },
+    {
+        "code": "08533",
+        "name": "Prueba sangrienta",
+        "text": "Busca todas las copias de Tekeli-li que haya entra las 9 primeras cartas de tu mazo y coloca todas las que encuentres en la parte inferior del mazo Tekeli-li sin resolverlas. Baraja tu mazo.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Sigues un rastro de pisadas por la nieve, con la esperanza de que te lleven hasta algún signo, el que sea, de tus compañeros perdidos. Por desgracia, la prueba que descubres no es la que esperabas encontrar. En el lugar donde acaban la huellas, encuentras un pico cubierto de sangre recién congelada. Eres presa del horror cuando ves un ojo humano allí cerca que mancha la nieve de rojo. Un escalofrío te recorre la espalda. ¿Qué podría haber llevado a alguien a hacer algo así?"
+    },
+    {
+        "code": "08534",
+        "name": "Locura en el interior",
+        "text": "Elige un Enemigo [[Poseído]] en juego que no tenga el rasgo [[Élite]]. Toma el control de todas las fichas de Perdición que haya sobre ese Enemigo, dándoles la vuelta a su lado de pista. Descarta el Enemigo elegido.\nAñade esta carta de Historia a la zona de victoria.",
+        "flavor": "Para alivio tuyo, encuentras a uno de los miembros del equipo desaparecidos, pero no está en sus cabales. Tiene los ojos vidriosos y una expresión confusa y perdida. Una turbia sustancia le gotea de la cara hacia el hielo del suelo. Cuando por fin logras hacerle entender, se limpia el extraño miasma oscuro de la cara, manchándose las mejillas de negro.\n-¿Qué… estaba haciendo? -pregunta."
+    },
+    {
+        "code": "08535",
+        "name": "Profesor William Dyer",
+        "subname": "Profesor de geología",
+        "text": "[action] Elige y descarta hasta 2 cartas de tu mano: <b>Negociar.</b> Coloca esa misma cantidad de recursos sobre el Profesor William Dyer <i>(de la reserva de fichas)</i>. Si hay 3 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si el Profesor William Dyer es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08536",
+        "name": "Danforth",
+        "subname": "Estudiante excelente",
+        "text": "[action]: <b>Negociar.</b> Escuchas atentamente los desvaríos de Danforth. Roba hasta 2 cartas de la parte superior del mazo Tekeli-li. A continuación, coloca esa misma cantidad de recursos sobre Danforth <i>(de la reserva de fichas)</i>. Si hay 3 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Danforth es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08537",
+        "name": "Eliyah Ashevak",
+        "subname": "Adiestrador de perros",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [agility] (2) para evitar a Anyu y hablar con Eliyah. Por cada punto que tenga por encima del valor mínimo de éxito, coloca 1 recurso sobre él <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 2 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Eliyah Ashevak es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08538",
+        "name": "Dra. Mala Sinha",
+        "subname": "Médico osada",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [willpower] (2) para intentar calmar a la Dra. Sinha. Por cada punto que tenga por encima del valor mínimo de éxito, coloca 1 recurso sobre ella <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 2 recursos [per_investigator] sobre ella, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Dr. Mala Sinha es derrotada: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08539",
+        "name": "Avery Claypool",
+        "subname": "Guía de la Antártida",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [willpower] o de [intellect] (5) para lograr que Claypool deje de balbucir disparates. Si tienes éxito, coloca 1 recurso sobre él <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 1 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Avery Claypool es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08540",
+        "name": "James \"Cookie\" Fredericks",
+        "subname": "Elección dudosa",
+        "text": "Represalia.\n[action]: <b>Negociar.</b> Realiza una prueba de [combat] (2) para quitarle el arma a Cookie. Por cada punto que tenga por encima del valor mínimo de éxito, coloca 1 recurso sobre él <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 2 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si James \"Cookie\" Fredericks es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08541",
+        "name": "Dra. Amy Kensler",
+        "subname": "Profesora de biología",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (2) para convencer a la Dra. Kensler de que te cuente lo que ha visto. Por cada punto que tenga por encima del valor mínimo de éxito, coloca 1 recurso sobre ella <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 2 recursos [per_investigator] sobre ella, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Dra. Amy Kensler es derrotada: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08542",
+        "name": "Roald Ellsworth",
+        "subname": "Explorador intrépido",
+        "text": "[action]: <b>Negociar.</b> Realiza una prueba de [combat] o de [agility] (5)para lograr que Ellsworth suelte la extraña roca que tiene aferrada. Si tienes éxito, coloca 1 recurso sobre él <i>(de la reserva de fichas)</i>. Si fracasas, te ataca. Si hay 1 recursos [per_investigator] sobre él, añádelo a la zona de victoria.\n<b>Obligado</b> – Si Roald Ellsworth es derrotado: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08543",
+        "name": "Takada Hiroko",
+        "subname": "Mecánica de aeroplanos",
+        "text": "[action] Gasta hasta 3 recursos: <b>Negociar.</b> Coloca cada uno de estos recursos sobre Takada Hiroko. Si hay 5 [per_investigator] sobre ella, añádela a la zona de victoria.\\n<b>Obligado</b> – Si Takada Hiroko es derrotada: Tacha su nombre en el registro de campaña.",
+        "traits": "Humanoide. Poseído. Élite."
+    },
+    {
+        "code": "08544",
+        "name": "Manifestaciones del mal",
+        "text": "<b>Obligado</b> – Cuando este plan fuera a avanzar, si hay al menos 1 carta boca abajo bajo una Pesadilla rezumante: En lugar de hacer avanzar este plan, retira 2 fichas de Perdición del juego y busca la Pesadilla rezumante que tenga más cartas boca abajo bajo ella. Elige una de las cartas que hay bajo ella al azar y hazla aparecer en su Lugar.",
+        "flavor": "Algo se agita bajo el hielo. A través de las grietas burbujea un siniestro icor de olor rancio y acre.",
+        "back_name": "Un aire siniestro",
+        "back_text": "El investigador jefe debe decidir (elige una opción):\n- Añade 1 ficha [frost] a la bolsa de caos.\n- Siguiendo el orden de juego, cada investigador añade las 2 primeras cartas del mazo Tekeli-li a su mazo y baraja éste (cada investigador que no pueda recibe 1 punto de daño y 1 punto de horror en su lugar).",
+        "back_flavor": "Este lugar no es lo que parece. Tienes la sensación de haberte colado en un sitio antiguo y terrible, y ahora su ira está brotando a tu alrededor."
+    },
+    {
+
+        "code": "08545",
+        "name": "Profundidades heladas",
+        "flavor": "Los violentos terremotos han alcanzado su punto culminante. Tienes la impresión de que todo el campo de hielo podría venirse abajo en cualquier momento, tirándote al gélido océano, o algo peor si tu teoría sobre el origen subterráneo de estas criaturas es correcta.",
+        "back_name": "Desplome del campo de hielo",
+        "back_text": "Cada investigador restante queda derrotado y sufre 1 trauma físico.",
+        "back_flavor": "La única advertencia es una fina telaraña de grietas que recorre el suelo bajo tus pies, y luego una repentina explosión de bruna y miasma como la tinta que se produce a tu alrededor. La fuerza te tira al suelo. Te arrastras desesperadamente por el frío hielo mientras el miasma trata de alcanzarte. Un sonido incomprensible, como el de un furioso remolino, te llena los oídos. Después se produce un atronador chasquido y caes… no, te deslizas… por el hielo hacia las gélidas aguas.\nEs un milagro que conserves la consciencia. Haces acopio de todas tus fuerzas y te aferras al hielo justo antes de precipitarte. Por fin logras volverte a encaramar al borde, mirando con pánico hacia el horizonte, pero no hay ni rastro de miasma ni de la bruma. La grieta en el campo de hielo se extiende cientos de metros frente a ti, separándote de tus perseguidores. De algún modo, has logrado escapar sin pretenderlo… aunque tardarás en olvidar esta experiencia cercana a la muerte."
+    },
+    {
+        "code": "08546",
+        "name": "¡Bajo ataque!",
+        "text": "Cada Enemigo [[Eidolón]] obtiene <b>Victory 0.</b>\nEl campamento obtiene el siguiente texto: \"[action] Los investigadores que estén en tu Lugar gastan, como grupo, 4 pistas: <b>Desistir.</b>\"\n<b>Objetivo</b> – Si no hay Enemigos [[Eidolón]] en juego, haz avanzar el acto.\n<b>Objetivo</b> – Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+        "flavor": "Han descubierto vuestro campamento, y ahora los monstruos que acechan en la nieve y el hielo convergen hacia vuestra posición. Sólo hay dos formas de salir de esta pesadilla: combatir o huir.",
+        "back_name": "The Last Breath",
+        "back_text": "<b>Si no hay Enemigos [[Eidolón]] en juego:</b>\n<blockquote><i>La última de las criaturas de pesadilla cae y su cuerpo de miasma se disuelve al instante en un oscuro líquido prismático y se disipa en volutas de bruma gris llenas de formas que gritan. Después se hace el silencio.</i></blockquote>\n<b>(→R1)</b>\n<b><hr>Sigues una senda improvisada por una abrupta hendidura en el campo de hielo, adentrándote cada vez más en el continente, en dirección a las montañas. No sabe si estas criaturas pueden seguir rastros humanos, o si acaso necesitan rastros para perseguiros, pero aun así te tomas un tiempo para borrarlos. Ojalá puedas ponerte a salvo con este atajo que has encontrado…</i></blockquote>\n<b>(→R2)</b>"
+    },
+    {
+        "code": "08547",
+        "name": "Pesadilla rezumante",
+        "text": "Mientras un Enemigo [[Eidolón]] que esté en el Lugar de la Pesadilla rezumante se mueva, su Lugar se considera conectado al campamento.\nMientras no haya cartas boca abajo de la Pesadilla rezumante, ésta obtiene Cazador.\n<b>Obligado</b> – Cuando la Pesadilla rezumante sea derrotada: Retira de la partida todas las cartas que haya bajo ella.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08548",
+        "name": "Fantasmagoria",
+        "text": "<b>Revelación</b> – Si no hay Pesadillas rezumantes en juego, Fantasmagoria obtiene Oleada. Si no es así, busca la Pesadilla rezumante más cercana a un investigador. Si hay 1 o más cartas bajo ella, elige 1 de ellas al azar y hazla aparecer en su Lugar. Si no hay cartas bajo ella, se mueve y ataca como si fuera la fase de Enemigos (sin agotarse).",
+        "traits": "Maldición."
+    },
+    {
+        "code": "08549",
+        "name": "Espejismo letal",
+        "text": "<b>Fácil/Normal</b>\n[skull]: –X. X es la cantidad de cartas de Historia que hay en la zona de victoria.\n[cultist]: –2. Si fracasas, coloca 1 de tus pistas sobre tu Lugar.\n[tablet]: –3. Si fracasas, debes moverte a la Prisión de recuerdos o bien añadir, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y barajar éste.\n[elder_thing]: –4. Si fracasas, coloca 1 ficha de Perdición sobre un Enemigo [[Eidolón]] que esté en juego.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: –X. X es el número del plan en curso más la cantidad de cartas de Historia que hay en la zona de victoria.\n[cultist]: –2. Si no tienes éxito por al menos 2, coloca 1 de tus pistas sobre tu Lugar.\n[tablet]: –4. Si fracasas, debes moverte a la Prisión de recuerdos o bien añadir, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y barajar éste (si fracasas por 2 o más, en vez de eso haz ambas cosas).\n[elder_thing]: –5. Si fracasas, coloca 1 ficha de Perdición sobre un Enemigo [[Eidolón]] que esté en juego."
+    },
+    {
+        "code": "08550",
+        "name": "Embrollo etéreo (v. I)",
+        "text": "[fast] Recibe 1 punto de horror: Muévete a la Prisión de recuerdos.",
+        "flavor": "Te encuentras atrapado en una prisión infinita de pensamientos distorsionados. Cada puerta es otro recuerdo que explorar…",
+        "back_name": "Desvanecerse",
+        "back_text": "Cada investigador restante es derrotado y debe añadir, sin mirarla, la primera carta del mazo Tekeli-li a su mazo y barajar éste.",
+        "back_flavor": "Tu consciencia se desvanece poco a poco. Te pierdes en la maraña de recuerdos en constante expansión, con los sentidos ahogados por una avalancha de pensamientos y emociones. Una jaula de miedos, dudas y horror.\nCuando por fin despiertas, sólo han pasado unos segundos."
+    },
+    {
+        "code": "08551",
+        "name": "Embrollo etéreo (v. II)",
+        "text": "[fast] Recibe 1 punto de horror: Muévete a la Prisión de recuerdos.",
+        "flavor": "Te vuelves a ver atrapado en una prisión infinita de pensamientos distorsionados…",
+        "back_name": "Tirón emocional",
+        "back_text": "Cada investigador restante es derrotado y debe sufrir 1 trauma mental o bien añadir las 2 primeras cartas del mazo Tekeli-li a su mazo y barajar éste.",
+        "back_flavor": "Tu consciencia se vuelve a desvanecer. Das tumbos por momentos duraderos mientras la empatía tira de tus emociones en todas direcciones a la vez. Es un océano de pensamiento sin fondo, profundo, oscuro y tenebroso \nCuando por fin despiertas, sólo han pasado unos segundos una vez más."
+    },
+    {
+        "code": "08552",
+        "name": "Embrollo etéreo (v. III)",
+        "text": "[fast] Recibe 1 punto de horror: Muévete a la Prisión de recuerdos.",
+        "flavor": "Te vuelves a ver atrapado en una prisión infinita de pensamientos distorsionados…",
+        "back_name": "Deconstrucción",
+        "back_text": "Cada investigador restante es derrotado y sufre 1 trauma mental.",
+        "back_flavor": "Tu consciencia se desmantela, y esta vez de forma violenta. Es como si tu capacidad de sentir y de pensar se hiciera añicos debido a la profundidad incomprensible de esta terrible prisión. A infinitos metros de distancia, tus moléculas tratan de seguir siendo tú mientras tu mente se ve usurpada\nCuando por fin despiertas, ha pasado un día entero."
+    },
+    {
+        "code": "08553",
+        "name": "Sombras del pasado (v. I)",
+        "text": "<b>Objetivo</b> – Enfréntate a tus demonios para fortalecer tu determinación. <i>(Consejo: Tal vez tengas más de una oportunidad de hacer avanzar este acto. Hasta entonces, estás atrapado. Si te estás quedando sin tiempo y se te otorga la oportunidad de avanzar, plantéate aprovecharla…).</i>",
+        "flavor": "En esta extraña realidad alternativa, recuerdos y pesadillas pasados cobran vida. ¿Es real este sitio o se trata de un producto de tu imaginación? ¿O es ambas cosas?",
+        "back_name": "Misterios más profundos",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Ahora lo comprendes. Aunque sea onírico, este lugar es como un nexo de mentes, una ubicación situada dentro del miasma en la que el pensamiento es material. Donde la locura se encarna.\nMientras reflexiones sobre las profundas verdades que podrían haber tomado forma en este laberinto de horrores, una puerta aparece al borde de tu visión: la misma puerta que usaste para quedar atrapado en este sitio infernal.\nPuede que haya más misterios por descubrir aquí, pero de momento has visto suficiente. Abres la puerta…"
+    },
+    {
+        "code": "08554",
+        "name": "Sombras del pasado (v. II)",
+        "text": "<b>Objetivo</b> – Enfréntate a tus demonios para fortalecer tu determinación. <i>(Consejo: Tal vez tengas más de una oportunidad de hacer avanzar este acto. Hasta entonces, estás atrapado. Si te estás quedando sin tiempo y se te otorga la oportunidad de avanzar, plantéate aprovecharla…).</i>",
+        "flavor": "En esta extraña realidad alternativa, recuerdos y pesadillas pasados cobran vida. ¿Es real este sitio o se trata de un producto de tu imaginación? ¿O es ambas cosas?",
+        "back_name": "Víctima dispuesta",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Una vez más, mientras te preguntas cuál es el significado profundo que oculta este lugar, la salida aparece ante ti: una puerta de roble sólido que destaca dentro del espejismo. Sea o no una alucinación, es la única forma de escapar de este extraño lugar. Quizás la verdad esté ahí fuera, en alguna parte, pero por ahora es más seguro marcharse y volver a la realidad. Abres la puerta…"
+    },
+    {
+        "code": "08555",
+        "name": "Sombras del pasado (v. II)",
+        "text": "<b>Objetivo</b> – Enfréntate a tus demonios para fortalecer tu determinación. <i>(Consejo: Tal vez tengas más de una oportunidad de hacer avanzar este acto. Hasta entonces, estás atrapado. Si te estás quedando sin tiempo y se te otorga la oportunidad de avanzar, plantéate aprovecharla…).</i>",
+        "flavor": "En esta extraña realidad alternativa, recuerdos y pesadillas pasados cobran vida. ¿Es real este sitio o se trata de un producto de tu imaginación? ¿O es ambas cosas?",
+        "back_name": "Regreso a la realidad",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Cuando te enfrentas a otro recuerdo más encerrado en esta extraña alucinación, ves otra puerta: no una de madera ni una puerta hecha por manos humanas, sino una colosal puerta circular de roca con una losa de pizarra gris con elaboradas tallas que te bloquea el paso. En torno a ella hay símbolos enigmáticos de significado inescrutable. Das un paso adelante y pones las mano sobre la piedra; para sorpresa tuya, la puerta empieza a abrirse con un estruendo inmenso.\nUna capa de denso miasma prismático gotea de la puerta mientras te asomas al interior. Bum, bum. Bum, bum. Bum, bum. El golpeteo es tremendo. Algo se agita y palpita al otro lado, algo espantoso y enorme, como un corazón palpitante. Bum, bum. Bum, bum. Bum, bum. El corazón de la montaña. El corazón del espejismo. A continuación, la puerta se abre de golpe, unos tentáculos de icor se enroscan en tus muñecas y te ves arrastrado entre gritos a través de la puerta…"
+    },
+    {
+        "code": "08556",
+        "name": "Prisión de recuerdos",
+        "text": "Espejismo 1 [per_investigator] (Campamento base, Cubierta de Theodosia, Salas de universidad).\nX es el número del plan en curso.",
+        "traits": "Sobrenatural. Espejismo."
+    },
+    {
+        "code": "08556b",
+        "name": "Prisión de recuerdos",
+        "text": "Elige una opción:\n- pon en juego el Lugar Campamento base puesto aparte.\n- Pon en juego el Lugar Cubierta del Theodosia puesto aparte.\n- Pon en juego el Lugar Sala de la universidad puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "Deambulas durante lo que parecen horas por la miríada de reflejos. Cuanto más te alejas del lugar donde llegaste, más distante se vuelve la realidad. Hay muchos caminos para recorrer la alucinación. Lugares que reconoces de tus recuerdos y otros que no, tomados de los recuerdos de tus compañeros.\nCuando la forma del espejismo cambia a tu alrededor, reflexionas sobre qué prisión sería peor: ¿la que revela su verdadera naturaleza? ¿o la que lo oculta?"
+    },
+    {
+        "code": "08557",
+        "name": "Campamento base",
+        "text": "Espejismo 1 [per_investigator] (Aguas costeras, Estación desierta, Teatro Riverview).\n[reaction] Cuando fueses a fracasar en una prueba de habilidad por 1 exactamente al investigar el Campamento base, recibe 1 punto de horror: Recibes +1 a tu valor de habilidad para esta prueba.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08557b",
+        "name": "Campamento base",
+        "flavor": "Eliyah y su compañera Anyu aparecen entre un resplandor al borde del campamento.\n-¿Adónde ha ido? -pregunta Takada que también aparece ante tu vista.\n-Es una insensatez marcharse en solitario -añade la Dra. Sinha\nTranquilas, que no estaba sola -contesta Eliyah mientras acaricia el cuello de Anyu con su mano enguantada.\nLa doctora hace una mueca de hartazgo y se marcha, pero Takada se queda y cruza los brazos frente al cuerpo: -Hay mucho por hacer antes de que nos vayamos, ¿sabe? -afirma.\nEliyah suspira y asiente. -Lo sé. Es que… estaba nervioso. Es sitio tiene algo…\nTakada asiente también: -Sí, yo también lo noto."
+    },
+    {
+        "code": "08558",
+        "name": "Cubierta del Theodosia",
+        "text": "Espejismo 1 [per_investigator] (Aguas costeras, Laberinto de setos, Piedras verticales).\n<b>Obligado</b> – Cuando investigues la Cubierta del Theodosia: Debes darle +2 a velo para esta investigación adicional para investigarla.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08558b",
+        "name": "Cubierta del Theodosia",
+		"text": "Elige una opción:\n- <i>Seguir los recuerdos de Cookie.</i> Pon en juego el Lugar Aguas costeras puesto aparte.\n- <i>Seguir los recuerdos de Ellsworth.</i> Pon en juego el Lugar Laberinto de setos puesto aparte.\n- <i>Seguir los recuerdos de Claypool.</i> Pon en juego el Lugar Piedras verticales puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "Ellsworth aparece en un resplandor de luz de espejismo mientras mira el frío océano azul desde la barandilla.\n-¿Verdad que es precioso? -dice.\nCookie y Claypool aparecen muy cerca, llevando varias cajas de suministros entre los dos.\n-¿Sabes lo que sería precioso? -grita Cookie-. Que nos ayudaras un poquito. ¿Crees que podrías mover el culo un momento para echar una mano, Ellsworth?\nEl explorador asiente con un leve suspiro y le coge el peso de las manos a Claypool mientras le hace un gesto con la cabeza para que se tome un descanso. Claypool le dedica una suave sonrisa de complicidad."
+    },
+    {
+        "code": "08559",
+        "name": "Salas de la universidad",
+        "text": "Espejismo 1 [per_investigator] (Cámara de los Antiguos, Teatro Riverview, Piedras verticales).\n<b>Obligado</b> – Cuando se les dé la vuelta a las Salas de la universidad: Cada investigador descarta las 3 primeras cartas de su mazo por cada pista que haya gastado. Cada investigador roba todas las Debilidades Tekeli-li que haya descartado de esta forma. Devuelve todas las demás debilidades descartadas de esta forma al mazo de su propietario y baraja éste.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08559b",
+        "name": "Salas de la universidad",
+		"text": "Elige una opción:\n- <i>Seguir los recuerdos de Danforth.</i> Pon en juego el Lugar Cámara de los Antiguos puesto aparte.\n- <i>Seguir los recuerdos de Dra. Kensler.</i> Pon en juego el Lugar Teatro Riverview puesto aparte.\n- <i>Seguir los recuerdos de Dyer.</i> Pon en juego el Lugar Piedras verticales puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "Tres figuras aparecen en un resplandor mientras se cruzan en las oscuras salas.\n-Profesor -oyes saludar a la Dra. Kensler mientras su silueta se vuelve más definida. El profesor Dyer y su protegido son los siguientes en aparecer-. Espero que tenga en cuenta mi propuesta -prosigue ella. Si le importara una u otra respuesta, el tono de su voz no la delata.\nA modo de respuesta, Dyer se limita a mirar de reojo a Danforth, que parece tener la mirada perdida detrás de la mujer, a mucha, pero que a mucha distancia de ella.\n-Bueno, en cualquier caso… -La Dra. Kensler se coloca las gafas y entra por la puerta que tiene su nombre escrito.\nDyer sacude la cabeza con un suspiro, pero quien rompe el silencio es Danforth: -Yo… creo que deberíamos ir."
+    },
+    {
+        "code": "08560",
+        "name": "Laberinto de setos",
+        "position": 60,
+        "text": "Espejismo 2 [per_investigator] (Moáis).\n<b>Obligado</b> – Después de que investigues el Laberinto de setos durante tu turno: Aumenta su valor de velo en 1 hasta el final de tu turno. No puedes abandonar el Laberinto de setos en este turno.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08560b",
+        "name": "Laberinto de setos",
+        "text": "Pon en juego el Lugar Moáis puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "-¿De verdad crees que no puedo recorrer un sencillo laberinto? -Se ríe Ellsworth. Parece varios años más joven y lleva un elegante esmoquin en lugar de su cómodo conjunto de chaqueta y pantalón. La persona con la que habla está fuera de tu vista, como una oscura silueta con la voz amortiguada e indistinguible.\n-Muy bien -contesta el explorador con una mueca. Le da su copa de champán a la otra persona y se afloja la corbata-. Pero cuando vuelva, me vas a contar de qué va esto realmente."
+    },
+    {
+        "code": "08561",
+        "name": "Estación desierta",
+        "text": "Espejismo 2 [per_investigator] (Naturaleza de Alaska).\nLa Estación desierta recibe +3 a velo mientras haya al menos 1 Traición vinculada a ella.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08561b",
+        "name": "Estación desierta",
+        "text": "Pon en juego el Lugar Naturaleza de Alaska puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "Cuando Eliyah se materializa, te asombra verlo sin su fiel compañera Anyu. Tiene cogida le las manos a una mujer desconocida cuyo cabello ondulado es del color de un brillante rubí. Los dos jóvenes amantes se miran a los ojos mientras se acerca el viejo tren.\n-¿Cuánto tiempo crees que estarás fuera?\n-Yo… no lo sé -confiesa él-. Es un viaje largo. Alaska es un lugar enorme.\n-Así que esto es un adiós -dice la mujer, que se seca unas lágrimas de rabia-. ¿Me escribirás?\n-Lo intentaré, pero… -Él aparta la mirada.\nYa, ya -dice ella con comprensión. El tren llega a la estación, y su penetrante silbido tapa sus palabras-. Eres… idiota -La mujer se pone de puntillas y le besa la mejilla-. Eres un idiota, Eliyah.\n-Lo sé… -contesta él-. Lo sé."
+    },
+    {
+        "code": "08562",
+        "name": "Aguas costeras",
+        "text": "Espejismo 2 [per_investigator] (Aeródromo, Frente otomano).\n<b>Obligado</b> – Después de que reveles una ficha [frost] mientras investigas las Aguas costeras: Recibe 1 punto de horror. Si esta investigación tiene éxito, descubre 1 pista adicional en las Aguas costeras. Límite de una vez por prueba.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08562b",
+        "name": "Aguas costeras",
+		"text": "Elige una opción:\n- <i>Seguir los recuerdos de Takada.</i> Pon en juego el Lugar Aeródromo puesto aparte.\n- <i>Seguir los recuerdos de Cookie.</i> Pon en juego el Lugar Frente otomano puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "-¡Menuda prueba! -grita Cookie para hacerse oír sobre el rugido del viento. Los dos están en uno de los aeroplanos de Takada; esto debió de ocurrir justo después de que ella terminara de trabajar en el primer avión, antes de que partierais hacia los picos y se produjeran todos los sucesos siguientes.\n-¡Vete acostumbrando! -grita a us vez Takada desde el asiento del piloto-. El tiempo va a ser complicado cada vez que estemos en el aire. Pero no te preocupes, porque aguantará.\nVes que el adusto copiloto contiene una sonrisa.\n-Estás disfrutando de esto, ¿verdad? -añade Takada.\n-Qué va -miente Cookie-. Es que hacía mucho tiempo."
+    },
+    {
+        "code": "08563",
+        "name": "Cámara de los Antiguos",
+        "text": "Espejismo 2 [per_investigator] (Residencia desordenada).\n<b>Obligado</b> – Después de descubrir 2 o más pistas de la Cámara de los Antiguos durante una sola investigación o efecto de carta: Añade la primera carta del mazo Tekeli-li a tu mazo y baraja éste.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08563b",
+        "name": "Cámara de los Antiguos",
+        "text": "Pon en juego el Lugar Residencia desordenada puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "-Estos son los trineos que faltaban en el campamento de Lake -señala el profesor Dyer mientras aparece entre un resplandor. No parece particularmente sorprendido, y probablemente contaba con esta posibilidad.\nDanforth ya está junto al primero de los trineos y examina lo que contiene.\n-Aquí está el hornillo de gasolina, el combustible, todos sus instrumentos de investigación… -Deja la frase en suspenso y añade-. Por Dios, ¿qué es ese terrible hedor? hace un gesto en dirección al trineo más alejado, que tiene una lona extrañamente abultada tapando su cargamento.\n-Danforth, no… -exclama Dyer, pero demasiado tarde. En cuanto Danforth quita la lona, retrocede trastabillando mientras se tapa la boca y la nariz. Bajo la lona, congelados y conservados, están los cadáveres de un joven explorador y de uno de sus perros de trineo.\n-Gedney -susurra Dyer."
+    },
+    {
+        "code": "08564",
+        "name": "Teatro Riverview",
+        "text": "Espejismo 2 [per_investigator] (Despacho de la Dra. Kensler, Dispensario).\n<b>Obligado</b> – Cuando robes una carta Tekeli-li mientras estés en el Teatro Riverview: Resuelve sus efectos una vez adicional. A continuación descubre 1 pista en el Teatro Riverview.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08564b",
+        "name": "Teatro Riverview",
+        "text": "Elige una opción:\n-<i>Seguir los recuerdos de Dra. Kensler.</i> Pon en juego el Lugar Despacho de la Dra. Kensler puesto aparte.\n- <i>Seguir los recuerdos de la Dra. Sinha.</i> Pon en juego el Lugar Dispensario puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "-Gracias por… invitarme aquí, Dra. Sinha -dice en voz baja la Dra. Kensler mientras su silueta aparece entre un resplandor. La Dra. Sinha y ella están sentadas juntas en el teatro casi vacío. Las luces son tenues y el telón está abierto, pero la proyección no ha empezado aún.\n-No hay de qué. Y llámame Mala.\nKensler da un respingo y se aclara la voz:\n-Entoces tú llámame Amy.\n-Ya lo hago -contesta la doctora mientras la pantalla que tienen delante se ilumina."
+    },
+    {
+        "code": "08565",
+        "name": "Piedras verticales",
+        "text": "Espejismo 2 [per_investigator] (La piedra negra, Aula de Dyer).\n<b>Obligado</b> – Después de que reveles una ficha [frost] mientras investigas las Piedras verticales: Recibe 1 punto de horror. Si esta investigación tiene éxito, descubre 1 pista adicional en las Piedras verticales. Límite de una vez por prueba.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08565b",
+        "name": "Piedras verticales",
+        "text": "Elige una opción:\n-<i>Seguir los recuerdos de Claypool.</i> Pon en juego el Lugar La piedra negra puesto aparte.\n- <i>Seguir los recuerdos de Dyer.</i> Pon en juego el Lugar Aula de Dyer puesto aparte.\nVuelve a darle la vuelta a esta carta.",
+        "flavor": "Claypool se queda mirando las ruinas con un destello de asombro en los ojos. -¿A que es maravilloso, William?\nTras él, el profesor Dyer se materializa dentro del espejismo. Ambos son los menos una década más jóvenes, puede que más. Te das cuenta de que Claypool no se ha dirigido al profesor por su título.\n-Maravilloso y misterioso -contesta Dyer-. Nadie conoce el verdadero propósito de este lugar. Puede que nadie lo sepa nunca.\n-Pero por eso lo hacemos, ¿verdad? -dice Claypool con una sonrisa-. Para descubrir la verdad.\nDyer vuelve la vista hacia el joven y en su rostro se dibujan líneas de preocupación:\n-Sí -susurra, la verdad."
+    },
+    {
+        "code": "08566",
+        "name": "Aeródromo",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un padre desaparecido).\nMientras Takada Hiroko esté en este Lugar, éste recibe -2 a velo.\nComo coste adicional para que investigues el Aeródromo, debes gastar 1 recurso.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08566b",
+        "name": "Aeródromo",
+        "text": "<b>Si Takada Hiroko está viva:</b>\nHaz aparecer el Enemigo Recuerdo de un padre desaparecido puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si Takada Hiroko está tachada:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Una adolescente aparece entre un resplandor. Reconoces los ojos de avellana de Takada y su fino pelo liso. Tiene las mejillas manchadas por las lágrimas y la lluvia. Se despide con el brazo del viejo y endeble aeroplano que despega. No reconoces el diseño, y esto debió de haberse producido hace más de una década.\n.No te preocupes, chica -El hombre que está junto a ella la agarra del hombro en gesto de ánimo-. Volverá pronto -la consuela con tono compasivo en la voz- Ya lo verás."
+    },
+    {
+        "code": "08567",
+        "name": "Naturaleza de Alaska",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de una cacería torcida).\nMientras Eliyah Ashevak esté en este Lugar, éste recibe -2 a velo.\nComo coste adicional para que entres en la Naturaleza de Alaska, debes añadir la primera carta del mazo Tekeli-li a tu mazo y barajar éste o bien gastar 1 recurso.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08567b",
+        "name": "Naturaleza de Alaska",
+        "text": "<b>Si Eliyah Ashevak está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de una cacería torcida puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si Eliyah Ashevak está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Eliyah está acurrucado contra un árbol mientras a su alrededor cae un torrente de nieve. Anyu gimotea en sus brazos. Tiene los guantes empapados de sangre que también tiñe de rojo el pelaje de la perra mientras la abraza.\n-Lo sé, chica -murmura-. Lo sé, lo sé. Vamos… vamos a estar bien. Tú y yo, chica, Anyu, ¿verdad? ¿te llamabas así? -La perra le mira a los ojos-. Vamos a estar bien, Anyu, te lo prometo."
+    },
+    {
+        "code": "08568",
+        "name": "Residencia desordenada",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un mal innombrable).\nnMientras Danforth esté en este Lugar, éste recibe -2 a velo.\nCuando resuelvas la capacidad \"Revelación\" de una carta Tekeli-li mientras estés en la Residencia desordenada: Devuélvela a tu mazo y baraja éste en lugar de colocarla en la parte inferior del mazo Tekekli-li.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08568b",
+        "name": "Residencia desordenada",
+        "text": "<b>Si Danforth está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de un mal innombrable puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si Danforth está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Danforth grita y se desarropa de golpe. El sudor le baña la frente y le gotea por las mejillas.\n-Es sólo un sueño -susurra-. Sólo un sueño, sólo un sueño.\nSe baja de la cama, se enjuga la cabeza con un pañuelo y se acerca a la ventana para mirar el exterior. La forma que ve al otro lado le hace dar un salto hacia atrás, presa del miedo, y chocarse con la pared.\n-No… no!"
+    },
+    {
+        "code": "08569",
+        "name": "Aula de Dyer",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un viaje pesaroso).\nMientras el Profesor Willian Dyer esté en este Lugar, éste recibe -2 a velo.\nAñade la primera carta del mazo Tekekli-li a tu mazo y baraja éste: Curo 1 punto de horror de un investigador o de un Apoyo [[Aliado]] que esté ene este Lugar.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08569b",
+        "name": "Aula de Dyer",
+        "text": "<b>Si el Profesor Willian Dyer está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de un viaje pesaroso puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si el Profesor Willian Dyer está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Dyer estrecha con fuerza la mano del hombre con una amplia sonrisa en el rostro.\n-No tiene ni idea de lo mucho que esto significa para mi -afirma-. Será un viaje de una importancia capital. Para todos.\nReconoces al hombre con el que está hablando: es el difunto profesor Lake, uno de los muchos que fueron con Dyer a la Antártida y nunca regresaron.\n-Sí, William -contesta Lake, con el terrible icor negro brotándole de los ojos-. Esta expedición lo cambiará todo."
+    },
+    {
+        "code": "08570",
+        "name": "Dispensario",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un paciente perdido).\nMientras la Dra. Mala Sinha esté en este Lugar, éste recibe -2 a velo.\nDespués de que entres en el Dispensario por primera vez en esta partida, si te quedan más de 6 puntos de salud: Recibe daño hasta que te queden exactamente 6 puntos de salud. Si no es así, recibe 1 punto de daño.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08570b",
+        "name": "Dispensario",
+        "text": "<b>Si la Dra. Mala Sinha está viva:</b>\nHaz aparecer el Enemigo Recuerdo de un paciente perdido puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si la Dra. Mala Sinha está tachada:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Una joven Dra. Sinha aparece junto a la cama, con el rostro demudado por la pena. Nunca la has visto tan afectada. Una enfermera pone su mano sobre la de la Dra. Sinha para tratar de consolarla, pero ésta se la quita de un manotazo.\n-No -dice con aspereza mientras ahoga un sollozo.\n-No podría haber hecho nada más, doctora -dice la enfermera.\n-Siempre se puede hacer más -grita la Dra. Sinha-. ¡Podríamos haber sido más listos! ¡Más rápidos!\nLe tiemblan las manos mientras intenta cerrar el puño. El miasma negro se filtra entre sus nudillos.\n-Esto es culpa n… mía. Es todo culpa mía."
+    },
+    {
+        "code": "08571",
+        "name": "Despacho de la Dra. Kensler",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un amor no correspondido).\nMientras la Dra. Amy Kensler esté en este Lugar, éste recibe -2 a velo.\nDespués de que investigues con éxito el Despacho de la Dra. Kensler: Debes recibir 1 punto de horror o bien retirar 1 secreto de un Apoyo que controles.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08571b",
+        "name": "Despacho de la Dra. Kensler",
+        "text": "<b>Si Dra. Amy Kensler está viva:</b>\nHaz aparecer el Enemigo Recuerdo de un amor no correspondido puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si la Dra. Amy Kensler está tachada:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "La Dra. Kensler está sentada en su mesa, tratando de concentrarse en su trabajo. En torno a ella hay papeles en montones bien dispuestos, la librería está en perfecto orden, justo como esperarías de ella. Pero el diario en el que escribe está saturado y descuidado. Se pasa la mano por el pelo y se deshace la coleta.\n-No, no, no… -murmura mientras arranca un trozo de papel del cuaderno. Ves que usa una fotografía como marcapáginas al cerrar el diario con furia. Abre uno de los cajones de la mesa y tira dentro el papel arrugado, sin darse cuenta de cómo burbujea el miasma en su interior, ni de la pútrida bruma gris que brota de él…"
+    },
+    {
+        "code": "08572",
+        "name": "Moáis",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de una traducción alienígena).\nMientras Roald Ellsworth esté en este Lugar, éste recibe -2 a velo.\n<b>Obligado</b> – Cuando el efecto \"Revelación\" de una carta Traición la vincule a los Moáis: Esa Traición gana Oleada. Límite de una vez por fase.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08572b",
+        "name": "Moáis",
+        "text": "<b>Si Roald Ellsworth está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de una traducción alienígena puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si Roald Ellsworth está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "La lluvia repiquetea sobre el rostro de la estatua mientras Ellsworth examina la inscripción de la base. -Ésta no es como el resto -murmura para sí-. Esto no es Rapa Nui. Esto no es uno de los moáis.\nLa estatua del espejismo se agrieta, y de su interior comienza a brotar el miasma…"
+    },
+    {
+        "code": "08573",
+        "name": "Frente otomano",
+		"text": "Espejismo 2 [per_investigator] (Recuerdo de un país asolado).\nMientras James \"Cookie\" Fredericks esté en este Lugar, éste recibe -2 a velo.\nCada Enemigo que no sea [[Élite]] que esté en el Frente otomano recibe +2 a combare y pierde represalia.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08573b",
+        "name": "Frente otomano",
+        "text": "<b>Si James \"Cookie\" Fredericks  está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de un país asolado puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si James \"Cookie\" Fredericks está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Entre el fragor de la guerra, una descarga de balas y morteros que hace temblar la tierra, Cookie recarga su fusil de manera lenta y metódica.\n-¡Sargento Fredericks! -le llama una voz. Su compañero viene corriendo agachado por la trinchera mientras otra explosión cercana levanta una rociada de barro-. Los alemanes rompieron la línea anoche. Nos están rodeando. ¡Debemos irnos de aquí!\nCookie añade una bayoneta al extremo de su fusil y pregunta: -¿Ha dado la orden el teniente?\n-El teniente Williams ha muerto -contesta el soldado, con un temor palpable en la voz-. Señor… está usted al mando."
+    },
+    {
+        "code": "08574",
+        "name": "La piedra negra",
+        "text": "Espejismo 2 [per_investigator] (Recuerdo de un descubrimiento terrible).\nMientras Avery Claypool esté en este Lugar, éste recibe -2 a velo.\n[fast] Añade 1 ficha [frost] a la bolsa de caos: Descubre 2 pistas en La piedra negra. Límite de grupo de una vez por partida.",
+        "traits": "Espejismo."
+    },
+    {
+        "code": "08574b",
+        "name": "La piedra negra",
+        "text": "<b>Si Avery Claypool está vivo:</b>\nHaz aparecer el Enemigo Recuerdo de un  descubrimiento terrible puesto aparte en este Lugar.\nVuelve a darle la vuelta a esta carta.\n<b>Si Avery Claypool está tachado:</b>\nMueve a la Prisión de recuerdos todos los investigadores y Enemigos que estén en este Lugar. Descarta todas las cartas vinculadas a este Lugar. Añade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Según la leyenda inuit, este megalito lleva desde antes de que la humanidad pisara la tierra -cuenta un joven Avery mientras examina el lenguaje rúnico de su superficie-. No sé si será hasta tal punto, pero está claro que es muy antiguo. Aunque eso no es lo más extraño de todo.\n-¿Y qué es lo más extraño? -pregunta uno de los otros exploradores, quitándose la capucha para ver mejor la imponente estructura.\n-Míralo tú mismo -dice Claypool a la vez que despliega un mapa y lo coloca contra la lisa piedra. Sobre la superficie del mapa hay dibujados muchos círculos y líneas que representan diversos patrones climatológicos-. Esta cosa… es como un pararrayos."
+    },
+    {
+        "code": "08575",
+        "name": "Recuerdo de una cacería torcida",
+        "text": "Alerta. Represalia.\n<b>Presa</b> – El investigador que tenga a Eliyah Ashevak.\n[reaction] Después de que evites con éxito a este Enemigo por 3 o más: Inflígele 3 puntos de daño.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08575b",
+        "name": "Recuerdo de una cacería torcida",
+        "text": "Anota en el registro de campaña que <i>Eliyah se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que Eliyah Ashevak se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Ese día estuvimos a punto de morir -dice el Eliyah real cuando el espejismo se desvanece. Anyu lame su mano enguantada y gimotea-. Fuimos los únicos dos supervivientes. Y nadie me creyó cuando les hablé de la criatura que nos atacó. Me convirtieron en un paria. Pensé… que tal vez estaba loco después de todo -Se estremece al recordar la forma que tomó el espejismo-. Pero ahora lo sé. Lo que nos atacó ese día era real."
+    },
+    {
+        "code": "08576",
+        "name": "Recuerdo de un paciente perdido",
+        "text": "Represalia.\n<b>Presa</b> – El investigador que tenga a la Dra. Mala Sinha.\n[reaction] Después de que cures 1 o más puntos de daño mientras este Enemigo esté agotado: Inflige esa misma cantidad de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08576b",
+        "name": "Recuerdo de un paciente perdido",
+        "text": "Anota en el registro de campaña que <i>Dra. Sinha se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que la Dra. Mala Sinha se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Nunca olvidaré ese día. El día en que perdí a mi primer paciente -Cruza los brazos mientras el espejismo se desvanece. Tiene el agotamiento reflejado en los ojos-. Te dicen que les pasa incluso a los mejores, pero eso no te prepara para ese momento. No fuí tan necia como para jurar que nunca perdería a otro. Sabía que era una fantasía -Te mira con expresión de complicidad-. En lugar de eso, juré no volver a implicarme nunca. Así que no se ofenda si soy distante. Es por mi propio bien. De ese modo, si le pierdo… o cuando lo pierda, no me perderé yo."
+    },
+    {
+        "code": "08577",
+        "name": "Recuerdo de un padre desaparecido",
+        "text": "Represalia.\n<b>Presa</b> – El investigador que tenga a Takada Hiroko.\n[reaction] Después de que obtengas 1 o más recursos mientras este Enemigo esté agotado: Inflige 1 punto de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08577b",
+        "name": "Recuerdo de un padre desaparecido",
+        "text": "Anota en el registro de campaña que <i>Takada Hiroko se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que Takada Hiroko se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Nunca volvió a casa -susurra Takada, ahogándose en sus palabras-. Me he pasado la vida siguiendo sus pasos. Creía que… Creía que, si lo hacía, tal vez… -se seca las lágrimas y el oscuro miasma de los ojos-. Se ha ido para siempre."
+    },
+    {
+        "code": "08578",
+        "name": "Recuerdo de un país asolado",
+        "text": "Represalia.\n<b>Presa</b> – El investigador que tenga a James \"Cookie\" Fredericks.\n[reaction] Después de que este Enemigo te ataque: Inflígele 1 punto de daño.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08578b",
+        "name": "Recuerdo de un país asolado",
+        "text": "Anota en el registro de campaña que <i>Cookie se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que James \"Cookie\" Fredericks se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade essta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "Mientras el espejismo se disuelve, ves a un joven sargento James Fredericks ordenar a sus hombres que huyan, seguidos de una descarga de balas y fuego de mortero.\n-El chico no logró regresar -dice el Cookie de verdad rechinando los dientes-. Ese día volvimos muy pocos. ¿Y para qué? -Escupe, y el rugido de las armas se desvanece a los lejos-. ¿Para qué?"
+    },
+    {
+        "code": "08579",
+        "name": "Recuerdo de un viaje pesaroso",
+        "text": "Represalia.\n<b>Presa</b> – El investigador que tenga al Profesor William Dyer.\n[reaction] Después de que robes 1 o más cartas mientras este Enemigo está agotado: Inflige esa misma cantidad de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08579b",
+        "name": "Recuerdo de un viaje pesaroso",
+        "text": "Anota en el registro de campaña que <i>Dyer se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que el Profesor William Dyer se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade essta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-No tendríamos que haber ido nunca -susurra el Dyer de verdad mientras la silueta del profesor Lake se desvanece en el espejismo-. Tendría que haberle convencido. Tendría que haber… Pero me pudieron las ganas y la avidez -Se emociona-. Y ahora vuelvo a estar aquí. Tú y yo hemos traído a esta gente a su muerte. Aunque sobrevivamos, jamás olvidaremos lo que les hemos hecho a estas personas. Lo que hemos arriesgado."
+    },
+    {
+        "code": "08580",
+        "name": "Recuerdo de un mal innombrable",
+        "text": "Alerta. Represalia.\n<b>Presa</b> – El investigador que tenga a Danforth.\n[action][action] Añade las 3 primeras cartas del mazo Tekeli-li a tu mazo y baraja éste: <b>Negociar.</b> Inflige 3 puntos de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08580b",
+        "name": "Recuerdo de un mal innombrable",
+        "text": "Anota en el registro de campaña que <i>Danforth se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que Danforth se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Está aquí, está aquí -murmura Danforth de verdad mientras mira el miasma que gotea de la ventana agrietada-. Siempre estuvo aquí, siempre aquí y yo volví, volví para oír ese sonido maldito… Sigue observando con horror cómo el miasma se retira hasta devolverle su estado natural a la residencia. El estudiante tarda varios minutos en dejar de temblar."
+    },
+    {
+        "code": "08581",
+        "name": "Recuerdo de un descubrimiento terrible",
+        "text": "Alerta.\n<b>Presa</b> – El investigador que tenga a Avery Claypool.\n[action] Añade 1 ficha [frost] a la bolsa de caos: <b>Negociar.</b> Inflige 4 puntos de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08581b",
+        "name": "Recuerdo de un descubrimiento terrible",
+        "text": "Anota en el registro de campaña que <i>Claypool se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que Avery Claypool se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Después de eso, no hubo vuelta atrás -explica el Claypool real-. Habíamos abierto la caja de Pandora, por decirlo así. Ya no podía esconder la cabeza como un avestruz. Ahí fuera hay fuerzas que escapan a nuestro entendimiento. Cosas que la ciencia no puede explicar, igual que yo no podía explicar el efecto meteorológico de la piedra en la región. Y tampoco podía explicar el origen de la tormenta que nos golpeó después de descubrirla.\nPreguntas a Claypool qué le pasó al otro hombre que estaba con él ese día. Se limita a rechinar los dientes y sacudir la cabeza."
+    },
+    {
+        "code": "08582",
+        "name": "Recuerdo de una traducción alienígena",
+        "text": "Alerta.\n<b>Presa</b> – El investigador que tenga a Roald Ellsworth.\n[reaction] Después de que este Enemigo quede agotado, si hay una carta vinculada en su Lugar: Inflige 4 puntos de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08582b",
+        "name": "Recuerdo de una traducción alienígena",
+        "text": "Anota en el registro de campaña que <i>Ellsworth se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que Roald Ellsworth se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "-Yo… recuerdo esto -dice el Ellsworth de verdad mientras contempla su propio recuerdo-. Esto fue lo que me hizo querer convertirme en explorador y descubrir cosas como ésta. Antiguos secretos dejados por quién sabe qué. Pero cuanto más descubrimientos hago, más creo que tal vez haya zonas de la Tierra que es mejor dejar tranquilas. Puede que todo esto sea culpa de gente como yo, que se niega a dejar en paz la historia. Menuda panda de necios arrogantes estamos hechos."
+    },
+    {
+        "code": "08583",
+        "name": "Recuerdo de un amor no correspondido",
+        "text": "Alerta.\n<b>Presa</b> – El investigador que tenga a la Dra. Amy Kensler.\n[reaction] Después de que descubras 1 o más pistas en el Lugar de este Enemigo: Inflige esa misma cantidad de daño a este Enemigo.\n<b>Obligado</b> – Cuando este Enemigo sea derrotado: Dale la vuelta y resuelve el texto que tiene en el otro lado.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08583b",
+        "name": "Recuerdo de un amor no correspondido",
+        "text": "Anota en el registro de campaña que <i>la Dra. Kensler se ha enfrentado a sus demonios</i>. Haz una marca junto a su nombre en la sección \"Equipo de la expedición\".\nA partir de ahora, siempre que la Dra. Amy Kensler se incluya o use durante un escenario, usa la versión [[Decidido]] en lugar de la versión del conjunto de encuentros <i>Equipo de expedición</i>. Si está en juego en este momento, cámbialo a esa versión ahora mismo.\nAñade esta carta a la zona de victoria.\nLos investigadores pueden hacer avanzar el acto en curso o seguir jugando.",
+        "flavor": "La Dra. Kensler, la de verdad, te mira con frialdad.\n-Ese recuerdo no es para usted -te advierte-. Aunque supongo que tiene el mismo control que yo sobre esto.\n No puedes evitar sentir algo de curiosidad sobre qué clase de labor académica podría afectar a alguien como ella, así que le preguntas.\n-No era de naturaleza académica -confiesa mientras pasa la mano distraídamente por la visión de la mesa de su despacho, antes de sacar la foto dentro del diario y examinarla sin mostrártela-. Nunca he sido demasiado hábil a la hora de expresarme en… asuntos del corazón -te dice, y la fotografía se desvanece en sus manos junto con el resto del espejismo-. Venga. No quiero quedarme aquí más tiempo -afirma."
+    },
+    {
+        "code": "08584",
+        "name": "Sombra horripilante",
+        "text": "Indiferente. Cazador.\nMientras la Sombra horripilante esté en un Lugar despejado de espejismos, pierde indiferente.\n<b>Obligado</b> – Después de que descubras o tomes el control de 1 o más pistas en el Lugar de la Sombra horriplante: Coloca esa misma cantidad de perdición sobre la Sombra horripilante.",
+        "traits": "Monstruo. Eidolón."
+    },
+    {
+        "code": "08585",
+        "name": "Bruma evanescente",
+        "text": "<b>Revelación</b> – Vincula la Bruma evanescente al Lugar más cercano que no esté despejado de espejismos. Coloca 2 pistas sobre el Lugar vinculado.\nPara darle la vuelta al Lugar vinculado, los investigadores que estén en el Lugar vinculado deben gastar, como grupo, 2 pistas adicionales, o bien recibir 2 puntos de daño cada uno.<b>Obligado</b> – Si el Lugar vinculado está despejado de espejismos. Descarta la Bruma evanescente.",
+        "traits": "Maldición. Riesgo."
+    },
+    {
+        "code": "08586",
+        "name": "Anamnesis",
+        "text": "Peligro.\n<b>Revelación</b> – Debes (elige una opción):\n- Recibir 2 puntos de horror.\n- Colocar 1 ficha de Perdición sobre el plan en curso. Este efecto puede hacer que el plan en curso avance.",
+        "traits": "Terror."
+	 },	
+    {
         "code": "08587",
-        "flavor": "\"No tendríamos que haber vuelto nunca.\"",
         "name": "Profesor William Dyer",
         "subname": "Profesor de geología",
         "text": "Compañero. Usos (3 secretos).\n[fast] Gasta 1 secreto y agota al Profesor William Dyer: Cura 2 puntos de horror de un investigador o de otro Apoyo [[Aliado]] que esté en tu Lugar.",
+        "flavor": "\"No tendríamos que haber vuelto nunca.\"",
         "traits": "Aliado. Miskatonic. Decidido."
     },
     {
         "code": "08588",
-        "flavor": "\"...el lugar cerrado...alas...ojos en las tinieblas...\"",
         "name": "Danforth",
         "subname": "Estudiante excelente",
         "text": "Compañero. Usos (5 secretos).\n[reaction] Después de que un investigador que esté en tu Lugar resuelva una Debilidad Tekeli-li, agota a Danforth y gasta 1 secreto: Ese investigador roba 3 cartas. Descarta todas las Debilidades Tekeli-li robadas por este efecto sin resolver sus efectos.",
+        "flavor": "\"…el lugar cerrado…alas…ojos en las tinieblas…\"",
         "traits": "Aliado. Miskatonic. Decidido."
     },
     {
         "code": "08589",
-        "flavor": "\"Lo sé, Anyu. En este sitio no hay nada bueno.\"",
         "name": "Eliyah Ashevak",
         "subname": "Adiestrador de perros",
         "text": "Compañero. Usos (3 secretos).\n[fast] Durante tu turno, gasta 1 secreto y agota a Eliyah Ashevak: <b>Evitar.</b> Intenta evitar con una habilidad [agility] básica de 6. Si tienes éxito, puedes moverte a un Lugar conectado.",
+        "flavor": "\"Lo sé, Anyu. En este sitio no hay nada bueno.\"",
         "traits": "Aliado. Viajero. Decidido."
     },
     {
         "code": "08590",
-        "flavor": "\"Veré lo que puedo hacer, pero algunas de estas heridas escapan a la comprensión de la medicina moderna...\"",
         "name": "Dra. Mala Sinha",
         "subname": "Médico osada",
         "text": "Compañero. Usos (3 suministros).\n[fast] Gasta 1 suministro y agota a la Dra. Mala Sinha: Cura 2 puntos de daño de un investigador o de otro Apoyo [[Aliado]] que esté en tu Lugar.",
+        "flavor": "\"Veré lo que puedo hacer, pero algunas de estas heridas escapan a la comprensión de la medicina moderna…\"",
         "traits": "Aliado. Viajero. Decidido."
     },
     {
         "code": "08591",
-        "flavor": "\"Eso no son nubes de tormenta. Son algo completamente distinto.\"",
         "name": "Avery Claypool",
         "subname": "Guía de la Antártida",
         "text": "Compañero. Usos (3 suministros).\n[reaction] Cuando un investigador que esté en tu Lugar revele una ficha [frost] durante una prueba de habilidad, agota a Avery Claypool: Cancela esa ficha. A continuación, debes revelar una nueva ficha de Caos o bien gastar 1 suministro.",
+        "flavor": "\"Eso no son nubes de tormenta. Son algo completamente distinto.\"",
         "traits": "Aliado. Viajero. Decidido."
     },
     {
         "code": "08592",
-        "flavor": "\"Lo próximo que se mueva recibirá un agujero de plomo entre los dientes.\"",
         "name": "James \"Cookie\" Fredericks",
         "subname": "Elección dudosa",
         "text": "Compañero. Usos (3 municiones).\n[fast] Durante tu turno, gasta 1 munición y agota a James \"Cookie\" Fredericks: <b>Combatir.</b> Combate con una habilidad [combat] básica de 6. Si tienes éxito y el Enemigo atacado no es [[Élite]], no puede atacar durante el resto de la ronda.",
+        "flavor": "\"Lo próximo que se mueva recibirá un agujero de plomo entre los dientes.\"",
         "traits": "Aliado. Veterano. Viajero. Decidido."
     },
     {
         "code": "08593",
-        "flavor": "\"Los seres que construyeron este lugar... ¿también crearon esto?\"",
         "name": "Dra. Amy Kensler",
         "subname": "Profesora de biología",
         "text": "Compañero. Usos (3 secretos).\n[fast] Durante tu turno, gasta 1 secreto y agota a la Dra. Amy Kensler: <b>Investigar.</b> Investiga con una habilidad [intellect] básica de 6. Si tienes éxito, mira la primera carta del mazo de cualquier investigador o del mazo de Encuentros. Puedes descartar esa carta.",
+        "flavor": "\"Los seres que construyeron este lugar… ¿también crearon esto?\"",
         "traits": "Aliado. Miskatonic. Decidido."
     },
     {
         "code": "08594",
-        "flavor": "\"Pensaba que conocía este lugar. De verdad que sí.\"",
         "name": "Roald Ellsworth",
         "subname": "Explorador intrépido",
         "text": "Compañero. Usos (3 suministros).\n[fast] Durante el turno de un investigador, agota a Roald Ellsworth o bien gasta 1 suministro: Elige una Traición que no sea Debilidad en juego. Considera el cuadro de texto de reglas de esa Traición como si estuviera en blanco hasta el final de este turno.",
+        "flavor": "\"Pensaba que conocía este lugar. De verdad que sí.\"",
         "traits": "Aliado. Miskatonic. Viajero. Decidido."
     },
     {
         "code": "08595",
-        "flavor": "\"No me extraña que nadie haya sobrevolado este sitio.\"",
         "name": "Takada Hiroko",
         "subname": "Mecánica de aeroplanos",
         "text": "Compañero. Usos (9 recursos).\n[action] Agota a Takada Hiroko: Obtén 1 recurso. Mueve hasta 3 recursos de Takada Hiroko a tu reserva de recursos.",
+        "flavor": "\"No me extraña que nadie haya sobrevolado este sitio.\"",
         "traits": "Aliado. Viajero. Decidido."
+    },
+    {
+        "code": "08596",
+        "name": "Hacia los picos prohibidos",
+        "text": "<b>Fácil/Normal</b>\n[skull]: –X. X es el nivel de tu Lugar.\n[cultist]: –1. Si fracasas, muévete al Lugar inmediatamente debajo de ti.\n[tablet]: –3. Si fracasas, pierdes el control de un Apoyo [[Expedición]] y lo colocas en tu Lugar.\n[elder_thing]: –4. Si fracasas, el Enemigo [[Antiguo]] más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: –X. X es el nivel de tu Lugar más 2.\n[cultist]: –1. Muévete al Lugar inmediatamente debajo de ti.\n[tablet]: –4. Si fracasas, pierdes el control de un Apoyo [[Expedición]] y lo colocas en tu Lugar.\n[elder_thing]: –5. Si fracasas, el Enemigo [[Antiguo]] más cercano se mueve una vez hacia ti. Si está enfrentado a ti, ataca."
+    },
+	{
+        "code": "08597",
+        "name": "Picos prohibidos",
+        "text": "<b>Obligado</b> - Después de que te muevas a un Lugar: Devuelve todas tus pistas a la reserva de fichas.",
+        "flavor": "Llegas a la ladera de la amenazadora montaña. Las extrañas cuevas y formaciones que hay en la cumbre están pidiendo que las exploren",
+        "back_name": "Resurgimiento",
+        "back_text": "Pon el Enemigo Terror de las estrellas puesto aparte en juego en el Lugar de nivel más alto que tenga uno o más investigadores. Cada investigador que esté en ese Lugar pierde el control de todos los Apoyos [[Expedición]] y los coloca en su Lugar.\nLee el <b>Interludio del escenario: Golpea la tragedia</b> en la guía de campaña.",
+        "back_flavor": "La ladera de la montaña se abre y produce una erupción de nieve. Una tormenta de afiladas esquirlas de hielo brota del vientre de la montaña. Tras ella aparece la bestia: un remolino de bruma; espectrales formas alienígenas; espantosos efluvios. Fija su terrible mirada en tu grupo y os busca con un tentáculo de miasma."
+    },
+    {
+        "code": "08598",
+        "name": "Llega el terror",
+        "text": "<b>Obligado</b> - Después de que te muevas a un Lugar: Devuelve todas tus pistas a la reserva de fichas.",
+        "flavor": "La nevisca se ha convertido en una tempestad de viento con una fuerte nevada. Si no logras cruzar los picos pronto, te verás obligado a buscar refugio… o pasarás el resto de la eternidad como un cadáver congelado en la montaña.",
+        "back_name": "El terror vence",
+        "back_text": "Si uno o más investigadores han desistido, pasa a<b>(→R1)</b>.\nSi no es así, pasa a <b>(→R2)</b>.",
+        "back_flavor": "La nevada es tan densa que ya ni siquiera puedes ver tu destino, ni tampoco puedes oír los gritos de tus compañeros por el viento aullante. Cada paso que das te deja sin aliento. El aire es tan escaso aquí que te parece un milagro que hasta puedas respirar. Levantas la vista hacia la extensa sábana blanca que parece interminable. Quizás nunca estuviste cerca de la cima y no fue más que una ilusión visual, como todo lo que hay en este condenado lugar."
+    },
+    {
+        "code": "08599",
+        "name": "Ascenso por la Montaña.",
+        "text": "[action]: Toma el control de un Apoyo [[Expedición]] que esté en tu Lugar.\n<b>Objetivo</b> – Llega a lo alto de la montaña. Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+        "flavor": "Llevando tanto equipo de expedición como puedas, debes escalar la imponente ladera de la montaña para acceder a los secretos que se encuentran al otro lado.",
+        "back_name": "Una ciudad asombrosa",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Después de un largo y arduo viaje montaña arriba, has llegado a los picos prohibidos. Esperas haber dejado atrás el dolor y el horror sufridos por el camino, pero temes que persistan… y que sean implacables."
+    },
+    {
+        "code": "08600",
+        "name": "Ventisqueros profundos",
+        "text": "<b>Obligado</b> – Después de que te muevas a los Ventisqueros profundos desde un Lugar que esté por debajo de ellos: Descarta las 3 primeras cartas de tu mazo. Roba cada Debilidad descartada de este modo.",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08601",
+        "name": "Despeñadero blanco",
+        "text": "<b>Obligado</b> – Después de que te muevas al Despeñadero blanco desde un Lugar que esté por debajo de él: Realiza una prueba de [agility] (X). X es el nivel de este Lugar más 1. Si fracasas, pierde el control de un Apoyo [[Expedición]] y colócalo en el Despeñadero blanco.",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08602",
+        "name": "Talud pronunciado",
+        "text": "<b>Obligado</b> – Después de que te muevas al Talud pronunciado desde un Lugar que esté por debajo de él: Recibe 1 punto de daño.",
+        "flavor": "\"…antes del mediodía nos sentimos todos excitados a la vista de una inmensa y nevada cadena montañosa que cubría el horizonte.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08603",
+        "name": "Cresta angosta",
+        "text": "<b>Obligado</b> – Después de que te muevas a la Cresta angosta desde un Lugar que esté por debajo de ella: Recibe 1 punto de horror.",
+        "flavor": "\"Un poco antes de llegar a la ciudad, la pendiente se hizo más abrupta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08604",
+        "name": "Saliente rocoso",
+        "text": "<b>Obligado</b> – Después de que te muevas al Saliente rocoso desde un Lugar que esté por debajo de él: Añade, sin mirarla la primera carta de mazo de Tekeli-li a tu mazo y baraja éste.",
+        "flavor": "\"Habían cruzado aquellas cimas por cuyas pendientes habían vagado en otro tiempo entre helechos arbóreos.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08605",
+        "name": "Peñasco cubierto de nieve",
+        "text": "<b>Obligado</b> – Después de que te muevas al Peñasco cubierto de nieve desde un Lugar que esté por debajo de él: Agota cada Apoyo que controles.",
+        "flavor": "\"La distribución de las crípticas entradas de las cavernas en las cimas desprovistas de nieve parecía llegar, de un modo irregular, hasta donde alcanzaba la vista.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08606",
+        "name": "Sendero barrido por el viento",
+        "text": "<b>Obligado</b> – Después de que el Sendero barrido por el viento sea revelado: Si está en el nivel 0, coloca 1 pista [per_investigator] sobre él <i>(de la reserva de fichas)</i>.\n<b>Obligado</b> – Después de que te muevas al Sendero barrido por el viento desde un Lugar que esté por debajo de él: Coloca 1 pista sobre él <i>(de la reserva de fichas)</i>.",
+        "back_name": "Ladera de montaña",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"La atmósfera de misterio maléfico que envolvía las montañas y el cielo opalescente visible entre las cimas era algo demasiado sutil…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08607",
+        "name": "La cumbre",
+        "text": "Las pistas de La cumbre sólo se pueden descubrir investigando.\n<b>Obligado</b> – Cuando La cumbre sea revelada: Añade 1 ficha [frost] a la bolsa de caos.\n[action]: <b>Desistir.</b> Añade cada Apoyo [[Expedición]] que controles a la zona de victoria. Devuelve todas tus pistas a la reserva de fichas.",
+        "back_text": "No puedes entrar en este Lugar a menos que todas las pistas del Lugar inmediatamente por debajo de éste hayan sido descubiertas.",
+        "back_flavor": "\"A medida que nos acercábamos a los picos oscuros y siniestros que se alzaban sobre una línea de glaciares y hendiduras cubiertas de nieve, advertíamos más y más las formaciones curiosamente regulares…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Montaña."
+    },
+    {
+        "code": "08608",
+        "name": "Terror de las estrellas",
+        "subname": "Guardián de los picos prohibidos",
+        "text": "Cazador. Descomunal.\nEl Terror de las estrellas recibe +3 de salud [per_investigator].\nX es el nivel del Lugar (hasta un mínimo de 1).\n<b>Obligado</b> – Al final de la ronda: Mueve todos los investigadores que estén en el Lugar del Terror de las estrellas al Lugar inmediatamente por debajo de éste.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08609",
+        "name": "Antiguo constrictor",
+        "text": "Cazador.\nX es el nivel del Lugar (hasta un mínimo de 1).\nMientras Antiguo constrictor esté enfrentado a ti, no puedes moverte a Lugares que estén por encima de tu Lugar.",
+        "traits": "Monstruo. Antiguo."
+    },
+    {
+        "code": "08610",
+        "name": "Nevasca",
+        "text": "<b>Revelación</b> – Coloca 2 pistas sobre tu Lugar <i>(de la reserva de fichas)</i>.",
+        "flavor": "\"…el bajo sol septentrional de mediodía y el más bajo aún de medianoche lanzaban sus nublados rayos rojizos sobre la nieve blanca, los hielos azules y las rocas granito negro.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08611",
+        "name": "Avalancha",
+        "text": "<b>Revelación</b> –Si el nivel de tu Lugar es 1–4, muévete al Lugar inmediatamente por debajo del tuyo. A continuación, realiza una prueba de [willpower] (X). X es el nivel de tu Lugar. Si fracasas, repite este proceso. Si no te has movido por este efecto, Avalancha obtiene Oleada.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08612",
+        "name": "Al borde del abismo",
+        "text": "<b>Revelación</b> – Realiza una prueba de [agility] (3). Si fracasas, recibe 2 puntos de daño, pierde el control de todos los Apoyos [[Expedición]] que controles (colocándolos en tu Lugar), y muévete al Lugar inmediatamente por debajo del tuyo.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08613",
+        "name": "Hipotermia",
+        "text": "<b>Revelación</b> – Realiza una prueba de [willpower] (3). Si el nivel de tu Lugar es 4 o 5, revela 1 ficha de Caos adicional para esta prueba de habilidad. Si fracasas, añade 1 ficha [frost] a la bolsa de caos o bien recibe 1 punto de horror por cada punto que te faltara para tener éxito.",
+        "traits": "Riesgo."
     },
     {
         "code": "08614",
@@ -116,6 +1025,208 @@
         "traits": "Objeto. Expedición."
     },
     {
+        "code": "08621",
+        "name": "Ciudad de los antiguos",
+        "text": "<b>Fácil/Normal</b>\n[skull]: –X. X es el número de llaves que controlas.\n[cultist]: –2. Si fracasas, coloca una llave que controles en tu Lugar.\n[tablet]: –3. O bien fracasas automáticamente si fue revelada una ficha [frost] durante esta prueba.\n[elder_thing]: –4. Si fracasas, el Enemigo más cercano se mueve una vez hacia ti. Si está enfrentado a ti, te ataca.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: –X. X es el número de llaves que controlas más 2.\n[cultist]: –2. Coloca una llave que controles en tu Lugar.\n[tablet]: –4. O bien recibe 1 punto de daño y fracasas automáticamente si fue revelada una ficha [frost] durante esta prueba.\n[elder_thing]: –5. Si fracasas, el Enemigo más cercano se mueve una vez hacia ti. Si está enfrentado a ti, te ataca."
+    },
+   {
+        "code": "08622",
+        "name": "Horrores al acecho",
+        "text": "[fast] Durante tu turno, gasta 1 pista: Mira el lado revelado de un Paisaje urbano de tu fila o columna. Límite de una vez por ronda\n[fast] Durante tu turno, gasta 3 pistas: Muévete a cualquier Lugar de tu fila o columna. Límite de una vez por ronda.",
+        "flavor": "La ciudad alienígena oculta se alza ante ti, antigua y enigmática. ¿Qué secretos y terrores aguardan en su interior?",
+        "back_name": "Monstruosidades despiertas",
+        "back_text": "Lee el <b>Interludio el escenario: Contemplar la locura</b> en la guía de campaña.",
+        "back_flavor": "Los muros de la ciudad te llaman con susurros clandestinos, cantos etéreos indescifrables para oídos humanos y aún así familiares de algún modo. Intentas ignorarlos como puedes y pensar que no es más que tu imaginación, pero no todos tus compañeros tienen el mismo éxito…"
+    },
+    {
+        "code": "08623",
+        "name": "La perdición de las profundidades",
+        "text": "[fast] Durante tu turno, gasta 1 pista: Mira el lado revelado de un Paisaje urbano de tu fila o columna. Límite de una vez por ronda\n[fast] Durante tu turno, gasta 3 pistas: Muévete a cualquier Lugar de tu fila o columna. Límite de una vez por ronda.",
+		"flavor": "Bajo el oscuro hielo hay atrapadas más zonas de la ciudad, envueltas y congeladas en el tiempo. Esto no es más que la punta del iceberg…",
+        "back_name": "Adentrarse demasiado",
+        "back_text": "<b>(→R2)</b>",
+        "back_flavor": "Tus pensamientos se vuelven enrevesados, como una maraña de miedo, preocupaciones y dudas. El peligro acecha tras cada esquina de este abominable lugar, pero lo más peligroso de todo es la creciente sensación de que no deberías estar aquí, de que deberías huir de este lugar para no volver nunca.\nCuando el tiempo empeora en el exterior, te cobijas en la relativa seguridad que ofrece una de las enormes estructuras de la ciudad. Es demasiado tarde para volver al campamento. Tu única esperanza es refugiarte dentro de la ciudad alienígena y esperar que tu presencia pase desapercibida a los moradores que siguen deambulando por sus calles y por sus antiguas salas."
+    },
+    {
+        "code": "08624",
+        "name": "Ciudad inmensa (v. I)",
+        "text": "[action] Gasta 2 llaves [elder_thing]: Recuerda que el equipo \"estudió la historia de los Antiguos\".\n[action] Gasta 2 llaves [tablet]: Recuerda que el equipo \"vislumbró el origen de los Shoggoths\".\n<b>Objetivo</b> – Si el equipo \"estudió la historia de los Antiguos\" y \"vislumbró el origen de los Shoggoths\", haz avanzar el acto.",
+        "flavor": "Éste es el descubrimiento del siglo. El informe de Dyer era cierto por completo. Debes explorar esta civilización alienígena para obtener más información…",
+        "back_name": "Historias de eones",
+        "back_text": "Añade la pila de descartes de Encuentros y el conjunto de encuentros <i>Shoggoths</i> puesto aparte al mazo de Encuentros y baraja éste.\nConoces la ruta hacia la ciudad subterránea. Revela el Túnel oculto.\nPon en juego el Enemigo Terror de las estrellas puesto aparte en el Túnel oculto, agotado.",
+        "back_flavor": "Lo que has descubierto es una locura casi imposible de creer. Según los murales y registros que hay dentro de la ciudad, los \"Antiguos\" eran viajeros de las estrellas. Colonizaron la Tierra mucho antes de la era humana, estableciéndose a lo ancho y largo del mundo. Y en las profundidades de la ciudad subterránea bajo la montaña más alta, crearon criaturas monstruosas, \"Shoggoths\", para que fueran sus sirvientes. Pero los Shoggoths se rebelaron contra ellos y su civilización no tardó en derrumbarse…\nDe pronto, un ruido lejano hace que los demás exploradores y tú os detengáis en seco: un grave y estruendoso rugido que parece provenir de algún lugar a mucha profundidad. No te atreves a plantearte qué tipo de monstruosidad podría emitir un sonido tan espantoso."
+    },
+    {
+        "code": "08625",
+        "name": "Ciudad inmensa (v. II)",
+        "text": "[action] Gasta 2 llaves [elder_thing]: Recuerda que el equipo \"estudió la historia de los Antiguos\".\n[action] Gasta 2 llaves [cultist]: Recuerda que el equipo \"descubrió un poder oculto\".\n<b>Objetivo</b> – Si el equipo \"estudió la historia de los Antiguos\" y \"descubrió un poder oculto\", haz avanzar el acto.",
+        "flavor": "Éste es el descubrimiento del siglo. El informe de Dyer era cierto por completo. Debes explorar esta civilización alienígena para obtener más información…",
+        "back_name": "Historia de eones",
+        "back_text": "Añade la pila de descartes de Encuentros y el conjunto de encuentros <i>Criaturas en el hielo</i> puesto aparte al mazo de Encuentros y baraja éste.\nConoces la ruta hacia la ciudad subterránea. Revela el Túnel oculto.\nAñade 1 ficha [frost] a la bolsa de caos.",
+        "back_flavor": "Lo que has descubierto es una locura casi imposible de creer. Según los murales y registros que hay dentro de la ciudad, los \"Antiguos\" eran viajeros de las estrellas. Colonizaron la Tierra mucho antes de la era humana, estableciéndose a lo ancho y largo del mundo. Y en las profundiades de la ciudad subterránea bajo la montaña más alta, encontraron un poder primordial inactivo; algo tan aterrador que construyeron una puerta para dejarlo encerrado. Pero acabó por empezar a escapar, y su civilización no tardo en derrumbarse…\nTiene que haber más secretos ilógicos enterrados a gran profundidad. Debéis descubrir la verdad de este antiguo poder y, para hacerlo, habrá que encontrar el pasadizo secreto que os llevará hacia el corazón de la montaña."
+    },
+    {
+        "code": "08626",
+        "name": "Ciudad inmensa (v. III)",
+        "text": "[action] Gasta 2 llaves [tablet]: Recuerda que el equipo \"vislumbró el origen de los Shoggoths\".\n[action] Gasta 2 llaves [cultist]: Recuerda que el equipo \"descubrió un poder oculto\".\n<b>Objetivo</b> – Si el equipo \"vislumbró el origen de los Shoggoths\" y \"descubrió un poder oculto\", haz avanzar el acto.",
+        "flavor": "Éste es el descubrimiento del siglo. El informe de Dyer era cierto por completo. Debes explorar esta civilización alienígena para obtener más información…",
+        "back_name": "Historia de eones",
+        "back_text": "Añade la pila de descartes de Encuentros y el conjunto de encuentros <i>Criaturas en el hielo</i> puesto aparte al mazo de Encuentros y baraja éste.\nConoces la ruta hacia la ciudad subterránea. Revela el Túnel oculto.\nAñade 1 ficha [frost] a la bolsa de caos.",
+        "back_flavor": "Lo que has descubierto es una locura casi imposible de creer. Según los murales y registros que hay dentro de la ciudad, una raza de criaturas monstruosas conocidas como \"Shoggoths\" fue creada para servir a los señores de esta ciudad. Los Shoggoths fueron enviados a las profundiades de la ciudad subterránea bajo la montaña más alta, donde debían erigir una puerta para encerrar un poder primordial inactivo; algo tan aterrador que hasta los amos de los Shoggoths lo temían. Pero los Shoggoths se rebelaron contra ellos y dejaron que el sello se deteriorara, llevando al derrumbe de esta antigua civilización…\nDe pronto, un ruido lejano hace que los demás exploradores y tú os detengáis en seco; un grave y estruendoso rugido que parece provenir de algún lugar a mucha profundidad. No te atreves a plantearte qué tipo de monstruosidad podría emitir un sonido tan espantoso."
+    },
+    {
+        "code": "08627",
+        "name": "Persiguiendo lo desconocido (v. I)",
+        "text": "[action] Gasta 2 llaves [tablet]: Cada investigador busca en su mazo todas las Debilidades Tekeli-li, las añade al mazo Tekeli-li y baraja éste. A continuación baraja su mazo.\n<b>Objetivo</b> – Si todos los investigadores no derrotados están en el Túnel oculto y éste no tiene pistas, haz avanzar el acto.",
+        "flavor": "En alguna parte de esta inmensa red de calles heladas y estructuras descomunales hay un antiguo portal que lleva a la ciudad subterránea que hay bajo la gran montaña. Tendrás que encontrarlo si quieres más información…",
+        "back_name": "Hacia la ciudad subterránea",
+        "back_text": "<b>(→R1)</b>",
+		"back_flavor": "El camino, ahora despejado, lleva a un laberinto de oscuros túneles traicioneros. Para bien o para mal, el exigente viaje está tocando a su fin. Respiras hondo y haces acopio de valor antes de adentrarte en las profundidades de la Montaña."
+    },
+    {
+        "code": "08628",
+        "name": "Persiguiendo lo desconocido (v. II)",
+        "text": "[action] Gasta 2 llaves [cultist]: Cada investigador puede curarse 1 punto de daño, 1 punto de horror, y 1 trauma.\n<b>Objetivo</b> – Si todos los investigadores no derrotados están en el Túnel oculto y éste no tiene pistas, haz avanzar el acto.",
+        "flavor": "En alguna parte de esta inmensa red de calles heladas y estructuras descomunales hay un antiguo portal que lleva a la ciudad subterránea que hay bajo la gran montaña. Tendrás que encontrarlo si quieres más información…",
+        "back_name": "Hacia la ciudad subterránea",
+        "back_text": "<b>(→R1)</b>",
+		"back_flavor": "El camino, ahora despejado, lleva a un laberinto de oscuros túneles traicioneros. Para bien o para mal, el exigente viaje está tocando a su fin. Respiras hondo y haces acopio de valor antes de adentrarte en las profundidades de la Montaña."
+    },
+    {
+        "code": "08629",
+        "name": "Persiguiendo lo desconocido (v. III)",
+        "text": "<b>Obligado</b> – Cuando un Enemigo [[Shoggoth]] o [[Élite]] entre en tu Lugar: Derrota a todos los Enemigos [[Antiguo]] de ese Lugar.\n[action] Gasta 2 llaves [elder_thing]: Retira todas las fichas [elder_thing] de la bolsa de caos.\n<b>Objetivo</b> – Si todos los investigadores no derrotados están en el Túnel oculto y éste no tiene pistas, haz avanzar el acto.",
+        "flavor": "En alguna parte de esta inmensa red de calles heladas y estructuras descomunales hay un antiguo portal que lleva a la ciudad subterránea que hay bajo la gran montaña. Tendrás que encontrarlo si quieres más información…",
+        "back_name": "Hacia la ciudad subterránea",
+        "back_text": "<b>(→R1)</b>",
+		"back_flavor": "El camino, ahora despejado, lleva a un laberinto de oscuros túneles traicioneros. Para bien o para mal, el exigente viaje está tocando a su fin. Respiras hondo y haces acopio de valor antes de adentrarte en las profundidades de la Montaña."
+    },
+    {
+        "code": "08630",
+        "name": "Túnel oculto",
+        "subname": "Entrada hacia las profundidades",
+        "text": "Las pistas que hay sobre el Túnel oculto no se pueden descubrir ni mover a otros lugares.\n[action]: Realiza una prueba de habilidad de tu elección (4). Puedes gastar una llave [skull] para recibir +5 a tu valor de habilidad para esta prueba. Si tienes éxito, devuelve a la reserva de fichas 1 pista que haya sobre el Túnel oculto, o bien 2 pistas si gastaste una llave [skull].",
+        "back_text": "El pasadizo hacia la ciudad subterránea está oculto. No puedes entrar en el Túnel oculto.",
+        "back_flavor": "\"…el examen de aquellas esculturas decadentes nos obligó a alterar nuestros planes. Se trataba, por supuesto, de las vías de acceso al sombrío mundo interior, de cuya existencia nada habíamos sabido hasta entonces….\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08631",
+        "name": "Plantetario antiguo",
+        "text": "[action] Gasta 2 llaves \"0\": Añade 1 de las llaves \"0\" gastadas a la bolsa de caos <i>(como ficha de caos)</i> durante el resto de campaña. Anota en el registro de campaña que <i>el equipo fotografió los atlas estelares.</i>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08632",
+        "name": "Puente de piedra",
+        "text": "[action]: Realiza una prueba de [combat] (4) o de [agility] (4). Si tienes éxito, descubre una 1 pista del Puente de piedra.\n[action]: Muévete a otro Lugar Puente de piedra.",
+        "flavor": "\"Todas estas estructuras parecían estar unidas entre sí con puentes tubulares que se alzaban a enormes alturas.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08633",
+        "name": "Torre cilíndrica",
+        "text": "[action] Gasta 2 llaves \"–2\": Roba 2 cartas, obtén 2 recursos y retira 2 fichas [frost] de la bolsa de caos. Anota en el registro de campaña que <i>el equipo estudió los murales tallados.</i>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08634",
+        "name": "Cámara laberíntica",
+        "text": "Cada vez que sea revelada una ficha de Caos durante una prueba de habilidad en este Lugar, dobla su modificador si hay una llave que coincida con esa ficha de Caos sobre este Lugar o bajo el control de un investigador que esté en este Lugar",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08635",
+        "name": "Sala del mapa",
+        "text": "[action] Gasta 3 llaves \"–3\": Elige 3 Lugares y revélalos. Descubre 1 pista de cada uno de estos Lugares. Anota en el registro de campaña que <i>el equipo leyó el mapa.</i>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08636",
+        "name": "Adarve sin techo",
+        "text": "[action] Gasta 2 llaves \"–1\": Retira 1 ficha de Perdición del plan o bien elige y descarta del juego 1 Enemigo que no sea [Élite] o una Traición. Anota en el registro de campaña que <i>el equipo descubrió una antigua cámara.</i>",
+        "flavor": "\"…más allá se alzaba un edificio amurallado en forma de estrella de unos tres metros de alto…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08637",
+        "name": "Calles ruinosas",
+        "text": "<b>Obligado</b> - Después de que reveles 1 o más fichas [frost] durante una prueba de habilidad en las Calles ruinosas: Recibe 1 punto de daño.\n[reaction] Después de que descubras la última pista de las Calles ruinosas: Descubre 1 pista en un Lugar conectado.",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08638",
+        "name": "Torres ciclópeas",
+        "text": "[action]: Mueve 1 llave de otro Lugar de esta fila a las Torres ciclópeas. Límite de grupo de 1 vez por partida.",
+        "flavor": "\"En otros casos se unían las formas del cono y la pirámide, ya solos o sobre cilindros, o cubos, u otras pirámides y conos truncados. Algunas veces unas finas agujas formaban curiosos grupos de cinco.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08639",
+        "name": "Pasadizo sumergido",
+        "text": "[action]: Mueve 1 pista de este Lugar a un Lugar sin revelar de esta fila o columna.",
+        "flavor": "\"¿Se había previsto la llegada del hielo, y la población se había retirado en busca de un refugio más apropiado?\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08640",
+        "name": "Templo de los Antiguos",
+        "text": "<b>Obligado</b> - Después de que reveles 1 o más fichas [frost] durante una prueba de habilidad en este Lugar: Recibe 1 punto de horror.\n[action] Si no hay pistas en el Templo de los Antiguos: Elige 2 Lugares que tengan llaves. Intercambia cada una de las llaves de esos Lugares. Límite de grupo de una vez por partida.",
+        "back_name": "Paisaje urbano",
+        "back_flavor": "\"Pero ahora algo irrefutable nos sacudía la razón, pues estas masas ciclópeas de bloques cuadrados, curvos y angulares tenían ciertas características que impedían todo engaño consolador. Se trataba, muy claramente, de la ciudad que se nos había aparecido en aquel espejismo, pero dotada ahora de una realidad objetiva e ineluctable.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ciudad."
+    },
+    {
+        "code": "08641",
+        "name": "Terror de las estrellas",
+        "subname": "Perdición de los Antiguos",
+        "text": "Cazador. Descomunal.\nEl Terror de las estrellas recibe +3 de salud [per_investigator].\nMientras el Terror de las estrellas esté preparado, los investigadores que estén en su Lugar no pueden gastar ni tomar el control de llaves.",
+        "traits": "Monstruo. Eidolón. Élite."
+    },
+    {
+        "code": "08642",
+        "name": "Antiguo benigno",
+        "text": "<b>Aparición</b> – Cualquier Lugar vacío.\nEl Antiguo benigno entra en juego con una ficha de Perdición sobre él.\n<b>Obligado</b> – Cuando el Antiguo benigno sea derrotado: Coloca 1 ficha de Perdición sobre el plan.\n[action]: <b>Negociar.</b> Realiza una prueba de [willpower] (3). Si tienes éxito, retira el Antiguo benigno de la partida.",
+        "traits": "Monstruo. Antiguo."
+    },
+    {
+        "code": "08643",
+        "name": "Antiguo revivido",
+        "text": "Cazador.\n<b>Obligado</b> – Cuando este Enemigo se enfrente a ti: Coloca sobre él una llave que controles. Cuando abandone el juego, coloca esa llave en su Lugar.\n<b>Obligado</b> – Cuando un investigador que esté en el Lugar de este Enemigo tome el control de una llave: Este enemigo se prepara, se enfrenta a ese investigador y lo ataca.",
+        "traits": "Monstruo. Antiguo."
+    },
+    {
+        "code": "08644",
+        "name": "Comprensión de la verdad",
+        "text": "<b>Revelación</b> – Realiza una prueba de [willpower] (2). Aumenta la dificultad de esta prueba en 1 por cada llave que haya en tu Lugar o que esté bajo tu control. Si fracasas, recibe 2 puntos de horror, o bien 3 puntos de horror si fracasas por 3 o más.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08645",
+        "name": "Ruinas en mal estado",
+        "text": "<b>Revelación</b> – Realiza una prueba de [agility] (3). Durante esta prueba, si revelas una ficha de Caos que coincida con una llave que esté en tu Lugar o que esté bajo el control de un investigador que esté en tu Lugar, fracasas automáticamente. Recibe 1 punto de daño por cada punto que te falte para tener éxito.",
+        "traits": "Riesgo."
+    },
+    {
         "code": "08646",
         "name": "Congelado",
         "text": "<b>Revelación</b> - Pon Congelado en juego en tu zona de amenaza.\nCongelado se puede curar como si fuera un único punto de daño que tuvieras <i>(si se cura, descártalo)</i>.\n<b>Obligado</b> - Cuando reveles una ficha [frost] durante una prueba de habilidad: Debes recibir 1 punto de daño o bien fracasar automáticamente esta prueba. Límite de una vez por prueba.",
@@ -124,8 +1235,486 @@
     {
         "code": "08647",
         "name": "Poseído",
-        "text": "<b>Revelación</b> - Pon Poseído en juego en tu zona de amenaza.\nPoseído se puede curar como si fuera un único punto de horror que tuvieras <i>(si se cura, descártalo)</i>.\n<b>Obligado</b> - Cuando reveles una ficha [frost] durante una prueba de habilidad: Debes recibir 1 punto de horror o bien fracasar automáticamente esta prueba. Límite de una vez por prueba.",
-        "traits": "Madness."
+        "text": "<b>Revelación</b> - Pon Poseído en juego en tu zona de amenaza.\nPoseído se puede curar como si fuera un único punto de daño que tuvieras <i>(si se cura, descártalo).\n<b>Obligado</b> - Cuando reveles una ficha [frost] durante una prueba de habilidad: Debes recibir 1 punto de horror o bien fracasar automáticamente esta prueba. Límite de una vez por prueba.",
+        "traits": "Locura."
+    },
+    {
+        "code": "08648",
+        "name": "El corazón de la locura",
+        "text": "<b>Fácil/Normal</b>\n[skull]: –1, o bien -3 si hay un Enemigo [[Antiguo]] en tu Lugar.\n[cultist]: –1. Si hay un sello en tu Lugar, o si tu Lugar es un Pilón de bruma, considera esta ficha como una ficha [frost] en su lugar.\n[tablet]: –3. Si fracasas, roba la primera carta del mazo Tekeli-li.\n[elder_thing]: –4. Si fracasas por 3 o más, coloca 1 ficha de Perdición sobre el plan en curso. Esto puede hacer que el plan en curso avance.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: –2, o bien -4 si hay un Enemigo [[Antiguo]] en tu Lugar.\n[cultist]: –1. Si hay un sello en tu Lugar, o si tu Lugar es un Pilón de bruma, considera esta ficha como una ficha [frost] además de su modificador.\n[tablet]: –3. Roba la primera carta del mazo Tekeli-li.\n[elder_thing]: –5. Si fracasas por 3 o más, coloca 1 ficha de Perdición sobre el plan en curso. Esto puede hacer que el plan en curso avance."
+    },
+    {
+        "code": "08649",
+        "name": "La puerta de Y’quaa",
+        "subname": "Sello primordial",
+        "text": "[action]: Coloca un sello activado que controles sobre La puerta de Y’quaa.\n[action]: <b>Desistir.</b> Te retiras esperando haber hecho lo suficiente como  para mantener encerrado a lo que hay al otro lado de la puerta (si controlas 1 o más sellos, conservas su control).",
+        "back_text": "Un muro de miasma agitado bloquea el antiguo portal. Los investigadores y los Enemigos no pueden entrar en La puerta de Y’quaa. La puerta de Y’quaa no puede tener cartas vinculadas.",
+        "back_flavor": "-El abismo negro -la orilla del mundo -los protoshoggoths -los sólidos cerrados de cinco dimensiones -el cilindro sin nombre -el antiguo Pharos -la jalea protoplásmica original -los ojos de las tinieblas -la escalera de la Luna -el original -el eterno -el inmortal -",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08650",
+        "name": "Conducto geotérmico",
+        "text": "[action] Si controlas el sello [seal_a]: Realiza una prueba de [combat] (3). Si tienes éxito, los investigadores que estén en el Conducto geotérmico gastan, como grupo, 1 pista [per_investigator] para activar el sello [seal_a]. A continuación, retira 1 ficha [frost] de la bolsa de caos.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08651",
+        "name": "Templo abandonado",
+        "text": "[action] Si controlas el sello [seal_c]: Realiza una prueba de [willpower] (3). Si tienes éxito, los investigadores que estén en el Templo abandonado gastan, como grupo, 1 pista [per_investigator] para activar el sello [seal_c]. A continuación, mira el lado revelado de cada Lugar sin revelar que esté en el mismo radio que el Templo abandonado.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08652",
+        "name": "Biblioteca de Kós",
+        "text": "[action] Si controlas el sello [seal_b]: Realiza una prueba de [intellect] (3). Si tienes éxito, los investigadores que estén en la Biblioteca de Kós gastan, como grupo, 1 pista [per_investigator] para activar el sello [seal_b]. A continuación, mira el lado revelado de cada Lugar sin revelar que esté en el mismo anillo que la Biblioteca de Kós.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08653",
+        "name": "Estanque protoplásmico",
+        "text": "[action] Si controlas el sello [seal_d]: Realiza una prueba de [agility] (3). Si tienes éxito, los investigadores que estén en el Estanque protoplásmico gastan, como grupo, 1 pista [per_investigator] para activar el sello [seal_d]. A continuación, inflige 2 puntos de daño a cada Enemigo en juego.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08654",
+        "name": "Sala del mar sin sol",
+        "text": "[action] Si controlas el sello [seal_e], los investigadores que estén en la Sala del mar sin sol gastan, como grupo, 1 pista [per_investigator] y descartan, como grupo, 2 cartas [per_investigator] de sus manos: Activa el sello [seal_e].",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08655",
+        "name": "Extensión subnáutica",
+        "text": "Trata el modificador de la primera ficha [frost] revelada durante cada prueba de habilidad en la Extensión subnáutica como -3 en lugar de -1. Límite de una vez por ronda.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08656",
+        "name": "Corredor abovedado",
+        "text": "[fast]: Elige otro Corredor abovedado y realiza una prueba de [agility] (X). X es la cantidad de Lugares de distancia a la que se encuentra ese Corredor abovedado desde éste. Si tienes éxito, muévete allí. Límite de una vez por ronda.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08657",
+        "name": "Terror primitivo",
+        "text": "<b>Revelación</b> – Realiza una prueba de [willpower] (2). Esta prueba recibe +1 a su dificultad por cada Lugar de distancia entre aquel en el que te encuentras y La puerta de Y’quaa. Si fracasas, recibe 2 puntos de horror.",
+        "flavor": "\"La antigüedad aterradora y la mortal desolación del lugar hubiesen abrumado a cualquier persona sensitiva…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Terror."
+    },
+    {
+        "code": "08658",
+        "name": "Raíces de la tierra",
+        "text": "<b>Revelación</b> – Realiza una prueba de [agility] (2). Esta prueba recibe +1 a su dificultad por cada Lugar de distancia entre aquel en el que te encuentras y La puerta de Y’quaa. Si fracasas, recibe 2 puntos de daño.",
+        "flavor": "\"Las criaturas que habían habitado y construido esta terrible ciudad en la edad de los dinosaurios no eran ciertamente dinosaurios, sino algo peor.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08659",
+        "name": "El corazón palpitante",
+        "text": "<b>Obligado</b> – Si hay 2 o más sellos activados controlados por investigadores que estén en el mismo Lugar: La energía latente almacenada en el interior de los sellos se fusiona. La reacción en cadena resultante provoca una detonación electroestática que destruye toda la vida en la Tierra. <b>(→R3)</b>",
+        "flavor": "De la puerta salen cinco oscuros caminos que atraviesan cavernas heladas y corredores abovedados de piedra negra pulida. Un silencioso temor llena la antigua estructura inactiva.",
+        "back_name": "Fin inescrutable",
+        "back_text": "Lee el <b>Interludio del escenario: La gota que colma el vaso</b> en la guía de campaña.",
+        "back_flavor": "Una oscura energía primordial brota de los muros, el mismo miasma que te ha perseguido a cada paso en este viaje condenado. Te detienes al instante y empiezas a recular. Ya has visto el tipo de espantosas formas que puede adoptar. El tipo de recuerdos que evoca, tanto terribles como agradables. Pero no todo el mundo ve el espejismo como lo que es de verdad…"
+    },
+    {
+        "code": "08660",
+        "name": "El Miasma te llama",
+        "text": "<b>Obligado</b> – Si hay 2 o más sellos activados controlados por investigadores que estén en el mismo Lugar: La energía latente almacenada en el interior de los sellos se fusiona. La reacción en cadena resultante provoca una detonación electroestática que destruye toda la vida en la Tierra. <b>(→R3)</b>",
+        "flavor": "Susurros arcanos y el goteo del oscuro miasma rompen el silencio que reinaba en las ruinas. Algo trata de alcanzarte desde el interior de sus muros. Algo te llama.",
+        "back_name": "Poder incontrolable",
+        "back_text": "Comprueba los sellos controlados por cada investigador (si un sello no está controlado por un investigador, omítelo).\nEl investigador que controla el sello [seal_a] recibe 1 punto de daño, o bien 2 puntos de daño si el sello está activado.\nEl investigador que controla el sello [seal_b] descarta 2 cartas aleatorias de tu mano, o bien 4 cartas si el sello está activado.\nEl investigador que controla el sello [seal_c] recibe 1 punto de horror, o bien 2 puntos de horror si el sello está activado.\nEl investigador que controla el sello [seal_d] pierde 1 acción, o bien 2 acciones si el sello está activado.\nEl investigador que controla el sello [seal_e] pierde 3 recursos, o bien 6 recursos si el sello está activado.",
+        "back_flavor": "Los sellos palpitan con una peligrosa energía electroestática y llenan las gélidas salas de una brillante luz azul. Te cuesta contener el poder de cada sello mientras te apresuras por colocarlos en su lugar correcto."
+    },
+    {
+        "code": "08661",
+        "name": "La llamada de la locura",
+        "text": "<b>Obligado</b> – Si hay 2 o más sellos activados controlados por investigadores que estén en el mismo Lugar: La energía latente almacenada en el interior de los sellos se fusiona. La reacción en cadena resultante provoca una detonación electroestática que destruye toda la vida en la Tierra. <b>(→R3)</b>",
+        "flavor": "El portal se agita. Sea lo que sea lo que te llama desde estos muros, oye cada palabra y cada pisada. Conoce tu presencia, tus esperanzas y tus miedos. Y ansía ser libre.",
+        "back_name": "Expansión impura",
+        "back_text": "Cada investigador restante es derrotado y debe sufrir 1 trauma mental o bien añadir las 3 primeras cartas del mazo Tekeli-li a su mazo y barajar éste.",
+        "back_flavor": "Antes de que puedas encontrar y colocar los cinco sellos, un ruido tremendo llena las salas cavernosas de la instalación, y un oscuro miasma prismático empieza a filtrarse por cada centímetro de las paredes y el techo. Olas de insidioso icor de bruma negra bloquean todas las rutas excepto aquella por la que viniste. Huyes de vuelta al portal para escapar o encontrar otro camino, pero para cuando llegas a la enorme puerta, es demasiado tarde."
+    },
+    {
+        "code": "08662",
+        "name": "Inactividad",
+        "text": "<b>Objetivo</b> – Si se coloca un sello activado sobre La puerta de Y’quaa, haz avanzar el acto.",
+        "flavor": "Has decidido explorar el resto de este complejo antediluviano para encontrar los dispositivos que encajan en esta extraña puerta.",
+        "back_name": "El primero de los cinco",
+        "back_text": "Comprueba qué sello se acaba de colocar <i>(no lo retires)</i>.\nSi fue el sello [seal_a], el investigador que lo colocó se cura 1 punto de daño.\nSi fue el sello [seal_b]], el investigador que lo colocó roba 2 cartas.\nSi fue el sello [seal_c]], el investigador que lo colocó se cura 1 punto horror.\nSi fue el sello [seal_d]], el investigador que lo colocó puede realizar una acción adicional en este turno.\nSi fue el sello [seal_e]], el investigador que lo colocó obtiene 3 recursos.",
+        "back_flavor": "En cuanto pones el sello en su sitio, oyes un clic y queda encajado. La energía almacenada en el sello brota de él y recorre los canales y muescas de la puerta, iluminando toda la cámara con un resplandor espectral. Tal vez puedas detener esta locura si logras activar y colocar los cuatro sellos restantes."
+    },
+    {
+        "code": "08663",
+        "name": "El gran sello",
+        "text": "<b>Objetivo</b> – Coloca tantos sellos activados como puedas sobre La puerta de Y’quaa antes de que escape lo que haya en su interior. Si se han colocado los 5 sellos, haz avanzar el acto.",
+        "flavor": "La colocación del primero de los cinco sellos ha despertado un extraño poder dentro de la instalación. Crees que si puedes encontrar y activar los sellos restantes, ayudarán a contener la cosa que habita al otro lado de esta puerta…",
+        "back_name": "El último sello",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "El último sello encaja en su sitio y la energía fluye por la instalación con un zumbido. Unos pequeños orbes que hay incrustados en el techo empiezan a iluminarse uno a uno. Te das cuenta de que este santuario es mucho más avanzado de los que podrías haber imaginado jamás."
+    },
+    {
+        "code": "08664",
+        "name": "Gruta glacial",
+        "text": "<b>Obligado</b> – Después de que la Gruta glacial sea revelada: Coloca el sello [seal_a] inactivo sobre ella.\n[action]: Realiza una prueba de [combat] (2) para resquebrajar el hielo. Si tienes éxito, los investigadores que estén en la Gruta glacial pueden gastar, como grupo, 1 pista [per_investigator] para que tomes el control del sello que hay sobre ella.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08665",
+        "name": "Cripta esculpida",
+        "text": "<b>Obligado</b> – Después de que la Cripta esculpida sea revelada: Coloca el sello [seal_b] inactivo sobre ella.\n[action]: Realiza una prueba de [intellect] (2) para descifrar la escritura alienígena. Si tienes éxito, los investigadores que estén en la Cripta esculpida pueden gastar, como grupo, 1 pista [per_investigator] para que tomes el control del sello que hay sobre ella.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08666",
+        "name": "Altar de la ciudad subterránea",
+        "text": "<b>Obligado</b> – Después de que el Altar de la ciudad subterránea sea revelada: Coloca el sello [seal_c] inactivo sobre él.\n[action]: Realiza una prueba de [willpower] (2) para romper la antigua barrera. Si tienes éxito, los investigadores que estén en el Altar de la ciudad subterránea pueden gastar, como grupo, 1 pista [per_investigator] para que tomes el control del sello que hay sobre él.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08667",
+        "name": "Túneles cargados de icor",
+        "text": "<b>Obligado</b> – Después de que los Túneles cargados de icor sean revelados: Coloca el sello [seal_d] inactivo sobre ellos.\n[action]: Realiza una prueba de [agility] (2) para atravesar el icor. Si tienes éxito, los investigadores que estén en los Túneles cargados de icor pueden gastar, como grupo, 1 pista [per_investigator] para que tomes el control del sello que hay sobre ellos.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08668",
+        "name": "Cavernas de piedra caliza",
+        "text": "<b>Obligado</b> – Después de que las Cavernas de piedra caliza sean reveladas: Coloca el sello [seal_e] inactivo sobre ella.\n[action] Los investigadores que estén en la Cripta esculpida gastan, como grupo, 1 pista [per_investigator] y 3 recursos [per_investigator]: Toma el control del sello que hay sobre las Cavernas de piedra caliza.",
+        "back_name": "Instalación antigua",
+        "back_flavor": "\"Los otros orificios formaban parte sin duda de sistemas de iluminación y ventilación acerca de los cuales las esculturas nos habían dado una vaga idea. Los cielos rasos eran comúnmente lisos, pero en algunos había habido unas losas de esteatita verde ahora en el suelo.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08669",
+        "name": "Masa protoplásmica",
+        "text": "Cazador.\n<b>Aparición</b> – Lugar más alejado de ti en el anillo exterior.\n<b>Presa</b> – Sólo el investigador más cercano que tenga un sello.\n<b>Obligado</b> – Cuando acabe la fase de Enemigos, si un investigador controla un sello activado: la Masa protoplásmica resuelve la fase de Enemigos de nuevo <i>(resuelve su palabra clave Cazador y ataca una segunda vez)</i>. Límite de una vez por fase.",
+        "traits": "Monstruo. Shoggoth."
+    },
+    {
+        "code": "08670",
+        "name": "Descarga electroestática",
+        "text": "Oleada.\n<b>Revelación</b> – Cada investigador que esté en el mismo Lugar que un sello recibe 1 punto de horror, y también 1 punto de daño si ese sello está activado.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08671",
+        "name": "El sello se debilita",
+        "flavor": "El miasma ha consumido por completo esta zona de la instalación. Del suelo y las paredes gotea un cieno policromático, una bruma polar recorre las salas y el aire resplandece con la apariencia insustancial de un espejismo. ¿Qué tipo de poder es éste? ¿Y cómo puedes tener alguna esperanza de destruirlo?",
+        "back_name": "Emerge…",
+        "back_text": "Cada investigador busca en su mazo todas las copias de Tekieli-li y las roba de una en una en orden aleatorio, sin colocarlas en la parte inferior del mazo Tekeli-li. Después de resolverlas todas, devuélvelas a los mozos de sus respectivos afectados y barájalos.",
+        "back_flavor": "<blockquote>Desde las profundidades sin nombre el mismísimo núcleo terrestre emerge la verdadera forma del miasma. Es una cosa informe, una criatura de bruma arremolinada e icor putrefaco que grita, susurra, repta y vuela. Se filtra por las paredes y sube por el hielo; está en todas partes; lo es todo.</blockquote>\n<n>Haz aparecer 1 copia del Enemigo La locura sin nombre puesta aparte en el Pilón de bruma más cercano a un investigador.\n<hr><b>Comprueba el registro de campaña.</n> Si los investigadores se les escapa la verdad del espejismo:</b>\n<blockquote>Te quedas mirando la espantosa fantasmagoría completamente sobrecogido. El aire resplandece como en un sueño en torno a su execrable forma, una trama infinita de pesadillas y recuerdos entrelazados. Su mera visión te hace caer de rodillas. Es la verdad definitiva. La realidad era el espejismo.</blockquote>"
+    },
+    {
+        "code": "08672",
+        "name": "Lo que no tiene nombre",
+        "text": "<b>Obligado</b> – Cuando fuesen a ponerse en juego 1 o más fichas de Perdición, si aún hay alguna copia de La locura sin nombre puesta aparte: En lugar de eso, haz aparecer 1 copia de La locura sin nombre puesta aparte en el Lugar más cercano a un investigador que no tenga una copia de ese Enemigo y que esté conectado a un Lugar que tenga una copia de ese Enemigo.\n<b>Objetivo</b> – Al final de la ronda, si las 15 copias de La locura sin nombre están en juego y no se han derrumbado todos los Pilones de bruma, haz avanzar este plan.",
+        "flavor": "Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li! Tekeli-li!",
+        "back_name": "La montaña cae",
+        "back_text": "Por cada Pilón de bruma derrumbado, pon aparte 3 copias de La locura sin nombre.\nCada investigador pierde todas sus pistas.\nRetira de la partida todos los Lugares excepto La puerta de Y’quaa. Los investigadores y las copias de La locura sin nombre no son derrotados por este efecto. Todas las demás cartas que estén en esos Lugares se descartan.\nPon en juego los 4 Lugares Rampa titánica puestos aparte formando una línea recta a la derecha de La puerta de Y’quaa. Pon en juego el Lugar Túnel oculto puesto aparte a la derecha de la Rampa titánica situada más a la derecha. Coloca todos los investigadores y todas las copias restantes de La locura sin nombre en juego en la Rampa titánica situada más a la izquierda.\nRetira el mazo de Acto de la partida y haz avanzar el plan a El espejismo final puesto aparte, que se convierte tanto en el acto en curso como en el plan en curso.",
+        "back_flavor": "Es demasiado tarde. No podéis contener a la criatura que mora bajo la montaña. Sólo os queda esperar que podáis escapar con vida."
+    },
+    {
+        "code": "08673",
+        "name": "Derrumbar los pilones",
+        "text": "Cada pilón de bruma revelado puede ser atacado como si fuera un Enemigo. Su valor de combate es igual a su valor de velo y su salud es igual a su valor de pista. Mientras no le quede salud, se ha derrumbado <i>(permanece en juego)</i>.\n[reaction] Cuando descubras 1 o más pistas en un Pilón de bruma, gasta esas pistas: Inflige esa misma cantidad de daño a ese Pilón de bruma.\n<b>Objetivo</b> – Al final de la ronda, si todos los Pilones de bruma se han derrumbado, haz avanzar el acto.",
+        "flavor": "Hay cinco pilones que sostienen esta instalación. Tu única esperanza es destruirlos, y destruir así todo lo demás.",
+        "back_name": "Autodestrucción",
+        "back_text": "Pon aparte todas las copias de La locura sin nombre excepto 3.\nCada investigador pierde todas sus pistas.\nRetira de la partida todos los Lugares excepto La puerta de Y’quaa. Los investigadores y las copias de La locura sin nombre no son derrotados por este efecto. Todas las demás cartas que estén en esos Lugares se descartan.\nPon en juego los 4 Lugares Rampa titánica puestos aparte formando una línea recta a la derecha de La puerta de Y’quaa. Pon en juego el Lugar Túnel oculto puesto aparte a la derecha de la Rampa titánica situada más a la derecha. Coloca todos los investigadores y todas las copias restantes de La locura sin nombre e juego en la Rampa titánica situada más a la izquierda.\nRetira el mazo de Plan de la partida y haz avanzar el acto a El espejismo final puesto aparte, que se convierte tanto en el acto en curso como en el plan en curso.",
+        "back_flavor": "La instalación tiembla de arriba abajo. Sin los pilones de bruma para alimentar la estructura, la entidad sin nombre que reside en su interior está libre, pero tiene los días contados, igual que tú. La montaña gruñe y se estremece, amenazando con derrumbarse a tu alrededor."
+    },
+    {
+        "code": "08674",
+        "name": "Pilón de bruma",
+        "text": "[fast] Si controlas el sello [seal_a] y está activado: Liberas el poder del sello. Coloca el sello [seal_a] sobre este Pilón de bruma. Durante el resto de la partida, cada vez que inflijas daño a un Pilón de bruma, inflige un daño adicional.",
+        "back_text": "Como coste adicional para que entres en el Pilón de bruma, los investigadores que estén en tu Lugar deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"Toda la escena parecía sugerir una secreta revelación en potencia. Se diría que esos picos de pesadilla eran los pilones de una puerta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08675",
+        "name": "Pilón de bruma",
+        "text": "[fast] Si controlas el sello [seal_d] y está activado: Liberas el poder del sello. Coloca el sello [seal_d] sobre este Pilón de bruma. Durante el resto de la partida, reduce en 2 el valor de velo de cada Pilón de bruma.",
+        "back_text": "Como coste adicional para que entres en el Pilón de bruma, los investigadores que estén en tu Lugar deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"Toda la escena parecía sugerir una secreta revelación en potencia. Se diría que esos picos de pesadilla eran los pilones de una puerta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08676",
+        "name": "Pilón de bruma",
+        "text": "[fast] Si controlas el sello [seal_c] y está activado: Liberas el poder del sello. Coloca el sello [seal_c] sobre este Pilón de bruma. Durante el resto de la partida, cada investigador recibe +1 a cada una de sus habilidades mientras esté en un Pilón de bruma.",
+        "back_text": "Como coste adicional para que entres en el Pilón de bruma, los investigadores que estén en tu Lugar deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"Toda la escena parecía sugerir una secreta revelación en potencia. Se diría que esos picos de pesadilla eran los pilones de una puerta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08677",
+        "name": "Pilón de bruma",
+        "text": "[fast] Si controlas el sello [seal_e] y está activado: Liberas el poder del sello. Coloca el sello [seal_e] sobre este Pilón de bruma. Durante el resto de la partida, siempre que un investigador que esté en un Pilón de bruma se le fuese a infligir 1 o más puntos de daño y/o de horror, cancela 1 punto de ese daño u horror.",
+        "back_text": "Como coste adicional para que entres en el Pilón de bruma, los investigadores que estén en tu Lugar deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"Toda la escena parecía sugerir una secreta revelación en potencia. Se diría que esos picos de pesadilla eran los pilones de una puerta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08678",
+        "name": "Pilón de bruma",
+        "text": "[fast] Si controlas el sello [seal_b] y está activado: Liberas el poder del sello. Coloca el sello [seal_b] sobre este Pilón de bruma. Durante el resto de la partida, cada Enemigo recibe -2 a combate y -2 a evitar mientras esté en un Pilón de bruma.",
+        "back_text": "Como coste adicional para que entres en el Pilón de bruma, los investigadores que estén en tu Lugar deben gastar, como grupo, 1 pista [per_investigator].",
+        "back_flavor": "\"Toda la escena parecía sugerir una secreta revelación en potencia. Se diría que esos picos de pesadilla eran los pilones de una puerta…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+},
+    {
+        "code": "08679",
+        "name": "La locura sin nombre",
+        "subname": "La entidad del espejismo",
+        "text": "Alerta. Descomunal. Represalia.\nLa locura sin nombre no puede recibir daño.\n<b>Obligado</b> – Después de que evites o ataques con éxito a La locura sin nombre: Por cada punto que tuvieras por encima del valor mínimo de éxito, agota la copia preparada más cercana de La locura sin nombre.",
+        "traits": "Antiguo. Eidolón. Élite."
+    },
+    {
+        "code": "08680",
+        "name": "Aparición liberada",
+        "text": "<b>Aparición</b> – El Pilón de bruma más cercano que no se haya derrumbado (o tu Lugar si no hay ninguno en juego).\nMientras Aparición liberada esté preparada y en un Pilón de bruma, no se puede infligir daño a ese Pilón de bruma.\n<b>Obligado</b> – Al final de la fase Enemigos, si la Aparición liberada está preparada: Muévela una vez hacia el Pilón de bruma más cercano que no se haya derrumbado.",
+        "traits": "Monstruo. Eidolón. Shoggoth."
+    },
+    {
+        "code": "08681",
+        "name": "Ej espejismo final",
+        "text": "La locura sin nombre obtiene Cazador.\n<b>Obligado</b> –Cuando fuesen a ponerse en juego 1 o más fichas de Perdición: En lugar de eso, haz aparecer 1 copia de La locura sin nombre puesta aparte en el Lugar del investigador que esté más a la izquierda.\n<b>Objetivo</b> – Corre.",
+        "back_name": "Juicio sin nombre",
+        "back_text": "Comprueba el registro de campaña.\n- Si los 5 Pilones de bruma se han derrumbado y <i>la Dra. Kensler tiene un plan</i>, pasa a <b>(→R1)</b>.\n- Si los 5 Pilones de bruma se han derrumbado y <i>a los investigadores se les escapa la verdad del espejismo</i>, pasa a <b>(→R2)</b>.\n- Si no es así, pasa a <b>(→R3)</b>.",
+        "back_flavor": "Sales del túnel y la luz del día te ciega, pues el sol asoma desde detrás de las escarpadas cumbres que hay a lo lejos. A tu espalda, la entidad se apresura a ganar la salida. Te preparas para el final, pues el muro de bruma, miasma y locura parece un tren desbocado."
+    },
+    {
+        "code": "08682",
+        "name": "Rampa titánica",
+        "text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.\nComo coste adicional para que abandones la Rampa titánica, realiza una prueba de [agility] (4). Si fracasas, cancela los efectos de movimiento. Cualquier investigador que esté en tu Lugar o en un Lugar conectado puede gastar 1 pista para hacer que tengas éxito automáticamente en esta prueba.",
+        "back_text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.",
+        "back_flavor": "\"…nos hizo correr locamente a lo largo de los megalíticos túneles, llegar a la torre circular y subir rápida y automáticamente por la rampa hasta encontrar al fin el aire y la luz del día.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08683",
+        "name": "Rampa titánica",
+        "text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.\nComo coste adicional para que abandones la Rampa titánica, realiza una prueba de [agility] (3). Si fracasas, cancela los efectos de movimiento. Cualquier investigador que esté en tu Lugar o en un Lugar conectado puede gastar 1 pista para hacer que tengas éxito automáticamente en esta prueba.",
+        "back_text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.",
+        "back_flavor": "\"…nos hizo correr locamente a lo largo de los megalíticos túneles, llegar a la torre circular y subir rápida y automáticamente por la rampa hasta encontrar al fin el aire y la luz del día.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08684",
+        "name": "Rampa titánica",
+        "text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.\nComo coste adicional para que abandones la Rampa titánica, realiza una prueba de [agility] (2). Si fracasas, cancela los efectos de movimiento. Cualquier investigador que esté en tu Lugar o en un Lugar conectado puede gastar 1 pista para hacer que tengas éxito automáticamente en esta prueba.",
+        "back_text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.",
+        "back_flavor": "\"…nos hizo correr locamente a lo largo de los megalíticos túneles, llegar a la torre circular y subir rápida y automáticamente por la rampa hasta encontrar al fin el aire y la luz del día.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08685",
+        "name": "Rampa titánica",
+        "text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.\nComo coste adicional para que abandones la Rampa titánica, realiza una prueba de [agility] (1). Si fracasas, cancela los efectos de movimiento. Cualquier investigador que esté en tu Lugar o en un Lugar conectado puede gastar 1 pista para hacer que tengas éxito automáticamente en esta prueba.",
+        "back_text": "La Rampa titánica está conectada a los Lugares de su izquierda y de su derecha.",
+        "back_flavor": "\"…nos hizo correr locamente a lo largo de los megalíticos túneles, llegar a la torre circular y subir rápida y automáticamente por la rampa hasta encontrar al fin el aire y la luz del día.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08686",
+        "name": "Túnel oculto",
+        "subname": "Una salida",
+        "text": "El Túnel oculto está conectado al Lugar de su izquierda.\n<b>Objetivo</b> – Si todos los investigadores no derrotados están en el Túnel oculto, haz avanzar el acto.",
+        "flavor": "\"…no nos detuvimos hasta llegar al universo normal.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "back_text": "El Túnel oculto está conectado al Lugar de su izquierda.",
+        "back_flavor": "\"Por suerte no nos detuvimos. Las volutas de niebla habían vuelto a espesarse, y se adelantaban ahora con una velocidad cada vez mayor. Mientras tanto, los pingüinos corrían y chillaban…\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Ruinas."
+    },
+    {
+        "code": "08687",
+        "name": "Mal primordial",
+        "text": "Cazador. Represalia.\n<b>Obligado</b> – Cuando inflijas cualquier cantidad de daño al Mal primordial: Añade, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y baraja éste (si no puedes, el Mal primordial te ataca).",
+        "traits": "Monstruo. Eidolón."
+    },
+    {
+        "code": "08688",
+        "name": "La locura interior",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower] (4). Por cada punto que te falte para tener éxito, añade, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y baraja éste (por cada carta que no puedas añadir, recibe 1 punto de horror).",
+        "traits": "Maldición."
+    },
+    {
+        "code": "08689",
+        "name": "Manifestación de la locura",
+        "text": "Cazador.\n<b>Obligado</b> – Cuando la Manifestación de la locura te ataque: Añade, sin mirarlas, las 2 primeras cartas del mazo Tekeli-li a tu mazo y baraja éste (por cada carta que no puedas añadir, la Manifestación de la locura inflige +1 de daño y +1 de horror para este ataque).",
+        "traits": "Monstruo. Eidolón."
+    },
+    {
+        "code": "08690",
+        "name": "Aparición glacial",
+        "text": "<b>Obligado</b> – Al final de la fase de Enemigos, si Aparición glacial está preparada: Muévela una vez hacia el Lugar con más investigadores. Siguiendo el orden de juego, cada investigador que esté en el Lugar de la Aparición glacial o en un Lugar conectado añade, sin mirarla, la primera carta del mazo Tekeli-li a su mazo y baraja éste (cada investigador que no pueda recibe 1 punto de horror).",
+        "traits": "Monstruo. Eidolón."
+    },
+    {
+        "code": "08691",
+        "name": "Bruma afín",
+        "text": "<b>Revelación</b> – Vincula esta carta al Lugar más cercano que no tenga una copia de la Bruma afín vinculada.\n<b>Obligado</b> – Cuando fuesen a añadirse a tu mazo 1 o más cartas del mazo Tekeli-li mientras estás en el Lugar vinculado: En vez de eso, róbalas, colocándolas en la parte inferior de tu mazo en lugar de en la parte inferior del mazo Tekeli-li. Descarta la Bruma afín al final de la ronda.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "08692",
+        "name": "Viento antártico",
+        "text": "<b>Revelación</b> – Vincula esta carta al Lugar más cercano que no tenga una copia del Viento antártico vinculada.\nLos investigadores que estén en el Lugar vinculado no pueden jugar cartas ni robar cartas de su mazo.\n<b>Obligado</b> – Al final de la ronda: Descarta el Viento antártico.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08693",
+        "name": "Baja visibilidad",
+        "text": "<b>Revelación</b> – Vincula esta carta a tu Lugar.\nCada investigador que esté en el Lugar vinculado recibe –1 [willpower], –1 [intellect], –1 [combat], y –1 [agility].\n<b>Obligado</b> – Al final de la ronda: Descarta la Baja visibilidad.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08694",
+        "name": "Vértice polar",
+        "text": "<b>Revelación</b> – Vincula esta carta a tu Lugar.\n<b>Obligado</b> – Cuando termines tu turno en el Lugar vinculado: Cada carta que controles que tenga salud <i>(incluido el investigador)</i> recibe 1 punto de daño directo..\n<b>Obligado</b> – Al final de la ronda: Descarta el Vértice polar.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08695",
+        "name": "Antiguo buscador de restos",
+        "text": "Cazador.\n<b>Obligado</b> – Después de que el Antiguo buscador de restos te ataque: Descarta las 3 primeras cartas de tu mazo. Roba cada Debilidad descartada de este modo.",
+        "flavor": "\"De la vida de los Antiguos, tanto en el mar como en la tierra, podrían escribirse volúmenes.\"\n– H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Monstruo. Antiguo."
+    },
+    {
+        "code": "08696",
+        "name": "Antiguo guardián",
+        "text": "Cazador.\n<b>Obligado</b> – Cuando inflijas daño al Antiguo guardián: Por cada punto de daño infligido, descarta la primera carta de tu mazo. Roba cada Debilidad descartada de este modo.",
+        "traits": "Monstruo. Antiguo."
+    },
+    {
+        "code": "08697",
+        "name": "Ascenso de los Antiguos",
+        "text": "<b>Revelación</b> – Busca el primer Enemigo [[Antiguo]] de la pila de descartes de Encuentros y haz que aparezca enfrentado a ti. Cada Enemigo [[Antiguo]] que esté enfrentado a ti en este momento recibe +1 a combate y +1 a evitar hasta el final de la ronda. Si el Ascenso de los Antiguos no pone ningún Enemigo en juego, obtiene Oleada.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08698",
+        "name": "Pozo de hielo",
+        "text": "<b>Revelación</b> – Realiza una prueba de [agility] (3). Por cada ficha [frost] revelada durante esta prueba, recibe 1 punto de daño. Si fracasas, recibe 2 puntos de daño.",
+		"flavor": "Un paso en falso…",  
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08699",
+        "name": "Atravesar el hielo",
+        "text": "<b>Revelación</b> – Vincula esta carta al Lugar más cercano que no tenga una copia de Atravesar el hielo vinculada.\nComo coste adicional para que entres en el Lugar vinculado o lo abandones (excepto mediante el efecto de una carta de Escenario), realiza una prueba de [agility] (2). Si fracasas, cancela los efectos del movimiento, recibe 1 punto de daño y 1 punto de horror y descarta Atravesar el hielo.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08700",
+        "name": "Investigador perdido",
+        "text": "<b>Aparición</b> – Cualquier Lugar (vacío si es posible).\nEl Investigador perdido entra en juego con 1 ficha de Perdición sobre él.\n<b>Obligado</b> – Cuando el Investigador perdido sea derrotado: Mueve a su Lugar toda la perdición que haya sobre él.\n[action]: <b>Negociar.</b> Realiza una prueba de [willpower] o de [intellect] (3). Si tienes éxito, toma el control de 1 ficha de Perdición que este sobre el Investigador perdido y dale la vuelta a su lado pista. A continuación, si no hay perdición sobre el Investigador perdido, descártalo.",
+        "traits": "Humanoide. Poseído."
+    },
+    {
+        "code": "08701",
+        "name": "Explorador enajenado",
+        "text": "El Explorador enajenado entra en juego con 1 ficha de Perdición sobre él.\n<b>Obligado</b> – Cuando el Explorador enajenado sea derrotado: Mueve a su Lugar toda la perdición que haya sobre él.\n[reaction]: Después de que evites con éxito al Explorador enajenado por 2 o más: Toma el control de 1 ficha de Perdición que este sobre el Explorador enajenado y dale la vuelta a su lado pista. A continuación, si no hay perdición sobre el Explorador enajenado, descártalo.",
+        "traits": "Humanoide. Poseído."
+    },
+    {
+        "code": "08702",
+        "name": "Abandonado a la locura",
+        "text": "<b>Revelación</b> – Vincula esta carta al Enemigo [[Poseído]] más cercano y coloca 1 ficha de Perdición sobre ese Enemigo. Si no hay Enemigos [[Poseído]] en juego, busca en el mazo y la pila de descartes de Encuentros un Enemigo [[Poseído]], róbalo y vincúlale Abandonado a la locura (baraja el mazo de Encuentros).\nAumenta en 1 la dificultad para combatir, evadir, o negociar con el Enemigo vinculado.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "08703",
+        "name": "Visiones blasfemas",
+        "text": "<b>Revelación</b> – Añade, sin mirarla, la primera carta del mazo Tekeli-li a tu mazo y baraja éste. A continuación, pon en juego las Visiones blasfemas en tu zona de amenaza.\nResuelve una vez adicional los efectos de cada Debilidad Tekeli-li que robes.\n[action]: Realiza una prueba de [willpower] (3). Si tienes éxito, descarta las Visiones blasfemas.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08704",
+        "name": "Entrever lo inconfesable",
+        "text": "Peligro.\n<b>Revelación</b> – Roba la primera carta del mazo Tekeli-li <i>(y resuelve sus efectos)</i>. Añádela al mazo de cualquier investigador y baraja éste en lugar de colocarla en la parte inferior del mazo Tekeli-li. Si no se ha robado ninguna Debilidad Tekeli-li por este efecto, Entrever lo inconfesable obtiene Oleada.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08705",
+        "name": "Vapores de pesadilla",
+        "text": "Peligro.\n<b>Revelación</b> – Debes (elige una opción):\n- Perder 2 acciones.\n- Añadir, sin mirarlas, las 2 primeras cartas del mazo Tekeli-li a tu mazo y barajar éste.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08706",
+        "name": "Tormento del miasma",
+        "text": "<b>Revelación</b> – Si controlas un Apoyo Compañero, agótalo y vincúlale el Tormento del miasma. Si no es así, el Tormento del miasma obtiene Oleada.\nEl Apoyo vinculado no se puede preparar.\n<b>Obligado</b> – Al final de tu turno: El Apoyo vinculado recibe 1 punto de daño o 1 punto de horror.\n[action]: Realiza una prueba de [willpower] o de [intellect] (3). Si tienes éxito, descarta el Tormento del miasma.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "08707",
+        "name": "Miasma nebuloso",
+        "text": "<b>Revelación</b> – Vincula esta carta a tu Lugar.\n<b>Obligado</b> – Cuando termines el turno en el Lugar vinculado: Cada carta que controles que tenga cordura <i>(incluido tu investigador)</i> recibe 1 punto de horror directo.\n<b>Obligado</b> – Al final de la ronda: Descarta el Miasma nebuloso.",
+        "traits": "Maldición. Riesgo."
+    },
+    {
+        "code": "08708",
+        "name": "Pingüino albino gigante",
+        "text": "Indiferente.\nComo coste adicional para que entres en el Lugar de este Enemigo o lo abandones, debes gastar 1 acción.",
+        "flavor": "\"Pues se trataba sólo de un pingüino, aunque de una especie desconocida, mayor que los pingüinos llamados reales.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Criatura."
+    },
+    {
+        "code": "08709",
+        "name": "Mec! Mec! Mec!",
+        "text": "<b>Revelación</b> – Busca el Enemigo Pingüino albino gigante más alejado de ti. Debes moverlo a tu Lugar o bien colocar 1 ficha de Perdición sobre él. Si no hay Pingüinos albinos gigantes en juego, busca un Pingüino albino gigante en el mazo y la pila de descartes de Encuentros, róbalo y baraja el mazo de Encuentros.",
+        "traits": "Riesgo."
+    },
+    {
+        "code": "08710",
+        "name": "Shoggoth olvidado",
+        "text": "Cazador.\n<b>Obligado</b> – Después de que el Shoggoth olvidado se enfrente a ti: Roba la primera carta del mazo Tekeli-li (Si no puedes, el Shoggoth olvidado te ataca).",
+        "flavor": "\"…los shoggoths y sus obras no son algo que puedan contemplar los ojos de los hombres.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Monstruo. Shoggoth."
+    },
+    {
+        "code": "08711",
+        "name": "Shoggoth desatado",
+        "text": "Cazador. Descomunal.\nEl Shoggoth desatado recibe +2 de salud [per_investigator].\n<b>Obligado</b> – Al final de la fase de Enemigos: Inflige 2 puntos de daño a cada investigador y a cada Enemigo que no sea [[Shoggoth]] que esté en el Lugar del Shoggoth desatado. Cada uno de esos investigadores roba la primera carta del mazo Tekeli-li.",
+        "traits": "Monstruo. Shoggoth. Élite."
+    },
+    {
+        "code": "08712",
+        "name": "Espejismo polar",
+        "text": "<b>Revelación</b> – Vincula esta carta al Lugar más cercano que tenga al menos 1 pista y que no tenga una copia del Espejismo polar vinculada.\n<b>Obligado</b> – Después de que descubras o tomes el control de 1 o más pistas en el Lugar vinculado: Descarta todas las cartas que no sean Debilidad de tu mano. Descarta el Espejismo polar.",
+        "traits": "Terror."
+    },
+    {
+        "code": "08713",
+        "name": "Aurora oscura",
+        "text": "<b>Revelación</b> – Realiza una prueba de [willpower] (3). Por cada ficha [frost] revelada durante esta prueba, recibe 1 punto de horror. Si fracasas, recibe 2 puntos de horror.",
+        "flavor": "\"Los organismos fosforescentes suplían por su parte con eficacia la falta de auroras boreales del mundo exterior.\"\n – H. P. Lovecraft, <u>En las Montañas de la Locura</u>",
+        "traits": "Terror"
     },
     {
         "code": "08714",
