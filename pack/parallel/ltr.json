@@ -26,6 +26,13 @@
         }
     ],
     "deck_requirements": "size:30, card:02012:90050, card:02013:90051, random:subtype:basicweakness",
+    "side_deck_options": [
+      {
+        "trait": ["ally"],
+        "level": { "min": 0, "max": 2 }
+      }
+    ],
+    "side_deck_requirements": "size:9, card:90053",
     "double_sided": true,
     "faction_code": "mystic",
     "flavor": "“I know I can make the dead dance.”",
@@ -119,7 +126,7 @@
     "enemy_evade": 5,
     "enemy_fight": 5,
     "enemy_horror": 2,
-    "faction_code": "mythos",
+    "faction_code": "neutral",
     "health": 2,
     "illustrator": "Andreas Zafiratos",
     "name": "Vengeful Shade",
@@ -147,7 +154,6 @@
     "text": "Easy / Standard\n[skull]: -X. X is 1 more than the number of copies of Unfinished Business in the victory display.\n[cultist]: -X. X is the number of cards attached to The Beyond.\n[tablet]: -X. X is the number of [[Spectral]] locations in play.\n[elder_thing]: -2. If there is a [[Geist]] enemy at your location, reveal another token.",
     "type_code": "scenario"
   },
-
   {
     "back_name": "The Hour Grows Late...",
     "back_flavor": "A cold wind blows down the haunted hill, chilling your bones. The spirits grow more and more restless.",
@@ -168,7 +174,6 @@
     "text": "<b>Forced</b> – When the enemy phase begins: Deal 1 damage to Jean Devereux for each ready Ravenous Spirit at his location.\n<b>Forced</b> – If Jim Culver is defeated: Advance the act.\n[action] Spend 2 [per_investigator] clues, as a group: <b>Parley.</b> You banish a spirit. Discard the top card of the Spirit deck. <i>(Hint: Draw Heretics out of the Beyond and summon them with Jean’s help!)</i>",
     "type_code": "agenda"
   },
-
   {
     "back_name": "The Spectral Storm",
     "back_flavor": "Soft chanting guides you to a gloomy clearing near the abandoned chapel. A circle of witchweed surrounds the clearing, swaying gently in the breeze. At the center of the clearing, a cloaked woman kneels in front of an unmarked grave, far from the remainder of the graveyard. You watch in quiet for a few minutes while the woman sings an old, somber melody. It reminds you somewhat of a child's lullaby - soothing, but with a dark gravity that betrays its purpose. As soon as the song ends, the woman's cloak dissolves into mist, and she vanishes in a swirl of shadows.",
@@ -192,7 +197,7 @@
   {
     "code": "90057a",
     "back_link": "90057b",
-    "encounter_code": "ltr",
+    "encounter_code": "laid_to_rest",
     "encounter_position": 4,
     "enemy_damage": 1,
     "enemy_evade": 3,
@@ -213,7 +218,7 @@
   },
   {
     "code": "90057b",
-    "encounter_code": "ltr",
+    "encounter_code": "laid_to_rest",
     "encounter_position": 4,
     "enemy_damage": 1,
     "enemy_evade": 2,
@@ -236,7 +241,7 @@
   },
   {
     "code": "90058",
-    "encounter_code": "ltr",
+    "encounter_code": "laid_to_rest",
     "encounter_position": 5,
     "enemy_damage": 1,
     "enemy_evade": 4,
