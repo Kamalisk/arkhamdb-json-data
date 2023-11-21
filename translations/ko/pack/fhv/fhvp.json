@@ -1,0 +1,97 @@
+[
+    {
+        "code": "10040",
+        "name": "Chemistry Set",
+        "text": "[action] Exhaust Chemistry Set: <b>Investigate.</b> If you...\n- ...fail by exactly 2, discard Chemistry Set.\n- ...succeed by exactly 0, gain 2 resources.\n- ...succeed by exactly 2, draw 1 card.\n- ...succeed by exactly 4, discover 1 additional clue at your location.",
+        "traits": "Item. Tool. Science.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10041",
+        "name": "Dr. Charles West III",
+        "subname": "Knows His Purpose",
+        "text": "You have 1 additional hand slot, which can only be used to hold a [[Tool]] asset.\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dr. Charles West III: Deal 1 damage to an enemy at your location.",
+        "traits": "Ally. Science.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10042",
+        "name": "Microscope",
+        "text": "[reaction] After an enemy at your location is successfully evaded or defeated, exhaust Microscope: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +1 [intellect] for this investigation for each evidence on Microscope (max +3 [intellect]). If you succeed, you may spend up to 2 evidence to discover that many additional clues at your location.",
+        "traits": "Item. Tool. Science.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10044",
+        "name": "Ravenous Myconid",
+        "subname": "Unidentified",
+        "text": "Limit 1 per deck.\n[action]: Search your bonded cards for Uncanny Growth and add it to your hand.\n[action] If Ravenous Myconid has 3 or more growth on it: Move each growth to your resource pool, as resources. Record in your Campaign Log that \"you have classified a new species.\"",
+        "traits": "Creature. Monster. Flora. Science."
+    },
+    {
+        "code": "10045",
+        "name": "Uncanny Growth",
+        "text": "Bonded (Ravenous Myconid).\n<b>Investigate.</b> After this test resolves, place 1 resource on Ravenous Myconid, as growth, for each point you succeed by. Set Uncanny Growth aside, out of play. If you fail, return Uncanny Growth to your hand.",
+        "traits": "Insight. Science."
+    },
+    {
+        "code": "10051",
+        "flavor": "Every cent of that research grant counts.",
+        "name": "Well-Funded",
+        "text": "While you control a [[Science]] or [[Tool]] asset, Well-Funded gains [wild] (while you control 3 or more [[Science]] and/or [[Tool]] assets, Well-Funded gains [wild] [wild], instead).",
+        "traits": "Fortune."
+    },
+    {
+        "code": "10072",
+        "name": "\"I'll Pay You Back!\"",
+        "text": "Fast. Play only during your turn.\nChoose an investigator at your location. Move all resources from that investigator's resource pool to your resource pool. At the end of the round, move all resources from your resource pool to that investigator's resource pool.",
+        "traits": "Gambit. Trick."
+    },
+    {
+        "code": "10097",
+        "flavor": "어떤 마법이든 제대로 발동시키려면 목숨 걸고 임해야 해.\n말 그대로 목숨이 걸릴 때도 있어.",
+        "name": "올리브 맥브라이드",
+        "subname": "뭐든 한 번씩은 시도해 봤지",
+        "text": "[reaction] 당신이 혼돈 토큰을 공개하려 할 때, ‘올리브 맥브라이드’를 소진합니다: 1개의 혼돈 토큰을 대신하여 4개의 혼돈 토큰을 공개합니다. 이렇게 공개한 혼돈 토큰 가운데서 2개를 선택해서 해결하고, 나머지 하나는 무시합니다.",
+        "traits": "조력자. 마녀.",
+        "slot": "조력자"
+    },
+    {
+        "code": "10110",
+        "name": "Pitchfork",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +2 damage for this attack. If this attack is successful, lose control of Pitchfork and attach it to your location. Your location gains:\n\"[action]: Take control of Pitchfork. Any investigator at Pitchfork's location may trigger this ability.\"",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "10111",
+        "name": "Sparrow Mask",
+        "subname": "The Wanderer's Companion",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you take 1 or more damage and/or horror.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [agility] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10113",
+        "name": "Pushed to the Limit",
+        "text": "Choose a [[Weapon]] or [[Tool]] asset in your discard pile. Resolve an [action] ability on that asset, ignoring all costs <i>(including its [action] cost)</i>.\nAfter this effect resolves, shuffle the chosen asset into your deck. Playing this card does not provoke attacks of opportunity.",
+        "traits": "Tactic. Improvised."
+    },
+    {
+        "code": "10114",
+        "name": "Stall for Time",
+        "text": "<b>Parley.</b> Choose an enemy at your location. Test [willpower] (X), where X is the chosen enemy's fight or evade value, whichever is lower. If you succeed, exhaust the chosen enemy <i>(but do not disengage from it)</i>. If it is non-[[Elite]], it does not ready during the next upkeep phase. If you fail, return Stall for Time to your hand.",
+        "traits": "Tactic. Trick."
+    },
+    {
+        "code": "10115",
+        "name": "Wrong Place, Right Time",
+        "text": "As an additional cost to play Wrong Place, Right Time, spend an action.\nMove up to 5 damage and/or horror from your investigator to assets controlled by investigators at your location. For each asset defeated by this effect, draw 1 card. Remove Wrong Place, Right Time from the game.",
+        "traits": "Spirit. Double."
+    },
+    {
+        "code": "10116",
+        "name": "Long Shot",
+        "text": "You may commit Long Shot to a fight or evasion test against an enemy at your location or a connecting location.\nIf this test is successful, deal 1 damage to that enemy.",
+        "traits": "Practiced."
+    }
+]
