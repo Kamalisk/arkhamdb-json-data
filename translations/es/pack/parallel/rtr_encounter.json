@@ -1,0 +1,49 @@
+ [
+    {
+        "code": "90041",
+        "name": "Sube la Marea Roja",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la mitad del número de cartas [[Sospechoso]] y [[Escondite]] que haya en la zona de victoria (redondeado hacia arriba).\n[cultist]: -2, o bien -4 si estás negociando con un Enemigo [[Sospechoso]] o investigando un Lugar [[Escondite]].\n[tablet]: -3. Si tienes éxito, mira la primera carta del mazo de Indicios. Puedes elegir barajar el mazo de Indicios.\n[elder_thing]: -1. Si fracasas, añade la primera carta del mazo de Encuentros al mazo de Indicios y baraja éste.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el número de cartas [[Sospechoso]] y [[Escondite]] que haya en la zona de victoria.\n[cultist]: -3, o bien -5 si estás negociando con un Enemigo [[Sospechoso]] o investigando un Lugar [[Escondite]].\n[tablet]: -4. Si tienes éxito, mira la primera carta del mazo de Indicios. Puedes elegir barajar el mazo de Indicios.\n[elder_thing]: -2. Si fracasas, añade la primera carta del mazo de Encuentros al mazo de Indicios y baraja éste."
+    },
+    {
+        "code": "90042",
+        "name": "La chica nueva",
+        "text": "<b>Obligado</b> - Cuando este plan fuese a avanzar por llegar a su umbral de perdición: En lugar de eso, retira toda la perdición que haya en juego, añade un Enemigo [[Monstruo]] puesto aparte aleatorio al mazo de Indicios y baraja éste. A continuación, si no hay Enemigos [[Monstruo]] puestos aparte, haz avanzar el plan al plan 1b.",
+        "flavor": "Llegas a Innsmouth y te pones manos a la obra inmediatamente, preguntando a los lugareños si han visto a tu padre, el sitio de la fotografía o al hombre del bombín que te dejó la foto.",
+        "back_name": "Demasiadas preguntas",
+        "back_text": "Haz aparecer el Enemigo Muchedumbre airada puesto aparte en la Plaza de Innsmouth, agotado.\nColoca 1 pista [per_investigator] en cada Enemigo [[Sospechoso]] y en cada Lugar [[Escondite]]  en juego.",
+        "back_flavor": "Te resulta habitual que la gente te rechace y te aparte pero, por algún motivo, a la gente de aquí le molestan tus preguntas inquisitivas más aún de lo que habrías esperado. La última persona con la que hablas es un hombre que hiede a pescado y que tiene una piel pálida y enfermiza y extrañas rugosidades que le surcan el cuello. Después de eso, empiezan a seguirte por todas partes, y no tienen pinta amistosa precisamente."
+    },
+    {
+        "code": "90043",
+        "name": "El rastro se enfría",
+        "text": "La Muchedumbre airada no puede ser derrotada.\n[reaction] Después de que Wendy Adams evite a la Muchedumbre airada: Puede descubrir 1 pista de su Lugar.\nCara Enemigo [[Sospechoso]] pierde Indiferente y entra en juego con +1 pista [per_investigator].\nCada Lugar [[Escondite]] recibe +1 a su valor de pista [per_investigator].",
+        "flavor": "Cuanto más tiempo te quedas allí y más preguntas haces, más peligro encuentras. Los lugareños te miran con rabia y sospecha y, lo que es peor aún, ves extrañas criaturas aladas merodeando por los tejados en busca de presas…",
+        "back_name": "Se acaba el tiempo",
+        "back_text": "<b>(→R2)</b>",
+        "back_flavor": "Te escondes tras un montón de basura de olor acre y esperas el martilleo de los pesados pasos de la muchedumbre que te busca sin cesar. No sabe por qué te persiguen, ¡sólo estabas haciendo preguntas! Pero está claro que no puedes quedarte más tiempo aquí. En Arkham, las miradas de la gente pasan de largo ante chiquillos callejeros como tú. De pronto empiezas a desear que eso también pasase aquí."
+    },
+    {
+        "code": "90044",
+        "name": "Buscando a papá",
+        "text": "Las cartas [[Sospechoso]] y [[Escondite]] no se pueden añadir a la zona de victoria excepto mediante la Foto misteriosa.\n<b>Obligado</b> – Si no hay cartas [[Sospechoso]] o [[Escondite]] en juego: Wendy Adams debe robar cartas de la parte superior del mazo de Indicios hasta que robe una carta [[Sospechoso]] o [[Escondite]].\n<b>Objetivo</b> – Busca a papá usando la Foto misteriosa. Cuantas menos cartas queden en el mazo de Indicios, mejor. Si está vacío, haz avanzar el acto.",
+        "flavor": "Decir que esta ciudad es menos acogedora que Arkham sería quedarse corto",
+        "back_name": "¡Es él!",
+        "back_text": "<b>(→R1)</b>",
+        "back_flavor": "Esto no sirve de nada. Es posible que papá estuviera en Innsmouth en algún momento, pero hace mucho que se fue. Y a los lugareños no les parece gustarles un pelo que nadie pregunte por él. Es posible que sepan más de lo que dicen o que simplemente estén protegiendo otros secretos que no tienen nada que ver. Sea como sea, seguir allí ha dejado de ser seguro.\nSin embargo, justo cuando estás a punto de rendirte y volver a la parada de autobús para regresar a Arkham, ves a un hombre que lleva un atuendo familiar: un largo abrigo de lana y un bombín marrón."
+    },
+    {
+        "code": "90045a",
+        "name": "Foto misteriosa",
+        "subname": "Lo único que me queda de él",
+        "text": "[fast] Agota la Foto misteriosa: Realiza una acción de negociar contra un Enemigo [[Sospechoso]] o bien dale la vuelta a la Foto misteriosa.\n[fast] Si hay un Enemigo [[Sospechoso]] que no tenga pistas en tu Lugar, los investigadores que estén en tu Lugar gastan, como grupo, 1 pista [per_investigator] o bien 2 pistas [per_investigator] si está en juego el plan 2: <i>-¿ha visto a mi padre?</i> Añade ese Enemigo a la zona de victoria.",
+        "traits": "Objeto."
+    },
+    {
+        "code": "90045b",
+        "name": "Foto misteriosa",
+        "subname": "Lo único que me queda de él",
+        "text": "[fast] Agota la Foto misteriosa: Realiza una acción de investigar en un Lugar [[Escondite]] o bien dale la vuelta a la Foto misteriosa.\n[fast] Si estás en un Lugar [[Escondite]] que no tenga pistas, los investigadores que estén en ese Lugar gastan, como grupo, una cantidad de pistas igual a su valor de pista: <i>-¿Dónde estará papá ahora?</i> Añade ese Lugar a la zona de victoria, moviendo a un Lugar conectado todos los Enemigos e investigadores que haya en él.",
+        "traits": "Objeto."
+    }
+]

@@ -1,37 +1,37 @@
 [
     {
         "code": "90020",
-        "name": "Bad Blood",
-        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la cantidad de recuerdos que ha recuperado Agnes Baker.\n[cultist]: -2. Prepara a Elspeth Baudin y resuelve su palabra clave Errante.\n[tablet]: -3. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha sobre ese Lugar.\n[elder_thing]: -6. Agnes Baker puede recibir hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño recibido.",
-        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de recuerdos que ha recuperado Agnes Baker más 1.\n[cultist]: -3. Prepara a Elspeth Baudin y resuelve su palabra clave Errante. Si está enfrentada a un investigador, realiza un ataque.\n[tablet]: -5. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha sobre ese Lugar.\n[elder_thing]: -8. Agnes Baker puede recibir hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño recibido."
+        "name": "Mala Sangre",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la cantidad de recuerdos que ha recuperado Agnes Baker.\n[cultist]: -2. Prepara a Elspeth Baudin y resuelve su palabra clave Errante.\n[tablet]: -3. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha sobre ese Lugar.\n[elder_thing]: -6. Agnes Baker puede asignarse hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño asignado.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de recuerdos que ha recuperado Agnes Baker más 1.\n[cultist]: -3. Prepara a Elspeth Baudin y resuelve su palabra clave Errante. Si está enfrentada a un investigador, realiza un ataque.\n[tablet]: -5. Si fracasas y hay un recuerdo en el Lugar de Elspeth Baudin, coloca esta ficha sobre ese Lugar.\n[elder_thing]: -8. Agnes Baker puede asignarse hasta 3 puntos de daño para aumentar tu valor de habilidad en 2 por cada punto de daño asignado."
     },
     {
         "code": "90021",
-        "name": "Hyperborean Blood",
-        "text": "<b>Forced</b> - At the end of the enemy phase, if Elspeth Baudin is ready and there is a memory at her location: Reveal a random token from the chaos bag and place it on that location.\n<b>Forced</b> - If there are 1 or more chaos tokens on a location without a memory: Return them to the chaos bag.\n<b>Forced</b> - If there are chaos tokens on a location with a memory that have a combined value of 6 or more (ignoring +/- and treating each [auto_fail] and [elder_sign] as a -6): Return them to the chaos bag, and Elspeth Baudin collects that memory.",
-        "back_name": "Out For Blood",
-        "back_flavor": "A crackle of arcane power lashes throughout the sky, seeking out you and your companions. For a brief moment, the torment is unbearable. The pain forks through your body like poison in your veins. A flash of light in the back of your vision blinds you. Then, just as suddenly, it is over. But there is something missing. Something lost. Is she trying to steal your memories?",
-        "back_text": "Elspeth Baudin attacks each investigator in player order, regardless of their current location <i>(even if she is exhausted)</i>.\nFlip this agenda back over."
+        "name": "Sangre hiperbórea",
+        "text": "<b>Obligado</b> - Al final de la fase de enemigos, si Elspeth Baudin está preparada y hay un recuerdo en su Lugar: Revela una ficha aleatoria de la bolsa de caos y colócala en ese Lugar.\n<b>Obligado</b> - Si hay 1 o más fichas de Caos en un Lugar sin recuerdo: Devuélvelas a la bolsa de caos.\n<b>Obligado</b> - Si hay fichas de Caos en un Lugar con un recuerdo que tengan un valor combinado de 6 o más (ignorando el +/- y tratando las fichas [auto_fail] y [elder_sign] como -6): Devuelve las fichas a la bolsa de caos y Elspeth Baudin recupera un recuerdo.",
+        "back_name": "Buscando Sangre",
+        "back_text": "Elspeth Baudin ataca a cada investigador en el orden de juego, independientemente de su ubicación actual <i>(incluso si ella está agotada).</i>.\nDale la vuelta a esta carta.",
+        "back_flavor": "Un crepitar de poder arcano azota el cielo, buscándote a ti y a tus compañeros. Durante un breve instante la tormenta es insoportable. El dolor circula a través de tu cuerpo como veneno por tus venas. Un destello de luz en la retina te ciega. De forma repentina, todo cesa. Pero falta algo… Algo perdido… ¿Ella está tratando de robar tus recuerdos?"
     },
     {
         "code": "90022",
-        "flavor": "You must recover the lost memories of your previous life before Elspeth does!",
-        "name": "A Walk Down Memory Lane",
-        "text": "[fast] Investigators at Agnes Baker's location spend 2 [per_investigator] clues, as a group: Agnes Baker collects the memory at her location.\n<b>Forced</b> - If Agnes Baker is defeated, proceed to <b>(→R2)</b>.\n<b>Objective</b> - Collect more memories than Elspeth. If all 9 memories have been collected <i>(by either party)</i>, advance.",
-        "back_name": "Memory of Eternal Conquest",
-        "back_text": "<b>If Agnes collected more memories than Elspeth:</b>\n<blockquote><i>Elspeth falls before you, pain coursing through her body. \"Go on, then. Finish it,\" she hisses through her teeth, glaring up at you with seething hatred. Arcane power crackles in your hand. She is your enemy. Your conquest. Her life, her memories, they are in your hands. You should take what is rightfully yours.</i></blockquote>\n<b>(→R1)</b>\n<hr><b>If Elspeth collected more memories than Agnes:</b>\n<blockquote><i>You fall to your knees, overcome by pain. Elspeth looms over you, her hands crackling with arcane energy. \"You are weak,\" she taunts. \"You are not deserving of this power. But I...\" she grins. \"I will be so much better.\"</i></blockquote>\n<b>(→R2)</b>"
+        "name": "Un paseo por el baúl de los recuerdos",
+        "text": "[fast] Los investigadores que estén en el Lugar de Agnes Baker, como grupo, gastan 2 pistas [per_investigator]: Agnes Baker recupera un recuerdo de su Lugar.\n<b>Obligado</b> - Si Agnes Baker <b>(→R2)</b>.\n<b>Objetivo</b> - Recupera más recuerdos que Elspeth. Si los 9 recuerdos han sido recuperados <i>(por cualquiera de las partes)</i>, haz avanzar el acto.",
+        "flavor": "¡Debes recuperar los recuerdos perdidos de tu vida antes de que lo haga Elspeth!",
+        "back_name": "Recuerdo de una Conquista Eterna",
+        "back_text": "<b>Si Agnes recuperó más recuerdos que Elspeth:</b>\n<blockquote><i>Elspeth cae ante ti, con intenso dolor recorriendo su cuerpo. \"Continúa. Acábalo…\", sisea entre dientes mirándote con un odio hirviente. El poder arcano crepita en tu mano. Ella es tu enemiga. Tu conquista. Su vida y sus recuerdos están en tus manos. Debes tomar los que legítimamente tuyo.</i></blockquote>\n<b>(→R1)</b>\n<hr><b>Si Elspeth collected recuperó más recuerdos que Agnes:</b>\n<blockquote><i>Caes de rodillas, sobrecogida por el dolor. Elspeth se aproxima a ti mientras sus manos crepitan con energía arcana. \"Eres débil\", se burla. \"No mereces este poder, pero yo…\", sonríe. \"Seré mucho mejor\".</i></blockquote>\n<b>(→R2)</b>"
     },
     {
         "code": "90023",
         "name": "Elspeth Baudin",
-        "subname": "Hyperborean Sorceress",
-        "text": "Alert. Patrol (nearest location with at least 1 memory). Retaliate.\nElspeth Baudin cannot be automatically evaded and gets -1 fight and -1 evade for each memory she has collected.\n<b>Forced</b> - When Elspeth Baudin would be defeated: Instead, heal all damage from her, flip her over, and resolve the text on her other side.",
-        "traits": "Humanoid. Sorcerer. Elite."
+        "subname": "Hechicera hiperbórea",
+        "text": "Alerta. Errante (Lugar más cercano con al menos, 1 recuerdo). Represalia.\nElspeth Baudin no puede ser evitada automáticamente y recibe -1 a combate y -1 a evitar por cada recuerdo que haya recuperado.\n<b>Obligado</b> - Cuando Elspeth Baudin vaya a ser derrotada: En vez de eso, cúrale todo el daño, dale la vuelta a esta carta y resuelve su texto.",
+        "traits": "Humanoide. Hechicero. Élite."
     },
     {
         "code": "90023b",
-        "flavor": "Light crashes against the night sky as your magic and Elspeth's intersect. A blaring peal - like an otherworldly siren, calling for judgment - sends you and Elspeth both to your knees. She reels in pain, digging her nails into her temples. You reach out with your power, grasp at her memories, and pull with all your strength.",
-        "name": "Triumph and Subjugation",
-        "text": "Agnes Baker must decide (choose one):\n- Agnes Baker collects 1 memory from Elspeth Baudin.\n- Agnes Baker gains 2 [per_investigator] clues from the token bank.\nThen, flip this card over, exhausted and unengaged."
+        "name": "Triunfo y Subyugación",
+        "text": "Agnes Baker debe decidir (elige una opción):\n- Agnes Baker recupera 1 recuerdo de Elspeth Baudin.\n- Agnes Baker obtiene 2 pistas [per_investigator] de la reserva de fichas.\nA continuación, dale la vuelta a esta carta, agotada y sin enfrentar.",
+        "flavor": "un rayo estalla contra el cielo nocturno mientras tu magia y la de Elspeth se cruzan. Un tañido atronador - como un sonido de otro mundo que nos sentencia - os obliga a ti y a Elspeth a arrodillaros. Ella se tambalea de dolor, clavando sus uñas en las sienes. Te acercas con tu poder, aferras sus recuerdos y los extraes con toda tu fuerza."
     }
 ]
