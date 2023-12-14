@@ -1,0 +1,84 @@
+[
+  {
+    "alternate_of": "02001",
+    "back_flavor": "Zoey had known that she was special ever since God spoke to her one night when she was six years old... the night that terrible fire took away her parents. He told her that He had chosen her from among all the people of the world to be His agent. She would protect the innocent and punish the wicked. Since then, He comes to her in times of trouble, offering guidance and comfort. Zoey now travels from city to city, taking work as a chef to support herself. When she isn’t working, she stalks the night, guided by the Lord’s voice. Wherever she finds wickedness, she strikes it down without remorse or hesitation.",
+    "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-3, [[Blessed]] and [[Charm]] cards level 0-4, Neutral cards level 0-5, up to five other Mystic cards ([mystic]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Zoey's Cross, Smite the Wicked, 1 random basic weakness.",
+    "code": "90059",
+    "deck_limit": 1,
+    "deck_options": [
+        {
+          "faction": ["guardian"],
+          "level": { "min": 0, "max": 3 }
+        },
+        {
+          "faction": ["neutral"],
+          "level": { "min": 0, "max": 5 }
+        },
+        {
+          "trait": ["blessed", "charm"],
+          "level": { "min": 0, "max": 4 }
+        },
+        {
+          "faction": ["mystic"],
+          "level": { "min": 0, "max": 0 },
+          "limit": 5,
+          "error": "You cannot have more than 5 Mystic cards."
+      }
+    ],
+    "deck_requirements": "size:30, card:02006:90060, card:02007:90061, random:subtype:basicweakness",
+    "double_sided": true,
+    "faction_code": "guardian",
+    "flavor": "\"His work is not yet done.\"",
+    "health": 8,
+    "illustrator": "Magali Villeneuve",
+    "is_unique": true,
+    "name": "Zoey Samaras",
+    "pack_code": "ptr",
+    "position": 59,
+    "quantity": 1,
+    "sanity": 6,
+    "skill_agility": 2,
+    "skill_intellect": 2,
+    "skill_combat": 4,
+    "skill_willpower": 4,
+    "subname": "The Chef",
+    "text": "[reaction] After you deal 1 or more damage to an enemy: Add 1 [bless] token to the chaos bag. (Limit once per phase.)\n[fast] Before you reveal chaos tokens during an attack, remove 3 [bless] tokens from the chaos bag: This attack deals +1 damage. (Limit once per round.)\n[elder_sign] effect: +1 for each [bless] token in the chaos bag.",
+    "traits": "Believer. Hunter.",
+    "type_code": "investigator"
+  },
+  {
+    "code": "90060",
+    "cost": 1,
+    "deck_limit": 1,
+    "faction_code": "neutral",
+    "illustrator": "Preston Stone",
+    "is_unique": true,
+    "name": "Zoey's Cross",
+    "pack_code": "ptr",
+    "position": 60,
+    "quantity": 1,
+    "restrictions": "investigator:02001",
+    "skill_combat": 2,
+    "skill_wild": 1,
+    "slot": "Accessory",
+    "subname": "Symbol of Righteousness",
+    "text": "Zoey Samaras deck only. Advanced.\n[reaction] After you engage an enemy, exhaust Zoey’s Cross and spend 1 resource: Deal 1 damage to that enemy.\n[fast] Remove 2 [bless] tokens from the chaos bag: Engage an enemy at your location.",
+    "traits": "Item. Charm.",
+    "type_code": "asset"
+  },
+  {
+    "code": "90061",
+    "deck_limit": 1,
+    "faction_code": "neutral",
+    "illustrator": "Preston Stone",
+    "name": "Smite the Wicked",
+    "pack_code": "ptr",
+    "position": 61,
+    "quantity": 1,
+    "restrictions": "investigator:02001",
+    "subtype_code": "weakness",
+    "text": "Advanced. Attached enemy gets +2 fight and +2 health.\n<b>Revelation</b> - Discard cards from the top of the encounter deck until an enemy is discarded. Attach Smite the Wicked to that enemy and spawn it at the location farthest from you.\n<b>Forced</b> - When the game ends, if attached enemy is in play: Zoey Samaras suffers 1 mental trauma.",
+    "traits": "Task.",
+    "type_code": "treachery"
+  }
+]
