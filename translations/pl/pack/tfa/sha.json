@@ -2,7 +2,7 @@
     {
         "code": "04304",
         "name": "Nafta",
-        "text": "Zużywalny (3 zasoby). Jeśli na Nafcie nie ma zasobów, odrzuć tę kartę.\n[action] Jeśli wróg został pokonany w tej lokalizacji w tej rundzie, wyczerp Naftę I wydaj 1 żeton zasobu: Wylecz do 2 punktów przerażenia dzielonych pomiędzy badaczami i atutami z cechą [[Sprzymierzeniec]] w tej lokalizacji.",
+        "text": "Zużywalny (3 zasoby). Jeśli na Nafcie nie ma żadnych zasobów, odrzuć ją.\n[action] Jeśli w tej rundzie w tej lokalizacji został pokonany wróg, wyczerp Naftę i wydaj 1 zapasy: wylecz łącznie maksymalnie 2 punkty przerażenia z badaczy lub atutów z cechą [[Sprzymierzeniec]] w twojej lokalizacji.",
         "traits": "Przedmiot."
     },
     {
@@ -15,7 +15,7 @@
     {
         "code": "04306",
         "name": "Punkt obserwacyjny",
-        "text": "Szybka. Zagraj po tym jak lokalizacja wejdzie do gry lub jest odkryta podczas tury badacza.\nDo końca tury aktywnego badacza, ta lokalizacja otrzymuje -1 do wartości zasłony. Możesz przemieścić 1 żeton wskazówki do tej lokalizacji z innej lokalizacji.",
+        "text": "Szybka. Zagraj po tym, jak dowolna lokalizacja wejdzie do gry lub zostanie odkryta w turze badacza.\nDo końca tury aktywnego badacza, dana lokalizacja dostaje -1 do wartości zasłony. Możesz poruszyć na daną lokalizację 1 żeton wskazówki z dowolnej innej lokalizacji.",
         "traits": "Informacja."
     },
     {
@@ -29,7 +29,7 @@
     {
         "code": "04308",
         "name": "Pożyczony czas",
-        "text": "Wyjątkowa.\n[action]: Umieść na Pożyczonym czasie 1 żeton zasobu jako kliknięcie )do maksimum 3 kliknięc na Pożyczony czas). Nie wywołuje ataków towarzyszących.\n<b>Wymuszony</b> - Początek twojej tury: usuń wszystkie kliknięcia z Pożyczonego czasu. W tej turze możesz wykonać tyle samo dodatkowych akcji.",
+        "text": "Wyjątkowa.\n[action]: Umieść na Pożyczonym czasie 1 żeton zasobu jako kliknięcie (do maksimum 3 kliknięć na Pożyczony czas). Nie wywołuje ataków towarzyszących.\n<b>Wymuszony</b> - Początek twojej tury: usuń wszystkie kliknięcia z Pożyczonego czasu. W tej turze możesz wykonać tyle samo dodatkowych akcji.",
         "traits": "Rytuał.",
         "slot": "Mistyczna"
     },
@@ -42,22 +42,22 @@
     {
         "code": "04310",
         "name": "Odłamki Pustki",
-        "text": "Pieczęć (0). Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek lub uwolnij zapieczętowany tutaj żeton chaosu:  <b>Walka.</b> Ten atak używa [willpower] zamiast [combat] I zadaje +1 obrażenie. Do tego ataku dostajesz +2 [willpower] za każdy żeton \"0\" zapieczętowany na Odłamkach Pustki. Za każdy żeton \"0\" odkryty podczas tego ataku zapieczętuj dany żeton na Odłamkach Pustki I ten atak zadaje 1 dodatkowe obrażenie.",
+        "text": "Pieczęć (0). Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek lub uwolnij zapieczętowany tutaj żeton chaosu:  <b>Walka.</b> Ten atak używa [willpower] zamiast [combat] I zadaje +1 obrażenie. Do tego ataku dostajesz +2 [willpower] za każdy żeton \"0\" zapieczętowany na Odłamkach Pustki. Za każdy żeton \"0\" odkryty podczas tego ataku zapieczętuj dany żeton na Odłamkach Pustki i ten atak zadaje 1 dodatkowe obrażenie.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
     {
         "code": "04311",
         "name": "Pieczęć Siódmego Znaku",
-        "subname": "Przez próg I dalej",
-        "text": "Zapieczętuj ([auto_fail]). Zużywalny (7 ładunków). Jeśli Pieczęć Siódmego Znaku nie posiada żadnych ładunków lub jeśli opuści ona grę, usuń ją z gry.\n<b>Wymuszony</b> - Po tym, jak podczas dowolnego testu umiejętności zostanie odkryty żeton [skull], [cultist], [tablet] lub [elder_thing]: usuń 1 ładunek z Pieczęci Siódmego Znaku.",
+        "subname": "Przez próg i dalej",
+        "text": "Pieczęć ([auto_fail]). Zużywalny (7 ładunków). Jeśli na Pieczęci Siódmego Znaku nie znajdują się żadne ładunków lub jeśli opuści ona grę, usuń ją z gry.\n<b>Wymuszony</b> - Po tym, jak podczas dowolnego testu umiejętności zostanie odkryty żeton [skull], [cultist], [tablet] lub [elder_thing]: usuń 1 ładunek z Pieczęci Siódmego Znaku.",
         "traits": "Zaklęcie. Rytuał.",
         "slot": "Mistyczna"
     },
     {
         "code": "04312",
-        "name": "Improwizowana bariera",
-        "text": "Możesz zagrać Improwizowaną barierę z twojego stosu kart odrzuconych. Jeśli tak zrobisz, wtasuj ją do twojej talii po rozpatrzeniu jej efektów.\n<b>Wymykanie się.</b> Do tej próby wynikania się wybrany wróg otrzymuje -1 wartości uniku. (Jeśli zagrałeś Improwizowaną barierę z twojego stosu kart odrzuconych, możesz wymknąć się dodatkowymi wrogowi w tej samej lokalizacji o wartości uniku X lub niższą. X to wartość o którą test zakończył się sukcesem.)",
+        "name": "Prowizoryczna przeszkoda",
+        "text": "Możesz zagrać Prowizoryczną przeszkodę z twojego stosu kart odrzuconych. Jeśli tak zrobisz, wtasuj ją do twojej talii po rozpatrzeniu jej efektów.\n<b>Wymykanie się.</b> Do tej próby wymknięcia się wybrany wróg dostaje -1 do wymykania się. (Jeśli zagrałeś Prowizoryczną przeszkodę z twojego stosu kart odrzuconych, możesz wymknąć się dodatkowemu wrogowi w tej samej lokalizacji o wartości wymykania się X lub niższej. X to liczba, o którą twój test się powiódł.)",
         "traits": "Taktyka. Improwizowany."
     },
     {
