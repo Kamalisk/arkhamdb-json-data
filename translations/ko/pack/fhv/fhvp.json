@@ -1,5 +1,93 @@
 [
     {
+        "code": "10001",
+        "name": "Wilson Richards",
+        "subname": "The Handyman",
+        "text": "Reduce the resource cost of the first [[Tool]] asset you play each round by 1.\nYou get +1 skill value during skill tests on [[Tool]] assets.\n[elder_sign] effect: +0. You may swap a [[Tool]] asset in your play area with a [[Tool]] asset in your hand with equal or lower printed cost.",
+        "traits": "방랑자.",
+        "back_flavor": "Wilson takes pride in always having the right tool for the job. Leaky plumbing? Pipe wrench. Fallen tree? Hand saw. Interior remodeling? Sledgehammer. But recently his jobs in and around Arkham have taken on a certain strangeness. Creaky floorboards give way to labyrinthine tunnels. A broken roof shows signs of bursting outward instead of collapsing inward. It's Wilson's job to fix problems, and when those problems involve bizarre and horrifying creatures and unexplained phenomena, well, then it's time to get creative with what he's got.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Tool]] cards level 0-5, Guardian cards ([guardian]) level 0-4, Neutral cards level 0-5, up to 5 other [[Improvised]] and/or [[Upgrade]] cards level 0-1.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Ad Hoc, Hasty Repairs, 1 random basic weakness."
+    },
+    {
+        "code": "10002",
+        "flavor": "\"This is one heckuva job.\"",
+        "name": "Ad Hoc",
+        "text": "Wilson Richards deck only.\nAttach Ad Hoc to a [[Tool]] or [[Weapon]] asset you control.\n[reaction] After resolving an [action] ability on attached asset, exhaust Ad Hoc and discard a [[Tool]] or [[Weapon]] asset from your hand: Resolve an [action] ability on the discarded asset, ignoring all costs.",
+        "traits": "즉흥. 향상."
+    },
+    {
+        "code": "10003",
+        "name": "Hasty Repairs",
+        "text": "<b>Revelation</b> - Put Hasty Repairs into play in your threat area.\nWhile triggering abilities on assets you control, set your base skill value to 0.\n[action] [action]: Discard Hasty Repairs.",
+        "traits": "실수."
+    },
+    {
+        "code": "10009",
+        "flavor": "\"I love a good party.\"",
+        "name": "Alessandra Zorzi",
+        "subname": "The Countess",
+        "text": "You make take an additional action during your turn, which can only be used to parley.\n[elder_sign] effect: +2. If you succeed, choose a non-[[Elite]] enemy at your location or at a revealed connecting location. Automatically evade that enemy.",
+        "traits": "방랑자. 유명인사.",
+        "back_flavor": "Alessandra's life of carefree luxury enables her to hop from a stately gala in New York City to a banquest with the Maharaja of India with ease. The Countess has sampled every dish, drink, and dame from Marrakesh to Chicago. The regal title is just an act, however: behind the scenes, Alessandra uses her cover to pilfer from art galleries, banks, and the hearts and pocketbooks of the rich and frivolous. Her silver tongue has gotten her into and out of plenty of trouble. A new job with the shadowy Zamacona brought Alessandra to Arkham, Massachusetts, where the Countess learned that more lurks beyond the suggestible rich and frivolous excess than she previously thought.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, cards with \"parley\" level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Beguile, Zamacona, 1 random basic weakness."
+    },
+    {
+        "code": "10010",
+        "name": "Beguile",
+        "text": "Alessandra Zorzi deck only. Fast. Play only during your turn.\nAttach Beguile to a non-[[Elite]] enemy at your location.\n[action]: <b>Parley.</b> Either move attached enemy to a revealed connecting location, or perform a basic investigate or evade action at its location. If you fail a skill test while resolving this ability, discard Beguile. You may activate this ability from any location.",
+        "traits": "속임수."
+    },
+    {
+        "code": "10011",
+        "name": "Zamacona",
+        "text": "Elusive.\n<b>Spawn</b> - Nearest empty location, if able.\nAlessandra Zorzi cannot parley with Zamacona.\n<b>Forced</b> - The first time Alessandra Zorzi parleys each round: Place 1 doom on Zamacona.",
+        "traits": "인간형. 범죄자."
+    },
+    {
+        "code": "10012",
+        "flavor": "\"Why not greet the unknown with wonder rather than fear?\"",
+        "name": "Kōhaku Narukami",
+        "subname": "The Folklorist",
+        "text": "[reaction] At the start of your turn: Either add 1 [bless] token or 1 [curse] token to the chaos bag, whichever there are fewer of <i>(in case of a tie, you choose)</i>, or remove 2 [bless] tokens and 2 [curse] tokens from the chaos bag to take an additional action this turn.\n[elder_sign] effect: +2. Add 1 [bless] and 1 [curse] token to the chaos bag.",
+        "traits": "학자. 축복받은. 저주받은.",
+        "back_flavor": "Everyone in the Arkham Historical Society recognizes Kōhaku's booming laughter, and the haunting tales he tells of both the yōkai from his childhood home outside Tokyo and the strange creatures that haunt the Arkham Woods. The eccentric folklorist tells everyone that the chronicling and publication of these phenomena's existence will be his greatest work. It is only when he is home with his partner Gabriel that he hears the cries of the same spirit who haunted his father, and fears that his \"greatest work\" will never allow him a night's sleep.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Blessed]] cards level 0-5, [[Cursed]] cards level 0-5, [[Occult]] cards level 0, Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Book of Living Myths, Weeping Yurei, 1 random basic weakness."
+    },
+    {
+        "code": "10013",
+        "name": "Book of Living Myths",
+        "subname": "Chronicle of Wonders",
+        "text": "Kōhaku Narukami deck only.\n[reaction] When a chaos token would be revealed at your location, exhaust Book of Living Myths: Search the chaos bag for a [bless] or [curse] token, whichever there are more of <i>(in case of a tie, you choose)</i>, and resolve it instead.",
+        "traits": "물품. 서적. 축복받은. 저주받은.",
+        "slot": "손"
+    },
+    {
+        "code": "10014",
+        "name": "Weeping Yurei",
+        "text": "Aloof. Elusive. Hunter.\n<b>Prey</b> - Kōhaku Narukami only.\n<b>Forced</b> - After an investigator reveals a [bless] token or [curse] token during a skill test at Weeping Yurei's location, if it is ready: Weeping Yurei attacks that investigator. (Limit once per test).",
+        "traits": "괴물. 유령."
+    },
+    {
+        "code": "10022",
+        "name": "Ofuda",
+        "text": "Uses (1 charge). Replenish this charge the first time a [bless] token is revealed at your location each round.\n[fast] Choose a non-[[Elite]] enemy at your location and spend 1 charge: That enemy loses the alert, aloof, elusive, and retaliate keywords until the end of the round.",
+        "traits": "물품. 부적. 축복받은."
+    },
+    {
+        "code": "10028",
+        "flavor": "\"You still call that a wrench?!\"",
+        "name": "Tinker",
+        "text": "Fast. Play only during your turn.\nAttach Tinker to a [[Tool]] asset in your play area. Limit 1 per asset.\nAttached asset takes up 1 fewer hand or accessory slot.",
+        "traits": "통찰. 향상."
+    },
+    {
+        "code": "10030",
+        "flavor": "Keep your eyes on the target.",
+        "name": "Hand-Eye Coordination",
+        "text": "Fast. Play only during your turn.\nResolve an [action] ability on a [[Tool]] or [[Weapon]] asset you control without paying its [action] cost.",
+        "traits": "통찰."
+    },
+    {
         "code": "10040",
         "name": "Chemistry Set",
         "text": "[action] Exhaust Chemistry Set: <b>Investigate.</b> If you...\n- ...fail by exactly 2, discard Chemistry Set.\n- ...succeed by exactly 0, gain 2 resources.\n- ...succeed by exactly 2, draw 1 card.\n- ...succeed by exactly 4, discover 1 additional clue at your location.",
@@ -42,19 +130,60 @@
         "traits": "행운."
     },
     {
+        "code": "10064",
+        "name": "Blackmail File",
+        "text": "[action] Choose a non-[[Elite]] enemy at your location: <b>Parley.</b> Test [willpower] (X), where X is that enemy's printed health value. If you succeed, that enemy disengages from each investigator and gains aloof until the end of the round.",
+        "traits": "물품. 서적. 불법."
+    },
+    {
+        "code": "10070",
+        "flavor": "\"You'd have made a pretty good cowboy.\"",
+        "name": "False Surrender",
+        "text": "<b>Parley.</b> Choose an enemy at your location and play a [[Weapon]] asset from your hand, reducing its cost by 1. You may then take a fight action with that weapon against the chosen enemy, using [agility] instead of the skill indicated.",
+        "traits": "전술. 속임수."
+    },
+    {
+        "code": "10071",
+        "flavor": "\"Look! A dumb bird!\"\n\"I don't see a bird.\"\n\"I do.\"",
+        "name": "Grift",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [agility] (0). For each point you succeed by, gain 1 resource (to a maximum of 6). If you fail, that enemy attacks you.",
+        "traits": "속임수. 불법."
+    },
+    {
         "code": "10072",
         "name": "\"I'll Pay You Back!\"",
         "text": "Fast. Play only during your turn.\nChoose an investigator at your location. Move all resources from that investigator's resource pool to your resource pool. At the end of the round, move all resources from your resource pool to that investigator's resource pool.",
         "traits": "도박수. 속임수."
     },
     {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "text": "Uses (6 offerings).\n[action] Spend any number of offerings: <b>Parley.</b> Choose a [[Spell]] or [[Ritual]] event in your discard pile and reveal tokens from the chaos bag equal to the number of offerings spent. If at least 1 [skull] or [curse] token was revealed, return the chosen event to your hand.",
+        "traits": "재능. 의식.",
+        "slot": "마법"
+    },
+    {
+        "code": "10092",
+        "name": "Wicked Athame",
+        "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
+        "traits": "물품. 무기. 근접. 저주받은.",
+        "slot": "손"
+    },
+    {
+        "code": "10095",
+        "flavor": "Not all who wander are lost.",
+        "name": "Accursed",
+        "text": "When you commit Accursed to a skill test, add up to 3 [curse] tokens to the chaos bag. During this skill test, treat the modifier of each [curse] token revealed as 0.",
+        "traits": "본성. 저주받은."
+    },
+    {
         "code": "10097",
         "flavor": "어떤 마법이든 제대로 발동시키려면 목숨 걸고 임해야 해.\n말 그대로 목숨이 걸릴 때도 있어.",
         "name": "올리브 맥브라이드",
-        "subname": "뭐든 한 번씩은 시도해 봤지",
         "text": "[reaction] 당신이 혼돈 토큰을 공개하려 할 때, ‘올리브 맥브라이드’를 소진합니다: 1개의 혼돈 토큰을 대신하여 4개의 혼돈 토큰을 공개합니다. 이렇게 공개한 혼돈 토큰 가운데서 2개를 선택해서 해결하고, 나머지 하나는 무시합니다.",
         "traits": "조력자. 마녀.",
-        "slot": "조력자"
+        "slot": "조력자",
+        "subname": "뭐든 한 번씩은 시도해 봤지"
     },
     {
         "code": "10110",
@@ -93,5 +222,20 @@
         "name": "Long Shot",
         "text": "You may commit Long Shot to a fight or evasion test against an enemy at your location or a connecting location.\nIf this test is successful, deal 1 damage to that enemy.",
         "traits": "숙련."
+    },
+    {
+        "code": "10128",
+        "name": "Eldritch Tongue",
+        "text": "Uses (4 charges).\nYou may play events with \"parley\" from your discard pile as if they were in your hand. As an additional cost to play an event this way, spend 1 charge from Eldritch Tongue. After that event resolves, remove it from the game.",
+        "traits": "의식.",
+        "slot": "마법"
+    },
+    {
+        "code": "10132",
+        "flavor": "\"The price is but a pittance for what you will gain.\"",
+        "name": "Occult Reliquary",
+        "subname": "Dubious Source",
+        "text": "Permanent. Limit 1 per deck.\nYou have 1 additional hand, accessory, or arcane slot, which can only be used to hold a [[Blessed] or [[Cursed]] asset.",
+        "traits": "이익. 계약."
     }
 ]
