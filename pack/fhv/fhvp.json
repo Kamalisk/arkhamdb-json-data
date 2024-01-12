@@ -211,7 +211,7 @@
     "skill_combat": 2,
     "skill_willpower": 3,
     "subname": "The Countess",
-    "text": "You make take an additional action during your turn, which can only be used to parley.\n[elder_sign] effect: +2. If you succeed, choose a non-[[Elite]] enemy at your location or at a revealed connecting location. Automatically evade that enemy.",
+    "text": "You may take an additional action during your turn, which can only be used to parley.\n[elder_sign] effect: +2. If you succeed, choose a non-[[Elite]] enemy at your location or at a revealed connecting location. Automatically evade that enemy.",
     "traits": "Drifter. Socialite.",
     "type_code": "investigator"
 },
@@ -468,6 +468,24 @@
     "xp": 0
 },
 {
+    "code": "10023",
+    "cost": 1,
+    "deck_limit": 2,
+    "faction_code": "guardian",
+    "illustrator": "Rob Laskey",
+    "name": "Wolf Mask",
+    "pack_code": "fhvp",
+    "position": 23,
+    "quantity": 2,
+    "skill_agility": 1,
+    "skill_combat": 1,
+    "subname": "The Moon's Sire",
+    "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you engage an enemy.\n[fast] Spend 1 offering: You get +2 [combat] or +2 [agility] for this skill test. (Limit once per test.)",
+    "traits": "Item. Charm. Mask.",
+    "type_code": "asset",
+    "xp": 0
+  },
+{
     "code": "10024",
     "cost": -2,
     "deck_limit": 2,
@@ -641,6 +659,24 @@
     "xp": 0
   },
   {
+    "code": "10043",
+    "cost": 1,
+    "deck_limit": 2,
+    "faction_code": "seeker",
+    "illustrator": "Rob Laskey",
+    "name": "Mouse Mask",
+    "pack_code": "fhvp",
+    "position": 43,
+    "quantity": 2,
+    "skill_intellect": 1,
+    "skill_willpower": 1,
+    "subname": "The Meek Watcher",
+    "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you reveal a location or put a new location into play.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [intellect] for this skill test. (Limit once per test.)",
+    "traits": "Item. Charm. Mask.",
+    "type_code": "asset",
+    "xp": 0
+  },
+  {
     "code": "10044",
     "cost": 2,
     "deck_limit": 1,
@@ -673,6 +709,24 @@
     "traits": "Insight. Science.",
     "type_code": "event"
   }, 
+  {
+    "code": "10049",
+    "cost": 1,
+    "deck_limit": 2,
+    "faction_code": "seeker",
+    "flavor": "\"Kid, you... you took that a lot more literally than I expected you to.\"",
+    "illustrator": "David Hovey",
+    "name": "\"Throw the Book at Them!\"",
+    "pack_code": "fhvp",
+    "position": 49,
+    "quantity": 2,
+    "skill_combat": 1,
+    "skill_intellect": 1,
+    "text": "<b>Fight.</b> Choose a [[Tome]] asset you control. You get +X [combat] for this attack, where X is that asset's printed cost. If you succeed, you may either automatically evade the attacked enemy, or after the attack ends, you may resolve an [action] or [fast] ability on the chosen asset <i>(ignoring its [action] cost, if any)</i>.",
+    "traits": "Gambit. Improvised.",
+    "type_code": "event",
+    "xp": 0
+  },
  {
     "code": "10050",
     "cost": 1,
@@ -935,6 +989,24 @@
     "type_code": "event",
     "xp": 5
   },
+{
+    "code": "10084",
+    "cost": 1,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Rob Laskey",
+    "name": "Cat Mask",
+    "pack_code": "fhvp",
+    "position": 84,
+    "quantity": 2,
+    "skill_combat": 1,
+    "skill_willpower": 1,
+    "subname": "The Capricious Meddler",
+    "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 2 of these offerings after doom is placed on a card with no doom.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [combat] for this skill test. (Limit once per test.)",
+    "traits": "Item. Charm. Mask.",
+    "type_code": "asset",
+    "xp": 0
+  },
   {
     "code": "10091",
     "cost": 1,
@@ -1046,6 +1118,22 @@
      "type_code": "asset",
      "xp": 4
    },
+   {
+      "code": "10108",
+      "cost": 1,
+      "deck_limit": 2,
+      "faction_code": "survivor",
+      "illustrator": "Pixoloid Studios",
+      "name": "Matchbox",
+      "pack_code": "fhvp",
+      "position": 108,
+      "quantity": 2,
+      "skill_intellect": 1,
+      "text": "Uses (3 supplies). If Matchbox has no supplies, discard it.\n[fast] During any investigator's turn, exhaust Matchbox and spend 1 supply: Your location gets -1 shroud until the end of this turn.",
+      "traits": "Item. Tool.",
+      "type_code": "asset",
+      "xp": 0
+    },
   {
      "code": "10109",
      "cost": null,
@@ -1298,5 +1386,22 @@
     "traits": "Boon. Pact.",
     "type_code": "asset",
     "xp": 3
-  }
+  },
+  {
+     "code": "10137",
+     "cost": null,
+     "deck_limit": 2,
+     "faction_code": "neutral",
+     "illustrator": "JB Casacop",
+     "name": "The Silver Moth",
+     "pack_code": "fhvp",
+     "permanent": true,
+     "position": 137,
+     "quantity": 2,
+     "slot": "Accessory",
+     "subtype_code": "basicweakness",
+     "text": "<b>Revelation</b> - You must either put The Silver Moth into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 sanity.\n[action] [action]: Discard The Silver Moth.",
+     "traits": "Item. Relic.",
+     "type_code": "asset"
+   } 
 ]
