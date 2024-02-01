@@ -237,7 +237,7 @@
     },
     {
         "code": "10032",
-        "name": "Second Wind",
+        "name": "한숨 돌리기",
         "text": "Play only as your first action.\nHeal 2 damage (3 instead if you drew a treachery this round). Draw 1 card.",
         "traits": "영혼. 대담한."
     },
@@ -251,7 +251,7 @@
     },
     {
         "code": "10034",
-        "name": "Blessed Blade",
+        "name": "축복받은 검",
         "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, it deals +1 damage. Return each [bless] token revealed during this attack to the chaos bag. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 2 [bless] tokens to the chaos bag.",
         "traits": "물품. 무기. 근접. 축복받은.",
         "slot": "손"
@@ -335,6 +335,26 @@
         "traits": "통찰. 과학."
     },
     {
+        "code": "10046",
+        "flavor": "\"There was a solution which he injected into the veins of dead things, and if they were fresh enough they responded in strange ways.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimator</i>",
+        "name": "Control Variable",
+        "text": "Fast. Play after an investigator reveals a h token during a skill test at your location.\nDiscover 1 clue at your location.",
+        "traits": "통찰. 과학. 저주받은."
+    },
+    {
+        "code": "10047",
+        "name": "Testing Sprint",
+        "text": "As an additional cost to play Testing Sprint, spend an action.\n<b>Investigate.</b> One at a time, investigate your location and each connecting location once each in ascending order of shroud, until you either fail to investigate or successfully investigate each eligible location.",
+        "traits": "통찰. Double."
+    },
+    {
+        "code": "10048",
+        "flavor": "The truth is often hidden in plain sight.",
+        "name": "Thorough Inquiry",
+        "text": "As an additional cost to play Thorough Inquiry, spend an action.\nInvestigators at your location draw a combined total of 5 cards <i>(you decide how many cards each investigator draws)</i>.",
+        "traits": "통찰. Double."
+    },
+    {
         "code": "10049",
         "flavor": "\"Kid, you... you took that a lot more literally than I expected you to.\"",
         "name": "\"Throw the Book at Them!\"",
@@ -356,11 +376,34 @@
         "traits": "행운."
     },
     {
+        "code": "10052",
+        "flavor": "\"Helping you is easier than teaching my students geometry.\"",
+        "name": "Gabriel Carillo",
+        "subname": "Trusted Confidante",
+        "text": "You get +1 [intellect].\n[reaction] At the start of your turn, add 1 [curse] token to the chaos bag: Draw 1 card.",
+        "traits": "조력자. 학자. 저주받은.",
+        "slot": "조력자"
+    },
+    {
+        "code": "10053",
+        "flavor": "A nick can be the difference between life and death.",
+        "name": "Steady-Handed",
+        "text": "Limit 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
+        "traits": "재능. 과학."
+    },
+    {
         "code": "10054",
         "flavor": "\"I assure you there's nothing to fear!\"",
         "name": "Fine Tuning",
         "text": "Attach to a [[Tool]] or [[Science]] asset you control. Limit 1 per asset.\n[reaction] After attached asset exhausts, exhaust Fine Tuning: Ready attached asset.",
         "traits": "통찰. 향상."
+    },
+    {
+        "code": "10055",
+        "flavor": "Rumor has it the university's last phrenology professor enjoyed an unnaturally long tenure.",
+        "name": "Esoteric Method",
+        "text": "After this skill test ends, add 1 [curse] token to the chaos bag for each point the performing investigator either succeeded or failed by.",
+        "traits": "숙련. 저주받은."
     },
     {
         "code": "10056",
@@ -378,10 +421,59 @@
         "traits": "통찰. 속임수."
     },
     {
+        "code": "10058",
+        "name": "Microscope",
+        "text": "[reaction] After an enemy at your location is successfully evaded or defeated: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +2 [intellect] for this investigation for each evidence on Microscope (max +6 [intellect]). If you succeed, you may spend up to 3 evidence to discover that many additional clues at your location.",
+        "traits": "물품. 도구. 과학.",
+        "slot": "손"
+    },
+    {
+        "code": "10059",
+        "name": "Ravenous Myconid",
+        "subname": "Sentient Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[reaction] When an investigator draws a non-weakness treachery card, it their locations shroud is equal to or less than Ravenous Myconid's growth: Cancel that treachery's effects and discard it. Remove all growth from Ravenous Myconid.",
+        "traits": "생물. 과학."
+    },
+    {
+        "code": "10060",
+        "name": "Ravenous Myconid",
+        "subname": "Carnivorous Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Choose a non-[[Elite]] enemy at your location with equal or fewer remaining health than the amount of growth on Ravenous Myconid: Defeat that enemy. Remove all growth from Ravenous Myconid.",
+        "traits": "괴물. 과학."
+    },
+    {
+        "code": "10061",
+        "name": "Ravenous Myconid",
+        "subname": "Nurturing Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Remove all growth from Ravenous Myconid: Either heal that much damage/horror from Ravenous Myconid, or move that much damage/horror from investigators or Ally assets at your location to Ravenous Myconid.",
+        "traits": "식물. 과학."
+    },
+    {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "subname": "Singing Your Song",
+        "text": "Limit 1 per deck. Uses (10 resources).\n[action] Exhaust Bianca \"Die Katz\": <b>Parley.</b> Move X resources from Bianca \"Die Katz\" to your resource pool. X cannot be more than 5. Test [agility] (X). If you fail, remember \"you owe Bianca X resources.\" Then, search your bonded cards for the Bianca \"Die Katz\" enemy and spawn her at your location. Remove this card from the game.",
+        "traits": "조력자. 범죄자. 유명인사.",
+        "slot": "조력자"
+    },
+    {
+        "code": "10063",
+        "name": "Bianca \"Die Katz\"",
+        "text": "Bonded (Bianca \"Die Katz\"). Hunter.\n<b>Prey</b> - Bearer only.\n[action] If \"you owe Bianca X resources,\" spend X resources: <b>Parley.</b> Add Bianca \"Die Katz\" to the victory display.\n<b>Forced</b> - When Bianca \"Die Katz\" leaves play (except by the above ability: Shuffle her into your deck.",
+        "traits": "인간형. 범죄자. 유명인사."
+    },
+    {
         "code": "10064",
         "name": "Blackmail File",
         "text": "[action] Choose a non-[[Elite]] enemy at your location: <b>Parley.</b> Test [willpower] (X), where X is that enemy's printed health value. If you succeed, that enemy disengages from each investigator and gains aloof until the end of the round.",
         "traits": "물품. 서적. 불법."
+    },
+    {
+        "code": "10065",
+        "name": "British Bull Dog",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat], for this attack. This attack deals +1 damage.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
+        "traits": "물품. 무기. 총. 불법.",
+        "slot": "손"
     },
     {
         "code": "10066",
@@ -391,12 +483,28 @@
         "slot": "손"
     },
     {
+        "code": "10067",
+        "name": "Fox Mask",
+        "subname": "The Wise Trickster",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you move out of a location with an enemy.\n[fast] Spend 1 offering: You get +2 [intellect] or +2 [agility for this skill test. (Limit once per test.)",
+        "traits": "물품. 부적. Mask."
+    },
+    {
         "code": "10068",
         "flavor": "\"Let faith oust fact; let fancy oust memory; I look deep down and do believe.\" - Herman Melville, <u>Moby-Dick</u>",
         "name": "Scrimshaw Charm",
         "subname": "From Distant Shores",
         "text": "[action] Add 1-3 [curse] tokens to the chaos bag and exhaust Scrimshaw Charm: Gain 1 resource. For each token added, gain 1 additional resource.",
         "traits": "물품. 부적. 저주받은.",
+        "slot": "액세서리"
+    },
+    {
+        "code": "10069",
+        "flavor": "\"No names, Skids.\"\n\"Sorry, Finn.\"",
+        "name": "Bank Job",
+        "subname": "From Distant Shores",
+        "text": "As an additional cost to play Bank Job, spend an action.\nInvestigators at your location gain a total of 8 resources, distributed as you wish.",
+        "traits": "도박수. Double. 불법.",
         "slot": "액세서리"
     },
     {
@@ -420,10 +528,38 @@
         "traits": "도박수. 속임수."
     },
     {
+        "code": "10073",
+        "flavor": "\"He did say something about your hair...\"",
+        "name": "Stir the Pot",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [intellect] (X), where X is the chosen enemy's combined damage and horror values. If you succeed, deal 2 damage to each enemy at your location. If you succeed by 2 or more, after this effect resolves you may disengage from each enemy and move to a connecting location.",
+        "traits": "속임수. 도박수."
+    },
+    {
         "code": "10074",
         "name": "Vamp",
         "text": "<b>Parley.</b> Choose an enemy at your location and test any skill (3). If you succeed and you tested...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. If it is non-[[Elite]], move it to a connecting location.\n- ...[combat], deal 2 damage to that enemy.",
         "traits": "속임수."
+    },
+    {
+        "code": "10075",
+        "flavor": "\"Shoggoths. Why did it have to be shoggoths?\"",
+        "name": "Diabolical Luck",
+        "text": "When you reveal a [curse] token during a skill test you are performing, you may commit Diabolical Luck to that skill test from your hand. If you do, Diabolical Luck gains [wild][wild][wild].",
+        "traits": "행운. 저주받은."
+    },
+    {
+        "code": "10076",
+        "flavor": "\"I never ran from anything like that devil tonight, though. Hope I never have to again.\"\n-<i>Rita Young, Investigators of Arkham Horror</i>",
+        "name": "Lightfooted",
+        "text": "If this skill test is successful during an evasion attempt, you may automatically evade another enemy at your location.",
+        "traits": "숙련. 속임수."
+    },
+    {
+        "code": "10077",
+        "name": "British Bull Dog",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat] for this attack and you get +2 skill value. This attack deals +1 damage. Ignore the aloof keyword for this attack.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
+        "traits": "물품. 무기. 총. 불법.",
+        "slot": "손"
     },
     {
         "code": "10078",
@@ -433,10 +569,29 @@
         "traits": "호의. 속임수."
     },
     {
+        "code": "10079",
+        "name": "Bewitching",
+        "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different Trick cards, and attach them facedown to Bewitching. Shuffle your deck.\n[reaction] When you engage an enemy, exhaust Bewitching: Either draw 1 attached card, or search the top 9 cards of your deck for a copy of an attached card, draw it, and shuffle your deck.",
+        "traits": "재능. 속임수."
+    },
+    {
+        "code": "10080",
+        "name": "Dirty Deeds",
+        "text": "As an additional cost to play Dirty Deeds, spend an action.\nSearch your deck for an [[Illicit]] asset and play it, paying its cost. Then, you may resolve an [action] or [fast] ability on that asset, ignoring all costs <i>(including its [action] cost, if any)</i>. Playing this card does not provoke attacks of opportunity.",
+        "traits": "호의. Double. 불법."
+    },
+    {
         "code": "10081",
         "name": "Vamp",
         "text": "<b>Parley.</b> Choose an enemy at your location and test any number of skills. One at a time, in any order, test each chosen skill (2). For each test you succeeded, if it was...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. Move it to a connecting location if it is non-[[Elite]].\n- ...[combat], deal 2 damage to that enemy.",
         "traits": "속임수."
+    },
+    {
+        "code": "10082",
+        "name": "Fake Credentials",
+        "text": "[action] Choose an enemy at your location: <b>Parley.</b> Test [intellect](0). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your location or a connecting location. If you did not succeed by 2 or more, place 1 resource on Fake Credentials, as suspicion. If you fail, return Fake Credentials to your hand.",
+        "traits": "물품. 불법.",
+        "slot": "손"
     },
     {
         "code": "10083",
@@ -500,9 +655,16 @@
     {
         "code": "10092",
         "name": "Wicked Athame",
+        "subname": "Cursed Blade",
         "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
         "traits": "물품. 무기. 근접. 저주받은.",
         "slot": "손"
+    },
+    {
+        "code": "10093",
+        "name": "Antediluvian Hymn",
+        "text": "As an additional cost to play Antediluvian Hymn, spend an action.\nReveal the top 5 cards of the encounter deck. For each card revealed, you may add 1 [curse] token to the chaos bag to place that card on the bottom of the encounter deck. Return the rest to the top of the encounter deck in any order.",
+        "traits": "예지. Double."
     },
     {
         "code": "10094",
@@ -517,6 +679,13 @@
         "name": "Accursed",
         "text": "When you commit Accursed to a skill test, add up to 3 [curse] tokens to the chaos bag. During this skill test, treat the modifier of each [curse] token revealed as 0.",
         "traits": "본성. 저주받은."
+    },
+    {
+        "code": "10096",
+        "flavor": "The dreaming mind is as deep as any sea.",
+        "name": "Mesmeric Influence",
+        "text": "While this card is committed to a skill test, the performing investigator may ignore all keyword or location effects that would trigger during this test.",
+        "traits": "숙련."
     },
     {
         "code": "10097",
@@ -536,12 +705,62 @@
         "slot": "손"
     },
     {
+        "code": "10099",
+        "name": "Call the Beyond",
+        "text": "As an additional cost to play Call the Beyond, add 3 [curse] tokens to the chaos bag.\nChoose an asset vou control with \"uses (charges)\" or \"uses (secrets)\". Replenish all of that asset's charges or secrets. Then, you may resolve an [action] or [fast] ability on that asset without paying its [action] cost, if any.",
+        "traits": "의식. 저주받은."
+    },
+    {
+        "code": "10100",
+        "name": "에테르 형상",
+        "text": "<b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies). If a symbol was revealed during this evasion attempt, return Ethereal Form to your hand at the end of your turn.",
+        "traits": "주문."
+    },
+    {
+        "code": "10101",
+        "name": "징조 해석",
+        "text": "<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location. If a symbol was revealed during this investigation, return Read the Signs to your hand at the end of your turn.",
+        "traits": "주문."
+    },
+    {
+        "code": "10102",
+        "name": "혼령 칼날",
+        "text": "<b>Fight.</b> Add your [willpower] value to your skill value for this attack. Immediately before this attack, you may engage the attacked enemy. This attack deals + 1 damage (+2 damage instead if the enemy is non-[[Elite]]). If a symbol was revealed during this attack, return Spectral Razor to your hand at the end of your turn.",
+        "traits": "주문."
+    },
+    {
+        "code": "10103",
+        "name": "Ethereal Weaving",
+        "text": "As an additional cost to play Ethereal Weaving, spend an action.\nReveal up to 3 different [[Spell]] events from your hand. One at a time, play each revealed event, reducing its cost by 1. While resolving each of these events, you get +2 skill value.",
+        "traits": "영혼. Double."
+    },
+    {
         "code": "10104",
         "name": "The Key of Solomon",
         "subname": "Secrets of the Unknown",
         "text": "[fast] If there are more [bless] than [curse] tokens in the chaos bag, remove 1 [bless] token from the chaos bag and exhaust The Key of Solomon: Heal up to 2 damage and/or horror from an investigator or [[Ally]] asset at your location.\n[fast] If there are more [curse] than [bless] tokens in the chaos bag, remove 1 [curse] token from the chaos bag and exhaust The Key of Solomon: Gain 2 resources.",
         "traits": "물품. 서적. 축복받은. 저주받은.",
         "slot": "손"
+    },
+    {
+        "code": "10105",
+        "name": "Seal of the Elders",
+        "text": "Fast. Play after a skill test at your location ends in which at least 2 [curse] tokens or 2 [bless] tokens were revealed.\nIf 2 [curse] tokens were revealed, search your bonded cards for 1 copy of Servant of Brass and put it into play. If 2 [bless] tokens were revealed, search your bonded cards for Keeper of the Key and put it into play. If 2 [curse] tokens and 2 [bless] tokens were revealed, do both instead. Remove Seal of the Elders from the game.",
+        "traits": "주문. 계약. 축복받은. 저주받은."
+    },
+    {
+        "code": "10106",
+        "name": "Keeper of the Key",
+        "subname": "Celestial Ward",
+        "text": "Bonded (Seal of the Elders).\n[reaction] When a [bless] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+        "traits": "소환."
+    },
+    {
+        "code": "10107",
+        "name": "Servant of Brass",
+        "subname": "Daemonaic Vassal",
+        "text": "Bonded (Seal of the Elders).\n[reaction] When a [curse] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+        "traits": "소환."
     },
     {
         "code": "10108",
@@ -568,6 +787,12 @@
         "subname": "The Wanderer's Companion",
         "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you take 1 or more damage and/or horror.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [agility] for this skill test. (Limit once per test.)",
         "traits": "물품. 부적. 가면."
+    },
+    {
+        "code": "10112",
+        "name": "Elaborate Distraction",
+        "text": "As an additional cost to play Elaborate Distraction, spend an action. Playing Elaborate Distraction does not provoke attacks of opportunity.\nFor each enemy at your location and at each connecting location (choose one):\n- Automatically evade that enemy if it is non-[[Elite]].\n- Deal 1 damage to that enemy.",
+        "traits": "속임수. Double."
     },
     {
         "code": "10113",
@@ -608,10 +833,47 @@
         "traits": "본성."
     },
     {
+        "code": "10119",
+        "flavor": "I will guide thy hand.",
+        "name": "Devil",
+        "subname": "Friend or Foe?",
+        "text": "<b>Forced</b> - When your turn begins: Move 1 damage from your investigator to \"Devil\"\n<b>Forced</b> - When \"Devil\" is defeated: Deal 2 damage to each enemy and investigator at your location.",
+        "traits": "조력자. 생물. 저주받은.",
+        "slot": "조력자"
+    },
+    {
+        "code": "10120",
+        "name": "소방용 도끼",
+        "text": "Fast.\n[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
+        "traits": "물품. 무기. 근접.",
+        "slot": "손"
+    },
+    {
+        "code": "10121",
+        "name": "Hunting Jacket",
+        "text": "[fast] Exhaust Hunting Jacket: Choose 1 non-weakness card in your hand and attach it facedown to Hunting Jacket (max 3 cards attached). Then, gain 1 resource for each attached card.\n[reaction] When Hunting Jacket is defeated: Draw each attached card.",
+        "traits": "물품. 옷.",
+        "slot": "신체"
+    },
+    {
+        "code": "10122",
+        "name": "뱃사람의 나침반",
+        "text": "[action] Exhaust Mariner's Compass: <b>Investigate.</b> If you fail, ready Mariner's Compass. If you succeed and have no resources in your resource pool, discover 1 additional clue at your location.\n[fast] During an investigation using Mariner's Compass, spend 1 resource: You get +1 [intellect] for this skill test. (Limit three times per investigation.)",
+        "traits": "물품. 도구.",
+        "slot": "손"
+    },
+    {
         "code": "10123",
         "name": "Survival Technique",
         "text": "[fast] Choose a card you own that is attached to your location and exhaust Survival Technique: Add that card to your hand.\n[fast] During a skill test on a location or on a treachery attached to your location, exhaust Survival Technique: You get +2 skill value for this test.",
         "traits": "재능. 과학."
+    },
+    {
+        "code": "10124",
+        "flavor": "Those who walk in faith need not fear the dark.",
+        "name": "신념을 잃지 말라",
+        "text": "Fast. Play during any [fast] window.\nAdd 4 [bless] tokens to the chaos bag.",
+        "traits": "행운. 축복받은."
     },
     {
         "code": "10125",
@@ -628,6 +890,12 @@
         "slot": "액세서리"
     },
     {
+        "code": "10127",
+        "name": "숨은 실력자",
+        "text": "Permanent. Limit 1 per deck.\nDuring the upkeep phase, you may choose to not gain resources.\nWhile you have no resources in your resource pool, you get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility].",
+        "traits": "상태."
+    },
+    {
         "code": "10128",
         "name": "Eldritch Tongue",
         "text": "Uses (4 charges).\nYou may play events with \"parley\" from your discard pile as if they were in your hand. As an additional cost to play an event this way, spend 1 charge from Eldritch Tongue. After that event resolves, remove it from the game.",
@@ -635,11 +903,25 @@
         "slot": "마법"
     },
     {
+        "code": "10129",
+        "flavor": "It's half past midnight, and you're starting to wonder if the whole thing's a ruse.",
+        "name": "Bide Your Time",
+        "text": "As an additional cost to play Bide Your Time, spend an action.\nDuring your next turn, you may take two additional actions.",
+        "traits": "Double."
+    },
+    {
         "code": "10130",
         "flavor": "The fine clothes do all the talking.",
         "name": "Well-Dressed",
         "text": "While Well-Dressed is committed to a skill test during a parley action, it gains [wild] [wild] [wild].",
         "traits": "숙련. 행운."
+    },
+    {
+        "code": "10131",
+        "flavor": "Only the strongest spirit can sunder the dark.",
+        "name": "Dawn Star",
+        "text": "Fast. Play after revealing chaos tokens during a skill test at your location.\nIgnore the modifiers of each [curse] token revealed during this test. For each [curse] token ignored, deal 1 damage to an enemy at your location.",
+        "traits": "의식. 축복받은."
     },
     {
         "code": "10132",
@@ -650,10 +932,45 @@
         "traits": "이익. 계약."
     },
     {
+        "code": "10133",
+        "name": "Broken Diadem",
+        "subname": "Crown of Dying Light",
+        "text": "Limit 1 per deck. Limit 1 [[Mask]] per investigator.\n[reaction] After a skill test at your location ends in which both a [bless] and [curse] token were revealed: Place 1 resource on this card, as an offering. Then, if there are 3 offerings on this card, search your bonded cards for Twilight Diadem and swap it with this card, moving all offerings from this card to Twilight Diadem.",
+        "traits": "물품. 부적. Mask."
+    },
+    {
+        "code": "10134",
+        "name": "Twilight Diadem",
+        "subname": "Crown of Dying Light",
+        "text": "Bonded (Broken Diadem). Limit 1 [[Mask]] per investigator.\n[reaction] When you reveal either a [bless] or [curse] token during a skill test, spend 1 offering and exhaust this card: Treat the revealed token as an [elder_sign] token instead, returning it to the chaos bag. Then, if this card has no offerings, search your bonded cards for Broken Diadem and swap it with this card.",
+        "traits": "물품. 부적. Mask. 축복받은."
+    },
+    {
+        "code": "10135",
+        "name": "Maimed Hand",
+        "text": "<b>Revelation</b> - You must either put Maimed Hand into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 health.\n[action] [action]: Discard Maimed Hand.",
+        "traits": "부상.",
+        "slot": "손"
+    },
+    {
+        "code": "10136",
+        "name": "Back Injury",
+        "text": "<b>Revelation</b> - You must either put Back Injury into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 health.\n[action] [action]: Discard Back Injury.",
+        "traits": "부상.",
+        "slot": "신체"
+    },
+    {
         "code": "10137",
         "name": "The Silver Moth",
         "text": "<b>Revelation</b> - You must either put The Silver Moth into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 sanity.\n[action] [action]: Discard The Silver Moth.",
         "traits": "물품. 유물.",
         "slot": "액세서리"
+    },
+    {
+        "code": "10138",
+        "name": "Vow of Drzytelech",
+        "text": "<b>Revelation</b> - You must either put Vow of Drzytelech into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 sanity.\n[action] [action]: Discard Vow of Drzytelech.",
+        "traits": "계약.",
+        "slot": "마법"
     }
 ]
