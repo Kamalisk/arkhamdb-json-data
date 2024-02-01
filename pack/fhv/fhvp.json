@@ -1504,7 +1504,7 @@
   },
   {
     "code": "10079",
-    "deck_limit": 2,
+    "deck_limit": 1,
     "exceptional": true,
     "faction_code": "rogue",
     "illustrator": "Jean Tay",
@@ -1512,7 +1512,7 @@
     "pack_code": "fhvp",
     "permanent": true,
     "position": 79,
-    "quantity": 2,
+    "quantity": 1,
     "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different Trick cards, and attach them facedown to Bewitching. Shuffle your deck.\n[reaction] When you engage an enemy, exhaust Bewitching: Either draw 1 attached card, or search the top 9 cards of your deck for a copy of an attached card, draw it, and shuffle your deck.",
     "traits": "Talent. Trick.",
     "type_code": "event",
@@ -1626,6 +1626,7 @@
     "xp": 0
   },
   {
+    "bonded_to": "Rod of Carnamagos",
     "code": "10086",
     "faction_code": "mystic",
     "illustrator": "Peter Polach",
@@ -1638,6 +1639,7 @@
     "type_code": "event"
   },
   {
+    "bonded_to": "Rod of Carnamagos",
     "code": "10087",
     "faction_code": "mystic",
     "illustrator": "Peter Polach",
@@ -1650,6 +1652,7 @@
     "type_code": "event"
   },
   {
+    "bonded_to": "Rod of Carnamagos",
     "code": "10088",
     "faction_code": "mystic",
     "illustrator": "Peter Polach",
@@ -1662,6 +1665,7 @@
     "type_code": "event"
   },
   {
+    "bonded_to": "Rod of Carnamagos",
     "code": "10089",
     "faction_code": "mystic",
     "illustrator": "Peter Polach",
@@ -1674,6 +1678,7 @@
     "type_code": "event"
   },
   {
+    "bonded_to": "Rod of Carnamagos",
     "code": "10090",
     "faction_code": "mystic",
     "illustrator": "Peter Polach",
@@ -1684,24 +1689,6 @@
     "text": "Bonded (Rod of Carnamagos)\nAttached enemy cannot move.\n<b>Forced</b> - When attached enemy leaves play: Set Virescent Rot aside, out of play.",
     "traits": "Spell. Rot. Cursed.",
     "type_code": "event"
-  },
-  {
-    "code": "10098",
-    "cost": 2,
-    "deck_limit": 1,
-    "faction_code": "mystic",
-    "illustrator": "Borja Pindado",
-    "name": "Rod of Carnamagos",
-    "pack_code": "fhvp",
-    "position": 98,
-    "quantity": 1,
-    "skill_willpower": 1,
-    "slot": "Hand",
-    "subname": "Scepter of the Mad Seer",
-    "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. For each [curse] token revealed, you may search your bonded cards for a [[Rot]] event and attach it to that enemy.",
-    "traits": "Item. Relic. Occult. Cursed.",
-    "type_code": "asset",
-    "xp": 2
   },
   {
     "code": "10091",
@@ -1722,7 +1709,7 @@
   },
   {
     "code": "10092",
-    "cost": 3,
+    "cost": 2,
     "deck_limit": 2,
     "faction_code": "mystic",
     "illustrator": "Rob Laskey",
@@ -1732,9 +1719,28 @@
     "quantity": 2,
     "skill_combat": 1,
     "slot": "Hand",
-    "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
+    "subname": "Cursed Blade",
+    "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for this attack for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
     "traits": "Item. Weapon. Melee. Cursed.",
     "type_code": "asset",
+    "xp": 0
+  },
+  {
+    "code": "10093",
+    "cost": 2,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Balance Sheet",
+    "name": "Antediluvian Hymn",
+    "pack_code": "fhvp",
+    "position": 93,
+    "quantity": 2,
+    "skill_combat": 1,
+    "skill_intellect": 1,
+    "skill_willpower": 1,
+    "text": "As an additional cost to play Antediluvian Hymn, spend an action.\nReveal the top 5 cards of the encounter deck. For each card revealed, you may add 1 [curse] token to the chaos bag to place that card on the bottom of the encounter deck. Return the rest to the top of the encounter deck in any order.",
+    "traits": "Augury. Double.",
+    "type_code": "event",
     "xp": 0
   },
   {
@@ -1750,7 +1756,7 @@
     "quantity": 2,
     "skill_intellect": 1,
     "skill_willpower": 1,
-    "text": "<b>Parley.</b> Choose an enemy at your location and test [willpower] (X), where X is the chosen enemy's fight value. If you succeed, move 1 damage from your investigator to the chosen enemy (up to 2 damage instead if the chosen enemy is non-[[Elite]]).",
+    "text": "<b>Parley.</b> Choose an enemy at your location and test [willpower](X), where X is the chosen enemy's fight value. If you succeed, move 1 damage from your investigator to the chosen enemy (up to 2 damage instead if the chosen enemy is non-[[Elite]]).",
     "traits": "Spell.",
     "type_code": "event",
     "xp": 0
@@ -1770,6 +1776,23 @@
     "traits": "Innate. Cursed.",
     "type_code": "skill",
     "xp": 0
+  },
+  {
+    "code": "10096",
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "flavor": "The dreaming mind is as deep as any sea.",
+    "illustrator": "Daniel Watson",
+    "name": "Mesmeric Influence",
+    "pack_code": "fhvp",
+    "position": 96,
+    "quantity": 2,
+    "skill_wild": 1,
+    "skill_willpower": 1,
+    "text": "While this card is committed to a skill test, the performing investigator may ignore all keyword or location effects that would trigger during this test.",
+    "traits": "Practiced.",
+    "type_code": "skill",
+    "xp": 1
   },
   {
     "code": "10097",
@@ -1792,7 +1815,116 @@
     "type_code": "asset",
     "xp": 2
   },
-{
+  {
+    "code": "10098",
+    "cost": 2,
+    "deck_limit": 1,
+    "faction_code": "mystic",
+    "illustrator": "Borja Pindado",
+    "name": "Rod of Carnamagos",
+    "pack_code": "fhvp",
+    "position": 98,
+    "quantity": 1,
+    "skill_willpower": 1,
+    "slot": "Hand",
+    "subname": "Scepter of the Mad Seer",
+    "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. For each [curse] token revealed, you may search your bonded cards for a [[Rot]] event and attach it to that enemy.",
+    "traits": "Item. Relic. Occult. Cursed.",
+    "type_code": "asset",
+    "xp": 2
+  },
+
+
+  {
+    "code": "10099",
+    "cost": 0,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Leonardo Borazio",
+    "name": "Call the Beyond",
+    "pack_code": "fhvp",
+    "position": 99,
+    "quantity": 2,
+    "skill_intellect": 1,
+    "skill_willpower": 1,
+    "text": "As an additional cost to play Call the Beyond, add 3 [curse] tokens to the chaos bag.\nChoose an asset vou control with \"uses (charges)\" or \"uses (secrets)\". Replenish all of that asset's charges or secrets. Then, you may resolve an [action] or [fast] ability on that asset without paying its [action] cost, if any.",
+    "traits": "Ritual. Cursed.",
+    "type_code": "event",
+    "xp": 2
+  },
+  {
+    "code": "10100",
+    "cost": 2,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Ethereal Form",
+    "pack_code": "fhvp",
+    "position": 100,
+    "quantity": 2,
+    "skill_agility": 1,
+    "skill_willpower": 1,
+    "skill_wild": 1,
+    "text": "<b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies). If a symbol was revealed during this evasion attempt, return Ethereal Form to your hand at the end of your turn.",
+    "traits": "Spell.",
+    "type_code": "event",
+    "xp": 2
+  },
+  {
+    "code": "10101",
+    "cost": 2,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Ilich Henriquez",
+    "name": "Read the Signs",
+    "pack_code": "fhvp",
+    "position": 101,
+    "quantity": 2,
+    "skill_intellect": 1,
+    "skill_willpower": 1,
+    "skill_wild": 1,
+    "text": "<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location. If a symbol was revealed during this investigation, return Read the Signs to your hand at the end of your turn.",
+    "traits": "Spell.",
+    "type_code": "event",
+    "xp": 2
+  },
+  {
+    "code": "10102",
+    "cost": 2,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Pavel Kolomeyets",
+    "name": "Spectral Razor",
+    "pack_code": "fhvp",
+    "position": 102,
+    "quantity": 2,
+    "skill_combat": 1,
+    "skill_willpower": 1,
+    "skill_wild": 1,
+    "text": "<b>Fight.</b> Add your [willpower] value to your skill value for this attack. Immediately before this attack, you may engage the attacked enemy. This attack deals + 1 damage (+2 damage instead if the enemy is non-[[Elite]]). If a symbol was revealed during this attack, return Spectral Razor to your hand at the end of your turn.",
+    "traits": "Spell.",
+    "type_code": "event",
+    "xp": 2
+  },
+  {
+    "code": "10103",
+    "cost": 1,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Aleksander Karcz",
+    "name": "Ethereal Weaving",
+    "pack_code": "fhvp",
+    "position": 103,
+    "quantity": 2,
+    "skill_agility": 1,
+    "skill_willpower": 1,
+    "skill_wild": 1,
+    "text": "As an additional cost to play Ethereal Weaving, spend an action.\nReveal up to 3 different [[Spell]] events from your hand. One at a time, play each revealed event, reducing its cost by 1. While resolving each of these events, you get +2 skill value.",
+    "traits": "Spirit. Double.",
+    "type_code": "event",
+    "xp": 3
+  },
+  {
      "code": "10104",
      "cost": 2,
      "deck_limit": 2,
@@ -1814,6 +1946,57 @@
      "type_code": "asset",
      "xp": 4
    },
+
+
+  {
+    "code": "10105",
+    "cost": 0,
+    "deck_limit": 2,
+    "faction_code": "mystic",
+    "illustrator": "Rob Laskey",
+    "name": "Seal of the Elders",
+    "pack_code": "fhvp",
+    "position": 105,
+    "quantity": 2,
+    "skill_combat": 2,
+    "skill_willpower": 1,
+    "text": "Fast. Play after a skill test at your location ends in which at least 2 [curse] tokens or 2 [bless] tokens were revealed.\nIf 2 [curse] tokens were revealed, search your bonded cards for 1 copy of Servant of Brass and put it into play. If 2 [bless] tokens were revealed, search your bonded cards for Keeper of the Key and put it into play. If 2 [curse] tokens and 2 [bless] tokens were revealed, do both instead. Remove Seal of the Elders from the game.",
+    "traits": "Spell. Pact. Blessed. Cursed.",
+    "type_code": "event",
+    "xp": 5
+  },
+  {
+    "bonded_to": "Seal of the Elders",
+    "code": "10106",
+    "faction_code": "mystic",
+    "illustrator": "Peter Polach",
+    "is_unique": true,
+    "name": "Keeper of the Key",
+    "pack_code": "fhvp",
+    "position": 106,
+    "quantity": 1,
+    "sanity": 4,
+    "subname": "Celestial Ward",
+    "text": "Bonded (Seal of the Elders).\n[reaction] When a [bless] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+    "traits": "Summon.",
+    "type_code": "asset"
+  },
+  {
+    "bonded_to": "Seal of the Elders",
+    "code": "10107",
+    "faction_code": "mystic",
+    "health": 4,
+    "illustrator": "Peter Polach",
+    "is_unique": true,
+    "name": "Servant of Brass",
+    "pack_code": "fhvp",
+    "position": 107,
+    "quantity": 1,
+    "subname": "Daemonaic Vassal",
+    "text": "Bonded (Seal of the Elders).\n[reaction] When a [curse] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+    "traits": "Summon.",
+    "type_code": "asset"
+  },
    {
       "code": "10108",
       "cost": 1,
