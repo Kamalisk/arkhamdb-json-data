@@ -1,143 +1,45 @@
 [
   {
-    "alternate_of": "02004",
-    "back_flavor": "Jazz has been nothing but trouble for Jim since the day he picked up his daddy’s trumpet. But the dead sure love it when he plays, so Jim has no intention of stopping.",
-    "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-3, [[Spell]] and [[Cursed]] cards level 0-4, Neutral cards level 0-5, up to five other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jim's Trumpet, Final Rhapsody, The Beyond, 1 random basic weakness.\n<b>Spirit Deck Size</b>: 10.\n<b>Spirit Deckbuilding Options</b>: 9 different [[Ally]] assets from any class level 0–2, Vengeful Shade.\n<b>Spirit Deck Instructions</b>: Shuffle the “spirit deck” separately from your deck and place it next to The Beyond asset, facedown. This deck may be upgraded separately using your unspent experience.",
+    "back_flavor": "Jazz bereitet Jim seit dem Tag, an dem er zum ersten Mal nach der Trompete seines Vaters gegriffen hatte, immer nur Probleme. Doch die Toten scheinen sein Trompetenspiel zu mögen, weshalb Jim auch nicht vorhat, damit aufzuhören.",
+    "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Mystikerkarten ([mystic]) Stufe 0-3, [[Zauber]]- und [[Verflucht]]-Karten Stufe 0-4, Neutrale Karten Stufe 0-5, bis zu 5 andere Überlebenderkarten ([survivor]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Jims Trompete, Letzte Rhapsodie, Das Jenseits, 1 zufällige Grundschwäche.\n<b>Größe des Geisterdecks</b>: 10.\n<b>Deckbau-Optionen des Geisterdecks</b>: 9 verschiedene [[Verbündeter]]-Vorteilskarten beliebiger Klassen der Stufe 0–2, Rachsüchtiger Schatten.\n<b>Regeln für das Geisterdeck</b>: Mische das \"Geisterdeck\" und halte es von deinem Deck getrennt. Platziere das Geisterdeck verdeckt neben der Vorteilskarte Das Jenseits. Dieses Deck darf mit nicht verwendeten Erfahrungspunkten verbessert werden.",
     "code": "90049",
-    "deck_limit": 1,
-    "deck_options": [
-        {
-            "faction": ["mystic"],
-            "level": { "min": 0, "max": 3 }
-        },
-        {
-            "faction": ["neutral"],
-            "level": { "min": 0, "max": 5 }
-        },
-        {
-          "trait": ["spell", "cursed"],
-          "level": { "min": 0, "max": 4 }
-        },
-        {
-            "faction": ["survivor"],
-            "level": { "min": 0, "max": 0 },
-            "limit": 5,
-            "error": "You cannot have more than 5 Survivor cards."
-        }
-    ],
-    "deck_requirements": "size:30, card:02012:90050, card:02013:90051, card:90052, random:subtype:basicweakness",
-    "side_deck_options": [
-      {
-        "trait": ["ally"],
-        "level": { "min": 0, "max": 2 }
-      }
-    ],
-    "side_deck_requirements": "size:9, card:90053",
-    "double_sided": true,
-    "faction_code": "mystic",
-    "flavor": "“I know I can make the dead dance.”",
-    "health": 7,
-    "hidden": true,
-    "illustrator": "Magali Villeneuve",
-    "is_unique": true,
+    "flavor": "\"Ich weiß, wie ich die Toten tanzen lassen kann.\"",
     "name": "Jim Culver",
-    "pack_code": "ltr",
-    "position": 49,
-    "quantity": 1,
-    "sanity": 8,
-    "skill_agility": 2,
-    "skill_intellect": 3,
-    "skill_combat": 3,
-    "skill_willpower": 4,
-    "subname": "The Musician",
-    "text": "[reaction] After you reveal 1 or more [skull] or [curse] tokens during a skill test you are performing: Replenish 1 charge on an asset you control. (Limit once per round.)\n[elder_sign] effect: +2. You may treat this token as if it were a [skull] or [curse] token instead.",
-    "traits": "Performer. Cursed.",
-    "type_code": "investigator"
+    "subname": "Der Musiker",
+    "text": "[reaction] Nachdem du während einer Fertigkeitsprobe, die du durchführst 1 oder mehr [skull]- oder [curse]-Marker enthüllt hast: Fülle 1 Ladung auf einer Vorteilskarte auf, die du kontrollierst. (Nur ein Mal pro Runde.)\n[elder_sign]-Effekt: +2. Du darfst diesen Marker stattdessen als [skull]- oder [curse]-Marker behandeln.",
+    "traits": "Performer. Verflucht."
   },
   {
     "code": "90050",
-    "cost": 2,
-    "deck_limit": 1,
-    "faction_code": "neutral",
-    "illustrator": "John Pacer",
-    "is_unique": true,
-    "name": "Jim's Trumpet",
-    "pack_code": "ltr",
-    "position": 50,
-    "quantity": 1,
-    "restrictions": "investigator:02004",
-    "skill_wild": 2,
-    "skill_willpower": 2,
+    "name": "Jims Trompete",
     "slot": "Hand",
-    "subname": "The Dead Speak",
-    "text": "Jim Culver deck only. Advanced.\n[reaction] When a [skull] or [curse] token is revealed during a skill test you are performing, exhaust Jim's Trumpet: Heal 1 horror from each investigator and [[Ally]] asset at your location or a connecting location.",
-    "traits": "Item. Instrument. Relic.",
-    "type_code": "asset"
+    "subname": " Die Toten sprechen",
+    "text": "Nur für das Deck von Jim Culver. Weiterentwickelt.\n[reaction] Sobald ein [skull]- oder [curse]-Marker während deiner Fertigkeitsprobe enthüllt wird, erschöpfe Jims Trompete: Heile 1 Horror von jedem Ermittler und jeder [[Verbündeter]]-Vorteilskarte an deinem oder einem verbundenen Ort.",
+    "traits": "Gegenstand. Instrument. Relikt."
 },
 {
     "code": "90051",
-    "deck_limit": 1,
-    "faction_code": "neutral",
-    "flavor": "When the dead start talking about what scares them, that's when it's time to listen.",
-    "illustrator": "Preston Stone",
-    "name": "Final Rhapsody",
-    "pack_code": "ltr",
-    "position": 51,
-    "quantity": 1,
-    "restrictions": "investigator:02004",
-    "subtype_code": "weakness",
-    "text": "Advanced.\n<b>Revelation</b> - Reveal 5 chaos tokens from the chaos bag. For each non-[elder_sign], non-[bless] symbol token revealed, take 1 damage and 1 horror.",
-    "traits": "Endtimes.",
-    "type_code": "treachery"
+    "flavor": "Wenn die Toten davon zu reden beginnen, was ihnen Angst macht, ist es an der Zeit, ihnen gut zuzuhören.",
+    "name": " Letzte Rhapsodie",
+    "text": "Weiterentwickelt.\n<b>Enthüllung</b> - Enthülle 5 Chaosmarker aus dem Chaosbeutel. Für jedes enthüllte Nicht-[elder_sign], Nicht-[bless]-Symbol nimm 1 Schaden und 1 Horror.",
+    "traits": "Endzeit."
   },
   {
-    "back_link": "90052b",
     "code": "90052",
-    "cost": null,
-    "deck_limit": 1,
-    "faction_code": "neutral",
-    "illustrator": "John Pacer",
-    "is_unique": true,
-    "name": "The Beyond",
-    "pack_code": "ltr",
-    "permanent": true,
-    "position": 52,
-    "quantity": 1,
-    "restrictions": "investigator:02004",
-    "subname": "Black Netherworld",
-    "text": "Jim Culver deck only. Permanent.\nEach attached spirit loses all printed traits and gains the [[Geist]] trait. When damage/horror would be placed on an attached spirit, it must be placed on Jim Culver, instead.\n<b>Forced</b> – When your turn begins: Attach the top card of the spirit deck to The Beyond, as a spirit. If 4 or more spirits are attached, flip this card and resolve its text.",
-    "traits": "Sanctum. Spectral.",
-    "type_code": "asset"
+    "name": "Das Jenseits",
+    "subname": "Trostloses Totenreich",
+    "text": "Nur für das Deck von Jim Culver. Dauerhaft.\nJeder Geist, der an Das Jenseits angehängt ist, verliert alle aufgedruckten Merkmale und erhält das Merkmal [[Geist]]. Sobald Schaden/Horror auf einem angehängten Geist platziert werden würde, muss er stattdessen auf Jim Culver platziert werden.\n<b>Erzwungen</b> – Sobald dein Zug beginnt: Hänge die oberste Karte des Geisterdecks als Geist an Das Jenseits an. Falls 4 oder mehr Geister angehängt sind, drehe diese Karte um und handle ihren Text ab.",
+    "traits": "Heiligtum. Geisterhaft."
   },
   {
     "code": "90052b",
-    "faction_code": "neutral",
-    "hidden": true,
-    "name": "The Beyond",
-    "pack_code": "ltr",
-    "position": 52,
-    "quantity": 1,
-    "text": "<b>Forced</b> – One at a time, choose each non-weakness spirit attached to The Beyond and reveal a random token from the chaos bag. If it is...\n- ... an [elder_sign] token: You may either heal 1 horror, or attach the top card of the spirit deck to The Beyond, as a spirit. <i>(Do not reveal tokens for the spirit you attach after resolving this effect.)</i>\n- ... an [auto_fail] token: Discard this spirit. Take 1 direct damage/horror.\n- ...a [skull] token: Discard this spirit. Heal 1 horror.\n- ...a [cultist], [elder_thing], [tablet], or [curse] token: You must either discard this spirit or take 1 direct damage.\n- ...any other token: Discard this spirit.\nFlip this card back to its asset side.\n<hr><b>Reminder:</b> <i>Spirits attached to The Beyond are in play but only retain their names and text boxes. Spirits do not take up slots and do not have health or sanity values. When a unique spirit is attached to The Beyond, any other asset that shares its name and is already in play is discarded. Spirits are always discarded to the</i> <b>bottom</b> <i>of the spirit deck.</i>",
-    "type_code": "story"
+    "name": "Das Jenseits",
+    "text": "<b>Erzwungen</b> – Wähle nacheinander jeden Nicht-Schwäche-Geist, der an Das Jenseits angehängt ist, und enthülle für ihn einen zufälligen Marker aus dem Chaos beutel. Falls es ...\n- ... ein [elder_sign]-Marker ist: Du darfst entweder 1 Horror heilen oder die oberste Karte des Geisterdecks als Geist an Das Jenseits anhängen. <i>(Enthülle keinen Marker für den Geist, den du bei der Abhandlung dieses Effekts anhängst.)</i>\n- ... ein [auto_fail]-Marker ist: Lege diesen Geist ab. Nimm 1 direkten Schaden/Horror.\n- ... ein [skull]-Marker ist: Lege diesen Geist ab. Heile 1 Horror.\n- ... ein [cultist]-, [elder_thing]-, [tablet]-, oder [curse]-Marker ist: Du musst diesen Geist entweder ablegen oder 1 direkten Schaden nehmen.\n- ... ein beliebiger anderer Marker ist: Lege diesen Geist ab.\nDrehe diese Karte auf ihre Vorteilskartenseite um.\n<hr><b>Zur Erinnerung:</b> <i>Geister, die an Das Jenseits angehängt sind gelten als im Spiel, aber nur mit ihren Namen und Textfeldern. Geister benötigen keine Slots und haben keine Werte für Ausdauer und geistige Gesundheit. Sobald ein einzigartiger Geist an Das Jenseits angehängt wird, muss jede andere Vorteilskarte mit demselben Namen, die bereits im Spiel ist, abgelegt werden. Geister werden immer</i> <b>unter</b> <i>das Geisterdeck abgelegt.</i>"
   },
   {
     "code": "90053",
-    "deck_limit": 1,
-    "enemy_evade": 5,
-    "enemy_fight": 5,
-    "enemy_horror": 2,
-    "faction_code": "neutral",
-    "health": 2,
-    "illustrator": "Andreas Zafiratos",
-    "name": "Vengeful Shade",
-    "pack_code": "ltr",
-    "permanent": true,
-    "position": 53,
-    "quantity": 1,
-    "restrictions": "investigator:02004",
-    "subtype_code": "weakness",
-    "text": "Hunter. <b>Prey</b> – Jim Culver only.\nYou may fight or evade this enemy while it is attached to The Beyond (as if it were engaged with you). If you succeed, discard it. If you fail, spawn it engaged with you.\n<b>Forced</b> – When you attach a spirit to The Beyond via its forced effect: Vengeful Shade attacks you <i>(even if it is not at your location)</i>.",
-    "traits": "Monster. Geist.",
-    "type_code": "enemy"
+    "name": "Rachsüchtiger Schatten",
+    "text": "Jäger. <b>Beute</b> – Nur Jim Culver.\nDu darfst gegen diesen Gegner kämpfen oder versuchen, ihm zu entkommen, solange er an Das Jenseits angehängt ist (als ob er mit dir in einen Kampf verwickelt wäre). Falls die Probe gelingt, lege ihn ab. Falls die Probe misslingt, erscheint er mit dir in einen Kampf verwickelt.\n<b>Erzwungen</b> – Sobald du einen Geist mit dem Erzwungen-Effekt auf Das Jenseits daran anhängst: Rachsüchtiger Schatten greift dich an <i>(auch wenn er nicht an deinem Ort ist)</i>.",
+    "traits": "Monster. Spuk."
   }
 ]
