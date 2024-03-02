@@ -219,5 +219,161 @@
     "slot": "Arkan",
     "text": "Gebunden (Ein Wunder herbeiwünschen). Falls Flüchtiger Aufstieg keine Wünsche hat, lege diese Karte als nicht im Spiel befindlich beiseite.\n[reaction] Sobald einem Ermittler an deinem Ort eine Fertigkeitsprobe misslingen würde, gib 1 Wunsch aus und erschöpfe Flüchtiger Aufstieg: Handle den [elder_sign]-Effekt jenes Ermittlers ab <i>(zusätzlich zu allen anderen enthüllten Markern)</i>.",
     "traits": "Ritual. Pakt. Gesegnet."
+},
+{
+    "code": "10040",
+    "name": "Chemiekoffer",
+    "slot": "Zubehör",
+    "text": "[action] Erschöpfe Chemiekoffer: <b>Ermitteln.</b> Falls die Probe ...\n- ... um genau 2 misslingt, lege Chemiekoffer ab.\n- ... um genau 0 gelingt, erhalte 2 Ressourcen.\n- ... um genau 2 gelingt, ziehe 1 Karte.\n- ... um genau 4 gelingt, entdecke 1 zusätzlichen Hinweis an deinem Ort.",
+    "traits": "Gegenstand. Werkzeug. Wissenschaft."
+},
+{
+    "code": "10041",
+    "name": "Dr. Charles West III.",
+    "slot": "Verbündeter",
+    "subname": "Hat seine Bestimmung gefunden",
+    "text": "Du hast 1 zusätzlichen Handslot, der nur für [[Werkzeug]]-Vorteilskarten verwendet werden kann.\n[reaction] Nachdem du erfolgreich um genau 1 oder 3 ermittelt hast, erschöpfe Dr. Charles West III.: Füge einem Gegner an deinem Ort 1 Schaden zu.",
+    "traits": "Verbündeter. Wissenschaft."
+},
+{
+    "code": "10042",
+    "name": "Mikroskop",
+    "slot": "Hand",
+    "text": "[reaction] Nachdem ein Gegner an deinem Ort besiegt oder ihm erfolgreich entkommen worden ist, erschöpfe Mikroskop: Platziere 1 Ressource als Beweis auf Mikroskop.\n[action] [action]: <b>Ermitteln.</b> Du bekommst für diese Ermittlung +1 [intellect] für jeden Beweis auf Mikroskop (max. +3 [intellect]). Falls die Probe gelingt, darfst du bis zu 2 Beweise ausgeben, um so viele zusätzliche Hinweise an deinem Ort zu entdecken.",
+    "traits": "Gegenstand. Werkzeug. Wissenschaft."
+},
+{
+    "code": "10043",
+    "name": "Mausmaske",
+    "subname": "Der demütige Beobachter",
+    "text": "Nur 1 [[Maske]] pro Ermittler.\nAnwendungen (2 Opfergaben). Fülle 1 dieser Opfergaben auf, nachdem du einen Ort enthüllt oder einen neuen Ort ins Spiel gebracht hast.\n[fast] Gib 1 Opfergabe aus: Du bekommst für diese Probe +2 [willpower] oder +2 [intellect]. (Nur ein Mal pro Probe.)",
+    "traits": "Gegenstand. Glücksbringer. Maske."
+},
+{
+    "code": "10044",
+    "name": "Gefräßiger Mykonid",
+    "subname": "Nicht identifiziert",
+    "text": "Nur 1 pro Deck.\n[action]: Durchsuche deine gebundenen Karten nach Unheimliches Wachstum und füge es deiner Hand hinzu.\n[action] Falls Gefräßiger Mykonid 3 oder mehr Wachstum auf sich hat: Bewege jedes Wachstum als Ressource in deinen Ressourcenvorrat. Notiere in deinem Kampagnenlogbuch, dass \"du eine neue Spezies klassifiziert hast.\"",
+    "traits": "Kreatur. Monster. Flora. Wissenschaft."
+},
+{
+    "code": "10045",
+    "name": "Unheimliches Wachstum",
+    "text": "Gebunden (Gefräßiger Mykonid).\n<b>Ermitteln.</b> Nachdem diese Probe abgehandelt worden ist, platziere für jeden Punkt, um den die Probe gelungen ist, 1 Ressource als Wachstum auf Gefräßiger Mykonid. Lege Unheimliches Wachstum als nicht im Spiel befindlich beiseite. Falls die Probe misslingt, schicke Unheimliches Wachstum auf deine Hand zurück.",
+    "traits": "Erkenntnis. Wissenschaft."
+},
+{
+    "code": "10046",
+    "flavor": "\"Es gab eine Lösung, die er in die Venen der toten Geschöpfe injizierte, und sie reagierten auf merkwürdige Weise, wenn sie frisch genug waren.\"\n-H.P. Lovecraft, <i>Herbert West - Der Wiedererwecker</i>",
+    "name": "Kontrollvariable",
+    "text": "Schnell. Spiele diese Karte, nachdem ein Ermittler einen [curse]-Marker während einer Fertigkeitsprobe an deinem Ort enthüllt hat.\nEntdecke 1 Hinweis an deinem Ort.",
+    "traits": "Erkenntnis. Wissenschaft. Verflucht."
+},
+{
+    "code": "10047",
+    "name": "Testlauf",
+    "text": "Als zusätzliche Kosten, um Testlauf zu spielen, gib 1 Aktion aus.\n<b>Ermitteln.</b> Ermittle nacheinander und in aufsteigender Reihenfolge ihrer Schleierwerte an deinem und jedem verbundenen Ort, bis dir entweder eine Probe misslingt oder du erfolgreich an jedem gültigen Ort ermittelt hast.",
+    "traits": "Erkenntnis. Doppelt."
+},
+{
+    "code": "10048",
+    "flavor": "Die Wahrheit befindet sich meist direkt vor deiner Nase.",
+    "name": "Gründliche Untersuchung",
+    "text": "Als zusätzliche Kosten, um Gründliche Untersuchung zu spielen, gib 1 Aktion aus.\nErmittler an deinem Ort ziehen insgesamt 5 Karten <i>(du entscheidest, wie viele Karten jeder Ermittler zieht)</i>.",
+    "traits": "Erkenntnis. Doppelt."
+},
+{
+    "code": "10049",
+    "flavor": "\"Du sollst doch nicht immer alles so wörtlich nehmen.\"",
+    "name": "\"Ich erschlag dich mit meinem Wissen!\"",
+    "text": "<b>Kampf.</b> Wähle eine [[Buch]]-Vorteilskarte, die du kontrollierst. Du bekommst für diesen Angriff +X [combat], wobei X die aufgedruckten Kosten jener Karte sind. Falls die Probe gelingt, darfst du entweder dem angegriffenen Gegner automatisch entkommen, oder nach dem Ende des Angriffs eine [action]- oder [fast]- Fähigkeit auf der gewählten Vorteilskarte abhandeln <i>(ignoriere  dabei ihre möglichen [action]-Kosten )</i>.",
+    "traits": "Schachzug. Improvisiert."
+},
+{
+    "code": "10050",
+    "flavor": "\"Ich habe gesagt: ,Eliminieren', nicht ,Maximieren'!\"",
+    "name": "Transformieren",
+    "text": "<b>Entkommen.</b> Du darfst für diesen Entkommen-Versuch [intellect] statt [agility] verwenden. Falls die Probe gelingt und der Gegner Nicht-[[Elite]] ist, hänge Transformieren an ihn an.\nDer Gegner mit dieser Verstärkung erhält: \"Gewaltig. Kann sich nicht bewegen. [reaction] Nachdem du diesem Gegner entkommen bist: Entdecke 1 Hinweis an seinem Ort. (Nur ein Mal pro Runde.)\"",
+    "traits": "Schachzug. Wissenschaft."
+},
+{
+    "code": "10051",
+    "flavor": "Jeder einzelne Cent des Forschungszuschusses zählt.",
+    "name": "Finanziell gut ausgestattet",
+    "text": "Solange du eine [[Wissenschaft]]- oder [[Werkzeug]]-Vorteilskarte kontrollierst, erhält Finanziell gut ausgestattet [wild]. (Solange du 3 oder mehr [[Wissenschaft]]- oder [[Werkzeug]]-Vorteilskarten kontrollierst, erhält Finanziell gut ausgestattet stattdessen [wild] [wild].)",
+    "traits": "Glücksfall."
+},
+{
+    "code": "10052",
+    "flavor": "\"Ihnen zu helfen, ist immer noch einfacher, als meinen Studenten Geometrie beizubringen.\"",
+    "name": "Gabriel Carillo",
+    "slot": "Verbündeter",
+    "subname": "Geschätzte Vertrauensperson",
+    "text": "Du bekommst +1 [intellect].\n[reaction] Füge zu Beginn deines Zuges dem Chaosbeutel 1 [curse]-Marker hinzu: Ziehe 1 Karte.",
+    "traits": "Verbündeter. Gelehrter. Verflucht."
+},
+{
+    "code": "10053",
+    "flavor": "Ein kleiner Schnitt kann zwischen Leben und Tod entscheiden.",
+    "name": "Mit ruhiger Hand",
+    "text": "Nur 1 pro Ermittler.\n[reaction] Sobald dir eine Fertigkeitsprobe gelingen würde, erschpfe Mit ruhiger Hand: Die Probe gelingt dir entweder um 1 mehr oder um 1 weniger. Falls dir die Probe um genau 2 gelingt, heile 1 Horror.",
+    "traits": "Talent. Wissenschaft."
+},
+{
+    "code": "10054",
+    "flavor": "\"Ich versichere Ihnen, Sie haben nichts zu befürchten!\"",
+    "name": "Feinjustierung",
+    "text": "Hänge diese Karte an eine [[Werkzeug]]- oder [[Wissenschaft]]-Vorteilskarte an, die du kontrollierst. Nur 1 pro Vorteilskarte.\n[reaction] Nachdem die Vorteilskarte mit dieser Verstärkung erschöpft worden ist, erschöpfe Feinjustierung: Mache die Karte mit dieser Verstärkung spielbereit.",
+    "traits": "Erkenntnis. Verbesserung."
+},
+{
+    "code": "10055",
+    "flavor": "Gerüchten zufolge soll der letzte Phrenologie-Professor der Universität eine unnatürlich lange Amtszeit genossen haben.",
+    "name": "Esoterische Methode",
+    "text": "Nachdem diese Fertigkeitsprobe beendet worden ist, füge dem Chaosbeutel für jeden Punkt, um den die Probe entweder gelungen oder misslungen ist, 1 [curse]-Marker hinzu.",
+    "traits": "Trainiert. Verflucht."
+},
+{
+    "code": "10056",
+    "name": "Prismatische Brille",
+    "slot": "Zubehör",
+    "subname": "Linse in die Anderswelt",
+    "text": "[action] Füge dem Chaosbeutel 1 [curse]-Marker hinzu: <b>Ermitteln.</b> Du bekommst für diese Ermittlung +2 auf einen Fertigkeitswert. Falls während dieser Ermittlung ein [curse]-Marker enthüllt wird, darfst du Prismatische Brille erschöpfen, um 1 zusätzlichen Hinweis an deinem Ort zu entdecken.",
+    "traits": "Gegenstand. Relikt. Verflucht."
+},
+{
+    "code": "10057",
+    "flavor": "\"Das wird niemals funktionieren, Herbert.\"",
+    "name": "Widerlegen",
+    "text": "<b>Verhandlung.</b> Wähle einen Gegner an deinem Ort. Lege eine [intellect]-Probe (X) ab, wobei X der Entkommen-Wert des gewählten Gegners ist. Falls die Probe gelingt, entdecke 2 Hinweise an deinem Ort. Falls der gewählte Gegner Nicht-[[Elite]] ist, entkomme ihm dann automatisch. Er wird während der nächsten Unterhaltsphase nicht spielbereit gemacht.",
+    "traits": "Erkenntnis. Trick."
+},
+{
+    "code": "10058",
+    "name": "Mikroskop",
+    "slot": "Hand",
+    "text": "[reaction] Nachdem ein Gegner an deinem Ort besiegt oder ihm erfolgreich entkommen worden ist: Platziere 1 Ressource als Beweis auf Mikroskop.\n[action] [action]: <b>Ermitteln.</b> Du bekommst für diese Ermittlung +2 [intellect] für jeden Beweis auf Mikroskop (max. +6 [intellect]). Falls die Probe gelingt, darfst du bis zu 3 Beweise ausgeben, um so viele zusätzliche Hinweise an deinem Ort zu entdecken.",
+    "traits": "Gegenstand. Werkzeug. Wissenschaft."
+},
+{
+    "code": "10059",
+    "name": "Gefräßiger Mykonid",
+    "subname": "Bewusstseinsfähige Art",
+    "text": "Erforscht. Nur 1 pro Deck.\n[fast]: Durchsuche deine gebundenen Karten nach Unheimliches Wachstum und füge es deiner Hand hinzu. (Nur ein Mal pro Runde.)\n[reaction] Sobald ein Ermittler eine Nicht-Schwäche-Verratskarte zieht und falls der Schleierwert seines Ortes gleich oder niedriger der Anzahl an Wachstum auf Gefräßiger Mykonid ist: Hebe die Effekte jener Verratskarte auf. Entferne sämtliches Wachstum von Gefräßiger Mykonid.",
+    "traits": "Kreatur. Wissenschaft."
+},
+{
+    "code": "10060",
+    "name": "Gefräßiger Mykonid",
+    "subname": "Fleischfressende Art",
+    "text": "Erforscht. Nur 1 pro Deck.\n[fast]: Durchsuche deine gebundenen Karten nach Unheimliches Wachstum und füge es deiner Hand hinzu. (Nur ein Mal pro Runde.)\n[fast] Wähle einen Nicht-[[Elite]]-Gegner an deinem Ort, dessen verbleibende Ausdauer gleich oder niedriger der Anzahl an Wachstum auf Gefräßiger Mykonid ist: Besiege jenen Gegner. Entferne sämtliches Wachstum von Gefräßiger Mykonid.",
+    "traits": "Monster. Wissenschaft."
+},
+{
+    "code": "10061",
+    "name": "Gefräßiger Mykonid",
+    "subname": "Nährende Art",
+    "text": "Erforscht. Nur 1 pro Deck.\n[fast]: Durchsuche deine gebundenen Karten nach Unheimliches Wachstum und füge es deiner Hand hinzu. (Nur ein Mal pro Runde.)\n[fast] Entferne sämtliches Wachstum von Gefräßiger Mykonid: Heile entweder genauso viel Schaden/Horror von Gefräßiger Mykonid oder bewege genauso viel Schaden/Horror von Ermittlern oder [[Verbündeter]]-Vorteilskarten an deinem Ort auf Gefräßiger Mykonid.",
+    "traits": "Flora. Wissenschaft."
 }
 ]
