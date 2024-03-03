@@ -1,5 +1,27 @@
 [
 {
+    "back_flavor": "Wilson ist stolz darauf, immer das passende Werkzeug für jeden erdenklichen Job parat zu haben. Eine undichte Rohrleitung? Rohrzange. Ein umgestürzter Baum? Handsäge. Renovierungsarbeiten? Vorschlaghammer. In letzter Zeit haben sich bei seinen Aufträgen in Arkham und Umgebung jedoch immer wieder merkwürdige Dinge ereingnet. Unter knarrenden Bodendielen verbergen sich labyrinthartige Tunnel. Ein demoliertes Dach scheint von innen heraus zerstört worden zu sein, statt von außen. Es ist Wilsons Job, Probleme zu lösen. Und wenn der Job verlangt, sich mit bizarren, schreckenerregenden Kreaturen und unerklärlichen Phänomenen auseinanderzusetzen ... dann muss man eben mit dem, was man hat, kreativ werden.",
+    "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: [[Werkzeug]]-Karten Stufe 0-5, Wächterkarten ([guardian]) Stufe 0-4, Neutrale Karten Stufe 0-5, bis zu 5 andere [[Improvisiert]]- und/oder [[Verbesserung]]-Karten Stufe 0-1.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Ad-hoc-Lösung, Hastige Reparaturen, 1 zufällige Grundschwäche.",
+    "code": "10001",
+    "name": "Wilson Richards",
+    "subname": "Der Mann für alle Fälle",
+    "text": "Senke die Ressourcenkosten der ersten [[Werkzeug]]-Vorteilskarte, die du in jeder Runde spielst, um 1.\nWährend Fertigkeitsproben auf [[Werkzeug]]-Vorteilskarten bekommst du +1 auf deinen Fertigkeitswert.\n[elder_sign]-Effekt: +0. Du darfst eine [[Werkzeug]]-Vorteilskarte in deiner Spielzone gegen eine [[Werkzeug]]-Vorteilskarte auf deiner Hand mit gleichen oder niedrigeren aufgedruckten Kosten austauschen.",
+    "traits": "Herumtreiber."
+},
+{
+	"code": "10002",
+	"flavor": "\"Verdammt gute Arbeit.\"",
+	"name": "Ad-hoc-Lösung",
+	"text": "Nur für das Deck von Wilson Richards.\nHänge Ad-hoc-Lösung an eine [[Werkzeug]]- oder [[Waffe]]-Vorteilskarte an, die du kontrollierst.\n[reaction] Nachdem eine [action]-Fähigkeit auf der Vorteilskarte mit dieser Verstärkung abgehandelt worden ist, erschöpfe Ad-hoc-Lösung und lege eine [[Werkzug]]- oder [[Waffe]]-Vorteilskarte von deiner Hand ab: Handle eine [action]-Fähigkeit auf der abgelegten Karte ab, wobei du alle Kosten ignorierst.",
+	"traits": "Improvisiert. Verbesserung."
+},
+{
+	"code": "10003",
+	"name": "Hastige Reparaturen",
+	"text": "<b>Enthüllung</b> - Bringe Hastige Reparaturen in deiner Bedrohungszone ins Spiel.\nSetze beim Auslösen von Fähigkeiten auf Vorteilskarten, die du kontrollierst, deinen Grundfertigkeitswert auf 0.\n[action] [action]: Lege Hastige Reparaturen ab.",
+	"traits": "Patzer."
+},
+{
     "back_flavor": "Kate Winthrop hatte jahrelang im Keller der wissenschaftlichen Fakultät der Miskatonic Universität ihre eigene Forschung vorangetrieben, immer im Streben nach tieferer Erkenntnis. Dabei ließ sie sogar Chancen auf Fördermittel und akademischen Ruhm aus, doch ihre Zielstrebigkeit sollte sich eines Tages auszahlen, als sie den Flux-Stabilisator erfand: ein leistungsfähiges Gerät, das eine neue Art von Energie kanalisieren konnte. Ihren Durchbruch musste sie jedoch teuer bezahlen. Beim ersten erfolgreichen Testlauf ihrer bahnbrechenden Erfindung kam ihr Freund und Mentor, Professor Young, auf tragische Weise ums Leben. Seit diesem Tag arbeitet Kate unermüdlich daran, diese fremdartigen Energieströme besser zu verstehen, in der Hoffnung, ihre Effekte umkehren zu können.",
     "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Sucherkarten ([seeker]) Stufe 0-5, [[Wissenschaft]]-Karten Stufe 0-4, [[Erkenntnis]]-Karten Stufe 0-1, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Flux-Stabilisator, Misslungenes Experiment, 1 zufällige Grundschwäche.",
     "code": "10004",
@@ -9,23 +31,44 @@
     "traits": "Miskatonic. Gelehrter."
 },
 {
-	  "code": "10005b",
-	  "flavor": "Ist das die gleiche Energie, die sich Nikola Tesla zunutze machte?",
-	  "name": "Flux-Stabilisator",
-	  "subname": "Aktiv",
-	  "text": "Dauerhaft. Nur für das Deck von Kate Winthrop.\n[reaction] Sobald du einen Hinweis auf einer Vorteilskarte platzierst, die du kontrollierst: Du bekommst +2 auf den Fertigkeitswert deiner nächsten Fertigkeitsprobe in dieser Phase.",
-	  "traits": "Gegenstand. Werkzeug. Wissenschaft."
+	"code": "10005",
+	"name": "Flux-Stabilisator",
+	"subname": "Inaktiv",
+	"text": "Dauerhaft. Nur für das Deck von Kate Winthrop.\n<b>Erzwungen</b> - Nachdem ein Hinweis auf dieser Karte platziert worden ist: Durchsuche deine gebundenen Karten oder deinen Ablagestapel nach 1 Kopie von Ätherischer Strom und mische sie in dein Deck. Drehe Flux-Stabilisator um <i>(er behält alle Marker und Verstärkungen)</i>.",
+	"traits": "Gegenstand. Werkzeug. Wissenschaft."
 },
 {
-	  "code": "10006",
-	  "name": "Ätherischer Strom",
-	  "subname": "Yuggoth",
-	  "text": "Gebunden (Flux-Stabilisator). Spiele diese Karte nur, falls sich Flux-Stabilisator <i>(Aktiv)</i> im Spiel befindet.\n<b>Kampf.</b> Bewege alle Hinweise auf Vorteilskarten, die du kontrollierst, auf Kate Winthrop. Für diesen Angriff darfst du [intellect] statt [combat] verwenden. Falls die Probe gelingt und der angegriffene Gegner Nicht-[[Elite]] ist, darfst du ihn erschöpfen und auf einen beliebigen Ort bewegen. Ziehe 1 Karte. Drehe Flux-Stabilisator um <i>(er behält alle Marker und Verstärkungen)</i>.",
-	  "traits": "Wissenschaft."
+	"code": "10005b",
+	"flavor": "Ist das die gleiche Energie, die sich Nikola Tesla zunutze machte?",
+	"name": "Flux-Stabilisator",
+	"subname": "Aktiv",
+	"text": "Dauerhaft. Nur für das Deck von Kate Winthrop.\n[reaction] Sobald du einen Hinweis auf einer Vorteilskarte platzierst, die du kontrollierst: Du bekommst +2 auf den Fertigkeitswert deiner nächsten Fertigkeitsprobe in dieser Phase.",
+	"traits": "Gegenstand. Werkzeug. Wissenschaft."
+},
+{
+	"code": "10006",
+	"name": "Ätherischer Strom",
+	"subname": "Yuggoth",
+	"text": "Gebunden (Flux-Stabilisator). Spiele diese Karte nur, falls sich Flux-Stabilisator <i>(Aktiv)</i> im Spiel befindet.\n<b>Kampf.</b> Bewege alle Hinweise auf Vorteilskarten, die du kontrollierst, auf Kate Winthrop. Für diesen Angriff darfst du [intellect] statt [combat] verwenden. Falls die Probe gelingt und der angegriffene Gegner Nicht-[[Elite]] ist, darfst du ihn erschöpfen und an einen beliebigen Ort bewegen. Ziehe 1 Karte. Drehe Flux-Stabilisator um <i>(er behält alle Marker und Verstärkungen)</i>.",
+	"traits": "Wissenschaft."
+},
+{
+	"code": "10007",
+	"name": "Ätherischer Strom",
+	"subname": "Yoth",
+	"text": "Gebunden (Flux-Stabilisator). Spiele diese Karte nur, falls sich Flux-Stabilisator <i>(Aktiv)</i> im Spiel befindet.\n<b>Entkommen.</b> Bewege alle Hinweise auf Vorteilskarten, die du kontrollierst, auf Kate Winthrop. Für diesen Entkommen-Versuch darfst du [intellect] statt [agility] benutzen. Falls die Probe gelingt und das Ziel Nicht-[[Elite]] ist, mische es in das Begegnungsdeck. Ziehe 1 Karte. Drehe Flux-Stabilisator um <i>(er behält alle Marker und Verstärkungen)</i>.",
+	"traits": "Wissenschaft."
+},
+{
+	"code": "10008",
+	"flavor": "\"Ich habe gerade einen gewaltigen Fehler begangen.\"",
+	"name": "Misslungenes Experiment",
+	"text": "<b>Enthüllung</b> - Lege eine [willpower]-Probe (3) ab. Diese Probe bekommt +1 Schwierigkeit für jede von dir kontrollierte Vorteilskarte mit einem Hinweis darauf. Für jeden Punkt, um den die Probe misslingt, musst du entweder 1 Horror nehmen oder 1 deiner Hinweise auf deinem Ort platzieren.",
+	"traits": "Patzer."
 },
 {
     "code": "10009",
-	  "flavor": "\"Für eine gute Party bin ich immer zu haben.\"",
+	"flavor": "\"Für eine gute Party bin ich immer zu haben.\"",
     "name": "Alessandra Zorzi",
     "subname": "Die Gräfin",
     "text": "Du darfst in deinem Zug eine zusätzliche Aktion nehmen, die nur zum Verhandeln verwendet werden kann.\n[elder_sign]-Effekt: +2. Falls die Probe gelingt, wähle einen Nicht-[[Elite]]-Gegner an deinem oder einem verbundenen enthüllten Ort. Du entkommst jenem Gegner automatisch.",
@@ -46,14 +89,28 @@
     "traits": "Humanoid. Krimineller."
 },
 {
-    "back_flavor": "Everyone in the Arkham Historical Society recognizes Kōhaku's booming laughter, and the haunting tales he tells of both the yōkai from his childhood home outside Tokyo and the strange Kreaturs that haunt the Arkham Woods. The eccentric folklorist tells everyone that the chronicling and publication of these phenomena's existence will be his greatest work. It is only when he is home with his partner Gabriel that he hears the cries of the same Geist who haunted his father, and fears that his \"greatest work\" will never allow him a night's sleep.",
-    "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: [[Gesegnet]]-Karten Stufe 0-5, [[Verflucht]]-Karten Stufe 0-5, [[Okkult]]-Karten Stufe 0, Mystikerkarten ([mystic]) Stufe 0-3, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Buch der Lebenden Mythen, Weeping Yurei, 1 zufällige Grundschwäche.",
+    "back_flavor": "In den Räumlichkeiten von Arkhams Gesellschaft für Geschichte ist Kōhaku's donnerndes Lachen wohlbekannt. Besonders gern trägt er dort Gruselgeschichten über seltsame Kreaturen vor, die durch die Wälder von Arkham streifen sollen, oder er rezitiert Erzählungen über die dämonenartigen Yōkai, die er in seinem Elternhaus vor Tokio als kleiner Junge aufgeschnappt hat. Zudem wird der exzentrische Volkskundler nicht müde, jedem zu erzählen, dass das Aufzeichnen und Veröffentlichen dieser Phänomene sein größtes Werk sein wird. Doch wenn er nach einem langen Tag heimkehrt zu seinem Partner Gabriel, dann sind sie wieder da. Die Schreie. Die unsäglichen Schreie desselben Geistwesens, das damals schon seinen Vater heimgeucht hatte. Und mit den Schreien kommt wieder die Angst, dass sein \"größtes Werk\" ihm niemals erlauben wird, eine Nacht lang ruhig zu schlafen.",
+    "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: [[Gesegnet]]-Karten Stufe 0-5, [[Verflucht]]-Karten Stufe 0-5, [[Okkult]]-Karten Stufe 0, Mystikerkarten ([mystic]) Stufe 0-3, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Buch der lebendigen Mythen, Weinende Yurei, 1 zufällige Grundschwäche.",
     "code": "10012",
     "flavor": "\"Warum begegnen wir dem Unbekannten nicht mit Neugier - statt mit Furcht?\"",
     "name": "Kōhaku Narukami",
     "subname": "Der Volkskundler",
-    "text": "[reaction] Zu Beginn deines Zuges: Füge dem Chaosbeutel entweder 1 [bless]- oder 1 [curse]-Marker hinzu, je nachdem, von welchem es weniger im Beutel gibt <i>(du wählst bei Gleichstand)</i>, oder entferne 2 [bless]- und 2 [curse]-Marker aus dem Chaosbeutel, um in diesem Zug eine zusätzliche Aktion zu nehmen.\n[elder_sign]-Effekt: +2. Füge dem Chaosbeutel 1 [bless]- und 1 [curse]-Marker hinzu.",
+    "text": "[reaction] Zu Beginn deines Zuges: Füge dem Chaosbeutel entweder 1 [bless]- oder 1 [curse]-Marker hinzu, je nachdem, von welcher Art es weniger im Beutel gibt <i>(du wählst bei Gleichstand)</i>, oder entferne 2 [bless]- und 2 [curse]-Marker aus dem Chaosbeutel, um in diesem Zug eine zusätzliche Aktion zu nehmen.\n[elder_sign]-Effekt: +2. Füge dem Chaosbeutel 1 [bless]- und 1 [curse]-Marker hinzu.",
     "traits": "Gelehrter. Gesegnet. Verflucht."
+},
+{
+	"code": "10013",
+	"name": "Buch der lebendigen Mythen",
+	"slot": "Hand",
+	"subname": "Chronik der Wunder",
+	"text": "Nur für das Deck von Kōhaku Narukami.\n[reaction] Sobald ein Chaosmarker an deinem Ort enthüllt werden würde, erschöpfe Buch der lebendigen Mythen: Durchsuche den Chaosbeutel nach 1 [bless]- oder 1 [curse] Marker, je nachdem, von welcher Art es mehr im Chaosbeutel gibt <i>(du wählst bei Gleichstand)</i>, und handle ihn stattdessen ab.",
+	"traits": "Gegenstand. Buch. Gesegnet. Verflucht."
+},
+{
+    "code": "10014",
+    "name": "Weinende Yurei",
+    "text": "Zurückhaltend. Schwer zu fassen. Jäger.\n<b>Beute</b> - Nur Kōhaku Narukami.\n<b>Erzwungen</b> - Nachdem ein Ermittler während einer Fertigkeitsprobe am Ort von Weinende Yurei einen [bless]- oder [curse]-Marker enthüllt hat und falls sie spielbereit ist: Weinende Yurei greift jenen Ermittler an. (Nur ein Mal pro Probe).",
+    "traits": "Monster. Spuk."
 },
 {
     "back_flavor": "Hank Samson wuchs auf einer Farm auf. Pflichtbewusst bewältigte er alle Arbeiten, die ihm seine Mama und sein Papa auftrugen. Dazu gehörte auch, sich um seine Brüder und Schwestern zu kümmern. Auch als Papa ihn auf dem Viehhof der Stadt die seltsamen Tiere zeigte, tat Hank trotz eines unguten Gefühls das, was von ihm verlangt wurde. Als Papa ihm auftrug zu warten, wartete er. Und als Papa nicht zurückkam, machte sich Hank auf, ihn zu finden. Papa hatte ihm beigebracht, dass Familie alles ist und dass man seine Familie nicht einfach so zurücklässt.",
@@ -63,6 +120,20 @@
     "subname": "Der Erntehelfer",
     "text": "Schaden/Horror, der [[Verbündeter]]-Vorteilskarten oder anderen Ermittlern an deinem Ort zugefügt wird, darf dir zugefügt werden.\n[reaction] Sobald du durch Schaden und/oder Horror besiegt werden würdest: heile stattdessen allen Schaden und Horror von dir und tausche diese Karte gegen ihre gebundene [[Entschlossen]]-Version aus (mit beliebiger Seite nach oben).\n[elder_sign]-Effekt: +1.",
     "traits": "Assistent. Wärter."
+},
+{
+    "code": "10016a",
+    "name": "Hank Samson",
+    "subname": "Der Erntehelfer",
+    "text": "Gebunden (Hank Samson).\nDu kannst nicht geheilt werden. Schaden/Horror, der [[Verbündeter]]-Vorteilskarten oder anderen Ermittlern an deinem Ort zugefügt wird, darf dir zugefügt werden.\n[reaction] Sobald 1 oder mehr Horror auf dir platziert wird: Ziehe 1 Karte.\n[elder_sign]-Effekt: +1. Bewege 1 Horror von Hank Samson auf eine Vorteilskarte, die du kontrollierst.",
+    "traits": "Assistent. Entschlossen."
+},
+{
+    "code": "10016b",
+    "name": "Hank Samson",
+    "subname": "Der Erntehelfer",
+    "text": "Gebunden (Hank Samson).\nDu kannst nicht geheilt werden. Schaden/Horror, der [[Verbündeter]]-Vorteilskarten oder anderen Ermittlern an deinem Ort zugefügt wird, darf dir zugefügt werden.\n[reaction] Sobald 1 oder mehr Schaden auf dir platziert wird: Du erhälst 2 Ressourcen.\n[elder_sign]-Effekt: +1. Bewege 1 Schaden von Hank Samson auf eine Vorteilskarte, die du kontrollierst.",
+    "traits": "Wärter. Entschlossen."
 },
 {
     "code": "10017",
@@ -856,5 +927,47 @@
     "subname": "Zweifelhafte Quelle",
     "text": "Dauerhaft. Nur 1 pro Deck.\nDu hast 1 zusätzlichen Hand-, Zubehör- oder arkanen Slot, der nur für [[Gesegnet]- oder [[Verflucht]]-Vorteilskarten verwendet werden kann.",
     "traits": "Segen. Pakt."
+},
+{
+    "code": "10133",
+    "name": "Beschädigtes Diadem",
+    "subname": "Krone des Erlöschenden Lichts",
+    "text": "Nur 1 pro Deck. Nur 1 [[Maske]] pro Ermittler.\n[reaction] Nachdem eine Fertigkeitsprobe an deinem Ort beendet worden ist, bei der ein [bless]- sowie ein [curse]-Marker enthüllt worden sind: Platziere 1 Ressource als Opfergabe auf dieser Karte. Falls sich dann 3 Opfergaben darauf befinden, durchsuche deine gebundenen Karten nach Zwielicht-Diadem und tausche es gegen diese Karte aus, wobei alle Opfergaben von dieser Karte auf Zwielicht-Diadem bewegt werden.",
+    "traits": "Gegenstand. Glücksbringer. Maske."
+},
+{
+    "code": "10134",
+    "name": "Zwielicht-Diadem",
+    "subname": "Krone des Erlöschenden Lichts",
+    "text": "Gebunden (Beschädigtes Diadem). Nur 1 [[Maske]] pro Ermittler.\n[reaction] Sobald du während einer Fertigkeitsprobe entweder einen [bless]- oder [curse]-Marker enthüllst, gib 1 Opfergabe aus und erschöpfe diese Karte: Behandle den enthüllten Marker stattdessen als [elder_sign]-Marker und schicke ihn in den Chaosbeutel zurück. Falls sich dann keine Opfergaben auf dieser Karte befinden, durchsuche deine gebundenen Karten nach Beschädigtes Diadem und tausche es gegen diese Karte aus.",
+    "traits": "Gegenstand. Glücksbringer. Maske. Gesegnet."
+},
+{
+    "code": "10135",
+    "name": "Versehrte Hand",
+    "slot": "Hand",
+    "text": "<b>Enthüllung</b> - Du musst diese Karte entweder in deiner Bedrohungszone ins Spiel bringen oder 1 Schaden nehmen und sie in dein Deck mischen. Sie kann das Spiel nicht verlassen, außer durch die unten stehende [action] [action]-Fähigkeit.\nDu bekommst -1 Ausdauer.\n[action] [action]: Lege Versehrte Hand ab.",
+    "traits": "Verletzung."
+},
+{
+    "code": "10136",
+    "name": "Rückenverletzung",
+    "slot": "Körper",
+    "text": "<b>Enthüllung</b> - Du musst diese Karte entweder in deiner Bedrohungszone ins Spiel bringen oder 1 Schaden nehmen und sie in dein Deck mischen. Sie kann das Spiel nicht verlassen, außer durch die unten stehende [action] [action]-Fähigkeit.\nDu bekommst -1 Ausdauer.\n[action] [action]: Lege Rückenverletzung ab.",
+    "traits": "Verletzung."
+},
+{
+    "code": "10137",
+    "name": "Die Silbermotte",
+    "slot": "Zubehör",
+    "text": "<b>Enthüllung</b> - Du musst diese Karte entweder in deiner Bedrohungszone ins Spiel bringen oder 1 Horror nehmen und sie in dein Deck mischen. Sie kann das Spiel nicht verlassen, außer durch die unten stehende [action] [action]-Fähigkeit.\nDu bekommst -1 geistige Gesundheit.\n[action] [action]: Lege Die Silbermotte ab.",
+    "traits": "Gegenstand. Relikt."
+},
+{
+    "code": "10138",
+    "name": "Schwur von Drzytelech",
+    "slot": "Arkan",
+    "text": "<b>Enthüllung</b> - Du musst diese Karte entweder in deiner Bedrohungszone ins Spiel bringen oder 1 Horror nehmen und sie in dein Deck mischen. Sie kann das Spiel nicht verlassen, außer durch die unten stehende [action] [action]-Fähigkeit.\nDu bekommst -1 geistige Gesundheit.\n[action] [action]: Lege Schwur von Drzytelech ab.",
+    "traits": "Pakt."
 }
 ]
