@@ -83,7 +83,6 @@
  {
     "code": "10010",
     "name": "Cautivar",
-    "tags": "pa.",
     "text": "Solo para el mazo de Alessandra Zorzi. Rápido. Juega esta carta sólo durante tu turno.\nVincula Cautivar a un Enemigo que no sea [[Élite]] que esté en tu localización.\n[action]: <b>Negociar.</b> Mueve el Enemigo vinculado a un Lugar conectado revelado o bien realiza una acción básica de investigar o evitar en su Lugar. Si fracasas en una prueba de habilidad mientras resuelves esta capacidad, descarta Cautivar. Puedes activar esta capacidad desde cualquier Lugar.",
     "traits": "Truco."
  },
@@ -209,7 +208,6 @@
     "flavor": "\"¡L-las manos donde pueda verlas!\"",
     "name": "A punta de pistola",
     "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y un Apoyo [[Objeto]] de tu mano. Realiza una acción de combatir contra el Enemigo elegido. Si tienes éxito, en lugar de infligir daño, juega el Apoyo elegido, reduciendo su coste por cada punto que tuvieras por encima del valor mínimo de éxito.",
-    "tags": "pa.",
     "traits": "Táctica. Truco."
   },
   {
@@ -248,7 +246,6 @@
     "code": "10032",
     "name": "Second Wind",
     "text": "Play only as your first action.\nHeal 2 damage (3 instead if you drew a treachery this round). Draw 1 card.",
-    "tags": "pa.",
     "traits": "Spirit. Bold."
   },
   {
@@ -270,7 +267,6 @@
     "name": "Eyes of Valusia",
     "slot": "Hand. Arcano",
     "subname": "The Mother's Cunning",
-    "tags": "pa.",
     "text": "[action]: <b>Parley.</b> Choose an enemy at your Lugar. Until the end of the round, each investigator gets +1 skill value while fighting, evading, or parleying with the chosen enemy. Place 1 resource on Eyes of Valusia, as a charge.\n[fast]: Search your bonded cards for Blade of Yoth and swap it with Eyes of Valusia, moving all charges from Eyes of Valusia to Blade of Yoth.",
     "traits": "Objeto. Relic. Spell."
   },
@@ -400,7 +396,6 @@
     "flavor": "A nick can be the difference between life and death.",
     "name": "Steady-Handed",
     "text": "Límite 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
-    "tags": "pa.",
     "traits": "Talent. Ciencia."
   },
   {
@@ -430,7 +425,6 @@
     "flavor": "\"It'll never work, Herbert.\"",
     "name": "Confound",
     "text": "<b>Parley.</b> Choose an enemy at your Lugar. Test [intellect] (X), where X is the chosen enemy's evade value. If you succeed, discover 2 clues at your Lugar. Then, if the chosen enemy is non-[[Élite]], automatically evade it. It does not ready during the next upkeep phase.",
-    "tags": "pa.",
     "traits": "Inspiración. Truco."
   },
   {
@@ -465,122 +459,112 @@
     "code": "10062",
     "name": "Bianca \"Die Katz\"",
     "slot": "Aliado",
-    "subname": "Singing Your Song",
-    "text": "Límite 1 per deck. Usos (10 resources).\n[action] Exhaust Bianca \"Die Katz\": <b>Parley.</b> Move X resources from Bianca \"Die Katz\" to your resource pool. X cannot be more than 5. Test [agility] (X). If you fail, remember \"you owe Bianca X resources.\" Then, search your bonded cards for the Bianca \"Die Katz\" enemy and spawn her at your Lugar. Remove this card from the game.",
-    "tags": "pa.",
-    "traits": "Aliado. Criminal. Socialite."
+    "subname": "Cantando tu canción",
+    "text": "Límite de 1 por mazo. Usos (10 recursos).\n[action] Agota a Bianca \"Die Katz\": <b>Negociar.</b> Mueve X recursos de Bianca \"Die Katz\" a tu reserva de recursos. X no puede ser más de 5. Realiza una prueba de [agility] (X). Si fracasas, recuerda que \"le debesX recursos a Bianca.\" A continuación, busca entre tus cartas enlazadas el Enemigo Bianca \"Die Katz\" y haz que aparezca en tu Lugar. Retira esta carta de la partida.",
+    "traits": "Aliado. Criminal. Alta sociedad."
   },
   {
     "bonded_to": "Bianca \"Die Katz\"",
     "code": "10063",
     "name": "Bianca \"Die Katz\"",
-    "subtype_code": "weakness",
-    "text": "Bonded (Bianca \"Die Katz\"). Hunter.\n<b>Prey</b> - Bearer only.\n[action] If \"you owe Bianca X resources,\" spend X resources: <b>Parley.</b> Add Bianca \"Die Katz\" to the victory display.\n<b>Forced</b> - When Bianca \"Die Katz\" leaves play (except by the above ability: Shuffle her into your deck.",
-    "tags": "pa.",
-    "traits": "Humanoid. Criminal. Socialite."
+    "text": "Enlazada (Bianca \"Die Katz\"). Cazador.\n<b>Presa</b> - Sólo el afectado.\n[action] Si \"le debes X recursos a Bianca,\" gasta X recursos: <b>Negociar.</b> Añade a Bianca \"Die Katz\" a la zona de victoria.\n<b>Obligado</b> - Cuando Bianca \"Die Katz\" abandone el juego (excepto mediante la capacidad anterior): Devuélvela a tu mazo y baraja este.",
+    "traits": "Humanoide. Criminal. Alta sociedad."
   },
   {
     "code": "10064",
-    "name": "Blackmail File",
-    "text": "[action] Choose a non-[[Élite]] enemy at your Lugar: <b>Parley.</b> Test [willpower] (X), where X is that enemy's printed health value. If you succeed, that enemy disengages from each investigator and gains aloof until the end of the round.",
-    "tags": "pa.",
-    "traits": "Objeto. Tome. Illicit."
+    "name": "Archivo de chantaje",
+    "text": "[action] Elige un Enemigo que no sea [[Élite]] que esté en tu Lugar: <b>Negociar.</b> Realiza una prueba de [willpower] (X), donde X es el valor de salud impreso de ese Enemigo. Si tienes éxito, ese Enemigo deja de estar enfrentado a cada investigador y obtiene Indiferente hasta el final de la ronda.",
+    "traits": "Objeto. Tomo. Ilegal."
   },
   {
      "code": "10065",
-     "name": "British Bull Dog",
-     "slot": "Hand",
-     "text": "Usos (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat], for this attack. This attack deals +1 damage.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
-     "tags": "pa.",
-     "traits": "Objeto. Arma. Firearm. Illicit."
+     "name": "Revólver Bull Dog",
+     "slot": "Una mano",
+     "text": "Usos (3 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Puedes usar [agility] en lugar de [combat], para este ataque. Este ataque inflige +1 daño.\n[reaction] Después de que fracases en una prueba de habilidad al negociar con un Enemigo: Pon el Revólver Bull Dog en juego desde tu mano.",
+     "traits": "Objeto. Arma. Arma de fuego. Ilegal."
   },
   {
     "code": "10066",
-    "name": "Fake Credentials",
-    "slot": "Hand",
-    "text": "[action] Choose an enemy at your Lugar and exhaust Fake Credentials: <b>Parley.</b> Test [intellect] (1). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your Lugar and place 1 resource on Fake Credentials, as suspicion. If you fail, you must either discard Fake Credentials, or the chosen enemy attacks you.",
-    "tags": "pa.",
-    "traits": "Objeto. Illicit."
+    "name": "Credenciales falsas",
+    "slot": "Una mano",
+    "text": "[action] Elige un Enemigo que esté en tu lugar y agota las Credenciales falsas:<b>Negociar.</b> Realiza una prueba de [intellect] (1). Esta prueba recibe +1 a su dificultad por cada sospecha que haya en las Credenciales falsas. Si tienes éxito decubre 1 pista en tu Lugar y coloca 1 recurso en las Credenciales falsas, como sospecha. Si fracasas, debes descartar las Credenciales falsas o bien el Enemigo elegido te ataca.",
+    "traits": "Objeto. Ilegal."
   },
   {
     "code": "10067",
-    "name": "Fox Mask",
-    "subname": "The Wise Trickster",
-    "text": "Límite 1 [[Mask]] per investigator.\nUsos (2 offerings). Replenish 1 of these offerings after you move out of a Lugar with an enemy.\n[fast] Spend 1 offering: You get +2 [intellect] or +2 [agility] for this skill test. (Límite once per test.)",
-    "traits": "Objeto. Amuleto. Mask."
+    "name": "Máscara de zorro",
+    "subname": "El embaucador sabio",
+    "text": "Límite 1 [[Máscara]] por investigador.\nUsos (2 ofrendas). Repón 1 de estas ofrendas después de que salgas de un Lugar que tenga un Enemigo.\n[fast] Gasta 1 ofrenda: Recibes +2 [intellect] o +2 [agility] para esta prueba de habilidad. Límite de una vez por prueba.",
+    "traits": "Objeto. Amuleto. Máscara."
   },
   {
     "code": "10068",
-    "flavor": "\"Let faith oust fact; let fancy oust memory; I look deep down and do believe.\" - Herman Melville, <u>Moby-Dick</u>",
-    "name": "Scrimshaw Amuleto",
-    "slot": "Accessory",
-    "subname": "From Distant Shores",
-    "text": "[action] Add 1-3 [curse] tokens to the chaos bag and exhaust Scrimshaw Charm: Gain 1 resource. For each token added, gain 1 additional resource.",
+    "flavor": "\"Que la fe expulse a los hechos; que la fantasía expulse a la memoria: yo miro a lo hondo y creo.\" - Herman Melville, <u>Moby-Dick</u>",
+    "name": "Amuleto de talla de marfil",
+    "slot": "Accesorio",
+    "subname": "De costas lejanas",
+    "text": "[action] Añade 1-3 fichas [curse] a la bolsa de caos y agota el Amuleto de talla de marfil: Obtén 1 recurso. Obtén 1 recurso adicional por cada ficha añadida.",
     "traits": "Objeto. Amuleto. Maldito."
   },
   {
     "code": "10069",
-    "flavor": "\"No names, Skids.\"\n\"Sorry, Finn.\"",
-    "name": "Bank Job",
-    "text": "As an additional cost to play Bank Job, spend an action.\nInvestigators at your Lugar gain a total of 8 resources, distributed as you wish.",
-    "traits": "Gambit. Double. Illicit"
+    "flavor": "\"Nada de nombres, Malasombra.\"\n\"Perdona, Finn.\"",
+    "name": "Atraco al banco",
+    "text": "Como coste adicional para jugar Atraco al banco, gasta una acción..\nLos investigadores que estén en tu Lugar obtienen un total de 8 recursos, distribuidos como quieras.",
+    "traits": "Gambito. Doble. Ilegal"
   },
   {
     "code": "10070",
-    "flavor": "\"You'd have made a pretty good cowboy.\"",
-    "name": "False Surrender",
-    "tags": "pa.",
-    "text": "<b>Parley.</b> Choose an enemy at your Lugar and play a [[Arma]] asset from your hand, reducing its cost by 1. You may then take a fight action with that Arma against the chosen enemy, using [agility] instead of the skill indicated.","traits": "Tactic. Truco."
+    "flavor": "\"Habrías sido un buen vaquero.\"",
+    "name": "Rendición falsa",
+    "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y juega un Apoyo [[Arma]] de tu mano, reduciendo su coste en 1. A continuación, puedes realizar una acción de combatir con esa arma contra el Enemigo elegido, usando [agility] en lugar de la habilidad indicada.",
+    "traits": "Táctica. Truco."
   },
   {
     "code": "10071",
-    "flavor": "\"Look! A dumb bird!\"\n\"I don't see a bird.\"\n\"I do.\"",
-    "name": "Grift"
-    "text": "<b>Parley.</b> Choose an enemy at your Lugar and test [agility] (0). For each point you succeed by, gain 1 resource (to a maximum of 6). If you fail, that enemy attacks you.",
-    "tags": "pa.",
-    "traits": "Truco. Illicit."
+    "flavor": "\"¡Mira qué pardillo en ese árbol!\"\n\"No veo ningún pardillo.\"\n\"Yo sí.\"",
+    "name": "Sustracción"
+    "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y realiza una prueba de [agility] (0). Obtén 1 recurso (hasta un máximo de 6) por cada punto que tengas por encima del nivel mínimo de éxito. Si fracasas, ese enemigo te ataca.",
+    "traits": "Truco. Ilegal."
   },
   {
     "code": "10072",
-    "name": "\"I'll Pay You Back!\"",
-    "text": "Rápido. Play only during your turn.\nChoose an investigator at your Lugar. Move all resources from that investigator's resource pool to your resource pool. At the end of the round, move all resources from your resource pool to that investigator's resource pool.",
-    "traits": "Gambit. Truco."
+    "name": "\"¡Te lo devolveré!\"",
+    "text": "Rápido. Juega esta carta sólo durante tu turno.\nElige a otro investigador que esté en tu Lugar. Mueve todos los recursos de la reserva de recursos de ese investigador a tu reserva de recursos. Al final de la ronda, mueve todos los recursos de tu reserva de recursos a la reserva de recursos de ese investigador.",
+    "traits": "Gambito. Truco."
   },
   {
     "code": "10073",
-    "flavor": "\"He did say something about your hair...\"",
-    "name": "Stir the Pot",
-    "text": "<b>Parley.</b> Choose an enemy at your Lugar and test [intellect] (X), where X is the chosen enemy's combined damage and horror values. If you succeed, deal 2 damage to each enemy at your Lugar. If you succeed by 2 or more, after this effect resolves you may disengage from each enemy and move to a connecting Lugar.",
-    "tags": "pa.",
-    "traits": "Truco. Gambit."
+    "flavor": "\"Claro que se ha metido con tu pelo...\"",
+    "name": "Sembrar cizaña",
+    "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y realiza una prueba de [intellect] (X), donde X son los valores de daño y horror combinados del Enemigo elegido. Si tienes éxito, inflige 2 puntos de daño a cada enemigo que esté en tu Lugar. Si tienes éxito por 2 o más, después de que este efecto se resuelva, puedes dejar de estar enfrentado a cada Enemigo y moverte a un Lugar conectado.",
+    "traits": "Truco. Gambito."
   },
   {
     "code": "10074",
-    "name": "Vamp",
-    "text": "<b>Parley.</b> Choose an enemy at your Lugar and test any skill (3). If you succeed and you tested...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your Lugar.\n- ...[agility], automatically evade that enemy. If it is non-[[Élite]], move it to a connecting Lugar.\n- ...[combat], deal 2 damage to that enemy.",
-    "tags": "pa.",
+    "name": "Mujer fatal",
+    "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y realiza una prueba de cualquier habilidad (3). Si tienes éxito realizando una prueba de...\n- ...[willpower], retira 1 ficha de perdición de ese Enemigo.\n- ...[intellect], descubre 1 pista en tu Lugar.\n- ...[agility], evita automáticamente a ese Enemigo. Si no es [[Élite]], muévelo a un Lugar conectado.\n- ...[combat], inflige 2 puntos de daño a ese Enemigo.",
     "traits": "Truco."
   },
   {
     "code": "10075",
-    "flavor": "\"Shoggoths. Why did it have to be shoggoths?\"",
-    "name": "Diabolical Luck",
-    "text": "When you reveal a [curse] token during a skill test you are performing, you may commit Diabolical Luck to that skill test from your hand. If you do, Diabolical Luck gains [wild][wild][wild].",
-    "traits": "Fortune. Maldito."
+    "flavor": "\"Shoggoths. ¿Por qué tenían que ser shoggoths?\"",
+    "name": "Suerte Diabólica",
+    "text": "Cuando reveles una ficha [curse] durante una prueba de habilidad que estés realizando, puedes asignar la Suerte diabólica a esa prueba desde tu mano. Si lo haces, la Suerte diabólica obtiene [wild][wild][wild].",
+    "traits": "Fortuna. Maldito."
   },
   {
     "code": "10076",
-    "flavor": "\"I never ran from anything like that devil tonight, though. Hope I never have to again.\"\n-<i>Rita Young, Investigators of Arkham Horror</i>",
-    "name": "Lightfooted",
-    "text": "If this skill test is successful during an evasion attempt, you may automatically evade another enemy at your Lugar.",
-    "traits": "Practiced. Truco."
+    "flavor": "\"Nunca he huído de nada como he huido de ese demonio esta noche. Espero no tener que volver a hacerlo nunca.\"\n-<i>Rita Young, Investigators of Arkham Horror</i>",
+    "name": "Pies ligeros",
+    "text": "Si esta prueba de habilidad tiene éxito durante un intento de evitar, puedes evitar automáticamente otro Enemigo que esté en tu Lugar.",
+    "traits": "Experimentado. Truco."
   },
   {
     "code": "10077",
     "name": "British Bull Dog",
     "slot": "Hand",
     "text": "Usos (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat] for this attack and you get +2 skill value. This attack deals +1 damage. Ignore the aloof keyword for this attack.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
-    "tags": "pa.",
     "traits": "Objeto. Arma. Firearm. Illicit."
   },
   {
@@ -588,7 +572,6 @@
     "flavor": "\"I shouldn't be telling you this, but since you seem trustworthy...\"",
     "name": "Snitch",
     "text": "Rápido. Play after you succeed at a skill test while parleying.\nDiscover 2 total clues from among your Lugar and connecting Lugars.",
-    "tags": "pa.",
     "traits": "Favor. Truco."
   },
   {
@@ -607,7 +590,6 @@
     "code": "10081",
     "name": "Vamp",
     "text": "<b>Parley.</b> Choose an enemy at your Lugar and test any number of skills. One at a time, in any order, test each chosen skill (2). For each test you succeeded, if it was...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your Lugar.\n- ...[agility], automatically evade that enemy. Move it to a connecting Lugar if it is non-[[Élite]].\n- ...[combat], deal 2 damage to that enemy.",
-    "tags": "pa.",
     "traits": "Truco."
   },
   {
@@ -615,7 +597,6 @@
     "name": "Fake Credentials",
     "slot": "Hand",
     "text": "[action] Choose an enemy at your Lugar: <b>Parley.</b> Test [intellect](0). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your Lugar or a connecting Lugar. If you did not succeed by 2 or more, place 1 resource on Fake Credentials, as suspicion. If you fail, return Fake Credentials to your hand.",
-    "tags": "pa.",
     "traits": "Objeto. Illicit."
   },
   {
@@ -623,7 +604,6 @@
     "flavor": "\"...and I heard he called you stupid too!\"",
     "name": "Stir the Pot",
     "text": "<b>Parley.</b> Choose an enemy at your Lugar and test [intellect] (X), where X is the chosen enemy's combined damage/horror values. If you succeed, deal X damage to each enemy at your Lugar. After this effect resolves, you may disengage from each enemy and move to a connecting Lugar.",
-    "tags": "pa.",
     "traits": "Truco. Gambit."
   },
   {
@@ -681,7 +661,6 @@
     "name": "Speak to the Dead",
     "slot": "Arcano",
     "text": "Usos (6 offerings).\n[action] Spend any number of offerings: <b>Parley.</b> Choose a [[Spell]] or [[Ritual]] event in your discard pile and reveal tokens from the chaos bag equal to the number of offerings spent. If at least 1 [skull] or [curse] token was revealed, return the chosen event to your hand.",
-    "tags": "pa.",
     "traits": "Talent. Ritual."
   },
   {
@@ -703,7 +682,6 @@
     "flavor": "What was yours is now mine.",
     "name": "Drain Essence",
     "text": "<b>Parley.</b> Choose an enemy at your Lugar and test [willpower](X), where X is the chosen enemy's fight value. If you succeed, move 1 damage from your investigator to the chosen enemy (up to 2 damage instead if the chosen enemy is non-[[Élite]]).",
-    "tags": "pa.",
     "traits": "Spell."
   },
   {
@@ -772,7 +750,6 @@
     "slot": "Hand",
     "subname": "Secrets of the Unknown",
     "text": "[fast] If there are more [bless] than [curse] tokens in the chaos bag, remove 1 [bless] token from the chaos bag and exhaust The Key of Solomon: Heal up to 2 damage and/or horror from an investigator or [[Aliado]] asset at your Lugar.\n[fast] If there are more [curse] than [bless] tokens in the chaos bag, remove 1 [curse] token from the chaos bag and exhaust The Key of Solomon: Gain 2 resources.",
-    "tags": "pa.",
     "traits": "Objeto. Tome. Bendecido. Maldito."
   },
   {
@@ -839,7 +816,6 @@
     "code": "10114",
     "name": "Stall for Time",
     "text": "<b>Parley.</b> Choose an enemy at your Lugar. Test [willpower] (X), where X is the chosen enemy's fight or evade value, whichever is lower. If you succeed, exhaust the chosen enemy <i>(but do not disengage from it)</i>. If it is non-[[Élite]], it does not ready during the next upkeep phase. If you fail, return Stall for Time to your hand.",
-    "tags": "pa.",
     "traits": "Tactic. Truco."
   },
   {
@@ -936,7 +912,6 @@
     "name": "Eldritch Tongue",
     "slot": "Arcano",
     "text": "Usos (4 charges).\nYou may play events with \"parley\" from your discard pile as if they were in your hand. As an additional cost to play an event this way, spend 1 charge from Eldritch Tongue. After that event resolves, remove it from the game.",
-    "tags": "pa.",
     "traits": "Ritual."
   },
   {
@@ -951,7 +926,6 @@
     "flavor": "The fine clothes do all the talking.",
     "name": "Well-Dressed",
     "text": "While Well-Dressed is committed to a skill test during a parley action, it gains [wild] [wild] [wild].",
-    "tags": "pa.",
     "traits": "Practiced. Fortune."
   },
   {
