@@ -183,7 +183,7 @@
     "code": "10022",
     "name": "Ofuda",
     "text": "Usos (1 carga). Repón esta carga la primera vez se revele una ficha [bless] en tu Lugar cada ronda.\n[fast] Elige un Enemigo que no sea [[Élite]] en tu Lugar y gasta 1 carga: Ese enemigo pierde las palabras clave Alerta, Indiferente, Escurridizo y Represalia hasta el final de la ronda.",
-    "traits": "Objeto. Charm. Bendecido."
+    "traits": "Objeto. Amuleto. Bendecido."
  },
  {
     "code": "10023",
@@ -304,87 +304,87 @@
   },
   {
     "code": "10040",
-    "name": "Chemistry Set",
-    "slot": "Accessory",
-    "text": "[action] Exhaust Chemistry Set: <b>Investigate.</b> If you...\n- ...fail by exactly 2, discard Chemistry Set.\n- ...succeed by exactly 0, gain 2 resources.\n- ...succeed by exactly 2, draw 1 card.\n- ...succeed by exactly 4, discover 1 additional clue at your Lugar.",
-    "traits": "Objeto. Herramienta. Science."
+    "name": "Juego de Química",
+    "slot": "Accesorio",
+    "text": "[action] Agota el Juego de química: <b>Investigar.</b> Si...\n- ...fracasas exactamente por 2, descarta el Juego de química.\n- ...tienes éxito por 0, obtén 2 recursos.\n- ...tienes éxito exactamente por 2, roba 1 carta.\n- ...tienes éxito exactamente por 4, descubre 1 pista adicional en tu Lugar.",
+    "traits": "Objeto. Herramienta. Ciencia."
   },
   {
     "code": "10041",
     "name": "Dr. Charles West III",
     "slot": "Aliado",
-    "subname": "Knows His Purpose",
-    "text": "You have 1 additional hand slot, which can only be used to hold a [[Herramienta]] asset.\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dr. Charles West III: Deal 1 damage to an enemy at your Lugar.",
-    "traits": "Aliado. Science."
+    "subname": "Conoce su propósito",
+    "text": "Tienes 1 espacio de mano adicional que sólo puede usarse para un Apoyo [[Herramienta]].\n[reaction] Después de que investigues con éxito por 1 o 3, agota al Dr. Charles West III: Inflige 1 punto de daño a un Enemigo que esté en tu Lugar.",
+    "traits": "Aliado. Ciencia."
   },
   {
     "code": "10042",
-    "name": "Microscope",
-    "slot": "Hand",
-    "text": "[reaction] After an enemy at your Lugar is successfully evaded or defeated, exhaust Microscope: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +1 [intellect] for this investigation for each evidence on Microscope (max +3 [intellect]). If you succeed, you may spend up to 2 evidence to discover that many additional clues at your Lugar.",
-    "traits": "Objeto. Herramienta. Science."
+    "name": "Microscopio",
+    "slot": "Una mano",
+    "text": "[reaction] Después de que un Enemigo que esté en tu Lugar sea evitado con éxito o derrotado, agota el Microscopio: Coloca 1 recurso en el Microscopio, como prueba.\n[action] [action]: <b>Investigar.</b> Recibes +1 [intellect] para esta investigación por cada prueba que haya en el Microscopio (máx +3 [intellect]). Si tienes éxito, puedes gastar hasta 2 pruebas para descubrir esa cantidad de pistas adicionales en tu Lugar.",
+    "traits": "Objeto. Herramienta. Ciencia."
   },
   {
     "code": "10043",
-    "name": "Mouse Mask",
-    "subname": "The Meek Watcher",
-    "text": "Límite 1 [[Mask]] per investigator.\nUsos (2 offerings). Replenish 1 of these offerings after you reveal a Lugar or put a new Lugar into play.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [intellect] for this skill test. (Límite once per test.)",
-    "traits": "Objeto. Charm. Mask."
+    "name": "Máscara de ratón",
+    "subname": "El observador manso",
+    "text": "Límite 1 [[Mask]] por investigador.\nUsos (2 ofrendas). Repón 1 de estas ofrendas después de que reveles un lugar o pongas en juego un nuevo Lugar.\n[fast] Gasta 1 ofrenda: Recibes +2 [willpower] o +2 [intellect] para esta prueba de habilidad. Límite de una vez por prueba.",
+    "traits": "Objeto. Amuleto. Máscara."
   },
   {
     "code": "10044",
-    "name": "Ravenous Myconid",
-    "subname": "Unidentified",
-    "text": "Límite 1 per deck.\n[action]: Search your bonded cards for Uncanny Growth and add it to your hand.\n[action] If Ravenous Myconid has 3 or more growth on it: Move each growth to your resource pool, as resources. Record in your Campaign Log that \"you have classified a new species.\"",
-    "traits": "Creature. Monstruo. Flora. Science."
+    "name": "Micónido voraz",
+    "subname": "Sin identificar",
+    "text": "Límite 1 por mazo.\n[action]: Busca entre tus cartas enlazadas el Crecimiento prodigioso y añádelo a tu mano..\n[action] Si el Micónido voraz tiene 3 o más crecimientos en él: Mueve todos los crecimientos a tu reserva de recursos. Anota en el registro de campaña que \"los investigadores han clasificado una especie nueva.\"",
+    "traits": "Criatura. Monstruo. Flora. Ciencia."
   },
   {
-    "bonded_to": "Ravenous Myconid",
+    "bonded_to": "Micónido voraz",
     "code": "10045",
-    "name": "Uncanny Growth",
-    "text": "Bonded (Ravenous Myconid).\n<b>Investigate.</b> After this test resolves, place 1 resource on Ravenous Myconid, as growth, for each point you succeed by. Set Uncanny Growth aside, out of play. If you fail, return Uncanny Growth to your hand.",
-    "traits": "Inspiración. Science."
+    "name": "Crecimiento prodigioso",
+    "text": "Enlazada (Micónido voraz).\n<b>Investigar.</b> Después de que esta prueba se resuelva, coloca 1 recurso en el Micónido voraz, como crecimiento, por cada punto que tuvieras por encima del valor mínimo de éxito. Pon aparte el Crecimiento prodigioso, fuera del juego. Si fracasas, devuelve el Crecimiento prodigioso a tu mano.",
+    "traits": "Inspiración. Ciencia."
   },
   {
     "code": "10046",
-    "flavor": "\"There was a solution which he injected into the veins of dead things, and if they were fresh enough they responded in strange ways.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimator</i>",
-    "name": "Control Variable",
-    "text": "Rápido. Play after an investigator reveals a h token during a skill test at your Lugar.\nDiscover 1 clue at your Lugar.",
-    "traits": "Inspiración. Science. Maldito."
+    "flavor": "\"Había obtenido una solución que inyectaba en las venas de los muertos; y si eran bastante frescos, reaccionaban de maneras extrañas.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimador</i>",
+    "name": "Variable de control",
+    "text": "Rápido. Juega esta carta después de que un investigador revele una ficha [bless] durante una prueba de habilidad en tu Lugar.\nDescubre 1 pista en tu Lugar.",
+    "traits": "Inspiración. Ciencia. Maldito."
   },
   {
     "code": "10047",
-    "name": "Testing Sprint",
-    "text": "As an additional cost to play Testing Sprint, spend an action.\n<b>Investigate.</b> One at a time, investigate your Lugar and each connecting Lugar once each in ascending order of shroud, until you either fail to investigate or successfully investigate each eligible Lugar.",
-    "traits": "Inspiración. Double."
+    "name": "Sprint de pruebas",
+    "text": "Como coste adicional para jugar Sprint de pruebas gasta una acción.\n<b>Investigar.</b> De uno en uno, investiga tu Lugar y cada Lugar conectado una vez cada uno en orden de velo ascendente, hasta que fracases al investigar o investigues con éxtio cada Lugar válido.",
+    "traits": "Inspiración. Doble."
   },
   {
     "code": "10048",
-    "flavor": "The truth is often hidden in plain sight.",
-    "name": "Thorough Inquiry",
-    "text": "As an additional cost to play Thorough Inquiry, spend an action.\nInvestigators at your Lugar draw a combined total of 5 cards <i>(you decide how many cards each investigator draws)</i>.",
-    "traits": "Inspiración. Double."
+    "flavor": "La verdad suele estar oculta a plena vista.",
+    "name": "Indagación exhaustiva",
+    "text": "Como coste adicional para jugar Indagación exhaustiva, gasta una acción.\nLos investigadores que estén en tu Lugar roban un total combinado de 5 cartas <i>(tú decides cuántas cartas roba cada investigador)</i>.",
+    "traits": "Inspiración. Doble."
   },
   {
     "code": "10049",
-    "flavor": "\"Kid, you... you took that a lot more literally than I expected you to.\"",
-    "name": "\"Throw the Book at Them!\"",
-    "text": "<b>Fight.</b> Choose a [[Tome]] asset you control. You get +X [combat] for this attack, where X is that asset's printed cost. If you succeed, you may either automatically evade the attacked enemy, or after the attack ends, you may resolve an [action] or [fast] ability on the chosen asset <i>(ignoring its [action] cost, if any)</i>.",
-    "traits": "Gambit. Improvised."
+    "flavor": "\"Chica... Te has tomado eso de forma más literal de lo que esperaba que hicieras.\"",
+    "name": "\"¡Tírales el libro!\"",
+    "text": "<b>Combatir.</b> Elige un Apoyo [[Tomo]] que controles. Recibes +X [combat] para este ataque, donde X es el coste impreso de ese Apoyo. Si tienes éxito, puedes evitar automáticamente al Enemigo atacado o bien, después de que acabe el ataque, puedes resolver una capacidad [action] o [fast] del Apoyo elegido <i>(ignorando su coste [action] si lo tiene)</i>.",
+    "traits": "Gambito. Improvisado."
   },
  {
     "code": "10050",
-    "flavor": "\"I said 'blow it up,' not '<u>blow</u> it up!\"",
-    "name": "Transmogrify",
-    "text": "<b>Evade.</b> You may use [intellect] instead of [agility] for this evasion attempt. If you succeed and the enemy is non-[[Élite]], attach Transmogrify to it.\nAttached enemy gains: \"Massive. Cannot move.\n[reaction] After you evade this enemy: Discover 1 clue at its Lugar. (Límite once per round.)\"",
-    "traits": "Gambit. Science."
+    "flavor": "\"¡Tengo la impresión de que no has entendido lo que quería que hicieras!\"",
+    "name": "Transmogrificar",
+    "text": "<b>Evitar.</b> Puedes usar [intellect] en lugar de [agility] para este intento de evitar. Si tienes éxito y el Enemigo no es [[Élite]], vincúlale Transmogrificar.\nEl Enemigo vinculado obtiene: \"Descomunal. No se puede mover.\n[reaction] Después de que evites a este Enemigo: Descubre 1 pista en su Lugar. Límite de una vez por ronda.\"",
+    "traits": "Gambito. Ciencia."
   },
   {
     "code": "10051",
-    "flavor": "Every cent of that research grant counts.",
-    "name": "Well-Funded",
-    "text": "While you control a [[Science]] or [[Herramienta]] asset, Well-Funded gains [wild] (while you control 3 or more [[Science]] and/or [[Herramienta]] assets, Well-Funded gains [wild] [wild], instead).",
-    "traits": "Fortune."
+    "flavor": "Cada céntimo de esa beca de investigación cuenta.",
+    "name": "Bien financiado",
+    "text": "Mientras controles un Apoyo [[Ciencia]] o [[Herramienta]], Bien financiado obtiene [wild], o bien mientras controles 3 o más Apoyos [[Ciencia]] y/o [[Herramienta]], Bien financiado obtiene [wild] [wild].",
+    "traits": "Fortuna."
   },
   {
     "code": "10052",
@@ -401,13 +401,13 @@
     "name": "Steady-Handed",
     "text": "Límite 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
     "tags": "pa.",
-    "traits": "Talent. Science."
+    "traits": "Talent. Ciencia."
   },
   {
     "code": "10054",
     "flavor": "\"I assure you there's nothing to fear!\"",
     "name": "Fine Tuning",
-    "text": "Attach to a [[Herramienta]] or [[Science]] asset you control. Límite 1 per asset.\n[reaction] After attached asset exhausts, exhaust Fine Tuning: Ready attached asset.",
+    "text": "Attach to a [[Herramienta]] or [[Ciencia]] asset you control. Límite 1 per asset.\n[reaction] After attached asset exhausts, exhaust Fine Tuning: Ready attached asset.",
     "traits": "Inspiración. Upgrade."
   },
   {
@@ -438,28 +438,28 @@
     "name": "Microscope",
     "slot": "Hand",
     "text": "[reaction] After an enemy at your Lugar is successfully evaded or defeated: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +2 [intellect] for this investigation for each evidence on Microscope (max +6 [intellect]). If you succeed, you may spend up to 3 evidence to discover that many additional clues at your Lugar.",
-    "traits": "Objeto. Herramienta. Science."
+    "traits": "Objeto. Herramienta. Ciencia."
   },
   {
     "code": "10059",
     "name": "Ravenous Myconid",
     "subname": "Sentient Strain",
     "text": "Researched. Límite 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Límite once per round.)\n[reaction] When an investigator draws a non-weakness treachery card, it their Lugars shroud is equal to or less than Ravenous Myconid's growth: Cancel that treachery's effects and discard it. Remove all growth from Ravenous Myconid.",
-    "traits": "Creature. Science."
+    "traits": "Creature. Ciencia."
   },
   {
     "code": "10060"
     "name": "Ravenous Myconid",
     "subname": "Carnivorous Strain",
     "text": "Researched. Límite 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Límite once per round.)\n[fast] Choose a non-[[Élite]] enemy at your Lugar with equal or fewer remaining health than the amount of growth on Ravenous Myconid: Defeat that enemy. Remove all growth from Ravenous Myconid.",
-    "traits": "Monstruo. Science."
+    "traits": "Monstruo. Ciencia."
   },
   {
     "code": "10061",
     "name": "Ravenous Myconid",
     "subname": "Nurturing Strain",
     "text": "Researched. Límite 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Límite once per round.)\n[fast] Remove all growth from Ravenous Myconid: Either heal that much damage/horror from Ravenous Myconid, or move that much damage/horror from investigators or Ally assets at your Lugar to Ravenous Myconid.",
-    "traits": "Flora. Science."
+    "traits": "Flora. Ciencia."
   },
   {
     "code": "10062",
@@ -507,16 +507,16 @@
     "name": "Fox Mask",
     "subname": "The Wise Trickster",
     "text": "Límite 1 [[Mask]] per investigator.\nUsos (2 offerings). Replenish 1 of these offerings after you move out of a Lugar with an enemy.\n[fast] Spend 1 offering: You get +2 [intellect] or +2 [agility] for this skill test. (Límite once per test.)",
-    "traits": "Objeto. Charm. Mask."
+    "traits": "Objeto. Amuleto. Mask."
   },
   {
     "code": "10068",
     "flavor": "\"Let faith oust fact; let fancy oust memory; I look deep down and do believe.\" - Herman Melville, <u>Moby-Dick</u>",
-    "name": "Scrimshaw Charm",
+    "name": "Scrimshaw Amuleto",
     "slot": "Accessory",
     "subname": "From Distant Shores",
     "text": "[action] Add 1-3 [curse] tokens to the chaos bag and exhaust Scrimshaw Charm: Gain 1 resource. For each token added, gain 1 additional resource.",
-    "traits": "Objeto. Charm. Maldito."
+    "traits": "Objeto. Amuleto. Maldito."
   },
   {
     "code": "10069",
@@ -631,7 +631,7 @@
     "name": "Cat Mask",
     "subname": "The Capricious Meddler",
     "text": "Límite 1 [[Mask]] per investigator.\nUsos (2 offerings). Replenish 2 of these offerings after doom is placed on a card with no doom.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [combat] for this skill test. (Límite once per test.)",
-    "traits": "Objeto. Charm. Mask."
+    "traits": "Objeto. Amuleto. Mask."
   },
   {
     "code": "10085",
@@ -902,7 +902,7 @@
     "code": "10123",
     "name": "Survival Technique",
     "text": "[fast] Choose a card you own that is attached to your Lugar and exhaust Survival Technique: Add that card to your hand.\n[fast] During a skill test on a Lugar or on a treachery attached to your Lugar, exhaust Survival Technique: You get +2 skill value for this test.",
-    "traits": "Talent. Science."
+    "traits": "Talent. Ciencia."
   },
   {
     "code": "10124",
