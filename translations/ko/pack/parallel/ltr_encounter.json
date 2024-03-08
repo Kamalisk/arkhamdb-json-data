@@ -1,0 +1,47 @@
+[
+    {
+        "code": "90054",
+        "name": "영면",
+        "text": "쉬움 / 보통\n[skull]: -X. X는 승점 더미에 있는 ‘원혼의 미련’ 사본의 개수+1입니다.\n[cultist]: -X. X는 ‘원혼의 미련’에 부착된 카드 장수입니다.\n[tablet]: -X. X는 플레이 상태인 [[혼령계]] 장소 개수입니다.\n[elder_thing]: -2. 당신이 위치한 장소에 [[유령]] 적 하나가 있다면, 다른 혼돈 토큰을 하나 더 공개합니다.",
+        "back_text": "어려움 / 전문가\n[skull]: -X. X는 승점 더미에 있는 ‘원혼의 미련’ 사본의 개수+2입니다.\n[cultist]: -X. X는 ‘원혼의 미련’에 부착된 카드 장수의 2배입니다.\n[tablet]: -X. X는 플레이 상태인 [[혼령계]] 장소 개수의 2배입니다.\n[elder_thing]: -3. 당신이 위치한 장소에 [[유령]] 적 하나가 있다면, 자동 실패합니다."
+    },
+    {
+        "code": "90055",
+        "flavor": "Hangman’s Hill is crawling with specters.",
+        "name": "모여드는 안개",
+        "text": "<b>Forced</b> – When the enemy phase begins: Deal 1 damage to Jean Devereux for each ready Ravenous Spirit at his location.\n<b>Forced</b> – If Jim Culver is defeated: Advance the act.\n[action] Spend 2 [per_investigator] clues, as a group: <b>Parley.</b> You banish a spirit. Discard the top card of the Spirit deck. <i>(Hint: Draw Heretics out of the Beyond and summon them with Jean’s help!)</i>",
+        "back_name": "시간은 점차 늦어지고...",
+        "back_flavor": "A cold wind blows down the haunted hill, chilling your bones. The spirits grow more and more restless.",
+        "back_text": "Place 1 horror on the scenario reference card under Spiritual Disturbance. If there is 4 horror on the scenario reference card, each investigator who has not been eliminated is defeated and suffers 1 mental trauma. <b>(→R2)</b>\nOtherwise <i>(if there is 3 or fewer horror on the scenario reference card)</i>, perform the following:\n- Place clues on each location until it has 1 [per_investigator] clues on it.\n- Flip each location except for Jean Devereux’s location to its non-[[Spectral]] side.\nFlip this agenda back over."
+    },
+    {
+        "code": "90056",
+        "flavor": "If you help these ghosts, they'll help you.",
+        "name": "영면",
+        "text": "[fast] Either exhaust Jim’s Trumpet, or spend 1 [per_investigator] clues, as a group: Choose an enemy to move once toward Jim Culver’s location.\n[fast] Spend 1 [per_investigator] clues, as a group: Flip your location. (Group limit once per round per location.)\n<b>Objective</b> – If there are 4 copies of Unfinished Business in the victory display, advance.",
+        "back_name": "혼령의 폭풍",
+        "back_flavor": "Soft chanting guides you to a gloomy clearing near the abandoned chapel. A circle of witchweed surrounds the clearing, swaying gently in the breeze. At the center of the clearing, a cloaked woman kneels in front of an unmarked grave, far from the remainder of the graveyard. You watch in quiet for a few minutes while the woman sings an old, somber melody. It reminds you somewhat of a child's lullaby - soothing, but with a dark gravity that betrays its purpose. As soon as the song ends, the woman's cloak dissolves into mist, and she vanishes in a swirl of shadows.",
+        "back_text": "<b>If this act advanced via its objective:</b>\n<blockquote><i>“Wait,” says Jean, steadying himself. His eyes roll back in his head and he collapses into your arms, shaking. The spiritual energy around you seems to still.</i></blockquote>\nFind each Ravenous Spirit in play and place it in the victory display. <b>(→R1)</b>\n<hr><b>Otherwise:</b>\n<blockquote><i>“It’s too much!” Jean screams as he holds his hands to his bleeding ears. A cacophanous cry echoes across the wind-swept hill as you both flee the scene.</i></blockquote>\nJim Culver suffers 1 mental trauma for each Heretic enemy still in The Beyond (to a minimum of 1 mental trauma). Each other investigator who was not eliminated is defeated and suffers 1 mental trauma. <b>(→R2)</b>"
+    },
+    {
+        "code": "90057a",
+        "name": "장 데버루",
+        "subname": "해결책을 찾아서",
+        "text": "Aloof. Patrol (Nearest location with a Ravenous Spirit enemy beneath it). Cannot be engaged.\n[action] Draw a facedown card beneath Jean Devereux’s location and choose a Heretic attached to The Beyond: <b>Parley.</b> Jim Culver draws the chosen Heretic, flips it, and resolves its text.\n<b>Forced</b> – When Jean Devereux would be defeated: Instead, heal all damage from him and flip him.",
+        "traits": "인간형. 주술사. 정예."
+    },
+    {
+        "code": "90057b",
+        "name": "장 데버루",
+        "subname": "빙의된",
+        "text": "Hunter. Prey – Jim Culver only.\n[action]: <b>Parley.</b> Test [willpower] (3). This test gets +1 difficulty for each copy of Unfinished Business in the victory display. If you succeed, heal all damage from Jean Devereux and flip him <i>(he is no longer engaged)</i>.\n<b>Forced</b> – If Jean Devereux is defeated: Advance the act.",
+        "traits": "인간형. 주술사. 정예."
+    },
+    {
+        "code": "90058",
+        "name": "탐욕스러운 영혼",
+        "subname": "빙의된",
+        "text": "Aloof. Patrol (Jean Devereux’s location). Retaliate.\nRavenous Spirit gets +2 [per_investigator] health.\n<b>Forced</b> – When this enemy enters a location: Flip that location to its [[Spectral]] side. One at a time, each investigator at that location resolves each haunted ability on it.",
+        "traits": "괴물. 유령. 혼령계. 정예."
+    }
+]
