@@ -1,0 +1,95 @@
+[
+    {
+        "alternate_of": "02002",
+        "back_flavor": "When disaster strikes, Rex Murphy is usually on hand, suffering the consequences. After spending a day with Rex, even the most hardened skeptic will concede that the man is cursed. Anytime he had a lead on a good story, something would go wrong, like that business in Innsmouth with the photographs that blew out to sea. His terrible fortune has more than once exposed him to gruesome beasts and occult conspiracies. To survive, Rex has developed an inquisitive mind, keeping one step ahead of the next disaster.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-3, [[Cursed]] and [[Gambit]] cards level 0-4, Neutral cards level 0-5, up to five other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Search for the Truth, Rex's Curse, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No [[Fortune]] or [[Blessed]] cards (unless they are also [[Cursed]]).",
+        "code": "90078",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": [ "neutral" ],
+                "trait": [ "cursed" ],
+                "level": { "min": 0, "max": 5 }
+            },            
+            {
+                "trait": [ "cursed" ],
+                "level": { "min": 0, "max": 4 }
+            },
+            {
+                "not": true,
+                "trait": [ "fortune", "blessed" ],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": [ "seeker" ],
+                "level": { "min": 0, "max": 3 }
+            },
+            {
+                "faction": [ "neutral" ],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "trait": [ "gambit" ],
+                "level": { "min": 0, "max": 4 }
+            },
+            {
+                "faction": [ "rogue" ],
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "You cannot have more than 5 Rogue cards."
+            }
+        ],
+        "deck_requirements": "size:30, card:02008:90079, card:02009:90080, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"Oh, come on, not <u>again</u>!\"",
+        "health": 6,
+        "illustrator": "Cristi Balanescu",
+        "is_unique": true,
+        "name": "Rex Murphy",
+        "pack_code": "hfa",
+        "position": 78,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 4,
+        "skill_combat": 2,
+        "skill_willpower": 3,
+        "subname": "The Reporter",
+        "text": "[reaction] When you would either place 1 of your clues on your location, or add 2 [curse] tokens to the chaos bag: Do the other instead. (This can still satisfy the cost of an ability.)\n[elder_sign] effect: +2 for each [curse] token revealed during this test. Draw 1 card for each [curse] token revealed during this test.",
+        "traits": "Reporter. Cursed.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90079",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Torstein Nordstrand",
+        "name": "Search for the Truth",
+        "pack_code": "hfa",
+        "position": 79,
+        "quantity": 1,
+        "restrictions": "investigator:02002",
+        "skill_intellect": 2,
+        "skill_wild": 1,
+        "text": "Rex Murphy deck only. Advanced.\nFor each clue on Rex Murphy (to a maximum of 5) you may either:\n- Draw 1 card.\n- Place that clue on your location and return any card from your discard pile to your hand.",
+        "traits": "Insight.",
+        "type_code": "event"
+    },
+    {
+        "code": "90080",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Falk",
+        "name": "Rex's Curse",
+        "pack_code": "hfa",
+        "position": 80,
+        "quantity": 1,
+        "restrictions": "investigator:02002",
+        "subtype_code": "weakness",
+        "text": "Advanced.\n<b>Revelation</b> - Put Rex's Curse into play in your threat area.\n<b>Forced</b> - When you would succeed at a skill test: Reveal an additional chaos token. If this effect causes you to fail the test, shuffle Rex's Curse into your deck. (Limit once per test.)",
+        "traits": "Curse.",
+        "type_code": "treachery"
+    }
+]
