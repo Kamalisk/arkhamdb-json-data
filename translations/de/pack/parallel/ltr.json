@@ -1,0 +1,45 @@
+[
+  {
+    "back_flavor": "Jazz bereitet Jim seit dem Tag, an dem er zum ersten Mal nach der Trompete seines Vaters gegriffen hatte, immer nur Probleme. Doch die Toten scheinen sein Trompetenspiel zu mögen, weshalb Jim auch nicht vorhat, damit aufzuhören.",
+    "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Mystikerkarten ([mystic]) Stufe 0-3, [[Zauber]]- und [[Verflucht]]-Karten Stufe 0-4, Neutrale Karten Stufe 0-5, bis zu 5 andere Überlebenderkarten ([survivor]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Jims Trompete, Letzte Rhapsodie, Das Jenseits, 1 zufällige Grundschwäche.\n<b>Größe des Geisterdecks</b>: 10.\n<b>Deckbau-Optionen des Geisterdecks</b>: 9 verschiedene [[Verbündeter]]-Vorteilskarten beliebiger Klassen der Stufe 0–2, Rachsüchtiger Schatten.\n<b>Regeln für das Geisterdeck</b>: Mische das \"Geisterdeck\" und halte es von deinem Deck getrennt. Platziere das Geisterdeck verdeckt neben der Vorteilskarte Das Jenseits. Dieses Deck darf mit nicht verwendeten Erfahrungspunkten verbessert werden.",
+    "code": "90049",
+    "flavor": "\"Ich weiß, wie ich die Toten tanzen lassen kann.\"",
+    "name": "Jim Culver",
+    "subname": "Der Musiker",
+    "text": "[reaction] Nachdem du während einer Fertigkeitsprobe, die du durchführst 1 oder mehr [skull]- oder [curse]-Marker enthüllt hast: Fülle 1 Ladung auf einer Vorteilskarte auf, die du kontrollierst. (Nur ein Mal pro Runde.)\n[elder_sign]-Effekt: +2. Du darfst diesen Marker stattdessen als [skull]- oder [curse]-Marker behandeln.",
+    "traits": "Performer. Verflucht."
+  },
+  {
+    "code": "90050",
+    "name": "Jims Trompete",
+    "slot": "Hand",
+    "subname": " Die Toten sprechen",
+    "text": "Nur für das Deck von Jim Culver. Weiterentwickelt.\n[reaction] Sobald ein [skull]- oder [curse]-Marker während deiner Fertigkeitsprobe enthüllt wird, erschöpfe Jims Trompete: Heile 1 Horror von jedem Ermittler und jeder [[Verbündeter]]-Vorteilskarte an deinem oder einem verbundenen Ort.",
+    "traits": "Gegenstand. Instrument. Relikt."
+},
+{
+    "code": "90051",
+    "flavor": "Wenn die Toten davon zu reden beginnen, was ihnen Angst macht, ist es an der Zeit, ihnen gut zuzuhören.",
+    "name": " Letzte Rhapsodie",
+    "text": "Weiterentwickelt.\n<b>Enthüllung</b> - Enthülle 5 Chaosmarker aus dem Chaosbeutel. Für jedes enthüllte Nicht-[elder_sign], Nicht-[bless]-Symbol nimm 1 Schaden und 1 Horror.",
+    "traits": "Endzeit."
+  },
+  {
+    "code": "90052",
+    "name": "Das Jenseits",
+    "subname": "Trostloses Totenreich",
+    "text": "Nur für das Deck von Jim Culver. Dauerhaft.\nJeder Geist, der an Das Jenseits angehängt ist, verliert alle aufgedruckten Merkmale und erhält das Merkmal [[Geist]]. Sobald Schaden/Horror auf einem angehängten Geist platziert werden würde, muss er stattdessen auf Jim Culver platziert werden.\n<b>Erzwungen</b> – Sobald dein Zug beginnt: Hänge die oberste Karte des Geisterdecks als Geist an Das Jenseits an. Falls 4 oder mehr Geister angehängt sind, drehe diese Karte um und handle ihren Text ab.",
+    "traits": "Heiligtum. Geisterhaft."
+  },
+  {
+    "code": "90052b",
+    "name": "Das Jenseits",
+    "text": "<b>Erzwungen</b> – Wähle nacheinander jeden Nicht-Schwäche-Geist, der an Das Jenseits angehängt ist, und enthülle für ihn einen zufälligen Marker aus dem Chaosbeutel. Falls es ...\n- ... ein [elder_sign]-Marker ist: Du darfst entweder 1 Horror heilen oder die oberste Karte des Geisterdecks als Geist an Das Jenseits anhängen. <i>(Enthülle keinen Marker für den Geist, den du bei der Abhandlung dieses Effekts anhängst.)</i>\n- ... ein [auto_fail]-Marker ist: Lege diesen Geist ab. Nimm 1 direkten Schaden/Horror.\n- ... ein [skull]-Marker ist: Lege diesen Geist ab. Heile 1 Horror.\n- ... ein [cultist]-, [elder_thing]-, [tablet]-, oder [curse]-Marker ist: Du musst diesen Geist entweder ablegen oder 1 direkten Schaden nehmen.\n- ... ein beliebiger anderer Marker ist: Lege diesen Geist ab.\nDrehe diese Karte auf ihre Vorteilskartenseite um.\n<b>Zur Erinnerung</b>: <i>Geister, die an Das Jenseits angehängt sind, gelten als im Spiel, aber nur mit ihren Namen und Textfeldern. Geister benötigen keine Slots und haben keine Werte für Ausdauer und geistige Gesundheit. Sobald ein einzigartiger Geist an Das Jenseits angehängt wird, muss jede andere Vorteilskarte mit demselben Namen, die bereits im Spiel ist, abgelegt werden. Geister werden immer</i> <b>unter</b> <i>das Geisterdeck abgelegt.</i>"
+  },
+  {
+    "code": "90053",
+    "name": "Rachsüchtiger Schatten",
+    "text": "Jäger. <b>Beute</b> – Nur Jim Culver.\nDu darfst gegen diesen Gegner kämpfen oder versuchen, ihm zu entkommen, solange er an Das Jenseits angehängt ist (als ob er mit dir in einen Kampf verwickelt wäre). Falls die Probe gelingt, lege ihn ab. Falls die Probe misslingt, erscheint er mit dir in einen Kampf verwickelt.\n<b>Erzwungen</b> – Sobald du einen Geist mit dem Erzwungen-Effekt auf Das Jenseits daran anhängst: Rachsüchtiger Schatten greift dich an <i>(auch wenn er nicht an deinem Ort ist)</i>.",
+    "traits": "Monster. Spuk."
+  }
+]
