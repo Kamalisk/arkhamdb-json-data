@@ -322,6 +322,7 @@
     "type_code": "act"
   },
   {
+    "back_flavor": "Glowing spores hang in the air around the effigy, lighting up the mirrors and bathing the festival in a faerie glow. You breathe in and feel your mouth and throat buzz with a light, tingling sensation. The last thing you hear as you pas out is the sound of lilting flutes and tambourines.",
     "back_name": "The Sleep",
     "back_text": "Each investigator is defeated and suffers 1 mental or 1 physical trauma.",
     "code": "10688",
@@ -340,6 +341,7 @@
     "type_code": "agenda"
   },
   {
+    "back_flavor": "\"Well done,\" Mother Rachel says to you. Lights dance in the sky overhead as the last of the Vale residents are led dutifully to their place at the table. Some look at you with rueful expressions, rightfully betrayed. As you move to assume your place at the table, Mother Rachel steps in your way.\n\"It is not your place to sit with us. You are our guest of honor,\" she smiles. You feel a sharp blow to the back of your head, and then nothing.",
     "back_name": "Back in the Fold",
     "back_text": "<blockquote><i>\"Well done,\" Mother Rachel says to you. Lights dance in the sky overhead as the last of the Vale residents are led dutifully to their place at the table. Some look at your with rueful expressions, rightfully betrayed. As you move to assume your place at the table, Mother Rachel steps in your way.\n\"It is not your place to sit with us. You are our guest of honor,\" she smiles. You feel a sharp blow to the back of your head, and then nothing.</i></blockquote>\nEach investigator resigns.",
     "code": "10689",
@@ -357,24 +359,6 @@
     "stage": 3,
     "text": "You cannot trigger [codex] codex entries.\n[reaction] After you evade a [[Resident]] enemy by 2 or more: Add them to the victory display.\n<b>Objective</b> – If 1 plus 1 [per_investigator] [[Resident]] cards are in the victory display, <b>(→R3)</b> <i>(page 60)</i>.",
     "type_code": "agenda"
-  },
-  {
-    "code": "10692",
-    "encounter_code": "day_of_the_feast",
-    "encounter_position": 7,
-    "enemy_damage": 1,
-    "enemy_evade": 2,
-    "enemy_fight": 2,
-    "faction_code": "mythos",
-    "health": 2,
-    "illustrator": "Lin Hsiang",
-    "name": "Frenzied Reveler",
-    "pack_code": "fhvc",
-    "position": 192,
-    "quantity": 2,
-    "text": "<b>Forced</b> – When Frenzied Reveler is defeated: Place 1 doom on the agenda. This effect can cause the current agenda to advance.\n[action]: <b>Parley.</b> Test [agility] (4). If you succeed, remove Frenzied Reveler from the game.",
-    "traits": "Humanoid. Resident.",
-    "type_code": "enemy"
   },
   {
     "back_link": "01690b",
@@ -402,6 +386,7 @@
     "encounter_position": 5,
     "faction_code": "mythos",
     "flavor": "A crowd of revelers dance around a roaring bonfire. Mother Rachel stands before it, smiling broadly.",
+    "hidden": true,
     "illustrator": "Mauro Dal Bo",
     "name": "The Crossroads",
     "pack_code": "fhvc",
@@ -416,6 +401,7 @@
   {
     "back_link": "10691b",
     "clues": 1,
+    "clues_fixed": true,
     "code": "10691a",
     "encounter_code": "day_of_the_feast",
     "encounter_position": 6,
@@ -439,6 +425,7 @@
     "encounter_position": 6,
     "faction_code": "mythos",
     "flavor": "The daylight gives way to long, sinister shadows.",
+    "hidden": true,
     "illustrator": "Pixoloid Studios",
     "name": "The Old Mill",
     "pack_code": "fhvc",
@@ -449,6 +436,24 @@
     "text": "[action]: You investigate the sounds of something rustling in the undergrowth <b>([codex] 12)</b>.",
     "traits": "Hemlock Vale.",
     "type_code": "location"
+  },
+  {
+    "code": "10692",
+    "encounter_code": "day_of_the_feast",
+    "encounter_position": 7,
+    "enemy_damage": 1,
+    "enemy_evade": 2,
+    "enemy_fight": 2,
+    "faction_code": "mythos",
+    "health": 2,
+    "illustrator": "Lin Hsiang",
+    "name": "Frenzied Reveler",
+    "pack_code": "fhvc",
+    "position": 192,
+    "quantity": 2,
+    "text": "<b>Forced</b> – When Frenzied Reveler is defeated: Place 1 doom on the agenda. This effect can cause the current agenda to advance.\n[action]: <b>Parley.</b> Test [agility] (4). If you succeed, remove Frenzied Reveler from the game.",
+    "traits": "Humanoid. Resident.",
+    "type_code": "enemy"
   },
   {
     "code": "10693",
