@@ -1,0 +1,95 @@
+[
+    {
+        "alternate_of": "02002",
+        "back_flavor": "Lorsque frappe le désastre, Rex Murphy n'est habituellement pas loin et en subit les conséquences. Après avoir passé une journée avec lui, même les sceptiques les plus endurcis concèdent que cet homme est maudit. Chaque fois qu'il a une piste sur une histoire intéressante, quelque chose tourne mal. Cette affaire à Innsmouth avec les photographies qui sont tombées dans l'océan. Ces pistes à Dunwich qui ont été effacées par la pluie juste avant qu'il n'amène le shérif. Sa terrible malchance l'a plus d'une fois exposé aux forces monstrueuses et aux conspirations occultes. Pour survivre, Rex a développé un esprit vif et tente de conserver une longueur d'avance sur la prochaine catastrophe.",
+        "back_text": "<b>Taille du Deck</b>: 30.\n<b>Construction du Deck</b>: cartes Chercheur ([seeker]) de niveaux 0 à 3, cartes [[Maudit]] et [[Tactique]] de niveaux 0 à 4, cartes neutres de niveaux 0 à 5, jusqu'à cinq autres cartes Truand ([rogue]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Recherche de la Vérité, La Malédiction de Rex, 1 faiblesse de base au hasard.\n<b>Restrictions du Deck</b>: Aucune carte [[Chance]] ou [[Béni]] (sauf si elles sont également [[Maudit]]).",
+        "code": "90078",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": [ "neutral" ],
+                "trait": [ "cursed" ],
+                "level": { "min": 0, "max": 5 }
+            },            
+            {
+                "trait": [ "cursed" ],
+                "level": { "min": 0, "max": 4 }
+            },
+            {
+                "not": true,
+                "trait": [ "fortune", "blessed" ],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": [ "seeker" ],
+                "level": { "min": 0, "max": 3 }
+            },
+            {
+                "faction": [ "neutral" ],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "trait": [ "gambit" ],
+                "level": { "min": 0, "max": 4 }
+            },
+            {
+                "faction": [ "rogue" ],
+                "level": { "min": 0, "max": 0 },
+                "limit": 5,
+                "error": "Vous ne pouvez pas avoir plus de 5 cartes Truand."
+            }
+        ],
+        "deck_requirements": "size:30, card:02008:90079, card:02009:90080, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"Allez, <u>ça recommence</u> !\"",
+        "health": 6,
+        "illustrator": "Cristi Balanescu",
+        "is_unique": true,
+        "name": "Rex Murphy",
+        "pack_code": "hfa",
+        "position": 78,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 4,
+        "skill_combat": 2,
+        "skill_willpower": 3,
+        "subname": "Le Reporter",
+        "text": "[reaction] Quand vous devriez soit placer 1 de vos indices sur votre lieu, soit ajouter 2 pions [Curse] à la réserve du Chaos : faites l'inverse à la place. (Cela peut satisfaire le coup d'une capacité.)\n[elder_sign] effet : +2 pour chaque pion [curse] révélé durant ce test. Piochez 1 carte pour chaque pion [curse] révélé durant ce test.",
+        "traits": "Reporter. Maudit.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90079",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Torstein Nordstrand",
+        "name": "Recherche de la Vérité",
+        "pack_code": "hfa",
+        "position": 79,
+        "quantity": 1,
+        "restrictions": "investigator:02002",
+        "skill_intellect": 2,
+        "skill_wild": 1,
+        "text": "Deck de Rex Murphy uniquement. Avancé.\nPour chaque indice sur Rex Murphy (jusqu'à un maximum de 5), vous pouvez :\n- soit piocher 1 carte.\n- soit placer cet indice sur votre lieu et récupérer dans votre main n'importer quelle carte de votre pile de défausse.",
+        "traits": "Perspicacité.",
+        "type_code": "event"
+    },
+    {
+        "code": "90080",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Falk",
+        "name": "La Malédiction de Rex",
+        "pack_code": "hfa",
+        "position": 80,
+        "quantity": 1,
+        "restrictions": "investigator:02002",
+        "subtype_code": "weakness",
+        "text": "Avancé.\n<b>Révélation</b> - Mettez la Malédiction de Rex en jeu dans votre zone de menace.\n<b>Forcé</b> - Quand vous devriez réussir un test de compétence : révélez un pion Chaos supplémentaire. Si cet effet vous fait échouer au test, mélangez la Malédiction de Rex dans votre deck. (Limite d'une fois par test.)",
+        "traits": "Malédiction.",
+        "type_code": "treachery"
+    }
+]
