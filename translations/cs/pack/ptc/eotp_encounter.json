@@ -1,0 +1,232 @@
+[
+    {
+        "code": "03120",
+        "name": "Echoes of the Past",
+        "text": "Easy / Standard\n[skull]: -X. X is the highest number of doom on an enemy in play.\n[cultist]: -2. If you fail, place 1 doom on the nearest enemy.\n[tablet]: -2. If you fail, discard a random card from your hand.\n[elder_thing]: -2. If you fail and there is an enemy at your location, take 1 horror.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the total number of doom on enemies in play.\n[cultist]: -4. Place 1 doom on the nearest enemy.\n[tablet]: -4. Discard a random card from your hand.\n[elder_thing]: -4. If there is an enemy at your location, take 1 horror."
+    },
+    {
+        "code": "03121",
+        "flavor": "Surprisingly, the front doors of the Historical Society’s Georgian manor are cracked halfway open when you arrive. Who else could be here at this hour?",
+        "name": "The Truth is Hidden",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "back_name": "Dark Ritual",
+        "back_flavor": "A phrase in a language you cannot describe whispers through the building, and without warning all of the electric lights shatter at once. You light a nearby candle and continue your search.\nThe building is quite different once plunged into darkness. Shadows and silhouettes dance along the walls. Crevices you hadn't noticed before draw your wary eye. What other secrets does this building hold?",
+        "back_text": "Shuffle the encounter discard pile into the encounter deck."
+    },
+    {
+        "code": "03122",
+        "flavor": "Though the whispering has ceased, the sounds of rummaging and furniture shifting is unmistakable. Whoever is here, they’re searching just as thoroughly as you are...",
+        "name": "Ransacking the Manor",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "back_name": "Oathbreaking",
+        "back_flavor": "The front door of the manor opens, letting in a howl of chill wind and the pitter-patter of soft rain, then it suddenly slams shut. You find a place to hide and eavesdrop, wondering who else might have entered the building this late. \"No, I swear, I swear I don't know where the door is!\" A man cries out. \"You'll have to find the Path on your own, I cannot help you!\" He sounds panicked and disorientated.\n\"You spoke the Oath,\" a man's voice responds. \"You spoke His name.\" The man stammers. \"No! No, I cannot! I will not!\" Then, his voice becomes distorted, and he speaks no more. You hear footsteps on the staircase - heavy and wet.",
+        "back_text": "Spawn the set-aside Possessed Oathspeaker enemy at the Entry Hall.\nCheck Campaign Log. If Sebastien Moreau is not listed under \"VIPs Slain,\" search the collection for Sebastien Moreau <i>(Savage Hysteria)</i> and spawn him in the Entry Hall."
+    },
+    {
+        "code": "03123",
+        "flavor": "Whoever these people are, they must be involved with the conspiracy behind <i>The King in Yellow</i>. You can’t let them find whatever it is they’re looking for!",
+        "name": "Secrets Better Left Hidden",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "back_name": "The Way Forward",
+        "back_flavor": "There is a rush of footsteps along the manor's central stairway, and the front door opens once more. \"Have you found it?\" A muffled voice asks.\n\"Yes. We can embark immediately. The Path <i>will</i> be opened.\"\nThe door closes, and the manor returns to being quiet and lonely. For the remainder of your search, you find no further traces of the mysterious robed figures, nor do you find any information to answer your many questions about <i>The King in Yellow</i>...",
+        "back_text": "<b>(→R4)</b>."
+    },
+    {
+        "code": "03124",
+        "flavor": "Each of the Historical Society’s many rooms contains records and documents that may aid you in your search for answers about <i>The King in Yellow</i>. There must be something here that can guide you toward the truth.",
+        "name": "Race for Answers",
+        "back_name": "Late-Night Studies",
+        "back_flavor": "You find a record kept by one of the society's historians pertaining to the \"dreadful events\" surrounding the closing of an old theatre in Arkham, the Cedar Playhouse. Though there is no explicit mention of <i>The King in Yellow</i>, you believe you are on the right track.\nThe historian's notes are cut short, and there is a faded, handwritten page clipped to the final entry.\n<b>This matter is too ghastly for the public eye. I am placing the remainder of this record in the hidden library. All further inquiries should be done away from prying eyes, for this is a dangerous matter, and not one to be researched lightly.</b>",
+        "back_text": "For each revealed Historical Society location, add 1 [per_investigator] clues to it (to a maximum of its clue value)."
+    },
+    {
+        "code": "03125",
+        "flavor": "Somewhere in the manor is a \"hidden library\" where you might be able to find more information about <i>The King in Yellow</i>. You must find the way in if you are to continue your investigation.",
+        "name": "Mistakes of the Past",
+        "back_name": "Secret Passageways",
+        "back_flavor": "As you rummage through a desk drawer, you are startled when you hear a voice behind you. \"Excuse me! Can I help you?\" You are relived to find the voice belonging to a thin, elderly man wearing wide-rimmed glasses - a member of the Historical Society, no doubt. You explain to him that you are searching for a hidden library somewhere in the manor, though you purposely leave out why.\nHe introduces himself as Mr. Peabody, the Historical Society's curator. \"I'll help you find what you are looking for,\" he explains, \"but only if you tell me what this is all about once we get there.\" You hope it doesn't come to that.",
+        "back_text": "For each revealed Historical Society location, add 1 [per_investigator] clues to it (to a maximum of its clue value).\nChoose an investigator to take control of the set-aside Mr. Peabody asset.\nPut the set-aside Hidden Library location into play."
+    },
+    {
+        "code": "03126",
+        "flavor": "\"This building is very old, and filled with all manner of secret passageways,\" Mr. Peabody explains. \"Perhaps one of them will lead to this library you’re looking for.\"",
+        "name": "The Oath",
+        "text": "Locations with the [[Passageway]] trait are connected to one another.\n<b>Objective</b> - Only investigators in the Hidden Library may spend the requisite number of clues, as a group, to advance.",
+        "back_name": "The Clasp",
+        "back_flavor": "As you study the hidden library, you find a few pieces of information that stand out. As with the recent production, the previous performance of <i>The King in Yellow</i> came to Arkham from overseas, and was performed by a French acting troupe. You don't recognize any of the cast members' names, and of course the actor who played the role of the Stranger is anonymous. However, it seems that a member of the Historical Society has done some of your work for you; there are several old newspaper clippings gathered together along with information about the play. Headlines include: Cedar Playhouse Closes Due To Fire, Experts Baffled Over Freak Floods, and the like. Hidden amongst this information, you also find a strange object - A clasp of onyx with an alien inscription.",
+        "back_text": "The investigators must decide (choose one):\n- This is an important discovery! We should take it with us. <b>(→R1)</b>.\n- It's just a silly trinket, and it would be wrong to steal from the Historical Society. Leave it behind. <b>(→R2)</b>"
+    },
+    {
+        "code": "03127",
+        "name": "Entry Hall",
+        "text": "Entry Hall is connected to each other [[Ground Floor]] location.\n[action]: <b>Resign.</b> You flee, leaving the mysteries of the past to the mysterious cultists.",
+        "traits": "Ground Floor.",
+        "back_flavor": "A long, warm hall and two grand staircases greet you as you enter the manor house of Arkham’s Historical Society.",
+        "back_text": "Entry Hall is connected to each other [[Ground Floor]] location."
+    },
+    {
+        "code": "03128",
+        "flavor": "One of the chairs is knocked over, and a hole is torn in the ceiling above. What could possibly have created such damage?",
+        "name": "Historical Society",
+        "subname": "Meeting Room",
+        "text": "[action] Exhaust an [[Ally]] asset: Discover a clue at this location. (Limit once per round.)",
+        "traits": "Ground Floor. Passageway.",
+        "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03129",
+        "flavor": "This confined room contains numerous files that might have been helpful to your investigation were it not for the thick, awful sludge filling the file cabinet drawers.",
+        "name": "Historical Society",
+        "subname": "Record Office",
+        "text": "Each enemy at this location gets +1 fight and +1 evade.",
+        "traits": "Ground Floor.",
+        "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03130",
+        "flavor": "Most of the objects on display here are from the early 18th century, spanning Arkham's colonization and early history.",
+        "name": "Historical Society",
+        "subname": "Historical Museum",
+        "text": "While investigating this location, your [intellect] cannot be increased.",
+        "traits": "Ground Floor.",
+        "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03131",
+        "name": "Quiet Halls",
+        "text": "Quiet Halls is connected to each other [[Second Floor]] location.\n[action] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls <i>(from the token bank)</i>.",
+        "traits": "Second Floor.",
+        "back_flavor": "Other than the creaking of the wooden floor beneath your steps, the manor is eerily silent.",
+        "back_text": "Quiet Halls is connected to each other [[Second Floor]] location."
+    },
+    {
+        "code": "03132",
+        "flavor": "Most of the objects on display here are from the early 18th century, spanning Arkham's colonization and early history.",
+        "name": "Historical Society",
+        "subname": "Historical Museum",
+        "text": "While investigating this location, your [intellect] cannot be increased.",
+        "traits": "Second Floor.",
+        "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03133",
+        "flavor": "The sheer number of books in the Historical Society's library is overwhelming. Even if you had weeks to spend researching, you couldn't hope to sort through all of them.",
+        "name": "Historical Society",
+        "subname": "Historical Library",
+        "text": "[reaction] After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round).",
+        "traits": "Second Floor. Passageway.",
+        "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03134",
+        "flavor": "From the flickering lamplight and open books, you can tell that someone was reading in here recently.",
+        "name": "Historical Society",
+        "subname": "Reading Room",
+        "text": "[action]: <b>Investigate.</b> If you succeed, instead of discovering clues, choose an enemy with doom on it. Take 1 of that enemy's doom, flip it to its clue side, and place it on your investigator. (Group limit once per round).",
+        "traits": "Second Floor.",
+        "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03135",
+        "name": "Quiet Halls",
+        "text": "Quiet Halls is connected to each other [[Third Floor]] location.\n[action] If each location in play is revealed and there are no clues on locations in play: Place 1 [per_investigator] clues on Quiet Halls <i>(from the token bank)</i>.",
+        "traits": "Third Floor.",
+        "back_flavor": "Other than the creaking of the wooden floor beneath your steps, the manor is eerily silent.",
+        "back_text": "Quiet Halls is connected to each other [[Third Floor]] location."
+    },
+    {
+        "code": "03136",
+        "flavor": "The sheer number of books in the Historical Society's library is overwhelming. Even if you had weeks to spend researching, you couldn't hope to sort through all of them.",
+        "name": "Historical Society",
+        "subname": "Historical Library",
+        "text": "[reaction] After you successfully investigate this location, take 2 horror: Discover 1 clue at this location. (Limit once per round).",
+        "traits": "Third Floor. Passageway.",
+        "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03137",
+        "flavor": "This office must belong to somebody important within the Historical Society.",
+        "name": "Historical Society",
+        "subname": "Peabody's Office",
+        "text": "While an investigator at this location controls Mr. Peabody, this location gets -2 shroud.",
+        "traits": "Third Floor. Passageway.",
+        "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03138",
+        "flavor": "This confined room contains numerous files that might have been helpful to your investigation were it not for the thick, awful sludge filling the file cabinet drawers.",
+        "name": "Historical Society",
+        "subname": "Record Office",
+        "text": "Each enemy at this location gets +1 fight and +1 evade.",
+        "traits": "Third Floor.",
+        "back_flavor": "An unadorned wooden door leads to one of the third floor rooms used by the Historical Society.",
+        "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
+    },
+    {
+        "code": "03139",
+        "flavor": "The space was a small reading room, carpeted with cobwebs and dust. Filled bookshelves lined the walls, but a few books lay scattered on the floor as though their readers had abandoned them in a hurry.\n- Lisa Farrell, <i>The Investigators of Arkham Horror</i>",
+        "name": "Hidden Library",
+        "text": "While an enemy is moving, Hidden Library gains the [[Passageway]] trait.",
+        "back_flavor": "Most of the researchers in the Historical Society don’t even know of this library’s existence. What terrible truths could it be hiding?",
+        "back_text": "While an enemy is moving, Hidden Library gains the [[Passageway]] trait."
+    },
+    {
+        "code": "03140",
+        "name": "Possessed Oathspeaker",
+        "subname": "A Damnable Fate",
+        "text": "Hunter. Retaliate.\nCannot be damaged during act 1 or act 2.\n<b>Forced</b> - At the beginning of the enemy phase: The investigators must either ready Possessed Oathspeaker or place 1 doom on it.\n<b>Objective</b> - If Possessed Oathspeaker is defeated: <b>(→R3)</b>",
+        "traits": "Monster. Servitor. Elite."
+    },
+    {
+        "code": "03141",
+        "flavor": "\"This building contains many secrets. I will show you some, but even I don’t know them all...\"",
+        "name": "Mr. Peabody",
+        "subname": "Historical Society Curator",
+        "text": "[action] Exhaust Mr. Peabody: Choose a location. Until Mr. Peabody readies, that location gets -1 shroud and gains the [[Passageway]] trait.",
+        "traits": "Ally. Historical Society.",
+        "slot": "Ally"
+    },
+    {
+        "code": "03142",
+        "flavor": "It was neither Arabic nor Chinese, nor as I found afterwards did it belong to any human script. - Robert W. Chambers, \"The Yellow Sign,\" <i>The King in Yellow</i>",
+        "name": "Clasp of Black Onyx",
+        "subname": "A Gift Unlooked For",
+        "text": "While Clasp of Black Onyx is in your hand, increase the cost of each other card in your hand by 1.",
+        "traits": "Item. Relic."
+    },
+    {
+        "code": "03143",
+        "name": "The Tattered Cloak",
+        "subname": "Regalia Dementia",
+        "text": "You get -1 sanity.\nYou get +1 [willpower], +1 [combat], and +1 [agility] while you have 3 or fewer remaining sanity.",
+        "traits": "Item. Clothing.",
+        "slot": "Body"
+    },
+    {
+        "code": "03144",
+        "name": "Seeker of Carcosa",
+        "text": "<b>Spawn</b> - Any empty Historical Society location.\nAloof.\n<b>Forced</b> - At the end of the mythos phase: Move 1 clue from Seeker of Carcosa's location to Seeker of Carcosa (if you cannot, place 1 doom on Seeker of Carcosa, instead).",
+        "traits": "Humanoid. Cultist."
+    },
+    {
+        "code": "03145",
+        "name": "Led Astray",
+        "text": "Peril.\n<b>Revelation</b> - You must decide (choose one):\n- Place 1 of your clues on a [[Cultist]] enemy.\n- Place 1 doom on the current agenda (this effect may cause the current agenda to advance).",
+        "traits": "Scheme."
+    },
+    {
+        "code": "03146",
+        "name": "The Cult's Search",
+        "text": "<b>Revelation</b> - If there is a [[Cultist]] enemy in play with doom on it, move all doom from each [[Cultist]] enemy to the current agenda (this effect may cause the current agenda to advance). If there are no [[Cultist]] enemies in play with doom on them, search the encounter deck and discard pile for a [[Cultist]] enemy and draw it (shuffle the encounter deck).",
+        "traits": "Scheme."
+    }
+]

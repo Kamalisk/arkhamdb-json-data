@@ -45,7 +45,7 @@ loadCards = (root) ->
         else
             #console.log "Reading regular #{path.join(localeRoot, file)}"
             fileContents = fs.readFileSync(path.join(localeRoot, file), 'UTF-8')
-            if !!fileContents.trim()
+            if !!fileContents.trim() && file != '.DS_Store'
                 json = JSON.parse fileContents
                 result[file] = stripProps json, ['code', 'flavor', 'name', 'subname', 'customization_text', 'customization_change', 'text', 'traits', 'back_name', 'back_flavor', 'back_text', 'slot']
     result
