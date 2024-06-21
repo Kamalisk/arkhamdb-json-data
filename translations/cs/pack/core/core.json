@@ -20,7 +20,7 @@
         "flavor": "\"Znám knihy tak mocné, že dokáží změnit realitu.\"",
         "name": "Daisy Walkerová",
         "subname": "Knihovnice",
-        "text": "Ve svém tahu můžete provést jednu akci navíc, musí se však jednat pouze o [action] schopnost Knihy [[Tome]].\n[elder_sign] efekt: +0. Pokud uspějete, doberte si 1 kartu za každou Knihu [[Tome]], kterou ovládáte.",
+        "text": "Ve svém tahu můžete provést jednu akci navíc, musí se však jednat pouze o [action] schopnost [[Knihy]].\n[elder_sign] efekt: +0. Pokud uspějete, doberte si 1 kartu za každou [[Knihu]], kterou ovládáte.",
         "traits": "Miskatonic.",
         "back_flavor": "Coby uznávaná knihovnice na Miskatonické univerzitě Daisy vždy cítila, že knihy jsou nejdůležitější věcí jejího života. V příbězích zkoumala to, co ve skutečném životě nenáviděla. Pak se jí dostal do ruky Necronomicon v překladu Johna Deeho. Rouhavý, bezbožný a příliš strašlivý, aby to byla pravda.  Nicméně díky svému studiu obskurních a okultních předmětů Daisy zjistila, že se na stránkách knihy nachází více pravdy než fikce. Začala se zajímat, jaká další tajemství ukrývá neveřejná část Orneovy knihovny...",
         "back_text": "<b>Velikost balíčku</b>: 30.\n<b>Možnosti stavby balíčku</b>: Karty hledače ([seeker]) úrovně 0-5, karty mystika ([mystic]) úroveň 0-2, Neutrální karty úroveň 0-5.\n<b>Podmínky stavby balíčku</b> (nepočítají se do velikosti balíčku): Daisyina brašna, Necronomicon (v překladu Johna Deeho), 1 náhodná základní slabost."
@@ -101,7 +101,7 @@
         "subname": "Artefakt z jiného života",
         "text": "Pouze balíček Agnes Bakerové.\n[reaction] Poté, co vyložíte kartu [[Kouzlo]]: Doberte si 1 kartu.",
         "traits": "Předmět. Relikvie.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01013",
@@ -115,7 +115,7 @@
         "name": "Wendyin amulet",
         "text": "Pouze balíček Wendy Adamsové.\nMůžete zahrát kartu události, která leží na vrchu vaší odkládací hromádky, jako kdyby byla ve vaší ruce.\n<b>Závazek</b> - Poté, co zahrajete událost nebo odhodíte událost ze hry: Umístěte ji dospod svého balíčku (nikoliv na odkládací hromádku).",
         "traits": "Předmět. Relikvie.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01015",
@@ -204,7 +204,7 @@
         "name": "Policejní odznak",
         "text": "Bonus +1 [willpower].\n[free] Odhoďte Policejní odznak, když je na tahu vyšetřovatel ve vaší lokaci: Daný vyšetřovatel může v tomto tahu provést 2 akce navíc.",
         "traits": "Předmět.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01028",
@@ -218,7 +218,7 @@
         "name": "Brokovnice",
         "text": "Použití (2 náboje).\n[action] Použijte 1 náboj: <b>Boj.</b> Bonus +3 [combat] pro tento útok. Namísto obvyklého zranění tento útok působí 1 zranění za každý bod navíc, než bylo potřeba pro úspěch (minimálně 1, maximálně 5). Pokud selžete a měl by být zraněn jiný vyšetřovatel, utrží 1 zranění za každý bod, který k úspěchu chybí (minimálně 1, maximálně 5).",
         "traits": "Předmět. Zbraň. Střelná zbraň.",
-        "slot": "Ruka x2"
+        "slot": "2 ruce"
     },
     {
         "code": "01030",
@@ -226,22 +226,22 @@
         "name": "Lupa",
         "text": "Rychlá.\nBonus +1 [intellect] při zkoumání.",
         "traits": "Předmět. Nástroj.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01031",
         "name": "Stará kniha vědění",
         "text": "[action] Vyčerpejte Starou knihu vědění: Zvolte vyšetřovatele ve své lokaci. Daný vyšetřovatel se podívá na vrchní 3 karty svého balíčku, jednu z nich si vezme do ruky a zbylé zamíchá zpět do balíčku.",
         "traits": "Předmět. Kniha.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01032",
         "flavor": "\"Oba víme, že v Orneově knihovně byly určité problémy kvůli Armitageově špatnému stavu a dalším nesouvisejícím... incidentům z doby před několika lety...\"",
         "name": "Knihovník badatel",
-        "text": "[reaction] Když Knihovník badatel vstoupí do hry: Prohledejte svůj balíček a vezměte si z něj do ruky kartuy výhody typu [[Tome]] Balíček poté zamíchejte.",
+        "text": "[reaction] Když Knihovník badatel vstoupí do hry: Prohledejte svůj balíček a vezměte si z něj do ruky kartu výhody typu [[Kniha]] Balíček poté zamíchejte.",
         "traits": "Spojenec. Miskatonic.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01033",
@@ -250,7 +250,7 @@
         "subname": "Profesor entomologie",
         "text": "Bonus [intellect].\n[reaction] Poté, co úspěšně prozkoumáte: Vezměte si 1 zdroj.",
         "traits": "Spojenec. Miskatonic.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01034",
@@ -263,7 +263,7 @@
         "name": "Lékařské texty",
         "text": "[action] Zvolte vyšetřovatele ve své lokaci a proveďte zkoušku [intellect] (2). Pokud uspějete, daný vyšetřovatel si vyléčí 1 zranění. Pokud selžete, daný vyšetřovatel utrží 1 zranění.",
         "traits": "Předmět. Kniha.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01036",
@@ -280,7 +280,7 @@
     {
         "code": "01038",
         "name": "Barikáda",
-        "text": "Přiložte ke své lokaci.\nNepřátelé, kteří nejsou [[Elite]], se nemohou do této lokace posunout.\n<b>Závazek</b> - Když vyšetřovatel opustí tuto lokaci: Odhoďte Barikádu.",
+        "text": "Přiložte ke své lokaci.\nNepřátelé, kteří nejsou [[Elitní]], se nemohou do této lokace posunout.\n<b>Závazek</b> - Když vyšetřovatel opustí tuto lokaci: Odhoďte Barikádu.",
         "traits": "Porozumění. Taktika."
     },
     {
@@ -296,16 +296,16 @@
         "name": "Lupa",
         "text": "Rychlá.\nBonus +1 [intellect] při zkoumání.\n[free] Pokud ve vaší lokaci nejsou žádné stopy: Vraťte Lupu do své ruky.",
         "traits": "Předmět. Nástroj.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01041",
         "flavor": "Bojí se toho kvůli tomu, co jim udělá?\nNebo se toho bojí kvůli tomu, co udělá vám?",
         "name": "Kotouč Itzamna",
         "subname": "Ochranný amulet",
-        "text": "[reaction] Odhoďte Kotouč Itzamna, když se ve vaší lokaci objeví nepřítel, který není[[Elite]]: Odhoďte daného nepřítele.",
+        "text": "[reaction] Odhoďte Kotouč Itzamna, když se ve vaší lokaci objeví nepřítel, který není [[Elitní]]: Odhoďte daného nepřítele.",
         "traits": "Předmět. Relikvie.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01042",
@@ -313,7 +313,7 @@
         "name": "Encyklopedie",
         "text": "[action] Vyčerpejte Encyklopedii: Zvolte vyšetřovatele ve své lokaci. Daný vyšetřovatel získává do konce fáze bonus +2 k dovednosti dle vaší volby.",
         "traits": "Předmět. Kniha.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01043",
@@ -326,7 +326,7 @@
         "name": "Vystřelovák",
         "text": "Rychlá.\n[action]: <b>Boj.</b> Pokud uspějete o 2 nebo více, tento útok způsobí +1 zranění.",
         "traits": "Předmět. Zbraň. Na blízko. Nezákonná.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01045",
@@ -345,7 +345,7 @@
         "name": "Derringer .41 ",
         "text": "Použití (3 náboje).\n[action] Použijte 1 náboj: <b>Boj.</b> Bonus +2 [combat] pro tento útok. Pokud uspějete o 2 nebo více, tento útok způsobí +1 zranění.",
         "traits": "Předmět. Zbraň. Střelná zbraň. Nezákonná.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01048",
@@ -354,7 +354,7 @@
         "subname": "Lev z Louisiany",
         "text": "Ve svém tahu můžete provést jednu akci navíc.",
         "traits": "Spojenec. Zločinec.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01049",
@@ -393,14 +393,14 @@
         "subname": "Lev z Louisiany",
         "text": "Ve svém tahu můžete provést jednu akci navíc.",
         "traits": "Spojenec. Zločinec.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01055",
         "name": "Lupič",
         "text": "Bonus +1 [agility].\n[action] Vyčerpejte Lupiče: Ukončete zápolení se všemi nepřáteli, se kterými zápolíte, a přesuňte se do připojené lokace. Tato akce nevyvolá příležitostný útok.",
         "traits": "Spojenec. Zločinec.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01056",
@@ -427,21 +427,21 @@
         "name": "Svatý růženec",
         "text": "Bonus +1 [willpower].",
         "traits": "Předmět. Přívěšek.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01060",
         "name": "Vysušení",
         "text": "Použití (4 nabití).\n[action] Použijte 1 nabití: <b>Boj.</b> Tento útok používá [willpower] místo [combat] a působí +1 zranění. Pokud v tomto útoku vylosujete symbol [skull], [cultist], [tablet], [elder_thing], nebo [auto_fail] vezměte si 1 strach.",
         "traits": "Kouzlo.",
-        "slot": "Arcane"
+        "slot": "Tajemno"
     },
     {
         "code": "01061",
         "name": "Věštění",
         "text": "Použití (3 nabití).\n[action] Vyčerpejte Věštění a použijte 1 nabití: Podívejte se na vrchní 3 karty balíčku libovolného vyšetřovatele nebo balíčku střetnutí. Vraťte je zpět v libovolném pořadí.",
         "traits": "Kouzlo.",
-        "slot": "Arcane"
+        "slot": "Tajemno"
     },
     {
         "code": "01062",
@@ -452,9 +452,9 @@
     {
         "code": "01063",
         "name": "Tajemný zasvěcenec",
-        "text": "<b>Závazek</b> - Když Tajemný zasvěcenec vstoupí do hry: Položte na něj 1 žeton zkázy.\n[free] Vyčerpejte Tajemného zasvěcence: Podívejte se na vrchní 3 karty svého balíčku a vezměte si z nich do ruky kartu typu [[Spell]].\nBalíček poté zamíchejte.",
+        "text": "<b>Závazek</b> - Když Tajemný zasvěcenec vstoupí do hry: Položte na něj 1 žeton zkázy.\n[free] Vyčerpejte Tajemného zasvěcence: Podívejte se na vrchní 3 karty svého balíčku a vezměte si z nich do ruky kartu typu [[Kouzlo]].\nBalíček poté zamíchejte.",
         "traits": "Spojenec. Kouzelník.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01064",
@@ -485,7 +485,7 @@
     {
         "code": "01068",
         "name": "Vymazání paměti",
-        "text": "Rychlá. Vyložte na začátku fáze.\nZvolte nepřítele ve své lokaci, který není [[Elite]]. Až do konce fáze považujte textové pole vybraného nepřítele za prázdné (neplatí pro [[Traits]]).",
+        "text": "Rychlá. Vyložte na začátku fáze.\nZvolte nepřítele ve své lokaci, který není [[Elitní]]. Až do konce fáze považujte textové pole vybraného nepřítele za prázdné (neplatí na [[Typy]]).",
         "traits": "Kouzlo."
     },
     {
@@ -497,28 +497,28 @@
     {
         "code": "01070",
         "name": "Kniha stínů",
-        "text": "Máte k dispozici jedno tajemné místo navíc.\n[action] Vyčerpejte Knihu stínů: Přidejte 1 nabití na výhodu typu [[Spell]], kterou ovládáte.",
+        "text": "Máte k dispozici jedno tajemné místo navíc.\n[action] Vyčerpejte Knihu stínů: Přidejte 1 nabití na výhodu typu [[Kouzlo]], kterou ovládáte.",
         "traits": "Předmět. Kniha.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01071",
         "name": "Groteskní soška",
         "text": "Použití (4 nabití). Pokud se na Groteskní sošce nenachází žádné nabití, odhoďte ji.\n[reaction] Když byste měl losovat žeton chaosu, použijte 1 nabití: Vylosujte 2 žetony chaosu místo jednoho. Jeden z nich si vyberte a vyhodnoťte, druhý ignorujte.",
         "traits": "Předmět. Relikvie.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01072",
         "flavor": "Určitě není nejslušivější volbou, ale je teplý a ten objem mi dodává pocit jistoty.",
         "name": "Kožený kabát",
         "traits": "Předmět. Zbroj.",
-        "slot": "Body"
+        "slot": "Tělo"
     },
     {
         "code": "01073",
         "name": "Vybírání odpadků",
-        "text": "[reaction] Poté, co uspějete ve zkoumání o 2 nebo více, vyčerpejte Vybírání odpadků: Vezměte si do ruky kartu [[Item]] ze své odkládací hromádky.",
+        "text": "[reaction] Poté, co uspějete ve zkoumání o 2 nebo více, vyčerpejte Vybírání odpadků: Vezměte si do ruky kartu [[Předmět]] ze své odkládací hromádky.",
         "traits": "Vlastnost."
     },
     {
@@ -526,7 +526,7 @@
         "name": "Baseballová pálka",
         "text": "[action]: <b>Boj.</b> Bonus +2 [combat] pro tento útok. Tento útok působí +1 zranění. Pokud v tomto útoku vylosujete symbol [skull] nebo [auto_fail], po vyhodnocení útoku Baseballovou pálku odhoďte.",
         "traits": "Přednět. Zbraň. Na blízko.",
-        "slot": "Hand x2"
+        "slot": "2 ruce"
     },
     {
         "code": "01075",
@@ -534,15 +534,15 @@
         "name": "Králičí pacička",
         "text": "[reaction] Poté, co selžete ve zkoužce dovednosti, vyčerpejte Králičí pacičku: Doberte si 1 kartu.",
         "traits": "Předmět. Přívěšek.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01076",
         "flavor": "Nikdy nepřijde, když na ni zavoláte. Vypadá to, že má vždy své vlastní plány.",
         "name": "Toulavá kočka",
-        "text": "[free] Odhoďte Toulavou kočku: Automaticky se vyhněte nepříteli ve své lokaci, který není [[Elite]].",
+        "text": "[free] Odhoďte Toulavou kočku: Automaticky se vyhněte nepříteli ve své lokaci, který není [[Elitní]].",
         "traits": "Spojenec. Tvor.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01077",
@@ -582,12 +582,12 @@
         "subname": "Ztracená dcera",
         "text": "[reaction] Když na vás zaútočí nepřítel, vyčerpejte Aquinnah a udelte jí 1 strach: Daný nepřítel zraní místo vás jiného nepřítele ve vaší lokaci. (I nadále však utrpíte strach, který útok způsobil.)",
         "traits": "Spojenec.",
-        "slot": "Ally"
+        "slot": "Spojenec"
     },
     {
         "code": "01083",
         "name": "S odřenými zády",
-        "text": "Rychlá. Vyložte poté, co se ve vaší lokaci podaří vyhnout nepříteli, který není [[Elite]].\nZamíchejte daného nepřítele do balíčku střetnutí.",
+        "text": "Rychlá. Vyložte poté, co se ve vaší lokaci podaří vyhnout nepříteli, který není [[Elitní]].\nZamíchejte daného nepřítele do balíčku střetnutí.",
         "traits": "Štěstí."
     },
     {
@@ -607,21 +607,21 @@
         "name": "Nůž",
         "text": "[action]: <b>Boj.</b> Bonus +1 [combat] pro tento útok.\n[action] Odhoďte Nůž: <b>Boj.</b> Bonus +2 [combat] pro tento útok. Tento útok působí +1 zranění.",
         "traits": "Předmět. Zbraň. Na blízko.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01087",
         "name": "Svítilna",
         "text": "Použití (3 zásoby).\n[action] Použijte 1 zásobu: <b>Zkoumání.</b> Hodnota úkrytu vaší lokace je pro toto zkoumání snížena o 2.",
         "traits": "Předmět. Nástroj.",
-        "slot": "Hand"
+        "slot": "Ruka"
     },
     {
         "code": "01088",
         "flavor": "Není možné být příliš připravený.",
         "name": "Nouzová skrýš",
         "text": "Vezměte si 3 zdroje.",
-        "traits": "Supply."
+        "traits": "Zásoby."
     },
     {
         "code": "01089",
@@ -663,14 +663,14 @@
         "flavor": "Kulky jsou jedna věc... dvanáctipalcové tesáky docela jíná.",
         "name": "Neprůstřelná vesta",
         "traits": "Předmět. Zbroj.",
-        "slot": "Body"
+        "slot": "Tělo"
     },
     {
         "code": "01095",
         "flavor": "Toto je součástí naší rodiny po generace. Dávejte na to pozor a ono to dá pozor na vás.",
         "name": "Amulet s Temným znamením",
         "traits": "Předmět. Relikvie.",
-        "slot": "Accessory"
+        "slot": "Doplněk"
     },
     {
         "code": "01096",
@@ -722,7 +722,7 @@
         "code": "01103",
         "flavor": "Despite everything, he still won't believe you had nothing to do with those murders.",
         "name": "Neústupný detektiv",
-        "text": "<b>Oběť</b> - Pouze držitel.\nLovec.\nKdyž je Neústupný detektiv ve vaší lokaci, považujte textové pole svého vyšetřovatele za prázdné (neplatí pro [[Traits]]).",
+        "text": "<b>Oběť</b> - Pouze držitel.\nLovec.\nKdyž je Neústupný detektiv ve vaší lokaci, považujte textové pole svého vyšetřovatele za prázdné (neplatí pro [[Typy]]).",
         "traits": "Humanoid. Detektiv."
     }
 ]
