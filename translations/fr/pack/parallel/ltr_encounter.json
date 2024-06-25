@@ -1,0 +1,47 @@
+[
+  {
+    "back_text": "Difficile / Expert\n[skull] : -X. X est 2 de plus que le nombre de copies d’Affaires en cours dans la pile de victoire.\n[cultist] : -X. X est 2 fois le nombre de cartes attachées à l’Au-Delà.\n[tablet] : -X. X est deux fois le nombre de lieux [[Spectral]] en jeu.\n[elder_thing] : -3. S’il y a un ennemi [[Geist]] dans votre lieu, échouez automatiquement.",
+    "code": "90054",
+    "name": "Laid to Rest",
+    "text": "Facile / Standard\n[skull] : -X. X est 1 de plus que le nombre de copies d’Affaires en cours dans la pile de victoire.\n[cultist] : -X. X est le nombre de cartes attachées à l’Au-Delà..\n[tablet] : -X. X est le nombre de lieux [[Spectral]] en jeu.\n[elder_thing]: -2. S’il y a un ennemi [[Geist]] dans votre lieu, révélez un autre pion."
+  },
+  {
+    "back_name": "Il se fait tard...",
+    "back_flavor": "Un vent froid souffle sur la colline hantée, vous glaçant les os. Les esprits deviennent de plus en plus agités.",
+    "back_text": "Placez 1 horreur sur la carte référence du scénario dans la case Perturbation spirituelle. S’il y a 4 horreurs sur la carte référence du scénario, chaque investigateur qui n’a pas été éliminé est vaincu et subit 1 traumatisme mental. <b>(→C2)</b>\nSinon <i>(s’il y a 3 horreurs ou moins sur la carte référence du scénario)</i>, suivez ces instructions :\n- Placez des indices sur chaque lieu jusqu’à qu’il y ait 1 [per_investigator] indice sur chacun d’entre eux.\n- Retournez chaque lieu, à l’exception du lieu de Jean Devereux, sur sa face non-[[Spectral]].\nRetournez cette intrigue.",
+    "code": "90055",
+    "flavor": "La Colline du Pendu grouille de spectres.",
+    "name": "Brumes Rassembleuses",
+    "text": "<b>Forcé</b> – Quand la phase des ennemis débute : infligez 1 dégât à Jean Devereux pour chaque Esprit Vorace redressé dans son lieu.\n<b>Forcé</b> – Si Jim Culver est vaincu : avancez l’acte.\n[action] Dépensez collectivement 2 [per_investigator] indices : <b>Discussion.</b> Bannissez un esprit. Défaussez la carte du dessus du deck Esprit. <i>(Indice : piochez des Hérétiques dans l’Au-delà et convoquez-les avec l’aide de Jean !)</i>"
+  },
+  {
+    "back_name": "La Tempête Spectrale",
+    "back_flavor": "De doux chants vous guident vers une clairière obscure près de la chapelle abandonnée. Un cercle d’herbes sorcières entoure la clairière, se balançant doucement au gré de la brise. Au centre de la clairière, une femme masquée s'agenouille devant une tombe sans nom, éloignée du reste du cimetière. Vous observez quelques minutes la femme chanter une mélodie ancienne et sombre, rappelant un peu une berceuse d'enfant — apaisante, mais avec une gravité sombre qui trahit son objectif. Dès la fin de la chanson, le manteau de la femme se dissout dans la brume et elle disparaît dans un tourbillon d'ombres.",
+    "back_text": "<b>Si cet acte avance via son objectif :</b>\n<blockquote><i>“Attendez”, dit Jean, se stabilisant. Ses yeux se révulsent et il s'effondre dans vos bras en tremblant. L’énergie spirituelle autour de vous semble s’être arrêtée.</i></blockquote>\nTrouvez chaque Esprit Vorace en jeu et placez-le dans la pile de victoire. <b>(→C1)</b>\n<hr><b>Sinon :</b>\n<blockquote><i>“C’en est trop !” Jean hurle, en portant ses mains à ses oreilles ensanglantées. Un cri confus résonne à travers la colline balayée par le vent, alors que vous fuyez les lieux tous les deux.</i></blockquote>\nJim Culver subit 1 traumatisme mental pour chaque ennemi Hérétique toujours dans l’Au-Delà (avec un minimum d’1 traumatisme mental). Chaque autre investigateur qui n’est pas éliminé est vaincu et souffre d’1 traumatisme mental. <b>(→C2)</b>",
+    "code": "90056",
+    "flavor": "Si vous aidez ces fantômes, ils vous aideront.",
+    "name": "« Repos forcé",
+    "text": "[fast] Soit inclinez la Trompette de Jim, soit dépensez collectivement 1 [per_investigator] indice : choisissez un ennemi qui se déplace une fois vers le lieu de Jim Culver.\n[fast] Dépensez collectivement 1 [per_investigator] indice : retournez votre lieu. (Limite collective d’une fois par lieu.)\n<b>Objectif</b> – S’il y a 4 copies d’Affaires en cours dans la pile de victoire, avancez."
+  },
+  {
+    "code": "90057a",
+    "name": "Jean Devereux",
+    "subname": "Veut en finir",
+    "text": "Distant. Patrouille (le lieu avec un ennemi Esprit Vorace sous lui le plus proche). Ne peut pas être engagé.\n[action] Piochez une carte face cachée sous le lieu de Jean Devereux et choisissez un Hérétique attaché à l’Au-Delà : <b>Discussion.</b> Jim Culver pioche l’Hérétique choisi, le retourne et résout son texte.\n<b>Forcé</b> – Quand Jean Devereux devrait être vaincu : à la place, soignez tous ses dégâts et retournez-le.",
+    "traits": "Humanoïde. Sorcier. Élite."
+  },
+  {
+    "code": "90057b",
+    "name": "Jean Devereux",
+    "subname": "Possédé",
+    "text": "Chasseur. Proie – Jim Culver uniquement.\n[action]: <b>Discussion.</b> Effectuer un test de [willpower] (3). Ce teste gagne +1 difficulté pour chaque copie d’Affaires en cours dans la pile de victoire. En cas de réussite, soignez tous les dégâts de Jean Devereux et retournez-le <i>(il n’est plus engagé)</i>.\n<b>Forcé</b> – Si Jean Devereux est vaincu : avancez l’acte.",
+    "traits": "Humanoïde. Sorcier. Élite."
+  },
+  {
+    "code": "90058",
+    "name": "Esprit Vorace",
+    "subname": "Possédé",
+    "text": "Distant. Patrouille (le lieu de Jean Devereux). Riposte.\nL’Esprit Vorace gagne +2 [per_investigator] vie.\n<b>Forcé</b> – Quand cet ennemi pénètre dans un lieu : retournez ce lieu sur sa face [[Spectral]]. Un à la fois, chaque investigateur dans ce lieu résout chaque capacité hanté sur celui-ci.",
+    "traits": "Monstre. Geist. Spectral. Élite."
+  }
+]
