@@ -1,0 +1,975 @@
+[
+    {
+        "code": "10001",
+        "name": "Wilson Richards",
+        "subname": "The Handyman",
+        "text": "Reduce the resource cost of the first [[Tool]] asset you play each round by 1.\nYou get +1 skill value during skill tests on [[Tool]] assets.\n[elder_sign] effect: +0. You may swap a [[Tool]] asset in your play area with a [[Tool]] asset in your hand with equal or lower printed cost.",
+        "traits": "Drifter.",
+        "back_flavor": "Wilson takes pride in always having the right tool for the job. Leaky plumbing? Pipe wrench. Fallen tree? Hand saw. Interior remodeling? Sledgehammer. But recently his jobs in and around Arkham have taken on a certain strangeness. Creaky floorboards give way to labyrinthine tunnels. A broken roof shows signs of bursting outward instead of collapsing inward. It's Wilson's job to fix problems, and when those problems involve bizarre and horrifying creatures and unexplained phenomena, well, then it's time to get creative with what he's got.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Tool]] cards level 0-5, Guardian cards ([guardian]) level 0-4, Neutral cards level 0-5, up to 5 other [[Improvised]] and/or [[Upgrade]] cards level 0-1.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Ad Hoc, Hasty Repairs, 1 random basic weakness."
+    },
+    {
+        "code": "10002",
+        "flavor": "\"This is one heckuva job.\"",
+        "name": "Ad Hoc",
+        "text": "Wilson Richards deck only.\nAttach Ad Hoc to a [[Tool]] or [[Weapon]] asset you control.\n[reaction] After resolving an [action] ability on attached asset, exhaust Ad Hoc and discard a [[Tool]] or [[Weapon]] asset from your hand: Resolve an [action] ability on the discarded asset, ignoring all costs.",
+        "traits": "Improvised. Upgrade."
+    },
+    {
+        "code": "10003",
+        "name": "Hasty Repairs",
+        "text": "<b>Revelation</b> - Put Hasty Repairs into play in your threat area.\nWhile triggering abilities on assets you control, set your base skill value to 0.\n[action] [action]: Discard Hasty Repairs.",
+        "traits": "Blunder."
+    },
+    {
+        "code": "10004",
+        "name": "Kate Winthrop",
+        "subname": "The Scientist",
+        "text": "You begin the game with Flux Stabilizer <i>(Inactive)</i> side faceup.\n[fast]: Move 1 clue from Kate Winthrop to a [[Science]] or [[Tool]] asset you control with no clues on it.\n<b>Forced</b> - When an asset you control with a clue on it leaves play: Place its clue on your location.\n[elder_sign] effect: +0. You may move I clue from an asset you control back to Kate Winthrop.",
+        "traits": "Miskatonic. Scholar.",
+        "back_flavor": "Kate Winthrop has spent years researching in the basement of Miskatonic University's science building, passing up funding and academic prestige in pursuit of progress. Her single-minded focus finally paid off with the invention of the Flux Stabilizer: a powerful device capable of channeling a new form of energy. However, the price of progress is steep. The first successful test of this groundbreaking invention took the life of her friend and mentor Professor Young. Since then, Kate has worked tirelessly to understand these alien currents, in hopes that she find a way to reverse their effects.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, [[Science]] cards level 0-4, [[Insight]] cards level 0-1, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Flux Stabilizer, Failed Experiment, 1 random basic weakness."
+    },
+    {
+        "code": "10005",
+        "name": "Flux Stabilizer",
+        "subname": "Inactive",
+        "text": "Permanent. Kate Winthrop deck only.\n<b>Forced</b> - After a clue is placed on Flux Stabilizer: Search your bonded cards or discard pile for 1 copy of Aetheric Current and shuffle it into your deck. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
+        "traits": "Item. Tool. Science."
+    },
+    {
+        "code": "10005b",
+        "flavor": "Is this the same evergy harnessed by Nikola Tesla?",
+        "name": "Flux Stabilizer",
+        "subname": "Active",
+        "text": "Permanent.\n[reaction] When you place a clue on an asset you control: Get +2 skill value for your next skill test this phase.",
+        "traits": "Item. Tool. Science."
+    },
+    {
+        "code": "10006",
+        "name": "Aetheric Current",
+        "subname": "Yuggoth",
+        "text": "Bonded (Flux Stabilizer). Play only if Flux Stabilizer is on its <i>(Active)</i> side.\n<b>Fight.</b> Move all clues on assets you control to Kate Winthrop. For this attack, you may use [intellect] instead of [combat]. If you succeed and the attacked enemy is non-[[Elite]], you may exhaust it and move it to any location. Draw 1 card. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
+        "traits": "Science."
+    },
+    {
+        "code": "10007",
+        "name": "Aetheric Current",
+        "subname": "Yoth",
+        "text": "Bonded (Flux Stabilizer). Play only if Flux Stabilizer is on its <i>(Active)</i> side.\n<b>Evade.</b> Move all clues on assets you control to Kate Winthrop. For this evasion attempt, you may use [intellect] instead of [agility]. If you succeed and the target of this evasion is non-[[Elite]], shuftle it into the encounter deck. Draw 1 card. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
+        "traits": "Science."
+    },
+    {
+        "code": "10008",
+        "flavor": "\"I've made a huge mistake.\"",
+        "name": "Failed Experiment",
+        "text": "<b>Revelation</b> - Test [willpower] (3). This test gets +1 difficulty for each asset you control with a clue on it. For each point you fail by, you must either take 1 horror or place 1 of your clues on your location.",
+        "traits": "Blunder."
+    },
+    {
+        "code": "10009",
+        "flavor": "\"I love a good party.\"",
+        "name": "Alessandra Zorzi",
+        "subname": "The Countess",
+        "text": "You may take an additional action during your turn, which can only be used to parley.\n[elder_sign] effect: +2. If you succeed, choose a non-[[Elite]] enemy at your location or at a revealed connecting location. Automatically evade that enemy.",
+        "traits": "Drifter. Socialite.",
+        "back_flavor": "Alessandra's life of carefree luxury enables her to hop from a stately gala in New York City to a banquest with the Maharaja of India with ease. The Countess has sampled every dish, drink, and dame from Marrakesh to Chicago. The regal title is just an act, however: behind the scenes, Alessandra uses her cover to pilfer from art galleries, banks, and the hearts and pocketbooks of the rich and frivolous. Her silver tongue has gotten her into and out of plenty of trouble. A new job with the shadowy Zamacona brought Alessandra to Arkham, Massachusetts, where the Countess learned that more lurks beyond the suggestible rich and frivolous excess than she previously thought.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, cards with \"parley\" level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Beguile, Zamacona, 1 random basic weakness."
+    },
+    {
+        "code": "10010",
+        "name": "Beguile",
+        "text": "Alessandra Zorzi deck only. Fast. Play only during your turn.\nAttach Beguile to a non-[[Elite]] enemy at your location.\n[action]: <b>Parley.</b> Either move attached enemy to a revealed connecting location, or perform a basic investigate or evade action at its location. If you fail a skill test while resolving this ability, discard Beguile. You may activate this ability from any location.",
+        "traits": "Trick."
+    },
+    {
+        "code": "10011",
+        "name": "Zamacona",
+        "text": "Elusive.\n<b>Spawn</b> - Nearest empty location, if able.\nAlessandra Zorzi cannot parley with Zamacona.\n<b>Forced</b> - The first time Alessandra Zorzi parleys each round: Place 1 doom on Zamacona.",
+        "traits": "Humanoid. Criminal."
+    },
+    {
+        "code": "10012",
+        "flavor": "\"Why not greet the unknown with wonder rather than fear?\"",
+        "name": "Kōhaku Narukami",
+        "subname": "The Folklorist",
+        "text": "[reaction] At the start of your turn: Either add 1 [bless] token or 1 [curse] token to the chaos bag, whichever there are fewer of <i>(in case of a tie, you choose)</i>, or remove 2 [bless] tokens and 2 [curse] tokens from the chaos bag to take an additional action this turn.\n[elder_sign] effect: +2. Add 1 [bless] and 1 [curse] token to the chaos bag.",
+        "traits": "Scholar. Blessed. Cursed.",
+        "back_flavor": "Everyone in the Arkham Historical Society recognizes Kōhaku's booming laughter, and the haunting tales he tells of both the yōkai from his childhood home outside Tokyo and the strange creatures that haunt the Arkham Woods. The eccentric folklorist tells everyone that the chronicling and publication of these phenomena's existence will be his greatest work. It is only when he is home with his partner Gabriel that he hears the cries of the same spirit who haunted his father, and fears that his \"greatest work\" will never allow him a night's sleep.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Blessed]] cards level 0-5, [[Cursed]] cards level 0-5, [[Occult]] cards level 0, Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Book of Living Myths, Weeping Yurei, 1 random basic weakness."
+    },
+    {
+        "code": "10013",
+        "name": "Book of Living Myths",
+        "subname": "Chronicle of Wonders",
+        "text": "Kōhaku Narukami deck only.\n[reaction] When a chaos token would be revealed at your location, exhaust Book of Living Myths: Search the chaos bag for a [bless] or [curse] token, whichever there are more of <i>(in case of a tie, you choose)</i>, and resolve it instead.",
+        "traits": "Item. Tome. Blessed. Cursed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10014",
+        "name": "Weeping Yurei",
+        "text": "Aloof. Elusive. Hunter.\n<b>Prey</b> - Kōhaku Narukami only.\n<b>Forced</b> - After an investigator reveals a [bless] token or [curse] token during a skill test at Weeping Yurei's location, if it is ready: Weeping Yurei attacks that investigator. (Limit once per test).",
+        "traits": "Monster. Geist."
+    },
+    {
+        "code": "10015",
+        "name": "Hank Samson",
+        "subname": "The Farmhand",
+        "text": "You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When you would be defeated by damage and/or horror: Instead, heal all of your damage and horror and swap this card with its bonded [[Resolute]] version, either side faceup.\n[elder_sign] effect: +1.",
+        "traits": "Assistant. Warden.",
+        "back_flavor": "Growing up on a farm, Hank Samson did all the chores Ma and Pa told him to do, including taking care of his brothers and sisters. When Pa showed him the strange animals in the city stockyard, Hank felt uneasy, but he did as he was told. When Pa told him to wait, he waited. And when Pa didn't come back, Hank went to find him. Pa taught him that family is everything, and you don't just leave family behind.",
+        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other [[Innate]] and/or [[Spirit]] cards level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Stouthearted, \"Where's Pa?\", 1 random basic weakness."
+    },
+    {
+        "code": "10016a",
+        "name": "Hank Samson",
+        "subname": "The Farmhand",
+        "text": "Bonded (Hank Samson).\nYou cannot be healed. You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When 1 or more horror is placed on you: Draw 1 card.\n[elder_sign] effect: +1. Move 1 horror from Hank Samson to an asset you control.",
+        "traits": "Assistant. Resolute."
+    },
+    {
+        "code": "10016b",
+        "name": "Hank Samson",
+        "subname": "The Farmhand",
+        "text": "Bonded (Hank Samson).\nYou cannot be healed. You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When 1 or more damage is placed on you: Gain 2 resources.\n[elder_sign] effect: +1. Move 1 damage from Hank Samson to an asset you control.",
+        "traits": "Warden. Resolute."
+    },
+    {
+        "code": "10017",
+        "flavor": "Everyone is a hero to someone.",
+        "name": "Stouthearted",
+        "text": "Hank Samson deck only.\nFast. Play when you engage a non-[[Elite]] enemy.\nMove up to 2 damage and/or horror from Hank Samson to that enemy, as damage.",
+        "traits": "Spirit."
+    },
+    {
+        "code": "10018",
+        "name": "\"Where's Pa?\"",
+        "text": "<b>Revelation</b> - Discard cards from the top of the encounter deck until an enemy is discarded. Attach \"Where's Pa?\" to that enemy and spawn it at a connecting location, if able.\nAttached enemy gains elusive.\n<b>Forced</b> - At the end of the round: Hank Samson takes 1 direct horror.",
+        "traits": "Flaw."
+    },
+    {
+        "code": "10019",
+        "flavor": "Never forget those who came before.",
+        "name": "Ancestral Token",
+        "text": "[reaction] After you defeat an enemy, exhaust Ancestral Token: Add [bless] tokens to the chaos bag equal to that enemy's printed health (max 5).",
+        "traits": "Item. Charm. Blessed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10020",
+        "flavor": "\"It cleans! It fixes! It picks, plucks, shines, and swishes!\"\n-Schoffner's Catalogue, Winter 1924 ed.",
+        "name": "Cleaning Kit",
+        "text": "Uses (3 supplies).\nSupplies on Cleaning Kit may be spent as if they were supplies or ammo on assets you control.",
+        "traits": "Item. Tool.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10021",
+        "name": "Katana",
+        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this test. If you succeed by exactly 2, you may exhaust Katana to deal +2 damage for this attack.\n[fast]Exhaust Katana: <b>Fight.</b> Use [agility] instead of [combat] for this attack.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "10022",
+        "name": "Ofuda",
+        "text": "Uses (1 charge). Replenish this charge the first time a [bless] token is revealed at your location each round.\n[fast] Choose a non-[[Elite]] enemy at your location and spend 1 charge: That enemy loses the alert, aloof, elusive, and retaliate keywords until the end of the round.",
+        "traits": "Item. Charm. Blessed."
+    },
+    {
+        "code": "10023",
+        "name": "Wolf Mask",
+        "subname": "The Moon's Sire",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you engage an enemy.\n[fast] Spend 1 offering: You get +2 [combat] or +2 [agility] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10024",
+        "name": "Absolution",
+        "text": "Reveal 3 random tokens from the chaos bag, along with X additional tokens.\nFor each non-symbol token revealed, add 1 [bless] token to the chaos bag. For each [bless] token revealed, heal 1 horror from an investigator or [[Ally]] asset at your location.",
+        "traits": "Spell. Blessed."
+    },
+    {
+        "code": "10025",
+        "name": "Guided by Faith",
+        "text": "<b>Investigate.</b> You may use [willpower] instead of [intellect] for this investigation. Before revealing chaos tokens for this test, add 2 [bless] tokens to the chaos bag. If a [bless] or [elder_sign] token is revealed during this skill test, discover 1 additional clue at your location.",
+        "traits": "Spirit. Blessed."
+    },
+    {
+        "code": "10026",
+        "flavor": "\"H-hands where I can see 'em!\"",
+        "name": "Hold Up",
+        "text": "<b>Parley.</b> Choose an enemy at your location and an [[Item]] asset in your hand. Perform a fight action against the chosen enemy. If you succeed, instead of dealing damage, play the chosen asset, reducing its cost by each point you succeeded by.",
+        "traits": "Tactic. Trick."
+    },
+    {
+        "code": "10027",
+        "name": "Task Force",
+        "text": "As an additional cost to play Task Force, spend an action. One at a time, in any order, choose an investigator at your location to...\n- ...resolve an [action] ability on an asset they control without paying its [action] cost.\n- ...move to a connecting location.\n- ...discover 1 clue at their location.",
+        "traits": "Tactic. Double."
+    },
+    {
+        "code": "10028",
+        "flavor": "\"You still call that a wrench?!\"",
+        "name": "Tinker",
+        "text": "Fast. Play only during your turn.\nAttach Tinker to a [[Tool]] asset in your play area. Limit 1 per asset.\nAttached asset takes up 1 fewer hand or accessory slot.",
+        "traits": "Insight. Upgrade."
+    },
+    {
+        "code": "10029",
+        "name": "Purified",
+        "text": "Max 1 committed per skill test.\nYou may commit Purified to any type of test.\nIf this test is successful, for each point you succeeded by (to a maximum of 5), add 1 [bless] token or remove 1 [curse] token from the chaos bag.",
+        "traits": "Innate. Blessed."
+    },
+    {
+        "code": "10030",
+        "flavor": "Keep your eyes on the target.",
+        "name": "Hand-Eye Coordination",
+        "text": "Fast. Play only during your turn.\nResolve an [action] ability on a [[Tool]] or [[Weapon]] asset you control without paying its [action] cost.",
+        "traits": "Insight."
+    },
+    {
+        "code": "10031",
+        "name": "Strong-Armed",
+        "text": "While Strong-Armed is committed to an attack using a [[Melee]] or [[Ranged]] asset, this attack deals +1 damage. After revealing chaos token(s) for this skill test, you may take 1 damage to cancel that chaos token, return it to the chaos bag, and reveal a new one. <i>(You may do this any number of times.)</i>",
+        "traits": "Innate."
+    },
+    {
+        "code": "10032",
+        "name": "Second Wind",
+        "text": "Play only as your first action.\nHeal 2 damage (3 instead if you drew a treachery this round). Draw 1 card.",
+        "traits": "Spirit. Bold."
+    },
+    {
+        "code": "10033",
+        "flavor": "\"It cleans! It fixes! It picks, plucks, shines, and swishes!\"\n-Schoffner's Catalogue, Winter 1924 ed.",
+        "name": "Cleaning Kit",
+        "text": "Uses (4 supplies).\nSupplies on Cleaning Kit may be spent as if they were supplies or ammo on assets you control.\n[reaction] When a supply is spent from Cleaning Kit, exhaust it: The performing investigator gets +2 skill value for this test.",
+        "traits": "Item. Tool.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10034",
+        "name": "Blessed Blade",
+        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, it deals +1 damage. Return each [bless] token revealed during this attack to the chaos bag. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 2 [bless] tokens to the chaos bag.",
+        "traits": "Item. Weapon. Melee. Blessed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10035",
+        "name": "Eyes of Valusia",
+        "subname": "The Mother's Cunning",
+        "text": "[action]: <b>Parley.</b> Choose an enemy at your location. Until the end of the round, each investigator gets +1 skill value while fighting, evading, or parleying with the chosen enemy. Place 1 resource on Eyes of Valusia, as a charge.\n[fast]: Search your bonded cards for Blade of Yoth and swap it with Eyes of Valusia, moving all charges from Eyes of Valusia to Blade of Yoth.",
+        "traits": "Item. Relic. Spell.",
+        "slot": "Hand. Arcane"
+    },
+    {
+        "code": "10036",
+        "name": "Blade of Yoth",
+        "subname": "The Father's Ire",
+        "text": "Bonded (Eyes of Valusia).\n[action] Spend 1-3 charges: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat]. You get +2 skill value and deal +1 damage for each charge spent as part of this action's cost.\n[fast]: Search your bonded cards for Eyes of Valusia and swap it with Blade of Yoth, discarding all charges.",
+        "traits": "Item. Relic. Weapon. Melee.",
+        "slot": "Hand. Arcane"
+    },
+    {
+        "code": "10037",
+        "name": "Flurry of Blows",
+        "text": "Play only if you control a [[Melee]] asset. As an additional cost to play Flurry of Blows, spend an action.\n<b>Fight.</b> Choose a [[Melee]] asset you control and take an immediate fight action with that asset <i>(without paying its [action] cost)</i>. You may repeat this effect up to three times. After the final attack resolves, if it is your turn, end your turn.",
+        "traits": "Tactic. Double. Fated."
+    },
+    {
+        "code": "10038",
+        "name": "Miracle Wish",
+        "text": "Fast. Play after 1 or more [bless] tokens are revealed during a skill test at your location.\nSearch your bonded cards for Evanescent Ascension and put it into play. Place up to X resources on it, as wishes (to a maximum of the number of [bless] tokens revealed). Remove Miracle Wish from the game.",
+        "traits": "Favor. Blessed."
+    },
+    {
+        "code": "10039",
+        "name": "Evanescent Ascension",
+        "subname": "The Morning Star",
+        "text": "Bonded (Miracle Wish). If Evanescent Ascension has no wishes, set it aside, out of play.\n[reaction] When an investigator at your location would fail a skill test, spend 1 wish and exhaust Evanescent Ascension: Resolve that investigator's [elder_sign] effect <i>(in addition to all other tokens revealed during this test)</i>.",
+        "traits": "Ritual. Pact. Blessed.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "10040",
+        "name": "Chemistry Set",
+        "text": "[action] Exhaust Chemistry Set: <b>Investigate.</b> If you...\n- ...fail by exactly 2, discard Chemistry Set.\n- ...succeed by exactly 0, gain 2 resources.\n- ...succeed by exactly 2, draw 1 card.\n- ...succeed by exactly 4, discover 1 additional clue at your location.",
+        "traits": "Item. Tool. Science.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10041",
+        "name": "Dr. Charles West III",
+        "subname": "Knows His Purpose",
+        "text": "You have 1 additional hand slot, which can only be used to hold a [[Tool]] asset.\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dr. Charles West III: Deal 1 damage to an enemy at your location.",
+        "traits": "Ally. Science.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10042",
+        "name": "Microscope",
+        "text": "[reaction] After an enemy at your location is successfully evaded or defeated, exhaust Microscope: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +1 [intellect] for this investigation for each evidence on Microscope (max +3 [intellect]). If you succeed, you may spend up to 2 evidence to discover that many additional clues at your location.",
+        "traits": "Item. Tool. Science.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10043",
+        "name": "Mouse Mask",
+        "subname": "The Meek Watcher",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you reveal a location or put a new location into play.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [intellect] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10044",
+        "name": "Ravenous Myconid",
+        "subname": "Unidentified",
+        "text": "Limit 1 per deck.\n[action]: Search your bonded cards for Uncanny Growth and add it to your hand.\n[action] If Ravenous Myconid has 3 or more growth on it: Move each growth to your resource pool, as resources. Record in your Campaign Log that \"you have classified a new species.\"",
+        "traits": "Creature. Monster. Flora. Science."
+    },
+    {
+        "code": "10045",
+        "name": "Uncanny Growth",
+        "text": "Bonded (Ravenous Myconid).\n<b>Investigate.</b> After this test resolves, place 1 resource on Ravenous Myconid, as growth, for each point you succeed by. Set Uncanny Growth aside, out of play. If you fail, return Uncanny Growth to your hand.",
+        "traits": "Insight. Science."
+    },
+    {
+        "code": "10046",
+        "flavor": "\"There was a solution which he injected into the veins of dead things, and if they were fresh enough they responded in strange ways.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimator</i>",
+        "name": "Control Variable",
+        "text": "Fast. Play after an investigator reveals a h token during a skill test at your location.\nDiscover 1 clue at your location.",
+        "traits": "Insight. Science. Cursed."
+    },
+    {
+        "code": "10047",
+        "name": "Testing Sprint",
+        "text": "As an additional cost to play Testing Sprint, spend an action.\n<b>Investigate.</b> One at a time, investigate your location and each connecting location once each in ascending order of shroud, until you either fail to investigate or successfully investigate each eligible location.",
+        "traits": "Insight. Double."
+    },
+    {
+        "code": "10048",
+        "flavor": "The truth is often hidden in plain sight.",
+        "name": "Thorough Inquiry",
+        "text": "As an additional cost to play Thorough Inquiry, spend an action.\nInvestigators at your location draw a combined total of 5 cards <i>(you decide how many cards each investigator draws)</i>.",
+        "traits": "Insight. Double."
+    },
+    {
+        "code": "10049",
+        "flavor": "\"Kid, you... you took that a lot more literally than I expected you to.\"",
+        "name": "\"Throw the Book at Them!\"",
+        "text": "<b>Fight.</b> Choose a [[Tome]] asset you control. You get +X [combat] for this attack, where X is that asset's printed cost. If you succeed, you may either automatically evade the attacked enemy, or after the attack ends, you may resolve an [action] or [fast] ability on the chosen asset <i>(ignoring its [action] cost, if any)</i>.",
+        "traits": "Gambit. Improvised."
+    },
+    {
+        "code": "10050",
+        "flavor": "\"I said 'blow it up,' not '<u>blow</u> it up!\"",
+        "name": "Transmogrify",
+        "text": "<b>Evade.</b> You may use [intellect] instead of [agility] for this evasion attempt. If you succeed and the enemy is non-[[Elite]], attach Transmogrify to it.\nAttached enemy gains: \"Massive. Cannot move.\n[reaction] After you evade this enemy: Discover 1 clue at its location. (Limit once per round.)\"",
+        "traits": "Gambit. Science."
+    },
+    {
+        "code": "10051",
+        "flavor": "Every cent of that research grant counts.",
+        "name": "Well-Funded",
+        "text": "While you control a [[Science]] or [[Tool]] asset, Well-Funded gains [wild] (while you control 3 or more [[Science]] and/or [[Tool]] assets, Well-Funded gains [wild] [wild], instead).",
+        "traits": "Fortune."
+    },
+    {
+        "code": "10052",
+        "flavor": "\"Helping you is easier than teaching my students geometry.\"",
+        "name": "Gabriel Carillo",
+        "subname": "Trusted Confidante",
+        "text": "You get +1 [intellect].\n[reaction] At the start of your turn, add 1 [curse] token to the chaos bag: Draw 1 card.",
+        "traits": "Ally. Scholar. Cursed.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10053",
+        "flavor": "A nick can be the difference between life and death.",
+        "name": "Steady-Handed",
+        "text": "Limit 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
+        "traits": "Talent. Science."
+    },
+    {
+        "code": "10054",
+        "flavor": "\"I assure you there's nothing to fear!\"",
+        "name": "Fine Tuning",
+        "text": "Attach to a [[Tool]] or [[Science]] asset you control. Limit 1 per asset.\n[reaction] After attached asset exhausts, exhaust Fine Tuning: Ready attached asset.",
+        "traits": "Insight. Upgrade."
+    },
+    {
+        "code": "10055",
+        "flavor": "Rumor has it the university's last phrenology professor enjoyed an unnaturally long tenure.",
+        "name": "Esoteric Method",
+        "text": "After this skill test ends, add 1 [curse] token to the chaos bag for each point the performing investigator either succeeded or failed by.",
+        "traits": "Practiced. Cursed."
+    },
+    {
+        "code": "10056",
+        "name": "Prismatic Spectacles",
+        "subname": "Lens to the Otherworld",
+        "text": "[action] Add 1 [curse] token to the chaos bag: <b>Investigate.</b> You get +2 skill value for this investigation. If a [curse] token is revealed during this investigation, you may exhaust Prismatic Spectacles to discover 1 additional clue at your location.",
+        "traits": "Item. Relic. Cursed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10057",
+        "flavor": "\"It'll never work, Herbert.\"",
+        "name": "Confound",
+        "text": "<b>Parley.</b> Choose an enemy at your location. Test [intellect] (X), where X is the chosen enemy's evade value. If you succeed, discover 2 clues at your location. Then, if the chosen enemy is non-[[Elite]], automatically evade it. It does not ready during the next upkeep phase.",
+        "traits": "Insight. Trick."
+    },
+    {
+        "code": "10058",
+        "name": "Microscope",
+        "text": "[reaction] After an enemy at your location is successfully evaded or defeated: Place 1 resource on Microscope, as evidence.\n[action] [action]: <b>Investigate.</b> You get +2 [intellect] for this investigation for each evidence on Microscope (max +6 [intellect]). If you succeed, you may spend up to 3 evidence to discover that many additional clues at your location.",
+        "traits": "Item. Tool. Science.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10059",
+        "name": "Ravenous Myconid",
+        "subname": "Sentient Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[reaction] When an investigator draws a non-weakness treachery card, it their locations shroud is equal to or less than Ravenous Myconid's growth: Cancel that treachery's effects and discard it. Remove all growth from Ravenous Myconid.",
+        "traits": "Creature. Science."
+    },
+    {
+        "code": "10060",
+        "name": "Ravenous Myconid",
+        "subname": "Carnivorous Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Choose a non-[[Elite]] enemy at your location with equal or fewer remaining health than the amount of growth on Ravenous Myconid: Defeat that enemy. Remove all growth from Ravenous Myconid.",
+        "traits": "Monster. Science."
+    },
+    {
+        "code": "10061",
+        "name": "Ravenous Myconid",
+        "subname": "Nurturing Strain",
+        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Remove all growth from Ravenous Myconid: Either heal that much damage/horror from Ravenous Myconid, or move that much damage/horror from investigators or Ally assets at your location to Ravenous Myconid.",
+        "traits": "Flora. Science."
+    },
+    {
+        "code": "10062",
+        "name": "Bianca \"Die Katz\"",
+        "subname": "Singing Your Song",
+        "text": "Limit 1 per deck. Uses (10 resources).\n[action] Exhaust Bianca \"Die Katz\": <b>Parley.</b> Move X resources from Bianca \"Die Katz\" to your resource pool. X cannot be more than 5. Test [agility] (X). If you fail, remember \"you owe Bianca X resources.\" Then, search your bonded cards for the Bianca \"Die Katz\" enemy and spawn her at your location. Remove this card from the game.",
+        "traits": "Ally. Criminal. Socialite.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10063",
+        "name": "Bianca \"Die Katz\"",
+        "text": "Bonded (Bianca \"Die Katz\"). Hunter.\n<b>Prey</b> - Bearer only.\n[action] If \"you owe Bianca X resources,\" spend X resources: <b>Parley.</b> Add Bianca \"Die Katz\" to the victory display.\n<b>Forced</b> - When Bianca \"Die Katz\" leaves play (except by the above ability: Shuffle her into your deck.",
+        "traits": "Humanoid. Criminal. Socialite."
+    },
+    {
+        "code": "10064",
+        "name": "Blackmail File",
+        "text": "[action] Choose a non-[[Elite]] enemy at your location: <b>Parley.</b> Test [willpower] (X), where X is that enemy's printed health value. If you succeed, that enemy disengages from each investigator and gains aloof until the end of the round.",
+        "traits": "Item. Tome. Illicit."
+    },
+    {
+        "code": "10065",
+        "name": "British Bull Dog",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat], for this attack. This attack deals +1 damage.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
+        "traits": "Item. Weapon. Firearm. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10066",
+        "name": "Fake Credentials",
+        "text": "[action] Choose an enemy at your location and exhaust Fake Credentials: <b>Parley.</b> Test [intellect] (1). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your location and place 1 resource on Fake Credentials, as suspicion. If you fail, you must either discard Fake Credentials, or the chosen enemy attacks you.",
+        "traits": "Item. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10067",
+        "name": "Fox Mask",
+        "subname": "The Wise Trickster",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you move out of a location with an enemy.\n[fast] Spend 1 offering: You get +2 [intellect] or +2 [agility] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10068",
+        "flavor": "\"Let faith oust fact; let fancy oust memory; I look deep down and do believe.\" - Herman Melville, <u>Moby-Dick</u>",
+        "name": "Scrimshaw Charm",
+        "subname": "From Distant Shores",
+        "text": "[action] Add 1-3 [curse] tokens to the chaos bag and exhaust Scrimshaw Charm: Gain 1 resource. For each token added, gain 1 additional resource.",
+        "traits": "Item. Charm. Cursed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10069",
+        "flavor": "\"No names, Skids.\"\n\"Sorry, Finn.\"",
+        "name": "Bank Job",
+        "subname": "From Distant Shores",
+        "text": "As an additional cost to play Bank Job, spend an action.\nInvestigators at your location gain a total of 8 resources, distributed as you wish.",
+        "traits": "Gambit. Double. Illicit",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10070",
+        "flavor": "\"You'd have made a pretty good cowboy.\"",
+        "name": "False Surrender",
+        "text": "<b>Parley.</b> Choose an enemy at your location and play a [[Weapon]] asset from your hand, reducing its cost by 1. You may then take a fight action with that weapon against the chosen enemy, using [agility] instead of the skill indicated.",
+        "traits": "Tactic. Trick."
+    },
+    {
+        "code": "10071",
+        "flavor": "\"Look! A dumb bird!\"\n\"I don't see a bird.\"\n\"I do.\"",
+        "name": "Grift",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [agility] (0). For each point you succeed by, gain 1 resource (to a maximum of 6). If you fail, that enemy attacks you.",
+        "traits": "Trick. Illicit."
+    },
+    {
+        "code": "10072",
+        "name": "\"I'll Pay You Back!\"",
+        "text": "Fast. Play only during your turn.\nChoose an investigator at your location. Move all resources from that investigator's resource pool to your resource pool. At the end of the round, move all resources from your resource pool to that investigator's resource pool.",
+        "traits": "Gambit. Trick."
+    },
+    {
+        "code": "10073",
+        "flavor": "\"He did say something about your hair...\"",
+        "name": "Stir the Pot",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [intellect] (X), where X is the chosen enemy's combined damage and horror values. If you succeed, deal 2 damage to each enemy at your location. If you succeed by 2 or more, after this effect resolves you may disengage from each enemy and move to a connecting location.",
+        "traits": "Trick. Gambit."
+    },
+    {
+        "code": "10074",
+        "name": "Vamp",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test any skill (3). If you succeed and you tested...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. If it is non-[[Elite]], move it to a connecting location.\n- ...[combat], deal 2 damage to that enemy.",
+        "traits": "Trick."
+    },
+    {
+        "code": "10075",
+        "flavor": "\"Shoggoths. Why did it have to be shoggoths?\"",
+        "name": "Diabolical Luck",
+        "text": "When you reveal a [curse] token during a skill test you are performing, you may commit Diabolical Luck to that skill test from your hand. If you do, Diabolical Luck gains [wild][wild][wild].",
+        "traits": "Fortune. Cursed."
+    },
+    {
+        "code": "10076",
+        "flavor": "\"I never ran from anything like that devil tonight, though. Hope I never have to again.\"\n-<i>Rita Young, Investigators of Arkham Horror</i>",
+        "name": "Lightfooted",
+        "text": "If this skill test is successful during an evasion attempt, you may automatically evade another enemy at your location.",
+        "traits": "Practiced. Trick."
+    },
+    {
+        "code": "10077",
+        "name": "British Bull Dog",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat] for this attack and you get +2 skill value. This attack deals +1 damage. Ignore the aloof keyword for this attack.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
+        "traits": "Item. Weapon. Firearm. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10078",
+        "flavor": "\"I shouldn't be telling you this, but since you seem trustworthy...\"",
+        "name": "Snitch",
+        "text": "Fast. Play after you succeed at a skill test while parleying.\nDiscover 2 total clues from among your location and connecting locations.",
+        "traits": "Favor. Trick."
+    },
+    {
+        "code": "10079",
+        "name": "Bewitching",
+        "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different Trick cards, and attach them facedown to Bewitching. Shuffle your deck.\n[reaction] When you engage an enemy, exhaust Bewitching: Either draw 1 attached card, or search the top 9 cards of your deck for a copy of an attached card, draw it, and shuffle your deck.",
+        "traits": "Talent. Trick."
+    },
+    {
+        "code": "10080",
+        "name": "Dirty Deeds",
+        "text": "As an additional cost to play Dirty Deeds, spend an action.\nSearch your deck for an [[Illicit]] asset and play it, paying its cost. Then, you may resolve an [action] or [fast] ability on that asset, ignoring all costs <i>(including its [action] cost, if any)</i>. Playing this card does not provoke attacks of opportunity.",
+        "traits": "Favor. Double. Illicit."
+    },
+    {
+        "code": "10081",
+        "name": "Vamp",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test any number of skills. One at a time, in any order, test each chosen skill (2). For each test you succeeded, if it was...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. Move it to a connecting location if it is non-[[Elite]].\n- ...[combat], deal 2 damage to that enemy.",
+        "traits": "Trick."
+    },
+    {
+        "code": "10082",
+        "name": "Fake Credentials",
+        "text": "[action] Choose an enemy at your location: <b>Parley.</b> Test [intellect](0). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your location or a connecting location. If you did not succeed by 2 or more, place 1 resource on Fake Credentials, as suspicion. If you fail, return Fake Credentials to your hand.",
+        "traits": "Item. Illicit.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10083",
+        "flavor": "\"...and I heard he called you stupid too!\"",
+        "name": "Stir the Pot",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [intellect] (X), where X is the chosen enemy's combined damage/horror values. If you succeed, deal X damage to each enemy at your location. After this effect resolves, you may disengage from each enemy and move to a connecting location.",
+        "traits": "Trick. Gambit."
+    },
+    {
+        "code": "10084",
+        "name": "Cat Mask",
+        "subname": "The Capricious Meddler",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 2 of these offerings after doom is placed on a card with no doom.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [combat] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10085",
+        "name": "Rod of Carnamagos",
+        "subname": "Scepter of the Mad Seer",
+        "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. If a [curse] token is revealed, search your bonded cards for a random [[Rot]] event and attach it to that enemy.",
+        "traits": "Item. Relic. Occult. Cursed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10086",
+        "name": "Abyssal Rot",
+        "text": "Bonded (Rod of Carnamagos)\nAttached enemy cannot attack.\n<b>Forced</b> - When attached enemy leaves play: Set Abyssal Rot aside, out of play.",
+        "traits": "Spell. Rot. Cursed."
+    },
+    {
+        "code": "10087",
+        "name": "Aember Rot",
+        "text": "Bonded (Rod of Carnamagos)\n<b>Forced</b> - When attached enemy is defeated: Gain resources equal to its printed health (to a maximum of 5).\n<b>Forced</b> - When attached enemy leaves play: Set Aember Rot aside, out of play.",
+        "traits": "Spell. Rot. Cursed."
+    },
+    {
+        "code": "10088",
+        "name": "Putrescent Rot",
+        "text": "Bonded (Rod of Carnamagos)\nAttached enemy gets -1 fight and -1 evade.\n<b>Forced</b> - When attached enemy leaves play: Set Putrescent Rot aside, out of play.",
+        "traits": "Spell. Rot. Cursed."
+    },
+    {
+        "code": "10089",
+        "name": "Scarlet Rot",
+        "text": "Bonded (Rod of Carnamagos)\n<b>Forced</b> - At the end of the round: Attached enemy takes 1 damage.\n<b>Forced</b> - When attached enemy leaves play: Set Scarlet Rot aside, out of play.",
+        "traits": "Spell. Rot. Cursed."
+    },
+    {
+        "code": "10090",
+        "name": "Virescent Rot",
+        "text": "Bonded (Rod of Carnamagos)\nAttached enemy cannot move.\n<b>Forced</b> - When attached enemy leaves play: Set Virescent Rot aside, out of play.",
+        "traits": "Spell. Rot. Cursed."
+    },
+    {
+        "code": "10091",
+        "name": "Speak to the Dead",
+        "text": "Uses (6 offerings).\n[action] Spend any number of offerings: <b>Parley.</b> Choose a [[Spell]] or [[Ritual]] event in your discard pile and reveal tokens from the chaos bag equal to the number of offerings spent. If at least 1 [skull] or [curse] token was revealed, return the chosen event to your hand.",
+        "traits": "Talent. Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "10092",
+        "name": "Wicked Athame",
+        "subname": "Cursed Blade",
+        "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for this attack for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
+        "traits": "Item. Weapon. Melee. Cursed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10093",
+        "name": "Antediluvian Hymn",
+        "text": "As an additional cost to play Antediluvian Hymn, spend an action.\nReveal the top 5 cards of the encounter deck. For each card revealed, you may add 1 [curse] token to the chaos bag to place that card on the bottom of the encounter deck. Return the rest to the top of the encounter deck in any order.",
+        "traits": "Augury. Double."
+    },
+    {
+        "code": "10094",
+        "flavor": "What was yours is now mine.",
+        "name": "Drain Essence",
+        "text": "<b>Parley.</b> Choose an enemy at your location and test [willpower](X), where X is the chosen enemy's fight value. If you succeed, move 1 damage from your investigator to the chosen enemy (up to 2 damage instead if the chosen enemy is non-[[Elite]]).",
+        "traits": "Spell."
+    },
+    {
+        "code": "10095",
+        "flavor": "Not all who wander are lost.",
+        "name": "Accursed",
+        "text": "When you commit Accursed to a skill test, add up to 3 [curse] tokens to the chaos bag. During this skill test, treat the modifier of each [curse] token revealed as 0.",
+        "traits": "Innate. Cursed."
+    },
+    {
+        "code": "10096",
+        "flavor": "The dreaming mind is as deep as any sea.",
+        "name": "Mesmeric Influence",
+        "text": "While this card is committed to a skill test, the performing investigator may ignore all keyword or location effects that would trigger during this test.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "10097",
+        "flavor": "You must invest yourself in every spell. Sometimes literally.",
+        "name": "Olive McBride",
+        "text": "[reaction] When you would reveal a chaos token, exhaust Olive McBride: Reveal 4 chaos tokens instead of 1. Choose 2 of those tokens to resolve, and ignore the rest.",
+        "traits": "Ally. Witch.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10098",
+        "name": "Rod of Carnamagos",
+        "subname": "Scepter of the Mad Seer",
+        "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. For each [curse] token revealed, you may search your bonded cards for a [[Rot]] event and attach it to that enemy.",
+        "traits": "Item. Relic. Occult. Cursed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10099",
+        "name": "Call the Beyond",
+        "text": "As an additional cost to play Call the Beyond, add 3 [curse] tokens to the chaos bag.\nChoose an asset vou control with \"uses (charges)\" or \"uses (secrets)\". Replenish all of that asset's charges or secrets. Then, you may resolve an [action] or [fast] ability on that asset without paying its [action] cost, if any.",
+        "traits": "Ritual. Cursed."
+    },
+    {
+        "code": "10100",
+        "name": "Ethereal Form",
+        "text": "<b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies). If a symbol was revealed during this evasion attempt, return Ethereal Form to your hand at the end of your turn.",
+        "traits": "Spell."
+    },
+    {
+        "code": "10101",
+        "name": "Read the Signs",
+        "text": "<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location. If a symbol was revealed during this investigation, return Read the Signs to your hand at the end of your turn.",
+        "traits": "Spell."
+    },
+    {
+        "code": "10102",
+        "name": "Spectral Razor",
+        "text": "<b>Fight.</b> Add your [willpower] value to your skill value for this attack. Immediately before this attack, you may engage the attacked enemy. This attack deals + 1 damage (+2 damage instead if the enemy is non-[[Elite]]). If a symbol was revealed during this attack, return Spectral Razor to your hand at the end of your turn.",
+        "traits": "Spell."
+    },
+    {
+        "code": "10103",
+        "name": "Ethereal Weaving",
+        "text": "As an additional cost to play Ethereal Weaving, spend an action.\nReveal up to 3 different [[Spell]] events from your hand. One at a time, play each revealed event, reducing its cost by 1. While resolving each of these events, you get +2 skill value.",
+        "traits": "Spirit. Double."
+    },
+    {
+        "code": "10104",
+        "name": "The Key of Solomon",
+        "subname": "Secrets of the Unknown",
+        "text": "[fast] If there are more [bless] than [curse] tokens in the chaos bag, remove 1 [bless] token from the chaos bag and exhaust The Key of Solomon: Heal up to 2 damage and/or horror from an investigator or [[Ally]] asset at your location.\n[fast] If there are more [curse] than [bless] tokens in the chaos bag, remove 1 [curse] token from the chaos bag and exhaust The Key of Solomon: Gain 2 resources.",
+        "traits": "Item. Tome. Blessed. Cursed.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10105",
+        "name": "Seal of the Elders",
+        "text": "Fast. Play after a skill test at your location ends in which at least 2 [curse] tokens or 2 [bless] tokens were revealed.\nIf 2 [curse] tokens were revealed, search your bonded cards for 1 copy of Servant of Brass and put it into play. If 2 [bless] tokens were revealed, search your bonded cards for Keeper of the Key and put it into play. If 2 [curse] tokens and 2 [bless] tokens were revealed, do both instead. Remove Seal of the Elders from the game.",
+        "traits": "Spell. Pact. Blessed. Cursed."
+    },
+    {
+        "code": "10106",
+        "name": "Keeper of the Key",
+        "subname": "Celestial Ward",
+        "text": "Bonded (Seal of the Elders).\n[reaction] When a [bless] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+        "traits": "Summon."
+    },
+    {
+        "code": "10107",
+        "name": "Servant of Brass",
+        "subname": "Daemonaic Vassal",
+        "text": "Bonded (Seal of the Elders).\n[reaction] When a [curse] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
+        "traits": "Summon."
+    },
+    {
+        "code": "10108",
+        "name": "Matchbox",
+        "text": "Uses (3 supplies). If Matchbox has no supplies, discard it.\n[fast] During any investigator's turn, exhaust Matchbox and spend 1 supply: Your location gets -1 shroud until the end of this turn.",
+        "traits": "Item. Tool."
+    },
+    {
+        "code": "10109",
+        "name": "Pelt Shipment",
+        "text": "While Pelt Shipment is in your hand, your maximum hand size is reduced by 3.\n[reaction] When the game ends or you resign, if Pelt Shipment is in your hand: Reduce the experience cost of the next new card you purchase before the next scenario by 1.",
+        "traits": "Item. Supply."
+    },
+    {
+        "code": "10110",
+        "name": "Pitchfork",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +2 damage for this attack. If this attack is successful, lose control of Pitchfork and attach it to your location. Your location gains:\n\"[action]: Take control of Pitchfork. Any investigator at Pitchfork's location may trigger this ability.\"",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "10111",
+        "name": "Sparrow Mask",
+        "subname": "The Wanderer's Companion",
+        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you take 1 or more damage and/or horror.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [agility] for this skill test. (Limit once per test.)",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10112",
+        "name": "Elaborate Distraction",
+        "text": "As an additional cost to play Elaborate Distraction, spend an action. Playing Elaborate Distraction does not provoke attacks of opportunity.\nFor each enemy at your location and at each connecting location (choose one):\n- Automatically evade that enemy if it is non-[[Elite]].\n- Deal 1 damage to that enemy.",
+        "traits": "Trick. Double."
+    },
+    {
+        "code": "10113",
+        "name": "Pushed to the Limit",
+        "text": "Choose a [[Weapon]] or [[Tool]] asset in your discard pile. Resolve an [action] ability on that asset, ignoring all costs <i>(including its [action] cost)</i>.\nAfter this effect resolves, shuffle the chosen asset into your deck. Playing this card does not provoke attacks of opportunity.",
+        "traits": "Tactic. Improvised."
+    },
+    {
+        "code": "10114",
+        "name": "Stall for Time",
+        "text": "<b>Parley.</b> Choose an enemy at your location. Test [willpower] (X), where X is the chosen enemy's fight or evade value, whichever is lower. If you succeed, exhaust the chosen enemy <i>(but do not disengage from it)</i>. If it is non-[[Elite]], it does not ready during the next upkeep phase. If you fail, return Stall for Time to your hand.",
+        "traits": "Tactic. Trick."
+    },
+    {
+        "code": "10115",
+        "name": "Wrong Place, Right Time",
+        "text": "As an additional cost to play Wrong Place, Right Time, spend an action.\nMove up to 5 damage and/or horror from your investigator to assets controlled by investigators at your location. For each asset defeated by this effect, draw 1 card. Remove Wrong Place, Right Time from the game.",
+        "traits": "Spirit. Double."
+    },
+    {
+        "code": "10116",
+        "name": "Long Shot",
+        "text": "You may commit Long Shot to a fight or evasion test against an enemy at your location or a connecting location.\nIf this test is successful, deal 1 damage to that enemy.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "10117",
+        "name": "Hatchet",
+        "text": "[action]: <b>Fight.</b> Add your [agility] to your skill value for this attack. This attack deals + 1 damage. If this attack defeats an enemy, discard Hatchet. Otherwise, lose control of Hatchet and attach it to the attacked enemy. Attached enemy gains:\n\"[reaction] When attached enemy is defeated: Take control of Hatchet. Any investigator at Hatchet's location may trigger this ability.\"",
+        "traits": "Item. Tool. Weapon. Ranged.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10118",
+        "flavor": "\"Anyone but a stolid famer would have fainted or gone mad...\" - H.P. Lovecraft, <u>The Colour Out of Space</u>",
+        "name": "Persistence",
+        "text": "You may commit Persistence to a skill test from your discard pile. If you do, shuffle it into your deck after this test ends.",
+        "traits": "Innate."
+    },
+    {
+        "code": "10119",
+        "flavor": "I will guide thy hand.",
+        "name": "Devil",
+        "subname": "Friend or Foe?",
+        "text": "<b>Forced</b> - When your turn begins: Move 1 damage from your investigator to \"Devil\"\n<b>Forced</b> - When \"Devil\" is defeated: Deal 2 damage to each enemy and investigator at your location.",
+        "traits": "Ally. Creature. Cursed.",
+        "slot": "Ally"
+    },
+    {
+        "code": "10120",
+        "name": "Fire Axe",
+        "text": "Fast.\n[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10121",
+        "name": "Hunting Jacket",
+        "text": "[fast] Exhaust Hunting Jacket: Choose 1 non-weakness card in your hand and attach it facedown to Hunting Jacket (max 3 cards attached). Then, gain 1 resource for each attached card.\n[reaction] When Hunting Jacket is defeated: Draw each attached card.",
+        "traits": "Item. Clothing.",
+        "slot": "Body"
+    },
+    {
+        "code": "10122",
+        "name": "Mariner's Compass",
+        "text": "[action] Exhaust Mariner's Compass: <b>Investigate.</b> If you fail, ready Mariner's Compass. If you succeed and have no resources in your resource pool, discover 1 additional clue at your location.\n[fast] During an investigation using Mariner's Compass, spend 1 resource: You get +1 [intellect] for this skill test. (Limit three times per investigation.)",
+        "traits": "Item. Tool.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10123",
+        "name": "Survival Technique",
+        "text": "[fast] Choose a card you own that is attached to your location and exhaust Survival Technique: Add that card to your hand.\n[fast] During a skill test on a location or on a treachery attached to your location, exhaust Survival Technique: You get +2 skill value for this test.",
+        "traits": "Talent. Science."
+    },
+    {
+        "code": "10124",
+        "flavor": "Those who walk in faith need not fear the dark.",
+        "name": "Keep Faith",
+        "text": "Fast. Play during any [fast] window.\nAdd 4 [bless] tokens to the chaos bag.",
+        "traits": "Fortune. Blessed."
+    },
+    {
+        "code": "10125",
+        "flavor": "Courage is your best defense against whatever horrors lurk beyond.",
+        "name": "Providential",
+        "text": "If this skill test is successful, add 1 [bless] token to the chaos bag for each damage or horror on you (whichever is less).",
+        "traits": "Innate. Blessed."
+    },
+    {
+        "code": "10126",
+        "name": "Token of Faith",
+        "text": "[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag. If this skill test failed, after resolving all effects from the failed test, the performing investigator may attempt that test again. (Max once per test.)",
+        "traits": "Item. Charm. Blessed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10127",
+        "name": "Dark Horse",
+        "text": "Permanent. Limit 1 per deck.\nDuring the upkeep phase, you may choose to not gain resources.\nWhile you have no resources in your resource pool, you get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility].",
+        "traits": "Condition."
+    },
+    {
+        "code": "10128",
+        "name": "Eldritch Tongue",
+        "text": "Uses (4 charges).\nYou may play events with \"parley\" from your discard pile as if they were in your hand. As an additional cost to play an event this way, spend 1 charge from Eldritch Tongue. After that event resolves, remove it from the game.",
+        "traits": "Ritual.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "10129",
+        "flavor": "It's half past midnight, and you're starting to wonder if the whole thing's a ruse.",
+        "name": "Bide Your Time",
+        "text": "As an additional cost to play Bide Your Time, spend an action.\nDuring your next turn, you may take two additional actions.",
+        "traits": "Double."
+    },
+    {
+        "code": "10130",
+        "flavor": "The fine clothes do all the talking.",
+        "name": "Well-Dressed",
+        "text": "While Well-Dressed is committed to a skill test during a parley action, it gains [wild] [wild] [wild].",
+        "traits": "Practiced. Fortune."
+    },
+    {
+        "code": "10131",
+        "flavor": "Only the strongest spirit can sunder the dark.",
+        "name": "Dawn Star",
+        "text": "Fast. Play after revealing chaos tokens during a skill test at your location.\nIgnore the modifiers of each [curse] token revealed during this test. For each [curse] token ignored, deal 1 damage to an enemy at your location.",
+        "traits": "Ritual. Blessed."
+    },
+    {
+        "code": "10132",
+        "flavor": "\"The price is but a pittance for what you will gain.\"",
+        "name": "Occult Reliquary",
+        "subname": "Dubious Source",
+        "text": "Permanent. Limit 1 per deck.\nYou have 1 additional hand, accessory, or arcane slot, which can only be used to hold a [[Blessed]] or [[Cursed]] asset.",
+        "traits": "Boon. Pact."
+    },
+    {
+        "code": "10133",
+        "name": "Broken Diadem",
+        "subname": "Crown of Dying Light",
+        "text": "Limit 1 per deck. Limit 1 [[Mask]] per investigator.\n[reaction] After a skill test at your location ends in which both a [bless] and [curse] token were revealed: Place 1 resource on this card, as an offering. Then, if there are 3 offerings on this card, search your bonded cards for Twilight Diadem and swap it with this card, moving all offerings from this card to Twilight Diadem.",
+        "traits": "Item. Charm. Mask."
+    },
+    {
+        "code": "10134",
+        "name": "Twilight Diadem",
+        "subname": "Crown of Dying Light",
+        "text": "Bonded (Broken Diadem). Limit 1 [[Mask]] per investigator.\n[reaction] When you reveal either a [bless] or [curse] token during a skill test, spend 1 offering and exhaust this card: Treat the revealed token as an [elder_sign] token instead, returning it to the chaos bag. Then, if this card has no offerings, search your bonded cards for Broken Diadem and swap it with this card.",
+        "traits": "Item. Charm. Mask. Blessed."
+    },
+    {
+        "code": "10135",
+        "name": "Maimed Hand",
+        "text": "<b>Revelation</b> - You must either put Maimed Hand into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 health.\n[action] [action]: Discard Maimed Hand.",
+        "traits": "Injury.",
+        "slot": "Hand"
+    },
+    {
+        "code": "10136",
+        "name": "Back Injury",
+        "text": "<b>Revelation</b> - You must either put Back Injury into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 health.\n[action] [action]: Discard Back Injury.",
+        "traits": "Injury.",
+        "slot": "Body"
+    },
+    {
+        "code": "10137",
+        "name": "The Silver Moth",
+        "text": "<b>Revelation</b> - You must either put The Silver Moth into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 sanity.\n[action] [action]: Discard The Silver Moth.",
+        "traits": "Item. Relic.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "10138",
+        "name": "Vow of Drzytelech",
+        "text": "<b>Revelation</b> - You must either put Vow of Drzytelech into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action] [action] ability below.\nYou get -1 sanity.\n[action] [action]: Discard Vow of Drzytelech.",
+        "traits": "Pact.",
+        "slot": "Arcane"
+    }
+]
