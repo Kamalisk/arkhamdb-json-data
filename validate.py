@@ -47,11 +47,57 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid faction code." % (card["faction_code"], card["code"]))
     if card.get("type_code") and  card["type_code"] not in [f["code"] for f in types_data]:
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
+    if card.get("type_code") == "story" and  "encounter_code" not in card:
+        raise jsonschema.ValidationError("Encounter code missing for story card '%s'." % (card["code"],))
 
 def custom_pack_check(args, pack, cycles_data):
    if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
         raise jsonschema.ValidationError("Cycle code '%s' of the pack '%s' doesn't match any valid cycle code." % (pack["cycle_code"], pack["code"]))
 
+last_encounter_code = None
+def fix_card(args, card, pack_code, factions_data, types_data):
+    global last_encounter_code
+    last_encounter_code = card.get("encounter_code") or last_encounter_code
+
+    dirty = False
+
+    try:
+        verbose_print(args, "Fixing card %s... " % card["code"], 2)
+        if card.get("type_code") == "story" and "encounter_code" not in card:
+            card['encounter_code'] = last_encounter_code
+            dirty = True
+        verbose_print(args, "OK\n", 2)
+    except Exception as e:
+        verbose_print(args, "ERROR\n",2)
+        verbose_print(args, "Error while fixing card: (pack code: '%s' card code: '%s' title: '%s')\n" % (pack_code, card.get("code"), card.get("name")), 0)
+        verbose_print(args, "%s\n" % str(e), 0)
+
+    return dirty
+
+def fix_cards(args, packs_data, factions_data, types_data):
+    for pack in packs_data:
+        verbose_print(args, "Fixing cards from %s...\n" % pack["name"], 1)
+
+        dirty = False
+
+        if (pack['player']):
+            verbose_print(args, "Fixing player cards...\n", 1)
+            pack_path = os.path.join(args.pack_path, pack["cycle_code"], "{}.json".format(pack["code"]))
+            pack_data = load_json_file(args, pack_path)
+            if pack_data:
+                for card in pack_data:
+                    dirty |= fix_card(args, card, pack["code"], factions_data, types_data)
+        if (pack['encounter']):
+            verbose_print(args, "Fixing encounter cards...\n", 1)
+            pack_path = os.path.join(args.pack_path, pack["cycle_code"], "{}_encounter.json".format(pack["code"]))
+            pack_data = load_json_file(args, pack_path)
+            if pack_data:
+                for card in pack_data:
+                    dirty |= fix_card(args, card, pack["code"], factions_data, types_data)
+
+        if dirty:
+            save_json_file(args, pack_path, format_json(pack_data))
+    
 def format_json(json_data):
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
@@ -90,14 +136,17 @@ def load_json_file(args, path):
         formatting_errors += 0
         if args.fix_formatting and len(formatted_raw_data) > 0:
             verbose_print(args, "%s: Fixing JSON formatting...\n" % path, 0)
-            try:
-                with open(path, "wb") as json_file:
-                    bin_formatted_data = formatted_raw_data.encode("utf-8")
-                    json_file.write(bin_formatted_data)
-            except IOError as e:
-                verbose_print(args, "%s: Cannot open file to write.\n" % path, 0)
-                print(e)
+            save_json_file(args, path, formatted_raw_data)
     return json_data
+
+def save_json_file(args, path, formatted_data):
+    try:
+        with open(path, "wb") as json_file:
+            bin_formatted_data = formatted_data.encode("utf-8")
+            json_file.write(bin_formatted_data)
+    except IOError as e:
+        verbose_print(args, "%s: Cannot open file to write.\n" % path, 0)
+        print(e)
 
 def load_cycles(args):
     verbose_print(args, "Loading cycle index file...\n", 1)
@@ -433,6 +482,8 @@ def main():
     types = load_types(args)
 
     if packs and factions and types:
+        if args.fix_formatting:
+            fix_cards(args, packs, factions, types)
         validate_cards(args, packs, factions, types)
         check_all_translations(args)
     else:
