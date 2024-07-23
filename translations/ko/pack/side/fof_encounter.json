@@ -1,9 +1,9 @@
 [
     {
         "code": "88001",
-        "name": "Fortune and Folly",
-        "text": "Easy / Standard\n[skull]: -X. X is half your alarm level (rounded up).\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -3. If you fail, the nearest enemy moves once toward you.\n[elder_thing]: -5. You may raise your alarm level by 1 to automatically succeed, instead.",
-        "back_text": "Hard / Expert\n[skull]: -X. X is your alarm level.\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -4. The nearest enemy moves once toward you.\n[elder_thing]: -6. You may raise your alarm level by 1 to automatically succeed, instead."
+        "name": "한탕과 허탕",
+        "text": "쉬움 / 보통\n[skull]: -X. X is half your alarm level (rounded up).\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -3. If you fail, the nearest enemy moves once toward you.\n[elder_thing]: -5. You may raise your alarm level by 1 to automatically succeed, instead.",
+        "back_text": "어려움 / 전문가\n[skull]: -X. X is your alarm level.\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -4. The nearest enemy moves once toward you.\n[elder_thing]: -6. You may raise your alarm level by 1 to automatically succeed, instead."
     },
     {
         "code": "88002",
@@ -70,164 +70,164 @@
     {
         "code": "88009",
         "flavor": "Standing in the center of the casino floor is overwhelming, with its dazzling interior and the clamor of well-to-do patrons.",
-        "name": "Casino Floor",
-        "subname": "Calm Night",
+        "name": "카지노 로비",
+        "subname": "평온한 밤",
         "text": "[action]: <b>Resign.</b> It's time to get out of here!\n[action]: Place an asset from your hand or play area facedown beneath Casino Floor, as part of your crew's \"stash for the heist.\" (Limit once per turn.)",
-        "traits": "Public. Casino."
+        "traits": "일반인 구역. 카지노."
     },
     {
         "code": "88009b",
-        "name": "Casino Floor",
-        "subname": "Busy Night",
+        "name": "카지노 로비",
+        "subname": "붐비는 밤",
         "text": "[action]: <b>Resign.</b> It's time to get out of here!\n[action] If an investigator \"impersonated a high roller\" and your alarm level is 6 or lower, spend 2 resources: You set up a delivery to the vault. Search the encounter deck and discard pile for a [[Casino]] enemy, spawn it here, and attach the set-aside Package Delivery story card to it. (Group limit once per game.)",
-        "traits": "Public. Casino."
+        "traits": "일반인 구역. 카지노."
     },
     {
         "code": "88010",
         "flavor": "Omaha 8-or-better, nothing's wild, sky's the limit.",
-        "name": "Poker Table",
+        "name": "포커 테이블",
         "text": "[action] Spend 2 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have a sequential rank, or if 3 or more of the cards have the same rank, gain 5 resources.",
-        "traits": "Public. Casino. Game.",
+        "traits": "일반인 구역. 카지노. 게임.",
         "back_flavor": "The poker tables are constantly in demand, each game filled with players from around the continent and the world. Clattering fills the air as piles of chips are relentlessly pushed and stacked, each one a bet against destiny. The air is thick with smoke, sweat, and the tension of a good bluff."
     },
     {
         "code": "88011",
         "flavor": "Red or black, what tickles your fancy?",
-        "name": "Roulette Wheel",
+        "name": "룰렛 테이블",
         "text": "[action] Spend 1 resource: Name a color and a rank. Then, discard the top card of the encounter deck and check its game icon. If it matches the named color and rank, gain 5 resources.",
-        "traits": "Public. Casino. Game.",
+        "traits": "일반인 구역. 카지노. 게임.",
         "back_flavor": "Roulette seems to be a favorite of many patrons and of the establishment itself. The casino is named after this icon of Monte Carlo gambling, after all."
     },
     {
         "code": "88012",
-        "name": "Baccarat Table",
+        "name": "바카라 테이블",
         "text": "[action] Spend 2 resources: Name \"player,\" \"banker,\" or \"tie.\" Discard the top 2 cards of the encounter deck and check their game icons. If the combined value of their ranks is higher than 18, the \"player\" wins. If the combined value is lower than 18, the \"banker\" wins. If the combined value is equal to 18, it is a \"tie.\" If this result matches the result you named, gain 4 resources.",
-        "traits": "Public. Casino. Game.",
+        "traits": "일반인 구역. 카지노. 게임.",
         "back_flavor": "Baccarat has been popular among French nobility and aristocrats for over a century, perhaps longer. Even in this casino, this seems to remain true, with the most well-dressed and ostentatious sitting around the baccarat tables."
     },
     {
         "code": "88013",
         "flavor": "\"Jackpot!\"",
-        "name": "Slot Machines",
+        "name": "슬롯머신",
         "text": "[action] Spend 1 resource: Discard the top 3 cards of the encounter deck and check their game icons. If all 3 cards have the same suit or same rank, gain 3 resources.",
-        "traits": "Public. Casino. Game.",
+        "traits": "일반인 구역. 카지노. 게임.",
         "back_flavor": "Several rows of machines stand to one side, hooking unwary souls into an endless cycle of spend and pull, spend and pull, spend and pull. No skill or finesse needed here - just raw submission to the whims of fortune."
     },
     {
         "code": "88014",
-        "name": "High Roller's Table",
-        "subname": "Calm Night",
+        "name": "고액 판돈 테이블",
+        "subname": "평온한 밤",
         "text": "[action] If there are no clues here, spend 4 resources: Remember that you \"impersonated a high roller.\" Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 of the cards have the same rank, gain 8 resources.",
-        "traits": "Public. Casino. Game."
+        "traits": "일반인 구역. 카지노. 게임."
     },
     {
         "code": "88014b",
         "name": "High Roller's Table",
-        "subname": "Busy Night",
+        "subname": "붐비는 밤",
         "text": "[action] Spend 4 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 cards have the same rank, gain 8 resources and remember that you \"won a cultist medallion.\"",
-        "traits": "Public. Casino. Game."
+        "traits": "일반인 구역. 카지노. 게임."
     },
     {
         "code": "88015",
         "flavor": "The sumptuous lounge area boasts culinary delights, a stage suitable for all manner of entertainment, and countless tables for conducting business - both legal and illicit.",
-        "name": "Casino Lounge",
-        "subname": "Calm Night",
+        "name": "포커 테이블",
+        "subname": "평온한 밤",
         "text": "[action] If there are no clues on Casino Lounge: Test [agility] (3). If you succeed, remember that you \"found a vent.\"",
-        "traits": "Public. Casino."
+        "traits": "일반인 구역. 카지노."
     },
     {
         "code": "88015b",
-        "name": "Casino Lounge",
-        "subname": "Busy Night",
+        "name": "카지노 라운지",
+        "subname": "붐비는 밤",
         "text": "[action] If you \"found a vent,\" investigators at Casino Lounge spend 2 [per_investigator] clues, as a group: <b>Move.</b> Move to Guard Room. Then, reveal Staff Access Hallway if it has not already been revealed. Remember that \"the vent is open.\" (Group limit once per game.)\nWhile \"the vent is open,\" investigators may move from Casino Lounge to Guard Room as if they were connected, and vice versa.",
-        "traits": "Public. Casino."
+        "traits": "일반인 구역. 카지노."
     },
     {
         "code": "88016",
         "flavor": "\"Is this the way to the bathroom?\"",
-        "name": "Staff Access Hallway",
+        "name": "관계자 구역 복도",
         "text": "<b>Forced</b> - When Staff Access Hallway is revealed: Spawn Abarran Arrigorriagakoa <i>(Abarran Unleashed)</i> at Owner's Office. Shuffle the encounter discard pile and the set-aside <i>Fortune's Chosen</i> encounter set into the encounter deck.",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "The door to the restricted section of the casino beckons... but you must find a way through when no one is looking and the entrance is unguarded.",
         "back_text": "As an additional cost to enter Staff Access Hallway, investigators at a connecting location must spend 4 [per_investigator] clues, as a group."
     },
     {
         "code": "88017",
-        "name": "Security Office",
+        "name": "보안실",
         "text": "[action]: Choose 1, 2, or 3. Discard that many cards from the top of the encounter deck and check their game icons. If an icon matches the rank of an enemy in play, remember that you \"observed the staff.\" If the combined value of the discarded cards is 19 or higher, draw the top card in the encounter discard pile.",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "A sign on the door reads \"Security.\" You've heard from your sources that the staff has some means of monitoring the casino at all times. Perhaps whatever is behind this door provides the answer."
     },
     {
         "code": "88018",
-        "name": "Guard Room",
+        "name": "경비원 휴게 공간",
         "text": "[action] If all of the following are true, remember that you \"impersonated a guard:\"\n- There are no enemies at Guard Room.\n- There are no clues remaining on Guard Room.\n- An investigator \"obtained an employee uniform.\"",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "Through a crack in the door, you see a room filled with security uniforms and equipment."
     },
     {
         "code": "88019",
         "flavor": "Abarran's safe and desk drawers are locked. The far side of the office peers into the main hall of the casino through a false wall.",
-        "name": "Owner's Office",
+        "name": "아바란의 집무실",
         "text": "X is equal to the highest alarm level among investigators at Owner's Office.\n[action] If there are no clues on Owner's Office: Remember that you \"found Abarran's sigil.\"",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "The placard next to the door reads \"Abarran Arrigorriagakoa.\" It's likely that important secrets and materials might be kept here... if only you could get in.",
         "back_text": "The Owner's Office is locked. As an additional cost to enter Owner's Office, investigators at a connecting location must spend 2 [per_investigator] clues, as a group, unless an investigator \"stole Abarran's keys.\""
     },
     {
         "code": "88020",
-        "name": "Counting Room",
+        "name": "재무회계실",
         "text": "[action] Investigators at Counting Room spend 10 [per_investigator] resources, as a group (5 [per_investigator] instead if you \"found a vent\"): Remember that you \"obtained a schematic.\"\n[reaction] After you successfully investigate Counting Room by 2 or more: Gain 2 resources. (Limit once per turn.)",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "The clinking of chips and coins emanates through the doorway of this room. You're not really here for money, though… right?"
     },
     {
         "code": "88021",
-        "name": "Vault Door",
+        "name": "금고문",
         "text": "[action] <b>Move.</b> Discard the top card of the encounter deck and check its game icon (if an investigator \"obtained a schematic,\" you may mulligan up to two times):\n- Ifits suit is ♣ or ♠: Move to Guard Room.\n- If its suit is ♥: Move to Casino Lounge.\n- If its suit is ♦: Move to Baccarat Table.",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_flavor": "A massive steel door looms before you. Miniscule grooves run through it from top to bottom, seemingly acting as channels for the arcane energy that keeps it shut.",
         "back_text": "The door to the casino vault is locked, guarded, and warded with magic. You cannot enter Vault Door unless you have completed at least 4 of the tasks on The Heist story card."
     },
     {
         "code": "88022",
-        "name": "Relic Room",
-        "subname": "Sanctum of Fortune",
+        "name": "유물 보관실",
+        "subname": "행운의 성소",
         "text": "<b>Forced</b> - After Relic Room is revealed: Move all clues from The Wellspring of Fortune to Relic Room.\n[action] If there are no clues on Relic Room: Take control of The Wellspring of Fortune and attach it to your investigator card.",
-        "traits": "Restricted. Casino.",
+        "traits": "제한 구역. 카지노.",
         "back_text": "You cannot enter Relic Room.\nVault Door gains: \"[action] Take 1 damage and 1 horror unless an investigator \"found Abarran's sigil\": Test [willpower] or [agility] (4). If you succeed, investigators at Vault Door may spend 4 [per_investigator] clues, as a group, to reveal Relic Room."
     },
     {
         "code": "88023",
-        "name": "The Stakeout",
+        "name": "물밑 작업",
         "text": "<b>Each of the following is a task that can be completed in <i>Fortune and Folly, Part I</i>:</b>\n □ An investigator \"found a vent.\"\n □ An investigator \"impersonated a high roller.\"\n □ An investigator \"convinced Isamara to participate in the heist.\"\n □ An investigator \"obtained an employee uniform.\"\n □ An investigator \"stole Abarran's keys.\"\n □ An investigator \"cleaned out the house.\"<hr><b>Forced</b> - When an investigator is eliminated <i>(by defeat or resignation)</i>: Place each of that investigator's clues on this story card, instead of placing them at their location.",
-        "back_name": "The Heist",
+        "back_name": "강탈 작전",
         "back_text": "<b>Each of the following is a task that can be completed in <i>Fortune and Folly, Part II</i>:</b>\n □ An investigator \"won a cultist medallion.\"\n □ An investigator \"observed the staff.\"\n □ An investigator \"found Abarran's sigil.\"\n □ An investigator \"obtained a schematic.\"\n □ An investigator \"impersonated a guard.\"\n □ An investigator \"stayed out of sight.\"\n □ An investigator \"delivered a decoy package.\"\n □ \"Isamara mesmerized the guards with her song.\"\n<i>Hint: You must complete at least 4 of these tasks to unlock the vault door.</i>"
     },
     {
         "code": "88024",
-        "name": "If the Uniform Fits…",
+        "name": "저 정도면 잘 맞겠군…",
         "text": "<blockquote><i>This casino employee looks like they are\nwearing a uniform in your size.</i></blockquote>\n[action]: <b>Fight.</b> Perform this attack only on the attached enemy. Test [combat] (3). If you succeed, attached enemy has been knocked out <i>(read the section below)</i>. If you fail, raise your alarm level by 1.\nIf attached enemy leaves play, remove this story card from the game.<hr><b>If attached enemy is knocked out:</b>\nRemember that you \"obtained an employee uniform.\"\nRaise your alarm level by 1 if another enemy is at your location or a connecting location.\nDiscard the attached enemy. Remove this story card from the game.",
-        "back_name": "Package Delivery",
+        "back_name": "소포 배달",
         "back_text": "<blockquote><i>You pass the package to the employee.</i></blockquote>\nThe attached enemy's patrol location changes to Vault Door. Attached enemy loses the [[Casino]] trait.\nIf attached enemy enters Vault Door, the package has been delivered <i>(read the section below)</i>.\nIf attached enemy leaves play, remove this story card from the game.<hr><b>If the package has been delivered:</b>\nChoose an investigator to search their deck for an [[Ally]] or [[Item]] asset and place it facedown beneath Vault Door. Remember that you \"delivered a decoy package.\"\nDiscard the attached enemy and attach this story card to Vault Door.\n[action]: Put the facedown asset beneath Vault Door into play under your control. Remove this story card from the game."
     },
     {
         "code": "88025",
-        "name": "Fortune's Disfavor",
+        "name": "행운의 냉대",
         "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
         "back_name": "Lights Out!",
         "back_text": "<blockquote><i>Just as you are about to act, there is a sudden pop and a spark, and the casino plunges into total darkness. There are panicked whispers from all around. This seems like an unfortunately timed malfunction of some kind. Now you must find your way forward in the dark unless you can find a way to restore the power.</i></blockquote>\nPut this card into play next to the agenda deck. Place a damage token on each location.\nEach location with a damage token has no lights and gains: \"This location gets +1 shroud. As an additional cost to trigger an ability on this location, you must either spend an additional action or take 1 horror.\"\nWhile an investigator is at Security Office, they may perform the following action:\n[action]: Spend 1 [per_investigator] clues. Choose one -\n- Restore power to the main hall. Remove a damage token from each [[Public]] location.\n- Restore power to the staff area. Remove a damage token from each [[Restricted]] location."
     },
     {
         "code": "88026",
-        "name": "Fortune's Disfavor",
+        "name": "행운의 냉대",
         "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
         "back_name": "Unlikely Injuries",
         "back_text": "<blockquote><i>What suddenly strikes the casino can only be described as a series of extremely unlikely and unfortunate mishaps. Glasses shatter, stray dice cause patrons to slip and fall, and chandeliers crash onto skulls.</i></blockquote>\nPut this card into play next to the agenda deck. One at a time, each investigator discards the top card of the encounter deck and checks its game icon. The following injury applies to that investigator for the remainder of the game:\n- If its suit is ♥: You are limited to one move action per turn.\n- If its suit is ♦: You are limited to one investigate action per turn.\n- If its suit is ♣: You are limited to one fight action per turn.\n- If its suit is ♠: You are limited to one activate action per turn.\n[free] Take 1 damage or 1 horror: Ignore the effects of your injury until the end of your turn. Any investigator may trigger this ability. (Limit once per turn.)"
     },
     {
         "code": "88027",
-        "name": "Fortune's Disfavor",
+        "name": "행운의 냉대",
         "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
         "back_name": "Personal Entanglement",
         "back_text": "<blockquote><i>You have learned that someone from your past works in this casino - what are the odds? Unfortunately, Abarran has learned of this connection as well. You have to rescue them before it's too late!</i></blockquote>\nAttach this story card to Owner's Office. This story card represents somebody connected to the lead investigator.\n[action] Investigators at Owner's Office spend 1 [per_investigator] clues, as a group: Remove this story card from the game.\n<b>Forced</b> - At the end of the enemy phase: Place 1 horror on this story card (2 horror instead if there is an enemy at Owner's Office).<hr><b>If there is 6 or more horror on this story card:</b>\nYou are too late. The lead investigator suffers 1 mental trauma. Each investigator takes 2 direct horror. Remove this story card from the game."
@@ -237,374 +237,374 @@
         "flavor": "Who needs lockpicks when you have this smile?",
         "name": "The Face",
         "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location and test [willpower] or [intellect] (3). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
-        "traits": "Role. Unpracticed."
+        "traits": "역할. 미숙."
     },
     {
         "code": "88028b",
         "name": "The Face",
         "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location or a connecting location and test [willpower] or [intellect] (2). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
-        "traits": "Role. Practiced."
+        "traits": "역할. 숙련."
     },
     {
         "code": "88029",
         "name": "The Muscle",
         "text": "Cannot be discarded.\n[reaction] After you defeat a [[Casino]] enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other [[Casino]] enemies at your location or a connecting location).",
-        "traits": "Role. Unpracticed."
+        "traits": "역할. 미숙."
     },
     {
         "code": "88029b",
         "flavor": "Shh. Shhhhh. Go to sleep.",
         "name": "The Muscle",
         "text": "Cannot be discarded.\n[reaction] After you defeat a [[Casino]] enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other [[Casino]] enemies at your location).",
-        "traits": "Role. Practiced."
+        "traits": "역할. 숙련."
     },
     {
         "code": "88030",
         "name": "The Thief",
         "text": "Cannot be discarded.\n[reaction] When a [[Casino]] enemy at a connecting location resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from \"clockwise\" to \"counterclockwise,\" or vice versa, for this move.",
-        "traits": "Role. Unpracticed."
+        "traits": "역할. 미숙."
     },
     {
         "code": "88030b",
         "name": "The Thief",
         "text": "Cannot be discarded.\n[reaction] When a Casino enemy up to 2 locations away resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from \"clockwise\" to \"counterclockwise,\" or vice versa, for this move.",
-        "traits": "Role. Practiced."
+        "traits": "역할. 숙련."
     },
     {
         "code": "88031",
         "name": "The Grifter",
         "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of a discarded game icon <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
-        "traits": "Role. Unpracticed."
+        "traits": "역할. 미숙."
     },
     {
         "code": "88031b",
         "name": "The Grifter",
         "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of up to 2 discarded game icons <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
-        "traits": "Role. Practiced."
+        "traits": "역할. 숙련."
     },
     {
         "code": "88032",
-        "name": "Isamara Ordoñez",
-        "subname": "Lounge Singer",
+        "name": "이사마라 오르도녜스",
+        "subname": "밤무대 가수",
         "text": "[action]: <b>Parley.</b> Test [willpower] (X), where X is the highest alarm level among the investigators. If you succeed, place 1 clue <i>(from the token pool)</i> on Isamara Ordoñez. Then, if there are 1 [per_investigator] clues on her, remember that you \"convinced Isamara to participate in the heist.\"",
-        "traits": "Ally. Casino. Inconspicuous."
+        "traits": "조력자. 카지노. 이목을 끌지 않는."
     },
     {
         "code": "88032b",
-        "name": "Isamara Ordoñez",
-        "subname": "Lounge Singer",
+        "name": "이사마라 오르도녜스",
+        "subname": "밤무대 가수",
         "text": "[action]: <b>Parley.</b> Take control of Isamara Ordoñez.\n[action]: If you control Isamara Ordoñez: <b>Parley.</b> Automatically evade all [[Casino]] enemies at your location. Then, test [willpower] (3). If you fail, lose 2 actions. If at least 1 enemy at a [[Restricted]] location was evaded by this effect, remember that \"Isamara mesmerized the guards with her song.\" (Group limit once per game.)",
-        "traits": "Ally. Casino. Crew."
+        "traits": "조력자. 카지노. 일당."
     },
     {
         "code": "88033",
-        "name": "Cash Cart",
+        "name": "현금 운송 수레",
         "text": "[free]: Move Cash Cart to a connecting location.\n[reaction] When an enemy would engage you or enter your location: Deal 1 damage to Cash Cart. Until the end of the round, enemies at this location cannot engage you.\n<b>Forced</b> - When Cash Cart is defeated: Remember that you \"stayed out of sight.\" Remove Cash Cart from the game.",
-        "traits": "Casino."
+        "traits": "카지노."
     },
     {
         "code": "88034a",
-        "name": "Abarran Arrigorriagakoa",
-        "subname": "The Man with the Ruby Ring",
+        "name": "아바란 아리고리아가코아",
+        "subname": "루비 반지를 낀 남자",
         "text": "Aloof. Patrol (clockwise).\n<b>Forced</b> - When you engage Abarran Arrigorriagakoa: Immediately advance the agenda.\n[action]: Test [agility](3). If you fail, raise your alarm level by 1. If you succeed, discard the top card of the encounter deck and check its game icon. If its color is red, remember that you \"stole Abarran's keys.\"",
-        "traits": "Humanoid. Casino. Coterie. Elite."
+        "traits": "인간형. 카지노. 동지회. 정예."
     },
     {
         "code": "88034b",
-        "name": "Abarran Arrigorriagakoa",
-        "subname": "Abarran Unleashed",
+        "name": "아바란 아리고리아가코아",
+        "subname": "진노한 아바란",
         "text": "While an investigator's alarm level is 5 or higher, Abarran Arrigorriagakoa gains hunter.\n<b>Forced</b> - When you deal 1 or more damage to Abarran Arrigorriagakoa, if he is ready: Discard the top card of the encounter deck and check its game icon. If its suit is ♦, Abarran attacks you.",
-        "traits": "Humanoid. Casino. Coterie. Elite."
+        "traits": "인간형. 카지노. 동지회. 정예."
     },
     {
         "code": "88035a",
         "flavor": "I need to talk to you for a moment.",
-        "name": "Casino Guard",
+        "name": "카지노 경비원",
         "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♣Q",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88035b",
         "flavor": "I need to talk to you for a moment.",
-        "name": "Casino Guard",
+        "name": "카지노 경비원",
         "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♣J",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88035c",
         "flavor": "I need to talk to you for a moment.",
-        "name": "Casino Guard",
+        "name": "카지노 경비원",
         "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♥10",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88036a",
         "flavor": "Would you like to stay or hit?",
         "name": "House Dealer",
         "text": "Aloof. Patrol (clockwise).\nWhile House Dealer is ready, each ability on its location costs an additional action to trigger.\n♥9",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88036b",
         "flavor": "Would you like to stay or hit?",
         "name": "House Dealer",
         "text": "Aloof. Patrol (counterclockwise).\nWhile House Dealer is ready, each ability on its location costs an additional action to trigger.\n♣9",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88037a",
-        "name": "Security Patrol",
+        "name": "보안 요원",
         "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♥Q",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88037b",
-        "name": "Security Patrol",
+        "name": "보안 요원",
         "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♥J",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88037c",
-        "name": "Security Patrol",
+        "name": "보안 요원",
         "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♣10",
-        "traits": "Humanoid. Casino."
+        "traits": "인간형. 카지노."
     },
     {
         "code": "88038a",
         "name": "Inconvenient Questioning",
         "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♠9",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88038b",
         "name": "Inconvenient Questioning",
         "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♦9",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88038c",
         "name": "Inconvenient Questioning",
         "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♠8",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88038d",
         "name": "Inconvenient Questioning",
         "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♦8",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88039a",
         "name": "Arcane Spotlight",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠Q",
-        "traits": "Hex. Obstacle."
+        "traits": "사술. 장애물."
     },
     {
         "code": "88039b",
         "name": "Arcane Spotlight",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠J",
-        "traits": "Hex. Obstacle."
+        "traits": "사술. 장애물."
     },
     {
         "code": "88039c",
         "name": "Arcane Spotlight",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠10",
-        "traits": "Hex. Obstacle."
+        "traits": "사술. 장애물."
     },
     {
         "code": "88040a",
         "name": "Avarice Calls",
         "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦Q",
-        "traits": "Curse."
+        "traits": "저주."
     },
     {
         "code": "88040b",
         "name": "Avarice Calls",
         "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦J",
-        "traits": "Curse."
+        "traits": "저주."
     },
     {
         "code": "88040c",
         "name": "Avarice Calls",
         "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦10",
-        "traits": "Curse."
+        "traits": "저주."
     },
     {
         "code": "88041a",
         "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
         "name": "Suspicious Gaze",
         "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♣8",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88041b",
         "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
         "name": "Suspicious Gaze",
         "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♠7",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88041c",
         "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
         "name": "Suspicious Gaze",
         "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♣7",
-        "traits": "Scheme."
+        "traits": "모략."
     },
     {
         "code": "88042a",
         "name": "Obsessed Gambler",
         "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♥8",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88042b",
         "name": "Obsessed Gambler",
         "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♦7",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88042c",
         "name": "Obsessed Gambler",
         "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♥7",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88043",
-        "name": "Deck of Possibilities",
+        "name": "가능성의 덱",
         "subname": "Tychokinetic Implement",
         "text": "Permanent.\n[action]: Draw the top card of the possibilities deck. Flip this card over and consult the list on its other side to resolve its effect. Remove the drawn card from the possibilities deck for the remainder of the campaign. (Limit once per game.)",
-        "traits": "Item. Relic."
+        "traits": "물품. 유물."
     },
     {
         "code": "88043b",
-        "name": "Deck of Possibilities",
+        "name": "가능성의 덱",
         "text": "- J♠: <b>The Prayer.</b> Nothing happens.\n- J♥: <b>The Wind.</b> You may take an additional 3 actions this turn.\n- J♦: <b>The Chest.</b> Gain 10 resources.\n- J♣: <b>The Tome.</b> Choose 2 different skills. You get +1 to each of those skills for the remainder of the game.\n- Q♦: <b>The Champion.</b> Select an [[Ally]] asset from among your collection and put it into play <i>(for the remainder of the game)</i>.\n- Q♠: <b>The Sword.</b> Select an [[Item]] asset from among your collection and put it into play <i>(for the remainder of the game)</i>.\n- K♥: <b>The Lifeblood.</b> Heal all damage and horror on your investigator.\n- K♣: <b>The Lamp.</b> Choose a non-[[Elite]] enemy or treachery in play. That card ceases to exist (remove it from the game).\n- A♠: <b>The Evil Eye.</b> For the remainder of the game, treat each [elder_sign] you reveal on a chaos token as an [auto_fail]."
     },
     {
         "code": "88044",
-        "name": "Isamara Ordoñez",
-        "subname": "The Torch Singer",
+        "name": "이사마라 오르도녜스",
+        "subname": "토치 송 가수",
         "text": "You get +1 [willpower].\nDuring the upkeep phase, you may choose to not ready Isamara Ordoñez.\n[fast] Exhaust Isamara Ordoñez and deal 1 horror to her: Choose a non-[[Elite]] enemy at your location or a connecting location. That enemy cannot move until Isamara Ordoñez readies or leaves play.",
-        "traits": "Ally. Performer.",
-        "slot": "Ally"
+        "traits": "조력자. 공연자.",
+        "slot": "조력자"
     },
     {
         "code": "88045",
-        "flavor": "File #93-♠ / Subject Class: Yellow / Subject appears as small coin, 34 mm in diameter, of unidentified metal.",
-        "name": "Wellspring of Fortune",
-        "subname": "Symbol of Providence",
-        "text": "<b>Shift</b> - During the next skill test performed this round, the performing investigator reveals an additional chaos token, chooses one to resolve, and ignores the other. Flip this key to its [[Unstable]] side.",
-        "traits": "Stable."
+        "flavor": "일련번호 #93-♠ / 분류 등급: 황색 / 본 개체는 미지의 금속으로 이뤄진 34 mm 직경의 주화임.",
+        "name": "행운의 원천",
+        "subname": "섭리의 표상",
+        "text": "<b>변환</b> - 이번 라운드에 수행되는 다음 능력 테스트 1번에 한해, 테스트를 수행하는 조사자는 추가로 혼돈 토큰을 1개 더 공개하고, 공개된 토큰 중에서 1개를 선택하여 해결하며 다른 토큰은 무시합니다. 이 열쇠를 [[불안정한]] 면으로 뒤집습니다.",
+        "traits": "안정한."
     },
     {
         "code": "88045b",
-        "flavor": "... pertains to no known civilization or currency.",
-        "name": "Wellspring of Fortune",
-        "subname": "Symbol of Providence",
-        "text": "<b>Shift</b> - During the next skill test performed this round, the performing investigator reveals an additional chaos token <i>(resolve both)</i>. Then, if an investigator triggered this ability, flip this key to its [[Stable]] side.",
-        "traits": "Unstable."
+        "flavor": "…기지의 문명 가운데서는 이러한 주화를 통용했던 사례가 없음.",
+        "name": "행운의 원천",
+        "subname": "섭리의 표상",
+        "text": "<b>변환</b> - 이번 라운드에 수행되는 다음 능력 테스트 1번에 한해, 테스트를 수행하는 조사자는 혼돈 토큰을 하나 더 공개합니다<i>(두 토큰 모두를 해결합니다)</i>. 그런 다음, 조사자가 이 열쇠를 변환했다면, 이 열쇠를 [[안정한]] 면으로 뒤집습니다.",
+        "traits": "불안정한."
     },
     {
         "code": "88046a",
         "name": "Fortune's Shield",
         "text": "Patrol (counterclockwise). Retaliate.\n<b>Forced</b> - When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is ♥, cancel 1 of that damage.\n♠K",
-        "traits": "Humanoid. Casino. Cultist."
+        "traits": "인간형. 카지노. 추종자."
     },
     {
         "code": "88046b",
         "name": "Fortune's Shield",
         "text": "Patrol (clockwise). Retaliate.\n<b>Forced</b> - When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is ♥, cancel 1 of that damage.\n♥K",
-        "traits": "Humanoid. Casino. Cultist."
+        "traits": "인간형. 카지노. 추종자."
     },
     {
         "code": "88047a",
         "name": "Fortune's Dagger",
         "text": "Patrol (counterclockwise). Retaliate.\n<b>Forced</b> - When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the ♣ suit, this attack deals +1 damage.\n♣K",
-        "traits": "Humanoid. Casino. Cultist."
+        "traits": "인간형. 카지노. 추종자."
     },
     {
         "code": "88047b",
         "name": "Fortune's Dagger",
         "text": "Patrol (clockwise). Retaliate.\n<b>Forced</b> - When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the ♣ suit, this attack deals +1 damage.\n♦K",
-        "traits": "Humanoid. Casino. Cultist."
+        "traits": "인간형. 카지노. 추종자."
     },
     {
         "code": "88048",
         "name": "Dimensional Shambler",
         "subname": "Hunter from Beyond",
         "text": "Hunter.\n<b>Forced</b> - After any investigator performs the same type of action twice in a row during the same phase, if Dimensional Shambler is ready and unengaged: Move it once toward that investigator. (Limit once per turn.)\n♠A",
-        "traits": "Monster. Extradimensional. Elite."
+        "traits": "괴물. 초차원. 정예."
     },
     {
         "code": "88049a",
         "name": "Dimensional Duplicator",
         "text": "Hunter.\n<b>Forced</b> - After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged with you. Treat this card as an [[Extradimensional]] enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it.\n♠6",
-        "traits": "Monster. Extradimensional."
+        "traits": "괴물. 초차원."
     },
     {
         "code": "88049b",
         "name": "Dimensional Duplicator",
         "text": "Hunter.\n<b>Forced</b> - After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged with you. Treat this card as an [[Extradimensional]] enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it.\n♣6",
-        "traits": "Monster. Extradimensional."
+        "traits": "괴물. 초차원."
     },
     {
         "code": "88050a",
         "name": "Dimensional Displacer",
         "text": "Hunter. Retaliate.\n<b>Spawn</b> - Discard the nearest non-unique [[Casino]] enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)\n♦6",
-        "traits": "Monster. Extradimensional."
+        "traits": "괴물. 초차원."
     },
     {
         "code": "88050b",
         "name": "Dimensional Displacer",
         "text": "Hunter. Retaliate.\n<b>Spawn</b> - Discard the nearest non-unique [[Casino]] enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)\n♥6",
-        "traits": "Monster. Extradimensional."
+        "traits": "괴물. 초차원."
     },
     {
         "code": "88051a",
         "name": "Dimensional Hypnosis",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♠5",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88051b",
         "name": "Dimensional Hypnosis",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♣5",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88051c",
         "name": "Dimensional Hypnosis",
         "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♠4",
-        "traits": "Terror."
+        "traits": "두려움."
     },
     {
         "code": "88052a",
         "name": "Grip of the Beyond",
         "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♦5",
-        "traits": "Hazard."
+        "traits": "위기."
     },
     {
         "code": "88052b",
         "name": "Grip of the Beyond",
         "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♥5",
-        "traits": "Hazard."
+        "traits": "위기."
     },
     {
         "code": "88052c",
         "name": "Grip of the Beyond",
         "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♦4",
-        "traits": "Hazard."
+        "traits": "위기."
     },
     {
         "code": "88053a",
         "name": "Hunter's Hunger",
         "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Discard an [[Ally]] asset you control. Each other investigator takes 1 horror.\n- Test [agility] (3). If you fail, take 1 direct damage and 1 direct horror.\n♣4",
-        "traits": "Hazard."
+        "traits": "위기."
     },
     {
         "code": "88053b",
         "name": "Hunter's Hunger",
         "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Discard an [[Ally]] asset you control. Each other investigator takes 1 horror.\n- Test [agility] (3). If you fail, take 1 direct damage and 1 direct horror.\n♥4",
-        "traits": "Hazard."
+        "traits": "위기."
     }
 ]
