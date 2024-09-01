@@ -462,7 +462,7 @@
     "pack_code": "tmg",
     "position": 21,
     "quantity": 1,
-    "text": "<b>Setup:</b> Shuffle the set-aside Confusion treachery into the encounter deck. Put the set-aside Caldwell Philips card into play at the lead investigator's location, enemy side faceup.\n[action] If Caldwell Philips is at your location: <b>Parley.</b> Test [intellect] (3). If you succeed, place\n1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Caldwell Philips to the victory display. Search the encounter deck and discard pile for Confusion and remove it from the game. Shuffle the encounter deck.",
+    "text": "<b>Setup:</b> Shuffle the set-aside Confusion treachery into the encounter deck. Put the set-aside Caldwell Philips card into play at the lead investigator's location, enemy side faceup.\n[action] If Caldwell Philips is at your location: <b>Parley.</b> Test [intellect] (3). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Caldwell Philips to the victory display. Search the encounter deck and discard pile for Confusion and remove it from the game. Shuffle the encounter deck.",
     "traits": "Rival.",
     "type_code": "story"
   },
@@ -529,7 +529,7 @@
     "skill_intellect": 2,
     "slot": "Ally",
     "subname": "Medical Examiner",
-    "text": "Your maximum hand size is increased by 2.\n[action] Exhaust Dr. Mya Badry: <b>Investigate.</b> Your base value for this investigation is equal to the number of cards in your hand.",
+    "text": "Your maximum hand size is increased by 2.\n[action] Exhaust Dr. Mya Badry: <b>Investigate.</b> Your base [intellect] value for this investigation is equal to the number of cards in your hand.",
     "traits": "Ally. Guest. Miskatonic.",
     "type_code": "asset"
   },
@@ -705,7 +705,7 @@
     "pack_code": "tmg",
     "position": 30,
     "quantity": 1,
-    "sanity": null,
+    "sanity": 3,
     "skill_agility": 2,
     "skill_intellect": 2,
     "slot": "Ally",
@@ -873,7 +873,7 @@
   },
   {
     "code": "71037",
-    "cost": 2,
+    "cost": 4,
     "encounter_code": "the_midwinter_gala",
     "encounter_position": 37,
     "faction_code": "mystic",
@@ -1000,7 +1000,7 @@
     "skill_combat": 2,
     "slot": "Ally",
     "subname": "Lantern Club Infiltrator",
-    "text": "While investigating and parleying, you get +1 for each [[Humanoid]] enemy at your location.\nYou may ignore each attack of opportunity made by [[Humanoid]], non-[[Elite]] enemies against you.",
+    "text": "While investigating and parleying, you get +1 [intellect] for each [[Humanoid]] enemy at your location.\nYou may ignore each attack of opportunity made by [[Humanoid]], non-[[Elite]] enemies against you.",
     "traits": "Ally. Guest. Kingsport.",
     "type_code": "asset"
   },
@@ -1152,7 +1152,7 @@
     "enemy_damage": 1,
     "enemy_evade": 2,
     "enemy_fight": 3,
-    "enemy_horror": 2,
+    "enemy_horror": 1,
     "faction_code": "mythos",
     "flavor": "\"I wasn't expecting this kind of entertainment!\" - Elizabeth Conrad",
     "health": 3,
