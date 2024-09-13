@@ -105,6 +105,43 @@
     {
         "back_flavor": "",
         "back_text": "",
+        "code": "11004",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": [
+                    "neutral"
+                ],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            }
+        ],
+        "deck_requirements": "",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"I'm just glad all my dreams have stayed in my head.\"",
+        "health": 8,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Lucius Galloway",
+        "pack_code": "tdcp",
+        "position": 4,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 5,
+        "skill_combat": 1,
+        "skill_intellect": 4,
+        "skill_willpower": 2,
+        "subname": "The Poet",
+        "text": "[reaction] After you successfully evade an enemy by 2 or more: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each enemy at your location.",
+        "traits": "Scholar. Dreamer.",
+        "type_code": "investigator"
+    },
+    {
+        "back_flavor": "",
+        "back_text": "",
         "code": "11008",
         "deck_limit": 1,
         "deck_options": [
@@ -167,11 +204,48 @@
         "pack_code": "tdcp",
         "position": 10,
         "quantity": 1,
+        "restrictions": "investigator:11007, investigator:11008",
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> - Put Glimpse the Void into play in your threat area.\nThe first time you reveal 1 or more chaos tokens during each skill test, you must reveal 1 additional chaos token <i>(and resolve its effects)</i>.\n[action]: Shuffle Glimpse the Void into your deck.",
         "traits": "Blunder. Insight.",
         "type_code": "treachery"
     },
+    {
+        "back_flavor": "",
+        "back_text": "",
+        "code": "11017",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": [
+                    "neutral"
+                ],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            }
+        ],
+        "deck_requirements": "",
+        "double_sided": true,
+        "faction_code": "survivor",
+        "health": 7,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "George Barnaby",
+        "pack_code": "tdcp",
+        "position": 17,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 3,
+        "skill_combat": 3,
+        "skill_intellect": 4,
+        "skill_willpower": 2,
+        "subname": "The Lawyer",
+        "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
+        "traits": "Civic. Drifter.",
+        "type_code": "investigator"
+      },
     {
         "code": "11024",
         "cost": 1,
@@ -266,7 +340,7 @@
         "is_unique": true,
         "name": "Library Pass",
         "quantity": 1,
-        "restrictions": "trait:item, trait:miskatonic",
+        "restrictions": "trait:miskatonic, trait:scholar",
         "text": "[[Miskatonic]], [[Scholar]] deck only. Limit 1 per deck.\n[fast] During your turn, if there is no asset attached to Library Pass, spend 1 resource: Attach a [[Tome]] asset from your hand to this card. Attached asset takes up no slots. Limit 1 attached asset.\n<b>Forced</b> - When your turn ends: Place attached asset on the bottom of your deck.",
         "traits": "Item. Miskatonic.",
         "type_code": "asset",
