@@ -1,0 +1,45 @@
+[
+    {
+        "code": "90049",
+        "flavor": "“I know I can make the dead dance.”",
+        "name": "Jim Culver",
+        "subname": "The Musician",
+        "text": "[reaction] After you reveal 1 or more [skull] or [curse] tokens during a skill test you are performing: Replenish 1 charge on an asset you control. (Limit once per round.)\n[elder_sign] effect: +2. You may treat this token as if it were a [skull] or [curse] token instead.",
+        "traits": "Performer. Cursed.",
+        "back_flavor": "Jazz has been nothing but trouble for Jim since the day he picked up his daddy’s trumpet. But the dead sure love it when he plays, so Jim has no intention of stopping.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-3, [[Spell]] and [[Cursed]] cards level 0-4, Neutral cards level 0-5, up to five other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jim's Trumpet, Final Rhapsody, The Beyond, 1 random basic weakness.\n<b>Spirit Deck Size</b>: 10.\n<b>Spirit Deckbuilding Options</b>: 9 different [[Ally]] assets from any class level 0–2, Vengeful Shade.\n<b>Spirit Deck Instructions</b>: Shuffle the “spirit deck” separately from your deck and place it next to The Beyond asset, facedown. This deck may be upgraded separately using your unspent experience."
+    },
+    {
+        "code": "90050",
+        "name": "Jim's Trumpet",
+        "subname": "The Dead Speak",
+        "text": "Jim Culver deck only. Advanced.\n[reaction] When a [skull] or [curse] token is revealed during a skill test you are performing, exhaust Jim's Trumpet: Heal 1 horror from each investigator and [[Ally]] asset at your location or a connecting location.",
+        "traits": "Item. Instrument. Relic.",
+        "slot": "Hand"
+    },
+    {
+        "code": "90051",
+        "flavor": "When the dead start talking about what scares them, that's when it's time to listen.",
+        "name": "Final Rhapsody",
+        "text": "Advanced.\n<b>Revelation</b> - Reveal 5 chaos tokens from the chaos bag. For each non-[elder_sign], non-[bless] symbol token revealed, take 1 damage and 1 horror.",
+        "traits": "Endtimes."
+    },
+    {
+        "code": "90052",
+        "name": "The Beyond",
+        "subname": "Black Netherworld",
+        "text": "Jim Culver deck only. Permanent.\nEach attached spirit loses all printed traits and gains the [[Geist]] trait. When damage/horror would be placed on an attached spirit, it must be placed on Jim Culver, instead.\n<b>Forced</b> – When your turn begins: Attach the top card of the spirit deck to The Beyond, as a spirit. If 4 or more spirits are attached, flip this card and resolve its text.",
+        "traits": "Sanctum. Spectral."
+    },
+    {
+        "code": "90052b",
+        "name": "The Beyond",
+        "text": "<b>Forced</b> – One at a time, choose each non-weakness spirit attached to The Beyond and reveal a random token from the chaos bag. If it is...\n- ... an [elder_sign] token: You may either heal 1 horror, or attach the top card of the spirit deck to The Beyond, as a spirit. <i>(Do not reveal tokens for the spirit you attach after resolving this effect.)</i>\n- ... an [auto_fail] token: Discard this spirit. Take 1 direct damage/horror.\n- ...a [skull] token: Discard this spirit. Heal 1 horror.\n- ...a [cultist], [elder_thing], [tablet], or [curse] token: You must either discard this spirit or take 1 direct damage.\n- ...any other token: Discard this spirit.\nFlip this card back to its asset side.\n<hr><b>Reminder:</b> <i>Spirits attached to The Beyond are in play but only retain their names and text boxes. Spirits do not take up slots and do not have health or sanity values. When a unique spirit is attached to The Beyond, any other asset that shares its name and is already in play is discarded. Spirits are always discarded to the</i> <b>bottom</b> <i>of the spirit deck.</i>"
+    },
+    {
+        "code": "90053",
+        "name": "Vengeful Shade",
+        "text": "Hunter. <b>Prey</b> – Jim Culver only.\nYou may fight or evade this enemy while it is attached to The Beyond (as if it were engaged with you). If you succeed, discard it. If you fail, spawn it engaged with you.\n<b>Forced</b> – When you attach a spirit to The Beyond via its forced effect: Vengeful Shade attacks you <i>(even if it is not at your location)</i>.",
+        "traits": "Monster. Geist."
+    }
+]
