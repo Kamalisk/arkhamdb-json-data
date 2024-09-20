@@ -1,25 +1,428 @@
 [
     {
+        "code": "87001",
+        "name": "Macchinazioni Temporali",
+        "text": "FACILE/STANDARD\n[skull] -X, dove X è il numero di carte storia nella galleria delle vittorie +1.\n[cultist] -1. Se ti trovi a Tindalos, fallisci automaticamente.\n[tablet] -2 (-4 se invece ci sono supporti [[Scienziato]] nel tuo luogo).\n[elder_thing] -3. Se fallisci, infliggi 1 danno o 1 orrore a un supporto [[Alleato]] nel tuo luogo.",
+        "back_text": "DIFFICILE/ESPERTO\n[skull] -X, dove X è il numero di carte storia nella galleria delle vittorie +2.\n[cultist] -2. Se ti trovi a Tindalos, fallisci automaticamente.\n[tablet] -3 (-6 se invece ci sono supporti [[Scienziato]] nel tuo luogo).\n[elder_thing] -4. Se fallisci, infliggi 1 danno o 1 orrore a un supporto [[Alleato]] nel tuo luogo."
+    },
+    {
+        "code": "87002",
+        "flavor": "Per poter riparare la linea temporale, dovrete attraversare un labirinto di sentieri tortuosi per salvare chi è stato imprigionato a Tindalos e ricreare gli eventi più importanti della storia di Thomas e Mary.",
+        "name": "Nel Vuoto",
+        "text": "<b>Obbligo</b> - Quando un supporto [[Scienziato]] sta per essere sconfitto: Esso viene invece rapito <i>(mettetelo da parte, temporaneamente fuori dal gioco)</i>.",
+        "back_name": "Il Tempo si Piega",
+        "back_flavor": "Viaggiare attraverso il tempo potrebbe creare conseguenze inaspettate…",
+        "back_text": "<b>Se la carta storia Anomalie nello Spaziotempo è in gioco:</b>\nCollocate 1[per_investigator] orrori su un luogo Moli del Fiume (trasformandoli in anomalie). Poi aggiungete 1 anomalia su ogni luogo con anomalie.\n<hr>\n<b>Se la carta storia Guai con la Mala è in gioco:</b>\nGiratela. Mescolate nel mazzo degli incontri i 3 nemici Banda degli Sheldon messi da parte. Se il Tick-Tock Club [[Presente]] è in gioco, generate il nemico Vecchio Sadie Sheldon messo da parte in quel luogo.\n<hr>\n<b>Se la carta storia Abominio Indicibile è in gioco:</b>\nGiratela. Generate il nemico Tyr'thrha messo da parte a Tindalos.\n<hr>\n<b>Se la carta storia Un'Aspra Rivalità è in gioco:</b>\nGiratela. Se state giocando nell'era passata, generate il nemico Edwin Bennet messo da parte nel luogo dell'investigatore capo."
+    },
+    {
+        "code": "87003",
+        "flavor": "Più viaggiate attraverso Tindalos, più sarà facile per i suoi servitori rintracciarvi e mettersi alle vostre calcagna. Se non completerete la vostra missione per tempo, potreste diventare ospiti a tempo indeterminato di quel luogo infernale.",
+        "name": "Il Tempo Scorre",
+        "text": "<b>Obbligo</b> - Quando un supporto [[Scienziato]] sta per essere sconfitto: Esso viene invece rapito <i>(mettetelo da parte, temporaneamente fuori dal gioco)</i>.",
+        "back_name": "Imprigionati a Tindalos",
+        "back_flavor": "Non importa cosa facciate né dove andiate: branchi di segugi vi tormentano e vi danno la caccia. Emergono dallo spazio angolare per afferrarvi e trascinarvi nel loro reame di sofferenze infernali. Non potete andare avanti così… Non siete riusciti a riparare la linea temporale infranta.",
+        "back_text": "Ogni investigatore rimanente in tutte le ere è sconfitto e subisce 1 trauma mentale.\nSe il supporto Edwin Bennet è in gioco in una qualsiasi era, proseguite con <b>(→R2)</b>.\nSe il nemico Edwin Bennet è in gioco in una qualsiasi era, proseguite con <b>(→R3)</b>.\nAltrimenti, proseguite con <b>(→R4)</b>."
+    },
+    {
+        "code": "87004",
+        "flavor": "Attraversate nervosamente un portale ed entrate nel reame del tempo angolare e delle profondità infinite.",
+        "name": "A Spasso nel Tempo",
+        "text": "Le capacità di ogni supporto [[Scienziato]] possono essere innescate da un qualsiasi investigatore nel luogo di quel supporto.\n[reaction] Quando ti muovi fino a un luogo, se ci sono supporti [[Scienziato]] nel tuo luogo: Muovi con te un qualsiasi numero di quei supporti.\n<b>Obiettivo</b> - Riparate la linea temporale completando l'obiettivo di ogni carta storia. Se Thomas Corrigan e Mary Zielinski si trovano in luoghi non Tindalos in tutte e 3 le ere e ogni era non ha carte storia in gioco, proseguite con i capitoli.",
+        "back_name": "Il Tempo si Ripara",
+        "back_flavor": "Tirate un sospiro di sollievo mentre osservate Thomas e Mary ricevere il loro meritato riconoscimento. Sembra che la linea temporale sia stata ripristinata e tutto pare essere al proprio posto. La coppia vi ringrazia profusamente e vi sarà eternamente grata per il contributo che avete dato alla loro eredità. Vi chiedete con cauta speranza se abbiate davvero posto fine alle macchinazioni di Edwin. Non riuscirete mai davvero strappare le zanne alle forze di Tindalos: potete solo restare vigili e augurarvi che le vostre azioni non abbiano creato ulteriori paradossi.",
+        "back_text": "<b>(→R1)</b>."
+    },
+    {
+        "code": "87005a",
+        "name": "Tindalos",
+        "subname": "Reame del Tempo Angolare",
+        "text": "Tindalos è collegato a ogni luogo [[Portale]] e viceversa.\n[free] Se è il tuo turno: Muoviti fino a un luogo [[Portale]].\n[action]: Effettua una prova di [combat] o [agility] (2). Se hai successo, salva 1 supporto [[Scienziato]] rapito e mettilo in gioco esaurito a Tindalos.",
+        "traits": "Passato. Presente. Futuro."
+    },
+    {
+        "code": "87005b",
+        "name": "Tindalos",
+        "subname": "Labirinto di Infinite Profondità",
+        "text": "Tindalos è collegato a ogni luogo [[Portale]] e viceversa. luogo Portale e viceversa.\n[free]: Colloca 1 tuo indizio su Tindalos oppure prendi il controllo di 1 indizio su un luogo Tindalos in una qualsiasi era.\n[action]: Effettua una prova di [combat] o [agility] (3). Se hai successo, salva 1 supporto [[Scienziato]] rapito e mettilo in gioco esaurito a Tindalos.",
+        "traits": "Passato. Presente. Futuro."
+    },
+    {
+        "code": "87006",
+        "flavor": "Thomas e Mary si sono conosciuti quando erano degli studenti prodigio della Miskatonic University. È fondamentale che queste due menti eccelse si incontrino e stringano una solida amicizia.\nIl famoso inventore Nikola Tesla sta svolgendo un tour in tutta l'America ed è appena sbarcato ad Arkham. Sapete che Thomas e Mary hanno assistito all'esibizione elettrica di Tesla e che l'hanno considerata una delle loro più grandi fonti di ispirazione.\nNella sua devozione alla scienza, l'università sta cercando di migliorare ed espandere il suo campus. Una delle priorità è un osservatorio, ma la mancanza di fondi ne rende improbabile la costruzione. Una ragguardevole donazione potrebbe sicuramente aiutare a dare il via a un progetto di tale rilievo.",
+        "name": "Una Nobile Eredità (Passato)",
+        "text": "<b>Preparazione</b>: Collocate il supporto Nikola Tesla nei Moli del Fiume [[Passato]]. Girate questa carta storia.",
+        "back_text": "[action] Se tu, Thomas Corrigan e Mary Zielinski vi trovate nella Miskatonic University [[Passato]]: Annuncia che \"Thomas e Mary si sono incontrati\".\n[action] Se Thomas Corrigan, Mary Zielinski e Nikola Tesla si trovano nello stesso luogo, gli investigatori spendono un totale di 2[per_investigator] indizi: Annuncia che “Thomas e Mary sono stati ispirati da Nikola Tesla”.\n[free] Se ti trovi nella Miskatonic University [[Passato]], spendi 2[per_investigator] risorse: Annuncia che “è partito il finanziamento per un osservatorio”.\n<b>Obiettivo</b> - Se le 3 capacità di questa carta storia sono state innescate, collocate questa carta storia nella galleria delle vittorie (<i>collocate 1 segnalino risorsa sopra ogni capacità quando viene innescata</i>)."
+    },
+    {
+        "code": "87007",
+        "name": "Gazetta di Arkham",
+        "text": "[action]: Effettua una prova di una qualsiasi abilità (4). Se hai successo, ottieni 1 indizio (<i>dalla riserva dei segnalini</i>).\n[free] Rimuovi 1 giornale da questo luogo: Colloca 1[per_investigator] indizi (<i>dalla riserva dei segnalini</i>) su questo luogo. Guarda 5 carte dalla cima del mazzo degli incontri, collocane 1 nella galleria delle vittorie e metti le altre in cima e/o in fondo a quel mazzo in qualsiasi ordine.",
+        "traits": "Arkham. Portale. Passato.",
+        "back_flavor": "La Gazzetta di Arkham risale all'epoca rivoluzionaria, periodo in cui il giornale non era che una singola pagina su cui venivano pubblicate notizie e offerte locali. L'industrializzazione ha portato alla prima macchina da stampa della Gazzetta e l'influenza del giornale si è diffusa rapidamente anche oltre i confini di Arkham."
+    },
+    {
+        "code": "87008",
+        "name": "Orologeria O'Malley",
+        "text": "[action] Rimuovi 1 tempo da questo luogo: Rimuovi 1 destino da una trama in una qualsiasi era. Se Thomas Corrigan si trova in questo luogo, puoi esaurirlo per collocare 1 risorsa (<i>dalla riserva dei segnalini</i>) sul Tick-Tock Club [[Presente]] (trasformandola in tempo).",
+        "traits": "Arkham. Portale. Passato.",
+        "back_flavor": "Le pareti dell'Orologeria O'Malley sono disseminate di orologi di fattura sopraffina di ogni forma, dimensione e stile. Ogni orologio è unico e segna un orario differente, cosa che provoca un delicato trillare di campanelli e rintocchi a intervalli irregolari."
+    },
+    {
+        "code": "87009",
+        "name": "Moli del Fiume",
+        "text": "[action] Spendi 2 risorse oppure esaurisci 1 supporto [[Scienziato]] in questo luogo: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) su un luogo Moli del Fiume [[Presente]] o [[Futuro]] (trasformandola in spedizione). (Limite di una volta per turno.)",
+        "traits": "Arkham. Portale. Passato.",
+        "back_flavor": "Brulicanti di attività a tutte le ore, i moli sulle rive del Miskatonic sono il cuore del Quartiere Mercantile. C'è un quotidiano viavai di merci di ogni genere e viaggiatori provenienti dall'intera costa orientale."
+    },
+    {
+        "code": "87010",
+        "flavor": "Le menti più brillanti della Facoltà di Scienze della Miskatonic si sostengono a vicenda per raggiungere traguardi sempre più importanti.",
+        "name": "Miskatonic University",
+        "text": "[action] [action] Rimuovi 1 seme da questo luogo: Annuncia che “il seme di un albero è stato piantato”. Ottieni 1 risorsa per ogni supporto [[Scienziato]] in questo luogo.",
+        "traits": "Arkham. Portale. Passato.",
+        "back_flavor": "Fondata nel 1690, la prestigiosa Miskatonic University è una delle istituzioni di istruzione superiore più importanti del New England. I rinomati corsi accademici dell'università attraggono studenti promettenti che provengono da tutto il paese e non solo."
+    },
+    {
+        "code": "87011",
+        "name": "Casa d'Infanzia",
+        "text": "[action] Se “Thomas e Mary si sono incontrati” e Thomas Corrigan e Mary Zielinski si trovano in questo luogo: Annuncia che “Thomas e Mary si sono sposati”.\n\n[action] [action] Se “le Industrie Corrigan sono state fondate”: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sulle Industrie Corrigan (trasformandola in capsula temporale). (Limite di una volta in totale per partita.)",
+        "traits": "Arkham. Passato.",
+        "back_flavor": "Nato e cresciuto in una casa piccola ma accogliente costruita nel 1858 da suo padre, Thomas Corrigan e il suo amore per la scienza crebbero rapidi quanto il mutare delle stagioni del New England."
+    },
+    {
+        "code": "87012",
+        "flavor": "Sin da quando era un bambino che esplorava i boschi e il fiume vicino casa, Thomas ha sempre dimostrato un'incredibile curiosità e la determinazione a saziarla.",
+        "name": "Thomas Corrigan",
+        "subname": "Studente di Fisica",
+        "text": "[reaction] Quando lanci una prova di abilità, esaurisci Thomas Corrigan: Se hai successo, pesca 1 carta.",
+        "traits": "Scienziato. Alleato. Passato."
+    },
+    {
+        "code": "87013",
+        "flavor": "Nata a Varsavia, la grande passione di Mary verso la scienza la condusse dall'altra parte del mondo fino alla Miskatonic University.",
+        "name": "Mary Zielinski",
+        "subname": "Studentessa di Chimica",
+        "text": "[action] Esaurisci Mary Zielinski: <b>Indaga.</b> Se hai successo, invece di scoprire 1 indizio nel tuo luogo, ottieni 1 indizio (<i>dalla riserva dei segnalini</i>).",
+        "traits": "Scienziato. Alleato. Passato."
+    },
+    {
         "code": "87014",
-        "flavor": "The high-voltage demonstrations performed by Tesla throughout America and Europe were truly awe-inspiring.",
+        "flavor": "Le dimostrazioni con l'alta tensione messe in scena da Tesla in tutta l'America e l'Europa lasciavano chiunque a bocca aperta.",
         "name": "Nikola Tesla",
-        "subname": "Renowned Inventor",
-        "text": "[fast] Exhaust Nikola Tesla: <b>Parley.</b> Test [intellect] (1). If you succeed, either gain 1 clue <i>(from the token pool)</i>, draw 2 cards, or gain 3 resources. (Max once per game per option.)",
-        "traits": "Scientist. Ally. Past.",
-        "slot": "Ally"
+        "subname": "Inventore Famoso",
+        "text": "[free] Esaurisci Nikola Tesla: <b>Negozia.</b> Effettua una prova di [intellect] (1). Se hai successo, puoi scegliere se ottenere 1 indizio (<i>dalla riserva dei segnalini</i>), pescare 2 carte oppure ottenere 3 risorse. (Massimo una volta per partita per opzione.)",
+        "traits": "Scienziato. Alleato. Passato.",
+        "slot": "Alleato"
+    },
+    {
+        "code": "87015",
+        "flavor": "Una volta finanziata e completata la sua costruzione sul Colle della Gru, l'Osservatorio Astronomico Gerald Warren arricchirà la Miskatonic University di strumentazioni all'avanguardia, quali il telescopio ad alta potenza, consentendo agli scienziati di esplorare le profondità dell'universo. I nuovi dati forniti si dimostreranno inestimabili per le ricerche di Thomas e Mary.\n\nPer quanto breve, la fruttuosa collaborazione con un professore dell'arcano, tale Ezra Graves, è stata fondamentale per portare Thomas e Mary sulla giusta strada. Dovrete assicurarvi che questo incontro casuale avvenga davvero.",
+        "name": "Una Nobile Eredità (Presente)",
+        "text": "<b>Preparazione</b>: Collocate il supporto Ezra Graves nell'Arkham Advertiser [[Presente]]. Girate questa carta storia.",
+        "back_text": "[action] Se ti trovi nella Miskatonic University Presente e “è partito il finanziamento per un osservatorio”: Annuncia che “l'osservatorio è stato costruito”.\n[action] Se “l'osservatorio è stato costruito”, “Thomas e Mary sono stati ispirati da Nikola Tesla” e Thomas Corrigan, Mary Zielinski ed Ezra Graves si trovano nella Miskatonic University [[Presente]], gli investigatori spendono un totale di 2[per_investigator] indizi (un totale di 4 indizi se invece state giocando in <i>modalità multiplayer epico</i>): Annuncia che “le ricerche sul teletrasporto hanno avuto inizio”.\n[free] Se “Thomas e Mary si sono incontrati” e Thomas Corrigan e Mary Zielinski si trovano nella Vecchia Bottega di Magia, spendi 1[per_investigator] risorse: Annuncia che “le Industrie Corrigan sono state fondate” e metti in gioco il luogo Industrie Corrigan messo da parte nell'era futura.\n<b>Obiettivo</b> - Se le 3 capacità di questa carta storia sono state innescate, collocate questa carta storia nella galleria delle vittorie (<i>collocate 1 segnalino risorsa sopra ogni capacità quando viene innescata</i>)."
+    },
+    {
+        "code": "87016",
+        "name": "Arkham Advertiser",
+        "text": "[free] Spendi 1 risorsa: Ripristina 1 supporto [[Scienziato]] in questo luogo. (Limite di una volta per round.)\n[action] Rimuovi 1 giornale da questo luogo: Colloca 1[per_investigator] indizi (<i>dalla riserva dei segnalini</i>) su questo luogo. Effettua 4 azioni aggiuntive in questo turno.",
+        "traits": "Arkham. Portale. Presente.",
+        "back_flavor": "Situata a nord del fiume Miskatonic, la sede dell'Arkham Advertiser ospita una formidabile squadra di giornalisti investigativi e fotografi impegnati a portare a galla la verità. I lettori considerano il giornale una fonte affidabile ricca di storie e informazioni esclusive."
+    },
+    {
+        "code": "87017",
+        "name": "Tick-Tock Club",
+        "text": "[action] Rimuovi 1 tempo da questo luogo: Rimuovi 1 destino da una trama in una qualsiasi era. Se Thomas Corrigan si trova in questo luogo, puoi esaurirlo per collocare 1 risorsa (<i>dalla riserva dei segnalini</i>) sul Tick-Tock Club [[Futuro]] (trasformandola in tempo).",
+        "traits": "Arkham. Portale. Presente.",
+        "back_flavor": "Nascosto in un vicolo sotto una vecchia orologeria, il Tick-Tock Club è un famoso speakeasy dove abbondano jazz, risate e drink. È sempre mezzanotte al Tick-Tock Club."
+    },
+    {
+        "code": "87018",
+        "name": "Moli del Fiume",
+        "text": "[free] Rimuovi 1 spedizione da questo luogo: Ottieni 4 risorse oppure 1 indizio (<i>dalla riserva dei segnalini</i>).\n[action] Spendi 3 risorse oppure esaurisci 2 supporti [[Scienziato]] in questo luogo: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sui Moli del Fiume [[Futuro]] (trasformandola in spedizione).",
+        "traits": "Arkham. Portale. Presente.",
+        "back_flavor": "Brulicanti di attività a tutte le ore, i moli sulle rive del Miskatonic sono il cuore del Quartiere Mercantile. C'è un quotidiano viavai di merci di ogni genere e viaggiatori provenienti da ogni angolo del paese, grazie al quale contrabbandieri e trafficanti riescono a muoversi indisturbati."
+    },
+    {
+        "code": "87019",
+        "flavor": "Le nuove strutture del campus hanno attirato ricercatori illustri alla Miskatonic University.",
+        "name": "Miskatonic University",
+        "text": "[action] Se “il seme di un albero è stato piantato”: Ottieni 1 indizio (<i>dalla riserva dei segnalini</i>) per ogni supporto [[Scienziato]] in questo luogo. (Limite di una volta in totale per partita.)",
+        "traits": "Arkham. Portale. Presente.",
+        "back_flavor": "L'aumento delle donazioni ha portato al finanziamento di una moltitudine di progetti alla Miskatonic University.\nIl più importante di tutti è stata la costruzione dell'Osservatorio Warren, una struttura all'avanguardia situata in cima al colle orientale del campus."
+    },
+    {
+        "code": "87020",
+        "name": "Vecchia Bottega di Magia",
+        "text": "[free] Se Ezra Graves si trova in questo luogo, esaurisci Ezra Graves e spendi 1 indizio: Sconfiggi 1 nemico non [[Elite]] in una qualsiasi era. (Limite di una volta in totale per partita.)",
+        "traits": "Arkham. Presente.",
+        "back_flavor": "Appena a sud della Miskatonic University nei Quartieri Residenziali, il negozietto di Miriam Beecher è zeppo di chincaglierie arcane che la scienza avrebbe difficoltà a spiegare. Dopo tanti anni di lavoro, Miriam sta considerando l'idea di andare in pensione e forse di vendere l'attività."
+    },
+    {
+        "code": "87021",
+        "name": "Thomas Corrigan",
+        "subname": "Astrofisico Autorevole",
+        "text": "[free] Esaurisci Thomas Corrigan: Ricevi +2 in questa prova di abilità.\n[reaction] Quando lanci una prova di abilità, esaurisci Thomas Corrigan: Se hai successo, pesca 1 carta.",
+        "traits": "Scienziato. Alleato. Presente."
+    },
+    {
+        "code": "87022",
+        "name": "Mary Zielinski",
+        "subname": "Chimica Insigne",
+        "text": "[free] Esaurisci Mary Zielinski: Ricevi +2 [intellect] in questa prova di abilità.\n[action] Esaurisci Mary Zielinski: <b>Indaga.</b> Se hai successo, invece di scoprire 1 indizio nel tuo luogo, ottieni 1 indizio (<i>dalla riserva dei segnalini</i>).",
+        "traits": "Scienziato. Alleato. Presente."
     },
     {
         "code": "87023",
         "name": "Ezra Graves",
-        "subname": "Professor of the Arcane",
-        "text": "[fast] During any investigator's turn, exhaust Ezra Graves and spend 1 resource: Immediately take an action as if it were your turn.\n[action]: Choose an [[Ally]] asset in your discard pile and put it into play under your control (Max once per game.)",
-        "traits": "Scientist. Ally. Present.",
-        "slot": "Ally"
+        "subname": "Professore dell'Arcano",
+        "text": "[free] Durante il turno di un investigatore, esaurisci Ezra Graves e spendi 1 risorsa: Effettua immediatamente 1 azione come se fosse il tuo turno\n[action]: Scegli 1 supporto [[Alleato]] nella tua pila degli scarti e mettilo in gioco sotto il tuo controllo. (Massimo una volta per partita.)",
+        "traits": "Scienziato. Alleato. Presente.",
+        "slot": "Alleato"
+    },
+    {
+        "code": "87024",
+        "flavor": "Una volta messi al loro posto tutti i pezzi necessari, nella migliore delle ipotesi potrebbero volerci anni di ricerche per ottenere una svolta decisiva su uno dei più grandi misteri dell'universo: il teletrasporto, ovvero la capacità di spostare la materia da un luogo a un altro senza attraversare lo spazio fisico che li separa. Thomas e Mary credono di essere sul punto di inviare un essere umano attraverso lo spaziotempo.\nTale scoperta avrebbe dovuto essere già avvenuta: il Nobel di Thomas e Mary, la loro fama mondiale, l'evento all'Arkham Advertiser, la foto in cui tengono in mano il giornale con l'articolo che avete letto… Eppure non c'è traccia di tutto ciò. A meno che non interveniate…",
+        "name": "Una Nobile Eredità (Futuro)",
+        "text": "<b>Preparazione</b>: Mettete da parte, temporaneamente fuori dal gioco, il supporto Macchina del Raggio Dimensionale. Girate questa carta storia.",
+        "back_text": "[action] Se Thomas Corrigan e Mary Zielinski si trovano nelle Industrie Corrigan: Metti in gioco il supporto Macchina del Raggio Dimensionale messo da parte sotto il tuo controllo (<i>se sei eliminato, mettilo da parte, temporaneamente fuori dal gioco</i>).\n[action] Se “le ricerche sul teletrasporto hanno avuto inizio” e Thomas Corrigan, Mary Zielinski e la Macchina del Raggio Dimensionale si trovano nella Miskatonic University [[Futuro]]: Effettua una prova di [intellect] (3). Se hai successo, gli investigatori spendono un totale di 2[per_investigator] indizi (un totale di 8[per_investigator] indizi se invece state giocando in <i>modalità multiplayer epico</i>) e annuncia che “Thomas e Mary hanno compiuto una scoperta storica”.\n[action] Se “Thomas e Mary hanno compiuto una scoperta storica” e Thomas Corrigan e Mary Zielinski si trovano nell'Arkham Advertiser [[Futuro]]: Annuncia che “Thomas e Mary hanno vinto un premio Nobel”.\n<b>Obiettivo</b> - Se le 3 capacità di questa carta storia sono state innescate, collocate questa carta storia nella galleria delle vittorie (<i>collocate 1 segnalino risorsa sopra ogni capacità quando viene innescata</i>)."
+    },
+    {
+        "code": "87025",
+        "name": "Arkham Advertiser",
+        "text": "[action]: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sulla Gazzetta di Arkham o su un luogo Arkham Advertiser in una qualsiasi era (trasformandola in giornale). (Limite di due volte in totale per partita.)\n[free] Rimuovi 1 giornale da questo luogo: Colloca 1[per_investigator] indizi (<i>dalla riserva dei segnalini</i>) su questo luogo. Rimuovi 1 segnalino [skull], [cultist], [tablet] o [elder_thing] dal sacchetto del caos per il resto della partita.",
+        "traits": "Arkham. Portale. Futuro.",
+        "back_flavor": "Gli edifici e le fabbriche del Northside di Arkham diventano sempre più grandi di anno in anno e di notte piombano nel silenzio. Tutti tranne l'<u>Arkham Advertiser</u>: persino l'ora delle streghe è disturbata dal costante brusio di giornalisti, redattori e operatori, tutti impegnati a far uscire dalle macchine ronzanti il nuovo numero."
+    },
+    {
+        "code": "87026",
+        "name": "Tick-Tock Club",
+        "text": "[action] Se Thomas Corrigan si trova in questo luogo, esauriscilo e spendi 1[per_investigator] indizi: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sull'Orologeria O'Malley (trasformandola in tempo). (Limite di una volta in totale per partita.)\n[action] Rimuovi 1 tempo da questo luogo: Rimuovi 1 destino da una trama in una qualsiasi era.",
+        "traits": "Arkham. Portale. Futuro.",
+        "back_flavor": "Situato nel Quartiere Mercantile, il Tick-Tock Club è un famoso nightclub dove abbondano jazz, rock-n-roll, risate e drink. È sempre mezzanotte al Tick-Tock Club."
+    },
+    {
+        "code": "87027",
+        "name": "Moli del Fiume",
+        "text": "[free] Rimuovi 1 spedizione da questo luogo: Ottieni 4 risorse oppure 1 indizio (<i>dalla riserva dei segnalini</i>).\n[free] Spendi 3 risorse oppure esaurisci 2 supporti [[Scienziato]] in questo luogo: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sui Moli del Fiume [[Presente]] (trasformandola in spedizione). (Limite di una volta per round.)",
+        "traits": "Arkham. Portale. Futuro.",
+        "back_flavor": "Brulicanti di attività a tutte le ore, i moli sulle rive del Miskatonic sono il cuore del Quartiere Mercantile. C'è un quotidiano viavai di merci di ogni genere e viaggiatori provenienti da tutto il mondo."
+    },
+    {
+        "code": "87028",
+        "name": "Miskatonic University",
+        "text": "[action] Se Mary Zielinski si trova in questo luogo: Colloca 1 risorsa (<i>dalla riserva dei segnalini</i>) sulla Miskatonic University [[Passato]] (trasformandola in seme). (Limite di una volta in totale per partita.)\n[free] Se “il seme di un albero è stato piantato”: Ottieni 1 indizio (<i>dalla riserva dei segnalini</i>) per ogni supporto [[Scienziato]] in questo luogo. (Limite di una volta in totale per partita.)",
+        "traits": "Arkham. Portale. Futuro.",
+        "back_flavor": "Col tempo, le continue donazioni e le nuove costruzioni hanno portato la Miskatonic University a diventare un campus gigantesco, con un numero di iscritti mai visto prima. Al tramonto, inquietanti ombre si allungano sulla silenziosa facoltà: si dice che a tarda notte vengano svolti esperimenti proibiti nei laboratori."
+    },
+    {
+        "code": "87029",
+        "name": "Industrie Corrigan",
+        "text": "[action] Rimuovi 1 capsula temporale da questo luogo: Scegli fino a 4 carte nella tua pila degli scarti e aggiungile alla tua mano.\n[action] [action] Se “Thomas e Mary si sono sposati”: I loro figli ereditano le Industrie Corrigan. Ottieni 10 risorse. (Limite di una volta in totale per partita.)",
+        "traits": "Arkham. Futuro.",
+        "back_flavor": "Costruite dove un tempo sorgeva la casa d'infanzia di Thomas Corrigan, le Industrie Corrigan sono un sogno diventato realtà. Innovazione e scoperta sono i cavalli di battaglia di questa azienda, che si affida alla scienza per migliorare la società."
+    },
+    {
+        "code": "87030",
+        "name": "Thomas Corrigan",
+        "subname": "Cofondatore delle Industrie Corrigan",
+        "text": "Ogni investigatore nel luogo di Thomas Corrigan riceve + 1[willpower].\n[reaction] Quando lanci una prova di abilità, esaurisci Thomas Corrigan: Se hai successo, pesca 1 carta.",
+        "traits": "Scienziato. Alleato. Futuro."
+    },
+    {
+        "code": "87031",
+        "name": "Mary Zielinski",
+        "subname": "Cofondatore delle Industrie Corrigan",
+        "text": "Ogni investigatore nel luogo di Mary Zielinski riceve +1[intellect].\n[action] Esaurisci Mary Zielinski: <b>Indaga.</b> Se hai successo, invece di scoprire 1 indizio nel tuo luogo, ottieni 1 indizio (<i>dalla riserva dei segnalini</i>).",
+        "traits": "Scienziato. Alleato. Futuro."
     },
     {
         "code": "87032",
-        "name": "Dimensional Beam Machine",
-        "text": "Uses (2 charges).\n[fast] During your turn, exhaust Dimensional Beam Machine and spend 1 charge: Move an investigator or a non-[[Elite]] enemy at your location to any revealed location.",
-        "traits": "Item. Science. Tool. Future."
+        "name": "Macchina del Raggio Dimensionale",
+        "text": "Utilizzo (2 cariche).\n[free] Durante il tuo turno, esaurisci la Macchina del Raggio Dimensionale e spendi 1 carica: Muovi 1 investigatore o 1 nemico non [[Elite]] nel tuo luogo fino a un qualsiasi luogo aperto.",
+        "traits": "Oggetto. Scienza. Strumento. Futuro."
+    },
+    {
+        "code": "87033",
+        "flavor": "Non c'è traccia di Edwin Bennet, ma sapete che potrebbe comparire ovunque in qualsiasi momento. Folle e ossessionato, l'uomo giura vendetta su coloro che lo hanno “tradito”. La fama e la gloria saranno soltanto sue… Nulla lo convincerà del contrario!",
+        "name": "Un'Aspra Rivalità",
+        "text": "<b>Preparazione</b>: Seguite le istruzioni sottostanti per le vostre rispettive ere.\n<hr>\n<b>Passato</b>: Mettete da parte, temporaneamente fuori dal gioco, Thomas Corrigan; è stato rapito. Collocate Mary Zielinski nella Gazzetta di Arkham. Mettete da parte, temporaneamente fuori dal gioco, il nemico Edwin Bennet.\n<hr>\n<b>Presente e Futuro</b>: Mettete da parte, temporaneamente fuori dal gioco, Thomas Corrigan e Mary Zielinski; sono stati rapiti. Se state giocando in <i>modalità multiplayer epico</i>, mettete da parte, temporaneamente fuori dal gioco, il nemico Edwin Bennet.",
+        "traits": "Macchinazione.",
+        "back_text": "[action] [action]: Ripristina e muovi Edwin Bennet fino al tuo luogo (<i>anche se si trova in un'altra era</i>).\n[action] Se Edwin Bennet si trova nel tuo luogo: <b>Combatti/Eludi.</b> Puoi scegliere se attaccare oppure tentare di eludere Edwin Bennet. Se hai successo, gli investigatori spendono un totale di X indizi, dove X è il numero globale di giocatori. Poi colloca 1 risorsa su di esso (trasformandola in bersaglio). (Limite di una volta in totale per round.)\n<b>Obiettivo</b> - Se Edwin Bennet si trova a Tindalos e ci sono 3 bersagli su di esso, le forze di Tindalos lo catturano. Rimuovete dal gioco Edwin Bennet e collocate nella galleria delle vittorie tutte le copie di questa carta storia in ogni era."
+    },
+    {
+        "code": "87034",
+        "flavor": "Il rancore di Edwin Bennet per i suoi ex colleghi è ormai fuori controllo: bisogna arginarlo rapidamente. Imperterriti, siete determinati a ripristinare la sua sanità mentale e a mettere fine alla sua vendetta.",
+        "name": "Redimere un Ex Collega",
+        "text": "<b>Preparazione</b>: Seguite le istruzioni sottostanti per le vostre rispettive ere. Poi girate questa carta storia.\n<hr>\n<b>Passato</b>: Mettete da parte, temporaneamente fuori dal gioco, Mary Zielinski; è stata rapida. Collocate Thomas Corrigan nella Casa d'Infanzia. Se state giocando in <i>modalità multiplayer epico</i>, mettete da parte, temporaneamente fuori dal gioco, il nemico Edwin Bennet.\n<hr>\n<b>Presente</b>: Mettete da parte, temporaneamente fuori dal gioco, Thomas Corrigan e Mary Zielinski; sono stati rapiti. Generate il nemico Edwin Bennet nella Miskatonic University.\n<hr>\n<b>Futuro</b>: Mettete da parte, temporaneamente fuori dal gioco, Thomas Corrigan e Mary Zielinski; sono stati rapiti. Se state giocando in <i>modalità multiplayer epico</i>, mettete da parte, temporaneamente fuori dal gioco, il nemico Edwin Bennet.",
+        "traits": "Macchinazione.",
+        "back_text": "[action] [action]: Ripristina e muovi Edwin Bennet fino al tuo luogo (anche se si trova in un'altra era).\n[action] Se Edwin Bennet si trova nel tuo luogo: <b>Negozia.</b> Effettua una prova di [intellect] o [willpower] (3). Se hai successo, gli investigatori spendono un totale di X indizi, dove X è il numero globale di giocatori. Poi colloca 1 risorsa su di esso (trasformandola in redenzione).\n<b>Obiettivo</b> - Se Edwin Bennet si trova nella Miskatonic University con Thomas Corrigan e Mary Zielinski e ci sono 3 o più redenzioni su di esso, Edwin Bennet è redento. Rimuovete tutte le redenzioni da esso e giratelo. Collocate nella galleria delle vittorie tutte le copie di questa carta storia in ogni era."
+    },
+    {
+        "code": "87035",
+        "flavor": "Nel passato non sembra esserci nulla fuori posto e vi domandate se Edwin Bennet sia affidabile. Di certo la sua vasta conoscenza potrebbe tornarvi estremamente utile. Riluttanti, vi convincete che il gioco valga la candela, ma ci vorrà una grande persuasione per evitare che Edwin vi tradisca.",
+        "name": "Alleanza Scomoda",
+        "text": "<b>Preparazione</b>: Seguite le istruzioni sottostanti per le vostre rispettive ere. Poi girate questa carta storia.\n<hr>\n<b>Passato</b>: Collocate Thomas Corrigan nella Casa d'Infanzia. Collocate Mary Zielinski nell'Orologeria O'Malley. Collocate il supporto Edwin Bennet nella Gazzetta di Arkham con 12 indizi su di esso, poi rimuovete 3[per_investigator] indizi da esso.\n<hr>\n<b>Presente e Futuro</b>: Mettete da parte, temporaneamente fuori dal gioco, Thomas Corrigan e Mary Zielinski; sono stati rapiti. Se state giocando in <i>modalità multiplayer epico</i>, mettete da parte, temporaneamente fuori dal gioco, il supporto Edwin Bennet.",
+        "traits": "Macchinazione.",
+        "back_text": "[action] Se Edwin Bennet si trova nel tuo luogo ed è pronto: <b>Negozia.</b> Colloca 1 tuo indizio su di esso. Puoi effettuare una prova di [intellect] (4). Se hai successo, colloca 1 altro tuo indizio su di esso. Se fallisci, esauriscilo.\n[action]: Ripristina e muovi Edwin Bennet fino al tuo luogo (<i>anche se si trova in un'altra era</i>).\n<b>Obbligo</b> - Alla fine del round: Rimuovete 1 indizio da Edwin Bennet (2 indizi se invece state giocando in <i>modalità multiplayer epico</i>). Se non potete farlo, collocate 1 destino sulla trama attuale. Questo effetto può far proseguire con la trama.\n<b>Obbligo</b> - Quando Edwin Bennet sta per essere rapito: Rimuovete tutti i danni e gli orrori da esso e collocate invece 2 destini sulla trama attuale.\n<b>Obiettivo</b> - Se “Thomas e Mary hanno vinto un premio Nobel” e non ci sono carte storia [[Sviluppo]] in gioco in alcuna era, collocate questa carta storia nella galleria delle vittorie."
+    },
+    {
+        "code": "87036a",
+        "name": "Edwin Bennet",
+        "subname": "Avversario Rancoroso",
+        "text": "Pattuglia (il luogo più vicino con supporti [[Scienziato]]).\nEdwin Bennet non può essere danneggiato.\nNon possono essere scoperti indizi nel luogo di Edwin Bennet.\n<b>Obbligo</b> - Alla fine della Fase dei Miti: Infliggete 1 danno a ogni supporto [[Scienziato]] nel luogo di Edwin Bennet.",
+        "traits": "Umanoide. Elite."
+    },
+    {
+        "code": "87036b",
+        "flavor": "Una mente davvero brillante, per quanto instabile.",
+        "name": "Edwin Bennet",
+        "subname": "Associato Astuto",
+        "text": "[free] Se è il tuo turno e ti trovi in un luogo [[Portale]], esaurisci Edwin Bennet e spendi 2 risorse: Muoviti fino a Tindalos.",
+        "traits": "Scienziato. Alleato."
+    },
+    {
+        "code": "87037a",
+        "name": "Edwin Bennet",
+        "subname": "Rivale Invidioso",
+        "text": "Pattuglia (il luogo più vicino con supporti [[Scienziato]]).\nEdwin Bennet non può essere danneggiato.\nNon possono essere scoperti indizi nel luogo di Edwin Bennet.\n<b>Obbligo</b> - Alla fine della Fase dei Miti: Infliggete 1 danno a ogni supporto [[Scienziato]] nel luogo di Edwin Bennet. Poi un investigatore a vostra scelta pesca 1 carta dalla cima del mazzo degli incontri.",
+        "traits": "Umanoide. Elite."
+    },
+    {
+        "code": "87037b",
+        "name": "Edwin Bennet",
+        "subname": "Collega Stimato",
+        "text": "<b>Obbligo</b> - Dopo che Edwin Bennet è stato esaurito: Un investigatore a vostra scelta pesca 1 carta dalla cima del mazzo degli incontri.\n[reaction] Quando peschi una carta incontro, esaurisci Edwin Bennet: Annulla tutti gli effetti di quella carta e scartala.",
+        "traits": "Scienziato. Alleato."
+    },
+    {
+        "code": "87038",
+        "flavor": "Alcune peculiarità apparentemente casuali stanno influendo sullo spaziotempo. Bizzarri focolai in tutta Arkham interferiscono con la vita quotidiana dei terrorizzati abitanti. Pare che queste aberrazioni abbiano avuto inizio alla Miskatonic University e alcuni sostengono siano state provocate dagli esperimenti proibiti condotti nei laboratori della Facoltà di Scienze.",
+        "name": "Anomalie nello Spaziotempo",
+        "text": "<b>Preparazione</b>: Collocate 1[per_investigator] orrori su ogni luogo Miskatonic University (trasformandoli in anomalie). Se state giocando in <i>modalità multiplayer epico</i>, collocate anche 1[per_investigator] orrori su ognuno dei luoghi seguenti (trasformandoli in anomalie): Gazzetta di Arkham, Arkham Advertiser, Orologeria O'Malley e Tick-Tock Club.\nRimuovete dal gioco i nemici seguenti: Tyr'thrha, Vecchio Sadie Sheldon e le 3 copie della Banda degli Sheldon. Girate questa carta storia.",
+        "traits": "Sviluppo.",
+        "back_text": "Le capacità dei luoghi con anomalie non possono essere innescate.\n[action] Spendi un qualsiasi numero di indizi: Effettua una prova di [willpower] o [agility] (3). Ricevi +3 al valore di abilità in questa prova per ogni indizio speso in questo modo. Se hai successo, rimuovi 1 anomalia dal tuo luogo (2 anomalie se invece hai successo di 3 o più punti). Poi, se hai avuto successo di 4 o più punti e “le Industrie Corrigan sono state fondate”, rimuovi 1 anomalia da un luogo in una qualsiasi era con lo stesso nome del tuo luogo.\n<b>Obiettivo</b> - Se siete alla Trama 2a e non ci sono anomalie sui luoghi, collocate questa carta storia nella galleria delle vittorie"
+    },
+    {
+        "code": "87039",
+        "flavor": "A mali estremi, estremi rimedi. A corto di possibilità, vi rivolgete a un famigerato boss del crimine: il Vecchio Sadie Sheldon. Noto per il contrabbando di grandi quantità di whiskey canadese, Sheldon e la sua banda possiedono un'enorme riserva di denaro per chiunque abbia bisogno di un prestito urgente. Dovete solo assicurarvi di essere tempestivi a rimborsare l'irascibile criminale…",
+        "name": "Guai con la Mala",
+        "text": "<b>Preparazione</b>: Mettete da parte, temporaneamente fuori dal gioco, il nemico Vecchio Sadie Sheldon e le 3 copie del nemico Banda degli Sheldon. Rimuovete dal gioco il nemico Tyr'thrha. Stringete un accordo con il Vecchio Sadie Sheldon: ogni investigatore che gioca nell'era presente ottiene 2 risorse.",
+        "traits": "Sviluppo.",
+        "back_text": "[action] Se “il debito è stato ripagato”, gli investigatori spendono un totale di 1[per_investigator] indizi: Cerca nell'area di gioco, nel mazzo degli incontri e nella pila degli scarti degli incontri 1 nemico Banda degli Sheldon e collocalo nella galleria delle vittorie. Questa azione non provoca attacchi di opportunità.\n<b>Obiettivo</b> - Se i 3 nemici Banda degli Sheldon si trovano nella galleria delle vittorie, collocate questa carta storia nella galleria delle vittorie."
+    },
+    {
+        "code": "87040",
+        "name": "Vecchio Sadie Sheldon",
+        "subname": "Boss del Contrabbando",
+        "text": "Sfuggente.\nOgni nemico Banda degli Sheldon riceve +1 Scontro e +1 Agilità.\n[action] <b>Negozia.</b> Effettua una prova di [intellect] (2). Se hai successo, gli investigatori spendono un totale di 3[per_investigator] risorse per collocare il Vecchio Sadie Sheldon nella galleria delle vittorie e annunciare che “il debito è stato ripagato”.",
+        "traits": "Umanoide. Criminale. Consorzio."
+    },
+    {
+        "code": "87041",
+        "name": "Banda degli Sheldon",
+        "text": "Impulso. Cacciatore. Massiccio.\nLa Banda degli Sheldon riceve +2[per_investigator] Salute.\n<b>Obbligo</b> - Dopo che un investigatore nel luogo della Banda degli Sheldon ha giocato una carta: Ripristinate la Banda degli Sheldon e scartate 3 carte dalla cima del mazzo degli incontri. Mettete in gioco ogni nemico [[Criminale]] scartato in questo modo nel luogo della Banda degli Sheldon.",
+        "traits": "Umanoide. Criminale. Consorzio. Elite."
+    },
+    {
+        "code": "87042",
+        "flavor": "L'estrema distorsione dello spaziotempo a Tindalos ha effetto su qualsiasi cosa al suo interno. I satiri e i segugi di Tindalos non sono gli unici esseri a cacciare nel reame del tempo angolare: c'è un'entità esponenzialmente più grande e potente che ha il potere di piegare lo spaziotempo.\nChiunque si trovi ad aggirarsi per i sentieri di questo immenso labirinto è destinato ad attirare l'ira di coloro che hanno fatto di Tindalos la propria dimora… Ma nulla può essere paragonato alla furia del signore supremo di Tindalos.",
+        "name": "Abominio Indicibile",
+        "text": "<b>Preparazione</b>: Mettete da parte, temporaneamente fuori dal gioco, il nemico Tyr'thrha. Rimuovete dal gioco il nemico Vecchio Sadie Sheldon e le 3 copie del nemico Banda degli Sheldon.",
+        "traits": "Sviluppo.",
+        "back_text": "[action] Se Tyr'thrha si trova nel tuo luogo, spendi 1 indizio: Effettua una prova di [intellect] (3). Se hai successo, infliggi 2 danni a Tyr'thrha (3 danni se invece hai successo di 3 o più punti). Questa azione non provoca attacchi di opportunità.\n<b><b>Obiettivo</b></b> - Se Tyr'thrha è sconfitto, collocate questa carta storia nella galleria delle vittorie."
+    },
+    {
+        "code": "87043",
+        "name": "Tyr'thrha",
+        "subname": "Signore Supremo di Tindalos",
+        "text": "Massiccio. Ritorsione. Pattuglia (il luogo più vicino con supporti [[Scienziato]]).\n*Tyr'thrha possiede una riserva di Salute globale pari a 6[per_investigator].\n<b>Obbligo</b> - Quando Tyr'thrha entra in un luogo: Ogni supporto [[Scienziato]] in quel luogo viene rapito.",
+        "traits": "Grande Antico. Tindalos. Elite."
+    },
+    {
+        "code": "87044",
+        "name": "Satiro Terrificante",
+        "text": "Pattuglia (il luogo più vicino con supporti [[Scienziato]]).\nIl Satiro Terrificante riceve +1 Scontro mentre si trova in un luogo [[Passato]] e +2 Scontro mentre si trova in un luogo [[Presente]].\n<b>Obbligo</b> - Alla fine della Fase dei Nemici, se il Satiro Terrificante è pronto: Infliggete 1 danno a ogni supporto [[Scienziato]] nel suo luogo.",
+        "traits": "Mostro. Extradimensione. Tindalos."
+    },
+    {
+        "code": "87045",
+        "name": "Segugio di Tindalos",
+        "text": "Pattuglia (il luogo più vicino con supporti [[Scienziato]]).\nIl Segugio di Tindalos riceve +1 Salute mentre si trova in un luogo [[Presente]] e +2 Salute mentre si trova in un luogo [[Futuro]].\n<b>Obbligo</b> - Alla fine della Fase dei Nemici, se il Segugio di Tindalos è pronto: Infliggete 1 orrore a ogni supporto [[Scienziato]] nel suo luogo e muovete ogni supporto [[Scienziato]] e ogni investigatore nel suo luogo fino a Tindalos.",
+        "traits": "Mostro. Extradimensione. Tindalos."
+    },
+    {
+        "code": "87046",
+        "name": "Cosa Multiangolare",
+        "text": "<b>Generazione</b> - Tindalos.\nCacciatore. Mentre la Cosa Multiangolare si trova in un luogo:\n* [[Passato]], riceve +1 Agilità e ottiene Allerta.\n* [[Presente]], riceve +1 al valore di Danno e +1 al valore di Orrore.\n* [[Futuro]], riceve +1 Scontro e ottiene Ritorsione.",
+        "traits": "Mostro. Extradimensione. Tindalos. Elite."
+    },
+    {
+        "code": "87047",
+        "name": "Tindalos Alfa",
+        "text": "Allerta. Ritorsione.\n<b>Obbligo</b> - Dopo che il Tindalos Alfa ti ha attaccato: Mescola nel tuo mazzo 1 supporto non storia che controlli, spostando tutti i danni e gli orrori da quel supporto al tuo investigatore. Scarta il Tindalos Alfa.\n<b>Obbligo</b> - Alla fine della Fase dei Nemici: Scartate il Tindalos Alfa.",
+        "traits": "Mostro. Extradimensione. Tindalos."
+    },
+    {
+        "code": "87048",
+        "flavor": "“Abbiamo concettualizzato il tempo come se fosse una linea retta su cui ci si muove da un punto all'altro. La verità è alquanto diversa.”",
+        "name": "Squarcio nel Tempo",
+        "text": "<b>Rivelazione</b> - Effettua una prova di [willpower] (3). Per ogni punto di cui fallisci, scegli se perdere 1 azione oppure subire 1 orrore.",
+        "traits": "Sortilegio."
+    },
+    {
+        "code": "87049",
+        "flavor": "Chiunque entri ed esca dal dominio dei segugi rischia di diventare un bersaglio a vita.",
+        "name": "Rapito",
+        "text": "Isolamento.\n<b>Rivelazione</b> - Se non ci sono supporti [[Alleato]] nel tuo luogo, Rapito ottiene Impulso. Altrimenti, effettua una prova di [willpower] (5). Se fallisci, esaurisci tutti i supporti [[Alleato]] nel tuo luogo e infliggi 5 orrori a uno di essi.",
+        "traits": "Complotto."
+    },
+    {
+        "code": "87050",
+        "name": "Spazio Infranto",
+        "text": "<b>Rivelazione</b> - Se ti trovi in un luogo:\n* [[Passato]], perdi 3 risorse.\n* [[Presente]], colloca 2 tuoi indizi su di esso.\n* [[Futuro]], perdi 1 azione.",
+        "traits": "Sortilegio."
+    },
+    {
+        "code": "87051",
+        "name": "Breccia Dimensionale",
+        "text": "[[Rivelazione]] - Assegna la Breccia Dimensionale al luogo [[Portale]] più vicino. Colloca 1 destino sulla Breccia Dimensionale.\nOgni nemico nel luogo con questa sventura riceve +1 Scontro, +1 Agilità e +1 Salute.\n[action]: Effettua una prova di [willpower] (3). Se hai successo, scarta la Breccia Dimensionale.",
+        "traits": "Pericolo. Potere."
+    },
+    {
+        "code": "87052",
+        "name": "Da Ogni Angolo",
+        "text": "<b>Rivelazione</b> - Effettua una prova di (4). Se fallisci e ti trovi in un luogo:\n* [[Passato]], esaurisci tutti i supporti in quel luogo.\n* [[Presente]], subisci 1 danno diretto. Infliggi 1 danno a ogni supporto [[Alleato]] nel tuo luogo.\n* [[Futuro]], subisci 1 orrore diretto. Infliggi 1 orrore a ogni supporto [[Alleato]] nel tuo luogo.",
+        "traits": "Terrore."
+    },
+    {
+        "code": "87053",
+        "name": "Smarrito nel Tempo",
+        "text": "<b>Rivelazione</b> - Rimescola 1 supporto non storia che controlli nel tuo mazzo, spostando tutti i danni e gli orrori da quel supporto al tuo investigatore. Se non rimescoli alcun supporto nel tuo mazzo con questo effetto, scegli e scarta 3 carte dalla tua mano.",
+        "traits": "Sortilegio."
+    },
+    {
+        "code": "87054",
+        "name": "Linee Temporali Sovrapposte",
+        "text": "<b>Rivelazione</b> - Scarta 5 carte dalla cima del tuo mazzo. Per ogni carta nella tua mano con lo stesso nome di una delle carte scartate, scarta quella carta dalla tua mano e perdi 1 azione.\nRimescola nel tuo mazzo ogni debolezza scartata con questo effetto.",
+        "traits": "Sortilegio."
+    },
+    {
+        "code": "87055",
+        "flavor": "Ciò che attende oltre la soglia è forse una destinazione allettante? O sono le fauci latranti di un tremendo segugio?",
+        "name": "Varco Aperto",
+        "text": "<b>Rivelazione</b> - Subisci 1 danno. Effettua una prova di [agility] (3). Se fallisci, subisci 1 danno aggiuntivo e muoviti fino a Tindalos.",
+        "traits": "Pericolo."
+    },
+    {
+        "code": "87056",
+        "name": "Distorzione Spaziotemporale",
+        "text": "<b>Rivelazione</b> - Assegna la Distorsione Spaziotemporale alla trama attuale.\nLe capacità delle carte storia non possono essere innescate.\n[action]: Se ti trovi in un luogo [[Passato]], puoi effettuare una prova di [willpower] (2). Se ti trovi in un luogo [[Presente]], puoi effettuare una prova di [agility] (3). Se ti trovi in un luogo [[Futuro]], puoi effettuare una prova di [combat] (4). Se hai successo in 1 o più di queste prove, scarta la Distorsione Spaziotemporale.",
+        "traits": "Pericolo."
+    },
+    {
+        "code": "87057",
+        "name": "Storia Evanescente",
+        "text": "<b>Rivelazione</b> - Scegli 1 degli effetti seguenti:\n* Scarta 1 supporto [[Oggetto]] non storia che controlli.\n* Scegli e scarta 3 carte non debolezza dalla tua mano.",
+        "traits": "Sortilegio."
     }
 ]
