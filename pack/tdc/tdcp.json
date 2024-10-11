@@ -6,9 +6,39 @@
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": [
-                    "neutral"
-                ],
+                "faction": ["guardian"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "name": "Trait Choice",
+                "options": [
+                    {
+                        "id": "improvised",
+                        "name": "Improvised",
+                        "trait": ["improvised"],
+                        "level": { "min": 0, "max": 2 }
+                    },
+                    {
+                        "id": "gambit",
+                        "name": "Gambit",
+                        "trait": ["gambit"],
+                        "level": { "min": 0, "max": 2 }
+                    },
+                    {
+                        "id": "fortune",
+                        "name": "Fortune",
+                        "trait": ["fortune"],
+                        "level": { "min": 0, "max": 2 }
+                    }
+                ]
+            },
+            {
+                "faction": ["survivor"],
+                "level": { "min": 0, "max": 0 },
+                "limit": 5
+            },
+            {
+                "faction": ["neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
@@ -73,9 +103,7 @@
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": [
-                    "neutral"
-                ],
+                "faction": ["neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
@@ -110,9 +138,7 @@
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": [
-                    "neutral"
-                ],
+                "faction": ["neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
@@ -146,9 +172,7 @@
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": [
-                    "neutral"
-                ],
+                "faction": ["neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
@@ -217,9 +241,7 @@
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": [
-                    "neutral"
-                ],
+                "faction": ["neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
@@ -245,7 +267,7 @@
         "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
         "traits": "Civic. Drifter.",
         "type_code": "investigator"
-      },
+    },
     {
         "code": "11024",
         "cost": 1,
