@@ -96,6 +96,12 @@ These can be used in a card's `text` section.
 * `[health]`
 * `[sanity]`
 * `[per_investigator]`
+* `[frost]`
+* `[seal_a]`
+* `[seal_b]`
+* `[seal_c]`
+* `[seal_d]`
+* `[seal_e]`
 
 #### Translations
 
