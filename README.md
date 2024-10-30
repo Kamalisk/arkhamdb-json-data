@@ -114,8 +114,7 @@ The available tags are:
 - `se` => _Seals token_, used for ||Father Mateo.
 
 These tags have been used in the past but are unused right now:
-- `st` => _Spell trait_, unused right now.
-
+- `st` => _Spell trait_, used to mark whether a card had bonded spells for Marie Lambeau, which is no longer relevant, but still part of the deckbuilding rules.
 
 #### Translations
 
