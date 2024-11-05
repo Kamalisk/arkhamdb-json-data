@@ -103,6 +103,19 @@ These can be used in a card's `text` section.
 * `[seal_d]`
 * `[seal_e]`
 
+#### Cards tags
+
+Some cards have a `tags` fields that is used to relate these cards to certain deckbuilding rules that are otherwise too hard to parse. When new content is released, `tags` need to be reflected on added cards.
+
+The available tags are:
+- `hh` => _Heals horror_, used for Carolyn Fern.
+- `hd` => _Heals damage_, used for Vincent Lee.
+- `pa` => _Parley_, used for Alessandra Zorzi.
+- `se` => _Seals token_, used for ||Father Mateo.
+
+These tags have been used in the past but are unused right now:
+- `st` => _Spell trait_, used to mark whether a card had bonded spells for Marie Lambeau, which is no longer relevant, but still part of the deckbuilding rules.
+
 #### Translations
 
 To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
