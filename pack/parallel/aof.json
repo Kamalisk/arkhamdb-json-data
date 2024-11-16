@@ -1,0 +1,90 @@
+[
+    {
+        "alternate_of": "04004",
+        "back_flavor": "Mateo Castile's life has not been easy since he became a priest. Recent decades in Mexico have been wracked with instability and conflict. Father Mateo struggled to balance his faith with the pragmatic concerns of preaching when the law told him he must not. But this is not what has assaulted Mateo's faith at its core. The nearby murders and kidnappings were not politically motivated, as he had suspected. A gruesome and horrid cult thrives at the heart of the brewing war. How, Mateo wonders, could a kind and loving God allow what he saw that night to exist?",
+        "back_text": "<b>Deck Size:</b> 30.\n<b>Deckbuilding Options:</b> Mystic cards ([mystic]) level 0-3, [[Blessed]] cards level 0-5, Neutral cards level 0-5, up to 5 other cards with \"seal\" level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): The Codex of Ages, Serpents of Yig, 1 random basic weakness.\n",
+        "code": "90081",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["mystic"],
+                "level": { "min": 0, "max": 3 }
+            },
+            {
+                "trait": ["blessed"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "tag": ["se"],
+                "level": { "min": 0, "max": 5 },
+                "limit": 5
+            }
+        ],
+        "deck_requirements": "size:30, card:04013:90082, card:04014:90083, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "health": 6,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Father Mateo",
+        "pack_code": "aof",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 8,
+        "skill_agility": 3,
+        "skill_combat": 2,
+        "skill_intellect": 3,
+        "skill_willpower": 4,
+        "subname": "The Priest",
+        "text": "[fast] During your turn: Seal a [bless] token on an investigator at your location with no [bless] token sealed on them. (Limit once per round.)\n[reaction] When an investigator would reveal a chaos token: Resolve the [bless] token sealed on them instead. Release that token.\n[elder_sign] effect: +1. Resolve Father Mateo's [fast] ability, ignoring its limit.",
+        "traits": "Believer. Warden.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90082",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Andreia Ugrai",
+        "is_unique": true,
+        "name": "The Codex of Ages",
+        "pack_code": "aof",
+        "position": 82,
+        "quantity": 1,
+        "restrictions": "investigator:04004",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "subname": "finis omnium nunc est",
+        "tags": "se.",
+        "text": "Father Mateo deck only. Advanced. Seal ([elder_sign] or up to 3 [bless]).\nYou get +1 to each of your skills while there is a token sealed here.\n[reaction] When an investigator at your location would reveal a chaos token from the chaos bag: That investigator resolves a token sealed here instead, then releases that token. (Limit once per test.)",
+        "traits": "Item. Relic. Tome. Blessed.",
+        "type_code": "asset"
+    },
+    {
+        "code": "90083",
+        "deck_limit": 1,
+        "enemy_damage": 1,
+        "enemy_evade": 3,
+        "enemy_fight": 3,
+        "enemy_horror": 1,
+        "faction_code": "neutral",
+        "health": 4,
+        "illustrator": "Matthew Cowdery",
+        "name": "Serpents of Yig",
+        "pack_code": "aof",
+        "position": 83,
+        "quantity": 1,
+        "restrictions": "investigator:04004",
+        "subtype_code": "weakness",
+        "tags": "se.",
+        "text": "Advanced. <b>Prey</b> - Father Mateo only. Hunter.\n<b>Revelation</b> - Search the chaos bag and all play areas for the [elder_sign] token and each [bless] token and seal them on Serpents of Yig.",
+        "traits": "Humanoid. Monster. Serpent.",
+        "type_code": "enemy"
+    }
+]
