@@ -1,5 +1,21 @@
 [
     {
+        "code": "11024",
+        "name": "Ready for Anything",
+        "type_code": "event",
+        "traits": "Spirit. Bold.",
+        "pack_code": "tdcp",
+        "position": 24,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "cost": 1,
+        "xp": 0,
+        "skill_willpower": 1,
+        "text": "Play only as your first action.\nDraw 1 card (2 cards instead if you drew an enemy this round). Then, heal 1 horror. This action does not provoke attacks of opportunity.",
+        "illustrator": "Aleksander Karcz"
+    },
+    {
         "code": "11026",
         "name": "Hunter's Mark",
         "type_code": "event",
@@ -14,6 +30,23 @@
         "skill_wild": 1,
         "text": "Fast. Attach to an enemy at your location. Limit 1 per enemy.\nInvestigators get +1 [combat] while fighting this enemy.\n[reaction] When damage is dealt to attached enemy, discard Hunter's Mark: Deal 1 additional damage to that enemy. Any investigator may trigger this ability.",
         "illustrator": "Ethan Patrick Harris"
+    },
+    {
+        "code": "11040",
+        "name": "Correlate All Its Contents",
+        "type_code": "event",
+        "traits": "Insight.",
+        "pack_code": "tdcp",
+        "position": 40,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "cost": 1,
+        "xp": 0,
+        "skill_willpower": 1,
+        "skill_intellect": 1,
+        "text": "<b>Investigate.</b> You may cancel the first chaos token revealed for this skill test, return it to the chaos bag, and reveal a new one. If you succeed at this skill test, place 1 charge or secret on an asset controlled by an investigator at your location (if you succeed by exactly 1 or 3, place 2 charges or secrets on that asset instead).",
+        "illustrator": "Alexsander Chelshev"
     },
     {
         "code": "11050",
@@ -66,6 +99,24 @@
         "text": "Uses (12 ammo).\n[action] Spend 1-6 ammo: <b>Fight.</b> You get +X [combat] for this attack. The difficulty for this attack is equal to the combined fight values of all enemies at your location. Instead of its standard damage, this attack deals X damage divided as you choose among enemies at your location. X is the amount of ammo spent as part of this ability's cost.",
         "slot": "Hand x2",
         "illustrator": "Alexandre Dainche"
+    },
+    {
+        "code": "11072",
+        "name": "Whispers of Doom",
+        "type_code": "event",
+        "traits": "Spell. Cursed.",
+        "pack_code": "tdcp",
+        "position": 72,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "mystic",
+        "cost": 3,
+        "xp": 0,
+        "skill_willpower": 1,
+        "skill_combat": 1,
+        "text": "<b>Parley.</b> Choose a non-weakness enemy at your location and test [willpower] (3), This test gets +X difficulty, where X is that enemy's horror value. If you succeed, defeat that enemy (or deal it 3 damage instead if it is [[Elite]]). If you fail, place 1 doom on that enemy.",
+        "tags": "pa.",
+        "illustrator": "Ethan Patrick Harris"
     },
     {
         "code": "11079",
@@ -123,6 +174,36 @@
         "illustrator": "Rob Laskey"
     },
     {
+        "code": "11092",
+        "name": "Improvised Weapon",
+        "type_code": "event",
+        "traits": "Tactic. Improvised.",
+        "pack_code": "tdcp",
+        "position": 92,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "cost": 1,
+        "xp": 2,
+        "text": "You may play Improvised Weapon from your discard pile. If you do, shuffle it into your deck after resolving its effects and draw 1 card.\n<b>Fight.</b> The attacked enemy gets -2 fight for this attack. (If you played Improvised Weapon from your discard pile, this attack deals +1 damage.)",
+        "illustrator": "Borja Pindado"
+    },
+    {
+        "code": "11099",
+        "name": "Library Pass",
+        "type_code": "asset",
+        "traits": "Item. Miskatonic.",
+        "pack_code": "tdcp",
+        "position": 99,
+        "quantity": 1,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "cost": 2,
+        "xp": 1,
+        "text": "[[Miskatonic]], [[Scholar]] deck only. Limit 1 per deck.\n[free] During your turn, if there is no asset attached to Library Pass, spend 1 resource: Attach a [[Tome]] asset from your hand to this card. Attached asset takes up no slots. Limit 1 attached asset.\n<b>Revelation —</b> When your turn ends: Place attached asset on the bottom of your deck.",
+        "illustrator": "Pixoloid Studios"
+    },
+    {
         "code": "11103",
         "name": "Forbidden Sutra",
         "type_code": "asset",
@@ -139,6 +220,38 @@
         "text": "[[Blessed]], [[Cursed]], [[Sorcerer]] deck only. You get +1 skill value while resolving [[Spell]] events.\n[reaction] During a skill test on a [[Spell]] event, take up to 3 horror: For each horror taken, reveal an additional chaos token for this test. Choose 1 of the revealed tokens to resolve and ignore the rest.",
         "slot": "Hand",
         "illustrator": "Dimitri Bielak"
+    },
+    {
+        "code": "11106",
+        "name": "True Awakening",
+        "type_code": "event",
+        "traits": "Insight. Spirit.",
+        "pack_code": "tdcp",
+        "position": 106,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "cost": 0,
+        "xp": 2,
+        "skill_wild": 1,
+        "text": "[[Blessed]], [[Chosen]], [[Drifter]] deck only.\nChoose and resolve two of the following, in any order:\n- Draw 2 cards.\n- Discover 1 clue at your location.\n- Heal 1 damage.\n- Heal 1 horror.",
+        "illustrator": "Lin Hsiang"
+    },
+    {
+        "code": "11111",
+        "name": "Nose to the Grindstone",
+        "type_code": "asset",
+        "traits": "Talent.",
+        "pack_code": "tdcp",
+        "position": 111,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "cost": 2,
+        "xp": 3,
+        "skill_intellect": 2,
+        "text": "[[Criminal]], [[Drifter]], [[Entrepreneur]] deck only.\n[free] During a skill test on a [[Tool]] asset, exhaust Nose to the Grindstone: You get +2 skill value for this skill test. If this skill test fails, either replenish 1 supply on that asset or gain 1 resource.",
+        "illustrator": "Lin Hsiang"
     },
     {
         "code": "11112",
@@ -158,5 +271,28 @@
         "sanity": 2,
         "text": "[[Assistant]], [[Medic]], [[Warden]] deck only.\nLimit 1 per investigator.\nSound Support may be assigned damage and/or horror dealt to other investigators at your location.\n[reaction] When your turn begins: Heal 1 damage or 1 horror from Sound Support.",
         "illustrator": "Aleksander Karcz"
+    },
+    {
+        "code": "11117",
+        "name": "Archibald MacVeigh",
+        "subname": "Beleagured Lecturer",
+        "is_unique": true,
+        "type_code": "asset",
+        "traits": "Ally.",
+        "pack_code": "tdcp",
+        "position": 117,
+        "quantity": 2,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "cost": 4,
+        "xp": 5,
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "health": 2,
+        "sanity": 3,
+        "text": "[[Assistant]], [[Reporter]], [[Scholar]] deck only. Uses (4 secrets).\nYou get +1 [intellect].\nSecrets on assets you control may be spent as resources to pay for [[Insight]] events you play.",
+        "flavor": "\"Publish or Perish, they said. Perhaps we'll do both.\"",
+        "slot": "Ally",
+        "illustrator": "Alexandre Dainche"
     }
 ]
