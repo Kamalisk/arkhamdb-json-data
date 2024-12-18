@@ -1,0 +1,2208 @@
+
+[
+    {
+        "code": "10501",
+        "name": "Escrito en la roca",
+        "text": "<b>Fácil/Normal - Acto 1</b>\n[skull]: -X. X es el número de la columna de tu Lugar.\n[cultist]: -1. Coloca 1 recurso en esta carta como chatarra.\n[tablet]: -2. Si fracasas, retira 1 de chatarra de esta carta.\n[elder_thing]: -3. Si fracasas, recibe 1 punto de daño.\n<b>Chatarra ( __ )</b>",
+        "back_text": "<b>Fácil/Normal - Acto 2</b>\n[skull]: -X. X es el número de la columna de tu Lugar.\n[cultist]: -2. Coloca 1 recurso en esta carta como aguja.\n[tablet]: -2. Si fracasas, mueve la Vagoneta una vez.\n[elder_thing]: -3. Si fracasas, retira 1 aguja de esta carta.\n<b>Agujas ( __ )</b>"
+    },
+    {
+        "code": "10502",
+        "name": "Escrito en la roca",
+        "text": "<b>Difícil/Experto - Acto 1</b>\n[skull]: -X. X es el doble del número de la columna de tu Lugar.\n[cultist]: -3. Si tienes éxito, coloca 1 recurso en esta carta como chatarra.\n[tablet]: -4. Retira 1 de chatarra de esta carta.\n[elder_thing]: -5. Recibe 1 punto de daño.\n<b>Chatarra ( __ )</b>",
+        "back_text": "<b>Difícil/Experto - Acto 2</b>\n[skull]: -X. X es el doble del número de la columna de tu Lugar.\n[cultist]: -3. Si tienes éxito, coloca 1 recurso en esta carta como aguja.\n[tablet]: -4. Mueve la Vagoneta una vez.\n[elder_thing]: -5. Retira 1 aguja de esta carta.\n<b>Agujas ( __ )</b>"
+    },
+    {
+        "code": "10503",
+        "name": "Exploración subterránea",
+        "text": "<b>Obligado</b> - Cuando este plan avance: Mueve al siguiente plan toda la perdición que tenga.\n[action] Roba la primera carta del mazo de Encuentros: Mueve 1 recurso de tu Lugar a la carta de referencia de escenario, como chatarra. Si la carta de Encuentro que acabas de robar era una Traición [[Poder]], obtén 5 recursos.",
+        "flavor": "La vieja mina está llena de maquinaria destartalada y cuenta con una antigua vía de ferrocarril. ¿Qué secretos hay escritos en la roca?",
+        "back_name": "Derrumbe",
+        "back_text": "Inflige 2 puntos de daño a cada investigador y 1 punto de daño directo a cada Apoyo [[Aliado]] que controlen.\nRevela el Lugar Puesto de control y mueve todos los investigadores supervivientes a dicho Lugar.\nCada investigador pierde todas sus pistas.\nHaz avanzar el acto.",
+        "back_flavor": "Una viga de madera se comba con un fuerte chasquido y cae sobre vuestros cráneos. El impacto del golpe casi os deja sin sentido. Desde las profundidades de la mina llegan más temblores que hacen vibrar la cueva."
+    },
+    {
+        "code": "10504",
+        "name": "Viaje peligroso",
+        "text": "Los Lugares con Apoyos de historia no se pueden deslizar ni intercambiar.\nCada Enemigo obtiene la palabra clave Cazador y resuelve su palabra clave Cazador una vez adicional durante la fase de Enemigos.\nCuando un Enemigo se mueve, cada Lugar adyacente se considera conectado a su Lugar.",
+        "flavor": "Ahora sabéis por qué están abandonadas las minas de la Punta Norte. Abominaciones que se retuercen y mineros enajenados merodean por los túneles, hambrientos y en busca de su siguiente comida.",
+        "back_name": "Colapso absoluto",
+        "back_text": "Cada investigador superviviente queda derrotado y sufre 1 trauma físico o 1 trauma mental.",
+        "back_flavor": "El túnel se derrumba tras la vagoneta y deja al descubierto una caverna repleta de cristales resplandecientes de color violeta. La vagoneta se estrella contra una roca y salís volando por los aires hacia la oscuridad. Mientras el túnel vibra debido a más temblores, tratáis de manteneros por delante del derrumbamiento, aterrados por lo que podría ocurrir si os quedáis atrapados aquí. Pasáis corriendo junto a un cadáver podrido y con la mandíbula desencajada y estáis a punto de vomitar por el hedor. Unos metros más adelante tropezáis con una roca desprendida y os golpeáis la cabeza.\nDespertáis horas más tarde, con la cabeza como un bombo, y deambuláis aturdidos hasta que encontráis una corriente de aire fresco y la seguís para salir de la mina."
+    },
+    {
+        "code": "10505",
+        "name": "Descenso a las minas",
+        "text": "<b>Objetivo</b> - Al final de la ronda, si cada investigador superviviente está en el Puesto de control, haz avanzar el acto (<i>Consejo: ¡Llega al Puesto de control antes de que el plan avance!<(i>).",
+		"flavor": "Os dais cuenta de que el siniestro zumbido que flota en el ambiente proviene de las formaciones de cristal, que vibran. Hay algo extraño, pero no sabríais decir el qué…",
+        "back_name": "Sin vuelta atrás",
+        "back_text": "Retira todos los Lugares [[Cueva]] de la partida (<i>descartando todos los Enemigos, fichas y cartas vinculadas de esos Lugares</i>). Si River Hawthorne está en juego, pero no bajo el control de algún investigador, retírala de la partida.\nCada investigador pierde todas sus pistas.\nSi está en juego el plan 1a, haz avanzar el plan inmediatamente al plan 2a (<i>no resuelvas el plan 1b</i>).\nLa búsqueda de suministros resultará útil para lo que venga después. Dale la vuelta a la carta de referencia de escenario y mueve toda la chatarra que tenga a ese otro lado, como agujas.\nLee el <b>Interludio de escenario: El derrumbe</b> (<i>página 10</i>).",
+        "back_flavor": "Un trozo de roca cae del techo y está a punto de golpearos. Empiezan a desprenderse más rocas, lo que os obliga a adentraros más."
+    },
+    {
+        "code": "10506",
+        "name": "El laberinto subterráneo",
+        "text": "[free] Durante tu turno, los investigadores, como grupo, gastan 1 pista [per_investigator]: Desliza un Lugar a un espacio vacío adyacente o intercambia 2 Lugares.\n[action] Gasta 1 recurso [per_investigator]: Desliza un Lugar revelado a un espacio vacío adyacente. Límite de grupo de una vez por ronda.\n[action] Si el Apoyo de historia Esquirla prismática está en tu Lugar: Toma su control.\n<b>Objetivo</b> - ¡Llega a la Salida férrea! Cuando la Vagoneta entre en la Salida férrea, haz avanzar el acto inmediatamente.",
+		"flavor": "La única forma de salir de las minas de la Punta Norte es atravesando el laberinto de túneles férreos.",
+        "back_name": "Por fin a salvo",
+        "back_text": "Comprueba lo siguiente:\n-Si un investigador controla a Simeon Atwood, (<b>→R1</b>).\n-Si un investigador controla a Leah Atwood, (<b>→R2</b>).\n-Si Simeon Atwood está puesto aparte o sigue en juego y no está bajo el control de un investigador, (<b>→R3</b>).\n-Si Leah Atwood está puesta aparte o sigue en juego y no está bajo el control de un investigador, (<b>→R4</b>).\n-Si nada de lo anterior es cierto, (<b>→R5</b>).",
+        "back_flavor": "Saltan chispas de las vías cuando aplicas el freno de la vagoneta hasta que se para."
+    },
+    {
+        "code": "10507",
+        "name": "Vagoneta",
+		"subname": "Fiable, pero rota",
+        "text": "<b>Obligado</b> - al final de la fase de Enemigos: Mueve la Vagoneta una vez. Si se sale de la línea de ferrocarril, cada investigador queda derrotado y sufre un trauma físico.\n[reaction] Cuando la Vagoneta se mueva, gasta 1 aguja: Cancela el movimiento o bien muévela una vez adicional. Límite de grupo de dos veces por fase.",
+		"flavor": "(⭢)(⭠⭡⭢⭣)",
+		"traits": "Vehículo. Carro."
+    },
+    {
+        "code": "10508",
+        "name": "Puesto de control",
+        "text": "[free] Durante tu turno: Intercambia 2 Lugares [[Ferrocarril]] adyacentes. Límite de grupo de una vez por partida.",
+		"flavor": "La parte de atrás de la estación está llena de cajas de dinamita muy vieja y reservas de pólvora.\n(⭡⭢)",
+        "back_text": "Como coste adicional para entrar en el Puesto de control, los investigadores que estén en un Lugar adyacente deben gastar, como grupo, 2 pistas [per_investigator].",
+		"back_flavor": "El farol del cobertizo está encendido. ¿Quién estuvo aquí antes que vosotros?.\n(⭡⭢)",
+		"traits": "Ferrocarril. Estación."
+    },
+    {
+        "code": "10509",
+        "name": "Salida férrea",
+        "text": "La Salida férrea no se puede deslizar ni intercambiar.",
+		"flavor": "Hay numerosas marcas de arañazos en las paredes y vigas cercanas. Te estremeces sólo de pensar en las frenéticas criaturas que han huido de las minas de la Punta Norte para buscar su próxima comida.\n<b>Victoria 1.</b>\n(⭣).",
+        "back_text": "La Salida férrea no se puede deslizar ni intercambiar.",
+		"back_flavor": "El atrayente resplandor de las lámparas y la corriente de aire fresco seguramente quieren decir que hay otra salida.\n(⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10510",
+        "name": "Curva a la izquierda",
+        "text": "[action][action]: Intercambia 2 Lugares [[Ferrocarril]] adyacentes. Límite de grupo de una vez por partida.",
+		"flavor": "De los cristales emana una extraña luz.\n(⭠⭡).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭠⭡).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10510b",
+        "name": "Curva a la izquierda",
+        "text": "[action]Gasta 2 recursos: Desliza un Lugar a un espacio vacío adyacente a él. Límite de grupo de una vez por partida.",
+		"flavor": "De los cristales emana una extraña luz.\n(⭠⭡).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭠⭡).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10511",
+        "name": "Curva a la derecha",
+        "text": "[action][action]: Intercambia 2 Lugares [[Ferrocarril]] adyacentes. Límite de grupo de una vez por partida.",
+		"flavor": "De los cristales emana una extraña luz.\n(⭢⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭢⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10511b",
+        "name": "Curva a la derecha",
+        "text": "[action]Gasta 2 recursos: Desliza un Lugar a un espacio vacío adyacente a él. Límite de grupo de una vez por partida.",
+		"flavor": "De los cristales emana una extraña luz.\n(⭢⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭢⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10512",
+        "name": "Raíl alcalino",
+        "text": "<b>Obligado</b> - Al final de la ronda: Inflige 1 punto de horror a cada investigador y Apoyo [[Habitante]] que haya en el Raíl alcalino.",
+		"flavor": "El túnel está invadido por una neblina de color rojo sangre. Cada respiración provoca un doloroso acceso de tos.\n(⭠⭢).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭠⭢).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10512b",
+        "name": "Raíl alcalino",
+        "text": "<b>Obligado</b> - Al final de la ronda: Inflige 1 punto de horror a cada investigador y Apoyo [[Habitante]] que haya en el Raíl alcalino.",
+		"flavor": "El túnel está invadido por una neblina de color rojo sangre. Cada respiración provoca un doloroso acceso de tos.\n(⭡⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭡⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10513",
+        "name": "Raíl retorcido",
+        "text": "<b>Obligado</b> - Después de que la Vagoneta entre en el Raíl retorcido: Mueve la Vagoneta una vez.",
+		"flavor": "Mirar por el túnel espiralado hace que te dé vueltas la cabeza.\n<b>Victoria 1.</b>\n(⭠⭢).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭠⭢).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10513b",
+        "name": "Raíl retorcido",
+        "text": "<b>Obligado</b> - Después de que la Vagoneta entre en el Raíl retorcido: Mueve la Vagoneta una vez.",
+		"flavor": "Mirar por el túnel espiralado hace que te dé vueltas la cabeza.\n<b>Victoria 1.</b>\n(⭡⭢⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭡⭢⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10514",
+        "name": "Raíl hundido",
+        "text": "<b>Obligado</b> - Después de que el Raíl hundido sea revelado: Descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo. El investigador jefe roba ese Enemigo.",
+		"flavor": "¿Qué acecha realmente bajo el agua?\n(⭡⭢⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭡⭢⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10514b",
+        "name": "Raíl hundido",
+        "text": "<b>Obligado</b> - Después de que el Raíl hundido sea revelado: Descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo. El investigador jefe roba ese Enemigo.",
+		"flavor": "¿Qué acecha realmente bajo el agua?\n(⭢⭣⭠).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭢⭣⭠).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10515",
+        "name": "Raíl bifurcado",
+        "text": "<b>Obligado</b> - Al final de la ronda, si la Vagoneta está en el Raíl bifurcado: Descarta 1 aguja de la carta de referencia de escenario.",
+		"flavor": "El aire huele menos fétido en dos pasadizos. Pero ¿de verdad deberías seguir tu olfato?\n(⭡⭢⭣⭠).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭡⭢⭣⭠).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10516",
+        "name": "Puente férreo",
+        "text": "X es el número de la columna del Puente férreo.\n[action] Gasta 1 recurso [per_investigator]: Coloca 1 recurso en la carta de referencia de escenario como aguja. Límite de grupo de una vez por ronda.",
+		"flavor": "Los minerales de la roca destellan como estrellas.\n(⭡⭣).",
+        "back_name": "Túnel férreo",
+		"back_flavor": "Estas vías no parecen nada seguras.\n(⭡⭣).",
+		"traits": "Ferrocarril."
+    },
+    {
+        "code": "10517",
+        "name": "Bestia subterránea",
+        "text": "Cazador. Descomunal.\nLa Bestia subterránea recibe +3 de salud [per_investigator].\nSi la Bestia subterránea está preparada y en el Lugar de la Vagoneta, la vagoneta no se puede mover.\n[action] Gasta 1 pista [per_investigator]: Agota la Bestia subterránea. No puede prepararse esta ronda.",
+		"flavor": "<b>Victoria 2.</b>",
+		"traits": "Abominación. Mutado. Élite."
+    },
+    {
+        "code": "10518",
+        "name": "Híbrido excavador",
+        "text": "Cazador.\n<b>Obligado</b> - Después de que el Híbrido excavador entre en juego, si la Vagoneta mira hacia un Lugar conectado: Desliza ese Lugar a un espacio vacío adyacente. Si no puedes, intercámbialo con un Lugar adyacente a él.",
+		"flavor": "Está claro que no come sólo gusanos.",
+		"traits": "Criatura. Mutado."
+    },
+    {
+        "code": "10519",
+        "name": "Minero enajenado",
+        "text": "Cazador.\nX es el número de la columna del Minero enajenado.\n<b>Obligado</b> - Después de que el Minero enajenado te ataque: Inflige 1 punto de daño a cada uno de los demás investigadores y Apoyos [[Habitante]] que haya en este Lugar.",
+		"traits": "Humanoide."
+    },
+    {
+        "code": "10520",
+        "name": "Derrumbe",
+        "text": "<b>Revelación</b> - Vincula el Derrumbe al Lugar hacia el que mira la Vagoneta. Si no puedes, el Derrumbe obtiene Oleada.\n<b>Obligado - Cuando la Vagoneta fuese a moverse al Lugar vinculado: Cancela el movimiento e inflige 2 puntos de daño a cada investigador y Apoyo [[Habitante]] que haya en la Vagoneta.\n[action]: Realiza una prueba de [combat] o de [agility](2). Si tienes éxito, descarta el Derrumbe. Un investigador que esté en un Lugar adyacente puede activar esta capacidad.",
+		"traits": "Riesgo."
+    },
+    {
+        "code": "10521",
+        "name": "Trayecto salvaje",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](5). Si fracasas, pon el Trayecto salvaje en juego en tu zona de amenaza.\n<b>Obligado - Cuando la Vagoneta se mueva: Muévela 2 veces adicionales o bien inflige 1 punto de daño directo y 1 punto de horror directo a cada investigador y a cada Apoyo [[Aliado]] y carta [[Habitante]] que controlen. Descarta el Trayecto salvaje.",
+		"traits": "Riesgo."
+    },
+    {
+        "code": "10522",
+        "name": "Esquirla prismática",
+		"subname": "Meteorito alienígena",
+        "text": "Usos (4 de fulgor).\n[reaction] Cuando el efecto de una carta de escenario fuese a descartar cualquier cantidad de cartas de tu mano, agota la Esquirla prismática y gasta 1 de fulgor: Ignora ese efecto y roba esa misma cantidad de cartas en su lugar.",
+		"traits": "Objeto. Reliquia. Color."
+    },
+    {
+        "code": "10523",
+        "name": "La Casa Cicuta",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es el número de tu piso actual (hasta un mínimo de 1).\n[cultist]: -1. Si tu Lugar es un Enemigo, agótalo.\n[tablet]: -3. Si fracasas, cura 1 punto de daño al Lugar-Enemigo más cercano.\n[elder_thing]: -4. Si fracasas y está en juego el plan 2a o 3a, después de que se resuelva esta prueba, retira esta ficha de la bolsa del caos y añádela a la bolsa de depredación.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el doble del número de tu piso actual (hasta un mínimo de 2).\n[cultist]: -2. Si tienes éxito y tu Lugar es un Enemigo, agótalo.\n[tablet]: -4. Si fracasas, cura 1 punto de daño [per_investigator] al Lugar-Enemigo más cercano.\n[elder_thing]: -5. Si está en juego el plan 2a o 3a, después de que se resuelva esta prueba, retira esta ficha de la bolsa del caos y añádela a la bolsa de depredación."
+    },
+    {
+        "code": "10524",
+        "name": "Prueba de depredación",
+        "text": "<i>Usa estos resultados únicamente al revelar fichas de la bolsa de depredación.<i>\n[cultist]: Pon aparte esta ficha.\n[tablet]: Cada Lugar-Enemigo ataca a cada investigador que esté en ese Lugar. Si no se ha realizado ningún ataque por este efecto, el investigador jefe roba la primera carta del mazo de Encuentros. Devuelve esta ficha y todas las fichas puestas aparte a la bolsa de depredación.\n[elder_thing]: Pon aparte esta ficha. Busca el Lugar [[Letargo]] no sellado más cercano al investigador jefe. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.",
+		"back_name": "La casa depredadora",
+        "back_text": "Prepara una bolsa aparte que contenga las siguientes fichas: [cultist], [tablet] y [elder_thing] (si no tienes una segunda bolsa, emplea un cubilete, una taza o cualquier otro recipiente opaco). Ésta es la bolsa de depredación, y las fichas son fichas de depredación en lugar de ser fichas de Caos.\nA continuación, añade las siguientes fichas a la bolsa de depredación en función del día actual:\n-<b>Día 1</b>: Añade [cultist], [cultist] a la bolsa de depredación.\n-<b>Día 2</b>: Añade [cultist] a la bolsa de depredación.\n-<b>Día 3</b>: No hay cambios.\nAlgunas capacidades indicarán a los jugadores que realicen una prueba de depredación. Una prueba de depredación puede hacer que la casa cobre vida y ataque a los investigadores. Para resolver una prueba de depredación, revela una ficha aleatoria de la bolsa de depredación y resuelve los efectos de dicha ficha siguiendo las indicaciones del otro lado de esta carta.\bDale la vuelta a esta carta y colócala junto a la carta de referencia de escenario."
+    },
+    {
+        "code": "10525",
+        "name": "Silencio espectral",
+        "flavor": "Vuestros primeros pasos en la vieja mansión vienen acompañados por un fétido olor y una intensa sensación de que os observan. El aire está demasiado quieto y, para ser una casa abandonada, hay una inquietante falta de polvo en los muebles y suelos. Si aquí hace años que no vive nadie, ¿por qué todo da la impresión de haberse movido recientemente?.",
+        "back_name": "La casa viviente",
+        "back_text": "Añade al mazo de Encuentros la pila de descartes de Encuentros y todas las copias de las Traiciones puestas aparte Salen de las paredes y Atraído y luego barájalo.\nBusca el Lugar [[Letargo]] no sellado más cercano a la mayoría de los investigadores. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.\nBusca la carta de Historia La casa depredadora puesta aparte y resuelve su texto.",
+        "back_flavor": "Cuando oís crujir la madera, os giráis para mirar el pasillo del que veníais. Todo tiene el mismo aspecto que antes, pero no lográis desprenderos de la sensación de que las cosas son sutilmente distintas. Apenas habéis dejado de contener el aliento y reanudado vuestra investigación cuando descubrís que los muebles de la estancia en la que os encontráis se están colocando en su sitio, como niños jugando a las sillas. Un vicioso tentáculo se retira entre un hueco de madera.\nLos rumores sobre la Casa Cicuta sólo eran verdades a medias. Hay algo viviendo entre sus paredes, pero se trata de algo mucho peor de lo que podríais haberos imaginado."
+    },
+    {
+        "code": "10526",
+        "name": "La casa se agita (v.I)",
+		"text": "<b>Obligatorio</b> - Cuando acabe la fase de Mitos: Realiza una prueba de depredación.\n[free] Coloca 1 de tus pistas [per_investigator] en tu Lugar o bien retira un sello de él: Prepáralo y dale la vuelta.",
+        "flavor": "Lo que invade esta decrépita mansión no es una mera infestación de ratas o de criaturas del bosque. Algo vil habita en Casa Cicuta. Excava por el suelo, se retuerce entre sus paredes y os observa con los ojos invisibles y hambrientos.",
+        "back_name": "¡Está viva!",
+        "back_text": "Añade la pila de descartes de Encuentros al mazo de Encuentros y barájalo. Busca el Lugar [[Letargo]] no sellado más cercano a la mayoría de los investigadores. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.",
+        "back_flavor": "La casa gruñe y cruje, como si todavía se estuviera asentando. Veis movimiento por el rabillo de ojo: en el suelo se forman ondas como en el agua mientras algo se mueve bajo las rechinantes tablas viejas."
+    },
+    {
+        "code": "10527",
+        "name": "La casa se agita (v.II)",
+		"text": "<b>Obligatorio</b> - Cuando acabe la fase de Mitos: Realiza una prueba de depredación.\n[free] Coloca 1 de tus pistas [per_investigator] en tu Lugar o bien retira un sello de él: Prepáralo y dale la vuelta.",
+        "flavor": "Lo que invade esta decrépita mansión no es una mera infestación de ratas o de criaturas del bosque. Algo vil habita en Casa Cicuta. Excava por el suelo, se retuerce entre sus paredes y os observa con los ojos invisibles y hambrientos.",
+        "back_name": "Oscura y tormentosa",
+        "back_text": "Busca el Lugar [[Letargo]] no sellado más cercano a la mayoría de los investigadores. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.\nVincula una Traición ¡Fuego! puesta aparte al Lugar del piso superior que esté más a la izquierda. Añade la pila de descartes de Encuentros y todas las demás copias de ¡Fuego! al mazo de Encuentros y baraja éste.",
+        "back_flavor": "Una violenta lluvia golpea el tejado de la casa. El cielo del exterior está envuelto en nubes negras, tan sólo iluminado por breves destellos de luz a lo lejos. Se os eriza la piel mientras los gruñidos y crujidos quedan ahogados por el rugido de los truenos y el diluvio que choca contra las ventanas. En ese momento, una brillante luz inunda la sala y un estruendoso chasquido resuena en el piso superior de la casa. Un olor a madera quemada baja por las salas. ¡Un relámpago ha impactado en la casa!"
+    },
+    {
+        "code": "10528",
+        "name": "Paredes vivientes",
+		"text": "<b>Obligatorio</b> - Cuando acabe la fase de Mitos: Realiza una prueba de depredación.\n[free] Coloca 1 de tus pistas [per_investigator] en tu Lugar o bien retira un sello de él: Prepáralo y dale la vuelta.",
+        "flavor": "Una de dos: o la casa está viva o la criatura que mora entre sus paredes ha crecido hasta abarcarla por completo. Vuestra única esperanza ahora es asegurar todas las estancias, convertirla en escombros o huir y aseguraros de que nadie vuelve a acercarse jamás a este sitio.",
+        "back_name": "Las paredes se cierran",
+        "back_text": "Cada investigador superviviente que no haya desistido queda derrotado y sufre un trauma mental.",
+        "back_flavor": "La madera cruje y se astilla mientras las paredes se cierran sobre vosotros. Los muebles se vuelven, dejando sitio a más de los tentáculos reptantes de la criatura. Se enroscan en torno a vuestras extremidades y os aprisionan contra el suelo mientras el techo baja, deformado y contorsionado. Es un órgano palpitante, un estómago que devora su comida. Madera, sellador y yeso caen sobre vosotros mientras los ruidos de la casa se disuelven en un rechinar ahogado.\nExperimentáis una descarga de adrenalina que os permite zafaros del agarre de la cosa. Con la cabeza palpitándoos, salís a todo correr de la casa mientras sus puertas se abren y cierran como voraces bocas."
+    },
+    {
+        "code": "10529",
+        "name": "Infestación extraña",
+		"text": "No se pueden descubrir pistas en Lugares sin investigadores.\n[action]: Si tu Lugar es [[Letargo]] y no sellado, los investigadores que estén en ese Lugar gastan, como grupo, 1 pista [per_investigator]: Coloca 1 recurso sobre él como sello.\n<b>Objetivo</b> - Al final de la ronda, si hay un total de 7 Lugares sellados y/o en la zona de victoria, haz avanzar el acto.",
+        "back_name": "Paredes de carne",
+        "back_text": "<b>Si hay más sellos en juego que Lugares-Enemigo en la zona de victoria:</b>\n<blocquote>Vuestro esfuerzo por acabar con la extraña infestación parece haberla enfadado. Un fuerte chirrido hace temblar los cimientos de la casa, y el aire se llena de un fétido hedor de algo terrible que hay abajo.</blocquote>\nPon en juego el Lugar-Enemigo Sótano informe puesto aparte en el sótano, lo más cerca posible de la columna central.\nHaz avanzar el acto al acto 2a \"El corazón de la casa\" puesto aparte y retira de la partida el acto 2a \"Contra la casa\".\n<hr><b>Si hay más Lugares-Enemigo en la zona de victoria que sellos en juego:</b>\n<blocquote>Los cimientos de la casa tiemblan mientras otra habitación amenaza con venirse abajo. Si lográis derrumbar esta casa, la abominación que habita en su interior no sobrevivirá mucho tiempo.</blocquote>\nHaz avanzar el acto al acto 2a \"Contra la casa\" puesto aparte y retira de la partida el acto 2a \"El corazón de la casa\"."
+    },
+    {
+        "code": "10530",
+        "name": "Contra la casa",
+		"text": "No se pueden descubrir pistas en Lugares sin investigadores.\n<b>Objetivo</b> - ¡Derriba la casa! Si no hay Lugares en juego, haz avanzar el acto inmediatamente (<i>esto sucede antes de que los investigadores lleguen a ser derrotados por no estar en el Lugar</i>).",
+		"flavor": "Sellar a esta criatura no solucionará nada, Sea cual sea el monstruo que ha invadido la Casa Cicuta, debe ser destruido.",
+        "back_name": "La caída de la Casa Cicuta",
+		"back_flavor": "Huis justo a tiempo mientras lo que queda de la Casa Cicuta se derrumba dejando escombros y ruinas. Entre la nube de tierra y polvo, veis cómo los tentáculos restantes de la criatura se meten en los cimientos y se retiran bajo tierra. Fuera lo que fuera, ya se ha ido.",
+        "back_text": "(<b>→R1</b>) (<i>página 18</i>)."
+    },
+    {
+        "code": "10531",
+        "name": "El corazón de la casa",
+		"text": "No se pueden descubrir pistas en Lugares sin investigadores.\n[action]: Si tu Lugar es [[Letargo]] y no sellado, los investigadores que estén en ese Lugar gastan, como grupo, 1 pista [per_investigator]: Coloca 1 recurso sobre él como sello.\n<b>Obligado</b> - Después de que un Lugar-Enemigo ataque: Muévete (de Lugar en Lugar) al Sótano informe.\n<b>Objetivo</b> - Cuando el Sótano informe esté en la zona de victoria, haz avanzar el acto.",
+		"flavor": "Si quieres sellar la casa para siempre, tendréis que adentraros en el repugnante sepulcro de abajo.",
+        "back_name": "Dar reposo",
+		"back_flavor": "La casa se estremece y luego se hace el silencio. Sellar los huecos y recovecos por donde se colaba la criatura por las paredes de la casa parece haberla obligado a retirarse, o quizás a quedar en letargo durante un tiempo. Ojalá no vuelva a aparecer, pero entretanto, el legado de la familia Cicuta sigue en pie, Puede que, con el tiempo, logren encontrar un modo de exterminar a la criatura para siempre.",
+        "back_text": "Dale la vuelta a cada Lugar-Enemigo para mostrar su lado Lugar. Coloca 1 recurso, como sello, sobre cada Lugar [[Letargo]] no sellado.\n(<b>→R1</b>) (<i>página 18</i>)."
+    },
+    {
+        "code": "10532",
+        "name": "Dormitorio",
+        "text": "X es el número del piso de este Lugar más 1.\n[reaction] Después de que coloques un sello en este Lugar: Roba 1 carta u obtén 2 recursos.",
+		"flavor": "La habitación se agita con un suave movimiento; las cortinas de la ventana y las sábanas de la cama se mecen con una brisa que no notas.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10532b",
+        "name": "Dormitorio viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad. El dormitorio viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Coloca 1 ficha de perdición sobre él.",
+		"flavor": "Esta vez sí que hay un monstruo de verdad bajo la cama.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10533",
+        "name": "Dormitorio",
+        "text": "X es el número del piso de este Lugar más 1.\n[reaction] Después de que coloques un sello en este Lugar: Roba 1 carta u obtén 2 recursos.",
+		"flavor": "La habitación se agita con un suave movimiento; las cortinas de la ventana y las sábanas de la cama se mecen con una brisa que no notas.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10533b",
+        "name": "Dormitorio viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad. El dormitorio viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Ataca a cada investigador que esté es este Lugar.",
+		"flavor": "Esta vez sí que hay un monstruo de verdad bajo la cama.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10534",
+        "name": "Dormitorio",
+        "text": "X es el número del piso de este Lugar más 1.\n[reaction] Después de que coloques un sello en este Lugar: Roba 1 carta u obtén 2 recursos.",
+		"flavor": "La habitación se agita con un suave movimiento; las cortinas de la ventana y las sábanas de la cama se mecen con una brisa que no notas.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10534b",
+        "name": "Dormitorio viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad. El dormitorio viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Realiza una prueba de depredación.",
+		"flavor": "Esta vez sí que hay un monstruo de verdad bajo la cama.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10535",
+        "name": "Dormitorio",
+        "text": "X es el número del piso de este Lugar más 1.\n[reaction] Después de que coloques un sello en este Lugar: Roba 1 carta u obtén 2 recursos.",
+		"flavor": "La habitación se agita con un suave movimiento; las cortinas de la ventana y las sábanas de la cama se mecen con una brisa que no notas.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10535b",
+        "name": "Dormitorio viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad. El dormitorio viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Ataca a cada investigador que esté es este Lugar.",
+		"flavor": "Esta vez sí que hay un monstruo de verdad bajo la cama.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10536",
+        "name": "Baño",
+        "text": "[free]: Mueve 1 pista de este Lugar al Lugar que esté directamente por debajo. Límite de una vez por turno.",
+		"flavor": "Un vicioso fluido marrón gotea constantemente del grifo. En la quietud de la estancia las tuberías chirrían de forma antinatural.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10536b",
+        "name": "Baño viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado, si hay 1 o más pistas en él: Ataca a cada investigador que esté en este Lugar.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10537",
+        "name": "Baño",
+        "text": "[free]: Mueve 1 pista de este Lugar al Lugar que esté directamente por debajo. Límite de una vez por turno.",
+		"flavor": "Un vicioso fluido marrón gotea constantemente del grifo. En la quietud de la estancia las tuberías chirrían de forma antinatural.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10537b",
+        "name": "Baño viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado, si hay 1 o más pistas en él: Ataca a cada investigador que esté en este Lugar.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10538",
+        "name": "Baño",
+        "text": "[free]: Mueve 1 pista de este Lugar al Lugar que esté directamente por debajo. Límite de una vez por turno.",
+		"flavor": "Un vicioso fluido marrón gotea constantemente del grifo. En la quietud de la estancia las tuberías chirrían de forma antinatural.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10538b",
+        "name": "Baño viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Cada investigador que esté en este Lugar descarta de su mano una cantidad de cartas al azar igual a la cantidad de pistas que haya en este Lugar.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10539",
+        "name": "Biblioteca",
+        "text": "[reaction]: Después de que descubras la última pista de la Biblioteca: Encuentras un pasadizo secreto. Elige cualquier Lugar y coloca 1 ficha de Horror en él, como pasadizo secreto. Durante el resto del escenario, cada copia de la Biblioteca está conectada al Lugar del pasadizo secreto y viceversa. Máximo de una vez por partida.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10539b",
+        "name": "Biblioteca viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\nLa Biblioteca viviente recibe +1 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Cada investigador que esté en este Lugar y en cada Lugar conectado pierde 2 recursos.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10540",
+        "name": "Biblioteca",
+        "text": "[reaction]: Después de que descubras la última pista de la Biblioteca: Encuentras un pasadizo secreto. Elige cualquier Lugar y coloca 1 ficha de Horror en él, como pasadizo secreto. Durante el resto del escenario, cada copia de la Biblioteca está conectada al Lugar del pasadizo secreto y viceversa. Máximo de una vez por partida.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10540b",
+        "name": "Biblioteca viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\nLa Biblioteca viviente recibe +1 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Cada investigador que esté en este Lugar y en cada Lugar conectado recibe 1 punto de horror.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10541",
+        "name": "Salita",
+        "text": "[action] Gasta 1 pista: Inflige 2 puntos de daño a un Enemigo que esté en un Lugar conectado. Puedes realizar una prueba de [intellect](4). Si tienes éxito, inflige 1 punto de daño adicional a ese Enemigo. Límite de una vez por ronda.",
+		"flavor": "Si hay criaturas dentro de las paredes de la casa, ¿sería posible usar la chimenea para ahumarlas o quemarlas?",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10541b",
+        "name": "Salita viviente",
+		"text": "Descomunal. Represalia. No puede realizar ataques de oportunidad.\nLa Salita viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Ataca a cada investigador que esté en este Lugar.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10542",
+        "name": "Comedor",
+        "text": "<b>Obligado</b> - Después de que descubras la última pista de este Lugar: Descarta 1 carta de tu mano al azar.",
+		"flavor": "El aparador está repleto de todo tipo de platos descascarillados y cubiertos de plata deslustrados. Los platos y los vasos tintinean precariamente con cada paso que das.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10542b",
+        "name": "Comedor viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\nEl Comedor viviente recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Realiza una prueba de depredación.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10543",
+        "name": "Vestíbulo",
+        "text": "[free] Durante tu turno: <b>Movimiento</b> (<i>a un Lugar conectado</i>). Límite de una vez por turno.\n<b>Desistir</b> - Huyes de la casa.",
+		"flavor": "El reloj de pie está parado a las 11:13.",
+		"traits": "Habitación. Letargo."
+    },
+    {
+        "code": "10543b",
+        "name": "Vestíbulo viviente",
+		"text": "Descomunal. No puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando este Lugar-Enemigo sea revelado: Ataca a cada investigador que esté en este Lugar.\n<b>Desistir</b> - Huyes de la casa.",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10544",
+        "name": "Engendro apresador",
+        "text": "Cazador. (<b>Noche</b> [night]) Represalia.\nEl Engendro apresador recibe +X de salud, donde X es su piso actual (hasta un mínimo de +1 de salud).",
+		"flavor": "\"¡Me ha atrapado!\"",
+		"traits": "Monstruo. Mutado."
+    },
+    {
+        "code": "10545",
+        "name": "Salen de las paredes",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](3). Si fracasas y…\n-…tu Lugar es un Enemigo, recibe 1 punto de daño y un punto de horror.\n-…tu Lugar es [[Letargo]] y no sellado, dale la vuelta.\n-…tu Lugar está sellado, descarta 1 carta de tu mano al azar.",
+		"traits": "Poder."
+    },
+    {
+        "code": "10546",
+        "name": "Atraído",
+        "text": "<b>Revelación</b> - Si no hay Lugares-Enemigo en juego, Atraído obtiene Oleada. Si no es así, realiza una prueba de [combat](4). Si fracasas y elige el Lugar-Enemigo más cercano y muévete (de Lugar en Lugar) a él. Si fracasaste por 4 o más, el Lugar-Enemigo elegido te ataca.",
+		"flavor": "Deberías tener cuidado por dónde pisas",
+		"traits": "Equivocación."
+    },
+    {
+        "code": "10547",
+        "name": "Sótano informe",
+		"text": "Descomunal. Represalia. No puede realizar ataques de oportunidad.\nEl Sótano informe no puede ser sellado ni se le puede dar la vuelta.\n<b>Obligado</b> - Después de que fracases en una prueba de habilidad al investigar el Sótano informe: El sótano informe te ataca.\n<b>Obligado</b> - Si no hay pistas en el Sótano informe: Añádelo a la zona de victoria..",
+		"traits": "Habitación. Monstruo. Élite."
+    },
+    {
+        "code": "10548",
+        "name": "Pequeña Sylvie",
+        "text": "[reaction] Cuando la Pequeña Sylvie sea descartada de tu mano o mazo: Juégala (<i>pagando su coste</i>).\n[reaction] Cuando el efecto de una carta de escenario fuese a descartar una carta de tu mano o mazo, agota a la Pequeña Sylvie: En vez de eso, coloca esa carta en la parte superior de tu mazo.",
+		"traits": "Objeto. Amuleto. Maldito."
+    },
+    {
+        "code": "10549",
+        "name": "El páramo silencioso",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la mitad de la cantidad de Enemigos [[Insecto]] en juego y en la zona de victoria, redondeando hacia arriba.\n[cultist]: -1. Puedes devolver un Enemigo que no sea [[Élite]] de la zona de victoria al mazo de Encuentros y barajar este.\n[tablet]: -3. Si fracasas, elige un Enemigo [[Insecto]] que esté en tu Lugar. Se enfrenta a ti y realiza un ataque inmediatamente.\n[elder_thing]: -2. Si estás en un Lugar [[Guarida]], revela otra ficha.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de Enemigos [[Insecto]] en juego y en la zona de victoria.\n[cultist]: -3. Si tienes éxito, puedes devolver un Enemigo que no sea [[Élite]] de la zona de victoria al mazo de Encuentros y barajar este.\n[tablet]: -5. Prepara el Enemigo [[Insecto]] más cercano. Se mueve y ataca como si fuera la fase de Enemigos.\n[elder_thing]: -4. Si estás en un Lugar [[Guarida]], fracasas automáticamente."
+    },
+    {
+        "code": "10550",
+        "name": "Silencio inquietante",
+        "text": "<b>Obligado</b> - Cuando se coloque perdición en este plan, si el Enemigo Reina de progenie está puesto aparte: Revela una cantidad de fichas de la bolsa de caos igual a la cantidad de Enemigos [[Insecto]] de la zona de victoria. Si es revelada una ficha [skull] o [auto_fail], haz aparecer el Enemigo Reina de progenie puesto aparte.",
+		"flavor": "El seco paisaje está sumido en un silencio perfecto. Un resplandor encantador lo baña todo.",
+		"back_name": "Criaturas extrañas",
+        "back_text": "Descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo [[Insecto]]. El investigador jefe roba ese Enemigo.\nAñade la pila de descartes de Encuentros al mazo de Encuentros y barájalo.",
+		"back_flavor": "El hedor acre sale de alguna parte de las profundidades. El aire se llena con el correteo de cientos de patas antes de que aparezca un monstruoso insecto. Tiene una piel pálida y translúcida y un par de alas negras marchitas que le cuelgan sin fuerza de la espalda. La criatura se os queda mirando con unos ojos vidriosos y sin emoción mientras agita las antenas para anunciar vuestra presencia."
+    },
+    {
+        "code": "10551",
+        "name": "Desolación (v.I)",
+        "text": "Cada Enemigo [[Insecto]] pierde Indiferente.\n<b>Obligado</b> - Cuando se coloque perdición en este plan, si el Enemigo Reina de progenie está puesto aparte: Revela una cantidad de fichas de la bolsa de caos igual a la cantidad de Enemigos [[Insecto]] de la zona de victoria. Si es revelada una ficha con símbolo, haz aparecer el Enemigo Reina de progenie puesto aparte.",
+		"flavor": "Los insectos corretean de un lado a otro, alarmados por vuestra presencia.",
+		"back_name": "¡Rodeados!",
+        "back_text": "Cada investigador que no haya sido eliminado queda derrotado y sufre 1 trauma físico.",
+		"back_flavor": "Un enjambre de insectos cae sobre vosotros y bloquea cualquier posibilidad de huir. Varios de ellos avanzan a toda velocidad con eficiencia casi mecánica y hunden sus probóscides en vuestros torsos. Un agudo dolor os recorre el cuerpo, seguido de un entumecimiento. Los insectos de un blanco lechoso retraen sus negras probóscides, de las que gotea un fluido azul, mientras os empieza a dar vueltas todo. El desmayo llega como una bendición.\nRecuperáis la consciencia horas más tarde, cubiertos de sal, en una seca cámara subterránea. La cabeza os martillea mientras salís tambaleantes de las madrigueras hacia el árido páramo. De las heridas de vuestros costados rezuma un lechoso veneno azul, pero no parece letal…"
+    },
+    {
+        "code": "10552",
+        "name": "Desolación (v.II)",
+        "text": "Cada Enemigo [[Insecto]] pierde Indiferente y Errante y obtiene Cazador.\n<b>Obligado</b> - Cuando se coloque perdición en este plan, si el Enemigo Reina de progenie está puesto aparte: Revela una cantidad de fichas de la bolsa de caos igual a la cantidad de Enemigos [[Insecto]] de la zona de victoria. Si es revelada una ficha con símbolo, haz aparecer el Enemigo Reina de progenie puesto aparte.",
+		"flavor": "Los insectos corretean de un lado a otro, alarmados por vuestra presencia.",
+		"back_name": "¡Rodeados!",
+        "back_text": "Cada investigador que no haya sido eliminado queda derrotado y sufre 1 trauma físico.",
+		"back_flavor": "Un enjambre de insectos cae sobre vosotros y bloquea cualquier posibilidad de huir. Varios de ellos avanzan a toda velocidad con eficiencia casi mecánica y hunden sus probóscides en vuestros torsos. Un agudo dolor os recorre el cuerpo, seguido de un entumecimiento. Los insectos de un blanco lechoso retraen sus negras probóscides, de las que gotea un fluido azul, mientras os empieza a dar vueltas todo. El desmayo llega como una bendición.\nRecuperáis la consciencia horas más tarde, cubiertos de sal, en una seca cámara subterránea. La cabeza os martillea mientras salís tambaleantes de las madrigueras hacia el árido páramo. De las heridas de vuestros costados rezuma un lechoso veneno azul, pero no parece letal…"
+    },
+    {
+        "code": "10553",
+        "name": "Un legado perdido",
+        "text": "Cuando acabe la ronda, los investigadores que estén en las Ruinas de la Finca perla pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "El legado de la Cresta Perla es una historia de cierta notoriedad entre los lugareños. Los Perla eran una prominente familia, como los Cicuta y los Atwood, pero desaparecieron tras un curioso incidente en 1906. ¿Qué pudo haber sucedido?",
+		"back_name": "\"Las madrigueras\"",
+        "back_text": "Pon en juego los tres Lugares del conjunto de encuentros <i>Horrores en la roca</i> puestos aparte de forma aleatoria y sin revelar, adyacentes a los tres Lugares iniciales, como se explica en la <i>página 20</i> de la guía de campaña.\nCoge los Lugares puestos aparte (Cámara de sal, Túnel de larvas y Zona de cría de cristal) junto con las 3 primeras cartas del mazo de Encuentros. Barájalos y pon 1 carta aleatoria boca abajo bajo cada Lugar.",
+		"back_flavor": "Encontráis el diario de Susan Perla entre las ruinas de la Finca Perla. En él se relatan los intentos por explorar los túneles que hay bajo la cresta. Los llamaban \"las madrigueras\" debido a su estructura laberíntica. Es posible que parte de la familia Perla desapareciese en los túneles que rodean la zona, pero ¿por qué? Decidís investigarlo."
+    },
+    {
+        "code": "10554",
+        "name": "Registrando el páramo",
+        "text": "[action] Si no hay pistas en tu Lugar: Roba la primera carta que haya bajo tu Lugar.\n[free] Los investigadores que estén en tu Lugar gastan, como grupo, 1 pista [per_investigator]: Mira la primera carta que haya bajo tu Lugar. Puedes colocar esa carta en la parte inferior de su montón.\n<b>Objetivo</b> - Si todos los investigadores no derrotados han desistido y hay 1 o más Restos cristalinos en la zona de victoria, haz avanzar el acto.",
+		"flavor": "Es probable que las madrigueras sean la última morada de la familia Perla. Estudiar sus restos podría aportar información sobre lo que sucedió realmente.",
+		"back_name": "Dar reposo",
+        "back_text": "Comprueba la cantidad de Restos cristalinos que hay en la zona de victoria.\n-Si hay exactamente 3 Restos cristalinos, (<b>→R1</b>) (<i>página 22</i>).\n-Si no es así, (<b>→R2</b>) (<i>página 22</i>)..",
+		"back_flavor": "El olor a descomposición y las feromonas de las extrañas criaturas crean un almizcle tan único como terrible. Cuando salís de las cavernas, dejáis en el suelo al último miembro de lo que suponéis que debe ser la familia Perla. El residuo ácido de sus extrañas costras cristalinas os quema la piel. Simplemente mirar los cuerpos resulta doloroso. Tienen las caras congeladas en un instante de silenciosa agonía. Una intensa presencia invisible llena el aire sobre los cadáveres, aunque no hay movimiento alguno, ni brisa o polvo. Sólo algo que se mueve en el aire. Notáis una fatiga profunda en los huesos."
+    },
+    {
+        "code": "10555",
+        "name": "Arboleda de cristal",
+        "text": "[action] Los investigadores que estén en la Arboleda de cristal gastan, como grupo, 1 pista [per_investigator]: Añade 1 Restos cristalinos que controles a la zona de victoria.",
+		"flavor": "El mundo está cambiando a nuestro alrededor. Y de verdad que creo que lo hace para mejor.\n-<u>del diario personal de Susan Perla</u>.",
+		"back_flavor": "Un huerto frutal que antaño estaba vivo ahora parece más bien una delicada galería de obras de cristal. Los manzanos se han cristalizado y reflejan la luz de formas cambiantes.",
+		"traits": "Plaga."
+    },
+    {
+        "code": "10556",
+        "name": "Ruinas de la Finca Perla",
+        "text": "[action]: <b>Desistir.</b> Dejas atrás el páramo. Añade todos los Restos cristalinos que controles a la zona de victoria.",
+		"flavor": "El antiguo huerto y la granja se han convertido en polvo tras años de abandono. Han pasado casi dos décadas, pero la naturaleza no ha reclamado la opulenta finca.",
+		"back_flavor": "Los restos de una casa que antaño fue majestuosa se encuentran de forma precaria en el borde de un acantilado. Los techos hundidos parecen un mosaico vacío.",
+		"traits": "Ruinas."
+    },
+    {
+        "code": "10557",
+        "name": "Pendiente de ceniza",
+        "text": "<b>Obligado</b> - Cuando reveles la Pendiente de ceniza: Realiza una prueba de [agility](4). Si fracasas, recibe 2 puntos de daño.",
+		"flavor": "La blanda ceniza hace que desplazarse por el empinado terreno sea especialmente traicionero.",
+		"back_flavor": "La interminable extensión de ceniza parece encontrarse desprovista de vida.",
+		"traits": "Plaga."
+    },
+    {
+        "code": "10558",
+        "name": "Cámara de sal",
+        "text": "<b>Revelación</b> - Pon la Cámara de sal en juego adyacente al Lugar de la que fue robada ([Codex]Omega) (<i>página 21</i>).\n[action] Los investigadores que estén en la Cámara de sal gastan, como grupo, 1 pista [per_investigator]: Roba la primera carta del montón que hay bajo la Cámara de sal. Límite de grupo de una vez por ronda.",
+		"traits": "Cueva. Guarida."
+    },
+    {
+        "code": "10559",
+        "name": "Túnel de larvas",
+        "text": "<b>Revelación</b> - Pon el Túnel de larvas en juego adyacente al Lugar del que fue robado. Busca en el mazo y la pila de descartes de Encuentros una Larva incolora y haz que aparezca en este Lugar ([Codex]Psi) (<i>página 21</i>).\n[reaction] Después de que evites con éxito a un Enemigo en el Túnel de larvas: Roba la primera carta del montón que hay bajo este Lugar. Límite de grupo de una vez por ronda.",
+		"traits": "Cueva. Guarida."
+    },
+    {
+        "code": "10560",
+        "name": "Zona de cría de cristal",
+        "text": "<b>Revelación</b> - Pon la Zona de cría de cristal en juego adyacente al Lugar de la que fue robada. ([Codex]Phi) (<i>página 21</i>).\n[reaction] Después de que termines tu turno en la Zona de cría de cristal, recibe 1 punto horror directo: Roba la primera carta del montón que hay bajo la Zona de cría de cristal. Límite de grupo de una vez por ronda.",
+		"traits": "Cueva. Guarida. Plaga."
+    },
+    {
+        "code": "10561",
+        "name": "Resonancia imperiosa",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](3). Por cada punto que te falte para tener éxito, elige una opción distinta de entre las siguientes si es posible:\n-Recibe 1 punto de daño.\n-Descarta 1 carta de tu mano al azar.\n-El Enemigo [[Insecto]] más cercano se prepara, se mueve (de Lugar en Lugar) hasta que llegue a tu Lugar, se enfrenta a ti y realiza un ataque inmediatamente.",
+		"traits": "Maquinación."
+    },
+    {
+        "code": "10562",
+        "name": "Defender el nido",
+        "text": "<b>Revelación</b> - Realiza una prueba de [intellect](2). Aumenta la dificultad de esta prueba en 1 por cada Lugar [[Guarida]] en juego. Si fracasas, coloca 1 ficha de perdición en el Enemigo [[Insecto]] más cercano. Si no puedes, en vez de eso recibe 2 puntos de horror.",
+		"flavor": "Estas hormigas pueden convertir los hormigueros en montañas.",
+		"traits": "Maquinación."
+    },
+    {
+        "code": "10563",
+        "name": "Larva incolora",
+        "text": "Indiferente.\n<b>Obligado</b> - Después de que la Larva incolora ataque: Derrótala.",
+		"flavor": "El fluido pálido de los ojos de la larva casi parece lágrimas.",
+		"traits": "Criatura. Insecto. Mutado."
+    },
+    {
+        "code": "10564",
+        "name": "Soldado de progenie",
+        "text": "Indiferente. Errante (Lugar [[Cueva]] con pistas).\nMientras el Soldado de progenie esté preparado, su Lugar recibe +2 a velo.",
+		"flavor": "\"La talla de las criaturas oscilaba entre los 2 y los 4 metros. Alas vestigiales. Totalmente ciegas. Su veneno quemaba como el fuego.\"\n-<u>Dra. Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Criatura. Insecto. Mutado."
+    },
+    {
+        "code": "10565",
+        "name": "Reina de progenie",
+		"subname": "Madre moribunda",
+        "text": "<b>Aparición</b> - ([Codex]Sigma) (<i>página 21</i>).\nDescomunal. Alerta.\nLos Enemigos [[Insecto]] que estén en el Lugar de la Reina de progenie pierden indiferente.\nLa Reina de progenie recibe +1 a combate por cada otro Enemigo [[Insecto]] en juego y +X de salud [per_investigator], donde X es el número de día actual.",
+		"traits": "Criatura. Insecto. Mutado. Élite."
+    },
+    {
+        "code": "10566",
+        "name": "Restos cristalinos",
+		"subname": "El niño",
+        "text": "<b>Revelación</b> - Pon los Restos cristalinos en juego en tu zona de juego.\nSi los Restos cristalinos son derrotados, barájalos con las 2 primeras cartas del mazo de Encuentros y coloca el montón de 3 cartas boca abajo bajo el Lugar [[Guarida]] más cercano.\n<b>Obligado</b> - Cuando comience tu turno: Recibe 1 punto de daño o horror.",
+		"traits": "Humanoide. Plaga."
+    },
+    {
+        "code": "10567",
+        "name": "Restos cristalinos",
+		"subname": "El padre",
+        "text": "<b>Revelación</b> - Pon los Restos cristalinos en juego en tu zona de juego.\nSi los Restos cristalinos son derrotados, barájalos con las 2 primeras cartas del mazo de Encuentros y coloca el montón de 3 cartas boca abajo bajo el Lugar [[Guarida]] más cercano.\n<b>Obligado</b> - Cuando comience tu turno: Recibe 1 punto de horror.",
+		"traits": "Humanoide. Plaga."
+    },
+    {
+        "code": "10568",
+        "name": "Restos cristalinos",
+		"subname": "La madre",
+        "text": "<b>Revelación</b> - Pon los Restos cristalinos en juego en tu zona de juego.\nSi los Restos cristalinos son derrotados, barájalos con las 2 primeras cartas del mazo de Encuentros y coloca el montón de 3 cartas boca abajo bajo el Lugar [[Guarida]] más cercano.\n<b>Obligado</b> - Cuando comience tu turno: Recibe 1 punto de daño.",
+		"traits": "Humanoide. Plaga."
+    },
+    {
+        "code": "10569",
+        "name": "La hermana perdida",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la mitad de la cantidad de Lugares [[Cueva]] revelados en juego (redondeando hacia arriba).\n[cultist]: -1. Si tienes éxito, cúrate 1 punto de horror.\n[tablet]: -2. Si estás em un Lugar [[Cueva]], en vez de eso trata el modificador de esta ficha como -4.\n[elder_thing]: -2. Si hay un Enemigo [[Abominación]] en tu Lugar, revela otra ficha.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de Lugares [[Cueva]] revelados en juego.\n[cultist]: -1. Si tienes éxito por 2 o más, cúrate 1 punto de horror.\n[tablet]: -4. Si estás en un Lugar [[Cueva]], en vez de eso trata el modificador de esta ficha como -6.\n[elder_thing]: -3. Si hay un Enemigo [[Abominación]] en tu Lugar, en vez de eso esta prueba fracasa automáticamente."
+    },
+    {
+        "code": "10570",
+        "name": "En las cuevas",
+        "text": "Las cartas que estén en los Lugares [[Oscuro]] usan los efectos (<b>Noche</b> [night]). Las cartas que estén en todos los demás Lugares usan los efectos (<b>Día</b> [day]).",
+		"flavor": "Las olas rompen contra la orilla, amenazando con borrar las huellas que llevan hacia las cuevas de marea. Veis un leve atisbo de un tenue resplandor azul en lo profundo de los túneles.",
+        "back_name": "Cazados",
+        "back_text": "Haz aparecer uno de los Enemigos Híbrido crustáceo puestos aparte en el Lugar [[Costero]] más cercano a la mayoría de investigadores, con el lado (<i>En la luz</i>) boca arriba.\nCada investigador que esté en un Lugar [[Oscuro]] debe descartar 1 carta de su mano al azar.\nColoca el plan 2a una cantidad de perdición igual al número de día actual.",
+		"back_flavor": "Un sonido entre canturreo y un zumbido reverbera en las paredes de los túneles. Una enorme criatura similar a un cangrejo sale de una poza de marea cercana, haciendo oscilar sus antenas en el aire como si os buscara. La cosa se mueve sorprendentemente rápido sobre docenas de patas, y su caparazón está cubierto de afilados percebes y colgajos de diversas algas marinas, incluso podridas. Sea lo que sea, desprende el hedor más fétido y terrible que jamás hayáis olido."
+    },
+    {
+        "code": "10571",
+        "name": "La oscuridad se cierne",
+        "text": "Las cartas que estén en los Lugares [[Oscuro]] usan los efectos (<b>Noche</b> [night]). Las cartas que estén en todos los demás Lugares usan los efectos (<b>Día</b> [day]).",
+		"flavor": "Las paredes de la caverna están vivas con zonas donde han crecido hongos que se mueven y agitan. Y parecen estar siguiéndoos.",
+        "back_name": "Envueltos en el musgo",
+        "back_text": "Cada investigador superviviente que no haya desistido queda derrotado y sufre 1 trauma mental.",
+		"back_flavor": "Os encontráis rodeados en la oscuridad por docenas de formas sombrías que castañetean y emiten sonidos. Lo más inquietante es el musgo que brilla tenuemente y que extiende por las resbaladizas paredes y techo de la cueva de marea. A medida que las criaturas y el musgo cambiante se acercan a una distancia cada vez más sofocante, perdéis el equilibrio y caéis sobre una gruesa alfombra de musgo. De cerca, podéis ver pequeños brotes y protuberancias espinosas en el musgo que palpitan y se giran hacia vosotros como cientos de bocas diminutas.\nSentís que se os duermen las extremidades, pero alguien os saca del musgo. Helen Peters os arrastra fuera de la cueva mientras maldice entre dientes."
+    },
+    {
+        "code": "10572",
+        "name": "La hermana desaparecida",
+        "text": "<b>Obligado</b> - Después de que se descubra la última pista de un Lugar [[Cueva]]: Pon la primera carta del mazo de Cavernas en juego adyacente a ese Lugar.\n<b>Objetivo</b> - ¡Encuentra a Elizabeth Peters! Si \"los investigadores han encontrado una correa rota\" y si \"los investigadores han encontrado un rastro de huellas\", haz avanzar el acto inmediatamente.",
+		"flavor": "Elizabeth Peters ha desaparecido en estas cuevas costeras mientras perseguía al perro de la familia. Helen está decidida a traerla de vuelta.",
+        "back_name": "Un rastro brillante",
+        "back_text": "Elige un Lugar [[Costero]] (sin investigadores si es posible). Pon el Lugar Cueva fúngica puesto aparte en juego adyacente al Lugar elegido.\nPon la primera carta del mazo de Cavernas en juego, adyacente a la Cueva fúngica. Repite este proceso hasta que la Cueva fúngica esté conectada a cuatro Lugares o hasta que el mazo de Cavernas esté vacío.",
+		"back_flavor": "-Está viva, pero dudo que Bruce lo esté -dice Helen mientras sujeta con fuerza la correa de perro rota. Vais tras ella mientras sigue un rastro de huellas que se adentra en la oscuridad. Cuando se os acostumbra la vista a la falta de luz, veis que la huellas resplandecen con los restos de los hongos bioluminiscentes que cubren los suelos de la caverna.\n-Es por aquí. Prepárense para cualquier cosa -dice Helen. Os armáis de valor y seguís el paso. A cierta distancia, un movimiento y unos chasquidos inquietantes os dicen que no estáis precisamente solos…"
+    },
+    {
+        "code": "10573",
+        "name": "Tras el rastro",
+        "text": "[action] gasta 1 pista [per_investigator] y elige un Enemigo que esté en un Lugar [[Oscuro]] conectado: Mueve ese Enemigo a tu Lugar.\n<b>Objetivo</b> - Cuando un investigador entre en la Cueva fúngica, haz avanzar el acto inmediatamente.",
+		"flavor": "Las brillantes pisadas de Lizzie llevan a una cámara inexplorada en las profundidades de las cavernas. Gracias a vuestra exploración, ahora sabéis cómo atraer a las voraces criaturas con musgo brillante para que salgan de la oscuridad y se expongan a la luz.",
+        "back_name": "La monstruosidad crustácea",
+        "back_text": "Haz aparecer el Híbrido límulo puesto aparte en la Cueva fúngica.\nRetira a Helen Peters de la partida. Si Theo Peters está bajo el control de cualquier investigador, ([codex] Sigma) (<i>página 25</i>).",
+		"back_flavor": "-¡Helen!\nEl agudo grito de Elizabeth rompe el silencio. Una joven de rostro redondo y con la ropa desgarrada sale de la oscuridad cojeando para abrazar a su hermana. El abrazo es interrumpido en pocos instantes por un terrible chillido. Un enorme crustáceo del tamaño de una casa avanza con las pinzas levantadas de modo amenazador. La aceitosa y brillante forma de la cosa está iluminada de verde y azul por el musgo de la caverna, y desprende un olor a marisco podrido.\n-¿Puedes andar? -le pregunta Helen a su hermana. Lizzie niega con la cabeza. Cuando la enorme criatura empieza a acercarse, les decís que huyan. Helen parece dudar un momento, pero luego os lo agradece con un asentimiento y se lleva a su hermana."
+    },
+	{
+        "code": "10574",
+        "name": "Frente al caparazón",
+        "text": "[action] gasta 1 pista [per_investigator] y elige un Enemigo que esté en un Lugar [[Oscuro]] conectado: Mueve ese Enemigo a tu Lugar.\n<b>Objetivo</b> - Si el Híbrido límulo es derrotado, haz avanzar el acto inmediatamente.",
+		"flavor": "La abominación de las profundidades de las cuevas os persigue por los túneles. Sólo podéis esperar conseguirles a Helen y su hermana el tiempo necesario para escapar.",
+        "back_name": "Más dura será la caída…",
+        "back_text": "(<b>→R1</b>) (<i>página 26</i>).",
+		"back_flavor": "La enorme abominación se debate y retuerce mientras su descomunal mole se estremece entre estertores de muerte. Por fin, la monstruosidad deja de moverse. Un lechoso fluido azul mana de sus ojos y caparazón y desprende un olor a marisco podrido todavía más terrible. Emprendéis el regreso a Akwan tapándoos boca y nariz."
+    },
+	{
+        "code": "10575",
+        "name": "Akwan",
+        "text": "[action]: <b>Desistir</b>. Abandonas la búsqueda.\nSi es el <b>Día 1</b> o el <b>Día 2</b>, Akwan obtiene: \"[action]: <b>Negociar</b>. Preguntas por el pueblo sobre las cuevas costeras. Mira las 3 primeras cartas del mazo de Cavernas. Devuélvelas a la parte superior del mazo de Cavernas en cualquier orden.\".",
+		"back_flavor": "El pueblo pesquero de Akwan se encuentra en una había rocosa de la costa norte de la Isla de la Cicuta. Algunas personas pasean por los entablados del pueblo.",
+		"traits": "Costero"
+    },
+	{
+        "code": "10576",
+        "name": "Cementerio suspendido",
+        "text": "[action] Recibe 1 punto de horror: Atraviesas el musgo lleno de huesos que recubre las paredes. Pon la primera carta del mazo de Cavernas en juego adyacente a este Lugar. Límite de grupo de una vez por partida.",
+		"flavor": "Docenas de cráneos sonrientes y brazos esqueléticos extendidos cuelgan de paredes y techo",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"back_traits": "Cueva. Oscuro.",
+		"traits": "Cueva. Costero."
+    },
+	{
+        "code": "10577",
+        "name": "Cala oculta",
+        "text": "[action] Los investigadores que estén en la Cala oculta gastan, como grupo, 2 pistas [per_investigator]: Recuerda que \"los investigadores han encontrado una correa de perro rota\".\n<b>Obligado</b> - Después de que fracases en una prueba de habilidad al combatir en la Cala oculta: Recibe 1 punto de daño.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"back_traits": "Cueva. Oscuro.",
+		"traits": "Costero."
+    },
+	{
+        "code": "10578",
+        "name": "Playa invadida de algas",
+        "text": "[Obligado] - Después de que fracases en una prueba de habilidad al intentar evitar en la Playa invadida de algas: Pierde 1 acción.\n<b>Obligado</b> - Cuando fueses a abandonar la Playa invadida de algas: Revela una ficha de Caos. Si es revelada una ficha [skull], [tablet], [elder_sign] o [auto_fail], debes cancelar los efectos del movimiento o bien descartar un apoyo [[Objeto]] que controles.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"back_traits": "Cueva. Oscuro.",
+		"traits": "Costero."
+    },
+	{
+        "code": "10579",
+        "name": "Orilla rocosa",
+        "text": "<b>Obligado</b> - Después de que reveles la Orilla rocosa: haz aparecer un Enemigo Híbrido crustáceo puesto aparte en este Lugar, con el lado (<i>En la luz</i>) boca arriba.",
+        "flavor": "La marea ha traído a esta playa cosas peores que algas y medusas.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"back_traits": "Cueva. Oscuro.",
+		"traits": "Costero."
+    },
+	{
+        "code": "10580",
+        "name": "Charcos subterráneos",
+        "text": "[action] Los investigadores que estén en los Charcos subterráneos gastan, como grupo, 2 pistas [per_investigator]: Recuerda que \"los investigadores han encontrado un rastro de huellas.\".\n<b>Obligado</b> - Después de que fracases en una prueba de habilidad al investigar los Charcos subterráneos: Recibe 1 punto de horror.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+    },
+	{
+        "code": "10581",
+        "name": "Cueva abierta",
+        "text": "[free] Durante tu turno: Realiza una prueba de [agility](2). Esta prueba recibe +1 a su dificultad por cada Enemigo preparado que haya en este Lugar. Si tienes éxito, la Cueva abierta pierde el rasgo [[Oscuro]] hasta el comienzo de la siguiente fase de Investigación (<i>todas las cartas que estén en este Lugar usan efectos (<b>Día</b> [day])</i>). Límite de grupo de una vez por ronda.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<u>H.P. Lovecraft</u>, \"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+    },
+	{
+        "code": "10582",
+        "name": "Cueva fúngica",
+        "text": "[reaction] Después de que descubras 1 o más pistas de la Cueva fúngica: Cúrate 1 punto de daño. Límite de grupo de una vez por ronda.\n<b>Obligado</b> - Al final de la ronda: Cada Enemigo que esté en la Cueva fúngica se cura 2 puntos de daño.",
+		"back_text": "Como coste adicional para que entres en la Cueva fúngica, los investigadores que estén en tu Lugar deben gastar, como grupo, 2 pistas [per_investigator].",
+		"back_flavor": "Los brillantes hongos azules palpitan cuando te acercas a la boca de esta cámara.",
+		"traits": "Cueva. Guarida. Oscuro."
+    },
+	{
+        "code": "10583",
+        "name": "Híbrido límulo [day]",
+        "subname": "En la luz",
+        "text": "Escurridizo. Descomunal.\nEl Híbrido límulo recibe +3 de salud [per_investigator] y no puede realizar ataques de oportunidad.\n<b>Obligado</b> - Después de que el Híbrido límulo se dé la vuelta a este lado: Inflígele 1 punto de daño [per_investigator].",
+		"traits": "Monstruo. Abominación. Élite."
+    },
+	{
+        "code": "10583b",
+        "name": "Híbrido límulo [night]",
+        "subname": "En la oscuridad",
+        "text": "Cazador. Descomunal. Represalia.\nEl Híbrido límulo recibe +3 de salud [per_investigator].\n<b>Obligado</b> - Después de que ataques con éxito al Híbrido límulo con una carta <b><i>Cuerpo a cuerpo</i></b>: Recibe 1 punto de daño.",
+		"traits": "Monstruo. Abominación. Élite."
+    },
+	{
+        "code": "10584",
+        "name": "Híbrido crustáceo [day]",
+        "subname": "En la luz",
+        "text": "Escurridizo. Cazador.\nEl Híbrido crustáceo recibe +X de salud, donde X es el número del día actual.\n<b>Obligado</b> - Cuando el Híbrido crustáceo fuese a recibir daño de un ataque: Reduce ese daño a 1.",
+		"traits": "Monstruo. Abominación. Élite."
+    },
+	{
+        "code": "10584b",
+        "name": "Híbrido crustáceo [night]",
+        "subname": "En la oscuridad",
+        "text": "Cazador.\nEl Híbrido crustáceo recibe +X de salud, donde X es el número del día actual.\n<b>Obligado</b> - Después de que el Híbrido crustáceo se dé la vuelta a este lado: El Híbrido crustáceo inflige 1 punto de daño a cada investigador que esté en su Lugar.",
+		"traits": "Monstruo. Abominación. Élite."
+    },
+	{
+        "code": "10585",
+        "name": "Musgo de caverna",
+        "text": "Indiferente. Cazador.\nMientras el Musgo de caverna esté vinculado a un Apoyo, puede ser atacado como si fuera un Enemigo enfrentamiento a ti. \n<b>Obligado</b> - Después de que tengas éxito en una prueba de habilidad al combatir o investigar en el Lugar del Musgo de caverna, si éste está preparado: Vincula el Musgo de caverna a un Apoyo [[Objeto]] que controles. Trata el cuadro de texto de reglas del Apoyo vinculado como si estuviera en blanco (excepto los [[Rasgos]]).",
+		"traits": "Flora. Mutado."
+    },
+	{
+        "code": "10586",
+        "name": "Reclamado por la naturaleza",
+        "text": "(<b>Día</b> [day]) <b>Revelación</b> - Realiza una prueba de [combat](3). Si fracasas, debes recibir 2 puntos de daño o bien elegir el Enemigo más cercano. Ese Enemigo te ataca.\n(<b>Noche</b> [night]) <b>Revelación</b> - Realiza una prueba de [willpower](3). Si fracasas, debes recibir 2 puntos de horror o bien cada Enemigo que esté en tu Lugar y en cada Lugar conectado se cura 1 punto de daño.",
+		"traits": "Riesgo."
+    },
+	{
+        "code": "10587",
+        "name": "Crecimiento luminoso",
+        "text": "<b>Revelación</b> - Vincula el Crecimiento luminoso al Lugar [[Oscuro]] revelado más cercano que no tenga el Crecimiento luminoso vinculado si es posible.\nEl Lugar vinculado pierde el rasgo [[Oscuro]]. Los Enemigos que estén en el Lugar vinculado reciben +1 a combate y +1 de daño.\n[action]: Realiza una prueba de [agility](3). Si tienes éxito, descarta el Crecimiento luminoso.",
+		"traits": "Riesgo. Flora."
+    },
+    {
+        "code": "10588",
+        "name": "La cosa de las profundidades",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la mitad de la cantidad de Lugares [[Hundido]] en juego (redondeando hacia arriba).\n[cultist]: -1. Puedes retirar 1 socavón del Lugar [[Ciénaga]] más cercano.\n[tablet]: -3. Si fracasas, coloca 1 ficha de Daño en el Lugar [[Ciénaga]] más cercano, como socavón.\n[elder_thing]: -4. Si fracasas, busca en el mazo y la pila de descartes de Encuentros un Enemigo Tentáculo aferrador y róbalo, ignorando su palabra clave Oleada.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de Lugares [[Hundido]] en juego.\n[cultist]: -3. Si tienes éxito, puedes retirar 1 socavón del Lugar [[Ciénaga]] más cercano.\n[tablet]: -5. Coloca 1 ficha de Daño en el Lugar [[Ciénaga]] más cercano, como socavón.\n[elder_thing]: -5. Busca en el mazo y la pila de descartes de Encuentros un Enemigo Tentáculo aferrador y róbalo, ignorando su palabra clave Oleada."
+    },	
+    {
+        "code": "10589",
+        "name": "Terreno en hundimiento",
+        "text": "[action]: <b>Desistir</b>. Huyes de la ciénaga.\n<b>Obligado</b> - Cuando acabe tu turno, si estás en un Lugar [[Ciénaga]]: Coloca 1 ficha de Daño en tu Lugar, como socavón, o bien 2 socavones si hay 1 o 2 investigadores en la partida.\n<b>Obligado</b> - Si un Lugar tiene 3 o más socavones: Retira todos los socavones de él y dale la vuelta.",
+		"flavor": "Unos ligeros temblores recorren el terreno móvil. La ciénaga es una fecunda jungla de coloridas flores y vidriosos reflejos aceitosos.",
+        "back_name": "Ha faltado poco",
+        "back_text": "Dale la vuelta al Lugar central para mostrar su lado [[Hundido]], descartando todas las fichas y cartas de Jugador vinculadas. Haz aparecer el Enemigo La cosa de las profundidades puesto aparte en él.",
+		"back_flavor": "Un estruendo ensordecedor resuena por toda la ciénaga, seguido de varias ondas que recorren el paisaje flotante. Sentís un temblor sordo bajo vuestros pies y os ponéis a salvo justo antes de que una horrible monstruosidad surja del suelo. Varias hileras de finos dientes afilados como agujas muerden el aire que ocupabais hace un instante, y unos siniestros tallos con ojos se giran para miraros con hambre."
+    },	
+    {
+        "code": "10590",
+        "name": "La cosa de la ciénaga",
+        "text": "<b>Obligado</b> - Cuando acabe tu turno, si estás en un Lugar [[Ciénaga]]: Coloca 1 ficha de Daño en tu Lugar, como socavón, o bien 2 socavones si hay 1 o 2 investigadores en la partida.\n<b>Obligado</b> - Si un Lugar tiene 3 o más socavones: Retira todos los socavones de él y dale la vuelta.\n<b>Objetivo</b> - Si La cosa de las profundidades es derrotada, (<b>→R4</b>)",
+		"flavor": "¡La ciénaga se agita con olas descomunales!",
+        "back_name": "Casi el almuerzo",
+        "back_text": "Cada investigador superviviente queda derrotado y sufre 1 trauma físico.",
+		"back_flavor": "Cuando os apartáis para evitar un tentáculo que intenta agarraros, dos más se enroscan en vuestras piernas y cuello. La ruidosa monstruosidad surge bajo vuestros pies, resbaladiza de icor, y abre sus tremendas fauces. Os debatís salvajemente y arrancáis el tejido musgoso que acumula en torno a los tentáculos que os sujetan. El repentino movimiento de un brote plateado atrae la atención de la criatura y os suelta para seguir a su nueva presa. Corréis de vuelta a la orilla y os desplomáis al borde del camino."
+    },	
+    {
+        "code": "10591",
+        "name": "Un estudio botánico",
+        "text": "<b>Objetivo</b> - Al final de la ronda, los investigadores que estén en el Lugar de la Orilla norte pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto. (<i>consulta el diagrama de colocación de Lugares de la página 28 de la guía de campaña para ver dónde está el Lugar de la Orilla norte</i>).",
+		"flavor": "Se supone que esta ciénaga es el origen de la muestra que trajo a Dra. Marquez a la isla. Os espera una buena tarea.",
+        "back_name": "El montículo sabio",
+        "back_text": "Haz aparecer el Enemigo Híbrido chelydra puesto aparte en el Lugar de la Orilla norte. Elige un Lugar adyacente al Lugar del Híbrido chelydra y haz aparecer 1 de los Enemigos Tentáculo aferrador puestos aparte en ese Lugar. Añade al mazo de Encuentros la pila de descartes de Encuentros y todos los demás Enemigos Tentáculo aferrador puestos aparte. Luego baraja el mazo de Encuentros.",
+		"back_flavor": "Llegáis a un estanque tranquilo y redondo situado en la orilla noreste de la ciénaga. Sobre un montículo de flores silvestres hay una flor alcaloide plateada muy similar a la muestra que trajo a la Dra. Marquez a la isla de la Cicuta. Al acercaros, la flor se hincha y libera una nube de esporas para luego cerrarse. El aroma de las esporas es agradable, casi como a clavo, pero se va volviendo amargo con el tiempo. De pronto, el montículo de la flor se mueve. Una gran cabeza reptiliana sale del agua y os mira con ojos inteligentes antes de alejarse nadando rápidamente."
+    },	
+    {
+        "code": "10592",
+        "name": "Un descubrimiento irrepetible",
+        "text": "[free] Los investigadores que estén en un mismo Lugar adyacente al Lugar del Híbrido chelydra gastan como grupo, 1 pista [per_investigator]: Durante el resto de la ronda, cambia el Lugar de Errante del Híbrido chelydra a ese Lugar.\n<b>Obligado</b> - Al final de la fase de Enemigos: el Híbrido chelydra recibe 1 punto de daño por cada Enemigo [[Abominación]] preparado que haya en su Lugar.\n<b>Objetivo</b> - Al final de la ronda, si el Híbrido chelydra está en el Lugar inicial, haz avanzar el acto inmediatamente.",
+		"flavor": "La enorme criatura con flores y similar a una tortuga se está moviendo. Tal vez podáis conducirla a un lugar seguro.",
+        "back_name": "Anatomía extraña",
+        "back_text": "<blockquote>Arrinconáis a la criatura reptiliana en un brillante estanque, donde se hunde en el barro, visiblemente agotada. Mientras se pone a masticar unas cuantas flores, realizáis varios bocetos y tomáis notas del florido caparazón de la cosa. La flor alcaloide de su dorso parece palpitar. Sacáis unas tijeras y os preparáis para tomar una muestra.</blockquote>\n<hr>Si es el <b>Día 1</b>, lee lo siguiente. Si no es así,(<b>→R1</b>).\n<blockquote>-¡Alto! -grita la Dra. Marquez-. Esa flor es parasitaria y ahora forma parte de la anatomía de la criatura. Es imposible saber hasta qué punto está integrada. Señala el grueso tallo translúcido de la flor, por el que fluye un viscoso fluido blanco como si fuera una arteria. -Si la flor muere, su huésped también.</blockquote>\n(<b>→R2</b>) (<i>página 30</i>)."
+    },	
+    {
+        "code": "10593",
+        "name": "Lodazal",
+        "flavor": "Por alguna desconocida razón sentía miedo ante la idea de turbar la antigua ciénaga y sus tenebrosos secretos.\n-<u>H.P. Lovecraft</u>, \"La ciénaga-luna\"",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10594",
+        "name": "Espesura enmarañada",
+        "text": "Como coste adicional para salir de la Espesura enmarañada, debes gastar una acción.",
+        "flavor": "Era muy oscuro, ya que los árboles eran grotescamente enormes y frondosos, e increíblemente numerosos.\n-<u>H.P. Lovecraft y Winifred V. Jackson</u>, \"La pradera verde\"",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10595",
+        "name": "Estanque fétido",
+        "text": "Este Lugar recibe +1 a velo por cada socavón que tenga.",
+        "flavor": "Las aguas estancadas, últimamente bastante despobladas de vida animal, ahora hervían de enormes ranas viscosas que croaban aguda e incesantemente…\n-<u>H.P. Lovecraft</u>, \"La ciénaga-luna\"",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10596",
+        "name": "Sendero anegado",
+        "text": "[free] Durante tu turno, coloca 1 punto de daño en este Lugar, como socavón: <b>Movimiento</b> (<i>a un Lugar conectado</i>).",
+        "flavor": "Pasar entre los tablones hundidos te permite recorrer la senda inundada.",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10597",
+        "name": "Cabaña abandonada",
+        "text": "[free] Gasta 1 pista: Mueve 1 socavón de la Cabaña abandonada a un Enemigo que esté en este Lugar, como daño. Límite de una vez por ronda.",
+        "flavor": "El destartalado hogar flota sobre la superficie del agua.",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10598",
+        "name": "Puerto podrido",
+        "text": "<b>Obligado</b> - Después de que descubras 1 o más pistas en el Puerto podrido: Realiza una prueba de [agility](3). Si fracasas, coloca´1 ficha de Daño sobre el Puerto podrido, como socavón.",
+        "flavor": "Deberías ser más prudente.",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10599",
+        "name": "Puente cubierto",
+        "text": "<b>Obligado</b> - Después de que reveles una ficha con símbolo al investigar el Puente cubierto: Roba la primera carta del mazo de Encuentros.",
+        "flavor": "Las fragantes flores huelen a miel y almizcle.",
+        "back_name": "Aguas abiertas",
+        "back_text": "<b>Obligado</b> - Después de que te muevas a este Lugar: Roba la primera carta del mazo de Encuentros.",
+		"back_flavor": "Las tranquilas ondas ocultan algo siniestro en las profundidades.",
+		"back_traits": "Hundido.",
+		"traits": "Ciénaga."
+    },	
+    {
+        "code": "10600",
+        "name": "La cosa de las profundidades",
+        "subname": "Emergiendo desde lo profundo",
+        "text": "Escurridizo. Cazador. Descomunal. Represalia.\nLa cosa de las profundidades recibe +5 de salud [per_investigator] y no puede realizar ataques de oportunidad.\nMientras La cosa de las profundidades se esté moviendo, su Lugar se considera conectado a cada Lugar [[Hundido]].\n<b>Obligado</b> - Después de que La cosa de las profundidades ataque en un Lugar [[Ciénaga]]: Cúrale 2 puntos de daño.",
+		"traits": "Abominación. Flora. Mutado. Élite."
+    },	
+    {
+        "code": "10601",
+        "name": "Híbrido chelydra",
+        "subname": "Anomalía florecida",
+        "text": "Indiferente. Escurridizo. Errante (Lugar vacío más cercano).\nEl Híbrido chelydra no puede moverse si hay un Enemigo [[Abominación]] preparado en su Lugar o si está enfrentado a un investigador.\n<b>Objetivo</b> - Si este Enemigo es derrotado. (<b>→R3</b>).",
+		"traits": "Criatura. Flora. Mutado. Élite."
+    },	
+    {
+        "code": "10602",
+        "name": "Tentáculo aferrador",
+        "text": "Oleada. (<b>Noche</b> [night]) Indiferente.\n<b>Aparición</b> - Lugar del Híbrido chelydra.\nX es el número del día actual.",
+		"flavor": "A decir verdad, el término \"cosa\" es lo mejor que se nos ocurrió para describir lo que sea que había ahí abajo.\n<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Abominación. Flora. Mutado."
+    },	
+    {
+        "code": "10603",
+        "name": "Perturbación terrestre",
+        "text": "<b>Revelación</b> - Realiza una prueba de [intellect] o de [agility](4). Por cada punto que te falte para tener éxito, debes recibir 1 punto de daño o bien colocar 1 ficha de Daño en el Lugar [[Ciénaga]] más cercano, como socavón.",
+		"flavor": "A los terribles temblores los seguía una estampida de criaturas del bosque aterrorizadas.",
+		"traits": "Riesgo."
+    },	
+    {
+        "code": "10604",
+        "name": "Fango movedizo",
+        "text": "<b>Revelación</b> - Si está en un…\n-…Lugar [[Hundido]], recibe 1 punto de daño directo e inflige 1 punto de daño directo a cada Apoyo [[Aliado]] que controles.\n…Lugar [[Ciénaga]], coloca 1 ficha de Daño en tu Lugar, como socavón.",
+		"traits": "Riesgo."
+    },	
+    {
+        "code": "10605",
+        "name": "La hondonada retorcida",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es el nivel de oscuridad actual.\n[cultist]: -1. Cura 1 punto de daño de tu investigador.\n[tablet]: -3. Si fracasas, busca el Enemigo en persecución que tenga el mayor valor de evitar. Haz que aparezca en tu Lugar.\n[elder_thing]: -4. Si fracasas, recibe 1 punto de horror.\n<b>Nivel de oscuridad ( __ )</b>",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el doble del nivel de oscuridad actual.\n[cultist]: -3. Si tienes éxito, cura 1 punto de daño de tu investigador.\n[tablet]: -4. Busca el Enemigo en persecución que tenga el mayor valor de evitar. Haz que aparezca en tu Lugar.\n[elder_thing]: -4. Recibe 1 punto de horror.\n<b>Nivel de oscuridad ( __ )</b>"
+    },	
+    {
+        "code": "10606",
+        "name": "La oscuridad aumenta",
+        "text": "<b>Obligado</b> - Después de que un Lugar sea revelado: Pon Lugares de la parte superior del mazo de Bosque en juego por encima, debajo, a la izquierda y a la derecha de ese Lugar.\n<b>Obligado</b> - Cuando acabe la fase de Investigación: Cada investigador que esté en un Lugar [[Oscuro]] debe robar un Enemigo en persecución que tenga el mayor valor de evitar o bien recibir 1 punto de horror (no puede ser cancelado).",
+		"flavor": "En el silencio del bosque vibran los sonidos de criaturas hambrientas y sombras al acecho.",
+        "back_name": "Oscuridad creciente",
+        "back_text": "Añade 1 recurso al nivel de oscuridad actual. Si el nivel de oscuridad actual es 6 o más y estás jugando en modo campaña, cada investigador queda derrotado y sufre 1 trauma físico.\nSi no es así, realiza los siguientes pasos:\n-Pon en la zona de persecución cada Enemigo que esté en un Lugar [[Oscuro]] y que no esté enfrentado a un investigador.\n-Baraja todos los Lugares [[Oscuro]] sin revelar junto con las 2 primeras cartas del mazo Bosque y colócalos en la parte superior del mazo de Bosque. Dales la vuelta a todos los Lugares [[Oscuro]] revelados vacíos para mostrar su lado sin revelar, descartando todas las fichas.\n-Pon Lugares de la parte superior del mazo de Bosque en juego por encima, por debajo, a la izquierda y a la derecha de cada Lugar con un investigador.\n-El investigador que tenga el Farol del Valle realiza una prueba de [willpower](X), donde X es el nivel de oscuridad actual. Si fracasa, debe elegir un Enemigo en persecución para que aparezca enfrentado a él.\nDale la vuelta a esta carta para volver a mostrar el plan 1a."
+    },	
+    {
+        "code": "10607",
+        "name": "Búsqeda desesperada",
+        "text": "Cada Enemigo que no tenga instrucciones de aparición obtiene \"<b>Aparición</b> - Cuando se robe este Enemigo del mazo de Encuentros: pon este Enemigo en la zona de persecución.\".\n<b>Objetivo</b> - Al final de la ronda, si todos los investigadores están en el mismo Lugar [[Guarida]] pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "Debe de haber algún rastro o pista de Bertie en este bosque. Esperáis no llegar demasiado tarde."
+    },	
+    {
+        "code": "10607b",
+        "name": "Híbrido úrsido",
+		"subname": "Abominación resplandeciente",
+        "text": "<b>Aparición</b> - ([codex] <b>Sigma</b>) (<i>página 37</i>).\nCazador. Represalia.\nEl Híbrido úrsido recibe +2 de salud [per_investigator].\n<b>Obligado</b> - Cuando el Híbrido úrsido fuese a ser derrotado, si está en juego el acto 2: Cúrale todo el daño y ponlo en la zona de persecución en lugar de en la zona de victoria."
+    },	
+    {
+        "code": "10608",
+        "name": "¿Dónde está Bertie?",
+        "text": "[free] Gasta 1 pista: Mira el lado revelado de un Lugar adyacente.\n<b>Objetivo</b> - Encuentra a Bertie Musgrave. ¡Se ha perdido en las profundidades del bosque! (<i>no hagas avanzar el acto hasta que se te indique hacerlo</i>).",
+		"flavor": "Los árboles se cierran sobre vosotros mientras seguís el rastro de Bertie adentrándoos cada vez más en el bosque.",
+		"back_name": "Salir de la sartén…",
+		"back_text": "Pon el Apoyo de historia Bertie Musgrave puesto aparte en juego bajo el control de cualquier investigador. Pon cada Enemigo sin enfrentar en la zona de persecución. Baraja todos los demás Lugares, excepto el Lugar La hondonada retorcida, con el mazo de Bosque y ponlos en juego según el diagrama de la <i>página 36</i>.\nBusca el Enemigo Híbrido úrsido en todas las zonas de juego y fuera del juego, cúrale todo el daño y haz que aparezca en La hondonada retorcida. Haz avanzar los mazos de Acto y de Plan al plan especial: \"¡De vuelta al Valle!\", moviendo a él toda la perdición del plan en curso. Es tanto el plan en curso como el acto en curso.",
+		"back_flavor": "-¡Atrás! -chilla una voz conocida. Una piña pasa volando cerca de vuestras cabezas y Bertie se asoma desde el hueco de un enorme tronco.\n-¡Son ustedes! -trina, emocionado-. Pensaba que podía darme por muerto, pero ¡han venido!\nSe le ponen los ojos como platos cuando un familiar rugido jadeante resuena por la hondonada."
+    },	
+    {
+        "code": "10609",
+        "name": "¡De vuelta al Valle!",
+        "text": "[free] Agota el Farol del Valle o bien gastad, como grupo 1 pista [per_investigator]: Mira el lado revelado de un Lugar adyacente. Puedes moverte a ese Lugar.\n<b>Objetivo</b> - Si todos los investigadores no derrotados han desistido, (<b>→R1</b>) (<i>página 38</i>).",
+		"flavor": "Debéis encontrar el camino de vuelta al Valle de la Cicuta con Bertie.",
+		"back_name": "El bosque hambriento",
+		"back_text": "Añade 1 recurso al nivel de oscuridad actual. Si el nivel de oscuridad actual es 6, cada investigador superviviente queda derrotado y sufre 1 trauma físico (<b>→R2</b>) (<i>página 38</i>).\nSi no es así, siguiendo el orden de juego, cada jugador debe elegir un Enemigo de la zona de persecución y hacer que aparezca en el Lugar [[Oscuro]] más cercano. Si no puede, debe descartar cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo y hacerlo aparecer en el Lugar [[Oscuro]] más cercano.\nDale la vuelta a esta carta.",
+		"back_flavor": "El bosque se os echa encima, y el aire se llena con el sonido de fauces babeantes y colmillos que rechinan. Un aullido enfermizo sale de entre la maleza, y el sonido familiar de una tos jadeante y seca anuncia la llegada del oso."
+    },	
+    {
+        "code": "10610",
+        "name": "Farol del Valle",
+        "subname": "Faro de esperanza",
+        "text": "El Lugar del Farol del Valle y todos los Lugares conectados pierden el rasgo [[Oscuro]].\n[reaction] Cuando un investigador que esté en tu Lugar se mueva a y revele un Lugar Bosque, agota el Farol del Valle: ignora el o los efectos Obligado de ese Lugar.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, dale la vuelta y colócalo en el Lugar más cercano.",
+		"traits": "Objeto. Herramienta. Encendido. Ayuda."
+    },	
+    {
+        "code": "10610b",
+        "name": "Farol del Valle",
+        "subname": "Luz extinguida",
+        "text": "[action]: Toma el control del Farol del Valle y luego dale la vuelta. Cualquier investigador que esté en el Lugar del Farol del Valle puede activar esta capacidad.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, colócalo en el Lugar más cercano.",
+		"traits": "Objeto. Herramienta. Apagado. Ayuda."
+    },	
+    {
+        "code": "10611",
+        "name": "Farol del Valle",
+        "subname": "Una leve esperanza",
+        "text": "El Lugar del Farol del Valle pierde el rasgo [[Oscuro]].\n[action] Agota el Farol del Valle: Mira el lado revelado de un Lugar conectado. Puedes moverte a ese Lugar, ignorando sus efectos de Obligado.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, dale la vuelta y colócalo en el Lugar más cercano.",
+		"traits": "Objeto. Herramienta. Encendido."
+    },	
+    {
+        "code": "10611b",
+        "name": "Farol del Valle",
+        "subname": "Luz extinguida",
+        "text": "[reaction]: Toma el control del Farol del Valle y luego dale la vuelta. Cualquier investigador que esté en el Lugar del Farol del Valle puede activar esta capacidad.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, colócalo en el Lugar más cercano.",
+		"traits": "Objeto. Herramienta. Apagado."
+    },	
+    {
+        "code": "10612",
+        "name": "Prado destelleante",
+        "text": "[action]: <b>Desistir</b>. \"¡Seguro que Bertie está bien!\".\n[action]: Cúrate 1 punto de horror. Límite de una vez por ronda.",
+		"flavor": "Una leve, aunque visible, fosforescencia parecía surgir de toda la vegetación…\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Bosque. Oscuro."
+    },		
+    {
+        "code": "10613",
+        "name": "Claro afectado por la plaga",
+        "text": "<b>Obligado</b> - Después de que reveles el Claro afectado por la plaga: Elige el Enemigo en persecución que tenga el menor valor de combate y haz que aparezca en este Lugar.",
+		"flavor": "Las ramas del arce se estaban moviendo y no corría el menor soplo de viento.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"back_traits": "Bosque. Oscuro.",
+		"traits": "Bosque. Plaga. Oscuro."
+    },		
+    {
+        "code": "10614",
+        "name": "Marjal envenenado",
+        "text": "<b>Obligado</b> - Después de que reveles el Marjal envenenado: Deber recibir 1 punto de daño directo o bien infligir 1 punto de daño a cada Apoyo [[Aliado]] que controles.",
+		"flavor": "\"Se ha observado una intrincada red de micelio que cuenta con un sistema digestivo como el de los animales. Los hongos han convertido la madera en pulpa.\"\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"back_traits": "Bosque. Oscuro.",
+		"traits": "Bosque. Plaga. Oscuro."
+    },		
+    {
+        "code": "10615",
+        "name": "Espesura fecunda",
+        "text": "La Espesura fecunda recibe -X a velo, donde X es el nivel de oscuridad actual.\n<b>Obligado</b> - Después de que reveles la Espesura fecunda: Realiza una prueba de [agility](X), donde X es el nivel de oscuridad actual. Si fracasas, busca el Enemigo en persecución que tenga la mayor salud impresa y haz que aparezca en este Lugar.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"traits": "Bosque. Oscuro."
+    },		
+    {
+        "code": "10616",
+        "name": "Arboleda de setas",
+        "text": "La Arboleda de setas recibe +2 a velo mientras no sea [[Oscuro]].\n<b>Obligado</b> - Después de que reveles la Arboleda de setas: Realiza una prueba de [intellect](X), donde X es el nivel de oscuridad actual. Si fracasas, busca el Enemigo en persecución que tenga el mayor valor de evitar te ataca.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"traits": "Bosque. Oscuro."
+    },		
+    {
+        "code": "10617",
+        "name": "Claro bañado por la luna",
+        "text": "Mientras un Enemigo se esté moviendo, su Lugar se considera conectado al Claro bañado por la luna.\n<b>Obligado</b> - Después de que reveles el Claro bañado por la luna: Realiza una prueba de [willpower](X), donde X es el nivel de oscuridad actual. Si fracasas, busca el Enemigo en persecución que tenga el mayor valor de combate y haz que aparezca en este Lugar.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"back_traits": "Bosque. Oscuro.",
+		"traits": "Bosque. Guarida. Oscuro."
+    },		
+    {
+        "code": "10618",
+        "name": "Sendero retorcido",
+        "text": "X es el nivel de Oscuridad.\n[reaction] Después de que descubras una pista en este Lugar: Mira el lado revelado de un Lugar conectado. Puedes moverte a ese Lugar.",
+		"flavor": "Los sinuosos senderos acaban volviendo sobre sí mismos.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"traits": "Bosque. Oscuro."
+    },		
+    {
+        "code": "10619",
+        "name": "Arboleda de cadáveres",
+        "text": "<b>Obligado</b> - Después de que reveles la Arboleda de cadáveres: Recibe 1 punto de horror.\n<b>Obligado</b> - Después de que investigues con éxito la Arboleda de cadáveres: Recibe 1 punto de horror.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"back_traits": "Bosque. Oscuro.",
+		"traits": "Bosque. Guarida. Oscuro."
+    },		
+    {
+        "code": "10620",
+        "name": "Cubil del oso",
+        "text": "<b>Obligado</b> - Después de que reveles el Cubil del oso: Busca el Enemigo en persecución que tenga el mayor valor de combate y haz que aparezca enfrentado a ti. Si no puedes, roba la primera carta del mazo de Encuentros.",
+		"flavor": "Sea lo que sea lo que vive aquí, está claro que pasó tanta hambre como para llegar a comerse a sus congéneres.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"back_traits": "Bosque. Oscuro.",
+		"traits": "Bosque. Guarida. Oscuro."
+    },		
+    {
+        "code": "10621",
+        "name": "La hondonada retorcida",
+        "text": "<b>Objetivo</b> - Al final de la ronda, si todos los investigadores supervivientes están en La hondonada retorcida, los investigadores pueden, como grupo, gastar 2 pistas [per_investigator] para hacer avanzar el acto al acto 2b.",
+		"flavor": "El viejo árbol nudoso ha visto mucho más de lo que jamás verás tú.",
+        "back_name": "Bosque oriental",
+		"back_flavor": "Los árboles crecían demasiado juntos, y sus troncos eran demasiado grandes tratándose de árboles de Nueva Inglaterra. En las oscuras avenidas del bosque había demasiado silencio, y el suelo estaba demasiado blando con el húmedo musgo y los restos de infinitos años de descomposición.\n-<u>H.P. Lovecraft<(u>, \"El color del espacio exterior\"",
+		"traits": "Bosque. Oscuro."
+    },		
+    {
+        "code": "10622",
+        "name": "Sombras profundas",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](3). Esta prueba recibe +2 a la dificultad si tu Lugar es [[Oscuro]]. Si fracasas, debes (<i>elige una opción</i>):\n-Recibir 2 puntos de horror.\n-El investigador que controle el Farol del Valle le da la vuelta a su lado [[Apagado]] y lo coloca en un Lugar conectado.",
+		"traits": "Riesgo."
+    },		
+    {
+        "code": "10623",
+        "name": "Miedo que acecha",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](3). Esta prueba recibe +2 a la dificultad si tu Lugar es [[Oscuro]]. Si fracasas, debes (<i>elige una opción</i>):\n-Recibir 2 puntos de daño.\n-Buscar el Enemigo que tenga el mayor valor de combate y hacer que aparezca enfrentado a ti.",
+		"traits": "Terror."
+    },		
+    {
+        "code": "10625",
+        "name": "Luz robada",
+        "text": "Peligro.\n<b>Revelación</b> - Debes (<i>elige una opción</i>):\n-Colocar 1 ficha de Perdición sobre el plan en curso. Este efecto puede hacer avanzar el plan.\n-Dar la vuelta al Farol del Valle a su lado [[Apagado]]. Coloca el Farol del Valle en el Lugar vacío más alejado de todos los investigadores.",
+		"traits": "Maquinación."
+    },		
+    {
+        "code": "10625",
+        "name": "Híbrido acechante",
+        "text": "Cazador. Alerta.\nX es el nivel de oscuridad actual.\n<b>Presa</b> - Sólo el investigador con el Farol del Valle.\n<b>Obligado</b> - Después de que el Híbrido acechante te ataque, si controlas el Farol del Valle: Da la vuelta al Farol del Valle a su lado [[Apagado]] y colócalo en tu Lugar.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },		
+    {
+        "code": "10626",
+        "name": "La noche más larga",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la mitad de la cantidad de perdición en juego, redondeando hacia arriba.\n[cultist]: -2. Coloca 1 barrera en tu Lugar.\n[tablet]: -1. Revela otra ficha. Si fracasas, el Enemigo más cercano se prepara, se mueve y ataca como si fuera la fase de Enemigos.\n[elder_thing]: -4. Si fracasas, retira 1 barrera, señuelo, o trampa de tu Lugar.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es cantidad de la perdición en juego.\n[cultist]: -3. Si tienes éxito, coloca 1 barrera en tu Lugar.\n[tablet]: -4. El Enemigo más cercano se prepara, se mueve y ataca como si fuera la fase de Enemigos.\n[elder_thing]: -5. Retira 1 barrera, señuelo, o trampa de tu Lugar."
+    },	
+    {
+        "code": "10627",
+        "name": "Barreras, señuelos y trampas",
+        "text": "<b>Efectos de fichas</b>\nLos Enemigos que ignoran los efectos de una ficha no activan sus capacidades [[Obligado]].\n<b>Recurso</b>: <b>Obligado</b> - Cuando un Enemigo fuese a moverse mediante una palabra clave y hubiera 1 o más barreras entre su Lugar y el Lugar al que se está moviendo: Retira una de esas barreras. Cancela los efectos de movimiento.\n<b>Horror</b>: <b>Obligado</b> - Cuando un Enemigo entre en un Lugar que tenga un señuelo: Retira el señuelo. Inflige 1 punto de daño a ese Enemigo, haz que deje de estar enfrentado a todos los investigadores y agótalo. Ese Enemigo no puede prepararse durante el resto de la ronda.\n<b>Daño</b>: <b>Obligado</b> - Cuando un Enemigo entre en un Lugar que tenga una trampa: Retira la trampa. Inflige 2 puntos de daño a ese Enemigo."
+    },	
+    {
+        "code": "10628",
+        "name": "La acometida",
+        "text": "Al comprobar el umbral de perdición, la perdición que haya en cartas que no sean este plan se resta de la perdición total en juego en lugar de sumarse.\n<b>Obligado</b> - Cuando el efecto de una carta fuese a colocar perdición en el plan: En lugar de eso, colócala en el Apoyo de historia Los cautivos.\n<b>Obligado</b> - Después de que se coloque perdición en este plan: Siguiendo el orden de juego, cada investigador roba la primera carta del mazo de Enemigos.",
+		"flavor": "Vuestra única esperanza es resistir hasta el amanecer.",
+        "back_name": "El sacrificio final",
+        "back_text": "El investigador jefe debe decidir (elige una opción):\n-Cada investigador no derrotado sufre un trauma mental.\n-Elige un habitante que esté bajo el control de un investigador. Ese habitante se sacrifica interponiéndose entre la monstruosidad y vosotros. Tacha en el registro de campaña el nombre del habitante elegido. Anota en las notas de ese habitante que: <i>\"nombre\" se sacrificó por los investigadores</i>.\nHaz avanzar el acto.",
+		"back_flavor": "Los primeros rayos del amanecer trazan haces de color violeta y carmesí por el cielo, tapando las estrellas. Mientras miráis la llegada del alba, una monstruosidad caída se levanta de un montón de cadáveres mutilados y carga contra vosotros. ¡Apenas tenéis tiempo de reaccionar!"
+    },	
+    {
+        "code": "10629",
+        "name": "La noche más larga",
+        "text": "[free] Durante tu turno, gasta 1 pista: Coloca 1 barrera, señuelo o trampa en tu Lugar.\n[action]: <b>Desistir</b>. A continuación, si todos los investigadores no derrotados han desistido, (<b>→R3</b>) (<i>página 50</i>).\n<b>Objetivo</b> - Sobrevive a la noche y protege tantos cautivos como puedas (<i>no hagas avanzar el acto hasta que se te indique hacerlo</i>).",
+		"flavor": "¡Debéis proteger a los cautivos!",
+        "back_name": "Por los pelos",
+        "back_text": "<b>Si hay 4 o menos puntos de daño en Los cautivos</b>:\n<blockquote>Pese a la acometida aparentemente sin fin, han sido dañados relativamente pocos cautivos. Mientras examináis el interior destrozado de la casa, algunos de los cautivos lloran con la cara hundida en las manos y otros os miran de forma acusadora. ¿Cómo podéis convencerles de que sus vidas merecían la pena ser salvadas?</blockquote>\n(<b>→R1</b>) (<i>página 50</i>).\n<hr><b>Si no es así</b>:\n<blockquote>La granja es un matadero lleno de víssceras y sangre. Al ver la acometida que se dirigía hacia allí, muchos de los cautivos huyeron entre gritos directos a las fauces de las monstruosidades. La luz de la mañana ilumina una escena que os perseguirá en sueños.</blockquote>(<b>→R2</b>) (<i>página 50</i>)."
+    },	
+    {
+        "code": "10630",
+        "name": "La granja",
+        "text": "La granja no puede tener cartas de Jugador vinculadas, trampas ni señuelos.\n[free] Durante tu turno, gasta 1 recurso [per_investigator]: <b>Movimiento</b> (<i>a un Lugar conectado</i>.\n[action]: Obtén 1 pista (<i>de la reserva de fichas). Límite de grupo de una vez por ronda.",
+        "back_text": "La granja no puede tener cartas de Jugador vinculadas, trampas ni señuelos.",
+        "back_fravor": "El aspecto de la granja era impresionante: hierba y hojas grisáceas en el suelo, parras cayéndose a pedazos de arcaicas paredes y aleros.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Santuario."
+    },	
+    {
+        "code": "10631",
+        "name": "Cabaña de ordeñado",
+        "text": "[reaction] Cuando fuese a colocarse un señuelo o una trampa en la Cabaña de ordeñado: En vez de eso, colocalo en un Lugar adyacente.\n[action]: Roba 1 Traición ¡Fuego! puesta aparte. Añade 1 copia de Traición ¡Fuego! puesta aparte al mazo de Encuentros y baraja éste. Límite de una vez por ronda.",
+        "back_name": "Granja Atwood",
+        "back_fravor": "La vieja granja está llena de chatarra, ganado reseco, pienso podrido y equipo agrícola oxidado.",
+		"traits": "Granja."
+    },	
+    {
+        "code": "10632",
+        "name": "Viñedo",
+        "text": "[free] Durante tu turno: Enfréntate a un Enemigo que esté en el Viñedo. Límite de una vez por turno.\n<b>Obligado</b> - Cuando un Enemigo entre en el Viñedo: Cúrale 1 punto de daño.",
+		"flavor": "Las uvas son todo piel y se revientan con tan sólo tocarlas.",
+        "back_name": "Granja Atwood",
+        "back_fravor": "La vieja granja está llena de chatarra, ganado reseco, pienso podrido y equipo agrícola oxidado.",
+		"traits": "Granja."
+    },	
+    {
+        "code": "10633",
+        "name": "Corral",
+        "text": "Mientras haya un señuelo en el Corral, este Lugar recibe -2 al velo. Cada Enemigo que esté en el Corral recibe +1 a combate y +1 a Evitar.\n[action]: Roba 1 Traición ¡Fuego! puesta aparte. Añade 1 copia de Traición ¡Fuego! puesta aparte al mazo de Encuentros y baraja éste. Límite de una vez por ronda.",
+        "back_name": "Granja Atwood",
+        "back_fravor": "La vieja granja está llena de chatarra, ganado reseco, pienso podrido y equipo agrícola oxidado.",
+		"traits": "Granja."
+    },	
+    {
+        "code": "10634",
+        "name": "Granero",
+        "text": "Los Enemigos que estén en el Granero reciben +1 a su valor de daño.\n[reaction] Cuando el Granero sea revelado: Coloca el Apoyo de historia Ajax puesto aparte en este Lugar ([codex] <b>Omega</b>).",
+		"flavor": "A juzgar por su aspecto, el granero podría venirse abajo en cualquier momento.",
+        "back_name": "Granja Atwood",
+        "back_fravor": "La vieja granja está llena de chatarra, ganado reseco, pienso podrido y equipo agrícola oxidado.",
+		"traits": "Granja."
+    },	
+    {
+        "code": "10635",
+        "name": "Pastizal",
+        "text": "[free] Durante tu turno, si el Pastizal tiene una trampa: <b>Movimiento</b> (<i>a un Lugar conectado</i>.\n<b>Obligado</b> - Después de que un Enemigo preparado y sin enfrentar se mueva al Pastizal mediante una palabra clave, si no hay barreras en el Pastizal: Resuelve esa palabra clave de nuevo.",
+        "back_name": "Granja Atwood",
+        "back_fravor": "La vieja granja está llena de chatarra, ganado reseco, pienso podrido y equipo agrícola oxidado.",
+		"traits": "Granja."
+    },	
+    {
+        "code": "10636",
+        "name": "Campo exterior",
+        "subname": "Senderos ensangrentados",
+        "text": "[action]: Mueve un Enemigo a un Lugar conectado. Límite de grupo de una vez por partida.\n[reaction] Después de que descubras la última pista de este Lugar: Cura 2 puntos de daño a Los cautivos. Límite de grupo de una vez por partida.",
+        "back_name": "Campo exterior",
+        "back_fravor": "Todas las hortalizas adquirieron un color grisáceo y un aspecto quebradizo.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Campo. Plaga."
+    },	
+    {
+        "code": "10637",
+        "name": "Campo exterior",
+        "subname": "Colinas desoladas",
+        "text": "[free] Durante tu turno: Mira las 1 [per_investigator] primeras cartas del mazo de Enemigos. Descarta cualquier cantidad de ellas y devuelve el resto a la parte superior en cualquier orden. Límite de grupo de una vez por partida.",
+        "back_name": "Campo exterior",
+        "back_fravor": "Todas las hortalizas adquirieron un color grisáceo y un aspecto quebradizo.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Campo. Plaga."
+    },	
+    {
+        "code": "10638",
+        "name": "Campo exterior",
+        "subname": "Campos de trigo enfermos",
+        "text": "[reaction] Después de que descubras la última pista de este Lugar: Coloca 1 barrera en este Lugar.\n[free] Durante tu turno: Elige una barrera que esté en cualquier Lugar y muévela a cualquier otro Lugar. Límite de una vez por turno.",
+        "back_name": "Campo exterior",
+        "back_fravor": "Todas las hortalizas adquirieron un color grisáceo y un aspecto quebradizo.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Campo. Plaga."
+    },	
+    {
+        "code": "10639",
+        "name": "Campo exterior",
+        "subname": "Loma calcinada",
+        "text": "[reaction] Después de que descubras la última pista de este Lugar: Coloca 1 trampa en este Lugar.\n[free] Durante tu turno: Elige una trampa que esté en cualquier Lugar y muévela a cualquier otro Lugar. Límite de una vez por turno.",
+        "back_name": "Campo exterior",
+        "back_fravor": "Todas las hortalizas adquirieron un color grisáceo y un aspecto quebradizo.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Campo. Plaga."
+    },	
+    {
+        "code": "10640",
+        "name": "Campo exterior",
+        "subname": "Cultivos rancios",
+        "text": "[reaction] Después de que descubras la última pista de este Lugar: Coloca 1 señuelo en este Lugar.\n[free] Durante tu turno: Elige un señuelo que esté en cualquier Lugar y muévelo a cualquier otro Lugar. Límite de una vez por turno.",
+        "back_name": "Campo exterior",
+        "back_fravor": "Todas las hortalizas adquirieron un color grisáceo y un aspecto quebradizo.\n-<u>H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Campo. Plaga."
+    },	
+    {
+        "code": "10641",
+        "name": "Los cautivos",
+        "subname": "Hijos de las estrellas",
+        "text": "Durante la fase de Enemigos, cada Enemigo preparado y sin enfrentar que esté en la granja ataca como si estuviera enfrentado a Los cautivos. El horror infligido a Los cautivos de esta forma se inflige como daño en su lugar.\n<b>Obligado</b> - Cuando el Apoyo de historia Los cautivos sea derrotado: (<b>→R3</b>) (<i>página 50</i>).",
+		"traits": "Inocente. Mutado."
+    },	
+    {
+        "code": "10642",
+        "name": "Ajax",
+        "subname": "Corcel fiel",
+        "text": "Tu primera acción de cada ronda no provoca ataques de oportunidad.\n[action] Agota a Ajax: <b>Movimiento</b>. Muévete dos veces o bien elige cualquier Lugar [[Campo]] y muévete a él.\nSi Ajax está en tu Lugar: Toma su control. Cualquier jugador que esté en el Lugar de Ajax puede activar esta capacidad.",
+		"traits": "Aliado. Criatura."
+    },	
+    {
+        "code": "10643",
+        "name": "Híbrido úrsido",
+        "subname": "Abominación famélica",
+        "text": "Cazador. Descomunal. Represalia.\n<b>Presa</b> - Investigador jefe.\nEl Híbrido úrsido recibe +3 de salud [per_investigator] e ignora barreras y señuelos.\nMientras este Enemigo se esté moviendo, todos los Lugares [[Campo]] se consideran conectados entre sí.",
+		"traits": "Criatura. Monstruo. Mutado. Élite."
+    },	
+    {
+        "code": "10644a",
+        "name": "Híbrido pelechado",
+        "text": "<b>Aparición</b> - Campo exterior (este).\nIndiferente. Errante (La granja).\nEl Híbrido pelechado ignora barreras.\n<b>Obligado</b> - Cuando el Híbrido pelechado fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10644b",
+        "name": "Híbrido pelechado",
+        "text": "<b>Aparición</b> - Campo exterior (sur).\nIndiferente. Errante (La granja).\nEl Híbrido pelechado ignora barreras.\n<b>Obligado</b> - Cuando el Híbrido pelechado fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10644c",
+        "name": "Híbrido pelechado",
+        "text": "<b>Aparición</b> - Campo exterior (oeste).\nIndiferente. Errante (La granja).\nEl Híbrido pelechado ignora barreras.\n<b>Obligado</b> - Cuando el Híbrido pelechado fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10645",
+        "name": "Híbrido lupino",
+        "text": "<b>Aparición</b> - Campo exterior (norte).\nRepresalia. Errante (La granja).\n<>Obligado</b> - Después del que el Híbrido lupino ataque: Cúrale 1 punto de daño.",
+		"flavor": "…extrañamente, no aullaban. Se reían.\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Criatura. Monstruo. Mutado. Élite."
+    },	
+    {
+        "code": "10646",
+        "name": "Híbrido caprino",
+        "text": "<b>Aparición</b> - Lugar Campo exterior con menos Enemigos.\nAlerta. Errante (La granja).\nEl Híbrido caprino ignora señuelos.",
+		"flavor": "Supongo que, como cualquier cabra, se lo come todo.\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Criatura. Monstruo. Mutado. Élite."
+    },	
+    {
+        "code": "10647",
+        "name": "Híbrido equino",
+        "text": "<b>Aparición</b> - Campo exterior (norte).\nErrante (La granja).\nEl Híbrido equino ignora trampas.\n<b>Obligado</b> - Cuando el Híbrido equino fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10648",
+        "name": "Híbrido reptante",
+        "text": "<b>Aparición</b> - Lugar Campo exterior con más Enemigos.\nIndiferente. Errante (La granja).\nEl Híbrido reptante ignora barreras, señuelos, trampas y el daño de Traiciones ¡Fuego!.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10649",
+        "name": "Noche eterna",
+        "text": "Peligro.\n<b>Revelación</b> - Debes decidir (elige una opción):\n-Retirar 1 ficha de Perdición del Plan.\n-Infligir 2 puntos de daño al Apoyo de historia Los cautivos.\n-Recibir 3 puntos de daño direto y 3 puntos de horror directo.",
+		"traits": "Terror."
+    },	
+    {
+        "code": "10650",
+        "name": "Incursión",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](X). X es la mitad de la cantidad de perdición en juego, redondeando hacia arriba. Por cada punto que te falte para tener éxito, elige un Enemigo [[Mutado]] distinto que sea el más cercano a La granja y prepáralo. Cada Enemigo elegido se mueve, se enfrenta y ataca como si fuera la fase de Enemigos.",
+		"traits": "Maquinación."
+    },	
+    {
+        "code": "10651",
+        "name": "El destino del Valle",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es el número del acto en curso más 1.\n[cultist]: -4. Si fracasas, descarta 1 carta de tu mano al azar.\n[tablet]: -5. En vez de eso, puedes colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como 0.\n[elder_thing]: -2. Si esta prueba es un combate o un intento de evitar contra el Emisario cósmico, revela otra ficha.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad de Enemigos [[Color]] en juego.\n[cultist]: -6. Descarta 1 carta de tu mano al azar.\n[tablet]: -8. En vez de eso, puedes colocar 1 ficha de Perdición en tu carta de Investigador para tratar el modificador de esta ficha como 0.\n[elder_thing]: -5. Si esta prueba es un combate o un intento de evitar contra el Emisario cósmico, en vez de eso fracasas automáticamente."
+    },		
+    {
+        "code": "10652",
+        "name": "El silencio",
+        "text": "Si miras el Enemigo Emisario cósmico durante más de 15 segundos seguidos <b>te vuelves loco</b>.\n<b>Obligado</b> - Cuando fueses a robar 1 o más cartas del mazo de Encuentros. En vez de eso, revela cartas de la parte inferior de El abismo hasta que sea revelada una carta con dorso de carta de Encuentro y róbala (<i>todas las demás cartas reveladas se colocan en la parte superior de El abismo</i>).",
+		"flavor": "Una silueta ancestral parpadea en un gas espiralado.",
+		"back_name": "Disolución de la mente",
+        "back_text": "Cada investigador realiza una prueba de [willpower] o de [intellect](4). Por cada punto que te falte para tener éxito, debe recibir 1 punto de horror o bien añadir la primera carta de su mazo a El abismo y barajar éste.",
+		"back_flavor": "Sentís susurros en vuestras cabezas que hablan un idioma alienígena de chasquidos y zumbidos y una extraña música melódica. Suena familiar. Una vaga silueta surge de la neblina en movimiento y se estira hacia vosotros. No podéis evitar reíros mientras notáis cómo se os vacía la mente. ¿Qué habéis olvidado exactamente? No sería importante."
+    },		
+    {
+        "code": "10653",
+        "name": "La miasma",
+        "text": "Si miras el Enemigo Emisario cósmico durante más de 15 segundos seguidos <b>te vuelves loco</b>.\n<b>Obligado</b> - Cuando fueses a robar 1 o más cartas del mazo de Encuentros. En vez de eso, revela cartas de la parte inferior de El abismo hasta que sea revelada una carta con dorso de carta de Encuentro y róbala (<i>todas las demás cartas reveladas se colocan en la parte superior de El abismo</i>).",
+		"flavor": "Unas siluetas de pesadilla toman forma en la niebla.",
+		"back_name": "Disolución del ser",
+        "back_text": "Cada investigador realiza una prueba de [combat] o de [agility](4). Por cada punto que te falte para tener éxito, debe recibir 1 punto de daño o bien añadir la primera carta de su mazo a El abismo y barajar éste.",
+		"back_flavor": "Brotan vapores del suelo que toman forma en siluetas duras y corpóreas. También surge una irregular forma cristalina mientras avanzáis dando tumbos como en un estupor. Cuanto más tiempo respiráis el aire venenoso que os rodea, más débiles os sentís. Os está chupando la vida y el vigor."
+    },		
+    {
+        "code": "10654",
+        "name": "La espiral",
+        "text": "Si miras el Enemigo Emisario cósmico durante más de 15 segundos seguidos <b>te vuelves loco</b>.\n<b>Obligado</b> - Cuando fueses a robar 1 o más cartas del mazo de Encuentros. En vez de eso, revela cartas de la parte inferior de El abismo hasta que sea revelada una carta con dorso de carta de Encuentro y róbala (<i>todas las demás cartas reveladas se colocan en la parte superior de El abismo</i>).",
+		"flavor": "Vuestra visión se refracta como un cristal roto.",
+		"back_name": "Vuestra fiesta",
+        "back_text": "Toda la Isla de la Cicuta ha sido transfigurada en la gran ascensión. Cada investigador queda <b>devorado</b> por el color del espacio exterior (<b>mueren</b>).",
+		"back_flavor": "Las ondas del aire se detienen y luego empiezan a girar en forma de multitud de rostros, siluetas y formas. Os cuesta respirar, pues algo extrae el aire de vuestros pulmones y lo lleva hacia una columna de luz. El brillo asciende hacia el cielo nocturno como una estrella fugaz al revés, convirtiendo en polvo cuanto os rodea. Los árboles se ajan y secan, y la fauna que intenta huir se vuelve hueso y cenizas. Vuestros cuerpos se subliman, subiendo hacia el cegador brillo junto con todo lo demás que hay en la Isla de la Cicuta.\nHabéis descubierto vuestro sitio en el infinito."
+    },
+    {
+        "code": "10655",
+        "name": "Recuerdos fragmentados",
+        "text": "[reaction] Despues de que tengas éxito en una prueba de habilidad en un Lugar [[Guarida]] durante tu turno: Revela una carta de la parte inferior del El abismo por cada punto que tuvieras por encima del valor mínimo de éxito. Roba 1 de ellas, baraja el resto y colócalas en la parte superior de El abismo.\n[free] Gasta 1 pista: Recibes +2 a tu valor de habilidad para esta prueba de habilidad.\n<b>Objetivo</b> - Si cada jugador tiene su carta de Investigador \"verdadera\", haz avanzar el acto.",
+		"flavor": "¿Por qué Ee aiy htant al uz est oy sO Ña ndo?",
+		"back_name": "Ex nihilo",
+        "back_text": "Coloca pistas en cada Lugar revelado hasta su valor de pista.\nComprueba el registro de campaña y reúne el conjunto de <i>Habitantes</i> y los Lugares [[Cueva]] puestos aparte.\n-La madre Rachel ha sido <b>devorada</b>. Tacha el nombre de la madre Rachel.\n-Añade todos los Lugares [[Cueva]] y todos los habitantes cuyos nombres estén tachados a El abismo y baraja éste.\nCada investigador puede elegir 1 habitante que tenga nivel de relación 4 o más para ponerlo en juego bajo su control, con el lado Apoyo boca arriba.\n-Pon aparte, fuera del juego, todas las cartas restantes del conjunto de encuentros <i>Habitantes</i>.",
+		"back_flavor": "Cuando recuperáis la consciencia, levantáis la vista hacia el cielo estrellado y la luna de color rojo sangre que hay en él. Tal vez logréis encontrar un camino de vuelta a la superficie."
+    },		
+    {
+        "code": "10656",
+        "name": "Yo perdido",
+        "text": "[reaction] Despues de que tengas éxito en una prueba de habilidad en un Lugar [[Guarida]] durante tu turno: Revela una carta de la parte inferior del El abismo por cada punto que tuvieras por encima del valor mínimo de éxito. Roba 1 de ellas, baraja el resto y colócalas en la parte superior de El abismo.\n[free] Gasta 1 pista: Recibes +2 a tu valor de habilidad para esta prueba de habilidad.\n<b>Objetivo</b> - Al final de la ronda, si hay 3 o más Lugares [[Cueva]] revelados en juego que no tengan pistas, haz avanzar el acto.",
+		"flavor": "¡Debéis encontrar una forma de volver al Valle.",
+		"back_name": "Una elección transcendental",
+        "back_text": "Cada investigador pierde todas sus pistas.\nComprueba el registro de campaña y pasa al <b>Interludio del escenario: El destino del Valle</b> (<i>página 64</i>). Los investigadores deben decidir su curso de acción (elige una acción):\n-\"Acabemos con esto\". (Sólo puedes elegir esta opción si <i>la Dra. Marquez tiene una corazonada</i> <b>y si</b> <i>la Dra. Marquez tiene un plan</i>. También puedes elegir esta opción si <i>Gideon terminó el relato del<i> Annabelle Lee). Pasa a <b>El destino del Valle (v.I)</b>.\n-\"¡salvemos el Valle\". (Sólo puedes elegir esta opción si <i>los Cicuta acordaron una tregua</i> <b>y/o</b> si <i>la familia Peters se reunió</i>). Pasa a <b>El destino del Valle (v.II)</b>.\n-\"Quemémoslo todo\". (Sólo puedes elegir esta opción si <i>el Valle está lleno de fuegos artificiales</i>). Pasa a <b>El destino del Valle (v.III)</b>.\n-\"Huyamos para ponernos a salvo\". Pasa a <b>El destino del Valle (v.IV)</b>.",
+		"back_flavor": "La Dra. Marquez señala una precaria plataforma de roca ascendente que lleva de vuelta a la superficie. Ahora que tenéis un camino claro para salir de la resplandeciente cámara, debéis sopesar qué queréis hacer a continuación."
+    },
+    {
+        "code": "10657",
+        "name": "El destino del Valle (v.I)",
+        "text": "[reaction] Después de que tengas éxito en una prueba de habilidad en un Lugar [[Guarida]] durante tu turno: Revela una carta de la parte inferior del El abismo por cada punto que tuvieras por encima del valor mínimo de éxito. Roba 1 de ellas, baraja el resto y colócalas en la parte superior de El abismo.\n[free] Gasta 1 pista: Recibes +2 a tu valor de habilidad para esta prueba de habilidad.\n<b>Objetivo</b> - Al final de la ronda, si todos los investigadores supervivientes están en El abismo, los investigadores pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "¡La Dra. Marquez necesita vuestra ayuda para salvar el Valle.",
+		"back_name": "Ad nihilum",
+        "back_text": "Los investigadores deben decidir (<i>elige una opción</i>:\n-Dejar que la Dra. Marquez lleve a cabo su plan (<b>→R1</b>) (<i>página 66</i>).\nHacerlo vosotros (<b>→R2</b>) (<i>página 66</i>)(sólo puedes elegir esta opción si un investigador controla el Apoyo de historia Esquirla prismática).",
+		"back_flavor": "Os colocáis junto a la Dra. Marquez, en la base de un montículo de cuerpos resecos. Sobre vuestras cabezas, el abismo titila en el frío aire inmóvil. Una difuminada silueta humanoide se estira hacia vosotros mientras el brillo vuelve a resplandecer.\n-No puede ser. Tenemos que desbaratarlo. Darle algo que no pueda \"digerir\" -dice la Dra. Marquez con seriedad. Os entrega su mochila llena de muestras y notas del estudio-. Quiero que se queden con esto.\nCuando le preguntáis el motivo, responde: -Alguien tiene que contarle al Dr. Armitage la historia de este… -Entrecierra los ojos mientras levanta la mirada hacia la iridiscencia parpadeante-. De este color del espacio exterior."
+    },
+    {
+        "code": "10658",
+        "name": "El destino del Valle (v.II)",
+        "text": "[action] Elige y descarta 1 carta de tu mano: <b>Negociar</b>. Realiza una prueba de [willpower] o de [intellect](3). Si tienes éxito, roba la carta [[Habitante]] que haya bajo tu Lugar, con el lado de Enemigo boca arriba. Puedes gastar 1 pista [per_investigator] para ponerla en juego agotada.\n<b>Objetivo</b> - Si no hay Enemigos [[Habitante]] bajo los Lugares o en juego, los investigadores pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "Tendréis que convencer a los enajenados habitantes para que entren en razón… o hacerles entrar en razón a golpes.",
+		"back_name": "¡Al faro!",
+        "back_text": "(<b>→R3</b>) (<i>página 67</i>).",
+		"back_flavor": "-¡A la camioneta! -grita un habitante mientras indica a un grupo de aturdidos lugareños que se metan en el vehículo. Los supervivientes restantes se apiñan en camionetas y desgastadas motos para recorrer la sinuosa carretera del sur. Cuando pasáis por el ruinoso puerto, una columna de luz pura brota del centro del pueblo, seguida de una nube viscosa y aceitosa. La caravana de supervivientes se acaba de refugiar en el faro del sur cuando una onda expansiva de aire caliente recorre la isla con fuerza huracanada."
+    },
+    {
+        "code": "10659",
+        "name": "El destino del Valle (v.III)",
+        "text": "[action] Gasta X pistas [per_investigator]: Coloca X recursos en tu Lugar como yesca (puedes gastar 5 recursos o descartar un Apoyo [[Objeto]] que controles para colocar 1 yesca adicional).\n[action] Si tu Lugar tiene una cantidad de yesca igual o superior a su valor de velo, retira toda las yescas que tenga: Roba 1 Traición ¡Fuego! puesta aparte. Límite de grupo de una vez por Lugar.\n<b>Objetivo</b> - Cuando termine la ronda, si hay 5 copias de ¡Fuego! en juego, haz avanzar el acto inmediatamente.",
+		"flavor": "Vuestra única esperanza de detener esto es quemar esta isla maldita. Quemarla entera.",
+		"back_name": "Ardiendo en llamas",
+        "back_text": "(<b>→R4</b>) (<i>página 67</i>).",
+		"back_flavor": "Los fuegos artificiales salen disparados hacia el cielo mientras el Valle de la Cicuta se ve consumido por las llamas. El zumbido de las luces y las fuertes explosiones casi os distraen del devastador infierno que devora el paisaje. Racimos de fuegos artificiales rojos, amarillos y azules surcan los aires y explotan en el cielo nocturno.\nLa Dra. Marquez y vosotros os unís a los pocos supervivientes restantes en un trayecto hacia la parte sur de la isla para refugiaros en un maltrecho faro. Mientras contempláis el infierno a través de una sucia ventana, un haz de fina luz gris surge del centro del pueblo y luego se apaga. Una pequeña luz fosforescente vuelve a precipitarse hacia las llamas como una estrella fugaz."
+    },
+    {
+        "code": "10660",
+        "name": "El destino del Valle (v.IV)",
+        "text": "[action] Si se cumplen al menos 5 de las siguientes condiciones (<i>los investigadores encontraron combustible, los investigadores encontraron la camioneta de Theo, la carretera está despejada, los investigadores recuperaron las notas del estudio, Bertie está huyendo, los investigadores encontraron las muestras</i>): <b>Desistir</b>. Huyes del Valle.\n<b>Objetivo</b> - ¡Huye para salvarte! Si todos los investigadores no derrotados han desistido, haz avanzar el acto.",
+		"flavor": "¡Debéis huir para salvaros!",
+		"back_name": "No es más que el principio…",
+        "back_text": "(<b>→R5</b>) (<i>página 67</i>).",
+		"back_flavor": "Seguidos de la Dra. Marquez, reunís a los pocos supervivientes que quedan y os arrinconáis en la camioneta azul cielo de Theo. Los lugareños os dan indicaciones mientras recorréis una sinuosa carretera hacia el punto más al sur de la isla. Temblando por la adrenalina, vuestro grupillo de supervivientes se refugia en el maltrecho faro.\nAntes de entrar, os giráis y veis algo que no olvidaréis nunca. Una columna de luz pura surge del Valle, arrastrando la nube viscosa y aceitosa a su paso. Una onda expansiva recorre la isla, y caéis de rodillas, agotados, como si os hubieran arrebatado años de vida en un solo instante. La deslumbrante luz os cautiva mientras asciende por la estratosfera hacia el espacio."
+    },
+    {
+        "code": "10661",
+        "name": "Yo fragmentado",
+        "subname": "¿Quién eres?",
+        "text": "Tu tamaño de mano máximo se reduce en 3.\nX es la cantidad de cartas que haya en tu mano (máx. 5).\n[reaction] Después de que asignes una carta a una prueba de habilidad que estés realizando: Duplica los iconos de habilidad de esa carta hasta el final de esta prueba. Límite de una vez por ronda.\nEfecto [elder_sign]: +2. Puedes robar 1 carta.",
+		"flavor": "Yo soy pens snep yos oY",
+		"traits": "Destrozado"
+    },
+	{
+		"code": "10661b",
+        "name": "Viejo recuerdo",
+        "subname": "Retazo de humanidad",
+        "text": "[reaction] Cuando sea revelada o robada una carta de El abismo, los investigadores pueden, como grupo, gastar 1 pista [per_investigator] y retirar el Viejo recuerdo de la partida: Elige a un investigador para que robe esa carta o bien cancela el efecto de revelación de esa carta y retírala de la partida.",
+		"traits": "Estado. Innato."
+    },
+	{
+		"code": "10662",
+        "name": "Emisario cósmico",
+        "subname": "El abismo",
+        "text": "Descomunal.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
+		"traits": "Emisario. Color. Élite."
+    },
+	{
+		"code": "10662b",
+        "name": "Emisario cósmico",
+        "subname": "El abismo",
+        "text": "Descomunal.\nEl Emisario cósmico recibe +2 de salud [per investigator].\n<b>Obligado</b> - Cuando este Enemigo sea derrotado: Cada investigador realiza una prueba de [willpower](100). Cada investigador que fracase queda devorado (<b>muere</b>).",
+		"traits": "Emisario. Destrozado. Élite."
+    },
+	{
+		"code": "10663",
+        "name": "Emisario cósmico",
+        "subname": "La aparición",
+        "text": "Descomunal. Represalia.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
+		"traits": "Emisario. Color. Élite."
+    },
+	{
+		"code": "10663b",
+        "name": "Emisario cósmico",
+        "subname": "La aparición",
+        "text": "Indiferente. Cazador. Represalia.\n<b>Presa</b> - Mayor [combat].\n<b>Obligado</b> - Después de que reveles una ficha [elder_thing] durante una prueba de habilidad en este Lugar: Esta prueba fracasa automáticamente o bien este Enemigo te ataca.",
+		"traits": "Emisario. Destrozado. Élite."
+    },
+	{
+		"code": "10664",
+        "name": "Emisario cósmico",
+        "subname": "La miasma",
+        "text": "Descomunal. Alerta.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
+		"traits": "Emisario. Color. Élite."
+    },
+	{
+		"code": "10664b",
+        "name": "Emisario cósmico",
+        "subname": "La miasma",
+        "text": "Indiferente. Cazador. Alerta.\n<b>Presa</b> - Mayor [agility].\n<b>Obligado</b> - Después de que reveles una ficha [cultist] durante una prueba de habilidad en este Lugar: Esta prueba fracasa automáticamente o bien este Enemigo te ataca.",
+		"traits": "Emisario. Destrozado. Élite."
+    },
+	{
+		"code": "10665",
+        "name": "Emisario cósmico",
+        "subname": "El brillo",
+        "text": "Descomunal.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
+		"traits": "Emisario. Color. Élite."
+    },
+	{
+		"code": "10665b",
+        "name": "Emisario cósmico",
+        "subname": "El brillo",
+        "text": "Indiferente. Escurridizo. Cazador.\n<b>Presa</b> - Mayor [willpower].\n<b>Obligado</b> - Después de que reveles una ficha [tablet] durante una prueba de habilidad en este Lugar: Esta prueba fracasa automáticamente o bien este Enemigo te ataca.",
+		"traits": "Emisario. Destrozado. Élite."
+    },
+	{
+		"code": "10666",
+        "name": "Nido de espejos",
+        "text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.\n<b>Obligado</b> - Cuando termines tu turno en este Lugar, si no combatiste con éxito en esta ronda: Debes colocar 1 de tus pistas en este Lugar o bien descartar 1 carta de tu mano al azar.",
+		"back_text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.",
+		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnoc son seneiuq",
+		"traits": "Destrozado. Guarida."
+    },
+	{
+		"code": "10667",
+        "name": "Nido de espejos",
+        "text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.\n<b>Obligado</b> - Cuando termines tu turno en este Lugar, si no evitaste con éxito en esta ronda: Debes colocar 1 de tus pistas en este Lugar o bien descartar 1 carta de tu mano al azar.",
+		"back_text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.",
+		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnoc son seneiuq",
+		"traits": "Destrozado. Guarida."
+    },
+	{
+		"code": "10668",
+        "name": "Nido de espejos",
+        "text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.\n<b>Obligado</b> - Cuando termines tu turno en este Lugar, si no investigaste con éxito en esta ronda: Debes colocar 1 de tus pistas en este Lugar o bien descartar 1 carta de tu mano al azar.",
+		"back_text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.",
+		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnoc son seneiuq",
+		"traits": "Destrozado. Guarida."
+    },
+	{
+		"code": "10669",
+        "name": "Nido de espejos",
+        "text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.\n<b>Obligado</b> - Cuando termines tu turno en este Lugar: Descarta 1 carta de tu mano al azar.\n[action] Los investigadores gastan, como grupo, 7 pistas [per_investigator]: Busca una carta en El abismo y róbala. Límite de grupo de una vez por acto.",
+		"back_text": "Esta carta siempre debe cubrir la parte superior de El abismo.\nLas cartas siempre se roban y revelan de la parte inferior de El abismo. Cuando se descarte una carta de Encuentro que no sea Debilidad, <b>siempre</b> se coloca en la parte superior de El abismo.\n<b>Obligado</b> - Cuando robes una carta de El abismo, si esa carta es…\n…una Traición o un Enemigo: Róbala.\n…una carta [[Habitante]]: Dale la vuelta para mostrar su lado Enemigo. Obtienes \"<b>Revelación</b> - Este Enemigo te ataca (<i>sin enfrentarse a ti</i>. Descarta este Enemigo.\".\n…una carta de Jugador: Añádela a la mano de su propietario.\n…un Lugar: Ponlo en juego, sin revelar, adyacente al Nido de espejos más cercano (si es posible, que no esté ya conectado a un Lugar [[Cueva]]). Durante el resto de este escenario, los dos Lugares están conectados entre sí.\n…la carta de investigador \"verdadera\" de cualquier investigador: Su propietario se cura todo el daño y horror y toma su control. A continuación, da la vuelta a su carta de investigador Yo fragmentado para mostrar su lado Viejo recuerdo y la pone en juego bajo su control.",
+		"traits": "Destrozado. Guarida."
+    },
+	{
+		"code": "10670",
+        "name": "El abismo",
+        "subname": "Olvido espiralado",
+        "text": "<b>Obligado</b> - Cuando entres en El abismo, si hay cartas en El abismo: <b>Mueres</b>.\nDurante la fase de Enemigos, todos los Enemigos [[Destrozado]] que estén en El abismo pierden Indiferente.\nEl abismo siempre cubre la parte superior del mazo de El abismo.",
+		"back_text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.",
+		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnocson seneiuq",
+		"traits": "Extradimensional. Destrozado."
+    },
+	{
+		"code": "10671",
+        "name": "Mímico cristalino",
+        "text": "Escurridizo. Cazador.\nMientras estés combatiendo o evitando a este Enemigo, X es el número de cartas que haya en tu mano. De otro modo, X es 6.\n<b>Obligado</b> - Después de que el Mímico cristalino te ataque: Descarta una carta de tu mano al azar.",
+		"traits": "Humanoide. Color."
+    },
+	{
+		"code": "10672",
+        "name": "Sublimación",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](4). Si fracasas, debes decidir (<i>elige una opción</i>):\n-Por cada punto que te falte para tener éxito, elige 1 carta de tu mano para colocarla en la parte superior de El abismo.\n-El Enemigo Emisario cósmico más cercano te ataca (incluso si no está en tu Lugar).",
+		"traits": "Poder."
+    },
+	{
+		"code": "10673",
+        "name": "Fragmentación",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](4). Si fracasas, debes decidir (<i>elige una opción</i>):\n-Elige el Apoyo de tu zona de juego que tenga el coste impreso más alto y colócalo en la parte superior del El abismo.\n-El Enemigo Emisario cósmico más cercano te ataca (incluso si no está en tu Lugar).",
+		"traits": "Poder."
+    },
+	{
+		"code": "10674",
+        "name": "Euforia",
+        "text": "<b>Revelación</b> - Realiza una prueba de [intellect](4). Debes recibir 2 puntos de horror o bien colocar un Apoyo que no sea de historia que controles en la parte superior de El abismo. Si fracasas, haz ambas cosas.",
+		"flavor": "\"Hay un corazón / Dentro de la plaga / Todos caeremos / Hacia la luz más pura.\"\n-\"Las tierras del más allá\", <u>Canciones de dicha n.º 235",
+		"traits": "Poder."
+    },
+	{
+        "code": "10675a",
+        "name": "Día uno",
+        "text": "En el que damos la bienvenida a nuevos amigos al Valle de la Cicuta."
+    },
+    {
+        "code": "10675b",
+        "name": "Noche uno",
+        "text": "En la que el bosque se llena de vida con muchas criaturas, grandes y pequeñas."
+    },
+    {
+        "code": "10676",
+        "name": "Enjambre",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](3). Por cada punto que te falte para tener éxito, debes perder 1 recurso o bien recibir 1 punto de daño.",
+		"flavor": "\"La Mayoría de aquellos animales tenían un aspecto insólito y se movían de un modo muy raro…\"\n<u>-H.P. Lovecraft</u>, \"El color del espacio exterior\"",
+		"traits": "Riesgo."
+    },
+    {
+        "code": "10677a",
+        "name": "Día dos",
+        "text": "En el que nos preparamos para la fiesta bajo un aguacero."
+    },
+    {
+        "code": "10677b",
+        "name": "Noche dos",
+        "text": "En la que recordamos nuestro sitio en el cosmos."
+    },
+    {
+        "code": "10678",
+        "name": "Aguacero",
+        "text": "<b>Revelación</b> - Realiza una prueba de [intellect](3). Por cada punto que te falte para tener éxito, debes perder 1 acción o bien colocar 1 de tus pistas en tu Lugar.",
+		"flavor": "\"…empezó a caer una lluvia tan intensa y torrencial, que no tuvimos más remedio que buscar refugio.\"\n<i>-H.P. Lovecraft</i>, \"El miedo que acecha\"",
+		"traits": "Riesgo."
+    },
+    {
+        "code": "10679a",
+        "name": "Día tres",
+        "text": "En el que celebramos la dicha de la transfiguración."
+    },
+    {
+        "code": "10679b",
+        "name": "Noche tres",
+        "text": "En la que tomamos nuestro sitio en el infinito."
+    },
+    {
+        "code": "10680",
+        "name": "Visiones sobrenaturales",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](3). Esta prueba recibe +2 a la dificultad si hay un Enemigo [[Color]] en tu Lugar. Por cada punto que te falte para tener éxito, debes recibir 1 punto de horror o bien descartar 1 carta de tu mano al azar.",
+		"flavor": "nev euq sojos sol sodot yos sojos sol yoS.",
+		"traits": "Terror. Poder."
+    },
+    {
+        "code": "10681",
+        "name": "¡Bienvenidos al Valle de la Cicuta!",
+        "text": "<b>Obligado</b> - Cuando robes una Debilidad: Cancela su efecto de revelación y descártala.",
+		"flavor": "El estudio de Miskatonic se aloja en el Valle de la Cicuta y realiza los preparativos para la expedición de hoy. Cuantos más lugareños se fíen de vosotros, mejor entenderéis la naturaleza de la Isla de la Cicuta.",
+        "back_name": "¡Hora de ponerse a trabajar!",
+        "back_text": "Cada investigador desiste (<b>→R1</b>) (<i>página 9</i>).",
+        "back_flavor": "Bertie se acerca, completamente sin resuello.\n-La Dra. Márquez solicita su presencia inmediata -os dice entre jadeos, interrumpiendo vuestra conversación-. Y créanme que no le gustará que lleguen tarde lo más mínimo."
+   },
+    {
+        "code": "10682",
+        "name": "Alba del primer día",
+        "text": "Los investigadores no pueden recibir daño/horror ni ser derrotados.\n<b>Objetivo</b> - ¡Traba amistad con los lugareños y prepárate para tu primera exploración! (<i>Consulta las reglas de la página 6 para más información sobre los preludios</i>).",
+		"flavor": "¡El pueblo desborda de emoción! Los niños juegan junto a la carretera llevando máscaras de animales, mientras que otros lugareños cuelgan coloridas flores en aleros y vallas.",
+        "back_name": "El brillo",
+        "back_text": "<b>Si le has dado la vuelta a este acto mientras jugabas o después de jugar el preludio ¡Bienvenido al Valle de la Cicuta!, lee el siguiente texto:</b>\n<blocquote>El aroma dulzón del aire y los vibrantes colores son abrumadores. Tu pulso se vuelve eléctrico, se te ponen los brazos de piel de gallina y te hormiguea la piel, casi como si te hicieran una caricia invisible. No estás solo, nunca estuviste solo, pero quien está contigo eres tú, y tú, y tú, y tú, y tú, y tú, y tú y y y y\n Te descubres mirando fijamente el cristalino cielo, desorientado y ebrio de asombro.</blocquote>\nTú (y sólo tú) obtienes 1 punto de experiencia de bonificación (no lo gastes hasta que se te indique)."
+   },
+    {
+        "code": "10683",
+        "name": "Nubes Oscuras",
+        "text": "<b>Obligado</b> - Cuando robes una Debilidad: Cancela su efecto de revelación y descártala.",
+		"flavor": "Unas lóbregas nubes amenazan lluvia mientras los truenos restallan sobre vuestras cabezas. Los lugareños se afanan con los preparativos.",
+        "back_name": "Hambre de lobo",
+        "back_text": "Comprueba el registro de campaña:\n- <i>Si Bertie fue rescatado</i>, (<b>→R1</b>) (<i>página 42</i>).\n- <i>Si no es así,</i> (<b>→R2</b>) (<i>página 42</i>).",
+        "back_flavor": "Os reunís, de nuevo en la pensión. La Srta. Olmstead sirve pan de maíz caliente con mantequilla, rábanos asados del tamaño de un puño y un montón de huevos grisáceos. El estómago os gruñe mientras mordisqueáis algunas de vuestras raciones de campo en lugar de comer de esa comida."
+   },
+    {
+        "code": "10684",
+        "name": "Alba del segundo día",
+        "text": "Los investigadores no pueden recibir daño/horror ni ser derrotados.\n<b>Objetivo</b> - ¡Habla con los lugareños y descubre más información sobre la isa de la Cicuta!.",
+		"flavor": "El pueblo continúa con los preparativos con alegre determinación pese al tiempo plomizo.",
+        "back_name": "Un error",
+        "back_text": "<b>Si le has dado la vuelta a este acto mientras jugabas o después de jugar el preludio Nubes Oscuras, lee el siguiente texto:</b>\n<blocquote>Mientras caminas por el pueblo, te asalta un mareo que te hace tambalearte hacia delante y que tengas que echar la mano para sujetarte. Te cortas la palma con la esquina de un montón de espejos y gritas de dolor mientras comienza a caer gruesos goterones de lluvia.</blocquote>\n([codex]17) (<i>página 42</i>)."
+   },
+    {
+        "code": "10685",
+        "name": "La maldición Cicuta",
+        "text": "Los iconos de esta Habilidad se restan de tu valor de habilidad en lugar de sumarse.\nSi esta prueba de habilidad fracasa, descarta todas las cartas de tu mano.\n<b>Obligado</b> - Al final de tu turno, si La maldición Cicuta está en tu mano: Descarta 1 carta de tu mano al azar.",
+        "traits":"Plaga. Color."
+   },
+    {
+        "code": "10686",
+        "name": "Todo está lleno de amor",
+        "text": "<b>Obligado</b> - Cuando robes una Debilidad: Cancela su efecto de revelación y descártala.",
+		"flavor": "La gente del Valle baila con una energía casi demencial. El ambiente está lleno de música desenfrenada y de un dulce perfume.",
+        "back_name": "La elección de Bertie",
+        "back_text": "<b>Comprueba el registro de campaña. Si <i>Bertie ha tenido una revelación</i>:</b>\n<blocquote>Os reunís con la Dra. Márquez en la pensión. Bertie se os acerca con un brillo fanático en los ojos y llevando la capa blanca y dorada del Valle.\n-He decidido que hoy me voy a unir a la fiesta. Todo el día. Entiendo que esto puede poner en peligro mi beca, pero…\nAntes de que la Dra. Márquez pueda reprenderlo, el joven se marcha junto a un grupo de danzantes.</blocquote>\n(<b>→R2</b>) (<i>página 54</i>).<hr>\n<b>Si no es así:</b>\n<blocquote>Os reunís con la Dra. Márquez en la pensión. Bertie se os acerca con palpable emoción.\n-He tenido una revelación sobre la Isla de la Cicuta. la cadena alimentaria es puro caos. Depredadores cazados por presas, ¿verdad que es poético? Hay algo en la comida o en el agua que induce un frenesí; de hecho, toda esta celebración es como un frenesí -explica mientras señala con un gesto las exaltadas personas y niños que bailan.</blocquote>\n(<b>→R1</b>) (<i>página 54</i>)."
+   },
+    {
+        "code": "10687",
+        "name": "Alba del último día",
+        "text": "<b>Objetivo</b> - Habla con los lugareños y prepárate para la fiesta.",
+		"flavor": "Un precioso brillo lo recubre todo y centellea en el aire que os rodea.",
+        "back_name": "La dicha",
+        "back_text": "<b>Si le has dado la vuelta a este acto mientras jugabas o después de jugar el preludio Alba del último día, lee el siguiente texto:</b>\n<blocquote>No sabrías decir por qué pero sabes por qué estás aquí, estás aquí para observar para ver para saber para percibir para sentir para entender para guardar en tu corazón la verdad del cosmos que es que no eres más que una mota de polvo en la brillante luz del infinito y que un solo soplo de aire te mandará al olvido en un instante y dejarás de existir si es que acaso lo hiciste alguna vez por qué miraste el brillo por qué te quedaste tanto tiempo mirando fijamente la resplandeciente y cegadora luminosidad de las estrellas.</blocquote>\nDebes sufrir un trauma mental o bien buscar en la colección una Debilidad [[Locura]] básica aleatoria y añadirla a tu mazo. No cuenta para tu tamaño de mazo. Obtienes 2 puntos de experiencia adicional."
+   },
+    {
+        "code": "10688",
+        "name": "En torno a la mesa",
+        "text": "<b>Objetivo</b> - ¡Enfréntate a la Madre Rachel! Si la Madre Rachel es derrotada. (<b>→R1</b>).",
+		"flavor": "Los festejantes danzan con una estrepitosa música mientras otros se atiborran de platos rancios de comida aceitosa. Visitantes y lugareños por igual se desploman debido a ataques de risa mientras que otros se arañan los ojos. Todos y cada uno de ellos exhibe una salvaje sonrisa dichosa.",
+        "back_name": "El sueño",
+        "back_text": "Cada investigador queda derrotado y sufre 1 trauma físico o mental.",
+		"back_flavor": "En torno a la efigie hay brillantes esporas que iluminan los espejos y bañan el festival de una luminosidad feérica. Al inspirar, sentís que la boca y garganta os vibran con una leve sensación de cosquilleo. Lo último que oís al desmayaros es el sonido de una melodía de flautas y panderetas."
+   },
+    {
+        "code": "10689",
+        "name": "Corderos al matadero",
+        "text": "No puedes activar entradas [codex] del códice.\n[reaction] Después de que evites a un Enemigo [[Habitante]] por 2 o más: Añádelo a la zona de victoria.\n<b>Objetivo</b> - Si hay una carta [[Habitante</i> [per_investigator] más 1 en la zona de victoria, (<b>→R3</b>) (página 60).",
+		"flavor": "Los festejantes danzan con una estrepitosa música mientras otros se atiborran de platos rancios de comida aceitosa. Visitantes y lugareños por igual se desploman debido a ataques de risa mientras que otros se arañan los ojos. Todos y cada uno de ellos exhibe una salvaje sonrisa dichosa.",
+        "back_name": "De vuelta al rebaño",
+        "back_text": "Todos los investigadores desisten.",
+		"back_flavor": "-Bien hecho -os dice la madre Rachel. En el cielo bailan luces mientras el último de los habitantes del Valle acude obedientemente a su sitio en la mesa. Algunos os miran con expresiones tristes y verdaderamente traicionadas. Cuando os disponéis a ocupar vuestro sitio en la mesa, la madre Rachel se interpone en vuestro camino.\n-Vuestro sitio no es sentaros con nosotros. Sois invitados de honor -dice con una sonrisa.\nSentís un fuerte golpe en la parte posterior de la cabeza y luego nada."
+   },
+    {
+        "code": "10690a",
+        "name": "El cruce de caminos",
+        "subname": "Mañana",
+        "text": "[action]: Preguntas a los lugareños sobre el Valle ([codex]10).\n[free] Si hay exactamente 1 o 2 investigadores en la partida, durante tu turno: <b>Movimiento</b> (<i>a un Lugar conectado</i>). Límite de grupo de una vez por ronda.",
+		"flavor": "Docenas de visitantes se congregan en torno a la base de la efigie.",
+		"traits": "Valle de la Cicuta. Central."
+   },
+    {
+        "code": "10690b",
+        "name": "El cruce de caminos",
+        "subname": "Tarde",
+        "text": "[action]: <b>Negociar</b>. Solicitas ayuda a los lugareños encarecidamente. Realiza una prueba de [willpower](3). Si tienes éxito, mueve 1 punto de daño de tu investigador a un Enemigo [[Habitante]] que esté en El cruce de caminos.",
+		"flavor": "El grupo de festejantes baila en torno a una hoguera ardiente. La madre Rachel está de pie ante ella con una amplia sonrisa.",
+		"traits": "Valle de la Cicuta. Central."
+   },
+    {
+        "code": "10691a",
+        "name": "El viejo molino",
+        "subname": "Mañana",
+        "text": "[action][action]: Descubre 1 pista en El viejo molino.",
+		"flavor": "El molino parece haber sido invadido por una fecunda vegetación y por enredaderas duras y nudosas.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10691b",
+        "name": "El viejo molino",
+        "subname": "Tarde",
+        "text": "[action]: Investigas ruidos de algo que se mueve entre la maleza ([codex]12).",
+		"flavor": "La luz del día da paso a largas sombras siniestras.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10692",
+        "name": "Festejante enajenada",
+        "text": "<b>Obligado</b> - Cuando Festejante enajenada sea derrotada: Coloca 1 ficha de Perdición sobre el plan. Este efecto puede hacer que el plan en curso avance.\n[action]:<b>Negociar</b>. Realiza una prueba de [agility](4). Si tienes éxito, retira la Festejante enajenada de la partida.",
+		"traits": "Humanoide. Habitante."
+   },
+    {
+        "code": "10693",
+        "name": "Madre Rachel",
+        "subname": "Matrona amable",
+        "text": "Mientras controles a la Madre Rachel, tienes un espacio arcano adicional.\n[action]: <b>Negociar</b>. Realiza una prueba de [willpower](2). Si tienes éxito, ([codex] 1).\n<b>Obligado</b> - Después de que la Madre Rachel sea derrotada: Ponla aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10693b",
+        "name": "Madre Rachel",
+        "text": "Indiferente. Represalia.\nLa Madre Rachel recibe +2 de salud [per_investigator].\n<b>Obligado</b> - Después de que inflijas 1 o más puntos de daño a la Madre Rachel: Elige un Enemigo [[Habitante]] distinto que esté en su Lugar. Ese Enemigo te ataca.\n<b>Victoria 1.</b>",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10694",
+        "name": "Leah Atwood",
+        "subname": "La cocinera del Valle",
+        "text": "Mientras controles a Leah Atwood, recibes +1 [combat].\n[Action]: <b>Negociar</b>. Realiza una prueba de [combat](2). Si tienes éxito, ([codex] 2).\n<b>Obligado</b> - Después de que Leah Atwood sea derrotada: Ponla aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10694b",
+        "name": "Leah Atwood",
+        "text": "Represalia.\n[Action]: <b>Negociar</b>. Realiza una prueba de [combat](5). Si tienes éxito, pon a Leah Atwood aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"flavor": "\"Lárguense de aquí. Nadie quiere que estén aquí.\"",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10695",
+        "name": "Simeon Atwood",
+        "subname": "Alborotador dedicado",
+        "text": "Mientras controles a Simeon Atwood, recibes +1 [agility].\n[Action]: <b>Negociar</b>. Realiza una prueba de [agility](2). Si tienes éxito, ([codex] 3).\n<b>Obligado</b> - Después de que Simeon Atwood sea derrotado: Ponlo aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10695b",
+        "name": "Simeon Atwood",
+        "text": "Escurridizo. Cazador.\n[Action]: <b>Negociar</b>. Realiza una prueba de [agility](5). Si tienes éxito, pon a Simeon Atwood aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"flavor": "\"¿Quiere que le haga un truco de magia? Puedo hacer que esta hierba desaparezca. Enterita.\"",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10696",
+        "name": "William Cicuta",
+        "subname": "Poeta en ciernes",
+        "text": "Mientras controles a William Cicuta, recibes +1 [intellect].\n[Action]: <b>Negociar</b>. Realiza una prueba de [intellect](2). Si tienes éxito, ([codex] 4).\n<b>Obligado</b> - Después de que William Cicuta sea derrotado: Ponlo aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10696b",
+        "name": "William Cicuta",
+        "text": "Escurridizo.\n[action]: <b>Negociar</b>. Realiza una prueba de [intellect](5). Si tienes éxito, pon a William Cicuta aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"flavor": "\"Haré lo que deba para proteger el legado de mi familia.\"",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10697",
+        "name": "River Hawthorne",
+        "subname": "A lo grande en Nueva York",
+        "text": "Mientras controles a River Hawthorne, recibes +1 [willpower].\n[Action]: <b>Negociar</b>. Realiza una prueba de [willpower] o de [intellect](3). Si tienes éxito, ([codex] 5).\n<b>Obligado</b> - Después de que River Hawthorne sea derrotada: Ponla aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10697b",
+        "name": "River Hawthorne",
+        "text": "Indiferente. Cazador.\nLa primera Traición robada en el Lugar de River Hawthorne cada ronda obtiene Oleada.\n[action]: <b>Negociar</b>. Realiza una prueba de [willpower](5). Si tienes éxito, pon a River Hawthorne aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10698",
+        "name": "Gideon Mizrah",
+        "subname": "Marino curtido",
+        "text": "Mientras controles a River Hawthorne, tienes 1 espacio de accesorio adicional.\n[action][action]: <b>Negociar</b>. ([codex] 6).\n<b>Obligado</b> - Después de que Gideon Mizrah sea derrotado: Ponlo aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10698b",
+        "name": "Gideon Mizrah",
+        "text": "Represalia.\n<b>Obligado</b> - Después de que Gideon Mizrah te ataque: Descarta 1 carta de tu mano al azar.\n[action][action][action]: <b>Negociar</b>. Pon a Gideon Mizrah aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10699",
+        "name": "Judith Park",
+        "subname": "El músculo",
+        "text": "Mientras controles a Judith Park, puedes realizar una acción adicional durante tu turno, pero sólo para combatir.\n[action] Gasta X recursos, donde X es el número del día actual: <b>Negociar</b>. ([codex] 7).\n<b>Obligado</b> - Después de que Judith Park sea derrotada: Ponla aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10699b",
+        "name": "Judith Park",
+        "text": "Cazador. Represalia.\n[action] Gasta 5 recursos: <b>Negociar</b>. Pon a Judith Park aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"flavor": "\"No me obligue a hacer esto.\"",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10700",
+        "name": "Theo Peters",
+        "subname": "Chico para todo",
+        "text": "Mientras controles a Theo Peters, puedes realizar una acción adicional durante tu turno, pero sólo para moverte.\n[action] Elige y descarta X cartas de tu mano, donde X es el número del día actual: <b>Negociar</b>. ([codex] 8).\n<b>Obligado</b> - Después de que Theo Peters sea derrotado: Ponlo aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10700b",
+        "name": "Theo Peters",
+        "text": "Escurridizo. Alerta.\n[action] Gasta 3 cartas de tu mano al azar: <b>Negociar</b>. Pon a Theo Peters aparte, fuera del juego.\n<b>Victoria 0.</b>",
+		"flavor": "\"Aquí somos todos familia. ¡Excepto usted\"",
+		"traits": "Humanoide. Habitante. Élite."
+    },
+    {
+        "code": "10701",
+        "name": "Bertie Musgrave",
+        "subname": "Un verdadero esteta",
+        "text": "Mientras controles a Bertie Musgrave, recibes +1 de salud y +1 de cordura.\n[free] Recibe 1 punto de daño o 1 punto de horror y agota a Bertie Musgrave: <b>Negociar</b>. Roba 1 carta ([codex] Ω).\n<b>Obligado</b> - Después de que Bertie Musgrave sea derrotado: Ponlo aparte, fuera del juego. Reduce su nivel de relación en el registro de campaña.",
+		"traits": "Habitante."
+    },
+    {
+        "code": "10701b",
+        "name": "Bertie Musgrave",
+        "text": "Indiferente. Errante. (Lugar de la Madre Rachel).\n<b>Obligado</b> - Cuando fuese a asignarse daño a un Enemigo [[Habitante]] que esté en el Lugar de Bertie Musgrave y éste esté preparado: En vez de eso se asigna a Bertie Musgrave.\n<b>Obligado</b> - Después de que Bertie Musgrave sea derrotado: ([codex][Omega]).\n<b>Victoria 0.</b>",
+		"traits": "Humanoide. Miskatonic."
+    },
+    {
+        "code": "10702",
+        "name": "Dra. Rosa Marquez",
+        "subname": "La mejor en su campo",
+        "text": "Mientras controles a la Dra. Rosa Marquez, recibes +1 [intellect] y +1 [agility].\n[reaction] Después de que descubras la última pista en tu Lugar: ([codex] [Theta]).",
+		"flavor": "\"Si se trata de la supervivencia del más apto, yo pretendo sobrevivir.\"",
+		"traits": "Aliado. Miskatonic. Viajero."
+    },
+    {
+        "code": "10703",
+        "name": "Helen Peters",
+        "subname": "La hermana mayor",
+        "text": "(<b>Día</b>[day]) Recibes +1 [combat]. (<b>Noche</b>[night]) Recibes +1 [agility].\n[reaction] Después de que entres en un Lugar, agota a Helen Peters e inflígele 1 punto de daño: Elige un Enemigo que no sea [[Élite]] y que esté en tu Lugar y evítalo automáticamente.",
+		"flavor": "\"El cambio es inevitable. La cuestión es cómo lidiamos con él.\"",
+		"traits": "Aliado. Cazador."
+    },
+    {
+        "code": "10704",
+        "name": "El Valle",
+        "text": "<b>Fácil/Normal</b>\n[skull]: -X. X es el número del día actual.\n[cultist]: +1. Si esta prueba es un intento de negociar, tienes éxito automáticamente.\n[tablet]: -2. Si tienes menos de 3 cartas en la mano, en vez de eso trata el modificador de esta ficha como 0.\n[elder_thing]: -1. Si esta prueba es un intento de negociar, revela otra ficha.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el número del día en curso más 1.\n[cultist]: -1. Si esta prueba es un intento de negociar, en vez de eso trata el modificador de esta ficha como +1.\n[tablet]: -4. Si tienes menos de 2 cartas en la mano, en vez de eso trata el modificador de esta ficha como -2.\n[elder_thing]: -3. Si esta prueba es un intento de negociar, revela otra ficha."
+    },
+    {
+        "code": "10705",
+        "name": "Pensión",
+		"subname": "Día [day]",
+        "text": "[action]: Preguntas por ahí sobre el Valle ([codex]9).\n[action]: Cúrate 1 punto de daño o 1 punto de horror. Límite de una vez por partida.",
+		"flavor": "Dicen que la Srta. Olmstead lleva su negocio con mano dura",
+        "traits": "Valle de la Cicuta."
+    },
+    {
+        "code": "10705b",
+        "name": "Pensión",
+		"subname": "Noche [night]",
+        "text": "La primera carta de Encuentro robada en este Lugar cada ronda obtiene Oleada.\n[action]: Realiza una prueba de [willpower](3), luego de [agility](2) y después de [combat](1). Si tienes éxito en cada una de estas pruebas, roba 3 cartas. A continuación, si el acto en curso es El destino del Valle (v.IV), recuerda que \"los investigadores encontraron combustible\".",
+        "traits": "Valle de la Cicuta."
+    },
+    {
+        "code": "10706",
+        "name": "El cruce de caminos",
+		"subname": "Día [day]",
+        "text": "[action]: Preguntas a los lugareños sobre el Valle ([codex]10).\n[free]: Si hay exactamente 1 o 2 investigadores en la partida, durante tu turno: <b>Movimiento</b> (<i>a un Lugar conectado</i>). Límite de grupo de una vez por ronda.",
+		"flavor": "La elaborada efigie es la estructura más alta del Valle.",
+        "traits": "Valle de la Cicuta. Central."
+    },
+    {
+        "code": "10706b",
+        "name": "El cruce de caminos",
+		"subname": "Noche [night]",
+        "text": "Durante la fase de Enemigos, todos los Enemigos [[Destrozado]] que estén en El cruce de caminos pierden Indiferente.\n[reaction] Después de que evites con éxito a un Enemigo [[Destrozado]] en El cruce de caminos por 3 o más si el acto en curso es El destino del Valle (v.IV): Recuerda que \"la carretera está despejada\".",
+        "traits": "Valle de la Cicuta. Central."
+    },
+    {
+        "code": "10707",
+        "name": "Capilla Cicuta",
+		"subname": "Día [day]",
+        "text": "[action]: te acercas a la capilla totalmente cubierta de vegetación que hay en lo alto de la colina ([codex]11).\n[action]: Busca entre las 9 primeras cartas de tu mazo una carta [[Hechizo]] y róbala. Baraja tu mazo. Límite de una vez por partida.",
+		"flavor": "La capilla parece sacada de un libro de cuentos.",
+        "traits": "Valle de la Cicuta."
+    },
+    {
+        "code": "10707b",
+        "name": "Capilla Cicuta",
+		"subname": "Noche [night]",
+        "text": "<b>Obligado</b> - Después de que se descubra la última pista de la Capilla Cicuta: Coloca 1 pista en cada Lugar en juego. Máximo de una vez por partida.\n[action]: Cúrate 1 punto de horror. Devuelve una carta [[Hechizo]] de tu pila de descartes a tu mano. Límite de una vez por partida.",
+        "traits": "Valle de la Cicuta."
+    },
+    {
+        "code": "10708",
+        "name": "El viejo molino",
+        "subname": "Día [day]",
+        "text": "[reaction] Después de que descubras una pista en El viejo molino ([codex]12).",
+		"flavor": "La brisa matutina trae al Valle el fresco aroma a lupinos, ésteres, milenramas y ulmarias.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10708b",
+        "name": "El viejo molino",
+        "subname": "Noche [night]",
+        "text": "[action]: Realiza una prueba de [agility](8). Si tienes éxito, cúrate 2 puntos de daño (si fracasas, en vez de eso puedes gastar 2 pistas [per_investigator] para tener éxito automáticamente). A continuación, si el acto en curso es El destino del Valle (v.IV), recuerda que \"los investigadores encontraron las muestras\".",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10709",
+        "name": "La Casa Atwood",
+        "subname": "Día [day]",
+        "text": "[action]: Te acercas a la antigua mansión ([codex]13).",
+		"flavor": "La adusta fachada de la vieja casa conserva algún retazo de su antigua gloria. Los lugareños parecen evitar la propiedad.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10709b",
+        "name": "La Casa Atwood",
+        "subname": "Noche [night]",
+        "text": "<b>Obligado</b> - Después de que fracases en una prueba de habilidad al investigar La Casa Atwood: Recibe 1 punto de horror.\n[action]: Realiza una prueba de [willpower](8). Si tienes éxito, cúrate 2 puntos de horror (si fracasas, en vez de eso puedes gastar 2 pistas [per_investigator] para tener éxito automáticamente). A continuación, si el acto en curso es El destino del Valle (v.IV), recuerda que \"los investigadores recuperaron las notas del estudio\".",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10710",
+        "name": "Almacén general de Tad",
+        "subname": "Día [day]",
+        "text": "[action]: <b>Negociar</b>. Regateas por algunos productos y charlas con los parroquianos ([codex]14).",
+		"flavor": "El almacén general está a reventar de lugareños y visitantes que compran suministros para la fiesta.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10710b",
+        "name": "Almacén general de Tad",
+        "subname": "Noche [night]",
+        "text": "Los Enemigos que estén en el Almacén general de Tad reciben +1 a combate.\n[reaction] Después de colocar yesca en este Lugar: Coloca 1 yesca adicional. Límite de una vez por ronda.",
+		"flavor": "Un hedor putrefacto emana del emporio.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10711",
+        "name": "Escuela del Valle",
+        "subname": "Día [day]",
+        "text": "[action]: Echas un vistazo a la biblioteca de la escuela ([codex]15).\n[action]: Busca en tu mazo un Apoyo [[Tomo]] y róbalo. Baraja tu mazo. Límite de una vez por partida.",
+		"flavor": "Hay varios caminos que pasan junto al edificio de la escuela en dirección a la punta sur de la Isla de la Cicuta.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10711b",
+        "name": "Escuela del Valle",
+        "subname": "Noche [night]",
+        "text": "Los Enemigos que estén en la Escuela del Valle reciben +1 a evitar.\n[action]: Realiza una prueba de [willpower] o de [agility](3). Si tienes éxito, cura 1 punto de daño y 1 punto de horror a un investigador o Apoyo [[Aliado]] que esté en este Lugar. Límite de una vez por ronda.",
+		"flavor": "Las luciérnagas bailan en el aire en torno al edificio de la escuela.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10712",
+        "name": "El salón comunitario",
+        "subname": "Día [day]",
+        "text": "[action]: Inspeccionas El salón comunitario y visitas el servicio de reparto local ([codex]16).",
+		"flavor": "El largo edificio es tan grande como un granero y sirve para celebrar muchas cenas, bailes y eventos comunitarios en el Valle.",
+		"traits": "Valle de la Cicuta."
+   },
+    {
+        "code": "10712b",
+        "name": "El salón comunitario",
+        "subname": "Noche [night]",
+        "text": "Mientras un Enemigo se esté moviendo, su Lugar se considera conectado con El salón comunitario.\n[action]: Realiza una prueba de [intellect](3), luego de [combat](2) y después de [agility](1). Si tienes éxito en cada una de estas pruebas, obtén 5 recursos. A continuación, si el acto en curso es El destino del Valle (v.IV) recuerda que \"los investigadores encontraron la camioneta de Theo\".",
+		"traits": "Valle de la Cicuta."
+   },   
+    {
+        "code": "10713",
+        "name": "Roca de la preocupación",
+		"subname": "Símbolo de seguridad",
+        "text": "Rápido.\n[reaction] Cuando el efecto de una carta de escenario descarte la Roca de la preocupación de tu mano: Roba 3 cartas. Límite de una vez por partida.",
+		"flavor": "La piedra está desgastada y lisa.",
+		"traits": "Objeto. Amuleto. Bendecido."
+   },
+    {
+        "code": "10714",
+        "name": "Muñeca de hojas de maíz",
+		"subname": "Símbolo de la inocencia",
+        "text": "Rápido. Usos (3 deseos).\n[reaction] Cuando sea revelada una ficha [skull] o [tablet] en tu Lugar, gasta 1 deseo y agota la Muñeca de hojas de maíz: En vez de eso trata esa ficha como una ficha [cultist].",
+		"flavor": "Una muñeca tradicional abenaki con el aspecto de la madre Rachel.",
+		"traits": "Objeto. Amuleto."
+   },
+    {
+        "code": "10715",
+        "name": "El diario Perla",
+		"subname": "Un siniestro relato",
+        "text": "(<b>Día</b> [day]) Recibes +1[intellect]. (<b>Noche</b> [night]) Recibes +1[willpower]. Usos (3 deseos).\n[reaction] Después de que un investigador que esté en tu Lugar robe una carta [[Plaga]] o [[Poder]] del mazo de Encuentros, agota El diario Perla: Ese investigador roba 1 carta.",
+		"traits": "Objeto. Tomo."
+   },
+    {
+        "code": "10716",
+        "name": "Madriguera seca",
+        "text": "(<b>Día</b> [day]) [reaction]: <b>Movimiento</b> (<i>a un Lugar conectado</i>). Límite de grupo de una vez por ronda.\n(<b>Noche</b> [night]) <b>Obligado</b> - Después de que termines tu turno en la Madriguera seca: Recibe 1 punto de horror.",
+		"flavor": "Los caminos abiertos parecen bastante seguros, pero… ¿lo son?",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<i>H.P. Lovecraft</i>,\"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+   },
+    {
+        "code": "10717",
+        "name": "Bosque alcalino",
+        "text": "<b>Obligado</b> - Después de que reveles el Bosque alcalino: Debes recibir 1 punto de horror directo o bien descartar 2 cartas de tu mano al azar.",
+		"flavor": "Las formaciones rocosas se asemejan a un bosque dentado envuelto en un venenoso gas rojo.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<i>H.P. Lovecraft</i>,\"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+   },
+    {
+        "code": "10718",
+        "name": "Pasadizo iridiscente",
+        "text": "<b>Obligado</b> - Después de que fracases en una prueba de habilidad al investigar el Pasadizo iridiscente: Elige y descarta 1 carta de tu mano.",
+		"flavor": "Las paredes similares a espejos reflejan tu rostro fracturado.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<i>H.P. Lovecraft</i>,\"El ceremonial\"",
+		"back_traits": "Cueva. Oscuro.",
+		"traits": "Cueva."
+   },
+    {
+        "code": "10719",
+        "name": "Túnel invadido de vegetación",
+        "text": "Mientras el Túnel invadido de vegetación tenga pistas, debes gastar 1 acción adicional para salir del Túnel invadido de vegetación.",
+		"flavor": "Los túneles circundantes están sofocados con gruesas raíces correosas.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<i>H.P. Lovecraft</i>,\"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+   },
+    {
+        "code": "10720",
+        "name": "Túnel mineral",
+        "text": "Mientras estés investigando el Túnel mineral, éste recibe +1 a velo por cada carta de tu mano (máx. +6 a velo en dificultad fácil/normal).",
+		"flavor": "Las formaciones se parecen a las muchas hileras de dientes de un tiburón y son igual de afiladas.",
+		"back_name": "Caverna",
+		"back_flavor": "Después de un descenso que duró una eternidad, vi unos pasadizos laterales o túneles que, desde ignorados nichos de tinieblas, conducían a este misterioso acceso vertical.\n-<i>H.P. Lovecraft</i>,\"El ceremonial\"",
+		"traits": "Cueva. Oscuro."
+   },
+    {
+        "code": "10721",
+        "name": "Parásito de cristal",
+        "text": "(<b>Día<b> [day]) <b>Obligado</b> - Después de que el Parásito de cristal ataque: Cúrale 2 puntos de daño.\n(<b>Noche<b> [night]) El Parásito de cristal recibe +2 a combate y +1 a su valor de daño por cada 2 puntos de daño que tenga.\n<b>Victoria 1</b>.",
+		"traits": "Monstruo. Insecto. Plaga."
+   },
+    {
+        "code": "10722",
+        "name": "Plaga cromática",
+        "text": "<b>Revelación</b> - Pon la Plaga cromática en juego en tu zona de amenaza. Límite de 1 por investigador.\n<b>Obligado</b> - Después de que robes 1 o más cartas de tu mazo. Coloca 1 recurso en la Plaga cromática, como brillo.\n<b>>Obligado</b> - Si hay un total de 6 brillos en la Plaga cromática: Pon una copia puesta aparte del Parásito de cristal en juego en tu Lugar: Retira la Plaga cromática de la partida.",
+		"traits": "Poder. Plaga."
+   },
+    {
+        "code": "10723",
+        "name": "Calcificación",
+        "text": "<b>Revelación</b> - Pon la Calcificación en juego en tu zona de amenaza. Límite de 1 por investigador.\n<b>Obligado</b> - La primera vez que te muevas en cada ronda: Recibe 1 punto de daño directo.\n[action]: Realiza una prueba de [agility](3). Si tienes éxito, descarta la Calcificación (puedes recibir 1 punto de daño directo para que esta prueba tenga éxito automáticamente).",
+		"traits": "Riesgo. Plaga."
+   },
+    {
+        "code": "10724",
+        "name": "Sombra miasmática",
+        "text": "Indiferente. Cazador. (<b>Noche</b> [night]) Escurridizo.\nNo puede ser dañado excepto por cartas [Hechizo], [Reliquia], [Ciencia] o de Encuentro.\n<b>Obligado</b> - Cuando descartes 1 o más cartas de la mano en el Lugar de la Sombra miasmática, si ésta está preparada: Se enfrenta a ti y realiza un ataque inmediatamente.",
+		"traits": "Monstruo. Color."
+   },
+    {
+        "code": "10725",
+        "name": "Susurros alienígenas",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](3). Por cada punto que te falte para tener éxito, debes (<i>elige una opción</i>):\n-Recibir 1 punto de daño, que sólo puede asignarse a un Apoyo que controles.\n-Recibir 1 punto de horror, que sólo puede asignarse a un Apoyo que controles.\n-Descartar 1 carta de tu mano al azar.",
+		"traits": "Poder. Color."
+   },
+    {
+        "code": "10726",
+        "name": "Mutaciones extrañas",
+        "text": "<b>Revelación</b> - Realiza una prueba de [willpower](5). Reduce la dificultad de esta prueba en 1 por cada punto de horror que tengas. Si fracasas, debes recibir 2 puntos de horror o bien descartar 2 cartas de tu mano al azar.",
+		"flavor": "En la piel brotan nudosas protuberancias escamosas que parecen escamas o uñas vestigiales.",
+		"traits": "Poder."
+   },
+    {
+        "code": "10727",
+        "name": "Putrefacción fúngica",
+        "text": "<b>Revelación</b> - Vincula la Putrefacción fúngica a un Apoyo [[Objeto]] que controles y que no tenga la Putrefacción fúngica vinculada. Si no puedes, la Putrefacción fúngica obtiene Oleada.\nTrata el cuadro de texto de las reglas del Apoyo vinculado como si estuviera en blanco (excepto los [[Rasgos]]).\n[action]: Realiza una prueba de [combat](3). Si tiene éxito, descarta la Putrefacción fúngica. Si no es así, recibe 1 punto de daño.",
+		"traits": "Riesgo. Plaga."
+   },
+    {
+        "code": "10728",
+        "name": "Enervación",
+        "text": "<b>Revelación</b> - Realiza una prueba de [combat](5). Reduce la dificultad de esta prueba en 1 por cada punto de daño que tengas. Si fracasas, debes recibir 2 puntos de daño o bien elegir la carta con el mayor coste impreso de tu mano y descartarla.",
+		"flavor": "Las úlceras no se curan solas y emiten un intenso olor químico.",
+		"traits": "Riesgo. Plaga."
+   },
+    {
+        "code": "10729",
+        "name": "Desecación",
+        "text": "<b>Revelación</b> - Pon la Desecación en juego junto al mazo de Plan.\nComo coste adicional para que un investigador juegue una carta, debe recibir 1 punto de daño.\n<b>Obligado</b> - Al final de la ronda: Descarta 1 copia de la Desecación del juego. Máximo de una vez por ronda.",
+		"traits": "Plaga."
+   },
+    {
+        "code": "10730",
+        "name": "Brillo empíreo",
+        "text": "(<b>Día<b> [day]) <b>Revelación</b> - Realiza una prueba de [willpower](2). Aumenta la dificultad de esta prueba en 2 si tienes 5 o más cartas en la mano. Si fracasas, elige y descarta 2 cartas de tu mano.\n(<b>Noche<b> [night]) <b>Revelación</b> - Descarta 1 carta de tu mano al azar. Realiza una prueba de [willpower](X). X es el coste impreso de esa carta. Si fracasas, recibe 2 puntos de horror.",
+		"traits": "Poder. Color."
+   },
+    {
+        "code": "10731",
+        "name": "Resplandor cautivador",
+        "text": "Oleada.\n<b>Revelación</b> - Pon el Resplandor cautivador en juego en tu zona de amenaza. Límite de 1 por investigador.\n<b>Obligado</b> - Si no tienes cartas en la mano:  Recibe 5 puntos de horror y descarta el Resplandor cautivador.",
+		"tflavor": "?olev led álla sám sev éuQ¿",
+		"traits": "Poder. Color."
+   },
+    {
+        "code": "10732",
+        "name": "Broteponzoña",
+        "text": "Represalia.\n(<b>Día</b> [day]) El Broteponzoña recibe +1 a salud y +1 a su valor de daño por cada exuberancia que tenga.\n(<b>Noche</b> [night]) El Broteponzoña recibe +1 a combate y +1 a su valor de daño por cada exuberancia que tenga.\n<b>Obligado</b> - Al final de la ronda: Coloca 1 recurso en el Broteponzoña, como exuberancia.",
+		"traits": "Criatura. Flora. Mutado."
+   },
+    {
+        "code": "10733",
+        "name": "Vigilante del bosque",
+        "text": "Indiferente. (<b>Noche</b> [night]) Escurridizo.\n<b>Aparición</b> - Cualquier Lugar (vacío si es posible).\n<b>Obligado</b> - Después de que el Vigilante del bosque entre en juego: Coloca 1 ficha de Perdición sobre él.",
+		"flavor": "Ni se te ocurra intentar acariciarlo.",
+		"traits": "Criatura. Flora. Mutado."
+   },
+    {
+        "code": "10734",
+        "name": "Venado coclear",
+        "text": "Escurridizo. (<b>Noche</b> [night]) Cazador.\nCada investigador que esté en el Lugar del Venado coclear y en cada Lugar conectado recibe -2 a todas las habilidades durante la fase de Mitos.",
+		"flavor": "La mitad de la carne de la majestuosa criatura había sido reemplazada por un tejido vascular similar a la corteza de los árboles.",
+		"traits": "Criatura. Monstruo. Flora. Mutado."
+   },
+    {
+        "code": "10735",
+        "name": "Florecimiento",
+        "text": "<b>Revelación</b> - Elige el Enemigo [[Flora]] más cercano y cúrale todo el daño, o bien cúrale 2 puntos de daño [per_investigator] si ese Enemigo es [[Élite]]. Si no se ha curado daño por este efecto, descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartada una carta de  [[Flora]] y róbala.",
+		"traits": "Poder."
+   },
+    {
+        "code": "10736",
+        "name": "Muro de espinas",
+        "text": "<b>Revelación</b> - Vincula el Muro de espinas al Lugar más cercano que no tenga ningún Muro de espinas vinculado.\n(<b>Día</b> [day]) <b>Obligado</b> - Cuando te muevas al Lugar vinculado: Recibe 2 puntos de daño. Descarta el Muro de espinas.\n(<b>Noche</b> [night]) - Cuando te muevas al Lugar vinculado o salgas de él: Recibe 1 punto de daño.",
+		"traits": "Riesgo. Flora."
+   },
+    {
+        "code": "10737",
+        "name": "Llamada de lo salvaje",
+        "text": "<b>Revelación</b> - Realiza una prueba de [agility](3). Si fracasas, elige el Enemigo más cercano. Ese Enemigo te ataca. Si fracasaste y no se eligió ningún Enemigo, en vez de eso recibe 2 puntos de daño.",
+		"flavor": "\"…hasta los herbívoros parecen haber desarrollado una capacidad poco común de planificar, coordinarse y cazar.\"\n-Dra. Rosa Marquez, <i>Estudio de Miskatonic</i>, 1926",
+		"traits": "Terror."
+   },
+    {
+        "code": "10738",
+        "name": "Amanita negra",
+        "text": "(<b>Día</b> [day]) Indiferente. (<b>Noche</b> [night]) Descomunal.\n<b>Obligado</b> - Después de que descubras una pista en el Lugar de Amanita negra o en un Lugar conectado, si ésta está preparada: Recibe 1 punto de horror directo.",
+		"flavor": "\"…y sus esporas huelen a carne podrida.\"\n-Dra. Rosa Marquez, <i>Estudio de Miskatonic</i>, 1926",
+		"traits": "Flora. Mutado"
+   },
+    {
+        "code": "10739",
+        "name": "Liquen de cadáver",
+        "text": "(<b>Día</b> [day]) El Liquen de cadáver no puede moverse. (<b>Noche</b> [night]) Cazador. Alerta.\n<b>Obligado</b> - Después de que el Liquen de cadáver ataque: Cúrale 1 punto de daño.",
+		"flavor": "Los líquenes animan los huesos sin carne.",
+		"traits": "Humanoide. Monstruo. Flora. Mutado."
+   },
+    {
+        "code": "10740",
+        "name": "Esporas psicotrópicas",
+        "text": "<b>Revelación</b> - Pon las Esporas psicotrópicas en juego en tu zona de amenaza. Límite de 1 por investigador.\n<b>Obligado</b> - La primera vez que robes 1 o más cartas de tu mazo en cada ronda: Recibe 1 punto de horror directo.\n[action]: Realiza una prueba de [intellect](3). Si tienes éxito, descarta las Esporas psicotrópicas (puedes recibir 1 punto de horror directo para que esta prueba tenga éxito automáticamente).",
+		"traits": "Riesgo. Flora."
+   },
+    {
+        "code": "10741",
+        "name": "Mutación repentina",
+        "text": "<b>Revelación</b> - Vincula esta carta al Enemigo más cercano que no sea [[Élite]]. Si no puedes, busca en el mazo y la pila de descartes de Encuentros un Enemigo [[Mutado]] y róbalo.\n<b>Obligado</b> - Cuando el Enemigo vinculado sea derrotado: Descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo y haz que aparezca en este Lugar.",
+		"traits": "Poder. Color."
+   },
+    {
+        "code": "10742",
+        "name": "Crecimiento antinatural",
+        "text": "<b>Revelación</b> - Coloca 1 ficha de Perdición en el Enemigo más cercano que no tenga perdición. Si no se ha colocado perdición por este efecto, descarta 2 cartas de tu mano al azar.",
+		"tflavor": "\"No es el más fuerte de las especies el que sobrevive, tampoco es el más inteligente el que sobrevive. Es aquel que es más adaptable al cambio.\"- Charles Darwin",
+		"traits": "Maldición."
+   },
+    {
+        "code": "10743",
+        "name": "¡Fuego!",
+        "text": "<b>Revelación</b> - Vincula ¡Fuego! al Lugar más cercano que no tenga ninguna copìa de ¡Fuego! vinculada (conectado a un Lugar que tenga ¡Fuego! vinculado si es posible).\n[action] Realiza una prueba de [agility](4). Si tienes éxito, descarta ¡Fuego!.\n<b>Obligado</b> - Al final de la ronda: Cada carta que tenga salud y que esté en este Lugar recibe 1 punto de daño directo.",
+		"traits": "Riesgo."
+   }
+]
+ 
