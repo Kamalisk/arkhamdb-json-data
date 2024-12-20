@@ -125,20 +125,36 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "<b>This is placeholder back text until the card is revealed.</b>",
-        "back_text": "<b>This is placeholder back text until the card is revealed.</b>",
+        "back_flavor": "With degrees in Mathematics and Psychology, Agatha Crane has always placed a premium on evidence-based science. In her youth, she cared little for ghost stories, but mounting evidence has led Agatha to conclude that there is an unmistakable truth to the tales of monsters and magic that permeate Arkham's history. If these things are real, then they must obey consistent rules. As she will explain to anyone who listens for long enough—and as her husband Wilbur has heard many times—this new field of study is called \"parapsychology.\" With tried-and-true scientific methods, Agatha seeks to bridge the gap between the mystic and the rational, between occultism and science.",
+        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, [[Insight]] events level 0-3, up to 10 other level 0 Mystic ([mystic]) cards.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Ocula Obscura, Glimpse the Void, 1 random basic weakness.",
         "code": "11007",
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": ["neutral"],
+                "faction": ["seeker", "neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
                 }
+            },
+            { 
+                "trait": ["insight"], 
+                "type": ["event"],
+                "level": { 
+                    "min": 0, 
+                    "max": 3 
+                }
+            },
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "min": 0,
+                    "max": 0
+                },
+                "limit": 10
             }
         ],
-        "deck_requirements": "card:11009, card:11010",
+        "deck_requirements": "size:35, card:11009, card:11010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "seeker",
         "health": 6,
@@ -159,20 +175,36 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "<b>This is placeholder back text until the card is revealed.</b>",
-        "back_text": "<b>This is placeholder back text until the card is revealed.</b>",
+        "back_flavor": "With degrees in Mathematics and Psychology, Agatha Crane has always placed a premium on evidence-based science. In her youth, she cared little for ghost stories, but mounting evidence has led Agatha to conclude that there is an unmistakable truth to the tales of monsters and magic that permeate Arkham's history. If these things are real, then they must obey consistent rules. As she will explain to anyone who listens for long enough—and as her husband Wilbur has heard many times—this new field of study is called \"parapsychology.\" With tried-and-true scientific methods, Agatha seeks to bridge the gap between the mystic and the rational, between occultism and science.",
+        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, [[Spell]] events level 0-3, up to 10 other level 0 Seeker ([seeker]) cards.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Ocula Obscura, Glimpse the Void, 1 random basic weakness.",
         "code": "11008",
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": ["neutral"],
+                "faction": ["mystic", "neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
                 }
+            },
+            { 
+                "trait": ["spell"], 
+                "type": ["event"],
+                "level": { 
+                    "min": 0, 
+                    "max": 3 
+                }
+            },
+            {
+                "faction": ["seeker"],
+                "level": {
+                    "min": 0,
+                    "max": 0
+                },
+                "limit": 10
             }
         ],
-        "deck_requirements": "card:11009, card:11010",
+        "deck_requirements": "size:35, card:11009, card:11010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
         "health": 6,
