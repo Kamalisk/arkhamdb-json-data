@@ -1,0 +1,610 @@
+[
+    {
+        "code": "88001",
+        "name": "Fortune and Folly",
+        "text": "Easy / Standard\n[skull]: -X. X is half your alarm level (rounded up).\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -3. If you fail, the nearest enemy moves once toward you.\n[elder_thing]: -5. You may raise your alarm level by 1 to automatically succeed, instead.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is your alarm level.\n[cultist]: Reveal another token. If you fail, raise your alarm level by 1.\n[tablet]: -4. The nearest enemy moves once toward you.\n[elder_thing]: -6. You may raise your alarm level by 1 to automatically succeed, instead."
+    },
+    {
+        "code": "88002",
+        "flavor": "You have arrived at Défis de la Roulette. If you are to recover the Wellspring, you must learn all that you can about this casino and the cult that operates it.",
+        "name": "The House Always Watches",
+        "text": "<b>Forced</b> - At the start of the enemy phase: Each investigator who is at the same location as a ready [[Casino]] enemy raises their alarm level by 1.\n<b>Forced</b> - After an investigator defeats a [[Casino]] enemy: Raise that investigator's alarm level by 1.",
+        "back_name": "Worn Out Welcome",
+        "back_flavor": "The stray glances that you have started attracting from the dealers and guards have become more frequent. In a shadowed corner, a group of uniformed security gathers together in conversation. As you watch them, one looks at you and points in your direction. They begin to head your way...",
+        "back_text": "If the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you \"cleaned out the house.\" <b>(→R1)</b>"
+    },
+    {
+        "code": "88003",
+        "flavor": "Défis de la Roulette is bustling on this busy night — the perfect cover for you and your crew. You hope that your long days of planning will pay off.",
+        "name": "Opening Hand",
+        "text": "<b>Forced</b> - At the start of the enemy phase: Each investigator who is at the same location as a ready [[Casino]] enemy raises their alarm level by 1.\n<b>Forced</b> - After an investigator defeats a [[Casino]] enemy: Raise that investigator's alarm level by 1.",
+        "back_name": "Bluff Called",
+        "back_flavor": "A voice from the roulette tables cuts clearly through the din of the entire casino: \"Red 19!\" Someone nearby shouts in excitement. A few moments later, the same voice calls out once more: \"Red 19 hits again!\" You hear murmurings around you. Such an event is highly improbable. For a moment, you feel a small crackling in the air, but you shrug it off. Then, just when normalcy seems to have reasserted itself, the voice calls out once more in disbelief: \"Red 19 a third time!\" The crackling is unmistakable this time and begins to intensify until everything seems to blur for a moment. When your vision clears, a terrible creature beyond all imagining stands in the middle of the crowded casino, towering above the humans surrounding it. With a sinking feeling, you remember Isamara's warning that the relic's presence might invite disaster. If that wasn't bad enough, said disaster will fall on those who are not favored by the bearer of the Wellspring.",
+        "back_text": "Spawn the set-aside Dimensional Shambler at the Roulette Wheel. Shuffle the encounter discard pile and the set-aside <i>Plan in Shambles</i> encounter set into the encounter deck.\nRaise each investigator's alarm level by 1."
+    },
+    {
+        "code": "88004",
+        "flavor": "The heist has become more complicated than you could have ever imagined. Terrifying monsters have appeared on the casino floor. The patrons, however, seem to be in a daze, while the staff continue to watch for suspicious activity. Can they not see the danger they are all in?",
+        "name": "The Turn",
+        "text": "<b>Forced</b> - At the start of the enemy phase: Each investigator who is at the same location as a ready [[Casino]] enemy raises their alarm level by 1.\n<b>Forced</b> - After an investigator defeats a [[Casino]] enemy: Raise that investigator's alarm level by 1.",
+        "back_name": "Improbable Chaos",
+        "back_flavor": "Just when it seems like things couldn't get any worse, there is a strange transformation in the atmosphere of the casino, the calm before a storm. Then, like the last gasp before drowning, the storm of misfortune breaks...",
+        "back_text": "Shuffle the 3 set-aside Fortune's Disfavor story cards and select 1 of them at random, resolving its text.\nRaise each investigator's alarm level by 1."
+    },
+    {
+        "code": "88005",
+        "flavor": "The cult is against you. Creatures from beyond time and space are against you. Now fortune itself is against you. No one said this would be easy.",
+        "name": "All Bets Down",
+        "text": "<b>Forced</b> - At the start of the enemy phase: Each investigator who is at the same location as a ready [[Casino]] enemy raises their alarm level by 1.\n<b>Forced</b> - After an investigator defeats a [[Casino]] enemy: Raise that investigator's alarm level by 1.",
+        "back_name": "Cleaned Out",
+        "back_flavor": "You try desperately to escape, but your luck has run out at last. Several cultists wearing familiar coin medallions block your way out. Behind you, the horrifying creatures that were summoned by the Wellspring's power rampage through the casino. Chaos erupts around you. It is only then the crowds and the casino security seem to finally notice the horrible truth lurking within the casino. You try your best to fend off both the creatures and the cultists, and you barely escape with your life.",
+        "back_text": "Each investigator who did not resign is defeated and suffers 1 physical trauma. <b>(→R3)</b>"
+    },
+    {
+        "code": "88006",
+        "flavor": "You must tread carefully, as arousing suspicion may ruin your plans before they have even begun.",
+        "name": "Casing the Joint",
+        "text": "[reaction] After you trigger the [action] ability on a [[Game]] location: Remove 1 clue from The Wellspring of Fortune (2 clues instead if you gained resources from the [[Game]] location's ability).\n<b>Objective</b> - Accomplish as many tasks as you can and get out before you are noticed! If each undefeated investigator has resigned, advance.",
+        "back_name": "Come Back Soon!",
+        "back_flavor": "With one last parting glance, you exit the casino. You're confident that none of the dealers or security suspected you for anything other than what you pretended to be: just another hopeful gambler. Regardless of any money that you made or lost tonight, your real winnings will be the information that you were able to gather. You hope that it will be enough to prepare you for the improbable scheme that you must now concoct and pull off.",
+        "back_text": "Each investigator who was defeated raises their alarm level by 2.\nIf the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you “cleaned out the house.” <b>(→R2)</b>"
+    },
+    {
+        "code": "88007",
+        "flavor": "The heist begins. You must open the vault door, locate the Wellspring, make it past the mystical defenses, and find a way to open the container that holds it.",
+        "name": "The Take",
+        "text": "[reaction] After you trigger the [action] ability on a [[Game]] location: Remove 1 clue from The Wellspring of Fortune (2 clues instead if you gained resources from the [[Game]] location's ability).\n<b>Objective</b> - If an investigator controls The Wellspring of Fortune, advance.",
+        "back_name": "Relic Acquired",
+        "back_text": "<b>If Abarran Arrigorriagakoa is still in play...</b>\n<blockquote><i>Just as you are ready to celebrate victory, a voice calls from the door behind you. \"You come into my casino and steal from me?\" Abarran stands there, shaking with fury. \"You'll ruin everything I built. But I won't let you!\" Any front of professionalism has been dropped. The true danger of the man has been revealed.</i></blockquote>\nMove Abarran Arrigorriagakoa <i>(Abarran Unleashed)</i> to Relic Room.<hr><b>If Abarran Arrigorriagakoa is in the victory display...</b><blockquote><i>A ragged voice gasps from behind you. \"I won't let you take it!\" Abarran is somehow still on his feet in the doorway behind you. Although he looks ready to collapse, his eyes burn with hatred. Before you can stop him, he slams his fist against some kind of mechanism on the wall before slumping to the ground. Large sections of the solid steel ceiling begin to fall from above...</i></blockquote>\nEach investigator must test [agility] (3). Each investigator who fails takes 2 damage."
+    },
+    {
+        "code": "88008",
+        "flavor": "Getting in was one thing, but now you must make it out with your prize. It feels as if the whole casino stands between you and the world outside.",
+        "name": "The Exit",
+        "text": "Each [[Casino]] enemy loses aloof and patrol.\nEach [[Casino]] enemy gains hunter and \"<b>Prey</b> - Investigator that controls The Wellspring of Fortune.\"\n<b>Objective</b> - If the investigator with The Wellspring of Fortune has resigned, advance. <i>(Beware - any investigator who has not resigned will be left behind!)</i>",
+        "back_name": "Sweet Freedom",
+        "back_flavor": "There were times when you weren't sure whether you would make it out of the casino with your skin and soul intact, but here you stand. It almost feels like a dream, but you can still hear a commotion inside. It's time to leave this place behind and make yourself scarce.",
+        "back_text": "Each investigator who has not resigned is defeated and suffers 1 physical trauma. <b>(→R1)</b>"
+    },
+    {
+        "code": "88009",
+        "flavor": "Standing in the center of the casino floor is overwhelming, with its dazzling interior and the clamor of well-to-do patrons.",
+        "name": "Casino Floor",
+        "subname": "Calm Night",
+        "text": "[action]: <b>Resign.</b> It's time to get out of here!\n[action]: Place an asset from your hand or play area facedown beneath Casino Floor, as part of your crew's \"stash for the heist.\" (Limit once per turn.)",
+        "traits": "Public. Casino."
+    },
+    {
+        "code": "88009b",
+        "name": "Casino Floor",
+        "subname": "Busy Night",
+        "text": "[action]: <b>Resign.</b> It's time to get out of here!\n[action] If an investigator \"impersonated a high roller\" and your alarm level is 6 or lower, spend 2 resources: You set up a delivery to the vault. Search the encounter deck and discard pile for a [[Casino]] enemy, spawn it here, and attach the set-aside Package Delivery story card to it. (Group limit once per game.)",
+        "traits": "Public. Casino."
+    },
+    {
+        "code": "88010",
+        "flavor": "Omaha 8-or-better, nothing's wild, sky's the limit.",
+        "name": "Poker Table",
+        "text": "[action] Spend 2 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have a sequential rank, or if 3 or more of the cards have the same rank, gain 5 resources.",
+        "traits": "Public. Casino. Game.",
+        "back_flavor": "The poker tables are constantly in demand, each game filled with players from around the continent and the world. Clattering fills the air as piles of chips are relentlessly pushed and stacked, each one a bet against destiny. The air is thick with smoke, sweat, and the tension of a good bluff."
+    },
+    {
+        "code": "88011",
+        "flavor": "Red or black, what tickles your fancy?",
+        "name": "Roulette Wheel",
+        "text": "[action] Spend 1 resource: Name a color and a rank. Then, discard the top card of the encounter deck and check its game icon. If it matches the named color and rank, gain 5 resources.",
+        "traits": "Public. Casino. Game.",
+        "back_flavor": "Roulette seems to be a favorite of many patrons and of the establishment itself. The casino is named after this icon of Monte Carlo gambling, after all."
+    },
+    {
+        "code": "88012",
+        "name": "Baccarat Table",
+        "text": "[action] Spend 2 resources: Name \"player,\" \"banker,\" or \"tie.\" Discard the top 2 cards of the encounter deck and check their game icons. If the combined value of their ranks is higher than 18, the \"player\" wins. If the combined value is lower than 18, the \"banker\" wins. If the combined value is equal to 18, it is a \"tie.\" If this result matches the result you named, gain 4 resources.",
+        "traits": "Public. Casino. Game.",
+        "back_flavor": "Baccarat has been popular among French nobility and aristocrats for over a century, perhaps longer. Even in this casino, this seems to remain true, with the most well-dressed and ostentatious sitting around the baccarat tables."
+    },
+    {
+        "code": "88013",
+        "flavor": "\"Jackpot!\"",
+        "name": "Slot Machines",
+        "text": "[action] Spend 1 resource: Discard the top 3 cards of the encounter deck and check their game icons. If all 3 cards have the same suit or same rank, gain 3 resources.",
+        "traits": "Public. Casino. Game.",
+        "back_flavor": "Several rows of machines stand to one side, hooking unwary souls into an endless cycle of spend and pull, spend and pull, spend and pull. No skill or finesse needed here - just raw submission to the whims of fortune."
+    },
+    {
+        "code": "88014",
+        "name": "High Roller's Table",
+        "subname": "Calm Night",
+        "text": "[action] If there are no clues here, spend 4 resources: Remember that you \"impersonated a high roller.\" Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 of the cards have the same rank, gain 8 resources.",
+        "traits": "Public. Casino. Game."
+    },
+    {
+        "code": "88014b",
+        "name": "High Roller's Table",
+        "subname": "Busy Night",
+        "text": "[action] Spend 4 resources: Discard the top 5 cards of the encounter deck and check their game icons. You may mulligan once. If all 5 cards have the same suit or a sequential rank, or if 4 cards have the same rank, gain 8 resources and remember that you \"won a cultist medallion.\"",
+        "traits": "Public. Casino. Game."
+    },
+    {
+        "code": "88015",
+        "flavor": "The sumptuous lounge area boasts culinary delights, a stage suitable for all manner of entertainment, and countless tables for conducting business - both legal and illicit.",
+        "name": "Casino Lounge",
+        "subname": "Calm Night",
+        "text": "[action] If there are no clues on Casino Lounge: Test [agility] (3). If you succeed, remember that you \"found a vent.\"",
+        "traits": "Public. Casino."
+    },
+    {
+        "code": "88015b",
+        "name": "Casino Lounge",
+        "subname": "Busy Night",
+        "text": "[action] If you \"found a vent,\" investigators at Casino Lounge spend 2 [per_investigator] clues, as a group: <b>Move.</b> Move to Guard Room. Then, reveal Staff Access Hallway if it has not already been revealed. Remember that \"the vent is open.\" (Group limit once per game.)\nWhile \"the vent is open,\" investigators may move from Casino Lounge to Guard Room as if they were connected, and vice versa.",
+        "traits": "Public. Casino."
+    },
+    {
+        "code": "88016",
+        "flavor": "\"Is this the way to the bathroom?\"",
+        "name": "Staff Access Hallway",
+        "text": "<b>Forced</b> - When Staff Access Hallway is revealed: Spawn Abarran Arrigorriagakoa <i>(Abarran Unleashed)</i> at Owner's Office. Shuffle the encounter discard pile and the set-aside <i>Fortune's Chosen</i> encounter set into the encounter deck.",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "The door to the restricted section of the casino beckons... but you must find a way through when no one is looking and the entrance is unguarded.",
+        "back_text": "As an additional cost to enter Staff Access Hallway, investigators at a connecting location must spend 4 [per_investigator] clues, as a group."
+    },
+    {
+        "code": "88017",
+        "name": "Security Office",
+        "text": "[action]: Choose 1, 2, or 3. Discard that many cards from the top of the encounter deck and check their game icons. If an icon matches the rank of an enemy in play, remember that you \"observed the staff.\" If the combined value of the discarded cards is 19 or higher, draw the top card in the encounter discard pile.",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "A sign on the door reads \"Security.\" You've heard from your sources that the staff has some means of monitoring the casino at all times. Perhaps whatever is behind this door provides the answer."
+    },
+    {
+        "code": "88018",
+        "name": "Guard Room",
+        "text": "[action] If all of the following are true, remember that you \"impersonated a guard:\"\n- There are no enemies at Guard Room.\n- There are no clues remaining on Guard Room.\n- An investigator \"obtained an employee uniform.\"",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "Through a crack in the door, you see a room filled with security uniforms and equipment."
+    },
+    {
+        "code": "88019",
+        "flavor": "Abarran's safe and desk drawers are locked. The far side of the office peers into the main hall of the casino through a false wall.",
+        "name": "Owner's Office",
+        "text": "X is equal to the highest alarm level among investigators at Owner's Office.\n[action] If there are no clues on Owner's Office: Remember that you \"found Abarran's sigil.\"",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "The placard next to the door reads \"Abarran Arrigorriagakoa.\" It's likely that important secrets and materials might be kept here... if only you could get in.",
+        "back_text": "The Owner's Office is locked. As an additional cost to enter Owner's Office, investigators at a connecting location must spend 2 [per_investigator] clues, as a group, unless an investigator \"stole Abarran's keys.\""
+    },
+    {
+        "code": "88020",
+        "name": "Counting Room",
+        "text": "[action] Investigators at Counting Room spend 10 [per_investigator] resources, as a group (5 [per_investigator] instead if you \"found a vent\"): Remember that you \"obtained a schematic.\"\n[reaction] After you successfully investigate Counting Room by 2 or more: Gain 2 resources. (Limit once per turn.)",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "The clinking of chips and coins emanates through the doorway of this room. You're not really here for money, though… right?"
+    },
+    {
+        "code": "88021",
+        "name": "Vault Door",
+        "text": "[action] <b>Move.</b> Discard the top card of the encounter deck and check its game icon (if an investigator \"obtained a schematic,\" you may mulligan up to two times):\n- Ifits suit is ♣ or ♠: Move to Guard Room.\n- If its suit is ♥: Move to Casino Lounge.\n- If its suit is ♦: Move to Baccarat Table.",
+        "traits": "Restricted. Casino.",
+        "back_flavor": "A massive steel door looms before you. Miniscule grooves run through it from top to bottom, seemingly acting as channels for the arcane energy that keeps it shut.",
+        "back_text": "The door to the casino vault is locked, guarded, and warded with magic. You cannot enter Vault Door unless you have completed at least 4 of the tasks on The Heist story card."
+    },
+    {
+        "code": "88022",
+        "name": "Relic Room",
+        "subname": "Sanctum of Fortune",
+        "text": "<b>Forced</b> - After Relic Room is revealed: Move all clues from The Wellspring of Fortune to Relic Room.\n[action] If there are no clues on Relic Room: Take control of The Wellspring of Fortune and attach it to your investigator card.",
+        "traits": "Restricted. Casino.",
+        "back_text": "You cannot enter Relic Room.\nVault Door gains: \"[action] Take 1 damage and 1 horror unless an investigator \"found Abarran's sigil\": Test [willpower] or [agility] (4). If you succeed, investigators at Vault Door may spend 4 [per_investigator] clues, as a group, to reveal Relic Room."
+    },
+    {
+        "code": "88023",
+        "name": "The Stakeout",
+        "text": "<b>Each of the following is a task that can be completed in <i>Fortune and Folly, Part I</i>:</b>\n □ An investigator \"found a vent.\"\n □ An investigator \"impersonated a high roller.\"\n □ An investigator \"convinced Isamara to participate in the heist.\"\n □ An investigator \"obtained an employee uniform.\"\n □ An investigator \"stole Abarran's keys.\"\n □ An investigator \"cleaned out the house.\"<hr><b>Forced</b> - When an investigator is eliminated <i>(by defeat or resignation)</i>: Place each of that investigator's clues on this story card, instead of placing them at their location.",
+        "back_name": "The Heist",
+        "back_text": "<b>Each of the following is a task that can be completed in <i>Fortune and Folly, Part II</i>:</b>\n □ An investigator \"won a cultist medallion.\"\n □ An investigator \"observed the staff.\"\n □ An investigator \"found Abarran's sigil.\"\n □ An investigator \"obtained a schematic.\"\n □ An investigator \"impersonated a guard.\"\n □ An investigator \"stayed out of sight.\"\n □ An investigator \"delivered a decoy package.\"\n □ \"Isamara mesmerized the guards with her song.\"\n<i>Hint: You must complete at least 4 of these tasks to unlock the vault door.</i>"
+    },
+    {
+        "code": "88024",
+        "name": "If the Uniform Fits…",
+        "text": "<blockquote><i>This casino employee looks like they are\nwearing a uniform in your size.</i></blockquote>\n[action]: <b>Fight.</b> Perform this attack only on the attached enemy. Test [combat] (3). If you succeed, attached enemy has been knocked out <i>(read the section below)</i>. If you fail, raise your alarm level by 1.\nIf attached enemy leaves play, remove this story card from the game.<hr><b>If attached enemy is knocked out:</b>\nRemember that you \"obtained an employee uniform.\"\nRaise your alarm level by 1 if another enemy is at your location or a connecting location.\nDiscard the attached enemy. Remove this story card from the game.",
+        "back_name": "Package Delivery",
+        "back_text": "<blockquote><i>You pass the package to the employee.</i></blockquote>\nThe attached enemy's patrol location changes to Vault Door. Attached enemy loses the [[Casino]] trait.\nIf attached enemy enters Vault Door, the package has been delivered <i>(read the section below)</i>.\nIf attached enemy leaves play, remove this story card from the game.<hr><b>If the package has been delivered:</b>\nChoose an investigator to search their deck for an [[Ally]] or [[Item]] asset and place it facedown beneath Vault Door. Remember that you \"delivered a decoy package.\"\nDiscard the attached enemy and attach this story card to Vault Door.\n[action]: Put the facedown asset beneath Vault Door into play under your control. Remove this story card from the game."
+    },
+    {
+        "code": "88025",
+        "name": "Fortune's Disfavor",
+        "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
+        "back_name": "Lights Out!",
+        "back_text": "<blockquote><i>Just as you are about to act, there is a sudden pop and a spark, and the casino plunges into total darkness. There are panicked whispers from all around. This seems like an unfortunately timed malfunction of some kind. Now you must find your way forward in the dark unless you can find a way to restore the power.</i></blockquote>\nPut this card into play next to the agenda deck. Place a damage token on each location.\nEach location with a damage token has no lights and gains: \"This location gets +1 shroud. As an additional cost to trigger an ability on this location, you must either spend an additional action or take 1 horror.\"\nWhile an investigator is at Security Office, they may perform the following action:\n[action]: Spend 1 [per_investigator] clues. Choose one -\n- Restore power to the main hall. Remove a damage token from each [[Public]] location.\n- Restore power to the staff area. Remove a damage token from each [[Restricted]] location."
+    },
+    {
+        "code": "88026",
+        "name": "Fortune's Disfavor",
+        "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
+        "back_name": "Unlikely Injuries",
+        "back_text": "<blockquote><i>What suddenly strikes the casino can only be described as a series of extremely unlikely and unfortunate mishaps. Glasses shatter, stray dice cause patrons to slip and fall, and chandeliers crash onto skulls.</i></blockquote>\nPut this card into play next to the agenda deck. One at a time, each investigator discards the top card of the encounter deck and checks its game icon. The following injury applies to that investigator for the remainder of the game:\n- If its suit is ♥: You are limited to one move action per turn.\n- If its suit is ♦: You are limited to one investigate action per turn.\n- If its suit is ♣: You are limited to one fight action per turn.\n- If its suit is ♠: You are limited to one activate action per turn.\n[free] Take 1 damage or 1 horror: Ignore the effects of your injury until the end of your turn. Any investigator may trigger this ability. (Limit once per turn.)"
+    },
+    {
+        "code": "88027",
+        "name": "Fortune's Disfavor",
+        "text": "<blockquote><i>Isamara warned you that the relic you seek possesses strange abilities that bring misfortune upon those who are not favored by its bearer. Perhaps, then, you should have factored a sudden turn of fortune into your plans. For, at this moment, in the midst of your high-stakes heist, everything is about to be turned upside-down...</i></blockquote>\nFlip this card over and resolve the text on its other side.",
+        "back_name": "Personal Entanglement",
+        "back_text": "<blockquote><i>You have learned that someone from your past works in this casino - what are the odds? Unfortunately, Abarran has learned of this connection as well. You have to rescue them before it's too late!</i></blockquote>\nAttach this story card to Owner's Office. This story card represents somebody connected to the lead investigator.\n[action] Investigators at Owner's Office spend 1 [per_investigator] clues, as a group: Remove this story card from the game.\n<b>Forced</b> - At the end of the enemy phase: Place 1 horror on this story card (2 horror instead if there is an enemy at Owner's Office).<hr><b>If there is 6 or more horror on this story card:</b>\nYou are too late. The lead investigator suffers 1 mental trauma. Each investigator takes 2 direct horror. Remove this story card from the game."
+    },
+    {
+        "code": "88028",
+        "flavor": "Who needs lockpicks when you have this smile?",
+        "name": "The Face",
+        "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location and test [willpower] or [intellect] (3). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
+        "traits": "Role. Unpracticed."
+    },
+    {
+        "code": "88028b",
+        "name": "The Face",
+        "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location or a connecting location and test [willpower] or [intellect] (2). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
+        "traits": "Role. Practiced."
+    },
+    {
+        "code": "88029",
+        "name": "The Muscle",
+        "text": "Cannot be discarded.\n[reaction] After you defeat a [[Casino]] enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other [[Casino]] enemies at your location or a connecting location).",
+        "traits": "Role. Unpracticed."
+    },
+    {
+        "code": "88029b",
+        "flavor": "Shh. Shhhhh. Go to sleep.",
+        "name": "The Muscle",
+        "text": "Cannot be discarded.\n[reaction] After you defeat a [[Casino]] enemy, exhaust The Muscle: Reduce your alarm level by 1 (2 instead if there are no other [[Casino]] enemies at your location).",
+        "traits": "Role. Practiced."
+    },
+    {
+        "code": "88030",
+        "name": "The Thief",
+        "text": "Cannot be discarded.\n[reaction] When a [[Casino]] enemy at a connecting location resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from \"clockwise\" to \"counterclockwise,\" or vice versa, for this move.",
+        "traits": "Role. Unpracticed."
+    },
+    {
+        "code": "88030b",
+        "name": "The Thief",
+        "text": "Cannot be discarded.\n[reaction] When a Casino enemy up to 2 locations away resolves its patrol keyword, exhaust The Thief: Change the patrol location of that enemy from \"clockwise\" to \"counterclockwise,\" or vice versa, for this move.",
+        "traits": "Role. Practiced."
+    },
+    {
+        "code": "88031",
+        "name": "The Grifter",
+        "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of a discarded game icon <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
+        "traits": "Role. Unpracticed."
+    },
+    {
+        "code": "88031b",
+        "name": "The Grifter",
+        "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of up to 2 discarded game icons <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
+        "traits": "Role. Practiced."
+    },
+    {
+        "code": "88032",
+        "name": "Isamara Ordoñez",
+        "subname": "Lounge Singer",
+        "text": "[action]: <b>Parley.</b> Test [willpower] (X), where X is the highest alarm level among the investigators. If you succeed, place 1 clue <i>(from the token pool)</i> on Isamara Ordoñez. Then, if there are 1 [per_investigator] clues on her, remember that you \"convinced Isamara to participate in the heist.\"",
+        "traits": "Ally. Casino. Inconspicuous."
+    },
+    {
+        "code": "88032b",
+        "name": "Isamara Ordoñez",
+        "subname": "Lounge Singer",
+        "text": "[action]: <b>Parley.</b> Take control of Isamara Ordoñez.\n[action]: If you control Isamara Ordoñez: <b>Parley.</b> Automatically evade all [[Casino]] enemies at your location. Then, test [willpower] (3). If you fail, lose 2 actions. If at least 1 enemy at a [[Restricted]] location was evaded by this effect, remember that \"Isamara mesmerized the guards with her song.\" (Group limit once per game.)",
+        "traits": "Ally. Casino. Crew."
+    },
+    {
+        "code": "88033",
+        "name": "Cash Cart",
+        "text": "[free]: Move Cash Cart to a connecting location.\n[reaction] When an enemy would engage you or enter your location: Deal 1 damage to Cash Cart. Until the end of the round, enemies at this location cannot engage you.\n<b>Forced</b> - When Cash Cart is defeated: Remember that you \"stayed out of sight.\" Remove Cash Cart from the game.",
+        "traits": "Casino."
+    },
+    {
+        "code": "88034a",
+        "name": "Abarran Arrigorriagakoa",
+        "subname": "The Man with the Ruby Ring",
+        "text": "Aloof. Patrol (clockwise).\n<b>Forced</b> - When you engage Abarran Arrigorriagakoa: Immediately advance the agenda.\n[action]: Test [agility](3). If you fail, raise your alarm level by 1. If you succeed, discard the top card of the encounter deck and check its game icon. If its color is red, remember that you \"stole Abarran's keys.\"\n♦A",
+        "traits": "Humanoid. Casino. Coterie. Elite."
+    },
+    {
+        "code": "88034b",
+        "name": "Abarran Arrigorriagakoa",
+        "subname": "Abarran Unleashed",
+        "text": "While an investigator's alarm level is 5 or higher, Abarran Arrigorriagakoa gains hunter.\n<b>Forced</b> - When you deal 1 or more damage to Abarran Arrigorriagakoa, if he is ready: Discard the top card of the encounter deck and check its game icon. If its suit is ♦, Abarran attacks you.\n♦A",
+        "traits": "Humanoid. Casino. Coterie. Elite."
+    },
+    {
+        "code": "88035a",
+        "flavor": "I need to talk to you for a moment.",
+        "name": "Casino Guard",
+        "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♣Q",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88035b",
+        "flavor": "I need to talk to you for a moment.",
+        "name": "Casino Guard",
+        "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♣J",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88035c",
+        "flavor": "I need to talk to you for a moment.",
+        "name": "Casino Guard",
+        "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - High Roller's Table or Guard Room (whichever is nearest to you).\n<b>Forced</b> - After you raise your alarm level while at Casino Guard's location: Take 1 damage.\n♥10",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88036a",
+        "flavor": "Would you like to stay or hit?",
+        "name": "House Dealer",
+        "text": "Aloof. Patrol (clockwise).\nWhile House Dealer is ready, each ability on its location costs an additional action to trigger.\n♥9",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88036b",
+        "flavor": "Would you like to stay or hit?",
+        "name": "House Dealer",
+        "text": "Aloof. Patrol (counterclockwise).\nWhile House Dealer is ready, each ability on its location costs an additional action to trigger.\n♣9",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037a",
+        "name": "Security Patrol",
+        "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♥Q",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037b",
+        "name": "Security Patrol",
+        "text": "Aloof. Patrol (clockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♥J",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037c",
+        "name": "Security Patrol",
+        "text": "Aloof. Patrol (counterclockwise).\n<b>Spawn</b> - Casino Lounge or Security Office (whichever is nearest to you).\n<b>Forced</b> - After Security Patrol moves to your location during the enemy phase: Raise your alarm level by 1.\n♣10",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88038a",
+        "name": "Inconvenient Questioning",
+        "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♠9",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88038b",
+        "name": "Inconvenient Questioning",
+        "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♦9",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88038c",
+        "name": "Inconvenient Questioning",
+        "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♠8",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88038d",
+        "name": "Inconvenient Questioning",
+        "text": "<b>Revelation</b> - If there are no non-unique [[Casino]] enemies in play, Inconvenient Questioning gains surge. Otherwise, the nearest non-unique [[Casino]] enemy moves once toward you, and you test [intellect] (3). If you fail, raise your alarm level by 1 and each non-unique [[Casino]] enemy at your location loses aloof until the end of this round.\n♦8",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88039a",
+        "name": "Arcane Spotlight",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠Q",
+        "traits": "Hex. Obstacle."
+    },
+    {
+        "code": "88039b",
+        "name": "Arcane Spotlight",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠J",
+        "traits": "Hex. Obstacle."
+    },
+    {
+        "code": "88039c",
+        "name": "Arcane Spotlight",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Arcane Spotlight attached.\n<b>Forced</b> - After you enter attached location: Raise your alarm level by 1.\n<b>Forced</b> - At the end of the round: Each investigator at attached location raises their alarm level by 1. Discard Arcane Spotlight.\n♠10",
+        "traits": "Hex. Obstacle."
+    },
+    {
+        "code": "88040a",
+        "name": "Avarice Calls",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦Q",
+        "traits": "Curse."
+    },
+    {
+        "code": "88040b",
+        "name": "Avarice Calls",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦J",
+        "traits": "Curse."
+    },
+    {
+        "code": "88040c",
+        "name": "Avarice Calls",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Take 2 horror.\n- Test [willpower] (X), where X is half your alarm level (rounded up). If you succeed, gain 2 resources. If you fail, take 2 horror and raise your alarm level by 1.\n♦10",
+        "traits": "Curse."
+    },
+    {
+        "code": "88041a",
+        "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
+        "name": "Suspicious Gaze",
+        "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♣8",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88041b",
+        "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
+        "name": "Suspicious Gaze",
+        "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♠7",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88041c",
+        "flavor": "Are they watching you or somebody else? All the same, might be better to get lost in the crowd.",
+        "name": "Suspicious Gaze",
+        "text": "<b>Revelation</b> - Test [agility] (3). If you fail, you must either take damage equal to half your alarm level (rounded up), or raise your alarm level by 1.\n♣7",
+        "traits": "Scheme."
+    },
+    {
+        "code": "88042a",
+        "name": "Obsessed Gambler",
+        "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♥8",
+        "traits": "Terror."
+    },
+    {
+        "code": "88042b",
+        "name": "Obsessed Gambler",
+        "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♦7",
+        "traits": "Terror."
+    },
+    {
+        "code": "88042c",
+        "name": "Obsessed Gambler",
+        "text": "<b>Revelation</b> - Put Obsessed Gambler into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - At the end of your turn: Take 1 horror if you did not gain resources this turn. Test [willpower] (3). If you succeed, discard Obsessed Gambler.\n♥7",
+        "traits": "Terror."
+    },
+    {
+        "code": "88043",
+        "name": "Deck of Possibilities",
+        "subname": "Tychokinetic Implement",
+        "text": "Permanent.\n[action]: Draw the top card of the possibilities deck. Flip this card over and consult the list on its other side to resolve its effect. Remove the drawn card from the possibilities deck for the remainder of the campaign. (Limit once per game.)",
+        "traits": "Item. Relic."
+    },
+    {
+        "code": "88043b",
+        "name": "Deck of Possibilities",
+        "text": "- J♠: <b>The Prayer.</b> Nothing happens.\n- J♥: <b>The Wind.</b> You may take an additional 3 actions this turn.\n- J♦: <b>The Chest.</b> Gain 10 resources.\n- J♣: <b>The Tome.</b> Choose 2 different skills. You get +1 to each of those skills for the remainder of the game.\n- Q♦: <b>The Champion.</b> Select an [[Ally]] asset from among your collection and put it into play <i>(for the remainder of the game)</i>.\n- Q♠: <b>The Sword.</b> Select an [[Item]] asset from among your collection and put it into play <i>(for the remainder of the game)</i>.\n- K♥: <b>The Lifeblood.</b> Heal all damage and horror on your investigator.\n- K♣: <b>The Lamp.</b> Choose a non-[[Elite]] enemy or treachery in play. That card ceases to exist (remove it from the game).\n- A♠: <b>The Evil Eye.</b> For the remainder of the game, treat each [elder_sign] you reveal on a chaos token as an [auto_fail]."
+    },
+    {
+        "code": "88044",
+        "name": "Isamara Ordoñez",
+        "subname": "The Torch Singer",
+        "text": "You get +1 [willpower].\nDuring the upkeep phase, you may choose to not ready Isamara Ordoñez.\n[fast] Exhaust Isamara Ordoñez and deal 1 horror to her: Choose a non-[[Elite]] enemy at your location or a connecting location. That enemy cannot move until Isamara Ordoñez readies or leaves play.",
+        "traits": "Ally. Performer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "88045",
+        "flavor": "File #93-♠ / Subject Class: Yellow / Subject appears as small coin, 34 mm in diameter, of unidentified metal.",
+        "name": "Wellspring of Fortune",
+        "subname": "Symbol of Providence",
+        "text": "<b>Shift</b> - During the next skill test performed this round, the performing investigator reveals an additional chaos token, chooses one to resolve, and ignores the other. Flip this key to its [[Unstable]] side.",
+        "traits": "Stable."
+    },
+    {
+        "code": "88045b",
+        "flavor": "... pertains to no known civilization or currency.",
+        "name": "Wellspring of Fortune",
+        "subname": "Symbol of Providence",
+        "text": "<b>Shift</b> - During the next skill test performed this round, the performing investigator reveals an additional chaos token <i>(resolve both)</i>. Then, if an investigator triggered this ability, flip this key to its [[Stable]] side.",
+        "traits": "Unstable."
+    },
+    {
+        "code": "88046a",
+        "name": "Fortune's Shield",
+        "text": "Patrol (counterclockwise). Retaliate.\n<b>Forced</b> - When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is ♥, cancel 1 of that damage.\n♠K",
+        "traits": "Humanoid. Casino. Cultist."
+    },
+    {
+        "code": "88046b",
+        "name": "Fortune's Shield",
+        "text": "Patrol (clockwise). Retaliate.\n<b>Forced</b> - When you would deal 1 or more damage to Fortune's Shield: Discard the top card of the encounter deck and check its game icon. If its suit is ♥, cancel 1 of that damage.\n♥K",
+        "traits": "Humanoid. Casino. Cultist."
+    },
+    {
+        "code": "88047a",
+        "name": "Fortune's Dagger",
+        "text": "Patrol (counterclockwise). Retaliate.\n<b>Forced</b> - When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the ♣ suit, this attack deals +1 damage.\n♣K",
+        "traits": "Humanoid. Casino. Cultist."
+    },
+    {
+        "code": "88047b",
+        "name": "Fortune's Dagger",
+        "text": "Patrol (clockwise). Retaliate.\n<b>Forced</b> - When Fortune's Dagger attacks you: Discard the top 2 cards of the encounter deck and check their game icons. For each card that has the ♣ suit, this attack deals +1 damage.\n♦K",
+        "traits": "Humanoid. Casino. Cultist."
+    },
+    {
+        "code": "88048",
+        "name": "Dimensional Shambler",
+        "subname": "Hunter from Beyond",
+        "text": "Hunter.\n<b>Forced</b> - After any investigator performs the same type of action twice in a row during the same phase, if Dimensional Shambler is ready and unengaged: Move it once toward that investigator. (Limit once per turn.)\n♠A",
+        "traits": "Monster. Extradimensional. Elite."
+    },
+    {
+        "code": "88049a",
+        "name": "Dimensional Duplicator",
+        "text": "Hunter.\n<b>Forced</b> - After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged with you. Treat this card as an [[Extradimensional]] enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it.\n♠6",
+        "traits": "Monster. Extradimensional."
+    },
+    {
+        "code": "88049b",
+        "name": "Dimensional Duplicator",
+        "text": "Hunter.\n<b>Forced</b> - After you deal 1 or more damage to Dimensional Duplicator: Put the top card of your deck into play facedown, engaged with you. Treat this card as an [[Extradimensional]] enemy with 1 fight, 1 health, 1 evade, 1 damage, and 1 horror. If that enemy disengages from you, discard it.\n♣6",
+        "traits": "Monster. Extradimensional."
+    },
+    {
+        "code": "88050a",
+        "name": "Dimensional Displacer",
+        "text": "Hunter. Retaliate.\n<b>Spawn</b> - Discard the nearest non-unique [[Casino]] enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)\n♦6",
+        "traits": "Monster. Extradimensional."
+    },
+    {
+        "code": "88050b",
+        "name": "Dimensional Displacer",
+        "text": "Hunter. Retaliate.\n<b>Spawn</b> - Discard the nearest non-unique [[Casino]] enemy without an encounter card attached to it. Spawn Dimensional Displacer at that location. (If there are no such enemies in play, instead discard Dimensional Displacer and it gains surge.)\n♥6",
+        "traits": "Monster. Extradimensional."
+    },
+    {
+        "code": "88051a",
+        "name": "Dimensional Hypnosis",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♠5",
+        "traits": "Terror."
+    },
+    {
+        "code": "88051b",
+        "name": "Dimensional Hypnosis",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♣5",
+        "traits": "Terror."
+    },
+    {
+        "code": "88051c",
+        "name": "Dimensional Hypnosis",
+        "text": "<b>Revelation</b> - Attach to the nearest location without a copy of Dimensional Hypnosis attached.\nAs an additional cost for you to leave attached location, test [willpower] (3). If you fail, cancel the effects of the move, move the nearest [[Extradimensional]] enemy once toward you, and discard Dimensional Hypnosis.\n♠4",
+        "traits": "Terror."
+    },
+    {
+        "code": "88052a",
+        "name": "Grip of the Beyond",
+        "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♦5",
+        "traits": "Hazard."
+    },
+    {
+        "code": "88052b",
+        "name": "Grip of the Beyond",
+        "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♥5",
+        "traits": "Hazard."
+    },
+    {
+        "code": "88052c",
+        "name": "Grip of the Beyond",
+        "text": "<b>Revelation</b> - Put Grip of the Beyond into play in your threat area.\n<b>Forced</b> - At the end of your turn: Take 2 damage. Reduce this damage by 1 for each time you moved this turn. Discard Grip of the Beyond.\n♦4",
+        "traits": "Hazard."
+    },
+    {
+        "code": "88053a",
+        "name": "Hunter's Hunger",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Discard an [[Ally]] asset you control. Each other investigator takes 1 horror.\n- Test [agility] (3). If you fail, take 1 direct damage and 1 direct horror.\n♣4",
+        "traits": "Hazard."
+    },
+    {
+        "code": "88053b",
+        "name": "Hunter's Hunger",
+        "text": "Peril.\n<b>Revelation</b> - You must either (choose one):\n- Discard an [[Ally]] asset you control. Each other investigator takes 1 horror.\n- Test [agility] (3). If you fail, take 1 direct damage and 1 direct horror.\n♥4",
+        "traits": "Hazard."
+    }
+]
