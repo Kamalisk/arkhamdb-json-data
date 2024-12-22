@@ -176,12 +176,12 @@
                     "max": 5
                 }
             },
-            { 
-                "trait": ["insight"], 
+            {
+                "trait": ["insight"],
                 "type": ["event"],
-                "level": { 
-                    "min": 0, 
-                    "max": 3 
+                "level": {
+                    "min": 0,
+                    "max": 3
                 }
             },
             {
@@ -226,12 +226,12 @@
                     "max": 5
                 }
             },
-            { 
-                "trait": ["spell"], 
+            {
+                "trait": ["spell"],
                 "type": ["event"],
-                "level": { 
-                    "min": 0, 
-                    "max": 3 
+                "level": {
+                    "min": 0,
+                    "max": 3
                 }
             },
             {
@@ -491,6 +491,25 @@
         "xp": 1
     },
     {
+        "code": "11035",
+        "deck_limit": 1,
+        "pack_code": "tdcp",
+        "position": 35,
+        "quantity": 1,
+        "cost": 3,
+        "faction_code": "seeker",
+        "illustrator": "Yoann Boissonnet",
+        "is_unique": true,
+        "name": "Dial of Ancients",
+        "skill_intellect": 1,
+        "slot": "Accessory",
+        "subname": "Unidentified",
+        "text": "Limit 1 per deck. Uses (0 charges).\n[reaction] After an enemy at your location is evaded: Place 1 charge on Dial of Ancients. Then, if there are 4 or more charges on Dial of Ancients, record in your campaign log that \"you have calculated the day of reckoning.\"",
+        "traits": "Item. Relic. Cursed.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "11037",
         "cost": 2,
         "deck_limit": 2,
@@ -522,6 +541,66 @@
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
+    },
+    {
+        "code": "11046",
+        "deck_limit": 1,
+        "pack_code": "tdcp",
+        "position": 46,
+        "quantity": 1,
+        "cost": 3,
+        "faction_code": "seeker",
+        "illustrator": "Yoann Boissonnet",
+        "is_unique": true,
+        "name": "Dial of Ancients",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "slot": "Accessory",
+        "subname": "Signs of Cataclysm",
+        "text": "Researched. Limit 1 per deck. Uses (4 charges).\n[reaction] When an investigator fails a skill test at your location, exhaust Dial of Ancients: Seal 1 chaos token revealed during that test on Dial of Ancients.\n<b>Forced</b> - When the round ends: For each chaos token sealed here, you must spend 1 charge or release that token.",
+        "traits": "Item. Relic. Cursed.",
+        "type_code": "asset",
+        "xp": 4
+    },
+    {
+        "code": "11047",
+        "deck_limit": 1,
+        "pack_code": "tdcp",
+        "position": 47,
+        "quantity": 1,
+        "cost": 3,
+        "faction_code": "seeker",
+        "illustrator": "Yoann Boissonnet",
+        "is_unique": true,
+        "name": "Dial of Ancients",
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "slot": "Accessory",
+        "subname": "Signs of Aberration",
+        "text": "Researched. Limit 1 per deck. Uses (4 charges).\n[action]: <b>Fight/Evade.</b> When you reveal a chaos token during this attack or evasion attempt, you may spend 1 charge to cancel that token, return it to the bag, and reveal a new one. You may do this any number of times. If this test succeeds, deal 1 damage to the targeted enemy.",
+        "traits": "Item. Relic. Cursed.",
+        "type_code": "asset",
+        "xp": 4
+    },
+    {
+        "code": "11048",
+        "deck_limit": 1,
+        "pack_code": "tdcp",
+        "position": 48,
+        "quantity": 1,
+        "cost": 3,
+        "faction_code": "seeker",
+        "illustrator": "Yoann Boissonnet",
+        "is_unique": true,
+        "name": "Dial of Ancients",
+        "skill_willpower": 1,
+        "skill_wild": 1,
+        "slot": "Accessory",
+        "subname": "Signs of Revelation",
+        "text": "Researched. Limit 1 per deck. Uses (4 charges).\n[fast] During your turn, exhaust Dial of Ancients and spend 1 charge: <b>Investigate.</b> When revealing chaos tokens for this test, reveal X additional tokens, where X is the number of enemies at your location. Choose 1 of the revealed tokens to resolve and ignore the rest.",
+        "traits": "Item. Relic. Cursed.",
+        "type_code": "asset",
+        "xp": 4
     },
     {
         "code": "11050",
