@@ -90,20 +90,27 @@
         "type_code": "treachery"
     },
     {
-        "back_flavor": "<b>This is placeholder back text until the card is revealed.</b>",
-        "back_text": "<b>This is placeholder back text until the card is revealed.</b>",
+        "back_flavor": "A Southern transplant raised in New York, Lucius has made quite a name for himself writing dreamy poetry alongside the intellectuals, artists, and musicians of Harlem. What his contemporaries don't know is that the hazy underwater city Lucius describes is inspired not by New York, but by the nightmarish dreams of his missing partner, Rudi. Before he disappeared, Rudi spoke of a cabal of fellow dreamers in Arkham who shared these unsettling visions. Now, Lucius has taken on the role of guest lecturer at Miskatonic University as he searches for his lost lover, and perhaps the source of his own horrifying dreams...",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Book of Verse, Dreams of the Flood, 1 random basic weakness.",
         "code": "11004",
         "deck_limit": 1,
         "deck_options": [
             {
-                "faction": ["neutral"],
+                "faction": ["seeker", "neutral"],
                 "level": {
                     "min": 0,
                     "max": 5
                 }
+            },
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "min": 0,
+                    "max": 2
+                }
             }
         ],
-        "deck_requirements": "",
+        "deck_requirements": "size:30, card:11005, card:11006, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "seeker",
         "flavor": "\"I'm just glad all my dreams have stayed in my head.\"",
@@ -123,6 +130,38 @@
         "text": "[reaction] After you successfully evade an enemy by 2 or more: Discover 1 clue at your location. (Limit once per round.)\n[elder_sign] effect: +1 for each enemy at your location.",
         "traits": "Scholar. Dreamer.",
         "type_code": "investigator"
+    },
+    {
+        "code": "11005",
+        "cost": 2,
+        "faction_code": "neutral",
+        "illustrator": "Pixoloid Studios",
+        "is_unique": true,
+        "name": "Book of Verse",
+        "pack_code": "tdcp",
+        "position": 5,
+        "quantity": 1,
+        "restrictions": "investigator:11004",
+        "skill_wild": 2,
+        "subname": "Un-Commonplace Book",
+        "text": "Lucius Galloway deck only.\nUses (1 inspiration). Replenish this inspiration the first time you discover a clue each round.\n[reaction] After revealing chaos tokens during a skill test, spend 1 inspiration: You get +1 skill value for this skill test. If you succeed by exactly 0, draw 1 card.",
+        "traits": "Item. Tome.",
+        "type_code": "asset"
+    },
+    {
+        "code": "11006",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Fergus Duggan",
+        "name": "Dreams of the Flood",
+        "pack_code": "tdcp",
+        "position": 6,
+        "quantity": 1,
+        "restrictions": "investigator:11004",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Put Dreams of the Flood into play in your threat area.\n<b>Forced</b> - The first time you discover 1 or more clues during your turn: Take 1 horror and shuffle Dreams of the Flood into your deck.",
+        "traits": "Omen. Endtimes.",
+        "type_code": "treachery"
     },
     {
         "back_flavor": "With degrees in Mathematics and Psychology, Agatha Crane has always placed a premium on evidence-based science. In her youth, she cared little for ghost stories, but mounting evidence has led Agatha to conclude that there is an unmistakable truth to the tales of monsters and magic that permeate Arkham's history. If these things are real, then they must obey consistent rules. As she will explain to anyone who listens for long enough—and as her husband Wilbur has heard many times—this new field of study is called \"parapsychology.\" With tried-and-true scientific methods, Agatha seeks to bridge the gap between the mystic and the rational, between occultism and science.",
