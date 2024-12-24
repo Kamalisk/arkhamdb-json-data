@@ -229,10 +229,13 @@
     },
     {
         "code": "10524",
+		"name": "La casa depredadora",
+        "text": "Prepara una bolsa aparte que contenga las siguientes fichas: [cultist], [tablet] y [elder_thing] (si no tienes una segunda bolsa, emplea un cubilete, una taza o cualquier otro recipiente opaco). Ésta es la bolsa de depredación, y las fichas son fichas de depredación en lugar de ser fichas de Caos.\nA continuación, añade las siguientes fichas a la bolsa de depredación en función del día actual:\n-<b>Día 1</b>: Añade [cultist], [cultist] a la bolsa de depredación.\n-<b>Día 2</b>: Añade [cultist] a la bolsa de depredación.\n-<b>Día 3</b>: No hay cambios.\nAlgunas capacidades indicarán a los jugadores que realicen una prueba de depredación. Una prueba de depredación puede hacer que la casa cobre vida y ataque a los investigadores. Para resolver una prueba de depredación, revela una ficha aleatoria de la bolsa de depredación y resuelve los efectos de dicha ficha siguiendo las indicaciones del otro lado de esta carta.\bDale la vuelta a esta carta y colócala junto a la carta de referencia de escenario."
+    },
+    {
+        "code": "10524b",
         "name": "Prueba de depredación",
-        "text": "<i>Usa estos resultados únicamente al revelar fichas de la bolsa de depredación.<i>\n[cultist]: Pon aparte esta ficha.\n[tablet]: Cada Lugar-Enemigo ataca a cada investigador que esté en ese Lugar. Si no se ha realizado ningún ataque por este efecto, el investigador jefe roba la primera carta del mazo de Encuentros. Devuelve esta ficha y todas las fichas puestas aparte a la bolsa de depredación.\n[elder_thing]: Pon aparte esta ficha. Busca el Lugar [[Letargo]] no sellado más cercano al investigador jefe. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo.",
-		"back_name": "La casa depredadora",
-        "back_text": "Prepara una bolsa aparte que contenga las siguientes fichas: [cultist], [tablet] y [elder_thing] (si no tienes una segunda bolsa, emplea un cubilete, una taza o cualquier otro recipiente opaco). Ésta es la bolsa de depredación, y las fichas son fichas de depredación en lugar de ser fichas de Caos.\nA continuación, añade las siguientes fichas a la bolsa de depredación en función del día actual:\n-<b>Día 1</b>: Añade [cultist], [cultist] a la bolsa de depredación.\n-<b>Día 2</b>: Añade [cultist] a la bolsa de depredación.\n-<b>Día 3</b>: No hay cambios.\nAlgunas capacidades indicarán a los jugadores que realicen una prueba de depredación. Una prueba de depredación puede hacer que la casa cobre vida y ataque a los investigadores. Para resolver una prueba de depredación, revela una ficha aleatoria de la bolsa de depredación y resuelve los efectos de dicha ficha siguiendo las indicaciones del otro lado de esta carta.\bDale la vuelta a esta carta y colócala junto a la carta de referencia de escenario."
+        "text": "<i>Usa estos resultados únicamente al revelar fichas de la bolsa de depredación.<i>\n[cultist]: Pon aparte esta ficha.\n[tablet]: Cada Lugar-Enemigo ataca a cada investigador que esté en ese Lugar. Si no se ha realizado ningún ataque por este efecto, el investigador jefe roba la primera carta del mazo de Encuentros. Devuelve esta ficha y todas las fichas puestas aparte a la bolsa de depredación.\n[elder_thing]: Pon aparte esta ficha. Busca el Lugar [[Letargo]] no sellado más cercano al investigador jefe. Dale la vuelta a ese Lugar para mostrar su lado de Lugar-Enemigo."
     },
     {
         "code": "10525",
@@ -753,7 +756,7 @@
 		"traits": "Cueva. Guarida. Oscuro."
     },
 	{
-        "code": "10583",
+        "code": "10583a",
         "name": "Híbrido límulo [day]",
         "subname": "En la luz",
         "text": "Escurridizo. Descomunal.\nEl Híbrido límulo recibe +3 de salud [per_investigator] y no puede realizar ataques de oportunidad.\n<b>Obligado</b> - Después de que el Híbrido límulo se dé la vuelta a este lado: Inflígele 1 punto de daño [per_investigator].",
@@ -767,7 +770,7 @@
 		"traits": "Monstruo. Abominación. Élite."
     },
 	{
-        "code": "10584",
+        "code": "10584a",
         "name": "Híbrido crustáceo [day]",
         "subname": "En la luz",
         "text": "Escurridizo. Cazador.\nEl Híbrido crustáceo recibe +X de salud, donde X es el número del día actual.\n<b>Obligado</b> - Cuando el Híbrido crustáceo fuese a recibir daño de un ataque: Reduce ese daño a 1.",
@@ -994,7 +997,7 @@
 		"back_flavor": "El bosque se os echa encima, y el aire se llena con el sonido de fauces babeantes y colmillos que rechinan. Un aullido enfermizo sale de entre la maleza, y el sonido familiar de una tos jadeante y seca anuncia la llegada del oso."
     },	
     {
-        "code": "10610",
+        "code": "10610a",
         "name": "Farol del Valle",
         "subname": "Faro de esperanza",
         "text": "El Lugar del Farol del Valle y todos los Lugares conectados pierden el rasgo [[Oscuro]].\n[reaction] Cuando un investigador que esté en tu Lugar se mueva a y revele un Lugar Bosque, agota el Farol del Valle: ignora el o los efectos Obligado de ese Lugar.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, dale la vuelta y colócalo en el Lugar más cercano.",
@@ -1008,7 +1011,7 @@
 		"traits": "Objeto. Herramienta. Apagado. Ayuda."
     },	
     {
-        "code": "10611",
+        "code": "10611a",
         "name": "Farol del Valle",
         "subname": "Una leve esperanza",
         "text": "El Lugar del Farol del Valle pierde el rasgo [[Oscuro]].\n[action] Agota el Farol del Valle: Mira el lado revelado de un Lugar conectado. Puedes moverte a ese Lugar, ignorando sus efectos de Obligado.\n<b>Obligado</b> - Cuando el Farol del Valle fuese a abandonar el juego: en vez de eso, dale la vuelta y colócalo en el Lugar más cercano.",
@@ -1299,9 +1302,23 @@
 		"traits": "Criatura. Monstruo. Mutado."
     },	
     {
-        "code": "10645",
+        "code": "10645a",
         "name": "Híbrido lupino",
         "text": "<b>Aparición</b> - Campo exterior (norte).\nRepresalia. Errante (La granja).\n<>Obligado</b> - Después del que el Híbrido lupino ataque: Cúrale 1 punto de daño.",
+		"flavor": "…extrañamente, no aullaban. Se reían.\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Criatura. Monstruo. Mutado. Élite."
+    },	
+    {
+        "code": "10645b",
+        "name": "Híbrido lupino",
+        "text": "<b>Aparición</b> - Campo exterior (este).\nRepresalia. Errante (La granja).\n<>Obligado</b> - Después del que el Híbrido lupino ataque: Cúrale 1 punto de daño.",
+		"flavor": "…extrañamente, no aullaban. Se reían.\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
+		"traits": "Criatura. Monstruo. Mutado. Élite."
+    },	
+    {
+        "code": "10645c",
+        "name": "Híbrido lupino",
+        "text": "<b>Aparición</b> - Campo exterior (sur).\nRepresalia. Errante (La granja).\n<>Obligado</b> - Después del que el Híbrido lupino ataque: Cúrale 1 punto de daño.",
 		"flavor": "…extrañamente, no aullaban. Se reían.\n-<u>Dra. Rosa Marquez</u>, Estudio de Miskatonic, 1926",
 		"traits": "Criatura. Monstruo. Mutado. Élite."
     },	
@@ -1313,9 +1330,21 @@
 		"traits": "Criatura. Monstruo. Mutado. Élite."
     },	
     {
-        "code": "10647",
+        "code": "10647a",
         "name": "Híbrido equino",
         "text": "<b>Aparición</b> - Campo exterior (norte).\nErrante (La granja).\nEl Híbrido equino ignora trampas.\n<b>Obligado</b> - Cuando el Híbrido equino fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10647b",
+        "name": "Híbrido equino",
+        "text": "<b>Aparición</b> - Campo exterior (este).\nErrante (La granja).\nEl Híbrido equino ignora trampas.\n<b>Obligado</b> - Cuando el Híbrido equino fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
+		"traits": "Criatura. Monstruo. Mutado."
+    },	
+    {
+        "code": "10647c",
+        "name": "Híbrido equino",
+        "text": "<b>Aparición</b> - Campo exterior (oeste).\nErrante (La granja).\nEl Híbrido equino ignora trampas.\n<b>Obligado</b> - Cuando el Híbrido equino fuese a recibir cualquier cantidad de daño: Reduce esa cantidad a 1.",
 		"traits": "Criatura. Monstruo. Mutado."
     },	
     {
@@ -1439,7 +1468,7 @@
 		"traits": "Estado. Innato."
     },
 	{
-		"code": "10662",
+		"code": "10662a",
         "name": "Emisario cósmico",
         "subname": "El abismo",
         "text": "Descomunal.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
@@ -1453,7 +1482,7 @@
 		"traits": "Emisario. Destrozado. Élite."
     },
 	{
-		"code": "10663",
+		"code": "10663a",
         "name": "Emisario cósmico",
         "subname": "La aparición",
         "text": "Descomunal. Represalia.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
@@ -1467,7 +1496,7 @@
 		"traits": "Emisario. Destrozado. Élite."
     },
 	{
-		"code": "10664",
+		"code": "10664a",
         "name": "Emisario cósmico",
         "subname": "La miasma",
         "text": "Descomunal. Alerta.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
@@ -1481,7 +1510,7 @@
 		"traits": "Emisario. Destrozado. Élite."
     },
 	{
-		"code": "10665",
+		"code": "10665a",
         "name": "Emisario cósmico",
         "subname": "El brillo",
         "text": "Descomunal.\nNo puede realizar ataques de oportunidad.\n<b>Obligado</b> - Cuando combatas o evites con éxito a este Enemigo: En lugar de hacerle daño o agotarlo, este Enemigo no ataca durante la fase de Enemigos de esta ronda.",
@@ -1532,6 +1561,12 @@
         "text": "<b>Obligado</b> - Cuando entres en El abismo, si hay cartas en El abismo: <b>Mueres</b>.\nDurante la fase de Enemigos, todos los Enemigos [[Destrozado]] que estén en El abismo pierden Indiferente.\nEl abismo siempre cubre la parte superior del mazo de El abismo.",
 		"back_text": "El Nido de espejos está conectado al Lugar que esté inmediatamente después en el sentido de las agujas del reloj y en el sentido contrario a las agujas del reloj.",
 		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnocson seneiuq",
+		"traits": "Extradimensional. Destrozado."
+    },
+	{
+		"code": "10670b",
+        "name": "El abismo",
+		"back_flavor": "osonimul ,otcefrep aíd ese ne los etnallirb le arE .los le are oY son y abreih atla al ne óidnet es odnum le odoT . onelp y ne ojih son y ólbah alle y ,nóisnecsa narg al arap somaraperp …etnemlaer somaré senéiuq ,somaíritrevnoc son seneiuq",
 		"traits": "Extradimensional. Destrozado."
     },
 	{
@@ -1867,7 +1902,7 @@
         "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el número del día en curso más 1.\n[cultist]: -1. Si esta prueba es un intento de negociar, en vez de eso trata el modificador de esta ficha como +1.\n[tablet]: -4. Si tienes menos de 2 cartas en la mano, en vez de eso trata el modificador de esta ficha como -2.\n[elder_thing]: -3. Si esta prueba es un intento de negociar, revela otra ficha."
     },
     {
-        "code": "10705",
+        "code": "10705a",
         "name": "Pensión",
 		"subname": "Día [day]",
         "text": "[action]: Preguntas por ahí sobre el Valle ([codex]9).\n[action]: Cúrate 1 punto de daño o 1 punto de horror. Límite de una vez por partida.",
@@ -1882,7 +1917,7 @@
         "traits": "Valle de la Cicuta."
     },
     {
-        "code": "10706",
+        "code": "10706a",
         "name": "El cruce de caminos",
 		"subname": "Día [day]",
         "text": "[action]: Preguntas a los lugareños sobre el Valle ([codex]10).\n[free]: Si hay exactamente 1 o 2 investigadores en la partida, durante tu turno: <b>Movimiento</b> (<i>a un Lugar conectado</i>). Límite de grupo de una vez por ronda.",
@@ -1897,7 +1932,7 @@
         "traits": "Valle de la Cicuta. Central."
     },
     {
-        "code": "10707",
+        "code": "10707a",
         "name": "Capilla Cicuta",
 		"subname": "Día [day]",
         "text": "[action]: te acercas a la capilla totalmente cubierta de vegetación que hay en lo alto de la colina ([codex]11).\n[action]: Busca entre las 9 primeras cartas de tu mazo una carta [[Hechizo]] y róbala. Baraja tu mazo. Límite de una vez por partida.",
@@ -1912,7 +1947,7 @@
         "traits": "Valle de la Cicuta."
     },
     {
-        "code": "10708",
+        "code": "10708a",
         "name": "El viejo molino",
         "subname": "Día [day]",
         "text": "[reaction] Después de que descubras una pista en El viejo molino ([codex]12).",
@@ -1927,7 +1962,7 @@
 		"traits": "Valle de la Cicuta."
    },
     {
-        "code": "10709",
+        "code": "10709a",
         "name": "La Casa Atwood",
         "subname": "Día [day]",
         "text": "[action]: Te acercas a la antigua mansión ([codex]13).",
@@ -1942,7 +1977,7 @@
 		"traits": "Valle de la Cicuta."
    },
     {
-        "code": "10710",
+        "code": "10710a",
         "name": "Almacén general de Tad",
         "subname": "Día [day]",
         "text": "[action]: <b>Negociar</b>. Regateas por algunos productos y charlas con los parroquianos ([codex]14).",
@@ -1958,7 +1993,7 @@
 		"traits": "Valle de la Cicuta."
    },
     {
-        "code": "10711",
+        "code": "10711a",
         "name": "Escuela del Valle",
         "subname": "Día [day]",
         "text": "[action]: Echas un vistazo a la biblioteca de la escuela ([codex]15).\n[action]: Busca en tu mazo un Apoyo [[Tomo]] y róbalo. Baraja tu mazo. Límite de una vez por partida.",
@@ -1974,7 +2009,7 @@
 		"traits": "Valle de la Cicuta."
    },
     {
-        "code": "10712",
+        "code": "10712a",
         "name": "El salón comunitario",
         "subname": "Día [day]",
         "text": "[action]: Inspeccionas El salón comunitario y visitas el servicio de reparto local ([codex]16).",
