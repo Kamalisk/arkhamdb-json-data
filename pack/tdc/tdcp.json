@@ -38,7 +38,7 @@
                 "limit": 5
             }
         ],
-        "deck_requirements": "card:11002, card:11003",
+        "deck_requirements": "size:30, card:11002, card:11003, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "\"People rely on me to do my job. A few odd fish in the water don't change that.\"",
@@ -61,13 +61,13 @@
     },
     {
         "code": "11002",
-        "deck_limit": 1,
+        "deck_limit": 2,
         "faction_code": "neutral",
         "illustrator": "Aleksander Karcz",
         "name": "Determined",
         "pack_code": "tdcp",
         "position": 2,
-        "quantity": 1,
+        "quantity": 2,
         "restrictions": "investigator:11001",
         "skill_wild": 1,
         "text": "Marion Tavares deck only.\nIf this skill test is successful and it is on an event you played, you may return Determined to your hand instead of discarding it.",
@@ -489,6 +489,38 @@
         "traits": "Spell.",
         "type_code": "event",
         "xp": 1
+    },
+    {
+        "code": "11030",
+        "deck_limit": 1,
+        "pack_code": "tdcp",
+        "position": 30,
+        "quantity": 1,
+        "faction_code": "guardian",
+        "flavor": "\"Millimeters don't make no difference, bullets just kinda kill you.\"",
+        "illustrator": "Pixoloid Studios",
+        "name": "Locked and Loaded",
+        "permanent": true,
+        "text": "Permanent. Limit 1 per deck.\nYour [[Firearm]] assets with \"Uses (ammo)\" enter play with 1 additional ammo on them.",
+        "traits": "Condition.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
+        "code": "11034",
+        "deck_limit": 2,
+        "pack_code": "tdcp",
+        "position": 34,
+        "quantity": 2,
+        "cost": 2,
+        "faction_code": "seeker",
+        "illustrator": "Aleksander Karcz",
+        "name": "Artistic Inspiration",
+        "skill_wild": 1,
+        "text": "Limit 1 per investigator. Uses (1 inspiration).\n[fast] Exhaust Artistic Inspiration and discard 1 card from your hand: Replenish 1 inspiration on this card.\n[reaction] After revealing chaos tokens for a skill test you are performing, spend 1 inspiration: You get +1 or -1 skill value for this skill test.",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
     },
     {
         "code": "11035",
