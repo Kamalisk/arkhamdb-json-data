@@ -921,6 +921,22 @@
         "xp": 2
     },
     {
+        "code": "11096",
+        "cost": 1,
+        "deck_limit": 3,
+        "faction_code": "neutral",
+        "illustrator": "Billy Norrby",
+        "name": "Short Rest",
+        "pack_code": "tdcp",
+        "position": 96,
+        "quantity": 3,
+        "skill_willpower": 1,
+        "text": "Myriad.\nHeal 1 damage or 1 horror from an investigator or [[Ally]] asset at your location.\n[reaction] After an investigator at your location plays Short Rest: Play another Short Rest from your hand <i>(paying its cost)</i>.",
+        "traits": "Spirit.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
         "code": "11099",
         "cost": 2,
         "deck_limit": 1,
@@ -1063,6 +1079,24 @@
         "restrictions": "trait:miskatonic, trait:scholar",
         "text": "[[Miskatonic]], [[Scholar]] deck only. Permanent. Limit 1 per deck.\n[fast] During your turn, if there is no asset attached to Library Pass, exhaust Library Pass: Attach a [[Tome]] asset from your hand to Library Pass. Attached asset takes up no slots.\n<b>Forced</b> - When your turn ends: You must either pay 1 resource or place attached asset on the bottom of your deck.",
         "traits": "Item. Miskatonic.",
+        "type_code": "asset",
+        "xp": 5
+    },
+    {
+        "code": "11119",
+        "deck_limit": 2,
+        "cost": 4,
+        "faction_code": "neutral",
+        "illustrator": "Pixoloid Studios",
+        "name": "Mauser Tankgewehr M1918",
+        "pack_code": "tdcp",
+        "position": 119,
+        "quantity": 2,
+        "restrictions": "trait:hunter, trait:veteran, trait:warden",
+        "skill_combat": 2,
+        "slot": "Hand x2",
+        "text": "[[Hunter]], [[Veteran]], [[Warden]] deck only. Uses (1 shell).\n[action] If Mauser Tankgewehr M1918 is ready, spend 1 shell: <b>Fight.</b> You get +5 [combat] for this attack and this attack deals +3 damage.\n[action] Exhaust Mauser Tankgewehr M1918: Replenish 1 shell on it.",
+        "traits": "Item. Weapon. Firearm.",
         "type_code": "asset",
         "xp": 5
     },
