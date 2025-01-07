@@ -1,0 +1,80 @@
+[
+    {
+        "alternate_of": "02003",
+        "back_flavor": "Jenny Barnes has spent the majority of her young life in pursuit of creature comforts, fine dining, and the latest fashions. That all changed when she received a letter from her sister, Isabelle. In this letter, Isabelle confessed that mysterious forces were aligning against her and that she feared she may fall victim to some paranormal threat. It was the last letter Jenny received from her beloved sister. Jenny has since returned to the States to track down and investigate all occult occurrences she can find. Hardly a wilting flower, she has proven herself a crack shot as well as a fearless and clever investigator of the unknown. Until Isabelle's disappearance is explained, Jenny will never relent in her search.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-3, Neutral cards level 0-5, up to 10 other non-permanent [[Talent]] cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jenny's Twin .45s, Searching for Izzie, 1 random basic weakness.",
+        "code": "90084",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["rogue"],
+                "level": { "min": 0, "max": 3 }
+            },
+            {
+                "trait": ["talent"],
+                "level": { "min": 0, "max": 5 },
+                "permanent": false,
+                "limit": 10
+            }
+        ],
+        "deck_requirements": "size:30, card:02010:98002:90085, card:02011:98003:90086, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "rogue",
+        "flavor": "\"Oh honey, I'm making this up as I go along.\"",
+        "health": 8,
+        "illustrator": "Tony Foti",
+        "is_unique": true,
+        "name": "Jenny Barnes",
+        "pack_code": "pap",
+        "position": 84,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 3,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Dilettante",
+        "text": "[reaction] After your turn begins: Play a [[Talent]] asset, reducing its cost by 1.\n[fast] Discard a [[Talent]] asset you control: Gain resources equal to that asset's printed cost. (Limit 5 resources per round.)\n[elder_sign] effect: +0. If you succeed, gain 3 resources.",
+        "traits": "Drifter. Socialite.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "90085",
+        "cost": -2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "John Pacer",
+        "is_unique": true,
+        "name": "Jenny's Twin .45s",
+        "pack_code": "pap",
+        "position": 85,
+        "quantity": 1,
+        "restrictions": "investigator:02003",
+        "skill_agility": 1,
+        "skill_wild": 2,
+        "slot": "Hand x2",
+        "subname": "A Perfect Fit",
+        "text": "Jenny Barnes deck only. Advanced. Uses (X ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] for this attack. This attack deals +1 damage.\n[reaction] After you defeat an enemy using the above ability, exhaust Jenny's Twin .45s: Gain resources equal to that enemy's printed health.",
+        "traits": "Item. Weapon. Firearm.",
+        "type_code": "asset"
+    },
+    {
+        "code": "90086",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Jeff Lee Johnson",
+        "name": "Searching for Izzie",
+        "pack_code": "pap",
+        "position": 86,
+        "quantity": 1,
+        "restrictions": "investigator:02003",
+        "subtype_code": "weakness",
+        "text": "Advanced.\n<b>Revelation</b> - Attach Searching for Izzie to the location farthest from you. Attached location gets +2 shroud.\n[action] [action]: <b>Investigate</b>. If you succeed, instead of discovering clues, discard Searching for Izzie.\n<b>Forced</b> - When the game ends, if Searching for Izzie is in play: You suffer 1 mental trauma.",
+        "traits": "Task.",
+        "type_code": "treachery"
+    }
+  ]
