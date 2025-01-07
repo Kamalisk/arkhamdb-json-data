@@ -964,193 +964,194 @@
         "traits": "Происшествие."
     },
     {
-        "back_text": "Сложный / Экстремальный\n[skull]: -X. X is twice the current darkness level.\n[cultist]: -3. If you succeed, heal 1 damage from your investigator.\n[tablet]: -4. Find the enemy in pursuit with the highest evade. Spawn it at your location.\n[elder_thing]: -5. Take 1 horror.",
+        "back_text": "Сложный / Экстремальный\n[skull]: -X. X вдвое больше уровня темноты.\n[cultist]: -3. При успехе вылечите 1 рану своему сыщику.\n[tablet]: -4. Найдите преследующего врага с наивысшим значением ухода. Выложите его в свою локацию.\n[elder_thing]: -5. Получите 1 ужас.",
         "code": "10605",
-        "name": "The Twisted Hollow",
-        "text": "Лёгкий / Обычный\n[skull]: -X. X is the current darkness level.\n[cultist]: -1. Heal 1 damage from your investigator.\n[tablet]: -3. If you fail, find the enemy in pursuit with the highest evade. Spawn it at your location.\n[elder_thing]: -4. If you fail, take 1 horror."
+        "name": "Чудовищная лощина",
+        "text": "Лёгкий / Обычный\n[skull]: -X. X равен уровню темноты.\n[cultist]: -1. Вылечите 1 рану своему сыщику.\n[tablet]: -3. При провале найдите преследующего врага с наивысшим значением ухода. Выложите его в свою локацию.\n[elder_thing]: -4. При провале получите 1 ужас."
     },
     {
-        "back_name": "Gathering Darkness",
-        "back_text": "Add 1 resource to the current darkness level. If the current darkness level is 6+ and you are playing in Campaign Mode, each surviving investigator is defeated and suffers 1 physical trauma.\nOtherwise, perform the following:\n- Put each enemy at a [[Dark]] location and not engaged with an investigator into the pursuit area.\n- Shuffle each unrevealed [[Dark]] location along with the top 2 cards of the Woods deck and place them on top of the Woods deck. Flip each revealed empty [[Dark]] location to its unrevealed side, discarding all tokens.\n- Put locations from the top of the Woods deck into play above, below, to the left, and to the right of each location with an investigator.\n- The investigator with the Vale Lantern tests [willpower] (X), where X is the current darkness level. If they fail, they must choose an enemy in the pursuit area to spawn engaged with them.\nFlip this card back to agenda 1a.",
+        "back_name": "Окружающая темнота",
+        "back_text": "Добавьте 1 ресурс к уровню темноты. Если уровень темноты равен 6 и более и вы играете в режиме кампании, каждый непобеждённый сыщик побеждён и получает 1 физическую травму.\nВ противном случае вместо этого выполните следующее:\n- Переместите в зону преследования каждого врага, что находится в [[тёмной]] локации и не сражается с сыщиком.\n- Перемешайте все закрытые [[тёмные]] локации вместе с двумя картами с верха колоды лесов и положите их на верх колоды лесов. Переверните каждую пустую открытую [[тёмную]] локацию закрытой стороной вверх, сбросив с неё все жетоны.\n- Введите в игру локации c верха колоды лесов по одной справа, слева, сверху и снизу от локации каждого сыщика.\n- Сыщик, под контролем которого находится «Масляный фонарь», проходит проверку [willpower] (X), где X равен уровню темноты. При провале тот сыщик должен выбрать преследующего врага и выложить его сражающимся с собой.\nПереверните этот замысел обратно стороной 1a вверх.",
         "code": "10606",
-        "flavor": "The silent woods thrum with the sounds of hungry creatures and stalking shadows.",
-        "name": "Deepening Dark",
-        "text": "<b>Обязательно</b> - After a location is revealed: Put locations from the top of the Woods deck into play above, below, to the left, and to the right of that location.\n<b>Обязательно</b> - When the investigation phase ends: Each investigator at a [Dark]] location must either draw an enemy in pursuit with the highest evade or take 1 horror (cannot be canceled)."
+        "flavor": "Безмолвные леса наполняются криками голодных зверей и крадущимися тенями.",
+        "name": "Темнота сгущается",
+        "text": "<b>Обязательно</b> — После того как открылась локация: Введите в игру 4 верхние локации из колоды лесов сверху, снизу, слева и справа от той локации.\n<b>Обязательно</b> — Когда заканчивается фаза сыщиков: Каждый сыщик в [[тёмной]] локации должен либо взять преследующего врага с наивысшим значением ухода, либо получить 1 ужас (нельзя отменить)."
     },
     {
         "back_link": "10607b",
         "code": "10607a",
-        "flavor": "There must be some trace or clue of Bertie in these woods. You only hope you aren't already too late.",
-        "name": "Desperate Search",
-        "text": "Each enemy without spawn instructions gains \"<b>Spawn</b> - When this enemy is drawn from the encounter deck: Put this enemy in the pursuit area.\"\n<b>Цель</b> - At the end of the round, if each investigator is at the same [[Lair]] location, they may spend the requisite number of clues, as a group, to advance."
+        "flavor": "Должны же в этих лесах быть хоть какие-то следы Берти. Вам остаётся лишь надеяться, что ещё не слишком поздно.",
+        "name": "Отчаянные поиски",
+        "text": "Считайте, что на каждом враге без ключевого слова «Выходит» указано: «<b>Выходит</b> — Когда этот враг взят из колоды контактов: Положите его в зону преследования».\n<b>Цель</b> — В конце раунда, если все сыщики находятся в одной локации-[[обители]], они могут совместно потратить необходимое число улик, чтобы продвинуться."
     },
     {
         "code": "10607b",
-        "name": "Ursine Hybrid",
-        "subname": "Glowing Abomination",
-        "text": "<b>Spawn</b> - <b>([codex] Σ)</b> <i>(page 37)</i>.\nHunter. Retaliate.\nUrsine Hybrid gets +2 [per_investigator] health.\n<b>Обязательно</b> - When Ursine Hybrid would be defeated, if it is act 2: Heal all damage from it and put it in the pursuit area instead of the victory display.",
-        "traits": "Creature. Monster. Mutated. Elite."
+        "name": "Медвежий гибрид",
+        "subname": "Светящееся чудовище",
+        "text": "<b>Выходит</b> — <b>([codex] Σ)</b> <i>(страница 37)</i>.\nОхотник. Мститель.\nУ этого врага +2 [per_investigator] к здоровью.\n<b>Обязательно</b> — Когда этот враг должен быть побеждён, если сейчас сцена 2: Вылечите ему все ра­ны и вместо победного счёта положите его в зону преследования.",
+        "traits": "Существо. Монстр. Мутант. Элитный."
     },
     {
-        "back_flavor": "\"Stay back!\" squeaks a familiar voice. A pinecone whizzes past your ear. Bertie peers out from a hollow in the massive trunk. \"It's you!\" he chirps excitedly. \"I thought I was done for - but here you are!\" His eyes go wide as a familiar wheezing roar echoes through the hollow.",
-        "back_name": "Out of the Frying Pan...",
-        "back_text": "Put the set-aside Bertie Musgrave story asset into play under the control of any investigator. Put each unengaged enemy in the pursuit area. Shuffle each other location except for The Twisted Hollow location into the Woods deck and put them into play according to the diagram on page 36.\nSearch all in- and out-of-play areas for the Ursine Hybrid enemy, heal all damage from it, and spawn it at The Twisted Hollow. Advance the act and agenda deck to the \"Back to the Vale!\" special agenda, moving all doom from the current agenda to it. It is both the current act and the current agenda.",
+        "back_flavor": "«Не подходите!» — звучит знакомый высокий голос. Мимо вашего уха пролетает шишка. Из дупла в массивном стволе выглядывает лицо Берти. «Это вы! — радостно щебечет он. — Я думал, что мне… Но вот они вы!» Его глаза расширяются от ужаса, когда он слышит, как по лощине раскатывается знакомый рёв.",
+        "back_name": "Из огня да в полымя…",
+        "back_text": "Введите отложенный сюжетный актив «Берти Масгрейв» в игру под контроль любого сыщика. Переместите каждого не сражающегося врага в зону преследования. Замешайте все локации, кроме «Чудовищной лощины», в колоду лесов и введите их в игру, как показано в разделе «Расклад локаций для „Обратно в деревню!“» на странице 36.\nНайдите во всех игровых и внеигровых зонах врага «Медвежий гибрид», вылечите ему все раны и выложите его в «Чудовищную лощину». Продвиньте и замысел, и сцену к особому замыслу «Обратно в деревню!», переложив на него всю безысходность с текущего замысла. Он считается и замыслом, и сценой.",
         "code": "10608",
-        "flavor": "The trees close in as you follow Bertie's trail deeper into the forest.",
-        "name": "Where's Bertie?",
-        "text": "[fast] Spend 1 clue: Look at the revealed side of an adjacent location.\n<b>Цель</b> - Find Bertie Musgrave. He is lost deep in the forest! <i>(Do not advance until you are instructed.)</i>"
+        "flavor": "Деревья обступают вас, когда вы углубляетесь в лес по следу Берти.",
+        "name": "Где Берти?",
+        "text": "[fast] Потратьте 1 улику: Посмотрите открытую сторону соседней локации.\n<b>Цель</b> — Найдите Берти Масгрейва. Он заплутал в лесу! <i>(Не продвигайтесь, пока не получите соответствующее указание.)</i>"
     },
     {
-        "back_flavor": "The forest closes in and the sound of slavering jaws and gnashing fangs fills the air. A sickly howl calls out from the underbrush and the familiar sound of a wheezing, hacking cough telegraphs the bear's approach.",
-        "back_name": "The Hungering Forest",
-        "back_text": "Add 1 resource to the current darkness level. If the current darkness level is 6, each surviving investigator is defeated and suffers 1 physical trauma <b>(→R2)</b> <i>(page 38</i>.\nOtherwise, in player order, each player must choose an enemy in the pursuit area and spawn it at the nearest [[Dark]] location. If they cannot, they must discard cards from the top of the encounter deck until an enemy is discarded and spawn it at the nearest [[Dark]] location.\nFlip this card.",
+        "back_flavor": "Лес сгущается, и воздух наполняют звуки клацающих челюстей и скрежещущих клыков. Из подлеска доносится истошный вой. Миг спустя раздаётся знакомый хриплый кашель, возвещающий о приближении медведя.",
+        "back_name": "Лес проголодался",
+        "back_text": "Добавьте 1 ресурс к уровню темноты. Если уровень темноты равен 6 и более, каждый непобеждённый сыщик побеждён и получает 1 физическую травму <b>(→И2)</b> <i>(страница 38)</i>.\nВ противном случае в порядке игроков каждый сыщик должен выбрать преследующего врага и выложить его в ближайшую [[тёмную]] локацию. Если сыщик не может этого сделать, он должен сбрасывать карты с верха колоды контактов, пока не сбросит карту врага, и выложить того врага в ближайшую [[тёмную]] локацию.\nПереверните эту карту.",
         "code": "10609",
-        "flavor": "With Bertie in tow, you must find your way back to Hemlock Vale.",
-        "name": "Back to the Vale!",
-        "text": "[fast] Either exhaust the Vale Lantern or spend 1 [per_investigator] clues, as a group: Look at the revealed side of an adjacent location. You may move to that location.\n<b>Цель</b> - If each undefeated investigator has resigned, <b>(→R1)</b> <i>(page 38)</i>."
+        "flavor": "Берти найден, осталось найти обратную дорогу.",
+        "name": "Обратно в деревню!",
+        "text": "[fast] Либо поверните «Масляный фонарь», либо совместно потратьте 1 [per_investigator] улик: Посмотрите открытую сторону соседней локации. Вы можете переместиться в ту локацию.\n<b>Цель</b> — Если каждый непобеждённый сыщик совершил побег, <b>(→И1)</b> <i>(страница 38)</i>."
     },
     {
         "back_link": "10610b",
         "code": "10610a",
-        "name": "Vale Lantern",
-        "slot": "Hand",
-        "subname": "Beacon of Hope",
-        "text": "Vale Lantern's location and each connecting location lose the [[Dark]] trait.\n[reaction] When an investigator at your location moves into and reveals a [[Forest]] location, exhaust Vale Lantern: They ignore that location's forced effect(s).\n<b>Обязательно</b> - When Vale Lantern would leave play: Flip it over and place it at the nearest location, instead.",
-        "traits": "Item. Tool. Lit. Boon."
+        "name": "Масляный фонарь",
+        "slot": "Рука",
+        "subname": "Свет надежды",
+        "text": "Локация «Масляного фонаря» и все связанные с ней локации не считаются [[тёмными]].\n[reaction] Когда сыщик в вашей локации перемещается в локацию-[[­чащу]] и открывает её, поверните эту карту: Он игнорирует обязательные свойства той локации.\n<b>Обязательно</b> — Когда эта карта должна покинуть игру: Вместо этого переверните её и положите в ближайшую локацию.",
+        "traits": "Вещь. Инструмент. Зажжённый. Дар."
     },
     {
         "code": "10610b",
-        "name": "Vale Lantern",
-        "slot": "Hand",
-        "subname": "Extinguished Light",
-        "text": "[action]: Take control of Vale Lantern, then flip it over. Any investigator at Vale Lantern's location may trigger this ability.\n<b>Обязательно</b> - When Vale Lantern would leave play: Place it at the nearest location, instead.",
-        "traits": "Item. Tool. Unlit. Boon."
+        "name": "Масляный фонарь",
+        "slot": "Рука",
+        "subname": "Свет погас",
+        "text": "[action]: Возьмите эту карту под контроль, затем переверните её. Любой сыщик в локации «Масляного фонаря» может активировать это свойство.\n<b>Обязательно</b> — Когда «Масляный фонарь» должен покинуть игру: Вместо этого положите его в ближайшую локацию.",
+        "traits": "Вещь. Инструмент. Незажжённый. Дар."
     },
     {
         "back_link": "10611b",
         "code": "10611a",
-        "name": "Vale Lantern",
-        "slot": "Hand",
-        "subname": "A Faint Hope",
-        "text": "Vale Lantern's location loses the [[Dark]] trait.\n[action] Exhaust Vale Lantern: Look at the revealed side of a connecting location. You may move to that location, ignoring its forced effect(s).\n<b>Обязательно</b> - When Vale Lantern would leave play: Flip it over and place it at the nearest location, instead.",
-        "traits": "Item. Tool. Lit."
+        "name": "Масляный фонарь",
+        "slot": "Рука",
+        "subname": "Тающая надежда",
+        "text": "Локация «Масляного фонаря» не считается [[тёмной]].\n[action] Поверните эту карту: Посмотрите открытую сторону связанной локации. Вы можете переместиться в ту локацию, игнорируя её обязательные свойства.\n<b>Обязательно</b> — Когда эта карта должна покинуть игру: Вместо этого переверните её и положите в ближайшую локацию.",
+        "traits": "Вещь. Инструмент. Зажжённый."
     },
     {
         "code": "10611b",
-        "name": "Vale Lantern",
-        "slot": "Hand",
-        "subname": "Extinguished Light",
-        "text": "[fast]: Take control of Vale Lantern, then flip it over. Any investigator at Vale Lantern's location may trigger this ability.\n<b>Обязательно</b> - When Vale Lantern would leave play: Place it at the nearest location, instead.",
-        "traits": "Item. Tool. Unlit."
+        "name": "Масляный фонарь",
+        "slot": "Рука",
+        "subname": "Свет погас",
+        "text": "[fast]: Возьмите эту карту под контроль, затем переверните её. Любой сыщик в локации «Масляного фонаря» может активировать это свойство.\n<b>Обязательно</b> — Когда «Масляный фонарь» должен покинуть игру: Вместо этого положите его в ближайшую локацию.",
+        "traits": "Вещь. Инструмент. Незажжённый."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10612",
-        "flavor": "A dim though distinct luminosity seemed to inhere in all the vegetation, grass, leaves, and blossoms alike...\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "name": "Glimmering Woods",
-        "text": "[action]: <b>Побег.</b> \"I'm sure Bertie's fine!\"\n[action]: Heal 1 horror. (Limit once per round.)",
-        "traits": "Forest. Dark."
+        "flavor": "Вся растительность: трава, кусты, деревья — испускала тусклое, но отчётливо видимое свечение…\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "name": "Мерцающий луг",
+        "text": "[action]: <b>Побег.</b> «С Берти наверняка всё будет в порядке!»\n[action]:  Вылечите 1 ужас. (Не чаще 1 раза в раунд.)",
+        "traits": "Чаща. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10613",
-        "flavor": "The boughs surely moved, and there was no wind.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "name": "Blighted Glade",
-        "text": "<b>Обязательно</b> - After you reveal Blighted Glade: Choose the enemy in pursuit with the lowest fight and spawn it at this location.",
-        "traits": "Forest. Blight. Dark."
+        "flavor": "Несмотря на полное безветрие, ветви определённо раскачивались.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "name": "Увядшая поляна",
+        "text": "<b>Обязательно</b> — После того как вы открыли эту локацию: Выберите преследующего врага с наименьшим значением боя и выложите в эту локацию.",
+        "traits": "Чаща. Хворь. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10614",
-        "flavor": "\"Observed an intricate mycelium network with an animal-like digestive system. Fungus has reduced the wood to pulp.\"\n - Dr. Rosa Marquez, <u>Miskatonic Survey, 1926</u>",
-        "name": "Poisoned Marsh",
-        "text": "<b>Обязательно</b> - After you reveal Poisoned Marsh: You must either take 1 direct damage, or deal 1 damage to each [[Ally]] asset you control.",
-        "traits": "Forest. Blight. Dark."
+        "flavor": "Пронаблюдали за сложной сетью мицелия с животноподобной пищеварительной системой. Грибок превратил древесину в целлюлозу.\n — Д-р Роза Маркес, <u>наблюдательная группа Мискатоника, 1926 г.</u>",
+        "name": "Отравленная трясина",
+        "text": "<b>Обязательно</b> — После того как вы открыли эту локацию: Вы должны либо получить 1 направленную рану, либо нанести 1 рану каждому активу-[[союзнику]] под вашим контролем.",
+        "traits": "Чаща. Хворь. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10615",
-        "name": "Fecund Thicket",
-        "text": "Fecund Thicket gets -X shroud, where X is the current darkness level.\n<b>Обязательно</b> - After you reveal Fecund Thicket: Test [agility] (X), where X is the current darkness level. If you fail, find the enemy in pursuit with the highest printed health and spawn it at this location.",
-        "traits": "Forest. Dark."
+        "name": "Густые заросли",
+        "text": "У этой локации −X к неясности, где X равен уровню темноты.\n<b>Обязательно</b> — После того как вы открыли эту локацию: Пройдите проверку [agility] (X), где X равен уровню темноты. При провале найдите преследующего врага с наивысшим напечатанным здоровьем и выложите в эту локацию.",
+        "traits": "Чаща. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10616",
-        "name": "Mushroom Grove",
-        "text": "Mushroom Grove gets +2 shroud while it is not [[Dark]].\n<b>Обязательно</b> - After you reveal Mushroom Grove: Test [intellect] (X), where X is the current darkness level. If you fail, the enemy in pursuit with the highest evade attacks you.",
-        "traits": "Forest. Dark."
+        "name": "Грибная роща",
+        "text": "Если эта локация не [[тёмная]], у неё +2 к неясности.\n<b>Обязательно</b> — После того как вы открыли эту локацию: Пройдите проверку [intellect] (X), где X равен уровню темноты. При провале преследующий враг с наивысшим значением ухода атакует вас.",
+        "traits": "Чаща. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10617",
-        "name": "Moonlit Clearing",
-        "text": "While an enemy is moving, its location is considered to be connected to Moonlit Clearing.\n<b>Обязательно</b> - After you reveal Moonlit Clearing: Test [willpower] (X), where X is the current darkness level. If you fail, find the enemy in pursuit with the highest fight and spawn it at this location.",
-        "traits": "Forest. Lair. Dark."
+        "name": "Поляна в лунном свете",
+        "text": "Во время перемещения врага локация того врага считается связанной с «Поляной в лунном свете».\n<b>Обязательно</b> — После того как вы открыли эту локацию: Пройдите проверку [willpower] (X), где X равен уровню темноты. При провале найдите преследующего врага с наивысшим значением боя и выложите в эту локацию.",
+        "traits": "Чаща. Обитель. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10618",
-        "flavor": "The winding paths loop back on themselves.",
-        "name": "Crooked Path",
-        "text": "X is the current darkness level.\n[reaction] After you discover a clue at this location: Look at the revealed side of a connecting location. You may move to that location.",
-        "traits": "Forest. Dark."
+        "flavor": "Изгибающиеся дорожки замыкаются в петли.",
+        "name": "Вьющаяся тропинка",
+        "text": "X равен уровню темноты.\n[reaction] После того как вы нашли улику в этой локации: Посмотрите открытую сторону связанной локации. Вы можете переместиться в ту локацию.",
+        "traits": "Чаща. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10619",
-        "name": "Corpse Grove",
-        "text": "<b>Обязательно</b> - After you reveal Corpse Grove: Take 1 horror.\n<b>Обязательно</b> - After you successfully investigate Corpse Grove: Take 1 horror.",
-        "traits": "Forest. Lair. Dark."
+        "name": "Трупная роща",
+        "text": "<b>Обязательно</b> — После того как вы открыли эту локацию: Получите 1 ужас.\n<b>Обязательно</b> — После того как вы успешно исследовали в этой локации: Получите 1 ужас.",
+        "traits": "Чаща. Обитель. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10620",
-        "flavor": "Whatever lives here is clearly starved to the point of eating its own kind.",
-        "name": "Bear Den",
-        "text": "<b>Обязательно</b> - After you reveal Bear Den: Find the enemy in pursuit with the highest fight and spawn it engaged with you. If you cannot, draw the top card of the encounter deck.",
-        "traits": "Forest. Lair. Dark."
+        "flavor": "Что бы ни обитало здесь, оно оголодало настолько, что стало пожирать себе подобных.",
+        "name": "Медвежья берлога",
+        "text": "<b>Обязательно</b> — После того как вы открыли эту локацию: Найдите преследующего врага с наивысшим значением боя и выложите сражающимся с вами. Если не можете, возьмите верхнюю карту колоды контактов.",
+        "traits": "Чаща. Обитель. Тёмная."
     },
     {
-        "back_flavor": "The trees grew too thickly, and their trunks were too big for any healthy New England wood. There was too much silence in the dim alleys between them, and the floor was too soft with the dank moss and mattings of infinite years of decay.\n - H. P. Lovecraft, \"The Colour Out of Space\"",
-        "back_name": "Western Woods",
+        "back_flavor": "Для типичных лесов Новой Англии деревья росли здесь слишком часто, а стволы их были чересчур толсты. Да и мёртвая тишина, царившая в узких проходах, была чересчур мёртвой, и слишком уж много сырости таил в себе настил из осклизлого мха и древнего перегноя.\n — Говард Ф. Лавкрафт «Цвет из иных миров»",
+        "back_name": "Западные леса",
         "code": "10621",
-        "flavor": "The knotted old tree has seen far more than you ever will.",
-        "name": "The Twisted Hollow",
-        "text": "<b>Цель</b> - At the end of the round, if each surviving investigator is at The Twisted Hollow, investigators may spend 2 [per_investigator] clues, as a group, to advance to act 2b.",
-        "traits": "Forest. Dark."
+        "flavor": "Старое узловатое дерево повидало гораздо больше, чем когда-либо повидаете вы.",
+        "name": "Чудовищная лощина",
+        "text": "<b>Цель</b> — В конце раунда, если все непобеждённые сыщики находятся в этой локации, они могут совместно потратить 2 [per_investigator] улик, чтобы продвинуться к сцене 2b.",
+        "traits": "Чаща. Тёмная."
     },
     {
         "code": "10622",
-        "name": "Deep Shadows",
-        "traits": "Hazard."
+        "name": "Глубокие тени",
+        "text": "<b>Раскрытие</b> — Пройдите проверку [willpower[ (3). У этой проверки +2 к сложности, если ваша локация [[тёмная]]. При провале вы должны выбрать одно:\n- Получите 2 ужаса.\n- Сыщик, под чьим контролем находится «Масляный фонарь», переворачивает его [[незажжённой]] стороной вверх и кладёт в связанную локацию.",
+        "traits": "Происшествие."
     },
     {
         "code": "10623",
-        "name": "Lurking Fear",
-        "text": "<b>Раскрытие</b> - Test [agility] (3). This test gets +2 difficulty if your location is [[Dark]]. If you fail, you must either <i>(choose one)</i>:\n- Take 2 damage.\n- Find the enemy in pursuit with the highest fight and spawn it engaged with you.",
-        "traits": "Terror."
+        "name": "Притаившийся ужас",
+        "text": "<b>Раскрытие</b> — Пройдите проверку [agility] (3). У этой проверки +2 к сложности, если ваша локация [[тёмная]]. При провале вы должны выбрать одно:\n- Получите 2 раны.\n- Найдите преследующего врага с наивысшим значением боя и выложите сражающимся с вами.",
+        "traits": "Жуть."
     },
     {
         "code": "10624",
-        "name": "Stolen Light",
-        "text": "Peril.\n<b>Раскрытие</b> - You must either <i>(choose one)</i>:\n- Place 1 doom on the current agenda. This effect can cause the agenda to advance.\n- Flip the Vale Lantern to its [[Unlit]] side. Place the Vale Lantern at the empty location farthest from all investigators.",
-        "traits": "Scheme."
+        "name": "Украденный свет",
+        "text": "Опасность.\n<b>Раскрытие</b> — Вы должны выбрать одно:\n- Положите 1 безысходность на текущий замысел. Это может привести к его продвижению.\n- Переверните «Масляный фонарь» [[незажжённой]] стороной вверх. Положите его в самую дальнюю от всех сыщиков пустую локацию.",
+        "traits": "Козни."
     },
     {
         "code": "10625",
-        "name": "Stalking Hybrid",
-        "text": "Hunter. Alert.\nX is the current darkness level.\n<b>Prey</b> Investigator with the Vale Lantern only.\n<b>Обязательно</b> - After Stalking Hybrid attacks you, if you control the Vale Lantern: Flip the Vale Lantern to its [[Unlit]] side and place it at your location.",
-        "traits": "Creature. Monster. Mutated."
+        "name": "Преследующий гибрид",
+        "text": "Охотник. Бдительный.\nX равен уровню темноты.\n<b>Добыча</b> — только сыщик с «Масляным фонарём».\n<b>Обязательно</b> — После того как этот враг атаковал вас, если «Масляный фонарь» под вашим контролем: Переверните «Масляный фонарь» [[незажжённой]] стороной вверх и положите в свою локацию.",
+        "traits": "Существо. Монстр. Мутант."
     },
     {
         "back_text": "Сложный / Экстремальный\n[skull]: -X. X is the number of doom in play.\n[cultist]: -3. If you succeed, place 1 barrier at your location.\n[tablet]: -4. The nearest enemy readies, moves, and attacks as if it were the enemy phase.\n[elder_thing]: -5. Remove a barrier, decoy, or trap at your location.",
@@ -1295,71 +1296,71 @@
     {
         "code": "10644a",
         "name": "Molting Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (east).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (east).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10644b",
         "name": "Molting Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (south).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (south).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10644c",
         "name": "Molting Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (west).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (west).\nAloof. Patrol (The Farmhouse).\nMolting Hybrid ignores barriers.\n<b>Обязательно</b> - When Molting Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10645a",
         "flavor": "...strangely, they didn't howl. They laughed.\n - Dr. Rosa Marquez, <u>Miskatonic Survey, 1926</u>",
         "name": "Lupine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (north).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
+        "text": "<b>Выходит</b> - Outer Fields (north).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
         "traits": "Creature. Monster. Mutated. Elite."
     },
     {
         "code": "10645b",
         "flavor": "...strangely, they didn't howl. They laughed.\n - Dr. Rosa Marquez, <u>Miskatonic Survey, 1926</u>",
         "name": "Lupine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (east).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
+        "text": "<b>Выходит</b> - Outer Fields (east).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
         "traits": "Creature. Monster. Mutated. Elite."
     },
     {
         "code": "10645c",
         "flavor": "...strangely, they didn't howl. They laughed.\n - Dr. Rosa Marquez, <u>Miskatonic Survey, 1926</u>",
         "name": "Lupine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (south).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
+        "text": "<b>Выходит</b> - Outer Fields (south).\nRetaliate. Patrol (The Farmhouse).\n<b>Обязательно</b> - After Lupine Hybrid attacks: Heal 1 damage from it.",
         "traits": "Creature. Monster. Mutated. Elite."
     },
     {
         "code": "10646",
         "flavor": "I suppose that, like any goat, it eats everything.\n - Dr. Rosa Marquez, <u>Miskatonic Survey, 1926</u>",
         "name": "Capra Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields location with the fewest enemies.\nAlert. Patrol (The Farmhouse).\nCapra Hybrid ignores decoys.",
+        "text": "<b>Выходит</b> - Outer Fields location with the fewest enemies.\nAlert. Patrol (The Farmhouse).\nCapra Hybrid ignores decoys.",
         "traits": "Creature. Monster. Mutated. Elite."
     },
     {
         "code": "10647a",
         "name": "Equine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (north).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (north).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10647b",
         "name": "Equine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (east).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (east).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10647c",
         "name": "Equine Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields (west).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
+        "text": "<b>Выходит</b> - Outer Fields (west).\nPatrol (The Farmhouse).\nEquine Hybrid ignores traps.\n<b>Обязательно</b> - When Equine Hybrid would take any amount of damage: Reduce that amount to 1.",
         "traits": "Creature. Monster. Mutated."
     },
     {
         "code": "10648",
         "name": "Slithering Hybrid",
-        "text": "<b>Spawn</b> - Outer Fields location with the most enemies.\nAloof. Patrol (The Farmhouse).\nSlithering Hybrid ignores barriers, decoys, traps, and damage from Fire! treacheries.",
+        "text": "<b>Выходит</b> - Outer Fields location with the most enemies.\nAloof. Patrol (The Farmhouse).\nSlithering Hybrid ignores barriers, decoys, traps, and damage from Fire! treacheries.",
         "traits": "Creature. Monster. Mutated."
     },
     {
@@ -2131,7 +2132,7 @@
         "code": "10733",
         "flavor": "Don't even try to pet it.",
         "name": "Forest Watcher",
-        "text": "Aloof. <b>(Night [night])</b> Elusive.\n<b>Spawn</b> - Any location (empty, if able).\n<b>Обязательно</b> - After Forest Watcher enters play: Place 1 doom on it.",
+        "text": "Aloof. <b>(Night [night])</b> Elusive.\n<b>Выходит</b> - Any location (empty, if able).\n<b>Обязательно</b> - After Forest Watcher enters play: Place 1 doom on it.",
         "traits": "Creature. Flora. Mutated."
     },
     {
