@@ -299,6 +299,87 @@
         "type_code": "treachery"
     },
     {
+        "back_flavor": "Michael McGlen was a man of few words. He didn't need to talk much; he had Fast Louis for that. The two of them were O'Bannion's best soldiers, making sure the gang was respected throughout Arkham... until the night the thing in the river dragged Louis off the dock to tear him to pieces beneath the water. Michael thought his bosses would call him crazy when he told them what happened, but the truth was worse: they told him they believed him and to let the matter lie. But Michael can't just let the death of his partner, or the things he saw that night, go unpunished. He's still a man of few words. Now he'll let his gun do the talking.",
+        "back_text": "<b>Deck Size:</b> 30\n<b>Deckbuilding Options:</b> Rogue cards ([rogue]) level 0-3, Neutral cards level 0-5, cards with \"Firearm\" either as their trait or in their text box level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"Viola\" Case, Confiscation, 1 random basic weakness",
+        "code": "11011",
+        "deck_limit": 1,
+        "deck_requirements": "size:30, card:11012, card:11013, random:subtype:basicweakness",
+        "deck_options": [
+          {
+            "faction": ["rogue"],
+            "level": { "min": 0, "max": 3 }
+          },
+          {
+            "faction": ["neutral"],
+            "level": { "min": 0, "max": 5 }
+          },
+          {
+            "trait": ["firearm"],
+            "level": { "min": 0, "max": 5 }
+          },
+          {
+            "tag": ["fa"],
+            "level": { "min": 0, "max": 5 }
+          }
+        ],
+        "double_sided": true,
+        "faction_code": "rogue",
+        "flavor": "\"Don't care if it's a god. If it crosses me, it's gonna regret it.\"",
+        "health": 9,
+        "illustrator": "Cristi Balanescu",
+        "is_unique": true,
+        "name": "Michael McGlen",
+        "pack_code": "tdcp",
+        "position": 11,
+        "quantity": 1,
+        "sanity": 5,
+        "skill_agility": 3,
+        "skill_combat": 5,
+        "skill_intellect": 1,
+        "skill_willpower": 3,
+        "subname": "The Gangster",
+        "text": "[reaction] After you spend 1 or more ammo from a [[Firearm]] asset: Gain 1 resource. (Limit once per [[Firearm]] asset per round.)\n[elder_sign] effect: +2. You may place 1 ammo on a [[Firearm]] asset you control.",
+        "traits": "Criminal. Hunter.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "11012",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Rob Laskey",
+        "name": "\"Viola\" Case",
+        "pack_code": "tdcp",
+        "position": 12,
+        "quantity": 1,
+        "restrictions": "investigator:11011",
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Accessory",
+        "tags": "fa.",
+        "text": "Michael McGlen deck only.\nYou have 2 additional hand slots, which can only be used to hold [[Firearm]] assets.\n[reaction] After you play \"Viola\" Case: Search the top 9 cards of your deck for a [[Firearm]] asset and add it to your hand. Shuffle your deck.",
+        "traits": "Item. Illicit.",
+        "type_code": "asset"
+    },
+    {
+        "code": "11013",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "\"You, uh... going hunting, Mr. McGlen?\"",
+        "illustrator": "?",
+        "name": "Confiscation",
+        "pack_code": "tdcp",
+        "position": 13,
+        "quantity": 1,
+        "restrictions": "investigator:11011",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Shuffle each [[Firearm]] asset in your play area into your deck. If no asset was shuffled into your deck by this effect, take 1 damage and shuffle Confiscation back into your deck.",
+        "traits": "Blunder.",
+        "type_code": "treachery"
+    },
+    {
         "back_flavor": "As a young girl, Gloria was haunted by terrible visions. After years of visiting doctors, she learned to exorcise these visions by writing stories. Her weird and disturbing fiction somehow spoke to the public and made her a bestselling writer. But while visiting Arkham, she had the most powerful vision she's ever experienced. The sky tore open, a monstrous form pouring out of the very air itself. Gloria knew, somehow, that this vision was real, and that it would come to pass unless she did something about it.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Secondary Class Choice</b>: At deck creation, choose Guardian ([guardian]), Seeker ([seeker]), or Rogue ([rogue]).\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, up to 10 level 0-1 events and/or skills of your chosen secondary class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Psychic Sensitivity, 3 copies of Prophecy of the End (shuffled into the encounter deck), 1 random basic weakness.",
         "code": "11014",
@@ -518,6 +599,7 @@
         "illustrator": "Pixoloid Studios",
         "name": "Locked and Loaded",
         "permanent": true,
+        "tags": "fa.",
         "text": "Permanent. Limit 1 per deck.\nYour [[Firearm]] assets with \"Uses (ammo)\" enter play with 1 additional ammo on them.",
         "traits": "Condition.",
         "type_code": "asset",
