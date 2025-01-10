@@ -300,27 +300,27 @@
     },
     {
         "back_flavor": "Michael McGlen was a man of few words. He didn't need to talk much; he had Fast Louis for that. The two of them were O'Bannion's best soldiers, making sure the gang was respected throughout Arkham... until the night the thing in the river dragged Louis off the dock to tear him to pieces beneath the water. Michael thought his bosses would call him crazy when he told them what happened, but the truth was worse: they told him they believed him and to let the matter lie. But Michael can't just let the death of his partner, or the things he saw that night, go unpunished. He's still a man of few words. Now he'll let his gun do the talking.",
-        "back_text": "<b>Deck Size:</b> 30\n<b>Deckbuilding Options:</b> Rogue cards ([rogue]) level 0-3, Neutral cards level 0-5, cards with \"Firearm\" either as their trait or in their text box level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"Viola\" Case, Confiscation, 1 random basic weakness",
+        "back_text": "<b>Deck Size:</b> 30.\n<b>Deckbuilding Options:</b> Rogue cards ([rogue]) level 0-3, Neutral cards level 0-5, cards with [[Firearm]] either as their <b><i>Trait</i></b> or in their text box level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"Viola\" Case, Confiscation, 1 random basic weakness.",
         "code": "11011",
         "deck_limit": 1,
         "deck_requirements": "size:30, card:11012, card:11013, random:subtype:basicweakness",
         "deck_options": [
-          {
-            "faction": ["rogue"],
-            "level": { "min": 0, "max": 3 }
-          },
-          {
-            "faction": ["neutral"],
-            "level": { "min": 0, "max": 5 }
-          },
-          {
-            "trait": ["firearm"],
-            "level": { "min": 0, "max": 5 }
-          },
-          {
-            "tag": ["fa"],
-            "level": { "min": 0, "max": 5 }
-          }
+            {
+                "faction": ["rogue"],
+                "level": { "min": 0, "max": 3 }
+            },
+            {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "trait": ["firearm"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "tag": ["fa"],
+                "level": { "min": 0, "max": 5 }
+            }
         ],
         "double_sided": true,
         "faction_code": "rogue",
@@ -606,6 +606,25 @@
         "xp": 3
     },
     {
+        "code": "11031",
+        "cost": 2,
+        "deck_limit": 3,
+        "faction_code": "guardian",
+        "flavor": "They called Sister Sofia the \"hand of God\" for a very good reason.",
+        "illustrator": "Gabby Portal",
+        "myriad": true,
+        "name": "Quick Shot",
+        "pack_code": "tdcp",
+        "position": 31,
+        "quantity": 3,
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "text": "Myriad. Fast. Play only during your turn.\nDeal 1 damage to an enemy at your location.\n[reaction] After you draw Quick Shot during your turn: Play it, reducing its resource cost by 2.",
+        "traits": "Spirit.",
+        "type_code": "event",
+        "xp": 3
+    },
+    {
         "code": "11034",
         "deck_limit": 2,
         "pack_code": "tdcp",
@@ -774,6 +793,7 @@
         "deck_limit": 3,
         "faction_code": "rogue",
         "illustrator": "Mauro Dal Bo",
+        "myriad": true,
         "name": "Doppelgänger",
         "pack_code": "tdcp",
         "position": 58,
@@ -1011,6 +1031,7 @@
         "deck_limit": 3,
         "faction_code": "survivor",
         "illustrator": "Rob Laskey",
+        "myriad": true,
         "name": "Good Weather",
         "pack_code": "tdcp",
         "position": 91,
@@ -1042,6 +1063,7 @@
         "deck_limit": 3,
         "faction_code": "neutral",
         "illustrator": "Billy Norrby",
+        "myriad": true,
         "name": "Short Rest",
         "pack_code": "tdcp",
         "position": 96,
@@ -1119,6 +1141,29 @@
         "skill_willpower": 1,
         "text": "[[Dreamer]], [[Performer]], [[Sorcerer]] deck only.\nLimit 1 per investigator.\n[reaction] After you perform 3 different types of actions in a row, exhaust Captivating Performance: Take an additional action, which must be a different type from all other actions you have taken this turn <i>(types include activate, draw, engage, evade, fight, investigate, move, play, and resource).</i>",
         "traits": "Ritual.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
+        "code": "11110",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "health": 2,
+        "illustrator": "Alessandra Pisano",
+        "is_unique": true,
+        "name": "Dakota Garofalo",
+        "pack_code": "tdcp",
+        "position": 110,
+        "quantity": 2,
+        "restrictions": "trait:detective, trait:hunter, trait:wayfarer",
+        "sanity": 2,
+        "skill_combat": 1,
+        "skill_willpower": 1,
+        "slot": "Ally",
+        "subname": "On the Hunt",
+        "text": "[[Detective]], [[Hunter]], [[Wayfarer]] deck only.\nWhile there is a [[Creature]] or [[Monster]] enemy at your location, you get +1 [willpower] and +1 [combat].\n[fast] Exhaust Dakota Garofalo: Choose an enemy at your location or a connecting location. Move to the chosen enemy's location and engage it.",
+        "traits": "Ally. Hunter. Wayfarer.",
         "type_code": "asset",
         "xp": 3
     },
