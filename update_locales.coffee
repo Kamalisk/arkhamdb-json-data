@@ -38,7 +38,7 @@ loadCards = (root) ->
         if stat.isDirectory()
             pack_files = fs.readdirSync(path.join(localeRoot, file))
             for pack_file in pack_files
-                continue if pack_file.endsWith('.DS_Store')
+                continue if !pack_file.endsWith('.json')
                 #console.log "Reading #{path.join(localeRoot, file, pack_file)}"
                 fileContents = fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8')
                 if !!fileContents.trim()
