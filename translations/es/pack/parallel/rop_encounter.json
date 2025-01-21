@@ -1,0 +1,101 @@
+[
+    {
+        "code": "90065",
+        "name": "Relics of the Past",
+        "text": "Easy / Standard\n[skull]: -X. X is the number of locations with 1 or more doom on them.\n[cultist]: -1. If you are poisoned, reveal another token.\n[tablet]: -3. If you fail, place 1 doom on your location.\n[elder_thing]: -3. If you fail, the nearest ready unengaged [[Serpent]] enemy moves once toward your location.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 1 more than the number of locations with 1 or more doom on them.\n[cultist]: -2. If you are poisoned, reveal another token.\n[tablet]: -4. Place 1 doom on your location.\n[elder_thing]: -5. After this test resolves, the nearest ready unengaged [[Serpent]] enemy moves once toward your location."
+    },
+    {
+        "code": "90066a",
+        "flavor": "You've made your way to the Eztli ruins in search of ancient artifacts.",
+        "name": "Something Else Stirs...",
+        "text": "*This agenda gets +1 [per_investigator] doom threshold.\n<b>Forced</b> - When this agenda advances: Do not remove doom from locations in play.\n<b>Forced</b> - When an investigator is defeated: That investigator shuffles each [[Ancient]] story asset they control into the exploration deck."
+    },
+    {
+        "code": "90066b",
+        "name": "Dweller in the Pit",
+        "subname": "Guardian of the Past",
+        "text": "Hunter. Retaliate. <b>Spawn</b> - Engaged with Monterey Jack.\nDweller in the Pit gets +1 [per_investigator] health and +1 fight for each vengeance point in the victory display (max +3 fight).\n<b>Forced</b> - After Dweller in the Pit deals damage to you, check your supplies: If you do not have the satchel, shuffle each [[Ancient]] asset you control into the exploration deck.",
+        "traits": "Creature. Elite."
+    },
+    {
+        "code": "90067",
+        "flavor": "From the darkness of the tunnel before you, the creature lumbers forward with a reptilian hiss.",
+        "name": "Guardian of the Relics",
+        "text": "*This agenda gets +1 [per_investigator] doom threshold.\n<b>Forced</b> - When an investigator is defeated: That investigator shuffles each [[Ancient]] story asset they control into the exploration deck.",
+        "back_name": "Catastrophic Ruin",
+        "back_flavor": "The constant hissing echoes throughout the ruin. Snakes and serpentine humanoids close in on you, fangs beared and blades raised. Delving into these ruins has proved too dangerous to continue. You throw what few objects you had recovered at your pursuers, and then turn to flee back the way you came. At least, you think it was the way you came...",
+        "back_text": "Each investigator who has not been eliminated is defeated and suffers 1 physical trauma."
+    },
+    {
+        "code": "90068",
+        "flavor": "As you traverse the tight corridors of the ruin, you feel a deep rumbling beneath your feet.",
+        "name": "Crumbling Ruin",
+        "text": "[action]  If there are no clues on your location: <b>Explore</b>. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.\n<b>Objective</b> - When each surviving investigator is at Inner Chamber, they may spend the requisite number of clues, as a group, to advance.",
+        "back_name": "Trapped in the Tombs",
+        "back_flavor": "You cautiously step into the inner chamber, a room that has been sealed away for untold ages. As you look around at the various markings covering the floor and walls, you hear the grinding of stone on stone behind you. You wheel about to see the secret passage sliding closed. With a resounding thud, it slams shut, leaving only an unmarked wall in its place. You’re trapped!",
+        "back_text": "Move each unengaged [[Elite]] enemy directly to Inner Chamber.\nShuffle each of the following cards into the exploration deck: Each of the set-aside [[Ancient]] story assets, the set-aside Vengeant Past treachery, each single-sided location in play, and 1 copy of the set-aside Brood of Yig enemy for each vengeance point in the victory display.\nPlace 1 [per_investigator] clues on each revealed location (up to a maximum of its clue threshold)."
+    },
+    {
+        "code": "90069",
+        "name": "Find the Way Out!",
+        "text": "[action]  If there are no clues on your location: <b>Explore</b>. Draw the top card of the exploration deck. If it is a connecting location, put it into play and move to it.\n<b>Objective</b> - Get out with as many [[Ancient]] relics as you can! If each surviving investigator has resigned, advance.",
+        "back_name": "Escape at Last",
+        "back_flavor": "At long last, you have found your way back to the entrance of the tomb and have left the creatures in the darkness behind you.",
+        "back_text": "<b>(→R1)</b>"
+    },
+    {
+        "code": "90070",
+        "name": "Secret Passage",
+        "text": "<b>Revelation</b> - If Secret Passage is connected to your location, put it and the set-aside Inner Chamber into play. Otherwise, shuffle it into the exploration deck.\n<b>Forced</b> - After you enter Secret Passage: Check your supplies. If you have the compass, discover 1 clue from Secret Passage.",
+        "traits": "Ancient. Ruins."
+    },
+    {
+        "code": "90071",
+        "name": "Inner Chamber",
+        "text": "[action] Spend X clues: Reveal the top X cards of the exploration deck. Draw 1 of the revealed cards and check your supplies. If you have chalk, you may choose 1 additional card and draw it. Shuffle the remaining cards into the exploration deck.",
+        "traits": "Forgotten. Ruins.",
+        "back_flavor": "The floor of this central chamber is intricately carved and glows strangely. The walls and floor are scuffed with signs of some past struggle."
+    },
+    {
+        "code": "90072",
+        "flavor": "The crumbling hall dares you to venture deeper.",
+        "name": "Ancient Hall",
+        "text": "<b>Forced</b> - After doom is placed on Ancient Hall: Shuffle the top card of the encounter deck into the exploration deck. Any investigator at Ancient Hall may spend 3 resources to cancel this effect.",
+        "traits": "Ancient. Ruins."
+    },
+    {
+        "code": "90073",
+        "name": "Jade Crocodile",
+        "subname": "Effigy of the Guardian",
+        "text": "<b>Revelation</b> - Put Jade Crocodile into play under your control. You must either place 1 doom on your location, or take 2 damage.\n<b>Forced</b> - When you resign: Add Jade Crocodile to the victory display.",
+        "traits": "Item. Relic. Ancient."
+    },
+    {
+        "code": "90074",
+        "name": "Obsidian Jaguar",
+        "subname": "Effigy of the Huntress",
+        "text": "<b>Revelation</b> - Put Obsidian Jaguar into play under your control. You must either place 1 doom on your location, or the nearest enemy attacks you.\n<b>Forced</b> - When you resign: Add Obsidian Jaguar to the victory display.",
+        "traits": "Item. Relic. Ancient."
+    },
+    {
+        "code": "90075",
+        "name": "Citrine Snake",
+        "subname": "Effigy of the Child",
+        "text": "<b>Revelation</b> - Put Citrine Snake into play under your control. If you are poisoned, take 1 direct damage. If you are not poisoned, put a set-aside Poisoned weakness into play in your threat area.\n<b>Forced</b> - When you resign: Add Citrine Snake to the victory display.",
+        "traits": "Item. Relic. Ancient."
+    },
+    {
+        "code": "90076",
+        "name": "Turquoise Eagle",
+        "subname": "Effigy of the Watcher",
+        "text": "<b>Revelation</b> - Put Turquoise Eagle into play under your control. You must either place 1 doom on your location, or take 2 horror.\n<b>Forced</b> - When you resign: Add Turquoise Eagle to the victory display.",
+        "traits": "Item. Relic. Ancient."
+    },
+    {
+        "code": "90077",
+        "name": "Vengeant Past",
+        "text": "Peril.\n<b>Revelation</b> - For each [[Ancient]] story asset controlled by an investigator, you must either <i>(choose one)</i>:\n- Deal 1 damage or horror to that asset's controller.\n- Shuffle that asset into the exploration deck.\nAfter this effect resolves, shuffle Vengeant Past into the exploration deck.",
+        "traits": "Power."
+    }
+]
