@@ -1,42 +1,43 @@
 [
-  {
-    "code": "89001",
-    "name": "Sujeto 5U-21",
-    "subname": "La anomalía",
-    "text": "Comienzas la partida con Voraz <i>(Hambre controlada)</i> en juego.\nDurante cada fase de Mantenimiento, roba 1 carta adicional y devora una carta de Jugador que no sea Debilidad de tu mano.\n[fast]: Devora una carta que no sea de Historia controlada por un investigador que esté en tu Lugar. Límite de una vez por ronda.\n[elder_sign] Efecto: +2. Después de que termine esta prueba, puedes añadir una cata devorada a la mano de su propietario.",
-    "back_text": "<b>Tamaño de mazo</b>: 50.\n<b>Opciones de creación de mazos</b>: Cartas neutrales de nivel 0-5, cartas de cualquier clase de nivel 0.\n<b>Requerimientos de creación de mazos</b> (no cuentan para el tamaño de mazo): Voraz, 3 copias de Regurgitación, 3 copias de Ácido de la realidad, 2 Debilidades básicas aleatorias.\n<b>Restriciones de creación de mazos:</b> Sin cartas Permanente, excepto cartas de Historia y características Permanente.\n<b>Requisitos adicionales:</b> Tu mazo debe incluir al menos 7 cartas de cada clase ([guardian], [seeker], [rogue], [mystic], y [survivor]).\n<b>Opciones de mejora adicionales:</b> Después de que termine cada escenario, separa por clase todas las cartas que hayas devorado <i>(bajo Voraz y puestas aparte)</i>. Antes del siguiente escenario de esta campaña, puedes gastar experiencia para adquirir o mejorar 1 o más cartas de cualquier nivel de la clase que tenga más cartas devoradas (en caso de empate, elige una).",
-    "traits": "Excrecencia."
-  },
-  {
-    "code": "89002",
-    "name": "Voraz",
-    "subname": "Hambre controlada",
-    "text": "Sólo para el mazo de la Sujeto 5U-21. Permanente.\nCada vez que devores una carta, ponla aparte, boca abajo bajo Voraz. Recibes +1 a cada una de tus habilidades por cada carta que haya bajo Voraz (máx. +5).\n<b>Obligado</b> - Si hay 5 o más cartas bajo Voraz: Dale la vuelta.",
-    "traits": "Talento."
-},
-{
-    "code": "89002b",
-    "name": "Voraz",
-    "subname": "Hambre descontrolada",
-    "text": "Sólo para el mazo de la Sujeto 5U-21. Permanente.\nCada vez que devores una carta, ponla aparte, fuera del juego. Recibes +1 a cada una de tus habilidades por cada carta que haya bajo Voraz (máx. +5).\n<b>Obligado</b> - Al final de tu turno: Devora una carta que no sea de Historia que esté bajo Voraz o controlada por un investigador que esté en tu Lugar. Si no hay nada bajo Voraz, dale la vuelta.",
-    "traits": "Defecto."
-  },
-  {
-    "code": "89003",
-    "name": "Regurgitación",
-    "text": "Sólo para el mazo de la Sujeto 5U-21.\nRápido. Juega esta carta sólo durante tu turno.\nSi Voraz <i>(Hambre descotrolada)</i> está boca arriba, dale la vuelta. Elige y devuelve a las manos de sus propietarios hasta 3 cartas que hayas devorado <i>(bajo Voraz o puestas aparte)</i>. Por cada carta devuelta de este modo, cúrate 1 punto de daño o 1 punto de horror.",
-    "traits": "Poder."
-  },
-  {
-    "code": "89004",
-    "name": "Ácido de la realidad",
-    "text": "<b>Revelación</b> - Si Voraz <i>(Hambre controlada)</i> está boca arriba, dale la vuelta. Devora un aspecto aleatorio de la realidad. Revela una ficha de Caos aleatoria de la bolsa de caos y consulta la carta de referencia del Ácido de la realidad para determinar lo que has devorado.",
-    "traits": "Poder."
-  },
-  {
-    "code": "89005",
-    "name": "Ácido de la realidad",
-    "text": "<b>LA SUJETO 5U-21 DEVORA…</b>\n<i>(Si la ficha de Caos revelada no aparece en la lista, o si el aspecto indicado no puede ser devorado, revela una nueva ficha de Caos y vuelve a consultar la lista).</i>\n- [elder_sign]: …un Enemigo que no sea [[Élite]] o una Traición, que esté en tu Lugar y no valga puntos de victoria.\n- <b>+1</b>: …la primera carta de la pila de descartes de cada investigador.\n- <b>0</b>: …la primera carta del mazo de cada investigador.\n- <b>-1</b>: …1 carta aleatoria de tu mano.\n- <b>-2</b>: …un Apoyo que no sea de Historia ni Debilidad controlado por un investigador en tu Lugar.\n- <b>-3</b>: …una carta de Jugador vinculada a tu Lugar o vinculada a una carta de Encuentro que esté en tu Lugar.\n- <b>-4</b>: …las 2 primeras cartas del mazo de cada investigador.\n- <b>-5</b>: …3 cartas de tu elección de tu mano.\n- <b>-6</b>: …todos los Eventos de la mano de cada investigador.",
-	"back_text": "- <b>-7</b>: …1 Apoyo que no sea de Historia ni Debilidad de la zona de juego de cada investigador.\n- <b>-8</b>: …una carta característica que no sea Debilidad en el mazo, mano, pila de descartes o zona de juego de cualquier jugador.\n- [skull]: …1 carta que esté bajo Voraz, al Azar..\n- [cultist]: …todas las cartas asignadas a  cada prueba de habilidad en tu Lugar (<i>después de que acabe la prueba</i>), hasta el final de la siguiente fase de Investigación.\n- [tablet]: …cada Evento jugado por investigadores en tu Lugar, hasta el final de la siguiente fase de Investigación.\n- [elder_thing]: …la carta de Jugador de tu Lugar que tenga más pruebas, suministros, municiones, cargas o secretos.\n- [auto_fail]: Revela 3 fichas de Caos más y resuelve cada uno de sus efectos de devorar."
-  }
+    {
+        "code": "89001",
+        "flavor": "",
+        "name": "Sujeto 5U-21",
+        "subname": "La anomalía",
+        "text": "Comienzas la partida con Voraz <i>(Hambre controlada)</i> en juego.\nDurante cada fase de Mantenimiento, roba 1 carta adicional y devora una carta de Jugador que no sea Debilidad de tu mano.\n[fast]: Devora una carta que no sea de Historia controlada por un investigador que esté en tu Lugar. Límite de una vez por ronda.\n[elder_sign] Efecto: +2. Después de que termine esta prueba, puedes añadir una cata devorada a la mano de su propietario.",
+        "traits": "Excrecencia.",
+        "back_text": "<b>Tamaño de mazo</b>: 50.\n<b>Opciones de creación de mazos</b>: Cartas neutrales de nivel 0-5, cartas de cualquier clase de nivel 0.\n<b>Requerimientos de creación de mazos</b> (no cuentan para el tamaño de mazo): Voraz, 3 copias de Regurgitación, 3 copias de Ácido de la realidad, 2 Debilidades básicas aleatorias.\n<b>Restriciones de creación de mazos:</b> Sin cartas Permanente, excepto cartas de Historia y características Permanente.\n<b>Requisitos adicionales:</b> Tu mazo debe incluir al menos 7 cartas de cada clase ([guardian], [seeker], [rogue], [mystic], y [survivor]).\n<b>Opciones de mejora adicionales:</b> Después de que termine cada escenario, separa por clase todas las cartas que hayas devorado <i>(bajo Voraz y puestas aparte)</i>. Antes del siguiente escenario de esta campaña, puedes gastar experiencia para adquirir o mejorar 1 o más cartas de cualquier nivel de la clase que tenga más cartas devoradas (en caso de empate, elige una)."
+    },
+    {
+        "code": "89002",
+        "name": "Voraz",
+        "subname": "Hambre controlada",
+        "text": "Sólo para el mazo de la Sujeto 5U-21. Permanente.\nCada vez que devores una carta, ponla aparte, boca abajo bajo Voraz. Recibes +1 a cada una de tus habilidades por cada carta que haya bajo Voraz (máx. +5).\n<b>Obligado</b> - Si hay 5 o más cartas bajo Voraz: Dale la vuelta.",
+        "traits": "Talento."
+    },
+    {
+        "code": "89002b",
+        "name": "Voraz",
+        "subname": "Hambre descontrolada",
+        "text": "Sólo para el mazo de la Sujeto 5U-21. Permanente.\nCada vez que devores una carta, ponla aparte, fuera del juego. Recibes +1 a cada una de tus habilidades por cada carta que haya bajo Voraz (máx. +5).\n<b>Obligado</b> - Al final de tu turno: Devora una carta que no sea de Historia que esté bajo Voraz o controlada por un investigador que esté en tu Lugar. Si no hay nada bajo Voraz, dale la vuelta.",
+        "traits": "Defecto."
+    },
+    {
+        "code": "89003",
+        "name": "Regurgitación",
+        "text": "Sólo para el mazo de la Sujeto 5U-21.\nRápido. Juega esta carta sólo durante tu turno.\nSi Voraz <i>(Hambre descotrolada)</i> está boca arriba, dale la vuelta. Elige y devuelve a las manos de sus propietarios hasta 3 cartas que hayas devorado <i>(bajo Voraz o puestas aparte)</i>. Por cada carta devuelta de este modo, cúrate 1 punto de daño o 1 punto de horror.",
+        "traits": "Poder."
+    },
+    {
+        "code": "89004",
+        "name": "Ácido de la realidad",
+        "text": "<b>Revelación</b> - Si Voraz <i>(Hambre controlada)</i> está boca arriba, dale la vuelta. Devora un aspecto aleatorio de la realidad. Revela una ficha de Caos aleatoria de la bolsa de caos y consulta la carta de referencia del Ácido de la realidad para determinar lo que has devorado.",
+        "traits": "Poder."
+    },
+    {
+        "code": "89005",
+        "name": "Ácido de la realidad",
+        "text": "<b>LA SUJETO 5U-21 DEVORA…</b>\n<i>(Si la ficha de Caos revelada no aparece en la lista, o si el aspecto indicado no puede ser devorado, revela una nueva ficha de Caos y vuelve a consultar la lista).</i>\n- [elder_sign]: …un Enemigo que no sea [[Élite]] o una Traición, que esté en tu Lugar y no valga puntos de victoria.\n- <b>+1</b>: …la primera carta de la pila de descartes de cada investigador.\n- <b>0</b>: …la primera carta del mazo de cada investigador.\n- <b>-1</b>: …1 carta aleatoria de tu mano.\n- <b>-2</b>: …un Apoyo que no sea de Historia ni Debilidad controlado por un investigador en tu Lugar.\n- <b>-3</b>: …una carta de Jugador vinculada a tu Lugar o vinculada a una carta de Encuentro que esté en tu Lugar.\n- <b>-4</b>: …las 2 primeras cartas del mazo de cada investigador.\n- <b>-5</b>: …3 cartas de tu elección de tu mano.\n- <b>-6</b>: …todos los Eventos de la mano de cada investigador.",
+        "back_text": "- <b>-7</b>: …1 Apoyo que no sea de Historia ni Debilidad de la zona de juego de cada investigador.\n- <b>-8</b>: …una carta característica que no sea Debilidad en el mazo, mano, pila de descartes o zona de juego de cualquier jugador.\n- [skull]: …1 carta que esté bajo Voraz, al Azar..\n- [cultist]: …todas las cartas asignadas a  cada prueba de habilidad en tu Lugar (<i>después de que acabe la prueba</i>), hasta el final de la siguiente fase de Investigación.\n- [tablet]: …cada Evento jugado por investigadores en tu Lugar, hasta el final de la siguiente fase de Investigación.\n- [elder_thing]: …la carta de Jugador de tu Lugar que tenga más pruebas, suministros, municiones, cargas o secretos.\n- [auto_fail]: Revela 3 fichas de Caos más y resuelve cada uno de sus efectos de devorar."
+    }
 ]

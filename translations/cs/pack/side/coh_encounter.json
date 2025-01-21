@@ -1,0 +1,286 @@
+[
+    {
+        "code": "82001",
+        "name": "Carnevale of Horrors",
+        "text": "Easy / Standard\n[skull]: -2. This token has an additional -1 for each Innocent Reveler underneath the agenda deck.\n[cultist]: Reveal another token. If you fail this test, draw the top card of the encounter deck.\n[tablet]: -3. If you fail, deal 1 damage or 1 horror to the nearest Innocent Reveler in play.\n[elder_thing]: -4. If you fail and Cnidathqua is in play, it attacks you.",
+        "back_text": "Hard / Expert\n[skull]: -2. This token has an additional -1 for each Innocent Reveler underneath the act or agenda decks.\n[cultist]: Reveal another token. If you fail this test, draw the top card of the encounter deck.\n[tablet]: -4. Deal 1 damage or 1 horror to the nearest Innocent Reveler in play.\n[elder_thing]: -6. If you fail and Cnidathqua is in play, it attacks you."
+    },
+    {
+        "code": "82002",
+        "flavor": "Last-minute ocean liner tickets from Boston to Italy set you back a fair bit of dough, but after a tense journey, you arrive in Venice. The Carnevale has already begun, and the city is in celebration. Colorful confetti rains from above, covering the streets. Many revelers throng in Piazza San Marco, the square outside of Basilica. The parade is to begin shortly. You find the nearest uniformed Carabinieri and show him a copy of the symbol you'd transcribed from \"Zanni's\" mask. He pauses to decide your trustworthiness, nods, and escorts you into the basilica to see the Abbess Allegria Di Biase.",
+        "name": "The Festivities Begin"
+    },
+    {
+        "code": "82002b",
+        "name": "Baleful Reveler",
+        "subname": "Spreading Chaos",
+        "text": "<b>Spawn</b> - The nearest location with no investigators counter-clockwise from the lead investigator.\nHunter. Retaliate.\n<b>Forced</b> - After Baleful Reveler moves from the hunter keyword, reveal a random token from the chaos bag. If you reveal a [skull], [cultist], [tablet], [elder_thing], or [auto_fail] symbol, resolve its hunter keyword again. (Limit once per round.)",
+        "traits": "Humanoid. Cultist. Elite."
+    },
+    {
+        "code": "82003",
+        "flavor": "The clamor and celebration of the Carnevale has for the most part drowned out the terrors you've seen in the city... Until now. The sun vanishes behind the moon, and darkness overtakes the sky. There is a solitary cry and the sound of crashing water. Within moments, screams erupt throughout the city. And yet, somehow, you see revelers still celebrating with wide, crazed smiles.",
+        "name": "The Shadow of the Eclipse",
+        "back_name": "A Sacrifice To Be Made",
+        "back_flavor": "The shadow of the eclipse is unrelenting. Throughout the city, a dull chant overtakes the screaming and the chaos, its language ancient and morbid. Tentacles course through the canals from the south, weaving beneath bridges and trapping entire islands within their grasp.",
+        "back_text": "If there are 1 or more Masked Carnevale-Goers in play, the lead investigator chooses 1 and flips it to its other side. If its other side is an Innocent Reveler, place it underneath the agenda deck.\nIf there is still a Masked Carnevale-Goer in play, flip this agenda back to agenda 2a.\nOtherwise, advance to agenda 3a."
+    },
+    {
+        "code": "82004",
+        "flavor": "In the lagoon, an ancient terror stirs. The creature's tentacles coil around the city, and the water level begins to rise. As if in response, the chanting you hear throughout the city grows louder.",
+        "name": "Chaos at the Carnevale",
+        "text": "<b>Forced</b> - After a Writhing Appendage enters play: Place 2 doom on it.",
+        "back_name": "Cnidathqua Attacks!",
+        "back_flavor": "Great tentacle-arms, covered with acrid slime, rise from the canals and lash at you and anyone else unfortunate enough to be in the vicinity.",
+        "back_text": "In player order, Cnidathqua attacks each investigator in play, regardless of their location. Damage and horror from these attacks must be assigned to an Innocent Reveler first, if able. Then, flip this agenda back to agenda 3a."
+    },
+    {
+        "code": "82005",
+        "flavor": "The abbess addresses you privately: \"So, you know what is coming?\" You nod. \"Then you know what must be done. They are using the celebration as a sacrifice for their wretched master. Bring as many innocents as you can here, where I can protect them. But beware - the creature's servants will try to blend into the crowd with their false masks.\"",
+        "name": "The Carnevale Conspiracy",
+        "text": "[action] The investigators spend 1 [per_investigator] clues, as a group: Look at the other side of a Masked Carnevale-Goer at any location.\n<b>Objective</b> - If there are a total of 3 Innocent Revelers underneath the act and/or agenda decks, advance.",
+        "back_name": "The Beast Emerges",
+        "back_flavor": "Many of the revelers are under the sway of a foul spell, and they cannot see the danger emerging around them. You push your way through the crowded streets, gathering what few sane revelers you can find and guiding them toward the relative safety of the Basilica. As the last of them is escorted inside, the ground shakes violently, and a watery shape looms above the island to the south from deep within the lagoon. Their ritual nearly finished, the \"revelers\" in the streets begin to unmask...",
+        "back_text": "Put the set-aside Cnidathqua enemy into play in the center of all of the locations. For the remainder of the scenario, Cnidathqua is considered to be in play but is not at any location.\nThe lead investigator chooses a Masked Carnevale-Goer in play and flips it to its other side."
+    },
+    {
+        "code": "82006",
+        "flavor": "The civilians in the Basilica are safe for now, but Venice is doomed if you don't act quickly. The only way to ensure the safety of the sacrifices is to draw the creature in the lagoon away from the city. Sweat beads down your forehead as you realize this decision may be your last. Legs trembling, you head towards the moored boats docked by the canals.",
+        "name": "Get to the Boats!",
+        "text": "<b>Forced</b> - After the mythos phase begins: Choose a Masked Carnevale-Goer in play and flip it to its other side.\n<b>Objective</b> - If each undefeated investigator is at Canal-side, advance."
+    },
+    {
+        "code": "82006b",
+        "name": "Gondola",
+        "text": "<b>Revelation</b> - Put Gondola into play and move each investigator to it. Then, remove all other locations from the game. Remove from the game each enemy and asset at those locations, as well.\n[action]: Test [combat] or [agility] (2) to row as hard as you can. If you succeed, place 1 resource from the token bank on this location.",
+        "traits": "Venice. Boat."
+    },
+    {
+        "code": "82007",
+        "flavor": "Relief turns to desperation as the creature draws its attention to your gondola. You have only one chance if you are to survive.",
+        "name": "Row!",
+        "text": "<b>Forced</b> - When you would draw the top card of the encounter deck: Instead look at the top 5 cards of the encounter deck and put each Writhing Appendage among those cards into play, engaged with you. Discard the rest of those cards.\n<b>Objective</b> - If there are 4 [per_investigator] resources on Gondola, advance.",
+        "back_name": "Blood of the Lagoon",
+        "back_flavor": "The skin on your hands blisters, rubbed raw by the oar, and your arms ache with pain. The creature movement is slow, its body covered in acrid slime, but its countless tentacles lash at you from the dark waters, coiling around your gondola and attempting to pry the oar out of your hands. With a heart-wrenching snap, the oar splinters into two pieces, the bottom half splashing into the lagoon. You desperately try to propel the gondola forward using any means you can, but it is futile. The beast gains on you, looming over the boat with an impossible feathery shape, its tendrils reaching for you. Above it, the black shape of the moon begins to slide. A thin crescent of sunlight pierces through the mist as the eclipse ends, and the creature's tendrils recoil to surround its body. Slowly it sinks into the lagoon, its body melting as the sun escapes its prison.",
+        "back_text": "<b>(→R1)</b>"
+    },
+    {
+        "code": "82008",
+        "flavor": "Blessed and warded by the abbess, the Basilica is about as safe a place as you can find in Venice. But it is not safe enough.",
+        "name": "San Marco Basilica",
+        "text": "San Marco Basilica is connected to the location in the clockwise direction.\n[action]: Place an Innocent Reveler you control underneath the act deck, out of play.",
+        "traits": "Venice.",
+        "back_flavor": "You cannot help but marvel at the Basilica's opulence and towering presence. In the piazza outside, revelers dance and celebrate, oblivious to their peril.",
+        "back_text": "San Marco Basilica is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82009",
+        "flavor": "The water ripples and swells, causing some boats to sway and even capsize. You made a mental note to stay away from the docks.",
+        "name": "Canal-side",
+        "text": "Canal-side is connected to the location in the clockwise direction.\n[reaction] After you enter Canal-side: Place 1 clue on Canal-side from the token bank.",
+        "traits": "Venice.",
+        "back_flavor": "Canals course through the city's many islands, lined with gondole, traghetti, and other boats. The redolence of the festival clashes with the pungent odor of the water. Here the music of the Carnevale is faded, replaced by the sound of gentle sloshing against the docks and canal walls.",
+        "back_text": "Canal-side is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82010",
+        "name": "Streets of Venice",
+        "text": "Streets of Venice is connected to the location in the clockwise direction.\n[free]: <b>Move</b> (to the location in the clockwise direction).",
+        "traits": "Venice.",
+        "back_flavor": "The parade of masks follows a circuitous route through the city, through the canal-side walkways and over more bridges than you can count. Streamers and confetti litter the streets where the parade has already passed by.",
+        "back_text": "Streets of Venice is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82011",
+        "name": "Rialto Bridge",
+        "text": "Rialto Bridge is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Rialto Bridge: Lose 1 action.",
+        "traits": "Venice. Bridge.",
+        "back_flavor": "The Ponte di Rialto is the oldest bridge spanning the Grand Canal. It has endured for centuries, but even its stone may crumble should you fail.",
+        "back_text": "Rialto Bridge is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82012",
+        "flavor": "The garden's quiet elegance stands in stark contrast to the raucous celebrations throughout the city.",
+        "name": "Venetian Garden",
+        "text": "Venetian Garden is connected to the location in the clockwise direction.\n[action] [action] Spend 2 resources: Heal 2 horror. (Limit once per game.)",
+        "traits": "Venice.",
+        "back_flavor": "The parade's path meanders away from the canals and winds through a beautiful garden. Moonlight streams through the leaves, dappling the ancient marble statues.",
+        "back_text": "Venetian Garden is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82013",
+        "name": "Bridge of Sighs",
+        "text": "Bridge of Sighs is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Bridge of Sighs: Take 1 horror.",
+        "traits": "Venice. Bridge.",
+        "back_flavor": "With a pang of discomfort, you imagine how disheartening the view would be from inside the enclosed bridge, looking out of its cramped windows.",
+        "back_text": "Bridge of Sighs is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82014",
+        "name": "Flooded Square",
+        "text": "Flooded Square is connected to the location in the clockwise direction.\n[action]: Automatically evade a non-[[Elite]] enemy at the location in the counter-clockwise direction. (Group limit once per turn.)",
+        "traits": "Venice.",
+        "back_flavor": "As the rising tide of the acqua alta floods the square, you trudge through the numbingly cold water. The parade continues across a makeshift wooden bridge that spans the square, too narrow for your comfort.",
+        "back_text": "Flooded Square is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82015",
+        "name": "Accademia Bridge",
+        "text": "Accademia Bridge is connected to the location in the clockwise direction.\n<b>Forced</b> - After you leave Accademia Bridge: Lose 2 resources.",
+        "traits": "Venice. Bridge.",
+        "back_flavor": "The long and narrow Ponte dell'Accademia is one of only four bridges that span the Grand Canal. Many pairs of yellow eyes gaze at the bridge from the academy's high windows, seemingly waiting for you to cross...",
+        "back_text": "Accademia Bridge is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82016",
+        "flavor": "You're sure it's made of stone. Why does it seem so alive?",
+        "name": "The Guardian",
+        "text": "The Guardian is connected to the location in the clockwise direction.\n[reaction] After you enter The Guardian: Draw 1 card.",
+        "traits": "Venice.",
+        "back_flavor": "The statue's eyes seem to glow with the light of the moon.",
+        "back_text": "The Guardian is connected to the location in the clockwise direction."
+    },
+    {
+        "code": "82017",
+        "name": "Don Lagorio",
+        "subname": "Secret Servant",
+        "text": "Hunter.\nWhile resolving the hunter keyword on Don Lagorio, his location is connected to the location in the counter-clockwise direction, as well as the clockwise direction.",
+        "traits": "Humanoid. Servitor. Elite."
+    },
+    {
+        "code": "82017b",
+        "name": "Masked Carnevale-Goer",
+        "text": "[action] Spend 1 clue: Flip Masked Carnevale-Goer. If its other side is an enemy, it attacks each investigator in its location.",
+        "traits": "Carnevale."
+    },
+    {
+        "code": "82018",
+        "name": "Elisabetta Magro",
+        "subname": "High Servant of the Order",
+        "text": "Aloof.\n<b>Forced</b> - When you look at Elisabetta Magro using the ability on Act 1a: Flip her to this side.\n<b>Forced</b> - When the mythos phase ends: Place 1 doom on Elisabetta Magro.",
+        "traits": "Humanoid. Lodge. Elite."
+    },
+    {
+        "code": "82019",
+        "name": "Salvatore Neri",
+        "subname": "Master of Illusions",
+        "text": "Retaliate.\nSalvatore Neri's fight value is equal to the attacking investigator's base [combat].\nSalvatore Neri's evade value is equal to the evading investigator's base [agility].",
+        "traits": "Humanoid. Sorcerer. Elite."
+    },
+    {
+        "code": "82020",
+        "name": "Savio Corvi",
+        "subname": "Dark Lurker",
+        "text": "Hunter.\nWhile resolving the hunter keyword on Savio Corvi, his location is connected to the location across from him, as well as in the clockwise direction.",
+        "traits": "Humanoid. Cultist. Elite."
+    },
+    {
+        "code": "82021",
+        "name": "Innocent Reveler",
+        "text": "[action]: <b>Parley.</b> Test [intellect] (2) to convince the reveler to follow you to safety. If you succeed, take control of Innocent Reveler.\n<b>Forced</b> - When Innocent Reveler would be discarded: Place it underneath the agenda deck, out of play. Each investigator takes 1 horror.",
+        "traits": "Ally. Bystander. Carnevale."
+    },
+    {
+        "code": "82022",
+        "name": "Abbess Allegria Di Biase",
+        "subname": "Most Blessed",
+        "text": "[free]: Exhaust Abbess Allegria Di Biase: Move from her location to a connecting location, or to her location from a location connected to it. Any investigator may trigger this ability.",
+        "traits": "Ally. Believer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "82023",
+        "name": "Bauta",
+        "text": "Limit 1 [[Mask]] per investigator.\n[reaction] After Bauta enters play: Gain 2 resources.\n[reaction] When you initiate a non-[combat] test, discard Bauta: Use [combat] for this test, instead of the skill indicated.",
+        "traits": "Item. Mask."
+    },
+    {
+        "code": "82024",
+        "name": "Medico Della Peste",
+        "text": "Limit 1 [[Mask]] per investigator.\n[reaction] After Medico Della Peste enters play: You heal 1 damage or 1 horror.\n[reaction] When you initiate a non-[willpower] test, discard Medico Della Peste: Use [willpower] for this test, instead of the skill indicated.",
+        "traits": "Item. Mask."
+    },
+    {
+        "code": "82025",
+        "name": "Pantalone",
+        "text": "Limit 1 [[Mask]] per investigator.\n[reaction] After Pantalone enters play: Draw 2 cards.\n[reaction] When you initiate a non-[intellect] test, discard Pantalone: Use [intellect] for this test, instead of the skill indicated.",
+        "traits": "Item. Mask."
+    },
+    {
+        "code": "82026",
+        "name": "Gilded Volto",
+        "text": "Limit 1 [[Mask]] per investigator.\n[reaction] After Gilded Volto enters play: Treat the next asset you play this turn as if it has fast.\n[reaction] When you initiate a non-[agility] test, discard Gilded Volto: Use [agility] for this test, instead of the skill indicated.",
+        "traits": "Item. Mask."
+    },
+    {
+        "code": "82027",
+        "name": "Cnidathqua",
+        "subname": "The Many-armed Beast",
+        "text": "You may fight Cnidathqua as if it were at your location (it is not engaged with you).\nCnidathqua cannot be evaded.\n<b>Forced</b> - After you fail a test while attacking Cnidathqua: Search the encounter deck and discard pile for a Writhing Appendage and spawn it engaged with you.\n<b>Objective</b> - If Cnidathqua is defeated, <b>(→R2)</b>.",
+        "traits": "Monster. Ancient One. Elite."
+    },
+    {
+        "code": "82028",
+        "flavor": "Dark waters hold darker secrets.",
+        "name": "Poleman",
+        "text": "<b>Spawn</b> - Canal-side.\n<b>Prey</b> - Most Innocent Revelers controlled.\nHunter.",
+        "traits": "Monster. Deep One."
+    },
+    {
+        "code": "82029",
+        "flavor": "Uninvited guests are not welcome.",
+        "name": "Carnevale Sentinel",
+        "text": "<b>Spawn</b> - The location across from you.\nRetaliate.\nYou cannot look at the other side of Masked Carnevale-Goers at Carnevale Sentinel's location using the ability on Act 1a.",
+        "traits": "Humanoid. Cultist."
+    },
+    {
+        "code": "82030",
+        "name": "Writhing Appendage",
+        "text": "Retaliate.\n<b>Forced</b> - After Writhing Appendage attacks you: Discard a random card from your hand.\n<b>Forced</b> - When Writhing Appendage is defeated, if Cnidathqua is in play: Deal 1 damage to Cnidathqua.",
+        "traits": "Monster. Tentacle."
+    },
+    {
+        "code": "82031",
+        "name": "Mass Hysteria",
+        "text": "Peril.\n<b>Revelation</b> - You must either take 2 damage or take each Masked Carnevale-Goer, shuffle them so the investigators do not know which is which, and place 1 in each location, starting with the location clockwise from you (Masked Carnevale-Goer side face-up).",
+        "traits": "Hazard."
+    },
+    {
+        "code": "82032",
+        "flavor": "How exactly did you end up here?",
+        "name": "Lost in Venice",
+        "text": "Peril.\n<b>Revelation</b> - You must either take 2 horror or move to the location across from you.",
+        "traits": "Blunder."
+    },
+    {
+        "code": "82033",
+        "name": "Watchers' Gaze",
+        "text": "<b>Revelation</b> - Test [willpower] (4). Each investigator who controls an Innocent Reveler must also perform this skill test. Each investigator who fails takes 1 horror, which must be assigned to Innocent Reveler first, if able.",
+        "traits": "Terror."
+    },
+    {
+        "code": "82034",
+        "name": "Chaos in the Water",
+        "text": "<b>Revelation</b> - Test [agility] (4). Each investigator who controls an Innocent Reveler must also perform this skill test. Each investigator who fails takes 1 damage, which must be assigned to an Innocent Reveler first, if able.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "82035",
+        "name": "Mesmerize",
+        "text": "<b>Revelation</b> - If there are no Masked Carnevale-Goers at your location, Mesmerize gains surge. If there is a Masked Carnevale-Goer at your location, flip it. If it is an Innocent Reveler, move it to the farthest location clockwise from you with no investigators, then deal it 1 damage and 1 horror.",
+        "traits": "Hex."
+    },
+    {
+        "code": "82036",
+        "flavor": "When the revelers come out to celebrate, <em>they</em> come out to feed.",
+        "name": "Abduction",
+        "text": "<b>Revelation</b> - Test [willpower] (3). If you fail, you must either lose all of your resources or choose and discard an [[Ally]] asset you control.",
+        "traits": "Scheme."
+    },
+    {
+        "code": "82037",
+        "name": "Acrid Miasma",
+        "text": "<b>Revelation</b> - Attach to the nearest location in the clockwise direction with no Acrid Miasma.\n<b>Forced</b> - After an investigator enters attached location, he or she tests [willpower] (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play.",
+        "traits": "Hazard."
+    }
+]
