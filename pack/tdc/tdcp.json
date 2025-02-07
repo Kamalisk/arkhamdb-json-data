@@ -1,7 +1,7 @@
 [
     {
-        "back_flavor": "<b>This is placeholder back text until the card is revealed.</b>",
-        "back_text": "<b>This is placeholder back text until the card is revealed.</b>",
+        "back_flavor": "After her father died, Marion moved to Arkham from Narragansett Bay. She purchased a boat with her friend, Annalise Taylor, and the two found a new home among the city's fishing community. One stormy night at sea, Annalise was pulled overboard by a strange fish-like creature. Marion leapt into the water and pulled Annalise from the creature's jaws - costing Marion her right arm. Since then, she keeps a weather eye on the choppy waters of the Atlantic and the strange creatures that hide in its depths.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b><i>Trait</i> Choice</b>: At deck creation, choose one of the following traits: [[Fortune]], [[Gambit]], or [[Improvised]].\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5, events with your chosen [[Trait]] level 0-2, up to 5 other level 0 Survivor cards ([survivor]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Two copies of Determined, \"I'll do it myself,\" 1 random basic weakness.",
         "code": "11001",
         "deck_limit": 1,
         "deck_options": [
@@ -16,18 +16,21 @@
                         "id": "improvised",
                         "name": "Improvised",
                         "trait": ["improvised"],
+                        "type": ["event"],
                         "level": { "min": 0, "max": 2 }
                     },
                     {
                         "id": "gambit",
                         "name": "Gambit",
                         "trait": ["gambit"],
+                        "type": ["event"],
                         "level": { "min": 0, "max": 2 }
                     },
                     {
                         "id": "fortune",
                         "name": "Fortune",
                         "trait": ["fortune"],
+                        "type": ["event"],
                         "level": { "min": 0, "max": 2 }
                     }
                 ]
