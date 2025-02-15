@@ -351,6 +351,27 @@
         "slot": "Accesorio"
     },
     {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Usos (2 municiones).\n[free] Agota la Luger P08 y gasta 1 munición: <b>Combatir.</b> Recibes +1 [combat] para este ataque.\n[action] Gasta 1 recurso: Repón toda la munición de la Luger P08 y prepárala.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Te cubre las espaldas",
+        "text": "Recibes +1 [combat].\n[action] Descarta de tu mano un Apoyo [[Arma de fuego]] que ocupe 1 o menos espacios de mano y agota a Robert Castaigne: Resuelve una capacidad <b>Combatir</b> del Apoyo descartado, ignorando todos los costes. Esto no provoca ataques de oportunidad.",
+        "traits": "Aliado. Veterano.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11052",
+        "name": "Vacile",
+        "text": "[reaction] Cuando intentes evitar a un Enemigo, agota el Vacile: Para este intento de evitar, recibes +1 a tu valor de habilidad y ese Enemigo obtiene Alerta. Si tienes éxito, roba 1 carta y no dejes de estar enfrentado a ese Enemigo.",
+        "traits": "Talento."
+    },
+    {
         "code": "11053",
         "name": "\"¿Dónde es la fiesta?\"",
         "text": "<b>Negociar.</b> Busca en el mazo y la pila de descartes de Encuentros un Enemigo que no sea [[Élite]] y haz que aparezca agotado y enfrentado a ti. Roba una cantidad de cartas igual a los valores combinados de daño y horror de ese Enemigo.",
@@ -386,5 +407,92 @@
         "name": "Doppelgänger",
         "text": "Miríada. Rápido. Juega esta carta solo durante tu turno.\nVincula esta carta a tu Lugar. Límite de 1 por Lugar.\n[reaction] Después de que un Enemigo entre en el Lugar vinculado o lo abandone, devuelve Doppelgänger a tu mano: Realiza un intento de evitar contra ese Enemigo o bien muévete inmediatamente al Lugar vinculado <i>(puedes activar esta capacidad desde cualquier Lugar)</i>.",
         "traits": "Hechizo. Truco."
-    }
+    },
+    {
+        "code": "11059",
+        "name": "Contactos mafiosos",
+        "text": "Excepcional.\n[action] Gasta 2 recursos: Roba la carta vinculada a los Contactos mafiosos.\n[reaction] Cuando un Apoyo [[Ilegal]] que controles sea descartado del juego, agota los Contactos mafiosos: Vincula ese Apoyo a esta carta, boca abajo. Límite de 1 Apoyo vinculado.",
+        "traits": "Contacto. Ilegal."
+    },
+    {
+        "code": "11060",
+        "name": "Nublar",
+        "text": "Límite de 1 por investigador.\nSello (0). Puedes resolver esta palabra clave de nuevo después de que reveles un Lugar o pongas en juego un nuevo Lugar.\n[reaction] Cuando te enfrentes a un Enemigo, agota Nublar y libera una ficha sellada aquí: <b>Combatir</b> o <b>Evitar</b> inmediatamente ese Enemigo. Durante esta prueba de habilidad, el valor básico de tu habilidad es igual al valor de velo de tu Lugar.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11061",
+        "flavor": "\"Lo que te gusta alardear.\""
+        "name": "\"¡Mira esto!\"",
+        "text": "Sólo puedes asignar esta carta a una prueba de habilidad que estés realizando. Como coste adicional para asignar \"¡Mira esto!\" a una prueba de habilidad, gasta hasta 3 recursos.\nSi tienes éxito por 1 o más, obtén el doble de esa cantidad de recursos.",
+        "traits": "Gambito."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Te sigue cubriendo las espaldas",
+        "text": "Recibes +1 [combat].\n[free] Agota a Robert Castaigne: <b>Combatir.</b> Revela un Apoyo [[Arma de fuego]] de tu mano que ocupe 1 o menos espacios de mano. Resuelve una capacidad <b>Combatir</b> del Apoyo revelado, ignorando todos los costes. A continuación, puedes descartar el Apoyo revelado para robar 1 carta o bien jugar ese Apoyo <i>(pagando su coste)</i>.",
+        "traits": "Aliado. Veterano.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11063",
+        "name": "\"Te las has visto en peores...\"",
+        "text": "Rápido. Juega esta carta cuando se inflija daño y/u horror a un investigador que esté en tu Lugar o en un Lugar conectado.\nEse investigador puede darte hasta 5 recursos. Por cada recurso dado por este efecto, ese investigador cancela 1 punto de daño o 1 punto de horror que se le acabe de infligir.",
+        "traits": "Favor."
+    },
+    {
+        "code": "11064",
+        "name": "Ametralladora gatling",
+        "text": "Usos (12 municiones).\n[action] Gasta 1-6 municiones: <b>Combatir.</b> Recibes +X[combat] para este ataque. La dificultad para este ataque es igual a los valores de combate combinados de todos los Enemigos que estén en tu Lugar. En lugar de su daño estándar, este ataque inflige X puntos de daño divididos como elijas entre los Enemigos que estén en tu Lugar. X es la cantidad de municiones gastadas como parte del coste de esta capacidad.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "11065",
+        "name": "Sangre de Thoth",
+        "subname": "Ley encarnada",
+        "text": "[reaction] Cuando se coloque 1 ficha de Perdición o más en una carta que controles, agota la Sangre de Thoth: Coloca 1 recurso en esta carta <i>(de la reserva de fichas)</i>, como ofrenda.\n[free] Si la Sangre de Thoth tiene 3 o más ofrendas, retira todas las ofrendas de la Sangre de Thoth y agótala: Elige un investigador que esté en tu Lugar para que realice una acción inmediatamente como si fuera su turno.",
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11066",
+        "name": "Aliento del durmiente",
+        "text": "Usos (9 cargas).\n[action]: <b>Combatir.</b> Usa tu [willpower] en vez de tu [combat] para esta prueba. Antes de revelar fichas de Caos para esta prueba, puedes gastar hasta 3 cargas para revelar esa misma cantidad de fichas de Caos adicionales. Elige 1 de las fichas reveladas para resolverla e ignora el resto. Si tienes éxito y la ficha elegida es igual que una ficha ignorada, este ataque inflige +2 de daño.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11067",
+        "name": "Ojos del soñador",
+        "text": "Usos (9 cargas).\n[action]: <b>Investigar.</b> Usa tu [willpower] en vez de tu [intellect] para esta prueba.Antes de revelar fichas de Caos para esta prueba, puedes gastar hasta 3 cargas para revelar esa misma cantidad de fichas de Caos adicionales. Elige 1 de las fichas reveladas para resolverla e ignora el resto. Si tienes éxito y la ficha elegida es igual que una ficha ignorada, descubre 1 pista adicional en tu Lugar.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11068",
+        "name": "La gran obra",
+        "subname": "Dividir y unir",
+        "text": "Permanente. Límite de 1 por mazo. Sólo puedes adquirir esta carta al crear el mazo.\nGanas 1 punto de experiencia adicional después de cada escenario de esta campaña. Si eres derrotado, el Homúnculo te usurpa (reemplaza cada carta característica de tu mazo por una Debilidad básica aleatoria, dale la vuelta a esta carta y reemplaza tu investigador con ella durante el resto de la campaña).",
+        "traits": "Pacto. Ciencia."
+    },
+    {
+        "code": "11069",
+        "name": "Katarina Sojka",
+        "subname": "Emisaria de Ulthar",
+        "text": "[reaction] Cuando reveles fichas de Caos durante una prueba de habilidad que estés realizando, agota a Katarina Sojka: Revela fichas de la bolsa de caos hasta que sea revelada una ficha con símbolo. Resuelve esa ficha e ignora el resto.",
+        "traits": "Aliado. Clarividente. Sofrador.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11070",
+        "name": "Signo de Xelotaph",
+        "subname": "Símbolo de protección",
+        "text": "Miríada. Sello [skull], [cultist], [tablet] o [elder_thing]. Usos (3 cargas).\n<b>Obligado -</b> Cuando comience tu turno: Debes gastar 1 carga o descartar el Signo de Xelotaph.\n[free] Descarta una copia del Signo de Xelotaph de tu mano: Repón todas las cargas de esta copia del Signo de Xelotaph.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    
 ]
