@@ -10,6 +10,12 @@
         "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Elección de [[Rasgo]]</b>: Al crear el mazo, elige uno de los siguientes rasgos: [[Fortuna]], [[Gambito]] o [[Improvisado]].\n<b>Opciones de creación de mazos</b>: Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5, Eventos con tu [[Rasgo]] elegido de nivel 0-2, hasta otras 5 cartas Superviviente ([survivor]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 2 copias de Decidida, \"Lo haré yo misma\", 1 Debilidad básica aleatoria."
     },
     {
+        "code": "11002",
+        "name": "Decidida",
+        "text": "Sólo para el mazo de Marion Tavares.\nSi esta prueba de habilidad tiene éxito y es de un Evento que hayas jugado, puedes devolver Decidida a tu mano en vez de descartarla.",
+        "traits": "Innato."
+    },
+    {
         "code": "11004",
         "flavor": "\"Me alegro mucho de que todos mis sueños se hayan quedado dentro de mi cabeza.\"",
         "name": "Lucius Galloway",
@@ -38,6 +44,12 @@
         "back_text": "<b>Tamaño de mazo</b>: 35.\n<b>Opciones de creación de mazos</b>: Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, Eventos [[Hechizo]] de nivel 0-3, hasta otras 10 cartas Buscador ([seeker]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Ocula obscura, Atisbar el vacío, 1 Debilidad básica aleatoria."
     },
     {
+        "code": "11010",
+        "name": "Atisbar el vacío",
+        "text": "<b>Revelación -</b> Pon Atisbar el vacío en juego en tu zona de amenaza.\nLa primera vez que reveles 1 o más fichas de Caos durante cada prueba de habilidad, debes revelar 1 ficha de Caos adicional <i>(y resolver sus efectos)</i>.\n[action]: Añade Atisbar el vacío a tu mazo y baraja este.",
+        "traits": "Equivocación. Inspiración."
+    },
+    {
         "code": "11011",
         "flavor": "\"Me da igual que sea un dios. Si me la juega, se arrepentirá.\"",
         "name": "Michael McGlen",
@@ -48,13 +60,38 @@
         "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos:</b> Cartas Rebelde ([rogue]) de nivel 0-3, cartas neutrales de nivel 0-5, cartas con [[Arma de fuego]] como su [[Rasgo]] o en su cuadro de texto de reglas de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Estuche de \"viola\", Incautación, 1 Debilidad básica aleatoria."
     },
     {
+        "code": "11012",
+        "name": "Estuche de \"viola\"",
+        "text": "Sólo para el mazo de Michael McGlen.\nTienes 2 espacios de mano adicionales que sólo pueden usarse para Apoyos [[Arma de fuego]].\n[reaction] Después de que juegues el Estuche de \"viola\": Busca entre las 9 primeras cartas de tu mazo 1 Apoyo [[Arma de fuego]] y añádelo a tu mano. Baraja tu mazo.",
+        "traits": "Objeto. Ilegal."
+    },
+    {
+        "code": "11013",
+        "flavor": "\"Esto... ¿Se va de caza, Sr. McGlen?\"",
+        "name": "Incautación",
+        "text": "<b>Revelación -</b> Añade cada Apoyo [[Arma de fuego]] de tu zona de juego a tu mazo y baraja este.\nSi no se ha añadido ningún Apoyo a tu mazo por este efecto, recibe 1 punto de daño, devuelve Incautación a tu mazo y baraja este.",
+        "traits": "Equivocación."
+    },
+    {
         "code": "11014",
         "name": "Gloria Goldberg",
         "subname": "La escritora",
         "text": "Eliges el orden de investigadores durante la fase de Mitos.\n[reaction] Cuando mires 1 o más cartas del mazo de Encuentros: Mira 1 carta adicional y elige 1 carta que no sea [[Élite]] entre ellas. Descártala o bien ponla en la parte superior del mazo de Encuentros o bien colócala boca abajo bajo Gloria Goldberg (máximo 3 cartas bajo ella).\nEfecto [elder_sign]: +1. Mira la primera carta del mazo de Encuentros.",
         "traits": "Clarividente.",
         "back_flavor": "De joven, Gloria sufría unas terribles visiones. Tras años de acudir a distintos médicos, aprendió a exorcizarlas escribiendo historias. Por algún motivo, su prosa extrema y perturbadora tuvo una gran acogida entre el público y acabó convertida en una autora superventas. Pero durante una visita a Arkham, experimentó la visión más potente que jamás había tenido. El cielo se resquebrajó y una forma monstruosa empezó a brotar del mismo aire. Gloria supo de algún modo que la visión era real y que acabaría ocurriendo si no hacía nada al respecto.",
-        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Elección de clase secundaria</b>: Elige entre Guardián ([guardian]), Buscador ([seeker]), o Rebelde ([rogue]) al crear el mazo.\n<b>Opciones de creación de mazos:</b> Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, hasta 10 Eventos y/o Habilidades de nivel 0-1 de la clase secundaria elegida.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 3 copies of Psychic Sensitivity, 3 copias de Sensibilidad psíquica, 3 copias de Profecía del fin (se añaden al mazo de Encuentros y se baraja éste), 1 Debilidad básica aleatoria."
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Elección de clase secundaria</b>: Elige entre Guardián ([guardian]), Buscador ([seeker]), o Rebelde ([rogue]) al crear el mazo.\n<b>Opciones de creación de mazos:</b> Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, hasta 10 Eventos y/o Habilidades de nivel 0-1 de la clase secundaria elegida.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 3 copias de Sensibilidad psíquica, 3 copias de Profecía del fin (se añaden al mazo de Encuentros y se baraja éste), 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11015",
+        "name": "Sensibilidad psíquica",
+        "text": "Sólo para el mazo de Gloria Goldberg.\nRápido. Juega esta carta cuando un investigador que esté en cualquier Lugar robe una carta de Encuentro si hay una copia de esa carta de Encuentro bajo Gloria Goldberg.\nCancela todos los efectos de esa carta y descarta ambas copias de ella. A continuación, roba 1 carta.",
+        "traits": "Presagio. Inspiración."
+    },
+    {
+        "code": "11016",
+        "name": "Profecía del fin",
+        "text": "Oleada.\n<b>Obligado -</b> Si Gloria Goldberg usa su capacidad [reaction] y esta Traición está entre las cartas miradas, debe ser elegida y colocada boca abajo bajo ella (si no puedes, descarta primero una carta que no sea Debilidad y esté bajo ella).\nA continuación, si hay 3 copias de esta Traición bajo ella, queda derrotada y sufre 1 trauma mental.",
+        "traits": "Augurio. Fin de los tiempos."
     },
     {
         "code": "11017",
@@ -74,7 +111,7 @@
     {
         "code": "11019",
         "name": "A la deriva",
-        "text": "<b>Revelación</b> - Si no hay cartas bajo George Barnaby, añade A la deriva a tu mazo y baraja éste. Si no es así, descarta todas las cartas que haya bajo George Barnaby.",
+        "text": "<b>Revelación -</b> Si no hay cartas bajo George Barnaby, añade A la deriva a tu mazo y baraja éste. Si no es así, descarta todas las cartas que haya bajo George Barnaby.",
         "traits": "Adversidad."
     },
     {
@@ -89,7 +126,7 @@
     {
         "code": "11021",
         "name": "Palanqueta",
-        "text": "Agota la Palangueta: <b>Investigar.</b> Este intento de investigación usa [combat] en lugar de [intellect].\n[action] Agota la Palanqueta: <b>Combatir.</b> Recibes +2 [combat] para este ataque.",
+        "text": "Agota la Palanqueta: <b>Investigar.</b> Este intento de investigación usa [combat] en lugar de [intellect].\n[action] Agota la Palanqueta: <b>Combatir.</b> Recibes +2 [combat] para este ataque.",
         "traits": "Objeto. Arma. Herramienta. Cuerpo a cuerpo.",
         "slot": "Mano"
     },
