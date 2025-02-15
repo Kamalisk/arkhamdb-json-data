@@ -692,7 +692,7 @@
         "code": "11101",
         "flavor": "\"El Dr. Christopher no se lo va a creer!\"",
         "name": "Inquisitivo",
-        "text": "Sólo para un mazo [[Ayudante]], [[Miskatonic]], [[Erudito]].\nSi esta prueba de habilidad tiene éxito, el investigador que la realiza puede tener éxito por hasta 2 más o menos (hasta un mínimo de cero)."
+        "text": "Sólo para un mazo [[Ayudante]], [[Miskatonic]], [[Erudito]].\nSi esta prueba de habilidad tiene éxito, el investigador que la realiza puede tener éxito por hasta 2 más o menos (hasta un mínimo de cero).",
         "traits": "Innato."
     },
     {
@@ -796,5 +796,92 @@
         "text": "Sólo para un mazo [[Cívico]], [[Intérprete]], [[Alta sociedad]].\n<b>Negociar.</b> Elige un investigador que esté en tu Lugar. Ese investigador puede jugar un Apoyo [[Aliado]] de su mano sin coste. A continuación, ese investigador puede activar una capacidad [action] o [free] de ese Apoyo, ignorando todos los costes.",
         "traits": "Espíritu."
     },
-
+    {
+        "code": "11117",
+        "name": "Archibald MacVeigh",
+        "flavor": "\"Publica o fallece, me dijeron. Tal vez haga ambas cosas.\"",
+        "subname": "Conferenciante atribulado",
+        "text": "Sólo para un mazo [[Ayudante]], [[Reportero]], [[Erudito]]. Usos (4 secretos).\nRecibes +1 [intellect].\nLos secretos de los Apoyos que controles se pueden gastar como recursos para pagar Eventos [[Inspiración]] que juegues.",
+        "traits": "Aliado.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11118",
+        "name": "Pase de biblioteca",
+        "text": "Sólo para un mazo [[Miskatonic]], [[Erudito]]. Permanente. Límite de 1 por mazo.\n[free] Durante tu turno, si no hay ningún Apoyo vinculado al Pase de biblioteca, agota el Pase de biblioteca: Víncula un Apoyo [[Tomo]] de tu mano al Pase de biblioteca. El Apoyo vinculado no ocupa espacios.\n<b>Obligado -</b> Cuando acabe tu turno: Debes pagar 1 recurso o bien colocar el Apoyo vinculado en la parte inferior de tu mazo.",
+        "traits": "Objeto. Miskatonic."
+    },
+    {
+        "code": "11119",
+        "name": "Mauser Tankgewehr M1918",
+        "text": "Sólo para un mazo [[Cazador]], [[Veterano]], [[Protector]].Usos (1 proyectil).\n[action] Si el Mauser Tankgewehr M1918 está preparado, gasta 1 proyectil: <b>Combatir.</b> Recibes +5 [combat] para este ataque y este ataque inflige +3 de daño.\n[action] Agota el Mauser Tankgewehr M1918: Reponle 1 proyectil.",
+        "traits": "Objeto. Arma. Arma de fuego.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "11120",
+        "name": "Pisándoles los talones",
+        "text": "Sólo para un mazo [[Detective]], [[Cazador]], [[Policía]], [[Reportero]].\nLímite de 1 por investigador. Usos (5 indicios).\n[reaction] Después de que entres en un Lugar con 1 o más Enemigos, gasta 1 indicio y agota Pisándoles los talones: Descubre 1 pista en tu Lugar o bien inflige 1 punto de daño a un Enemigo que esté en tu Lugar.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11121",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de lealtad",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de lealtad)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Pacto]] o [[Terror]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11122",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de orden",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de orden)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Maldición]] o [[Maleficio]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11123",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de sabiduría",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de sabiduría)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Augurio]] o [[Poder]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+      "code": "11124",
+      "name": "Vórtice dimensional",
+      "text": "Sólo para un mazo [[Intérprete]], [[Hechicero]].\nRápido. Juega esta carta cuando comience la fase de Investigación. Elige un Lugar. Pon aparte todos los Enemigos que no sean [[Élite]] que estén en el Lugar elegido <i>(manteniendo todas las fichas y cartas vinculadas)</i>. Hasta el final de la ronda, no están en ningún Lugar y son inmunes a los efectos de las cartas de Jugador. Cuando acabe la ronda, devuelve cada uno de estos Enemigos al Lugar elegido, agotados. Máximo de una vez por partida.",
+      "traits": "Hechizo."
+    },
+    {
+        "code": "11125",
+        "name": "Recuerdos de otra vida",
+        "text": "Sólo para un mazo [[Artista]], [[Creyente]], [[Soñador]], [[Hechicero]].\nSi esta prueba de habilidad tiene éxito, puedes retirar los Recuerdos de otra vida de la partida para buscar en tu colección cualquier carta de nivel 0 que no sea Permanente <i>(incluso si no cumple tus requisitos de creación de mazos)</i>. Juega esa carta sin coste. Al final de la partida, devuelve esa carta a tu colección.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11126",
+        "name": "Arruinado y acabado",
+        "text": "<b>Revelación -</b> Pon Arruinado y acabado en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no realizaste una acción de robar o de recursos en esta ronda: Recibe 1 punto de horror, añade Arruinado y acabado a tu mazo y baraja este.\n[action] Gasta 3 recursos o bien elige y descarta 3 cartas de tu mano: Descarta esta carta.".
+        "traits": "Adversidad."
+    },
+    {
+        "code": "11127",
+        "name": "Curiosidad morbosa",
+        "text": "<b>Revelación -</b> Pon la Curiosidad morbosa en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no investigaste con éxito en esta ronda: Recibe 1 punto de horror, añade Curiosidad morbosa a tu mazo y baraja este.\n[action]: <b>Investigar</b>. Recibes -2 a tu valor de habilidad para esta investigación. Si tienes éxito, descarta esta carta.",
+        "traits": "Defecto."
+    },
+    {
+        "code": "11128",
+        "name": "Poltergeist alborotador",
+        "text": "<b>Revelación -</b> Pon el Poltergeist alborotador en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no evitaste un Enemigo con éxito en esta ronda: Recibe 1 punto de daño, añade el Poltergeist alborotador a tu mazo y baraja éste.\n[action]: <b>Evitar</b>. Recibes –2 a tu valor de habilidad para este intento de evitar. Si tienes éxito, descarta esta carta.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "11129",
+        "name": "Enajenación",
+        "text": "<b>Revelación -</b> Pon la Enajenación en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no combatiste un Enemigo con éxito en esta ronda: Recibe 1 punto de daño, añade la Enajenación a tu mazo y baraja éste.\n[action]: <b>Combatir</b>. Recibes –2 a tu valor de habilidad para este ataque. Si tienes éxito, descarta esta carta.",
+        "traits": "Locura."
+    }
 ]
