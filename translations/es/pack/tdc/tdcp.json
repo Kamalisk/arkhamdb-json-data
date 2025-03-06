@@ -1,23 +1,895 @@
 [
     {
+        "code": "11001",
+        "flavor": "\"La gente confía en que haré mi trabajo. Que haya unos pocos peces raros en el agua no cambia eso.\"",
+        "name": "Marion Tavares",
+        "subname": "La pescadora de arrastre",
+        "text": "Tienes 1 espacio de mano menos.\n[reaction] Después de que juegues un Evento durante tu turno: Roba 1 carta. A continuación, puedes jugar un Evento distinto. Límite de una vez por ronda.\nEfecto [elder_sign]: +1. Busca entre las 3 primeras cartas de tu mazo un Evento y robalo. Baraja tu mazo.",
+        "traits": "Vagabundo. Emprendedor.",
+        "back_flavor": "Después de la muerte de su padre, Marion se mudó a Arkham desde la bahía Narragansett. Compró un barco junto a su amiga Annalise Taylor y las dos encontraron un nuevo hogar en la comunidad pesquera de la ciudad. Una noche de tormenta en el mar, Annalise se vio arrastrada por la borda por una extraña criatura con aspecto de pez. Marion se lanzó al agua y sacó a Annalise de las fauces de la criatura, pero le costó el brazo derecho. Desde entonces, mantiene una vigilancia constante de las agitadas aguas del Atlántico y de las extrañas criaturas que se ocultan en sus profundidades.",
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Elección de [[Rasgo]]</b>: Al crear el mazo, elige uno de los siguientes rasgos: [[Fortuna]], [[Gambito]] o [[Improvisado]].\n<b>Opciones de creación de mazos</b>: Cartas Guardián ([guardian]) de nivel 0-5, cartas neutrales de nivel 0-5, Eventos con tu [[Rasgo]] elegido de nivel 0-2, hasta otras 5 cartas Superviviente ([survivor]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 2 copias de Decidida, \"Lo haré yo misma\", 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11002",
+        "name": "Decidida",
+        "text": "Sólo para el mazo de Marion Tavares.\nSi esta prueba de habilidad tiene éxito y es de un Evento que hayas jugado, puedes devolver Decidida a tu mano en vez de descartarla.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11003",
+        "name": "\"Lo haré yo misma\"",
+        "text": "<b>Revelación -</b> Pon \"Lo haré yo misma\" en juego en tu zona de amenaza.\nComo coste adicional para que juegues un Evento, recibe 1 punto de horror.\n[free] Descarta 3 Eventos de tu mano: Descarta \"Lo haré yo misma\".",
+        "traits": "Defecto."
+    },
+    {
+        "code": "11004",
+        "flavor": "\"Me alegro mucho de que todos mis sueños se hayan quedado dentro de mi cabeza.\"",
+        "name": "Lucius Galloway",
+        "subname": "El poeta",
+        "text": "[reaction] Después de que evites con éxito a un Enemigo por 2 o más: Descubre 1 pista en tu Lugar. Límite de una vez por ronda.\nEfecto [elder_sign]: +1 por cada Enemigo que haya en tu Lugar.",
+        "traits": "Erudito. Soñador.",
+        "back_flavor": "Lucius es un sureño emigrado a Nueva York que se ha labrado cierta reputación entre los intelectuales, artistas y músicos de Harlem escribiendo poesía ensoñadora. Lo que no saben sus contemporáneos es que la nebulosa ciudad subacuática que describe Lucius no está inspirada en Nueva York, sino en los sueños de pesadilla de Rudi, su pareja desaparecida. Antes de desaparecer, Rudi habló de una cábala en Arkham de otros soñadores que compartían esas desasosegantes visiones. Ahora, Lucius es profesor invitado en la Universidad Miskatonic mientras busca a su amante perdido, y tal vez el origen de sus propios sueños horripilantes...",
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos:</b> Cartas Buscador ([seeker]) de nivel 0-5, cartas Rebelde ([rogue]) de nivel 0-2, cartas neutrales de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Libro de versos, Sueños de la inundación, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11005",
+        "name": "Libro de versos",
+        "subname": "Cuaderno de temas poco comunes",
+        "text": "Sólo para el mazo de Lucius Galloway.\nUsos (1 inspiración). Repón esta inspiración la primera vez que descubras una pista cada ronda.\n[reaction] Después de revelar fichas de Caos durante una prueba de habilidad, gasta 1 inspiración: Recibes +1 a tu valor de habilidad para esta prueba de habilidad. Si tienes éxito exactamente por 0, roba 1 carta.",
+        "traits": "Objeto. Tomo."
+    },
+    {
+        "code": "11006",
+        "name": "Sueños de la inundación",
+        "text": "<b>Revelación -</b> Pon los Sueños de la inundación en juego en tu zona de amenaza.\n<b>Obligado -</b> La primera vez que descubras 1 o más pistas durante tu turno: Recibe 1 punto de horror, añade los Sueños de la inundación a tu mazo y baraja éste.",
+        "traits": "Augurio. Fin de los tiempos."
+    },
+    {
+        "code": "11007",
+        "name": "Agatha Crane",
+        "subname": "La parapsicóloga",
+        "text": "[reaction] Cuando acabe tu turno, si sellaste, cancelaste o ignoraste 1 o más fichas de Caos en esta ronda: Juega un Evento [[Hechizo]] o [[Inspiración]] de tu pila de descartes. Después de que ese Evento se resuelva, retíralo de la partida.\nEfecto [elder_sign]: +2. Puedes cancelar esta ficha y robar otra en su lugar. Si lo haces, roba 1 carta.",
+        "traits": "Miskatonic. Erudito.",
+        "back_flavor": "Agatha Crane es licenciada en Matemáticas y Psicología y siempre le ha dado una gran importancia a la ciencia basada en las pruebas. En su juventud, despreciaba las historias de fantasmas, pero la acumulación de pruebas ha llevado a Agatha a concluir que existe una verdad singular en los relatos sobre magia y monstruos que pueblan la historia de Arkham. Si esas cosas son reales, deben obedecer unas reglas consistentes. Como siempre cuenta a cualquiera que la escuche el tiempo suficiente, y como su marido Wilbur ha escuchado cientos de veces, este nuevo campo de estudio se llama \"parapsicología\". Agatha intenta emplear métodos científicos de probada eficacia para salvar el hueco que separa lo místico de lo racional y el ocultismo de la ciencia.",
+        "back_text": "<b>Tamaño de mazo</b>: 35.\n<b>Opciones de creación de mazos</b>: Cartas Buscador ([seeker]) de nivel 0-5, cartas neutrales de nivel 0-5, Eventos [[Inspiración]] de nivel 0-3, hasta otras 10 cartas Místico ([mystic]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Ocula obscura, Atisbar el vacío, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11008",
+        "name": "Agatha Crane",
+        "subname": "La parapsicóloga",
+        "text": "[reaction] Cuando acabe tu turno, si sellaste, cancelaste o ignoraste 1 o más fichas de Caos en esta ronda: Juega un Evento [[Hechizo]] o [[Inspiración]] de tu pila de descartes. Después de que ese Evento se resuelva, retíralo de la partida.\nEfecto [elder_sign]: +2. Puedes cancelar esta ficha y robar otra en su lugar. Si lo haces, roba 1 carta.",
+        "traits": "Miskatonic. Erudito.",
+        "back_flavor": "Agatha Crane es licenciada en Matemáticas y Psicología y siempre le ha dado una gran importancia a la ciencia basada en las pruebas. En su juventud, despreciaba las historias de fantasmas, pero la acumulación de pruebas ha llevado a Agatha a concluir que existe una verdad singular en los relatos sobre magia y monstruos que pueblan la historia de Arkham. Si esas cosas son reales, deben obedecer unas reglas consistentes. Como siempre cuenta a cualquiera que la escuche el tiempo suficiente, y como su marido Wilbur ha escuchado cientos de veces, este nuevo campo de estudio se llama \"parapsicología\". Agatha intenta emplear métodos científicos de probada eficacia para salvar el hueco que separa lo místico de lo racional y el ocultismo de la ciencia.",
+        "back_text": "<b>Tamaño de mazo</b>: 35.\n<b>Opciones de creación de mazos</b>: Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, Eventos [[Hechizo]] de nivel 0-3, hasta otras 10 cartas Buscador ([seeker]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Ocula obscura, Atisbar el vacío, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11009",
+        "name": "Ocula obscura",
+        "subname": "Dispositivo ocular esotérico",
+        "text": "Sólo para el mazo de Agatha Crane.\n[reaction] Después de que tengas éxito en una prueba de habilidad, si no hay fichas selladas aquí: Sella en Ocula obscura una ficha sin símbolo revelada durante esta prueba de habilidad. Límite de una vez por fase.\n<b>Obligado -</b> Cuando fueses a revelar una ficha de la bolsa de Caos: En vez de eso, resuelve la ficha sellada aquí y luego libérala.",
+        "traits": "Objeto. Herramienta. Ciencia.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11010",
+        "name": "Atisbar el vacío",
+        "text": "<b>Revelación -</b> Pon Atisbar el vacío en juego en tu zona de amenaza.\nLa primera vez que reveles 1 o más fichas de Caos durante cada prueba de habilidad, debes revelar 1 ficha de Caos adicional <i>(y resolver sus efectos)</i>.\n[action]: Añade Atisbar el vacío a tu mazo y baraja este.",
+        "traits": "Equivocación. Inspiración."
+    },
+    {
+        "code": "11011",
+        "flavor": "\"Me da igual que sea un dios. Si me la juega, se arrepentirá.\"",
+        "name": "Michael McGlen",
+        "subname": "El gánster",
+        "text": "[reaction] Después de que gastes 1 o más municiones de un Apoyo [[Arma de fuego]]: Obtén 1 recurso. Límite de una vez por Apoyo [[Arma de fuego]] y por ronda.\nEfecto [elder_sign]: +2. Puedes colocar 1 munición en un Apoyo [[Arma de fuego]] que controles.",
+        "traits": "Criminal. Cazador.",
+        "back_flavor": "Michael McGlen era un hombre de pocas palabras. No tenía que hablar mucho, porque para eso tenía a Louis el Rápido. Ambos eran los mejores soldados de O’Bannion y se aseguraban de que se respetase a la banda por todo Arkham... hasta la noche en que la cosa del río arrastró a Louis desde el muelle y lo hizo pedazos bajo el agua. Michael pensó que sus jefes lo tacharían de loco si les contaba lo ocurrido, pero la verdad fue peor: le dijeron que le creían y dejaron estar el tema. Michael no puede dejar que la muerte de su socio o las cosas que vio aquella noche queden impunes. Sigue siendo un hombre de pocas palabras. Ahora deja que su arma hable por él.",
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos:</b> Cartas Rebelde ([rogue]) de nivel 0-3, cartas neutrales de nivel 0-5, cartas con [[Arma de fuego]] como su [[Rasgo]] o en su cuadro de texto de reglas de nivel 0-5.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Estuche de \"viola\", Incautación, 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11012",
+        "name": "Estuche de \"viola\"",
+        "text": "Sólo para el mazo de Michael McGlen.\nTienes 2 espacios de mano adicionales que sólo pueden usarse para Apoyos [[Arma de fuego]].\n[reaction] Después de que juegues el Estuche de \"viola\": Busca entre las 9 primeras cartas de tu mazo 1 Apoyo [[Arma de fuego]] y añádelo a tu mano. Baraja tu mazo.",
+        "traits": "Objeto. Ilegal."
+    },
+    {
+        "code": "11013",
+        "flavor": "\"Esto... ¿Se va de caza, Sr. McGlen?\"",
+        "name": "Incautación",
+        "text": "<b>Revelación -</b> Añade cada Apoyo [[Arma de fuego]] de tu zona de juego a tu mazo y baraja este.\nSi no se ha añadido ningún Apoyo a tu mazo por este efecto, recibe 1 punto de daño, devuelve Incautación a tu mazo y baraja este.",
+        "traits": "Equivocación."
+    },
+    {
+        "code": "11014",
+        "name": "Gloria Goldberg",
+        "subname": "La escritora",
+        "text": "Eliges el orden de investigadores durante la fase de Mitos.\n[reaction] Cuando mires 1 o más cartas del mazo de Encuentros: Mira 1 carta adicional y elige 1 carta que no sea [[Élite]] entre ellas. Descártala o bien ponla en la parte superior del mazo de Encuentros o bien colócala boca abajo bajo Gloria Goldberg (máximo 3 cartas bajo ella).\nEfecto [elder_sign]: +1. Mira la primera carta del mazo de Encuentros.",
+        "traits": "Clarividente.",
+        "back_flavor": "De joven, Gloria sufría unas terribles visiones. Tras años de acudir a distintos médicos, aprendió a exorcizarlas escribiendo historias. Por algún motivo, su prosa extrema y perturbadora tuvo una gran acogida entre el público y acabó convertida en una autora superventas. Pero durante una visita a Arkham, experimentó la visión más potente que jamás había tenido. El cielo se resquebrajó y una forma monstruosa empezó a brotar del mismo aire. Gloria supo de algún modo que la visión era real y que acabaría ocurriendo si no hacía nada al respecto.",
+        "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Elección de clase secundaria</b>: Elige entre Guardián ([guardian]), Buscador ([seeker]), o Rebelde ([rogue]) al crear el mazo.\n<b>Opciones de creación de mazos:</b> Cartas Místico ([mystic]) de nivel 0-5, cartas neutrales de nivel 0-5, hasta 10 Eventos y/o Habilidades de nivel 0-1 de la clase secundaria elegida.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): 3 copias de Sensibilidad psíquica, 3 copias de Profecía del fin (se añaden al mazo de Encuentros y se baraja éste), 1 Debilidad básica aleatoria."
+    },
+    {
+        "code": "11015",
+        "name": "Sensibilidad psíquica",
+        "text": "Sólo para el mazo de Gloria Goldberg.\nRápido. Juega esta carta cuando un investigador que esté en cualquier Lugar robe una carta de Encuentro si hay una copia de esa carta de Encuentro bajo Gloria Goldberg.\nCancela todos los efectos de esa carta y descarta ambas copias de ella. A continuación, roba 1 carta.",
+        "traits": "Presagio. Inspiración."
+    },
+    {
+        "code": "11016",
+        "name": "Profecía del fin",
+        "text": "Oleada.\n<b>Obligado -</b> Si Gloria Goldberg usa su capacidad [reaction] y esta Traición está entre las cartas miradas, debe ser elegida y colocada boca abajo bajo ella (si no puedes, descarta primero una carta que no sea Debilidad y esté bajo ella).\nA continuación, si hay 3 copias de esta Traición bajo ella, queda derrotada y sufre 1 trauma mental.",
+        "traits": "Augurio. Fin de los tiempos."
+    },
+    {
         "code": "11017",
         "name": "George Barnaby",
-        "subname": "The Lawyer",
-        "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
-        "traits": "Civic. Drifter.",
-        "back_flavor": "After spending a month in jail at the age of 19, George Barnaby felt compelled to become a lawyer. He found great success and notoriety in his career, and as retirement approached he made plans to sail around the world with his wife Maria. On the eve of his retirement, however, his home was attacked and Maria was murdered by cultists. Now, with a lifetime of wealth and contacts at his back, George has tracked the culprits to the city of Arkham, vowing to bring them to justice for their hideous crimes.",
-        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other level 0 Seeker and/or Rogue cards ([seeker]/[rogue]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Grim Resolve, Cast Adrift, 1 random basic weakness.\n<b>Additional Setup</b>: After drawing your opening hand, you may place any number of cards in your hand facedown beneath George Barnaby."
+        "subname": "El abogado",
+        "text": "Tu tamaño de mano máximo es igual a la cantidad de cartas boca abajo que haya bajo George Barnaby (límite de 5 cartas).\nPuedes asignar cartas que estén boca abajo bajo George Barnaby a pruebas de habilidad como si estuvieran en tu mano.\n[reaction] Después de que descartes una carta de tu mano: Colócala boca abajo bajo George Barnaby y luego roba 1 carta. Límite de una vez por fase.\nEfecto [elder_sign]: +1. Roba 1 carta.",
+        "traits": "Cívico. Vagabundo.",
+        "back_flavor": "Después de pasar un mes en la cárcel a los 19 años, George Barnaby se sintió impelido a convertirse en abogado. Tuvo una carrera llena de éxitos y notoriedad, y a medida que se acercaba su jubilación, comenzó a hacer planes para navegar por el mundo con su exposa Maria. Sin embargo, la víspera de su jubilación, unos sectarios atacaron su hogar y asesinaron a Maria. Ahora, respaldado por una vida de riqueza y contactos, George ha seguido el rastro de los culpables hasta la ciudad de Arkham y ha jurado llevarlos ante la justicia por sus atroces crímenes.",
+        "back_text": "<b>Tamaño de mazo</b>: 35.\n<b>Opciones de creación de mazos</b>: Cartas Superviviente ([survivor]) de nivel 0-5, cartas neutrales de nivel 0-5, hasta otras 10 cartas Buscador y/o Rebelde de nivel 0 ([seeker]/[rogue]).\n<b>Requisitos de creación de mazos (no cuentan para el tamaño de mazo):</b> 3 copias de Determinación férrea, A la deriva, 1 Debilidad básica aleatoria.\n<b>Preparación adicional:</b> Después de robar tu mano inicial, puedes colocar cualquier cantidad de cartas de tu mano boca abajo bajo George Barnaby."
     },
     {
         "code": "11018",
-        "name": "Grim Resolve",
-        "text": "George Barnaby deck only.\nAfter this skill test resolves, you may swap any number of cards beneath George Barnaby with the same number of non-weakness cards in your hand.",
-        "traits": "Innate. Developed."
+        "name": "Determinación férrea",
+        "text": "Sólo para el mazo de George Barnaby.\n Después de que esta prueba de habilidad se resuelva, puedes intercambiar cualquier cantidad de cartas que estén bajo George Barnaby por la misma cantidad de cartas que no sean Debilidad de tu mano.",
+        "traits": "Innato. Desarrollado."
     },
     {
         "code": "11019",
-        "name": "Cast Adrift",
-        "text": "<b>Revelation</b> - If there are no cards beneath George Barnaby, shuffle Cast Adrift into your deck. Otherwise, discard each card beneath George Barnaby.",
-        "traits": "Hardship."
+        "name": "A la deriva",
+        "text": "<b>Revelación -</b> Si no hay cartas bajo George Barnaby, añade A la deriva a tu mazo y baraja éste. Si no es así, descarta todas las cartas que haya bajo George Barnaby.",
+        "traits": "Adversidad."
+    },
+    {
+        "code": "11020",
+        "flavor": "\"Quien desea combatir primero debe valorar el coste.\"",
+        "name": "El libro de la guerra",
+        "subname": "El legado de Sun Tzu",
+        "text": "Usos (3 secretos).\n[reaction] Después de que juegues un Evento [[Táctica]], gasta 1 secreto y agota El libro de la guerra: Cuando acabe tu turno, devuelve ese Evento a tu mano.",
+        "traits": "Objeto. Tomo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11021",
+        "name": "Palanqueta",
+        "text": "Agota la Palanqueta: <b>Investigar.</b> Este intento de investigación usa [combat] en lugar de [intellect].\n[action] Agota la Palanqueta: <b>Combatir.</b> Recibes +2 [combat] para este ataque.",
+        "traits": "Objeto. Arma. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11022",
+        "name": "Remington Modelo 1858",
+        "text": "Usos (2 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +1 [combat] para este ataque. Este ataque inflige +1 de daño.\n[reaction] Cuando el Remington Modelo 1858 abandone el juego: Activa inmediatamente la capacidad [action] del Remington Modelo 1858, ignorando todos los costes.",
+        "traits": "Objeto. Arma. Arma de fuego.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11023",
+        "name": "Dispuesto para la acción",
+        "text": "Juega esta carta sólo como tu primera acción.\nJuega un Apoyo [[Arma de fuego]] de tu mano, reduciendo su coste en 2. A continuación, puedes jugar un Evento [[Mejora]] de tu mano, vinculándoselo a ese Apoyo si es posible.",
+        "traits": "Táctica. Audaz."
+    },
+    {
+        "code": "11024",
+        "name": "Preparado para lo que sea",
+        "text": "Juega esta carta sólo como tu primera acción.\nRoba 1 carta, o bien 2 cartas si robaste un Enemigo esta ronda. A continuación, cúrate 1 punto de horror. Esta acción no provoca ataques de oportunidad.",
+        "traits": "Espíritu. Audaz."
+    },
+    {
+        "code": "11025",
+        "flavor": "\"Como vaya se producirán dos sonidos: los de las dos veces que te voy a golpear.\"",
+        "name": "Duro de pelar",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nDuro de pelar obtiene [combat][wild] por cada ataque con éxito que hayas realizado esta ronda.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11026",
+        "name": "Marca del cazador",
+        "text": "Rápido. Vincula esta carta a un Enemigo que esté en tu Lugar. Límite de 1 por Enemigo.\nLos investigadores reciben +1 [combat] al combatir este Enemigo.\n[reaction] Cuando se inflija daño al Enemigo vinculado, descarta la Marca del cazador: Inflige 1 punto de daño adicional a ese Enemigo. Cualquier investigador puede activar esta capacidad.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "11027",
+        "name": "Alice Luxley",
+        "subname": "Poli intrépida",
+        "text": "Recibes +1 [intellect].\nLa primera acción de investigar que realices en cada turno no provoca ataques de oportunidad.\n[reaction] Después de que descubras una pista, agota a Alice Luxley: Inflige 1 punto de daño a un Enemigo que esté en tu Lugar.\n<b>Diseño de carta inspirado por El consejo en el exilio 2022.</b>",
+        "traits": "Aliado. Detective. Policía.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11028",
+        "name": "Baluarte",
+        "text": "Límite de 1 por investigador. Sello ([elder_sign] o +1). Puedes resolver esta palabra clave de nuevo después de que derrotes a un Enemigo.\n[reaction] Cuando un Enemigo fuese a atacar a un investigador que esté en tu Lugar, agota el Baluarte y libera una ficha sellada aquí: Cancela ese ataque. Prepara otro Apoyo que controles.",
+        "traits": "Ritual.",
+        "slot": "Arcano"   
+    },
+    {
+        "code": "11029",
+        "flavor": "\"Anderson nos toca mucho la moral. Siempre está guardando el ron bajo llave y levantándonos al alba. Pero cuando estamos en mitad de ninguna parte, se pone al mando como nadie.\"",
+        "name": "Presencia inspiradora",
+        "text": "Si esta prueba de habilidad tiene éxito, prepara un Apoyo Aliado que esté en tu Lugar y cúrale 1 punto de daño y 1 punto de horror.",
+        "traits": "Innato. Desarrollado."
+    },
+    {
+        "code": "11030",
+        "flavor": "\"Los milímetros no suponen ninguna diferencia, las balas te matan y ya.\"",
+        "name": "Cargado y listo",
+        "text": "Permanente. Límite de 1 por mazo.\nTus Apoyos [[Arma de fuego]] con \"Usos (munición)\" entran en juego con 1 munición adicional.",
+        "traits": "Estado."
+    },
+    {
+        "code": "11031",
+        "flavor": "Hay un buen motivo por el que la hermana Sofía es conocida como \"la mano de Dios.\"",
+        "name": "Disparo rápido",
+        "text": "Miríada. Rápido. Juega esta carta sólo durante tu turno.\nInflige 1 punto de daño a un Enemigo que esté en tu Lugar.\n[reaction] Después de que robes el Disparo rápido durante tu turno: Juégalo, reduciendo su coste de recursos en 2.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "11032",
+        "name": "Remington Modelo 1858",
+        "text": "Usos (3 municiones).\n[action] Gasta 1 munición: <b>Combatir.</b> Recibes +2 [combat] para este ataque. Este ataque inflige +1 de daño.\n[reaction] Cuando el Remington Modelo 1858 entre o abandone el juego: Activa inmediatamente la capacidad [action] del Remington Modelo 1858, ignorando todos los costes.",
+        "traits": "Objeto. Arma. Arma de fuego.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11033",
+        "name": "Alton O'Connell",
+        "subname": "Cazador de fantasmas",
+        "text": "Recibes +1 [agility].\n[reaction] Después de que tengas éxito en una prueba de habilidad exactamente por 3: Coloca 1 recurso en Alton O'Connell, como prueba.\n[free] Agota a Alton O'Connell y gasta X pruebas: Descubre 1 pista en tu Lugar. X es el valor de velo de tu Lugar.",
+        "traits": "Aliado. Detective. Reportero.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11034",
+        "name": "Inspiración artística",
+        "text": "Límite de 1 por investigador. Usos (1 inspiración).\n[free] Agota la Inspiración artística y descarta 1 carta de tu mano: Repón 1 inspiración de esta carta.\n[reaction] Después de revelar fichas de Caos para una prueba de habilidad que estés realizando, gasta 1 inspiración: Recibes +1 o –1 a tu valor de habilidad para esta prueba de habilidad.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11035",
+        "name": "Dial de los antiguos",
+        "subname": "Sin identificar",
+        "text": "Límite de 1 por mazo. Usos (0 cargas).\n[reaction] Después de que un Enemigo que esté en tu Lugar sea evitado: Coloca 1 carga en el Dial de los antiguos. A continuación, si hay 4 o más cargas en el Dial de los antiguos, anota en el registro de campaña que \"los investigadores han calculado el día de la verdad\".",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11036",
+        "name": "Kit forense",
+        "text": "Usos (4 suministros).\n[action] Gasta 1 suministro: <b>Investigar.</b> Para esta investigación, puedes usar [agility] en vez de [intellect] y recibes +1 a tu valor de habilidad. Si tienes éxito y hay un Enemigo agotado en tu Lugar, cúrate 1 punto de horror.",
+        "traits": "Objeto. Herramienta. Ciencia.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11037",
+        "name": "Mano y mortero",
+        "text": "Usos (0 recursos).\nLos recursos de Mano y mortero se pueden gastar para pagar cartas [[Hechizo]].\n[reaction] Después de que descubras 1 o más pistas, agota Mano y mortero: Coloca 1 recurso en ellos <i>(de la reserva de fichas)</i>.",
+        "traits": "Objeto. Herramienta. Ciencia."
+    },
+    {
+        "code": "11038",
+        "name": "Oculus mortuum",
+        "text": "Usos (0 pruebas).\n[reaction] Después de que selles, canceles o ignores una ficha de Caos, agota Oculus mortuum: Coloca 1 prueba en él.\n[reaction] Cuando un Enemigo ataque a un investigador que esté en tu Lugar, gasta 1 prueba y agota Oculus mortuum: Descubre 1 pista en tu Lugar. Si ese Enemigo tiene el rasgo [[Geist]], inflígele 1 punto de daño.",
+        "traits": "Objeto. Herramienta. Ocultismo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11039",
+        "name": "Espécimen imposible",
+        "text": "Miríada. Rápido.\nHasta 3 cartas Espécimen imposible ocupan 1 espacio arcano.\n[reaction] Cuando sea revelado un símbol [skull], [cultist], [tablet] o [elder_thing] durante una prueba de habilidad en tu Lugar, descarta el Espécimen imposible: Cancela esa ficha de Caos, devuélvela a la bolsa de caos y revela una nueva. Si esta prueba tiene éxito, roba 1 carta.",
+        "traits": "Criatura. Ciencia.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11040",
+        "name": "Relacionar todos sus contenidos",
+        "text": "<b>Investigar.</b> Puedes cancelar la primera ficha de Caos revelada para esta prueba de habilidad, devolverla a la bolsa y revelar una nueva. Si tienes éxito en esta prueba de habilidad, coloca 1 carga o secreto en un Apoyo controlado por un investigador que esté en tu Lugar, o bien coloca 2 cargas o secretos en ese Apoyo si tienes éxito exactamente por 1 o 3.",
+        "traits": "Inspiración."
+    },
+    {
+        "code": "11041",
+        "name": "Revelación cósmica",
+        "text": "Elige \"par\" o \"impar\".\nCada investigador revela todas las cartas de su mano que no sean Debilidad y cuyo coste coincida con la opción elegida. Siguiendo el orden de juego, cada investigador puede elegir robar 1 carta de su mazo o bien jugar 1 de las cartas reveladas de su mano <i>(pagando su coste)</i>.",
+        "traits": "Inspiración. Hechizo."
+    },
+    {
+        "code": "11042",
+        "name": "Perspicaz",
+        "text": "Miríada.\nPerspicaz obtiene [intellect][agility] por cada una de las demás copias de Perspicaz que haya en tu pila de descartes.\nDespués de que termine esta prueba de habilidad, puedes añadir todas las demás copias de Perspicaz que haya en tu pila de descartes a tu mazo y barajar éste.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11043",
+        "name": "Finta",
+        "text": "Límite de 1 por investigador. Sello (+1 o 0). Puedes resolver esta palabra clave de nuevo después de que descubras la última pista de tu Lugar.\n[reaction] Cuando un Enemigo ataca a un investigador que esté en tu Lugar, agota la Finta y libera una ficha sellada aquí: Cancela ese ataque. A continuación, ese investigador puede moverse a un Lugar conectado.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11044",
+        "name": "Beca de estudios científicos",
+        "text": "Límite de 1 por investigador.\nTienes 2 espacios de mano adicionales que solo pueden usarse para Apoyos [[Ciencia]] y/o [[Herramienta]].",
+        "traits": "Beca."
+    },
+    {
+        "code": "11045",
+        "name": "Siguiendo una corazonada",
+        "text": "Rápido. Juega esta carta solo durante tu turno.\nDescubre 1 pista de cualquier Lugar revelado.",
+        "traits": "Inspiración."
+    },
+    {
+        "code": "11046",
+        "name": "Dial de los antiguos",
+        "subname": "Señales del cataclismo",
+        "text": "Investigado. Límite de 1 por mazo. Usos (4 cargas).\n[reaction] Cuando un investigador fracase en una prueba de habilidad en tu Lugar, agota el Dial de los antiguos: Sella 1 ficha de Caos revelada durante esa prueba en el Dial de los antiguos.\n<b>Obligado -</b> Cuando acabe la ronda: Por cada ficha de Caos sellada aquí, debes gastar 1 carga o liberar esa ficha.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11047",
+        "name": "Dial de los antiguos",
+        "subname": "Señales de aberración",
+        "text": "Investigado. Límite de 1 por mazo. Usos (4 cargas).\n[action]: <b>Combatir</b>/<b>Evitar</b>. Cuando reveles una ficha de Caos durante este ataque o intento de evitar, puedes gastar 1 carga para cancelar esa ficha, devolverla a la bolsa y revelar una nueva. Puedes hacer esto cualquier número de veces. Si esta prueba tiene éxito, inflige 1 punto de daño al Enemigo objetivo.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11048",
+        "name": "Dial de los antiguos",
+        "subname": "Señales de revelación",
+        "text": "Investigado. Límite de 1 por mazo. Usos (4 cargas).\n[free] Durante tu turno, agota el Dial de los antiguos y gasta 1 carga: <b>Investigar.</b> Al revelar fichas de Caos para esta prueba, revela X fichas adicionales, donde X es la cantidad de Enemigos que hay en tu Lugar. Elige 1 de las fichas reveladas para resolverla e ignora el resto.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11049",
+        "name": "Anticitera",
+        "subname": "Reloj profético",
+        "text": "[reaction] Después de que tengas éxito en una prueba de habilidad, agota Anticitera: Si tuviste éxito por...\n...exactamente 1 o 3, descubre 1 pista en tu Lugar.\n...exactamente 2 o 4, roba 1 carta y obtén 1 recurso.\n...exactamente 5, puedes realizar una acción adicional durante tu próximo turno.",
+        "traits": "Objeto. Reliquia. Ciencia.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Usos (2 municiones).\n[free] Agota la Luger P08 y gasta 1 munición: <b>Combatir.</b> Recibes +1 [combat] para este ataque.\n[action] Gasta 1 recurso: Repón toda la munición de la Luger P08 y prepárala.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Te cubre las espaldas",
+        "text": "Recibes +1 [combat].\n[action] Descarta de tu mano un Apoyo [[Arma de fuego]] que ocupe 1 o menos espacios de mano y agota a Robert Castaigne: Resuelve una capacidad <b>Combatir</b> del Apoyo descartado, ignorando todos los costes. Esto no provoca ataques de oportunidad.",
+        "traits": "Aliado. Veterano.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11052",
+        "name": "Vacile",
+        "text": "[reaction] Cuando intentes evitar a un Enemigo, agota el Vacile: Para este intento de evitar, recibes +1 a tu valor de habilidad y ese Enemigo obtiene Alerta. Si tienes éxito, roba 1 carta y no dejes de estar enfrentado a ese Enemigo.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11053",
+        "name": "\"¿Dónde es la fiesta?\"",
+        "text": "<b>Negociar.</b> Busca en el mazo y la pila de descartes de Encuentros un Enemigo que no sea [[Élite]] y haz que aparezca agotado y enfrentado a ti. Roba una cantidad de cartas igual a los valores combinados de daño y horror de ese Enemigo.",
+        "traits": "Truco. Improvisado."
+    },
+    {
+        "code": "11054",
+        "name": "\"Te las has visto en peores...\"",
+        "text": "Rápido. Juega esta carta cuando se inflija daño y/u horror a un investigador que esté en tu Lugar o en un Lugar conectado.\nEse investigador puede gastar hasta 3 recursos. Por cada recurso gastado, ese investigador cancela 1 punto de daño o 1 punto de horror que se le acabe de infligir.",
+        "traits": "Favor."
+    },
+    {
+        "code": "11055",
+        "name": "A la calle",
+        "text": "<b>Evitar.</b> Añade tu valor de [combat] a tu valor de habilidad para este intento de evitar. Si tienes éxito por 2 o más, inflige 1 punto de daño a ese Enemigo. Si ese Enemigo no es [[Élite]], puedes moverlo a un Lugar conectado.",
+        "traits": "Táctica. Truco."
+    },
+    {
+        "code": "11056",
+        "flavor": "\"Estás en el barrio equivocado, chaval.\"",
+        "name": "Intimidación",
+        "text": "<b>Negociar.</b> Elige un Enemigo que esté en tu Lugar y realiza una prueba de [combat] (X), donde X es la salud restante del Enemigo elegido. Si tienes éxito, añade ese Enemigo al mazo de Encuentros y barájalo, o bien inflígele 2 puntos de daño si es [[Élite]].",
+        "traits": "Táctica."
+    },
+    {
+        "code": "11057",
+        "name": "Puntería certera",
+        "text": "Solo puedes asignar esta carta a una prueba de habilidad de una capacidad impresa en un Apoyo [[Arma de fuego]] o [[A distancia]] que controles.",
+        "traits": "Experimentado."
+    },
+    {
+        "code": "11058",
+        "name": "Doppelgänger",
+        "text": "Miríada. Rápido. Juega esta carta solo durante tu turno.\nVincula esta carta a tu Lugar. Límite de 1 por Lugar.\n[reaction] Después de que un Enemigo entre en el Lugar vinculado o lo abandone, devuelve Doppelgänger a tu mano: Realiza un intento de evitar contra ese Enemigo o bien muévete inmediatamente al Lugar vinculado <i>(puedes activar esta capacidad desde cualquier Lugar)</i>.",
+        "traits": "Hechizo. Truco."
+    },
+    {
+        "code": "11059",
+        "name": "Contactos mafiosos",
+        "text": "Excepcional.\n[action] Gasta 2 recursos: Roba la carta vinculada a los Contactos mafiosos.\n[reaction] Cuando un Apoyo [[Ilegal]] que controles sea descartado del juego, agota los Contactos mafiosos: Vincula ese Apoyo a esta carta, boca abajo. Límite de 1 Apoyo vinculado.",
+        "traits": "Contacto. Ilegal."
+    },
+    {
+        "code": "11060",
+        "name": "Nublar",
+        "text": "Límite de 1 por investigador.\nSello (0). Puedes resolver esta palabra clave de nuevo después de que reveles un Lugar o pongas en juego un nuevo Lugar.\n[reaction] Cuando te enfrentes a un Enemigo, agota Nublar y libera una ficha sellada aquí: <b>Combatir</b> o <b>Evitar</b> inmediatamente ese Enemigo. Durante esta prueba de habilidad, el valor básico de tu habilidad es igual al valor de velo de tu Lugar.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11061",
+        "flavor": "\"Lo que te gusta alardear.\"",
+        "name": "\"¡Mira esto!\"",
+        "text": "Sólo puedes asignar esta carta a una prueba de habilidad que estés realizando. Como coste adicional para asignar \"¡Mira esto!\" a una prueba de habilidad, gasta hasta 3 recursos.\nSi tienes éxito por 1 o más, obtén el doble de esa cantidad de recursos.",
+        "traits": "Gambito."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Te sigue cubriendo las espaldas",
+        "text": "Recibes +1 [combat].\n[free] Agota a Robert Castaigne: <b>Combatir.</b> Revela un Apoyo [[Arma de fuego]] de tu mano que ocupe 1 o menos espacios de mano. Resuelve una capacidad <b>Combatir</b> del Apoyo revelado, ignorando todos los costes. A continuación, puedes descartar el Apoyo revelado para robar 1 carta o bien jugar ese Apoyo <i>(pagando su coste)</i>.",
+        "traits": "Aliado. Veterano.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11063",
+        "name": "\"Te las has visto en peores...\"",
+        "text": "Rápido. Juega esta carta cuando se inflija daño y/u horror a un investigador que esté en tu Lugar o en un Lugar conectado.\nEse investigador puede darte hasta 5 recursos. Por cada recurso dado por este efecto, ese investigador cancela 1 punto de daño o 1 punto de horror que se le acabe de infligir.",
+        "traits": "Favor."
+    },
+    {
+        "code": "11064",
+        "name": "Ametralladora gatling",
+        "text": "Usos (12 municiones).\n[action] Gasta 1-6 municiones: <b>Combatir.</b> Recibes +X[combat] para este ataque. La dificultad para este ataque es igual a los valores de combate combinados de todos los Enemigos que estén en tu Lugar. En lugar de su daño estándar, este ataque inflige X puntos de daño divididos como elijas entre los Enemigos que estén en tu Lugar. X es la cantidad de municiones gastadas como parte del coste de esta capacidad.",
+        "traits": "Objeto. Arma. Arma de fuego. Ilegal.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "11065",
+        "name": "Sangre de Thoth",
+        "subname": "Ley encarnada",
+        "text": "[reaction] Cuando se coloque 1 ficha de Perdición o más en una carta que controles, agota la Sangre de Thoth: Coloca 1 recurso en esta carta <i>(de la reserva de fichas)</i>, como ofrenda.\n[free] Si la Sangre de Thoth tiene 3 o más ofrendas, retira todas las ofrendas de la Sangre de Thoth y agótala: Elige un investigador que esté en tu Lugar para que realice una acción inmediatamente como si fuera su turno.",
+        "traits": "Objeto. Reliquia.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11066",
+        "name": "Aliento del durmiente",
+        "text": "Usos (9 cargas).\n[action]: <b>Combatir.</b> Usa tu [willpower] en vez de tu [combat] para esta prueba. Antes de revelar fichas de Caos para esta prueba, puedes gastar hasta 3 cargas para revelar esa misma cantidad de fichas de Caos adicionales. Elige 1 de las fichas reveladas para resolverla e ignora el resto. Si tienes éxito y la ficha elegida es igual que una ficha ignorada, este ataque inflige +2 de daño.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11067",
+        "name": "Ojos del soñador",
+        "text": "Usos (9 cargas).\n[action]: <b>Investigar.</b> Usa tu [willpower] en vez de tu [intellect] para esta prueba.Antes de revelar fichas de Caos para esta prueba, puedes gastar hasta 3 cargas para revelar esa misma cantidad de fichas de Caos adicionales. Elige 1 de las fichas reveladas para resolverla e ignora el resto. Si tienes éxito y la ficha elegida es igual que una ficha ignorada, descubre 1 pista adicional en tu Lugar.",
+        "traits": "Hechizo.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11068a",
+        "name": "La gran obra",
+        "subname": "Dividir y unir",
+        "text": "Permanente. Límite de 1 por mazo. Sólo puedes adquirir esta carta al crear el mazo.\nGanas 1 punto de experiencia adicional después de cada escenario de esta campaña. Si eres derrotado, el Homúnculo te usurpa (reemplaza cada carta característica de tu mazo por una Debilidad básica aleatoria, dale la vuelta a esta carta y reemplaza tu investigador con ella durante el resto de la campaña).",
+        "traits": "Pacto. Ciencia."
+    },
+    {
+        "code": "11068b",
+        "flavor": "Siempre quisiste ser humano.",
+        "name": "Homúnculo perdido",
+        "subname": "El hijo olvidado",
+        "text": "No se puede elegir como investigador inicial.\nNo puedes añadir, retirar o mejorar cartas de tu mazo.\nRecibes +2 a tu valor de habilidad al resolver capacidades de cartas [[Hechizo]].\n<b>Obligado -</b> Cuando seas derrotado: <b>Mueres</b>.\nEfecto [elder_sign]: +0. Roba 1 carta.",
+        "traits": "Constructo. Vástago."
+    },
+    {
+        "code": "11069",
+        "name": "Katarina Sojka",
+        "subname": "Emisaria de Ulthar",
+        "text": "[reaction] Cuando reveles fichas de Caos durante una prueba de habilidad que estés realizando, agota a Katarina Sojka: Revela fichas de la bolsa de caos hasta que sea revelada una ficha con símbolo. Resuelve esa ficha e ignora el resto.",
+        "traits": "Aliado. Clarividente. Sofrador.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11070",
+        "name": "Signo de Xelotaph",
+        "subname": "Símbolo de protección",
+        "text": "Miríada. Sello [skull], [cultist], [tablet] o [elder_thing]. Usos (3 cargas).\n<b>Obligado -</b> Cuando comience tu turno: Debes gastar 1 carga o descartar el Signo de Xelotaph.\n[free] Descarta una copia del Signo de Xelotaph de tu mano: Repón todas las cargas de esta copia del Signo de Xelotaph.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11071",
+        "name": "Escudo espectral",
+        "text": "Rápido. Juega esta carta sólo durante tu turno. Vincula esta carta a una carta de Jugador que tenga salud y/o cordura y que esté en tu Lugar.\n<b>Obligado -</b> Cuando la carta vinculada recibe 1 o más puntos de daño/horror: Cancela 1 punto de ese daño/horror. El propietario del Escudo espectral debe retirar 1 carga de un Apoyo que controle. Si no puede, descarta el Escudo espectral.",
+        "traits": "Hechizo. Espíritu."
+    },
+    {
+        "code": "11072",
+        "name": "Susurros de perdición",
+        "text": "<b>Negociar.</b> Elige un Enemigo que no sea Debilidad y que esté en tu Lugar y realiza una prueba de [willpower] (3). Esta prueba recibe +X a su dificultad, donde X es el valor de horror de ese Enemigo. Si tienes éxito, derrota a ese Enemigo, o bien inflígele 3 puntos de daño si es [[Élite]]. Si fracasas, coloca 1 ficha de Perdición en ese Enemigo.",
+        "traits": "Hechizo. Maldito."
+    },
+    {
+        "code": "11073",
+        "flavor": "\"El universo quiere pedirte un favor.\"",
+        "name": "Ojo de Ghatanothoa",
+        "subname": "Artefacto del dios oscuro",
+        "text": "Excepcional.\nRecibes +1 [willpower].\nJuega con la primera carta del mazo de Encuentros revelada.",
+        "traits": "Objeto. Reliquia. Maldito.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11074",
+        "name": "Bastón estoque",
+        "subname": "Diseñado por El consejo de las encuestas",
+        "text": "Rápido.\n[reaction] Después de que el Bastón estoque entre en juego: Puedes infligir 1 punto de daño a un Enemigo enfrentado a ti. Activa inmediatamente la capacidad \"[action]\" del Bastón estoque sin pagar su coste.\n[action] Agota el Bastón estoque: <b>Combatir</b>/<b>Evitar.</b> Puedes usar tu [willpower] en lugar de tu [combat] o tu [agility] para este ataque o intento de evitar y recibes +1 a tu valor de habilidad para esta prueba.",
+        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11075",
+        "name": "Eco espiritual",
+        "text": "Vincula esta carta a tu Lugar. Límite de 1 por Lugar.\n[reaction] Después de que actives una capacidad [action] o [free] de un Apoyo [[Hechizo]] o [[Ritual]]: Realiza esa capacidad de nuevo en el Lugar vinculado como si estuvieras allí, ignorando el coste [action] de ese Apoyo si lo hay <i>(puedes activar esta capacidad desde cualquier Lugar)</i>. Devuelve el Eco espiritual a tu mano.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "11076",
+        "name": "Transfiguración",
+        "text": "Elige otra carta de Investigador de tu colección. Hasta el final de la partida, trata el anverso de tu carta de Investigador como si fuera el anverso de la carta elegida en vez de la tuya <i>(incluyendo tus valores de habilidad, rasgos, capacidades y efecto del símbolo arcano)</i>. Máximo de una vez por partida.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "11077",
+        "name": "Embelesado",
+        "text": "Máximo de 1 asignada por prueba de habilidad.\nSi esta prueba de habilidad tiene éxito durante una investigación, coloca hasta 3 cargas y/o secretos en Apoyos controlados por investigadores que estén en tu Lugar.",
+        "traits": "Experimentado. Experto."
+    },
+    {
+        "code": "11078",
+        "name": "Reliquia arcana perdida",
+        "text": "Usos (2 cargas).\nLas cargas de la Reliquia arcana perdida se pueden gastar como si fueran cargas que estuvieran en Apoyos [[Hechizo]] y [[Ritual]] que controles.\n[reaction] Después de que se descubra la última pista de tu Lugar, agota la Reliquia arcana perdida: Coloca 1 carga en esta carta.",
+        "traits": "Objeto. Tomo. Ocultismo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11079",
+        "name": "Liberación",
+        "text": "Rápido. Juega esta carta cuando fuese a comenzar el paso \"Robar cartas de Encuentro\" de la fase de Mitos.\nTú robas todas las cartas de Encuentro que fuesen a robarse normalmente en esta fase de Mitos. Las cartas robadas durante esta fase de Mitos no pueden ser canceladas, y la primera carta robada obtiene Oleada.\nSáltate el paso \"Robar cartas de Encuentro\" de la siguiente fase de Mitos. Máximo dos veces por partida.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "11080",
+        "name": "Marca arcana",
+        "text": "Permanente. Excepcional.\nCuando adquieras esta carta, elige un Apoyo [[Hechizo]] de tu mazo que no sea una carta característica y anota que <i>[nombre de hechizo] ha sido marcado</i> en tu registro de campaña. Éste es tu hechizo marcado. Tu mazo no puede incluir más de 1 copia de tu hechizo marcado.\n[reaction] Antes de que robes tu mano inicial: Busca en tu mazo tu hechizo marcado y juégalo <i>(pagando su coste)</i>.",
+        "traits": "Pacto."
+    },
+    {
+        "code": "11081",
+        "name": "Cadena de ancla",
+        "text": "Mientras la Cadena de ancla esté en tu mano, puedes realizar la capacidad \"[action]\" de la Cadena de ancla. Si lo haces, descarta la Cadena de ancla en vez de agotarla.\n[action] Agota la Cadena de ancla: <b>Evitar.</b> Recibes +1 [agility] para este intento de evitar. Si evitas con éxito un Enemigo que no sea [[Élite]], puedes descartar 1 carta de la mano para evitar que ese Enemigo se prepare durante la siguiente fase de Mantenimiento.",
+        "traits": "Objeto. Herramienta.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11082",
+        "name": "Garfio",
+        "text": "Mientras el Garfio esté en tu mano, puedes realizar la capacidad \"[action]\" del Garfio. Si lo haces, descarta el Garfio en vez de agotarlo.\n[action] Agota el Garfio: <b>Combatir.</b> Recibes +1 [combat] para este ataque. Si tienes éxito, puedes descartar 1 carta de la mano para que este ataque inflija +1 de daño.",
+        "traits": "Objeto. Arma. Herramienta. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11083",
+        "flavor": "\"Cada bloque de arcilla oculta todo tipo de cosas fantásticas.\"",
+        "name": "Lawrence Carlisle",
+        "subname": "Esculpiendo sus sueños",
+        "text": "Recibes +1 [intellect].\n[reaction] Después de que descartes 1 o más cartas de tu mano durante tu turno, agota a Lawrence Carlisle: Obtén 1 recurso.",
+        "traits": "Aliado. Artista. Mecenas.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11084",
+        "name": "Cartas náuticas",
+        "text": "Mientras las Cartas náuticas estén en tu mano, puedes realizar la capacidad \"[action]\" de las Cartas náuticas. Si lo haces, descarta las Cartas náuticas en vez de agotarlas.\n[action] Agota las Cartas náuticas: <b>Investigar.</b> Recibes +1 [intellect] para esta investigación. Si tienes éxito, puedes descartar 1 carta de la mano para descubrir 1 pista adicional en tu Lugar.",
+        "traits": "Objeto. Tomo. Herramienta.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11085",
+        "name": "Ídolo profano",
+        "text": "El Ídolo profano sólo puede jugarse desde tu pila de descartes.\n<b>Obligado -</b> Cuando el Ídolo profano sea derrotado: Añádelo a tu mazo y baraja éste en lugar de descartarlo.",
+        "traits": "Objeto. Amuleto.",
+        "slot": "Accesorio"
+    },
+    {
+        "code": "11086",
+        "name": "\"¡Cógelo!\"",
+        "text": "Como coste adicional para jugar \"¡Cógelo!\", elige y descarta de tu mano o de tu zona de juego un Apoyo [[Objeto]] que ocupe al menos 1 espacio de mano.\n<b>Evitar.</b> Recibes +X [agility] para este intento de evitar, donde X es el coste de recursos impreso del Apoyo elegido. Si tienes éxito contra un Enemigo que no sea [[Élite]] y ese Apoyo estaba en tu zona de juego, ese Enemigo no se prepara durante la siguiente fase de Mantenimiento.",
+        "traits": "Táctica. Truco."
+    },
+    {
+        "code": "11087",
+        "name": "Método poco convencional",
+        "text": "Como coste adicional para jugar el Método poco convencional, elige y descarta de tu mano o de tu zona de juego un Apoyo [[Objeto]] que ocupe al menos 1 espacio de mano.\n<b>Investigar.</b> Recibes +X [intellect] para esta investigación, donde X es el coste de recursos impreso del Apoyo elegido. Si tienes éxito y ese Apoyo estaba en tu zona de juego, descubre 1 pista adicional en tu Lugar.",
+        "traits": "Inspiración. Táctica."
+    },
+    {
+        "code": "11088",
+        "name": "Contemplativo",
+        "text": "Puedes asignar Contemplativo a una investigación o a una prueba de habilidad durante un intento de negociar en tu Lugar o en un Lugar conectado.\nSi esta prueba tiene éxito, el investigador que la realiza descubre 1 pista en su Lugar.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11089",
+        "name": "Suministros abundantes",
+        "text": "Límite de 1 por investigador. Usos (2 suministros).\n[reaction] Después de que descartes 1 o más cartas de la mano, agota los Suministros abundantes: Coloca 1 suministro en esta carta.\n[free] Descarta los Suministros abundantes: Mueve cada suministro de esta carta a tu reserva de recursos, como recursos.",
+        "traits": "Suministros."
+    },
+    {
+        "code": "11090",
+        "name": "Un destello de esperanza",
+        "text": "Miríada.\nUn destello de esperanza sólo puede jugarse desde tu pila de descartes.\nAñade todas las copias de Un destello de esperanza de tu pila de descartes a tu mano <i>(incluida esta copia)</i>.",
+        "traits": "Bendecido. Fortuna."
+    },
+    {
+        "code": "11091",
+        "name": "Buen tiempo",
+        "text": "Miríada. Rápido. Juega esta carta después de que comience la fase de Investigación. Límite de grupo de 1 en juego.\nPon el Buen tiempo en juego junto al mazo de Plan y elige una habilidad. Mientras esta carta esté en juego, cada investigador recibe +2 a la habilidad elegida.\n<b>Obligado -</b> Cuando comience la fase de Investigación: Descarta el Buen tiempo.",
+        "traits": "Bendecido. Fortuna."
+    },
+    {
+        "code": "11092",
+        "name": "Arma improvisada",
+        "text": "Puedes jugar el Arma improvisada desde tu pila de descartes. Si lo haces, añádela a tu mazo y baraja éste después de resolver sus efectos y roba 1 carta.\n<b>Combatir.</b> El Enemigo atacado recibe –2 a combate para este ataque. Si has jugado el Arma improvisada desde tu pila de descartes, este ataque inflige +1 de daño.",
+        "traits": "Táctica. Improvisado."
+    },
+    {
+        "code": "11093",
+        "name": "Última oportunidad",
+        "text": "Sólo puedes asignar esta carta a una prueba de habilidad que no tenga otras cartas asignadas a ella. No se pueden asignar otras cartas a esta prueba de habilidad.\nÚltima oportunidad pierde [wild] por cada carta que tengas en la mano. Si esta prueba tiene éxito mientras Última oportunidad esté asignada a ella, roba 2 cartas.",
+        "traits": "Gambito."
+    },
+    {
+        "code": "11094",
+        "name": "Regalo de Nodens",
+        "text": "[reaction] Cuando asignes cartas a una prueba de habilidad que estés realizando, elige una carta de Habilidad [survivor] de tu pila de descartes y descarta 1 carta de tu mano. Asigna la Habilidad elegida a esta prueba. Después de que esta prueba de habilidad se resuelva, coloca esa carta de Habilidad en la parte inferior de tu mazo. Límite de una vez por ronda.",
+        "traits": "Ritual.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11095",
+        "name": "Asceta",
+        "text": "Sólo modo de campaña. Permanente. Límite de 1 por mazo. Sólo puedes adquirir esta carta al crear el mazo.\nCuando adquieras esta carta, obtén 10 puntos de experiencia.\nNo puedes ganar experiencia durante el resto de la campaña.",
+        "traits": "Estado."
+    },
+    {
+        "code": "11096",
+        "name": "Descanso breve",
+        "text": "Miríada.\nCura 1 punto de daño o 1 punto de horror de un investigador o de un Apoyo [[Aliado]] que esté en tu Lugar.\n[reaction] Después de que un investigador que esté en tu Lugar juegue el Descanso breve: Juega otro Descanso breve desde tu mano <i>(pagando su coste)</i>.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "11097",
+        "name": "Confianza",
+        "text": "Máximo de 1 asignada por prueba.\nPor cada ficha de Caos adicional revelada durante esta prueba de habilidad (incluso si fue cancelada o ignorada), Confianza obtiene [wild] (hasta un máximo de +3 iconos [wild]).",
+        "traits": "Innato."
+    },
+    {
+        "code": "11098",
+        "name": "Sanación espiritual",
+        "text": "Permanente. Límite de 1 por mazo.\nCuando adquieras la Sanación espiritual, retira 1 punto de trauma físico o mental de tu investigador.",
+        "traits": "Estado. Bendecido."
+    },
+    {
+        "code": "11099",
+        "name": "Pase de biblioteca",
+        "text": "Sólo para un mazo [[Miskatonic]], [[Erudito]]. Límite de 1 por mazo.\n[free] Durante tu turno, si no hay ningún Apoyo vinculado al Pase de biblioteca, gasta 1 recurso: Vincula un Apoyo [[Tomo]] de tu mano a esta carta. El Apoyo vinculado no ocupa espacios. Límite de 1 Apoyo vinculado.\n<b>Obligado -</b> Cuando acabe tu turno: Coloca el Apoyo vinculado en la parte inferior de tu mazo.",
+        "traits": "Objeto. Miskatonic."
+    },
+    {
+        "code": "11100",
+        "name": "Sueños de la arcilla",
+        "text": "Sólo para un mazo [[Artista]], [[Clarividente]], [[Soñador]], [[Intérprete]].\nSólo puedes asignar esta carta a una prueba de habilidad de una Traición. Si esta prueba de habilidad tiene éxito, pon los Sueños de la arcilla en juego en tu zona de juego en vez de descartarlos.\n[reaction] Cuando robes una Traición que no tenga Peligro del mazo de Encuentros, retira los Sueños de la arcilla de la partida: Cancela su efecto de revelación y descártala.",
+        "traits": "Innato. Presagio."
+    },
+    {
+        "code": "11101",
+        "flavor": "\"El Dr. Christopher no se lo va a creer!\"",
+        "name": "Inquisitivo",
+        "text": "Sólo para un mazo [[Ayudante]], [[Miskatonic]], [[Erudito]].\nSi esta prueba de habilidad tiene éxito, el investigador que la realiza puede tener éxito por hasta 2 más o menos (hasta un mínimo de cero).",
+        "traits": "Innato."
+    },
+    {
+        "code": "11102",
+        "name": "En dirección al horizonte",
+        "text": "Sólo para un mazo [[Vagabundo]], [[Cazador]], [[Viajero]].\nLímite de 1 por investigador.\n[free] Durante tu turno, descarta 1 carta de tu mano y agota En dirección al horizonte: <b>Movimiento.</b> Muévete a un Lugar conectado.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11103",
+        "name": "Sutra prohibido",
+        "text": "Sólo para un mazo [[Bendecido]], [[Maldito]], [[Hechicero]].\nRecibes +1 a tu valor de habilidad al resolver Eventos [[Hechizo]].\n[reaction]] Durante una prueba de habilidad de un Evento [[Hechizo]], recibe hasta 3 puntos de horror: Por cada punto de horror recibido, revela una ficha de Caos adicional para esta prueba. Elige 1 de las fichas reveladas para resolverla e ignora el resto.",
+        "traits": "Objeto. Tomo. Bendecido. Maldito.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11104",
+        "name": "Walter Fitzpatrick",
+        "subname": "Jugando a dos bandas",
+        "text": "Sólo para un mazo [[Cívico]], [[Crepúsculo de Plata]], [[Alta sociedad]].\nRecibes +1 a tu valor de habilidad al negociar.\n[reaction] Después de que negocies con éxito, agota a Walter Fitzpatrick: Obtén 1 recurso.",
+        "traits": "Aliado. Mecenas. Crepúsculo de Plata.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11105",
+        "flavor": "\"Puedo traerlos vivos o puedo traerlos muertos.\"",
+        "name": "Pon tu precio",
+        "text": "Sólo para un mazo [[Criminal]], [[Alta sociedad]].\n<b>Negociar.</b> Inflige 10 puntos de daño a un Enemigo que esté en tu Lugar, o bien 5 puntos de daño si ese Enemigo es [[Élite]]. Retira Pon tu precio de la partida.",
+        "traits": "Favor."
+    },
+    {
+        "code": "11106",
+        "name": "Despertar verdadero",
+        "text": "Sólo para un mazo [[Bendecido]], [[Elegido]], [[Vagabundo]].\nElige y resuelve dos de los siguientes efectos, en cualquier orden:\n- Roba 2 cartas.\n- Descubre 1 pista en tu Lugar.\n- Cúrate 1 punto de daño.\n- Cúrate 1 punto de horror.",
+        "traits": "Inspiración. Espíritu."
+    },
+    {
+        "code": "11107",
+        "name": "Doblar la apuesta",
+        "text": "Sólo para un mazo [[Criminal]], [[Emprendedor]], [[Alta sociedad]].\nMáximo de 1 asignada por prueba de habilidad.\nDespués de que asignes Doblar la apuesta a una prueba de habilidad, gasta hasta 3 recursos. Por cada recurso gastado, Doblar la apuesta obtiene [wild][wild].",
+        "traits": "Innato."
+    },
+    {
+        "code": "11108",
+        "name": "Actuación cautivadora",
+        "text": "Sólo para un mazo [[Soñador]], [[Intérprete]], [[Hechicero]].\nLímite de 1 por investigador.\n[reaction] Después de que realices 3 tipos de acciones distintas seguidas, agota Actuación cautivadora: Realiza una acción adicional, que debe ser de un tipo distinto a todas las demás acciones que has realizado en este turno <i>(los tipos incluyen: activar, robar, enfrentarse, evitar, combatir, investigar, mover, jugar, recursos)</i>.",
+        "traits": "Ritual."
+    },
+    {
+        "code": "11109",
+        "name": "Capucha de Sejmet",
+        "subname": "Capa de los faraones",
+        "text": "Sólo para un mazo [[Creyente]], [[Elegido]], [[Sectario]].\n[reaction] Cuando entres en un Lugar, agota la Capucha de Sejmet: Hasta el final de la ronda, cada Enemigo que no sea [[Élite]] que esté en ese Lugar no puede enfrentarse a ti y no puedes infligir daño a esos Enemigos.",
+        "traits": "Objeto. Ropa. Reliquia.",
+        "slot": "Cuerpo"
+    },
+    {
+        "code": "11110",
+        "name": "Dakota Garofalo",
+        "subname": "De caza",
+        "text": "Sólo para un mazo [[Detective]], [[Cazador]], [[Viajero]].\nMientras haya un Enemigo [[Criatura]] o [[Monstruo]] en tu Lugar, recibes +1 [willpower] y +1 [combat].\n[free] Agota a Dakota Garofalo: Elige un Enemigo que esté en tu Lugar o en un Lugar conectado. Muévete al Lugar del Enemigo elegido y enfréntate a él.",
+        "traits": "Aliado. Cazador. Viajero.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11111",
+        "name": "Trabajo a destajo",
+        "text": "Sólo para un mazo [[Criminal]], [[Vagabundo]], [[Emprendedor]].\n[free] Durante una prueba de habilidad de un Apoyo [[Herramienta]], agota Trabajo a destajo: Recibes +2 a tu valor de habilidad para esta prueba de habilidad. Si esta prueba de habilidad fracasa, repón 1 suministro de ese Apoyo o bien obtén 1 recurso.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11112",
+        "name": "Apoyo sólido",
+        "text": "Sólo para un mazo [[Ayudante]], [[Médico]], [[Protector]].\nLímite de 1 por investigador.\nPuede asignarse a Apoyo sólido daño y/u horror infligidos a otros investigadores que estén en tu Lugar.\n[reaction] Cuando comience tu turno: Cura 1 punto de daño o 1 punto de horror de Apoyo sólido.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11113",
+        "name": "Armadura de trinchera",
+        "text": "Sólo para un mazo [[Agencia]], [[Policía]], [[Veterano]].\nCancela el primer ataque de oportunidad realizado contra ti en cada ronda.",
+        "traits": "Objeto. Protección.",
+        "slot": "Cuerpo"
+    },
+    {
+        "code": "11114",
+        "name": "Sargre de K'n-yan",
+        "text": "Sólo para un mazo [[Clarividente]], [[Cazador]], [[Hechicero]].\n<b>Combatir.</b> Puedes usar tu [willpower] en vez de tu [combat] para este ataque. Por cada espacio de mano vacío que tengas, recibes +2 a tu valor de habilidad e infliges +1 de daño para este ataque. Si este ataque derrota a un Enemigo que no sea [[Élite]], añade ese Enemigo a la zona de victoria y vincúlale la Sangre de K'n-yan.",
+        "traits": "Hechizo."
+    },
+    {
+        "code": "11115",
+        "name": "Soberana de tormentas",
+        "text": "Sólo para un mazo [[Bendecido]], [[Clarividente]], [[Hechicero]].\n[action]: <b>Combatir.</b> Añade tu valor de [willpower] a tu valor de habilidad para este ataque. Si este ataque tiene éxito, además de su daño estándar, puedes agotar Soberana de tormentas para infligir 1 punto de daño a un Enemigo que esté en tu Lugar por cada símbolo [skull], [cultist], [tablet] y [elder_thing] revelado durante este ataque (hasta un máximo de 3 puntos de daño adicional).",
+        "traits": "Objeto. Reliquia. Arma. Cuerpo a cuerpo.",
+        "slot": "Mano"
+    },
+    {
+        "code": "11116",
+        "flavor": "\"Pues sí, se lo han tragado.\"",
+        "name": "Discurso motivador",
+        "text": "Sólo para un mazo [[Cívico]], [[Intérprete]], [[Alta sociedad]].\n<b>Negociar.</b> Elige un investigador que esté en tu Lugar. Ese investigador puede jugar un Apoyo [[Aliado]] de su mano sin coste. A continuación, ese investigador puede activar una capacidad [action] o [free] de ese Apoyo, ignorando todos los costes.",
+        "traits": "Espíritu."
+    },
+    {
+        "code": "11117",
+        "name": "Archibald MacVeigh",
+        "flavor": "\"Publica o fallece, me dijeron. Tal vez haga ambas cosas.\"",
+        "subname": "Conferenciante atribulado",
+        "text": "Sólo para un mazo [[Ayudante]], [[Reportero]], [[Erudito]]. Usos (4 secretos).\nRecibes +1 [intellect].\nLos secretos de los Apoyos que controles se pueden gastar como recursos para pagar Eventos [[Inspiración]] que juegues.",
+        "traits": "Aliado.",
+        "slot": "Aliado"
+    },
+    {
+        "code": "11118",
+        "name": "Pase de biblioteca",
+        "text": "Sólo para un mazo [[Miskatonic]], [[Erudito]]. Permanente. Límite de 1 por mazo.\n[free] Durante tu turno, si no hay ningún Apoyo vinculado al Pase de biblioteca, agota el Pase de biblioteca: Víncula un Apoyo [[Tomo]] de tu mano al Pase de biblioteca. El Apoyo vinculado no ocupa espacios.\n<b>Obligado -</b> Cuando acabe tu turno: Debes pagar 1 recurso o bien colocar el Apoyo vinculado en la parte inferior de tu mazo.",
+        "traits": "Objeto. Miskatonic."
+    },
+    {
+        "code": "11119",
+        "name": "Mauser Tankgewehr M1918",
+        "text": "Sólo para un mazo [[Cazador]], [[Veterano]], [[Protector]].Usos (1 proyectil).\n[action] Si el Mauser Tankgewehr M1918 está preparado, gasta 1 proyectil: <b>Combatir.</b> Recibes +5 [combat] para este ataque y este ataque inflige +3 de daño.\n[action] Agota el Mauser Tankgewehr M1918: Reponle 1 proyectil.",
+        "traits": "Objeto. Arma. Arma de fuego.",
+        "slot": "Dos manos"
+    },
+    {
+        "code": "11120",
+        "name": "Pisándoles los talones",
+        "text": "Sólo para un mazo [[Detective]], [[Cazador]], [[Policía]], [[Reportero]].\nLímite de 1 por investigador. Usos (5 indicios).\n[reaction] Después de que entres en un Lugar con 1 o más Enemigos, gasta 1 indicio y agota Pisándoles los talones: Descubre 1 pista en tu Lugar o bien inflige 1 punto de daño a un Enemigo que esté en tu Lugar.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11121",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de lealtad",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de lealtad)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Pacto]] o [[Terror]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11122",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de orden",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de orden)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Maldición]] o [[Maleficio]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11123",
+        "name": "Juramento sagrado",
+        "subname": "Juramento de sabiduría",
+        "text": "Sólo para un mazo [[Sectario]], [[Maldito]], [[Crepúsculo de Plata]]. Rápido. Miríada. Límite de 1 Juramento sagrado <i>(Juramento de sabiduría)</i> por mazo.\nMáximo de 3 copias de Juramento sagrado en juego. Hasta 3 cartas Juramento sagrado ocupan 1 espacio arcano.\n[reaction] Cuando robes una Traición [[Augurio]] o [[Poder]] que no sea Debilidad, descarta una copia del Juramento sagrado del juego: Cancela el efecto de revelación de esa Traición y descártala.",
+        "traits": "Pacto.",
+        "slot": "Arcano"
+    },
+    {
+      "code": "11124",
+      "name": "Vórtice dimensional",
+      "text": "Sólo para un mazo [[Intérprete]], [[Hechicero]].\nRápido. Juega esta carta cuando comience la fase de Investigación. Elige un Lugar. Pon aparte todos los Enemigos que no sean [[Élite]] que estén en el Lugar elegido <i>(manteniendo todas las fichas y cartas vinculadas)</i>. Hasta el final de la ronda, no están en ningún Lugar y son inmunes a los efectos de las cartas de Jugador. Cuando acabe la ronda, devuelve cada uno de estos Enemigos al Lugar elegido, agotados. Máximo de una vez por partida.",
+      "traits": "Hechizo."
+    },
+    {
+        "code": "11125",
+        "name": "Recuerdos de otra vida",
+        "text": "Sólo para un mazo [[Artista]], [[Creyente]], [[Soñador]], [[Hechicero]].\nSi esta prueba de habilidad tiene éxito, puedes retirar los Recuerdos de otra vida de la partida para buscar en tu colección cualquier carta de nivel 0 que no sea Permanente <i>(incluso si no cumple tus requisitos de creación de mazos)</i>. Juega esa carta sin coste. Al final de la partida, devuelve esa carta a tu colección.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11126",
+        "name": "Arruinado y acabado",
+        "text": "<b>Revelación -</b> Pon Arruinado y acabado en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no realizaste una acción de robar o de recursos en esta ronda: Recibe 1 punto de horror, añade Arruinado y acabado a tu mazo y baraja este.\n[action] Gasta 3 recursos o bien elige y descarta 3 cartas de tu mano: Descarta esta carta.",
+        "traits": "Adversidad."
+    },
+    {
+        "code": "11127",
+        "name": "Curiosidad morbosa",
+        "text": "<b>Revelación -</b> Pon la Curiosidad morbosa en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no investigaste con éxito en esta ronda: Recibe 1 punto de horror, añade Curiosidad morbosa a tu mazo y baraja este.\n[action]: <b>Investigar</b>. Recibes -2 a tu valor de habilidad para esta investigación. Si tienes éxito, descarta esta carta.",
+        "traits": "Defecto."
+    },
+    {
+        "code": "11128",
+        "name": "Poltergeist alborotador",
+        "text": "<b>Revelación -</b> Pon el Poltergeist alborotador en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no evitaste un Enemigo con éxito en esta ronda: Recibe 1 punto de daño, añade el Poltergeist alborotador a tu mazo y baraja éste.\n[action]: <b>Evitar</b>. Recibes –2 a tu valor de habilidad para este intento de evitar. Si tienes éxito, descarta esta carta.",
+        "traits": "Maldición."
+    },
+    {
+        "code": "11129",
+        "name": "Enajenación",
+        "text": "<b>Revelación -</b> Pon la Enajenación en juego en tu zona de amenaza.\n<b>Obligado -</b> Cuando acabe tu turno, si no combatiste un Enemigo con éxito en esta ronda: Recibe 1 punto de daño, añade la Enajenación a tu mazo y baraja éste.\n[action]: <b>Combatir</b>. Recibes –2 a tu valor de habilidad para este ataque. Si tienes éxito, descarta esta carta.",
+        "traits": "Locura."
     }
 ]
