@@ -1,19 +1,52 @@
 {
     "additionalProperties": true,
     "properties": {
-        "back_text": {
-            "minLength": 1,
+        "alternate_of": {
+            "description": "Code of the card that the card is an alternate of. Used for parallel investigators.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
         "back_flavor": {
+            "description": "Flavor text on the back of `double_sided` cards.",
             "minLength": 0,
             "type": "string"
         },
-        "code": {
-            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
+        "back_illustrator": {
+            "description": "Illustrator credit on the back of `double_sided` cards. Only use this if the illustrator is different from the front.",
+            "minLength": 1,
             "type": "string"
         },
-        "cost": {
+        "back_link": {
+            "description": "Used for double-sided cards where the back is a different card. When this is set, the linked cards need the `hidden` property set to true. In simple cases, the `double_sided` and `back_` attributes should be used.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "back_name": {
+            "description": "Name on the back of `double_sided` cards.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_text": {
+            "description": "Text on the back of `double_sided` cards.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_traits": {
+            "description": "Traits on the back of `double_sided` cards.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "bonded_count": {
+            "description": "Number of copies of the card that are bonded to the card referenced in `bonded_to`.",
+            "minimum": 1,
+            "type": "integer"
+        },
+        "bonded_to": {
+            "description": "Name of the card that the card is bonded to.",
+            "type": "string"
+        },
+        "clues": {
+            "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
                     "minimum": -2,
@@ -24,7 +57,43 @@
                 }
             ]
         },
+        "clues_fixed": {
+            "description": "When this is set to true, the `clues` value is fixed rather than scaling with the number of investigators.",
+            "type": "boolean"
+        },
+        "code": {
+            "description": "Unique identifier for the card. This is a 5-digit number that is followed by one or two letters. The first letter either marks the backside (b) or a variant of a card (a-x). In case of a variant, the second letter can be (b) to mark the variant's backside.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "cost": {
+            "description": "Resource cost of the card. Required for assets and events. null means `-`, -2 means `X`.",
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "customization_change": {
+            "description": "List of changes corresponding (by line) to the unlocking of the customization options.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "customization_options": {
+            "description": "Array of objects representing the customization options for the card.",
+            "type": "array"
+        },
+        "customization_text": {
+            "description": "Customization text for the card, where each line corresponds to a customization option.",
+            "minLength": 1,
+            "type": "string"
+        },
         "deck_requirements": {
+            "description": "A comma-separated list of deckbuilding requirements for an investigator. null for investigators that don't have deckbuilding.",
             "oneOf": [
                 {
                     "minLength": 0,
@@ -36,6 +105,7 @@
             ]
         },
         "deck_options": {
+            "description": "Array of objects encoding deck options for an investigator. null for investigators that don't have deckbuilding.",
             "oneOf": [
                 {
                     "type": "array"
@@ -46,20 +116,15 @@
             ]
         },
         "deck_limit": {
+            "description": "Maximum number of copies of the card that can be included in a deck.",
             "minimum": 0,
             "type": "integer"
         },
-        "double_sided": {
-            "type": "boolean"
-        },
-        "duplicate_of": {
-            "pattern": "^[0-9a-z]{5}[0-9a-z]?$",
-            "type": "string"
-        },
-        "enemy_damage": {
+        "doom": {
+            "description": "Number of doom on an agenda. null means `-`. Required to be present for agendas.",
             "oneOf": [
                 {
-                    "minimum": -2,
+                    "minimum": 0,
                     "type": "integer"
                 },
                 {
@@ -67,7 +132,37 @@
                 }
             ]
         },
+        "double_sided": {
+            "description": "Indicates that the card has a back side that can be modeled with the `back_` attributes.",
+            "type": "boolean"
+        },
+        "duplicate_of": {
+            "description": "The code of the card that the card is a duplicate of. Used for reprints such as revised core.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "encounter_code": {
+            "description": "Code of the encounter set the card belongs to.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "encounter_position": {
+            "description": "Position of the card in the encounter set.",
+            "minimum": 1,
+            "type": "integer"
+        },
+        "errata_date": {
+            "description": "Date of the last errata for the card.",
+            "minLength": 10,
+            "type": "string"
+        },
+        "enemy_damage": {
+            "description": "Amount of damage dealt by an enemy. Should be omitted for enemies that don't deal damage.",
+            "minimum": 0,
+            "type": "integer"
+        },
         "enemy_evade": {
+            "description": "Enemy's evade value. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
                     "minimum": -2,
@@ -79,6 +174,7 @@
             ]
         },
         "enemy_fight": {
+            "description": "Enemy's fight value. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
                     "minimum": -2,
@@ -90,31 +186,40 @@
             ]
         },
         "enemy_horror": {
-            "oneOf": [
-                {
-                    "minimum": -2,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
+            "description": "Amount of horror dealt by an enemy. Should be omitted for enemies that don't deal horror.",
+            "minimum": 0,
+            "type": "integer"
         },
         "exceptional": {
+            "description": "Indicates that the card is exceptional.",
             "type": "boolean"
         },
         "exile": {
+            "description": "Indicates that the card can exile.",
             "type": "boolean"
         },
         "faction_code": {
+            "description": "Code of the faction the card belongs to.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "faction2_code": {
+            "description": "Code of the second faction the card belongs to. Used for multi-class cards.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "faction3_code": {
+            "description": "Code of the third faction the card belongs to. Used for multi-class cards.",
             "minLength": 1,
             "type": "string"
         },
         "flavor": {
-            "minLength": 0,
+            "description": "Flavor text on the card.",
+            "minLength": 1,
             "type": "string"
         },
         "health": {
+            "description": "Number of health on any card that has health. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
                     "minimum": -2,
@@ -125,55 +230,59 @@
                 }
             ]
         },
+        "health_per_investigator": {
+            "description": "Indicates that the health value is per investigator.",
+            "type": "boolean"
+        },
+        "hidden": {
+            "description": "Indicates that the card is hidden. Set for cards that are referenced via a back_link.",
+            "type": "boolean"
+        },
         "illustrator": {
-            "pattern": ".*",
+            "description": "Name of the illustrator of the card.",
+            "minLength": 1,
             "type": "string"
         },
+        "is_unique": {
+            "description": "Indicates that the card is unique.",
+            "type": "boolean"
+        },
+        "myriad": {
+            "description": "Indicates that the card is myriad.",
+            "type": "boolean"
+        },
         "name": {
+            "description": "Name of the card.",
             "minLength": 1,
             "type": "string"
         },
         "pack_code": {
+            "description": "Code of the pack that the card belongs to.",
             "maxLength": 10,
             "minLength": 2,
             "type": "string"
         },
         "permanent": {
+            "description": "Indicates that the card is permanent.",
             "type": "boolean"
         },
         "position": {
+            "description": "Position of the card in the pack. For several variants of the same card, the position should be the same.",
             "minimum": 1,
             "type": "integer"
         },
         "quantity": {
+            "description": "Number of copies of the card in the pack.",
             "minimum": 1,
             "type": "integer"
         },
         "restrictions": {
+            "description": "Restricts how the card can be included in a deck. Can be another card, a trait, or a faction.",
             "minLength": 1,
             "type": "string"
         },
-        "skill_agility": {
-            "minimum": -2,
-            "type": "integer"
-        },
-        "skill_combat": {
-            "minimum": -2,
-            "type": "integer"
-        },
-        "skill_intellect": {
-            "minimum": -2,
-            "type": "integer"
-        },
-        "skill_wild": {
-            "minimum": 0,
-            "type": "integer"
-        },
-        "skill_willpower": {
-            "minimum": -2,
-            "type": "integer"
-        },
         "sanity": {
+            "description": "Number of sanity on any card that has sanity. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
                     "minimum": -2,
@@ -184,68 +293,106 @@
                 }
             ]
         },
-        "slot": {
+        "shroud": {
+            "description": "Shroud value of a location. Required to be present for location-like cards. null means `-`, -2 means `X`.",
+            "oneOf": [
+                {
+                    "minimum": -2,
+                    "type": "integer"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "side_deck_options": {
+            "description": "Array of objects encoding extra deck options for || Jim. Matches the deck_options schema.",
+            "type": "array"
+        },
+        "side_deck_requirements": {
+            "description": "A comma-separated list of deckbuilding requirements for || Jim. Matches the deck_requirements schema.",
             "minLength": 1,
             "type": "string"
         },
+        "skill_agility": {
+            "description": "Number of agility icons on the card, or agility skill for an investigator. -2 means `X` in the latter case.",
+            "minimum": -2,
+            "type": "integer"
+        },
+        "skill_combat": {
+            "description": "Number of combat icons on the card, or combat skill for an investigator. -2 means `X` in the latter case.",
+            "minimum": -2,
+            "type": "integer"
+        },
+        "skill_intellect": {
+            "description": "Number of intellect icons on the card, or intellect skill for an investigator. -2 means `X` in the latter case.",
+            "minimum": -2,
+            "type": "integer"
+        },
+        "skill_wild": {
+            "description": "Number of wild icons on the card, or wild skill for an investigator. -2 means `X` in the latter case.",
+            "minimum": 0,
+            "type": "integer"
+        },
+        "skill_willpower": {
+            "description": "Number of willpower icons on the card, or willpower skill for an investigator. -2 means `X` in the latter case.",
+            "minimum": -2,
+            "type": "integer"
+        },
+        "slot": {
+            "description": "Slot of an asset. Can be omitted for assets that don't have a slot.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "stage": {
+            "description": "Stage of the act or agenda. Required to be present for acts.",
+            "minimum": 0,
+            "type": "integer"
+        },
         "subname": {
+            "description": "Subname of the card.",
             "minLength": 1,
             "type": "string"
         },
         "subtype_code": {
-            "oneOf": [
-                {
-                    "minLength": 0,
-                    "type": "string"
-                },
-                {
-                    "type": "null"
-                }
-            ]
+            "description": "Subtype code of the card. Used to mark weaknesses.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "tags": {
+            "description": "Card tags are used to accommodate special deck building rules that are hard to filter for otherwise.",
+            "minLength": 0,
+            "type": "string"
         },
         "text": {
+            "description": "Text on the card.",
             "minLength": 1,
             "type": "string"
         },
         "traits": {
+            "description": "Traits on the card.",
             "minLength": 0,
             "type": "string"
         },
         "type_code": {
+            "description": "The card's type.",
             "minLength": 1,
             "type": "string"
         },
-        "victory": {
-            "oneOf": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
+        "vengeance": {
+            "description": "Vengeance value of a card (TFA).",
+            "minimum": 0,
+            "type": "integer"
         },
-        "is_unique": {
-            "oneof": [
-                {
-                    "type": "boolean"
-                },
-                {
-                    "type": "null"
-                }
-            ]
+        "victory": {
+            "description": "Victory value of the card.",
+            "minimum": 0,
+            "type": "integer"
         },
         "xp": {
-            "oneOf": [
-                {
-                    "minimum": 0,
-                    "type": "integer"
-                },
-                {
-                    "type": "null"
-                }
-            ]
+            "description": "Level of the card. Omit for no level.",
+            "minimum": 0,
+            "type": "integer"
         }
     },
     "required": ["code", "pack_code", "position", "quantity"],
