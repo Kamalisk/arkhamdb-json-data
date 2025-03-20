@@ -69,7 +69,7 @@ The available tags are:
 - `hd` => _Heals damage_, used for Vincent Lee.
 - `pa` => _Parley_, used for Alessandra Zorzi.
 - `se` => _Seals token_, used for ||Father Mateo.
-= `fa` => _Firearm in card text_, used for Michael McGlen.
+- `fa` => _Firearm in card text_, used for Michael McGlen.
 
 These tags have been used in the past but are unused right now:
 - `st` => _Spell trait_, used to mark whether a card had bonded spells for Marie Lambeau, which is no longer relevant, but still part of the deckbuilding rules.
