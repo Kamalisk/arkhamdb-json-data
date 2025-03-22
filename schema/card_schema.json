@@ -8,7 +8,7 @@
         },
         "back_flavor": {
             "description": "Flavor text on the back of `double_sided` cards.",
-            "minLength": 0,
+            "minLength": 1,
             "type": "string"
         },
         "back_illustrator": {
@@ -49,8 +49,12 @@
             "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
                 },
                 {
                     "type": "null"
@@ -70,8 +74,12 @@
             "description": "Resource cost of the card. Required for assets and events. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
                 },
                 {
                     "type": "null"
@@ -96,7 +104,7 @@
             "description": "A comma-separated list of deckbuilding requirements for an investigator. null for investigators that don't have deckbuilding.",
             "oneOf": [
                 {
-                    "minLength": 0,
+                    "minLength": 1,
                     "type": "string"
                 },
                 {
@@ -158,15 +166,19 @@
         },
         "enemy_damage": {
             "description": "Amount of damage dealt by an enemy. Should be omitted for enemies that don't deal damage.",
-            "minimum": 0,
+            "minimum": 1,
             "type": "integer"
         },
         "enemy_evade": {
             "description": "Enemy's evade value. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
                 },
                 {
                     "type": "null"
@@ -177,8 +189,12 @@
             "description": "Enemy's fight value. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
                 },
                 {
                     "type": "null"
@@ -187,7 +203,7 @@
         },
         "enemy_horror": {
             "description": "Amount of horror dealt by an enemy. Should be omitted for enemies that don't deal horror.",
-            "minimum": 0,
+            "minimum": 1,
             "type": "integer"
         },
         "exceptional": {
@@ -222,8 +238,12 @@
             "description": "Number of health on any card that has health. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 1
                 },
                 {
                     "type": "null"
@@ -285,8 +305,12 @@
             "description": "Number of sanity on any card that has sanity. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 1
                 },
                 {
                     "type": "null"
@@ -297,8 +321,12 @@
             "description": "Shroud value of a location. Required to be present for location-like cards. null means `-`, -2 means `X`.",
             "oneOf": [
                 {
-                    "minimum": -2,
-                    "type": "integer"
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
                 },
                 {
                     "type": "null"
@@ -316,27 +344,72 @@
         },
         "skill_agility": {
             "description": "Number of agility icons on the card, or agility skill for an investigator. -2 means `X` in the latter case.",
-            "minimum": -2,
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            ],
             "type": "integer"
         },
         "skill_combat": {
             "description": "Number of combat icons on the card, or combat skill for an investigator. -2 means `X` in the latter case.",
-            "minimum": -2,
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            ],
             "type": "integer"
         },
         "skill_intellect": {
             "description": "Number of intellect icons on the card, or intellect skill for an investigator. -2 means `X` in the latter case.",
-            "minimum": -2,
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            ],
             "type": "integer"
         },
         "skill_wild": {
             "description": "Number of wild icons on the card, or wild skill for an investigator. -2 means `X` in the latter case.",
-            "minimum": 0,
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 1
+                }
+            ],
             "type": "integer"
         },
         "skill_willpower": {
             "description": "Number of willpower icons on the card, or willpower skill for an investigator. -2 means `X` in the latter case.",
-            "minimum": -2,
+            "oneOf": [
+                {
+                    "type": "integer",
+                    "enum": [-2]
+                },
+                {
+                    "type": "integer",
+                    "minimum": 0
+                }
+            ],
             "type": "integer"
         },
         "slot": {
