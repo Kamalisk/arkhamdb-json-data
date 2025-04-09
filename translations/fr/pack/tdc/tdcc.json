@@ -1,1 +1,511 @@
-[]
+[
+    {
+        "code": "11501",
+        "name": "Un Dernier Travail",
+        "text": "Facile / Standard\n[skull]: -X. X est le nombre d'ennemis [[Criminel]] en jeu (jusqu'à un maximum de of 4).\n[cultist] : -2 (-4 à la place s'il y a un ennemi [[Criminel]] dans votre lieu).\n[elder_thing]: -3. En cas d'échec, défaussez les 3 cartes du dessus du deck Rencontre. Choisissez 1 ennemi [[Criminel]] ainsi défaussé et générez-le engagé avec vous.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est égal au nombre of ennemi [[Criminel]] en jeu plus 1.\n[cultist]: -3 (-5 à la place s'il y a un ennemi [[Criminel]] dans votre lieu).\n[elder_thing]: -4. En cas d'échec, défaussez les 6 cartes du dessus du deck Rencontre. Choisissez 1 ennemi [[Criminel]] ainsi défaussé et générez-le engagé avec vous. Il effectue immédiatement une attaque contre vous."
+    },
+    {
+        "code": "11517",
+        "name": "Le Mur Occidental",
+        "text": "Facile / Standard\n[skull]: -X. X est l'Étage de votre lieu.\n[cultist]: -3. En cas d'échec et si votre lieu est complètement inondé, subissez 1 dégât.\n[tablet]: -3. En cas d'échec, augmentez le niveau d'inondation de votre lieu.\n[elder_thing] : -3 (-5 à la place si votre lieu est complètement inondé).",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est égal à l'Étage de votre lieu plus 2.\n[cultist]: -5. Si votre lieu est complètement inondé, subissez 1 dégât.\n[tablet]: -5. Augmentez le niveau d'inondation de votre lieu, si possible.\n[elder_thing]: -5 (Si votre lieu est complètement inondé, vous échouez automatiquement à la place)."
+    },
+    {
+        "code": "11535",
+        "name": "Parasite en Chasse",
+        "text": "Distant. Chasseur.\n<b>Proie</b> - Détenteur uniquement.\n<b>Génération</b> - Un lieu connexe (vide si possible).\n<b>Forcé</b> - Quand la phase des Ennemis se termine : placez 1 fatalité sur une carte Joueur dans le lieu de cet ennemi. Ensuite, défaussez Parasite en Chasse.",
+        "traits": "Monstre. Clandestin."
+    },
+    {
+        "code": "11536",
+        "name": "Le Quartier englouti",
+        "text": "Facile / Standard\n[skull]: -X. X est nombre de lieux révélés divisé par 2 (arrondir à l'inférieur).\n[cultist]: -2. En cas d'échec et si votre lieu est complètement inondé, subissez 1 dégât.\n[tablet]: -4. En cas d'échec, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -3 (-5 à la place si votre lieu n'est pas inondé).",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est le nombre de lieux révélés.\n[cultist]: -3. Si votre lieu est inondé, subissez 1 dégât.\n[tablet]: -4. En cas d'échec, pour chaque point manquant, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -4 (-6 à la place si votre lieu n'est pas inondé)."
+    },
+    {
+        "code": "11550",
+        "name": "Relique d'Obsidienne [tdc_rune_y]",
+        "subname": "Effigie Déroutante",
+        "text": "Si la Relique d'Obsidienne [tdc_rune_y] devait quitter le jeu, retirez-la de la partie.\n[action] : effectuez un test [intellect] (8). Double les icônes de compétence of chaque carte attribuée à ce test de compétence. En cas de réussite, retournez cette carte et résolvez son texte.",
+        "traits": "Objet. Relique. Glyphe."
+    },
+    {
+        "code": "11552",
+        "name": "Nodule de Barrière",
+        "subname": "Bouclier Énergétique",
+        "text": "Nodule de Barrière ne peut pas être vaincu ni quitter le jeu.\n[reaction] Quand votre tour débute : soignez 1 dégât du Nodule de Barrière.\n[tdc_rune_q] · [tdc_rune_x] · [tdc_rune_g] · [tdc_rune_k] · [tdc_rune_s]\nLe Nodule de Barrière gagne +2 vies.",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11553",
+        "name": "Le Rucher",
+        "text": "Facile / Standard\n[skull]: -X. X est la quantité de fatalité sur les ennemis et soutiens en jeu divisée par deux, arrondie à l'inférieur (jusqu'à un maximum de 4).\n[cultist]: -1. s'il y a ennemi [[Cultiste]] dans votre lieu, révélez un autre pion.\n[tablet]: -3. En cas d'échec, placez 1 fatalité sur un ennemi dans votre lieu sans fatalité sur lui.\n[elder_thing]: -4. En cas d'échec, subissez 1 dégât ou 1 horreur.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est la quantité de fatalité sur les ennemis et soutiens en jeu (jusqu'à un maximum de 8).\n[cultist]: -3. s'il y a un ennemi [[Cultiste]] dans votre lieu, révélez un autre pion.\n[tablet]: -5. En cas d'échec, placez 1 fatalité sur un ennemi dans votre lieu (sans fatalité sur lui, si possible).\n[elder_thing]: -6. En cas d'échec, subissez 1 dégât ou 1 horreur."
+    },
+    {
+        "code": "11581",
+        "name": "Relique Antique [tdc_rune_s]",
+        "subname": "Visage Malveillant",
+        "text": "Si la Relique Antique [tdc_rune_s] devait quitter le jeu, mettez-la de côté, hors jeu.\n<b>Forcé</b> - Après que vous avez subi au moins 1 dégât : infligez 1 dégât à la Relique Antique [tdc_rune_s].\n[reaction] Quand vous terminez la partie avec la Relique Antique [tdc_rune_s] sous votre contrôle : retournez cette carte et résolvez son texte.",
+        "traits": "Objet. Relique. Glyphe."
+    },
+    {
+        "code": "11582",
+        "name": "Horrible \"Masque\"",
+        "subname": "Est-ce Vraiment Vivant ?",
+        "text": "[fast] Inclinez Horrible \"Masque\" : désengagez-vous de chaque ennemi. Jusqu'au début de votre prochain tour, vous ne pouvez ni vous déplacer, ni infliger des dégâts aux ennemis, ni les engager.\n[tdc_rune_j] · [tdc_rune_m] · [tdc_rune_s] · [tdc_rune_c] · [tdc_rune_b]\n[fast] Subissez 1 horreur directe et inclinez Horrible \"Masque\": infligez 2 dégâts à un ennemi dans votre lieu.",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11583",
+        "name": "Transformation Parasitique",
+        "text": "<b>Révélation</b> - Mettez en jeu Transformation Parasitique dans votre zone de menace.\n<b>Forcé</b> - Après qu'un ennemi vous a engagé : placez 1 fatalité sur Transformation Parasitique.\n[action][action] : défaussez Transformation Parasitique.",
+        "traits": "Malédiction. Risque."
+    },
+    {
+        "code": "11587",
+        "name": "La Grande Crypte",
+        "text": "Facile / Standard\n[skull]: -X. X est le nombre of lieux activés divisé par deux (arrondir à l'inférieur).\n[cultist]: -3. En cas d'échec, vous devez soit désactiver votre lieu soit subir 1 dégât ou 1 horreur.\n[tablet] : -2 (-3 à la place si votre lieu est partiellement inondé; -4 à la place si votre lieu est complètement inondé).\n[elder_thing]: -4. En cas d'échec, cherchez un exemplaire de la traîtrise Toujours Derrière Vous dans la pile de défausse Rencontre et ajoutez-la à la pile de victoire.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est le nombre de lieux activés.\n[cultist]: -4. Après la résolution de ce test, vous devez soit désactiver votre lieu soit subir 1 dégât ou 1 horreur.\n[tablet]: -3 (-4 à la place si votre lieu est partiellement inondé ; 5 à la place si votre lieu est complètement inondé).\n[elder_thing]: -5. En cas d'échec, cherchez un exemplaire de la traîtrise Toujours Derrière Vous dans la pile de défausse Rencontre et piochez-le."
+    },
+    {
+        "code": "11611",
+        "name": "Tablette des Marées",
+        "subname": "Archives des Profondeurs Ancestrales",
+        "text": "Quand le niveau d'inondation de votre lieu augmentez : déplacez-vous vers un lieu connexe.\n[tdc_rune_l] · [tdc_rune_k] · [tdc_rune_d]\n[fast] Inclinez la Tablette des Marées : augmentez le niveau d'inondation de votre lieu. Ensuite, choisissez un autre lieu inondé et diminuez son niveau d'inondation.",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11612",
+        "name": "La Cour des Anciens",
+        "text": "Facile / Standard\n[skull]: -X. X est le nombre de cartes [[Glyphe]] dans la pile de victoire.\n[cultist]: -2 (-4 à la place s'il y a un ennemi [[Clandestin]] dans votre lieu).\n[tablet]: -2. Si votre lieu est inondé, révélez un autre pion.\n[elder_thing]: -4. Si ce pion a été révélé lors d'une attaque ou d'une tentative d'évasion, subissez 1 dégât ou 1 horreur.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est le nombre of cartes [[Glyphe]] dans la pile de victoire plus 1.\n[cultist]: -3 (-5 à la place s'il y a un ennemi [[Clandestin]] dans votre lieu).\n[tablet]: -3. Si votre lieu est inondé, révélez un autre pion.\n[elder_thing]: -5. Si ce pion a été révélé lors d'une attaque ou tentative d'évasion, subissez 1 dégât et 1 horreur."
+    },
+    {
+        "code": "11638",
+        "name": "Fragments de Y'ch'lecht",
+        "subname": "Vestige d'un Autre Monde",
+        "text": "Vous avez le droit d'ignorer la première attaque effectuée contre vous par un ennemi [[Larve Stellaire]] ou [[Profond]] à chaque round.\n[tdc_rune_b] · [tdc_rune_x] · [tdc_rune_o] · [tdc_rune_k]\n[reaction] Quand un ennemi [[Larve Stellaire]] ou [[Profond]] entre dans votre lieu, inclinez cette carte : inclinez cet ennemi.",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11639",
+        "name": "Canyons d'Obsidienne",
+        "text": "Facile / Standard\n[skull]: -X. X est l'Intensité de la Tempête.\n[cultist]: -4. En cas d'échec, placez 1 fatalité sur l'ennemi le plus proche.\n[tablet]: -1 pour chaque Ciel Ouvert adjacent à votre lieu actuel.\n[elder_thing]: -2. S'il y a un ennemi dans votre lieu, révélez un autre pion.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est l'Intensité de la Tempête plus 2.\n[cultist]: -6. Placez 1 fatalité sur l'ennemi le plus proche.\n[tablet]: -2 pour chaque Ciel Ouvert adjacent à votre lieu actuel.\n[elder_thing]: -4. S'il y a un ennemi dans votre lieu, révélez un autre pion."
+    },
+    {
+        "code": "11663",
+        "name": "Relique Céleste [tdc_rune_f]",
+        "subname": "Érodée par les Vents",
+        "text": "Si la Relique Céleste [tdc_rune_f] devait quitter le jeu, retirez-la de la partie.\n[action]: Effectuez un test [agility] (8). Doublez les icônes de compétence de chaque carte attribuée à ce test de compétence. En cas de réussite, retournez cette carte et résolvez son texte.",
+        "traits": "Objet. Relique. Glyphe."
+    },
+    {
+        "code": "11672a",
+        "name": "Griffes d'Obsidienne",
+        "subname": "Vitesse",
+        "text": "Ne peut pas quitter le jeu. Entre en jeu face <i>(Speed)</i> visible.\n[fast] lors de votre tour, inclinez cette carte et choisissez un lieu éloigné de 2 connections ou moins : déplacez-vous le lieu choisi.\n[tdc_rune_a] · [tdc_rune_p] · [tdc_rune_m] · [tdc_rune_e] · [tdc_rune_b] · [tdc_rune_c]\n[fast] : retournez cette carte. (Max. une fois par round.)",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11672b",
+        "name": "Griffes d'Obsidienne",
+        "subname": "Puissance",
+        "text": "Ne peut pas quitter le jeu. Entre en jeu face <i>(Speed)</i> visible.\n[action] Inclinez Griffes d'Obsidienne : <b>Combattre.</b> Vous avez le droit d'utiliser votre [agility] à la place de votre [combat] et vous gagnez +1 valeur de compétence pour  cette attaque. Si l'ennemi attaqué est incliné, cette attaque inflige +1 dégât.\n[fast] : retournez cette carte. (Max. une fois par round.)",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11673",
+        "name": "Le Sépulcre du Dormeur",
+        "text": "Facile / Standard\n[skull]: -X. X est le niveau de Perturbation actuel (jusqu'à un maximum de 6).\n[cultist]: -4. En cas d'échec, piochez la carte du dessus du deck Rencontre. En cas d'échec par 3 ou plus, cette carte gagne Péril et Renfort.\n[tablet]: -4. En cas d'échec, pour chaque point manquant, vous devez soit subir 1 horreur soit défaussez 1 carte de votre main.\n[elder_thing]: -3. Révélez un autre pion.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est le niveau de Perturbation actuel.\n[cultist]: -6. En cas d'échec, piochez la carte du dessus du deck Rencontre. En cas d'échec par 3 ou plus, cette carte gagne Péril et Renfort.\n[tablet]: -6. En cas d'échec, pour chaque point manquant, vous devez soit subir 1 horreur soit défaussez 1 carte de votre main.\n[elder_thing]: -4. Révélez un autre pion."
+    },
+    {
+        "code": "11682",
+        "name": "La Chute d'Arkham Pt I",
+        "text": "Facile / Standard\n[skull]: -X. X est le nombre de lieux sans carte Scénario sous eux divisé par deux (arrondir au supérieur).\n[cultist]: -3. En cas d'échec, placez 1 fatalité sur l'ennemi le plus proche sans fatalité sur lui.\n[tablet]: -3. En cas d'échec, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -2. Si votre lieu est inondé, révélez un autre pion.",
+        "back_text": "Difficile / Expert\n[skull]: -X. X est le nombre de lieux sans carte Scénario sous eux.\n[cultist]: -5. En cas d'échec, placez 1 fatalité sur l'ennemi le plus proche sans fatalité sur lui.\n[tablet]: -5. En cas d'échec, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -4. Si votre lieu est inondé, révélez un autre pion."
+    },
+    {
+        "code": "11687",
+        "name": "John Raymond Legrasse",
+        "subname": "En Quête de Réponses",
+        "text": "Votre valeur de compétence gagnez +1 tant que vous combattez des ennemis [[Profond]] et [[Larve Stellaire]].\n[reaction] Lors d'un test de compétence en combattant ou en échappant à Cthulhu, inclinez John Raymond Legrasse : vous gagnez +X à votre valeur de compétence pour ce test, X étant la Rage de Cthulhu.",
+        "traits": "Allié. Détective.",
+        "slot": "Ally"
+    },
+    {
+        "code": "11688",
+        "name": "Horreur d'Argile",
+        "subname": "Sculpture de Rêves",
+        "text": "Chaque ennemi [[Larve Stellaire]] perd Patrouille et et ses instructions <b>Proie</b> imprimées et il gagne Chasseur et \"<b>Proie</b> - Vous.\"\n[tdc_rune_u] · [tdc_rune_x] · [tdc_rune_o] · [tdc_rune_o] · [tdc_rune_d] · [tdc_rune_f] · [tdc_rune_z]\n[fast] Inclinez Horreur d'Argile : soit vous consédérez que ce soutien perd le texte imprimé dans sa boîte de texte <i>(à l'exception des <b>Traits</b>)</i> jusqu'à la fin du round, soit vous déplacez un ennemi [[Larve Stellaire]] une fois dans n'importe quelle direction.",
+        "traits": "Objet. Artéfact. R'lyeh."
+    },
+    {
+        "code": "11688a",
+        "name": "La Chute d'Arkham Pt II",
+        "text": "Facile / Standard\n[skull]: -X. X est la Rage de Cthulhu.\n[cultist]: -3. En cas d'échec et que votre lieu est inondé, subissez 1 dégât.\n[tablet]: -3. En cas d'échec, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -1. Révélez un autre pion. En cas d'échec, après la résolution de ce test, piochez la carte du dessus du deck Cthulhu. (Maximum d'une pioche par round.)",
+        "back_text": "Difficile / Expert\n[skull]: -X. X la Rage de Cthulhu plus 2.\n[cultist]: -5. Si votre lieu est inondé, subissez 1 dégât.\n[tablet]: -5. En cas d'échec, placez 1 de vos indices dans votre lieu.\n[elder_thing]: -3. Révélez un autre pion. En cas d'échec, après la résolution de ce test, piochez la carte du dessus du deck Cthulhu. (Maximum d'une pioche par round.)"
+    },
+    {
+        "code": "11721",
+        "name": "Clandestin Mâle",
+        "text": "Distant. Patrouille (autre ennemi sans fatalité sur lui le plus proche).\n<b>Forcé</b> - Quand la phase des Ennemis se termine : placez 1 fatalité sur un autre ennemi non-[[Élite]] dans ce lieu. Ensuite, défaussez le Clandestin Mâle.",
+        "traits": "Monstre. Clandestin."
+    },
+    {
+        "code": "11722",
+        "name": "Infecté !",
+        "text": "<b>Révélation</b> - Mettez en jeu Infecté ! dans votre zone de menace. Limite de 1 par investigateur.\n<b>Forcé</b> - Après que vous avez terminé votre tour dans un lieu contenant un autre investigateur ou un ennemi [[Clandestin]] : placez 1 fatalité sur Infecté !\n[action]: Effectuez un test [willpower] (3). En cas d'échec, subissez 1 dégât. En cas de réussite, défaussez Infecté !.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11723",
+        "flavor": "\"…the Great Old Ones spoke to the sensitive among them by moulding their dreams.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Acolyte Pèlerine",
+        "text": "<b>Forcé</b> - Après que l'Acolyte Pèlerine a attaqué: placez 1 fatalité sur elle.",
+        "traits": "Humanoïde. Cultiste."
+    },
+    {
+        "code": "11724",
+        "name": "Chef des Pèlerins",
+        "text": "Distant.\n<b>Génération</b> - N'importe quel lieu (vide, si possible).\nTant que le Chef des Pèlerins est redressé, chaque autre ennemi [[Cultiste]] gagne +2 combat et gagne Chasseur et Infatigable.",
+        "traits": "Humanoïde. Cultiste."
+    },
+    {
+        "code": "11725",
+        "name": "Larve Stellaire Monstreuse",
+        "text": "Chasseur. Massif. Infatigable.\n<b>Proie</b> - [combat] la plus élevée.\n<b>Forcé</b> - Quand vous révélez un pion [elder_thing] lorsque vous combattez ou échappez à cet ennemi : soignez-le de 1 dégât.",
+        "traits": "Monstre. Larve Stellaire. Élite."
+    },
+    {
+        "code": "11726",
+        "name": "Larve Stellaire Infectée",
+        "text": "Chasseur. Infatigable. <b>Proie</b> - [agility] la plus élevée.\n<b>Forcé</b> - La première fois que cet ennemi devrait être vaincu:  soignez-le de tous ses dégât et redressez-le\n<b>Forcé</b> - Quand vous révélez un pion [elder_thing] lorsque vous combattez ou échappez à cet ennemi : Subissez 1 horreur.",
+        "traits": "Monstre. Larve Stellaire. Élite."
+    },
+    {
+        "code": "11727",
+        "name": "Larve Stellaire Coral",
+        "text": "Chasseur. Infatigable. <b>Proie</b> - [willpower] la plus élevée.\nTant que la Larve Stellaire Coral a des dégâts sur elle, elle gagne Alerte et Riposte.\n<b>Forcé</b> - Quand vous révélez un pion [elder_thing] lorsque vous combattez ou échappez à cet ennemi : subissez 1 dégât.",
+        "traits": "Monstre. Larve Stellaire. Élite."
+    },
+    {
+        "code": "11728",
+        "name": "Larve Stellaire Observatrice",
+        "text": "Distant. Chasseur.\n<b>Proie</b> - [intellect] la plus élevée.\n<b>Forcé</b> - Quand vous révélez un pion [elder_thing] lorsque vous enquêtez dans le lieu de la Larve Stellaire Observatrice : elle vous engage et effectue immédiatement une attaque contre vous.",
+        "traits": "Monstre. Larve Stellaire. Élite."
+    },
+    {
+        "code": "11729",
+        "name": "Œil des Profondeurs",
+        "text": "<b>Révélation</b> - Mettez en jeu Œil des Profondeurs dans votre zone de menace. Limite de 1 par investigateur.\nTraîtez chaque pion [cultist] et [tablet] que vous révélez lors d'un test de compétence comme étant  un pion [elder_thing].\n[action]: Effectuez un test [willpower] (3). En cas de réussite, défaussez l'Œil des Profondeurs.",
+        "traits": "Pouvoir."
+    },
+    {
+        "code": "11730",
+        "name": "Imitation Astucieuse",
+        "text": "<b>Révélation</b> - S'il n'y a pas d'ennemis [[Monstre]] en jeu, Imitation Astucieuse gagne Renfort. Sinon, effectuez un test [intellect] (3). En cas d'échec, l'ennemi [[Monstre]] le plus proche vous attaque <i>(quel que soit son lieu actuel)</i>.",
+        "traits": "Manigance."
+    },
+    {
+        "code": "11731",
+        "name": "Brume Vénérable",
+        "text": "<b>Révélation</b> - Attachez Brume Vénérable au lieu le plus proche sans Brume Vénérable attachée.\nChaque investigateur dans le lieu attaché perd -1 [willpower], -1 [intellect], -1 [combat] et -1 [agility].\n<b>Forcé</b> - Après qu'un investigateur dans le lieu attaché a réussi un test de compétence par 2 ou plus : défaussez Brume Vénérable.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11732",
+        "name": "Brouillard Corrosif",
+        "text": "<b>Révélation</b> - Effectuez un test [intellect] ou [combat] (4). En cas d'échec, subissez 1 dégât. En d'échec avec une différence de 3 ou plus, à la place, infligez 1 dégât direct à votre investigateur et à chaque soutien [[Allié]] et [[Objet]] que vous contrôlez ayant de la vie.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11733",
+        "name": "Anguille Électrique",
+        "text": "Chasseur.\n<b>Proie</b> - Le plus d'indices.\nTant qu'Anguille Électrique se déplace lors de la phase des Ennemis, considérez que tous les lieux complètement inondés sont connexes entre eux.",
+        "traits": "Monstre."
+    },
+    {
+        "code": "11734",
+        "name": "Migration Onirique",
+        "text": "<b>Révélation</b> - S'il n'y a pas d'ennemis en jeu, Migration Onirique gagne Renfort. Sinon, effectuez un test [willpower] (3). En cas d'échec, vous devez choisir l'une des options suivantes :\n- L'ennemi le plus proche se déplace dans votre lieu et effectue immédiatement une attaque.\n- Piochez l'ennemi du dessus de la pile Rencontre.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11735",
+        "name": "Chasse Sous-Marine",
+        "text": "<b>Révélation</b> - Effectuez un test [agility] (3). Augmentez de 2 la difficulté de ce test si votre lieu est complètement inondé. En cas d'échec, subissez 1 dégât et augmentez le niveau d'inondation du lieu éligible le plus proche.",
+        "traits": "Manigance."
+    },
+    {
+        "code": "11736",
+        "name": "Lame de Fond Mortelle",
+        "text": "<b>Révélation</b> - Si votre lieu est pas inondé, Lame de Fond Mortelle gagne Renfort. Sinon, vous devez choisir une option :\n- Effectuez un test [agility] (4) pour nager là où vous serez en sécuritéy. En cas de réussite, déplacez-vous vers un lieu connexe. En cas d'échec, subissez 1 dégât et 1 horreur.\n- Effectuez un test [combat] (4) pour tenir votre position. En cas d'échec, subissez 1 dégât et défaussez 1 soutien que vous contrôlez qui occupe au moins 1 emplacement.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11737",
+        "flavor": "\"Je ne peux songer à la haute mer sans revoir, en frémissant, ces êtres sans nom qui nagent et pataugent dans leur lit de vase...\" - H.P. Lovecraft, \"Dagon\"",
+        "name": "Quelque Chose Dans l'Eau",
+        "text": "Renfort.\n<b>Révélation</b> - Augmentez le niveau d'inondation du lieu éligible le plus proche.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11738",
+        "name": "Silence Inquiétant",
+        "text": "<b>Révélation</b> - Mettez en jeu Silence Inquiétant dans votre zone de menace.\nEn tant que coût supplémentaire pour jouer une carte, vous devez soit dépensez 1 ressource soit subir 1 horreur.\n[action]: Effectuez un test [agility] (3). Si votre lieu n'est pas inondé, ce test est automatiquement réussi. En cas de réussite, défaussez Silence Inquiétant.",
+        "traits": "Terreur."
+    },
+    {
+        "code": "11739",
+        "flavor": "\"... il avait fait un rêve comme il n'en avait encore jamais fait, avec des cités cyclopéennes, faites de blocs de pierre titanesques et de monolithes qui s'élançaient vers le ciel.\" - H.P. Lovecraft, \"L'Appel de Cthulhu\"",
+        "name": "Architecture Cyclopéenne",
+        "text": "<b>Révélation</b> - Effectuez un test [intellect] (X), X étant la valeur occulte imprimée de votre lieu. En cas d'échec, pour chaque point manquant, choisissez et défaussez 1 carte de votre main (jusqu'à un maximum de 3).",
+        "traits": "Terreur."
+    },
+    {
+        "code": "11740",
+        "flavor": "\"Il avait précisé que la géométrie du lieu de rêve qu'il avait aperçu était anormale, non euclidienne, et qu'elle évoquait de façon abominable des sphères et des dimensions distinctes des nôtres.\" - H.P. Lovecraft, \"L'Appel de Cthulhu\"",
+        "name": "Édifice Croulant",
+        "text": "<b>Révélation</b> - Effectuez un test [agility] (X), X étant la valeur occulte imprimée de votre lieue. En cas d'échec, subissez 2 dégât.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11741",
+        "flavor": " [tdc_rune_m][tdc_rune_f] · [tdc_rune_b][tdc_rune_m][tdc_rune_l] · [tdc_rune_b][tdc_rune_x][tdc_rune_n][tdc_rune_l][tdc_rune_k] · [tdc_rune_d][tdc_rune_c] · [tdc_rune_s][tdc_rune_p][tdc_rune_h][tdc_rune_k][tdc_rune_b] · [tdc_rune_z][tdc_rune_k][tdc_rune_d][tdc_rune_z] · [tdc_rune_u][tdc_rune_c][tdc_rune_b][tdc_rune_n][tdc_rune_p][tdc_rune_b][tdc_rune_n] · [tdc_rune_g][tdc_rune_d][tdc_rune_m][tdc_rune_c][tdc_rune_l] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_e]",
+        "name": "\"Cthulhu fhtagn!\"",
+        "text": "<b>Révélation</b> - Effectuez un test [combat] (3). En cas d'échec, vous devez soit subir 2 horreur, soit infliger 1 dégât direct à un investigateur dans votre lieu.",
+        "traits": "Pouvoir."
+    },
+    {
+        "code": "11742",
+        "flavor": "\"J'ai jeté les yeux sur tout ce que l'univers peut contenir d'horreur et tant les cieux du printemps que les fleurs de l'été ne sauront après cela être qu'empoisonnés pour moi.\" - H.P. Lovecraft, \"L'Appel de Cthulhu\"",
+        "name": "Influence Oppressante",
+        "text": "<b>Révélation</b> - Effectuez un test [willpower] (X), X étant la valeur occulte imprimée de votre lieu. En cas d'échec, subissez 2 horreur.",
+        "traits": "Pouvoir."
+    },
+    {
+        "code": "11743",
+        "name": "Domination",
+        "text": "Péril.\n<b>Révélation</b> - Vous devez décider (choisir une option):\n- Placez 1 fatalité sur l'Intrigue en cours. Cet effet peut faire avancer l'Intrigue en cours.\n- Chaque investigateur défausse 2 cartes de sa hand.\n- Chaque investigateur perd 1 action.",
+        "traits": "Pouvoir."
+    },
+    {
+        "code": "11744",
+        "name": "L'Inéluctable",
+        "subname": "Poursuiteur Implacable",
+        "text": "Chasseur. Infatigable.\n<b>Génération</b> - N'importe quel lieu connexe (vide, si possible).\n<b>Forcé</b> - La première fois à chaque round qu'un pion [elder_thing] esta révélé de la réserve du Chaos : redressez L'Inéluctable et résolvez son mot-clé Chasseur <i>(iil n'attaque pas)</i>.",
+        "traits": "Monstre. Larve Stellaire. Élite."
+    },
+    {
+        "code": "11745",
+        "name": "Toujours Derrière Vous",
+        "text": "<b>Révélation</b> - Effectuez un test [agility] (2). Augmentez de 1 la difficulté de ce test pour chaque exemplaire de Toujours Derrière Vous dans la pile de victoire. En cas d'échec et que L'Inéluctable...\n- ... est en jeu, il se déplace, un lieu à la fois, jusqu'à votre lieu et vous engage.\n- ... n'est pas n jeu, cherchez L'Inéluctable dans les zones en jeu et hors jeu et piochez-le. Ajoutez Toujours Derrière Vous à la pile de victoire.",
+        "traits": "Manigance."
+    },
+    {
+        "code": "11746",
+        "flavor": "Un chasseur parfaitement adapté aux profondeurs obscures.",
+        "name": "Esclave Profond",
+        "text": "<b>Forcé</b> - Après que l'Esclave Profond vous a engagé : défaussez 1 carte prise au hasard dans votre main.",
+        "traits": "Humanoïde. Monstre. Profond."
+    },
+    {
+        "code": "11747",
+        "name": "Vieux Profond",
+        "text": "Chasseur. Riposte.\nChaque autre ennemi [[Profond]] gagne Infatigable.\n<b>Forcé</b> - Après que le Vieux Profond vous a engagé : soignez 1 dégât de chaque autre ennemi [[Profond]] en jeu.",
+        "traits": "Humanoïde. Monstre. Profond."
+    },
+    {
+        "code": "11748",
+        "flavor": "\"Faites bien attention. Nous n'avons aucune idée de ce qui rôde dans les ombres.\"",
+        "name": "Embuscade des Profonds",
+        "text": "<b>Révélation</b> - Mettez en jeu Embuscade des Profonds dans votre zone de menace. Limite de 1 par investigateur.\n<b>Forcé</b> - Après qu'un ennemi [[Profond]] vous a engagé : il vous attaque. Ensuite, défaussez Embuscade des Profonds.",
+        "traits": "Manigance."
+    },
+    {
+        "code": "11749",
+        "flavor": "[tdc_rune_g][tdc_rune_b][tdc_rune_d][tdc_rune_c] · [tdc_rune_z][tdc_rune_x] · [tdc_rune_h][tdc_rune_x][tdc_rune_n] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o] · [tdc_rune_m][tdc_rune_f] · [tdc_rune_h][tdc_rune_x][tdc_rune_n][tdc_rune_s] · [tdc_rune_l][tdc_rune_o][tdc_rune_d][tdc_rune_p][tdc_rune_p] · [tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_z]",
+        "name": "Visions Torturées",
+        "text": "<b>Révélation</b> - Effectuez un test [willpower] (3). Augmentez de 2 la difficulté de ce test si vous avez 3 cartes en main ou moins. En cas d'échec, subissez 1 horreur directe et défaussez 1 carte prise au hasard de votre main.",
+        "traits": "Terreur."
+    },
+    {
+        "code": "11750",
+        "name": "Attiré par les Ténèbres",
+        "text": "<b>Révélation</b> - Mettez en jeu Attiré par les Ténèbres dans votre zone de menace. Limite de 1 par investigateur.\nVotre taille de main maximum est réduite de 3 (jusqu'à un minimum de 1).\n<b>Forcé</b> - À la fin de votre tour, si vous n'avez pas de cartes en main : défaussez Attiré par les Ténèbres.",
+        "traits": "Pouvoir."
+    },
+    {
+        "code": "11751",
+        "name": "Construction Persistante",
+        "text": "Chasseur.\n<b>Proie</b> - Investigateur le plus proche ayant un soutien [[Artéfact]].\n<b>Forcé</b> - Quand you vainquez cet ennemi : générez chaque autre Construction Persistante de la pile de victoire, inclinée, dans votre lieu.",
+        "traits": "Construction."
+    },
+    {
+        "code": "11752",
+        "name": "Machinerie Infernale",
+        "text": "<b>Révélation</b> - Mettez en jeu Machinerie Infernale en jeu dans votre zone de menace.\nVous ne pouvez pas déclencher les capacités sur des cartes [[Glyphe]] ou [[Artéfact]].\n[action]: Effectuez un test [intellect] ou [agility] (4). En cas de réussite, défaussez Machinerie Infernale.",
+        "traits": "Risque."
+    },
+    {
+        "code": "11753a",
+        "name": "On n'Est Bien que Chez Soi",
+        "subname": "Perdu et Hésitant",
+        "text": "Permanent. Utilisations (8 découvertes).\n<b>Forcé</b> - Quand vous révélez un lieu : retirez 1 découverte de On n'Est Bien que Chez Soi.\n<b>Forcé</b> - Quand la partie se termine, s'il y a 1 [per_investigateur] découverte ou moins sur On n'Est Bien que Chez Soi : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11753b",
+        "name": "On n'Est Bien que Chez Soi",
+        "subname": "Là où est Votre Cœur",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous avez le droit d'effectuer un action supplémentaire lors de votre tour, que vous pouvez seulement utiliser pour vous déplacer.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11754a",
+        "name": "Marcher Dans la Foi",
+        "subname": "Dévotion Aveugle",
+        "text": "Permanent. Utilisations (0 signe).\n[reaction] Après qu'un pion [elder_sign] a été révélé dans n'importe quel lieu lieu : placez 1 signe sur Marcher Dans la Foi.\n<b>Forcé</b> - Quand la partie se termine, s'il y a plus de 1 [per_investigateur] signe sur Marcher Dans la Foi : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11754b",
+        "name": "Marcher Dans la Foi",
+        "subname": "Investi du Saint Esprit",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous gagnez +1 [willpower].\n[reaction] Après qu'un pion [elder_sign] a été révélé dans n'importe quel lieu lieu : soignez 1 horreur d'un investigateur dans ce lieu.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11755a",
+        "name": "Rentrer dans le rang",
+        "subname": "Désavoué et Déshonoré",
+        "text": "Permanent.\n<b>Forcé</b> - Quand vous subissez au moins 1 dégât : placez également 1 dégât sur Rentrer dans le rang.\n<b>Forcé</b> - Quand la partie se termine, si la quantité de dégâts sur cette carte est supérieure ou égale à votre maximum de vie : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11755b",
+        "name": "Rentrer dans le rang",
+        "subname": "Réinvesti et Résolu",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous gagnez +1 [combat] et +2 à votre maximum de vie.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11756a",
+        "name": "Une Somme Inespérée",
+        "subname": "La Partie \"Quid\"",
+        "text": "Permanent.\n[reaction] Quand vous gagnez 1 ou plusieurs ressources : placez 1 de ces ressources sur Une Somme Inespérée.\n<b>Forcé</b> - Quand la partie se termine, s'il y au moins 5 ressources sur Une Somme Inespérée : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11756b",
+        "name": "Une Somme Inespérée",
+        "subname": "La Partie \"Quo\"",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous commencez la partie avec 5 ressources supplémentaires.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11757a",
+        "name": "Prouvez Votre Valeur",
+        "subname": "Êtes-Vous un Fardeau pour les Autres ?",
+        "text": "Permanent. Utilisations (4 chances).\n<b>Forcé</b> - Après avoir échoué à un test de compétence par 2 ou plus : retirez 1 chance de Prouvez Votre Valeur.\n<b>Forcé</b> - Quand la partie se termine, s'il y a au moins 1 chance sur Prouvez Votre Valeur : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11757b",
+        "name": "Prouvez Votre Valeur",
+        "subname": "Besoin de Personne",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nUtilisations (3 chances).\n[reaction] Quand un pion non-[auto_fail] a été révélé lors d'un test de compétence dans votre lieu, dépensez 1 chance : annulez ce pion.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11758a",
+        "name": "Ne Pas Nuire",
+        "subname": "Pouvez-vous les Sauver ?",
+        "text": "Permanent. Utilisations (5 obligations).\n[reaction] Après que vous avez soigné des dégâts/horreurs d'un investigateur ou d'un soutien [[Allié]] : retirez 1 obligation de Ne Pas Nuire.\n<b>Forcé</b> - Quand la partie se termine, s'il n'y a pas d'obligations sur Ne Pas Nuire : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11758b",
+        "name": "Ne Pas Nuire",
+        "subname": "Soutien fiable",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous gagnez +1 [agility].\n[reaction] Après que vous avez soigné des dégâts/horreurs d'un investigateur ou d'un soutien [[Allié]], inclinez Ne Pas Nuire : gagnez 1 ressource.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11759a",
+        "name": "Rêves de Destruction",
+        "subname": "Visions d'un Futur Sombre",
+        "text": "Permanent.\n<b>Forcé</b> - Quand vous subissez au moins 1 horreur : placez également 1 horreur sur Rêves de Destruction.\n<b>Forcé</b> - Quand la partie se termine, su la quantité d'horreur sur cette carte est supérieure ou égale à votre maximum de santé mentale : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11759b",
+        "name": "Rêve de Destruction",
+        "subname": "Le Futur n'est pas Écrit",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous avez 1 emplacement d'arcane supplémentaire et gagnez +2 à votre maximum de santé mentale.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11760a",
+        "name": "Sonder les Profondeurs",
+        "subname": "Recherche Compulsive",
+        "text": "Permanent. Utilisations (5 obsessions).\n<b>Forcé</b> - Après que vous avez découvert le dernier indice dans votre lieu : retirez 1 obsession de Sonder les Profondeurs.\n<b>Forcé</b> - Quand la partie se termine, s'il n'y a pas d'obsessions sur Sonder les Profondeurs : dans votre Carnet de Campagne, cochez 1 progression sous cette Tâche.",
+        "traits": "Tâche. Inachevé."
+    },
+    {
+        "code": "11760b",
+        "name": "Sonder les Profondeurs",
+        "subname": "Perspicacité Extrême",
+        "text": "Permanent. À moins que cette Tâche n'ait été achevée, elle entre en jeu, face Faiblesse visible.\nVous gagnez +1 [intellect].\n[reaction] Après que vous avez découvert le dernier indice dans votre lieu, inclinez Sonder les Profondeurs : piochez 1 carte.",
+        "traits": "Tâche. Achevé."
+    },
+    {
+        "code": "11761",
+        "name": "Équipement de Voyage",
+        "subname": "Lourd mais Fiable",
+        "text": "Utilisations (3 provisions).\n[action] Dépensez 1 provision : soignez 1 dégât d'un investigateur dans votre lieu.\n[fast] Retirez l'Équipement de Voyage de la partie : déplacez un ennemi non-[[Élite]] de votre lieu ou d'un lieu connexe une fois dans n'importe quelle direction.",
+        "traits": "Objet. Provision."
+    },
+    {
+        "code": "11762",
+        "name": "Laudanum",
+        "subname": "Mesures Désespérées",
+        "text": "Utilisations (3 provisions).\n[action] Dépensez 1 provision : soignez 1 horreur d'un investigateur dans votre lieu.\n[reaction] Quand vous piochez une traîtrise non-faiblesse [[Pouvoir]] ou [[Terreur]], retirez Laudanum de la partie : annulez l'effet révélation de cette traîtrise et défaussez-la.",
+        "traits": "Objet. Provision."
+    },
+    {
+        "code": "11763",
+        "name": "Tablette Extraterrestre",
+        "subname": "Inscriptions Préhistoriques",
+        "text": "Utilisations (4 secrets).\n[fast] Lors d'un test de compétence sur une carte [[Glyphe]] ou [[R'lyeh]], inclinez Tablette Extraterrestre et dépensez 1 secret : l'investigateur qui effectue le test gagne +2 à sa valeur de compétence pour ce test.",
+        "traits": "Objet. Relique. R'lyeh."
+    },
+    {
+        "code": "11764",
+        "name": "Scaphandre",
+        "text": "Si votre lieu est complètement inondé, vous avez le droit de le traiter comme s'il était partiellement inondé pour ce qui concerne les effets de carte.\n<b>Forcé</b> - Quand n'importe quelle quantité de dégâts est censée être placée sur vous : placez 1 de ces dégâts sur le Scaphandre.",
+        "traits": "Objet. Armure."
+    },
+    {
+        "code": "11765",
+        "flavor": "\"La vie est un grand jeu, et j'ai l'intention de gagner la partie.\"",
+        "name": "Ruby Standish",
+        "subname": "Voleuse Experte",
+        "text": "Vous gagnez +1 [agility].\n[fast] S'il n'y a pas d'ennemis redressés dans votre lieu, inclinez Ruby Standish : déplacez-vous vers  un lieu connexe.",
+        "traits": "Allié. Criminel.",
+        "slot": "Ally"
+    },
+    {
+        "code": "11766",
+        "flavor": "\"Je pensais que cette histoire prendrait une toute autre direction.\"",
+        "name": "Andy Van Nortwick",
+        "subname": "Journaliste Ambitieux",
+        "text": "Vous gagnez +1 [intellect].\nSi votre lieu ne contient pas d'indice, ignorer la première attaque d'opportunité effectuée contre vous à chaque round.",
+        "traits": "Allié. Reporter.",
+        "slot": "Ally"
+    }
+]
