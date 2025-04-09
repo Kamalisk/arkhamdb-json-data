@@ -125,7 +125,7 @@
     },
     {
         "back_name": "The Sphere",
-        "back_text": "<b>If an investigators controls the Barrier Node:</b>\n<blockquote><i>The strange orb sends a ripple of energy throughout the orrery and the surrounding dome. By pulling the node free, you have stolen the only thing powering the dome. A tremor shakes the structure as the energy field up above begins to dissipate!</i></blockquote>\n<b>(→R1)</b> <i>(page 18)</i>.\n<hr><b>Otherwise:</b>\n<blockquote><i>The alien machinery hums with an otherworldly current. Overhead, a massive chunk of rock falls from the foundation and passes through the flickering energy field. The structure seems to have been stabilized.</i></blockquote>\n<b>(→R2)</b> <i>(page 18)</i>",
+        "back_text": "<b>If an investigator controls the Barrier Node:</b>\n<blockquote><i>The strange orb sends a ripple of energy throughout the orrery and the surrounding dome. By pulling the node free, you have stolen the only thing powering the dome. A tremor shakes the structure as the energy field up above begins to dissipate!</i></blockquote>\n<b>(→R1)</b> <i>(page 18)</i>.\n<hr><b>Otherwise:</b>\n<blockquote><i>The alien machinery hums with an otherworldly current. Overhead, a massive chunk of rock falls from the foundation and passes through the flickering energy field. The structure seems to have been stabilized.</i></blockquote>\n<b>(→R2)</b> <i>(page 18)</i>",
         "clues": null,
         "code": "11539",
         "double_sided": true,
@@ -357,9 +357,39 @@
         "type_code": "location",
         "victory": 1
     },
-
-    // TODO UNDERSEA PARASITE 11549
-
+    {
+        "back_link": "11549b",
+        "code": "11549",
+        "encounter_code": "the_drowned_quarter",
+        "encounter_position": 16,
+        "enemy_damage": 1,
+        "enemy_evade": 5,
+        "enemy_fight": 5,
+        "faction_code": "mythos",
+        "health": 1,
+        "illustrator": "Carlos Palma Cruchaga",
+        "name": "Undersea Parasite [tdc_rune_x]",
+        "pack_code": "tdcc",
+        "position": 49,
+        "quantity": 1,
+        "text": "Aloof. Retaliate.\n<b>Forced</b> - After Undersea Parasite [tdc_rune_x] attacks you: Flip this card and resolve its text.\n<b>Forced</b> - When Undersea Parasite [tdc_rune_x] would leave play: Flip this card and resolve its text.",
+        "traits": "Monster. Glyph. Elite.",
+        "type_code": "enemy"
+    },
+    {
+        "code": "11549b",
+        "encounter_code": "the_drowned_quarter",
+        "encounter_position": 16,
+        "faction_code": "mythos",
+        "hidden": true,
+        "name": "Undersea Parasite [tdc_rune_x]",
+        "pack_code": "tdcc",
+        "position": 49,
+        "quantity": 1,
+        "text": "<b>If this card flipped because Undersea Parasite [tdc_rune_x] attacked you, read the following:</b>\n<blockquote><i>The creature's bite burns like fire. Before you can react, it has vanished into a maze of coral.</i></blockquote>\nFlip this card and move it to a connecting location (with no investigators, if able).\n<b>Otherwise:</b>\n<blockquote><i>After crushing the loathsome creature's carapace, you catch a glint of something. An alien symbol?.</i></blockquote>\nYou discover this glyph:\n[tdc_rune_x]\nIn your Campaign Log, record \"Sum\" under [tdc_rune_x] on the glyph record. This glyph has been translated.\nAdd this card to the victory display.",
+        "type_code": "story",
+        "victory": 1
+    },
     {
         "code": "11550",
         "cost": null,
