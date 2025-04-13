@@ -7,7 +7,7 @@
             "type": "string"
         },
         "back_flavor": {
-            "description": "Flavor text on the back of `double_sided` cards.",
+            "description": "Flavor text on the back of `double_sided` cards. Only use this if the flavor is different from the front.",
             "minLength": 1,
             "type": "string"
         },
@@ -22,17 +22,17 @@
             "type": "string"
         },
         "back_name": {
-            "description": "Name on the back of `double_sided` cards.",
+            "description": "Name on the back of `double_sided` cards. Only use this if the back name is different from the front.",
             "minLength": 1,
             "type": "string"
         },
         "back_text": {
-            "description": "Text on the back of `double_sided` cards.",
+            "description": "Text on the back of `double_sided` cards. Only use this if the back text is different from the front.",
             "minLength": 1,
             "type": "string"
         },
         "back_traits": {
-            "description": "Traits on the back of `double_sided` cards.",
+            "description": "Traits on the back of `double_sided` cards. Only use this if the back traits are different from the front.",
             "minLength": 1,
             "type": "string"
         },
@@ -155,7 +155,7 @@
             "type": "string"
         },
         "encounter_position": {
-            "description": "Position of the card in the encounter set.",
+            "description": "Position of the card in the encounter set. Use the first value for cards that occupy multiple positions in an encounter set.",
             "minimum": 1,
             "type": "integer"
         },
@@ -413,7 +413,7 @@
             "type": "integer"
         },
         "slot": {
-            "description": "Slot of an asset. Can be omitted for assets that don't have a slot.",
+            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `"Accessory"`, `"Ally"`, `"Arcane"`, `"Arcane x2"`, `"Body"`, `"Hand"`, `"Hand x2"`. For a card occupying multiple slots, separate slots with a `.`.",
             "minLength": 1,
             "type": "string"
         },
@@ -443,7 +443,7 @@
             "type": "string"
         },
         "traits": {
-            "description": "Traits on the card.",
+            "description": "Traits on the card. Traits should include the period.",
             "minLength": 0,
             "type": "string"
         },
