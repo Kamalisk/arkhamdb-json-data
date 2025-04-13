@@ -1,23 +1,895 @@
 [
     {
+        "code": "11001",
+        "flavor": "« Les gens ont besoin que je fasse mon travail. Quelques poissons un peu bizarres ne changeront rien à cela. »",
+        "name": "Marion Tavares",
+        "subname": "La Chalutière",
+        "text": "Vous avez 1 emplacement de main de moins.\n[reaction] Après que vous avez joué un événement lors de votre tour : piochez 1 carte. Ensuite, vous avez le droit de jouer un événement différent. (Limite d'une fois par round.)\n [elder_sign] : +1. Cherchez un événement parmi les 3 cartes du dessus de votre deck et piochez-le. Mélangez votre deck.",
+        "traits": "Vagabond. Entrepreneur.",
+        "back_flavor": "Après le décès de son père, Marion quitta Narragansett Bay pour déménager à Arkham. Avec son amie Annalise Taylor, elle acheta un bateau et les deux femmes trouvèrent une nouvelle famille au sein de la communauté des pêcheurs. Par une nuit d'orage, alors qu'elles étaient en mer, Annalise fut happée par-dessus bord par une étrange créature ressemblant à un poisson. Marion plongea pour sauver Annalise des mâchoires du monstre, en y sacrifiant son bras droit. Depuis lors, elle scrute les eaux agitées de l'Atlantique, à l'affût des étranges créatures qui se dissimulent dans les profondeurs.",
+        "back_text": "<b>Taille du Deck</b>: 30.\n<b>Choix des [[Traits]]</b> : à la création le deck, choisissez un des traits suivants : [[Chance]], [[Stratagème]] ou [[Improvisé]].\n<b>Construction du Deck</b> : cartes Gardien ([guardian]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, événements ayant le [[Trait]] choisi de niveaux 0 à 2, jusqu'à 5 autres cartes Survivant ([survivor]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : 2 exemplaires de Déterminée, « Je le Ferai Moi-Même », 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11002",
+        "name": "Déterminée",
+        "text": "Deck de Marion Tavares uniquement.\nSi ce test de compétence est réussi et qu'il est sur un événement que vous avez joué, vous avez le droit de renvoyer Déterminée dans votre main au lieu de la défausser.",
+        "traits": "Inné."
+    },
+    {
+        "code": "11003",
+        "name": "« Je le Ferai Moi-Même »",
+        "text": "<b>Révélation</b> – Mettez en jeu « Je le Ferai Moi-Même » dans votre zone de menace.\nEn tant que coût supplémentaire pour jouer un événement, subissez 1 horreur.\n[free] Défaussez 3 événements de votre main : défaussez « Je le Ferai Moi-Même ».",
+        "traits": "Défaut."
+    },
+    {
+        "code": "11004",
+        "flavor": "« Par bonheur, aucun de mes rêves ne s'est échappé de ma tête. »",
+        "name": "Lucius Galloway",
+        "subname": "Le Poète",
+        "text": "[reaction] Après que vous avez échappé avec succès à un ennemi avec une différence de 2 ou plus : découvrez 1 indice dans votre lieu. (Limite d'une fois par round.)\n[elder_sign] : +1 pour chaque ennemi dans votre lieu.",
+        "traits": "Érudit. Rêveur.",
+        "back_flavor": "Originaire du sud, mais élevé à New York, Lucius a accédé à la notoriété en écrivant de la poésie onirique tout en fréquentant les intellectuels, les artistes et les musiciens de Harlem. Cependant, ses contemporains ignorent que l'étrange cité engloutie que Lucius décrit n'est pas inspirée par New York, mais par les cauchemars de Rudi, son compagnon aujourd'hui disparu. Avant sa disparition, Rudi avait évoqué une société secrète composée de rêveurs tels que lui se réunissant à Arkham pour partager leurs déconcertantes visions. Aujourd'hui, Lucius a accepté un poste d'enseignant temporaire à l'Université Miskatonic tout en recherchant son amant disparu. Peut-être trouvera-t-il également la source des rêves horribles qui hantent ses propres nuits...",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Chercheur ([seeker]) de niveaux 0 à 5, cartes Truand ([rogue]) de niveaux 0 à 2, cartes neutres de niveaux 0 à 5.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Livre des Strophes, Rêves d'Inondation, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11005",
+        "name": "Livre des Strophes",
+        "subname": "Livre Insolite",
+        "text": "Deck de Lucius Galloway uniquement.\nUtilisations (1 inspiration). Reconstituez cette inspiration la première fois que vous découvrez un indice à chaque round.\n[reaction] Après avoir révélé des pions Chaos lors d'un test de compétence, dépensez 1 inspiration : vous gagnez +1 à votre valeur de compétence pour ce test de compétence. En cas de réussite avec un écart exact de 0, piochez 1 carte.",
+        "traits": "Objet. Livre."
+    },
+    {
+        "code": "11006",
+        "name": "Rêves d'Inondation",
+        "text": "<b>Révélation</b> – Mettez en jeu Rêves d'Inondation dans votre zone de menace.\n<b>Forcé</b> – La première fois que vous découvrez 1 ou plusieurs indices lors de votre tour : subissez 1 horreur et mélangez Rêves d'Inondation dans votre deck.",
+        "traits": "Présage. Fin des Temps."
+    },
+    {
+        "code": "11007",
+        "name": "Agatha Crane",
+        "subname": "La Parapsychologue",
+        "text": "[reaction] Quand votre tour se termine, si vous avez scellé, annulé ou ignoré au moins 1 pion Chaos à ce round : jouez un événement [[Sort]] ou [[Perspicacité]] depuis votre pile de défausse. Après la résolution de cet événement, retirez-le de la partie.\n[elder_sign] : +2. Vous avez le droit d'annuler ce pion et d'en piocher un autre à la place. Si vous le faites, piochez 1 carte.",
+        "traits": "Miskatonic. Érudit.",
+        "back_flavor": "Diplômée en psychologie et en mathématiques, Agatha Crane a toujours privilégié la pratique des sciences en s'appuyant sur les faits. Dans sa jeunesse, Agatha s'intéressait peu aux histoires de fantômes jusqu'à ce que, les preuves s'accumulant, elle fut obligée de reconnaître l'implacable vérité derrière les contes qui parlaient de monstres et de magie à Arkham. Si ces choses sont réelles, alors elles doivent être régies par des règles immuables. Comme elle aime l'expliquer à quiconque lui en donne l'occasion, et son mari Wilbur en sait quelque chose, ce nouveau champ de recherche s'appelle la « parapsychologie ». Grâce à des méthodes scientifiques éprouvées, Agatha cherche à créer des ponts entre le mystique et le rationnel, entre l'occultisme et la science.",
+        "back_text": "<b>Taille du Deck</b> : 35.\n<b>Construction du Deck</b> : cartes Chercheur ([seeker]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, événements [[Perspicacité]] de niveaux 0 à 3, jusqu'à 10 autres cartes Mystique ([mystic]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Ocula Obscura, Discerner le Vide, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11008",
+        "name": "Agatha Crane",
+        "subname": "La Parapsychologue",
+        "text": "[reaction] Quand votre tour se termine, si vous avez scellé, annulé ou ignoré au moins 1 pion Chaos à ce round : jouez un événement [[Sort]] ou [[Perspicacité]] depuis votre pile de défausse. Après la résolution de cet événement, retirez-le de la partie.\n[elder_sign] : +2. Vous avez le droit d'annuler ce pion et d'en piocher un autre à la place. Si vous le faites, piochez 1 carte.",
+        "traits": "Miskatonic. Érudit.",
+        "back_flavor": "Diplômée en psychologie et en mathématiques, Agatha Crane a toujours privilégié la pratique des sciences en s'appuyant sur les faits. Dans sa jeunesse, Agatha s'intéressait peu aux histoires de fantômes jusqu'à ce que, les preuves s'accumulant, elle fut obligée de reconnaître l'implacable vérité derrière les contes qui parlaient de monstres et de magie à Arkham. Si ces choses sont réelles, alors elles doivent être régies par des règles immuables. Comme elle aime l'expliquer à quiconque lui en donne l'occasion, et son mari Wilbur en sait quelque chose, ce nouveau champ de recherche s'appelle la « parapsychologie ». Grâce à des méthodes scientifiques éprouvées, Agatha cherche à créer des ponts entre le mystique et le rationnel, entre l'occultisme et la science.",
+        "back_text": "<b>Taille du Deck</b> : 35.\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, événements [[Sort]] de niveaux 0 à 3, jusqu'à 10 autres cartes Chercheur ([seeker]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Ocula Obscura, Discerner le Vide, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11009",
+        "name": "Ocula Obscura",
+        "subname": "Monocle Ésotérique",
+        "text": "Deck d'Agatha Crane uniquement.\n[reaction] Après que vous avez réussi un test de compétence, si aucun pion n'est scellé ici : scellez sur Ocula Obscura un pion non-symbole révélé lors de ce test de compétence. (Limite d'une fois par phase.)\n<b>Forcé</b> – Quand vous devriez révéler un pion de la réserve du Chaos : résolvez le pion qui est scellé sur Ocula Obscura à la place. Ensuite, libérez ce pion.",
+        "traits": "Objet. Outil. Science.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11010",
+        "name": "Discerner le Vide",
+        "text": "<b>Révélation</b> – Mettez en jeu Discerner le Vide dans votre zone de menace.\nLa première fois que vous révélez 1 ou plusieurs pions Chaos lors de chaque test de compétence, vous devez révéler 1 pion Chaos supplémentaire <i>(et résoudre ses effets)</i>.\n[action] : mélangez Discerner le Vide dans votre deck.",
+        "traits": "Bévue. Perspicacité."
+    },
+    {
+        "code": "11011",
+        "flavor": "« Dieu ou pas dieu j'm'en cogne. Si je l'croise, je lui fais sa fête. »",
+        "name": "Michael McGlen",
+        "subname": "Le Gangster",
+        "text": "[reaction] Après que vous avez dépensé au moins 1 munition d'un soutien [[Arme à feu]] : gagnez 1 ressource. (Limite d'une fois par round par soutien [[Arme à feu]].)\n[elder_sign] : +2. Vous avez le droit de placer 1 munition sur un soutien [[Arme à feu]] que vous contrôlez.",
+        "traits": "Criminel. Chasseur.",
+        "back_flavor": "Michael McGlen était un homme laconique. Il ne ressentait pas de besoin impérieux de parler : il avait Louis le Vif pour cela. À eux deux, ils étaient les meilleures recrues de O'Bannion, et ils s'assuraient que le gang était respecté partout dans Arkham... jusqu'à cette nuit où la chose de la rivière attrapa Louis sur les docks avant de le tailler en pièce sous la surface. Michael avait craint que ses chefs le prennent pour un fou en leur racontant la scène, mais la vérité fut bien pire : tous le crurent et l'invitèrent à ne plus y penser. Mais Michael ne peut pas se résoudre à laisser la mort de son partenaire impunie, pas plus que les choses dont il fut témoin cette nuit-là. Il est toujours du genre taiseux. Mais maintenant, il laisse son flingue parler à sa place.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Construction du Deck</b> : cartes Truand ([rogue]) de niveaux 0 à 3, cartes neutres de niveaux 0 à 5, cartes de niveaux 0 à 5 ayant le terme « [[Arme à feu]] » en tant que [[Trait]] ou indiqué dans leur boîte de texte.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Étui à « Violon », Confiscation, 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11012",
+        "name": "Étui à « Violon »",
+        "text": "Deck de Michael McGlen uniquement.\nVous avez 2 emplacements de main supplémentaires qui ne peuvent être utilisés que pour contenir des soutiens [[Arme à feu]].\n[reaction] Après avoir joué l'Étui à « Violon » : cherchez un soutien [[Arme à feu]] parmi les 9 cartes du dessus votre deck et ajoutez-le à votre main. Mélangez votre deck.",
+        "traits": "Objet. Illicite."
+    },
+    {
+        "code": "11013",
+        "flavor": "« Vous, euh... partez à la chasse M. McGlen ? »",
+        "name": "Confiscation",
+        "text": "<b>Révélation</b> – Mélangez dans votre deck chaque soutien [[Arme à feu]] de votre zone de jeu. Si aucun soutien n'a été mélangé dans votre deck par cet effet, subissez 1 dégât et remélangez Confiscation dans votre deck.",
+        "traits": "Bévue."
+    },
+    {
+        "code": "11014",
+        "name": "Gloria Goldberg",
+        "subname": "L'Écrivaine",
+        "text": "Vous choisissez l'ordre des investigateurs lors de la phase du Mythe.\n[reaction] Quand vous regardez 1 ou plusieurs cartes du deck Rencontre : regardez 1 carte supplémentaire et choisissez 1 carte non-[[Élite]] parmi les cartes consultées. Soit vous défaussez la carte choisie, soit vous la placez au sommet du deck Rencontre, soit vous la placez face cachée sous Gloria Goldberg (Max. 3 cartes sous elle).\n[elder_sign] : +1. Regardez la carte du dessus du deck Rencontre.",
+        "traits": "Clairvoyant.",
+        "back_flavor": "Lorsqu'elle était une petite fille, Gloria était hantée par de terribles visions. Après avoir passé des années à consulter des médecins, elle apprit à exorciser ses cauchemars en écrivant des histoires. Ses récits étranges et troublants réussirent malgré tout à toucher le public et firent d'elle une romancière à succès. Cependant, lorsqu'elle se rendit à Arkham, elle fut saisie de la vision la plus puissante qu'elle ait jamais eue. Le ciel se déchirait pour vomir une forme monstrueuse qui s'écoulait à partir de... rien. Gloria n'aurait su dire pourquoi, mais elle sut que ce cauchemar était prémonitoire et que si elle n'agissait pas, il deviendrait bientôt une réalité.",
+        "back_text": "<b>Taille du Deck</b> : 30.\n<b>Deuxième Classe</b> : lors de la création du deck, choisissez Gardien ([guardian]), Chercheur ([seeker]) ou Truand ([rogue]).\n<b>Construction du Deck</b> : cartes Mystique ([mystic]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 10 événements et/ou compétences de niveaux 0 à 1 de votre deuxième classe.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : 3 exemplaires de Sensibilité Psychique, 3 exemplaires de la Prophétie de la Fin (à mélanger dans le deck Rencontre), 1 faiblesse de base au hasard."
+    },
+    {
+        "code": "11015",
+        "name": "Sensibilité Psychique",
+        "text": "Deck de Gloria Goldberg uniquement.\nRapide. À jouer quand un investigateur dans n'importe quel lieu pioche une carte Rencontre, s'il y a un exemplaire de cette carte Rencontre sous Gloria Goldberg.\nAnnulez tous les effets de cette carte et défaussez ses deux exemplaires. Ensuite, piochez 1 carte.",
+        "traits": "Augure. Perspicacité."
+    },
+    {
+        "code": "11016",
+        "name": "Prophétie de la Fin",
+        "text": "Renfort.\n<b>Forcé</b> – Si Gloria Goldberg utilise sa capacité [reaction] et que cette traîtrise fait partie des cartes consultées, elle doit être choisie et placée face cachée sous Gloria (si vous ne pouvez pas le faire, défaussez d'abord une carte non-faiblesse qui est sous elle). Ensuite, s'il y a 3 exemplaires de cette traîtrise sous elle, elle est vaincue et elle subit 1 traumatisme mental.",
+        "traits": "Présage. Fin des Temps."
+    },
+    {
         "code": "11017",
         "name": "George Barnaby",
-        "subname": "The Lawyer",
-        "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
-        "traits": "Civic. Drifter.",
-        "back_flavor": "After spending a month in jail at the age of 19, George Barnaby felt compelled to become a lawyer. He found great success and notoriety in his career, and as retirement approached he made plans to sail around the world with his wife Maria. On the eve of his retirement, however, his home was attacked and Maria was murdered by cultists. Now, with a lifetime of wealth and contacts at his back, George has tracked the culprits to the city of Arkham, vowing to bring them to justice for their hideous crimes.",
-        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other level 0 Seeker and/or Rogue cards ([seeker]/[rogue]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Grim Resolve, Cast Adrift, 1 random basic weakness.\n<b>Additional Setup</b>: After drawing your opening hand, you may place any number of cards in your hand facedown beneath George Barnaby."
+        "subname": "L'Avocat",
+        "text": "La taille limite de votre main est égale au nombre de cartes face cachée sous George Barnaby. (Limite de 5 cartes.)\nVous avez le droit d'attribuer des cartes face cachée sous George Barnaby à des tests de compétence, comme si elles étaient dans votre main.\n[reaction] Après avoir défaussé une carte de votre main : placez-la face cachée sous George Barnaby. Ensuite, piochez 1 carte. (Limite d'une fois par phase.)\n[elder_sign] : +1. Piochez 1 carte.",
+        "traits": "Municipal. Vagabond.",
+        "back_flavor": "Après avoir passé un mois en prison à l'âge de 19 ans, George Barnaby fut attiré par la profession d'avocat. Sa carrière fut couronnée de succès et il connut une certaine notoriété. Lorsque sa retraite approcha, il nourrit le projet de faire le tour du monde à la voile avec son épouse, Maria. Malheureusement, à la veille de cesser son activité, sa maison fut prise d'assaut par des cultistes et Maria fut assassinée. Aujourd'hui, George met a profit ses moyens financiers et ses contacts pour traquer les coupables jusque dans la ville d'Arkham, afin de les traduire en justice pour les crimes horribles qu'ils ont commis.",
+        "back_text": "<b>Taille du Deck</b> : 35.\n<b>Construction du Deck</b> : cartes Survivant ([survivor]) de niveaux 0 à 5, cartes neutres de niveaux 0 à 5, jusqu'à 10 autres cartes Chercheur et/ou Truand ([seeker]/[rogue]) de niveau 0.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : 3 exemplaires de Volonté de Fer, À la Dérive, 1 faiblesse de base au hasard.\n<b>Mise en Place supplémentaire</b> : après avoir pioché votre main de départ, vous avez le droit de placer n'importe quel nombre de cartes de votre main sous George Barnaby."
     },
     {
         "code": "11018",
-        "name": "Grim Resolve",
-        "text": "George Barnaby deck only.\nAfter this skill test resolves, you may swap any number of cards beneath George Barnaby with the same number of non-weakness cards in your hand.",
-        "traits": "Innate. Developed."
+        "name": "Volonté de Fer",
+        "text": "Deck de George Barnaby uniquement.\nAprès la résolution de ce test de compétence, vous avez le droit d'échanger n'importe quel nombre de cartes sous George Barnaby contre le même nombre de cartes non-faiblesse dans votre main.",
+        "traits": "Inné. Développé."
     },
     {
         "code": "11019",
-        "name": "Cast Adrift",
-        "text": "<b>Revelation</b> - If there are no cards beneath George Barnaby, shuffle Cast Adrift into your deck. Otherwise, discard each card beneath George Barnaby.",
-        "traits": "Hardship."
+        "name": "À la Dérive",
+        "text": "<b>Révélation</b> – S'il n'y a pas de carte sous George Barnaby, mélangez À la Dérive dans votre deck. Sinon, défaussez chaque carte sous George Barnaby.",
+        "traits": "Adversité."
+    },
+    {
+        "code": "11020",
+        "flavor": "« Celui qui veut se battre doit d'abord en compter le prix. »",
+        "name": "Le Livre de la Guerre",
+        "subname": "Héritage de Sun Tzu",
+        "text": "Utilisations (3 secrets).\n[reaction] Après que vous avez joué un événement [[Tactique]], dépensez 1 secret et inclinez Le Livre de la Guerre : quand votre tour se termine, renvoyez cet événement dans votre main.",
+        "traits": "Objet. Livre.",
+        "slot": "Main"
+    },
+    {
+        "code": "11021",
+        "name": "Pied-de-Biche",
+        "text": "[action] Inclinez le Pied-de-Biche : <b>Enquêter</b>.\nCette tentative d'enquête utilise [combat] à la place de [intellect].\n[action] Inclinez le Pied-de-Biche : <b>Combattre</b>.\nVous gagnez +2 [combat] pour cette attaque.",
+        "traits": "Objet. Arme. Outil. Corps-à-corps.",
+        "slot": "Main"
+    },
+    {
+        "code": "11022",
+        "name": "Remington Modèle 1858",
+        "text": "Utilisations (2 munitions).\n[action] Dépensez 1 munition : <b>Combattre</b>. Vous gagnez +1 [combat] pour cette attaque. Cette attaque inflige +1 dégât.\n[reaction] Quand le Remington Modèle 1858 quitte le jeu : déclenchez immédiatement la capacité [action] ci-dessus, en ignorant tous ses coûts.",
+        "traits": "Objet. Arme. Arme à feu.",
+        "slot": "Main"
+    },
+    {
+        "code": "11023",
+        "name": "Prêt à l'Action",
+        "text": "À jouer uniquement lors de votre première action.\nJouez un soutien [[Arme à feu]] de votre main, en réduisant de 2 son coût. Ensuite, vous avez le droit de jouer un événement [[Amélioration]] de votre main, en l'attachant à ce soutien si possible.",
+        "traits": "Tactique. Audacieux."
+    },
+    {
+        "code": "11024",
+        "name": "Prêt à Tout",
+        "text": "À jouer uniquement lors de votre première action.\nPiochez 1 carte (2 cartes à la place si vous avez pioché un ennemi à ce round). Ensuite, soignez 1 horreur. Cette action ne provoque pas d'attaques d'opportunité.",
+        "traits": "Esprit. Audacieux."
+    },
+    {
+        "code": "11025",
+        "flavor": "« Si je dois venir te voir, il va y avoir deux bruits : ma main dans ta gueule, deux fois. »",
+        "name": "Dur à Cuire",
+        "text": "1 max. attribué par test de compétence.\nDur à Cuire gagne [combat] [wild] pour chaque attaque réussie que vous avez effectuée ce round.",
+        "traits": "Inné."
+    },
+    {
+        "code": "11026",
+        "name": "Marque de Chasseur",
+        "text": "Rapide. Attachez cette carte à un ennemi dans votre lieu. Limite de 1 par ennemi.\nLes investigateurs gagnent +1 [combat] tant qu'ils combattent cet ennemi.\n[reaction] Quand des dégâts sont infligés à l'ennemi attaché, défaussez la Marque de Chasseur : infligez 1 dégât supplémentaire à cet ennemi. N'importe quel investigateur a le droit de déclencher cette capacité.",
+        "traits": "Sort."
+    },
+    {
+        "code": "11027",
+        "name": "Alice Luxley",
+        "subname": "Policière Intrépide",
+        "text": "Vous gagnez +1 [intellect].\nLa première action Enquêter que vous effectuez à chaque tour ne provoque pas d'attaques d'opportunité.\n[reaction] Après que vous avez découvert un indice, inclinez Alice Luxley : infligez 1 dégât à un ennemi dans votre lieu.\n<b>Carte conçue par [[the Council-in-Exile]] 2022.</b>",
+        "traits": "Allié. Détective. Police.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11028",
+        "name": "Protection",
+        "text": "Limite de 1 par investigateur. Sceller ([elder_sign] ou +1). Vous avez le droit de résoudre ce mot-clé à nouveau après que vous avez vaincu un ennemi.\n[reaction] Quand un ennemi devrait attaquer un investigateur dans votre lieu, inclinez Protection et libérez un pion scellé ici : annulez cette attaque. Redressez un autre soutien que vous contrôlez.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11029",
+        "flavor": "« Anderson est un dur à cuire, c'est sûr. Toujours à nous empêcher de boire et à nous réveiller dès l'aube. Mais ici, au milieu de nulle part, c'est vraiment lui que je voudrais voir aux commandes. »",
+        "name": "Présence Motivante",
+        "text": "Si ce test de compétence est réussi, redressez un soutien [[Allié]] dans votre lieu et soignez-le de 1 dégât et 1 horreur.",
+        "traits": "Inné. Développé."
+    },
+    {
+        "code": "11030",
+        "flavor": "« On n'est pas à un millimètre près. Une balle reste une balle, elle te touche, elle te tue. »",
+        "name": "Chargé, Prêt à Tirer",
+        "text": "Permanent. Limite de 1 par deck.\nVos soutiens [[Arme à feu]] qui ont « Utilisations (munitions) » entrent en jeu avec 1 munition supplémentaire sur eux.",
+        "traits": "État."
+    },
+    {
+        "code": "11031",
+        "flavor": "Sœur Sofia a gagné le surnom de « main de Dieu » et à forte raison.",
+        "name": "Tir Rapide",
+        "text": "Myriade. Rapide. À jouer uniquement lors de votre tour.\nInfligez 1 dégât à un ennemi dans votre lieu.\n[reaction] Après que vous avez pioché Tir Rapide lors de votre tour : jouez-le, en réduisant de 2 son coût en ressources.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "11032",
+        "name": "Remington Modèle 1858",
+        "text": "Utilisations (3 munitions).\n[action] Dépensez 1 munition : <b>Combattre</b>. Vous gagnez +2 [combat] pour cette attaque. Cette attaque inflige +1 dégât.\n[reaction] Quand le Remington Modèle 1858 entre en jeu ou quitte le jeu : déclenchez immédiatement la capacité [action] ci-dessus, en ignorant tous ses coûts.",
+        "traits": "Objet. Arme. Arme à feu.",
+        "slot": "Main"
+    },
+    {
+        "code": "11033",
+        "name": "Alton O'Connell",
+        "subname": "Chasseur de Fantôme",
+        "text": "Vous gagnez +1 [agility].\n[reaction] Après que vous avez réussi un test de compétence avec un écart exact de 3 : placez 1 ressource sur Alton O'Connell, en tant que preuve.\n[free] Inclinez Alton O'Connell et dépensez X preuves : découvrez 1 indice dans votre lieu. X est la valeur occulte de votre lieu.",
+        "traits": "Allié. Détective. Reporter.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11034",
+        "name": "Inspiration Artistique",
+        "text": "Limite de 1 par investigateur. Utilisations (1 inspiration).\n[free] Inclinez Inspiration Artistique et défaussez 1 carte de votre main : reconstituez 1 inspiration d'Inspiration Artistique.\n[reaction] Après avoir révélé des pions Chaos pour un test de compétence que vous effectuez, dépensez 1 inspiration : vous avez +1 ou –1 à votre valeur de compétence pour ce test de compétence.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11035",
+        "name": "Cadran des Anciens",
+        "subname": "Non-identifié",
+        "text": "Limite de 1 par deck. Utilisations (0 charge).\n[reaction] Après qu'un investigateur a échappé à un ennemi dans votre lieu : placez 1 charge sur le Cadran des Anciens. Ensuite, s'il y a au moins 4 charges sur le Cadran des Anciens, indiquez dans votre Carnet de Campagne que « vous avez calculé la date du Jugement Dernier ».",
+        "traits": "Objet. Relique. Maudit.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11036",
+        "name": "Kit Médico-légal",
+        "text": "Utilisations (4 provisions).\n[action] Dépensez 1 provision : <b>Enquêter</b>. Pour cette enquête, vous avez le droit d'utiliser [agility] à la place de [intellect], et vous gagnez +1 à votre valeur de compétence. En cas de réussite et s'il y a un ennemi incliné dans votre lieu, soignez 1 horreur.",
+        "traits": "Objet. Outil. Science.",
+        "slot": "Main"
+    },
+    {
+        "code": "11037",
+        "name": "Pilon et Mortier",
+        "text": "Utilisations (0 ressource).\nLes ressources sur Pilon et Mortier peuvent être dépensées pour payer des cartes [[Sorts]].\n[reaction] Après que vous avez découvert 1 ou plusieurs indices, inclinez Pilon et Mortier : placez 1 ressource dessus <i>(prise dans la réserve de pions)</i>.",
+        "traits": "Objet. Outil. Science."
+    },
+    {
+        "code": "11038",
+        "name": "Oculus Mortuum",
+        "text": "Utilisations (0 preuve).\n[reaction] Après que vous avez scellé, annulé ou ignoré un pion Chaos, inclinez l'Oculus Mortuum : placez 1 preuve dessus.\n[reaction] Quand un ennemi attaque un investigateur dans votre lieu, dépensez 1 preuve et inclinez l'Oculus Mortuum : découvrez 1 indice dans votre lieu. Si cet ennemi a le trait [[Geist]], infligez-lui 1 dégât.",
+        "traits": "Objet. Outil. Occulte.",
+        "slot": "Main"
+    },
+    {
+        "code": "11039",
+        "name": "Spécimen Surnaturel",
+        "text": "Myriade. Rapide.\nJusqu'à 3 cartes Spécimen Surnaturel n'occupent qu'un seul emplacement d'arcane.\n[reaction] Quand un symbole [skull], [cultist], [tablet] ou [elder_thing] est révélé lors d'un test de compétence dans votre lieu, défaussez Spécimen Surnaturel : annulez ce pion Chaos, renvoyez-le dans la réserve du Chaos et révélez-en un nouveau. Si ce test est réussi, piochez 1 carte.",
+        "traits": "Créature. Science.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11040",
+        "name": "Trouver Toutes les Corrélations",
+        "text": "<b>Enquêter</b>. Vous avez le droit d'annuler le premier pion Chaos révélé pour ce test de compétence, le renvoyer dans la réserve du Chaos, et en révéler un nouveau. En cas de réussite à ce test de compétence, placez 1 charge ou l secret sur un soutien contrôlé par un investigateur dans votre lieu (en cas de réussite avec un écart exact de 1 ou 3, placez 2 charges ou 2 secrets sur ce soutien à la place).",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "11041",
+        "name": "Révélation Cosmique",
+        "text": "Choisissez « pair » ou « impair ».\nChaque investigateur révèle chaque carte non-faiblesse dans sa main dont le coût correspond à l'option choisie. Dans l'ordre des joueurs, chaque investigateur a le droit de choisir entre piocher 1 carte de son deck ou jouer 1 des cartes qu'il a révélées de sa main <i>(en payant son coût)</i>.",
+        "traits": "Perspicacité. Sort."
+    },
+    {
+        "code": "11042",
+        "name": "Vif d'Esprit",
+        "text": "Myriade.\nVif d'Esprit gagne [intellect] [agility] pour chaque autre exemplaire de Vif d'Esprit dans votre pile de défausse.\nAprès la fin de ce test de compétence, vous avez le droit de mélanger dans votre deck chaque autre exemplaire de Vif d'Esprit de votre pile de défausse.",
+        "traits": "Inné."
+    },
+    {
+        "code": "11043",
+        "name": "Feinte",
+        "text": "Limite de 1 par investigateur. Sceller (+1 ou 0). Vous avez le droit de résoudre ce mot-clé à nouveau après que vous avez découvert le dernier indice dans votre lieu.\n[reaction] Quand un ennemi attaque un investigateur dans votre lieu, inclinez Feinte et libérez un pion scellé ici : annulez cette attaque. Ensuite, cet investigateur a le droit de se déplacer vers un lieu connexe.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11044",
+        "name": "Subvention de Recherche",
+        "text": "Limite de 1 par investigateur.\nVous avez 2 emplacements de main supplémentaires qui ne peuvent être utilisés que pour contenir des soutiens [[Outil]] et/ou [[Science]].",
+        "traits": "Subvention."
+    },
+    {
+        "code": "11045",
+        "name": "Suivre Son Intuition",
+        "text": "Rapide. À jouer uniquement lors de votre tour.\nDécouvrez 1 indice dans n'importe quel lieu révélé.",
+        "traits": "Perspicacité."
+    },
+    {
+        "code": "11046",
+        "name": "Cadran des Anciens",
+        "subname": "Signes d'un Cataclysme",
+        "text": "Étudiée. Limite de 1 par deck. Utilisations (4 charges).\n[reaction] Quand un investigateur échoue à un test de compétence dans votre lieu, inclinez le Cadran des Anciens : scellez ici 1 pion Chaos révélé lors de ce test.\n<b>Forcé</b> – Quand le round se termine : pour chaque pion Chaos scellé ici, vous devez dépenser 1 charge ou libérer ce pion.",
+        "traits": "Objet. Relique. Maudit.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11047",
+        "name": "Cadran des Anciens",
+        "subname": "Signes d'une Aberration",
+        "text": "Étudiée. Limite de 1 par deck. Utilisations (4 charges).\n[action] : <b>Combattre</b>/<b>Échapper à</b>. Quand vous révélez un pion Chaos lors de cette attaque ou tentative d'évasion, vous avez le droit de dépenser 1 charge pour annuler ce pion, le renvoyer dans la réserve du Chaos, et en révéler un nouveau. Vous avez le droit de le faire n'importe quel nombre de fois. Si ce test est réussi, infligez 1 dégât à l'ennemi ciblé.",
+        "traits": "Objet. Relique. Maudit.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11048",
+        "name": "Cadran des Anciens",
+        "subname": "Signes d'une Révélation",
+        "text": "Étudiée. Limite de 1 par deck. Utilisations (4 charges).\n[free] Lors de votre tour, inclinez le Cadran des Anciens et dépensez 1 charge : <b>Enquêter</b>. Quand des pions Chaos sont révélés pour ce test, révélez X pions supplémentaires, X étant égal au nombre d'ennemis dans votre lieu. Choisissez 1 des pions révélés à résoudre et ignorez les autres.",
+        "traits": "Objet. Relique. Maudit.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11049",
+        "name": "Antikythera",
+        "subname": "Horloge Prophétique",
+        "text": "[reaction] Après que vous avez réussi un test de compétence, inclinez Antikythera : en cas de réussite avec un écart exact...\n- ...de 1 ou 3, découvrez 1 indice dans votre lieu.\n- ...de 2 ou 4, piochez 1 carte et gagnez 1 ressource.\n- ...de 5, vous avez le droit d'effectuer une action supplémentaire lors de votre prochain tour.",
+        "traits": "Objet. Relique. Science.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Utilisations (2 munitions).\n[free] Inclinez le Luger P08 et dépensez 1 munition : <b>Combattre</b>. Vous gagnez +1 [combat] pour cette attaque.\n[action] Dépensez 1 ressource : reconstituez toutes les munitions du Luger P08 et redressez-le.",
+        "traits": "Objet. Arme. Arme à feu. Illicite.",
+        "slot": "Main"
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Assure vos Arrières",
+        "text": "Vous gagnez +1 [combat].\n[action] Défaussez de votre main un soutien [[Arme à feu]] qui occupe 1 emplacement de main ou moins et inclinez Robert Castaigne : résolvez une capacité <b>Combattre</b> du soutien défaussé, en ignorant tous les coûts. Cela ne provoque pas d'attaques d'opportunité.",
+        "traits": "Allié. Vétéran.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11052",
+        "name": "Mener en Bateau",
+        "text": "[reaction] Quand vous tentez d'échapper à un ennemi, inclinez Mener en Bateau : pour cette tentative d'évasion, vous gagnez + 1 à votre valeur de compétence et cet ennemi gagne Alerte. En cas de réussite, piochez 1 carte et ne vous désengagez pas de cet ennemi.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11053",
+        "name": "« Vous Venez Pour la Fête ? »",
+        "text": "<b>Discussion</b>. Cherchez un ennemi non-[[Élite]] dans le deck Rencontre ou la pile de défausse Rencontre et générez-le incliné et engagé avec vous. Piochez un nombre de cartes égal à la somme des valeurs de dégât et d'horreur de cet ennemi.",
+        "traits": "Ruse. Improvisé."
+    },
+    {
+        "code": "11054",
+        "name": "« Vous Avez Connu Pire... »",
+        "text": "Rapide. À jouer quand un investigateur dans votre lieu ou un lieu connexe se voit infliger des dégâts et/ou des horreurs.\nCet investigateur a le droit de dépenser jusqu'à 3 ressources. Pour chaque ressource dépensée, il annule 1 dégât ou 1 horreur tout juste infligés.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "11055",
+        "name": "Expulsé de Force",
+        "text": "<b>Échapper à</b>. Ajoutez votre valeur de [combat] à votre valeur de compétence pour cette tentative d'évasion. En cas de réussite avec une différence de 2 ou plus, infligez 1 dégât à cet ennemi. Si cet ennemi est non-[[Élite]], vous avez le droit de le déplacer vers un lieu connexe.",
+        "traits": "Tactique. Ruse."
+    },
+    {
+        "code": "11056",
+        "flavor": "« Tu t'es trompé de quartier, gamin. »",
+        "name": "Intimidation",
+        "text": "<b>Discussion</b>. Choisissez un ennemi dans votre lieu et effectuez un test de [combat] (X), X étant la vie restante de l'ennemi choisi. En cas de réussite, mélangez cet ennemi dans le deck Rencontre (ou infligez-lui 2 dégâts à la place s'il est [[Élite]]).",
+        "traits": "Tactique."
+    },
+    {
+        "code": "11057",
+        "name": "As de la Gâchette",
+        "text": "À attribuer uniquement lors d'un test de compétence d'une capacité imprimée sur un soutien [[Arme à feu]] ou [[À distance]] que vous contrôlez.",
+        "traits": "Entraîné."
+    },
+    {
+        "code": "11058",
+        "name": "Doppelgänger",
+        "text": "Myriade. Rapide. À jouer uniquement lors de votre tour.\nAttachez cette carte à votre lieu. Limite de 1 par lieu.\n[reaction] Après qu'un ennemi est entré dans ou a quitté le lieu attaché, renvoyez Doppelgänger dans votre main : soit vous effectuez une tentative d'évasion contre cet ennemi, soit vous vous déplacez immédiatement vers le lieu attaché <i>(Vous avez le droit de déclencher cette capacité depuis n'importe quel lieu)</i>.",
+        "traits": "Sort. Ruse."
+    },
+    {
+        "code": "11059",
+        "name": "Contacts Avec la Pègre",
+        "text": "Exceptionnel.\n[action] Dépensez 2 ressources : piochez la carte attachée à Contacts Avec la Pègre.\n[reaction] Quand un soutien [[Illicite]] en jeu que vous contrôlez est défaussé, inclinez Contacts Avec la Pègre : attachez ce soutien à cette carte, face cachée. Limite de 1 soutien attaché.",
+        "traits": "Relation. Illicite."
+    },
+    {
+        "code": "11060",
+        "name": "Occultation",
+        "text": "Limite de 1 par investigateur.\nSceller (0). Vous avez le droit de résoudre ce mot-clé à nouveau après que vous avez révélé un lieu ou mis en jeu un nouveau lieu.\n[reaction] Quand vous engagez un ennemi, inclinez Occultation et libérez un pion scellé ici : effectuez immédiatement une action <b>Combattre</b> ou <b>Échapper à</b> contre cet ennemi. Lors de ce test de compétence, votre valeur de compétence de base est égale à la valeur occulte de votre lieu.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11061",
+        "flavor": "Crâneur.",
+        "name": "« Regardez ça ! »",
+        "text": "À attribuer uniquement lors d'un test de compétence que vous effectuez. Dépensez jusqu'à 3 ressources en tant que coût supplémentaire pour attribuer « Regardez ça ! » à un test de compétence.\nEn cas de réussite avec une différence de 1 ou plus, gagnez le double des ressources dépensées.",
+        "traits": "Stratagème."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Assure Toujours vos Arrières",
+        "text": "Vous gagnez +1 [combat].\n[free] Inclinez Robert Castaigne : <b>Combattre</b>. Révélez de votre main un soutien [[Arme à feu]] qui occupe 1 emplacement de main ou moins. Résolvez une capacité <b>Combattre</b> du soutien révélé, en ignorant tous les coûts. Ensuite, vous avez le droit de soit défausser le soutien révélé pour piocher 1 carte, soit de jouer ce soutien <i>(en payant son coût)</i>.",
+        "traits": "Allié. Vétéran.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11063",
+        "name": "« Vous Avez Connu Pire... »",
+        "text": "Rapide. À jouer quand un investigateur dans votre lieu ou un lieu connexe se voit infliger des dégâts et/ou des horreurs.\nCet investigateur a le droit de vous donner jusqu'à 5 ressources. Pour chaque ressource ainsi donnée, il annule 1 dégât ou 1 horreur tout juste infligés.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "11064",
+        "name": "Gatling",
+        "text": "Utilisations (12 munitions).\n[action] Dépensez 1 à 6 munitions : <b>Combattre</b>. Vous gagnez +X [combat] pour cette attaque. La difficulté de cette attaque est égale à la somme des valeurs de combat de tous les ennemis dans votre lieu. Au lieu des dégâts normaux, cette attaque inflige X dégâts à répartir comme vous voulez parmi les ennemis dans votre lieu. X est le nombre de munitions dépensées comme coût de cette capacité.",
+        "traits": "Objet. Arme. Arme à feu. Illicite.",
+        "slot": "Main x2"
+    },
+    {
+        "code": "11065",
+        "name": "Sang de Thoth",
+        "subname": "Incarnation de la Loi",
+        "text": "[reaction] Quand au moins 1 fatalité est placée sur une carte que vous contrôlez, inclinez Sang de Thoth : placez 1 ressource sur cette carte <i>(prise dans la réserve de pions)</i>, en tant qu'offrande.\n[free] S'il y a au moins 3 offrandes sur Sang de Thoth, retirez-les toutes et inclinez Sang de Thoth : choisissez un investigateur dans votre lieu qui effectue immédiatement une action comme si c'était son tour.",
+        "traits": "Objet. Relique.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11066",
+        "name": "Le Souffle du Dormeur",
+        "text": "Utilisations (9 charges).\n[action] : <b>Combattre</b>. Utilisez votre [willpower] à la place de votre [combat] pour ce test. Avant de révéler des pions Chaos pour ce test, vous avez le droit de dépenser jusqu'à 3 charges pour révéler autant de pions Chaos supplémentaires. Choisissez 1 des pions révélés à résoudre et ignorez les autres. En cas de réussite et si le pion choisi correspond à un pion ignoré, cette attaque inflige +2 dégâts.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11067",
+        "name": "Les Yeux du Rêveur",
+        "text": "Utilisations (9 charges).\n[action] : <b>Enquêter</b>. Utilisez votre [willpower] à la place de votre [intellect] pour ce test. Avant de révéler des pions Chaos pour ce test, vous avez le droit de dépenser jusqu'à 3 charges pour révéler autant de pions Chaos supplémentaires. Choisissez 1 des pions révélés à résoudre et ignorez les autres. En cas de réussite et si le pion choisi correspond à un pion ignoré, découvrez 1 indice supplémentaire dans votre lieu.",
+        "traits": "Sort.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11068a",
+        "name": "Le Grand Œuvre",
+        "subname": "Diviser et Unir",
+        "text": "Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nVous recevez 1 point d'expérience supplémentaire après chaque scénario de cette campagne. Si vous êtes vaincu, vous êtes remplacé par l'homoncule (remplacez chaque carte de votre deck qui est spécifique à l'investigateur par une faiblesse de base prise au hasard, retournez cette carte et remplacez votre investigateur par cette carte pour le reste de la campagne).",
+        "traits": "Pacte. Science."
+    },
+    {
+        "code": "11068b",
+        "flavor": "Vous avez toujours voulu être humain.",
+        "name": "Homoncule Perdu",
+        "subname": "L'Enfant Oublié",
+        "text": "Ne peut pas être choisi en tant qu'investigateur de départ.\nVous ne pouvez pas ajouter, retirer ou améliorer des cartes de votre deck.\nVous gagnez +2 à votre valeur de compétence tant que vous résolvez des capacités de cartes [[Sort]].\n<b>Forcé</b> – Quand vous êtes vaincu : vous êtes <b>tué</b>.\n[elder_sign] : +0. Piochez 1 carte.",
+        "traits": "Construction. Progéniture."
+    },
+    {
+        "code": "11069",
+        "name": "Katarina Sojka",
+        "subname": "Émissaire d'Ulthar",
+        "text": "[reaction] Quand vous révélez des pions Chaos lors d'un test de compétence que vous effectuez, inclinez Katarina Sojka : révélez des pions de la réserve du Chaos jusqu'à ce qu'un pion avec un symbole soit révélé. Résolvez ce pion et ignorez les autres.",
+        "traits": "Allié. Clairvoyant. Rêveur.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11070",
+        "name": "Signe de Xelotaph",
+        "subname": "Symbole de Protection",
+        "text": "Myriade. Sceller ([skull], [cultist], [tablet] ou [elder_thing]).\nUtilisations (3 charges).\n<b>Forcé</b> – Quand votre tour débute : vous devez dépenser 1 charge ou défausser Signe de Xelotaph.\n[free] Défaussez de votre main un exemplaire du Signe de Xelotaph : reconstituez toutes les charges sur cet exemplaire du Signe de Xelotaph.",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11071",
+        "name": "Bouclier Spectral",
+        "text": "Rapide. À jouer uniquement lors de votre tour. Attachez cette carte à une carte Joueur dotée de vie et/ou de santé mentale dans votre lieu.\n<b>Forcé</b> – Quand la carte attachée subit au moins 1 dégât/horreur : annulez 1 de ces dégâts/horreurs. Le propriétaire de Bouclier Spectral doit retirer 1 charge d'un soutien qu'il contrôle. S'il ne peut pas le faire, défaussez Bouclier Spectral.",
+        "traits": "Sort. Esprit."
+    },
+    {
+        "code": "11072",
+        "name": "Murmures d'Apocalypse",
+        "text": "<b>Discussion</b>. Choisissez un ennemi non-faiblesse dans votre lieu et effectuez un test de [willpower] (3). Augmentez de +X la difficulté de ce test, X étant la valeur d'horreur de cet ennemi. En cas de réussite, cet ennemi est vaincu (ou infligez-lui 3 dégâts à la place s'il est [[Élite]]). En cas d'échec, placez 1 fatalité sur cet ennemi.",
+        "traits": "Sort. Maudit."
+    },
+    {
+        "code": "11073",
+        "flavor": "« L'univers a une faveur à vous demander. »",
+        "name": "Œil de Ghatanothoa",
+        "subname": "Artéfact du Dieu Noir",
+        "text": "Exceptionnel.\nVous gagnez +1 [willpower].\nJouez avec la carte du dessus du deck Rencontre révélée.",
+        "traits": "Objet. Relique. Maudit.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11074",
+        "name": "Canne-Épée",
+        "subname": "Créée par <i>the Council of Polls</i>",
+        "text": "Rapide.\n[reaction] Après que la Canne-Épée est entrée en jeu : vous avez le droit d'infliger 1 dégât à un ennemi engagé avec vous. Déclenchez immédiatement la capacité « [action] » ci-dessous, sans en payer le coût.\n[action] Inclinez la Canne-Épée : <b>Combattre</b>/<b>Échapper à</b>. Vous avez le droit d'utiliser votre [willpower] à la place de votre [combat] ou de votre [agility] pour cette attaque ou tentative d'évasion et vous gagnez +1 à votre valeur de compétence pour ce test.",
+        "traits": "Objet. Relique. Arme. Corps-à-corps.",
+        "slot": "Main"
+    },
+    {
+        "code": "11075",
+        "name": "Écho Spirituel",
+        "text": "Attachez cette carte à votre lieu. Limite de 1 par lieu.\n[reaction] Après que vous avez activé une capacité [action] ou [free] d'un soutien [[Sort]] ou [[Rituel]] : effectuez à nouveau cette capacité dans le lieu attaché comme si vous y étiez, en ignorant le coût [action] de ce soutien, s'il y en a un. <i>(Vous avez le droit de déclencher cette capacité depuis n'importe quel lieu.)</i> Renvoyez Écho Spirituel dans votre main.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "11076",
+        "name": "Transcendance",
+        "text": "Choisissez une autre carte Investigateur dans votre collection. Jusqu'à la fin de la partie, traitez le recto de votre carte Investigateur comme s'il s'agissait du recto de la carte choisie, à la place <i>(y compris vos valeurs de compétence, traits, capacités et effet du signe des anciens)</i>. Max. une fois par partie.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "11077",
+        "name": "Extatique",
+        "text": "1 max. attribuée par test de compétence.\nSi ce test de compétence est réussi pendant une enquête, placez jusqu'à 3 charges et/ou secrets sur des soutiens contrôlés par des investigateurs dans votre lieu.",
+        "traits": "Entraîné. Expert."
+    },
+    {
+        "code": "11078",
+        "name": "Arcanes Perdues",
+        "text": "Utilisations (2 charges).\nLes charges sur Arcanes Perdues peuvent être dépensées comme si elles étaient des charges sur des soutiens [[Sort]] ou [[Rituel]] que vous contrôlez.\n[reaction] Après que le dernier indice a été découvert dans votre lieu, inclinez Arcanes Perdues : placez 1 charge dessus.",
+        "traits": "Objet. Livre. Occulte.",
+        "slot": "Main"
+    },
+    {
+        "code": "11079",
+        "name": "Libération",
+        "text": "Rapide. À jouer quand l'étape « piocher les cartes Rencontre » de la phase du Mythe est censée débuter.\nVous piochez chaque carte Rencontre qui devrait normalement être piochée lors de cette phase du Mythe. Les cartes piochées à cette phase ne peuvent pas être annulées et la première carte piochée gagne Renfort.\nIgnorez l'étape « piocher les cartes Rencontre » de la prochaine phase du Mythe. Max. deux fois par partie.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "11080",
+        "name": "Marque Surnaturelle",
+        "text": "Permanent. Exceptionnel.\nQuand vous achetez cette carte, choisissez dans votre deck un soutien [[Sort]] qui n'est pas spécifique à l'investigateur et indiquez dans votre Carnet de Campagne que <i>[nom du sort] a été marqué</i>. C'est votre sort marqué. Votre deck ne peut inclure qu'un seul exemplaire de votre sort marqué.\n[reaction] Avant de piocher votre main de départ : cherchez votre sort marqué dans votre deck et jouez-le <i>(en payant son coût)</i>.",
+        "traits": "Pacte."
+    },
+    {
+        "code": "11081",
+        "name": "Chaîne d'Amarrage",
+        "text": "Tant que la Chaîne d'Amarrage est dans votre main, vous avez le droit d'effectuer la capacité « [action] » ci-dessous. Si vous le faites, défaussez la Chaîne d'Amarrage au lieu de l'incliner.\n[action] Inclinez la Chaîne d'Amarrage : <b>Échapper à</b>. Vous gagnez +1 [agility] pour cette tentative d'évasion. Si vous échappez avec succès à un ennemi non-[[Élite]], vous avez le droit de défausser 1 carte de votre main pour empêcher cet ennemi de se redresser lors de la prochaine phase d'Entretien.",
+        "traits": "Objet. Outil.",
+        "slot": "Main"
+    },
+    {
+        "code": "11082",
+        "name": "Crochet à Main",
+        "text": "Tant que le Crochet à Main est dans votre main, vous avez le droit d'effectuer la capacité « [action] » ci-dessous. Si vous le faites, défaussez le Crochet à Main au lieu de l'incliner.\n[action] Inclinez le Crochet à Main : <b>Combattre</b>. Vous gagnez +1 [combat] pour cette attaque. En cas de réussite, vous avez le droit de défausser 1 carte de votre main pour que cette attaque inflige +1 dégât.",
+        "traits": "Objet. Arme. Outil. Corps-à-corps.",
+        "slot": "Main"
+    },
+    {
+        "code": "11083",
+        "flavor": "« Chaque bloc d'argile cache en son sein toutes sortes de choses fascinantes. »",
+        "name": "Lawrence Carlisle",
+        "subname": "Sculpte ses Rêves",
+        "text": "Vous gagnez +1 [intellect].\n[reaction] Après que vous avez défaussé au moins 1 carte de votre main lors de votre tour, inclinez Lawrence Carlisle : gagnez 1 ressource.",
+        "traits": "Allié. Artiste. Mécène.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11084",
+        "name": "Relevés Nautiques",
+        "text": "Tant que Relevés Nautiques est dans votre main, vous avez le droit d'effectuer la capacité « [action] » ci-dessous. Si vous le faites, défaussez Relevés Nautiques au lieu de l'incliner.\n[action] Inclinez Relevés Nautiques : <b>Enquêter</b>. Vous gagnez +1 [intellect] pour cette enquête. En cas de réussite, vous avez le droit de défausser 1 carte de votre main pour découvrir 1 indice supplémentaire dans votre lieu.",
+        "traits": "Objet. Livre. Outil.",
+        "slot": "Main"
+    },
+    {
+        "code": "11085",
+        "name": "Idole Profane",
+        "text": "L'Idole Profane ne peut être jouée que depuis votre pile de défausse.\n<b>Forcé</b> – Quand l'Idole Profane est vaincue : mélangez-la dans votre deck au lieu de la défausser.",
+        "traits": "Objet. Charme.",
+        "slot": "Accessoire"
+    },
+    {
+        "code": "11086",
+        "name": "« Attrape ça ! »",
+        "text": "En tant que coût supplémentaire pour jouer « Attrape ça ! », choisissez et défaussez de votre main ou de votre zone de jeu un soutien [[Objet]] qui occupe au moins 1 emplacement de main.\n<b>Échapper à</b>. Vous gagnez +X [agility] pour cette tentative d'évasion, X étant le coût en ressources imprimé du soutien choisi. En cas de réussite contre un ennemi non-[[Élite]] et si ce soutien était dans votre zone de jeu, cet ennemi ne se redresse pas lors de la prochaine phase d'Entretien.",
+        "traits": "Tactique. Ruse."
+    },
+    {
+        "code": "11087",
+        "name": "Méthode Non Conventionnelle",
+        "text": "En tant que coût supplémentaire pour jouer Méthode Non Conventionnelle, choisissez et défaussez de votre main ou de votre zone de jeu un soutien [[Objet]] qui occupe au moins 1 emplacement de main.\n<b>Enquêter</b>. Vous gagnez +X [intellect] pour cette enquête, X étant le coût en ressources imprimé du soutien choisi. En cas de réussite et si ce soutien était dans votre zone de jeu, découvrez 1 indice supplémentaire dans votre lieu.",
+        "traits": "Perspicacité. Tactique."
+    },
+    {
+        "code": "11088",
+        "name": "Contemplatif",
+        "text": "Vous avez le droit d'attribuer Contemplatif à une enquête ou à un test de compétence lors d'une tentative de discussion dans votre lieu ou un lieu connexe.\nSi ce test est réussi, l'investigateur qui a effectué le test découvre 1 indice dans son lieu.",
+        "traits": "Inné."
+    },
+    {
+        "code": "11089",
+        "name": "Réserves Abondantes",
+        "text": "Limite de 1 par investigateur. Utilisations (2 provisions).\n[reaction] Après que vous avez défaussé au moins 1 carte de votre main, inclinez Réserves Abondantes : placez 1 provision dessus.\n[free] Défaussez Réserves Abondantes : déplacez chaque provision de cette carte vers votre réserve de ressources, en tant que ressources.",
+        "traits": "Ravitaillement."
+    },
+    {
+        "code": "11090",
+        "name": "Une Lueur d'Espoir",
+        "text": "Myriade.\nUne Lueur d'Espoir ne peut être jouée que depuis votre pile de défausse.\nAjoutez tous les exemplaires d'Une Lueur d'Espoir de votre pile de défausse dans votre main <i>(y compris cet exemplaire)</i>.",
+        "traits": "Béni. Chance."
+    },
+    {
+        "code": "11091",
+        "name": "Météo Favorable",
+        "text": "Myriade. Rapide. À jouer après le début de la phase d'Investigation. Limite collective de 1 en jeu.\nMettez en jeu Météo Favorable à côté du deck Intrigue et choisissez une compétence. Tant que cette carte est en jeu, chaque investigateur gagne +2 à la compétence choisie.\n<b>Forcé</b> – Quand la phase d'Investigation débute : défaussez Météo Favorable.",
+        "traits": "Béni. Chance."
+    },
+    {
+        "code": "11092",
+        "name": "Arme Improvisée",
+        "text": "Vous avez le droit de jouer l'Arme Improvisée depuis votre pile de défausse. Si vous le faites, mélangez-la dans votre deck après avoir résolu ses effets et piochez 1 carte.\n<b>Combattre</b>. L'ennemi attaqué perd –2 combat pour cette attaque. (Si vous avez joué l'Arme Improvisée depuis votre pile de défausse, cette attaque inflige +1 dégât.)",
+        "traits": "Tactique. Improvisé."
+    },
+    {
+        "code": "11093",
+        "name": "Dernière Chance",
+        "text": "À attribuer uniquement à un test de compétence auquel aucune autre carte n'est attribuée. Aucune autre carte ne peut être attribuée à ce test de compétence.\nDernière Chance perd [wild] pour chaque carte dans votre main. Si ce test est réussi alors que Dernière Chance lui est attribué, piochez 2 cartes.",
+        "traits": "Stratagème."
+    },
+    {
+        "code": "11094",
+        "name": "Don de Nodens",
+        "text": "[reaction] Quand vous attribuez des cartes à un test de compétence que vous effectuez, choisissez une carte Compétence [survivor] dans votre pile de défausse et défaussez 1 carte de votre main : attribuez la compétence choisie à ce test. Après la résolution du test de compétence, placez cette carte Compétence sous votre deck. (Limite d'une fois par round.)",
+        "traits": "Rituel.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11095",
+        "name": "Ascétique",
+        "text": "Mode Campagne uniquement. Permanent. Limite de 1 par deck. À acheter lors de la création du deck.\nQuand vous achetez cette carte, gagnez 10 points d'expérience.\nPour le reste de la campagne, vous ne pouvez pas gagner de points d'expérience.",
+        "traits": "État."
+    },
+    {
+        "code": "11096",
+        "name": "Court Repos",
+        "text": "Myriade.\nSoignez 1 dégât ou 1 horreur d'un investigateur ou d'un soutien [[Allié]] dans votre lieu.\n[reaction] Après qu'un investigateur dans votre lieu a joué Court Repos : jouez un autre Court Repos de votre main <i>(en payant son coût)</i>.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "11097",
+        "name": "Confiance",
+        "text": "1 max. attribuée par test.\nPour chaque pion Chaos supplémentaire révélé lors de ce test de compétence (même s'ils ont été annulés ou ignorés), Confiance gagne [wild] (jusqu'à un maximum de +3 icônes [wild]).",
+        "traits": "Inné."
+    },
+    {
+        "code": "11098",
+        "name": "Guérison Spirituelle",
+        "text": "Permanent. Limite de 1 par deck.\nQuand vous achetez Guérison Spirituelle, retirez 1 traumatisme physique ou mental de votre investigateur.",
+        "traits": "État. Béni."
+    },
+    {
+        "code": "11099",
+        "name": "Carte de Bibliothèque",
+        "text": "Deck [[Miskatonic]] ou [[Érudit]] uniquement. Limite de 1 par deck.\n[free] Lors de votre tour, s'il n'y a pas de soutien attaché à la Carte de Bibliothèque, dépensez 1 ressource : attachez-lui un soutien [[Livre]] de votre main. Le soutien attaché n'occupe pas d'emplacement. Limite de 1 soutien attaché.\n<b>Forcé</b> – Quand votre tour se termine : placez le soutien attaché sous votre deck.",
+        "traits": "Objet. Miskatonic."
+    },
+    {
+        "code": "11100",
+        "name": "Rêves d'Argile",
+        "text": "Deck [[Artiste]], [[Clairvoyant]], [[Rêveur]] ou [[Interprète]] uniquement.\nÀ attribuer uniquement à un test de compétence requis par une traîtrise. Si ce test est réussi, mettez en jeu Rêves d'Argile dans votre zone de jeu au lieu de la défausser.\n[reaction] Quand vous piochez une traîtrise non-Péril du deck Rencontre, retirez Rêves d'Argile de la partie : annulez son effet Révélation et défaussez-la.",
+        "traits": "Inné. Augure."
+    },
+    {
+        "code": "11101",
+        "flavor": "« Le Dr Christopher n'en croira pas ses yeux ! »",
+        "name": "Curieux",
+        "text": "Deck [[Assistant]], [[Miskatonic]] ou [[Érudit]] uniquement.\nSi ce test de compétence est réussi, l'investigateur qui a effectué le test a le droit de réussir avec une différence de jusqu'à 2 en plus ou en moins (pour un minimum de zéro).",
+        "traits": "Inné."
+    },
+    {
+        "code": "11102",
+        "name": "Marcher vers l'Horizon",
+        "text": "Deck [[Vagabond]], [[Chasseur]] ou [[Voyageur]] uniquement.\nLimite de 1 par investigateur.\n[free] Lors de votre tour, défaussez 1 carte de votre main et inclinez Marcher vers l'Horizon : <b>Se Déplacer</b>. Déplacez-vous vers un lieu connexe.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11103",
+        "name": "Sutra Interdt",
+        "text": "Deck [[Béni]], [[Maudit]] ou [[Sorcier]] uniquement.\nVous gagnez +1 à votre valeur de compétence tant que vous résolvez des événements [[Sort]].\n[reaction]] Lors d'un test de compétence requis par un événement [[Sort]], subissez jusqu'à 3 horreurs : pour chaque horreur subie, révélez un pion Chaos supplémentaire pour ce test. Choisissez 1 des pions révélés à résoudre et ignorez les autres.",
+        "traits": "Objet. Livre. Béni. Maudit.",
+        "slot": "Main"
+    },
+    {
+        "code": "11104",
+        "name": "Walter Fitzpatrick",
+        "subname": "Joue dans les Deux Camps",
+        "text": "Deck [[Municipal]], [[Crépuscule d'Argent]] ou [[Mondain]] uniquement.\nVous gagnez +1 à votre valeur de compétence tant que vous discutez.\n[reaction] Après que vous avez discuté avec succès, inclinez Walter Fitzpatrick : gagnez 1 ressource.",
+        "traits": "Allié. Mécène. Crépuscule d'Argent.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11105",
+        "flavor": "« Je peux les ramener vivants, ou je peux les ramener dans un sac. C'est vous qui voyez. »",
+        "name": "Dites Votre Prix",
+        "text": "Deck [[Criminel]] ou [[Mondain]] uniquement.\n<b>Discussion</b>. Infligez 10 dégâts à un ennemi dans votre lieu (5 dégâts à la place si c'est un ennemi [[Élite]]). Retirez Dites Votre Prix de la partie.",
+        "traits": "Faveur."
+    },
+    {
+        "code": "11106",
+        "name": "Éveil Véritable",
+        "text": "Deck [[Béni]], [[Élu]] ou [[Vagabond]] uniquement.\nChoisissez et résolvez deux des options suivantes, dans n'importe quel ordre :\n- Piochez 2 cartes.\n- Découvrez 1 indice dans votre lieu.\n- Soignez 1 dégât.\n- Soignez 1 horreur.",
+        "traits": "Perspicacité. Esprit."
+    },
+    {
+        "code": "11107",
+        "name": "Doubler la Mise",
+        "text": "Deck [[Criminel]], [[Entrepreneur]] ou [[Mondain]] uniquement.\n1 max. attribuée par test de compétence.\nAprès que vous avez attribué Doubler la Mise à un test de compétence, dépensez jusqu'à 3 ressources. Pour chaque ressource dépensée, Doubler la Mise gagne [wild] [wild].",
+        "traits": "Inné."
+    },
+    {
+        "code": "11108",
+        "name": "Spectacle Captivant",
+        "text": "Deck [[Rêveur]], [[Interprète]] ou [[Sorcier]] uniquement.\nLimite de 1 par investigateur.\n[reaction] Après avoir effectué 3 actions d'un type différent d'affilée, inclinez Spectacle Captivant : effectuez une action supplémentaire qui doit être d'un type différent de toutes les autres actions que vous avez effectuées à ce tour <i>(les types d'action sont : activer, piocher, engager, échapper à, combattre, enquêter, se déplacer, jouer et ressource)</i>.",
+        "traits": "Rituel."
+    },
+    {
+        "code": "11109",
+        "name": "Manteau de Sekhmet",
+        "subname": "Cape des Pharaons",
+        "text": "Deck [[Croyant]], [[Élu]] ou [[Cultiste]] uniquement.\n[reaction] Quand vous entrez dans un lieu, inclinez le Manteau de Sekhmet : jusqu'à la fin du round, aucun ennemi non-[[Élite]] dans ce lieu ne peut vous engager et vous ne pouvez pas infliger de dégâts a ces ennemis.",
+        "traits": "Objet. Vêtement. Relique.",
+        "slot": "Corps"
+    },
+    {
+        "code": "11110",
+        "name": "Dakota Garofalo",
+        "subname": "En Chasse",
+        "text": "Deck [[Détective]], [[Chasseur]] ou [[Voyageur]] uniquement.\nTant qu'un ennemi [[Créature]] ou [[Monstre]] est dans votre lieu, vous gagnez +1 [willpower] et +1 [combat].\n[free] Inclinez Dakota Garofalo : choisissez un ennemi dans votre lieu ou dans un lieu connexe. Déplacez-vous vers le lieu de cet ennemi et engagez-le.",
+        "traits": "Allié. Chasseur. Voyageur.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11111",
+        "name": "Sans Relâche",
+        "text": "Deck [[Criminel]], [[Vagabond]] ou [[Entrepreneur]] uniquement.\n[free] Lors d'un test de compétence requis par un soutien [[Outil]], inclinez Sans Relâche : vous gagnez +2 à votre valeur de compétence pour ce test. En cas d'échec au test, soit vous reconstituez 1 provision du soutien, soit vous gagnez 1 ressource.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11112",
+        "name": "Soutien Appréciable",
+        "text": "Deck [[Assistant]], [[Médecin]] ou [[Veilleur]] uniquement.\nLimite de 1 par investigateur.\nLe Soutien Appréciable peut se voir assigner les dégâts et/ou horreurs infligés aux autres investigateurs dans votre lieu.\n[reaction] Quand votre tour débute : soignez 1 dégât ou 1 horreur de Soutien Appréciable.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11113",
+        "name": "Armure de Tranchée",
+        "text": "Deck [[Agence]], [[Police]] ou [[Vétéran]] uniquement.\nAnnulez la première attaque d'opportunité effectuée contre vous à chaque round.",
+        "traits": "Objet. Armure.",
+        "slot": "Corps"
+    },
+    {
+        "code": "11114",
+        "name": "Sang de K'n-yan",
+        "text": "Deck [[Clairvoyant]], [[Chasseur]] ou [[Sorcier]] uniquement.\n<b>Combattre</b>. Vous avez le droit d'utiliser votre [willpower] à la place de votre [combat] pour cette attaque. Pour chacun de vos emplacements de main inoccupés, vous gagnez +2 à votre valeur de compétence et infligez +1 dégât pour cette attaque. Si un ennemi non-[[Élite]] est vaincu par cette attaque, ajoutez-le à la pile de victoire et attachez-lui Sang de K'n-yan.",
+        "traits": "Sort."
+    },
+    {
+        "code": "11115",
+        "name": "Reine de l'Orage",
+        "text": "Deck [[Béni]], [[Clairvoyant]] ou [[Sorcier]] uniquement.\n[action] : <b>Combattre</b>. Ajoutez votre valeur de [willpower] à votre valeur de compétence pour cette attaque. Si cette attaque est réussie, en plus de ses dégâts normaux, vous avez le droit d'incliner Reine de l'Orage pour infliger 1 dégât à un ennemi dans votre lieu pour chaque symbole [skull], [cultist], [tablet] ou [elder_thing] révélé lors de cette attaque (jusqu'à un maximum de 3 dégâts supplémentaires).",
+        "traits": "Objet. Relique. Arme. Corps-à-corps.",
+        "slot": "Main"
+    },
+    {
+        "code": "11116",
+        "flavor": "« Oui, clairement, ils y ont cru. »",
+        "name": "Discours Motivant",
+        "text": "Deck [[Municipal]], [[Interprète]] ou [[Mondain]] uniquement.\n<b>Discussion</b>. Choisissez un investigateur dans votre lieu. Cet investigateur a le droit de jouer gratuitement un soutien [[Allié]] de sa main. Ensuite, cet investigateur a le droit de déclencher une capacité [action] ou [free] de ce soutien, en ignorant tous les coûts.",
+        "traits": "Esprit."
+    },
+    {
+        "code": "11117",
+        "name": "Archibald MacVeigh",
+        "flavor": "« « Publier ou Périr », telle est la loi de la recherche. Peut-être ferons-nous les deux. En même temps. »",
+        "subname": "Professeur Tourmenté",
+        "text": "Deck [[Assistant]], [[Reporter]] ou [[Érudit]] uniquement. Utilisations (4 secrets).\nVous gagnez +1 [intellect].\nLes secrets sur des soutiens que vous contrôlez peuvent être dépensés en tant que ressources pour payer des événements [[Perspicacité]] que vous jouez.",
+        "traits": "Allié.",
+        "slot": "Allié"
+    },
+    {
+        "code": "11118",
+        "name": "Carte de Bibliothèque",
+        "text": "Deck [[Miskatonic]] ou [[Érudit]] uniquement. Permanent. Limite de 1 par deck.\n[free] Lors de votre tour, s'il n'y a pas de soutien attaché à la Carte de Bibliothèque, inclinez-la : attachez-lui un soutien [[Livre]] de votre main. Le soutien attaché n'occupe pas d'emplacement.\n<b>Forcé</b> – Quand votre tour se termine : vous devez soit dépenser 1 ressource, soit placer le soutien attaché sous votre deck.",
+        "traits": "Objet. Miskatonic."
+    },
+    {
+        "code": "11119",
+        "name": "Mauser Tankgewehr M1918",
+        "text": "Deck [[Chasseur]], [[Vétéran]] ou [[Veilleur]] uniquement. Utilisations (1 obus).\n[action] Si le Mauser Tankgewehr M1918 est redressé, dépensez 1 obus : <b>Combattre</b>. Vous gagnez +5 [combat] pour cette attaque et cette attaque inflige +3 dégâts.\n[action] Inclinez le Mauser Tankgewehr M1918 : reconstituez  1 obus de cette carte.",
+        "traits": "Objet. Arme. Arme à feu.",
+        "slot": "Main x2"
+    },
+    {
+        "code": "11120",
+        "name": "Sur Leurs Talons",
+        "text": "Deck [[Détective]], [[Chasseur]], [[Police]] ou [[Reporter]] uniquement.\nLimite de 1 par investigateur. Utilisations (5 pistes).\n[reaction] Après que vous êtes entré dans un lieu où se trouve au moins 1 ennemi, dépensez 1 piste et inclinez Sur Leurs Talons : soit vous découvrez 1 indice dans votre lieu, soit vous infligez 1 dégât à un ennemi dans votre lieu.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11121",
+        "name": "Serment Sacré",
+        "subname": "Serment de Loyauté",
+        "text": "Deck [[Cultiste]], [[Maudit]] ou [[Crépuscule d'Argent]] uniquement. Rapide. Myriade.\nLimite de 1 Serment Sacré <i>(Serment de Loyauté)</i> par deck.\n3 exemplaires max. de Serment Sacré en jeu. Jusqu'à 3 cartes Serment Sacré n'occupent qu'un seul emplacement d'arcane.\n[reaction] Quand vous piochez une traîtrise non-faiblesse [[Pacte]] ou [[Terreur]], défaussez un exemplaire de Serment Sacré qui est en jeu : annulez l'effet Révélation de cette traîtrise et défaussez-la.",
+        "traits": "Pacte.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11122",
+        "name": "Serment Sacré",
+        "subname": "Serment d'Ordre",
+        "text": "Deck [[Cultiste]], [[Maudit]] ou [[Crépuscule d'Argent]] uniquement. Rapide. Myriade.\nLimite de 1 Serment Sacré <i>(Serment d'Ordre)</i> par deck.\n3 exemplaires max. de Serment Sacré en jeu. Jusqu'à 3 cartes Serment Sacré n'occupent qu'un seul emplacement d'arcane.\n[reaction] Quand vous piochez une traîtrise non-faiblesse [[Malédiction]] ou [[Sortilège]], défaussez un exemplaire de Serment Sacré qui est en jeu : annulez l'effet Révélation de cette traîtrise et défaussez-la.",
+        "traits": "Pacte.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "11123",
+        "name": "Serment Sacré",
+        "subname": "Serment de Sagesse",
+        "text": "Deck [[Cultiste]], [[Maudit]] ou [[Crépuscule d'Argent]] uniquement. Rapide. Myriade.\nLimite de 1 Serment Sacré <i>(Serment de Sagesse)</i> par deck.\n3 exemplaires max. de Serment Sacré en jeu. Jusqu'à 3 cartes Serment Sacré n'occupent qu'un seul emplacement d'arcane.\n[reaction] Quand vous piochez une traîtrise non-faiblesse [[Présage]] ou [[Pouvoir]], défaussez un exemplaire de Serment Sacré qui est en jeu : annulez l'effet Révélation de cette traîtrise et défaussez-la.",
+        "traits": "Pacte.",
+        "slot": "Arcane"
+    },
+    {
+      "code": "11124",
+      "name": "Vortex Dimensionnel",
+      "text": "Deck [[Interprète]] ou [[Sorcier]] uniquement.\nRapide. À jouer quand la phase d'Investigation débute. Choisissez un lieu. Mettez de côté chaque ennemi non-[[Élite]] du lieu choisi <i>(en conservant tous les pions et attachements)</i>. Jusqu'à la fin du round, ils ne sont dans aucun lieu et sont immunisés contre les effets de carte Joueur. Quand le round se termine, renvoyez chacun de ces ennemis vers le lieu choisi, incliné. Max. une fois par partie.",
+      "traits": "Sort."
+    },
+    {
+        "code": "11125",
+        "name": "Souvenirs d'une Autre Vie",
+        "text": "Deck [[Artiste]], [[Croyant]], [[Rêveur]] ou [[Sorcier]] uniquement.\nSi ce test de compétence est réussi, vous avez le droit de retirer de la partie Souvenirs d'une Autre Vie pour cherchez n'importe quelle carte non-Permanent de niveau 0 dans votre collection <i>(même si elle ne correspond pas à vos exigences de deck)</i>. Jouez gratuitement cette carte. À la fin de la partie, renvoyez-la dans votre collection.",
+        "traits": "Inné."
+    },
+    {
+        "code": "11126",
+        "name": "Fauché Comme les Blés",
+        "text": "<b>Révélation</b> – Mettez en jeu Fauché Comme les Blés dans votre zone de menace.\n<b>Forcé</b> – Quand votre tour se termine, si vous n'avez pas effectué d'action Piocher ou Ressource à ce round : subissez 1 horreur et remélangez Fauché Comme les Blés dans votre deck.\n[action] Soit vous dépensez 3 ressources, soit vous choisissez et défaussez 3 cartes de votre main : défaussez cette carte.",
+        "traits": "Adversité."
+    },
+    {
+        "code": "11127",
+        "name": "Curiosité Morbide",
+        "text": "<b>Révélation</b> – Mettez en jeu Curiosité Morbide dans votre zone de menace.\n<b>Forcé</b> – Quand votre tour se termine, si vous n'avez pas enquêté avec succès à ce round : subissez 1 horreur et remélangez Curiosité Morbide dans votre deck.\n[action] : <b>Enquêter</b>. Vous perdez –2 à votre valeur de compétence pour cette enquête. En cas de réussite, défaussez cette carte.",
+        "traits": "Défaut."
+    },
+    {
+        "code": "11128",
+        "name": "Poltergeist Déchaîné",
+        "text": "<b>Révélation</b> – Mettez en jeu Poltergeist Déchaîné dans votre zone de menace.\n<b>Forcé</b> – Quand votre tour se termine, si vous n'avez pas échappé à un ennemi avec succès à ce round : subissez 1 dégât et remélangez Poltergeist Déchaîné dans votre deck.\n[action] : <b>Échapper à</b>. Vous perdez –2 à votre valeur de compétence pour cette tentative d'évasion. En cas de réussite, défaussez cette carte.",
+        "traits": "Malédiction."
+    },
+    {
+        "code": "11129",
+        "name": "Enragé",
+        "text": "<b>Révélation</b> – Mettez en jeu Enragé dans votre zone de menace.\n<b>Forcé</b> – Quand votre tour se termine, si vous n'avez pas combattu avec succès un ennemi à ce round : subissez 1 dégât et remélangez Enragé dans votre deck.\n[action] : <b>Combattre</b>. Vous perdez –2 à votre valeur de compétence pour cette attaque. En cas de réussite, défaussez cette carte.",
+        "traits": "Folie."
     }
 ]
