@@ -1,44 +1,45 @@
 [
-  {
-    "back_flavor": "Le jazz n'a apporté que des ennuis à Jim depuis le jour où il a pris la trompette de son père. Mais il est certain que les Morts aiment quand il joue, Jim n'a donc pas l'intention de s'arrêter.",
-    "back_text": "<b>Taille du Deck</b>: 30.\n<b>Construction du Deck</b>: Cartes Mystique ([mystic]) de niveaux 0 à 3, cartes [[Sortl]] et [[Maudit]] de niveaux 0 à 4, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Survivant ([survivor]) de niveau 0.\n<b>Restrictions de Deck</b> (ne comptent pas dans la limite de taille du deck) : La Trompette de Jim, Dernière Rhapsodie, L'Au-delà, 1 faiblesse de base au hasard.\n<b>Taille du Deck Esprit</b>: 10.\n<b>Construction du Deck Esprit</b>: 9 soutiens [[Alliés]] différents de n'importe quelle classe de niveaux 0 à 2, Ombre Vengeresse.\n<b>Instructions du Deck Esprit</b>: Mélangez le deck Esprit séparément de votre deck et placez-le à côté du soutien L'Au-delà, face cachée. Ce deck peut être amélioré séparément, en utilisant l'expérience non dépensée.",
-    "code": "90049",
-    "flavor": "« Je sais que je peux faire danser les Morts. »",
-    "name": "Jim Culver",
-    "subname": "Le Musicien",
-    "text": "[reaction] Après avoir révélé 1 pion [skull] ou [curse] ou plus durant un test que vous effectuez : reconstituez 1 charge sur un soutien que vous contrôlez. (Limite d'une fois par round.)\n[elder_sign] effet : +2. vous pouvez traiter ce pion comme s'il s'agissait d'un pion [skull] ou [curse] à la place.",
-    "traits": "Interprète. Maudit."
-  },
-  {
-    "code": "90050",
-    "name": "La Trompette de Jim",
-    "subname": "Les Morts Parlent",
-    "text": "Deck de Jim Culver uniquement. Avancée.\n[reaction] Quand un pion [skull] ou [curse] est révélé durant un test de compétence que vous effectuez, inclinez la Trompette de Jim : soignez 1 horreur de chaque investigateur et soutien [[Allié]] dans votre lieu ou dans un lieu adjacent.",
-    "traits": "Objet. Instrument. Relique."
-},
-{
-    "code": "90051",
-    "flavor": "Quand les Morts commencent à parler de ce qui les effraie, il est temps d'écouter.",
-    "name": "Dernière Rhapsodie",
-    "text": "Avancée.\n<b>Révélation</b> - Révélez 5 pions Chaos depuis la réserve du Chaos. Pour chaque pion non-[elder_sign] et non-[bless] révélé, subissez 1 dégât et 1 horreur.",
-    "traits": "Fin des Temps."
-  },
-  {
-    "code": "90052",
-    "name": "L'Au-delà",
-    "subname": "Le Sombre Monde d'En-bas",
-    "text": "Deck de Jim Culver uniquement. Permanent.\nChaque esprit attaché perd tous ses traits imprimés et gagne le trait [[Geist]]. Quand des dégâts/horreurs devrait être placés sur un esprit attaché, ils doivent être placés sur Jim Culver à la place.\n<b>Forcé</b> – Quand votre tour commence : attachez la carte du dessus de votre deck Esprit à L'Au-delà, en temps qu'esprit. Si 4 esprits ou plus sont attachés, retournez cette carte et résolvez son texte.",
-    "traits": "Sanctum. Spectral."
-  },
-  {
-    "code": "90052b",
-    "name": "L'Au-delà",
-    "text": "<b>Forcé</b> – Un à la fois, choisissez chaque esprit non-faiblesse attaché à L'Au-delà et révélez 1 pion au hasard depuis la réserve du Chaos. S’il s’agit...\n- ... d’un pion [elder_sign] : vous pouvez soit soigner 1 horreur, soit attacher la carte du dessus de votre deck Esprit à L'Au-delà, en tant qu'esprit. <i>(Ne révélez pas de pions pour l'esprit que vous avez attaché en résolvant cet effet.)</i>\n- ... d’un pion [auto_fail] : défaussez cet esprit. Subissez 1 dégât/horreur direct.\n- ... d’un pion [skull]  : défaussez cet esprit. Soignez 1 horreur.\n- … d'un pion [cultist], [elder_thing], [tablet] ou [curse] : vous devez soit défausser cet esprit, soit subir 1 dégât direct.\n- … de tout autre pion : défaussez cet esprit.\nRetournez cette carte sur son côté soutien.\n<hr><b>Rappel :</b> <i>Les esprits attachés à L'Au-delà sont en jeu, mais seulement avec leurs noms et leur boîte de texte. Les esprits n'occupent pas d’emplacement et n'ont pas de valeur de vie et de santé mentale. Quand un esprit unique est attaché à l'Au-delà, tout autre soutien qui partage son nom et qui est déjà en jeu est défaussé. Les esprits sont toujours défaussés </i> <b>sous</b> <i>le deck Esprit.</i>"
-  },
-  {
-    "code": "90053",
-    "name": "Ombre Vengeresse",
-    "text": "Chasseur. <b>Proie</b> – Jim Culver uniquement.\nVous pouvez combattre ou échapper à cet ennemi pendant qu'il est attaché à L'Au-delà (comme s'il était engagé avec vous). Si vous réussissez, défaussez cette carte. Si vous échouez, générez-le engagé avec vous.\n<b>Forcé</b> – Quand vous attachez un esprit à L'Au-delà par cet effet forcé : l'Ombre Vengeresse vous attaque <i>(même si elle n'est pas dans votre lieu)</i>.",
-    "traits": "Monstre. Geist."
-  }
+    {
+        "code": "90049",
+        "flavor": "« Je sais que je peux faire danser les Morts. »",
+        "name": "Jim Culver",
+        "subname": "Le Musicien",
+        "text": "[reaction] Après avoir révélé 1 pion [skull] ou [curse] ou plus durant un test que vous effectuez : reconstituez 1 charge sur un soutien que vous contrôlez. (Limite d'une fois par round.)\n[elder_sign] effet : +2. vous pouvez traiter ce pion comme s'il s'agissait d'un pion [skull] ou [curse] à la place.",
+        "traits": "Interprète. Maudit.",
+        "back_flavor": "Le jazz n'a apporté que des ennuis à Jim depuis le jour où il a pris la trompette de son père. Mais il est certain que les Morts aiment quand il joue, Jim n'a donc pas l'intention de s'arrêter.",
+        "back_text": "<b>Taille du Deck</b>: 30.\n<b>Construction du Deck</b>: Cartes Mystique ([mystic]) de niveaux 0 à 3, cartes [[Sortl]] et [[Maudit]] de niveaux 0 à 4, cartes neutres de niveaux 0 à 5, jusqu'à 5 autres cartes Survivant ([survivor]) de niveau 0.\n<b>Restrictions de Deck</b> (ne comptent pas dans la limite de taille du deck) : La Trompette de Jim, Dernière Rhapsodie, L'Au-delà, 1 faiblesse de base au hasard.\n<b>Taille du Deck Esprit</b>: 10.\n<b>Construction du Deck Esprit</b>: 9 soutiens [[Alliés]] différents de n'importe quelle classe de niveaux 0 à 2, Ombre Vengeresse.\n<b>Instructions du Deck Esprit</b>: Mélangez le deck Esprit séparément de votre deck et placez-le à côté du soutien L'Au-delà, face cachée. Ce deck peut être amélioré séparément, en utilisant l'expérience non dépensée."
+    },
+    {
+        "code": "90050",
+        "name": "La Trompette de Jim",
+        "subname": "Les Morts Parlent",
+        "text": "Deck de Jim Culver uniquement. Avancée.\n[reaction] Quand un pion [skull] ou [curse] est révélé durant un test de compétence que vous effectuez, inclinez la Trompette de Jim : soignez 1 horreur de chaque investigateur et soutien [[Allié]] dans votre lieu ou dans un lieu adjacent.",
+        "traits": "Objet. Instrument. Relique.",
+        "slot": "Hand"
+    },
+    {
+        "code": "90051",
+        "flavor": "Quand les Morts commencent à parler de ce qui les effraie, il est temps d'écouter.",
+        "name": "Dernière Rhapsodie",
+        "text": "Avancée.\n<b>Révélation</b> - Révélez 5 pions Chaos depuis la réserve du Chaos. Pour chaque pion non-[elder_sign] et non-[bless] révélé, subissez 1 dégât et 1 horreur.",
+        "traits": "Fin des Temps."
+    },
+    {
+        "code": "90052",
+        "name": "L'Au-delà",
+        "subname": "Le Sombre Monde d'En-bas",
+        "text": "Deck de Jim Culver uniquement. Permanent.\nChaque esprit attaché perd tous ses traits imprimés et gagne le trait [[Geist]]. Quand des dégâts/horreurs devrait être placés sur un esprit attaché, ils doivent être placés sur Jim Culver à la place.\n<b>Forcé</b> – Quand votre tour commence : attachez la carte du dessus de votre deck Esprit à L'Au-delà, en temps qu'esprit. Si 4 esprits ou plus sont attachés, retournez cette carte et résolvez son texte.",
+        "traits": "Sanctum. Spectral."
+    },
+    {
+        "code": "90052b",
+        "name": "L'Au-delà",
+        "text": "<b>Forcé</b> – Un à la fois, choisissez chaque esprit non-faiblesse attaché à L'Au-delà et révélez 1 pion au hasard depuis la réserve du Chaos. S’il s’agit...\n- ... d’un pion [elder_sign] : vous pouvez soit soigner 1 horreur, soit attacher la carte du dessus de votre deck Esprit à L'Au-delà, en tant qu'esprit. <i>(Ne révélez pas de pions pour l'esprit que vous avez attaché en résolvant cet effet.)</i>\n- ... d’un pion [auto_fail] : défaussez cet esprit. Subissez 1 dégât/horreur direct.\n- ... d’un pion [skull]  : défaussez cet esprit. Soignez 1 horreur.\n- … d'un pion [cultist], [elder_thing], [tablet] ou [curse] : vous devez soit défausser cet esprit, soit subir 1 dégât direct.\n- … de tout autre pion : défaussez cet esprit.\nRetournez cette carte sur son côté soutien.\n<hr><b>Rappel :</b> <i>Les esprits attachés à L'Au-delà sont en jeu, mais seulement avec leurs noms et leur boîte de texte. Les esprits n'occupent pas d’emplacement et n'ont pas de valeur de vie et de santé mentale. Quand un esprit unique est attaché à l'Au-delà, tout autre soutien qui partage son nom et qui est déjà en jeu est défaussé. Les esprits sont toujours défaussés </i> <b>sous</b> <i>le deck Esprit.</i>"
+    },
+    {
+        "code": "90053",
+        "name": "Ombre Vengeresse",
+        "text": "Chasseur. <b>Proie</b> – Jim Culver uniquement.\nVous pouvez combattre ou échapper à cet ennemi pendant qu'il est attaché à L'Au-delà (comme s'il était engagé avec vous). Si vous réussissez, défaussez cette carte. Si vous échouez, générez-le engagé avec vous.\n<b>Forcé</b> – Quand vous attachez un esprit à L'Au-delà par cet effet forcé : l'Ombre Vengeresse vous attaque <i>(même si elle n'est pas dans votre lieu)</i>.",
+        "traits": "Monstre. Geist."
+    }
 ]

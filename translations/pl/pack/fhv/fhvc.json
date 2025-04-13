@@ -48,6 +48,143 @@
         "back_text": "Check the following:\n- If an investigator controls Simeon Atwood, <b>(→R1)</b>.\n- If an investigator controls Leah Atwood, <b>(→R2)</b>.\n- If Simeon Atwood is set aside or still in play and not under the control of an investigator, <b>(→R3)</b>.\n- If Leah Atwood is set aside or still in play and not under the control of an investigator, <b>(→R4)</b>. \n- If none of the above is true, <b>(→R5)</b>."
     },
     {
+        "code": "10507",
+        "name": "Mine Cart",
+        "subname": "Reliable but Broken",
+        "text": "<b>Forced</b> - At the end of the enemy phase: Move Mine Cart once. If it moves off the rail line, each investigator is defeated and suffers 1 physical trauma.\n[reaction] When Mine Cart moves, spend 1 switch: Either cancel the move, or move an additional time. (Group limit twice per phase.)",
+        "traits": "Vehicle. Cart."
+    },
+    {
+        "code": "10508",
+        "flavor": "The back of the station is filled with crates of very old dynamite and stocks of gunpowder.",
+        "name": "Control Station",
+        "text": "[fast] During your turn: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
+        "traits": "Rail. Station.",
+        "back_flavor": "The lantern in the shed is lit. Who was here before you?",
+        "back_text": "As an additional cost to enter Control Station, investigators at an adjacent location must spend 2[per_investigator] clues, as a group."
+    },
+    {
+        "code": "10509",
+        "flavor": "Scratch marks score the walls and beams nearby. You shudder to think of the frenzied creatures who have excaped North Point Mine to hunt for their next meal.",
+        "name": "Rail Exit",
+        "text": "Rail Exit cannot be slid or swapped.",
+        "traits": "Rail.",
+        "back_flavor": "The inviting glow of lamps and the scent of fresh air surely means there is another exit.",
+        "back_text": "Rail Exit cannot be slid or swapped."
+    },
+    {
+        "code": "10510a",
+        "flavor": "The crystals emanate a strange light.",
+        "name": "Left Turn",
+        "text": "[action] [action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10510b",
+        "flavor": "The crystals emanate a strange light.",
+        "name": "Left Turn",
+        "text": "[action] Spend 2 resources: Slide a location into an empty space adjacent to it. (Group limit once per game.)",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10511a",
+        "flavor": "A strange light emanates from the crystals.",
+        "name": "Right Turn",
+        "text": "[action] [action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10511b",
+        "flavor": "A strange light emanates from the crystals.",
+        "name": "Right Turn",
+        "text": "[action] Spend 2 resources: Slide a location into an empty space adjacent to it. (Group limit once per game.)",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10512",
+        "flavor": "The tunnel is choked with a blood-red mist. Every breath induces a painful fit of coughing.",
+        "name": "Alkaline Rail",
+        "text": "<b>Forced</b> - At the end of the round: Deal 1 horror to each investigator and [[Resident]] asset at Alkaline Rail.",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10513",
+        "flavor": "Looking down the spiraling tunnel makes your head swim.",
+        "name": "Warped Rail",
+        "text": "<b>Forced</b> - After the Mine Cart enters Warped Rail: Move the Mine Cart once.",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10514",
+        "flavor": "What really lurks underwater?",
+        "name": "Sunken Rail",
+        "text": "<b>Forced</b> - After Sunken Rail is revealed: Discard cards from the top of the encounter deck until an enemy is discarded. The lead investigator draws that enemy.",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10515",
+        "flavor": "The air smells less foul down two passages. But should you really follow your nose?",
+        "name": "Forked Rail",
+        "text": "<b>Forced</b> - At the end of the round, if the Mine Cart is at Forked Rail: Discard 1 switch from the scenario reference card.",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10516",
+        "flavor": "The minerals in the rock glimmer like stars.",
+        "name": "Rail Bridge",
+        "text": "X is Rail Bridge's column number.\n[action] Spend 1 [per_investigator] resources: Place 1 resource on the scenario reference card, as a switch. (Group limit once per round.)",
+        "traits": "Rail.",
+        "back_name": "Rail Tunnel",
+        "back_flavor": "These tracks really don't look safe."
+    },
+    {
+        "code": "10517",
+        "name": "Subterranean Beast",
+        "text": "Hunter. Massive.\nSubterranean Beast gets +3 [per_investigator] health.\nIf Subterranean Beast is ready and at the Mine Cart's location, the Mine Cart cannot move.\n[action] Spend 1 [per_investigator] clues: Exhaust Subterranean Beast. It cannot ready this round.",
+        "traits": "Abomination. Mutated. Elite."
+    },
+    {
+        "code": "10518",
+        "flavor": "It definitely doesn't just eat worms.",
+        "name": "Burrowing Hybrid",
+        "text": "Hunter.\n<b>Forced</b> - After Burrowning Hybrid enters play, if the Mine Cart is facing a connecting location: Slide that location into an adjacent empty space. If you cannot, swap it with a location adjacent to it.",
+        "traits": "Creature. Mutated."
+    },
+    {
+        "code": "10519",
+        "name": "Frenzied Miner",
+        "text": "Hunter.\nX is Frenzied Miner's column number.\n<b>Forced</b> - After Frenzied Miner attacks you: Deal 1 damage to each other investigator and [[Resident]] asset at this location.",
+        "traits": "Humanoid."
+    },
+    {
+        "code": "10520",
+        "name": "Cave-In",
+        "text": "<b>Revelation</b> - Attach Cave-In to the location the Mine Cart is facing. If you cannot, Cave-In gains surge.\n<b>Forced</b> - When the Mine Cart would move into attached location: Cancel the move and deal 2 damage to each investigator and [[Resident]] asset in the Mine Cart.\n[action]: Test [combat] or [agility] (2). If you succeed, discard Cave-In. An investigator at an adjacent location may trigger this ability.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "10521",
+        "name": "Wild Ride",
+        "text": "<b>Revelation</b> - Test [agility] (5). If you fail, put Wild Ride into play in your threat area.\n<b>Forced</b> - When the Mine Cart moves: Either move it 2 additional times, or deal 1 direct damage and 1 direct horror to each investigator, [[Ally]] asset, and [[Resident]] card they control. Discard Wild Ride.",
+        "traits": "Hazard."
+    },
+    {
         "code": "10522",
         "name": "Pryzmatyczny odłamek",
         "subname": "Obcy meteoryt",
@@ -970,6 +1107,7 @@
     {
         "code": "10622",
         "name": "Deep Shadows",
+        "text": "<b>Revelation</b> - Test [willpower] (3). This test gets +2 difficulty if your location is [[Dark]]. If you fail, you must either <i>(choose one)</i>:\n- Take 2 horror.\n- The investigator who controls the Vale Lantern flips it to its [[Unlit]] side and places it at a connecting location.",
         "traits": "Hazard."
     },
     {
@@ -1440,6 +1578,13 @@
         "traits": "Terror."
     },
     {
+        "code": "10675",
+        "name": "Day One",
+        "text": "<i>In which we welcome new friends to Hemlock Vale.</i>",
+        "back_name": "Night One",
+        "back_text": "<i>In which the forest comes alive with many creatures, great and small.</i>"
+    },
+    {
         "code": "10676",
         "flavor": "\"Most of the creatures seemed not quite usual in their aspects and motions...\"\n - H.P. Lovecraft, \"The Colour Out of Space\"",
         "name": "Swarm",
@@ -1447,11 +1592,25 @@
         "traits": "Hazard."
     },
     {
+        "code": "10677",
+        "name": "Day Two",
+        "text": "<i>In which we prepare for the Feast under a blanket of rain.</i>",
+        "back_name": "Night Two",
+        "back_text": "<i>In which we remember our place in the cosmos.</i>"
+    },
+    {
         "code": "10678",
         "flavor": "\"...there descended such a blinding sheet of torrential rain that shelter became imperative.\"\n - H.P. Lovecraft, \"The Lurking Fear\"",
         "name": "Downpour",
         "text": "<b>Revelation</b> – Test [intellect] (3). For each point you fail by, you must either lose 1 action or place 1 of your clues on your location.",
         "traits": "Hazard."
+    },
+    {
+        "code": "10679",
+        "name": "Day Three",
+        "text": "<i>In which we celebrate the joy of transfiguration.</i>",
+        "back_name": "Night Three",
+        "back_text": "<i>In which we take our place in infinity.</i>"
     },
     {
         "code": "10680",
@@ -1581,11 +1740,24 @@
         "traits": "Mieszkaniec."
     },
     {
+        "code": "10693b",
+        "name": "Mother Rachel",
+        "text": "Aloof. Retaliate.\nMother Rachel gets +2 [per_investigator] health.\n<b>Forced</b> - After you deal 1 or more damage to Mother Rachel: Choose a different [[Resident]] enemy at her location. That enemy attacks you.",
+        "traits": "Humanoid. Resident. Elite."
+    },
+    {
         "code": "10694",
         "name": "Leah Atwood",
         "subname": "Kucharka Doliny",
         "text": "Dopóki kontrolujesz Leah Atwood, dostajesz +1 [combat].\n[action]: <b>Pertraktacje.</b> Wykonaj test [combat](2). Jeśli zakończy się sukcesem, <b>([codex] 2)</b>.\n<b>Wymuszony</b> - Po tym, jak Leah Atwood zostanie pokonana: odłóż ją na bok, poza grę. Zmniejsz stopień zażyłości z nią w Dzienniku kampanii.",
         "traits": "Mieszkaniec."
+    },
+    {
+        "code": "10694b",
+        "flavor": "\"Just get out of here. Nobody wants you here.\"",
+        "name": "Leah Atwood",
+        "text": "Retaliate.\n[action]: <b>Parley.</b> Test [combat] (5). If you succeed, set Leah Atwood aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
     },
     {
         "code": "10695",
@@ -1595,11 +1767,25 @@
         "traits": "Mieszkaniec."
     },
     {
+        "code": "10695b",
+        "flavor": "\"Wanna see a magic trick? I can make this grass disappear. All of it.\"",
+        "name": "Simeon Atwood",
+        "text": "Elusive. Hunter.\n[action]: <b>Parley.</b> Test [agility] (5). If you succeed, set Simeon Atwood aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
+    },
+    {
         "code": "10696",
         "name": "William Hemlock",
         "subname": "Aspirujący poeta",
         "text": "Dopóki kontrolujesz Williama Hemlocka, dostajesz +1 [intellect].\n[action]: <b>Pertraktacje.</b> Wykonaj test [intellect](2). Jeśli zakończy się sukcesem, <b>([codex] 4)</b>.\n<b>Wymuszony</b> - Po tym, jak William Hemlock zostanie pokonany: odłóż go na bok, poza grę. Zmniejsz stopień zażyłości z nim w Dzienniku kampanii.",
         "traits": "Mieszkaniec."
+    },
+    {
+        "code": "10696b",
+        "flavor": "\"I will do what I must to protect my family's legacy.\"",
+        "name": "William Hemlock",
+        "text": "Elusive.\n[action]: <b>Parley.</b> Test [intellect] (5). If you succeed, set William Hemlock aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
     },
     {
         "code": "10697",
@@ -1609,11 +1795,23 @@
         "traits": "Mieszkaniec."
     },
     {
+        "code": "10697b",
+        "name": "River Hawthorne",
+        "text": "Aloof. Hunter.\nThe first treachery drawn at River Hawthorne's location each round gains surge.\n[action]: <b>Parley.</b> Test [willpower] (5). If you succeed, set River Hawthorne aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
+    },
+    {
         "code": "10698",
         "name": "Gideon Mizrah",
         "subname": "Doświadczony marynarz",
         "text": "Dopóki kontrolujesz Gideona Mizraha, masz 1 dodatkową strefę drobiazgu.\n[action] [action]: <b>Pertraktacje.</b> <b>([codex] 6)</b>.\n<b>Wymuszony</b> - Po tym, jak Gideon Mizrah zostanie pokonany: odłóż go na bok, poza grę. Zmniejsz stopień zażyłości z nim w Dzienniku kampanii.",
         "traits": "Mieszkaniec."
+    },
+    {
+        "code": "10698b",
+        "name": "Gideon Mizrah",
+        "text": "Retaliate.\n<b>Forced</b> - After Gideon Mizrah attacks you: Discard 1 card at random from your hand.\n[action] [action] [action]: <b>Parley.</b> Set Gideon Mizrah aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
     },
     {
         "code": "10699",
@@ -1623,6 +1821,13 @@
         "traits": "Mieszkaniec."
     },
     {
+        "code": "10699b",
+        "flavor": "\"Don't make me do this.\"",
+        "name": "Judith Park",
+        "text": "Hunter. Retaliate.\n[action] Spend 5 resources: <b>Parley.</b> Set Judith Park aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
+    },
+    {
         "code": "10700",
         "name": "Theo Peters",
         "subname": "Złota rączka",
@@ -1630,11 +1835,24 @@
         "traits": "Mieszkaniec."
     },
     {
+        "code": "10700b",
+        "flavor": "\"We're all family here. Except for you!\"",
+        "name": "Theo Peters",
+        "text": "Elusive. Alert.\n[action] Discard 3 cards at random from your hand: <b>Parley.</b> Set Theo Peters aside, out of play.",
+        "traits": "Humanoid. Resident. Elite."
+    },
+    {
         "code": "10701",
         "name": "Bertie Musgrave",
         "subname": "Prawdziwy esteta",
         "text": "Dopóki kontrolujesz Bertiego Musgrave'a, dostajesz +1 wytrzymałości i +1 poczytalności\n[fast] Otrzymaj 1 obrażenie lub 1 punkt przerażenia i wyczerp Bertiego Musgrave'a: <b>Pertraktacje.</b> Dobierz 1 kartę <b>([codex] Ω)</b>.\n<b>Wymuszony</b> - Po tym, jak Bertie Musgrave zostanie pokonany: odłóż go na bok, poza grę.",
         "traits": "Mieszkaniec."
+    },
+    {
+        "code": "10701b",
+        "name": "Bertie Musgrave",
+        "text": "Aloof. Patrol (Mother Rachel's location).\n<b>Forced</b> - When damage would be assigned to a [[Resident]] enemy at Bertie Musgrave's location and he is ready: It is assigned to Bertie Musgrave, instead.\n<b>Forced</b> - After Bertie Musgrave is defeated: <b>([codex] Ω)</b>.",
+        "traits": "Humanoid. Miskatonic."
     },
     {
         "code": "10702",
