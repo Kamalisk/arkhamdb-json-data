@@ -413,7 +413,7 @@
             "type": "integer"
         },
         "slot": {
-            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `"Accessory"`, `"Ally"`, `"Arcane"`, `"Arcane x2"`, `"Body"`, `"Hand"`, `"Hand x2"`. For a card occupying multiple slots, separate slots with a `.`.",
+            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `\"Accessory\"`, `\"Ally\"`, `\"Arcane\"`, `\"Arcane x2\"`, `\"Body\"`, `\"Hand\"`, `\"Hand x2\"`. For a card occupying multiple slots, separate slots with a `.`.",
             "minLength": 1,
             "type": "string"
         },
@@ -433,7 +433,7 @@
             "type": "string"
         },
         "tags": {
-            "description": "Card tags are used to accommodate special deck building rules that are hard to filter for otherwise.",
+            "description": "Card tags are used to accommodate special deck building rules that are hard to filter for otherwise. A list of available tags can be found in the README.",
             "minLength": 0,
             "type": "string"
         },
