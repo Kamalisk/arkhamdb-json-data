@@ -1,9 +1,9 @@
 [
     {
         "code": "71001",
-        "name": "The Midwinter Gala",
-        "text": "Easy / Standard\n[skull]: -X. X is the current agenda number.\n[cultist]: -X. X is the number of [[Guest]] assets at your location (to a maximum of 5).\n[tablet]: -2. (-4 instead if you are at a [[Private]] location).\n[elder_thing]: -3. If you fail or if The Bloodless Man is at your location, take 1 horror.",
-        "back_text": "Hard / Expert\n[skull]: -X. X is 1 plus the current agenda number.\n[cultist]: -X. X is the number of story assets at your location.\n[tablet]: -3 (-5 instead if you are at a [[Private]] location).\n[elder_thing]: -4. If you fail or if The Bloodless Man is at your location, take 1 horror."
+        "name": "Zimowa Gala",
+        "text": "ŁATWY / STANDARDOWY\n[skull]: -X. X to numer aktualnej tajemnicy.\n[cultist]: -X. X to liczba atutów z cechą [[Gość]] w twojej lokalizacji (maksymalnie 5).\n[tablet]: -2 (zamiast tego -4, jeśli znajdujesz się w lokalizacji z cechą [[Prywatna]]).\n[elder_thing]: -3. Jeśli test zakończy się porażką lub w twojej lokalizacji znajduje się Człowiek bez Krwi, otrzymujesz 1 punkt przerażenia.",
+        "back_text": "TRUDNY / EKSPERCKI\n[skull]: -X. X to o 1 więcej niż numer aktualnej tajemnicy.\n[cultist]: -X. X to liczba atutów fabularnych w twojej lokalizacji.\n[tablet]: -3 (zamiast tego -5, jeśli znajdujesz się w lokalizacji z cechą [[Prywatna]]).\n[elder_thing]: -4. Jeśli test zakończy się porażką lub w twojej lokalizacji znajduje się Człowiek bez Krwi, otrzymujesz 1 punkt przerażenia."
     },
     {
         "code": "71002",
@@ -51,124 +51,124 @@
     },
     {
         "code": "71007",
-        "flavor": "The winter chill lingers in your bones. Something feels wrong.",
-        "name": "Lobby",
-        "text": "[fast] If the current agenda is 2a or 3a, spend 1 [per_investigator] resources: Someone is fashionably late. Reveal the top card of the Guest deck and put it into play at this location. (Group limit once per round.)",
-        "traits": "Manor. Ground Floor.",
-        "back_flavor": "The front door of the mansion leads to a room filled with art, attendees, and a beautiful chandelier. Grab yourself a drink; it could be a long night."
+        "flavor": "Zimowy chłód przeszywa was do szpiku kości. Coś tu nie gra...",
+        "name": "Hol",
+        "text": "[fast] Jeśli trwa tajemnica 2a lub 3a, wydaj 1 [per_investigator] żetonów zasobów: ktoś dotarł nieźle po czasie. Odkryj wierzchnią kartę z talii Gości i umieść ją w grze w tej lokalizacji. (Limit grupowy raz na rundę).",
+        "traits": "Posiadłość. Parter.",
+        "back_flavor": "Drzwi wejściowe prowadzą do pomieszczenia pełnego dzieł sztuki, licznych gości i przykuwającym wzrok żyrandolem. Poczęstuj się drinkiem, to będzie długa noc."
     },
     {
         "code": "71008",
-        "name": "Lantern Chamber",
-        "text": "[fast] During your turn, name a card: Draw the top card of the encounter deck. If it is the named card, cancel its effects and discard it. Discover 1 clue at this location. (Limit once per turn.)\n[action] If this location has no clues: Test [willpower] (4). If you succeed, flip over any spellbound card.",
-        "traits": "Manor. Private. Basement.",
-        "back_flavor": "You feel an icy chill when you put your hand on the knob to the silent sanctum.",
-        "back_text": "As an additional cost to enter this location, you must take 1 horror."
+        "name": "Komnata Latarni",
+        "text": "[fast] Podczas twojej tury wymień nazwę karty: dobierz wierzchnią kartę z talii spotkań. Jeśli dobrana została wymieniona karta, anuluj jej efekty i ją odrzuć. Odkryj 1 żeton wskazówki w tej lokalizacji. (Limit raz na turę).\n[action] Jeśli w tej lokalizacji nie ma żadnych żetonów wskazówek: wykonaj test [willpower] (4). Jeśli test zakończy się sukcesem, odwróć dowolną owładniętą kartę.",
+        "traits": "Posiadłość. Prywatna. Piwnica.",
+        "back_flavor": "Kładąc dłoń na gałce od drzwi tego cichego sanktuarium, czujesz mroźne ukłucie.",
+        "back_text": "Jako dodatkowy koszt wejścia do tej lokalizacji, musisz otrzymać 1 punkt przerażenia."
     },
     {
         "code": "71009",
-        "flavor": "There's nothing quite like the pieces on display here.",
-        "name": "Art Gallery",
-        "text": "[action]: There's more to be discovered in this room full of strange works of art. Place up to 2 clues <i>(from the token pool)</i> on this location. Gain 2 resources. (Group limit once per round.)",
-        "traits": "Manor. Ground Floor.",
-        "back_name": "Ground-Floor Room",
-        "back_flavor": "The stately halls are filled with the sound of music and laughter."
+        "flavor": "Prezentowane tu eksponaty to górna półka awangardy.",
+        "name": "Galeria sztuki",
+        "text": "[action]: W tym pełnym dzieł sztuki pokoju kryje się więcej, niż widać na pierwszy rzut oka. Umieść do 2 żetonów wskazówek <i>(z puli żetonów)</i> w tej lokalizacji. Zyskaj 2 żetony zasobów. (Limit grupowy raz na rundę).",
+        "traits": "Posiadłość. Parter.",
+        "back_name": "Pokój na parterze",
+        "back_flavor": "Okazałe pomieszczenia wypełnia muzyka i śmiech."
     },
     {
         "code": "71010",
-        "flavor": "They're playing \"Sogno e Follia in D Minor\" by a little known composer named E. Zann.",
-        "name": "Ballroom",
-        "text": "[action]: <b>Parley.</b> You persuade two of the guests to have a dance. Exhaust 2 [[Guest]] assets at this location. Then, heal 1 horror from each of them.",
-        "traits": "Manor. Ground Floor.",
-        "back_name": "Ground-Floor Room",
-        "back_flavor": "The stately halls are filled with the sound of music and laughter."
+        "flavor": "Grają jeden z utworów mniej znanego kompozytora, niejakiego E. Zanna.",
+        "name": "Sala balowa",
+        "text": "[action]: <b>Pertraktacje.</b> Zachęcasz parę gości do wyjścia na parkiet. Wyczerp 2 atuty z cechą [[Gość]] w tej lokalizacji. Następnie wylecz po 1 punkcie przerażenia z każdego z nich.",
+        "traits": "Posiadłość. Parter.",
+        "back_name": "Pokój na parterze",
+        "back_flavor": "Okazałe pomieszczenia wypełnia muzyka i śmiech."
     },
     {
         "code": "71011",
-        "flavor": "\"This jag juice has a nice kick!\"",
-        "name": "Barroom",
-        "text": "[fast] Spend 1 resource: Buy a drink! Heal 1 damage or 1 horror from an investigator or [[Guest]] asset at this location. (Group limit once per round.)",
-        "traits": "Manor. Ground Floor.",
-        "back_name": "Ground-Floor Room",
-        "back_flavor": "The stately halls are filled with the sound of music and laughter."
+        "flavor": "„Nieźle pali w gardzioł!”",
+        "name": "Bar",
+        "text": "[fast] Wydaj 1 żeton zasobu: kupujesz drinka! Wylecz 1 obrażenie lub 1 punkt przerażenia z atutu z cechą [[Gość]] lub badacza w tej lokalizacji. (Limit grupowy raz na rundę).",
+        "traits": "Posiadłość. Parter.",
+        "back_name": "Pokój na parterze",
+        "back_flavor": "Okazałe pomieszczenia wypełnia muzyka i śmiech."
     },
     {
         "code": "71012",
-        "name": "Bedroom",
-        "text": "[action] Choose an enemy at any [[Second Floor]] location: <b>Fight.</b> You may use [agility] instead of [combat] for this attack. If you succeed, you may spend 1 clue for this attack to deal +2 damage. (Limit once per turn.)",
-        "traits": "Manor. Private. Second Floor.",
-        "back_name": "Second-Floor Room",
-        "back_flavor": "The second floor is eerily silent."
+        "name": "Sypialnia",
+        "text": "[action] Wybierz wroga w dowolnej lokalizacji z cechą [[Pierwsze piętro]]: <b>Walka.</b> Do tego ataku możesz użyć twojej [agility] zamiast twojej [combat]. Jeśli test zakończy się sukcesem, możesz wydać 1 żeton wskazówki, aby ten atak zadał +2 obrażenia. (Limit raz na turę).",
+        "traits": "Posiadłość. Prywatna. Pierwsze piętro.",
+        "back_name": "Pokój na piętrze",
+        "back_flavor": "Na piętrze jest wyjątkowo cicho."
     },
     {
         "code": "71013",
-        "name": "Library",
-        "text": "You get +1 skill value while parleying at this location.\n[fast] If the Jewel of Sarnath is at this location: Test [intellect] (3). If you succeed, either place 1 damage on the Jewel of Sarnath or remove 1 token from it. (Group limit once per game.)",
-        "traits": "Manor. Private. Second Floor.",
-        "back_name": "Second-Floor Room",
-        "back_flavor": "The second floor is eerily silent."
+        "name": "Biblioteka",
+        "text": "Otrzymujesz +1 do wartości umiejętności podczas pertraktacji w tej lokalizacji.\n[fast] Jeśli Klejnot Sarnathu znajduje się w tej lokalizacji: wykonaj test [intellect] (3). Jeśli test zakończy się sukcesem, umieść 1 obrażenie na Klejnocie Sarnathu lub usuń z niego 1 żeton. (Limit grupowy raz na grę.)",
+        "traits": "Posiadłość. Prywatna. Pierwsze piętro.",
+        "back_name": "Pokój na piętrze",
+        "back_flavor": "Na piętrze jest wyjątkowo cicho."
     },
     {
         "code": "71014",
-        "flavor": "A moon-beast in a bottle? How bizarre.",
-        "name": "Parlor",
-        "text": "This location gets -1 shroud for each [[Guest]] asset at it (to a minimum of 1 shroud).\n[fast] If you control the Jewel of Sarnath: Exhaust an enemy at any location. (Group limit once per game.)",
-        "traits": "Manor. Private. Second Floor.",
-        "back_name": "Second-Floor Room",
-        "back_flavor": "The second floor is eerily silent."
+        "flavor": "Księżycowa bestia w butelce? Dziwne...",
+        "name": "Salon",
+        "text": "Ta lokalizacja dostaje -1 do wartości zasłony za każdy atut z cechą [[Gość]], który się w niej znajduje (do minimalnie 1 wartości zasłony).\n[fast] Jeśli kontrolujesz Klejnot Sarnathu: wyczerp wroga w dowolnej lokalizacji. (Limit grupowy raz na grę.)",
+        "traits": "Posiadłość. Prywatna. Pierwsze piętro.",
+        "back_name": "Pokój na piętrze",
+        "back_flavor": "Na piętrze jest wyjątkowo cicho."
     },
     {
         "code": "71015",
-        "flavor": "The 'authorities' seem to want you to acquire the Jewel by force. Good luck taking it from the Bloodless Man.",
-        "name": "The Foundation [guardian]",
-        "text": "<b>Forced</b> - When The Bloodless Man <i>(Unleashed)</i> is defeated: If the Jewel of Sarnath is attached to him, attach it to his location.\n[action] If the Jewel of Sarnath is at your location and The Bloodless Man is not in play: Take control of the Jewel of Sarnath and place 1 damage on it.\n<b>Objective</b> - At the end of the round, if the investigators control the Jewel of Sarnath, they may spend 2 [per_investigator] clues, as a group, to advance the act.\n<b>End of game scoring:</b>\n4 points if no non-weakness enemies are in play (2 points instead if exactly one non-weakness enemy is in play).",
-        "traits": "Allied."
+        "flavor": "„Władze” oczekują, że siłą zdobędziecie dla nich Klejnot. Powodzenia w odebraniu go Człowiekowi bez Krwi.",
+        "name": "Fundacja [guardian]",
+        "text": "<b>Wymuszony</b> – Kiedy Człowiek bez Krwi <i>(Uwolniony)</i> zostanie pokonany: jeśli Klejnot Sarnathu jest do niego dołączony, dołącz Klejnot do jego lokalizacji.\n[action] Jeśli Klejnot Sarnathu znajduje się w twojej lokalizacji i Człowiek bez Krwi nie znajduje się w grze: przejmij kontrolę nad Klejnotem Sarnathu i umieść na nim 1 obrażenie.\n<b>Cel</b> – Na koniec rundy, jeśli badacze kontrolują Klejnot Sarnathu, mogą wydać, jako grupa, 2 [per_investigator] żetonów wskazówek, aby spowodować postęp talii aktów.\n<b>Końcowa punktacja:</b>\n4 punkty, jeżeli w grze nie ma żadnego wroga innego niż osłabienie (zamiast tego 2 punkty, jeżeli w grze jest dokładnie 1 wróg inny niż osłabienie).",
+        "traits": "Sprzymierzona."
     },
     {
         "code": "71015b",
-        "flavor": "The Foundation doesn't take kindly to your interest in the Jewel. If you make a show of force, you might convince them to back down.",
-        "name": "The Foundation [guardian]",
-        "text": "<b>Setup:</b> Shuffle the set-aside Rookie Cop enemy into the encounter deck. Put the set-aside Valeriya Antonova card into play at the lead investigator's location, enemy side faceup.\n[action] If Valeriya Antonova is at your location: <b>Parley.</b> Test [combat] (3). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Valeriya Antonova to the victory display. Search the encounter deck, encounter discard pile, and all play areas for Rookie Cop and remove it from the game. If the encounter deck was searched, shuffle it.",
-        "traits": "Rival."
+        "flavor": "Fundacji nie w smak jest wasze zainteresowanie Klejnotem. Jeśli będziecie twardzi, być może odpuszczą.",
+        "name": "Fundacja [guardian]",
+        "text": "<b>Przygotowanie:</b> Wtasuj odłożonego na bok wroga Początkujący gliniarz do talii spotkań. Umieść odłożoną na bok kartę Valeriya Antonova w grze, w lokalizacji głównego badacza, stroną wroga do góry.\n[action] Jeśli Valeriya Antonova znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Wykonaj test [combat] (3). Jeśli test zakończy się sukcesem, umieść 1 z twoich żetonów wskazówek na tej karcie fabuły.\n<b>Wymuszony </b> - Kiedy na tej karcie fabuły znajduje się 1 + 1 [per_investigator] żetonów wskazówek: dodaj ją oraz Valeriye Antonove do puli zwycięstwa. Przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz obszary gry w poszukiwaniu Początkującego gliniarza i usuń go z gry. Jeśli przeszukałeś talię spotkań, potasuj ją.",
+        "traits": "Rywal."
     },
     {
         "code": "71016",
         "name": "Valeriya Antonova",
-        "subname": "Wants Out of Here",
-        "text": "You get +1 [combat].\n[action] Exhaust Valeriya Antonova: Ready another [[Guest]] asset at your location. You get +1 to your next skill test this round for each [[Guest]] asset at your location.\n<b>Forced</b> - When Valeriya Antonova leaves play: Remove her from the game.",
-        "traits": "Leader. Guest. Agency."
+        "subname": "Chce się stąd wyrwać",
+        "text": "Dostajesz +1 [combat].\n[action] Wyczerp Valeriye Antonove: przygotuj inny atut z cechą [[Gość]] w twojej lokalizacji. Dostajesz +1 do wartości umiejętności do twojego kolejnego testu umiejętności w tej rundzie, za każdy atut z cechą [[Gość]] w twojej lokalizacji.\n<b>Wymuszony</b> - Kiedy Valeriya Antonova opuszcza grę: usuń ją z gry.",
+        "traits": "Lider. Gość. Agencja."
     },
     {
         "code": "71016b",
         "name": "Valeriya Antonova",
-        "subname": "Don't Mess With Her",
-        "text": "Aloof. Hunter.\nValeriya Antonova cannot be damaged.\nEach investigator at this location gets -1 to each of their skills if they control an exhausted [[Guest]] asset.\n<b>Forced</b> - When the round ends: Exhaust each [[Guest]] asset at this location.",
-        "traits": "Humanoid. Leader. Rival. Elite."
+        "subname": "Nie zadzieraj z nią",
+        "text": "Powściągliwy. Łowca.\nValeriya Antonova nie może otrzymać obrażeń.\nKażdy badacz w tej lokacji otrzymuje -1 do wartości umiejętności, jeśli kontroluje wyczerpany atut z cechą [[Gość]].\n<b>Wymuszony</b> – Koniec rundy: wyczerp każdy atut z cechą [[Gość]] w tej lokalizacji.",
+        "traits": "Humanoid. Przywódca. Rywal. Elitarny."
     },
     {
         "code": "71017",
         "name": "Archibald Hudson",
-        "subname": "Astute Agent",
-        "text": "[fast] During your turn, exhaust Archibald Hudson: Search the top 9 cards of the encounter deck for an enemy, draw it, and shuffle the encounter deck. Then, exhaust that enemy and gain 3 resources.\n[action] Spend 1 resource: Move 1 damage from an asset at our location to a non-[[Elite]] enemy at your location.",
-        "traits": "Ally. Guest. Agency.",
-        "slot": "Ally"
+        "subname": "Bystry agent",
+        "text": "[fast] Podczas twojej tury, wyczerp Archibalda Hudsona: przeszukaj 9 wierzchnich kart z talii spotkań w poszukiwa-niu dowolnego wroga, dobierz go i potasuj talię spotkań. Następnie wyczerp danego wroga i zyskaj 3 żetony zasobów.\n[action] Wydaj 1 żeton zasobu: porusz 1 obrażenie z atutu w twojej lokalizacji na nie-[[Elitarnego]] wroga w twojej lokalizacji.",
+        "traits": "Sprzymierzeniec. Gość. Agencja.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71018",
-        "flavor": "\"Say hello to my lil' boy, Tommy!\"",
-        "name": "Special Agent Callahan",
-        "subname": "Weapons Expert",
-        "text": "[action]: <b>Fight.</b> Reduce the difficulty of this test by 1.\n[reaction] After you trigger an [action] ability on an [[Ally]] or [[Weapon]] asset, exhaust Special Agent Callahan: Deal 1 damage to an enemy at your location.",
-        "traits": "Ally. Guest. Agency.",
-        "slot": "Ally"
+        "flavor": "„Przywitaj się z moim gnatem, Tommym!”",
+        "name": "Agent specjalny Callahan",
+        "subname": "Spec od broni",
+        "text": "[action]: <b>Walka.</b> Obniż trudność tego testu o 1.\n[reaction] Po tym, jak aktywujesz zdolność [action] na atucie z cechą [[Sprzymierzeniec]] lub [[Broń]], wyczerp Agenta specjalnego Callahana: zadaj 1 obrażenie wrogowi w twojej lokalizacji.",
+        "traits": "Sprzymierzeniec. Gość. Agencja.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71019",
         "name": "Horacio Martinez",
-        "subname": "Brash Bodyguard",
-        "text": "While you control Horacio Martinez, he may be assigned damage dealt to other investigators at your location.\n[reaction] After a non-[[Elite]] enemy attacks you, exhaust Horacio Martinez: Exhaust that enemy and it cannot ready this round <i>(do not disengage from it)</i>.",
-        "traits": "Ally. Guest. Agency.",
-        "slot": "Ally"
+        "subname": "Hardy ochroniarz",
+        "text": "Kiedy kontrolujesz Horacio Martineza, można mu przypisywać obrażenia zadawane innym badaczom w twojej lokalizacji.\n[reaction] Po tym, jak nie-[[Elitarny]] wróg cię zaatakuje, wyczerp Horacio Martineza: wyczerp danego wroga i w tej rundzie nie może się on przygotować <i>(nie uwalniaj się ze zwarcia z nim)</i>.",
+        "traits": "Sprzymierzeniec. Gość. Agencja.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71020",
@@ -178,57 +178,57 @@
     },
     {
         "code": "71021",
-        "flavor": "You are assisting Dean Caldwell with \"acquiring\" the Jewel, but first you will have to persuade Declan Pearce to give it up.",
-        "name": "Miskatonic University [seeker]",
-        "text": "Declan Pearce cannot be damaged or leave play while the Jewel of Sarnath is attached to him.\n[action] If Declan Pearce is at your location: <b>Parley.</b> Place up to 2 of your clues on Declan Pearce. Then, if 3 [per_investigator] or more clues are on him, take control of the Jewel of Sarnath and add Declan Pearce to the victory display.\n<b>Objective</b> - At the end of the round, if the investigators control the Jewel of Sarnath, they may advance the act.\n<b>End of game scoring:</b>\n1 point per 2 [per_investigator] total cards in hand among all investigators (to a maximum of 4 points).",
-        "traits": "Allied."
+        "flavor": "Pomagacie dziekanowi Caldwellowi „zdobyć” Klejnot, ale najpierw musicie przekonać Declana Pearce'a, aby rozstał się z przedmiotem.",
+        "name": "Uniwersytet Miskatonic [seeker]",
+        "text": "Declan Pearce nie może otrzymywać obrażeń i nie może opuścić gry, dopóki jest do niego dołączony Klejnot Sarnathu.\n[action] Jeśli Declan Pearce znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Umieść do 2 twoich żetonów wskazówek na Declanie Pearce. Następnie, jeśli znajduje się na nim 3 [per_investigator] lub więcej żetonów wskazówek, przejmij kontrolę nad Klejnotem Sarnathu i dodaj Declana Pearce'a do puli zwycięstwa.\n<b>Cel</b> - Na koniec rundy, jeśli badacze kontrolują Klejnot Sarnathu, mogą spowodować postęp talii aktów.\n<b>Końcowa punktacja:</b>\n1 punkt za łącznie 2 [per_investigator] kart na ręku wszystkich badaczy (maksymalnie 4 punkty).",
+        "traits": "Sprzymierzona."
     },
     {
         "code": "71021b",
-        "flavor": "The eggheads at Miskatonic University seem to think this Jewel belongs in their museum. Perhaps you can help them see reason.",
-        "name": "Miskatonic University [seeker]",
-        "text": "<b>Setup:</b> Shuffle the set-aside Confusion treachery into the encounter deck. Put the set-aside Caldwell Philips card into play at the lead investigator's location, enemy side faceup.\n[action] If Caldwell Philips is at your location: <b>Parley.</b> Test [intellect] (3). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Caldwell Philips to the victory display. Search the encounter deck and discard pile for Confusion and remove it from the game. Shuffle the encounter deck.",
-        "traits": "Rival."
+        "flavor": "Jajogłowi z Uniwersytetu Miskatonic sądzą, że Klejnot im się zwyczajnie należy. Może zdołacie przemówić im do rozsądku.",
+        "name": "Uniwersytet Miskatonic [seeker]",
+        "text": "<b>Przygotowanie:</b> Wtasuj odłożoną na bok kartę podstępu Dezorientacja do talii spotkań. Umieść odłożoną na bok kartę Caldwell Philips w grze, w lokalizacji głównego badacza, stroną wroga do góry.\n[action] Jeśli Caldwell Philips znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Wykonaj test [intellect] (3). Jeśli test zakończy się sukcesem, umieść 1 z twoich żetonów wskazówek na tej karcie fabuły.\n<b>Wymuszony</b> - Kiedy na tej karcie fabuły znajduje się 1 + 1 [per_investigator] żetonów wskazówek: dodaj ją oraz Caldwella Philipsa do puli zwycięstwa. Przeszukaj talię spotkań i stos odrzuconych kart spotkań w poszukiwaniu Dezorientacji i usuń ją z gry. Potasuj talię spotkań.",
+        "traits": "Rywal."
     },
     {
         "code": "71022",
         "name": "Caldwell Philips",
-        "subname": "Enthralled by Legends",
-        "text": "You get +1 [intellect].\n[reaction] After you discover 1 or more clues, exhaust Caldwell Philips: Draw that number of cards (to a maximum of 3).\n<b>Forced</b> - When Caldwell Philips leaves play: Remove him from the game.",
-        "traits": "Leader. Guest. Miskatonic."
+        "subname": "Zauroczony legendami",
+        "text": "Dostajesz +1 [intellect].\n[reaction] Po tym, jak odkryjesz 1 lub więcej żetonów wskazówek, wyczerp Caldwella Philipsa: dobierz taką samą liczbę kart (maksymalnie 3).\n<b>Wymuszony</b> - Kiedy Caldwell Philips opuszcza grę: usuń go z gry.",
+        "traits": "Lider. Gość. Miskatonic."
     },
     {
         "code": "71022b",
         "name": "Caldwell Philips",
-        "subname": "Compelled by Dreams",
-        "text": "Aloof. Hunter.\nCaldwell Philips cannot be damaged.\n<b>Forced</b> - When you end your turn at this location: Choose and discard a non-weakness card from your hand.",
-        "traits": "Humanoid. Leader. Rival. Elite."
+        "subname": "Zniewolony przez sny",
+        "text": "Powściągliwy. Łowca.\nCaldwell Philips nie może otrzymywać obrażeń.\n<b>Wymuszony</b> - Po tym, jak zakończysz twoją turę w tej lokalizacji: wybierz i odrzuć kartę inną niż osłabienie z twojej ręki.",
+        "traits": "Humanoid. Lider. Rywal. Elitarny."
     },
     {
         "code": "71023",
-        "flavor": "\"Disturbingly lifelike, isn't it?\"",
-        "name": "Dr. Mya Badry",
-        "subname": "Medical Examiner",
-        "text": "Your maximum hand size is increased by 2.\n[action] Exhaust Dr. Mya Badry: <b>Investigate.</b> Your base [intellect] value for this investigation is equal to the number of cards in your hand.",
-        "traits": "Ally. Guest. Miskatonic.",
-        "slot": "Ally"
+        "flavor": "„Niepokojąco naturalistyczne, czyż nie?”",
+        "name": "Dr Mya Badry",
+        "subname": "Lekarz sądowy",
+        "text": "Maksymalna liczba kart na twojej ręce zostaje zwiększona o 2.\n[action] Wyczerp Dr Mye Badry: <b>Badanie.</b> Podczas tego badania, bazowa wartość twojej [intellect] jest równa liczbie kart na twojej ręce.",
+        "traits": "Sprzymierzeniec. Gość. Miskatonic.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71024",
         "name": "Lucas Tetlow",
-        "subname": "Faculty Curator",
-        "text": "[reaction] After the last clue is discovered at your location, exhaust Lucas Tetlow: Search the top 9 cards of your deck for an [[Item]] asset and draw it. If it is a [[Relic]], gain 2 resources. If it is a [[Tome]], you may play it <i>(paying its cost)</i>. If it is a [[Tool]], discover 1 clue at a connecting location. Shuffle your deck.",
-        "traits": "Ally. Guest. Miskatonic.",
-        "slot": "Ally"
+        "subname": "Kurator wydziału",
+        "text": "[reaction] Po tym, jak w twojej lokalizacji zostanie odkryty ostatni żeton wskazówki, wyczerp Lucasa Tetlowa: przeszukaj 9 wierzchnich kart twojej talii w poszukiwaniu atutu z cechą [[Przedmiot]] i dobierz go. Jeśli to [[Relikwia]], zyskujesz 2 żetony zasobów. Jeśli to [[Księga]], możesz ją zagrać <i>(płacąc jej koszt)</i>. Jeśli to [[Narzędzie]], odkryj 1 żeton wskazówki w połączonej lokalizacji. Potasuj twoją talię.",
+        "traits": "Sprzymierzeniec. Gość. Miskatonic.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71025",
-        "flavor": "\"Has anyone else tried the giggle juice? It's fantastic!\"",
+        "flavor": "„Próbowaliście już tego ponczu? Jest wyśmienity!”",
         "name": "Elizabeth Conrad",
-        "subname": "Completely Zozzled",
-        "text": "[reaction] After you draw a card during your turn, exhaust Elizabeth Conrad: Choose an investigator at your location to move to a connecting location.",
-        "traits": "Ally. Guest. Miskatonic.",
-        "slot": "Ally"
+        "subname": "Całkiem wstawiona",
+        "text": "[reaction] Po tym, jak dobierzesz kartę podczas twojej tury, wyczerp Elizabeth Conrad: wybierz badacza w twojej lokalizacji, który poruszy się do połączonej lokalizacji.",
+        "traits": "Sprzymierzeniec. Gość. Miskatonic.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71026",
@@ -239,58 +239,58 @@
     },
     {
         "code": "71027",
-        "flavor": "It's a job, and nothing more. If you can abscond with the Jewel, you know you'll be handsomely rewarded.",
-        "name": "The Syndicate [rogue]",
-        "text": "[action] Spend 1 [per_investigator] clues: Look at a mystery <i>(a facedown card)</i> beneath your location.\n[fast] During your turn, if there are 1 [per_investigator] or fewer clues on a location with a mystery: Draw that mystery.\n<b>Objective</b> - Find the Jewel of Sarnath and escape. At the end of the round, if an investigator at the Lobby controls the Jewel of Sarnath, the investigators may spend 4 [per_investigator] clues, as a group, to advance the act.\n<b>End of game scoring:</b>\n1 point per 3 [per_investigator] resources among all investigators (to a maximum of 4 points).",
-        "traits": "Allied."
+        "flavor": "Robota jaka jest, każdy widzi. Jeśli zdołacie nawiać z Klejnotem, to sowicie was wynagrodzą.",
+        "name": "Syndykat [rogue]",
+        "text": "[action] Wydaj 1 [per_investigator] żetonów wskazówek: podejrzyj tajemnicę <i>(zakrytą kartę)</i> pod twoją lokalizacją.\n[fast] Podczas twojej tury, jeśli w lokalizacji z tajemnicą znajduje się 1 [per_investigator] lub mniej żetonów wskazówek: dobierz daną tajemnicę.\n<b>Cel</b> - Odnajdźcie Klejnot i ucieknijcie. Na koniec rundy, jeśli badacz w Holu kontroluje Klejnot Sarnathu, badacze mogą wydać, jako grupa, 4 [per_investigator] żetonów wskazówek, aby spowodować postęp talii aktów.\n<b>Końcowa punktacja:</b>\n1 punkt za łącznie 3 [per_investigator] żetonów zasobów w posiadaniu badaczy (maksymalnie 4 punkty).",
+        "traits": "Sprzymierzona."
     },
     {
         "code": "71027b",
-        "flavor": "The mob are easily angered, but you might be able to convince Johnny Valone that giving up the Jewel is in his best interest...",
-        "name": "The Syndicate [rogue]",
-        "text": "<b>Setup:</b> Shuffle the set-aside Cold Streak treachery into the encounter deck. Put the set-aside Johnny Valone card into play at the lead investigator's location, enemy side faceup.\n[action] If Johnny Valone is at your location: <b>Parley.</b> Test [agility] (3). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Johnny Valone to the victory display. Search the encounter deck and discard pile for Cold Streak and remove it from the game. Shuffle the encounter deck.",
-        "traits": "Rival."
+        "flavor": "Oprychy nie słyną z cierpliwości, ale może zdołacie przekonać Johnny'ego Valone, że odpuszczenie Klejnotu mu się opłaci...",
+        "name": "Syndykat [rogue]",
+        "text": "<b>Przygotowanie:</b> Wtasuj odłożoną na bok kartę podstępu Fatalna passa do talii spotkań. Umieść odłożoną na bok kartę Johnny Valone w grze, w lokalizacji głównego badacza, stroną wroga do góry.\n[action] Jeśli Johnny Valone znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Wykonaj test [agility] (3). Jeśli test zakończy się sukcesem, umieść 1 z twoich żetonów wskazówek na tej karcie fabuły.\n<b>Wymuszony</b> - Kiedy na tej karcie fabuły znajduje się 1 + 1 [per_investigator] żetonów wskazówek: dodaj ją oraz Johnny'ego Valone do puli zwycięstwa. Przeszukaj talię spotkań i stos odrzuconych kart spotkań w poszukiwaniu Fatalnej passy i usuń ją z gry. Potasuj talię spotkań.",
+        "traits": "Rywal."
     },
     {
         "code": "71028",
-        "flavor": "\"Fifty clams when the job's done.\"",
+        "flavor": "„Swoją działkę dostaniesz po skończonej robocie.”",
         "name": "Johnny Valone",
-        "subname": "Ready to Make a Deal",
-        "text": "You get +1 [agility].\n[reaction] After you gain 1 or more resources via a card effect, exhaust Johnny Valone: Draw 1 card and gain 1 resource.\n<b>Forced</b> - When Johnny Valone leaves play: Remove him from the game.",
-        "traits": "Leader. Guest. Syndicate."
+        "subname": "Chce się dogadać",
+        "text": "Dostajesz +1 [agility].\n[reaction] Po tym, jak zyskasz 1 lub więcej żetonów zasobów dzięki efektowi karty, wyczerp Johnny'ego Valone: dobierz 1 kartę i zyskaj 1 żeton zasobów.\n<b>Wymuszony</b> - Kiedy Johnny Valone opuszcza grę: usuń go z gry.",
+        "traits": "Lider. Gość. Syndykat."
     },
     {
         "code": "71028b",
-        "flavor": "\"The debt must be paid!\"",
+        "flavor": "„Długi trzeba spłacać!”",
         "name": "Johnny Valone",
-        "subname": "Here to Collect",
-        "text": "Aloof. Hunter.\nJohnny Valone cannot be damaged.\n<b>Forced</b> - When you end your turn at Johnny Valone's location: Lose 2 resources.",
-        "traits": "Humanoid. Leader. Rival. Elite."
+        "subname": "Przyszedł po swoje",
+        "text": "Powściągliwy. Łowca.\nJohnny Valone nie może otrzymywać obrażeń.\n<b>Wymuszony</b> - Kiedy kończysz swoją turę w lokalizacji Johnny'ego Valone: tracisz 2 żetony zasobów.",
+        "traits": "Humanoid. Lider. Rywal. Elitarny."
     },
     {
         "code": "71029",
-        "flavor": "\"You slay me.\"",
+        "flavor": "",
         "name": "Miranda Keeper",
-        "subname": "Antiquities \"Trader\"",
-        "text": "Uses (3 supplies).\n[fast] Spend 1 supply: Place 1 resource on your location, as an antiquity. You get +2 to your next skill test this round.\n[reaction] After you succeed at a skill test by 2 or more, remove an antiquity from your location: Gain 2 resources.",
-        "traits": "Ally. Guest. Syndicate.",
-        "slot": "Ally"
+        "subname": "„Handluje” antykami",
+        "text": "Zużywalny (3 zapasy).\n[fast] Wydaj 1 zapas: umieść 1 żeton zasobu w twojej lokalizacji, jako antyk. Dostajesz +2 do wartości umiejętności do twojego kolejnego testu umiejętności w tej rundzie.\n[reaction] Po tym, jak twój test umiejętności zakończy się sukcesem o 2 lub więcej, usuń antyk z twojej lokalizacji: zyskujesz 2 żetony zasobów.",
+        "traits": "Sprzymierzeniec. Gość. Syndykat.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71030",
         "name": "Arsène Renard",
-        "subname": "Gentleman Thief",
-        "text": "[fast]: Place 1 resource on each location, as an antiquity. (Group limit once per game.)\n[fast]: If there is an exhausted enemy at your location, remove an antiquity from your location: Either draw 1 card or gain 2 resources.",
-        "traits": "Ally. Guest. Syndicate.",
-        "slot": "Ally"
+        "subname": "Złodziej dżentelmen",
+        "text": "[fast]: Umieść po 1 żetonie zasobu w każdej lokalizacji, jako antyk. (Limit grupowy raz na grę.)\n[fast]: Jeśli w twojej lokalizacji znajduje się wyczerpany wróg, usuń antyk z twojej lokalizacji: dobierz 1 kartę albo zyskaj 2 żetony zasobów.",
+        "traits": "Sprzymierzeniec. Gość. Syndykat.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71031",
         "name": "Nova Malone",
-        "subname": "Commanding Gangster",
-        "text": "[action] Exhaust Nova Malone: <b>Fight.</b> Your base [combat] value for this fight is equal to the number of resources in your resource pool (to a maximum of 7). This attack deals +1 damage.\n[reaction] After you defeat an enemy: Gain 1 resource. (Limit once per round.)",
-        "traits": "Ally. Guest. Syndicate.",
-        "slot": "Ally"
+        "subname": "Szefowa półświatka",
+        "text": "[action] Wyczerp Nove Malone: <b>Walka.</b> Podczas tej walki bazowa wartość twojej [combat] jest równa liczbie żetonów zasobów w twojej puli zasobów (maksymalnie 7). Ten atak zadaje +1 obrażenie.\n[reaction] Po tym, jak pokonasz wroga: zyskujesz 1 żeton zasobu. (Limit raz na rundę).",
+        "traits": "Sprzymierzeniec. Gość. Syndykat.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71032",
@@ -301,57 +301,57 @@
     },
     {
         "code": "71033",
-        "flavor": "Carl Sanford has promised you a lavish reward for acquiring the Jewel. But can you really trust him?",
-        "name": "Silver Twilight Lodge [mystic]",
-        "text": "[action]: You try to sense the Jewel's presence. Discard the top card of the encounter deck. You may draw that card. (Group limit twice per round.)\n<b>Objective</b> - Find the Jewel of Sarnath. At the end of the round, if the investigators control the Jewel of Sarnath, they may spend 5 [per_investigator] clues, as a group, to advance the act.\n<b>End of game scoring:</b>\n1 point for each treachery with no victory points in the victory display (to a maximum of 4 points).",
-        "traits": "Allied."
+        "flavor": "Carl Sanford obiecał wam sowitą nagrodę za dostarczenie mu Klejnotu. Ale czy naprawdę możecie mu ufać?",
+        "name": "Loża Srebrnego Świtu [mystic]",
+        "text": "[action]: Próbujesz wyczuć obecność Klejnotu. Odrzuć wierzchnią kartę z talii spotkań. Możesz dobrać tę kartę. (Limit grupowy dwa razy na rundę).\n<b>Cel</b> - Odnajdźcie Klejnot Sarnathu. Na koniec rundy, jeśli badacze kontrolują Klejnot Sarnathu, mogą wydać, jako grupa, 5 [per_investigator] żetonów wskazówek, aby spowodować postęp talii aktów.\n<b>Końcowa punktacja:</b>\n1 punkt za każdą kartę podstępu bez wartości zwycięstwa w puli zwycięstwa (maksymalnie 4 punkty).",
+        "traits": "Sprzymierzona."
     },
     {
         "code": "71033b",
-        "flavor": "Perhaps you can gently convince Sanford and the Lodge to leave well enough alone.",
-        "name": "Silver Twilight Lodge [mystic]",
-        "text": "<b>Setup:</b> Shuffle the set-aside Ward of Preservation treachery into the encounter deck. Put the set-aside Carl Sanford card into play at the lead investigator's location, enemy side faceup.\n[action] If Carl Sanford is at your location: <b>Parley.</b> Test [willpower] (3). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and Carl Sanford to the victory display. Search the encounter deck, encounter discard pile, and all play areas for Ward of Preservation and remove it from the game. Shuffle the encounter deck.",
-        "traits": "Rival."
+        "flavor": "Być może zdołacie przekonać Sanforda i Lożę, żeby dali sobie spokój.",
+        "name": "Loża Srebrnego Świtu [mystic]",
+        "text": "<b>Przygotowanie:</b> Wtasuj odłożoną na bok kartę podstępu Bezpieczny krąg do talii spotkań. Umieść odłożoną na bok kartę Carl Sanford w grze, w lokalizacji głównego badacza, stroną wroga do góry.\n[action] Jeśli Carl Sanford znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Wykonaj test [willpower] (3). Jeśli test zakończy się sukcesem, umieść 1 z twoich żetonów wskazówek na tej karcie fabuły.\n<b>Wymuszony</b> - Kiedy na tej karcie fabuły znajduje się 1 + 1 [per_investigator] żetonów wskazówek: dodaj ją oraz Carla Sanforda do puli zwycięstwa. Przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz obszary gry w poszukiwaniu Bezpiecznego kręgu i usuń go z gry. Potasuj talię spotkań.",
+        "traits": "Rywal."
     },
     {
         "code": "71034",
         "name": "Carl Sanford",
-        "subname": "Lusting for Power",
-        "text": "You get +1 [willpower]. You have one additional arcane slot.\n[reaction] After a revelation effect on a non-weakness treachery is canceled, exhaust Carl Sanford: Add that treachery to the victory display. Draw 1 card.\n<b>Forced</b> - When Carl Sanford leaves play: Remove him from the game.",
-        "traits": "Leader. Guest. Silver Twilight."
+        "subname": "Pożąda mocy",
+        "text": "Dostajesz +1 [willpower]. Masz 1 dodatkową strefę mistyczną.\n[reaction] Po tym, jak efekt odkrycia na karcie podstępu innej niż osłabienie zostanie anulowany, wyczerp Carla Sanforda: dodaj tę kartę podstępu do puli zwycięstwa. Dobierz 1 kartę\n<b>Wymuszony</b> - Kiedy Carl Sanford opuszcza grę: usuń go z gry.",
+        "traits": "Lider. Gość. Srebrny Świt."
     },
     {
         "code": "71034b",
-        "flavor": "\"The Jewel is mine.\"",
+        "flavor": "„Klejnot jest mój”.",
         "name": "Carl Sanford",
-        "subname": "Intimidating Presence",
-        "text": "Aloof. Hunter.\nCarl Sanford cannot be damaged.\nEach investigator at this location gets -1 [willpower].",
-        "traits": "Humanoid. Leader. Rival. Elite."
+        "subname": "Zastraszająca aura",
+        "text": "Powściągliwy. Łowca.\nCarl Sanford nie może otrzymywać obrażeń.\nKażdy badacz w tej lokalizacji dostaje -1 [willpower].",
+        "traits": "Humanoid. Lider. Rywal. Elitarny."
     },
     {
         "code": "71035",
         "name": "Prudence Douglas",
-        "subname": "Pragmatic Occultist",
-        "text": "Uses (3 portents).\n[fast] During your turn, spend 1 portent and exhaust Prudence Douglas: Look at the top 4 cards of the encounter deck. Discard up to 2 non-[[Elite]] cards from among them and put the rest back on top in any order.",
-        "traits": "Ally. Guest. Sorcerer. Silver Twilight.",
-        "slot": "Ally"
+        "subname": "Pragmatyczna okultystka",
+        "text": "Zużywalny (3 znaki).\n[fast] Podczas twojej tury, wydaj 1 znaki wyczerp Prudence Douglas: podejrzyj 4 wierzchnie karty z talii spotkań. Odrzuć do 2 nie-[[Elitarnych]] kart spośród nich i umieść pozostałe na wierzchu w dowolnej kolejności.",
+        "traits": "Sprzymierzeniec. Gość. Czarnoksiężnik. Srebrny Świt.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71036",
-        "flavor": "\"Ares, Hades, heel. Good boys!\"",
+        "flavor": "„Ares, Hades, do nogi. Dobre pieski!”",
         "name": "Sarah Van Shaw",
-        "subname": "Lodge Warden",
-        "text": "[action] Spend up to 2 resources and exhaust Sarah Van Shaw: <b>Fight.</b> Add your [willpower] value to your skill value for this attack. For each resource spent, this attack deals +1 damage.",
-        "traits": "Ally. Guest. Silver Twilight.",
-        "slot": "Ally"
+        "subname": "Strażniczka Loży",
+        "text": "[action] Wydaj do 2 żetonów zasobów i wyczerp Sarah Van Shaw: <b>Walka.</b> Dodaj wartość twojej [willpower] do wartości twojej umiejętności do tego ataku. Za każdy wydany zasób ten atak zadaje +1 obrażenie.",
+        "traits": "Sprzymierzeniec. Gość. Srebrny Świt.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71037",
         "name": "Raymond Loggins",
-        "subname": "Mysterious Benefactor",
-        "text": "Uses (4 truths).\n[reaction] When you draw a non-weakness treachery, spend 1 truth: Cancel that card's revelation effect and discard it. Then, take 1 horror.",
-        "traits": "Ally. Guest. Sorcerer. Silver Twilight.",
-        "slot": "Ally"
+        "subname": "Tajemniczy dobroczyńca",
+        "text": "Zużywalny (4 prawdy).\n[reaction] Kiedy dobierzesz kartę podstępu inną niż osłabienie, wydaj 1 prawdę: anuluj efekt odkrycia danej karty podstępu i ją odrzuć. Następnie otrzymujesz 1 punkt przerażenia.",
+        "traits": "Sprzymierzeniec. Gość. Czarnoksiężnik. Srebrny Świt.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71038",
@@ -361,58 +361,58 @@
     },
     {
         "code": "71039",
-        "flavor": "Bain has hinted at the dangerous power of the Jewel. Perhaps if you can wrest control of it from Declan Pearce, this nightmare will end.",
-        "name": "Locals of Kingsport [survivor]",
-        "text": "<b>Forced</b> - When Declan Pearce is defeated: Attach the Jewel of Sarnath to his location.\n[action] If the Jewel of Sarnath is attached to your location: You attempt to purge the corruption from the Jewel. Test [combat] or [agility] (3). If you succeed, remove 1 token from it. You may take control of it.\n<b>Objective</b> - At the end of the round, if the investigators control the Jewel of Sarnath and it has no tokens on it, they may spend 3 [per_investigator] clues, as a group, to advance the act.\n<b>End of game scoring:</b>\n4 points, minus 1 point for each card in the guest deck (to a minimum of 0 points).",
-        "traits": "Allied."
+        "flavor": "Bain wyraźnie podkreślił, jak niebezpieczna jest moc Klejnotu. Być może jeśli zdołacie wydrzeć go z rąk Declana Pearce'a, ten koszmar się skończy.",
+        "name": "Mieszkańcy Kingsport [survivor]",
+        "text": "<b>Wymuszony</b> - Kiedy Declan Pearce zostanie pokonany: dołącz Klejnot Sarnathu do jego lokalizacji.\n[action] Jeśli Klejnot Sarnathu jest dołączony do twojej lokalizacji: próbujesz oczyścić Klejnot z plugawej mocy. Wykonaj test [combat] lub [agility] (3). Jeśli test zakończy się sukcesem, usuń z niego 1 żeton. Możesz przejąć nad nim kontrolę.\n<b>Cel</b> - Na koniec rundy, jeśli badacze kontrolują Klejnot Sarnathu i nie ma na nim żadnych żetonów, mogą wydać, jako grupa, 3 [per_investigator] żetonów wskazówek, aby spowodować postęp talii aktów.\n<b>Końcowa punktacja:</b>\n4 punkty, minus 1 punkt za każdą kartę w talii Gości (minimalnie 0 punktów).",
+        "traits": "Sprzymierzona."
     },
     {
         "code": "71039b",
-        "flavor": "The locals don't seem to have taken kindly to your involvement. Perhaps you can show them you don't mean any harm.",
-        "name": "Locals of Kingsport [survivor]",
-        "text": "<b>Setup:</b> Shuffle the set-aside Unlucky treachery into the encounter deck. Put the set-aside William Bain card into play at the lead investigator's location, enemy side faceup.\n[action] If William Bain is at your location: <b>Parley.</b> Test any skill (4). If you succeed, place 1 of your clues on this story card.\n<b>Forced</b> - When there are 1 plus 1 [per_investigator] clues on this story card: Add it and William Bain to the victory display. Search the encounter deck, encounter discard pile, and all play areas for Unlucky and remove it from the game. Shuffle the encounter deck.",
-        "traits": "Rival."
+        "flavor": "Wściubianie nosa gdzie nie trzeba nie przysporzyło wam sympatii miejscowych. Może zdołacie ich przekonać, że nie macie złych zamiarów.",
+        "name": "Mieszkańcy Kingsport [survivor]",
+        "text": "<b>Przygotowanie:</b> Wtasuj odłożoną na bok kartę podstępu Pech do talii spotkań. Umieść odłożoną na bok kartę William Bain w grze, w lokalizacji głównego badacza, stroną wroga do góry.\n[action] Jeśli William Bain znajduje się w twojej lokalizacji: <b>Pertraktacje.</b> Wykonaj test dowolnej umiejętności (4). Jeśli test zakończy się sukcesem, umieść 1 z twoich żetonów wskazówek na tej karcie fabuły.\n<b>Wymuszony</b> - Kiedy na tej karcie fabuły znajduje się 1 + 1 [per_investigator] żetonów wskazówek: dodaj ją oraz Williama Baina do puli zwycięstwa. Przeszukaj talię spotkań, stos odrzuconych kart spotkań oraz obszary gry w poszukiwaniu Pecha i usuń go z gry. Potasuj talię spotkań.",
+        "traits": "Rywal."
     },
     {
         "code": "71040",
         "name": "William Bain",
-        "subname": "Looking for Those Lost",
-        "text": "While there are 1 or more cards committed to a skill test you are performing, you get +1 to each of your skills.\n[reaction] After you commit 1 or more cards to a skill test, spend 1 [per_investigator] resources and exhaust William Bain: Reveal the top card of the Guest deck and put it into play at the Lobby.\n<b>Forced</b> - When William Bain leaves play: Remove him from the game.",
-        "traits": "Leader. Guest. Kingsport."
+        "subname": "Poszukiwacz błądzących",
+        "text": "Dopóki do wykonywanego przez ciebie testu umiejętności jest przeznaczona co najmniej 1 karta, dostajesz +1 do wartości każdej twojej umiejętności.\n[reaction] Po tym, jak przeznaczysz co najmniej 1 kartę do testu umiejętności, wydaj 1 [per_investigator] żetonów zasobów i wyczerp Williama Baina: odkryj wierzchnią kartę z talii Gości i umieść ją w grze w Holu.\n<b>Wymuszony</b> - Kiedy William Bain opuszcza grę: usuń go z gry.",
+        "traits": "Lider. Gość. Kingsport."
     },
     {
         "code": "71040b",
-        "flavor": "\"Phonus balonus; I know you're with them.\"",
+        "flavor": "„Gadaj zdrów. I tak wiem, że jesteś po ich stronie”.",
         "name": "William Bain",
-        "subname": "Defiant to the Last",
-        "text": "Aloof. Hunter.\nWilliam Bain cannot be damaged.\nEach investigator at this location cannot commit cards to skill tests.",
-        "traits": "Humanoid. Leader. Rival. Elite."
+        "subname": "Oporny do końca",
+        "text": "Powściągliwy. Łowca.\nWilliam Bain nie może otrzymywać obrażeń.\nŻaden badacz w tej lokalizacji nie może przeznaczać kart do testów umiejętności.",
+        "traits": "Humanoid. Lider. Rywal. Elitarny."
     },
     {
         "code": "71041",
-        "flavor": "\"That club made me do terrible things. We must stop them.\"",
+        "flavor": "„Klub zmuszał mnie do robienia okropnych rzeczy. Musimy ich powstrzymać”.",
         "name": "Delores Gadling",
-        "subname": "Lantern Club Infiltrator",
-        "text": "While investigating and parleying, you get +1 [intellect] for each [[Humanoid]] enemy at your location.\nYou may ignore each attack of opportunity made by [[Humanoid]], non-[[Elite]] enemies against you.",
-        "traits": "Ally. Guest. Kingsport.",
-        "slot": "Ally"
+        "subname": "Wtyka w Klubie Latarni",
+        "text": "Podczas badania i pertraktacji, dostajesz +1 [intellect] za każdego wroga z cechą [[Humanoid]] w twojej lokalizacji.\nMożesz ignorować każdy atak towarzyszący, wykonywany przeciwko tobie przez nie-[[Elitarnych]] wrogów z cechą [[Humanoid]].",
+        "traits": "Sprzymierzeniec. Gość. Kingsport.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71042",
         "name": "Thomas Olney",
-        "subname": "Inquisitive Adventurer",
-        "text": "[fast] Name a [[Trait]] and exhaust Thomas Olney: Discard the top card of the encounter deck. If that card has the named [[Trait]], gain 2 resources.\n[fast] During a skill test at your location, exhaust Thomas Olney: Discard the top card of your deck. You may commit that card to this skill test, if able.",
-        "traits": "Ally. Guest. Wayfarer.",
-        "slot": "Ally"
+        "subname": "Ciekawski podróżnik",
+        "text": "[fast] Wymień [[Cechę]] i wyczerp Thomasa Olney'a: odrzuć wierzchnią kartę z talii spotkań. Jeśli ta karta ma [[Cechę]], którą wymieniłeś, zyskaj 2 żetony zasobów.\n[fast] Podczas testu umiejętności w twojej lokalizacji, wyczerp Thomasa Olney'a: odrzuć wierzchnią kartę z twojej talii. Możesz przeznaczyć daną kartę do tego testu, jeśli to możliwe.",
+        "traits": "Sprzymierzeniec. Gość. Podróżnik.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71043",
-        "flavor": "\"I should've stayed home.\"",
+        "flavor": "„Mogłam zostać w domu”.",
         "name": "Claire Wilson",
-        "subname": "Entirely Unimpressed",
-        "text": "[reaction] After you commit 1 or more cards to a skill test you are performing, exhaust Claire Wilson: You get +1 skill value for this test.",
-        "traits": "Ally. Guest. Kingsport.",
-        "slot": "Ally"
+        "subname": "Całkowicie rozczarowana",
+        "text": "[reaction] Po tym, jak przeznaczysz co najmniej 1 kartę do wykonywanego przez ciebie testu umiejętności, wyczerp Claire Wilson: dostajesz +1 do wartości umiejętności do tego testu.",
+        "traits": "Sprzymierzeniec. Gość. Kingsport.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "71044",
@@ -436,17 +436,17 @@
     },
     {
         "code": "71046",
-        "name": "The Pale Lantern",
-        "subname": "Hypnotic Glow",
-        "text": "[action] If The Bloodless Man has 1 or more damage on him or is in the victory display: Test [combat] or [agility] (3). If you succeed, take control of The Pale Lantern and flip it over. Any investigator at this location may trigger this ability.\n<b>Forced</b> - When The Pale Lantern would leave play: Attach it to its location instead.",
-        "traits": "Item. Relic."
+        "name": "Blada Latarnia",
+        "subname": "Hipnotyczne światło",
+        "text": "[action] Jeśli Człowiek bez Krwi ma na sobie co najmniej 1 obrażenie lub znajduje się w puli zwycięstwa: wykonaj test [combat] lub [agility] (3). Jeśli test zakończy się sukcesem, przejmij kontrolę nad Bladą Latarnią i ją odwróć. Dowolny badacz w tej lokalizacji może aktywować tę zdolność.\n<b>Wymuszony</b> - Kiedy Blada Latarnia miałaby opuścić grę: zamiast tego dołącz ją do jej lokalizacji.",
+        "traits": "Przedmiot. Relikwia."
     },
     {
         "code": "71046b",
-        "name": "The Pale Lantern",
-        "subname": "Beguiling Aura",
-        "text": "[action]: Flip over a spellbound card at your location.\n[action] Exhaust The Pale Lantern: Test [combat] or [agility] (2). If you succeed, place 1 damage on it. Then, if there is 4 damage on it, you break it; add it to the victory display (ignoring its <b>Forced</b> effect) and flip over each spellbound card.\n<b>Forced</b> - When The Pale Lantern would leave play: Flip it over and attach it to its location instead.",
-        "traits": "Item. Relic."
+        "name": "Blada Latarnia",
+        "subname": "Urzekająca aura",
+        "text": "[action]: Odwróć owładniętą kartę w twojej lokalizacji.\n[action] Wyczerp Bladą Latarnię: wykonaj test [combat] lub [agility] (2). Jeśli test zakończy się sukcesem, umieść na niej 1 obrażenie. Następnie, jeśli znajdują się na niej co najmniej 4 obrażenia, tłuczesz ją i dodajesz do puli zwycięstwa (ignorując jej efekt <b>Wymuszony</b>) oraz odwracasz każdą owładniętą kartę.\n<b>Wymuszony</b> - Kiedy Blada Latarnia miałaby opuścić grę: zamiast tego odwróć ją i dołącz do jej lokalizacji.",
+        "traits": "Przedmiot. Relikwia."
     },
     {
         "code": "71047",
@@ -484,10 +484,10 @@
     },
     {
         "code": "71052",
-        "name": "Jewel of Sarnath",
-        "subname": "Turning Dreams into Reality",
-        "text": "<b>Revelation</b> - Put Jewel of Sarnath into play under your control with 3 damage and 1 doom on it.\n<b>Forced</b> - When Jewel of Sarnath leaves play: Shuffle it into the encounter deck.\n[fast] Exhaust Jewel of Sarnath: Test [willpower] or [agility] (1). If you succeed, move 1 token on it to an enemy at your location.",
-        "traits": "Item. Relic."
+        "name": "Klejnot Sarnathu",
+        "subname": "Zamienia sny w rzeczywistość",
+        "text": "<b>Odkrycie</b> - Umieść Klejnot Sarnathu w grze, pod twoją kontrolą z 3 obrażeniami i 1 żetonem zagłady na nim.\n<b>Wymuszony</b> - Kiedy Klejnot Sarnathu opuszcza grę: wtasuj go do talii spotkań.\n[fast] Wyczerp Klejnot Sarnathu: wykonaj test [willpower] lub [agility] (1). Jeśli test zakończy się sukcesem, porusz z niego 1 ze znajdujących się na nim żetonów na wroga w twojej lokalizacji.",
+        "traits": "Przedmiot. Relikwia."
     },
     {
         "code": "71053",
