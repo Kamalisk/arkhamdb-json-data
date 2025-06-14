@@ -2,8 +2,8 @@
     {
         "code": "90065",
         "name": "Reliques du Passé",
-        "text": "Facile / Standard\n[skull] : -X. X est le nombre de lieux avec une fatalité ou plus.\n[cultist] : -1. Si vous êtes empoisonné, révélez un autre pion.\n[tablet] : -3. Si vous échouez, placez une fatalité sur votre lieu.\n[elder_thing] : -3. Si vous échouez, l'ennemi [[Serpent]] non engagé le plus proche se déplace une fois vers votre lieu.",
-        "back_text": "Difficile / Expert\n[skull] : -X. X est 1 + le nombre de lieux avec une ou fatalité ou plus eux.\n[cultist] : -2. Si vous êtes empoisonné, révélez un autre pion.\n[tablet] : -4. Placez une fatalité sur votre lieu.\n[elder_thing] : -5. Après la résolution de ce test, l'ennemi [[Serpent]] non engagé le plus proche se déplace une fois vers votre lieu."
+        "text": "<b>FACILE / STANDARD</b>\n[skull] –X. X est le nombre de lieux avec de la fatalité sur eux.\n[cultist] –1. Si vous êtes empoisonné, révélez un autre pion.\n[tablet] –3. En cas d'échec, placez 1 fatalité sur votre lieu.\n[elder_thing] –3. En cas d'échec, l'ennemi [[Serpent]] non-engagé le plus proche se déplace une fois vers votre lieu.",
+        "back_text": "<b>DIFFICILE / EXPERT</b>\n[skull] –X. X est le nombre de lieux avec de la fatalité sur eux plus 1.\n[cultist] –2. Si vous êtes empoisonné, révélez un autre pion.\n[tablet] –4. Placez 1 fatalité sur votre lieu.\n[elder_thing] –5. Après la résolution de ce test, l'ennemi [[Serpent]] non-engagé le plus proche se déplace une fois vers votre lieu."
     },
     {
         "code": "90066a",
@@ -13,16 +13,16 @@
     },
     {
         "code": "90066b",
-        "name": "*Créature de la Fosse",
-        "subname": "Guardien du passé",
-        "text": "Chasseur. Riposte. <b>Génération</b> - Engagé avec Monterey Jack.\nLa Créature de la Fosse gagne + 1 [per_investigator] vie et + 1 combat pour chaque point de vengeance dans la pile de Victoire (maximum +3 combat).\n<b>Forcé</b> - Après que la Créature de la Fosse vous a infligé des dégâts, vérifiez votre équipement: si vous ne possédez pas de sacoche, mélangez chaque soutien [[Antique]] que vous contrôlez dans le deck Exploration..",
-        "traits": "Creature. Elite."
+        "name": "Créature de la Fosse",
+        "subname": "Gardien du Passé",
+        "text": "Chasseur. Riposte. <b>Génération</b> – Engagé avec Monterey Jack.\nLa Créature de la Fosse gagne + 1 [per_investigator] vie et + 1 combat pour chaque point de vengeance dans la pile de victoire (maximum +3 combat).\n<b>Forcé</b> – Après que la Créature de la Fosse vous a infligé des dégâts, vérifiez votre équipement : si vous ne possédez pas de sacoche, mélangez chaque soutien [[Antique]] que vous contrôlez dans le deck Exploration.",
+        "traits": "Créature. Élite."
     },
     {
         "code": "90067",
         "flavor": "Face à vous, la créature émerge du tunnel et de ses ténèbres en émettant un vagissement reptilien.",
         "name": "Gardien des Reliques",
-        "text": "*Le seuil de fatalité de cette intrigue augmente de + 1 [per_investigator].\n<b>Forcé</b> - Quand un investigateur est vaincu : cet investigateur mélange chaque soutien Histoire  [[Antique]]  qu'il contrôle dans le deck Exploration..",
+        "text": "*Le seuil de fatalité de cette intrigue augmente de + 1 [per_investigator].\n<b>Forcé</b> – Quand un investigateur est vaincu : cet investigateur mélange chaque soutien Histoire [[Antique]] qu'il contrôle dans le deck Exploration.",
         "back_name": "Ruine Effroyable",
         "back_flavor": "Un sifflement ininterrompu résonne à travers les ruines. Des serpents et des humanoïdes aux formes serpentines sont proches de vous, crocs dressés et lames levées. Explorer ces ruines est devenu trop dangereux. Vous jetez les quelques objets qu'il vous reste en direction de vos poursuivants et vous vous enfuyez dans la direction par laquelle vous êtes arrivé. Du moins, vous pensez que c'est la direction par laquelle vous êtes arrivé...",
         "back_text": "Chaque investigateur qui n'a pas été éliminé est vaincu et subit 1 traumatisme physique."
@@ -31,23 +31,23 @@
         "code": "90068",
         "flavor": "En parcourant les couloirs étroits des ruines, vous ressentez un grondement sourd sous vos pieds.",
         "name": "Vestiges en Ruine",
-        "text": "[action] S'il n'y a aucun indice dans votre lieu :  <b>Explorer</b>. Piochez la carte du dessus du deck Exploration. Si c'est un lieu connexe, mettez-le en jeu et déplacez-vous vers lui.\n<b>Objectif/b> - Si chaque investigateur non-vaincu est dans la Chambre Intérieure, les investigateurs peuvent dépenser collectivement le nombre d'indices requis pour avancer.",
+        "text": "[action] S'il n'y a aucun indice dans votre lieu : <b>Explorer</b>. Piochez la carte du dessus du deck Exploration. Si c'est un lieu connexe, mettez-le en jeu et déplacez-vous vers lui.\n<b>Objectif</b> – Si chaque investigateur non-vaincu est dans la Chambre Intérieure, les investigateurs peuvent dépenser collectivement le nombre d'indices requis pour avancer.",
         "back_name": "Piégé dans le Tombeau",
-        "back_flavor": "Vous pénétrez précautionneusement dans la chambre intérieure, une pièce qui a été scellée depuis des temps immémoriaux. Alors que vous inspectez les marques qui couvrent le sol et les murs, vous entendez derrière vous le bruit de la pierre frottant contre la pierre. Vous vous retournez pour voir le passage secret se refermer. Un bruit sourd retentit, puis un claquement ; le passage n'est plus qu'un mur parfaObjetent lisse. Vous êtes piégé !",
-        "back_text": "Déplacez chaque ennemi [[Élite]] non-engagé dans la Chambre Intérieure.\nSMélangez chacune des cartes suivantes dans le deck Exploration : chacun des soutiens Histoire [[Antique]], la traîtrise Passé Vengeur mise de côté, chaque lieu mono-face en jeu, et 1 exemplaire de l'ennemi Rejeton de Yig mis de côté pour chaque point de vengeance dans la pile de Victoire.\nAjoutez 1 [per_investigator] indice sur chaque lieu révélé (jusqu'à un maximum de sa valeur d'indice)."
+        "back_flavor": "Vous pénétrez précautionneusement dans la chambre intérieure, une pièce qui a été scellée depuis des temps immémoriaux. Alors que vous inspectez les marques qui couvrent le sol et les murs, vous entendez derrière vous le bruit de la pierre frottant contre la pierre. Vous vous retournez pour voir le passage secret se refermer. Un bruit sourd retentit, puis un claquement ; le passage n'est plus qu'un mur parfaitement lisse. Vous êtes piégé !",
+        "back_text": "Déplacez chaque ennemi [[Élite]] non-engagé dans la Chambre Intérieure.\nMélangez chacune des cartes suivantes dans le deck Exploration : chacun des soutiens Histoire [[Antique]], la traîtrise Passé Vengeur mise de côté, chaque lieu mono-face en jeu et 1 exemplaire de l'ennemi Rejeton de Yig mis de côté pour chaque point de vengeance dans la pile de victoire.\nAjoutez 1 [per_investigator] indice sur chaque lieu révélé (jusqu'à un maximum de sa valeur d'indice)."
     },
     {
         "code": "90069",
         "name": "Trouver une Issue !",
-        "text": "[action] Siln y a aucun indice dans votre lieu : <b>Explorer</>. Piochez la carte du dessus du deck Exploration. Si c'est un lieu connexe, mettez-le en jeu et déplacez-vous vers lui.\n<b>Objective</b> - Sortez avec le plus de reliques [[Antique]] que vous pouvez ! Si chaque investigateur non-vaincu a abandonné, avancez.",
-        "back_name": "Escape at Last",
+        "text": "[action] S'il n'y a aucun indice dans votre lieu : <b>Explorer</b>. Piochez la carte du dessus du deck Exploration. Si c'est un lieu connexe, mettez-le en jeu et déplacez-vous vers lui.\n<b>Objectif</b> – Sortez avec le plus de reliques [[Antique]] que vous pouvez ! Si chaque investigateur non-vaincu a abandonné, avancez.",
+        "back_name": "Enfin une Échappatoire",
         "back_flavor": "Enfin, vous avez retrouvé le chemin de l'entrée du tombeau et avez laissé les créatures dans l'obscurité derrière vous.",
-        "back_text": "<b>(→R1)</b>"
+        "back_text": "(→ <b>C1</b>)"
     },
     {
         "code": "90070",
         "name": "Passage Secret",
-        "text": "<b>Révélation</b> - Si le Passage Secret est connexe à votre lieu, mettez-le en jeu ainsi que le lieu Chambre Intérieure. Sinon, mélangez-le dans le deck Exploration.\n<b>Forcé</b> - Après être entré dans le Passage Secret : vérifiez votre équipement. Si vous possédez une boussole, découvrez 1 indice du Passage Secret.",
+        "text": "<b>Révélation</b> – Si le Passage Secret est connexe à votre lieu, mettez-le en jeu ainsi que le lieu Chambre Intérieure. Sinon, mélangez-le dans le deck Exploration.\n<b>Forcé</b> – Après être entré dans le Passage Secret : vérifiez votre équipement. Si vous possédez une boussole, découvrez 1 indice dans le Passage Secret.",
         "traits": "Antique. Ruines."
     },
     {
@@ -59,43 +59,43 @@
     },
     {
         "code": "90072",
-        "flavor": "Le couloir en ruine vous mets au défi de vous aventurer plus profondément.",
+        "flavor": "Le couloir en ruine vous met au défi de vous aventurer plus profondément.",
         "name": "Couloir Antique",
-        "text": "<b>Forcé</b> - Après avoir placé une fatalité sur le Couloir Antique : mélangez la carte du dessus du deck Rencontre dans le deck Exploration. N'importe quel investigateur dans le Couloir Antique peut dépenser 3 ressources pour annuler cet effet.",
+        "text": "<b>Forcé</b> – Après qu'une fatalité a été placée sur le Couloir Antique : mélangez la carte du dessus du deck Rencontre dans le deck Exploration. N'importe quel investigateur dans le Couloir Antique peut dépenser 3 ressources pour annuler cet effet.",
         "traits": "Antique. Ruines."
     },
     {
         "code": "90073",
         "name": "Crocodile de Jade",
         "subname": "Effigie du Gardien",
-        "text": "<b>Révélation</b> - Mettez en jeu le Crocodile de Jade sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit subir 2 dégâts.\n<b>Forcé</b> - Quand vous abandonnez : ajoutez le Crocodile de Jade à la pile de Victoire.",
+        "text": "<b>Révélation</b> – Mettez en jeu le Crocodile de Jade sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit subir 2 dégâts.\n<b>Forcé</b> – Quand vous abandonnez : ajoutez le Crocodile de Jade à la pile de victoire.",
         "traits": "Objet. Relique. Antique."
     },
     {
         "code": "90074",
         "name": "Jaguar d'Obsidienne",
         "subname": "Effigie de la Chasseresse",
-        "text": "<b>Révélation</b> - Mettez en jeu le Jaguar d'Obsidienne sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit l'ennemi le plus proche vous attaque.\n<b>Forcé</b> - Quand vous abandonnez : ajoutez le Jaguar d'Obsidienne à la pile de Victoire.",
+        "text": "<b>Révélation</b> – Mettez en jeu le Jaguar d'Obsidienne sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit l'ennemi le plus proche vous attaque.\n<b>Forcé</b> – Quand vous abandonnez : ajoutez le Jaguar d'Obsidienne à la pile de victoire.",
         "traits": "Objet. Relique. Antique."
     },
     {
         "code": "90075",
         "name": "Serpent de Citrine",
         "subname": "Effigie de l'Enfant",
-        "text": "<b>Révélation</b> - Mettez en jeu le Serpent de Citrine sous votre contrôle. Si vous êtes empoisonné, subissez 1 degât direct. Si vous n'êtes pas empoisonné, mettez en jeu une faiblesse Empoisonné mise de côté dans votre zone de menace.\n<b>Forcé</b> - Quand vous abandonnez : ajoutez le Serpent de Citrine à la pile de Victoire.",
+        "text": "<b>Révélation</b> – Mettez en jeu le Serpent de Citrine sous votre contrôle. Si vous êtes empoisonné, subissez 1 degât direct. Si vous n'êtes pas empoisonné, mettez en jeu une faiblesse Empoisonné mise de côté dans votre zone de menace.\n<b>Forcé</b> – Quand vous abandonnez : ajoutez le Serpent de Citrine à la pile de victoire.",
         "traits": "Objet. Relique. Antique."
     },
     {
         "code": "90076",
         "name": "Aigle de Turquoise",
         "subname": "Effigie du Veilleur",
-        "text": "<b>Révélation</b> - Mettez en jeu l'Aigle de Turquoise sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit subir 2 horreurs.\n<b>Forcé</b> - Quand vous abandonnez : ajoutez l'Aigle de Turquoise à la pile de Victoire.",
+        "text": "<b>Révélation</b> – Mettez en jeu l'Aigle de Turquoise sous votre contrôle. Vous devez soit placer 1 fatalité sur votre lieu, soit subir 2 horreurs.\n<b>Forcé</b> – Quand vous abandonnez : ajoutez l'Aigle de Turquoise à la pile de victoire.",
         "traits": "Objet. Relique. Antique."
     },
     {
         "code": "90077",
         "name": "Passé Vengeur",
-        "text": "Péril.\n<b>Révélation</b> - Pour chaque soutien Histoire avec le trait [[Antique]] contrôlé par un investigateur, vous devez <i>(choisir une option)</i> :\n- Infliger 1 dégât ou 1 horreur à l'investigateur qui contrôle ce soutien.\n- Mélanger ce soutien dans le deck Exploration.\nAprès la résolution de cette capacité, mélangez Passé Vengeur dans le deck Exploration.",
+        "text": "Péril.\n<b>Révélation</b> – Pour chaque soutien Histoire avec le trait [[Antique]] contrôlé par un investigateur, vous devez <i>(choisir une option)</i> :\n- Infliger 1 dégât ou 1 horreur à l'investigateur qui contrôle ce soutien.\n- Mélanger ce soutien dans le deck Exploration.\nAprès la résolution de cette effet, mélangez Passé Vengeur dans le deck Exploration.",
         "traits": "Pouvoir."
     }
 ]

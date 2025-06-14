@@ -1,1 +1,510 @@
-[]
+[
+    {
+        "code": "11501",
+        "name": "Ostatnie zlecenie",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to liczba wrogów z cechą [[Przestępca]] w grze (maksymalnie 4).\n[cultist]: -2 (zamiast tego -4, jeśli w twojej lokalizacji znajduje się wróg z cechą [[Przestępca]]).\n[elder_thing]: -3. Jeśli test zakończy się porażką, odrzuć 3 wierzchnie karty z talii spotkań. Wybierz 1 wroga z cechą [[Przestępca]] odrzuconego w ten sposób i rozstaw go w zwarciu z tobą.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to o 1 więcej niż liczba wrogów z cechą [[Przestępca]] w grze.\n[cultist]: -3 (zamiast tego -5, jeśli w twojej lokalizacji znajduje się wróg z cechą [[Przestępca]]).\n[elder_thing]: -4. Jeśli test zakończy się porażką, odrzuć 6 wierzchnich kart z talii spotkań. Wybierz 1 wroga z cechą [[Przestępca]] odrzuconego w ten sposób i rozstaw go w zwarciu z tobą. Dany wróg wykonuje natychmiastowy atak."
+    },
+    {
+        "code": "11517",
+        "name": "Zachodni Mur",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to poziom twojej lokalizacji.\n[cultist]: -3. Jeśli test zakończy się porażką i twoja lokalizacja jest całkowicie zalana, otrzymujesz 1 obrażenie.\n[tablet]: -3. Jeśli test zakończy się porażką, podnieś poziom zalania twojej lokalizacji.\n[elder_thing]: -3 (zamiast tego -5, jeśli twoja lokalizacja jest całkowicie zalana).",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to o 2 więcej niż poziom twojej lokalizacji.\n[cultist]: -5. Jeśli twoja lokalizacja jest całkowicie zalana, otrzymujesz 1 obrażenie.\n[tablet]: -5. Podnieś poziom zalania twojej lokalizacji, jeśli to możliwe.\n[elder_thing]: -5 (Jeśli twoja lokalizacja jest całkowicie zalana, zamiast tego twój test automatycznie kończy się porażką)."
+    },
+    {
+        "code": "11535",
+        "name": "Polujący pasożyt",
+        "text": "Powściągliwy. Łowca.\n<b>Polowanie</b> - Tylko posiadacz.\n<b>Rozstawienie</b> - Połączona lokalizacja (pusta, jeśli to możliwe).\n<b>Wymuszony</b> - Koniec fazy wrogów: umieść 1 żeton zagłady na karcie gracza w lokalizacji tego wroga. Następnie odrzuć Polującego pasożyta.",
+        "traits": "Potwór. Gapowicz."
+    },
+    {
+        "code": "11536",
+        "name": "Zatopiona dzielnica",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to połowa liczby odkrytych lokalizacji (zaokrąglając w dół).\n[cultist]: -2. Jeśli test zakończy się porażką i twoja lokalizacja jest całkowicie zalana, otrzymujesz 1 obrażenie.\n[tablet]: -4. Jeśli test zakończy się porażką, umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -3 (zamiast tego -5, jeśli twoja lokalizacja nie jest zalana).",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to liczba odkrytych lokalizacji.\n[cultist]: -3. Jeśli twoja lokalizacja jest zalana, otrzymujesz 1 obrażenie.\n[tablet]: -4. Za każdy punkt, o który test się nie powiódł (porażka), umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -4 (zamiast tego -6, jeśli twoja lokalizacja nie jest zalana)."
+    },
+    {
+        "code": "11550",
+        "name": "Obsydianowy relikt [tdc_rune_y]",
+        "subname": "Zagadkowy posążek",
+        "text": "Jeśli Obsydianowy relikt [tdc_rune_y] miałby opuścić grę, usuń go z gry.\n[action]: Wykonaj test [intellect] (8). Podwój symbole umiejętności z każdej karty przeznaczonej do tego testu. Jeśli test zakończył się sukcesem, odwróć tę kartę i rozpatrz tekst na drugiej stronie.",
+        "traits": "Przedmiot. Relikwia. Glif."
+    },
+    {
+        "code": "11552",
+        "name": "Węzeł bariery",
+        "subname": "Tarcza energii",
+        "text": "Węzeł bariery nie może zostać pokonany ani nie może opuścić gry.\n[reaction] Początek twojej tury: wylecz 1 obrażenie z Węzła bariery.\n[tdc_rune_o] · [tdc_rune_x] · [tdc_rune_u]\nWęzeł bariery dostaje +2 do wytrzymałości.",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": 11553,
+        "name": "Pasieka",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to połowa liczby żetonów zagłady na wrogach i atutach w grze, zaokrąglając w dół (do maksymalnie 4).\n[cultist]: -1. Jeśli w twojej lokalizacji znajduje się wróg z cechą [[Kultysta]], odkryj kolejny żeton.\n[tablet]: -3. Jeśli test zakończy się porażką, umieść 1 żeton zagłady na wrogu w twojej lokalizacji, na którym nie ma żadnego żetonu zagłady.\n[elder_thing]: -4. Jeśli test zakończy się porażką, otrzymujesz 1 obrażenie lub 1 punkt przerażenia.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to liczba żetonów zagłady na wrogach i atutach w grze (do maksymalnie 8).\n[cultist]: -3. Jeśli w twojej lokalizacji znajduje się wróg z cechą [[Kultysta]], odkryj kolejny żeton.\n[tablet]: -5. Jeśli test zakończy się porażką, umieść 1 żeton zagłady na wrogu w twojej lokalizacji (na którym nie ma żadnego żetonu zagłady, jeśli to możliwe).\n[elder_thing]: -6. Jeśli test zakończy się porażką, otrzymujesz 1 obrażenie lub 1 punkt przerażenia."
+    },
+    {
+        "code": "11581",
+        "name": "Prastary relikt [tdc_rune_s]",
+        "subname": "Oblicze pijawki",
+        "text": "Jeśli Prastary relikt [tdc_rune_s] miałby opuścić grę, odłóż go na bok, poza grę.\n<b>Wymuszony</b> - Po tym, jak otrzymasz 1 lub więcej obrażeń: zadaj 1 obrażenie Prastaremu reliktowi [tdc_rune_s].\n[reaction] Kiedy na końcu gry Prastary relikt [tdc_rune_s] znajduje się pod twoją kontrolą: odwróć tę kartę i rozpatrz tekst na drugiej stronie."
+    },
+    {
+        "code": "11582",
+        "name": "Przerażająca „maska”",
+        "subname": "Czy to coś jest żywe?",
+        "text": "[fast] Wyczerp Przerażającą „maskę”: uwolnij się ze zwarcia ze wszystkimi wrogami. Do rozpoczęcia się twojej kolejnej tury nie możesz się poruszać i nie możesz zadawać wrogom obrażeń ani wchodzić z nimi w zwarcie.\n[tdc_rune_f] · [tdc_rune_d] · [tdc_rune_s] · [tdc_rune_x] · [tdc_rune_z] · [tdc_rune_m] · [tdc_rune_f] · [tdc_rune_b] · [tdc_rune_h]\n[fast] Otrzymaj 1 bezpośredni punkt przerażenia i wyczerp Przerażającą „maskę”: zadaj 2 obrażenia wrogowi w twojej lokalizacji.",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11583",
+        "name": "Pasożytnicze przeobrażenie",
+        "text": "<b>Odkrycie</b> - Umieść Pasożytnicze przeobrażenie w grze, w twoim obszarze zagrożenia.\n<b>Wymuszony</b> - Po tym, jak wróg wejdzie z tobą w zwarcie: umieść 1 żeton zagłady na Pasożytniczym przeobrażeniu.\n[action][action]: Odrzuć Pasożytnicze przeobrażenie.",
+        "traits": "Klątwa. Niebezpieczeństwo."
+    },
+    {
+        "code": "11587",
+        "name": "Wielka krypta",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to połowa liczby aktywowanych lokalizacji (zaokrąglając w dół).\n[cultist]: -3. Jeśli test zakończy się porażką, musisz dezaktywować swoją lokalizację albo otrzymać 1 obrażenie lub 1 punkt przerażenia.\n[tablet]: -2 (zamiast tego -3, jeśli twoja lokalizacja jest częściowo zalana; zamiast tego -4, jeśli twoja lokalizacja jest całkowicie zalana).\n[elder_thing]: -4. Jeśli test zakończy się porażką, przeszukaj stos odrzuconych kart spotkań w poszukiwaniu kopii karty podstępu Wciąż za tobą i dodaj ją do puli zwycięstwa.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to liczba aktywowanych lokalizacji.\n[cultist]: -4. Po rozpatrzeniu tego testu, musisz dezaktywować swoją lokalizację albo otrzymać 1 obrażenie i 1 punkt przerażenia.\n[tablet]: -3 (zamiast tego -4, jeśli twoja lokalizacja jest częściowo zalana; zamiast tego -5, jeśli twoja lokalizacja jest całkowicie zalana).\n[elder_thing]: -5. Jeśli test zakończy się porażką, przeszukaj stos odrzuconych kart spotkań w poszukiwaniu kopii karty podstępu Wciąż za tobą i dobierz ją."
+    },
+    {
+        "code": "11611",
+        "name": "Tabliczka pływów",
+        "subname": "Wspomnienie z pradawnych głębin",
+        "text": "[reaction] Kiedy poziom zalania twojej lokalizacji zostanie podniesiony: porusz się do połączonej lokalizacji.\n[tdc_rune_o] · [tdc_rune_x] · [tdc_rune_s] · [tdc_rune_v] · [tdc_rune_k]\n[fast] Wyczerp Tabliczkę pływów: podnieś poziom zalania twojej lokalizacji. Następnie wybierz inną zalaną lokalizację i obniż jej poziom zalania.",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11612",
+        "name": "Dziedziniec Starożytnych",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to liczba kart z cechą [[Glif]] w puli zwycięstwa.\n[cultist]: -2 (zamiast tego -4, jeśli w twojej lokalizacji znajduje się wróg z cechą [[Gapowicz]]).\n[tablet]: -2. Jeśli twoja lokalizacja jest zalana, odkryj kolejny żeton.\n[elder_thing]: -4. Jeśli ten żeton został odkryty podczas próby ataku lub wymknięcia się, otrzymujesz 1 obrażenie lub 1 punkt przerażenia.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to o 1 więcej niż liczba kart z cechą [[Glif]] w puli zwycięstwa.\n[cultist]: -3 (zamiast tego -5, jeśli w twojej lokalizacji znajduje się wróg z cechą [[Gapowicz]]).\n[tablet]: -3. Jeśli twoja lokalizacja jest zalana, odkryj kolejny żeton.\n[elder_thing]: -5. Jeśli ten żeton został odkryty podczas próby ataku lub wymknięcia się, otrzymujesz 1 obrażenie i 1 punkt przerażenia."
+    },
+    {
+        "code": "11638",
+        "name": "Okruch Y'ch'lecht",
+        "subname": "Pozaziemska pozostałość",
+        "text": "Możesz zignorować pierwszy atak, wykonywany przez wroga z cechą [[Gwiezdny pomiot]] lub [[Istota z Głębin]] przeciwko tobie w każdej rundzie.\n[tdc_rune_z] · [tdc_rune_x] · [tdc_rune_o]\n[reaction] Kiedy wróg z cechą [[Gwiezdny pomiot]] lub [[Istota z Głębin]] poruszy się do twojej lokalizacji, wyczerp tę kartę: wyczerp danego wroga.",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11639",
+        "name": "Obsydianowe kaniony",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to obecny poziom siły burzy.\n[cultist]: -4. Jeśli test zakończy się porażką, umieść 1 żeton zagłady na najbliższym wrogu.\n[tablet]: -1 za każde otwarte niebo, które sąsiaduje z twoją lokalizacją.\n[elder_thing]: -2. Jeśli w twojej lokalizacji znajduje się wróg, odkryj kolejny żeton.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to o 2 więcej niż obecny poziom siły burzy.\n[cultist]: -6. Umieść 1 żeton zagłady na najbliższym wrogu.\n[tablet]: -2 za każde otwarte niebo, które sąsiaduje z twoją lokalizacją.\n[elder_thing]: -4. Jeśli w twojej lokalizacji znajduje się wróg, odkryj kolejny żeton."
+    },
+    {
+        "code": "11663",
+        "name": "Relikt nieba [tdc_rune_f]",
+        "subname": "Zerodowany przez wiatr",
+        "text": "Jeśli Relikt nieba [tdc_rune_f] miałby opuścić grę, usuń go z gry.\n[action]: Wykonaj test [agility] (8). Podwój symbole umiejętności z każdej karty przeznaczonej do tego testu. Jeśli test zakończył się sukcesem, odwróć tę kartę i rozpatrz tekst na drugiej stronie.",
+        "traits": "Przedmiot. Relikwia. Glif."
+    },
+    {
+        "code": "11672a",
+        "name": "Obsydianowy szpon",
+        "subname": "Szybkość",
+        "text": "Nie może opuścić gry. Wchodzi do gry stroną <i>(Szybkość)</i> do góry.\n[fast] Podczas twojej tury, wyczerp tę kartę i wybierz lokalizację oddaloną maksymalnie o 2 połączenia: porusz się do danej lokalizacji.\n[tdc_rune_p] · [tdc_rune_x] · [tdc_rune_c]\n[fast]: Odwróć tę kartę. (Maksymalnie raz na rundę).",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11672b",
+        "name": "Obsydianowy szpon",
+        "subname": "Moc",
+        "text": "Nie może opuścić gry. Wchodzi do gry stroną <i>(Szybkość)</i> do góry.\n[action] Wyczerp Obsydianowy szpon: <b>Walka.</b> Do tego ataku możesz użyć twojej [agility] zamiast twojej [combat] i dostajesz +1 do wartości umiejętności. Jeśli zaatakowany wróg jest wyczerpany, ten atak zadaje +1 obrażenie.\n[fast]: Odwróć tę kartę. (Maksymalnie raz na rundę).",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11673",
+        "name": "Grobowiec Śniącego",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to obecny poziom Świadomości (maksymalnie 6).\n[cultist]: -4. Jeśli test zakończy się porażką, dobierz wierzchnią kartę z talii spotkań. Jeśli test zakończy się porażką o 3 lub więcej, ta karta zyskuje słowa kluczowe Zagrożenie i Mroczna fala.\n[tablet]: -4. Za każdy punkt, o który test się nie powiódł (porażka), musisz otrzymać 1 punkt przerażenia lub odrzucić 1 kartę z twojej ręki.\n[elder_thing]: -3. Odkryj kolejny żeton.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to obecny poziom Świadomości.\n[cultist]: -6. Jeśli test zakończy się porażką, dobierz wierzchnią kartę z talii spotkań. Jeśli test zakończy się porażką o 3 lub więcej, ta karta zyskuje słowa kluczowe Zagrożenie i Mroczna fala.\n[tablet]: -6. Za każdy punkt, o który test się nie powiódł (porażka), musisz otrzymać 1 punkt przerażenia lub odrzucić 1 kartę z twojej ręki.\n[elder_thing]: -4. Odkryj kolejny żeton."
+    },
+    {
+        "code": "11682",
+        "name": "Zagłada Arkham część I",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to połowa liczby lokalizacji, pod którymi nie ma żadnych kart scenariusza (zaokrąglając w górę).\n[cultist]: -3. Jeśli test zakończy się porażką, umieść 1 żeton zagłady na najbliższym wrogu, na którym nie ma żadnego żetonu zagłady.\n[tablet]: -3. Jeśli test zakończy się porażką umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -2. Jeśli twoja lokalizacja jest zalana, odkryj kolejny żeton.",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to liczba lokalizacji, pod którymi nie ma żadnych kart scenariusza.\n[cultist]: -5. Jeśli test zakończy się porażką, umieść 1 żeton zagłady na najbliższym wrogu, na którym nie ma żadnego żetonu zagłady.\n[tablet]: -5. Jeśli test zakończy się porażką, umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -4. Jeśli twoja lokalizacja jest zalana, odkryj kolejny żeton."
+    },
+    {
+        "code": "11687",
+        "name": "John Raymond Legrasse",
+        "subname": "Szuka odpowiedzi",
+        "text": "Dostajesz +1 do wartości umiejętności podczas walki z wrogami z cechą [[Istota z Głębin]] lub [[Gwiezdny pomiot]].\n[reaction] Podczas testu umiejętności w czasie próby walki lub wymknięcia się Cthulhu, wyczerp Johna Raymonda Legrasse'a: dostajesz +X do wartości umiejętności do tego testu, gdzie X to obecny poziom Furii Cthulhu.",
+        "traits": "Sprzymierzeniec. Detektyw.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "11688",
+        "name": "Koszmar w glinie",
+        "subname": "Rzeźba ze snów",
+        "text": "Każdy wróg z cechą [[Gwiezdny pomiot]] traci słowo kluczowe Wędrujący i swoją nadrukowaną instrukcję <b>Polowanie</b> i zyskuje słowo kluczowe Łowca i „<b>Polowanie</b> - Ty”.\n[tdc_rune_s] · [tdc_rune_x] · [tdc_rune_v] · [tdc_rune_i] · [tdc_rune_d] · [tdc_rune_v]\n[fast] Wyczerp Koszmar w glinie: do końca rundy traktuj pole tekstowe tego atutu tak, jakby było puste <i>(z wyjątkiem <b>Cech</b>)</i>, lub porusz wroga z cechą [[Gwiezdny pomiot]] 1 raz w dowolnym kierunku.",
+        "traits": "Przedmiot. Artefakt. R'lyeh."
+    },
+    {
+        "code": "11688a",
+        "name": "Zagłada Arkham część II",
+        "text": "Łatwy / Standardowy\n[skull]: -X. X to obecny poziom Furii Cthulhu.\n[cultist]: -3. Jeśli test zakończy się porażką i twoja lokalizacja jest zalana, otrzymujesz 1 obrażenie.\n[tablet]: -3. Jeśli test zakończy się porażką, umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -1. Odkryj kolejny żeton. Jeśli test zakończy się porażką, po rozpatrzeniu tego testu, dobierz wierzchnią kartę z talii Cthulhu. (Maksymalnie jedno dobranie na rundę).",
+        "back_text": "Trudny / Ekspercki\n[skull]: -X. X to o 2 więcej niż obecny poziom Furii Cthulhu.\n[cultist]: -5. Jeśli twoja lokalizacja jest zalana, otrzymujesz 1 obrażenie.\n[tablet]: -5. Jeśli test zakończy się porażką, umieść 1 z twoich żetonów wskazówek w twojej lokalizacji.\n[elder_thing]: -3. Odkryj kolejny żeton. Jeśli test zakończy się porażką, po rozpatrzeniu tego testu, dobierz wierzchnią kartę z talii Cthulhu. (Maksymalnie jedno dobranie na rundę)."
+    },
+    {
+        "code": "11721",
+        "name": "Stowaway Drone",
+        "text": "Aloof. Patrol (nearest other enemy with no doom on it ).\n<b>Forced</b> - When the enemy phase ends: Place 1 doom on another non-[[Elite]] enemy at this location. Then, discard Stowaway Drone.",
+        "traits": "Monster. Stowaway."
+    },
+    {
+        "code": "11722",
+        "name": "Infected!",
+        "text": "<b>Revelation</b> - Put Infected! into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - After you end your turn at a location with another investigator or a [[Stowaway]] enemy: Place 1 doom on Infected!\n[action]: Test [willpower] (3). If you fail, take 1 damage. If you succeed, discard Infected!",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11723",
+        "flavor": "\"…the Great Old Ones spoke to the sensitive among them by moulding their dreams.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Pilgrim Acolyte",
+        "text": "<b>Forced</b> - After Pilgrim Acolyte attacks: Place 1 doom on it.",
+        "traits": "Humanoid. Cultist."
+    },
+    {
+        "code": "11724",
+        "name": "Pilgrim Leader",
+        "text": "Aloof.\n<b>Spawn</b> - Any location (empty, if able).\nWhile Pilgrim Leader is ready, each other [[Cultist]] enemy gets +2 fight and gains hunter and relentless.",
+        "traits": "Humanoid. Cultist."
+    },
+    {
+        "code": "11725",
+        "name": "Monstrous Star Spawn",
+        "text": "Hunter. Massive. Relentless.\n<b>Prey</b> - Highest [combat].\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading this enemy: Heal 1 damage from it.",
+        "traits": "Monster. Star Spawn. Elite."
+    },
+    {
+        "code": "11726",
+        "name": "Infected Star Spawn",
+        "text": "Hunter. Relentless. <b>Prey</b> - Highest [agility].\n<b>Forced</b> - The first time this enemy would be defeated: Heal all damage from it and ready it.\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading Infected Star Spawn: Take 1 horror.",
+        "traits": "Monster. Star Spawn. Elite."
+    },
+    {
+        "code": "11727",
+        "name": "Coral Star Spawn",
+        "text": "Hunter. Relentless. <b>Prey</b> - Highest [willpower].\nWhile Coral Star Spawn has damage on it, it gains alert and retaliate.\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading this enemy: Take 1 damage.",
+        "traits": "Monster. Star Spawn. Elite."
+    },
+    {
+        "code": "11728",
+        "name": "Star Spawn Observer",
+        "text": "Aloof. Hunter.\n<b>Prey</b> - Highest [intellect].\n<b>Forced</b> - When you reveal an [elder_thing] token while investigating Star Spawn Observer's location: It engages you and makes an immediate attack.",
+        "traits": "Monster. Star Spawn. Elite."
+    },
+    {
+        "code": "11729",
+        "name": "Eye of the Deep",
+        "text": "<b>Revelation</b> - Put Eye of the Deep into play in your threat area. Limit 1 per investigator.\nTreat each [cultist] and [tablet] token you reveal during a skill test as if it were an [elder_thing] token, instead.\n[action]: Test [willpower] (3). If you succeed, discard Eye of the Deep.",
+        "traits": "Power."
+    },
+    {
+        "code": "11730",
+        "name": "Cunning Mimicry",
+        "text": "<b>Revelation</b> - If there are no [[Monster]] enemies in play, Cunning Mimicry gains surge. Otherwise, test [intellect] (3). If you fail, the nearest [[Monster]] enemy attacks you <i>(regardless of its current location)</i>.",
+        "traits": "Scheme."
+    },
+    {
+        "code": "11731",
+        "name": "Elder Mist",
+        "text": "<b>Revelation</b> - Attach Elder Mist to the nearest location without Elder Mist attached.\nEach investigator at attached location gets -1 [willpower], -1 [intellect],-1 [combat], and -1 [agility].\n<b>Forced</b> - After an investigator at attached location succeeds at a skill test by 2 or more: Discard Elder Mist.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11732",
+        "name": "Corrosive Fog",
+        "text": "<b>Revelation</b> - Test [intellect] or [combat] (4). If you fail, take 1 damage. If you fail by 3 or more, instead deal 1 direct damage to your investigator and each [[Ally]] and [[Item]] asset you control with health.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11733",
+        "name": "Voltaic Eel",
+        "text": "Hunter.\n<b>Prey</b> - Most clues.\nWhile Voltaic Eel is moving during the enemy phase, each fully flooded location is considered to be connected to one another.",
+        "traits": "Monster."
+    },
+    {
+        "code": "11734",
+        "name": "Dreaming Migration",
+        "text": "<b>Revelation</b> - If there are no enemies in play, Dreaming Migration gains surge. Otherwise, test [willpower] (3). If you fail, you must choose one:\n- The nearest enemy moves to your location and makes an immediate attack.\n- Draw the topmost enemy in the encounter discard pile.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11735",
+        "name": "Undersea Hunt",
+        "text": "<b>Revelation</b> - Test [agility] (3). This test gets +2 difficulty if your location is fully flooded. If you fail, take 1 damage and increase the flood level of the nearest eligible location.",
+        "traits": "Scheme."
+    },
+    {
+        "code": "11736",
+        "name": "Deadly Torrent",
+        "text": "<b>Revelation</b> - If your location is unflooded, Deadly Torrent gains surge. Otherwise, you must choose:\n- Test [agility] (4) to swim to safety. If you succeed, move to a connecting location. If you fail, take 1 damage and 1 horror.\n- Test [combat] (4) to stand your ground. If you fail, take 1 damage and discard 1 asset you control that takes up 1 or more slots.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11737",
+        "flavor": "\"I cannot think of the deep sea without shuddering at the nameless things that may at this very moment be crawling and floundering on its slimy bed...\" - H.P. Lovecraft, \"Dagon\"",
+        "name": "Something in the Water",
+        "text": "Surge.\n<b>Revelation</b> - Increase the flood level of the nearest eligible location.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11738",
+        "name": "Ominous Silence",
+        "text": "<b>Revelation</b> - Put Ominous Silence into play in your threat area.\nAs an additional cost to play a card, you must either spend 1 resource or take 1 horror.\n[action]: Test [agility] (3). If your location is not flooded, this test automatically succeeds. If you succeed, discard Ominous Silence.",
+        "traits": "Terror."
+    },
+    {
+        "code": "11739",
+        "flavor": "\"He had an unprecedented dream of great Cyclopean cities of titan blocks and sky-flung monoliths...\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Cyclopean Architecture",
+        "text": "<b>Revelation</b> - Test [intellect] (X), where X is your location's printed shroud. For each point you fail by, choose and discard 1 card from your hand (to a maximum of 3).",
+        "traits": "Terror."
+    },
+    {
+        "code": "11740",
+        "flavor": "\"He said that the geometry of the dream-place he saw was abnormal, non-Euclidean, and loathsomely redolent of spheres and dimensions apart from ours.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Crumbling Masonry",
+        "text": "<b>Revelation</b> - Test [agility] (X), where X is your location's printed shroud. If you fail, take 2 damage.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11741",
+        "flavor": " [tdc_rune_m][tdc_rune_f] · [tdc_rune_b][tdc_rune_m][tdc_rune_l] · [tdc_rune_b][tdc_rune_x][tdc_rune_n][tdc_rune_l][tdc_rune_k] · [tdc_rune_d][tdc_rune_c] · [tdc_rune_s][tdc_rune_p][tdc_rune_h][tdc_rune_k][tdc_rune_b] · [tdc_rune_z][tdc_rune_k][tdc_rune_d][tdc_rune_z] · [tdc_rune_u][tdc_rune_c][tdc_rune_b][tdc_rune_n][tdc_rune_p][tdc_rune_b][tdc_rune_n] · [tdc_rune_g][tdc_rune_d][tdc_rune_m][tdc_rune_c][tdc_rune_l] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_e]",
+        "name": "\"Cthulhu fhtagn!\"",
+        "text": "<b>Revelation</b> - Test [combat] (3). If you fail, you must either take 2 horror or deal 1 direct damage to an investigator at your location.",
+        "traits": "Power."
+    },
+    {
+        "code": "11742",
+        "flavor": "\"I have looked upon all the universe has to hold of horror, and even the skies of spring and flowers of summer must ever afterward be poison to me.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Oppressive Influence",
+        "text": "<b>Revelation</b> - Test [willpower] (X), where X is your location's printed shroud. If you fail, take 2 horror.",
+        "traits": "Power."
+    },
+    {
+        "code": "11743",
+        "name": "Domination",
+        "text": "Peril.\n<b>Revelation</b> - You must decide (choose one):\n- Place 1 doom on the current agenda. This effect can cause the current agenda to advance.\n- Each investigator discards 2 cards from their hand.\n- Each investigator loses 1 action.",
+        "traits": "Power."
+    },
+    {
+        "code": "11744",
+        "name": "The Inescapable",
+        "subname": "Tireless Pursuer",
+        "text": "Hunter. Relentless.\n<b>Spawn</b> - Any connecting location (empty, if able).\n<b>Forced</b> - The first time each round an [elder_thing] token is revealed from the chaos bag: Ready The Inescapable and resolve its hunter keyword <i>(it does not attack)</i>.",
+        "traits": "Monster. Star Spawn. Elite."
+    },
+    {
+        "code": "11745",
+        "name": "Still Behind You",
+        "text": "<b>Revelation</b> - Test [agility] (2). This test gets +1 difficulty for each copy of Still Behind You in the victory display. If you fail and The Inescapable...\n- ...is in play, it moves, one location at a time, to your location and engages you.\n- ...is not in play, search all in- and out-of-play areas for The Inescapable and draw it. Add Still Behind You in the victory display.",
+        "traits": "Scheme."
+    },
+    {
+        "code": "11746",
+        "flavor": "A hunter perfectly adapted to the lightless deep.",
+        "name": "Deep One Thrall",
+        "text": "<b>Forced</b> - After Deep One Thrall engages you: Discard 1 card at random from your hand.",
+        "traits": "Humanoid. Monster. Deep One."
+    },
+    {
+        "code": "11747",
+        "name": "Elder Deep One",
+        "text": "Hunter. Retaliate.\nEach other [[Deep One]] enemy gains relentless.\n<b>Forced</b> - After Elder Deep One engages you: Heal 1 damage from each other [[Deep One]] enemy in play.",
+        "traits": "Humanoid. Monster. Deep One."
+    },
+    {
+        "code": "11748",
+        "flavor": "\"Be careful out there. We have no idea what's lurking in the shadows.\"",
+        "name": "Deep One Ambush",
+        "text": "<b>Revelation</b> - Put Deep One Ambush into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - After a [[Deep One]] enemy engages you: It attacks you. Then, discard Deep One Ambush.",
+        "traits": "Scheme."
+    },
+    {
+        "code": "11749",
+        "flavor": "[tdc_rune_g][tdc_rune_b][tdc_rune_d][tdc_rune_c] · [tdc_rune_z][tdc_rune_x] · [tdc_rune_h][tdc_rune_x][tdc_rune_n] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o] · [tdc_rune_m][tdc_rune_f] · [tdc_rune_h][tdc_rune_x][tdc_rune_n][tdc_rune_s] · [tdc_rune_l][tdc_rune_o][tdc_rune_d][tdc_rune_p][tdc_rune_p] · [tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_z]",
+        "name": "Tortured Visions",
+        "text": "<b>Revelation</b> - Test [willpower] (3). This test gets +2 difficulty if you have 3 or fewer cards in your hand. If you fail, take 1 direct horror and discard 1 card at random from your hand.",
+        "traits": "Terror."
+    },
+    {
+        "code": "11750",
+        "name": "Drawn to Darkness",
+        "text": "<b>Revelation</b> - Put Drawn to Darkness into play in your threat area. Limit 1 per investigator.\nYour maximum hand size is reduced by 3 (to a minimum of 1).\n<b>Forced</b> - When your turn ends, if you have no cards in hand: Discard Drawn to Darkness.",
+        "traits": "Power."
+    },
+    {
+        "code": "11751",
+        "name": "Persistent Construct",
+        "text": "Hunter.\n<b>Prey</b> - Nearest investigator with an [[Artifact]] asset.\n<b>Forced</b> - When you defeat this enemy: Spawn each other Persistent Construct in the victory display, exhausted, at your location.",
+        "traits": "Construct."
+    },
+    {
+        "code": "11752",
+        "name": "Infernal Machinery",
+        "text": "<b>Revelation</b> - Put Infernal Machinery into play in your threat area.\nYou cannot trigger abilities on [[Glyph]] or [[Artifact]] cards.\n[action]: Test [intellect] or [agility] (4). If you succeed, discard Infernal Machinery.",
+        "traits": "Hazard."
+    },
+    {
+        "code": "11753a",
+        "name": "Nie ma jak w domu",
+        "subname": "Zagubiony i niepewny",
+        "text": "Trwały. Zużywalny (8 odkryć).\n<b>Wymuszony</b> - Kiedy odkryjesz lokalizację: usuń 1 odkrycie z Nie ma jak w domu.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Nie ma jak w domu znajduje się 1 [per_investigator] lub mniej odkryć: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11753b",
+        "name": "Nie ma jak w domu",
+        "subname": "Tam gdzie serce twoje",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nPodczas twojej tury możesz wykonać dodatkową akcję, która może być zużyta tylko na ruch.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11754a",
+        "name": "Podążaj za wiarą",
+        "subname": "Ślepe oddanie",
+        "text": "Trwały. Zużywalny (0 znaków).\n[reaction] Po tym, jak w dowolnej lokalizacji zostanie odkryty żeton chaosu [elder_sign]: umieść 1 znak na Podążaj za wiarą.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Podążaj za wiarą znajduje się więcej niż 1 [per_investigator] znaków: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11754b",
+        "name": "Podążaj za wiarą",
+        "subname": "Ugruntowana wiara",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nDostajesz +1 [willpower].\n[reaction] Po tym, jak w dowolnej lokalizacji zostanie odkryty żeton chaosu [elder_sign]: ulecz 1 punkt przerażenia z badacza w danej lokalizacji.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11755a",
+        "name": "Wyjść przed szereg",
+        "subname": "Odrzucony i zhańbiony",
+        "text": "Trwały.\n<b>Wymuszony</b> - Kiedy otrzymujesz 1 lub więcej obrażeń: umieść 1 obrażenie także na Wyjść przed szereg.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Wyjść przed szereg znajdują się obrażenia w liczbie równej lub większej niż twoja maksymalna wytrzymałość: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11755b",
+        "name": "Wyjść przed szereg",
+        "subname": "Odzyskane dobre imię",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nDostajesz +1 [combat] i +2 do maksymalnej wytrzymałości.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11756a",
+        "name": "Niezły szmal",
+        "subname": "Pod wozem",
+        "text": "Trwały.\n[reaction] Kiedy zyskujesz 1 lub więcej żetonów zasobów: umieść 1 z tych żetonów na Niezłym szmalu.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Niezłym szmalu znajduje się 5 lub więcej żetonów zasobów: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11756b",
+        "name": "Niezły szmal",
+        "subname": "Na wozie",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nZaczynasz grę z 5 dodatkowymi żetonami zasobów.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11757a",
+        "name": "Dowiedź swej wartości",
+        "subname": "Czy jesteś brzemieniem?",
+        "text": "Trwały. Zużywalny (4 szanse).\n<b>Wymuszony</b> - Po tym, jak twój test umiejętności zakończy się porażką o 2 lub więcej: usuń 1 szansę z Dowiedź swej wartości.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Dowiedź swej wartości znajduje się 1 lub więcej szans: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11757b",
+        "name": "Dowiedź swej wartości",
+        "subname": "Sam sobie sterem",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nZużywalny (3 szanse).\n[reaction] Kiedy podczas testu umiejętności w twojej lokalizacji zostanie odkryty żeton chaosu inny niż [auto_fail], wydaj 1 szansę: anuluj dany żeton.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11758a",
+        "name": "Po pierwsze, nie szkodzić",
+        "subname": "Czy możesz ich ocalić?",
+        "text": "Trwały. Zużywalny (5 obowiązków).\n[reaction] Po tym, jak wyleczysz obrażenie lub punkt przerażenia z badacza lub atutu z cechą [[Sprzymierzeniec]]: usuń 1 obowiązek z Po pierwsze, nie szkodzić.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Po pierwsze, nie szkodzić nie znajduje się żaden obowiązek: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11758b",
+        "name": "Po pierwsze, nie szkodzić",
+        "subname": "Można na tobie polegać",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nDostajesz +1 [agility].\n[reaction] Po tym, jak wyleczysz obrażenie lub punkt przerażenia z badacza lub atutu z cechą [[Sprzymierzeniec]], wyczerp Po pierwsze, nie szkodzić: otrzymujesz 1 żeton zasobu.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11759a",
+        "name": "Sny o zagładzie",
+        "subname": "Wizje ponurej przyszłości",
+        "text": "Trwały.\n<b>Wymuszony</b> - Kiedy otrzymujesz 1 lub więcej punktów przerażenia: umieść 1 punkt przerażenia także na Snach o zagładzie.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Snach o zagładzie znajdują się punkty przerażenia w liczbie równej lub większej niż twoja maksymalna poczytalność: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11759b",
+        "name": "Sny o zagładzie",
+        "subname": "Przyszłość można zmienić",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nMasz 1 dodatkową strefę mistyczną i dostajesz +2 do maksymalnej poczytalności.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11760a",
+        "name": "Dotrzeć do sedna",
+        "subname": "Kompulsywne poszukiwania",
+        "text": "Trwały. Zużywalny (5 obsesji).\n<b>Wymuszony</b> - Po tym, jak odkryjesz ostatni żeton wskazówki w twojej lokalizacji: usuń 1 obsesję z Dotrzeć do sedna.\n<b>Wymuszony</b> - Kiedy gra się kończy, jeśli na Dotrzeć do sedna nie znajduje się żadna obsesja: zaznacz 1 postęp pod tym Zadaniem w Dzienniku kampanii.",
+        "traits": "Zadanie. Nieukończone."
+    },
+    {
+        "code": "11760b",
+        "name": "Dotrzeć do sedna",
+        "subname": "Opanowana błyskotliwość",
+        "text": "Trwały. Dopóki to Zadanie nie zostanie ukończone, wchodzi do gry stroną Osłabienie do góry.\nDostajesz +1 [intellect].\n[reaction] Po tym, jak odkryjesz ostatni żeton wskazówki w twojej lokalizacji, wyczerp Dotrzeć do sedna: dobierz 1 kartę.",
+        "traits": "Zadanie. Ukończone."
+    },
+    {
+        "code": "11761",
+        "name": "Sprzęt ekspedycyjny",
+        "subname": "Ciężki, ale niezawodny",
+        "text": "Zużywalny (3 zapasy).\n[action] Wydaj 1 zapas: wylecz 1 obrażenie z badacza w twojej lokalizacji.\n[fast] Usuń Sprzęt ekspedycyjny z gry: porusz nie-[[Elitarnego]] wroga w twojej lokalizacji lub sąsiedniej lokalizacji 1 raz w dowolnym kierunku.",
+        "traits": "Przedmiot. Zapasy."
+    },
+    {
+        "code": "11762",
+        "name": "Laudanum",
+        "subname": "Na czarną godzinę",
+        "text": "Zużywalny (3 zapasy).\n[action] Wydaj 1 zapas: wylecz 1 punkt przerażenia z badacza w twojej lokalizacji.\n[reaction] Kiedy dobierzesz kartę podstępu inną niż osłabienie z cechą [[Moc]] lub [[Koszmar]], usuń Laudanum z gry: anuluj efekt odkrycia danej karty podstępu i ją odrzuć.",
+        "traits": "Przedmiot. Zapasy."
+    },
+    {
+        "code": "11763",
+        "name": "Pozaziemska tabliczka",
+        "subname": "Prehistoryczne zapiski",
+        "text": "Zużywalny (4 sekrety).\n[fast] Podczas testu umiejętności z karty z cechą [[Glif]] lub [[R'lyeh]], wyczerp Pozaziemską tabliczkę i wydaj 1 sekret: wykonujący go badacz dostaje +2 do wartości umiejętności do tego testu.",
+        "traits": "Przedmiot. Relikwia. R'lyeh."
+    },
+    {
+        "code": "11764",
+        "name": "Skafander",
+        "text": "Jeśli twoja lokalizacja jest całkowicie zalana, możesz ją traktować tak, jakby była częściowo zalana na potrzeby efektów z kart.\n<b>Wymuszony</b> - Kiedy dowolna liczba obrażeń miałaby zostać umieszczona na tobie: umieść 1 z danych obrażeń na Skafandrze.",
+        "traits": "Przedmiot. Pancerz."
+    },
+    {
+        "code": "11765",
+        "flavor": "„Życie to jedna wielka okazja i mam zamiar ją wykorzystać”.",
+        "name": "Ruby Standish",
+        "subname": "Zawodowa złodziejka",
+        "text": "Dostajesz +1 [agility].\n[fast] Jeśli w twojej lokalizacji nie ma żadnego przygotowanego wroga, wyczerp Ruby Standish: porusz się do połączonej lokalizacji.",
+        "traits": "Sprzymierzeniec. Przestępca.",
+        "slot": "Sprzymierzeniec"
+    },
+    {
+        "code": "11766",
+        "flavor": "„Miałem nadzieję, że to wszystko inaczej się potoczy”.",
+        "name": "Andy Van Nortwick",
+        "subname": "Ambitny dziennikarz",
+        "text": "Dostajesz +1 [intellect].\nJeśli w twojej lokalizacji nie ma żadnych żetonów wskazówek, zignoruj pierwszy atak towarzyszący, wykonywany przeciwko tobie w każdej rundzie.",
+        "traits": "Sprzymierzeniec. Reporter.",
+        "slot": "Sprzymierzeniec"
+    }
+]
