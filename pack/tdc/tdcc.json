@@ -29,6 +29,7 @@
         "pack_code": "tdcc",
         "position": 2,
         "quantity": 1,
+        "stage": 1,
         "text": "[reaction] After the last clue is discovered from an [[Arkham]] location: Discard the top 3 cards of the encounter deck. One at a time, spawn each [[Criminal]] enemy discarded this way at the nearest empty location.",
         "type_code": "agenda"
     },
@@ -48,6 +49,7 @@
         "pack_code": "tdcc",
         "position": 3,
         "quantity": 1,
+        "stage": 2,
         "text": "[reaction] After the last clue is discovered from an [[Arkham]] location: Discard the top 3 cards of the encounter deck. One at a time, spawn each [[Criminal]] enemy discarded this way at the nearest empty location.",
         "type_code": "agenda"
     },
@@ -64,6 +66,7 @@
         "pack_code": "tdcc",
         "position": 4,
         "quantity": 1,
+        "stage": 1,
         "text": "*This act gets +1 [per_investigator] clue threshold.\n[fast] Spend X clues: <b>Parley.</b> Discard an engaged [[Criminal]] enemy with X remaining health at your location. Place 1 clue <i>(from the token pool)</i> on this act.\n<b>Objective</b> - At the end of the round, if the number of clues on this act equals or exceeds its clue threshold, advance.",
         "type_code": "act"
     },
@@ -99,6 +102,7 @@
         "pack_code": "tdcc",
         "position": 5,
         "quantity": 1,
+        "stage": 1,
         "text": "*This act gets +1 [per_investigator] clue threshold.\n[fast] Spend X clues: <b>Parley.</b> Discard an engaged [[Criminal]] enemy with X remaining health at your location. Place 1 clue <i>(from the token pool)</i> on this act.\n<b>Objective</b> - At the end of the round, if the number of clues on this act equals or exceeds its clue threshold, advance.",
         "type_code": "act"
     },
@@ -137,6 +141,7 @@
         "pack_code": "tdcc",
         "position": 6,
         "quantity": 1,
+        "stage": 2,
         "text": "Sadie Sheldon gains: \"[action] Spend up to 4 resources: <b>Parley.</b> Test [willpower] or [combat] (5). This test gets -1 difficulty for each resource spent as part of this action's cost. For each point you succeed by, place 1 of your clues on Sadie Sheldon.\"\n<b>Objective</b> - When damage is placed on Sadie Sheldon, advance.\n<b>Objective</b> - If there are 3 clues on Sadie Sheldon, advance.",
         "type_code": "act"
     },
@@ -156,6 +161,7 @@
         "pack_code": "tdcc",
         "position": 7,
         "quantity": 1,
+        "stage": 2,
         "text": "Naomi O'Bannion gains: \"[action] Spend up to 4 resources: <b>Parley.</b> Test [intellect] or [agility] (5). This test gets -1 difficulty for each resource spent as part of this action's cost. For each point you succeed by, place 1 of your clues on Naomi O'Bannion.\"\n<b>Objective</b> - When damage is placed on Naomi O'Bannion, advance.\n<b>Objective</b> - If there are 3 clues on Naomi O'Bannion, advance.",
         "type_code": "act"
     },
@@ -175,6 +181,7 @@
         "pack_code": "tdcc",
         "position": 8,
         "quantity": 1,
+        "stage": 3,
         "text": "Each [[Criminal]] enemy with clues on it gains aloof.\n[action] Remove 1 clue from a [[Criminal]] enemy at your location: <b>Parley.</b> That enemy deals its damage to another enemy at your location.\n<b>Objective</b> - When the round ends, if there is at least 1 [[Elite]] enemy in the victory display, advance.",
         "type_code": "act"
     },
@@ -375,8 +382,8 @@
         "stage": 1,
         "text": "[fast] Spend 1 [per_investigator] clues, as a group: Decrease your location's flood level.\n<b>Objective</b> – Make your way to the sea floor! If each surviving investigator is at Obsidian Foundations, advance.",
         "type_code": "act"
-      },
-      {
+    },
+    {
         "back_flavor": "Ruby helps you up the slick black rocks to stand on the edge of what was once an ancient walkway. R'lyeh has risen noticeably since you arrived: the sunken western wall tower precariously over the turgid waters like an ancient citadel. The bay where you first made camp has receded as well. Not far off, you can see the <i>Cassandra</i> bob on the black waves. It won't be a long trek back to where you made landfall.",
         "back_name": "Return to the Surface",
         "back_text": "<b>(→R2)</b> <i>(page 15)</i>.",
@@ -395,8 +402,8 @@
         "stage": 1,
         "text": "[fast] Spend 1 [per_investigator] clues, as a group: Decrease your location's flood level.\n<b>Objective</b> – Make your way to the surface! If each surviving investigator is at Western Wall, advance.",
         "type_code": "act"
-      },
-      {
+    },
+    {
         "back_flavor": "The path is both perilous and breathtaking in equal measure. A brilliant green glow emanates from below, illuminating schools of fish and deep sea creatures.",
         "back_illustrator": "Pixoloid Studios",
         "back_text": "You cannot enter Treacherous Path if there are clues on your location.",
@@ -1737,7 +1744,7 @@
         "text": "<blockquote><i>Twisting portions of the relic unlocks a small cylinder in the center. Inside the cylinder is an even smaller version of the same relic, and within the smaller relic is a glittering gem. Holding it up to the light projects a series of small dots that form some kind of code. One of the expedition members identifies it as a blueprint of sorts: the symbols appear to be instructions for repairing some kind of machine.</i></blockquote>\nYou discover this glyph:\n[tdc_rune_s]\nIn your Campaign Log, record \"Machine\" under [tdc_rune_s] on the glyph record. This glyph has been translated.\nAdd this card to the victory display.",
         "type_code": "story",
         "victory": 1
-    },        
+    },
     {
         "code": "11582",
         "cost": null,
@@ -3381,7 +3388,7 @@
         "text": "<b>Revelation</b> - Attach Eroded Frieze [tdc_rune_e] to your location. Cannot be canceled. If Eroded Frieze [tdc_rune_e] would leave play, set it aside, out of play.\n[action]: Test [combat] or [intellect] (3). If you fail, take 1 damage. Otherwise, put 1 resource on this card. If there are 1 [per_investigator] resources on Eroded Frieze [tdc_rune_e], flip it and resolve its text.",
         "traits": "Evidence. Glyph.",
         "type_code": "treachery"
-    },    
+    },
     {
         "code": "11664b",
         "encounter_code": "obsidian_canyons",
@@ -3553,6 +3560,7 @@
         "pack_code": "tdcc",
         "position": 174,
         "quantity": 1,
+        "stage": 1,
         "text": "<b>Forced</b> - When doom would be placed on a card other than a story asset: Place 1 resource on the scenario reference card, as Disturbance, instead. If the current Disturbance is 6 or more (8 or more instead of there are exactly 1 or 2 investigators in the game), immediately advance.\n<b>Objective</b> - Prepare your artifacts for the final showdown!",
         "type_code": "agenda"
     },
@@ -3595,6 +3603,7 @@
         "pack_code": "tdcc",
         "position": 175,
         "quantity": 1,
+        "stage": 2,
         "text": "<b>Forced</b> - When doom is placed on this agenda: Each investigator takes 1 direct horror.\n[free] During your turn, remove 1 doom from an [[Artifact]] asset you control: Cthulhu loses relentless and gets -1 fight and -1 evade until the end of the round. (Limit once per asset per round.)\n<b>Objective</b> - If you manage to defeat Cthulhu: <b>(→R1)</b> <i>(page 39)</i>",
         "type_code": "agenda"
     },
@@ -3901,7 +3910,7 @@
         "stage": 1,
         "text": "[free] During an attack at your location, spend 1 clue: That attack deals +1 damage. (Max once per attack.)\n<b>Objective</b> - When the round ends, if there are 3 [[Cthulhu]] enemies in the victory display, advance.",
         "type_code": "act"
-    }, 
+    },
     {
         "back_flavor": "The ancient menace continues his rampage. Your attempts to draw his attention appear to be working. Hopefully, you've bought Andy enough time to find a way to seal the ancient one away.",
         "back_name": "The Hour is at Hand",
@@ -3937,6 +3946,7 @@
         "pack_code": "tdcc",
         "position": 191,
         "quantity": 1,
+        "stage": 2,
         "text": "[action] Spend 1 [per_investigator] clues, as a group, and place an [[Artifact]] asset you control in the victory display: Place 1 resource (<i>from the token pool</i>) on your location, as a sigil.\n<b>Forced</b> - When the enemy phase ends: Draw the top card of the Cthulhu deck.\n<b>Objective</b> - <i>Banish the awakened dreamer!</i> If each [[Cthulhu]] enemy is in the victory display and there are 5 locations with sigils on them, immediately advance.",
         "type_code": "agenda"
     },
@@ -4103,7 +4113,7 @@
         "code": "11700",
         "double_sided": true,
         "encounter_code": "the_doom_of_arkham_part_2",
-        "encounter_position": 13,
+        "encounter_position": 14,
         "faction_code": "mythos",
         "illustrator": "Pixoloid Studios",
         "name": "Eastern Rooftops",
