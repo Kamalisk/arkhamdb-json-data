@@ -1,23 +1,847 @@
 [
     {
+        "code": "11001",
+        "name": "Marion Tavares",
+        "subname": "La Pescatrice",
+        "text": "Possiedi 1 slot mano in meno.\n[reaction] Dopo che hai giocato un evento durante il tuo turno: Pesca 1 carta. Poi puoi giocare 1 evento diverso. (Limite di una volta per round.)\n<b>Effetto di</b> [elder_sign]: +1. Cerca tra le 3 carte in cima al tuo mazzo 1 evento e pescalo. Rimescola il tuo mazzo.",
+        "traits": "Vagabondo. Imprenditore.",
+        "back_flavor": "Dopo la morte di suo padre, Marion lasciò la Baia di Narragansett per trasferirsi ad Arkham. Comprò una barca con l'amica Annalise Taylor e le due trovarono una nuova casa nella comunità di pescatori della cittadina. Una notte tempestosa, Annalise venne trascinata fuoribordo da una bizzarra creatura dalle fattezze simili a quelle di un pesce. Marion non esitò a tuffarsi, riuscendo a strappare la sua amica dalle fauci di quell'essere... perdendo però il braccio destro. Da allora, osserva guardinga le acque turbolente dell'Atlantico e le strane creature che si celano nelle sue profondità.",
+        "back_text": "<b>Dimensioni del Mazzo</b>: 30.\n<b>Scelta del Tratto</b>: Durante la composizione del mazzo, scegli 1 dei tratti seguenti: [Sorte], [Azzardo] o [Improvvisato].\n<b>Opzioni del Mazzo</b>: Carte Guardiano ([Guardian]) di livello 0-5, eventi con il [Tratto] scelto di livello 0-2, fino a 5 altre carte Sopravvissuto ([Survivor]) di livello 0.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): 2 copia di Determinata, \"Faccio da sola\", 1 debolezza base casuale.",
+        "flavor": "\"La gente conta su di me perché faccia il mio lavoro. Non basterà qualche strano pesce a farmi cambiare idea.\""
+    },
+    {
+        "code": "11002",
+        "name": "Determinata",
+        "text": "Solo mazzo di Marion Tavares.\nSe questa prova di abilità ha successo ed è di un evento che hai giocato, puoi rimettere Determinata nella tua mano invece di scartarla.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11003",
+        "name": "\"Faccio da Sola\"",
+        "text": "<b>Rivelazione</b> - Metti in gioco \"Faccio da Sola\" nella tua area di minaccia.\nCome costo aggiuntivo per farti giocare un evento, subisci 1 orrore.\n[fast] Scarta 3 eventi dalla tua mano: Scarta \"Faccio da Sola.\"",
+        "traits": "Difetto."
+    },
+    {
+        "code": "11004",
+        "name": "Lucius Galloway",
+        "subname": "Il Poeta",
+        "text": "[reaction] Dopo che hai avuto successo di 2 o più punti eludendo un nemico: Scopri 1 indizio nel tuo luogo. (Limite di una volta per round.)\n<b>Effetto di</b> [elder_sign]: +1 per ogni nemico nel tuo luogo.",
+        "traits": "Accademico. Sognatore.",
+        "back_flavor": "Nato al sud e cresciuto a New York, Lucius si è fatto un nome tra gli intellettuali, gli artisti e i musicisti di Harlem grazie ai suoi versi surreali. Quello che i suoi contemporanei ignorano è che la fumosa città sommersa che il poeta descrive non è ispirata a New York ma agli incubi del suo compagno Rudi, scomparso dopo aver parlato di una cabala di sognatori suoi sodali ad Arkham che condividevano le medesime visioni inquietanti. Oggi Lucius lavora come docente ospite alla Miskatonic University, mentre continua a cercare il suo amore perduto e forse l'origine dei suoi terribili incubi...",
+        "back_text": "<b>Dimensione del Mazzo</b>: 30.\n<b>Opzioni del Mazzo</b>: Carte Studioso ([seeker]) di livello 0-5, Carte Canaglia ([rogue]) di livello 0-2, carte neutrali di livello level 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Libro di Poesie, Sogno dell'Inondazione, 1 debolezza base casuale.",
+        "flavor": "\"Sono solo felice che tutti i miei sogni siano rimasti nella mia testa.\""
+    },
+    {
+        "code": "11005",
+        "name": "Libro di Poesie",
+        "subname": "Versi Imprevedibili",
+        "text": "Solo mazzo di Lucius Galloway.\nUtilizzo (1 ispirazione). La prima volta che scopri un indizio in ogni round, reintegra questa ispirazione.\n[reaction] Dopo aver rivelato i segnalini caos durante una prova di abilità, spendi I ispirazione: Ricevi +1 al valore di abilità in questa prova di abilità. Se hai successo esattamente di 0 punti, pesca I carta.",
+        "traits": "Oggetto. Tomo."
+    },
+    {
+        "code": "11006",
+        "name": "Sogno dell'Inondazione",
+        "text": "<b>Rivelazione</b> - Metti in gioco il Sogno dell'Inondazione nella tua area di minaccia.\n<b>Obbligo</b> - La prima volta che scopri 1 o più indizi durante il tuo turno: Subisci 1 orrore e rimescola il Sogno dell'Inondazione nel tuo mazzo.",
+        "traits": "Presagio. Ultimi Giorni."
+    },
+    {
+        "code": "11007",
+        "name": "Agatha Crane",
+        "subname": "La Parapsicologa",
+        "text": "[reaction] Quando il tuo turno termina, se hai sigillato, annullato o ignorato 1 o più segnalini caos in questo round: Gioca 1 evento [[Incantesimo]] o [[Intuizione]] dalla tua pila degli scarti. Dopo che quell'evento è stato risolto, rimuovilo dal gioco.\n<b>Effetto di</b> [elder_sign]: +2. Puoi annullare questo segnalino e rivelarne 1 altro. Se lo fai, pesca 1 carta.",
+        "traits": "Miskatonic. Accademico.",
+        "back_flavor": "Laureata in matematica e psicologia, Agatha Crane aveva sempre dato importanza alla scienza dimostrabile. Anche in gioventù aveva mostrato scarso interesse per le storie di fantasmi, ma una serie di eventi comprovati la portarono alla conclusione che ci fosse qualcosa di innegabilmente veritiero nei racconti di mostri e magia che permeano la storia di Arkham. Se queste cose fossero reali, dovrebbero rispettare delle leggi universali. Come spiega sempre a chiunque le presti orecchio con interesse - primo tra tutti suo marito Wilbur - questo nuovo campo di studi si chiama \"parapsicologia\". Con metodi scientifici collaudati, Agatha ambisce a colmare il divario tra il mistico e il razionale, tra l'occultismo e la scienza.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 35.\n<b>Opzioni del Mazzo</b>: Carte Studioso ([seeker]) di livello 0-5, carte neutrali di livello 0-5, eventi [[Intuizione]] di livello 0-3, fino a 10 altre carte Mistico ([mystic]).\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Ocula Obscura, Scorgere il Vuoto, 1 debolezza base casuale."
+    },
+    {
+        "code": "11008",
+        "name": "Agatha Crane",
+        "subname": "La Parapsicologa",
+        "text": "[reaction] Quando il tuo turno termina, se hai sigillato, annullato o ignorato 1 più segnalini caos in questo round: Gioca 1 evento [[Incantesimo]] o [[Intuizione]] dalla tua pila degli scarti. Dopo che quell'evento è stato risolto, rimuovilo dal gioco.\n<b>Effetto di</b> [elder_sign]: +2. Puoi annullare questo segnalino e rivelarne 1 altro. Se lo fai, pesca 1 carta.",
+        "traits": "Miskatonic. Accademico.",
+        "back_flavor": "Laureata in matematica e psicologia, Agatha Crane aveva sempre dato importanza alla scienza dimostrabile. Anche in gioventù aveva mostrato scarso interesse per le storie di fantasmi, ma una serie di eventi comprovati la portarono alla conclusione che ci fosse qualcosa di innegabilmente veritiero nei racconti di mostri e magia che permeano la storia di Arkham. Se queste cose fossero reali, dovrebbero rispettare delle leggi universali. Come spiega sempre a chiunque le presti orecchio con interesse - primo tra tutti suo marito Wilbur - questo nuovo campo di studi si chiama \"parapsicologia\". Con metodi scientifici collaudati, Agatha ambisce a colmare il divario tra il mistico e il razionale, tra l'occultismo e la scienza.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 35.\n<b>Opzioni del Mazzo</b>: Carte Mistico ([mystic]) di livello 0-5, carte neutrali di livello 0-5, eventi [[Incantesimo]] di livello 0-3, fino a 10 altre carte Studioso ([seeker]).\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Ocula Obscura, Scorgere il Vuoto, 1 debolezza base casuale."
+    },
+    {
+        "code": "11009",
+        "name": "Ocula Obscura",
+        "subname": "Oculare Esoterico",
+        "text": "Solo mazzo di Agatha Crane.\n[reaction] Dopo che hai avuto successo in una prova di abilità, se non ci sono segnalini sigillati su questa carta: Sigilla sull'Ocula Obscura 1 segnalino non simbolo rivelato durante questa prova di abilità. (Limite di una volta per fase.)\n<b>Obbligo</b> - Quando stai per rivelare un segnalino caos: Risolvi invece il segnalino sigillato su questa carta, poi libera quel segnalino.",
+        "traits": "Oggetto. Strumento. Scienza."
+    },
+    {
+        "code": "11010",
+        "name": "Scorgere il Vuoto",
+        "text": "<b>Rivelazione</b> - Metti in gioco Scorgere il Vuoto nella tua area di minaccia.\nLa prima volta che riveli 1 o più segnalini caos durante ogni prova di abilità, devi rivelare 1 segnalino caos aggiuntivo <i>(e risolverne gli effetti)</i>.\n[action]: Rimescola Scorgere il Vuoto nel tuo mazzo.",
+        "traits": "Abbaglio. Intuizione."
+    },
+    {
+        "code": "11011",
+        "name": "Michael McGlen",
+        "subname": "Il Gangster",
+        "text": "[reaction] Dopo che hai speso 1 o più munizioni da un supporto [[Arma da Fuoco]]: Ottieni 1 risorsa. (Limite di una volta per supporto [[Arma da Fuoco]] per round.)\n<b>Effetto di</b> [elder_sign]: +2. Puoi collocare 1 munizione su un supporto [[Arma da Fuoco]] che controlli.",
+        "traits": "Criminale. Cacciatore.",
+        "back_flavor": "Michael McGlen era un uomo di poche parole, ma non aveva bisogno di parlare perché c'era Louie lo Svelto per quello. Erano due dei migliori scagnozzi degli O'Bannion e dovevano assicurarsi che la banda fosse rispettata in tutta Arkham... fino alla notte in cui quell'essere nel fiume trascinò Louie giù dal molo, facendolo a pezzi sott'acqua. Michael pensava che i suoi capi gli avrebbero dato del pazzo una volta raccontato loro l'accaduto, ma la verità superò le sue paure: gli credettero e gli dissero di lasciar correre. Ma lui non può permettere che la morte del suo partner e la creatura che vide quella notte rimangano impunite. È ancora un uomo di poche parole, ma oggi lascia che sia il suo mitra a parlare.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 30.\n<b>Opzioni del Mazzo</b>: Carte Canaglia ([rogue]) di livello 0-3, carte neutrali di livello 0-5, carte con [[Arma da Fuoco]] come <b><i>Tratto</i></b> o nel riquadro di testo di livello 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Custodia per \"Viola\", Confisca, 1 debolezza base casuale.",
+        "flavor": "\"Non mi interessa se è una divinità. Se finisce sulla mia strada, se ne pentirà.\""
+    },
+    {
+        "code": "11012",
+        "name": "Custodia per \"Viola\"",
+        "text": "Solo mazzo di Michael McGlen.\nPossiedi 2 slot mano aggiuntivi, a cui possono essere associati solo supporti [[Arma da Fuoco]].\n[reaction] Dopo che hai giocato la Custodia per \"Viola\": Cerca tra le 9 carte in cima al tuo mazzo 1 supporto [[Arma da Fuoco]] e aggiungilo alla tua mano. Rimescola il tuo mazzo.",
+        "traits": "Oggetto. Illecito."
+    },
+    {
+        "code": "11013",
+        "name": "Confisca",
+        "text": "<b>Rivelazione</b> - Rimescola nel tuo mazzo ogni supporto [[Arma da Fuoco]] nella tua area di gioco. Se non sono stati rimescolati supporti nel tuo mazzo con questo effetto, subisci 1 danno e rimescola la Confisca nel tuo mazzo.",
+        "traits": "Abbaglio.",
+        "flavor": "\"Sta, ehm... andando a caccia, Mr. McGlen?\""
+    },
+    {
+        "code": "11014",
+        "name": "Gloria Goldberg",
+        "subname": "La Scrittrice",
+        "text": "Durante la Fase dei Miti, scegli tu l'ordine degli investigatori.\n[reaction] Quando guardi 1 o più carte dal mazzo degli incontri: Guarda 1 carta aggiuntiva e scegli 1 carta non [[Elite]] tra di esse. Scartala, mettila in cima al mazzo degli incontri oppure collocala a faccia in giù sotto Gloria Goldberg (massimo 3 carte sotto di lei).\n<b>Effetto di</b> [elder_sign]: +1. Guarda 1 carta dalla cima del mazzo degli incontri.",
+        "back_flavor": "Gloria è tormentata da visioni terrificanti sin da quando era una bambina. Dopo anni di visite mediche, ha imparato a esorcizzare quelle immagini scrivendo racconti. Storie bizzarre e disturbanti che per qualche motivo affascinavano i lettori, rendendo Gloria una scrittrice di bestseller. Durante una visita ad Arkham ebbe la visione più potente mai sperimentata: il cielo si squarciò e una forma mostruosa emerse dall'aria stessa. Gloria sapeva, in qualche modo, che la visione era reale e che si sarebbe avverata se non avesse fatto qualcosa per impedirlo.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 30.\n<b>Scelta della Classe Secondaria:</b>: Durante la composizione del mazzo, scegli Guardiano ([guardian]), Studioso ([seeker]), oppure Canaglia ([rogue]).\n<b>Opzioni del Mazzo</b>: Carte Mistico ([mystic]) di livello 0-5, carte neutrali di livello 0-5, fino a 10 eventi e/o abilità di livello 0-1 della tua classe secondaria scelta.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): 3 copie della Sensibilità Psichica, 3 copie della Profezia della Fine (mescolate nel mazzo degli incontri), 1 debolezza base casuale.",
+        "traits": "Chiaroveggente."
+    },
+    {
+        "code": "11015",
+        "name": "Sensibilità Psichica",
+        "text": "Solo mazzo di Gloria Goldberg.\nVeloce. Gioca quando un investigatore in un qualsiasi luogo pesca una carta incontro, se c'è una copia di quella carta incontro sotto Gloria Goldberg.\nAnnulla tutti gli effetti di quella carta e scarta entrambe le copie. Poi pesca 1 carta.",
+        "traits": "Auspicio. Intuizione."
+    },
+    {
+        "code": "11016",
+        "name": "Profezia della Fine",
+        "text": "Impulso.\n<b>Obbligo</b> - Se Gloria Goldberg usa la sua capacità e questa sventura è tra le carte guardate, deve essere scelta e collocata a faccia in giù sotto di lei (se non puoi farlo, prima scarta 1 carta non debolezza sotto di lei). Poi, se ci sono 3 copie di questa sventura sotto di lei, è sconfitta e subisce 1 trauma mentale.",
+        "traits": "Presagio. Ultimi Giorni."
+    },
+    {
         "code": "11017",
         "name": "George Barnaby",
-        "subname": "The Lawyer",
-        "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
-        "traits": "Civic. Drifter.",
-        "back_flavor": "After spending a month in jail at the age of 19, George Barnaby felt compelled to become a lawyer. He found great success and notoriety in his career, and as retirement approached he made plans to sail around the world with his wife Maria. On the eve of his retirement, however, his home was attacked and Maria was murdered by cultists. Now, with a lifetime of wealth and contacts at his back, George has tracked the culprits to the city of Arkham, vowing to bring them to justice for their hideous crimes.",
-        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other level 0 Seeker and/or Rogue cards ([seeker]/[rogue]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Grim Resolve, Cast Adrift, 1 random basic weakness.\n<b>Additional Setup</b>: After drawing your opening hand, you may place any number of cards in your hand facedown beneath George Barnaby."
+        "subname": "L'Avvocato",
+        "text": "Il tuo limite di mano è pari al numero di carte a faccia in giù sotto George Barnaby. (Limite di 5 carte.)\nPuoi investire le carte a faccia in giù sotto George Barnaby nelle prove di abilità come se fossero nella tua mano.\n[reaction] Dopo che hai scartato una carta dalla tua mano: Collocala a faccia in giù sotto George Barnaby, poi pesca 1 carta. (Limite di una volta per fase.)\n<b>Effetto di</b> [elder_sign]: +1. Pesca 1 carta.",
+        "traits": "Civico. Vagabondo.",
+        "back_flavor": "Dopo aver trascorso un mese in prigione all'età di 19 anni, George Barnaby sentì di voler diventare un avvocato. La carriera gli procurò grande successo e notorietà e, con l'avvicinarsi della pensione, decise di organizzare un viaggio in barca a vela attorno al mondo con la moglie Maria. Alla vigilia del pensionamento, però, dei cultisti si introdussero in casa sua e uccisero la sua consorte. Oggi, con una vita intera di ricchezze e contatti su cui contare, George ha rintracciato i colpevoli nella cittadina di Arkham, giurando di consegnarli alla giustizia per i loro empi crimini.",
+        "back_text": "<b>Dimensione del Mazzo</b>: 35.\n<b>Opzioni del Mazzo</b>: Carte Sopravvissuto ([survivor]) di livello 0-5, carte neutrali di livello 0-5, fino a 10 altre carte Studioso e/o Canaglia ([seeker]/[rogue]) di livello 0.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): 3 copie della Cupa Risolutezza, Alla Deriva, 1 debolezza base casuale.\n<b>Preparazione Aggiuntiva</b>: Dopo aver pescato la tua mano di partenza, puoi collocare a faccia in giù sotto George Barnaby un qualsiasi numero di carte nella tua mano."
     },
     {
         "code": "11018",
-        "name": "Grim Resolve",
-        "text": "George Barnaby deck only.\nAfter this skill test resolves, you may swap any number of cards beneath George Barnaby with the same number of non-weakness cards in your hand.",
-        "traits": "Innate. Developed."
+        "name": "Cupa Risolutezza",
+        "text": "Solo mazzo di George Barnaby.\nDopo che questa prova di abilità è stata risolta, puoi scambiare un qualsiasi numero di carte sotto George Barnaby con un pari ammontare di carte non debolezza nella tua mano.",
+        "traits": "Innato. Sviluppato."
     },
     {
         "code": "11019",
-        "name": "Cast Adrift",
-        "text": "<b>Revelation</b> - If there are no cards beneath George Barnaby, shuffle Cast Adrift into your deck. Otherwise, discard each card beneath George Barnaby.",
-        "traits": "Hardship."
+        "name": "Alla Deriva",
+        "text": "<b>Rivelazione</b> - Se non ci sono carte sotto George Barnaby, rimescola Alla Deriva nel tuo mazzo. Altrimenti, scarta ogni carta sotto George Barnaby.",
+        "traits": "Avversità."
+    },
+    {
+        "code": "11020",
+        "name": "Libro della Guerra",
+        "text": "Utilizzo (3 segreti).\n[reaction] Dopo che hai giocato un evento [[Tattica]], spendi 1 segreto ed esaurisci il Libro della Guerra: Quando il tuo turno termina, rimetti quell'evento nella tua mano.",
+        "traits": "Oggetto. Tomo.",
+        "flavor": "\"Chi desidera combattere, deve prima valutare il prezzo da pagare.\""
+    },
+    {
+        "code": "11021",
+        "name": "Piede di Porco",
+        "text": "[action] Esaurisci il Piede di Porco: <b>Indaga.</b> Usa [combat] invece di [intellect].\n[action] Esaurisci il Piede di Porco: <b>Combatti.</b> Ricevi +2 [combat] in questo attacco.",
+        "traits": "Oggetto. Arma. Strumento. Mischia."
+    },
+    {
+        "code": "11022",
+        "name": "Remington Model 1858",
+        "text": "Utilizzo (2 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +1 [combat] e infliggi +1 danno in questo attacco.\n[reaction] Quando la Remington Model 1858 esce dal gioco: Innesca immediatamente la capacità [action] soprastante, ignorandone tutti i costi.",
+        "traits": "Oggetto. Arma. Arma da Fuoco."
+    },
+    {
+        "code": "11023",
+        "name": "Prepararsi all'Azione",
+        "text": "Gioca solo come tua prima azione.\nGioca 1 supporto [[Arma da Fuoco]] dalla tua mano, riducendo di 2 il suo costo. Poi puoi giocare 1 evento [[Miglioria]] dalla tua mano, assegnandolo a quel supporto se possibile.",
+        "traits": "Tattica. Audacia."
+    },
+    {
+        "code": "11024",
+        "name": "Pronto a Tutto",
+        "text": "Gioca solo come tua prima azione.\nPesca 1 carta (2 carte se invece hai pescato un nemico in questo round). Poi curati 1 orrore. Questa azione non provoca attacchi di opportunità.",
+        "traits": "Spirito. Audacia."
+    },
+    {
+        "code": "11025",
+        "name": "Gioco Duro",
+        "text": "Massimo 1 investimento per prova di abilità.\nIl Gioco Duro ottiene [combat] [wild] per ogni attacco che hai effettuato con successo in questo round.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11026",
+        "name": "Marchio del Cacciatore",
+        "text": "Veloce. Assegna a un nemico nel tuo luogo. Limite di 1 per nemico.\nGli investigatori ricevono +1 [combat] mentre combattono con questo nemico.\n[reaction] Quando vengono inflitti danni al nemico con questo evento, scarta il Marchio del Cacciatore: Infliggi 1 danno aggiuntivo a quel nemico. Qualsiasi investigatore può innescare questa capacità.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "11027",
+        "name": "Alice Luxley",
+        "text": "Ricevi +1 [intellect].\nLa prima azione di indagine che effettui ogni turno non provoca attacchi di opportunità.\n[reaction] Dopo che hai scoperto indizi, esaurisci Alice Luxley: Infliggi 1 danno a un nemico nel tuo luogo.",
+        "traits": "Alleato. Detective. Polizia.",
+        "flavor": "<b>Carta ispirata da The Council-in-Exile 2022.</b>"
+    },
+    {
+        "code": "11028",
+        "name": "Baluardo",
+        "text": "Limite di 1 per investigatore. Sigillo ([elder_sign] o +1). Puoi risolvere di nuovo questa parola chiave dopo che hai sconfitto un nemico.\n[reaction] Quando un nemico sta per attaccare un investigatore nel tuo luogo, esaurisci il Baluardo e libera 1 segnalino sigillato su questa carta: Annulla quell'attacco. Ripristina 1 altro supporto che controlli.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11029",
+        "name": "Presenza Ispiratrice",
+        "text": "Se questa prova di abilità ha successo, ripristina 1 supporto [[Alleato]] nel tuo luogo e curagli 1 danno e 1 orrore.",
+        "traits": "Innato. Sviluppato.",
+        "flavor": "\"Anderson è un rompiballe, questo è certo: mette sempre il rum sotto chiave e ci sveglia alle prime luci dell'alba. Ma qui, in mezzo al nulla, non vorrei nessun altro a guidare la fila.\""
+    },
+    {
+        "code": "11030",
+        "name": "Pronti e Carichi",
+        "text": "Permanente. Limite di 1 per mazzo.\nI tuoi supporti [[Arma da Fuoco]] con \"Utilizzo (X munizioni)\" entrano in gioco con 1 munizione aggiuntiva su di essi.",
+        "traits": "Condizione.",
+        "flavor": "\"I millimetri non fanno differenza: i proiettili finiscono sempre per ucciderti.\""
+    },
+    {
+        "code": "11031",
+        "name": "Colpo Rapido",
+        "text": "Miriade. Veloce. Gioca solo durante il tuo turno.\nInfliggi 1 danno a un nemico nel tuo luogo.\n[reaction] Dopo che hai pescato il Colpo Rapido durante il tuo turno: Giocalo, riducendo di 2 il suo costo in risorse.",
+        "traits": "Spirito.",
+        "flavor": "Chiamavano Sorella Sofia \"la mano del Signore\" per un'ottima ragione."
+    },
+    {
+        "code": "11032",
+        "name": "Remington Model 1858",
+        "text": "Utilizzo (3 munizioni).\n[action] Spendi 1 munizione: <b>Combatti.</b> Ricevi +2 [combat] e infliggi +1 danno in questo attacco.\n[reaction] Quando la Remington Model 1858 entra o esce dal gioco: Innesca immediatamente la capacità [action] soprastante, ignorandone tutti i costi.",
+        "traits": "Oggetto. Arma. Arma da Fuoco."
+    },
+    {
+        "code": "11033",
+        "name": "Alton O'Connell",
+        "subname": "Cacciatore di Fantasmi",
+        "text": "Ricevi +1 [agility].\n[reaction] Dopo che hai avuto successo in una prova di abilità esattamente di 3 punti: Colloca 1 risorsa su Alton O'Connell (trasformandola in prova).\n[fast] Esaurisci Alton O'Connell e spendi X prove: Scopri 1 indizio nel tuo luogo. X il valore di Oscurità del tuo luogo.",
+        "traits": "Alleato. Detective. Reporter."
+    },
+    {
+        "code": "11034",
+        "name": "Ispirazione Artistica",
+        "text": "Limite di 1 per investigatore. Utilizzo (1 ispirazione).\n[fast] Esaurisci l'Ispirazione Artistica e scarta 1 carta dalla tua mano: Reintegra 1 ispirazione su questa carta.\n[reaction] Dopo che hai rivelato i segnalini caos per una prova di abilità che stai effettuando, spendi 1 ispirazione: Ricevi +1 o -1 al valore di abilità in questa prova di abilità.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11035",
+        "name": "Ruota degli Antichi",
+        "subname": "Non Identificata",
+        "text": "Limite di 1 per mazzo. Utilizzo (0 cariche).\n[reaction] Dopo che un nemico nel tuo luogo è stato eluso: Colloca 1 carica sulla Ruota degli Antichi. Poi, se ci sono 4 o più cariche sulla Ruota degli Antichi, annota nel Diario della Campagna che \"il giorno del giudizio è stato calcolato\".",
+        "traits": "Oggetto. Reliquia. Maledetto."
+    },
+    {
+        "code": "11036",
+        "name": "Kit di Medicina Forense",
+        "text": "Utilizzo (4 scorte).\n[action] Spendi 1 scorta: <b>Indaga.</b> Puoi usare [agility] invece di [intellect] e ricevi +1 al valore di abilità in questa indagine. Se hai successo e ci sono nemici esauriti nel tuo luogo, curati 1 orrore.",
+        "traits": "Oggetto. Strumento. Scienza."
+    },
+    {
+        "code": "11037",
+        "name": "Mortaio e Pestello",
+        "text": "Utilizzo (0 risorse).\nLe risorse sul Mortaio e Pestello possono essere spese per pagare carte [[Incantesimo]].\n[reaction] Dopo che hai scoperto 1 o più indizi, esaurisci il Mortaio e Pestello: Colloca 1 risorsa su di esso <i>(dalla riserva dei segnalini)</i>.",
+        "traits": "Oggetto. Strumento. Scienza."
+    },
+    {
+        "code": "11038",
+        "name": "Oculus Mortuus",
+        "text": "Utilizzo (0 prove).\n[reaction] Dopo che hai sigillato, annullato o ignorato un segnalino caos, esaurisci l'Oculus Mortuus: Colloca 1 prova su di esso.\n[reaction] Quando un nemico attacca un investigatore nel tuo luogo, spendi 1 prova ed esaurisci l'Oculus Mortuus: Scopri 1 indizio nel tuo luogo. Se quel nemico possiede il tratto [[Geist]], infliggigli 1 danno.",
+        "traits": "Oggetto. Strumento. Occulto."
+    },
+    {
+        "code": "11039",
+        "name": "Esemplare Inquietante",
+        "text": "Miriade. Veloce.\nFino a 3 carte Esemplare Inquietante occupano 1 slot arcano.\n[reaction] Quando un simbolo [skull], [cultist], [tablet] o [elder_thing] viene rivelato durante una prova di abilità nel tuo luogo, scarta l'Esemplare Inquietante: Annulla quel segnalino caos, rimettilo nel sacchetto e rivelane 1 altro. Se questa prova ha successo, pesca 1 carta.",
+        "traits": "Creatura. Scienza.",
+        "slot": "Arcano"
+    },
+    {
+        "code": "11040",
+        "name": "Contenuti Correlati",
+        "text": "<b>Indaga.</b> Puoi annullare il primo segnalino caos rivelato in questa prova di abilità, rimetterlo nel sacchetto e rivelarne 1 altro. Se hai successo in questa prova di abilità, colloca 1 carica o 1 segreto su un supporto controllato da un investigatore nel tuo luogo (se hai successo esattamente di 1 o 3 punti, colloca invece 2 cariche o 2 segreti su quel supporto).",
+        "traits": "Intuizione."
+    },
+    {
+        "code": "11041",
+        "name": "Rivelazione Cosmica",
+        "text": "Scegli \"pari\" o \"dispari\".\nOgni investigatore rivela ogni carta non debolezza nella sua mano con un costo in risorse che corrisponde all'opzione scelta. In ordine di gioco, ogni investigatore può scegliere di pescare 1 carta dal suo mazzo oppure giocare 1 carta rivelata dalla sua mano <i>(pagandone il costo)</i>.",
+        "traits": "Intuizione. Incantesimo."
+    },
+    {
+        "code": "11042",
+        "name": "Prontezza di Riflessi",
+        "text": "Miriade.\nProntezza di Riflessi ottiene [intellect] [agility] per ogni altra copia della Prontezza di Riflessi nella tua pila degli scarti.\nDopo che questa prova di abilità è terminata, puoi rimescolare nel tuo mazzo ogni altra copia della Prontezza di Riflessi nella tua pila degli scarti.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11043",
+        "name": "Finta",
+        "text": "Limite di 1 per investigatore. Sigillo (+1 o 0). Puoi risolvere di nuovo questa parola chiave dopo che hai scoperto l'ultimo indizio nel tuo luogo.\n[reaction] Quando un nemico attacca un investigatore nel tuo luogo, esaurisci la Finta e libera 1 segnalino sigillato su questa carta: Annulla quell'attacco. Poi quell'investigatore può muoversi fino a un luogo collegato al suo.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11044",
+        "name": "Sovvenzione per Studi Scientifici",
+        "text": "Limite di 1 per investigatore.\nPossiedi 2 slot mano aggiuntivi, a cui possono essere associati solo supporti [[Scienza]] e/o [[Strumento]].",
+        "traits": "Donazione."
+    },
+    {
+        "code": "11045",
+        "name": "Seguire l'Istinto",
+        "text": "Veloce. Gioca solo durante il tuo turno.\nScopri 1 indizio da un qualsiasi luogo aperto.",
+        "traits": "Intuizione."
+    },
+    {
+        "code": "11046",
+        "name": "Ruota degli Antichi",
+        "subname": "Segni di Cataclisma",
+        "text": "Analizzato. Utilizzo (4 cariche). Limite di 1 per mazzo.\n[reaction] Quando un investigatore fallisce una prova di abilità nel tuo luogo, esaurisci la Ruota degli Antichi: Sigilla 1 segnalino caos rivelato durante quella prova sulla Ruota degli Antichi.\n<b>Obbligo</b> - Quando il round termina: Per ogni segnalino caos sigillato su questa carta, devi spendere 1 carica oppure liberare quel segnalino.",
+        "traits": "Oggetto. Reliquia. Maledetto."
+    },
+    {
+        "code": "11047",
+        "name": "Ruota degli Antichi",
+        "subname": "Segni di Aberrazione",
+        "text": "Analizzato. Utilizzo (4 cariche). Limite di 1 per mazzo.\n[action]: <b>Combatti/Eludi.</b> Quando riveli un segnalino caos durante questo attacco o questo tentativo di elusione, puoi spendere 1 carica per annullare quel segnalino, rimetterlo nel sacchetto e rivelarne 1 altro. <i>(Puoi farlo un qualsiasi numero di volte.)</i> Se questa prova ha successo, infliggi 1 danno al nemico bersagliato.",
+        "traits": "Oggetto. Reliquia. Maledetto."
+    },
+    {
+        "code": "11048",
+        "name": "Ruota degli Antichi",
+        "subname": "Segni di Rivelazione",
+        "text": "Analizzato. Utilizzo (4 cariche). Limite di 1 per mazzo.\n[fast] Durante il tuo turno, esaurisci la Ruota degli Antichi e spendi 1 carica: <b>Indaga.</b> Quando riveli i segnalini caos in questa prova, rivela X segnalini aggiuntivi, dove X è il numero di nemici nel tuo luogo. Scegli 1 dei segnalini rivelati da risolvere e ignora gli altri.",
+        "traits": "Oggetto. Reliquia. Maledetto."
+    },
+    {
+        "code": "11049",
+        "name": "Antikythera",
+        "subname": "Orologio Profetico",
+        "text": "[reaction] Dopo che hai avuto successo in una prova di abilità, esaurisci l'Antikythera: Se hai avuto successo esattamente di:\n- 1 o 3 punti, scopri 1 indizio nel tuo luogo.\n- 2 o 4 punti, pesca 1 carta e ottieni 1 risorsa.\n- 5 punti, puoi effettuare 1 azione aggiuntiva durante il tuo prossimo turno.",
+        "traits": "Oggetto. Reliquia. Scienza."
+    },
+    {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Utilizzo (2 munizioni).\n[fast] Esaurisci la Luger P08 e spendi 1 munizione: <b>Combatti.</b> Ricevi +1 [combat] in questo attacco.\n[action] Spendi 1 risorsa: Reintegra tutte le munizioni sulla Luger P08 e ripristinala.",
+        "traits": "Oggetto. Arma. Arma da Fuoco. Illecito."
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Ti Copre le Spalle",
+        "text": "Ricevi +1 [combat].\n[action] Scarta dalla tua mano 1 supporto [[Arma da Fuoco]] che occupa 1 o meno slot mano ed esaurisci Robert Castaigne: Risolvi 1 capacità <b>Combatti</b> del supporto scartato, ignorando tutti i costi. Questo effetto non provoca attacchi di opportunità.",
+        "traits": "Alleato. Veterano."
+    },
+    {
+        "code": "11052",
+        "name": "Sbeffeggiare",
+        "text": "[reaction] Quando tenti di eludere un nemico, esaurisci Sbeffeggiare: In questo tentativo di elusione, ricevi +1 al valore di abilità e quel nemico ottiene Allerta. Se hai successo, pesca 1 carta e non disimpegnarti da quel nemico.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11053",
+        "name": "\"È Qui la Festa?\"",
+        "text": "<b>Negozia.</b> Cerca nel mazzo degli incontri e nella pila degli scarti degli incontri 1 nemico non [[Elite]] e generalo esaurito e impegnato con te. Pesca un numero di carte pari al totale dei valori di Danno e Orrore di quel nemico.",
+        "traits": "Trucchetto. Improvvisato."
+    },
+    {
+        "code": "11054",
+        "name": "\"Hai Visto di Peggio...\"",
+        "text": "Veloce. Gioca quando un investigatore nel tuo luogo o in un luogo collegato al tuo subisce danni e/o orrori.\nQuell'investigatore può spendere fino a 3 risorse. Per ogni risorsa spesa, quell'investigatore annulla 1 danno o 1 orrore appena subito.",
+        "traits": "Favore."
+    },
+    {
+        "code": "11055",
+        "name": "\"Fuori dai Piedi!\"",
+        "text": "<b>Eludi.</b> Aggiungi il tuo valore di [combat] al tuo valore di abilità in questo tentativo di elusione. Se hai successo di 2 o più punti, infliggi 1 danno a quel nemico. Se quel nemico è non [[Elite]], puoi muoverlo fino a un luogo collegato al suo.",
+        "traits": "Tattica. Trucchetto."
+    },
+    {
+        "code": "11056",
+        "name": "Intimidazione",
+        "text": "<b>Negozia.</b> Scegli 1 nemico nel tuo luogo ed effettua una prova di [combat] (X), dove X è la salute rimanente del nemico scelto. Se hai successo, rimescola quel nemico nel mazzo degli incontri (se è [[Elite]], infliggigli invece 2 danni).",
+        "traits": "Tattica.",
+        "flavor": "\"Sei nel quartiere sbagliato, ragazzo.\""
+    },
+    {
+        "code": "11057",
+        "name": "Cecchino Nato",
+        "text": "Investi solo in una prova di abilità di una capacità stampata su un supporto [[Arma da Fuoco]] o [[Distanza]] che controlli.",
+        "traits": "Allenamento."
+    },
+    {
+        "code": "11058",
+        "name": "Doppelgänger",
+        "text": "Miriade. Veloce. Gioca solo durante il tuo turno.\nAssegna al tuo luogo. Limite di 1 per luogo.\n[reaction] Dopo che un nemico è entrato o uscito dal luogo con questo evento, rimetti il Doppelgänger nella tua mano: Effettua un tentativo di elusione contro quel nemico oppure muoviti immediatamente fino al luogo con questo evento. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Incantesimo. Trucchetto."
+    },
+    {
+        "code": "11059",
+        "name": "Contatti con la Mala",
+        "text": "Straordinario.\n[action] Spendi 2 risorse: Pesca la carta assegnata ai Contatti con la Mala.\n[reaction] Quando un supporto [[Illecito]] che controlli viene scartato dal gioco, esaurisci i Contatti con la Mala: Assegna a faccia in giù quel supporto a questa carta. Limite di 1 supporto assegnato.",
+        "traits": "Contatto. Illecito."
+    },
+    {
+        "code": "11060",
+        "name": "Oscuramento",
+        "text": "Limite di 1 per investigatore.\nSigillo (0). Puoi risolvere di nuovo questa parola chiave dopo che hai aperto un luogo o messo in gioco un nuovo luogo.\n[reaction] Quando impegni un nemico, esaurisci l'Oscuramento e libera 1 segnalino sigillato su questa carta: <b>Combatti</b> o <b>Eludi</b> immediatamente quel nemico. Durante questa prova di abilità, il tuo valore di abilità base è pari al valore di Oscurità del tuo luogo.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11061",
+        "name": "\"Guarda Questo!\"",
+        "text": "Investi solo se stai effettuando la prova di abilità. Come costo aggiuntivo per investire \"Guarda Questo!\" in una prova di abilità, spendi fino a 3 risorse.\nSe hai successo di 1 o più punti, ottieni il doppio di quelle risorse.",
+        "traits": "Azzardo.",
+        "flavor": "Il solito esibizionista."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Ti Copre Ancora le Spalle",
+        "text": "Ricevi +1 [combat].\n[fast] Esaurisci Robert Castaigne: <b>Combatti.</b> Rivela dalla tua mano 1 supporto [[Arma da Fuoco]] che occupa 1 o meno slot mano. Risolvi 1 capacità <b>Combatti</b> del supporto rivelato, ignorando tutti i costi. Poi puoi scartare il supporto rivelato per pescare 1 carta oppure giocare quel supporto <i>(pagandone il costo)</i>.",
+        "traits": "Alleato. Veterano."
+    },
+    {
+        "code": "11063",
+        "name": "\"Hai Visto di Peggio...\"",
+        "text": "Veloce. Gioca quando un investigatore nel tuo luogo o in un luogo collegato al tuo subisce danni e/o orrori.\nQuell'investigatore può cederti fino a 5 risorse. Per ogni risorsa ceduta con questo effetto, quell'investigatore annulla 1 danno o 1 orrore appena subito.",
+        "traits": "Favore."
+    },
+    {
+        "code": "11064",
+        "name": "Mitragliatrice Gatling",
+        "text": "Utilizzo (12 munizioni).\n[action] Spendi da 1 a 6 munizioni: <b>Combatti.</b> Ricevi +X [combat] in questo attacco. La difficoltà di questo attacco è pari al totale dei valori di Scontro di tutti i nemici nel tuo luogo. Invece dei danni standard, questo attacco infligge X danni distribuiti come preferisci tra i nemici nel tuo luogo. X è l'ammontare di munizioni spese come parte del costo di questa capacità.",
+        "traits": "Oggetto. Arma. Arma da Fuoco. Illecito."
+    },
+    {
+        "code": "11065",
+        "name": "Sangue di Thoth",
+        "subname": "Incarnazione della Legge",
+        "text": "[reaction] Quando 1 o più destini vengono collocati su una carta che controlli, esaurisci il Sangue di Thoth: Colloca 1 risorsa <i>(dalla riserva dei segnalini)</i> su questa carta (trasformandola in offerta).\n[fast] Se ci sono 3 o più offerte sul Sangue di Thoth, rimuovi tutte le offerte da esso ed esauriscilo: Scegli 1 investigatore nel tuo luogo per fargli effettuare immediatamente 1 azione come se fosse il suo turno.",
+        "traits": "Oggetto. Reliquia."
+    },
+    {
+        "code": "11066",
+        "name": "Respiro del Dormiente",
+        "text": "Utilizzo (9 cariche).\n[action] Usa [willpower] invece di [combat]. Prima di rivelare i segnalini caosi in questa prova, puoi spendere fino a 3 cariche per rivelare un pari ammontare di segnalini caos aggiuntivi. Scegli 1 dei segnalini rivelati da risolvere e ignora gli altri. Se hai successo e il segnalino scelto corrisponde a un segnalino ignorato, infliggi +2 danni in questo attacco.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "11067",
+        "name": "Occhi del Sognatore",
+        "text": "Utilizzo (9 cariche).\n[action] Usa [willpower] invece di [intellect]. Prima di rivelare i segnalini caosi in questa prova, puoi spendere fino a 3 cariche per rivelare un pari ammontare di segnalini caos aggiuntivi. Scegli 1 dei segnalini rivelati da risolvere e ignora gli altri. Se hai successo e il segnalino scelto corrisponde a un segnalino ignorato, scopri 1 indizio aggiuntivo nel tuo luogo.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "11068a",
+        "name": "Opera Magna",
+        "subname": "Taglia e Cuci",
+        "text": "Permanente. Limite di 1 per mazzo. Acquistabile solo durante la composizione del mazzo.\nGuardagni 1 punto esperienza aggiuntivo dopo ogni scenario di questa campagna. Se sei sconfitto, vieni usurpato dall'omuncolo (sostituisci ogni carta esclusiva nel tuo mazzo con 1 debolezza base casuale, gira questa carta e sostituisci il tuo investigatore con essa per il resto della campagna).",
+        "traits": "Patto. Scienza."
+    },
+    {
+        "code": "11068b",
+        "name": "Omuncolo Smarrito",
+        "subname": "Il Bimbo Dimenticato",
+        "text": "Non può essere scelto come investigatore di partenza.\nNon puoi né aggiungere né rimuovere né migliorare le carte nel tuo mazzo.\nRicevi +2 al valore di abilità mentre risolvi le capacità sulle carte [[Incantesimo]].\n<b>Obbligo</b> - Quando sei sconfitto: Sei <b>ucciso</b>.\n<b>Effetto di</b> [elder_sign]: +0. Pesca 1 carta.",
+        "traits": "Costrutto. Rampollo.",
+        "flavor": "Hai sempre desiderato essere umano."
+    },
+    {
+        "code": "11069",
+        "name": "Katarina Sojka",
+        "subname": "Emissaria da Ulthar",
+        "text": "[reaction] Quando riveli segnalini caos durante una prova di abilità che stai effettuando, esaurisci Katarina Sojka: Rivela segnalini dal sacchetto del caos finché non riveli 1 segnalino con un simbolo. Risolvi quel segnalino e ignora gli altri.",
+        "traits": "Alleato. Chiaroveggente. Sognatore."
+    },
+    {
+        "code": "11070",
+        "name": "Segno di Xelotaph",
+        "text": "Miriade. Sigillo ([skull], [cultist], [tablet] o [elder_thing]). Utilizzo (3 cariche).\n<b>Obbligo</b> - Quando il turno inizia: Devi spendere 1 carica oppure scartare il Segno di Xelotaph.\n[fast] Scarta 1 copia del Segno di Xelotaph dalla tua mano: Reintegra tutte le cariche su questa copia del Segno di Xelotaph.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11071",
+        "name": "Scudo Spettrale",
+        "text": "Veloce. Gioca solo durante il tuo turno. Assegna a una carta giocatore dotata di Salute e/o Sanità Mentale nel tuo luogo.\n<b>Obbligo</b> - Quando la carta con questo evento subisce 1 o più danni/orrori: Annulla 1 di quei danni/orrori. Il proprietario dello Scudo Spettrale deve rimuovere 1 carica da un supporto che controlla. Se non può farlo, scarta lo Scudo Spettrale.",
+        "traits": "Incantesimo. Spirito."
+    },
+    {
+        "code": "11072",
+        "name": "Sussurri di Rovina",
+        "text": "<b>Negozia.</b> Scegli 1 nemico non debolezza nel tuo luogo ed effettua una prova di [willpower] (3). Aumenta di X la difficoltà di questa prova, dove X è il valore di Orrore di quel nemico. Se hai successo, sconfiggi quel nemico (se è [[Elite]], infliggigli invece 3 danni). Se fallisci, colloca 1 destino su quel nemico.",
+        "traits": "Incantesimo. Maledetto."
+    },
+    {
+        "code": "11073",
+        "name": "Occhio di Ghatanothoa",
+        "subname": "Artefatto del Dio Oscuro",
+        "text": "Straordinario.\nRicevi +1 [willpower].\nGioca con 1 carta dalla cima del mazzo degli incontri rivelata.",
+        "traits": "Oggetto. Reliquia. Maledetto.",
+        "flavor": "L'universo ha un favore da chiedere."
+    },
+    {
+        "code": "11074",
+        "name": "Bastone Animato",
+        "subname": "Creato dal Consiglio Votante",
+        "text": "Veloce.\n[reaction] Dopo che il Bastone Animato è entrato in gioco: Puoi infliggere 1 danno a un nemico impegnato con te. Innesca immediatamente la capacità [action] sottostante senza pagarne il costo.\n[action] Esaurisci il Bastone Animato: <b>Combatti</b>/<b>Eludi.</b> Puoi usare [willpower] invece di [combat] o [agility] in questo attacco o tentativo di elusione e ricevi +1 al valore di abilità in questa prova.",
+        "traits": "Oggetto. Reliquia. Arma. Mischia."
+    },
+    {
+        "code": "11075",
+        "name": "Eco Spirituale",
+        "text": "Assegna al tuo luogo. Limite di 1 per luogo.\n[reaction] Dopo che hai attivato una capacità [action] o [fast] di un supporto [[Incantesimo]] o [[Rituale]]: Effettua di nuovo quella capacità nel luogo con questo evento come se ti trovassi in quel luogo, ignorando l'eventuale costo [action]. Puoi innescare questa capacità da un qualsiasi luogo. Rimetti l'Eco Spirituale nella tua mano.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11076",
+        "name": "Trasfigurazione",
+        "text": "Scegli 1 altra carta investigatore dalla tua collezione. Fino alla fine della partita, considera il fronte della tua carta investigatore come se fosse invece il fronte della carta scelta <i>(inclusi i tuoi valori di abilità, i tratti, le capacità e l'effetto segno degli antichi)</i>. Massimo una volta per partita.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11077",
+        "name": "Affascinato",
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova di abilità ha successo indagando, colloca fino a un totale di 3 cariche e/o segreti tra i supporti controllati dagli investigatore nel tuo luogo.",
+        "traits": "Allenamento. Esperto."
+    },
+    {
+        "code": "11078",
+        "name": "Arcani Perduti",
+        "text": "Utilizzo (2 cariche).\nLe cariche sugli Arcani Perduti possono essere spese come se fossero cariche sui supporti [[Incantesimo]] e [[Rituale]] che controlli.\n[reaction] Dopo che è stato scoperto l'ultimo indizio nel tuo luogo, esaurisci gli Arcani Perduti: Colloca 1 carica su questa carta.",
+        "traits": "Oggetto. Tomo. Occulto."
+    },
+    {
+        "code": "11079",
+        "name": "Liberazione",
+        "text": "Veloce. Gioca quando sta per iniziare il passo \"ogni investigatore pesca 1 carta incontro\" della Fase dei Miti.\nTu peschi ogni carta incontro che verrebbe pescata normalmente in questa Fase dei Miti. Le carte pescate durante questa Fase dei Miti non possono essere annullate e la prima carta pescata ottiene Impulso.\nSalta il passo \"ogni investigatore pesca 1 carta incontro\" della prossima Fase dei Miti. Massimo due volte per partita.",
+        "traits": "Spirito."
+    },
+    {
+        "code": "11080",
+        "name": "Marchio Esoterico",
+        "text": "Permanente. Straordinario.\nQuando acquisti questa carta, scegli 1 supporto [[Incantesimo]] non esclusivo nel tuo mazzo e annota nel Diario della Campagna che <i>[nome dell'incantesimo] è stato marchiato</i>. Questo è il tuo incantesimo marchiato. Il tuo mazzo non può includere più di 1 copia del tuo incantesimo marchiato.\n[reaction] Prima di pescare la tua mano di partenza: Cerca nel tuo mazzo il tuo incantesimo marchiato e giocalo <i>(pagandone il costo)</i>.",
+        "traits": "Patto."
+    },
+    {
+        "code": "11081",
+        "name": "Catena di Ancoraggio",
+        "text": "Mentre la Catena di Ancoraggio è nella tua mano, puoi effettuare la capacità [action] sottostante. Se lo fai, scarta la Catena di Ancoraggio invece di esaurirla.\n[action] Esaurisci la Catena di Ancoraggio: <b>Eludi.</b> Ricevi +1 [agility] in questo tentativo di elusione. Se eludi con successo un nemico non [[Elite]], puoi scartare 1 carta dalla mano per impedire a quel nemico di ripristinarsi durante la prossima Fase di Gestione.",
+        "traits": "Oggetto. Strumento."
+    },
+    {
+        "code": "11082",
+        "name": "Crocco",
+        "text": "Mentre il Crocco è nella tua mano, puoi effettuare la capacità [action] sottostante. Se lo fai, scarta il Crocco invece di esaurirla.\n[action] Esaurisci il Crocco: <b>Combatti.</b> Ricevi +1 [combat] in questo attacco. Se hai successo, puoi scartare 1 carta dalla mano per infliggere +1 danno in questo attacco.",
+        "traits": "Oggetto. Arma. Strumento. Mischia."
+    },
+    {
+        "code": "11083",
+        "name": "Lawrence Carlisle",
+        "subname": "Scolpisce i Suoi Sogni",
+        "text": "Ricevi +1 [intellect].\n[reaction] Dopo che hai scartato 1 o più carte dalla tua mano durante il tuo turno, esaurisci Lawrence Carlisle: Ottieni 1 risorsa.",
+        "traits": "Alleato. Artista. Sostenitore.",
+        "flavor": "\"I blocchi di argilla nascondono pezzi fantastici di ogni sorta.\""
+    },
+    {
+        "code": "11084",
+        "name": "Carte Nautiche",
+        "text": "Mentre le Carte Nautiche sono nella tua mano, puoi effettuare la capacità [action] sottostante. Se lo fai, scarta le Carte Nautiche invece di esaurirle.\n[action] Esaurisci le Carte Nautiche: <b>Indaga.</b> Ricevi +1 [intellect] in questa indagine. Se hai successo, puoi scartare 1 carta dalla mano per scoprire 1 indizio aggiuntivo nel tuo luogo.",
+        "traits": "Oggetto. Tomo. Strumento."
+    },
+    {
+        "code": "11085",
+        "name": "Idolo Profano",
+        "text": "L'Idolo Profano può essere giocato solo dalla tua pila degli scarti.\n<b>Obbligo</b> - Quando l'Idolo Profano è sconfitto: Rimescolalo nel tuo mazzo invece di scartarlo.",
+        "traits": "Oggetto. Amuleto."
+    },
+    {
+        "code": "11086",
+        "name": "\"Prendi Questo!\"",
+        "text": "Come costo aggiuntivo per giocare \"Prendi Questo!\" scegli e scarta 1 carta dalla tua mano o dalla tua area di gioco 1 supporto [[Oggetto]] che occupa 1 o più slot mano.\n<b>Eludi.</b> Ricevi +X [agility] in questo tentativo di elusione, dove X è il costo in risorse stampato del supporto scelto. Se hai successo contro un nemico non [[Elite]] e quel supporto era nella tua area di gioco, quel nemico non si ripristina durante la prossima Fase di Gestione.",
+        "traits": "Tattica. Trucchetto."
+    },
+    {
+        "code": "11087",
+        "name": "Metodo Non Convenzionale",
+        "text": "Come costo aggiuntivo per giocare Metodo Non Convenzionale scegli e scarta 1 carta dalla tua mano o dalla tua area di gioco 1 supporto [[Oggetto]] che occupa 1 o più slot mano.\n<b>Indaga.</b> Ricevi +X [intellect] in questa indagine, dove X è il costo in risorse stampato del supporto scelto. Se hai successo e quel supporto era nella tua area di gioco, scopri 1 indizio aggiuntivo nel tuo luogo.",
+        "traits": "Intuizione. Tattica."
+    },
+    {
+        "code": "11088",
+        "name": "Contemplativo",
+        "text": "Puoi investire Contemplativo in un'indagine o in una prova di abilità durante un tentativo di negoziato nel tuo luogo o in un luogo collegato al tuo.\nSe questa prova di abilità ha successo, l'investigatore che la sta effettuando scopre 1 indizio nel suo luogo.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11089",
+        "name": "Scorte Abbondanti",
+        "text": "Limite di 1 per investigatore. Utilizzo (2 scorte).\n[reaction] Dopo che hai scartato 1 o più carte dalla mano, esaurisci le Scorte Abbondanti: Colloca 1 scorta su questa carta.\n[fast] Scarta le Scorte Abbondanti: Sposta nella tua riserva delle risorse tutte le scorte su questa carta (trasformandole in risorse).",
+        "traits": "Scorta."
+    },
+    {
+        "code": "11090",
+        "name": "Barlume di Speranza",
+        "text": "Miriade.\nIl Barlume di Speranza può essere giocato solo dalla tua pila degli scarti.\nAggiungi alla tua mano tutte le copie del Barlume di Speranza nella tua pila degli scarti <i>(inclusa questa copia)</i>.",
+        "traits": "Benedetto. Sorte."
+    },
+    {
+        "code": "11091",
+        "name": "Meteo Propizio",
+        "text": "Miriade. Veloce. Gioca dopo che la Fase degli Investigatori è iniziata. Limite di 1 in gioco in totale.\nMetti in gioco il Meteo Propizio accanto al mazzo delle trame e scegli 1 abilità. Mentre questa carta è in gioco, ogni investigatore riceve +2 all'abilità scelta.\n<b>Obbligo</b> - Quando la Fase degli Investigatori inizia: Scarta il Meteo Propizio.",
+        "traits": "Benedetto. Sorte."
+    },
+    {
+        "code": "11092",
+        "name": "Arma Improvvisata",
+        "text": "Puoi giocare l'Arma Improvvisata dalla tua pila degli scarti. Se lo fai, rimescolalo nel tuo mazzo dopo averne risolto gli effetti e pesca 1 carta.\n<b>Combatti.</b> Il nemico attaccato riceve -2 Scontro in questo attacco. Se hai giocato l'Arma Improvvisata dalla tua pila degli scarti, infliggi +1 danno in questo attacco.",
+        "traits": "Tattica. Improvvisato."
+    },
+    {
+        "code": "11093",
+        "name": "Ultima Chance",
+        "text": "Investi solo in una prova di abilità in cui non siano state investite altre carte. Non è consentito investire altre carte in questa prova di abilità.\nL'Ultima Chance perde [wild] per ogni carta nella tua mano. Se questa prova ha successo mentre l'Ultima Chance è investita nella prova, pesca 2 carte.",
+        "traits": "Azzardo."
+    },
+    {
+        "code": "11094",
+        "name": "Dono di Nodens",
+        "text": "[reaction] Quando investi carte in una prova di abilità che stai effettuando, scegli 1 carta abilità [survivor] nella tua pila degli scarti e scarta 1 carta dalla tua mano: investi l'abilità scelta in questa prova. Dopo che questa prova di abilità è stata risolta, colloca quella carta abilità in fondo al tuo mazzo. (Limite di una volta per round.)",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11095",
+        "name": "Ascetico",
+        "text": "Solo modalità campagna. Permanente. Limite di 1 per mazzo. Acquistabile solo durante la composizione del mazzo.\nQuando acquisti questa, ottieni 10 punti esperienza.\nPer il resto della campagna, non puoi guadagnare punti esperienza.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "11096",
+        "name": "Breve Pausa",
+        "text": "Miriade.\nCura 1 danno o 1 orrore a un investigatore o a un supporto [[Alleato]] nel tuo luogo.\n[reaction] Dopo che un investigatore nel tuo luogo ha giocato la Breve Pausa: Gioca 1 altra Breve Pausa dalla tua mano <i>(pagandone il costo)</i>.",
+        "traits": "Spirito."
+    },
+    {
+        "code": "11097",
+        "name": "Sicumera",
+        "text": "Massimo 1 investimento per prova di abilità.\nPer ogni segnalino caos aggiuntivo rivelato durante questa prova di abilità (anche se è stato annullato o ignorato), la Sicumera ottiene [wild] (massimo +3 icone [wild]).",
+        "traits": "Innato."
+    },
+    {
+        "code": "11098",
+        "name": "Guarigione Spirituale",
+        "text": "Permanente. Limite di 1 per mazzo.\nQuando acquisti la Guarigione Spirituale, rimuovi 1 trauma fisico o 1 trauma mentale dal tuo investigatore.",
+        "traits": "Condizione. Benedetto."
+    },
+    {
+        "code": "11099",
+        "name": "Tessera della Biblioteca",
+        "text": "Solo mazzo [[Miskatonic]] o [[Accademico]]. Limite di 1 per mazzo.\n[fast] Durante il tuo turno, se non ci sono supporti assegnati alla Tessera della Biblioteca, spendi 1 risorsa: Assegna 1 supporto [[Tomo]] dalla tua mano alla Tessera della Biblioteca. Il supporto assegnato non occupa slot. Limite di 1 supporto assegnato.\n<b>Obbligo</b> - Quando il tuo turno termina: Colloca il supporto assegnato in fondo al tuo mazzo.",
+        "traits": "Oggetto. Miskatonic."
+    },
+    {
+        "code": "11100",
+        "name": "Sogni dell'Argilla",
+        "text": "Solo mazzo [[Artista]], [[Chiaroveggente]], [[Sognatore]] o [[Intrattenitore]].\nInvesti solo in una prova di abilità di una sventura. Se questa prova di abilità ha successo, metti in gioco i Sogni dell'Argilla nella tua area di gioco invece di scartarli.\n[reaction] Quando peschi una carta sventura non Isolamento dal mazzo degli incontri, rimuovi dal gioco i Sogni dell'Argilla: Annullane la capacità Rivelazione e scartala.",
+        "traits": "Innato. Auspicio."
+    },
+    {
+        "code": "11101",
+        "name": "Curiosone",
+        "text": "Solo mazzo [[Assistente]], [[Miskatonic]] o [[Accademico]].\nSe questa prova di abilità ha successo, l'investigatore che la sta effettuando può avere successo di un massimo di 2 punti in più o in meno (minimo 0).",
+        "traits": "Innato.",
+        "flavor": "\"Il dottor Christopher non crederà ai suoi occhi!\""
+    },
+    {
+        "code": "11102",
+        "name": "Verso l'Orizzonte",
+        "text": "Solo mazzo [[Vagabondo]], [[Cacciatore]] o [[Esploratore]].\nLimite di 1 per investigatore.\n[fast] Durante il tuo turno, scarta 1 carta dalla tua mano ed esaurisci Verso l'Orizzonte: <b>Muoviti.</b> Muoviti fino a un luogo collegato al tuo.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11103",
+        "name": "Sutra Proibito",
+        "text": "Solo mazzo [[Benedetto]], [[Maledetto]] o [[Stregone]].\nRicevi +1 al valore di abilità mentre stai risolvendo un evento [[Incantesimo]].\n[reaction] Durante una prova di abilità di un [[Incantesimo]], subisci fino a 3 orrori: Per ogni orrore subito, rivela 1 segnalino caos aggiuntivo in questa prova. Scegli 1 dei segnalini rivelati da risolvere e ignora gli altri.",
+        "traits": "Oggetto. Tomo. Benedetto. Maledetto."
+    },
+    {
+        "code": "11104",
+        "name": "Walter Fitzpatrick",
+        "subname": "Gioca su Ambo i Fronti",
+        "text": "Solo mazzo [[Civico]], [[Crepuscolo d'Argento]] o [[Mondano]].\nRicevi +1 al valore di abilità mentre negozi.\n[reaction] Dopo che hai negoziato con successo, esaurisci Walter Fitzpatrick: Ottieni 1 risorsa.",
+        "traits": "Alleato. Sostenitore. Crepuscolo d'Argento."
+    },
+    {
+        "code": "11105",
+        "name": "Fa' il Tuo Prezzo",
+        "text": "Solo mazzo [[Criminale]] o [[Mondano]].\n<b>Negozia.</b> Infliggi 10 danni a un nemico nel tuo luogo (se quel nemico è [[Elite]], infliggigli invece 5 danni). Rimuovi dal gioco Fa' il Tuo Prezzo.",
+        "traits": "Favore.",
+        "flavor": "\"Li vuoi ancora caldi o meglio freddi?\""
+    },
+    {
+        "code": "11106",
+        "name": "Vero Risveglio",
+        "text": "Solo mazzo [[Benedetto]], [[Prescelto]] o [[Vagabondo]].\nScegli e risolvi 2 degli effetti seguenti, in qualsiasi ordine:\n- Pesca 2 carte.\n- Scopri 1 indizio nel tuo luogo.\n- Curati 1 danno.\n- Curati 1 orrore.",
+        "traits": "Intuizione. Spirito."
+    },
+    {
+        "code": "11107",
+        "name": "Raddoppio",
+        "text": "Solo mazzo [[Criminale]], [[Imprenditore]] o [[Mondano]].\nMassimo 1 investimento per prova di abilità.\nDopo che hai investito il Raddoppio in una prova di abilità, spendi fino a 3 risorse. Per ogni risorsa spesa, il Raddoppio ottiene [wild] [wild].",
+        "traits": "Innato."
+    },
+    {
+        "code": "11108",
+        "name": "Performance Accattivante",
+        "text": "Solo mazzo [[Sognatore]], [[Intrattenitore]] o [[Stregone]].\nLimite di 1 per investigatore.\n[reaction] Dopo che hai effettuato 3 tipi di azione diversi di seguito, esaurisci la Performance Accattivante: Effettua 1 azione aggiuntiva, che deve essere di tipo diverso da tutte le altre azioni che hai effettuato in questo turno <i>(i tipi includono attivazione, combattimento, elusione, gioco, impegno, indagine, movimento, pesca e risorsa)</i>.",
+        "traits": "Rituale."
+    },
+    {
+        "code": "11109",
+        "name": "Cappa di Sekhmet",
+        "subname": "Mantello dei Faraoni",
+        "text": "Solo mazzo [[Credente]], [[Prescelto]] o [[Cultista]].\n[reaction] Quando entri in un luogo, esaurisci la Cappa di Sekhmet: Fino alla fine del round, ogni nemico non [[Elite]] in quel luogo non può impegnarti e non puoi infliggere danni a quei nemici.",
+        "traits": "Oggetto. Vestiario. Reliquia."
+    },
+    {
+        "code": "11110",
+        "name": "Dakota Garofalo",
+        "subname": "A Caccia",
+        "text": "Solo mazzo [[Detective]], [[Cacciatore]], [[Esploratore]].\nMentre ci sono nemici [[Creatura]] o [[Mostro]] nel tuo luogo, Ricevi +1 [willpower] e +1 [combat].\n[fast] Esaurisci Dakota Garofalo: Scegli 1 nemico nel tuo luogo o in un luogo collegato al tuo. Muoviti fino al luogo del nemico scelto e impegnalo.",
+        "traits": "Alleato. Cacciatore. Esploratore."
+
+    },
+    {
+        "code": "11111",
+        "name": "Lavoratore Instancabile",
+        "text": "Solo mazzo [[Criminale]], [[Vagabondo]] o [[Imprenditore]].\n[fast] Durante una prova di abilità di un supporto [[Strumento]], esaurisci il Lavoratore Instancabile: Ricevi +2 al valore di abilità in questa prova di abilità. Se questa prova di abilità fallisce, reintegra 1 scorta su quel supporto oppure ottieni 1 risorsa.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11112",
+        "name": "Sostegno Concreto",
+        "text": "Solo mazzo [[Assistente]], [[Medico]] o [[Custode]].\nLimite di 1 per investigatore.\nPuoi assegnare al Sostegno Concreto i danni e/o gli orrori inflitti agli altri investigatori nel tuo luogo.\n[reaction] Quando il tuo turno inizia: Cura 1 danno o 1 orrore al Sostegno Concreto.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11113",
+        "name": "Armatura da Trincea",
+        "text": "Solo mazzo [[Agenzia]], [[Polizia]] o [[Veterano]].\nAnnulla il primo attacco di opportunità effettuato contro di te in ogni round.",
+        "traits": "Oggetto. Armatura."
+    },
+    {
+        "code": "11114",
+        "name": "Sangue di K'n-yan",
+        "text": "Solo mazzo [[Chiaroveggente]], [[Cacciatore]] o [[Stregone]].\n<b>Combatti.</b> Puoi usare [willpower] invece di [combat]. Per ogni slot mano vuoto che possiedi, ricevi +2 al valore di abilità e infliggi +1 danno in questo attacco. Se questo attacco sconfigge un nemico non [Elite], colloca quel nemico nella galleria delle vittorie e assegnagli il Sanguen di K'n-yan.",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "11115",
+        "name": "Lama della Tempesta",
+        "text": "Solo mazzo [[Benedetto]], [[Chiaroveggente]] o [[Stregone]].\n[action] <b>Combatti.</b> Aggiungi il tuo valore di [willpower] al tuo valore di abilità in questo attacco. Se questo attacco ha successo, in aggiunta ai danni standard, puoi esaurire la Lama della Tempesta per infliggere 1 danno a un nemico nel tuo luogo per ogni simbolo [skull], [cultist], [tablet] e [elder_thing] rivelato durante questo attacco (massimo 3 danni aggiuntivi).",
+        "traits": "Oggetto. Reliquia. Arma. Mischia."
+    },
+    {
+        "code": "11116",
+        "name": "Discorso Motivazionale",
+        "text": "Solo mazzo [[Civico]], [[Intrattenitore]] o [[Mondano]].\n<b>Negozia.</b> Scegli 1 investigatore nel tuo luogo. Quell'investigatore può giocare 1 supporto [[Alleato]] dalla sua mano senza pagarne il costo. Poi quell'investigatore può innescare una capacità [action] o [fast] di quel supporto, ignorandone tutti i costi.",
+        "traits": "Spirito.",
+        "flavor": "\"Sì, se la sono decisamente bevuta.\""
+    },
+    {
+        "code": "11117",
+        "name": "Archibald MacVeigh",
+        "subname": "Docente Assillato",
+        "text": "Solo mazzo [[Assistente]], [[Reporter]] o [[Accademico]]. Utilizzo (4 segreti).\nRicevi +1 [intellect].\nI segreti sui supporti che controlli possono essere spesi come risorse per pagare gli eventi [[Intuizione]] che giochi.",
+        "traits": "Alleato.",
+        "flavor": "\"Dicevano 'pubblica o muori', ma forse faremo entrambi.\""
+    },
+    {
+        "code": "11118",
+        "name": "Tessera della Biblioteca",
+        "text": "Solo mazzo [[Miskatonic]] o [[Accademico]]. Permanente. Limite di 1 per mazzo.\n[fast] Durante il tuo turno, se non ci sono supporti assegnati alla Tessera della Biblioteca, esauriscila: Assegna 1 supporto [[Tomo]] dalla tua mano alla Tessera della Biblioteca. Il supporto assegnato non occupa slot.\n<b>Obbligo</b> - Quando il tuo turno termina: Devi pagare 1 risorsa oppure collocare il supporto assegnato in fondo al tuo mazzo.",
+        "traits": "Oggetto. Miskatonic."
+    },
+    {
+        "code": "11119",
+        "name": "Mauser Tankgewehr M1918",
+        "text": "Solo mazzo [[Cacciatore]], [[Veterano]] o [[Custode]]. Utilizzo (1 proiettile).\n[action] Se il Mauser Tankgewehr M1918 è pronto, spendi 1 proiettile: <b>Combatti.</b> Ricevi +5 [combat] e infliggi +3 danni in questo attacco.\n[action] Esaurisci il Mauser Tankgewehr M1918: Reintegra 1 proiettile su di esso.",
+        "traits": "Oggetto. Arma. Arma da Fuoco."
+    },
+    {
+        "code": "11120",
+        "name": "Alle Calcagna",
+        "text": "Solo mazzo [[Detective]], [[Cacciatore]], [[Polizia]] o [[Reporter]]. Limite di 1 per investigatore. Utilizzo (5 piste).\n[reaction] Dopo che sei entrato in un luogo con 1 o più nemici, spendi 1 pista ed esaurisci Alle Calcagna: Scopri 1 indizio nel tuo luogo oppure infliggi 1 danno a un nemico nel tuo luogo.",
+        "traits": "Talento."
+    },
+    {
+        "code": "11121",
+        "name": "Giuramento Sacro",
+        "subname": "Giuramento di Lealtà",
+        "text": "Solo mazzo [[Cultista]], [[Maledetto]] o [[Crepuscolo d'Argento]]. Veloce. Miriade. Limite di 1 Giuramento Sacro <i>(Giuramento di Lealtà)</i> per mazzo.\nMassimo 3 copie del Giuramento Sacro in gioco. Fino a 3 carte Giuramente Sacro occupano 1 slot arcano.\n[reaction] Quando peschi una sventura [[Patto]] o [[Terrore]] non debolezza, scarta dal gioco 1 copia del Giuramento Sacro: Annulla la capacità Rivelazione di quella sventura e scartala.",
+        "traits": "Patto."
+    },
+    {
+        "code": "11122",
+        "name": "Giuramento Sacro",
+        "subname": "Giuramento di Ordine",
+        "text": "Solo mazzo [[Cultista]], [[Maledetto]] o [[Crepuscolo d'Argento]]. Veloce. Miriade. Limite di 1 Giuramento Sacro <i>(Giuramento di Ordine)</i> per mazzo.\nMassimo 3 copie del Giuramento Sacro in gioco. Fino a 3 carte Giuramente Sacro occupano 1 slot arcano.\n[reaction] Quando peschi una sventura [[Maledizione]] o [[Sortilegio]] non debolezza, scarta dal gioco 1 copia del Giuramento Sacro: Annulla la capacità Rivelazione di quella sventura e scartala.",
+        "traits": "Patto."
+    },
+    {
+        "code": "11123",
+        "name": "Giuramento Sacro",
+        "subname": "Giuramento di Saggezza",
+        "text": "Solo mazzo [[Cultista]], [[Maledetto]] o [[Crepuscolo d'Argento]]. Veloce. Miriade. Limite di 1 Giuramento Sacro <i>(Giuramento di Saggezza)</i> per mazzo.\nMassimo 3 copie del Giuramento Sacro in gioco. Fino a 3 carte Giuramente Sacro occupano 1 slot arcano.\n[reaction] Quando peschi una sventura [[Presagio]] o [[Potere]] non debolezza, scarta dal gioco 1 copia del Giuramento Sacro: Annulla la capacità Rivelazione di quella sventura e scartala.",
+        "traits": "Patto."
+    },
+    {
+        "code": "11124",
+        "name": "Vortice Dimensionale",
+        "text": "Solo mazzo [[Intrattenitore]] o [[Stregone]].\nVeloce. Gioca quando la Fase degli Investigatori inizia. Scegli 1 luogo. Metti da parte ogni nemico non [[Elite]] nel luogo scelto <i>(tenendo tutti i segnalini e le aggiunte)</i>. Fino alla fine del round, essi non si trovano in alcun luogo e sono immuni agli effetti delle carte giocatore. Quando il round termina, rimetti ognuno di quei nemici nel luogo scelto, esaurito. (Massimo una volta per partita.)",
+        "traits": "Incantesimo."
+    },
+    {
+        "code": "11125",
+        "name": "Ricordi di un'Altra Vita",
+        "text": "Solo mazzo [[Artista]], [[Credente]], [[Sognatore]] o [[Stregone]].\nSe questa prova di abilità ha successo, puoi rimuovere dal gioco i Ricordi di un'Altra Vita per cercare nella tua collezione 1 qualsiasi carta non Permanente di livello 0 <i>(anche se non soddisfa i requisiti di composizione del tuo mazzo)</i>. Gioca quella carta senza pagarne il costo. Alla fine della partita, rimetti quella carta nella tua collezione.",
+        "traits": "Innato."
+    },
+    {
+        "code": "11126",
+        "name": "Squattrinato",
+        "text": "<b>Rivelazione</b> - Metti in gioco lo Squattrinato nella tua area di minaccia.\n<b>Obbligo</b> - Quando il tuo turno termina, se non hai effettuato né azioni di pesca né di risorsa in questo round: Subisci 1 orrore e rimescola lo Squattrinato nel tuo mazzo.\n[action] Spendi 3 risorse oppure scegli e scarta 3 carte dalla tua mano: Scarta questa carta.",
+        "traits": "Avversità."
+    },
+    {
+        "code": "11127",
+        "name": "Curiosità Morbosa",
+        "text": "<b>Rivelazione</b> - Metti in gioco la Curiosità Morbosa nella tua area di minaccia.\n<b>Obbligo</b> - Quando il tuo turno termina, se non hai indagato con successo in questo round: Subisci 1 orrore e rimescola la Curiosità Morbosa nel tuo mazzo.\n[action]: <b>Indaga.</b> Ricevi -2 al valore di abilità in questa indagine. Se hai successo, scarta questa carta.",
+        "traits": "Difetto."
+    },
+    {
+        "code": "11128",
+        "name": "Poltergeist Turbolento",
+        "text": "<b>Rivelazione</b> - Metti in gioco il Poltergeist Turbolento nella tua area di minaccia.\n<b>Obbligo</b> - Quando il tuo turno termina, se non hai eluso con successo un nemico in questo round: Subisci 1 danno e rimescola il Poltergeist Turbolento nel tuo mazzo.\n[action]: <b>Eludi.</b> Ricevi -2 al valore di abilità in questo tentativo di elusione. Se hai successo, scarta questa carta.",
+        "traits": "Maledizione."
+    },
+    {
+        "code": "11129",
+        "name": "Frenetico",
+        "text": "<b>Rivelazione</b> - Metti in gioco Frenetico nella tua area di minaccia.\n<b>Obbligo</b> - Quando il tuo turno termina, se non hai combattuto con successo con un nemico in questo round: Subisci 1 danno e rimescola Frenetico nel tuo mazzo.\n[action]: <b>Combatti.</b> Ricevi -2 al valore di abilità in questo attacco. Se hai successo, scarta questa carta.",
+        "traits": "Follia."
     }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "back_text": "<b>Taille du Deck</b> : 50.\n<b>Construction du Deck</b> : cartes neutres de niveaux 0 à 5, cartes de niveau 0 prises dans n'importe quelle classe.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Vorace, 3 exemplaires de Régurgitation, 3 exemplaires d'Acide de Réalité, 2 faiblesses de base au hasard.\n<b>Restrictions du Deck</b> : pas de cartes Permanent, à l'exception des cartes Histoire et Signature.\n<b>Exigences Supplémentaires</b> : Votre deck doit inclure au moins 7 cartes de chaque classe ([guardian], [seeker], [rogue], [mystic] et [survivor]).\n<b>Améliorations Supplémentaires : Quand chaque scénario se termine, séparez par classe chaque carte dévorée <i>(placées sous Vorace et mises de côté)</i>. Avant le prochain scénario dans cette campagne, vous pouvez dépenser de l'expérience pour acheter ou améliorer 1 ou plusieurs cartes de n'importe quel niveau de la classe avec le plus de cartes dévorées (en cas d'égalité, vous choisissez).",
+    "back_text": "<b>Taille du Deck</b> : 50.\n<b>Construction du Deck</b> : cartes neutres de niveaux 0 à 5, cartes de niveau 0 prises dans n'importe quelle classe.\n<b>Exigences du Deck</b> (ne comptent pas dans la limite de taille du deck) : Vorace, 3 exemplaires de Régurgitation, 3 exemplaires d'Acide de Réalité, 2 faiblesses de base au hasard.\n<b>Restrictions du Deck</b> : pas de cartes Permanent, à l'exception des cartes Histoire et Signature.\n<b>Exigences Supplémentaires</b> : Votre deck doit inclure au moins 7 cartes de chaque classe ([guardian], [seeker], [rogue], [mystic] et [survivor]).\n<b>Améliorations Supplémentaires</b> : Après la fin de chaque scénario, séparez par classe chaque carte dévorée <i>(placées sous Vorace et mises de côté)</i>. Avant le prochain scénario de cette campagne, vous pouvez dépenser de l'expérience pour acheter ou améliorer 1 ou plusieurs cartes de n'importe quel niveau de la classe qui a le plus de cartes dévorées (en cas d'égalité, vous choisissez).",
     "code": "89001",
     "deck_limit": 1,
     "deck_options": [
@@ -27,7 +27,7 @@
     "faction_code": "neutral",
     "flavor": "",
     "health": 6,
-    "illustrator": "Peter Polach",
+    "illustrator": "Peter Pobach",
     "is_unique": true,
     "name": "Sujet 5U-21",
     "pack_code": "blbe",
@@ -39,7 +39,7 @@
     "skill_combat": 1,
     "skill_willpower": 1,
     "subname": "L'Anomalie",
-    "text": "Vous débutez la partie avec Vorace <i>(Faim Contrôlée)</i> en jeu.\nLors de chaque phase d'Entretien, piochez 1 carte supplémentaire et dévorez une carte Joueur non-faiblesse de votre main.\n[fast] : dévorez une carte qui n'est pas une carte Histoire contrôlée par un investigateur dans votre lieu. (Limite d'une fois par round.)\n[elder_sign] effet: +2. Après la fin de ce test, vous avez le droit d'ajouter une carte dévorée à la main de son propriétaire.",
+    "text": "Vous débutez la partie avec Vorace <i>(Faim Contrôlée)</i> en jeu.\nLors de chaque phase d'Entretien, piochez 1 carte supplémentaire et dévorez une carte Joueur non-faiblesse de votre main.\n[fast] : dévorez une carte non-Histoire contrôlée par un investigateur dans votre lieu. (Limite d'une fois par round.)\n[elder_sign] : +2. Après la fin de ce test, vous avez le droit d'ajouter une carte dévorée à la main de son propriétaire.",
     "traits": "Réplique.",
     "type_code": "investigator"
   },
@@ -49,7 +49,7 @@
     "cost": null,
     "deck_limit": 1,
     "faction_code": "neutral",
-    "illustrator": "Peter Polach",
+    "illustrator": "Peter Pobach",
     "name": "Vorace",
     "pack_code": "blbe",
     "permanent": true,
@@ -67,7 +67,7 @@
     "deck_limit": 1,
     "faction_code": "neutral",
     "hidden": true,
-    "illustrator": "Peter Polach",
+    "illustrator": "Peter Pobach",
     "name": "Vorace",
     "pack_code": "blbe",
     "permanent": true,
@@ -91,7 +91,7 @@
     "quantity": 3,
     "restrictions": "investigator:89001",
     "skill_wild": 1,
-    "text": "Deck de Sujet 5U-21 seulement.\nRapide. À jouer uniquement lors de votre tour.\nSi Vorace <i>(Faim incontrôlable)</i>est face visible, retournez-la. Choisissez et renvoyez dans la main de leur propriétaire jusqu'à 3 cartes dévorées <i>(placées sous Vorace et mises de côté)</i>. Pour chaque carte ainsi renvoyée, soignez 1 dégât ou 1 horreur.",
+    "text": "Deck de Sujet 5U-21 seulement.\nRapide. À jouer uniquement lors de votre tour.\nSi Vorace <i>(Faim Incontrôlable) </i>est face visible, retournez-la. Choisissez et renvoyez dans la main de leur propriétaire jusqu'à 3 cartes dévorées <i>(placées sous Vorace et mises de côté)</i>. Pour chaque carte ainsi renvoyée, soignez 1 dégât ou 1 horreur.",
     "traits": "Pouvoir.",
     "type_code": "event"
   },
@@ -118,7 +118,7 @@
     "pack_code": "blbe",
     "position": 5,
     "quantity": 1,
-    "text": "<b>Le Sujet 5U-21 Dévore...</b>\n<i>(Si le pion Chaos révélé n'est pas dans la liste, ou si l'effet listé ne peut être dévoré, révélez un nouveau pion Chaos et consultez à nouveau la liste.)</i>\n- [elder_sign] : ...un ennemi non-[[Élite]] ou une carte traîtrise dans votre lieu, et qui ne rapporte aucun point de victoire\n- <b>+1</b> : ...la carte du dessous de la pile de défausse de chaque investigateur.\n- <b>0</b> : ...la carte du dessus du deck de chaque investigateur\n- <b>–1</b> : ...1 carte prise au hasard dans votre main.\n- <b>–2</b> : ...un soutien non-histoire, non-faiblesse contrôlé par un investigateur dans votre lieu.\n- <b>–3</b> : ...une carte Joueur attachée à votre lieu ou attachée à une carte Rencontre dans votre lieu.\n- <b>–4</b> : ...les 2 cartes du dessus du deck de chaque investigateur.\n- <b>–5</b> : ...3 cartes de votre choix dans votre main.\n- <b>–6</b> : ...tous les événements dans la main de chaque investigateur.\n- <b>–7</b> : ...1 soutien non-histoire, non-faiblesse dans la zone de jeu de chaque investigateur.\n- <b>–8</b> : ...une carte signature non-faiblesse dans le deck de n'importe quel joueur, dans sa main, dans sa pile de défausse ou dans sa zone de jeu.\n- [skull] : ...1 carte prise au hasard sous Vorace.\n- [cultist] : ...chaque carte attribuée à chaque test de compétence dans votre lieu <i>(après la fin du test)</i>, jusqu'à la fin de la prochaine phase d'Investigation.\n- [tablet] : ...chaque événement joué par les investigateurs dans votre lieu, jusqu'à la fin de la prochaine phase d'Investigation.\n- [elder_thing] : ...la carte Joueur dans votre lieu avec le plus d'indices, de ressources, de munitions, de charges ou de secret sur elle.\n- [auto_fail] : Révélez 3 pions Chaos supplémentaires et résolvez chacun de leurs effets dévorés.",
+    "text": "<b>Le Sujet 5U-21 Dévore...</b>\n<i>(Si le pion Chaos révélé n'est pas dans la liste, ou si l'effet listé ne peut être dévoré, révélez un nouveau pion Chaos et consultez à nouveau la liste.)</i>\n- [elder_sign] : ...un ennemi non-[[Élite]] ou une carte Traîtrise dans votre lieu qui ne rapporte aucun point de victoire.\n- <b>+1</b> : ...la carte du dessous de la pile de défausse de chaque investigateur.\n- <b>0</b> : ...la carte du dessus du deck de chaque investigateur.\n- <b>–1</b> : ...1 carte prise au hasard dans votre main.\n- <b>–2</b> : ...un soutien non-histoire, non-faiblesse contrôlé par un investigateur dans votre lieu.\n- <b>–3</b> : ...une carte Joueur attachée à votre lieu ou attachée à une carte Rencontre dans votre lieu.\n- <b>–4</b> : ...les 2 cartes du dessus du deck de chaque investigateur.\n- <b>–5</b> : ...3 cartes de votre choix dans votre main.\n- <b>–6</b> : ...tous les événements dans la main de chaque investigateur.\n- <b>–7</b> : ...1 soutien non-histoire, non-faiblesse dans la zone de jeu de chaque investigateur.\n- <b>–8</b> : ...une carte Signature non-faiblesse dans le deck de n'importe quel joueur, dans sa main, dans sa pile de défausse ou dans sa zone de jeu.\n- [skull] : ...1 carte prise au hasard sous Vorace.\n- [cultist] : ...chaque carte attribuée à chaque test de compétence dans votre lieu <i>(après la fin du test)</i> jusqu'à la fin de la prochaine phase d'Investigation.\n- [tablet] : ...chaque événement joué par les investigateurs dans votre lieu jusqu'à la fin de la prochaine phase d'Investigation.\n- [elder_thing] : ...la carte Joueur dans votre lieu avec le plus d'indices, de ressources, de munitions, de charges ou de secret sur elle.\n- [auto_fail] : Révélez 3 pions Chaos supplémentaires et résolvez chacun de leurs effets dévorés.",
     "type_code": "story"
   }
 ]

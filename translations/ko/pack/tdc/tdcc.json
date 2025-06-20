@@ -1,1 +1,511 @@
-[]
+[
+    {
+        "code": "11501",
+        "name": "One Last Job",
+        "text": "Easy / Standard\n[skull]: -X. X is the number of [[Criminal]] enemies in play (to a maximum of 4).\n[cultist]: -2 (-4 instead if there is a [[Criminal]] enemy at your location).\n[elder_thing]: -3. If you fail, discard the top 3 cards of the encounter deck. Choose 1 [[Criminal]] enemy discarded by this effect and spawn it engaged with you.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 1 more than the number of [[Criminal]] enemies in play.\n[cultist]: -3 (-5 instead if there is a [[Criminal]] enemy at your location).\n[elder_thing]: -4. If you fail, discard the top 6 cards of the encounter deck. Choose 1 [[Criminal]] enemy discarded by this effect and spawn it engaged with you. It makes an immediate attack."
+    },
+    {
+        "code": "11517",
+        "name": "The Western Wall",
+        "text": "Easy / Standard\n[skull]: -X. X is your location's level.\n[cultist]: -3. If you fail and your location is fully flooded, take 1 damage.\n[tablet]: -3. If you fail, increase the flood level of your location.\n[elder_thing]: -3 (-5 instead if your location is fully flooded).",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 2 more than your location's level.\n[cultist]: -5. If your location is fully flooded, take 1 damage.\n[tablet]: -5. Increase the flood level of your location, if able.\n[elder_thing]: -5 (If your location is fully flooded, you automatically fail instead)."
+    },
+    {
+        "code": "11535",
+        "name": "Hunting Parasite",
+        "text": "Aloof. Hunter.\n<b>Prey</b> - Bearer only.\n<b>Spawn</b> - A connecting location (empty if able).\n<b>Forced</b> - When the enemy phase ends: Place 1 doom on a player card at this enemy's location. Then, discard Hunting Parasite.",
+        "traits": "괴물. Stowaway."
+    },
+    {
+        "code": "11536",
+        "name": "The Drowned Quarter",
+        "text": "Easy / Standard\n[skull]: -X. X is half the number of revealed locations (rounded down).\n[cultist]: -2. If you fail and your location is fully flooded, take 1 damage.\n[tablet]: -4. If you fail, place 1 of your clues on your location.\n[elder_thing]: -3 (-5 instead if your location is not flooded).",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the number of revealed locations.\n[cultist]: -3. If your location is flooded, take 1 damage.\n[tablet]: -4. For each point you fail by, place 1 of your clues on your location.\n[elder_thing]: -4 (-6 instead if your location is not flooded)."
+    },
+    {
+        "code": "11550",
+        "name": "Obsidian Relic [tdc_rune_y]",
+        "subname": "Puzzling Effigy",
+        "text": "If Obsidian Relic [tdc_rune_y] would leave play, remove it from the game.\n[action]: Test [intellect] (8). Double the skill icons of each card committed to this skill test. If you succeed, flip this card and resolve its text.",
+        "traits": "물품. 유물. Glyph."
+    },
+    {
+        "code": "11552",
+        "name": "Barrier Node",
+        "subname": "Energy Shield",
+        "text": "Barrier Node cannot be defeated or leave play.\n[reaction] When your turn begins: Heal 1 damage from Barrier Node.\n[tdc_rune_q] · [tdc_rune_x] · [tdc_rune_g] · [tdc_rune_k] · [tdc_rune_s]\nBarrier Node gets +2 health.",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11553",
+        "name": "The Apiary",
+        "text": "Easy / Standard\n[skull]: -X. X is half the amount of doom on enemies and assets in play, rounded down (to a max of 4).\n[cultist]: -1. If there is a [[Cultist]] enemy at your location, reveal another token.\n[tablet]: -3. If you fail, place 1 doom on an enemy at your location with no doom on it.\n[elder_thing]: -4. If you fail, take 1 damage or 1 horror.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the amount of doom on enemies and assets in play (to a max of 8).\n[cultist]: -3. If there is a [[Cultist]] enemy at your location, reveal another token.\n[tablet]: -5. If you fail, place 1 doom on an enemy at your location (with no doom on it, if able).\n[elder_thing]: -6. If you fail, take 1 damage or 1 horror."
+    },
+    {
+        "code": "11581",
+        "name": "Ancient Relic [tdc_rune_s]",
+        "subname": "Leering Visage",
+        "text": "If Ancient Relic [tdc_rune_s] would leave play, set it aside, out of play.\n<b>Forced</b> - After you take 1 or more damage: Deal 1 damage to Ancient Relic [tdc_rune_s].\n[reaction] When you end the game with Ancient Relic [tdc_rune_s] under your control: Flip this card and resolve its text.",
+        "traits": "물품. 유물. Glyph."
+    },
+    {
+        "code": "11582",
+        "name": "Grisly \"Mask\"",
+        "subname": "Is It Actually Alive?",
+        "text": "[fast] Exhaust Grisly \"Mask\": Disengage from each enemy. Until the beginning of your next turn, you cannot move and cannot damage enemies or engage them.\n[tdc_rune_j] · [tdc_rune_m] · [tdc_rune_s] · [tdc_rune_c] · [tdc_rune_b]\n[fast] Take 1 direct horror and exhaust Grisly \"Mask\": Deal 2 damage to an enemy at your location.",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11583",
+        "name": "Parasitic Transformation",
+        "text": "<b>Revelation</b> - Put Parasitic Transformation into play in your threat area.\n<b>Forced</b> - After an enemy engages you: Place 1 doom on Parasitic Transformation.\n[action][action]: Discard Parasitic Transformation.",
+        "traits": "저주. 위기."
+    },
+    {
+        "code": "11587",
+        "name": "The Grand Vault",
+        "text": "Easy / Standard\n[skull]: -X. X is half the number of activated locations (rounded down).\n[cultist]: -3. If you fail, you must either deactivate your location or take 1 damage or 1 horror.\n[tablet]: -2 (-3 instead if your location is partially flooded; -4 instead if your location is fully flooded).\n[elder_thing]: -4. If you fail, search the encounter discard pile for a copy of the Still Behind You treachery and add it to the victory display.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the number of activated locations.\n[cultist]: -4. After this test resolves, you must either deactivate your location or take 1 damage and 1 horror.\n[tablet]: -3 (-4 instead if your location is partially flooded; -5 instead if your location is fully flooded).\n[elder_thing]: -5. If you fail, search the encounter discard pile for a copy of the Still Behind You treachery and draw it."
+    },
+    {
+        "code": "11611",
+        "name": "Tidal Tablet",
+        "subname": "Record of Ancient Depths",
+        "text": "When your location's flood level is increased: Move to a connecting location.\n[tdc_rune_l] · [tdc_rune_k] · [tdc_rune_d]\n[fast] Exhaust Tidal Tablet: Increase the flood level of your location. Then, choose another flooded location and decrease its flood level.",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11612",
+        "name": "Court of the Ancients",
+        "text": "Easy / Standard\n[skull]: -X. X is the number of [[Glyph]] cards in the victory display.\n[cultist]: -2 (-4 instead if there is a [[Stowaway]] enemy at your location).\n[tablet]: -2. If your location is flooded, reveal another token.\n[elder_thing]: -4. If this token is revealed during an attack or evasion attempt, take 1 damage or 1 horror.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 1 more than the number of [[Glyph]] cards in the victory display.\n[cultist]: -3 (-5 instead if there is a [[Stowaway]] enemy at your location).\n[tablet]: -3. If your location is flooded, reveal another token.\n[elder_thing]: -5. If this token is revealed during an attack or evasion attempt, take 1 damage and 1 horror."
+    },
+    {
+        "code": "11638",
+        "name": "Shard of Y'ch'lecht",
+        "subname": "Otherworldly Remnant",
+        "text": "You may ignore the first attack made against you by a [[Star Spawn]] or [[Deep One]] enemy each round.\n[tdc_rune_b] · [tdc_rune_x] · [tdc_rune_o] · [tdc_rune_k]\n[reaction] When a [[Star Spawn]] or [[Deep One]] enemy enters your location, exhaust this card: Exhaust that enemy.",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11639",
+        "name": "Obsidian Canyons",
+        "text": "Easy / Standard\n[skull]: -X. X is the current Storm Intensity.\n[cultist]: -4. If this test fails, place 1 doom on the nearest enemy.\n[tablet]: -1 for each open sky adjacent to your current location.\n[elder_thing]: -2. If there is an enemy at your location, reveal another token.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 2 more than the current Storm Intensity.\n[cultist]: -6. Place 1 doom on the nearest enemy.\n[tablet]: -2 for each open sky adjacent to your current location.\n[elder_thing]: -4. If there is an enemy at your location, reveal another token."
+    },
+    {
+        "code": "11663",
+        "name": "Sky Relic [tdc_rune_f]",
+        "subname": "Eroded by Winds",
+        "text": "If Sky Relic [tdc_rune_f] would leave play, remove it from the game.\n[action]: Test [agility] (8). Double the skill icons of each card committed to this skill test. If you succeed, flip this card and resolve its text.",
+        "traits": "물품. 유물. Glyph."
+    },
+    {
+        "code": "11672a",
+        "name": "Obsidian Claw",
+        "subname": "Speed",
+        "text": "Cannot leave play. Enters play <i>(Speed)</i> side faceup.\n[fast] During your turn, exhaust this card and choose a location up to 2 connections away: Move to the chosen location.\n[tdc_rune_a] · [tdc_rune_p] · [tdc_rune_m] · [tdc_rune_e] · [tdc_rune_b] · [tdc_rune_c]\n[fast]: Flip this card. (Max once per round.)",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11672b",
+        "name": "Obsidian Claw",
+        "subname": "Power",
+        "text": "Cannot leave play. Enters play <i>(Speed)</i> side faceup.\n[action] Exhaust Obsidian Claw: <b>Fight.</b> You may use your [agility] instead of your [combat] and get +1 skill value for this attack. If the attacked enemy is exhausted, this attack deals +1 damage.\n[fast]: Flip this card. (Max once per round.)",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11673",
+        "name": "Sepulchre of the Sleeper",
+        "text": "Easy / Standard\n[skull]: -X. X is the current Disturbance (to a maximum of 6).\n[cultist]: -4. If you fail, draw the top card of the encounter deck. If you fail by 3 or more, that card gains peril and surge.\n[tablet]: -4. For each point you fail by, you must either take 1 horror or discard 1 card from your hand.\n[elder_thing]: -3. Reveal another token.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the current Disturbance.\n[cultist]: -6. If you fail, draw the top card of the encounter deck. If you fail by 3 or more, that card gains peril and surge.\n[tablet]: -6. For each point you fail by, you must either take 1 horror or discard 1 card from your hand.\n[elder_thing]: -4. Reveal another token."
+    },
+    {
+        "code": "11682",
+        "name": "The Doom of Arkham Pt I",
+        "text": "Easy / Standard\n[skull]: -X. X is half the number of locations with no scenario cards beneath them (rounded up).\n[cultist]: -3. If this test fails, place 1 doom on the nearest enemy with no doom on it.\n[tablet]: -3. If this test fails, place 1 of your clues on your location.\n[elder_thing]: -2. If your location is flooded, reveal another token.",
+        "back_text": "Hard / Expert\n[skull]: -X. X is the number of locations with no scenario cards beneath them.\n[cultist]: -5. If this test fails, place 1 doom on the nearest enemy with no doom on it.\n[tablet]: -5. If this test fails, place 1 of your clues on your location.\n[elder_thing]: -4. If your location is flooded, reveal another token."
+    },
+    {
+        "code": "11687",
+        "name": "John Raymond Legrasse",
+        "subname": "Hunting for Answers",
+        "text": "You get +1 skill value while fighting [[Deep One]] and [[Star Spawn]] enemies.\n[reaction] During a skill test while fighting or evading Cthulhu, exhaust John Raymond Legrasse: You get +X skill value for this test, where X is Cthulhu's Rage.",
+        "traits": "조력자. 탐정.",
+        "slot": "조력자"
+    },
+    {
+        "code": "11688",
+        "name": "Horror in Clay",
+        "subname": "Sculpture of Dreams",
+        "text": "Each [[Star Spawn]] enemy loses patrol and its printed <b>Prey</b> instructions and gains hunter and \"<b>Prey</b> - You.\"\n[tdc_rune_u] · [tdc_rune_x] · [tdc_rune_o] · [tdc_rune_o] · [tdc_rune_d] · [tdc_rune_f] · [tdc_rune_z]\n[fast] Exhaust Horror in Clay: Either treat this asset's printed text box as if it were blank until the end of the round <i>(except for <b>Traits</b>)</i>, or move a [[Star Spawn]] enemy once in any direction.",
+        "traits": "물품. Artifact. R'lyeh."
+    },
+    {
+        "code": "11688a",
+        "name": "The Doom of Arkham Pt II",
+        "text": "Easy / Standard\n[skull]: -X. X is Cthulhu's Rage.\n[cultist]: -3. If you fail and your location is flooded, take 1 damage.\n[tablet]: -3. If you fail, place 1 of your clues on your location.\n[elder_thing]: -1. Reveal another token. If you fail, after this test resolves, draw the top card of the Cthulhu deck. (Max one draw per round.)",
+        "back_text": "Hard / Expert\n[skull]: -X. X is 2 more than Cthulhu's Rage.\n[cultist]: -5. If your location is flooded, take 1 damage.\n[tablet]: -5. If you fail, place 1 of your clues on your location.\n[elder_thing]: -3. Reveal another token. If you fail, after this test resolves, draw the top card of the Cthulhu deck. (Max one draw per round.)"
+    },
+    {
+        "code": "11721",
+        "name": "Stowaway Drone",
+        "text": "Aloof. Patrol (nearest other enemy with no doom on it ).\n<b>Forced</b> - When the enemy phase ends: Place 1 doom on another non-[[Elite]] enemy at this location. Then, discard Stowaway Drone.",
+        "traits": "괴물. Stowaway."
+    },
+    {
+        "code": "11722",
+        "name": "Infected!",
+        "text": "<b>Revelation</b> - Put Infected! into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - After you end your turn at a location with another investigator or a [[Stowaway]] enemy: Place 1 doom on Infected!\n[action]: Test [willpower] (3). If you fail, take 1 damage. If you succeed, discard Infected!",
+        "traits": "위기."
+    },
+    {
+        "code": "11723",
+        "flavor": "\"…the Great Old Ones spoke to the sensitive among them by moulding their dreams.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Pilgrim Acolyte",
+        "text": "<b>Forced</b> - After Pilgrim Acolyte attacks: Place 1 doom on it.",
+        "traits": "인간형. 추종자."
+    },
+    {
+        "code": "11724",
+        "name": "Pilgrim Leader",
+        "text": "Aloof.\n<b>Spawn</b> - Any location (empty, if able).\nWhile Pilgrim Leader is ready, each other [[Cultist]] enemy gets +2 fight and gains hunter and relentless.",
+        "traits": "인간형. 추종자."
+    },
+    {
+        "code": "11725",
+        "name": "Monstrous Star Spawn",
+        "text": "Hunter. Massive. Relentless.\n<b>Prey</b> - Highest [combat].\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading this enemy: Heal 1 damage from it.",
+        "traits": "괴물. Star Spawn. 정예."
+    },
+    {
+        "code": "11726",
+        "name": "Infected Star Spawn",
+        "text": "Hunter. Relentless. <b>Prey</b> - Highest [agility].\n<b>Forced</b> - The first time this enemy would be defeated: Heal all damage from it and ready it.\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading Infected Star Spawn: Take 1 horror.",
+        "traits": "괴물. Star Spawn. 정예."
+    },
+    {
+        "code": "11727",
+        "name": "Coral Star Spawn",
+        "text": "Hunter. Relentless. <b>Prey</b> - Highest [willpower].\nWhile Coral Star Spawn has damage on it, it gains alert and retaliate.\n<b>Forced</b> - When you reveal an [elder_thing] token while fighting or evading this enemy: Take 1 damage.",
+        "traits": "괴물. Star Spawn. 정예."
+    },
+    {
+        "code": "11728",
+        "name": "Star Spawn Observer",
+        "text": "Aloof. Hunter.\n<b>Prey</b> - Highest [intellect].\n<b>Forced</b> - When you reveal an [elder_thing] token while investigating Star Spawn Observer's location: It engages you and makes an immediate attack.",
+        "traits": "괴물. Star Spawn. 정예."
+    },
+    {
+        "code": "11729",
+        "name": "Eye of the Deep",
+        "text": "<b>Revelation</b> - Put Eye of the Deep into play in your threat area. Limit 1 per investigator.\nTreat each [cultist] and [tablet] token you reveal during a skill test as if it were an [elder_thing] token, instead.\n[action]: Test [willpower] (3). If you succeed, discard Eye of the Deep.",
+        "traits": "권능."
+    },
+    {
+        "code": "11730",
+        "name": "Cunning Mimicry",
+        "text": "<b>Revelation</b> - If there are no [[Monster]] enemies in play, Cunning Mimicry gains surge. Otherwise, test [intellect] (3). If you fail, the nearest [[Monster]] enemy attacks you <i>(regardless of its current location)</i>.",
+        "traits": "모략."
+    },
+    {
+        "code": "11731",
+        "name": "Elder Mist",
+        "text": "<b>Revelation</b> - Attach Elder Mist to the nearest location without Elder Mist attached.\nEach investigator at attached location gets -1 [willpower], -1 [intellect],-1 [combat], and -1 [agility].\n<b>Forced</b> - After an investigator at attached location succeeds at a skill test by 2 or more: Discard Elder Mist.",
+        "traits": "위기."
+    },
+    {
+        "code": "11732",
+        "name": "Corrosive Fog",
+        "text": "<b>Revelation</b> - Test [intellect] or [combat] (4). If you fail, take 1 damage. If you fail by 3 or more, instead deal 1 direct damage to your investigator and each [[Ally]] and [[Item]] asset you control with health.",
+        "traits": "위기."
+    },
+    {
+        "code": "11733",
+        "name": "Voltaic Eel",
+        "text": "Hunter.\n<b>Prey</b> - Most clues.\nWhile Voltaic Eel is moving during the enemy phase, each fully flooded location is considered to be connected to one another.",
+        "traits": "괴물."
+    },
+    {
+        "code": "11734",
+        "name": "Dreaming Migration",
+        "text": "<b>Revelation</b> - If there are no enemies in play, Dreaming Migration gains surge. Otherwise, test [willpower] (3). If you fail, you must choose one:\n- The nearest enemy moves to your location and makes an immediate attack.\n- Draw the topmost enemy in the encounter discard pile.",
+        "traits": "위기."
+    },
+    {
+        "code": "11735",
+        "name": "Undersea Hunt",
+        "text": "<b>Revelation</b> - Test [agility] (3). This test gets +2 difficulty if your location is fully flooded. If you fail, take 1 damage and increase the flood level of the nearest eligible location.",
+        "traits": "모략."
+    },
+    {
+        "code": "11736",
+        "name": "Deadly Torrent",
+        "text": "<b>Revelation</b> - If your location is unflooded, Deadly Torrent gains surge. Otherwise, you must choose:\n- Test [agility] (4) to swim to safety. If you succeed, move to a connecting location. If you fail, take 1 damage and 1 horror.\n- Test [combat] (4) to stand your ground. If you fail, take 1 damage and discard 1 asset you control that takes up 1 or more slots.",
+        "traits": "위기."
+    },
+    {
+        "code": "11737",
+        "flavor": "\"I cannot think of the deep sea without shuddering at the nameless things that may at this very moment be crawling and floundering on its slimy bed...\" - H.P. Lovecraft, \"Dagon\"",
+        "name": "Something in the Water",
+        "text": "Surge.\n<b>Revelation</b> - Increase the flood level of the nearest eligible location.",
+        "traits": "위기."
+    },
+    {
+        "code": "11738",
+        "name": "Ominous Silence",
+        "text": "<b>Revelation</b> - Put Ominous Silence into play in your threat area.\nAs an additional cost to play a card, you must either spend 1 resource or take 1 horror.\n[action]: Test [agility] (3). If your location is not flooded, this test automatically succeeds. If you succeed, discard Ominous Silence.",
+        "traits": "두려움."
+    },
+    {
+        "code": "11739",
+        "flavor": "\"He had an unprecedented dream of great Cyclopean cities of titan blocks and sky-flung monoliths...\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Cyclopean Architecture",
+        "text": "<b>Revelation</b> - Test [intellect] (X), where X is your location's printed shroud. For each point you fail by, choose and discard 1 card from your hand (to a maximum of 3).",
+        "traits": "두려움."
+    },
+    {
+        "code": "11740",
+        "flavor": "\"He said that the geometry of the dream-place he saw was abnormal, non-Euclidean, and loathsomely redolent of spheres and dimensions apart from ours.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Crumbling Masonry",
+        "text": "<b>Revelation</b> - Test [agility] (X), where X is your location's printed shroud. If you fail, take 2 damage.",
+        "traits": "위기."
+    },
+    {
+        "code": "11741",
+        "flavor": " [tdc_rune_m][tdc_rune_f] · [tdc_rune_b][tdc_rune_m][tdc_rune_l] · [tdc_rune_b][tdc_rune_x][tdc_rune_n][tdc_rune_l][tdc_rune_k] · [tdc_rune_d][tdc_rune_c] · [tdc_rune_s][tdc_rune_p][tdc_rune_h][tdc_rune_k][tdc_rune_b] · [tdc_rune_z][tdc_rune_k][tdc_rune_d][tdc_rune_z] · [tdc_rune_u][tdc_rune_c][tdc_rune_b][tdc_rune_n][tdc_rune_p][tdc_rune_b][tdc_rune_n] · [tdc_rune_g][tdc_rune_d][tdc_rune_m][tdc_rune_c][tdc_rune_l] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_e]",
+        "name": "\"Cthulhu fhtagn!\"",
+        "text": "<b>Revelation</b> - Test [combat] (3). If you fail, you must either take 2 horror or deal 1 direct damage to an investigator at your location.",
+        "traits": "권능."
+    },
+    {
+        "code": "11742",
+        "flavor": "\"I have looked upon all the universe has to hold of horror, and even the skies of spring and flowers of summer must ever afterward be poison to me.\" - H.P. Lovecraft, \"The Call of Cthulhu\"",
+        "name": "Oppressive Influence",
+        "text": "<b>Revelation</b> - Test [willpower] (X), where X is your location's printed shroud. If you fail, take 2 horror.",
+        "traits": "권능."
+    },
+    {
+        "code": "11743",
+        "name": "Domination",
+        "text": "Peril.\n<b>Revelation</b> - You must decide (choose one):\n- Place 1 doom on the current agenda. This effect can cause the current agenda to advance.\n- Each investigator discards 2 cards from their hand.\n- Each investigator loses 1 action.",
+        "traits": "권능."
+    },
+    {
+        "code": "11744",
+        "name": "The Inescapable",
+        "subname": "Tireless Pursuer",
+        "text": "Hunter. Relentless.\n<b>Spawn</b> - Any connecting location (empty, if able).\n<b>Forced</b> - The first time each round an [elder_thing] token is revealed from the chaos bag: Ready The Inescapable and resolve its hunter keyword <i>(it does not attack)</i>.",
+        "traits": "괴물. Star Spawn. 정예."
+    },
+    {
+        "code": "11745",
+        "name": "Still Behind You",
+        "text": "<b>Revelation</b> - Test [agility] (2). This test gets +1 difficulty for each copy of Still Behind You in the victory display. If you fail and The Inescapable...\n- ...is in play, it moves, one location at a time, to your location and engages you.\n- ...is not in play, search all in- and out-of-play areas for The Inescapable and draw it. Add Still Behind You in the victory display.",
+        "traits": "모략."
+    },
+    {
+        "code": "11746",
+        "flavor": "A hunter perfectly adapted to the lightless deep.",
+        "name": "Deep One Thrall",
+        "text": "<b>Forced</b> - After Deep One Thrall engages you: Discard 1 card at random from your hand.",
+        "traits": "인간형. 괴물. Deep One."
+    },
+    {
+        "code": "11747",
+        "name": "Elder Deep One",
+        "text": "Hunter. Retaliate.\nEach other [[Deep One]] enemy gains relentless.\n<b>Forced</b> - After Elder Deep One engages you: Heal 1 damage from each other [[Deep One]] enemy in play.",
+        "traits": "인간형. 괴물. Deep One."
+    },
+    {
+        "code": "11748",
+        "flavor": "\"Be careful out there. We have no idea what's lurking in the shadows.\"",
+        "name": "Deep One Ambush",
+        "text": "<b>Revelation</b> - Put Deep One Ambush into play in your threat area. Limit 1 per investigator.\n<b>Forced</b> - After a [[Deep One]] enemy engages you: It attacks you. Then, discard Deep One Ambush.",
+        "traits": "모략."
+    },
+    {
+        "code": "11749",
+        "flavor": "[tdc_rune_g][tdc_rune_b][tdc_rune_d][tdc_rune_c] · [tdc_rune_z][tdc_rune_x] · [tdc_rune_h][tdc_rune_x][tdc_rune_n] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o] · [tdc_rune_m][tdc_rune_f] · [tdc_rune_h][tdc_rune_x][tdc_rune_n][tdc_rune_s] · [tdc_rune_l][tdc_rune_o][tdc_rune_d][tdc_rune_p][tdc_rune_p] · [tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_z]",
+        "name": "Tortured Visions",
+        "text": "<b>Revelation</b> - Test [willpower] (3). This test gets +2 difficulty if you have 3 or fewer cards in your hand. If you fail, take 1 direct horror and discard 1 card at random from your hand.",
+        "traits": "두려움."
+    },
+    {
+        "code": "11750",
+        "name": "Drawn to Darkness",
+        "text": "<b>Revelation</b> - Put Drawn to Darkness into play in your threat area. Limit 1 per investigator.\nYour maximum hand size is reduced by 3 (to a minimum of 1).\n<b>Forced</b> - When your turn ends, if you have no cards in hand: Discard Drawn to Darkness.",
+        "traits": "권능."
+    },
+    {
+        "code": "11751",
+        "name": "Persistent Construct",
+        "text": "Hunter.\n<b>Prey</b> - Nearest investigator with an [[Artifact]] asset.\n<b>Forced</b> - When you defeat this enemy: Spawn each other Persistent Construct in the victory display, exhausted, at your location.",
+        "traits": "구조물."
+    },
+    {
+        "code": "11752",
+        "name": "Infernal Machinery",
+        "text": "<b>Revelation</b> - Put Infernal Machinery into play in your threat area.\nYou cannot trigger abilities on [[Glyph]] or [[Artifact]] cards.\n[action]: Test [intellect] or [agility] (4). If you succeed, discard Infernal Machinery.",
+        "traits": "위기."
+    },
+    {
+        "code": "11753a",
+        "name": "No Place Like Home",
+        "subname": "Lost and Uncertain",
+        "text": "Permanent. Uses (8 discoveries).\n<b>Forced</b> - When you reveal a location: Remove 1 discovery from No Place Like Home.\n<b>Forced</b> - When the game ends, if there are 1 [per_investigator] or fewer discoveries on No Place Like Home: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11753b",
+        "name": "No Place Like Home",
+        "subname": "Where Your Heart Is",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou may take an additional action during your turn, which may only be used to move.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11754a",
+        "name": "Walk in Faith",
+        "subname": "Blind Devotion",
+        "text": "Permanent. Uses (0 signs).\n[reaction] After an [elder_sign] token is revealed at any location: Place 1 sign on Walk in Faith.\n<b>Forced</b> - When the game ends, if there are more than 1 [per_investigator] signs on Walk in Faith: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11754b",
+        "name": "Walk in Faith",
+        "subname": "Filled with Spirit",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou get +1 [willpower].\n[reaction] After an [elder_sign] token is revealed at any location: Heal 1 horror from an investigator at that location.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11755a",
+        "name": "Toe the Line",
+        "subname": "Disavowed and Disgraced",
+        "text": "Permanent.\n<b>Forced</b> - When you take 1 or more damage: Place 1 damage on Toe the Line as well.\n<b>Forced</b> - When the game ends, if the amount of damage on this card equals or exceeds your maximum health: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11755b",
+        "name": "Toe the Line",
+        "subname": "Restored and Resolved",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou get +1 [combat] and +2 maximum health.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11756a",
+        "name": "Good Money",
+        "subname": "The \"Quid\" Part",
+        "text": "Permanent.\n[reaction] When you gain 1 or more resources: Place 1 of those resources on Good Money.\n<b>Forced</b> - When the game ends, if there are 5 or more resources on Good Money: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11756b",
+        "name": "Good Money",
+        "subname": "The \"Quo\" Part",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou begin the game with 5 additional resources.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11757a",
+        "name": "Prove Your Worth",
+        "subname": "Are You a Burden?",
+        "text": "Permanent. Uses (4 chances).\n<b>Forced</b> - After you fail a skill test by 2 or more: Remove 1 chance from Prove Your Worth.\n<b>Forced</b> - When the game ends, if there are 1 or more chances on Prove Your Worth: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11757b",
+        "name": "Prove Your Worth",
+        "subname": "Standing on Your Own",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nUses (3 chances).\n[reaction] When a non-[auto_fail] token is revealed during a skill test at your location, spend 1 chance: Cancel that token.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11758a",
+        "name": "Do No Harm",
+        "subname": "Can You Save Them?",
+        "text": "Permanent. Uses (5 obligations).\n[reaction] After you heal damage/horror from an investigator or [[Ally]] asset: Remove 1 obligation from Do No Harm.\n<b>Forced</b> - When the game ends, if there are no obligations on Do No Harm: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11758b",
+        "name": "Do No Harm",
+        "subname": "Reliable Support",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou get +1 [agility].\n[reaction] After you heal damage/horror from an investigator or [[Ally]] asset, exhaust Do No Harm: Gain 1 resource.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11759a",
+        "name": "Dreams of Destruction",
+        "subname": "Visions of a Grim Future",
+        "text": "Permanent.\n<b>Forced</b> - When you take 1 or more horror: Place 1 horror on Dreams of Destruction as well.\n<b>Forced</b> - When the game ends, if the amount of horror on this card equals or exceeds your maximum sanity: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11759b",
+        "name": "Dreams of Destruction",
+        "subname": "The Future is Not Fixed",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou have 1 additional arcane slot and get +2 maximum sanity.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11760a",
+        "name": "Plumb the Depths",
+        "subname": "Compulsive Research",
+        "text": "Permanent. Uses (5 obsessions).\n<b>Forced</b> - After you discover the last remaining clue at your location: Remove 1 obsession from Plumb the Depths.\n<b>Forced</b> - When the game ends, if there are no obsessions on Plumb the Depths: In your Campaign Log, mark 1 progress under this Task.",
+        "traits": "과업. Incomplete."
+    },
+    {
+        "code": "11760b",
+        "name": "Plumb the Depths",
+        "subname": "Mastered Acumen",
+        "text": "Permanent. Unless this task has been completed, it enters play with its weakness side faceup.\nYou get +1 [intellect].\n[reaction] After you discover the last clue at your location, exhaust Plumb the Depths: Draw 1 card.",
+        "traits": "과업. Completed."
+    },
+    {
+        "code": "11761",
+        "name": "Expedition Gear",
+        "subname": "Tough but Reliable",
+        "text": "Uses (3 supplies).\n[action] Spend 1 supply: Heal 1 damage from an investigator at your location.\n[fast] Remove Expedition Gear from the game: Move a non-[[Elite]] enemy at your location or a connecting location once in any direction.",
+        "traits": "물품. 보급."
+    },
+    {
+        "code": "11762",
+        "name": "Laudanum",
+        "subname": "Desperate Measures",
+        "text": "Uses (3 supplies).\n[action] Spend 1 supply: Heal 1 horror from an investigator at your location.\n[reaction] When you draw a non-weakness [[Power]] or [[Terror]] treachery, remove Laudanum from the game: Cancel that treachery's revelation effect and discard it.",
+        "traits": "물품. 보급."
+    },
+    {
+        "code": "11763",
+        "name": "Alien Tablet",
+        "subname": "Prehistoric Writings",
+        "text": "Uses (4 secrets).\n[fast] During a skill test on a [[Glyph]] or [[R'lyeh]] card, exhaust Alien Tablet and spend 1 secret: The performing investigator gets +2 skill value for this skill test.",
+        "traits": "물품. 유물. R'lyeh."
+    },
+    {
+        "code": "11764",
+        "name": "Diving Suit",
+        "text": "If your location is fully flooded, you may treat it as if it were partially flooded for the purposes of card effects.\n<b>Forced</b> - When any amount of damage would be placed on you: Place 1 of that damage on Diving Suit.",
+        "traits": "물품. 방어구."
+    },
+    {
+        "code": "11765",
+        "flavor": "\"Life's just one big score, and I plan to be the winner.\"",
+        "name": "Ruby Standish",
+        "subname": "Master Thief",
+        "text": "You get +1 [agility].\n[fast] If there are no ready enemies at your location, exhaust Ruby Standish: Move to a connecting location.",
+        "traits": "조력자. 범죄자.",
+        "slot": "조력자"
+    },
+    {
+        "code": "11766",
+        "flavor": "\"I thought this story was gonna go in a very different direction.\"",
+        "name": "Andy Van Nortwick",
+        "subname": "Ambitious Journalist",
+        "text": "You get +1 [intellect].\nIf your location has no clues on it, ignore the first attack of opportunity made against you each round.",
+        "traits": "조력자. 기자.",
+        "slot": "조력자"
+    }
+]
