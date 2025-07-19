@@ -1,23 +1,476 @@
 [
+     {
+        "code": "11001",
+        "flavor": "\"Die Leute verlassen sich darauf, dass ich meinen Job mache - daran ändern auch ein paar seltsame Fische im Netz nichts.\"",
+        "name": "Marion Tavares",
+        "subname": "Die Schleppnetzfischerin",
+        "text": "Du hast 1 Handslot weniger.\n[reaction] Nachdem du in deinem Zug ein Ereignis gespielt hast: Ziehe 1 Karte. Dann darfst du ein unterschiedliches Ereignis spielen. (Nur 1 Mal pro Runde.)\n [elder_sign]-Effekt: +1. Durchsuche die obersten 3 Karten deines Decks nach einem Ereignis und ziehe es. Mische dein Deck.",
+        "traits": "Herumtreiber. Unternehmer.",
+        "back_flavor": "Nach dem Tod ihres Vaters zog Marion von Narragansett Bay nach Arkham. Sie kaufte sich zusammen mit ihrer Freundin Annalise Taylor ein Boot und fand in der Fischergemeinde der Stadt ein neues Zuhause. In einer stürmischen Nacht auf See wurde Annalise von einer seltsamen fischähnlichen Kreatur über Bord gezogen. Marion sprang ins Wasser und zog Annalise aus dem Maul des Wesens - wobei sie ihren rechten Arm verlor. Seitdem behält sie die stürmischen Gewässer des Atlantiks und die seltsamen Kreaturen, die sich in seinen Tiefen verstecken, im Auge.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>[[Merkmal]]-Wahl</b>: Wähle beim Deckbau eines der folgenden Merkmale : [[Glücksfall]], [[Schachzug]] oder [[Improvisiert]].\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0 - 5, Neutrale Karten Stufe 0 - 5, Ereigniskarten mit deinem gewählten [[Merkmal]] Stufe 0 - 2, bis zu 5 andere Überlebenderkarten ([survivor]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): 2 Kopien von Zielstrebig, \"Das kreig ich schon selbst hin\", 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11002",
+        "name": "Zielstrebig",
+        "text": "Nur für das Deck von Marion Tavares.\nFalls diese Fertigkeitsprobe beim Spielen einer Ereigniskarte erfolgreich ist, darfst du Zielstrebig auf deine Hand zurückschicken, anstatt Zielstrebig abzulegen.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "11003",
+        "name": "\"Das krieg ich schon selbst hin\"",
+        "text": "<b>Enthüllung -</b> Bringe \"Das krieg ich schon selbst hin\" in deiner Bedrohungszone ins Spiel.\nAls zusätzliche Kosten für dich, um eine Ereigniskarte zu spielen, nimm 1 Horror.\n[free] Lege 3 Ereigniskarten von deiner Hand ab: Lege \"Das krieg ich schon selbst hin\" ab.",
+        "traits": "Makel."
+    },
+    {
+        "code": "11004",
+        "flavor": "\"Ich bin nur froh, dass all meine Träume in meinem Kopf geblieben sind.\"",
+        "name": "Lucius Galloway",
+        "subname": "Der Dichter",
+        "text": "[reaction] Nachdem du einem Gegner erfolgreich um 2 oder mehr entkommen bist: Entdecke 1 Hinweis an deinem Ort. (Nur 1 Mal pro Runde). \n[elder_sign]-Effekt: +1 für jeden Gegner an deinem Ort.",
+        "traits": "Gelehrter. Träumer.",
+        "back_flavor": "Lucius, der aus den Südstaaten stammt und in New York aufgewachsen ist, hat sich mit seinen verträumten Gedichten, die er zusammen mit Intellektuellen, Künstlern und Musikern aus Harlem verfasst hat, einen Namen gemacht. Was seine Zeitgenossen nicht wissen, ist, dass die verschwommene Unterwasserstadt, die Lucius darin beschreibt, nicht von New York inspiriert ist, sondern von den entsetzlichen Träumen seinses vermissten Partners Rudi. Bevor er verschwand, sprach Rudi von einem Geheimbund gleichgesinnter Träumer in Arkham, die diese beunruhigenden Visionen teilten. Jetzt hat Lucius eine Gestdozentenstelle an der Miskatonic Universität angenommen, während er nach seinem verlorenen Geliebten und vielleicht auch nach der Quelle seiner eigenen schrektlichen Träume sucht...",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen:</b> Sucherkarten ([seeker]) Stufe 0 - 5, Schurkenkarten ([rogue]) Stufe 0 - 2, Neutrale Karten Stufe 0 - 5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Gedichtbuch, Träume von der Flut, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11005",
+        "name": "Gedichtbuch",
+        "subname": "Ein gar nicht alltägliches Buch",
+        "text": "Nur für das Deck von Lucius Galloway.\nAnwendungen (1 Inspiration). Fülle diese Inspiration auf, wenn du zum ersten Mal in jeder Runde einen Hinweis entdeckst.\n[reaction] Nachdem bei einer Fertigkeitsprobe ein Chaosmarker enthüllt worden ist, gib 1 Inspiration aus: Du bekommst für diese Probe +1 auf deinen Fertigkeitswert. Falls die Probe um genau 0 gelingt, ziehe 1 Karte.",
+        "traits": "Gegenstand. Buch."
+    },
+    {
+        "code": "11006",
+        "name": "Träume von der Flut",
+        "text": "<b>Enthüllung -</b> Bringe Träume von der Flut in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Wenn du zum ersten Mal in deinem Zug 1 oder mehr Hinweise entdeckst: Nimm 1 Horror und mische Träume von der Flut in dein Deck.",
+        "traits": "Omen. Endzeit."
+    },
+    {
+        "code": "11007",
+        "name": "Agatha Crane",
+        "subname": "Die Parapsychologin",
+        "text": "[reaction] Sobald dein Zug endet und du 1 oder mehr Chaosmarker in dieser Runde versiegelt, aufgehoben oder ignoriert hast: Spiele eine [[Zauber]]- oder [[Erkenntnis]]-Ereigniskarte aus deinem Ablagestapel. Nachdem jene Ereigniskarte abgehandelt worden ist, entferne sie aus dem Spiel.\n[elder_sign]-Effekt: +2. Du darfst diesen Marker aufheben und einen anderen an seiner Stelle ziehen. Falls du dies tust, ziehe 1 Karte.",
+        "traits": "Miskatonic. Gelehrter.",
+        "back_flavor": "Mit Abschlüssen in Mathematik und Psychologie hat Agatha Crane schon immer großen Wert auf evidenzbasierte Wissenschaft gelegt. In ihrer Jugend hat sie sich nicht sonderlich für Geistergeschichten interessiert, aber immer stärker werdende Hinweise haben Agatha zu dem Schluss geführt, dass es eine unmissverständliche Wahrheit hinter den Erzählungen über Monster und Magie gibt, welche die bekannte Historie von Arkham durchdringen. Wenn diese Dinge real sind, dann müssen sie auch einheitlichen Regeln folgen. Wie sie jedem erklärt, der ihr lange genug zuhört - und wie ihr Ehemann Wilbur schon oft gehört hat -, nennt sich dieses neue Forschungsgebiet \"Parapsychologie\". Mit bewährten wissenschaftlichen Methoden versucht Agatha, die Kluft zwischen Mystik und Rationalität, zwischen Okkultismus und Wissenschaft zu überbrücken.",
+        "back_text": "<b>Deckgröße</b>: 35.\n<b>Deckbau-Optionen</b>: Sucherkarten ([seeker]) Stufe 0 - 5, Neutrale Karten Stufe 0 - 5, [[Erkenntnis]]-Ereigniskarten Stufe 0 - 3, bis zu 10 andere Mystikerkarten ([mystic]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Ocula Obscura, Blick in die Leere, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11008",
+        "name": "Agatha Crane",
+        "subname": "Die Parapsychologin",
+        "text": "[reaction] Sobald dein Zug endet und du 1 oder mehr Chaosmarker in dieser Runde versiegelt, aufgehoben oder ignoriert hast: Spiele eine [[Zauber]]- oder [[Erkenntnis]]-Ereigniskarte aus deinem Ablagestapel. Nachdem jene Ereigniskarte abgehandelt worden ist, entferne sie aus dem Spiel.\n[elder_sign]-Effekt: +2. Du darfst diesen Marker aufheben und einen anderen an seiner Stelle ziehen. Falls du dies tust, ziehe 1 Karte.",
+        "traits": "Miskatonic. Gelehrter.",
+        "back_flavor": "Mit Abschlüssen in Mathematik und Psychologie hat Agatha Crane schon immer großen Wert auf evidenzbasierte Wissenschaft gelegt. In ihrer Jugend hat sie sich nicht sonderlich für Geistergeschichten interessiert, aber immer stärker werdende Hinweise haben Agatha zu dem Schluss geführt, dass es eine unmissverständliche Wahrheit hinter den Erzählungen über Monster und Magie gibt, welche die bekannte Historie von Arkham durchdringen. Wenn diese Dinge real sind, dann müssen sie auch einheitlichen Regeln folgen. Wie sie jedem erklärt, der ihr lange genug zuhört - und wie ihr Ehemann Wilbur schon oft gehört hat -, nennt sich dieses neue Forschungsgebiet \"Parapsychologie\". Mit bewährten wissenschaftlichen Methoden versucht Agatha, die Kluft zwischen Mystik und Rationalität, zwischen Okkultismus und Wissenschaft zu überbrücken.",
+        "back_text": "<b>Deckgröße</b>: 35.\n<b>Deckbau-Optionen</b>: Mystikerkarten ([mystic]) Stufe 0 - 5, Neutrale Karten Stufe 0 - 5, [[Zauber]]-Ereigniskarten Stufe 0 - 3, bis zu 10 andere Sucherkarten ([seeker]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Ocula Obscura, Blick in die Leere, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11009",
+        "name": "Ocula Obscura",
+        "subname": "Esoterisches Okular",
+        "text": "Nur für das Deck von Agatha Crane.\n[reaction] Nachdem dir eine Fertigkeitsprobe gelungen ist und falls auf Ocula Obscura keine Marker versiegelt sind: Versiegle 1 Nicht-Symbol-Marker, der bei dieser Probe enthüllt worden ist, auf Ocula Obscura. (Nur 1 Mal pro Phase.)\n<b>Erzwungen -</b> Sobald du einen Marker aus dem Chaosbeutel enthüllen würdest: Handle stattdessen den auf Ocula Obscura versiegelten Marker ab. Dann setze ihn frei.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11010",
+        "name": "Blick in die Leere",
+        "text": "<b>Enthüllung -</b> Bringe Blick in die Leere in deiner Bedrohungszone ins Spiel.\nWenn du bei einer Fertigkeitsprobe zum ersten Mal 1 oder mehr Chaosmarker enthüllst, musst du 1 zusätzlichen Chaosmarker enthüllen <i>(und seinen Effekt abhandeln)</i>.\n[action]: Mische Blick in die Leere in dein Deck.",
+        "traits": "Patzer. Erkenntnis."
+    },
+    {
+        "code": "11011",
+        "flavor": "\"Mir egal, ob es ein Gott ist. Wenn es mir in die Quere kommt, wird es das bereuen.\"",
+        "name": "Michael McGlen",
+        "subname": "Der Gangster",
+        "text": "[reaction] Nachdem du 1 oder mehr Munition von einer [[Feuerwaffe]]-Vorteilskarte ausgegeben hast: Du erhälst 1 Ressource. (Nur 1 Mal pro [[Feuerwaffe]]-Vorteilskarte pro Runde.)\n[elder_sign]-Effekt: +2. Du darfst 1 Munition auf einer [[Feuerwaffe]]-Vorteilskarte platzieren, die du kontrollierst.",
+        "traits": "Krimineller. Jäger.",
+        "back_flavor": "Michael McGlen war ein Mann weniger Worte. Er brauchte nicht viel zu reden, dafür hatte er Fast Louis. Die beiden waren O'Bannions beste Kämpfer und sorgten dafür, dass die Bande in ganz Arkham respektiert wurde ... bis zu der Nacht, in der das Ding im Fluss Louis vom Steg zerrte und ihn unter Wasser in Stücke riss. Michael dachte, seine Bosse würden ihn für verrückt erklären, wenn er ihnen erzählte, was passiert war. Doch es kam viel schlimmer: Sie glaubten ihm jedes Wort und wiesen ihn an, die Sache auf sich beruhen zu lassen. Aber Michael kann den Tod seines Partners und die Dinge, die er in der Nacht gesehen hat, nicht ungestraft lassen. Er ist immer noch ein Mann weniger Worte. Doch jetzt lässt er seine Waffe für sich sprechen.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen:</b> Schurkenkarten ([rogue]) Stufe 0 - 3, Neutrale Karten Stufe 0 - 5, Karten mit [[Feuerwaffe]] als [[Merkmal]] oder im Textfeld Stufe 0 - 5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): \"Bratschen\"-Koffer, Beschlagnahmung, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11012",
+        "name": "\"Bratschen\"-Koffer",
+        "text": "Nur für das Deck von Michael McGlen.\nDu hast 2 zusätzliche Handslots, die nur für [[Feuerwaffe]]-Vorteilskarten verwendet werden können.\n[reaction] Nachdem du \"Bratschen\"-Koffer gespielt hast: Durchsuche die obersten 9 Karten deines Decks nach einer [[Feuerwaffe]]-Vorteilskarte und füge sie deiner Hand hinzu. Mische dein Deck.",
+        "traits": "Gegenstand. Illegal."
+    },
+    {
+        "code": "11013",
+        "flavor": "\"Machen Sie einen ... äh ... Jagdausflug, Mr. McGlen?\"",
+        "name": "Beschlagnahmung",
+        "text": "<b>Enthüllung -</b> Mische jede [[Feuerwaffe]]-Vorteilskarte in deiner Spielzone in dein Deck. Falls durch diesen Effekt keine Vorteilskarte ins Deck gemischt wurde, nimm 1 Schaden und mische Beschlagnahmung in dein Deck zurück.",
+        "traits": "Patzer."
+    },
+    {
+        "code": "11014",
+        "name": "Gloria Goldberg",
+        "subname": "Die Schriftstellerin",
+        "text": "In der Mythosphase wählst du die Ermittlerreihenfolge.\n[reaction] Sobald du dir 1 oder mehr Karten vom Begegnungsdeck ansiehst: Sieh dir 1 zusätzliche Karte an und wähle davon 1 Nicht-[[Elite]]-Karte. Lege die gewählte Karte entweder ab, lege sie oben auf das Begegnungsdeck oder platziere sie verdeckt unter Gloria Goldberg (maximal 3 Karten unter ihr).\n[elder_sign]-Effekt: +1. Sieh dir die oberste Karte des Begegnungsdecks an.",
+        "traits": "Hellsichtig.",
+        "back_flavor": "Als junges Mädchen wurde Gloria von schrecklichen Visionen heimgesucht. Nach jahrelangen Arztbesuchen lernte sie, diese Visionen vorübergehend zu vertreiben, indem sie Geschichten schrieb. Ihre seltsamen und verstörenden Erzählungen sprachen die Öffentlichkeit an und machten sie bald zur Bestsellerautorin. Doch als sie Arkham besuchte, hatte sie so eine starke Vision, wie sie es bislang noch nicht erlebt hatte. Der Himmel riss auf und eine monströse Gestalt quoll daraus hervor. Gloria wusste irgendwie, dass diese Vision Wirklichkeit werden würde, wenn sie nichts dagegen unternahm.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Wahl der Sekundärklasse</b>: Wähle beim Deckbau Wächter ([guardian]), Sucher ([seeker]) oder Schurke ([rogue]).\n<b>Deckbau-Optionen:</b> Mystikerkarten ([mystic]) Stufe 0 - 5, Neutrale Karten Stufe 0 - 5, bis zu 10 Ereignis- und/oder Fertigkeitskarten Stufe 0 - 1 deiner gewählten Sekundärklasse.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): 3 Kopien von Psychische Sensibilität, 3 Kopien von Prophezeiung vom Ende (ins Begegnungsdeck gemischt), 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "11015",
+        "name": "Psychische Sensibilität",
+        "text": "Nur für das Deck von Gloria Goldberg.\nSchnell. Spiele diese Karte, sobald ein Ermittler an einem beliebigen Ort eine Begegnungskarte zieht und falls sich eine Kopie jener Begegnungskarte unter Gloria Goldberg befindet.\nHebe alle Effekte jener Karte auf und lege beide Kopien ab. Ziehe dann 1 Karte.",
+        "traits": "Weissagung. Erkenntnis."
+    },
+    {
+        "code": "11016",
+        "name": "Prophezeiung vom Ende",
+        "text": "Nachrüsten.\n<b>Erzwungen -</b> Falls Gloria Goldberg ihre [reaction]-Fähigkeit verwendet und sich diese Verratskarte unter den angesehenen Karten befindet, muss sie gewählt und verdeckt unter Gloria platziert werden (falls du das nicht kannst, lege zuerst eine Nicht-Schwäche-Karte unter Gloria ab). Falls sich dann 3 Kopien von dieser Karte unter ihr befinden, wird sie besiegt und erleidet ein seelisches Trauma.",
+        "traits": "Omen. Endzeit."
+    },
     {
         "code": "11017",
         "name": "George Barnaby",
-        "subname": "The Lawyer",
-        "text": "Your max hand size is equal to the number of facedown cards beneath George Barnaby. (Limit 5 cards.)\nYou may commit facedown cards beneath George Barnaby to skill tests as if they were in your hand.\n[reaction] After you discard a card from your hand: Place it facedown beneath George Barnaby, then draw 1 card. (Limit once per phase.)\n[elder_sign] effect: +1. Draw 1 card.",
-        "traits": "Civic. Drifter.",
-        "back_flavor": "After spending a month in jail at the age of 19, George Barnaby felt compelled to become a lawyer. He found great success and notoriety in his career, and as retirement approached he made plans to sail around the world with his wife Maria. On the eve of his retirement, however, his home was attacked and Maria was murdered by cultists. Now, with a lifetime of wealth and contacts at his back, George has tracked the culprits to the city of Arkham, vowing to bring them to justice for their hideous crimes.",
-        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other level 0 Seeker and/or Rogue cards ([seeker]/[rogue]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Grim Resolve, Cast Adrift, 1 random basic weakness.\n<b>Additional Setup</b>: After drawing your opening hand, you may place any number of cards in your hand facedown beneath George Barnaby."
+        "subname": "Der Rechtsanwalt",
+        "text": "Dein Handkartenlimit entspricht der Anzahl der verdeckten Karten unter George Barnaby. (Max. 5 Karten.)\nDu darfst Karten, die sich verdeckt unter George Barnaby befinden, zu Fertigkeitsproben beitragen, als ob sie sich auf deiner Hand befänden.\n[reaction] Nachdem du eine Karte von deiner Hand abgelegt hast: Platziere sie verdeckt unter George Barnaby und ziehe dann 1 Karte. (Nur 1 Mal pro Phase.)\n[elder_sign]-Effekt: +1. Ziehe 1 Karte.",
+        "traits": "Staatsdiener. Herumtreiber.",
+        "back_flavor": "Nachdem er im Alter von 19 Jahren einen Monat im Gefängnis verbringen musste, beschloss George Barnaby, Anwalt zu werden. Er war in seinem Beruf sehr erfolgreich und erlangte große Bekanntheit. Als er sich dem Ruhestand näherte, schmiedete er Pläne, mit seiner Frau Maria um die Welt zu segeln. Doch am Vorabend seines Ruhestandes drangen Kultisten in sein Haus ein und ermordeten Maria. Mithilfe seines Reichtums und der Kontakte, die er während seiner Karriere aufgebaut hatte, konnte George die Schuldigen bis nach Arkham verfolgen. Nun hat er sich geschworen, die Täter für ihre abscheulichen Verbrechen zur Rechenschaft zu ziehen.",
+        "back_text": "<b>Deckgröße</b>: 35.\n<b>Deckbau-Optionen</b>: Überlebenderkarten ([survivor]) Stufe 0 - 5, Neutrale Karten Stufe 0 - 5, bis zu 10 andere Sucher- und/oder Schurkenkarten ([seeker] und/oder [rogue]) Stufe 0.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): 3 Kopien von Grimmige Entschlossenheit, Auf dem Meer treiben, 1 zufällige Grundschwäche.\n<b>Zusätzliche Vorbereitung</b>: Nachdem du deine Starthand gezogen hast, darfst du beliebig viele Karten von deiner Hand verdeckt unter George Barnaby platzieren."
     },
     {
         "code": "11018",
-        "name": "Grim Resolve",
-        "text": "George Barnaby deck only.\nAfter this skill test resolves, you may swap any number of cards beneath George Barnaby with the same number of non-weakness cards in your hand.",
-        "traits": "Innate. Developed."
+        "name": "Grimmige Entschlossenheit",
+        "text": "Nur für das Deck von George Barnaby.\nNachdem diese Fertigkeitsprobe abgehandelt worden ist, darfst du beliebig viele Karten unter George Barnaby gegen dieselbe Anzahl Nicht-Schwäche-Karten auf deiner Hand austauschen.",
+        "traits": "Angeboren. Entwickelt."
     },
     {
         "code": "11019",
-        "name": "Cast Adrift",
-        "text": "<b>Revelation</b> - If there are no cards beneath George Barnaby, shuffle Cast Adrift into your deck. Otherwise, discard each card beneath George Barnaby.",
-        "traits": "Hardship."
+        "name": "Auf dem Meer treiben",
+        "text": "<b>Enthüllung -</b> Falls sich keine Karten unter George Barnaby befinden, mische Auf dem Meer treiben in dein Deck. Ansonsten lege jede Karte unter George Barnaby ab.",
+        "traits": "Notlage."
+    },
+    {
+        "code": "11020",
+        "flavor": "\"Wer kämpfen will, muss zuerst die Kosten kennen\"",
+        "name": "Die Kunst des Krieges",
+        "subname": "Sun Tzus Vermächtnis",
+        "text": "Anwendungen (3 Geheimnisse).\n[reaction] Nachdem du eine [[Taktik]]-Ereigniskarte gespielt hast, gib 1 Geheimnis aus und erschöpfe Die Kunst des Krieges: Sobald dein Zug endet, schicke jene Ereigniskarte auf deine Hand zurück.",
+        "traits": "Gegenstand. Buch.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11021",
+        "name": "Brechstange",
+        "text": "[action] Erschöpfe Brechstange: <b>Ermitteln.</b> Diese Ermittlung verwendet [combat] statt [intellect].\n[action] Erschöpfe Brechstange: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat].",
+        "traits": "Gegenstand. Waffe. Werkzeug. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11022",
+        "name": "Remington Model 1858",
+        "text": "Anwendungen (2 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Agriff +1 [combat]. Dieser Angriff fügt +1 Schaden zu.\n[reaction] Sobald Remington Model 1858 das Spiel verlässt: Löse sofort die oberste [action]-Fähigkeit aus, wobei du alle Kosten ignorierst.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11023",
+        "name": "Bereit zum Handeln",
+        "text": "Spiele diese Karte nur als deine erste Aktion.\nSpiele eine [[Feuerwaffe]]-Vorteilskarte von deiner Hand und senke dabei ihre Kosten um 2. Dann darfst du eine [[Verbesserung]]-Ereigniskarte von deiner Hand spielen und falls möglich an jene Vorteilskarte anhängen.",
+        "traits": "Taktik. Kühn."
+    },
+    {
+        "code": "11024",
+        "name": "Zu allem bereit",
+        "text": "Spiele diese Karte nur als deine erste Aktion.\nZiehe 1 Karte (stattdessen 2 Karten, falls du in dieser Runde einen Gegner gezogen hast). Heile dann 1 Horror. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Geist. Kühn."
+    },
+    {
+        "code": "11025",
+        "flavor": "\"Wenn ich rüberkomme, wirst du zwei Geräusche hören: wie ich dich treffe - einaml links und einmal rechts.\"",
+        "name": "Hartgesotten",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen. Hartgesotten erhält [combat][wild] für jeden erfolgreichen Angriff, den du in dieser Runde durchgeführt hast.",
+        "traits": "Angeboren."
+    },
+     {
+        "code": "11026",
+        "name": "Zeichen des Jägers",
+        "text": "Schnell. Hänge diese Karte an einen Gegner an diesem Ort an. Nur 1 pro Gegner.\nErmittler bekommen +1 [combat], solange sie gegen diesen Gegner kämpfen.\n[reaction] Sobald dem Gegner mit dieser Verstärkung Schaden zugefügt wird, lege Zeichen des Jägers ab: Füge jenem Gegner 1 zusätzlichen Schaden zu. Ein beliebiger Ermittler darf diese Fähigkeit auslösen.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "11027",
+        "name": "Alice Luxley",
+        "subname": "Furchtloser Bulle",
+        "text": "Du bekommst +1 [intellect].\nDie erste Ermitteln-Aktion, die du in jedem Zug durchführst, provoziert keine Gelegenheitsangriffe.\n[reaction] Nachdem du einen Hinweis entdeckt hast, erschöpfe Alice Luxley: Füge einem Gegner an deinem Ort 1 Schaden zu.\n<b>Kartenentwurf inspiriert durch das Council in Exile 2022.</b>",
+        "traits": "Verbündeter. Detective. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11028",
+        "name": "Bollwerk",
+        "text": "Nur 1 pro Ermittler. Versiegeln ([elder_sign] oder +1). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du einen Gegner besiegt hast.\n[reaction] Sobald ein Gegner einen Ermittler an diesem Ort angreifen würde, erschöpfe Bollwerk und setze 1 darauf versiegelten Marker frei: Hebe jenen Angriff auf. Mache eine andere Vorteilskarte, die du kontrollierst, spielbereit.",
+        "traits": "Ritual.", 
+        "slot": "Arkan"
+    },
+    {
+        "code": "11029",
+        "flavor": "\"Klar, Anderson ist ein harter Hund. Immer schließt er den Rum ein und weckt uns im Morgengrauen. Aber hier, mitten im Nichts, ist er defenitiv derjenige, der die Führung übernehmen sollte.\"",
+        "name": "Inspirierende Präsenz",
+        "text": "Falls diese Fertigkeitsprobe gelingt, mache eine [[Verbündeter]]-Vorteilskarte an deinem Ort spielbereit und heile 1 Schaden sowie 1 Horror von ihr.",
+        "traits": "Angeboren. Entwickelt."
+    },
+    {
+        "code": "11030",
+        "flavor": "\"Auf Millimeter kommt's nicht an, Kugeln töten dich einfach.\"",
+        "name": "Geladen und entsichert",
+        "text": "Dauerhaft. Nur 1 pro Deck.\nDeine [[Feuerwaffe]]-Vorteilskarten mit \"Anwendungen (Munition)\" kommen mit 1 zusätzlichen Munition darauf ins Spiel.",
+        "traits": "Zustand."
+    },
+    {
+        "code": "11031",
+        "flavor": "Sie nannten Schwester Sofia \"die Hand Gottes\", und das aus gutem Grund",
+        "name": "Schnellschuss",
+        "text": "Unzählig. Schnell. Spiele diese Karte nur in deinem Zug.\nFüge einem Gegner an deinem Ort 1 Schaden zu.\n[reaction] Nachdem du Schnellschuss in deinem Zug gezogen hast: Spiele diese Karte und senke dabei ihre Ressourcenkosten um 2.",
+        "traits": "Geist."
+    },
+    {
+        "code": "11032",
+        "name": "Remington Model 1858",
+        "text": "Anwendungen (3 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat]. Dieser Angriff fügt +1 Schaden zu.\n[reaction] Sobald Remington Model 1858 ins Spiel kommt oder das Spiel verlässt: Löse sofort die obere [action]-Fähigkeit aus, wobei du alle Kosten ignorierst.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11033",
+        "name": "Alton O'Connell",
+        "subname": "Geisterjäger",
+        "text": "Du bekommst +1 [agility].\n[reaction] Nachdem dir eine Fertigkeitsprobe um genau 3 gelungen ist: Platziere 1 Ressource als Beweis auf Alton O'Connell.\n[free] Erschöpfe Alton O'Connell und gib X Beweise aus: Entdecke 1 Hinweis an deinem Ort. X ist der Schleierwert deines Ortes.",
+        "traits": "Verbündeter. Detective. Reporter.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11034",
+        "name": "Künstlerische Inspiration",
+        "text": "Nur 1 pro Ermittler. Anwendungen (1 Inspiration).\n[free] Erschöpfe Künstlerische Inspiration und lege 1 Karte von deiner Hand ab: Fülle 1 Inspiration auf dieser Karte.\n[reaction] Nachdem du für eine Fertigkeitsprobe, die du durchführst, Chaosmarker enthüllt hast, gib 1 Inspiration aus: Du bekommst für diese Probe +1 oder -1 auf dienen Fertigkeitswert.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11035",
+        "name": "Scheibe der Uralten",
+        "subname": "Nicht identifiziert",
+        "text": "Nur 1 pro Deck. Anwendungen (0 Ladungen).\n[reaction] Nachdem einem Gegner an deinem Ort entkommen worden ist: Platziere 1 Ladung auf Scheibe der Uralten. Falls sich dann 4 oder mehr Ladungen auf Scheibe der Uralten befinden, notieren in deinem Kampagnenlogbuch, dass \"du den Tag der Abrechnung ermittelt hast\".",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11036",
+        "name": "Forensik-Koffer",
+        "text": "Anwendungen (4 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Ermitteln.</b> Für diese Ermittlung darfst du deinen [agility]-Wert statt deines [intellect]-Wertes verwenden und bekommst +1 auf deinen Fertigkeitswert. Falls die Probe gelingt und sich ein erschöpfter Gegner an deinem Ort befindet, heile 1 Horror.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11037",
+        "name": "Mörser und Stößel",
+        "text": "Anwendungen (0 Ressourcen).\nRessourcen auf Mörser und Stößel dürfen ausgegeben werden, um für [[Zauber]]-Karten zu bezahlen.\n[reaction] Nachdem du 1 oder mehr Hinweise entdeckt hast, erschöpfe Mörser und Stößel: Platziere 1 Ressource darauf <i>(aus dem Markervorrat)</i>.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft."
+    },
+    {
+        "code": "11038",
+        "name": "Oculus Mortuum",
+        "text": "Anwendungen (0 Beweise).\n[reaction] Nachdem du einen Chaosmarker versiegelt, aufgehoben oder ignoriert hast, erschöpfe Oculus Mortuum: Platziere 1 Beweis darauf.\n[reaction] Sobald ein Gegner einen Ermittler angreift, gibt 1 Beweis aus und erschöpfe Oculus Mortuum: Entdecke 1 Hinweis an deinem Ort. Falls jener Gegner das Merkmal [[Spuk]] hat, füge ihm 1 Schaden zu.",
+        "traits": "Gegenstand. Werkzeug. Okkult.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11039",
+        "name": "Unheimliches Exemplar",
+        "text": "Unzählig. Schnell.\nBis zu 3 \"Unheimliches Exemplar\"-Karten benötigen 1 arkanen Slot.\n[reaction] Sobald während einer Fertigkeitsprobe an deinem Ort ein [skull]-, [cultist]-, [tablet]- oder [elder_thing]-Symbol enthüllt wird, lege Unheimliches Exemplar ab: Hebe jenen Chaosmarker auf, schicke ihn in den Chaosbeutel zurück, und enthülle einen neuen Marker. Falls die Probe gelingt, ziehe 1 Karte.",
+        "traits": "Kreatur. Wissenschaft.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11040",
+        "name": "Alle Inhalte in Relation setzen",
+        "text": "<b>Ermitteln.</b> Du darfst den ersten Chaosmarker, den du für diese Fertigkeitsprobe enthüllst, aufheben, in den Chaosmarker zurückschicken und einen neuen Marker ziehen. Falls die Probe gelingt, platziere 1 Ladung oder 1 Geheimnis auf einer Vorteilskarte, die von einem Ermittler an deinem Ort kontrolliert wird (falls die Probe um genau 1 oder 3 gelingt, platziere stattdessen 2 Ladungen oder 2 Geheimnisse auf jener Vorteilskarte).",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "11041",
+        "name": "Kosmische Enthüllung",
+        "text": "Wähle \"gerade\" oder \"ungerade\".\nJeder Ermittler enthüllt jede Nicht-Schwäche-Karte von seiner Hand, deren Kosten zur gewählten Option passen. In Spielerreihenfolge darf jeder Ermittler wählen, ob er 1 Karte von seinem Deck zieht oder 1 seiner enthüllten Karten von der Hand spielt <i>(und ihre Kosten zahlt)</i>.",
+        "traits": "Erkenntnis. Zauber."
+    },
+    {
+        "code": "11042",
+        "name": "Reaktionsschnell",
+        "text": "Unzählig.\nReaktionsschnell erhält [intellect][agility] für jede andere Kopie von Reaktionsschnell in deinem Ablegenstapel.\nNachdem diese Fertigkeitsprobe beendet worden ist, darfst du jede andere Kopie von Reaktionsschnell in deinem Ablagestapel in dein Deck mischen.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "11043",
+        "name": "Irreführung",
+        "text": "Nur 1 pro Ermittler. Versiegeln (+1 oder 0). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du den letzen Hinweis an deinem Ort entdeckt hast.\n[reaction] Sobald ein Gegner einen Ermittler an deinem Ort angreift, erschöpfe Irreführung und setze 1 darauf versiegelten Marker frei: Hebe jenen Angriff auf. Dann darf sich jener Ermittler an einen verbundenen Ort bewegen.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11044",
+        "name": "Wissenschaftliches Stipendium",
+        "text": "Nur 1 pro Ermittler.\nDu hast 2 zusätzliche Handslots, die nur für [[Wissenschaft]]- und/oder [[Werkzeug]]-Vorteilskarten verwendet werden können.",
+        "traits": "Zuschuss."
+    },
+    {
+        "code": "11045",
+        "name": "Einer Ahnung folgen",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nEntdecke 1 Hinweis an einem beliebigen enthüllten Ort.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "11046",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen des Kataklysmus",
+        "text": "Erforscht. Nur 1 pro Deck. Anwendungen (4 Ladungen).\n[reaction] Sobald einem Ermittler an deinem Ort eine Fertigkeitsprobe misslingt, erschöpfe Scheibe der Uralten: Versiegle 1 Chaosmarker, der während jener Probe enthüllt worden ist, auf Scheibe der Uralten.\n<b>Erzwungen -</b> Sobald die Runde endet: Für jeden hier versiegelten Chaosmarker musst du 1 Ladung ausgeben oder jenen Chaosmarker freisetzen.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11047",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen einer Anomalie",
+        "text": "Erforscht. Nur 1 pro Deck. Anwendungen (4 Ladungen).\n[action]: <b>Kampf</b>/<b>Entkommen</b>. Sobald du während eines Angriffs oder Entkommen-Versuchs einen Chaosmarker enthüllst, darfst du 1 Ladung ausgeben, um jenen Marker aufzuheben, ihn in den Chaosbeutel zurückzuschicken und einen neuen Marker zu ziehen. Du darfst dies beliebig oft machen. Falls die Probe gelingt, füge dem Ziel-Gegner 1 Schaden zu.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11048",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen der Offenbarung",
+        "text": "Erforscht. Nur pro 1 Deck. Anwendungen (4 Ladungen).\n[free] Erschöpfe in deinem Zug Scheibe der Uralten und gib 1 Ladung aus: <b>Ermitteln.</b> Sobald Chaosmarker für diese Probe enthüllt werden, enthülle X zusätzliche Marker, wobei X die Anzahl der Gegner an deinem Ort ist. Wähle 1 der enthüllten Marker, um ihn abzuhandeln, und ignoriere die restlichen.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11049",
+        "name": "Antikythera",
+        "subname": "Prophetischer Zeitmesser",
+        "text": "[reaction] Nachdem dir eine Fertigkeitsprobe gelungen ist, erschöpfe Antikythera: Falls dir die Probe um genau ...\n... 1 oder 3 gelungen ist, entdecke 1 Hinweis an deinem Ort.\n... 2 oder 4 gelungen ist, ziehe 1 Karte und erhalte 1 Ressource.\n... 5 gelungen ist, darfst du in deinem nächsten Zeug eine zusätzliche Aktion nehmen.",
+        "traits": "Gegenstand. Relikt. Wissenschaft.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Anwendungen (2 Munition).\n[free] Erschöpfe Luger P08 und gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat].\n[action] Gib 1 Ressource aus: Fülle sämtliche Munition auf Luger P08 auf und mache die Karte spielbereit.",
+        "traits": "Gegenstand. Waffe. Feuerwafe. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Hält dir den Rücken frei",
+        "text": "Du bekommst +1 [combat].\n[action] Lege eine [[Feuerwaffe]]-Vorteilskarte, die 1 oder weniger Handslots benötigt, von deiner Hand ab und erschöpfe Robert Castaigne: Handle eine <b>Kampft</b>-Fähigkeit auf der abgelegten Vorteilskarte ab, wobei du alle Kosten ignorierst. Dies provoziert keine Gelegenheitsangriffe.",
+        "traits": "Verbündeter. Veteran.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11052",
+        "name": "An der Nase herumführen",
+        "text": "[reaction] Sobald du versuchst, einem Gegner zu entkommen, erschöpfe An der Nase herumführen: Für diesen Entkommen-Versuch bekommst du +1 auf deinen Fertigkeitswert und jener Gegner erhält Alarmiert. Falls die Probe gelingt, ziehe 1 Karte und löse dich nicht von jenem Gegner.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11053",
+        "name": "\"Wo geht's zur Party?\"",
+        "text": "<b>Verhandlung.</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach einem Nicht-[[Elite]]-Gegner, der erschöpft und mit dir in einen Kampf verwickelt erscheint. Ziehe Karten in Höhe der Anzahl der zusammengezählten Schadens- und Horrorwerte jenes Gegners.",
+        "traits": "Trick. Improvisiert."
+    },
+    {
+        "code": "11054",
+        "name": "\"Dich hat's schon schlimmer erwischt...\"",
+        "text": "Schnell. Spiele diese Karte, sobald einem Ermittler an deinem Ort oder an einem verbundenen Ort Schaden/Horror zugefügt wird.\nJener Ermittler darf bis zu 3 Ressourcen ausgeben. Für jede ausgegebene Ressource hebt jener Ermittler 1 Schaden oder 1 Horror auf.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "11055",
+        "name": "Rausschmiss",
+        "text": "<b>Entkommen.</b> Füge für diesen Entkommen-Versuch deinen [combat]-Wert deinem Fertigkeitswert hinzu. Falls die Probe um 2 oder mehr gelingt, füge jenem Gegner 1 Schaden zu. Falls jener Gegner Nicht-[[Elite]] ist, darfst du dich an einen verbundenen Ort bewegen.",
+        "traits": "Taktik. Trick."
+    },
+    {
+        "code": "11056",
+        "flavor": "\"Du hast dir die falsche Gegend audgesucht, Kleiner.\"",
+        "name": "Einschüchterung",
+        "text": "<b>Verhandlung.</b> Wähle einen Gegner an deinem Ort und lege eine [combat]-Probe (X) ab, wobei X die verbliebene Ausdauer des gewählten Gegners ist. Falls die Probe gelingt, mische jenen Gegner in das Begegnungsdeck (oder füge ihm stattdessen 2 Schaden zu, falls er [[Elite]] ist).",
+        "traits": "Taktik."
+    },
+    {
+        "code": "11057",
+        "name": "Treffsicher",
+        "text": "Trage diese Karte nur einer Fertigkeitsprobe von einer auf einer [[Feuerwaffe]]- oder [[Fernkampf]]-Fertigkeitskarte aufgedruckten Fähigkeit bei, die du kontrollierst.",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "11058",
+        "name": "Ebenbild",
+        "text": "Unzählig. Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an deinen Ort an. Nur 1 pro Ort.\n[reaction] Nachdem ein Gegner den Ort mit dieser Verstärkung betreten oder verlassen hat, schicke Ebenbild auf deine Hand zurück: Führe entweder einen Entkommen-Versuch gegen jenen Gegner durch oder bewege dich sofort an jenen Ort <i>(du darfst diese Fähigkeit an einem beliebigen Ort auslösen)</i>.",
+        "traits": "Zauber. Trick."
+    },
+    {
+        "code": "11059",
+        "name": "Verbindungen zur Mafia",
+        "text": "Außergewöhnlich.\n[action] Gib 2 Ressourcen aus: Ziehe die Karte, die an Verbindungen zur Mafia angehängt ist.\n[reaction] Sobald eine [[Illegal]]-Vorteilskarte, die du kontrollierst, aus dem Spiel abgelegt wird, erschöpfe Verbindungen zur Mafia: Hänge jene Vorteilskarte verdeckt an diese Karte an. (Nur 1 angehängte Vorteilskarte.)",
+        "traits": "Verbindung. Illegal."
+    },
+    {
+        "code": "11060",
+        "name": "Obskur",
+        "text": "Nur 1 pro Ermittler.\nVersiegeln (0). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du einen Ort enthüllt oder einen neuen Ort ins Spiel gebracht hast.\n[reaction] Sobald du einen Gegner in einen Kampf verwickelst, erschöpfe Obskur und setze 1 darauf versiegelten Marker frei: Führe sofort eine <b>Kampf</b>- oder <b>Entkommen</b>-Aktion gegen jenen Gegner durch. Dein Grundfertigkeitswert für diese Probe entspricht dem Schleierwert deines Ortes.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11061",
+        "flavor": "Du bist und bleibst ein Angeber.",
+        "name": "\"Guck mal!\"",
+        "text": "Trage diese Karte nur zu einer Fertigkeitsprobe bei, die du durchführst. Als zusätzliche Kosten, um \"Guck mal!\" zu einer Fertigkeitsprobe beizutragen, gib bis zu 3 Ressourcen aus.\nFalls die Probe um 1 oder mehr gelingt, erhälst du doppelt so viele Ressourcen.",
+        "traits": "Schachzug."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Hält dir immer noch den Rücken frei",
+        "text": "Du bekommst +1 [combat].\n[free] Erschöpfe Robert Castaigne: <b>Kampf.</b> Enthülle eine [[Feuerwaffe]]-Vorteilskarte, die 1 oder weniger Handslots benötigt, von deiner Hand. Handle eine <b>Kampf</b>-Fähigkeit auf der enthüllten Vorteilskarte ab, wobei du alle Kosten ignorierst. Dann darfst du die enthüllte Vorteilskarte entweder ablegen, um 1 Karte zu ziehen oder sie spielen (zahle ihre Kosten).",
+        "traits": "Verbündeter. Veteran.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11063",
+        "name": "\"Dich hat's schon schlimmer erwischt...\"",
+        "text": "Schnell. Spiele diese Karte, sobald einem Ermittler an deinem Ort oder an einem verbundenen Ort Schaden/Horror zugefügt wird.\nJener Ermittler darf dir bis zu 5 Ressourcen geben. Für jede dir durch diesen Effekt gegebene Ressource hebt jener Ermittler 1 Schaden oder 1 Horror auf.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "11064",
+        "name": "Gatling-Geschütz",
+        "text": "Anwendungen (12 Munition).\n[action] Gib 1-6 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +X[combat]. Die Schwierigkeit für diesen Angriff entspricht dem zusammengezählten Kampfwert aller Gegner an deinem Ort. Statt seines normalen Schadens fügt dieser Angriff X Schaden zu, den du unter Gegnern an deinem Ort nach Wahl aufteilst. X ist die Anzahl an Munition, die du als Teil der Kosten dieser Fähigkeit ausgegeben hast.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe. Illegal.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "11126",
+        "name": "Am Ende und pleite",
+        "text": "<b>Enthüllung -</b> Bringe Am Ende und pleite in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Sobald dein Zug endet, falls du in dieser Runde weder eine Aktion Karte ziehen noch Ressource nehmen durchgeführt hast: Nimm 1 Horror und mische Am Ende und pleite in dein Deck zurück.\n[action] Gib entweder 3 Ressourcen aus oder wähle 3 Karten von deiner Hand und lege sie ab: Lege diese Karte ab.",
+        "traits": "Notlage."
+    },
+    {
+        "code": "11127",
+        "name": "Morbide Neugier",
+        "text": "<b>Enthüllung -</b> Bringe Morbide Neugier in dieser Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Sobald dein Zug endet, falls du in dieser Runde nicht erfolgreich ermittelt hast: Nimm 1 Horror und mische Morbide Neugier in dein Deck zurück.\n[action]: <b>Ermitteln.</b> Du bekommst für diese Ermittlung -2 auf deinen Fertigkeitswert. Falls die Probe gelingt, lege diese Karte ab.",
+        "traits": "Makel."
+    },
+    {
+        "code": "11128",
+        "name": "Störender Poltergeist",
+        "text": "<b>Enthüllung -</b> Bringe Störender Poltergeist in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Sobald dein Zug endet, falls du in dieser Runde nicht erfolgreich einem Gegner entkommen bist: Nimm 1 Schaden und mische Störender Poltergeist in dein Deck zurück.\n[action]: <b>Entkommen.</b> Du bekommst für diesen Entkommensversuch –2 auf deinen Fertigkeitswert. Falls die Probe gelingt, lege diese Karte ab.",
+        "traits": "Fluch."
+    },
+    {
+        "code": "11129",
+        "name": "Rasend",
+        "text": "<b>Enthüllung -</b> Bringe Rasend in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Sobald dein Zug endet, falls du in dieser Runde nicht erfolgreich einen Gegner angegriffen hast: Nimm 1 Schaden und mische Rasend in dein Deck zurück.\n[action]: <b>Kampf.</b> Du bekommst für diesen Angriff –2 auf deinen Fertigkeitswert. Falls die Probe gelingt, lege diese Karte ab.",
+        "traits": "Wahnsinn."
     }
 ]
