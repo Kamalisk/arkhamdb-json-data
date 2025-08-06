@@ -37,7 +37,6 @@
         "flavor": "Unfortunately, the entrance to the Museum is kept locked at this late hour. A security guard is visible through the building’s front windows, oblivious to his surroundings. Perhaps you can find a way to get his attention and convince him to let you in.",
         "name": "들어갈 방법을 찾아서",
         "back_name": "입구로 들어서다",
-        "back_flavor": "Unfortunately, the entrance to the Museum is kept locked at this late hour. A security guard is visible through the building’s front windows, oblivious to his surroundings. Perhaps you can find a way to get his attention and convince him to let you in.",
         "back_text": "<b>If you spent clues to advance:\n</b><blockquote><i>You find the window nearest to the guard and tap it loud enough to get his attention. He gives a startled jump, then shifts open the window. “What do you want?” he asks timidly. You explain the situation to him and tell him he is in grave danger. He warily opens the front door to the Museum, shaking his head. “I wasn’t even supposed to be here today...”</i></blockquote>Choose an investigator to take control of the set-aside Adam Lynch asset. Reveal the Museum Halls. Advance to Act 2a - \"Night at the Museum.\"\n<hr><b>If you successfully performed the [action] ability on the Museum Halls to advance:\n</b><blockquote><i>With great strength, you break down the door to the Museum, making considerable noise as you do. The security guard sees you enter, cries out in fear, and rushes toward the back of the museum.</i></blockquote>The door leading into the Museum Halls is broken. Reveal the Museum Halls. Advance to Act 2a - \"Breaking and Entering.\""
     },
     {
@@ -62,7 +61,7 @@
         "code": "02125",
         "flavor": "Somewhere in this area is Olaus Wormius’s Latin translation of the Necronomicon. You must find it and escape while you can!",
         "name": "네크로노미콘을 찾아서",
-        "text": "<b>Objective</b> - If there are no clues remaining in the Exhibit Hall , advance.",
+        "text": "<b>Objective</b> - If there are no clues remaining in the Exhibit Hall <i>(Restricted Hall)</i>, advance.",
         "back_name": "네크로노미콘",
         "back_flavor": "At last, you find the locked case containing the Necronomicon.\nThe tome, over eight hundred pages in length, is filled with all manner of macabre imagery, formulae, spells, prophecies, and descriptions of creatures from beyond the threshold of space.\nWithout a doubt, it is a dangerous book... But its secrets could be very useful.",
         "back_text": "The investigators must decide (choose one):\n- It's too dangerous to keep around. We must destroy it. <b>(→R1)</b>\n- It's too valuable to destroy. We must keep it safe.<b>(→R2)</b>"
@@ -71,7 +70,7 @@
         "code": "02126",
         "flavor": "As you approach the museum, you draw your coat tighter around your body to keep the wintry air away. The full moon drapes the building in ominous bright moonlight.",
         "name": "박물관 입구",
-        "text": "Investigators at the Museum Entrance cannot gain resources.\n[action] <b>Resign</b>. \"Eh. How important can a book really be, anyway?\"",
+        "text": "Investigators at the Museum Entrance cannot gain resources.\n[action] <b>Resign.</b> \"Eh. How important can a book really be, anyway?\"",
         "traits": "미스캐토닉.",
         "back_flavor": "The Miskatonic Museum is an opulent and stately building, supported by expeditions funded by the university. Its sizable collection of exotic artifacts, curios, and art has drawn visitors from all over the country."
     },
@@ -206,7 +205,7 @@
     },
     {
         "code": "02143",
-        "flavor": "...viperine creatures, which had curiously distorted heads, and grotesquely great clawed appendages...\n–H.P. Lovecraft & August Derleth, The Lurker at the Threshold",
+        "flavor": "...viperine creatures, which had curiously distorted heads, and grotesquely great clawed appendages...\n-H.P. Lovecraft & August Derleth, The Lurker at the Threshold",
         "name": "어둠 속의 배회자",
         "text": "<b>Revelation</b> - If Hunting Horror is in play, it readies, engages you, and attacks each investigator at your location. Otherwise, Stalked in the Dark gains surge.",
         "traits": "전술."
@@ -214,7 +213,7 @@
     {
         "code": "02144",
         "name": "장막 너머로 가는 길",
-        "text": "<b>Revelation</b> - Test [willpower] (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your <i><b>Ally</b></i> assets.",
+        "text": "<b>Revelation</b> - Test [willpower] (3). This test has +2 difficulty if Hunting Horror is at your location. If you fail you must either (choose one): discard the top 5 cards of your deck, or take 1 direct damage and deal 1 damage to each of your [[Ally]] assets.",
         "traits": "권능."
     },
     {
