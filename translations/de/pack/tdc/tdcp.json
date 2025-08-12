@@ -142,6 +142,314 @@
         "traits": "Notlage."
     },
     {
+        "code": "11020",
+        "flavor": "\"Wer kämpfen will, muss zuerst die Kosten kennen\"",
+        "name": "Die Kunst des Krieges",
+        "subname": "Sun Tzus Vermächtnis",
+        "text": "Anwendungen (3 Geheimnisse).\n[reaction] Nachdem du eine [[Taktik]]-Ereigniskarte gespielt hast, gib 1 Geheimnis aus und erschöpfe Die Kunst des Krieges: Sobald dein Zug endet, schicke jene Ereigniskarte auf deine Hand zurück.",
+        "traits": "Gegenstand. Buch.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11021",
+        "name": "Brechstange",
+        "text": "[action] Erschöpfe Brechstange: <b>Ermitteln.</b> Diese Ermittlung verwendet [combat] statt [intellect].\n[action] Erschöpfe Brechstange: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat].",
+        "traits": "Gegenstand. Waffe. Werkzeug. Nahkampf.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11022",
+        "name": "Remington Model 1858",
+        "text": "Anwendungen (2 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Agriff +1 [combat]. Dieser Angriff fügt +1 Schaden zu.\n[reaction] Sobald Remington Model 1858 das Spiel verlässt: Löse sofort die oberste [action]-Fähigkeit aus, wobei du alle Kosten ignorierst.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11023",
+        "name": "Bereit zum Handeln",
+        "text": "Spiele diese Karte nur als deine erste Aktion.\nSpiele eine [[Feuerwaffe]]-Vorteilskarte von deiner Hand und senke dabei ihre Kosten um 2. Dann darfst du eine [[Verbesserung]]-Ereigniskarte von deiner Hand spielen und falls möglich an jene Vorteilskarte anhängen.",
+        "traits": "Taktik. Kühn."
+    },
+    {
+        "code": "11024",
+        "name": "Zu allem bereit",
+        "text": "Spiele diese Karte nur als deine erste Aktion.\nZiehe 1 Karte (stattdessen 2 Karten, falls du in dieser Runde einen Gegner gezogen hast). Heile dann 1 Horror. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Geist. Kühn."
+    },
+    {
+        "code": "11025",
+        "flavor": "\"Wenn ich rüberkomme, wirst du zwei Geräusche hören: wie ich dich treffe - einaml links und einmal rechts.\"",
+        "name": "Hartgesotten",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen. Hartgesotten erhält [combat][wild] für jeden erfolgreichen Angriff, den du in dieser Runde durchgeführt hast.",
+        "traits": "Angeboren."
+    },
+     {
+        "code": "11026",
+        "name": "Zeichen des Jägers",
+        "text": "Schnell. Hänge diese Karte an einen Gegner an diesem Ort an. Nur 1 pro Gegner.\nErmittler bekommen +1 [combat], solange sie gegen diesen Gegner kämpfen.\n[reaction] Sobald dem Gegner mit dieser Verstärkung Schaden zugefügt wird, lege Zeichen des Jägers ab: Füge jenem Gegner 1 zusätzlichen Schaden zu. Ein beliebiger Ermittler darf diese Fähigkeit auslösen.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "11027",
+        "name": "Alice Luxley",
+        "subname": "Furchtloser Bulle",
+        "text": "Du bekommst +1 [intellect].\nDie erste Ermitteln-Aktion, die du in jedem Zug durchführst, provoziert keine Gelegenheitsangriffe.\n[reaction] Nachdem du einen Hinweis entdeckt hast, erschöpfe Alice Luxley: Füge einem Gegner an deinem Ort 1 Schaden zu.\n<b>Kartenentwurf inspiriert durch das Council in Exile 2022.</b>",
+        "traits": "Verbündeter. Detective. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11028",
+        "name": "Bollwerk",
+        "text": "Nur 1 pro Ermittler. Versiegeln ([elder_sign] oder +1). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du einen Gegner besiegt hast.\n[reaction] Sobald ein Gegner einen Ermittler an diesem Ort angreifen würde, erschöpfe Bollwerk und setze 1 darauf versiegelten Marker frei: Hebe jenen Angriff auf. Mache eine andere Vorteilskarte, die du kontrollierst, spielbereit.",
+        "traits": "Ritual.", 
+        "slot": "Arkan"
+    },
+    {
+        "code": "11029",
+        "flavor": "\"Klar, Anderson ist ein harter Hund. Immer schließt er den Rum ein und weckt uns im Morgengrauen. Aber hier, mitten im Nichts, ist er defenitiv derjenige, der die Führung übernehmen sollte.\"",
+        "name": "Inspirierende Präsenz",
+        "text": "Falls diese Fertigkeitsprobe gelingt, mache eine [[Verbündeter]]-Vorteilskarte an deinem Ort spielbereit und heile 1 Schaden sowie 1 Horror von ihr.",
+        "traits": "Angeboren. Entwickelt."
+    },
+    {
+        "code": "11030",
+        "flavor": "\"Auf Millimeter kommt's nicht an, Kugeln töten dich einfach.\"",
+        "name": "Geladen und entsichert",
+        "text": "Dauerhaft. Nur 1 pro Deck.\nDeine [[Feuerwaffe]]-Vorteilskarten mit \"Anwendungen (Munition)\" kommen mit 1 zusätzlichen Munition darauf ins Spiel.",
+        "traits": "Zustand."
+    },
+    {
+        "code": "11031",
+        "flavor": "Sie nannten Schwester Sofia \"die Hand Gottes\", und das aus gutem Grund",
+        "name": "Schnellschuss",
+        "text": "Unzählig. Schnell. Spiele diese Karte nur in deinem Zug.\nFüge einem Gegner an deinem Ort 1 Schaden zu.\n[reaction] Nachdem du Schnellschuss in deinem Zug gezogen hast: Spiele diese Karte und senke dabei ihre Ressourcenkosten um 2.",
+        "traits": "Geist."
+    },
+    {
+        "code": "11032",
+        "name": "Remington Model 1858",
+        "text": "Anwendungen (3 Munition).\n[action] Gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +2 [combat]. Dieser Angriff fügt +1 Schaden zu.\n[reaction] Sobald Remington Model 1858 ins Spiel kommt oder das Spiel verlässt: Löse sofort die obere [action]-Fähigkeit aus, wobei du alle Kosten ignorierst.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11033",
+        "name": "Alton O'Connell",
+        "subname": "Geisterjäger",
+        "text": "Du bekommst +1 [agility].\n[reaction] Nachdem dir eine Fertigkeitsprobe um genau 3 gelungen ist: Platziere 1 Ressource als Beweis auf Alton O'Connell.\n[free] Erschöpfe Alton O'Connell und gib X Beweise aus: Entdecke 1 Hinweis an deinem Ort. X ist der Schleierwert deines Ortes.",
+        "traits": "Verbündeter. Detective. Reporter.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11034",
+        "name": "Künstlerische Inspiration",
+        "text": "Nur 1 pro Ermittler. Anwendungen (1 Inspiration).\n[free] Erschöpfe Künstlerische Inspiration und lege 1 Karte von deiner Hand ab: Fülle 1 Inspiration auf dieser Karte.\n[reaction] Nachdem du für eine Fertigkeitsprobe, die du durchführst, Chaosmarker enthüllt hast, gib 1 Inspiration aus: Du bekommst für diese Probe +1 oder -1 auf dienen Fertigkeitswert.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11035",
+        "name": "Scheibe der Uralten",
+        "subname": "Nicht identifiziert",
+        "text": "Nur 1 pro Deck. Anwendungen (0 Ladungen).\n[reaction] Nachdem einem Gegner an deinem Ort entkommen worden ist: Platziere 1 Ladung auf Scheibe der Uralten. Falls sich dann 4 oder mehr Ladungen auf Scheibe der Uralten befinden, notieren in deinem Kampagnenlogbuch, dass \"du den Tag der Abrechnung ermittelt hast\".",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11036",
+        "name": "Forensik-Koffer",
+        "text": "Anwendungen (4 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Ermitteln.</b> Für diese Ermittlung darfst du deinen [agility]-Wert statt deines [intellect]-Wertes verwenden und bekommst +1 auf deinen Fertigkeitswert. Falls die Probe gelingt und sich ein erschöpfter Gegner an deinem Ort befindet, heile 1 Horror.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11037",
+        "name": "Mörser und Stößel",
+        "text": "Anwendungen (0 Ressourcen).\nRessourcen auf Mörser und Stößel dürfen ausgegeben werden, um für [[Zauber]]-Karten zu bezahlen.\n[reaction] Nachdem du 1 oder mehr Hinweise entdeckt hast, erschöpfe Mörser und Stößel: Platziere 1 Ressource darauf <i>(aus dem Markervorrat)</i>.",
+        "traits": "Gegenstand. Werkzeug. Wissenschaft."
+    },
+    {
+        "code": "11038",
+        "name": "Oculus Mortuum",
+        "text": "Anwendungen (0 Beweise).\n[reaction] Nachdem du einen Chaosmarker versiegelt, aufgehoben oder ignoriert hast, erschöpfe Oculus Mortuum: Platziere 1 Beweis darauf.\n[reaction] Sobald ein Gegner einen Ermittler angreift, gibt 1 Beweis aus und erschöpfe Oculus Mortuum: Entdecke 1 Hinweis an deinem Ort. Falls jener Gegner das Merkmal [[Spuk]] hat, füge ihm 1 Schaden zu.",
+        "traits": "Gegenstand. Werkzeug. Okkult.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11039",
+        "name": "Unheimliches Exemplar",
+        "text": "Unzählig. Schnell.\nBis zu 3 \"Unheimliches Exemplar\"-Karten benötigen 1 arkanen Slot.\n[reaction] Sobald während einer Fertigkeitsprobe an deinem Ort ein [skull]-, [cultist]-, [tablet]- oder [elder_thing]-Symbol enthüllt wird, lege Unheimliches Exemplar ab: Hebe jenen Chaosmarker auf, schicke ihn in den Chaosbeutel zurück, und enthülle einen neuen Marker. Falls die Probe gelingt, ziehe 1 Karte.",
+        "traits": "Kreatur. Wissenschaft.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11040",
+        "name": "Alle Inhalte in Relation setzen",
+        "text": "<b>Ermitteln.</b> Du darfst den ersten Chaosmarker, den du für diese Fertigkeitsprobe enthüllst, aufheben, in den Chaosmarker zurückschicken und einen neuen Marker ziehen. Falls die Probe gelingt, platziere 1 Ladung oder 1 Geheimnis auf einer Vorteilskarte, die von einem Ermittler an deinem Ort kontrolliert wird (falls die Probe um genau 1 oder 3 gelingt, platziere stattdessen 2 Ladungen oder 2 Geheimnisse auf jener Vorteilskarte).",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "11041",
+        "name": "Kosmische Enthüllung",
+        "text": "Wähle \"gerade\" oder \"ungerade\".\nJeder Ermittler enthüllt jede Nicht-Schwäche-Karte von seiner Hand, deren Kosten zur gewählten Option passen. In Spielerreihenfolge darf jeder Ermittler wählen, ob er 1 Karte von seinem Deck zieht oder 1 seiner enthüllten Karten von der Hand spielt <i>(und ihre Kosten zahlt)</i>.",
+        "traits": "Erkenntnis. Zauber."
+    },
+    {
+        "code": "11042",
+        "name": "Reaktionsschnell",
+        "text": "Unzählig.\nReaktionsschnell erhält [intellect][agility] für jede andere Kopie von Reaktionsschnell in deinem Ablegenstapel.\nNachdem diese Fertigkeitsprobe beendet worden ist, darfst du jede andere Kopie von Reaktionsschnell in deinem Ablagestapel in dein Deck mischen.",
+        "traits": "Angeboren."
+    },
+    {
+        "code": "11043",
+        "name": "Irreführung",
+        "text": "Nur 1 pro Ermittler. Versiegeln (+1 oder 0). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du den letzen Hinweis an deinem Ort entdeckt hast.\n[reaction] Sobald ein Gegner einen Ermittler an deinem Ort angreift, erschöpfe Irreführung und setze 1 darauf versiegelten Marker frei: Hebe jenen Angriff auf. Dann darf sich jener Ermittler an einen verbundenen Ort bewegen.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11044",
+        "name": "Wissenschaftliches Stipendium",
+        "text": "Nur 1 pro Ermittler.\nDu hast 2 zusätzliche Handslots, die nur für [[Wissenschaft]]- und/oder [[Werkzeug]]-Vorteilskarten verwendet werden können.",
+        "traits": "Zuschuss."
+    },
+    {
+        "code": "11045",
+        "name": "Einer Ahnung folgen",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nEntdecke 1 Hinweis an einem beliebigen enthüllten Ort.",
+        "traits": "Erkenntnis."
+    },
+    {
+        "code": "11046",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen des Kataklysmus",
+        "text": "Erforscht. Nur 1 pro Deck. Anwendungen (4 Ladungen).\n[reaction] Sobald einem Ermittler an deinem Ort eine Fertigkeitsprobe misslingt, erschöpfe Scheibe der Uralten: Versiegle 1 Chaosmarker, der während jener Probe enthüllt worden ist, auf Scheibe der Uralten.\n<b>Erzwungen -</b> Sobald die Runde endet: Für jeden hier versiegelten Chaosmarker musst du 1 Ladung ausgeben oder jenen Chaosmarker freisetzen.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11047",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen einer Anomalie",
+        "text": "Erforscht. Nur 1 pro Deck. Anwendungen (4 Ladungen).\n[action]: <b>Kampf</b>/<b>Entkommen</b>. Sobald du während eines Angriffs oder Entkommen-Versuchs einen Chaosmarker enthüllst, darfst du 1 Ladung ausgeben, um jenen Marker aufzuheben, ihn in den Chaosbeutel zurückzuschicken und einen neuen Marker zu ziehen. Du darfst dies beliebig oft machen. Falls die Probe gelingt, füge dem Ziel-Gegner 1 Schaden zu.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11048",
+        "name": "Scheibe der Uralten",
+        "subname": "Zeichen der Offenbarung",
+        "text": "Erforscht. Nur pro 1 Deck. Anwendungen (4 Ladungen).\n[free] Erschöpfe in deinem Zug Scheibe der Uralten und gib 1 Ladung aus: <b>Ermitteln.</b> Sobald Chaosmarker für diese Probe enthüllt werden, enthülle X zusätzliche Marker, wobei X die Anzahl der Gegner an deinem Ort ist. Wähle 1 der enthüllten Marker, um ihn abzuhandeln, und ignoriere die restlichen.",
+        "traits": "Gegenstand. Relikt. Verflucht.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11049",
+        "name": "Antikythera",
+        "subname": "Prophetischer Zeitmesser",
+        "text": "[reaction] Nachdem dir eine Fertigkeitsprobe gelungen ist, erschöpfe Antikythera: Falls dir die Probe um genau ...\n... 1 oder 3 gelungen ist, entdecke 1 Hinweis an deinem Ort.\n... 2 oder 4 gelungen ist, ziehe 1 Karte und erhalte 1 Ressource.\n... 5 gelungen ist, darfst du in deinem nächsten Zeug eine zusätzliche Aktion nehmen.",
+        "traits": "Gegenstand. Relikt. Wissenschaft.",
+        "slot": "Zubehör"
+    },
+    {
+        "code": "11050",
+        "name": "Luger P08",
+        "text": "Anwendungen (2 Munition).\n[free] Erschöpfe Luger P08 und gib 1 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +1 [combat].\n[action] Gib 1 Ressource aus: Fülle sämtliche Munition auf Luger P08 auf und mache die Karte spielbereit.",
+        "traits": "Gegenstand. Waffe. Feuerwafe. Illegal.",
+        "slot": "Hand"
+    },
+    {
+        "code": "11051",
+        "name": "Robert Castaigne",
+        "subname": "Hält dir den Rücken frei",
+        "text": "Du bekommst +1 [combat].\n[action] Lege eine [[Feuerwaffe]]-Vorteilskarte, die 1 oder weniger Handslots benötigt, von deiner Hand ab und erschöpfe Robert Castaigne: Handle eine <b>Kampft</b>-Fähigkeit auf der abgelegten Vorteilskarte ab, wobei du alle Kosten ignorierst. Dies provoziert keine Gelegenheitsangriffe.",
+        "traits": "Verbündeter. Veteran.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11052",
+        "name": "An der Nase herumführen",
+        "text": "[reaction] Sobald du versuchst, einem Gegner zu entkommen, erschöpfe An der Nase herumführen: Für diesen Entkommen-Versuch bekommst du +1 auf deinen Fertigkeitswert und jener Gegner erhält Alarmiert. Falls die Probe gelingt, ziehe 1 Karte und löse dich nicht von jenem Gegner.",
+        "traits": "Talent."
+    },
+    {
+        "code": "11053",
+        "name": "\"Wo geht's zur Party?\"",
+        "text": "<b>Verhandlung.</b> Durchsuche das Begegnungsdeck und den Ablagestapel nach einem Nicht-[[Elite]]-Gegner, der erschöpft und mit dir in einen Kampf verwickelt erscheint. Ziehe Karten in Höhe der Anzahl der zusammengezählten Schadens- und Horrorwerte jenes Gegners.",
+        "traits": "Trick. Improvisiert."
+    },
+    {
+        "code": "11054",
+        "name": "\"Dich hat's schon schlimmer erwischt...\"",
+        "text": "Schnell. Spiele diese Karte, sobald einem Ermittler an deinem Ort oder an einem verbundenen Ort Schaden/Horror zugefügt wird.\nJener Ermittler darf bis zu 3 Ressourcen ausgeben. Für jede ausgegebene Ressource hebt jener Ermittler 1 Schaden oder 1 Horror auf.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "11055",
+        "name": "Rausschmiss",
+        "text": "<b>Entkommen.</b> Füge für diesen Entkommen-Versuch deinen [combat]-Wert deinem Fertigkeitswert hinzu. Falls die Probe um 2 oder mehr gelingt, füge jenem Gegner 1 Schaden zu. Falls jener Gegner Nicht-[[Elite]] ist, darfst du dich an einen verbundenen Ort bewegen.",
+        "traits": "Taktik. Trick."
+    },
+    {
+        "code": "11056",
+        "flavor": "\"Du hast dir die falsche Gegend audgesucht, Kleiner.\"",
+        "name": "Einschüchterung",
+        "text": "<b>Verhandlung.</b> Wähle einen Gegner an deinem Ort und lege eine [combat]-Probe (X) ab, wobei X die verbliebene Ausdauer des gewählten Gegners ist. Falls die Probe gelingt, mische jenen Gegner in das Begegnungsdeck (oder füge ihm stattdessen 2 Schaden zu, falls er [[Elite]] ist).",
+        "traits": "Taktik."
+    },
+    {
+        "code": "11057",
+        "name": "Treffsicher",
+        "text": "Trage diese Karte nur einer Fertigkeitsprobe von einer auf einer [[Feuerwaffe]]- oder [[Fernkampf]]-Fertigkeitskarte aufgedruckten Fähigkeit bei, die du kontrollierst.",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "11058",
+        "name": "Ebenbild",
+        "text": "Unzählig. Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an deinen Ort an. Nur 1 pro Ort.\n[reaction] Nachdem ein Gegner den Ort mit dieser Verstärkung betreten oder verlassen hat, schicke Ebenbild auf deine Hand zurück: Führe entweder einen Entkommen-Versuch gegen jenen Gegner durch oder bewege dich sofort an jenen Ort <i>(du darfst diese Fähigkeit an einem beliebigen Ort auslösen)</i>.",
+        "traits": "Zauber. Trick."
+    },
+    {
+        "code": "11059",
+        "name": "Verbindungen zur Mafia",
+        "text": "Außergewöhnlich.\n[action] Gib 2 Ressourcen aus: Ziehe die Karte, die an Verbindungen zur Mafia angehängt ist.\n[reaction] Sobald eine [[Illegal]]-Vorteilskarte, die du kontrollierst, aus dem Spiel abgelegt wird, erschöpfe Verbindungen zur Mafia: Hänge jene Vorteilskarte verdeckt an diese Karte an. (Nur 1 angehängte Vorteilskarte.)",
+        "traits": "Verbindung. Illegal."
+    },
+    {
+        "code": "11060",
+        "name": "Obskur",
+        "text": "Nur 1 pro Ermittler.\nVersiegeln (0). Du darfst dieses Schlüsselwort erneut abhandeln, nachdem du einen Ort enthüllt oder einen neuen Ort ins Spiel gebracht hast.\n[reaction] Sobald du einen Gegner in einen Kampf verwickelst, erschöpfe Obskur und setze 1 darauf versiegelten Marker frei: Führe sofort eine <b>Kampf</b>- oder <b>Entkommen</b>-Aktion gegen jenen Gegner durch. Dein Grundfertigkeitswert für diese Probe entspricht dem Schleierwert deines Ortes.",
+        "traits": "Ritual.",
+        "slot": "Arkan"
+    },
+    {
+        "code": "11061",
+        "flavor": "Du bist und bleibst ein Angeber.",
+        "name": "\"Guck mal!\"",
+        "text": "Trage diese Karte nur zu einer Fertigkeitsprobe bei, die du durchführst. Als zusätzliche Kosten, um \"Guck mal!\" zu einer Fertigkeitsprobe beizutragen, gib bis zu 3 Ressourcen aus.\nFalls die Probe um 1 oder mehr gelingt, erhälst du doppelt so viele Ressourcen.",
+        "traits": "Schachzug."
+    },
+    {
+        "code": "11062",
+        "name": "Robert Castaigne",
+        "subname": "Hält dir immer noch den Rücken frei",
+        "text": "Du bekommst +1 [combat].\n[free] Erschöpfe Robert Castaigne: <b>Kampf.</b> Enthülle eine [[Feuerwaffe]]-Vorteilskarte, die 1 oder weniger Handslots benötigt, von deiner Hand. Handle eine <b>Kampf</b>-Fähigkeit auf der enthüllten Vorteilskarte ab, wobei du alle Kosten ignorierst. Dann darfst du die enthüllte Vorteilskarte entweder ablegen, um 1 Karte zu ziehen oder sie spielen (zahle ihre Kosten).",
+        "traits": "Verbündeter. Veteran.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "11063",
+        "name": "\"Dich hat's schon schlimmer erwischt...\"",
+        "text": "Schnell. Spiele diese Karte, sobald einem Ermittler an deinem Ort oder an einem verbundenen Ort Schaden/Horror zugefügt wird.\nJener Ermittler darf dir bis zu 5 Ressourcen geben. Für jede dir durch diesen Effekt gegebene Ressource hebt jener Ermittler 1 Schaden oder 1 Horror auf.",
+        "traits": "Gefallen."
+    },
+    {
+        "code": "11064",
+        "name": "Gatling-Geschütz",
+        "text": "Anwendungen (12 Munition).\n[action] Gib 1-6 Munition aus: <b>Kampf.</b> Du bekommst für diesen Angriff +X[combat]. Die Schwierigkeit für diesen Angriff entspricht dem zusammengezählten Kampfwert aller Gegner an deinem Ort. Statt seines normalen Schadens fügt dieser Angriff X Schaden zu, den du unter Gegnern an deinem Ort nach Wahl aufteilst. X ist die Anzahl an Munition, die du als Teil der Kosten dieser Fähigkeit ausgegeben hast.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe. Illegal.",
+        "slot": "Hand x2"
+    },
+    {
         "code": "11126",
         "name": "Am Ende und pleite",
         "text": "<b>Enthüllung -</b> Bringe Am Ende und pleite in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen -</b> Sobald dein Zug endet, falls du in dieser Runde weder eine Aktion Karte ziehen noch Ressource nehmen durchgeführt hast: Nimm 1 Horror und mische Am Ende und pleite in dein Deck zurück.\n[action] Gib entweder 3 Ressourcen aus oder wähle 3 Karten von deiner Hand und lege sie ab: Lege diese Karte ab.",
