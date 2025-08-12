@@ -85,14 +85,14 @@
     {
         "code": "54027",
         "name": "와인 저장고",
-        "text": "[action]: You disturb the tranquility of this quiet place in search of evidence. Discard cards from the top of the encounter deck until a [[Monster]] enemy is discarded. Set that enemy aside, out of play. Then gain 2 clues <i>(from the token pool)</i>. (Group limit once per game.)",
+        "text": "Victorian Halls is connected to Wine Cellar.\n[action]: You disturb the tranquility of this quiet place in search of evidence. Discard cards from the top of the encounter deck until a [[Monster]] enemy is discarded. Set that enemy aside, out of play. Then gain 2 clues <i>(from the token pool)</i>. (Group limit once per game.)",
         "back_flavor": "A long, darkened stairway leads down into Josef Meiger's cellar. If you're careful, maybe you can take a gander at what he keeps down there...",
         "back_text": "Victorian Halls is connected to Wine Cellar."
     },
     {
         "code": "54028",
         "name": "와인 저장고",
-        "text": "[reaction] After you successfully investigate the Wine Cellar: Either discover 1 additional clue, or remove 1 doom from a [[Silver Twilight]] enemy in play.\n<b>Haunted</b> - You must either place 1 doom on a [[Silver Twilight]] enemy in play, or take 1 direct horror.",
+        "text": "Victorian Halls is connected to Wine Cellar.\n[reaction] After you successfully investigate the Wine Cellar: Either discover 1 additional clue, or remove 1 doom from a [[Silver Twilight]] enemy in play.\n<b>Haunted</b> - You must either place 1 doom on a [[Silver Twilight]] enemy in play, or take 1 direct horror.",
         "traits": "혼령계.",
         "back_flavor": "The stench of blood and decaying wood emanates from behind the door at the bottom of the dark, dank staircase.",
         "back_text": "Victorian Halls is connected to Wine Cellar."
@@ -198,7 +198,7 @@
     {
         "code": "54040",
         "name": "마녀풀",
-        "text": "Peril.\n<b>Revelation</b> - If Witchweed is drawn...\n- ...from the standard encounter deck, shuffle it into the spectral encounter deck.\n- ...from the spectral encounter deck, trigger each haunted ability on your location twice. Otherwise, place it in the spectral encounter discard pile.",
+        "text": "Peril.\n<b>Revelation</b> - If Witchweed is drawn...\n- ...from the standard encounter deck, shuffle it into the spectral encounter deck.\n- ...from the spectral encounter deck, trigger each haunted ability on your location twice. You may give Witchweed surge to place it in the standard encounter discard pile. Otherwise, place it in the spectral encounter discard pile.",
         "traits": "저주."
     },
     {
@@ -219,7 +219,7 @@
         "code": "54043",
         "flavor": "The lounge is warm, cozy, and surprisingly empty. There's got to be something else here...right?",
         "name": "휴게실",
-        "text": "<b>Forced</b> - After the Lounge is revealed: Put the set-aside Vault and Library locations into play.\n[action] Investigators at the Lounge spend 1 [per_investigator] clues, as a group: Put the set-aside Hudden Passageway location into play.",
+        "text": "<b>Forced</b> - After the Lounge is revealed: Put the set-aside Vault and Library locations into play.\n[action] Investigators at the Lounge spend 1 [per_investigator] clues, as a group: Put the set-aside Hidden Passageway location into play.",
         "traits": "집회소.",
         "back_flavor": "As you approach the staircase leading to the second floor of the mansion, you smell burning candle wax. It is quiet enough that you can hear the gentle crinkling of a page being turned."
     },
@@ -313,7 +313,7 @@
         "code": "54056",
         "name": "돌아온 검은 옥좌 앞에",
         "text": "Perform the setup as indicated in <i>The Circle Undone</i> Campaign Guide, with the following exceptions:\n- When gathering encounter sets, also gather the new encounter sets for <i>Return to Before the Black Throne</i> shown here.\n<b>(Continued on reverse side.)</b>",
-        "back_text": "- When building the act deck, replace the original version of act 3 with the new version included in this encounter set. Remove the original version from the game.\n- When building the Cosmos, include the 3 new Cosmos locations included in the <i>Return to Before the Black Throne</i> encounter set.\nWhen the game begins, the investigators may remove 2 resources from the scenario reference card to have each investigator begin the game with a Nightgaunt Steed story asset in play. Remove each remaining Nightgaunt Steed from the game."
+        "back_text": "- When building the act deck, replace the original version of act 3 with the new version included in this encounter set. Remove the original version from the game.\n- When building the Cosmos, include the 3 new Cosmos locations included in the <i>Return to Before the Black Throne</i> encounter set.\n- When the game begins, the investigators may remove 2 resources from the scenario reference card to have each investigator begin the game with a Nightgaunt Steed story asset in play. Remove each remaining Nightgaunt Steed from the game."
     },
     {
         "code": "54057",
@@ -343,7 +343,7 @@
     {
         "code": "54060",
         "name": "구불구불한 구렁",
-        "text": "<b>Cosmos</b> - Connect to the leftmost revealed location in a direction of your choice. Then, You may choose not to move to Winding Gulf and instead place 1 doom on Azathoth.\n<b>Haunted</b> - Take 1 damage and 1 horror.",
+        "text": "<b>Cosmos</b> - Connect to the leftmost revealed location in a direction of your choice. You may choose not to move to Winding Gulf and instead place 1 doom on Azathoth.\n<b>Haunted</b> - Take 1 damage and 1 horror.",
         "traits": "다른 세계. 공허.",
         "back_name": "우주",
         "back_flavor": "The stars danced mockingly, almost shifting now and then to form pale signs of doom that one might wonder one had not seen and feared before; and ever the winds of aether howled of vague blackness and loneliness beyond the cosmos.\n- H. P. Lovecraft, <u>The Dream-Quest of Unknown Kadath</u>"
@@ -351,7 +351,7 @@
     {
         "code": "54061",
         "name": "고분고분한 나이트건트",
-        "text": "While you control Nightgaunt Steed, you may enter empty space as if it were a location.\nAfter you enter empty space, Nightgaunt Steed takes 1 direct damage.\n<b>Forced</b> - If Nightgaunt Steed leaves play, remove it from the game and move to the nearest revealed location.",
+        "text": "While you control Nightgaunt Steed, you may enter empty space as if it were a location.\n<b>Forced</b> - After you enter empty space, Nightgaunt Steed takes 1 direct damage.\n<b>Forced</b> - If Nightgaunt Steed leaves play, remove it from the game and move to the nearest revealed location.",
         "traits": "괴물. 나이트건트."
     },
     {
@@ -435,7 +435,7 @@
     {
         "code": "54075",
         "name": "피에 주린 영혼",
-        "text": "<b>Revelation</b> - Put Bloodthirsty Spirits into play in your threat area.\nWhile your location is haunted, as an additional cost for you to commit 1 or more cards to a skill test, you must resolve each haunted ability on your location.\nAt the end of your turn: Test [willpower] (3). If you succeed, discard Bloodthirsty Spirits.",
+        "text": "<b>Revelation</b> - Put Bloodthirsty Spirits into play in your threat area.\nWhile your location is haunted, as an additional cost for you to commit 1 or more cards to a skill test, you must resolve each haunted ability on your location.\n<b>Forced</b> - At the end of your turn: Test [willpower] (3). If you succeed, discard Bloodthirsty Spirits.",
         "traits": "두려움. 혼령계."
     }
 ]
