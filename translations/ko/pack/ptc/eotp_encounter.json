@@ -2,14 +2,14 @@
     {
         "code": "03120",
         "name": "과거로부터의 메아리",
-        "text": "쉬움 / 보통\n[skull]: -X. X는 플레이 상태인 적 중에서, 파멸이 가장 많이 놓인 적의 파멸 개수입니다.\n[cultist]: -2. 실패하면, 가장 가까운 적에게 파멸을 1개 올려놓습니다.\n[tablet]: -2. 실피해면, 당신의 손에서 무작위로 카드를 1장 버립니다.\n[elder_thing]: -2. 실패했고 당신이 위치한 장소에 적이 있다면, 공포를 1 받습니다.",
+        "text": "쉬움 / 보통\n[skull]: -X. X는 플레이 상태인 적 중에서, 파멸이 가장 많이 놓인 적의 파멸 개수입니다.\n[cultist]: -2. 실패하면, 가장 가까운 적에게 파멸을 1개 올려놓습니다.\n[tablet]: -2. 실패하면, 당신의 손에서 무작위로 카드를 1장 버립니다.\n[elder_thing]: -2. 실패했고 당신이 위치한 장소에 적이 있다면, 공포를 1 받습니다.",
         "back_text": "<b> 어려움 / 전문가 </b>\n[skull]: -X. X는 플레이 상태인 모든 적에 놓인 파멸 개수의 총합입니다.\n[cultist]: -4. 가장 가까운 적에게 파멸을 1개 올려놓습니다.\n[tablet]: -4. 당신의 손에서 무작위로 카드를 1장 버립니다.\n[elder_thing]: -4. 당신이 위치한 장소에 적이 있다면, 공포를 1 받습니다."
     },
     {
         "code": "03121",
         "flavor": "Surprisingly, the front doors of the Historical Society’s Georgian manor are cracked halfway open when you arrive. Who else could be here at this hour?",
         "name": "진실은 숨겨져 있다",
-        "text": "Do not add doom to this agenda during the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
         "back_name": "음험한 의식",
         "back_flavor": "A phrase in a language you cannot describe whispers through the building, and without warning all of the electric lights shatter at once. You light a nearby candle and continue your search.\nThe building is quite different once plunged into darkness. Shadows and silhouettes dance along the walls. Crevices you hadn't noticed before draw your wary eye. What other secrets does this building hold?",
         "back_text": "Shuffle the encounter discard pile into the encounter deck."
@@ -18,7 +18,7 @@
         "code": "03122",
         "flavor": "Though the whispering has ceased, the sounds of rummaging and furniture shifting is unmistakable. Whoever is here, they’re searching just as thoroughly as you are...",
         "name": "샅샅이 뒤지다",
-        "text": "Do not add doom to this agenda during the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
         "back_name": "맹세를 깨트리다",
         "back_flavor": "The front door of the manor opens, letting in a howl of chill wind and the pitter-patter of soft rain, then it suddenly slams shut. You find a place to hide and eavesdrop, wondering who else might have entered the building this late. \"No, I swear, I swear I don't know where the door is!\" A man cries out. \"You'll have to find the Path on your own, I cannot help you!\" He sounds panicked and disorientated.\n\"You spoke the Oath,\" a man's voice responds. \"You spoke His name.\" The man stammers. \"No! No, I cannot! I will not!\" Then, his voice becomes distorted, and he speaks no more. You hear footsteps on the staircase - heavy and wet.",
         "back_text": "Spawn the set-aside Possessed Oathspeaker enemy at the Entry Hall.\nCheck Campaign Log. If Sebastien Moreau is not listed under \"VIPs Slain,\" search the collection for Sebastien Moreau <i>(Savage Hysteria)</i> and spawn him in the Entry Hall."
@@ -27,7 +27,7 @@
         "code": "03123",
         "flavor": "Whoever these people are, they must be involved with the conspiracy behind <i>The King in Yellow</i>. You can’t let them find whatever it is they’re looking for!",
         "name": "밝혀지지 않는 편이 나을 비밀",
-        "text": "Do not add doom to this agenda during the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
+        "text": "Skip the 'Place 1 doom on the current agenda' step of the Mythos phase.\n<b>Forced</b> - After 1 or more clues are placed on an enemy in play: Flip those clues to their doom side.",
         "back_name": "나아갈 길",
         "back_flavor": "There is a rush of footsteps along the manor's central stairway, and the front door opens once more. \"Have you found it?\" A muffled voice asks.\n\"Yes. We can embark immediately. The Path <i>will</i> be opened.\"\nThe door closes, and the manor returns to being quiet and lonely. For the remainder of your search, you find no further traces of the mysterious robed figures, nor do you find any information to answer your many questions about <i>The King in Yellow</i>...",
         "back_text": "<b>(→R4)</b>."
@@ -90,7 +90,7 @@
         "flavor": "Most of the objects on display here are from the early 18th century, spanning Arkham's colonization and early history.",
         "name": "아컴 사학회",
         "subname": "역사 전시실",
-        "text": "While investigating this location, your [intellect] cannot be modified.",
+        "text": "While investigating this location, your [intellect] cannot be increased.",
         "traits": "1층.",
         "back_flavor": "An unadorned wooden door leads to one of the ground floor rooms used by the Historical Society.",
         "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
@@ -108,7 +108,7 @@
         "flavor": "Most of the objects on display here are from the early 18th century, spanning Arkham's colonization and early history.",
         "name": "아컴 사학회",
         "subname": "역사 전시실",
-        "text": "While investigating this location, your [intellect] cannot be modified.",
+        "text": "While investigating this location, your [intellect] cannot be increased.",
         "traits": "2층.",
         "back_flavor": "An unadorned wooden door leads to one of the second floor rooms used by the Historical Society.",
         "back_text": "<b>Forced</b> - When an enemy spawns at this location: Reveal this location."
