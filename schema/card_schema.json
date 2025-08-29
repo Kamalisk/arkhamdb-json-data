@@ -2,7 +2,7 @@
     "additionalProperties": true,
     "properties": {
         "alternate_of": {
-            "description": "Code of the card that the card is an alternate of. Used for parallel investigators.",
+            "description": "Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
             "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
@@ -51,18 +51,31 @@
             "type": "string"
         },
         "clues": {
-            "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types. null means `-`, -2 means `X`.",
+            "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
-                },
-                {
-                    "type": "null"
                 }
             ]
         },
@@ -76,18 +89,31 @@
             "type": "string"
         },
         "cost": {
-            "description": "Resource cost of the card. Required for assets and events. null means `-`, -2 means `X`.",
+            "description": "Resource cost of the card. Required for assets and events. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
-                },
-                {
-                    "type": "null"
                 }
             ]
         },
@@ -134,14 +160,31 @@
             "type": "integer"
         },
         "doom": {
-            "description": "Number of doom on an agenda. null means `-`. Required to be present for agendas.",
+            "description": "Number of doom on an agenda. Required to be present for agendas. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
-                    "minimum": 0,
-                    "type": "integer"
+                    "description": "?",
+                    "type": "integer",
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
                     "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
+                    "type": "integer",
+                    "minimum": 0
                 }
             ]
         },
@@ -175,34 +218,60 @@
             "type": "integer"
         },
         "enemy_evade": {
-            "description": "Enemy's evade value. null means `-`, -2 means `X`.",
+            "description": "Enemy's evade value. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
-                },
-                {
-                    "type": "null"
                 }
             ]
         },
         "enemy_fight": {
-            "description": "Enemy's fight value. null means `-`, -2 means `X`.",
+            "description": "Enemy's fight value. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
-                },
-                {
-                    "type": "null"
                 }
             ]
         },
@@ -240,18 +309,31 @@
             "type": "string"
         },
         "health": {
-            "description": "Number of health on any card that has health. null means `-`, -2 means `X`.",
+            "description": "Number of health on any card that has health.",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
                     "type": "integer",
-                    "minimum": 1
+                    "const": -3
                 },
                 {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
                     "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
+                    "type": "integer",
+                    "minimum": 0
                 }
             ]
         },
@@ -307,34 +389,60 @@
             "type": "string"
         },
         "sanity": {
-            "description": "Number of sanity on any card that has sanity. null means `-`, -2 means `X`.",
+            "description": "Number of sanity on any card that has sanity. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
                     "type": "integer",
-                    "minimum": 1
+                    "const": -3
                 },
                 {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
                     "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
+                    "type": "integer",
+                    "minimum": 0
                 }
             ]
         },
         "shroud": {
-            "description": "Shroud value of a location. Required to be present for location-like cards. null means `-`, -2 means `X`.",
+            "description": "Shroud value of a location. Required to be present for location-like cards. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
-                },
-                {
-                    "type": "null"
                 }
             ]
         },
@@ -348,13 +456,29 @@
             "type": "string"
         },
         "skill_agility": {
-            "description": "Number of agility icons on the card, or agility skill for an investigator. -2 means `X` in the latter case.",
+            "description": "Number of agility icons on the card, or agility skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
                 }
@@ -362,13 +486,29 @@
             "type": "integer"
         },
         "skill_combat": {
-            "description": "Number of combat icons on the card, or combat skill for an investigator. -2 means `X` in the latter case.",
+            "description": "Number of combat icons on the card, or combat skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
                 }
@@ -376,13 +516,29 @@
             "type": "integer"
         },
         "skill_intellect": {
-            "description": "Number of intellect icons on the card, or intellect skill for an investigator. -2 means `X` in the latter case.",
+            "description": "Number of intellect icons on the card, or intellect skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
                 }
@@ -390,27 +546,33 @@
             "type": "integer"
         },
         "skill_wild": {
-            "description": "Number of wild icons on the card, or wild skill for an investigator. -2 means `X` in the latter case.",
-            "oneOf": [
-                {
-                    "type": "integer",
-                    "enum": [-2]
-                },
-                {
-                    "type": "integer",
-                    "minimum": 1
-                }
-            ],
+            "description": "Number of wild icons on the card.",
             "type": "integer"
         },
         "skill_willpower": {
-            "description": "Number of willpower icons on the card, or willpower skill for an investigator. -2 means `X` in the latter case.",
+            "description": "Number of willpower icons on the card, or willpower skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
+                    "description": "?",
                     "type": "integer",
-                    "enum": [-2]
+                    "const": -4
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                },
+                {
+                    "description": "Numerical shroud",
                     "type": "integer",
                     "minimum": 0
                 }
