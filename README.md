@@ -74,6 +74,15 @@ The available tags are:
 These tags have been used in the past but are unused right now:
 - `st` => _Spell trait_, used to mark whether a card had bonded spells for Marie Lambeau, which is no longer relevant, but still part of the deckbuilding rules.
 
+## Numerical values
+
+Numerical values in the game can sometimes contain symbols such as `-` or `X`. Historically, consumers of this data expect these values to be `number | null`, so we have to use an enumeration to represent special characters. The following mappings are defined:
+- `0` and higher: literal integers.
+- `null`: `-`
+- `X`: `-2`
+- `*`: `-3`
+- `?`: `-4`
+
 #### Translations
 
 To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
