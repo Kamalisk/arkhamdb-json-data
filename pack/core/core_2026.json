@@ -38,6 +38,36 @@
         "xp": 0
     },
     {
+        "code": "12030",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "flavor": "\"I've taken every class that Dr. Christopher offers!\"",
+        "health": 1,
+        "illustrator": "Drazenka Kimpel",
+        "is_unique": true,
+        "name": "Dorothy Simmons",
+        "pack_code": "core_2026",
+        "position": 30,
+        "quantity": 2,
+        "sanity": 1,
+        "skill_intellect": 1,
+        "slot": "Ally",
+        "subname": "Straight-A Student",
+        "text": "You get +1 [intellect].\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dorothy Simmons: Gain 1 resource.",
+        "traits": "Ally. Miskatonic.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12031",
+        "duplicate_of": "05024",
+        "pack_code": "core_2026",
+        "position": 31,
+        "quantity": 2,
+        "text": "Uses (3 supplies).\n[action] Exhaust Fingerprint Kit and spend 1 supply:\n<b>Investigate</b> ([intellect]). You get +1 [intellect] for this investigation. If you succeed, discover 1 additional clue at your location."
+    },
+    {
         "code": "12033",
         "cost": 3,
         "deck_limit": 2,
@@ -78,6 +108,24 @@
         "text": "[fast] Spend 1 resource: You get +1 [intellect] for this skill test (+2 [intellect] instead if this is an investigation or parley).\n[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this is an investigation or parley).",
         "traits": "Talent.",
         "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12036",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "flavor": "You learn so much more by getting up-close and personal.",
+        "illustrator": "Anders Finér",
+        "name": "Gather Intel",
+        "pack_code": "core_2026",
+        "position": 36,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "text": "Fast. Play when an enemy enters your location.\nDraw 2 cards.",
+        "traits": "Insight.",
+        "type_code": "event",
         "xp": 0
     },
     {
@@ -209,5 +257,21 @@
         "pack_code": "core_2026",
         "position": 89,
         "quantity": 2
+    },
+    {
+        "code": "12098",
+        "cost": null,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Kate Swazee",
+        "name": "The Gold Bug",
+        "pack_code": "core_2026",
+        "position": 98,
+        "quantity": 1,
+        "slot": "Accessory",
+        "subtype_code": "basicweakness",
+        "text": "<b>Revelation</b> - Put The Gold Bug into play in your threat area. It cannot leave play except by the [action] ability below.\nYou get -1 health and -1 sanity.\n[action]: Shuffle the Gold Bug into your deck.",
+        "traits": "Item. Relic. Alchemy. Cursed.",
+        "type_code": "asset"
     }
 ]
