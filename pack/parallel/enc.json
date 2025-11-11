@@ -8,6 +8,18 @@
       "deck_options": [
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
+                "faction": [
+                    "survivor",
+                    "guardian",
+                    "seeker",
+                    "rogue",
+                    "mystic"
+                ],
+                "ignore_match": true,
+                "atleast": { "factions": 5, "min": 6 },
+                "error": "You must have at least 6 cards from each faction."
+            },
+            {
                 "name": "Class Choice",
                 "id": "faction_1",
                 "faction_select": ["guardian", "seeker", "rogue", "mystic", "survivor"],
@@ -28,17 +40,6 @@
                     "mystic"
                 ],
                 "level": { "min": 0, "max": 1 }
-            },
-            {
-                "faction": [
-                    "survivor",
-                    "guardian",
-                    "seeker",
-                    "rogue",
-                    "mystic"
-                ],
-                "atleast": { "factions": 5, "min": 6 },
-                "error": "You must have at least 6 cards from each faction."
             }
         ],
       "deck_requirements": "size:40, card:03018:90088, card:03018:90089, card:03018:90090, card:03018:90091, card:03018:90092, card:03019:90093, random:subtype:basicweakness",
