@@ -1,5 +1,77 @@
 [
     {
+        "back_flavor": "Joe Diamond has more experience with supernatural nonsense than most. He has developed a keen intuition and a knack for getting to the bottom of even the most uncanny occurrences, helped in no small part by his willingness to get his hands dirty. But in recent weeks, even Joe has been hard-pressed to stay on top of his work. His desk is flooded with photos of grisly murders and reports of disappearances: people from all walks of life vanishing without a trace. Joe isn't sure how each of these events is connected, but he's not about to let the case go cold.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Detective's Intuition, Dead Ends, 1 random basic weakness.",
+        "code": "12004",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["seeker", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { 
+                "faction": ["guardian"], 
+                "level": { "min": 0, "max": 2 } 
+            }
+        ],
+        "deck_requirements": "size:30, card:12005, card:12006, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"I can't stop now. Not when I'm so close to the truth.\"",
+        "health": 7,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Joe Diamond",
+        "pack_code": "core_2026",
+        "position": 4,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 2,
+        "skill_intellect": 4,
+        "skill_combat": 4,
+        "skill_willpower": 2,
+        "subname": "The Private Investigator",
+        "text": "[reaction] After you successfully investigate: Draw 1 card. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed, draw 1 card and gain 1 resource.",
+        "traits": "Detective.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "12005",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "seeker",
+        "flavor": "\"I don't know how you do it, Mr. Diamond. Your insight never ceases to impress.\"",
+        "illustrator": "Pixoloid Studios",
+        "name": "Detective's Intuition",
+        "pack_code": "core_2026",
+        "position": 5,
+        "quantity": 1,
+        "restrictions": "investigator:12004",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "tags": "hd.hh.",
+        "text": "Joe Diamond deck only.\nGain 2 resources and heal 1 damage or 1 horror.\n[reaction] After you draw Detective's Intuition during your turn: Reveal it and draw 2 additional cards.",
+        "traits": "Insight.",
+        "type_code": "event"
+    },
+    {
+        "code": "12006",
+        "cost": 5,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Aleksander Karcz",
+        "name": "Dead Ends",
+        "pack_code": "core_2026",
+        "position": 6,
+        "quantity": 1,
+        "restrictions": "investigator:12004",
+        "subtype_code": "weakness",
+        "text": "<b>Forced</b> - When you search your deck and Dead Ends is among the searched cards: Draw it, cancel the effects of the search, and shuffle your deck.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.",
+        "traits": "Blunder.",
+        "type_code": "event"
+    },
+    {
         "code": "12016",
         "cost": 3,
         "deck_limit": 2,
@@ -153,6 +225,23 @@
         "traits": "Insight. Trick.",
         "type_code": "event",
         "xp": 0
+    },
+    {
+        "code": "12038",
+        "duplicate_of": "01037",
+        "illustrator": "Rob Laskey",
+        "pack_code": "core_2026",
+        "position": 38,
+        "quantity": 2
+    },
+    {
+        "code": "12039",
+        "duplicate_of": "01039",
+        "flavor": "A smaller piece of an even greater mystery.",
+        "illustrator": "Rob Laskey",
+        "pack_code": "core_2026",
+        "position": 39,
+        "quantity": 2
     },
     {
         "code": "12040",
