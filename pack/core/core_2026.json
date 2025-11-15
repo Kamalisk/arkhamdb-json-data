@@ -1,5 +1,77 @@
 [
     {
+        "back_flavor": "Joe Diamond has more experience with supernatural nonsense than most. He has developed a keen intuition and a knack for getting to the bottom of even the most uncanny occurrences, helped in no small part by his willingness to get his hands dirty. But in recent weeks, even Joe has been hard-pressed to stay on top of his work. His desk is flooded with photos of grisly murders and reports of disappearances: people from all walks of life vanishing without a trace. Joe isn't sure how each of these events is connected, but he's not about to let the case go cold.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Detective's Intuition, Dead Ends, 1 random basic weakness.",
+        "code": "12004",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["seeker", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { 
+                "faction": ["guardian"], 
+                "level": { "min": 0, "max": 2 } 
+            }
+        ],
+        "deck_requirements": "size:30, card:12005, card:12006, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "\"I can't stop now. Not when I'm so close to the truth.\"",
+        "health": 7,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Joe Diamond",
+        "pack_code": "core_2026",
+        "position": 4,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 2,
+        "skill_intellect": 4,
+        "skill_combat": 4,
+        "skill_willpower": 2,
+        "subname": "The Private Investigator",
+        "text": "[reaction] After you successfully investigate: Draw 1 card. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed, draw 1 card and gain 1 resource.",
+        "traits": "Detective.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "12005",
+        "cost": 0,
+        "deck_limit": 1,
+        "faction_code": "seeker",
+        "flavor": "\"I don't know how you do it, Mr. Diamond. Your insight never ceases to impress.\"",
+        "illustrator": "Pixoloid Studios",
+        "name": "Detective's Intuition",
+        "pack_code": "core_2026",
+        "position": 5,
+        "quantity": 1,
+        "restrictions": "investigator:12004",
+        "skill_intellect": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "tags": "hd.hh.",
+        "text": "Joe Diamond deck only.\nGain 2 resources and heal 1 damage or 1 horror.\n[reaction] After you draw Detective's Intuition during your turn: Reveal it and draw 2 additional cards.",
+        "traits": "Insight.",
+        "type_code": "event"
+    },
+    {
+        "code": "12006",
+        "cost": 5,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Aleksander Karcz",
+        "name": "Dead Ends",
+        "pack_code": "core_2026",
+        "position": 6,
+        "quantity": 1,
+        "restrictions": "investigator:12004",
+        "subtype_code": "weakness",
+        "text": "<b>Forced</b> - When you search your deck and Dead Ends is among the searched cards: Draw it, cancel the effects of the search, and shuffle your deck.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.",
+        "traits": "Blunder.",
+        "type_code": "event"
+    },
+    {
         "code": "12016",
         "cost": 3,
         "deck_limit": 2,
@@ -68,6 +140,16 @@
         "text": "Uses (3 supplies).\n[action] Exhaust Fingerprint Kit and spend 1 supply:\n<b>Investigate</b> ([intellect]). You get +1 [intellect] for this investigation. If you succeed, discover 1 additional clue at your location."
     },
     {
+        "code": "12032",
+        "duplicate_of": "02020",
+        "flavor": "\"They're just in it for the extra credit.\"",
+        "pack_code": "core_2026",
+        "position": 32,
+        "quantity": 2,
+        "skill_willpower": 1,
+        "text": "Your maximum hand size is increased by 2.\n[reaction] After you play Laboratory Assistant: Draw 2 cards."
+    },
+    {
         "code": "12033",
         "cost": 3,
         "deck_limit": 2,
@@ -129,6 +211,99 @@
         "xp": 0
     },
     {
+        "code": "12037",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Rob Laskey",
+        "name": "Through the Cracks",
+        "pack_code": "core_2026",
+        "position": 37,
+        "quantity": 2,
+        "skill_agility": 1,
+        "text": "<b>Evade</b> ([agility]). You get +1 [agility] for this evasion for each clue you control (to a maximum of +3). If you succeed, you may disengage from each enemy engaged with you and move to a revealed connecting location.",
+        "traits": "Insight. Trick.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "12038",
+        "duplicate_of": "01037",
+        "illustrator": "Rob Laskey",
+        "pack_code": "core_2026",
+        "position": 38,
+        "quantity": 2
+    },
+    {
+        "code": "12039",
+        "duplicate_of": "01039",
+        "flavor": "A smaller piece of an even greater mystery.",
+        "illustrator": "Rob Laskey",
+        "pack_code": "core_2026",
+        "position": 39,
+        "quantity": 2
+    },
+    {
+        "code": "12040",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Pixoloid Studios",
+        "name": "Mysterious Grimoire",
+        "pack_code": "core_2026",
+        "position": 40,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "slot": "Hand",
+        "text": "Uses (4 secrets).\n[fast] During your turn, spend 1 or 2 secrets and exhaust Mysterious Grimoire: Search the top 3 cards (or 6 cards instead if you spent 2 secrets) of your deck for a card and draw it. If 1 or more weaknesses are among the searched cards, draw them as well. Shuffle your deck.",
+        "traits": "Item. Tome.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
+        "code": "12041",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "Rob Laskey",
+        "name": "Through the Cracks",
+        "pack_code": "core_2026",
+        "position": 41,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_wild": 1,
+        "text": "<b>Evade</b> ([agility]). You get +2 [agility] for this evasion for each clue you control (to a maximum of +6). If you succeed, you may disengage from each enemy engaged with you and move to a revealed connecting location.",
+        "traits": "Insight. Trick.",
+        "type_code": "event",
+        "xp": 2
+    },
+    {
+        "code": "12042",
+        "duplicate_of": "05276",
+        "flavor": "\"We spent the rest of the night in the brilliantly lighted study, nervously discussing what we should do next.\"\n<i>- H.P. Lovecraft, \"The Rats in the Walls\"</i>",
+        "illustrator": "Christine Mitzuk",
+        "pack_code": "core_2026",
+        "position": 42,
+        "quantity": 2
+    },
+    {
+        "code": "12043",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "seeker",
+        "illustrator": "JB Casacop",
+        "name": "Unbridled Knowledge",
+        "pack_code": "core_2026",
+        "position": 43,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "skill_wild": 1,
+        "text": "Reveal the top 5 cards of your deck (8 cards instead if you control 2 or more clues). Draw 3 of them and place the rest of those cards on the top and/or bottom of your deck in any order.",
+        "traits": "Insight.",
+        "type_code": "event",
+        "xp": 5
+    },
+    {
         "code": "12045",
         "cost": 3,
         "deck_limit": 2,
@@ -140,7 +315,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "slot": "Hand",
-        "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight<b> ([agility]). If the targeted enemy is exhausted, this attack deals +1 damage.",
+        "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([agility]). If the targeted enemy is exhausted, this attack deals +1 damage.",
         "traits": "Item. Weapon. Firearm.",
         "type_code": "asset",
         "xp": 0
@@ -252,11 +427,38 @@
         "xp": 0
     },
     {
+        "code": "12088",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "Works in any situation, and the batteries never run out!\n- Schoffner's Catalogue, Spring 1927 ed.",
+        "illustrator": "Carlos Palma Cruchaga",
+        "name": "Hand-Crank Flashlight",
+        "pack_code": "core_2026",
+        "position": 88,
+        "quantity": 2,
+        "skill_intellect": 1,
+        "slot": "Hand",
+        "text": "[action]: <b>Investigate</b> ([intellect]). You get +1 [intellect] for this test. If you succeed, you may discard Hand-Crank Flashlight for your location to get -1 shroud until the end of the round.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "12089",
-        "duplicate_of": "01089",
+        "duplicate_of": "01088",
         "pack_code": "core_2026",
         "position": 89,
         "quantity": 2
+    },
+    {
+        "code": "12093",
+        "duplicate_of": "01090",
+        "illustrator": "Rob Laskey",
+        "pack_code": "core_2026",
+        "position": 93,
+        "quantity": 2,
+        "text": "Max 1 committed per skill test.\nIf this test is successful, the performing investigator draws 1 card."
     },
     {
         "code": "12098",
