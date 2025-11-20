@@ -9,9 +9,9 @@
                 "faction": ["seeker", "neutral"],
                 "level": { "min": 0, "max": 5 }
             },
-            { 
-                "faction": ["guardian"], 
-                "level": { "min": 0, "max": 2 } 
+            {
+                "faction": ["guardian"],
+                "level": { "min": 0, "max": 2 }
             }
         ],
         "deck_requirements": "size:30, card:12005, card:12006, random:subtype:basicweakness",
@@ -446,6 +446,30 @@
         "xp": 0
     },
     {
+        "code": "12076",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Tiziano Baracchi",
+        "name": "Levelheaded",
+        "pack_code": "core_2026",
+        "position": 76,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_willpower": 1,
+        "text": "[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this test is on a scenario card).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this test is on a scenario card).",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12077",
+        "duplicate_of": "05114",
+        "pack_code": "core_2026",
+        "position": 77,
+        "text": "[action]: <b>Fight</b> ([combat]). You get +1 [combat] for this attack (+2 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror.\n[reaction] When you trigger the above [action] ability, take 1 horror: This attack deals +1 damage."
+    },
+    {
         "code": "12079",
         "cost": 1,
         "deck_limit": 2,
@@ -493,6 +517,26 @@
         "traits": "Fortune.",
         "type_code": "skill",
         "xp": 0
+    },
+    {
+        "code": "12085",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Rob Laskey",
+        "name": "Meat Cleaver",
+        "pack_code": "core_2026",
+        "position": 85,
+        "quantity": 2,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "tags": "hh.",
+        "text": "[action]: <b>Fight</b> ([combat]). You get +2 [combat] for this attack (+3 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror.\n[reaction] When you trigger the above [action] ability, take 1 horror: This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 3
     },
     {
         "code": "12088",
