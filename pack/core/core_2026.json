@@ -9,9 +9,9 @@
                 "faction": ["seeker", "neutral"],
                 "level": { "min": 0, "max": 5 }
             },
-            { 
-                "faction": ["guardian"], 
-                "level": { "min": 0, "max": 2 } 
+            {
+                "faction": ["guardian"],
+                "level": { "min": 0, "max": 2 }
             }
         ],
         "deck_requirements": "size:30, card:12005, card:12006, random:subtype:basicweakness",
@@ -81,9 +81,9 @@
                 "faction": ["survivor", "neutral"],
                 "level": { "min": 0, "max": 5 }
             },
-            { 
-                "faction": ["mystic"], 
-                "level": { "min": 0, "max": 2 } 
+            {
+                "faction": ["mystic"],
+                "level": { "min": 0, "max": 2 }
             }
         ],
         "deck_requirements": "size:30, card:12014, card:12015, random:subtype:basicweakness",
@@ -526,6 +526,30 @@
         "xp": 0
     },
     {
+        "code": "12076",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Tiziano Baracchi",
+        "name": "Levelheaded",
+        "pack_code": "core_2026",
+        "position": 76,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_willpower": 1,
+        "text": "[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this test is on a scenario card).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this test is on a scenario card).",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12077",
+        "duplicate_of": "05114",
+        "pack_code": "core_2026",
+        "position": 77,
+        "text": "[action]: <b>Fight</b> ([combat]). You get +1 [combat] for this attack (+2 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror.\n[reaction] When you trigger the above [action] ability, take 1 horror: This attack deals +1 damage."
+    },
+    {
         "code": "12078",
         "duplicate_of": "01079",
         "flavor": "\"Well, would you look at that...\"",
@@ -584,6 +608,113 @@
         "xp": 0
     },
     {
+        "code": "12082",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Stanislav Dikolenko",
+        "name": "Scrape By",
+        "pack_code": "core_2026",
+        "position": 82,
+        "quantity": 2,
+        "skill_wild": 1,
+        "text": "Fast. Play when you would fail a skill test during which a non-[auto_fail] token was revealed.\nYou succeed at that skill test instead. If a token with a symbol was revealed during that skill test, take 1 horror.",
+        "traits": "Fortune.",
+        "type_code": "event",
+        "xp": 1
+    },
+    {
+        "code": "12083",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Pixoloid Studios",
+        "name": "Old Compass",
+        "pack_code": "core_2026",
+        "position": 83,
+        "quantity": 2,
+        "skill_intellect": 2,
+        "slot": "Hand",
+        "text": "[action]: <b>Investigate</b> ([intellect]). Your location gets -1 shroud for this investigation. If you fail, you may exhaust Old Compass to attempt this test again. If you do, your location gets -2 shroud for this investigation, instead.",
+        "traits": "Item. Tool.",
+        "type_code": "asset",
+        "xp": 2
+    },
+    {
+        "code": "12084",
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "flavor": "Nobody knows what you'll do if you're pushed past your limits.",
+        "illustrator": "Mauro Dal Bo",
+        "name": "On the Brink",
+        "pack_code": "core_2026",
+        "position": 84,
+        "quantity": 2,
+        "skill_wild": 2,
+        "text": "Max 1 committed per skill test.\nIf this test fails, return each other card committed to this test to its owner's hand and draw 1 card.",
+        "traits": "Gambit. Desperate.",
+        "type_code": "skill",
+        "xp": 2
+    },
+    {
+        "code": "12085",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "survivor",
+        "illustrator": "Rob Laskey",
+        "name": "Meat Cleaver",
+        "pack_code": "core_2026",
+        "position": 85,
+        "quantity": 2,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "slot": "Hand",
+        "tags": "hh.",
+        "text": "[action]: <b>Fight</b> ([combat]). You get +2 [combat] for this attack (+3 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror.\n[reaction] When you trigger the above [action] ability, take 1 horror: This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 3
+    },
+    {
+        "code": "12086",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "It was cheap whiskey, anyway.",
+        "illustrator": "Lin Hsiang",
+        "name": "Broken Bottle",
+        "pack_code": "core_2026",
+        "position": 86,
+        "quantity": 2,
+        "skill_combat": 1,
+        "slot": "Hand",
+        "text": "[action]: <b>Fight</b> ([combat]). You get +1 [combat] for this attack. If you succeed, you may discard Broken Bottle to deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Melee. Improvised.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12087",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "A little style goes a long way.",
+        "health": 1,
+        "illustrator": "Drazenka Kimpel",
+        "name": "Fedora",
+        "pack_code": "core_2026",
+        "position": 87,
+        "quantity": 2,
+        "sanity": 1,
+        "skill_agility": 1,
+        "slot": "Head",
+        "text": "",
+        "traits": "Item. Apparel. Headwear.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "12088",
         "cost": 1,
         "deck_limit": 2,
@@ -632,5 +763,24 @@
         "text": "<b>Revelation</b> - Put The Gold Bug into play in your threat area. It cannot leave play except by the [action] ability below.\nYou get -1 health and -1 sanity.\n[action]: Shuffle the Gold Bug into your deck.",
         "traits": "Item. Relic. Alchemy. Cursed.",
         "type_code": "asset"
-    }
+    },
+    {
+        "code": "12099",
+        "deck_limit": 1,
+        "enemy_evade": 2,
+        "enemy_fight": 2,
+        "enemy_horror": 2,
+        "faction_code": "neutral",
+        "health": 1,
+        "illustrator": "Quintin Gleim",
+        "is_unique": true,
+        "name": "The Nameless Lurker",
+        "pack_code": "core_2026",
+        "position": 99,
+        "quantity": 1,
+        "subtype_code": "basicweakness",
+        "text": "Aloof.\n<b>Spawn</b> - Farthest empty location.\n<b>Forced</b> - When the investigation phase ends, if The Nameless Lurker is ready and has no doom on it: Place 1 doom on it.",
+        "traits": "Humanoid. Monster.",
+        "type_code": "enemy"
+      }
 ]
