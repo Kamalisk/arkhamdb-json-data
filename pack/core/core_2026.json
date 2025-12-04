@@ -72,6 +72,78 @@
         "type_code": "event"
     },
     {
+        "back_flavor": "Isabelle Barnes has been on the run for as long as she can remember. She finally escaped from the Olmsteads, a family cult who thought of her as the \"final piece\" for some dark and twisted ritual. She doesn't know what made her so special to the cult. But now, thanks to her sister Jenny, Isabelle is finally free. But freedom comes at a cost. Her sister gave everything to get Isabelle back, and for that, Isabelle intends to make the Olmsteads - and all those who prey on the weak and innocent - pay in blood. Armed with her lost sister's twin .45s, Isabelle can finally turn to face her pursuers head on.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Mystic cards ([mystic]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Isabelle's Twin .45s, Breaking Point, 1 random basic weakness.",
+        "code": "12013",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["survivor", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            { 
+                "faction": ["mystic"], 
+                "level": { "min": 0, "max": 2 } 
+            }
+        ],
+        "deck_requirements": "size:30, card:12014, card:12015, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "\"My sister's sacrifice won't be in vain.\"",
+        "health": 5,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Isabelle Barnes",
+        "pack_code": "core_2026",
+        "position": 13,
+        "quantity": 1,
+        "sanity": 9,
+        "skill_agility": 3,
+        "skill_intellect": 2,
+        "skill_combat": 3,
+        "skill_willpower": 4,
+        "subname": "The Returned",
+        "text": "[fast] During a skill test you are performing, take 1 direct horror: Commit an eligible skill from your discard pile to this test. After this test resolves, shuffle that card into your deck. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed, heal 1 horror.",
+        "traits": "Chosen. Hunter.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "12014",
+        "cost": 4,
+        "deck_limit": 1,
+        "faction_code": "survivor",
+        "illustrator": "Pixoloid Studios",
+        "is_unique": true,
+        "name": "Isabelle's Twin .45s",
+        "pack_code": "core_2026",
+        "position": 14,
+        "quantity": 1,
+        "restrictions": "investigator:12013",
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "slot": "Hand x2",
+        "subname": "Loaded with Vengeance",
+        "text": "Isabelle Barnes deck only. Uses (6 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([combat]). You get +1 [combat] and deal +1 damage for this attack.\n[reaction] After you resolve the above ability, spend 1 ammo and exhaust Isabelle's Twin .45s: <b>Fight</b> ([agility]). You get +1 [agility] and deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Firearm.",
+        "type_code": "asset"
+    },
+    {
+        "code": "12015",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Billy Norrby",
+        "name": "Breaking Point",
+        "pack_code": "core_2026",
+        "position": 15,
+        "quantity": 1,
+        "restrictions": "investigator:12013",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Take 1 direct damage. Then, if you have 6 or fewer remaining sanity, take 1 direct damage. Then, if you have 3 or fewer remaining sanity, take 1 direct damage.",
+        "traits": "Hardship.",
+        "type_code": "treachery"
+    },
+    {
         "code": "12016",
         "cost": 3,
         "deck_limit": 2,
