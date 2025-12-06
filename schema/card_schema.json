@@ -2,7 +2,12 @@
     "additionalProperties": true,
     "properties": {
         "alternate_of": {
-            "description": "Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
+            "description": "(deprecated) Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "parallel_of": {
+            "description": "Code of the card that the card is a parallel investigator of. Used for parallel investigators.",
             "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
@@ -193,7 +198,7 @@
             "type": "boolean"
         },
         "duplicate_of": {
-            "description": "The code of the card that the card is a duplicate of. Used for reprints such as revised core.",
+            "description": "The code of the card that the card is a duplicate of. Used for reprints such as revised core, or alt-art investigators without gameplay differences.",
             "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
@@ -386,6 +391,21 @@
         "restrictions": {
             "description": "Restricts how the card can be included in a deck. Can be another card, a trait, or a faction.",
             "minLength": 1,
+            "type": "string"
+        },
+        "signature_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "replacement_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "advanced_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
         "sanity": {
