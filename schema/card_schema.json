@@ -45,6 +45,10 @@
             "description": "Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
             "$ref": "#/$defs/card_code"
         },
+        "parallel_of": {
+            "description": "Code of the card that the card is a parallel investigator of. Used for parallel investigators.",
+            "$ref": "#/$defs/card_code"
+        },
         "back_flavor": {
             "description": "Flavor text on the back of `double_sided` cards. Only use this if the flavor is different from the front.",
             "minLength": 0,
@@ -280,6 +284,21 @@
         "restrictions": {
             "description": "Restricts how the card can be included in a deck. Can be another card, a trait, or a faction.",
             "minLength": 1,
+            "type": "string"
+        },
+        "signature_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "replacement_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "advanced_for": {
+            "description": "Code of the canonical investigator that the card is a signature card for.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
             "type": "string"
         },
         "sanity": {
