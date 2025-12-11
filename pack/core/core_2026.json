@@ -164,6 +164,23 @@
         "xp": 0
     },
     {
+        "code": "12017",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Lin Hsiang",
+        "name": "Endurance",
+        "pack_code": "core_2026",
+        "position": 17,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "text": "[fast] Spend 1 resource: You get +1 [combat] for this skill test (+2 [combat] instead if this is an attack or evasion).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this is an attack or evasion).",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
+      },
+    {
         "code": "12021",
         "cost": 3,
         "deck_limit": 2,
@@ -180,6 +197,41 @@
         "traits": "Talent.",
         "type_code": "asset",
         "xp": 0
+    },
+    {
+        "code": "12028",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "Twenty-two and a half pounds of steel vengeance.",
+        "illustrator": "Tysen Johnson",
+        "name": "Sledgehammer",
+        "pack_code": "core_2026",
+        "position": 28,
+        "quantity": 2,
+        "skill_combat": 2,
+        "slot": "Hand x2",
+        "text": "[action]: <b>Fight</b> ([combat]). This attack deals + 1 damage.\n[action][action]: <b>Fight</b> ([combat]). You get +3 [combat] for this attack. If you succeed, you may exhaust Sledgehammer for this attack to deal +2 damage.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "type_code": "asset",
+        "xp": 3
+      },
+      {
+        "code": "12029",
+        "cost": 4,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Pixoloid Studios",
+        "name": "Winchester Model 12",
+        "pack_code": "core_2026",
+        "position": 29,
+        "quantity": 2,
+        "skill_combat": 2,
+        "slot": "Hand x2",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([combat]). You get +3 [combat] for this attack. If you succeed, this attack deals +1 damage for each point you succeed by (to a maximum of +4). If you fail and would deal damage to another investigator, this attack deals 1 damage for each point you fail by (to a maximum of 5 damage).",
+        "traits": "Item. Weapon. Firearm.",
+        "type_code": "asset",
+        "xp": 5
     },
     {
         "code": "12030",
@@ -782,5 +834,19 @@
         "text": "Aloof.\n<b>Spawn</b> - Farthest empty location.\n<b>Forced</b> - When the investigation phase ends, if The Nameless Lurker is ready and has no doom on it: Place 1 doom on it.",
         "traits": "Humanoid. Monster.",
         "type_code": "enemy"
+    },
+    {
+        "code": "12104",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "Rayven Studio & FFG",
+        "name": "Wounded",
+        "pack_code": "core_2026",
+        "position": 104,
+        "quantity": 2,
+        "subtype_code": "basicweakness",
+        "text": "<b>Revelation</b> - Put Wounded into play in your threat area.\n<b>Forced</b> - The first time you move each turn: Take 1 damage.\n[action][action]: Discard Wounded.",
+        "traits": "Injury.",
+        "type_code": "treachery"
     }
 ]
