@@ -1,5 +1,76 @@
 [
     {
+        "back_flavor": "Daniela worked hard to make a name for herself as a mechanic. She'd only just paid off her new garage when Arkham was devastated by a cataclysmic flood, sending her business quite literally underwater. Rather than mope, she rolled up her sleeves, like always, and got back to work. Now she works an extra shift tuning up engines at the new meat-packing factories. But she's started to hear talk about strange things going on in the waterfront district: locals gone missing; corpses drained of blood; and rumors of a shadowy figure that stalks the alleys at night. Daniela knows better than to dismiss these strange happenings as mere circumstance. Whatever it is, she intends to be ready.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Survivor cards ([survivor]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Daniela's Wrench, In Harm's Way, 1 random basic weakness.",
+        "code": "12001",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["guardian", "neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["survivor"],
+                "level": { "min": 0, "max": 2 }
+            }
+        ],
+        "deck_requirements": "size:30, card:12002, card:12003, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "guardian",
+        "flavor": "\"Those creatures are <i>definitely</i> gonna know what hit 'em.\"",
+        "health": 9,
+        "illustrator": "Aleksander Karcz",
+        "is_unique": true,
+        "name": "Daniela Reyes",
+        "pack_code": "core_2026",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 5,
+        "skill_agility": 2,
+        "skill_intellect": 2,
+        "skill_combat": 5,
+        "skill_willpower": 3,
+        "subname": "The Mechanic",
+        "text": "[reaction] After an enemy attacks an investigator at your location: Fight that enemy <i>(using either a basic fight action or a </i><b>Fight</b><i> ability on a card)</i>. (Limit once per round.)\n[elder_sign] effect: +1. Deal 1 damage to an enemy at your location.",
+        "traits": "Warden. Worker.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "12002",
+        "cost": 2,
+        "deck_limit": 1,
+        "faction_code": "guardian",
+        "illustrator": "Mauro Dal Bo",
+        "is_unique": true,
+        "name": "Daniela's Wrench",
+        "pack_code": "core_2026",
+        "position": 2,
+        "quantity": 1,
+        "restrictions": "investigator:12001",
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "slot": "Hand",
+        "subname": "New and Improved",
+        "text": "Daniela Reyes deck only.\n[fast] Exhaust Daniela's Wrench: Choose an enemy at your location. That enemy engages you and makes an immediate attack.\n[action]: <b>Fight</b> ([combat]). You get +2 [combat] for this attack. If this enemy attacked you this round, this attack deals +1 damage.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "type_code": "asset"
+    },
+    {
+        "code": "12003",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Mauro Dal Bo",
+        "name": "In Harm's Way",
+        "pack_code": "core_2026",
+        "position": 3,
+        "quantity": 1,
+        "restrictions": "investigator:12001",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Put In Harm's Way into play in your threat area.\n<b>Forced</b> - After you deal damage to an enemy: Take 1 damage and place 1 damage on In Harm's Way. If there is 3 or more damage on this card, discard it.\n<b>Forced</b> - When the game ends: Suffer 1 physical trauma.",
+        "traits": "Flaw.",
+        "type_code": "treachery"
+    },
+    {
         "back_flavor": "Joe Diamond has more experience with supernatural nonsense than most. He has developed a keen intuition and a knack for getting to the bottom of even the most uncanny occurrences, helped in no small part by his willingness to get his hands dirty. But in recent weeks, even Joe has been hard-pressed to stay on top of his work. His desk is flooded with photos of grisly murders and reports of disappearances: people from all walks of life vanishing without a trace. Joe isn't sure how each of these events is connected, but he's not about to let the case go cold.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Detective's Intuition, Dead Ends, 1 random basic weakness.",
         "code": "12004",
@@ -220,6 +291,14 @@
         "xp": 0
     },
     {
+        "code": "12020",
+        "duplicate_of": "01020",
+        "pack_code": "core_2026",
+        "position": 20,
+        "quantity": 2,
+        "text": "[action]: <b>Fight</b> ([combat]). You get +1 [combat] for this attack. If the attacked enemy is the only enemy engaged with you, you may exhaust Machete to deal +1 damage for this attack."
+    },
+    {
         "code": "12021",
         "cost": 3,
         "deck_limit": 2,
@@ -235,6 +314,23 @@
         "skill_willpower": 1,
         "traits": "Talent.",
         "type_code": "asset",
+        "xp": 0
+    },
+    {
+        "code": "12022",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "illustrator": "Patrick McEvoy",
+        "name": "Lesson Learned",
+        "pack_code": "core_2026",
+        "position": 22,
+        "quantity": 2,
+        "skill_combat": 1,
+        "skill_intellect": 1,
+        "text": "Fast. Play after an enemy attacks you.\nDiscover 1 clue at your location.",
+        "traits": "Insight. Spirit.",
+        "type_code": "event",
         "xp": 0
     },
     {
@@ -286,6 +382,27 @@
         "traits": "Spirit. Tactic.",
         "type_code": "event",
         "xp": 1
+    },
+    {
+        "code": "12027",
+        "cost": 3,
+        "deck_limit": 2,
+        "faction_code": "guardian",
+        "flavor": "\"I'm not here to help you shop; I'm here to keep you alive.\"",
+        "health": 3,
+        "illustrator": "Billy Norrby",
+        "name": "Bodyguard",
+        "pack_code": "core_2026",
+        "position": 27,
+        "quantity": 2,
+        "sanity": 2,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "slot": "Ally",
+        "text": "Bodyguard may be assigned damage dealt to other investigators at your location.\n[reaction] When Bodyguard is defeated: Deal 2 damage to an enemy at your location.",
+        "traits": "Ally.",
+        "type_code": "asset",
+        "xp": 2
     },
     {
         "code": "12028",
