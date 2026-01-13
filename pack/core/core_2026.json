@@ -681,6 +681,24 @@
         "xp": 0
     },
     {
+        "code": "12047",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "illustrator": "Drazenka Kimpel",
+        "name": "Silver Tongue",
+        "pack_code": "core_2026",
+        "position": 47,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_intellect": 1,
+        "tags": "pa.",
+        "text": "[fast] Spend 1 resource: You get +1 [intellect] for this skill test (+2 [intellect] instead if this is an evasion or parley).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this is an evasion or parley).",
+        "traits": "Talent.",
+        "type_code": "asset",
+        "xp": 0
+    },
+    {
         "code": "12048",
         "cost": 1,
         "deck_limit": 2,
@@ -707,6 +725,15 @@
         "text": "Uses (6 supplies).\n[action] Spend 1 supply: <b>Investigate</b> ([intellect] or [agility]). If you succeed, gain 1 resource."
     },
     {
+        "code": "12050",
+        "duplicate_of": "07114",
+        "flavor": "It's superior to entering and breaking.",
+        "pack_code": "core_2026",
+        "position": 50,
+        "quantity": 2,
+        "text": "<b>Investigate</b> ([intellect]). Add your [agility] to your [intellect] for this investigation. If you succeed by 2 or more, you may automatically evade an enemy at this location. This action does not provoke attacks of opportunity."
+    },
+    {
         "code": "12051",
         "cost": 0,
         "deck_limit": 2,
@@ -721,6 +748,24 @@
         "skill_willpower": 1,
         "text": "<b>Parley.</b> Search the top 9 cards of the encounter deck for a non-[[Elite]] enemy, draw it, and gain resources equal to that enemy's printed health. Shuffle the encounter deck.",
         "traits": "Fortune. Gambit.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "12052",
+        "cost": 1,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "flavor": "Now you see it. Now you don't.",
+        "illustrator": "David Hovey",
+        "name": "Prestidigitation",
+        "pack_code": "core_2026",
+        "position": 52,
+        "quantity": 2,
+        "skill_agility": 1,
+        "skill_willpower": 1,
+        "text": "Fast. Play only during your turn.\nPlay an [[Item]] asset from your hand, reducing its cost by 2. When your turn ends, return an [[Item]] asset you control to your hand.",
+        "traits": "Trick.",
         "type_code": "event",
         "xp": 0
     },
@@ -1187,14 +1232,28 @@
         "type_code": "enemy"
     },
     {
+        "code": "12103",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "Henning Ludvigsen",
+        "name": "Syndicate Obligations",
+        "pack_code": "core_2026",
+        "position": 103,
+        "quantity": 1,
+        "subtype_code": "basicweakness",
+        "text": "<b>Revelation</b> - Put Syndicate Obligations into play in your threat area.\n<b>Forced</b> - After you spend 1 or more resources: Take 1 damage.\n[action][action]: Discard Syndicate Obligations.",
+        "traits": "Pact. Syndicate.",
+        "type_code": "treachery"
+    },
+    {
         "code": "12104",
-        "deck_limit": 2,
+        "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "Rayven Studio & FFG",
         "name": "Wounded",
         "pack_code": "core_2026",
         "position": 104,
-        "quantity": 2,
+        "quantity": 1,
         "subtype_code": "basicweakness",
         "text": "<b>Revelation</b> - Put Wounded into play in your threat area.\n<b>Forced</b> - The first time you move each turn: Take 1 damage.\n[action][action]: Discard Wounded.",
         "traits": "Injury.",
