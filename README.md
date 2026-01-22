@@ -30,7 +30,7 @@ These can be used in a card's `text` section.
 
 * `[reaction]`
 * `[action]`
-* `[free]`
+* `[fast]`
 * `[elder_sign]`
 * `[skull]`
 * `[cultist]`
