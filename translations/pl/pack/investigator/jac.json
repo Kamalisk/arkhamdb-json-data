@@ -6,7 +6,7 @@
         "subname": "Medium",
         "text": "[reaction] Kiedy badacz w twojej lokalizacji miałby odkryć dowolną liczbę żetonów chaosu: odkryj 2 dodatkowe żetony chaosu. Z odkrytych żetonów wybierz i anuluj 2 żetony inne niż [auto_fail] lub 1 żeton [auto_fail]. (Limit raz na rundę).\nEfekt [elder_sign]: +1. Jeśli ten efekt zostanie anulowany lub zignorowany, dobierz 1 kartę.",
         "traits": "Jasnowidz.",
-        "back_flavor": "Krew. Ogień. Zniszczenie. Każdej nocy sny Jacqueline wypełniają rzeczy, które jeszcze nie nadeszły. Z początku myślała, że te sny to jakaś koszmarna klątwa. Jednak gdy zaczęła kontrolować swoje wizje i obserwować zawarte w nich wydarzenia z coraz większą dokładnością, zrozumiała, że nie jest to klątwa, lecz powołanie. Świat ma wkrótce popaść w tysiącletni nieopisany chaos i tylko ona potrafi dostrzec znaki: ostrzegawcze. Jej sny zawsze się sprawdzały, jednak tym razem nie może pozwolić, aby nawiedzające ją koszmary stały się rzeczywistością.",
+        "back_flavor": "Krew. Ogień. Zniszczenie. Każdej nocy sny Jacqueline wypełniają rzeczy, które jeszcze nie nadeszły. Z początku myślała, że te sny to jakaś koszmarna klątwa. Jednak gdy zaczęła kontrolować swoje wizje i obserwować zawarte w nich wydarzenia z coraz większą dokładnością, zrozumiała, że nie jest to klątwa, lecz powołanie. Świat ma wkrótce popaść w tysiącletni nieopisany chaos i tylko ona potrafi dostrzec znaki ostrzegawcze. Jej sny zawsze się sprawdzały, jednak tym razem nie może pozwolić, aby nawiedzające ją koszmary stały się rzeczywistością.",
         "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Mistyka ([mystic]) o poziomie 0-5, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b>  (nie wliczane do wielkości talii): Sędzia losów, Mroczna przyszłość, 1 losowe podstawowe osłabienie."
     },
     {
@@ -45,14 +45,14 @@
     {
         "code": "60408",
         "name": "Jasnowidzenie",
-        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Badanie.</b> Przeprowadź badanie przy pomocy [willpower] zamiast [intellect]. Jeśli test zakończy się sukcesem, odkrywasz w tej lokalizacji I dodatkową wskazówkę. Jeśli podczas tego badania zostanie odkryty żeton [elder_sign], „+1” lub „0”, otrzymujesz 1 punkt przerażenia.",
+        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Badanie.</b> Przeprowadź badanie przy pomocy [willpower] zamiast [intellect]. Jeśli test zakończy się sukcesem, odkrywasz w tej lokalizacji i dodatkową wskazówkę. Jeśli podczas tego badania zostanie odkryty żeton [elder_sign], „+1” lub „0”, otrzymujesz 1 punkt przerażenia.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
     {
         "code": "60409",
         "name": "Niewysłowiona prawda",
-        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Wymykanie się.</b> Ta próba wymknięcia się używa [willpower] zamiast [agility]. zamiast.Jeśli test zakończy się sukcesem, zadaj 1 obrażenie wrogowi, któremu udało się wymknąć. Jeśli podczas tej próby wymknięcia się zostanie odkryty żeton [elder_sign], „+1” lub „0”, tracisz 1 żeton zasobu.",
+        "text": "Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Wymykanie się.</b> Ta próba wymknięcia się używa [willpower] zamiast [agility]. Jeśli test zakończy się sukcesem, zadaj 1 obrażenie wrogowi, któremu udało się wymknąć. Jeśli podczas tej próby wymknięcia się zostanie odkryty żeton [elder_sign], „+1” lub „0”, tracisz 1 żeton zasobu.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
@@ -67,7 +67,7 @@
     {
         "code": "60411",
         "name": "Kryształowe wahadło",
-        "text": "Dostajesz +1 [willpower].\n[reaction] Po tym, jak w twojej lokalizacji rozpocznie się test Umiejętności, wyczerp Kryształowe wahadło: podaj liczbę. Jeśli ten test zakończy się sukcesem o podaną liczbę albo porażką o podaną liczbę, dobierz 1 kartę.",
+        "text": "Dostajesz +1 [willpower].\n[reaction] Po tym, jak w twojej lokalizacji rozpocznie się test umiejętności, wyczerp Kryształowe wahadło: podaj liczbę. Jeśli ten test zakończy się sukcesem o podaną liczbę albo porażką o podaną liczbę, dobierz 1 kartę.",
         "traits": "Przedmiot. Amulet.",
         "slot": "Drobiazg"
     },
@@ -75,7 +75,7 @@
         "code": "60412",
         "flavor": "Ciemna jest otchłań na zewnątrz. Jasna jest otchłań wewnątrz.",
         "name": "Szaty niekończącej się nocy",
-        "text": "[reaction] Kiedy zagrywasz kartę z cechą Zaklęcie, wyczerp Szaty niekończącej się nocy: obniż koszt danej karty o 1.",
+        "text": "[reaction] Kiedy zagrywasz kartę z cechą [[Zaklęcie]], wyczerp Szaty niekończącej się nocy: obniż koszt danej karty o 1.",
         "traits": "Przedmiot. Ubranie.",
         "slot": "Ciało"
     },
@@ -95,7 +95,7 @@
     {
         "code": "60419",
         "name": "Przewidywanie",
-        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nPo tym, jak przeznaczysz Przewidywanie do testu umiejętności, wybierz „parzyste”, „nieparzyste” lub „symbol”. Po tym, jak ten test się zakończy, jeśli podczas tego testu został odkryty żeton chaosu wybranego typu, możesz cofnąć na swoją rękę karte z cechą [[Zaklęcie]] z twojego stosu kart orzuconych.",
+        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nPo tym, jak przeznaczysz Przewidywanie do testu umiejętności, wybierz „parzyste”, „nieparzyste” lub „symbol”. Po tym, jak ten test się zakończy, jeśli podczas tego testu został odkryty żeton chaosu wybranego typu, możesz cofnąć na swoją rękę kartę z cechą [[Zaklęcie]] z twojego stosu kart odrzuconych.",
         "traits": "Nabyta. Zapowiedź."
     },
     {
@@ -135,7 +135,7 @@
     {
         "code": "60425",
         "name": "Lazurowy płomień",
-        "text": "Zużywalny (4 ładunki).\n[action] Wydaj 1 ładunek: <b>Walka.</b> Ten atak używa [willpower] zamiast [combat]. Do tego ataku dostajesz +2 [willpower]i zadajesz +1 obrażenie. Jeśli podczas tego ataku zostanie odkryty żeton [elder_sign], „+1” lub „0”, otrzymujesz 1 obrażenie.",
+        "text": "Zużywalny (4 ładunki).\n[action] Wydaj 1 ładunek: <b>Walka.</b> Ten atak używa [willpower] zamiast [combat]. Do tego ataku dostajesz +2 [willpower] i zadajesz +1 obrażenie. Jeśli podczas tego ataku zostanie odkryty żeton [elder_sign], „+1” lub „0”, otrzymujesz 1 obrażenie.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
