@@ -6,10 +6,23 @@
         "subname": "Pilotka",
         "text": "[free] Jeśli do tego testu umiejętności zostały przeznaczone 2 różne, kontrolowane przez ciebie karty niebędące osłabieniami: dobierz 1 kartę. (Limit raz na test.)\nEfekt [elder_sign]: +1. Po tym, jak ten test się zakończy, za każde 2 punkty, o które test zakończył się sukcesem, cofnij na twoją rękę 1 kartę, którą przeznaczyłeś do tego testu.",
         "traits": "Przestępca.",
-        "back_flavor": "Winifred - dla rodziców Weethao, dla przyjaciół Wini - była jednym z najmądrzejszych dzieci w szkole. Jednak, jej lekkomyślne zachowanie i brak szacunku dla nauczycieli i opiekunów sprawiały, że często wpadała w kłopoty. Jej życie odmieniło się, gdy w garażu pewnego farmera znalazła stary dwupłatowiec i postanowiła \"na chwilę go pożyczyć.\" Właściciel samolotu, pilot z czasów Wielkiej Wojny, był zachwycony jej naturalnym talentem i zaproopnował, że nauczy ją wszystkiego, co sam umie. Teraz Wini jest znana jako \"Nieustraszona\" i podróżuje po całym kraju, popisując się swoimi umiejętnościami. Trafność jej pseudonimu została poddana próbie, gdy podczas jednego z występów zauważyła istotę, którą trudno jej było nawet opisać: stwora ze skórzanymi skrzydłami i zmutowanym, wypełnionym ropą okiem.",
+        "back_flavor": "Winifred - dla rodziców Weethao, dla przyjaciół Wini - była jednym z najmądrzejszych dzieci w szkole. Jednak, jej lekkomyślne zachowanie i brak szacunku dla nauczycieli i opiekunów sprawiały, że często wpadała w kłopoty. Jej życie odmieniło się, gdy w garażu pewnego farmera znalazła stary dwupłatowiec i postanowiła \"na chwilę go pożyczyć.\" Właściciel samolotu, pilot z czasów Wielkiej Wojny, był zachwycony jej naturalnym talentem i zaproponował, że nauczy ją wszystkiego, co sam umie. Teraz Wini jest znana jako \"Nieustraszona\" i podróżuje po całym kraju, popisując się swoimi umiejętnościami. Trafność jej pseudonimu została poddana próbie, gdy podczas jednego z występów zauważyła istotę, którą trudno jej było nawet opisać: stwora ze skórzanymi skrzydłami i zmutowanym, wypełnionym ropą okiem.",
         "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Łotra ([rogue]) o poziomie 0-5, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Cokolwiek umiesz, umiem lepiej; Arogancja; 1 losowe podstawowe osłabienie."
     },
     {
+        "code": "60302",
+        "flavor": "\"A nie mówiłam?\"",
+        "name": "Cokolwiek umiesz, umiem lepiej",
+        "text": "Tylko talia Winifred Habbamock.\nPrzeznacz tylko do wykonywanego przez siebie testu umiejętności.",
+        "traits": "Wrodzona. Rozwinięta."
+    },
+    {
+        "code": "60303",
+        "name": "Arogancja",
+        "text": "Musisz przeznaczyć Arogancję do każdego testu umiejętności, który będziesz wykonywał, o ile to możliwe.\nSymbole z tej karty umiejętności odejmij od twojej wartości umiejętności, zamiast je dodawać.\nJeżeli ten test zakończy się sukcesem, cofnij tę kartę umiejętności na twoją rękę.",
+        "traits": "Skaza."
+    },
+   {
         "code": "60302",
         "flavor": "\"A nie mówiłam?\"",
         "name": "Cokolwiek umiesz, umiem lepiej",
@@ -38,25 +51,9 @@
     {
         "code": "60306",
         "name": "Mauser C96",
-        "text": "Zużywalny (5 nabojów).\n[action] Wyczerp Mausera C96 i wydaj 1 nabów: <b>Walka.</b> Do tego ataku dostajesz +1 [combat] i zadajesz +1 obrażenie. Jeśli test zakończy się sukcesem o 2 lub więcej, przygotuj Mausera C96 albo zyskaj 1 żeton zasobu.",
-        "traits": "Item. Weapon. Firearm. Illicit.",
-        "slot": "Hand"
-    },
-    {
-        "code": "60309",
-        "name": "Lonnie Ritter",
-        "subname": "Zadziorna mechaniczka",
-        "text": "Dostajesz +1 [combat].\n[fast] Wyczerp Lonnie Ritter i wydaj 1 żeton zasobu: wybierz atut z cechą [[Przedmiot]] kontrolowany przez badacza w twojej lokalizacji. Wylecz 1 obrażenie z danego atutu i 1 punkt przerażenia z Lonnie Ritter.",
-        "traits": "Sprzymierzeniec.",
-        "slot": "Sprzymierzeniec"
-    },
-    {
-        "code": "60310",
-        "flavor": "\"Myślisz, że kurtka zrobi z ciebie dobrą partię?\"\n\"E tam, ja dobrze wiem, że jestem świetną partią. Teraz po prostu będą to wiedzieć też inni!\"",
-        "name": "Skórzana kurtka",
-        "text": "Szybka.",
-        "traits": "Przedmiot. Pancerz.",
-        "slot": "Body"
+        "text": "Zużywalny (5 nabojów).\n[action] Wyczerp Mausera C96 i wydaj 1 nabój: <b>Walka.</b> Do tego ataku dostajesz +1 [combat] i zadajesz +1 obrażenie. Jeśli test zakończy się sukcesem o 2 lub więcej, przygotuj Mausera C96 albo zyskaj 1 żeton zasobu.",
+        "traits": "Przedmiot. Broń. Palna. Nielegalny.",
+        "slot": "Ręka"
     },
     {
         "code": "60311",
@@ -74,7 +71,7 @@
         "code": "60316",
         "flavor": "Powiedzieć Winifred, żeby czegoś nie robiła, to jak dać jej znak, by nie zmieniała planu.",
         "name": "Zakradnięcie się",
-        "text": "<b>Wymykwanie się.</b> Kiedy zaczyna się ta akcja, zyskujesz 2 żetony zasobów.",
+        "text": "<b>Wymykanie się.</b> Kiedy zaczyna się ta akcja, zyskujesz 2 żetony zasobów.",
         "traits": "Sztuczka."
     },
     {
