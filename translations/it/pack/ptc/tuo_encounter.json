@@ -11,7 +11,7 @@
         "name": "Chiusi Dentro",
         "back_name": "I Pazienti",
         "back_flavor": "Parlare con i pazienti si rivela più difficile del previsto: vi guardano con diffidenza, si rifiutano di rispondere a qualsiasi vostra domanda e indietreggiano o fuggono se tentate di insistere. Forse non sono abituati a ricevere visite, o forse c'è qualcosa in voi che li mette molto a disagio. Alcuni si comportano come animali stretti all'angolo, dandovi l'impressione di volervi aggredire da un momento all'altro.",
-        "back_text": "Rimescolate la pila degli scarti degli incontri e ogni nemico [[Pazzo]] messo da parte nel mazzo degli incontri. L'investigatore capo colloca 1 nemico [[Mostro]] messo da parte casuale sotto il mazzo dei capitoli senza guardarlo."
+        "back_text": "Rimescolate la pila degli scarti degli incontri e ogni nemico [[Posseduto]] messo da parte nel mazzo degli incontri. L'investigatore capo colloca 1 nemico [[Mostro]] messo da parte casuale sotto il mazzo dei capitoli senza guardarlo."
     },
     {
         "code": "03161",
@@ -78,7 +78,7 @@
         "flavor": "\"Mentre si aggiravano per i tortuosi corridoi di pietra del sanatorio, Carolyn si sentiva a disagio. Sembrava un posto in cui sarebbe stato molto facile smarrirsi.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\"",
         "name": "Corridoio del Manicomio",
         "subname": "Reparto Pazienti Ovest",
-        "text": "[reaction] Dopo che hai sconfitto un nemico [[Pazzo]] in questo luogo: Pesca 1 carta.",
+        "text": "[reaction] Dopo che hai sconfitto un nemico [[Posseduto]] in questo luogo: Pesca 1 carta.",
         "traits": "Manicomio di Arkham.",
         "back_flavor": "\"La piacevole atmosfera dell'area di ricevimento scomparve non appena il dottor Mintz richiuse la pesante porta di ferro alle sue spalle. La temperatura si fece di colpo umida e gelida e nell'aria si diffuse un pungente fetore.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\""
     },
@@ -87,7 +87,7 @@
         "flavor": "\"Mentre si aggiravano per i tortuosi corridoi di pietra del sanatorio, Carolyn si sentiva a disagio. Sembrava un posto in cui sarebbe stato molto facile smarrirsi.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\"",
         "name": "Corridoio del Manicomio",
         "subname": "Reparto Pazienti Ovest",
-        "text": "Ogni nemico [[Pazzo]] in questo luogo riceve +1 Orrore.",
+        "text": "Ogni nemico [[Posseduto]] in questo luogo riceve +1 Orrore.",
         "traits": "Manicomio di Arkham.",
         "back_flavor": "\"La piacevole atmosfera dell'area di ricevimento scomparve non appena il dottor Mintz richiuse la pesante porta di ferro alle sue spalle. La temperatura si fece di colpo umida e gelida e nell'aria si diffuse un pungente fetore.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\""
     },
@@ -96,7 +96,7 @@
         "flavor": "\"Mentre si aggiravano per i tortuosi corridoi di pietra del sanatorio, Carolyn si sentiva a disagio. Sembrava un posto in cui sarebbe stato molto facile smarrirsi.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\"",
         "name": "Corridoio del Manicomio",
         "subname": "Reparto Pazienti Est",
-        "text": "[action] Subisci 1 orrore: <b>Eludi.</b> Eludi automaticamente 1 nemico [[Pazzo]] in questo luogo.",
+        "text": "[action] Subisci 1 orrore: <b>Eludi.</b> Eludi automaticamente 1 nemico [[Posseduto]] in questo luogo.",
         "traits": "Manicomio di Arkham.",
         "back_flavor": "\"La piacevole atmosfera dell'area di ricevimento scomparve non appena il dottor Mintz richiuse la pesante porta di ferro alle sue spalle. La temperatura si fece di colpo umida e gelida e nell'aria si diffuse un pungente fetore.\"\n-Mallory O'Meara, \"Gli Investigatori di Arkham Horror\""
     },
@@ -202,7 +202,7 @@
         "name": "Daniel Chesterfield",
         "subname": "Non se la Passa Troppo Bene",
         "text": "[free] Esaurisci Daniel Chesterfield: Cedi il suo controllo a un altro investigatore nel tuo luogo.\n<b>Obbligo</b> - Quando subisci orrori, se 1 o più orrori non sono assegnati a Daniel Chesterfield: Subisci 1 danno.\n<b>Obbligo</b> - Se Daniel Chesterfield esce dal gioco: Rimuovilo dal gioco.",
-        "traits": "Alleato. Pazzo.",
+        "traits": "Alleato. Posseduto.",
         "slot": "Alleato"
     },
     {
@@ -210,7 +210,7 @@
         "name": "Daniel Chesterfield",
         "subname": "… o Almeno, Ciò Che Resta di Lui",
         "text": "<b>Preda</b> - L'investigatore con più [combat].\nSe controlli il Fermaglio di Onice Nero: <b>Negozia.</b> Quando mostri a Daniel il fermaglio, l'uomo indietreggia barcollando e crolla a terra immobile. Collocalo nella galleria delle vittorie.",
-        "traits": "Umanoide. Pazzo. Elite."
+        "traits": "Umanoide. Posseduto. Elite."
     },
     {
         "code": "03183",
@@ -223,7 +223,7 @@
         "flavor": "A volte l'avversario più terrificante di un uomo è la sua stessa mente.",
         "name": "Paziente Alienato",
         "text": "<b>Generazione</b> - Il Corridoio del Manicomio più vicino.\n<b>Preda</b> - L'investigatore con più Sanità Mentale rimanente.\n<b>Obbligo</b> - Quando attacchi il Paziente Alienato: Subisci 1 orrore.",
-        "traits": "Umanoide. Pazzo.."
+        "traits": "Umanoide. Posseduto.."
     },
     {
         "code": "03185",
@@ -236,7 +236,7 @@
         "code": "03186",
         "name": "Dono della Follia",
         "subname": "Pietà",
-        "text": "Isolamento, Nascosto.\n<b>Rivelazione</b> - Aggiungi segretamente il Dono della. Follia (Pietà) alla tua mano.\nNon puoi attaccare i nemici [[Pazzo]].\n[action]: Colloca 1 nemico [[Mostro]] messo da parte casuale sotto il mazzo dei capitoli senza guardarlo. Scarta il Dono della Follia (Pietà) dalla tua mano.",
+        "text": "Isolamento, Nascosto.\n<b>Rivelazione</b> - Aggiungi segretamente il Dono della. Follia (Pietà) alla tua mano.\nNon puoi attaccare i nemici [[Posseduto]].\n[action]: Colloca 1 nemico [[Mostro]] messo da parte casuale sotto il mazzo dei capitoli senza guardarlo. Scarta il Dono della Follia (Pietà) dalla tua mano.",
         "traits": "Terrore."
     },
     {
