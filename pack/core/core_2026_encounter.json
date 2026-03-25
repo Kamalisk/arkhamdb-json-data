@@ -116,7 +116,7 @@
     {
         "back_flavor": "You find Dr. Armitage barricaded in one of Orne Library's lecture halls.\n\"Some on campus have been acting strange lately, your friend among them. But all of that can wait. We must confront your pursuer nad stop them before the entire campus burns!\" Dr. Armitage says.",
         "back_name": "The Servant Unleashed",
-        "back_text": "Put the set-aside Dr. Henry Armitage story asset into play under any investigator's control. He does not take up an ally slot during this scenario.\n Put the set-aside Servant of Flame enemy into play at Miskatonic Quad. Place 3 xhat clues on Miskatonic Quad.\nThe lead investigator must search the encounter deck and discard pile for 1 xhat copies of Fire! and draw them. <i>(Shuffle the encounter deck if it was searched.)</i>",
+        "back_text": "Put the set-aside Dr. Henry Armitage story asset into play under any investigator's control. He does not take up an ally slot during this scenario.\n Put the set-aside Servant of Flame enemy into play at Miskatonic Quad. Place 3 [per_investigator] clues on Miskatonic Quad.\nThe lead investigator must search the encounter deck and discard pile for 1 [per_investigator] copies of Fire! and draw them. <i>(Shuffle the encounter deck if it was searched.)</i>",
         "clues": 3,
         "code": "12111",
         "double_sided": true,
@@ -150,7 +150,7 @@
         "position": 112,
         "quantity": 1,
         "stage": 4,
-        "text": "[fast] Spend 1 xhat clues, as a group: Deal 1 xhat damage to an enemy at your location.\n[action]: <b>Resign.</b> You flee the burning campus. <i>(This does not provoke attacks of opportunity.)</i>\n<b>Objective</b> - If the Servant of Flame is defeated: Advance.",
+        "text": "[fast] Spend 1 [per_investigator] clues, as a group: Deal 1 [per_investigator] damage to an enemy at your location.\n[action]: <b>Resign.</b> You flee the burning campus. <i>(This does not provoke attacks of opportunity.)</i>\n<b>Objective</b> - If the Servant of Flame is defeated: Advance.",
         "type_code": "act"
     },
     {
@@ -292,7 +292,7 @@
         "position": 136,
         "quantity": 1,
         "stage": 1,
-        "text": "[action] Spend 2 xhat clues, as a group: Draw the facedown card beneath your location.\n<b>Objective</b> - If there are a total of 6 [[Elite]] enemies in the victory display and/or under the act, advance. <i>(Hint: Either defeat the suspects by force or resolve their codex entries to generate leads for your investigation!)</i>",
+        "text": "[action] Spend 2 [per_investigator] clues, as a group: Draw the facedown card beneath your location.\n<b>Objective</b> - If there are a total of 6 [[Elite]] enemies in the victory display and/or under the act, advance. <i>(Hint: Either defeat the suspects by force or resolve their codex entries to generate leads for your investigation!)</i>",
         "type_code": "act"
     },
     {
@@ -402,7 +402,7 @@
         "pack_code": "core_2026",
         "position": 171,
         "quantity": 1,
-        "text": "xfor When doom would be placed on a card: Each investigator takes 1 direct damage, instead.\nxfor If each remaining investigator is defeated: Advance.\n<b>Objective</b> - If Elokoss is defeated, <b>(→R1)</b> <i>(page 13)</i>.",
+        "text": "<b>Forced</b> - When doom would be placed on a card: Each investigator takes 1 direct damage, instead.\n<b>Forced</b> - If each remaining investigator is defeated: Advance.\n<b>Objective</b> - If Elokoss is defeated, <b>(→R1)</b> <i>(page 13)</i>.",
         "type_code": "agenda"
     },
     {
@@ -442,13 +442,13 @@
         "position": 173,
         "quantity": 1,
         "stage": 2,
-        "text": "[fast] Spend 1 xhat clues, as a gruop: Discard a copy of Fire! at your location.\nxfor When the round ends: Each [[Cultist]] enemy moves onve toward Underground Cistern.\n<b>Objective/b> - If Elokoss is defeated, advance.",
+        "text": "[fast] Spend 1 [per_investigator] clues, as a gruop: Discard a copy of Fire! at your location.\n<b>Forced</b> - When the round ends: Each [[Cultist]] enemy moves onve toward Underground Cistern.\n<b>Objective/b> - If Elokoss is defeated, advance.",
         "type_code": "act"
     },
     {
         "back_flavor": "Strange chants echo through the tunnels, hinting at the location of the cult's lair.",
         "back_name": "Underground Cistern",
-        "back_text": "As an additional cost to enter Underground Cistern, investigators must spend 3 xhat clues, as a group.",
+        "back_text": "As an additional cost to enter Underground Cistern, investigators must spend 3 [per_investigator] clues, as a group.",
         "clues": 2,
         "code": "12174",
         "double_sided": true,
@@ -461,14 +461,14 @@
         "position": 174,
         "quantity": 1,
         "shroud": 4,
-        "text": "xfor If there are no clues on Underground Cistern: Place clues <i>(from the token pool)</i> on it up to its clue value.\nxfor When the investigation phase ends: Discard each ready non-[[Elite Cultist]] enemy at this location. Place 1 doom on the agenda for each enemy discarded in this way.",
+        "text": "<b>Forced</b> - If there are no clues on Underground Cistern: Place clues <i>(from the token pool)</i> on it up to its clue value.\n<b>Forced</b> - When the investigation phase ends: Discard each ready non-[[Elite Cultist]] enemy at this location. Place 1 doom on the agenda for each enemy discarded in this way.",
         "traits": "Ritual Site.",
         "type_code": "location"
     },
     {
         "back_flavor": "A narrow passage leads out of the cistern up to a locked door. Although the sluice gate hasn't been opened in years, the ensuing flood might be enough to wipe out everything in the sewers - including you.",
         "back_name": "Sluice Control",
-        "back_text": "As an additional cost to enter Sluice Control, investigators must spend 1 xhat clues, as a group.",
+        "back_text": "As an additional cost to enter Sluice Control, investigators must spend 1 [per_investigator] clues, as a group.",
         "clues": 2,
         "code": "12175",
         "double_sided": true,
@@ -497,7 +497,7 @@
         "pack_code": "core_2026",
         "position": 176,
         "quantity": 2,
-        "text": "xrev Test [willpower] (4). If you fail, you must either take 2 direct damage or 2 direct horror (whichever you have more of).",
+        "text": "<b>Revelation</b> - Test [willpower] (4). If you fail, you must either take 2 direct damage or 2 direct horror (whichever you have more of).",
         "traits": "Power.",
         "type_code": "treachery"
     },
@@ -516,7 +516,7 @@
         "pack_code": "core_2026",
         "position": 177,
         "quantity": 1,
-        "text": "Hunter.\nxfor When Queen's Knight takes 1 or more damage: Deal 1 damage to Elokoss.",
+        "text": "Hunter.\n<b>Forced</b> - When Queen's Knight takes 1 or more damage: Deal 1 damage to Elokoss.",
         "traits": "Humanoid. Cultist.",
         "type_code": "enemy",
         "victory": 1
@@ -536,7 +536,7 @@
         "pack_code": "core_2026",
         "position": 178,
         "quantity": 1,
-        "text": "Hunter.\nxfor After this enemy attacks: Heal 1 damage from each enemy at its location.",
+        "text": "Hunter.\n<b>Forced</b> - After this enemy attacks: Heal 1 damage from each enemy at its location.",
         "traits": "Monster.",
         "type_code": "enemy",
         "victory": 1
@@ -559,7 +559,7 @@
         "position": 179,
         "quantity": 1,
         "subname": "Faint Embers",
-        "text": "Massive. Retaliate.\nElokoss gets +5 xhat health, cannot move, and cannot make attacks of opportunity.\n[fast] Spend 1 xhat clues: Place 1 clue on Elokoss. If Elokoss has 5 clues on her, <b>(→R2)</b> <i>(page 14)</i>.",
+        "text": "Massive. Retaliate.\nElokoss gets +5 [per_investigator] health, cannot move, and cannot make attacks of opportunity.\n[fast] Spend 1 [per_investigator] clues: Place 1 clue on Elokoss. If Elokoss has 5 clues on her, <b>(→R2)</b> <i>(page 14)</i>.",
         "traits": "Ancient One. Flora. Elite.",
         "type_code": "enemy",
         "victory": 5
@@ -582,7 +582,7 @@
         "position": 179,
         "quantity": 1,
         "subname": "Mother of Flame",
-        "text": "Hunter. Massive. Retaliate.\nElokoss gets +5 xhat health.\nxfor After you evade Elokoss: Ready her. She cannot attack you for the remainder of the round.",
+        "text": "Hunter. Massive. Retaliate.\nElokoss gets +5 [per_investigator] health.\n<b>Forced</b> - After you evade Elokoss: Ready her. She cannot attack you for the remainder of the round.",
         "traits": "Ancient One. Flora. Elite.",
         "type_code": "enemy",
         "victory": 5
