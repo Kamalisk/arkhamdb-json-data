@@ -31,7 +31,7 @@
     },
     {
         "code": "02163",
-        "flavor": "El portal chisporrotea de poder a medida que aumenta su fuerza. La tierra y las rocas del borde del puente que tenéis detrás están siendo arrancadas del suelo, y los árboles están siendo desarraigados al ser atraídos por el portal. Un joven pasajero rompe la ventana de vuestro vagón y grita: —iDebemos salir de aquí! —Salta por la ventana, pero antes de caer al río que hay debajo, es atrapado por las garras de una veloz criatura voladora y desaparece de vuestra vista. Al paso de la criatura sólo queda un rastro de vapor.",
+        "flavor": "El portal chisporrotea de poder a medida que aumenta su fuerza. La tierra y las rocas del borde del puente que tenéis detrás están siendo arrancadas del suelo, y los árboles están siendo desarraigados al ser atraídos por el portal. Un joven pasajero rompe la ventana de vuestro vagón y grita: —¡Debemos salir de aquí! —Salta por la ventana, pero antes de caer al río que hay debajo, es atrapado por las garras de una veloz criatura voladora y desaparece de vuestra vista. Al paso de la criatura sólo queda un rastro de vapor.",
         "name": "Atraídos",
         "back_name": "No hay lugar seguro",
         "back_flavor": "Los dos vagones de la cola del tren comienzan a fundirse a medida que se llenan de vapor ultracaliente. El metal se dobla, y los pasajeros del interior gritan de agonía. Los vagones son arrancados de las vías del tren junto con tablones de los raíles y trozos del puente que tenéis detrás.",
@@ -48,8 +48,8 @@
     {
         "code": "02165",
         "flavor": "El tren se ha detenido sobre un puente que se eleva sobre el río Miskatonic; quizá podríais sobrevivir a la caída, pero no queréis tentar a la suerte. Lo mejor que podéis hacer es llegar a la locomotora tan rápido como podáis para volver a poner el tren en marcha.",
-        "name": "¡CorredR!",
-        "text": "<b>Objective</b> - Si un investigador entra en la Locomotora, haz avanzar el acto inmediatamente.",
+        "name": "¡Corred!",
+        "text": "<b>Objetivo</b> - Si un investigador entra en la Locomotora, haz avanzar el acto inmediatamente.",
         "back_name": "Alas de vapor",
         "back_flavor": "Un ténder lleno de carbón bloquea el paso hasta la cabina de la locomotora. Te tragas el miedo y sales por la ventana que tienes más cerca para trepar al techo del tren y cruzar el ténder. El incesante movimiento hacia atrás del tren te dificulta no perder el equilibrio. Al acercarte, una criatura alada desciende desde lo alto, con un cuerpo compuesto de hirviente vapor.",
         "back_text": "<b>El investigador que entre en la Locomotora lee lo siguiente en voz alta:\n</b>Debes decidir (elige una opción):\n- Realiza una prueba de [agility] (3) para intentar esquivar a la criatura. Si fracasas, saltas demasiado lejos y apenas logras aferrarte al lateral del tren, por lo que quedas colgado a duras penas. Aunque logras auparte, la experiencia es aterradora. Sufre 1 trauma mental.\n- Realiza una prueba de [combat] (3) para intentar soportar el calor extremo de la criatura. Si fracasas, la criatura te atraviesa volando y el calor te quema. Sufre 1 trauma físico."
@@ -58,7 +58,7 @@
         "code": "02166",
         "flavor": "Habéis logrado llegar a la locomotora, pero ¡ahora tenéis que volver a arrancar el motor para poder escapar de la fuerza absorbente del portal!",
         "name": "¡Arrancad la locomotora!",
-        "text": "<b>Objective</b> - Si no hay pistas en la Locomotora, haz avanzar el acto inmediatamente.",
+        "text": "<b>Objetivo</b> - Si no hay pistas en la Locomotora, haz avanzar el acto inmediatamente.",
         "back_name": "Hacia delante",
         "back_flavor": "El motor ruge y se pone en marcha. Echáis carbón a paletadas en la caldera del motor, y os alivia ver que el tren vuelve a moverse hacia delante por las vías.",
         "back_text": "<b>(→R1)</b>"
@@ -98,7 +98,7 @@
     {
         "code": "02171",
         "name": "Vagón de pasajeros",
-        "text": "El Vagón de pasajeros está conectado a los Lugares de su izquierda y de su derecha.\n<b>Obligado</b> - Después de que entres en el Vagón de pasajeros: Debes descartar una carta de tu mano que tenga al menos 1 icono ?, o bien recibir 1 punto de daño y 1 de horror.",
+        "text": "El Vagón de pasajeros está conectado a los Lugares de su izquierda y de su derecha.\n<b>Obligado</b> - Después de que entres en el Vagón de pasajeros: Debes descartar una carta de tu mano que tenga al menos 1 icono [wild], o bien recibir 1 punto de daño y 1 de horror.",
         "traits": "Tren.",
         "back_name": "Vagón de tren",
         "back_text": "El Vagón de tren está conectado a los Lugares de su izquierda y de su derecha.\nNo puedes entrar en el Vagón de tren a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
@@ -133,7 +133,7 @@
         "name": "Locomotora",
         "text": "La Locomotora está conectada al Lugar de su izquierda.",
         "traits": "Tren.",
-        "back_text": "La Locomotora está conectado al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
+        "back_text": "La Locomotora está conectada al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
     },
     {
         "code": "02176",
@@ -141,7 +141,7 @@
         "name": "Locomotora",
         "text": "La Locomotora está conectada al Lugar de su izquierda.\n<b>Obligado</b> - Después de que reveles la Locomotora: Busca un Horror apresador en el mazo y la pila de descartes de Encuentros y róbalo. Baraja el mazo de Encuentros.",
         "traits": "Tren.",
-        "back_text": "La Locomotora está conectado al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
+        "back_text": "La Locomotora está conectada al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
     },
     {
         "code": "02177",
@@ -149,7 +149,7 @@
         "name": "Locomotora",
         "text": "La Locomotora está conectada al Lugar de su izquierda.\n<b>Obligado</b> - Después de que reveles la Locomotora: Roba las 3 primeras cartas del mazo de Encuentros.",
         "traits": "Tren.",
-        "back_text": "La Locomotora está conectado al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
+        "back_text": "La Locomotora está conectada al Lugar de su izquierda.\nNo puedes entrar en la Locomotora a menos que todas las pistas del Lugar de su izquierda hayan sido descubiertas."
     },
     {
         "code": "02178",
