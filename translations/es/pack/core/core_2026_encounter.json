@@ -1,0 +1,680 @@
+[
+	{
+		"code": "12105",
+		"name": "Las llamas se propagan",
+		"text": "<b>Fácil/Normal</b>\n[skull]: -X. X es el número de acto en curso.\n[tablet]: -1. Revela otra ficha. Si fracasas, recibe 1 punto de daño.\n[elder_thing]: -3. Si fracasas por 2 o más, roba la primera copia de ¡Fuego! de la pila de descartes de Encuentros si es posible.",
+        "back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el número del plan en curso más 1.\n[tablet]: -2. Revela otra ficha. Si fracasas, recibe 1 punto de daño.\n[elder_thing]: -4. Si fracasas, roba la primera copia de ¡Fuego! de la pila de descartes de Encuentros si es posible."
+	},
+	{
+		"code": "12106",
+		"name": "Horas intempestivas",
+		"text": "[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (2). Si tienes éxito, descarta un Enemigo Transeúnte de tu Lugar.",
+		"flavor": "El campus está extrañamente tranquilo y no hay ni rastro de tu amigo. Unas figuras encapuchadas cruzan el patio principal mientras unos nerviosos estudiantes se apresuran bajo las farolas fastidiosamente brillantes.",
+		"back_name": "Humo en el viento",
+		"back_text": "Siguiendo el orden de juego, cada investigador realiza una prueba de [willpower] (3). Cada investigador que fracase recibe 1 punto de horror.",
+		"back_flavor": "Un viento lleva el olor del humo por todo el campus. Una columna de llamas sale de un edificio cercano."
+	},
+	{
+		"code": "12107",
+		"name": "Encendido",
+		"text": "[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (2). Si tienes éxito, descarta un Enemigo Transeúnte de tu Lugar.",
+		"flavor": "El cielo presenta un resplandor anaranjado a medida que las llamas se propagan.",
+		"back_name": "Fuego incontrolable",
+		"back_text": "Si siguen aparte, coloca 4 copias de ¡Fuego! puestas aparte en la pila de descartes de Encuentros.\nSiguiendo el orden de juego, cada investigador realiza una prueba de [agility] (3). Cada investigador que fracase recibe 1 punto de daño.",
+		"back_flavor": "Las ascuas recorren el aire sobre la Universidad Miskatonic. El alarido de una alarma de incendios resuena por el patio principal mientras docenas de asustados estudiantes huyen del lugar."
+	},
+	{
+		"code": "12108",
+		"name": "Llamas salvajes",
+		"text": "[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (2). Si tienes éxito, descarta un Enemigo Transeúnte de tu Lugar.\n<b>Obligado</b> - Después de que se coloque perdición en el plan: El investigador jefe roba la primera copia de ¡Fuego! de la pila de descartes de Encuentros.",
+		"flavor": "¡El campus está ardiendo!",
+		"back_name": "Ardiendo en llamas",
+		"back_text": "Cada investigador superviviente que no haya desistido queda derrotado y sufre un trauma físico.",
+		"back_flavor": "Un denso humo negro llena el aire a tu alrededor y caes de rodillas entre toses. Más allá de las voraces llamas, ves que se mueven unas borrosas siluetas oscuras. Por mucho que te esfuerces, no logras ponerte a salvo. Se te nubla la vista mientras pierdes la consciencia."
+	},
+	{
+		"code": "12109",
+		"name": "Donde hay humo…",
+		"text": "<b>Objetivo</b> - Al final de la ronda, los investigadores, como grupo, pueden gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "Registras la residencia universitaria en busca de algún rastro de tu amigo.",
+		"back_name": "… hay fuego",
+		"back_text": "Descarta todos los Enemigos que haya en juego.\nPon en juego los Lugares Residencia y Patio principal de Miskatonic puestos aparte. Haz aparecer el Enemigo Sirviente de la llama puesto aparte en la Residencia.\nVincula 1 copia de ¡Fuego! puesta aparte a la Habitación de tu amigo. Coloca todas las demás copias de ¡Fuego! puestas aparte en la pila de descartes de Encuentros.",
+		"back_flavor": "Encuentras la bolsa de tu amigo, quemada con el emblema estilizado de la palma de una mano abierta. Esté donde esté, supones que no se fue por voluntad propia. Cuando te dispones a marcharte, una figura enmascarada y envuelta en llamas se encara contigo. Emite un escalofriante chillido y la estancia se prende fuego a tu alrededor."
+	},
+	{
+		"code": "12110",
+		"name": "Huida de la residencia",
+		"text": "<b>Objetivo</b> - Si todos los investigadores no derrotados están en el Patio principal de Miskatonic, haz avanzar el acto. <i>(consejo: ¡a veces es mejor huir que pelear!).</i>",
+		"flavor": "Una aparición ardiente se interpone entre la salida y tú. ¡Debes escapar de la residencia!",
+		"back_name": "Al aire libre",
+		"back_text": "Busca el Sirviente de la llama en todas las zonas en juego y fuera del juego, cúrale todo el daño y ponlo aparte, fuera del juego.\nDescarta todos los Enemigos que haya en juego.\nDescarta todas las fichas y cartas vinculadas de la Habitación de tu amigo y retírala de la partida. Pon en juego todos los Lugares puestos aparte restantes <i>(Biblioteca Orne, Pabellón de Ciencias, Observatorio Warren).</i>",
+		"back_flavor": "Sales de la residencia al fresco aire de la noche otoñal con los pulmones a punto de reventar. Al mirar atrás, no hay ni rastro de tu perseguidor. Recuerdas que tu amigo quería hablar con el Dr. Henry Armitage, el bibliotecario jefe de la Universidad Miskatonic.\nTal vez él pueda ayudarte a entender lo que está pasando."
+	},
+	{
+		"code": "12111",
+		"name": "En busca del Dr. Armitage",
+		"text": "<b>Objetivo</b> - Al final de la ronda, los investigadores que estén en la Biblioteca Orne pueden, como grupo, gastar la cantidad necesaria de pistas para hacer avanzar el acto.",
+		"flavor": "Tu amigo mencionó que había visitado al Dr. Henry Armitage, el bibliotecario jefe. Cada vez llegan más personajes extraños, así que debes registrar el campus para dar con su paradero.",
+		"back_name": "El sirviente desatado",
+		"back_text": "Pon el Apoyo de historia Dr. Henry Armitage puesto aparte en juego bajo el control de cualquier investigador. No ocupa un espacio de aliado durante este escenario.\nPon el Enemigo Sirviente de la llama puesto aparte en juego en el Patio principal de Miskatonic. Coloca 3 pistas [per_investigator] en el Patio principal de Miskatonic.\nEl investigador jefe debe buscar en el mazo y la pila de descartes de Encuentros 1 copia [per_investigator] de ¡Fuego! y robarlas. <i>(Baraja el mazo de Encuentros si se ha buscado en él.)</i>",
+		"back_flavor": "Encuentras al Dr. Armitage atrincherado en una de las aulas de la Biblioteca Orne.\n-Ha habido personas que se comportaban de forma extraña en el campus últimamente, entre ellas tu amigo. Pero todo eso puede esperar. ¡Debemos enfrentarnos a tu perseguidor y detenerlo antes de que arda todo el campus! -dice el Dr. Armitage."
+	},
+	{
+		"code": "12112",
+		"name": "Llamarada de gloria",
+		"text": "[fast] Los investigadores, como grupo, gastan 1 pista [per_investigator]: Inflige 1 punto de daño [per_investigator] a un Enemigo que esté en tu Lugar.\n[action]: <b>Desistir.</b> Huyes del campus en llamas <i>(esto no provoca ataques de oportunidad)</i>.\n<b>Objetivo</b> - Si el Sirviente de la llama es derrotado: Haz avanzar el acto.",
+		"flavor": "¡No puedes permitir que tu ardiente némesis haga daño a más inocentes! Con ayuda del Dr. Armitage, quizás puedas detenerlo.",
+		"back_name": "Una llama apagada",
+		"back_text": "<b>(→R1)</b> <i>(página 4)</i>",
+		"back_flavor": "Tu terrible perseguidor retrocede, tambaleante, y se aferra la cabeza con ambas manos, como si intentase arrancarse la máscara. El sonido de las sirenas a lo lejos va aumentando de intensidad. Te giras y ves un grupo de aterrados estudiantes que pasan corriendo junto a ti. Cuando vuelves tu atención a tu llameante némesis, se ha desvanecido sin dejar rastro."
+	},
+	{
+		"code": "12113",
+		"name": "Habitación de tu amigo",
+		"text": "[action]: <b>Enfrentarse.</b> Elige un Enemigo que esté en un Lugar conectado. Ese Enemigo se mueve a este Lugar y se enfrenta a ti. Esta acción no provoca ataques de oportunidad.",
+		"flavor": "La residencia se está llenando de humo rápidamente.",
+		"back_flavor": "La habitación de tu amigo está hecha un verdadero desastre, pero ¿es producto de una mente descuidada o de algún forcejeo o pelea?",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "12114",
+		"name": "Sirviente de la llama",
+		"subname": "Furia ardiente",
+		"text": "Cazador. Presa (menor [agility]). Represalia.",
+		"traits": "Humanoide. Élite."
+	},
+	{
+		"code": "12115",
+		"name": "Dr. Henry Armitage",
+		"subname": "El bibliotecario jefe",
+		"text": "Recibes +1 [willpower] y +1 [intellect].\nLa primera acción que realices en cada ronda no provoca ataques de oportunidad.",
+		"flavor": "\"He visto unos cuantos sucesos extraños en mi vida.\"",
+		"traits": "Aliado. Miskatonic."
+	},
+	{
+		"code": "12116",
+		"name": "Patio principal de Miskatonic",
+		"text": "[fast] Durante tu turno, si hay exactamente 1 o 2 investigadores en la partida: Muévete a un Lugar conectado. Límite de grupo de una vez por ronda.",
+		"back_flavor": "El patio principal es la encrucijada central de la Universidad  Miskatonic.",
+		"traits": "Miskatonic. Central."
+	},
+	{
+		"code": "12117",
+		"name": "Residencia",
+		"text": "[action]: Cúrate 1 punto de daño y 1 punto de horror. Límite de una vez por partida.",
+		"flavor": "Uno no se aburre nunca en la residencia universitaria.",
+		"back_flavor": "La residencia está recién reformada y cuenta con las mejores comodidades modernas, como aire acondicionado, retretes con cisterna y una nevera comunitaria.",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "12118",
+		"name": "Pabellón de Ciencias",
+		"text": "<b>Obligado</b> - Después de que descubras 1 o más pistas en el Pabellón de Ciencias: Elige y descarta 1 carta de tu mano.",
+		"flavor": "Los estudiantes nunca saben a ciencia cierta qué habrá bajo el microscopio cada día.",
+		"back_flavor": "La construcción del Pabellón de Ciencias West Memorial en la parte norte del campus resulta confusa, como poco. Sin embargo, los estudiantes están encantados con unas instalaciones tan modernas y con el equipamiento de última generación.",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "12119",
+		"name": "Observatorio Warren",
+		"text": "[reaction] Después de que descubras 1 o más pistas en este Lugar: Roba 1 carta. Límite de una vez por ronda.",
+		"flavor": "Hasta la fecha, los astrónomos de Miskatonic han identificado al menos 15 estrellas distintas que parecen haber desaparecido del hemisferio norte.",
+		"back_flavor": "Una generosa subvención de Tillinghast Endeavors ha permitido a la universidad recuperar el histórico observatorio, mayor y mejor que nunca.",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "12120",
+		"name": "Biblioteca Orne",
+		"text": "[action][action]: Roba 3 cartas. Límite de una vez por partida.",
+		"flavor": "Los estudiantes han informado de que se oyen sonidos extraños provenientes de los archivos vacíos durante la noche…",
+		"back_flavor": "Para tomar todas las precauciones posibles desde la inundación, los bibliotecarios de Orne han vaciado el sótano de archivos y se han esforzado por impermeabilizar el edificio.",
+		"traits": "Miskatonic."
+	},
+	{
+		"code": "12121",
+		"name": "Capiscol de la llama",
+		"text": "Represalia.",
+		"flavor": "\"En sangre y sombra, por hoja y llama,\ntras la inundación, nuestra reina regresa.\"\n-Edicto de ceniza, vol. XIX",
+		"traits": "Humanoide. Sectario."
+	},
+	{
+		"code": "12122",
+		"name": "Sabueso infernal",
+		"text": "Cazador.\n<b>Obligado</b> - Después de que el Sabueso infernal te ataque durante la fase de Enemigos: Elige y descarta 1 Apoyo que controles.",
+		"traits": "Criatura. Monstruo."
+	},
+	{
+		"code": "12123",
+		"name": "Transeúnte",
+		"text": "Condenado <i>(cuando este Enemigo sea derrotado, coloca 1 ficha de Perdición en el plan en curso. Este efecto puede hacer que el plan en curso avance)</i>.",
+		"flavor": "Siempre están en el peor momento y en el peor lugar.",
+		"traits": "Humanoide. Civil."
+	},
+	{
+		"code": "12124",
+		"name": "Males cósmicos",
+		"text": "Peligro.\n<b>Revelación</b> - Debes <i>(elige 1 opción)</i>:\n- Colocar 1 ficha de Perdición en el plan en curso. Este efecto puede hacer que el plan avance.\n- Recibir 1 punto de daño directo y 1 punto de horror directo. Males cósmicos obtiene Oleada.",
+		"traits": "Augurio."
+	},
+	{
+		"code": "12125",
+		"name": "Verdades indecibles",
+		"text": "<b>Revelación</b> - Pon las Verdades indecibles en juego en tu zona de amenaza. Límite de 1 por investigador.\n<b>Obligado</b> - Después de que descubras 1 o más pistas: Recibe 1 punto de horror.\n[action][action]: Descarta las Verdades indecibles.",
+		"traits": "Terror."
+	},
+	{
+		"code": "12126",
+		"name": "Secretos prohibidos",
+		"text": "<b>Revelación</b> - Si no tienes pistas, los Secretos prohibidos obtiene Oleada. Si no es así, realiza una prueba de [intellect] (3). Por cada punto que te falte para tener éxito, debes colocar 1 de tus pistas en tu Lugar o bien recibir 1 punto de horror.",
+		"flavor": "Dicen que la curiosidad mató al gato, pero ¿te matará a ti también?",
+		"traits": "Pacto."
+	},
+	{
+		"code": "12127",
+		"name": "Visiones extraplanares",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] o de [intellect] (X), donde X es la cantidad de cartas de tu mano. Si fracasas, recibe 1 punto de daño y descarta 1 carta de tu mano al azar.",
+		"traits": "Poder."
+	},
+	{
+		"code": "12128",
+		"name": "Compulsión salvaje",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (3). Por cada punto que te falte para tener éxito, debes descartar 1 carta de tu mano al azar o bien perder 1 recurso.",
+		"flavor": "\"¡Dios ayude al soñador cuyas locas visiones le muestren esos ojos muertos engastados en abismos de cristal!\"\n<u>-H.P. Lovecraft</u>, \"Hongos de Yuggoth\"",
+		"traits": "Locura. Desgracia."
+	},
+	{
+		"code": "12129",
+		"name": "¡Fuego!",
+		"text": "<b>Revelación</b> - Vincula ¡Fuego! al Lugar más cercano que no tenga ¡Fuego! vinculado.\n<b>Obligado</b> - Cuando acabe la fase de Investigación: Cada carta que no sea [[Élite]] y que tenga salud en este Lugar recibe 1 punto de daño directo.\n[action]: Realiza una prueba de [agility] (3). Si tienes éxito, descarta ¡Fuego!",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12130",
+		"name": "Humo nocivo",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] o [agility] (3). Recibe 1 punto de daño por cada punto que te falte para tener éxito.",
+		"flavor": "Donde hay humo, casi seguro que hay fuego.",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12131",
+		"name": "¡Mutado!",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (2). Esta prueba recibe +2 a su dificultad si hay un Enemigo en tu Lugar. Si fracasas, debes recibir 2 puntos de daño o bien cada investigador que esté en tu Lugar recibe 1 punto de horror.",
+		"traits": "Mutación."
+	},
+	{
+		"code": "12132",
+		"name": "Experimento mutado",
+		"text": "<b>Obligado</b> - Cuando este Enemigo sea derrotado: Cada investigador que esté en su Lugar recibe 1 punto de horror.",
+		"traits": "Criatura. Mutado."
+	},
+	{
+		"code": "12133",
+		"name": "Humo y espejos",
+		"text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la cantidad total de Enemigos [[Élite]] que hay en la zona de victoria y bajo el acto.\n[cultist]: -1. Si se trata de una prueba que tiene como objetivo un Enemigo [[Élite]], revela otra ficha.\n[tablet]: -3. Si fracasas, coloca 1 de tus pistas en tu Lugar.\n[elder_thing]: -1 por cada pista que controles.",
+		"back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es la cantidad total de Enemigos [[Élite]] que hay en la zona de victoria y bajo el acto más 2.\n[cultist]: -3. Si se trata de una prueba que tiene como objetivo un Enemigo [[Élite]], revela otra ficha.\n[tablet]: -4. Si fracasas, coloca 1 de tus pistas en tu Lugar.\n[elder_thing]: -2 por cada pista que controles."
+	},
+	{
+		"code": "12134",
+		"name": "Arkham viva",
+		"text": "[action]: <b>Desistir.</b> Regresas para comparar notas con el Dr. Armitage sobre el paradero de tu amigo.",
+		"flavor": "Una neblina antinatural llena las calles de Arkham. Algunos de los lugareños dicen que las colinas que hay al oeste de Arkham están ardiendo. Pese al fresco tiempo otoñal, las calles de la ciudad tienen una calidez poco natural mientras cae la noche.",
+		"back_name": "Llamas crecientes",
+		"back_text": "De uno en uno, cada investigador roba 1 copia de la Debilidad Marca de Elokoss puesta aparte. Cada investigador está ahora afectado por esta Debilidad <i>(Añade esa carta al mazo de ese investigador, ignorando las restricciones de creación de mazos. No cuenta para el tamaño de mazo de ese investigador)</i>.",
+		"back_flavor": "Un picor que te has esforzado en ignorar se vuelve insoportable. Al remangarte, ves una zona de piel gris que se está pelando. Te rascas cuidadosamente la piel muerta y revelas una cicatriz lisa, casi como si te hubieran marcado a fuego. La cicatriz parece una mano con un ojo imperturbable en su interior. Al tocarla, sientes una sensación cálida y embriagadora, como de borrachera."
+	},
+	{
+		"code": "12135",
+		"name": "Males emergentes",
+		"text": "[action]: <b>Desistir.</b> Regresas para comparar notas con el Dr. Armitage sobre el paradero de tu amigo.",
+		"flavor": "De la acera mojada brota vapor, como si el suelo que hay debajo estuviera ardiendo de verdad.",
+		"back_name": "Se acabó el tiempo",
+		"back_text": "Cada investigador desiste inmediatamente.",
+		"back_flavor": "Miras tu reloj y ves que ya son las 11 y media. Sueltas un taco y paras un taxi para que te lleve al Barrio Este."
+	},
+	{
+		"code": "12136",
+		"name": "Augurios de llama",
+		"text": "[action] Los investigadores, como grupo, gastan 2 pistas [per_investigator]: Roba la carta boca abajo que esté bajo tu Lugar.\n<b>Objetivo</b> - Si hay un total de 6 Enemigos [[Élite]] en la zona de victoria y/o bajo el acto, haz avanzar el acto <i>(consejo: ¡derrota a los sospechosos por la fuerza o resuelve sus entradas del códice para generar indicios para tu investigación!).</i>",
+		"flavor": "Debes encontrar el paradero de los sospechosos de la lista de tu amigo.",
+		"back_name": "De vuelta al Restaurante de Velma",
+		"back_text": "<b>(→R1)</b> <i>(página 10)</i>",
+		"back_flavor": "Tu búsqueda ha dado unos frutos interesantes. Con todo lo que has descubierto, tú y el Dr. Armitage deberíais tener suficientes pistas como para encontrar el paradero de tu amigo. Te montas en un taxi para volver al Barrio Este, donde podrás poner en común tus averiguaciones."
+	},
+	{
+		"code": "12137",
+		"name": "Marca de Elokoss",
+		"text": "<b>Revelación</b> - Pon la Marca de Elokoss en juego en tu zona de amenaza.\n<b>Obligado</b> - Cuando acabe tu turno: Recibe 1 punto de daño. Asigna ese daño a un Apoyo que controles, si es posible.\n[action][action]: Descarta la Marca de Elokoss.",
+		"traits": "Maldición."
+	},
+	{
+		"code": "12138",
+		"name": "Sirviente de la llama",
+		"subname": "A la fuga",
+		"text": "Escurridizo. Cazador. Represalia.\n<b>Obligado</b> - Cuando el Sirviente de la llama sea derrotado: <b>([codex] Ф)</b>",
+		"traits": "Humanoide. Sectario. Élite."
+	},
+	{
+		"code": "12139",
+		"name": "David Renfield",
+		"subname": "Escatólogo desencantado",
+		"text": "Indiferente <i>(este Enemigo no se enfrenta automáticamente a los investigadores que estén en su Lugar)</i>.\n[reaction] Después de que investigues con éxito el Lugar de David Renfield: ([codex] 1).",
+		"traits": "Humanoide. Crepúsculo de Plata. Élite."
+	},
+	{
+		"code": "12140",
+		"name": "Cornelia Akely",
+		"subname": "Supervisora agotada",
+		"text": "Alerta <i>(después de que fracases en una prueba de habilidad al evitar a este Enemigo, te ataca)</i>.\n[reaction] Después de que evites con éxito a Cornelia Akely: Prepárala. ([codex] 2).",
+		"traits": "Humanoide. Trabajador. Élite."
+	},
+	{
+		"code": "12141",
+		"name": "Naomi O'Bannion",
+		"subname": "Runs This Town",
+		"text": "Represalia <i>(después de que fracases en una prueba de habilidad al combatir a este Enemigo, te ataca)</i>.\n[action] Gasta 1 recurso [per_investigator]: <b>Negociar.</b> ([codex] 3).",
+		"traits": "Humanoide. Sindicato. Élite."
+	},
+	{
+		"code": "12142",
+		"name": "Sgto. Earl Monroe",
+		"subname": "Poli corrupto",
+		"text": "Escurridizo <i>(después de que este Enemigo ataque o sea atacado mientras esté preparado, se mueve a un Lugar conectado que no tenga investigadores y se agota)</i>.\n[action]: <b>Negociar.</b> Realiza una prueba de [combat] (4). Reduce la dificultad de esta prueba en 1 por cada punto de daño que tenga el Sgto. Earl Monroe. Si tienes éxito, ([codex] 4).",
+		"traits": "Humanoide. Policía. Élite."
+	},
+	{
+		"code": "12143",
+		"name": "Abigail Foreman",
+		"subname": "Bibliotecaria precavida",
+		"text": "Indiferente <i>(este Enemigo no se enfrenta automáticamente a los investigadores que estén en su Lugar)</i>.\n[action]: <b>Negociar.</b> Realiza una prueba de [intellect] (X), donde X es la cantidad de pistas que haya en el Lugar de Abigail Foreman. Si tienes éxito, coloca 1 pista <i>(de la reserva de fichas)</i> en el Lugar de Abigail Foreman. ([codex] 5).",
+		"traits": "Humanoide. Miskatonic. Élite."
+	},
+	{
+		"code": "12144",
+		"name": "Margaret Liu",
+		"subname": "Cantante de bar cautivadora",
+		"text": "Indiferente <i>(este Enemigo no se enfrenta automáticamente a los investigadores que estén en su Lugar)</i>.\n[reaction] Después de que tengas éxito en una prueba de habilidad por 2 o más en el Lugar de Margaret Liu: ([codex] 6).",
+		"traits": "Humanoide. Alta sociedad. Élite."
+	},
+	{
+		"code": "12145",
+		"name": "Centro",
+		"subname": "Primer Banco de Arkham",
+		"text": "[reaction] Después de que descubras 1 o más pistas en este Lugar: Obtén 1 recurso.",
+		"flavor": "Obtener un préstamo en el Primer Banco de Arkham es bastante fácil, pero no olvides leer la letra pequeña…",
+		"back_flavor": "El Centro nunca tiene una noche tranquila. El distrito más bullicioso de Arkham alberga glamurosos teatros, hoteles y rascacielos nuevos, así como la mejor oferta gastronómica de todo Massachusetts (o eso dicen).",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12146",
+		"name": "Centro",
+		"subname": "Sanitario de Arkham",
+		"text": "[reaction] Después de que descubras 1 o más pistas en este Lugar: Cura 1 punto de horror a un investigador o Apoyo [[Aliado]] que esté en este Lugar.",
+		"flavor": "Como es lógico, nadie menciona el sanatorio.",
+		"back_flavor": "El Centro nunca tiene una noche tranquila. El distrito más bullicioso de Arkham alberga glamurosos teatros, hoteles y rascacielos nuevos, así como la mejor oferta gastronómica de todo Massachusetts (o eso dicen).",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12147",
+		"name": "Periferia",
+		"subname": "Hospital de Santa María",
+		"text": "[action]: Cura hasta 2 puntos de daño entre los investigadores y/o Apoyos [[Aliado]] que estén en este Lugar. Límite de una vez por partida.",
+		"flavor": "El único hospital de Arkham está a rebosar de pacientes y de enfermeras sobrecargadas de trabajo.",
+		"back_flavor": "El distrito más reciente de Arkham está repleto de tiendas de moda, música jazz y una población creciente de estudiantes y recién llegados.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12148",
+		"name": "Periferia",
+		"subname": "La vieja tienda de magia",
+		"text": "[action]: Busca entre las 9 primeras cartas de tu mazo un Apoyo [[Hechizo]] o [[Ritual]] y añádelo a tu mano. Baraja tu mazo. Si no se ha añadido ninguna carta de este modo, roba 1 carta.",
+		"flavor": "\"Ven a la vieja tienda de magia para descubrir las maravillas de la magia DE VERDAD. No se despachará a ilusionistas.\"\n-Anuncio local",
+		"back_flavor": "El distrito más reciente de Arkham está repleto de tiendas de moda, música jazz y una población creciente de estudiantes y recién llegados.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12149",
+		"name": "Barrio Norte",
+		"text": "[action] Gasta 5 recursos: Descubre 1 pista en cualquier Lugar [[Arkham]] revelado. Límite de una vez por ronda.",
+		"back_flavor": "El Barrio Norte es un centro industrial con fábricas modernas, alojamientos baratos para temporeros y el recientemente restaurado Arkham Advertiser.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12150",
+		"name": "Barrio Este",
+		"text": "[reaction] Después de que descubras la última pista en el Barrio Este: Busca en tu mazo un Apoyo [[Aliado]] y juégalo <i>(pagando su coste)</i>. Baraja tu mazo. Límite de una vez por partida.",
+		"back_flavor": "El Barrio Este es el distrito más antiguo de Arkham y no ha envejecido bien. Aunque el Hotel Hibb y el Restaurante de Velma son establecimientos muy frecuentados, los recién llegados no encuentran muchos alicientes más.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12151",
+		"name": "Distrito comercial",
+		"text": "[fast] Durante tu turno, si hay exactamente 1 o 2 investigadores en la partida: Muévete a un Lugar conectado. Límite de una vez por ronda.",
+		"back_flavor": "Desde la inundación, el Distrito comercial se ha convertido en el epicentro de los negocios y el desarrollo de Arkham. Cada día que pasa parece traer más obras, trabajadores e industria.",
+		"traits": "Arkham. Central."
+	},
+	{
+		"code": "12152",
+		"name": "Distrito ribereño",
+		"text": "Como coste adicional para investigar el Distrito ribereño, debes gastar 1 acción.",
+		"flavor": "Si quieres caminar con el agua hasta la cintura, tienes que pedirle a un lugareño que te lleve.",
+		"back_flavor": "Con sus calles perpetuamente inundadas, el antiguo Barrio Fluvial es una ciudad fantasma. Entre las chabolas, anegadas sólo logran mantenerse las adustas fábricas, con sus cimientos de hormigón.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12153",
+		"name": "Barrio Sur",
+		"text": "[action][action]: Los investigadores que estén en este Lugar roban un total combinado de 3 cartas, divididas como escojan. Límite de grupo de una vez por ronda.",
+		"back_flavor": "El Barrio Sur está situado en la ladera norte de French Hill y seguramente sea el distrito más tranquilo y acogedor de Arkham.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12154",
+		"name": "French Hill",
+		"text": "[action] Elige y descarta 1 carta de tu mano: Coloca 1 carga o secreto en un Apoyo que controles. Límite de una vez por ronda.",
+		"back_flavor": "Los hogares señoriales de French Hill han ido quedando en estado de abandono a medida que las viejas familias se extinguían.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12155",
+		"name": "Universidad Miskatonic",
+		"subname": "En llamas",
+		"text": "<b>Obligado</b> - Cuando acabe la fase de Investigación: Inflige 1 punto de daño directo a cada carta de Jugador que tenga salud y esté en la Universidad Miskatonic.",
+		"back_flavor": "La Universidad Miskatonic de Arkham suele ser objeto de rumores y cotilleos. Los archivos restringidos de la universidad suscitan un gran interés, y el campus suele bullir de conversaciones sobre los extraños hallazgos del curioso cuerpo docente.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12156",
+		"name": "Universidad Miskatonic",
+		"subname": "Campus tranquilo",
+		"text": "[action]: Juega un Apoyo [[Tomo]] o [[Hechizo]] de tu pila de descartes, reduciendo su coste en 2. Límite de una vez por partida.",
+		"back_flavor": "La Universidad Miskatonic de Arkham suele ser objeto de rumores y cotilleos. Los archivos restringidos de la universidad suscitan un gran interés, y el campus suele bullir de conversaciones sobre los extraños hallazgos del curioso cuerpo docente.",
+		"traits": "Arkham."
+	},
+	{
+		"code": "12157",
+		"name": "Cierre arcano",
+		"text": "<b>Revelación</b> - Vincula el Cierre arcano a tu Lugar. Límite de 1 por Lugar.\nComo coste adicional para entrar o salir del Lugar vinculado, debes gastar 1 acción.\n[action]: Realiza una prueba de [willpower] o [intellect] (4). Si tienes éxito, descarta el Cierre arcano.",
+		"traits": "Maldición. Obstáculo."
+	},
+	{
+		"code": "12158",
+		"flavor": "\"…empezó a caer una lluvia tan intensa y torrencial, que no tuvimos más remedio que buscar refugio.\"\n<i>-H.P. Lovecraft, \"El miedo que acecha\"</i>",
+		"name": "Aguacero",
+		"text": "<b>Revelación</b> - Realiza una prueba de [agility] (3). Por cada punto que te falte para tener éxito, debes perder 1 acción o bien colocar 1 de tus pistas en tu Lugar.",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12159",
+		"name": "Riada",
+		"text": "<b>Revelación</b> - Vincula la Riada a tu Lugar.\nEl Lugar vinculado recibe +4 a velo.\n<b>Obligado</b> - Cuando acabe la ronda: Descarta la Riada.",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12160",
+		"name": "Levantando sospechas",
+		"text": "<b>Revelación</b> - Coloca 1 ficha de Perdición en el Enemigo más cercano que no tenga perdición. Si no se ha colocado perdición por este efecto, Levantando sospechas obtiene Oleada.",
+		"flavor": "Al menos trataste de pasar desapercibido.",
+		"traits": "Equivocación."
+	},
+	{
+		"code": "12161",
+		"name": "Pista errónea",
+		"text": "<b>Revelación</b> - Realiza una prueba de [intellect] (2). Esta prueba recibe +2 a su dificultad si controlas 2 o más pistas. Si fracasas, recibe 1 punto de horror y coloca 1 de tus pistas en tu Lugar.",
+		"traits": "Maquinación."
+	},
+	{
+		"code": "12162",
+		"flavor": "\"…apareció danzando rítmicamente una horda de mansos híbridos seres alados que ningún ojo, ningún cerebro en su sano juicio, ha podido contemplar jamás.\"\n<i>-H.P. Lovecraft, \"El ceremonial\"</i>",
+		"name": "Murciélago horrendo",
+		"text": "Escurridizo. Cazador.",
+		"traits": "Monstruo."
+	},
+	{
+		"code": "12163",
+		"name": "Persecución aérea",
+		"text": "Oleada.\n<b>Revelación</b> - El Enemigo más cercano que no sea [[Élite]] se mueve una vez hacia tu Lugar. Si se enfrenta a un investigador, realiza un ataque inmediatamente.",
+		"traits": "Maquinación."
+	},
+	{
+		"code": "12164",
+		"name": "Gángster rebelde",
+		"text": "Cazador. Presa (más recursos). Represalia.\n<b>Obligado</b> - Después de que el Gángster rebelde se enfrente a ti: Pierde 1 recurso. Si no puedes, este Enemigo te ataca.",
+		"traits": "Humanoide. Sindicato."
+	},
+	{
+		"code": "12165",
+		"name": "Fuego cruzado",
+		"text": "<b>Revelación</b> - Realiza una prueba de [agility] (3). Si fracasas, cada investigador que esté en tu Lugar recibe 1 punto de daño.",
+		"flavor": "\"¡Al suelo!\"",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12166",
+		"name": "Chotacabras",
+		"text": "Indiferente. Cazador.\nCada investigador que esté en el Lugar del Chotacabras recibe -1 [willpower], -1 [intellect], -1 [combat] y -1 [agility].",
+		"flavor": "\"Afirman que tales pájaros son psicopompos que están al acecho de las almas de los muertos…\"\n<i>-H.P. Lovecraft, \"El Horror de Dunwich\"</i>",
+		"traits": "Criatura."
+	},
+	{
+		"code": "12167",
+		"name": "Ávidos de muerte",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (2). Aumenta la dificultad de esta prueba en 1 por cada punto de daño que tengas. Si fracasas, recibe 2 puntos de horror.",
+		"flavor": "\"Si consiguen atrapar el alma fugitiva en el momento en que abandona el cuerpo se ponen a revolotear al instante y prorrumpen en diabólicas risotadas…\"\n<i>-H.P. Lovecraft, \"El Horror de Dunwich\"</i>",
+		"traits": "Augurio."
+	},
+	{
+		"code": "12168",
+		"name": "Reina de las cenizas",
+		"text": "<b>Fácil/Normal</b>\n[skull]: -X. X es la cantidad de Traiciones ¡Fuego! en juego.\n[cultist]: -2. Si esta prueba es un ataque o evasión que tenga como objetivo un Enemigo [[Sectario]], revela otra ficha.\n[tablet]: -2, o bien -4 si estás en un Lugar [[Lugar del ritual]].\n[elder_thing]: -3. Si fracasas, roba la primera copia de ¡Fuego! de la pila de descartes de Encuentros.",
+		"back_text": "<b>Difícil/Experto</b>\n[skull]: -X. X es el doble de la cantidad de Traiciones ¡Fuego! en juego.\n[cultist]: -3. Si esta prueba es un ataque o evasión que tenga como objetivo un Enemigo [[Sectario]], revela otra ficha.\n[tablet]: -4. Si estás en un Lugar [[Lugar del ritual]], en vez de eso fracasas automáticamente.\n[elder_thing]: -5. Si fracasas, roba la primera copia de ¡Fuego! de la pila de descartes de Encuentros."
+	},
+	{
+		"code": "12169",
+		"name": "Una reunión",
+		"text": "Cada Enemigo que esté en un Lugar que tenga una copia de ¡Fuego! vinculada no puede ser dañado.",
+		"flavor": "Un cántico resuena por los fétidos túneles. ¡El renacimiento de la secta se acerca!",
+		"back_name": "Llama en la oscuridad",
+		"back_text": "Si el Sirviente de la llama está puesto aparte, haz que aparezca en la Cisterna subterránea.\nCada investigador debe realizar una prueba de [willpower] (4). Cada investigador que fracase recibe 1 punto de horror directo.",
+		"back_flavor": "En algún profundo lugar de las entrañas de la ciudad, la intensidad de una ardiente llama crece. Quienes llevan la marca de la reina se alzan para proclamar su regreso."
+	},
+	{
+		"code": "12170",
+		"name": "Un ritual",
+		"text": "Cada Enemigo que esté en un Lugar que tenga una copia de ¡Fuego! vinculada no puede ser dañado.",
+		"flavor": "Un humo nocivo invade el aire mientras el sonido del cántico se vuelve más fuerte.",
+		"back_name": "Llega la madre",
+		"back_text": "<b>Si está en juego el acto 1:</b>\n<blockquote><i>Las ávidas llamas se propagan por los túneles, y el cántico que proviene de más abajo se intensifica. Has llegado tarde para evitar la invocación.</i></blockquote>\nRevela la Cisterna subterránea y haz que Elokoss aparezca en ella, con el lado <i>(Madre de llamas)</i> boca arriba. Sustituye el acto y plan en curso por el plan especial 3a: Hermanos de las cenizas. Es tanto el plan en curso como el acto en curso.\n<hr>\n<b>Si no es así:</b>\n<blockquote><i>La antigua reina de las cenizas despierta con un horripilante alarido.</i></blockquote>\nDale la vuelta a Elokoss para mostrar su lado <i>(Madre de llamas)</i>, manteniendo todo el daño y cartas vinculadas que tenga. Sustituye el acto y plan en curso por el plan especial 3a: Hermanos de las cenizas. Es tanto el plan en curso como el acto en curso."
+	},
+	{
+		"code": "12171",
+		"name": "Hermanos de las cenizas",
+		"text": "<b>Obligado</b> - Cuando fuese a colocarse perdición en una carta: En vez de eso, cada investigador recibe 1 punto de daño directo.\n<b>Obligado</b> - Si todos los investigadores restantes son derrotados: Haz avanzar el plan.\n<b>Objetivo</b> - Si Elokoss es derrotada, <b>(→R1)</b> <i>(página 13)</i>.",
+		"back_name": "Sin conocimiento",
+		"back_text": "Cada investigador <b>muere</b>.",
+		"back_flavor": "Una mano retorcida en forma de garra te aferra el brazo mientras varias docenas más se enroscan en torno a ti, como si te abrazaran. Arden al tacto. Gritas mientras unas horrendas fauces repletas de dientes se abren en el vientre de Elokoss.\n-No te preocupes, sólo quiere honrarte -dice una voz familiar.\nAl mirar hacia atrás, ves a tu amigo ataviado con la misma túnica negra y roja que llevan los demás Hermanos de las cenizas. Te sonríe mientras de las ardientes fauces brotan lenguas de llamas que te envuelven en un capullo de fuego. Lo último que oyes mientras te arrastran al abrasador infierno del pecho de Elokoss es a tu amigo, que junto con el resto de la secta canta un himno desafinado y rítmico por tu renacimiento."
+	},
+	{
+		"code": "12172",
+		"name": "Registrar las alcantarillas",
+		"text": "<b>Objetivo</b> - Cuando un investigador entre en la Cisterna subterránea, haz avanzar el acto.",
+		"flavor": "Los Hermanos de las cenizas podrían estar en cualquier parte. Debes registrar las alcantarillas en busca del lugar del ritual de la secta si quieres salvar a tu amigo.",
+		"back_name": "El lugar del ritual",
+		"back_text": "Haz aparecer el Enemigo Elokoss puesto aparte en la Cisterna subterránea, con el lado <i>(Ascuas débiles)</i> boca arriba.\nEl investigador que esté en la Cisterna subterránea roba una de las traiciones ¡Fuego! puestas aparte.\nAñade todas las demás copias de ¡Fuego!, junto con los Enemigos Caballero de la reina y Heraldo de la llama puestos aparte, al mazo de Encuentros y baraja éste.\nPon en juego el Lugar Control de compuertas puesto aparte.",
+		"back_flavor": "El cántico te lleva por un laberinto de túneles hasta una cisterna seca. Hay varias docenas de personajes ataviados con túnicas arrodillados ante un abedul ardiente. Tu amigo se encuentra entre ellos. ¡Debes detenerlo antes de que se sacrifique por Elokoss!"
+	},
+	{
+		"code": "12173",
+		"name": "Detener el rito",
+		"text": "[fast] Los investigadores, como grupo, gastan 1 pista [per_investigator]: Descarta una copia de ¡Fuego! que esté en tu Lugar.\n<b>Obligado</b> - Cuando acabe la ronda: Cada Enemigo [[Sectario]] se mueve una vez hacia la Cisterna subterránea.\n<b>Objetivo</b> - Si Elokoss es derrotada, haz avanzar el acto.",
+		"flavor": "Debes detener el rito a toda costa. Podrías registrar la cisterna en busca de alguna forma de detener a la secta, ¡o bien podrías hacer leña de su ídolo profano!",
+		"back_name": "Crisis evitada",
+		"back_text": "<b>(→R1)</b> <i>(página 13)</i>.",
+		"back_flavor": "Mientras haces leña del árbol ardiente, un aullido sobrenatural llena la cámara. Lo ignoras y prosigues tu ataque, asestando un certero golpe tras otro para destruir el mal primordial. Al final, la antigua efigie de la diosa de los Hermanos yace hecha pedazos."
+	},
+	{
+		"code": "12174",
+		"name": "Cisterna subterránea",
+		"text": "<b>Obligado</b> - Si no hay pistas en la Cisterna subterránea: Coloca pistas <i>(de la reserva de fichas)</i> en ella hasta su valor de velo.\n<b>Obligado</b> - Cuando acabe la fase de Investigación: Descarta todos los Enemigos [[Sectario]] que no sean [[Élite]] y que estén preparados en este Lugar. Coloca 1 ficha de Perdición en el plan por cada Enemigo descartado de este modo.",
+		"back_text": "Como coste adicional para entrar en la Cisterna subterránea, los investigadores, como grupo, deben gastar 3 pistas [per_investigator].",
+		"back_flavor": "Unos extraños cánticos resuenan por los túneles y traicionan la ubicación de la guarida de la secta.",
+		"traits": "Lugar del ritual."
+	},
+	{
+		"code": "12175",
+		"name": "Control de compuertas",
+		"text": "[action]: <i>\"¡Hay que detenerlos a toda costa!\"</i> Intentas abrir la válvula de la compuerta. Realiza una prueba de [agility] o de [combat] (5). Si tienes éxito, cada Enemigo queda derrotado y cada investigador que no haya desistido <b>muere (→R3)</b> <i>(página 14)</i>",
+		"flavor": "No hay mejor momento para ser un héroe.",
+		"back_text": "Como coste adicional para entrar en el Control de compuertas, los investigadores, como grupo, deben gastar 1 pista [per_investigator].",
+		"back_flavor": "Un estrecho pasadizo sale de la cisterna hacia una puerta cerrada. Aunque la compuerta lleva años sin abrirse, el torrente que liberaría podría bastar para llevarse por delante todo lo que haya en las alcantarillas, incluyéndote a ti.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12176",
+		"name": "Renacimiento ceniciento",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (4). Si fracasas, debes recibir 2 puntos de daño directo o bien 2 puntos de horror directo (elige lo que más tengas).",
+		"flavor": "\"Y así nos transformaremos: una ofrenda quemada a su gloria y un símbolo del éxtasis que nos espera a todos.\"\n-Edicto de ceniza, vol. III",
+		"traits": "Poder."
+	},
+	{
+		"code": "12177",
+		"name": "Caballero de la reina",
+		"text": "Cazador.\n<b>Obligado</b> - Cuando el Caballero de la reina reciba 1 o más puntos de daño: Inflige 1 punto de daño a Elokoss.",
+		"traits": "Humanoide. Sectario."
+	},
+	{
+		"code": "12178",
+		"name": "Heraldo de la llama",
+		"text": "Cazador.\n<b>Obligado</b> - Después de que este Enemigo ataque: Cura 1 punto de daño a cada Enemigo que esté en su Lugar.",
+		"traits": "Monstruo."
+	},
+	{
+		"code": "12179",
+		"name": "Elokoss",
+		"subname": "Ascuas débiles",
+		"text": "Descomunal. Represalia.\nElokoss recibe +5 de salud [per_investigator], no puede moverse y no puede realizar ataques de oportunidad.\n[fast] Gasta 1 pista [per_investigator]: Coloca 1 pista en Elokoss. Si Elokoss tiene 5 pistas, <b>(→R2)</b> <i>(página 14)</i>.",
+		"traits": "Primigenio. Flora. Élite."
+	},
+	{
+		"code": "12179b",
+		"name": "Elokoss",
+		"subname": "Madre de llamas",
+		"text": "Cazador. Descomunal. Represalia.\nElokoss recibe +5 de salud [per_investigator].\n<b>Obligado</b> - Después de que evites a Elokoss: Prepárala. No puede atacarte durante el resto de la ronda.",
+		"traits": "Primigenio. Flora. Élite."
+	},
+	{
+		"code": "12180",
+		"name": "Sirviente de la llama",
+		"subname": "Un sacrificio dispuesto",
+		"text": "Cazador. Represalia.\n<b>Obligado</b> - Cuando el Sirviente de la llama sea derrotado: <b>([codex] Ф)</b>",
+		"traits": "Humanoide. Sectario. Élite."
+	},
+	{
+		"code": "12181",
+		"name": "Coleccionista",
+		"text": "Permanente. Recompensa. Límite de 1 por mazo. Sólo puedes adquirir esta carta al crear el mazo.\nRecibes +5 al tamaño de mazo.\nLas opciones de creación de mazos de tu investigador obtienen: \"un Apoyo distinto [[Reliquia]] o [[Amuleto]] de cualquier clase ([guardian], [seeker], [rogue], [mystic], [survivor]) de nivel 0-3\".",
+		"traits": "Talento."
+	},
+	{
+		"code": "12182",
+		"name": "Conducto de las alcantarillas",
+		"text": "El Conducto de las alcantarillas está conectado a cada Lugar Túneles de alcantarilla y viceversa.\n[action]: <b>Desistir.</b> <i>\"¡No puedo soportarlo más!\"</i> Huyes de las alcantarillas.",
+		"back_text": "El Conducto de las alcantarillas está conectado a cada Lugar Túneles de alcantarilla y viceversa.",
+		"back_flavor": "Si entras, tal vez no salgas nunca.",
+		"traits": "Alcantarillas. Central."
+	},
+	{
+		"code": "12183",
+		"name": "Túneles de alcantarilla",
+		"subname": "Tuberías infestadas",
+		"text": "<b>Obligado</b> - Después de que entres en este Lugar: Descarta cartas de la parte superior del mazo de Encuentros hasta que sea descartado un Enemigo y róbalo.",
+		"flavor": "Sea lo que sea lo que hay aquí es peor que las ratas.",
+		"back_flavor": "Un fétido olor putrefacto impregna la laberíntica red de túneles que hay bajo la ciudad.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12184",
+		"name": "Túneles de alcantarilla",
+		"subname": "Túneles invadidos de vegetación",
+		"text": "<b>Obligado</b> - Después de que entres en este Lugar: Pierde 1 acción.",
+		"flavor": "Unas raíces retorcidas se han adueñado de la red de túneles, haciendo que sea difícil recorrerlos.",
+		"back_flavor": "Un fétido olor putrefacto impregna la laberíntica red de túneles que hay bajo la ciudad.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12185",
+		"name": "Túneles de alcantarilla",
+		"subname": "Cripta inundada",
+		"text": "<b>Obligado</b> - Cuando termines tu turno en este Lugar: Recibe 1 punto de horror.",
+		"flavor": "Sea lo que sea lo que atravesó la pared, está claro que no intentaba entrar en la cripta.",
+		"back_flavor": "Un fétido olor putrefacto impregna la laberíntica red de túneles que hay bajo la ciudad.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12186",
+		"name": "Túneles de alcantarilla",
+		"subname": "Alijo de contrabandista",
+		"text": "[reaction] Cuando termines tu turno en este Lugar: Obtén 1 recurso.",
+		"flavor": "A juzgar por la calidad del licor y del contrabando, este alijo debió de dejarlo la banda de Sheldon. Mientras no se enteren, puedes quedarte con algo.",
+		"back_flavor": "Un fétido olor putrefacto impregna la laberíntica red de túneles que hay bajo la ciudad.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12187",
+		"name": "Túneles de alcantarilla",
+		"subname": "Fosa de desechos tóxicos",
+		"text": "<b>Obligado</b> - Cuando termines tu turno en este Lugar: Elige y descarta 1 carta de tu mano.",
+		"flavor": "¿Qué es eso que flota justo bajo la superficie?",
+		"back_flavor": "Un fétido olor putrefacto impregna la laberíntica red de túneles que hay bajo la ciudad.",
+		"traits": "Alcantarillas."
+	},
+	{
+		"code": "12188",
+		"name": "Idólatra",
+		"text": "Indiferente.\n<b>Obligado</b> - Después de que este Enemigo entre en juego: Coloca 1 ficha de Perdición en él.",
+		"traits": "Humanoide. Sectario."
+	},
+	{
+		"code": "12189",
+		"name": "Mago oscuro",
+		"text": "Cazador. Represalia.\n<b>Obligado</b> - Cuando acabe la ronda: Coloca 1 ficha de Perdición en el Enemigo que no tenga perdición más cercano al Mago oscuro.",
+		"traits": "Humanoide. Sectario."
+	},
+	{
+		"code": "12190",
+		"name": "Invocación blasfema",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (3). Por cada punto que te falte para tener éxito, coloca 1 ficha de Perdición en un Enemigo [[Sectario]] que no tenga perdición. Si fracasas y no se colocó perdición, busca en el mazo y la pila de descartes de Encuentros un Enemigo [[Sectario]] y róbalo <i>(baraja el mazo de Encuentros si has buscado en él)</i>.",
+		"traits": "Maleficio."
+	},
+	{
+		"code": "12191",
+		"name": "Putrefacción antinatural",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (4). Si fracasas, debes colocar 1 ficha de Perdición en un Apoyo que controles o bien recibir 2 puntos de daño.",
+		"flavor": "Jamás habías visto algo que se oxidara tan rápidamente.",
+		"traits": "Maldición."
+	},
+	{
+		"code": "12192",
+		"name": "Vapores pútridos",
+		"text": "<b>Revelación</b> - Realiza una prueba de [agility] (3). Si fracasas, recibe 1 punto de horror y descarta un Apoyo que no sea de historia que controles.",
+		"flavor": "\"Quedó al descubierto una negra abertura, por la que brotó un efluvio de gases miasmáticos tan nauseabundos que Warren y yo retrocedimos precipitadamente.\"\n<i>-H.P. Lovecraft, \"El testimonio de Randolph Carter\"</i>",
+		"traits": "Riesgo."
+	},
+	{
+		"code": "12193",
+		"name": "Languidez",
+		"text": "<b>Revelación</b> - Pon la Languidez en juego en tu zona de amenaza. Límite de una por investigador.\n<b>Obligado</b> - Después de que comience tu turno: descarta la primera carta de tu mazo. Si es una Debilidad, róbala. Si no es así, no puedes jugar ni asignar cartas de ese tipo <i>(Apoyo, Evento o Habilidad)</i> en esta ronda.\n[action][action]: Descarta la Languidez.",
+		"traits": "Maleficio. Desgracia."
+	},
+	{
+		"code": "12194",
+		"name": "Disonancia",
+		"text": "<b>Revelación</b> - Realiza una prueba de [willpower] (3). Si fracasas, pierde 1 acción y elige un tipo de carta <i>(Apoyo, Evento o Habilidad)</i>. Descarta de tu mano todas las cartas que no sean Debilidad del tipo elegido.",
+		"traits": "Maldición. Desgracia."
+	},
+	{
+		"code": "12195",
+		"name": "Tormento",
+		"text": "Peligro.\n<b>Revelación</b> - Realiza una prueba de [willpower] (3). Si fracasas, nombra un tipo de carta <i>(Apoyo, Evento o Habilidad)</i>. Cada investigador descarta de su mano 1 carta del tipo nombrado.",
+		"traits": "Poder. Desgracia."
+	}
+]

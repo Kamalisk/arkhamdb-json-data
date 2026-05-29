@@ -1,45 +1,44 @@
 [
-    {
-        "code": "90049",
-        "flavor": "“I know I can make the dead dance.”",
-        "name": "Jim Culver",
-        "subname": "The Musician",
-        "text": "[reaction] After you reveal 1 or more [skull] or [curse] tokens during a skill test you are performing: Replenish 1 charge on an asset you control. (Limit once per round.)\n[elder_sign] effect: +2. You may treat this token as if it were a [skull] or [curse] token instead.",
-        "traits": "Performer. Cursed.",
-        "back_flavor": "Jazz has been nothing but trouble for Jim since the day he picked up his daddy’s trumpet. But the dead sure love it when he plays, so Jim has no intention of stopping.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-3, [[Spell]] and [[Cursed]] cards level 0-4, Neutral cards level 0-5, up to five other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jim's Trumpet, Final Rhapsody, The Beyond, 1 random basic weakness.\n<b>Spirit Deck Size</b>: 10.\n<b>Spirit Deckbuilding Options</b>: 9 different [[Ally]] assets from any class level 0–2, Vengeful Shade.\n<b>Spirit Deck Instructions</b>: Shuffle the “spirit deck” separately from your deck and place it next to The Beyond asset, facedown. This deck may be upgraded separately using your unspent experience."
-    },
-    {
-        "code": "90050",
-        "name": "Jim's Trumpet",
-        "subname": "The Dead Speak",
-        "text": "Jim Culver deck only. Advanced.\n[reaction] When a [skull] or [curse] token is revealed during a skill test you are performing, exhaust Jim's Trumpet: Heal 1 horror from each investigator and [[Ally]] asset at your location or a connecting location.",
-        "traits": "Item. Instrument. Relic.",
-        "slot": "Hand"
-    },
-    {
-        "code": "90051",
-        "flavor": "When the dead start talking about what scares them, that's when it's time to listen.",
-        "name": "Final Rhapsody",
-        "text": "Advanced.\n<b>Revelation</b> - Reveal 5 chaos tokens from the chaos bag. For each non-[elder_sign], non-[bless] symbol token revealed, take 1 damage and 1 horror.",
-        "traits": "Endtimes."
-    },
-    {
-        "code": "90052",
-        "name": "The Beyond",
-        "subname": "Black Netherworld",
-        "text": "Jim Culver deck only. Permanent.\nEach attached spirit loses all printed traits and gains the [[Geist]] trait. When damage/horror would be placed on an attached spirit, it must be placed on Jim Culver, instead.\n<b>Forced</b> – When your turn begins: Attach the top card of the spirit deck to The Beyond, as a spirit. If 4 or more spirits are attached, flip this card and resolve its text.",
-        "traits": "Sanctum. Spectral."
-    },
-    {
-        "code": "90052b",
-        "name": "The Beyond",
-        "text": "<b>Forced</b> – One at a time, choose each non-weakness spirit attached to The Beyond and reveal a random token from the chaos bag. If it is...\n- ... an [elder_sign] token: You may either heal 1 horror, or attach the top card of the spirit deck to The Beyond, as a spirit. <i>(Do not reveal tokens for the spirit you attach after resolving this effect.)</i>\n- ... an [auto_fail] token: Discard this spirit. Take 1 direct damage/horror.\n- ...a [skull] token: Discard this spirit. Heal 1 horror.\n- ...a [cultist], [elder_thing], [tablet], or [curse] token: You must either discard this spirit or take 1 direct damage.\n- ...any other token: Discard this spirit.\nFlip this card back to its asset side.\n<hr><b>Reminder:</b> <i>Spirits attached to The Beyond are in play but only retain their names and text boxes. Spirits do not take up slots and do not have health or sanity values. When a unique spirit is attached to The Beyond, any other asset that shares its name and is already in play is discarded. Spirits are always discarded to the</i> <b>bottom</b> <i>of the spirit deck.</i>"
-    },
-    {
-        "code": "90053",
-        "name": "Vengeful Shade",
-        "text": "Hunter. <b>Prey</b> – Jim Culver only.\nYou may fight or evade this enemy while it is attached to The Beyond (as if it were engaged with you). If you succeed, discard it. If you fail, spawn it engaged with you.\n<b>Forced</b> – When you attach a spirit to The Beyond via its forced effect: Vengeful Shade attacks you <i>(even if it is not at your location)</i>.",
-        "traits": "Monster. Geist."
-    }
+  {
+    "code": "90049",
+    "name": "Jim Culver",
+    "subname": "El músico",
+    "traits": "Artista. Maldito.",
+    "text": "[reaction] Después de que reveles 1 o más fichas [skull] o [curse] durante una prueba de habilidad que estés realizando: Repón 1 carga de un Apoyo que controles. Límite de una vez por ronda.\nEfecto [elder_sign]: +2. En vez de eso, puedes considerar esta ficha como si fuera una ficha [skull] o [curse].",
+    "flavor": "\"Sé que puedo hacer bailar a los muertos.\"",
+    "back_text": "<b>Tamaño de mazo</b>: 30.\n<b>Opciones de creación de mazos</b>: Cartas Místico ([mystic]) de nivel 0-3, cartas [[Hechizo]] y [[Maldito]] de nivel 0-4, cartas neutrales de nivel 0-5, hasta otras 5 cartas de Superviviente ([survivor]) de nivel 0.\n<b>Requisitos de creación de mazos</b> (no cuentan para el tamaño de mazo): Trompeta de Jim, Rapsodia final, El más allá, 1 Debilidad básica aleatoria.\n<b>Tamaño del mazo de espíritus</b>: 10.\n<b>Opciones de creación del mazo de espíritus</b>: 9 Apoyos [[Aliado]] distintos de cualquier clase de nivel 0-2, Sombra vengativa.\n<b>Instrucciones del mazo de espíritus</b>: Baraja el \"mazo de espíritus\" por separado de tu mazo y colócalo boca abajo junto al Apoyo El más allá. Este mazo se puede mejorar por separado usando tu experiencia sin gastar.",
+    "back_flavor": "El jazz no le ha traído más que problemas a Jim desde el día que cogió la trompeta de su padre. Pero a los muertos les encanta que toque, así que Jim no tiene la menor intención de dejar de hacerlo."
+  },
+  {
+    "code": "90050",
+    "name": "La trompeta de Jim",
+    "subname": "Los muertos hablan",
+    "traits": "Objeto. Instrumento. Reliquia.",
+    "text": "Sólo para el mazo de Jim Culver. Avanzada.\n[reaction] Cuando sea revelada una ficha [skull] o [curse] durante una prueba de habilidad que estés realizando, agota La trompeta de Jim: Cura 1 punto de horror de cada investigador y Apoyo [[Aliado]] que esté en tu Lugar o en un Lugar conectado."
+  },
+  {
+    "code": "90051",
+    "name": "Rapsodia final",
+    "traits": "Fin de los tiempos.",
+    "text": "Avanzada.\n<b>Revelación</b> - Revela 5 fichas de Caos de la bolsa de caos. Por cada ficha de símbolo que no sea [elder_sign] o [bless] revelada, recibe 1 punto de daño y 1 punto de horror.",
+    "flavor": "Cuando los muertos empiezan a hablar sobre lo que les asusta, es el momento de escuchar."
+  },
+  {
+    "code": "90052",
+    "name": "El más allá",
+    "subname": "Inframundo lóbrego",
+    "traits": "Santuario. Espectral.",
+    "text": "Sólo para el mazo de Jim Culver. Permanente.\nCada espíritu vinculado pierde todos los rasgos impresos y obtiene el rasgo [[Geist]]. Cuando se fuese a colocar daño/horror en un espíritu vinculado, en vez de eso debe colocarse en Jim Culver.\n<b>Obligado</b> - Cuando comience tu turno: Vincula la primera carta del mazo de espíritus a El más allá, como espíritu. Si hay 4 o más espíritus vinculados, da la vuelta a esta carta y resuelve su texto."
+  },
+  {
+    "code": "90052b",
+    "name": "El más allá",
+    "text": "<b>Obligado</b> - De uno en uno, elige cada espíritu que no sea Debilidad vinculado a El más allá y revela una ficha aleatoria de la bolsa de caos. Si es…\n-…una ficha [elder_sign]: Puedes curarte 1 punto de horror o bien vincular la primera carta del mazo de espíritus a El más allá, como espíritu <i>(no reveles fichas para el espíritu que vincules después de resolver este efecto)</i>.\n-…una ficha [auto_fail]: Descarta este espíritu. Recibe 1 punto de daño/horror directo.\n-…una ficha [skull]: Descarta este espíritu. Cúrate 1 punto de horror.\n-…una ficha [cultist], [elder_thing], [tablet] o [curse]: Debes descartar este espíritu o bien recibir 1 punto de daño directo.\n-…cualquier otra ficha: Descarta este espíritu.\nVuelve a dar la vuelta a esta carta para mostrar su lado de Apoyo.\n<hr><b>Recordatorio:</b> <i>Los espíritus vinculados a El más allá están en juego, pero sólo conservan sus nombres y cuadros de texto de reglas. Los espíritus no ocupan espacios y no tienen valores de salud o cordura. Cuando se vincule un espíritu único a El más allá, se descarta cualquier otro Apoyo que comparta su nombre y esté en juego. Los espíritus siempre se descartan a la parte</i> <b>inferior</b> <i>del mazo de espíritus.</i>"
+  },
+  {
+    "code": "90053",
+    "name": "Sombra vengativa",
+    "traits": "Monstruo. Geist.",
+    "text": "Cazador. <b>Presa</b> - Sólo Jim Culver.\nPuedes combatir o evitar a este Enemigo mientras esté vinculado a El más allá <i>(como si estuviera enfrentado a ti)</i>. Si tienes éxito, descártalo. Si fracasas, hazlo aparecer enfrentado a ti.\n<b>Obligado</b> - Cuando vincules un espíritu a El más allá mediante su efecto <b>Obligado</b>: La Sombra vengativa te ataca <i>(incluso si no está en tu Lugar)</i>."
+  }
 ]
