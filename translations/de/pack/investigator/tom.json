@@ -1,0 +1,203 @@
+[
+    {
+        "code": "60151",
+        "flavor": "\"Diese Uniform steht für etwas. Jedes Mal, wenn ich sie trage, werde ich daran erinnert.\"",
+        "name": "Tommy Muldoon",
+        "subname": "Der Polizeibeamte",
+        "text": "[action] Gib 1 Ressource aus oder lege 1 [[Feuerwaffe]]-Vorteilskarte, die du kontrollierst, aus dem Spiel ab: Spiele 1 [[Feuerwaffe]]-Vorteilskarte von deiner Hand (zahle ihre Kosten). Sie kommt mit 2 zusätzlicher Munition ins Spiel.\n[elder_sign]-Effekt: +1. Platziere 11 Munition auf einer Vorteilskarte mit dem Schlüsselwort Anwendungen (Munition), die du kontrollierst.",
+        "traits": "Polizei.",
+        "back_flavor": "Als Tommy noch bei der Bostoner Polizei arbeitete, hätte er nie an echte Monster geglaubt. Als er dann in die verschlafene Flussstadt Arkham versetzt wurde, musste er jedoch feststellen, wie falsch er gelegen hatte. Das ist nun fast ein Jahr her. Tommy ist zwar immer noch \"der Neue\", doch er ist sich sicher, auf Streife weit mehr gesehen zu haben als jeder andere bei der Polizei. Jetzt arbeitet er hart daran, den anderen im Revier zu beweisen, dass er keine Witzfigur ist, während er sich gleichzeitig unzähligen Monstern in Arkham stellen muss. Dabei hat er gelernt, dass nicht alle Monster Reißzähne und Tentakel haben.",
+        "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0-5, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Becky, Tickende Zeitbombe, 1 zufällige Grundschwäche."
+    },
+    {
+        "code": "60152",
+        "name": "Becky",
+        "subname": "Marlin Model 1894 (Spezialanfertigung)",
+        "text": "Nur für das Deck von Tommy Muldoon. Anwendungen (2 Munition).\n[action] Gib 1 Munition aus: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu.\n[reaction] Sobald du die obere [action]-Fähigkeit auslöst, erschöpfe Becky: Dieser Angriff ignoriert die Schlüsselwörter Zurückhaltend und Zurückschlagen.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "60153",
+        "flavor": "\"Das geht entschieden zu weit, Muldoon!\"",
+        "name": "Tickende Zeitbombe",
+        "text": "<b>Enthüllung</b> - Du musst entweder jede [[Feuerwaffe]]-Vorteilskarte, die du kontrollierst, ablegen oder 5 Ressourcen verlieren.",
+        "traits": "Makel."
+    },
+    {
+        "code": "60154",
+        "name": "Zu selbstsicher",
+        "text": "<b>Enthüllung</b> - Bringe Zu selbstsicher in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> - Nachdem dir eine Fertigkeitsprobe misslungen ist: Nimm 1 Schaden.\n[action] [action]: Lege Zu selbstsicher ab.",
+        "traits": "Makel."
+    },
+    {
+        "code": "60156",
+        "flavor": "\"Braver Junge, Saxon!\"",
+        "name": "Polizeihund",
+        "text": "[fast] Erschöpfe Polizeihund bei einem Angriff oder einer Ermittlung an deinem Ort: Der Ermittler, der den Angriff oder die Ermittlung durchführt, bekommt für diese Probe +1 auf den Fertigkeitswert.",
+        "traits": "Verbündeter. Kreatur. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "60157",
+        "flavor": "Zu ungeduldig, um vorsichtig zu sein, und zu naiv, um es besser zu wissen.",
+        "name": "Junge Polizistin",
+        "text": "Diese Karte darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zu gefügt wird.\n[reaction] Sobald Junge Polizistin besiegt wird: Entdecke 1 Hinweis an deinem Ort.",
+        "traits": "Verbündeter. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "60158",
+        "flavor": "Er dient mehr zur Schau, ist aber durchaus nützlich, wenn es drauf ankommt.",
+        "name": "Dienstrevolver",
+        "text": "Anwendungen (3 Munition).\n[reaction] Nachdem dich ein Gegner angegriffen hat, gib 1 Munition aus: <b>Kampf</b> ([combat]). Dieser Angriff zielt auf jenen Gegner. Du bekommst für diesen Angriff +1 [combat] und fügst +1 Schaden zu.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe. Polizei.",
+        "slot": "Hand"
+    },
+    {
+        "code": "60159",
+        "name": "Schutzweste",
+        "text": "[reaction] Nachdem du Schutzweste gespielt hast: Durchsuche die obersten 6 Karten deines Decks nach einer [[Feuerwaffe]]- oder [[Verbesserung]]-Karte und füge sie deiner Hand hinzu. Mische dein Deck.",
+        "traits": "Gegenstand. Rüstung.",
+        "slot": "Körper"
+    },
+    {
+        "code": "60160",
+        "name": "\"Bring sie zum Singen!\"",
+        "text": "<b>Verhandlung.</b> Wähle einen Gegner an deinem Ort und lege eine [combat]-Probe (X) ab, wobei X die verbliebene Ausdauer des Gegners ist. Falls die Probe gelingt, entkommst du dem Gegner automatisch und entdeckst 1 Hinweis an deinem Ort.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "60161",
+        "name": "Kopfgeld",
+        "text": "Schnell. Spiele diese Karte, nachdem ein Gegner an deinem Ort besiegt worden ist.\nErmittler an deinem Ort erhalten insgesamt X Ressourcen <i>(du entscheidest, wie viele Ressourcen jeder Ermittler erhält)</i>. X ist die aufgedruckte Ausdauer jenes Gegners (bis zu einem Maximum von 6).",
+        "traits": "Glücksfall."
+    },
+    {
+        "code": "60162",
+        "name": "Spezialgefertigter Griff",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an eine [[Feuerwaffe]]-Vorteilskarte an, die du kontrollierst.\n[fast] Lege Spezialgefertigter Griff in deinem Zug ab, außer während einer Aktion: Schicke die Vorteilskarte mit dieser Verstärkung auf deine Hand zurück. Du darfst eine [[Feuerwaffe]]-Vorteilskarte von deiner Hand spielen <i>(zahle ihre Kosten)</i>.",
+        "traits": "Verbesserung."
+    },
+    {
+        "code": "60163",
+        "name": "Kimme und Korn",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an eine [[Feuerwaffe]]-Vorteilskarte an, die du kontrollierst.\n[action] Erschöpfe Kimme und Korn: Du bekommst +3 auf deinen Fertigkeitswert, wenn du das nächste Mal in diesem Zug kämpfst und dabei die Vorteilskarte mit dieser Verstärkung verwendest. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "traits": "Gegenstand. Verbesserung."
+    },
+    {
+        "code": "60164",
+        "flavor": "Top in Form.",
+        "name": "Körperliche Fitness",
+        "text": "<b>Bewegen.</b> Heile nach dieser Bewegung 2 Schaden.",
+        "traits": "Geist."
+    },
+    {
+        "code": "60165",
+        "name": "Angekettet",
+        "text": "Schnell. Spiele diese Karte, nachdem dich ein Nicht-[[Elite]]-Gegner angegriffen hat.\nEntkomme jenem Gegner automatisch und hänge Angekettet an ihn an. Der Gegner mit dieser Verstärkung kann nicht spielbereit gemacht werden.\n<b>Erzwungen</b> - Sobald die Runde endet und falls der Gegner mit dieser Verstärkung kein [[Humanoid]]-Gegner ist: Lege Angekettet ab.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "60166",
+        "flavor": "\"Na, sieh mal einer an. Wen haben wir denn da?\"",
+        "name": "Observierung",
+        "text": "<b>Ermitteln</b> ([intellect]). Du bekommst für diese Ermittlung +2 [intellect]. Falls die Probe gelingt, heile 1 Horror.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "60167",
+        "name": "Anpassen und überwinden",
+        "text": "Trage diese Karte nur zu einer Fertigkeitsprobe während eines Angriffs oder eines Entkommen-Versuchs bei.\nDer Ermittler, der diese Probe durchführt, ignoriert während der Probe die Schlüsselwörter Alarmiert und Zurückschlagen.",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "60168",
+        "name": "Bis an die Zähne bewaffnet",
+        "text": "Solange diese Karte zu einer Fertigkeitsprobe auf einer [[Gegenstand]]-Vorteilskarte, die du kontrollierst, beigetragen wird, erhält Bis an die Zähne bewaffnet [wild] [wild].",
+        "traits": "Trainiert."
+    },
+    {
+        "code": "60170",
+        "flavor": "\"Braver Junge, Saxon!\"",
+        "name": "Polizeihund",
+        "text": "[fast] Erschöpfe Polizeihund bei einem Angriff oder einer Ermittlung an deinem Ort: Der Ermittler, der den Angriff oder die Ermittlung durchführt, bekommt für diese Probe +2 auf den Fertigkeitswert.",
+        "traits": "Verbündeter. Kreatur. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "60171",
+        "name": "M1911",
+        "text": "Anwendungen (4 Munition).\n[action] gib 1 Munition aus: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu. Ignoriere für diesen Angriff das Schlüsselwort Zurückschlagen.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand"
+    },
+    {
+        "code": "60172",
+        "name": "Verlängerter Lauf",
+        "text": "Schnell. Spiele diese Karte nur in deinem Zug.\nHänge diese Karte an eine [[Feuerwaffe]]-Vorteilskarte an, die du kontrollierst.\nDu bekommst +1 auf deinen Fertigkeitswert, solange du mit der Vorteilskarte mit dieser Verstärkung angreifst.",
+        "traits": "Gegenstand. Verbesserung."
+    },
+    {
+        "code": "60173",
+        "flavor": "\"Bei der Polizeiarbeit geht es nicht um das Schnappen von Menschen. Es geht darum, die Gemeinde zu beschützen.\"",
+        "name": "Auf Streife",
+        "text": "Schnell. Spiele diese Karte, sobald dein Zug beginnt.\nBis zum Ende deines Zuges bekommst du +3 auf deinen Fertigkeitswert, solange du ermittelst oder verhandelst.",
+        "traits": "Taktik. Polizei."
+    },
+    {
+        "code": "60174",
+        "flavor": "Top in Form.",
+        "name": "Körperliche Fitness",
+        "text": "<b>Bewegen.</b> Heile nach dieser Bewegung 3 Schaden.",
+        "traits": "Geist."
+    },
+    {
+        "code": "60175",
+        "flavor": "Mehr Kugeln, als du verschießen kannst.",
+        "name": "Munitionslager",
+        "text": "Platziere 5 Munition auf [[Feuerwaffe]]-Vorteilskarten, die du kontrollierst <i>(du entscheidest, wie die Munition aufgeteilt wird)</i>.",
+        "traits": "Vorrat."
+    },
+    {
+        "code": "60177",
+        "name": "Detective Sherman",
+        "subname": "Adlerauge",
+        "text": "Du bekommst +1 [combat].\nDetective Sherman darf Schaden und/oder Horror zugewiesen, der anderen Ermittlern an deinem Ort zugefügt wird.\n[reaction] Nachdem Schaden auf Detective Sherman platziert worden ist, erschöpfe ihn: Entdecke 1 Hinweis an deinem Ort.",
+        "traits": "Verbündeter. Detective. Polizei.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "60178",
+        "name": "Durchhaltevermögen",
+        "text": "Startend. <i>(Du darfst das Spiel mit 1 Kopie einer Startend-Karte auf deiner Starthand beginnen.)</i>\n[fast] Gib 1 Ressource aus: Du bekommst für diese Fertigkeitsprobe +1 [combat] (stattdessen +2 [combat], falls dies ein Angriff oder Entkommen-Versuch ist).\n[fast] Gib 1 Ressource aus: Du bekommst für diese Fertigkeitsprobe +1 [agility] (stattdessen +2 [agility], falls dies ein Angriff oder Entkommen-Versuch ist).",
+        "traits": "Talent."
+    },
+    {
+        "code": "60179",
+        "flavor": "\"Na, sieh mal einer an. Wen haben wir denn da?\"",
+        "name": "Observierung",
+        "text": "<b>Ermitteln</b> ([intellect]). Du bekommst +3 [intellect] for this investigation. Falls die Probe gelingt, entdecke 1 zusätzlichen Hinweis an deinem Ort und heile 2 Horror.",
+        "traits": "Taktik."
+    },
+    {
+        "code": "60180",
+        "name": "Unbezwingbar",
+        "text": "Falls in dieser Runde ein Gegner einen Ermittler an diesem Ort angegriffen hat, erhält Unbezwingbar [wild] [wild] [wild].",
+        "traits": "Angeboren. Entwickelt."
+    },
+    {
+        "code": "60181",
+        "name": "Schutzweste",
+        "text": "Du hast 1 zusätzlichen Handslot, den du nur für eine [[Feuerwaffe]]-Vorteilskarte verwenden darfst.\n[reaction] Nachdem du Schutzweste gespielt hast: Durchsuche die obersten 9 Karten deines Decks nach einer [[Feuerwaffe]]- oder [[Verbesserung]]-Karte und füge sie deiner Hand hinzu. Mische dein Deck.",
+        "traits": "Gegenstand. Rüstung. Polizei.",
+        "slot": "Körper"
+    },
+    {
+        "code": "60182",
+        "name": "Thompson-Maschinenpistole",
+        "text": "Anwendungen (6 Munition).\n[action] Gib 1 Munition aus: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +3 [combat] und fügst +1 Schaden zu.\n[reaction] Nachdem du die obere [action]-Fähigkeit abgehandelt hast, gib 1 Munition aus: <b>Kampf</b> ([combat]). Dieser Angriff fügt +1 Schaden zu.",
+        "traits": "Gegenstand. Waffe. Feuerwaffe.",
+        "slot": "Hand x2"
+    }
+]
