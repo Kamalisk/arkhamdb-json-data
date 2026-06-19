@@ -1,0 +1,531 @@
+[
+    {
+        "code": "12001",
+        "flavor": "\"Those creatures are <i>definitely</i> gonna know what hit 'em.\"",
+        "name": "Daniela Reyes",
+        "subname": "The Mechanic",
+        "text": "[reaction] After an enemy attacks an investigator at your location: Fight that enemy <i>(using either a basic fight action or a </i><b>Fight</b><i> ability on a card)</i>. (Limit once per round.)\n[elder_sign] effect: +1. Deal 1 damage to an enemy at your location.",
+        "traits": "Warden. Worker.",
+        "back_flavor": "Daniela worked hard to make a name for herself as a mechanic. She'd only just paid off her new garage when Arkham was devastated by a cataclysmic flood, sending her business quite literally underwater. Rather than mope, she rolled up her sleeves, like always, and got back to work. Now she works an extra shift tuning up engines at the new meat-packing factories. But she's started to hear talk about strange things going on in the waterfront district: locals gone missing; corpses drained of blood; and rumors of a shadowy figure that stalks the alleys at night. Daniela knows better than to dismiss these strange happenings as mere circumstance. Whatever it is, she intends to be ready.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Survivor cards ([survivor]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Daniela's Wrench, In Harm's Way, 1 random basic weakness."
+    },
+    {
+        "code": "12002",
+        "name": "Daniela's Wrench",
+        "subname": "New and Improved",
+        "text": "Daniela Reyes deck only.\n[fast] Exhaust Daniela's Wrench: Choose an enemy at your location. That enemy engages you and makes an immediate attack.\n[action]: <b>Fight</b> ([combat]). You get +2 [combat] for this attack. If this enemy attacked you this round, this attack deals +1 damage.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12003",
+        "name": "In Harm's Way",
+        "text": "<b>Revelation</b> - Put In Harm's Way into play in your threat area.\n<b>Forced</b> - After you deal damage to an enemy: Take 1 damage and place 1 damage on In Harm's Way. If there is 3 or more damage on this card, discard it.\n<b>Forced</b> - When the game ends: Suffer 1 physical trauma.",
+        "traits": "Flaw."
+    },
+    {
+        "code": "12004",
+        "flavor": "\"I can't stop now. Not when I'm so close to the truth.\"",
+        "name": "Joe Diamond",
+        "subname": "The Private Investigator",
+        "text": "[reaction] After you successfully investigate: Draw 1 card. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed, draw 1 card and gain 1 resource.",
+        "traits": "Detective.",
+        "back_flavor": "Joe Diamond has more experience with supernatural nonsense than most. He has developed a keen intuition and a knack for getting to the bottom of even the most uncanny occurrences, helped in no small part by his willingness to get his hands dirty. But in recent weeks, even Joe has been hard-pressed to stay on top of his work. His desk is flooded with photos of grisly murders and reports of disappearances: people from all walks of life vanishing without a trace. Joe isn't sure how each of these events is connected, but he's not about to let the case go cold.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Guardian cards ([guardian]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Detective's Intuition, Dead Ends, 1 random basic weakness."
+    },
+    {
+        "code": "12005",
+        "flavor": "\"I don't know how you do it, Mr. Diamond. Your insight never ceases to impress.\"",
+        "name": "Detective's Intuition",
+        "text": "Joe Diamond deck only.\nGain 2 resources and heal 1 damage or 1 horror.\n[reaction] After you draw Detective's Intuition during your turn: Reveal it and draw 2 additional cards.",
+        "traits": "Insight."
+    },
+    {
+        "code": "12006",
+        "name": "Dead Ends",
+        "text": "<b>Forced</b> - When you search your deck and Dead Ends is among the searched cards: Draw it, cancel the effects of the search, and shuffle your deck.\n<b>Forced</b> - When the game ends or you are eliminated, if this card is in your hand: You earn 2 fewer experience.",
+        "traits": "Blunder."
+    },
+    {
+        "code": "12007",
+        "flavor": "\"You're quite good, but nobody can catch me.\"",
+        "name": "Trish Scarborough",
+        "subname": "The Former Spy",
+        "text": "You may take an additional action during your turn, which can only be used to evade.\n[elder_sign] effect: +0. After this test resolves, you may disengage from each enemy and move to a connecting location.",
+        "traits": "Agency. Criminal.",
+        "back_flavor": "Trish Scarborough enjoyed an exciting and dangerous career as a spy for the Black Chamber. She's no stranger to subterfuge, but never expected to be at the center of her own conspiracy when a new director arrived to run the organization. After a series of increasingly menial missions, she was strongly encouraged to \"take time for herself.\" Suspicious of her director's motives, she dug into the Chamber's records and discovered evidence of corruption going all the way to the top - rumors of an organization known as the Red Coterie working behind the scenes. Framed for leaking sensitive information, she's now on the run and driven to restore her good name.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Seeker cards ([seeker]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Covert Ops, Black Chamber Operative, 1 random basic weakness."
+    },
+    {
+        "code": "12008",
+        "flavor": "There are alley cats more conspicuous than you.",
+        "name": "Covert Ops",
+        "subname": "In the Shadows",
+        "text": "Trish Scarborough deck only.\n[reaction] After you evade an enemy, exhaust Covert Ops: Either draw 1 card, or move to a connecting location.",
+        "traits": "Talent. Illicit."
+    },
+    {
+        "code": "12009",
+        "flavor": "\"There is nowhere to run, Ms. Scarborough.\"",
+        "name": "Black Chamber Operative",
+        "text": "Hunter. Prey (Trish Scarborough only).\n<b>Forced</b> - After you evade Black Chamber Operative: Place 1 of your clues on your location. If you cannot, this enemy readies, engages you, and makes an immediate attack.",
+        "traits": "Humanoid. Coterie."
+    },
+    {
+        "code": "12010",
+        "flavor": "\"I'll show you <i>real</i> magic.\"",
+        "name": "Dexter Drake",
+        "subname": "The Magician",
+        "text": "[reaction] After you play an asset: Either return another non-story asset you control to your hand, or play a different asset from your hand <i>(paying its cost)</i>. (Limit once per round.)\n[elder_sign] effect: +1. You may return a non-story asset at your location to its owner's hand.",
+        "traits": "Performer. Sorcerer.",
+        "back_flavor": "After finding scraps of the dangerous and mysterious Necronomicon while fighting in the Great War, Dexter Drake wasted no small effort in hunting down and translating more pages. At first, his goal was to keep its evil contained. However, Dexter's curiosity drove him to delve deeper into the profane text, tempted by the promise of \"true\" magic. Dexter is sure he has what it takes to decode the text: he proved his courage in the war and his resourcefulness on stage. But true magic comes at a cost. Will Dexter prove his mastery over the arcane, or will the arcane overpower him?",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Rogue cards ([rogue]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): \"For my next trick...\", The Necronomicon <i>(Drake Translation)</i>, 1 random basic weakness."
+    },
+    {
+        "code": "12011",
+        "name": "\"For my next trick...\"",
+        "text": "Dexter Drake deck only.\nSearch your deck for a [[Spell]] or [[Item]] asset and play it, reducing its cost by 2 <i>(shuffle your deck)</i>. This action does not provoke attacks of opportunity.",
+        "traits": "Spell. Trick."
+    },
+    {
+        "code": "12012",
+        "name": "The Necronomicon",
+        "subname": "Drake Translation",
+        "text": "<b>Revelation</b> - Put The Necronomicon into play in your threat area. It cannot leave play except by the [action] ability below.\nYou cannot play assets or trigger abilities on other assets you control.\n[action]: Test [willpower] (5). If you succeed, discard The Necronomicon. If you fail, shuffle it into your deck and take 1 horror.",
+        "traits": "Item. Tome. Cursed.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "12013",
+        "flavor": "\"My sister's sacrifice won't be in vain.\"",
+        "name": "Isabelle Barnes",
+        "subname": "The Returned",
+        "text": "[fast] During a skill test you are performing, take 1 direct horror: Commit an eligible skill from your discard pile to this test. After this test resolves, shuffle that card into your deck. (Limit once per round.)\n[elder_sign] effect: +1. If you succeed, heal 1 horror.",
+        "traits": "Chosen. Hunter.",
+        "back_flavor": "Isabelle Barnes has been on the run for as long as she can remember. She finally escaped from the Olmsteads, a family cult who thought of her as the \"final piece\" for some dark and twisted ritual. She doesn't know what made her so special to the cult. But now, thanks to her sister Jenny, Isabelle is finally free. But freedom comes at a cost. Her sister gave everything to get Isabelle back, and for that, Isabelle intends to make the Olmsteads - and all those who prey on the weak and innocent - pay in blood. Armed with her lost sister's twin .45s, Isabelle can finally turn to face her pursuers head on.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Mystic cards ([mystic]) level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Isabelle's Twin .45s, Breaking Point, 1 random basic weakness."
+    },
+    {
+        "code": "12014",
+        "name": "Isabelle's Twin .45s",
+        "subname": "Loaded with Vengeance",
+        "text": "Isabelle Barnes deck only. Uses (6 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([combat]). You get +1 [combat] and deal +1 damage for this attack.\n[reaction] After you resolve the above ability, spend 1 ammo and exhaust Isabelle's Twin .45s: <b>Fight</b> ([agility]). You get +1 [agility] and deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "12015",
+        "name": "Breaking Point",
+        "text": "<b>Revelation</b> - Take 1 direct damage. Then, if you have 6 or fewer remaining sanity, take 1 direct damage. Then, if you have 3 or fewer remaining sanity, take 1 direct damage.",
+        "traits": "Hardship."
+    },
+    {
+        "code": "12016",
+        "flavor": "\"I'm not here to help you shop; I'm here to keep you alive.\"",
+        "name": "Bodyguard",
+        "text": "Bodyguard may be assigned damage dealt to other investigators at your location.\n[reaction] When Bodyguard is defeated: Deal 1 damage to an enemy at your location.",
+        "traits": "Ally.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12017",
+        "name": "Endurance",
+        "text": "[fast] Spend 1 resource: You get +1 [combat] for this skill test (+2 [combat] instead if this is an attack or evasion).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this is an attack or evasion).",
+        "traits": "Talent."
+    },
+    {
+        "code": "12018",
+        "flavor": "\"Preparing for Armageddon seems insane until it's the end of the world!\"",
+        "name": "Logan Hastings",
+        "subname": "Bounty Hunter",
+        "text": "You get +1 [combat].\n[reaction] After you defeat an enemy, exhaust Logan Hastings: Gain 1 resource.",
+        "traits": "Ally. Hunter.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12019",
+        "name": "M1911",
+        "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([combat]). You get +1 [combat] and deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12021",
+        "flavor": "Nothing's gonna keep you down.",
+        "name": "Resilience",
+        "traits": "Talent."
+    },
+    {
+        "code": "12022",
+        "name": "Lesson Learned",
+        "text": "Fast. Play after an enemy attacks you.\nDiscover 1 clue at your location.",
+        "traits": "Insight. Spirit."
+    },
+    {
+        "code": "12023",
+        "flavor": "\"Keep digging. You'll find something you need in there.\"",
+        "name": "Right Tool for the Job",
+        "text": "Search the top 9 cards of your deck for a [[Tool]] or [[Weapon]] asset and add it to your hand. Shuffle your deck.",
+        "traits": "Insight."
+    },
+    {
+        "code": "12026",
+        "name": "Counterattack",
+        "text": "Fast. Play when an enemy attacks an investigator at your location <i>(before resolving that attack)</i>.\nCancel that attack. Deal 1 damage to that enemy.",
+        "traits": "Spirit. Tactic."
+    },
+    {
+        "code": "12027",
+        "flavor": "\"I'm not here to help you shop; I'm here to keep you alive.\"",
+        "name": "Bodyguard",
+        "text": "Bodyguard may be assigned damage dealt to other investigators at your location.\n[reaction] When Bodyguard is defeated: Deal 2 damage to an enemy at your location.",
+        "traits": "Ally.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12028",
+        "flavor": "Twenty-two and a half pounds of steel vengeance.",
+        "name": "Sledgehammer",
+        "text": "[action]: <b>Fight</b> ([combat]). This attack deals + 1 damage.\n[action][action]: <b>Fight</b> ([combat]). You get +3 [combat] for this attack. If you succeed, you may exhaust Sledgehammer for this attack to deal +2 damage.",
+        "traits": "Item. Tool. Weapon. Melee.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "12029",
+        "name": "Winchester Model 12",
+        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([combat]). You get +3 [combat] for this attack. If you succeed, this attack deals +1 damage for each point you succeed by (to a maximum of +4). If you fail and would deal damage to another investigator, this attack deals 1 damage for each point you fail by (to a maximum of 5 damage).",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand x2"
+    },
+    {
+        "code": "12030",
+        "flavor": "\"I've taken every class that Dr. Christopher offers!\"",
+        "name": "Dorothy Simmons",
+        "subname": "Straight-A Student",
+        "text": "You get +1 [intellect].\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dorothy Simmons: Gain 1 resource.",
+        "traits": "Ally. Miskatonic.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12033",
+        "flavor": "\"I could swear we've been here before...\"",
+        "name": "Local Map",
+        "text": "Uses (4 secrets).\n[action] Spend 1 secret: <b>Investigate</b> ([intellect]). Investigate a revealed connecting location. You get +1 [intellect] for this investigation. If you succeed, you may exhaust Local Map to move to that location.",
+        "traits": "Item.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12035",
+        "name": "Sharp Rhetoric",
+        "text": "[fast] Spend 1 resource: You get +1 [intellect] for this skill test (+2 [intellect] instead if this is an investigation or parley).\n[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this is an investigation or parley).",
+        "traits": "Talent."
+    },
+    {
+        "code": "12036",
+        "flavor": "You learn so much more by getting up-close and personal.",
+        "name": "Gather Intel",
+        "text": "Fast. Play when an enemy enters your location.\nDraw 2 cards.",
+        "traits": "Insight."
+    },
+    {
+        "code": "12037",
+        "name": "Through the Cracks",
+        "text": "<b>Evade</b> ([agility]). You get +1 [agility] for this evasion for each clue you control (to a maximum of +3). If you succeed, you may disengage from each enemy engaged with you and move to a revealed connecting location.",
+        "traits": "Insight. Trick."
+    },
+    {
+        "code": "12040",
+        "name": "Mysterious Grimoire",
+        "text": "Uses (4 secrets).\n[fast] During your turn, spend 1 or 2 secrets and exhaust Mysterious Grimoire: Search the top 3 cards (or 6 cards instead if you spent 2 secrets) of your deck for a card and draw it. If 1 or more weaknesses are among the searched cards, draw them as well. Shuffle your deck.",
+        "traits": "Item. Tome.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12041",
+        "name": "Through the Cracks",
+        "text": "<b>Evade</b> ([agility]). You get +2 [agility] for this evasion for each clue you control (to a maximum of +6). If you succeed, you may disengage from each enemy engaged with you and move to a revealed connecting location.",
+        "traits": "Insight. Trick."
+    },
+    {
+        "code": "12043",
+        "name": "Unbridled Knowledge",
+        "text": "Reveal the top 5 cards of your deck (8 cards instead if you control 2 or more clues). Draw 3 of them and place the rest of those cards on the top and/or bottom of your deck in any order.",
+        "traits": "Insight."
+    },
+    {
+        "code": "12045",
+        "name": "M1903 Hammerless",
+        "text": "Uses (4 ammo).\n[action] Spend 1 ammo: <b>Fight</b> ([agility]). If the targeted enemy is exhausted, this attack deals +1 damage.",
+        "traits": "Item. Weapon. Firearm.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12046",
+        "flavor": "\"I suppose I'll help you... for now.\"",
+        "name": "Olivier Bishop",
+        "subname": "Haughty Art \"Collector\"",
+        "text": "You get +1 [agility].\n[fast] During your turn, exhaust Olivier Bishop: Move to a connecting location.",
+        "traits": "Ally. Criminal. Socialite.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12047",
+        "name": "Silver Tongue",
+        "text": "[fast] Spend 1 resource: You get +1 [intellect] for this skill test (+2 [intellect] instead if this is an evasion or parley).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this is an evasion or parley).",
+        "traits": "Talent."
+    },
+    {
+        "code": "12048",
+        "flavor": "Worse than a kid in a candy shop.",
+        "name": "Sticky Fingers",
+        "text": "Limit 1 per investigator.\n[reaction] After you successfully evade an enemy, exhaust Sticky Fingers: Gain 1 resource.",
+        "traits": "Talent."
+    },
+    {
+        "code": "12051",
+        "flavor": "You can't put a price on fame.\nOr can you?",
+        "name": "Paint the Town Red",
+        "text": "<b>Parley.</b> Search the top 9 cards of the encounter deck for a non-[[Elite]] enemy, draw it, and gain resources equal to that enemy's printed health. Shuffle the encounter deck.",
+        "traits": "Fortune. Gambit."
+    },
+    {
+        "code": "12052",
+        "flavor": "Now you see it. Now you don't.",
+        "name": "Prestidigitation",
+        "text": "Fast. Play only during your turn.\nPlay an [[Item]] asset from your hand, reducing its cost by 2. When your turn ends, return an [[Item]] asset you control to your hand.",
+        "traits": "Trick."
+    },
+    {
+        "code": "12053",
+        "name": "Out of Sight",
+        "text": "Max 1 committed per skill test.\nIf this test is successful by 2 or more, the performing investigator may disengage from each enemy and move to a revealed connecting location.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "12054",
+        "flavor": "Worse than a kid in a candy shop.",
+        "name": "Sticky Fingers",
+        "text": "Fast. Limit 1 per investigator.\n[reaction] After you successfully evade an enemy, exhaust Sticky Fingers: Gain 1 resource.",
+        "traits": "Talent."
+    },
+    {
+        "code": "12055",
+        "flavor": "Don't forget to check the pockets.",
+        "name": "Decisive Strike",
+        "text": "<b>Fight</b> ([combat]). You get +2 [combat] and deal +1 damage for this attack. If this attack defeats an enemy, gain 5 resources.",
+        "traits": "Tactic. Gambit."
+    },
+    {
+        "code": "12057",
+        "name": "Out of Sight",
+        "text": "Max 1 committed per skill test.\nIf this test is successful by 1 or more, the performing investigator may disengage from each enemy and move to a revealed location up to 2 connections away.",
+        "traits": "Practiced. Expert."
+    },
+    {
+        "code": "12058",
+        "flavor": "\"To be createde of 3 partes aether, 2 cinnabar, and at least 3 pounds ophe rokket gatherede from ain hevenful mountain.\" -Alchemical Formula No VIII ca. 1660",
+        "name": "Cloak of Resonance",
+        "text": "[reaction] When horror is placed on Cloak of Resonance, exhaust it: Deal 1 damage to an enemy at your location.",
+        "traits": "Item. Clothing. Alchemy.",
+        "slot": "Body"
+    },
+    {
+        "code": "12059",
+        "name": "Cosmic Flame",
+        "text": "Uses (3 charges).\n[action]: <b>Fight</b> ([willpower]). If you succeed, you may spend 1 charge to deal +1 damage for this attack. If you reveal a [skull] token during this test, remove 1 charge from Cosmic Flame (if you cannot, take 1 damage and discard this card).",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "12060",
+        "flavor": "\"You see these folks too? You never really get used to them.\"",
+        "name": "Jim Culver",
+        "subname": "Haunted Musician",
+        "text": "You get +1 [willpower].\n[reaction] After you take damage and/or horror, exhaust Jim Culver: Draw 1 card.",
+        "traits": "Ally. Performer.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12061",
+        "name": "Lucky Charm",
+        "text": "Uses (4 charges).\n[fast] Spend 1 charge and exhaust Lucky Charm: Move 1 damage or 1 horror from a card at your location to a card you control <i>(with a health or sanity value)</i>.",
+        "traits": "Item. Charm. Blessed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "12062",
+        "name": "Second Sight",
+        "text": "Uses (3 charges).\n[action]: <b>Investigate</b> ([willpower]). If you succeed, you may spend 1 charge to discover 1 additional clue at your location. If you reveal a [cultist] token during this test, remove 1 charge from Second Sight (if you cannot, take 1 horror and discard this card).",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "12063",
+        "name": "Spiritual Intuition",
+        "text": "[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this test is on a [[Spell]] or [[Ritual]] card).\n[fast] Spend 1 resource: You get +1 [combat] for this skill test (+2 [combat] instead if this test is on a [[Spell]] or [[Ritual]] card).",
+        "traits": "Talent."
+    },
+    {
+        "code": "12066",
+        "flavor": "In the cosmos, all are one. In the void, all is none.",
+        "name": "Will of the Cosmos",
+        "text": "Place 1 doom on a player card you control. Then, discover 1 clue at your location and 1 clue at another revealed location.",
+        "traits": "Insight. Augury."
+    },
+    {
+        "code": "12067",
+        "flavor": "By the power of the ancients am I reborn anew.",
+        "name": "Soul Link",
+        "text": "As an additional cost to commit Soul Link, take 1 horror.",
+        "traits": "Innate. Spell."
+    },
+    {
+        "code": "12068",
+        "name": "Mask of Silenus",
+        "subname": "Face of the Void",
+        "text": "Uses (3 charges).\n[reaction] When you would reveal a chaos token, spend 1 charge: Reveal 1 additional token. Choose 1 of those tokens to resolve and ignore the other. If you resolved a token with a symbol, take 1 horror.",
+        "traits": "Item. Mask. Relic. Cursed.",
+        "slot": "Head"
+    },
+    {
+        "code": "12070",
+        "name": "Augur of Elokoss",
+        "text": "<b>Investigate</b> ([intellect]). Add your [willpower] to your [intellect] for this investigation. If you succeed, discover 1 additional clue at your location. If you succeed and a token with a symbol was revealed during this test, you may discard a [[Terror]] or [[Hex]] treachery from any investigator's threat area.",
+        "traits": "Spell. Augury."
+    },
+    {
+        "code": "12071",
+        "name": "Cosmic Flame",
+        "text": "Uses (4 charges).\n[action]: <b>Fight</b> ([willpower]). You get +2 [willpower] and deal +1 damage for this attack. If you succeed, you may spend 1 charge to deal 1 damage to an enemy at your location. If you reveal a [skull] token during this test, remove 1 charge from Cosmic Flame (if you cannot, take 1 damage and discard this card).",
+        "traits": "Spell.",
+        "slot": "Arcane"
+    },
+    {
+        "code": "12072",
+        "flavor": "\"I've had way worse, pal.\"",
+        "name": "Aleksey Saburov",
+        "subname": "Always on the Mend",
+        "text": "[reaction] When your turn begins: Heal 1 damage or 1 horror from Aleksey Saburov.",
+        "traits": "Ally.",
+        "slot": "Ally"
+    },
+    {
+        "code": "12074",
+        "name": "Hunter's Instinct",
+        "text": "Limit 1 per investigator. Uses (3 supplies). If there are no supplies on Hunter's Instinct, discard it.\n[reaction] After you engage an enemy, spend 1 supply and exhaust Hunter's Instinct: Add a level 0 event in your discard pile to your hand.",
+        "traits": "Talent."
+    },
+    {
+        "code": "12075",
+        "flavor": "You keep finding things you thought you'd lost in those deep pockets.",
+        "name": "Jumpsuit",
+        "text": "[fast] During your turn, discard Jumpsuit: Choose a [[Tool]] or [[Weapon]] asset in your discard pile and add it to your hand.",
+        "traits": "Item. Clothing.",
+        "slot": "Body"
+    },
+    {
+        "code": "12076",
+        "name": "Levelheaded",
+        "text": "[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this test is on a scenario card).\n[fast] Spend 1 resource: You get +1 [agility] for this skill test (+2 [agility] instead if this test is on a scenario card).",
+        "traits": "Talent."
+    },
+    {
+        "code": "12079",
+        "name": "\"Shove off!\"",
+        "text": "<b>Evade</b> ([agility]). If you succeed, deal 1 damage to the evaded enemy. If you fail, return \"Shove off!\" to your hand at the end of your turn.",
+        "traits": "Tactic."
+    },
+    {
+        "code": "12080",
+        "name": "Slippery",
+        "text": "If this skill test is successful while evading a non-[[Elite]] enemy, that enemy does not ready during the next upkeep phase.",
+        "traits": "Practiced."
+    },
+    {
+        "code": "12081",
+        "name": "Timely Intervention",
+        "text": "Max 1 committed per skill test.\nYou may commit Timely Intervention from your hand after revealing chaos tokens during a skill test you are performing.",
+        "traits": "Fortune."
+    },
+    {
+        "code": "12082",
+        "name": "Scrape By",
+        "text": "Fast. Play when you would fail a skill test during which a non-[auto_fail] token was revealed.\nYou succeed at that skill test instead. If a token with a symbol was revealed during that skill test, take 1 horror.",
+        "traits": "Fortune."
+    },
+    {
+        "code": "12083",
+        "name": "Old Compass",
+        "text": "[action]: <b>Investigate</b> ([intellect]). Your location gets -1 shroud for this investigation. If you fail, you may exhaust Old Compass to attempt this test again. If you do, your location gets -2 shroud for this investigation, instead.",
+        "traits": "Item. Tool.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12084",
+        "flavor": "Nobody knows what you'll do if you're pushed past your limits.",
+        "name": "On the Brink",
+        "text": "Max 1 committed per skill test.\nIf this test fails, return each other card committed to this test to its owner's hand and draw 1 card.",
+        "traits": "Gambit. Desperate."
+    },
+    {
+        "code": "12085",
+        "name": "Meat Cleaver",
+        "text": "[action]: <b>Fight</b> ([combat]). You get +2 [combat] for this attack (+3 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror.\n[reaction] When you trigger the above [action] ability, take 1 horror: This attack deals +1 damage.",
+        "traits": "Item. Weapon. Melee.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12086",
+        "flavor": "It was cheap whiskey, anyway.",
+        "name": "Broken Bottle",
+        "text": "[action]: <b>Fight</b> ([combat]). You get +1 [combat] for this attack. If you succeed, you may discard Broken Bottle to deal +1 damage for this attack.",
+        "traits": "Item. Weapon. Melee. Improvised.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12087",
+        "flavor": "A little style goes a long way.",
+        "name": "Fedora",
+        "traits": "Item. Apparel. Headwear.",
+        "slot": "Head"
+    },
+    {
+        "code": "12088",
+        "flavor": "Works in any situation, and the batteries never run out!\n- Schoffner's Catalogue, Spring 1927 ed.",
+        "name": "Hand-Crank Flashlight",
+        "text": "[action]: <b>Investigate</b> ([intellect]). You get +1 [intellect] for this test. If you succeed, you may discard Hand-Crank Flashlight for your location to get -1 shroud until the end of the round.",
+        "traits": "Item. Tool.",
+        "slot": "Hand"
+    },
+    {
+        "code": "12098",
+        "name": "The Gold Bug",
+        "text": "<b>Revelation</b> - Put The Gold Bug into play in your threat area. It cannot leave play except by the [action] ability below.\nYou get -1 health and -1 sanity.\n[action]: Shuffle the Gold Bug into your deck.",
+        "traits": "Item. Relic. Alchemy. Cursed.",
+        "slot": "Accessory"
+    },
+    {
+        "code": "12099",
+        "name": "The Nameless Lurker",
+        "text": "Aloof.\n<b>Spawn</b> - Farthest empty location.\n<b>Forced</b> - When the investigation phase ends, if The Nameless Lurker is ready and has no doom on it: Place 1 doom on it.",
+        "traits": "Humanoid. Monster."
+    },
+    {
+        "code": "12102",
+        "name": "Pursued",
+        "text": "<b>Revelation</b> - Put Pursued into play in your threat area.\n<b>Forced</b> - After an enemy enters <i>(moves into or spawns at)</i> your location: Take 1 horror.\n[action][action]: Discard Pursued.",
+        "traits": "Terror."
+    },
+    {
+        "code": "12103",
+        "name": "Syndicate Obligations",
+        "text": "<b>Revelation</b> - Put Syndicate Obligations into play in your threat area.\n<b>Forced</b> - After you spend 1 or more resources: Take 1 damage.\n[action][action]: Discard Syndicate Obligations.",
+        "traits": "Pact. Syndicate."
+    },
+    {
+        "code": "12104",
+        "name": "Wounded",
+        "text": "<b>Revelation</b> - Put Wounded into play in your threat area.\n<b>Forced</b> - The first time you move each turn: Take 1 damage.\n[action][action]: Discard Wounded.",
+        "traits": "Injury."
+    }
+]
