@@ -1,201 +1,228 @@
 [
     {
         "code": "60451",
-        "flavor": "\"I've got one hell of a showstopper in store for you tonight.\"",
+        "flavor": "„Mam dziś dla ciebie niezły kawałek”.",
         "name": "Marie Lambeau",
-        "subname": "The Entertainer",
-        "text": "[reaction] After damage is placed on Marie Lambeau: Draw 2 cards and discard 1 of them. (Limit once per phase.)\n[elder_sign] effect: +0. If you succeed, heal 1 damage.",
-        "traits": "Performer. Witch.",
-        "back_flavor": "When Marie discovered her Grand-Mère's dark and sordid legacy of blood magic, she did her best to ignore it. It was much easier to just sing in the smoky lounges and packed nightclubs of Arkham, and far less dangerous. But then times got tough. As crowds thinned and patrons grew surly, Marie found herself embracing her Grand-Mère's powers to sway her audience, quieting the rowdy ones and enticing the wealthier amongst them to open their wallets. Relying on her dangerous powers increasingly often, Marie felt they were becoming a necessary tool to get through the day. Surely there would be no cost for this newfound power... right?",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Grand-Mère's Charm, Called to Guinée, 1 random basic weakness."
+        "subname": "Piosenkarka",
+        "text": "[reaction] Po tym, jak na Marie Lambeau zostanie umieszczone obrażenie: dobierz 2 karty i odrzuć 1 z nich. (Limit raz na fazę)\nEfekt [elder_sign]: +0. Jeśli test zakończy się sukcesem, wylecz 1 obrażenie.",
+        "traits": "Artysta. Wiedźma.",
+        "back_flavor": "Kiedy Marie odkryła mroczną i plugawą spuściznę magii krwi swojej Grand-Mère, robiła wszystko, co w jej mocy, aby ją zignorować. Łatwiej jest śpiewać w zadymionych salonach i pełnych nocnych klubach w Arkham, bo to o wiele mniej niebezpiecznie. Ale czasy się zmieniły. Gdy tłumy się przerzedzały, a sponsorzy stawali się coraz bardziej opryskliwi, Marie zaczęła korzystać z mocy swojej Grand-Mère, aby zjednywać publiczność, uspokajać hałaśliwe osoby i kusić bogatszych spośród nich do otwarcia portfeli. Coraz częściej polegając na swoich niebezpiecznych mocach, czuła, że stają się one niezbędnym narzędziem do przeżycia. Ta nowa moc z pewnością nie wiąże się z żadnym kosztem...",
+        "back_text": "<b>Rozmiar talii</b>: 30.\n<b>Opcje tworzenia talii</b>: karty Mistyka ([mystic]) o poziomie 0-5, karty neutralne o poziomie 0-5.\n<b>Wymogi tworzenia talii</b> (nie wliczane do wielkości talii): Amulet Grand-Mère, Przyzwana do Gwinei, 1 losowe podstawowe osłabienie."
     },
     {
         "code": "60452",
-        "name": "Grand-Mère's Charm",
-        "text": "Marie Lambeau deck only.\n[fast] Take 1 direct damage and exhaust Grand-Mère's Charm: Replenish 1 charge on an asset at your location.",
-        "traits": "Item. Charm. Occult. Blessed.",
-        "slot": "Accessory"
+        "name": "Amulet Grand-Mère",
+        "text": "Tylko talia Marie Lambeau.\n[fast] Otrzymaj 1 bezpośrednie obrażenie i wyczerp Amulet Grand-Mère: uzupełnij 1 ładunek na atucie w twojej lokalizacji.",
+        "traits": "Przedmiot. Amulet. Okultyzm. Błogosławiony.",
+        "slot": "Drobiazg"
     },
     {
         "code": "60453",
-        "name": "Called to Guinée",
-        "text": "<b>Revelation</b> - Put Called to Guinée into play in your threat area.\nYou cannot heal damage.\n[action] Choose and discard 3 cards from your hand: Discard Called to Guinée.",
-        "traits": "Curse. Pact."
+        "name": "Przyzwana do Gwinei",
+        "text": "<b>Odkrycie</b> – Umieść Przyzwaną do Gwinei w grze, w twoim obszarze zagrożenia.\nNie możesz leczyć obrażeń.\n[action] Wybierz i odrzuć 3 karty z twojej ręki: odrzuć Przyzwaną do Gwinei.",
+        "traits": "Klątwa. Pakt."
     },
     {
         "code": "60454",
-        "name": "Hemophobia",
-        "text": "<b>Revelation</b> - Put Hemophobia into play in your threat area.\n<b>Forced</b> - The first time each round an investigator at your location takes damage: Take 1 horror.\n[action] [action]: Discard Hemophobia.",
-        "traits": "Terror."
+        "name": "Hemofobia",
+        "text": "<b>Odkrycie</b> – Umieść Hemofobię w grze, w twoim obszarze zagrożenia.\n<b>Wymuszony</b> – Za pierwszym razem w każdej rundzie, kiedy badacz w twojej lokalizacji otrzyma obrażenie: otrzymujesz 1 punkt przerażenia.\n[action] [action]: Odrzuć Hemofobię.",
+        "traits": "Koszmar."
+    },
+    {
+        "code": "60455",
+        "name": "Nowicjusz wiedzy tajemnej",
+        "text": "<b>Wymuszony</b> - Po tym, jak Nowicjusz wiedzy tajemnej wejdzie do gry: umieść na nim 1 żeton zagłady.\n[fast] Wyczerp Nowicjusza wiedzy tajemnej: przeszukaj 3 wierzchnie karty z twojej talii w poszukiwaniu karty z cechą [[Zaklęcie]] i dobierz ją. Potasuj swoją talię.",
+        "traits": "Sprzymierzeniec. Czarnoksiężnik.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "60456",
-        "flavor": "Everything has its price, but how it is paid is up for negotiation.",
-        "name": "Offering Bowl",
-        "text": "Uses (3 offerings). If there are no offerings on Offering Bowl, discard it.\n[fast] Spend 1 offering and exhaust Offering Bowl: Take 1 damage and gain 2 resources.",
-        "traits": "Item. Occult."
+        "flavor": "Wszystko ma swoją cenę, ale sposób jej zapłaty podlega negocjacjom.",
+        "name": "Misa ofiarna",
+        "text": "Zużywalny (3 ofiary). Jeśli na Misie ofiarnej nie znajdują się żadne ofiary, odrzuć ją.\n[fast] Wydaj 1 ofiarę i wyczerp Misę ofiarną: otrzymaj 1 obrażenie i zyskaj 2 zasoby.",
+        "traits": "Przedmiot. Okultyzm."
     },
     {
         "code": "60457",
-        "flavor": "A symbol for vitality and courage in ancient times, wearing the heliotrope has you wondering if there wasn't some measure of truth to the old stories.",
-        "name": "Bloodstone",
-        "text": "You get +1 [willpower].",
-        "traits": "Item. Charm. Cursed.",
-        "slot": "Accessory"
+        "flavor": "Symbol witalności i odwagi w starożytności. Noszenie go sprawiło, że zastanawiasz się, czy w starych opowieściach nie kryje się ziarno prawdy.",
+        "name": "Krwawnik",
+        "text": "Dostajesz +1 [willpower].",
+        "traits": "Przedmiot. Amulet. Przeklęty.",
+        "slot": "Drobiazg"
     },
     {
         "code": "60458",
-        "name": "Sacrificial Doll",
-        "text": "While you have 3 or fewer remaining health, Sacrificial Doll does not take up a hand slot.\n[reaction] After you reveal a non-[auto_fail] chaos token during a skill test, take 1 damage and exhaust Sacrificial Doll: Cancel that token and reveal tokens from the chaos bag until a symbol token is revealed. Resolve that token and ignore the rest.",
-        "traits": "Item. Charm. Occult.",
-        "slot": "Hand"
+        "name": "Lalka ofiarna",
+        "text": "Dopóki masz 3 lub mniej pozostałej poczytalności, Lalka ofiarna nie zajmuje strefy ręki.\n[reaction] Po tym, jak podczas testu umiejętności odkryjesz żeton chaosu inny niż [auto_fail], otrzymaj 1 obrażenie i wyczerp Lalkę ofiarną: anuluj ten żeton i odkrywaj żetony z worka chaosu, póki nie odkryjesz żetonu z symbolem. Rozpatrz dany żeton chaosu, a pozostałe zignoruj.",
+        "traits": "Przedmiot. Amulet. Okultyzm.",
+        "slot": "Ręka"
+    },
+    {
+        "code": "60459",
+        "name": "Kosmiczny płomień",
+        "text": "Zużywalny (3 ładunki).\n[action]: <b>Walka</b> ([willpower]). Jeśli test zakończy się sukcesem, możesz wydać 1 ładunek, aby ten atak zadał +1 obrażenie. Jeśli podczas tego testu odkryjesz żeton chaosu [skull], usuń 1 ładunek z Kosmicznego płomienia (jeśli nie możesz tego zrobić, otrzymujesz 1 obrażenie i odrzucasz tę kartę).",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
+    },
+    {
+        "code": "60460",
+        "name": "Drugi wzrok",
+        "text": "Zużywalny (3 ładunki).\n[action]: <b>Badanie</b> ([willpower]). Jeśli test zakończy się sukcesem, możesz wydać 1 ładunek, aby odkryć 1 dodatkową wskazówkę w twojej lokalizacji. Jeśli podczas tego testu odkryjesz żeton chaosu [cultist], usuń 1 ładunek z Drugiego wzroku (jeśli nie możesz tego zrobić, otrzymujesz 1 punkt przerażenia i odrzucasz tę kartę).",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
     },
     {
         "code": "60461",
-        "name": "Shadowmeld",
-        "text": "Uses (4 charges).\n[action]: <b>Evade</b> ([willpower]). If you succeed, you may spend 1 charge to move to a connecting location. If you reveal a [tablet] token during this test, remove 1 charge from Shadowmeld (if you cannot, lose 1 action and discard this card).",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Zniknięcie w cieniu",
+        "text": "Zużywalny (4 ładunki).\n[action]: <b>Wymykanie się</b> ([willpower]). Jeśli test zakończy się sukcesem, możesz wydać 1 ładunek, aby poruszyć się do połączonej lokalizacji. Jeśli podczas tego testu odkryjesz żeton chaosu [tablet], usuń 1 ładunek ze Zniknięcia w cieniu (jeśli nie możesz tego zrobić, tracisz 1 akcję i odrzucasz tę kartę).",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
     },
     {
         "code": "60462",
-        "flavor": "True power is in the blood.",
-        "name": "Consume Life",
-        "text": "<b>Fight</b> ([willpower]). This attack deals +1 damage. If this attack defeats an enemy, heal 1 damage from an investigator or [[Ally]] asset at your location.",
-        "traits": "Spell."
+        "flavor": "Prawdziwa moc drzemie we krwi.",
+        "name": "Pożarcie życia",
+        "text": "<b>Walka</b> ([willpower]). Ten atak zadaje +1 obrażenie. Jeśli ten atak pokona wroga, wylecz 1 obrażenie z badacza lub atutu z cechą [[Sprzymierzeniec]] w twojej lokalizacji.",
+        "traits": "Zaklęcie."
     },
     {
         "code": "60463",
-        "name": "Favor of Baalshandor",
-        "text": "As an additional cost to play Favor of Baalshandor, take 1 damage.\nPlay a [[Spell]] or [[Ritual]] asset from your hand, reducing its cost by 3. Playing this card does not provoke attacks of opportunity.",
-        "traits": "Ritual."
+        "name": "Ulubieniec Baalshandora",
+        "text": "Jako dodatkowy koszt zagrania Ulubieńca Baalshandora, otrzymaj 1 obrażenie.\nZagraj atut z cechą [[Zaklęcie]] lub [[Rytuał]] z twojej ręki, obniżając jego koszt o 3. Zagranie tej karty nie wywołuje ataków towarzyszących.",
+        "traits": "Rytuał."
     },
     {
         "code": "60464",
-        "flavor": "My life for yours.",
-        "name": "Infuse Life",
-        "text": "Heal 3 damage from among investigators and/or [[Ally]] assets at your location.",
-        "traits": "Spell."
+        "flavor": "Moje życie za twoje.",
+        "name": "Tchnienie życia",
+        "text": "Wylecz łącznie 3 obrażenia spośród badaczy i/lub atutów z cechą [[Sprzymierzeniec]] w twojej lokalizacji.",
+        "traits": "Zaklęcie."
     },
     {
         "code": "60465",
-        "name": "Mirror Form",
-        "text": "Fast. Play only during your turn.\nChoose a [[Spell]] or [[Charm]] asset in your hand and put it into play under your control. When the round ends, shuffle that asset into your deck if it is still in play.",
-        "traits": "Spell."
+        "name": "Lustrzana forma",
+        "text": "Szybka. Zagraj tylko podczas twojej tury.\nWybierz atut z cechą [[Zaklęcie]] lub [[Amulet]] z twojej ręki i umieść go w grze pod twoją kontrolą. Następnie, jeśli na koniec rundy ten atut nadal jest w grze, wtasuj go z powrotem do twojej talii.",
+        "traits": "Zaklęcie."
     },
     {
         "code": "60466",
-        "name": "Spiritual Charm",
-        "text": "<b>Parley</b>. Choose a non-[[Elite]] enemy at your location or at a connecting location. Move that enemy to your location, engage it, and gain resources equal to its combined damage/horror values.",
-        "traits": "Spell. Trick."
+        "name": "Duchowy urok",
+        "text": "<b>Pertraktacje</b>. Wybierz nie-[[Elitarnego]] wroga w twojej lub połączonej lokalizacji. Porusz danego wroga do twojej lokalizacji, wejdź z nim w zwarcie i zyskaj zasoby równe połączonej wartości jego obrażeń i przerażenia.",
+        "traits": "Zaklęcie. Sztuczka."
     },
     {
         "code": "60467",
-        "flavor": "What wouldn't you give for a taste of true power?",
-        "name": "Blood Curse",
-        "text": "Max 1 committed per skill test.\nIf this skill test is successful, take 1 direct damage.",
-        "traits": "Spell. Cursed."
+        "flavor": "Czego byś nie dał za posmakowanie prawdziwej mocy?",
+        "name": "Klątwa krwi",
+        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nJeśli test zakończy się sukcesem, otrzymujesz 1 bezpośrednie obrażenie.",
+        "traits": "Zaklęcie. Przeklęty."
     },
     {
         "code": "60468",
-        "flavor": "\"From time to time people... [shuddered] at the small dark speck that paraded by day and the glimmering will-o'-the-wisp that danced by night.\"\n<i>- H.P. Lovecraft, \"The Mound\"</i>",
-        "name": "Cosmic Guidance",
-        "text": "If this skill test is successful, heal 1 damage from the performing investigator.",
-        "traits": "Augury."
+        "flavor": "„Od czasu do czasu ludzie… [drżeli] na widok mikrej, mrocznej plamki, która przechadzała się za dnia, i migotliwego błędnego ognika, tańczącego pośród mroku nocy.”\n<i>— H.P. Lovecraft, </i>Kopiec",
+        "name": "Kosmiczne przewodnictwo",
+        "text": "Jeśli ten test zakończy się sukcesem, wylecz 1 obrażenie z wykonującego go badacza.",
+        "traits": "Zapowiedź."
+    },
+    {
+        "code": "60469",
+        "name": "Strumień mocy",
+        "text": "Jako dodatkowy koszt przeznaczenia Strumienia mocy do testu umiejętności wydaj maksymalnie 3 ładunki spośród atutów, które kontrolujesz.\nZa każdy wydany w ten sposób ładunek Strumień mocy zyskuje [willpower] [wild].",
+        "traits": "Nabyta."
     },
     {
         "code": "60470",
-        "flavor": "\"They worshipped, so they said, the Great Old Ones who lived ages before there were any men, and who came to the young world out of the sky.\"\n<i>-H. P. Lovecraft, </i>The Call of Cthulhu",
-        "name": "Ceremonial Robes",
-        "text": "Reduce the cost of the first [[Spell]] or [[Ritual]] card you play each round by 1.",
-        "traits": "Item. Clothing.",
-        "slot": "Body"
+        "flavor": "„Czcili, jak sami powiadali, Wielkie Dawne Bóstwa, które żyły przed wiekami, kiedy to jeszcze nie było ludzi, a które przybyły do tego młodego świata prosto z nieba”.\n<i>— H.P. Lovecraft, </i>Zew Cthulhu",
+        "name": "Ceremonialna szata",
+        "text": "Obniż o 1 koszt pierwszej karty z cechą [[Zaklęcie]] lub [[Rytuał]], którą zagrasz w każdej rundzie.",
+        "traits": "Przedmiot. Ubranie.",
+        "slot": "Ciało"
     },
     {
         "code": "60471",
-        "name": "Eldritch Whispers",
-        "text": "Max 1 committed per skill test.\nIf a symbol token is revealed during this test, place up to 2 charges or 2 secrets among assets you control.",
-        "traits": "Innate."
+        "name": "Nieziemskie szepty",
+        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nJeśli podczas tego testu zostanie odkryty żeton z symbolem, umieść maksymalnie 2 ładunki lub 2 sekrety na atutach, które kontrolujesz.",
+        "traits": "Wrodzona."
     },
     {
         "code": "60472",
-        "name": "Blood Ward",
-        "text": "Fast. Play when a non-[[Elite]] enemy attacks an investigator at your location.\nCancel that attack and heal 2 damage from the targeted investigator.",
-        "traits": "Spell."
+        "name": "Ochrona z krwi",
+        "text": "Szybka. Zagraj, kiedy nie-[[Elitarny]] wróg zaatakuje badacza w twojej lokalizacji.\nAnuluj dany atak i wylecz 2 obrażenia z badacza, który był jego celem.",
+        "traits": "Zaklęcie."
     },
     {
         "code": "60473",
-        "name": "Retribution",
-        "text": "Fast. Play when an enemy attacks an investigator at your location.\nYou take all damage and horror from this attack. For each point of damage/horror taken, deal 1 damage to an enemy at your location.",
-        "traits": "Spell. Spirit."
+        "name": "Pomsta",
+        "text": "Szybka. Zagraj, kiedy wróg zaatakuje badacza w twojej lokalizacji.\nOtrzymujesz wszystkie obrażenia i punkty przerażenia z tego ataku. Za każde otrzymane obrażenie/punkt przerażenia zadaj 1 obrażenie wrogowi w twojej lokalizacji.",
+        "traits": "Zaklęcie. Duch."
     },
     {
         "code": "60474",
-        "name": "Dread Curse of Azathoth",
-        "text": "Exceptional.\n[action] Place 1 doom on Dread Curse of Azathoth: <b>Fight</b> ([willpower]). You get +2 [willpower] and deal +1 damage for this attack. If this attack defeats an enemy, remove 1 doom from Dread Curse of Azathoth. If a [skull] or [elder_thing] token is revealed during this test, remove all doom from this card.",
-        "traits": "Spell. Cursed.",
-        "slot": "Arcane"
+        "name": "Klątwa Azathotha",
+        "text": "Wyjątkowa.\n[action] Umieść 1 żeton zagłady na Klątwie Azathotha: <b>Walka</b> ([willpower]). Dostajesz +2 [willpower] do tego ataku i ten atak zadaje +1 obrażenie. Jeśli ten atak pokona wroga, usuń 1 żeton zagłady z Klątwy Azathotha. Jeśli podczas tego testu zostanie odkryty żeton [skull] albo [elder_thing], usuń wszystkie żetony zagłady z tej karty.",
+        "traits": "Zaklęcie. Przeklęty.",
+        "slot": "Mistyczna"
     },
     {
         "code": "60475",
-        "name": "Ritual Dagger",
-        "text": "[action]: <b>Fight</b> ([combat]). Add your [willpower] to your [combat] for this attack.\n[reaction] After you play a [[Spell]] event, take 1 damage and exhaust Ritual Dagger: Shuffle that event into your deck instead of discarding it.",
-        "traits": "Item. Weapon. Melee. Cursed.",
-        "slot": "Hand"
+        "name": "Rytualny sztylet",
+        "text": "[action]: <b>Walka</b> ([combat]). Dodaj wartość twojej [willpower] do wartości twojej [combat] do tego ataku.\n[reaction] Po tym, jak zagrasz wydarzenie z cechą [[Zaklęcie]], otrzymaj 1 obrażenie i wyczerp Rytualny sztylet: wtasuj dane wydarzenie z powrotem do twojej talii zamiast je odrzucać.",
+        "traits": "Przedmiot. Broń. Biała. Przeklęty.",
+        "slot": "Ręka"
     },
     {
         "code": "60476",
-        "name": "Spiritual Intuition",
-        "text": "Starting. <i>(You may begin the game with 1 copy of a starting card in your opening hand.)</i>\n[fast] Spend 1 resource: You get +1 [willpower] for this skill test (+2 [willpower] instead if this test is on a [[Spell]] or [[Ritual]] card).\n[fast] Spend 1 resource: You get +1 [combat] for this skill test (+2 [combat] instead if this test is on a [[Spell]] or [[Ritual]] card).",
+        "name": "Duchowa intuicja",
+        "text": "Startowa. <i>(Możesz rozpocząć grę z 1 kopią startowej karty na twojej początkowej ręce).</i>\n[fast] Wydaj 1 zasób: do tego testu umiejętności dostajesz +1 [willpower] (zamiast tego +2 [willpower], jeśli to test na karcie z cechą [[Zaklęcie]] lub [[Rytuał]]).\n[fast] Wydaj 1 zasób: do tego testu umiejętności dostajesz +1 [combat] (zamiast tego +2 [combat], jeśli to test na karcie z cechą [[Zaklęcie]] lub [[Rytuał]]).",
         "traits": "Talent."
     },
     {
         "code": "60477",
-        "flavor": "What wouldn't you give for a taste of true power?",
-        "name": "Blood Curse",
-        "text": "Max 1 committed per skill test.\nIf this test is successful, deal 1 damage to a card with health at your location.",
-        "traits": "Spell. Cursed."
+        "flavor": "Czego byś nie dał za posmakowanie prawdziwej mocy?",
+        "name": "Klątwa krwi",
+        "text": "Na każdy test umiejętności można przeznaczyć maksymalnie 1 taką kartę.\nJeśli ten test umiejętności zakończy się sukcesem, zadaj 1 obrażenie karcie z wartością wytrzymałości w twojej lokalizacji.",
+        "traits": "Zaklęcie. Przeklęty."
     },
     {
         "code": "60478",
-        "flavor": "\"The hidden cults to which these witches belonged often guarded and handed down surprising secrets from elder, forgotten aeons.\"\n<i>-H. P. Lovecraft, \"Dreams in the Witch House\"</i>",
-        "name": "Arcane Experience",
-        "text": "Permanent. Limit 1 per deck.\nYou have 1 additional arcane slot.",
-        "traits": "Condition."
+        "flavor": "„Tajemne sekty, do których należały czarownice, strzegły częstokroć i przekazywały z pokolenia na pokolenie zdumiewające sekrety zamierzchłej, dawno zapomnianej przeszłości”.\n— H.P. Lovecraft, Sny w domu wiedźmy",
+        "name": "Wiedza o arkanach",
+        "text": "Trwały. Limit 1 na talię.\nMasz 1 dodatkową strefę mistyczną.",
+        "traits": "Stan."
     },
     {
         "code": "60479",
-        "flavor": "\"You see these folks too? You never really get used to them.\"",
+        "flavor": "„Też widzisz tych typków? Jakoś nie mogę do nich przywyknąć”.",
         "name": "Jim Culver",
-        "subname": "Haunted Musician",
-        "text": "You get +1 [willpower].\n[reaction] After you take damage and/or horror, exhaust Jim Culver: Draw 1 card and gain 1 resource.",
-        "traits": "Ally. Performer.",
-        "slot": "Ally"
+        "subname": "Nawiedzony muzyk",
+        "text": "Dostajesz +1 [willpower].\n[reaction] Po tym, jak otrzymasz obrażenie i/lub punkt przerażenia, wyczerp Jima Culvera: dobierz 1 kartę i zyskaj 1 zasób.",
+        "traits": "Sprzymierzeniec. Artysta.",
+        "slot": "Sprzymierzeniec"
     },
     {
         "code": "60480",
-        "name": "Ultimate Sacrifice",
-        "text": "Fast. Play when the investigation phase ends.\nRepeat the investigation phase. At the end of that phase, you are defeated and suffer 1 physical trauma. Max once per game.",
-        "traits": "Spell. Spirit."
+        "name": "Ostateczne poświęcenie",
+        "text": "Szybka. Zagraj, kiedy kończy się faza badaczy.\nRozegrajcie ponownie fazę badaczy. Na koniec danej fazy zostajesz pokonany i otrzymujesz 1 punkt traumy fizycznej. Maksymalnie 1 raz na grę.",
+        "traits": "Zaklęcie. Duch."
     },
     {
         "code": "60481",
-        "name": "Second Sight",
-        "text": "Uses (4 charges).\n[action]: <b>Investigate</b> ([willpower]). You get +2 [willpower] for this investigation. If you succeed, you may spend 1 charge to discover 1 additional clue at your location or 1 clue at a connecting location. If you reveal a [cultist] token during this test, remove 1 charge from Second Sight (if you cannot, take 1 horror and discard this card).",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Drugi wzrok",
+        "text": "Zużywalny (4 ładunki).\n[action]: <b>Badanie</b> ([willpower]). Do tego badania dostajesz +2 [willpower]. Jeśli test zakończy się sukcesem, możesz wydać 1 ładunek, aby odkryć 1 dodatkową wskazówkę w twojej lokalizacji lub w połączonej lokalizacji. Jeśli podczas tego testu odkryjesz żeton chaosu [cultist], usuń 1 ładunek z Drugiego wzroku (jeśli nie możesz tego zrobić, otrzymujesz 1 punkt przerażenia i odrzucasz tę kartę).",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
     },
     {
         "code": "60482",
-        "name": "Shadowmeld",
-        "text": "Uses (5 charges).\n[action]: <b>Evade</b> ([willpower]). You get +2 [willpower] for this evasion. If you succeed, you may spend 1 charge to move to a location up to 2 connections away. If you reveal a [tablet] token during this test, remove 1 charge from Shadowmeld (if you cannot, lose 1 action and discard this card).",
-        "traits": "Spell.",
-        "slot": "Arcane"
+        "name": "Zniknięcie w cieniu",
+        "text": "Zużywalny (5 ładunków).\n[action]: <b>Wymykanie się</b> ([willpower]). Do tego wymykania się dostajesz +2 [willpower]. Jeśli test zakończy się sukcesem, możesz wydać 1 ładunek, aby poruszyć się do lokalizacji oddalonej o maksymalnie 2 połączenia. Jeśli podczas tego testu odkryjesz żeton chaosu [tablet], usuń 1 ładunek ze Zniknięcia w cieniu (jeśli nie możesz tego zrobić, tracisz 1 akcję i odrzucasz tę kartę).",
+        "traits": "Zaklęcie.",
+        "slot": "Mistyczna"
     },
     {
         "code": "60483",
-        "name": "Bend Blood",
-        "text": "<b>Fight</b> ([willpower]). You get +3 [willpower] and deal +1 damage for this attack. If you succeed, deal 1 damage to each other enemy at your location. Each enemy dealt damage by Bend Blood cannot attack you for the remainder of the round.",
-        "traits": "Spell. Cursed."
+        "name": "Naginanie krwi",
+        "text": "<b>Walka</b> ([willpower]). Dostajesz +3 [willpower] do tego ataku i ten atak zadaje +1 obrażenie. Jeśli test zakończy się sukcesem, zadaj 1 obrażenie każdemu innemu wrogowi w twojej lokalizacji. Żaden wróg, który otrzymał obrażenie z Naginania krwi, nie może atakować cię do końca rundy.",
+        "traits": "Zaklęcie. Przeklęty."
     }
 ]
