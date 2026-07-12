@@ -44,6 +44,16 @@ function addCandidate(candidates, english, zhCn, category, example) {
   candidates.set(key, candidate);
 }
 
+function normalizeEnglishConcept(value) {
+  let normalized = value
+    .toLocaleLowerCase("en")
+    .replace(/[\s\-–—:：.]+$/u, "")
+    .trim();
+  if (normalized === "driven insane") normalized = "insane";
+  if (/^(?:mountains|objectives)$/u.test(normalized)) normalized = normalized.slice(0, -1);
+  return normalized;
+}
+
 function pairedValues(english, zhCn, extractor, category, entry, candidates, field) {
   const englishValues = extractor(english);
   const chineseValues = extractor(zhCn);
@@ -63,27 +73,33 @@ function pairedValues(english, zhCn, extractor, category, entry, candidates, fie
 function buildConflicts(candidates) {
   const englishToChinese = new Map();
   const chineseToEnglish = new Map();
+  const englishDisplay = new Map();
 
   for (const candidate of candidates) {
-    englishToChinese.set(candidate.english, [
-      ...(englishToChinese.get(candidate.english) || []),
+    const englishConcept = normalizeEnglishConcept(candidate.english);
+    if (!englishDisplay.has(englishConcept)) englishDisplay.set(englishConcept, candidate.english);
+    englishToChinese.set(englishConcept, [
+      ...(englishToChinese.get(englishConcept) || []),
       candidate.zhCn,
     ]);
-    chineseToEnglish.set(candidate.zhCn, [
-      ...(chineseToEnglish.get(candidate.zhCn) || []),
-      candidate.english,
-    ]);
+    const concepts = chineseToEnglish.get(candidate.zhCn) || new Map();
+    if (!concepts.has(englishConcept)) concepts.set(englishConcept, candidate.english);
+    chineseToEnglish.set(candidate.zhCn, concepts);
   }
 
   const conflicts = [];
   for (const [english, chinese] of englishToChinese) {
     const values = [...new Set(chinese)].sort();
     if (values.length > 1) {
-      conflicts.push({ code: "one-english-many-zh-cn", english, zhCn: values });
+      conflicts.push({
+        code: "one-english-many-zh-cn",
+        english: englishDisplay.get(english),
+        zhCn: values,
+      });
     }
   }
   for (const [zhCn, english] of chineseToEnglish) {
-    const values = [...new Set(english)].sort();
+    const values = [...english.values()].sort();
     if (values.length > 1) {
       conflicts.push({ code: "one-zh-cn-many-english", english: values, zhCn });
     }
@@ -141,9 +157,17 @@ function buildCandidateReport(alignment, inheritedFieldsByCode = new Map()) {
 
 function candidateMatchesConflict(candidate, conflict) {
   if (conflict.code === "one-english-many-zh-cn") {
-    return candidate.english === conflict.english && conflict.zhCn.includes(candidate.zhCn);
+    return (
+      normalizeEnglishConcept(candidate.english) === normalizeEnglishConcept(conflict.english) &&
+      conflict.zhCn.includes(candidate.zhCn)
+    );
   }
-  return candidate.zhCn === conflict.zhCn && conflict.english.includes(candidate.english);
+  return (
+    candidate.zhCn === conflict.zhCn &&
+    conflict.english.some(
+      (english) => normalizeEnglishConcept(english) === normalizeEnglishConcept(candidate.english),
+    )
+  );
 }
 
 function selectConflictContexts(report, alignment, maxExamples = 8) {

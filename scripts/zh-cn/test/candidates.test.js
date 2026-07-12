@@ -95,6 +95,23 @@ test("buildCandidateReport surfaces both directions of conflicting terms", () =>
   ]);
 });
 
+test("buildCandidateReport treats casing, simple plurals, and rule-label punctuation as the same English term", () => {
+  const alignment = [
+    {
+      code: "1",
+      english: { traits: "Circle. Mountain", text: "<b>Forced</b>" },
+      zhCn: { traits: "阵法. 山脉", text: "<b>强制</b>" },
+    },
+    {
+      code: "2",
+      english: { traits: "circle. Mountains", text: "<b>Forced -</b>" },
+      zhCn: { traits: "阵法. 山脉", text: "<b>强制</b>" },
+    },
+  ];
+
+  assert.deepEqual(buildCandidateReport(alignment).conflicts, []);
+});
+
 test("buildCandidateReport excludes fields inherited from the Traditional Chinese source", () => {
   const report = buildCandidateReport(
     [

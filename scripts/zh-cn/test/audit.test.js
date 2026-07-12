@@ -91,9 +91,9 @@ test("renderMarkdown creates a stable pack summary", () => {
   assert.ok(markdown.indexOf("| a |") < markdown.indexOf("| b |"));
 });
 
-test("protectedTokens ignores translated double-bracket references and normalizes fast", () => {
+test("protectedTokens ignores card references and normalizes fast", () => {
   assert.deepEqual(
-    protectedTokens("[[Tome]] [fast] [action] <b>Ready</b>"),
+    protectedTokens("[[Tome]] [Monster] [fast] [action] <b>Ready</b>"),
     ["</b>", "<b>", "[action]", "[free]"],
   );
 });

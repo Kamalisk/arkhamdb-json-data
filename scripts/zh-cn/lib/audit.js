@@ -25,7 +25,7 @@ function present(value) {
 
 function protectedTokens(value) {
   if (!present(value)) return [];
-  return [...value.matchAll(/(?<!\[)\[[a-z0-9_]+\](?!\])|<\/?[a-z][^>]*>/gi)]
+  return [...value.matchAll(/(?<!\[)\[[a-z0-9_]+\](?!\])|<\/?[a-z][^>]*>/g)]
     .map(([token]) => (token.toLowerCase() === "[fast]" ? "[free]" : token))
     .sort();
 }

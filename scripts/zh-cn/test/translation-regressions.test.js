@@ -658,7 +658,7 @@ test("Midwinter Gala locations preserve their cross-group and treasure rules", (
   assert.match(card(source, "71005").back_text, /\[\[二楼\]\]地点/);
   assert.match(card(source, "71007").text, /1\[per_investigator\]资源/);
   assert.match(card(source, "71008").text, /检定\[willpower\]\(4\)/);
-  assert.match(card(source, "71012").text, /使用\[agility\]进行本次攻击/);
+  assert.match(card(source, "71012").text, /不使用\[combat\]，改为使用\[agility\]/);
   assert.match(card(source, "71013").text, /萨纳斯之宝/);
 });
 
@@ -756,10 +756,33 @@ test("remaining English-dominant official cards are translated without changing 
 
 test("Subject 5U-21 uses Simplified Chinese and preserves devour reference rules", () => {
   const source = "translations/zh-cn/pack/side/blbe.json";
+  assert.equal(card(source, "89001").subname, "异常体");
   assert.match(card(source, "89001").back_text, /牌库构建需求/);
   assert.match(card(source, "89001").text, /\[elder_sign\]效果：\+2/);
+  assert.equal(card(source, "89002").subname, "可控饥饿");
+  assert.equal(card(source, "89002b").subname, "失控饥饿");
   assert.match(card(source, "89002b").text, /饥肠辘辘下方/);
-  assert.match(card(source, "89005b").text, /\[cultist\]：……在下一个调查阶段结束前/);
+  assert.match(card(source, "89004").text, /随机吞噬现实的一项要素/);
+  assert.doesNotMatch(card(source, "89004").text, /一部分现实/);
+  const front = card(source, "89005").text;
+  assert.match(front, /\[elder_sign\]：……你所在地点1名非\[\[精英\]\]敌人或1张诡计/);
+  assert.match(front, /<b>\+1<\/b>：……每位调查员弃牌堆顶的1张卡牌/);
+  assert.match(front, /<b>0<\/b>：……每位调查员牌库顶的1张卡牌/);
+  assert.match(front, /<b>-1<\/b>：……你手牌中随机1张卡牌/);
+  assert.match(front, /<b>-2<\/b>：……你所在地点一位调查员控制的1张非剧情、非弱点支援/);
+  assert.match(front, /<b>-3<\/b>：……附属到你所在地点，或附属到你所在地点一张遭遇卡牌上的1张玩家卡牌/);
+  assert.match(front, /<b>-4<\/b>：……每位调查员牌库顶的2张卡牌/);
+  assert.match(front, /<b>-5<\/b>：……你选择的手牌中3张卡牌/);
+
+  const reverse = card(source, "89005b").text;
+  assert.match(reverse, /<b>-6<\/b>：……每位调查员手牌中的所有事件/);
+  assert.match(reverse, /<b>-7<\/b>：……每位调查员游戏区域中的1张非剧情、非弱点支援/);
+  assert.match(reverse, /<b>-8<\/b>：……任意玩家牌库、手牌、弃牌堆或游戏区域中的1张非弱点署名卡牌/);
+  assert.match(reverse, /\[skull\]：……饥肠辘辘下方随机1张卡牌/);
+  assert.match(reverse, /\[cultist\]：……在下一个调查阶段结束前/);
+  assert.match(reverse, /\[tablet\]：……在下一个调查阶段结束前/);
+  assert.match(reverse, /\[elder_thing\]：……你所在地点其上证据、补给、子弹、充能或秘密数量最多的玩家卡牌/);
+  assert.match(reverse, /\[auto_fail\]：再揭示3个混乱标记/);
   assert.doesNotMatch(card(source, "89005").text, /\be直到\b/);
 });
 
@@ -924,7 +947,7 @@ test("Nathaniel Cho level-five cards preserve automatic success and resource rep
 test("Harvey Walters core cards preserve deckbuilding, card draw, and hand-based damage", () => {
   const source = "translations/zh-cn/pack/investigator/har.json";
   assert.match(card(source, "60201").back_text, /牌库构建需求/);
-  assert.equal(card(source, "60201").traits, "密斯卡托尼克");
+  assert.equal(card(source, "60201").traits, "米斯卡塔尼克");
   assert.match(card(source, "60202").text, /哈维·沃尔特斯牌库专用/);
   assert.match(card(source, "60203").text, /手牌中每有3张卡牌/);
 });
@@ -1012,7 +1035,7 @@ test("Fortune and Folly opening cards preserve alert levels and conclusion marku
   const source = "translations/zh-cn/pack/side/fof_encounter.json";
   assert.match(card(source, "88001").text, /X等同于你的警戒等级的一半/);
   assert.match(card(source, "88002").back_text, /<b>\(→结局1\)<\/b>/);
-  assert.match(card(source, "88003").text, /一名准备状态的\[\[赌场\]\]敌人/);
+  assert.match(card(source, "88003").text, /一名重整状态的\[\[赌场\]\]敌人/);
 });
 
 test("Fortune and Folly early agendas preserve game-location, alert, and exit rules", () => {
@@ -1053,7 +1076,7 @@ test("Fortune and Folly role cards preserve their parley and alarm reduction con
   assert.match(card(source, "88028").text, /横置万人迷/);
   assert.match(card(source, "88028b").text, /一个连接地点的一名\[\[赌场\]\]敌人/);
   assert.match(card(source, "88029").text, /横置打手/);
-  assert.equal(card(source, "88029b").traits, "角色. 熟练");
+  assert.equal(card(source, "88029b").traits, "角色. 精通");
 });
 
 test("Fortune and Folly thief and grifter cards preserve patrol and icon changes", () => {
@@ -1127,7 +1150,7 @@ test("Fortune and Folly Isamara and Wellspring assets preserve ready and shift e
   assert.match(card(source, "88044").text, /直到伊萨玛拉·奥多涅斯重整或离场/);
   assert.match(card(source, "88045").text, /选择其中一个结算，并忽略另一个混乱标记/);
   assert.match(card(source, "88045b").text, /<i>\(结算这两个\)<\/i>/);
-  assert.equal(card(source, "88045b").traits, "不稳定");
+  assert.equal(card(source, "88045b").traits, "动荡");
 });
 
 test("Fortune and Folly cultist guards preserve suit-based damage prevention and bonus damage", () => {
@@ -1433,7 +1456,7 @@ test("Carnevale masks and lagoon enemies preserve their distinct skill and spawn
 
 test("Machinations Through Time's uneasy alliance preserves Edwin's negotiation and victory condition", () => {
   const source = "translations/zh-cn/pack/side/mtt_encounter.json";
-  assert.match(card(source, "87035").back_text, /艾德温·贝内特位于你所在地点且处于准备状态/);
+  assert.match(card(source, "87035").back_text, /艾德温·贝内特位于你所在地点且处于重整状态/);
   assert.match(card(source, "87035").back_text, /如果你失败，将其横置/);
   assert.match(card(source, "87035").back_text, /\"托马斯和玛丽获得了诺贝尔奖。\"/);
   assert.match(card(source, "87035").back_text, /任意时代的场上都没有\[\[情节\]\]剧情卡牌/);
@@ -1564,4 +1587,245 @@ test("The Drowned City campaign has complete Simplified Chinese card coverage", 
   const translatedCodes = new Set(translated.map((entry) => String(entry.code)));
 
   for (const entry of source) assert.ok(translatedCodes.has(String(entry.code)), entry.code);
+});
+
+test("04237 preserves chaos-token alternatives and established difficulty naming", () => {
+  const entry = card("translations/zh-cn/pack/tfa/tcoa_encounter.json", "04237");
+  assert.match(entry.text, /^简单\/普通/);
+  assert.match(entry.text, /\[cultist\]或\[elder_thing\]：-2/);
+  assert.match(entry.back_text, /^困难\/专家/);
+  assert.match(entry.back_text, /\[cultist\]或\[elder_thing\]：-2/);
+});
+
+test("all Simplified Chinese card codes are strings and remain loadable", () => {
+  const packRoot = path.join(root, "translations/zh-cn/pack");
+
+  for (const source of packJsonFiles(packRoot)) {
+    const entries = JSON.parse(fs.readFileSync(source, "utf8"));
+    if (!Array.isArray(entries)) continue;
+    for (const entry of entries) {
+      if (entry && Object.hasOwn(entry, "code")) {
+        assert.equal(typeof entry.code, "string", `${source}: ${entry.code}`);
+      }
+    }
+  }
+});
+
+test("2026 core suspects keep their codex abilities in rules text", () => {
+  const source = "translations/zh-cn/pack/core/core_2026_encounter.json";
+  for (const code of ["12139", "12140", "12141", "12142", "12143", "12144"]) {
+    const entry = card(source, code);
+    assert.match(entry.text, /\[codex\]/, code);
+    assert.equal(entry.flavor, undefined, code);
+  }
+});
+
+test("2026 core scenario preserves named enemies, locations, and conclusion markup", () => {
+  const source = "translations/zh-cn/pack/core/core_2026_encounter.json";
+  assert.match(card(source, "12172").back_text, /\[烈焰兆使\]敌人/);
+  assert.match(card(source, "12175").back_text, /进入\[水闸控制台\]/);
+  assert.match(card(source, "12175").text, /\(→<b>结局3<\/b>\)/);
+  assert.equal(card(source, "12171").name, "灰烬同袍会");
+});
+
+test("new investigator cards preserve printed values and skill icons", () => {
+  const mar = "translations/zh-cn/pack/investigator/mar.json";
+  assert.match(card(mar, "60475").text, /<b>攻击<\/b>\(\[combat\]\)/);
+  assert.match(card(mar, "60482").text, /^使用\(5充能\)/);
+  assert.match(card(mar, "60482").text, /失去1个行动/);
+  assert.match(card("translations/zh-cn/pack/investigator/mig.json", "60580").text, /\+2\[agility\]/);
+});
+
+test("new investigator translations do not add, omit, or swap card effects", () => {
+  const and = "translations/zh-cn/pack/investigator/and.json";
+  const car = "translations/zh-cn/pack/investigator/car.json";
+  const tom = "translations/zh-cn/pack/investigator/tom.json";
+  const mig = "translations/zh-cn/pack/investigator/mig.json";
+
+  assert.match(card(and, "60366").text, /本次躲避得到\+2\[agility\]/);
+  assert.match(card(car, "60273").text, /造成伤害\+1/);
+  assert.match(card(tom, "60162").text, /<i>（支付其费用）<\/i>/);
+  assert.match(card(tom, "60173").text, /在你的回合开始时打出/);
+  assert.doesNotMatch(card(mig, "60558").text, /隐藏值-2/);
+  assert.doesNotMatch(card(mig, "60563").text, /躲避该敌人/);
+  assert.match(card(mig, "60565").text, /在一轮结束时/);
+  assert.match(card(mig, "60566").text, /本次攻击得到技能值\+1/);
+  assert.doesNotMatch(card(mig, "60569").text, /抽取/);
+  assert.doesNotMatch(card(mig, "60578").text, /^快速/);
+  assert.doesNotMatch(card(mig, "60581").text, /^快速/);
+  assert.equal(card(mig, "60565").traits, "供给. 技巧.");
+});
+
+test("Miskatonic uses its established Simplified Chinese transliteration", () => {
+  for (const source of packJsonFiles(path.join(root, "translations/zh-cn/pack"))) {
+    const entries = JSON.parse(fs.readFileSync(source, "utf8"));
+    if (!Array.isArray(entries)) continue;
+    for (const entry of entries) {
+      if (typeof entry.traits === "string") assert.doesNotMatch(entry.traits, /密斯卡托尼克/);
+    }
+  }
+});
+
+test("reviewed English traits use one canonical Simplified Chinese term", () => {
+  const canonical = new Map([
+    ["Allied", "友军"], ["Armor", "护甲"], ["Attack", "袭击"],
+    ["Blunder", "失误"], ["Central", "中心"],
+    ["Construct", "构造体"], ["Coterie", "结社"], ["Dhole", "杜勒"],
+    ["Dreamlands", "幻梦境"], ["Drifter", "漂泊者"], ["Geist", "灵怪"],
+    ["Hazard", "危险"], ["Hex", "巫术"], ["Improvised", "即兴"],
+    ["Injury", "损伤"], ["Machination", "计谋"], ["Miskatonic", "米斯卡塔尼克"],
+    ["Mutated", "突变"], ["Nest", "巢"], ["Practiced", "精通"],
+    ["Omen", "征兆"], ["Poison", "毒素"], ["Possessed", "附身"],
+    ["Sanctum", "圣堂"], ["Scheme", "阴谋"], ["Shantak", "夏塔克鸟"],
+    ["Socialite", "社会名流"], ["Song", "歌曲"], ["Sorcerer", "法师"],
+    ["Supply", "供给"], ["Syndicate", "犯罪团伙"], ["Tactic", "策略"],
+    ["Trick", "技巧"], ["Unstable", "动荡"], ["Wayfarer", "旅人"],
+  ]);
+
+  for (const sourcePath of packJsonFiles(path.join(root, "pack"))) {
+    const relativePath = path.relative(path.join(root, "pack"), sourcePath);
+    const translatedPath = path.join(root, "translations/zh-cn/pack", relativePath);
+    if (!fs.existsSync(translatedPath)) continue;
+    const translated = new Map(JSON.parse(fs.readFileSync(translatedPath, "utf8")).map((x) => [String(x.code), x]));
+
+    for (const english of JSON.parse(fs.readFileSync(sourcePath, "utf8"))) {
+      if (!english.traits || !translated.get(String(english.code))?.traits) continue;
+      const englishTraits = english.traits.split(".").map((x) => x.trim()).filter(Boolean);
+      const zhTraits = translated.get(String(english.code)).traits.split(".").map((x) => x.trim()).filter(Boolean);
+      if (englishTraits.length !== zhTraits.length) continue;
+      englishTraits.forEach((term, index) => {
+        if (canonical.has(term)) assert.equal(zhTraits[index], canonical.get(term), `${english.code}: ${term}`);
+      });
+    }
+  }
+});
+
+test("05038 preserves the Item trait and both numeric thresholds", () => {
+  const text = card("translations/zh-cn/pack/tcu/tcu.json", "05038").text;
+  assert.match(text, /\[\[道具\]\]支援不超过2张/);
+  assert.match(text, /\[\[道具\]\]支援不超过1张/);
+});
+
+test("reviewed optional effects, limits, and campaign durations preserve their scope", () => {
+  assert.match(card("translations/zh-cn/pack/parallel/aon.json", "90009").text, /你可以与每个和你交战的敌人解除交战/);
+  assert.match(card("translations/zh-cn/pack/parallel/aon.json", "90009").text, /移动至多2个地点/);
+  assert.match(card("translations/zh-cn/pack/parallel/rtr.json", "90037").text, /任意数量\[bless\]和\/或\[curse\]标记/);
+  assert.match(card("translations/zh-cn/pack/parallel/rtr.json", "90037").text, /至多2个\[bless\]和\/或\[curse\]标记/);
+  assert.match(card("translations/zh-cn/pack/parallel/ltr.json", "90052").text, /4张或更多附属的灵魂/);
+  assert.match(card("translations/zh-cn/pack/eoe/eoec.json", "08509").text, /团队每场战役限一次/);
+  assert.match(card("translations/zh-cn/pack/eoe/eoec.json", "08669").text, /每个阶段限一次/);
+  assert.match(card("translations/zh-cn/pack/tsk/tskc.json", "09599").back_text, /本战役的剩余时间内/);
+});
+
+test("Labyrinths story context remains in the rules text with its printed markup", () => {
+  const source = "translations/zh-cn/pack/side/lol_encounter.json";
+  for (const code of ["70033", "70034", "70035", "70036", "70037", "70038"]) {
+    assert.match(card(source, code).text, /^<blockquote><i>/);
+    assert.match(card(source, code).text, /<\/i><\/blockquote>\n<b>显现<\/b>/);
+  }
+  assert.match(card(source, "70036").text, /我选择死亡/);
+});
+
+test("ready is consistently translated as the game term 重整 in reviewed rules", () => {
+  for (const source of packJsonFiles(path.join(root, "translations/zh-cn/pack"))) {
+    const entries = JSON.parse(fs.readFileSync(source, "utf8"));
+    for (const entry of entries) {
+      for (const field of ["text", "back_text", "customization_text"]) {
+        if (typeof entry[field] === "string") assert.doesNotMatch(entry[field], /处于准备状态|准备状态的/);
+      }
+    }
+  }
+});
+
+test("reviewed return card contains no remaining Traditional Chinese forms", () => {
+  const palace = card("translations/zh-cn/pack/return/rtptc_encounter.json", "52060");
+  assert.equal(palace.name, "王之宫殿");
+  assert.match(palace.text, /多于2\[per_investigator\]时/);
+});
+
+test("Simplified Chinese data excludes common Traditional Chinese-only forms", () => {
+  const traditionalOnly = /[術飾談謊淩貪涼沒穩費虛貓頭細膽傳達訊獵務並於個張點裡這後發為與該無彿]/;
+  for (const source of packJsonFiles(path.join(root, "translations/zh-cn/pack"))) {
+    for (const entry of JSON.parse(fs.readFileSync(source, "utf8"))) {
+      for (const value of Object.values(entry)) {
+        if (typeof value === "string") assert.doesNotMatch(value, traditionalOnly);
+      }
+    }
+  }
+});
+
+test("distinct English traits do not collapse onto the same reviewed Chinese term", () => {
+  const reviewed = new Map([
+    ["Ally", "盟友"], ["Allied", "友军"],
+    ["Attack", "袭击"], ["Fight", "攻击"],
+    ["Developed", "熟练"], ["Practiced", "精通"],
+    ["Lair", "巢穴"], ["Nest", "巢"],
+    ["Machination", "计谋"], ["Scheme", "阴谋"],
+  ]);
+  assert.equal(new Set(reviewed.values()).size, reviewed.size);
+});
+
+test("reviewed typo fixes and named outcomes remain corrected", () => {
+  assert.match(card("translations/zh-cn/pack/side/fof_encounter.json", "88043b").text, /<b>神灯。<\/b>/);
+  assert.doesNotMatch(card("translations/zh-cn/pack/ptc/apot.json", "03199").text, /井将/);
+  assert.match(card("translations/zh-cn/pack/parallel/ltr_encounter.json", "90055").back_text, /补充线索/);
+  assert.doesNotMatch(card("translations/zh-cn/pack/tde/pnr_encounter.json", "06260").text, /将将/);
+  assert.doesNotMatch(card("translations/zh-cn/pack/core/core.json", "01002").back_flavor, /惊俱/);
+  assert.doesNotMatch(card("translations/zh-cn/pack/dwl/uau_encounter.json", "02240").back_text, /生或在/);
+  assert.doesNotMatch(card("translations/zh-cn/pack/fhv/fhvp.json", "10055").text, /难度难度/);
+  assert.match(card("translations/zh-cn/pack/eoe/eoec.json", "08576b").text,
+    /玛拉·辛哈医生在一场冒险中被加入或使用时/);
+});
+
+test("translated rules preserve every printed gameplay icon and structural block", () => {
+  const rulesFields = ["text", "back_text", "customization_text"];
+  const gameplayToken = /(?<!\[)\[[a-z0-9_]+\](?!\])/g;
+  const structuralTags = ["<b>", "<blockquote>", "<hr>"];
+  const localizedItalicExceptions = new Set(["06089.text"]);
+
+  for (const englishPath of packJsonFiles(path.join(root, "pack"))) {
+    const relative = path.relative(path.join(root, "pack"), englishPath);
+    const translatedPath = path.join(root, "translations/zh-cn/pack", relative);
+    if (!fs.existsSync(translatedPath)) continue;
+    const translated = new Map(JSON.parse(fs.readFileSync(translatedPath, "utf8")).map((x) => [String(x.code), x]));
+
+    for (const english of JSON.parse(fs.readFileSync(englishPath, "utf8"))) {
+      const zhCn = translated.get(String(english.code));
+      if (!zhCn) continue;
+      for (const field of rulesFields) {
+        if (typeof english[field] !== "string" || typeof zhCn[field] !== "string") continue;
+        const expected = (english[field].match(gameplayToken) || []).map((x) => x === "[fast]" ? "[free]" : x);
+        const actual = (zhCn[field].match(gameplayToken) || []).map((x) => x === "[fast]" ? "[free]" : x);
+        for (const token of new Set(expected)) {
+          assert.ok(actual.filter((x) => x === token).length >= expected.filter((x) => x === token).length,
+            `${english.code}.${field} omitted ${token}`);
+        }
+        for (const tag of structuralTags) {
+          const pattern = tag === "<hr>" ? /<hr\s*\/?\s*>/g : new RegExp(tag, "g");
+          assert.ok((zhCn[field].match(pattern) || []).length >= (english[field].match(pattern) || []).length,
+            `${english.code}.${field} omitted ${tag}`);
+        }
+        if (!localizedItalicExceptions.has(`${english.code}.${field}`)) {
+          const expectedItalics = (english[field].match(/<(?:i|em)>/g) || []).length;
+          const actualItalics = (zhCn[field].match(/<i>/g) || []).length;
+          assert.ok(actualItalics >= expectedItalics, `${english.code}.${field} omitted italic markup`);
+        }
+      }
+    }
+  }
+});
+
+test("all translated card markup is balanced", () => {
+  for (const source of packJsonFiles(path.join(root, "translations/zh-cn/pack"))) {
+    for (const entry of JSON.parse(fs.readFileSync(source, "utf8"))) {
+      for (const [field, value] of Object.entries(entry)) {
+        if (typeof value !== "string") continue;
+        for (const tag of ["b", "i", "blockquote", "em"]) {
+          assert.equal((value.match(new RegExp(`<${tag}(?:>|\\s)`, "g")) || []).length,
+            (value.match(new RegExp(`</${tag}>`, "g")) || []).length,
+            `${entry.code}.${field} has unbalanced <${tag}> markup`);
+        }
+      }
+    }
+  }
 });
