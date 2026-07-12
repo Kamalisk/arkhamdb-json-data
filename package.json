@@ -4,6 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "audit:zh-cn": "node scripts/zh-cn/audit.js",
+        "candidates:zh-cn": "node scripts/zh-cn/candidates.js",
+        "origin:zh-cn": "node scripts/zh-cn/origin.js",
+        "validate:zh-cn": "node scripts/zh-cn/validate.js",
         "prettier": "prettier --write \"**/*.json\"",
         "prettier:check": "prettier --check \"**/*.json\"",
         "test": "echo \"Error: no test specified\" && exit 1"
