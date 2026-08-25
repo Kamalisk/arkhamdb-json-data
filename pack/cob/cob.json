@@ -1,6 +1,6 @@
 [
     {
-        "back_text": "Hard / Expert\n[skull] -X. X is 1 more than the current agenda number.\n[cultist] -3. If you are at a [[Lair]] location, take 1 horror.\n[tablet] -4. If there are 1 or more [blood] tokens sealed on your investigator, after this test resolves, release 1 of those tokens and take 1 direct damage.",
+        "back_text": "Hard / Expert\n[skull] -X. X is 1 more than the current agenda number.\n[tablet] -3. If you are at a [[Lair]] location, take 1 horror.\n[elder_thing] -4. If there are 1 or more [blood] tokens sealed on your investigator, after this test resolves, release 1 of those tokens and take 1 direct damage.",
         "code": "13001",
         "double_sided": true,
         "encounter_code": "river_of_blood",
@@ -10,13 +10,13 @@
         "pack_code": "cob",
         "position": 1,
         "quantity": 1,
-        "text": "Easy / Standard\n[skull] -X. X is the current agenda number.\n[cultist] -2. If you fail and are at a [[Lair]] location, take 1 horror.\n[tablet] -3. If you fail and there are 1 or more [blood] tokens sealed on your investigator, after this test resolves, release 1 of those tokens and take 1 damage.",
+        "text": "Easy / Standard\n[skull] -X. X is the current agenda number.\n[tablet] -2. If you fail and are at a [[Lair]] location, take 1 horror.\n[elder_thing] -3. If you fail and there are 1 or more [blood] tokens sealed on your investigator, after this test resolves, release 1 of those tokens and take 1 damage.",
         "type_code": "scenario"
     },
     {
         "back_flavor": "The sun sets below the Western horizon, plunging Arkham into the darkness of night once more.",
         "back_name": "Dusk of the First Day",
-        "back_text": "If there are a total of 2 or more encounter cards beneath locations in play, add 1 [blood] token to the chaos bag.\nOne at a time, reveal each facedown encounter card beneath a location. If the revealed card is a treachery, discard it. If it is an enemy, spawn it at the location at which it was revealed <i>(if this effect fulfills the objective on the current act, finish resolving this agenda before advancing the act)</i>.\nIf there are no [[Civilian]] enemies in play, the lead investigator draws 1 of the set-aside Waterfront Civilian enemies.\nReady Julia Stern. She moves once toward the nearest [[Civilian]] enemy.",
+        "back_text": "If there are a total of 2 or more encounter cards beneath locations in play, add 1 [blood] token to the chaos bag.\nOne at a time, reveal each facedown encounter card beneath a location. If the revealed card is a treachery, discard it. If it is an enemy, spawn it at the location at which it was revealed (if this effect fulfills the objective on the current act, finish resolving this agenda before advancing the act).\nIf there are no [[Civilian]] enemies in play, the lead investigator draws 1 of the set-aside Waterfront Civilian enemies.\nReady Julia Stern. She moves once toward the nearest [[Civilian]] enemy.",
         "code": "13002",
         "doom": 4,
         "double_sided": true,
@@ -346,7 +346,7 @@
         "position": 19,
         "quantity": 1,
         "shroud": 3,
-        "text": "As an additional cost to leave Unvisited Isle, you must spend 1 action.\n[action] If there are no clues on Unvisited Isle, add 2 [blood] tokens to the chaos bag: Remember that \"the investigators found a sacrificial dagger.\"",
+        "text": "As an additional cost to leave Unvisited Isle, you must spend 1 action.\n[fast] If there are no clues on Unvisited Isle, add 2 [blood] tokens to the chaos bag: Remember that \"the investigators found a sacrificial dagger.\"",
         "traits": "Lair. Dusk.",
         "type_code": "location",
         "victory": 2
@@ -1407,7 +1407,7 @@
         "type_code": "act"
     },
     {
-        "back_flavor": "Peering inside the master bedroom, you see the room is in a concerning state—the bed is a mess, pictures hang awkwardly from the walls, and what's worse, the floor is slick with freshly spilled blood. The doors to the balcony hang open. Your eyes finally adjust to the darkness in time to see a tall silhouette rush towards you.",
+        "back_flavor": "Peering inside the master bedroom, you see the room is in a concerning state - the bed is a mess, pictures hang awkwardly from the walls, and what's worse, the floor is slick with freshly spilled blood. The doors to the balcony hang open. Your eyes finally adjust to the darkness in time to see a tall silhouette rush towards you.",
         "back_name": "Howard's Arrival",
         "back_text": "Spawn the set-aside Howard Wilkes enemy at the Master Bedroom.\nCheck your campaign log. If <i>the investigators defeated Zburamoarte</i>, exhaust Howard Wilkes and disengage him from each investigator. Otherwise, he attacks each investigator at Master Bedroom.\nPlace 1 [per_investigator] clues <i>(from the token pool)</i> on each revealed location without <b>victory X</b>, up to that location's clue threshold.\nFlip the Foyer to its <i>(Bloody Night)</i> side.\nIf agenda 1a is in play, advance it immediately.",
         "clues": null,
@@ -1428,7 +1428,7 @@
     },
     {
         "back_name": "Party's Over",
-        "back_text": "<b>If this act advanced because Howard Wilkes was defeated:</b>\n<blockquote>After a long and bloody struggle, you manage to put Howard Wilkes down for good. You hope that this nightmare will finally be fully behind you.</blockquote>\n<b>(→R1)</b>\n<b>If this act advanced because each surviving investigator has resigned:</b>\n<blockquote>You manage to escape from the party with your life. You can only hope you've saved enough of the guests and delayed Howard's plans long enough to make a difference.</blockquote>\n<b>(→R2)</b>",
+        "back_text": "<b>If this act advanced because Howard Wilkes was defeated:</b>\n<blockquote><i>After a long and bloody struggle, you manage to put Howard Wilkes down for good. You hope that this nightmare will finally be fully behind you.</i></blockquote>\n<b>(→R1)</b>\n<b>If this act advanced because each surviving investigator has resigned:</b>\n<blockquote><i>You manage to escape from the party with your life. You can only hope you've saved enough of the guests and delayed Howard's plans long enough to make a difference.</i></blockquote>\n<b>(→R2)</b>",
         "clues": null,
         "code": "13075",
         "double_sided": true,
@@ -1562,7 +1562,7 @@
         "victory": 1
     },
     {
-        "back_flavor": "Winds whip into the penthouse apartment from the Miskatonic River valley, fluttering the heavy curtains. Claw marks cover the surface of the railing, as if some monster has recently fled the penthouse—or arrived.",
+        "back_flavor": "Winds whip into the penthouse apartment from the Miskatonic River valley, fluttering the heavy curtains. Claw marks cover the surface of the railing, as if some monster has recently fled the penthouse - or arrived.",
         "clues": 0,
         "code": "13082",
         "double_sided": true,
@@ -1611,7 +1611,7 @@
         "enemy_horror": 1,
         "faction_code": "mythos",
         "health": 4,
-        "illustrator": "Rafal Hrynkiewicz",
+        "illustrator": "Rafał Hrynkiewicz",
         "is_unique": true,
         "name": "Howard Wilkes",
         "pack_code": "cob",
@@ -1633,7 +1633,7 @@
         "enemy_horror": 2,
         "faction_code": "mythos",
         "health": 6,
-        "illustrator": "Rafal Hrynkiewicz",
+        "illustrator": "Rafał Hrynkiewicz",
         "is_unique": true,
         "name": "Howard Wilkes",
         "pack_code": "cob",
@@ -1655,7 +1655,7 @@
         "enemy_horror": 2,
         "faction_code": "mythos",
         "health": 6,
-        "illustrator": "Rafal Hrynkiewicz",
+        "illustrator": "Rafał Hrynkiewicz",
         "is_unique": true,
         "name": "Howard Wilkes",
         "pack_code": "cob",
