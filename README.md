@@ -54,6 +54,7 @@ These can be used in a card's `text` section.
 * `[sanity]`
 * `[per_investigator]`
 * `[frost]`
+* `[blood]`
 * `[seal_a]`
 * `[seal_b]`
 * `[seal_c]`

@@ -6,7 +6,7 @@
         "flavor": "\"Quelle creature sapranno di <i>sicuro</i> cosa le ha colpite.\"",
         "name": "Daniela Reyes",
         "subname": "La Meccanica",
-        "text": "[reaction] Dopo che un nemico ha attaccato un investigatore nel tuo luogo: Combatti con quel nemico <i>(usando un'azione di combattimento base o una capacità <i><b>Combatti</b></i> di una carta)</i>.(Limite di una volta per round.)\nEffetto di [elder_sign]: +1. Infliggi 1 danno a un nemico nel tuo luogo.",
+        "text": "[reaction] Dopo che un nemico ha attaccato un investigatore nel tuo luogo: Combatti con quel nemico <i>(usando un'azione di combattimento base o una capacità <i><b>Combatti</b></i> di una carta)</i>. (Limite di una volta per round.)\nEffetto di [elder_sign]: +1. Infliggi 1 danno a un nemico nel tuo luogo.",
         "traits": "Custode. Lavoratore."
     },
     {
@@ -145,7 +145,10 @@
     },
     {
         "code": "12020",
-        "text": "[action]: <b>Combatti</b> ([combat]). Ricevi +1 [combat] in questo attacco. Se attacchi l'unico nemico impegnato con te, puoi esaurire il Machete per infliggere +1 danno in questo attacco."
+        "text": "[action]: <b>Combatti</b> ([combat]). Ricevi +1 [combat] in questo attacco. Se attacchi l'unico nemico impegnato con te, puoi esaurire il Machete per infliggere +1 danno in questo attacco.",
+        "name": "Machete",
+        "flavor": "Taglia rami, cespugli e tentacoli con la stessa efficacia.",
+        "traits": "Oggetto. Arma. Mischia."
     },
     {
         "code": "12021",
@@ -167,11 +170,17 @@
         "traits": "Intuizione."
     },
     {
-        "code": "12024"
+        "code": "12024",
+        "name": "Scena del Crimine",
+        "text": "Gioca solo come tua prima azione.\nScopri 1 indizio nel tuo luogo (2 indizi se invece ci sono nemici in quel luogo). Questa azione non provoca attacchi di opportunità.",
+        "traits": "Intuizione. Audacia."
     },
     {
         "code": "12025",
-        "flavor": "Un colpo di mazza e il mostro stramazza."
+        "name": "Colpo Letale",
+        "text": "Se questa prova di abilità ha successo attaccando, l'investigatore che la sta effettuando infligge +1 danno in questo attacco.",
+        "flavor": "Un colpo di mazza e il mostro stramazza.",
+        "traits": "Allenamento."
     },
     {
         "code": "12026",
@@ -209,12 +218,17 @@
     },
     {
         "code": "12031",
-        "text": "Utilizzo (3 scorte).\n[action] Esaurisci il Kit per Impronte Digitali e spendi 1 scorta: <b>Indaga</b> ([intellect]). Ricevi +1 [intellect] in questa indagine. Se hai successo, scopri 1 indizio aggiuntivo nel tuo luogo."
+        "text": "Utilizzo (3 scorte).\n[action] Esaurisci il Kit per Impronte Digitali e spendi 1 scorta: <b>Indaga</b> ([intellect]). Ricevi +1 [intellect] in questa indagine. Se hai successo, scopri 1 indizio aggiuntivo nel tuo luogo.",
+        "name": "Kit per Impronte Digitali",
+        "traits": "Oggetto. Strumento."
     },
     {
         "code": "12032",
+        "name": "Assistente di Laboratorio",
         "flavor": "Partecipano solo per i crediti extra.",
-        "text": "Aumenta di 2 il tuo limite di mano.\n[reaction] Dopo che hai giocato l'Assistente di Laboratorio: Pesca 2 carte."
+        "text": "Aumenta di 2 il tuo limite di mano.\n[reaction] Dopo che hai giocato l'Assistente di Laboratorio: Pesca 2 carte.",
+        "traits": "Alleato. Miskatonic. Scienza.",
+        "slot": "Alleato"
     },
     {
         "code": "12033",
@@ -224,7 +238,11 @@
         "traits": "Oggetto."
     },
     {
-        "code": "12034"
+        "code": "12034",
+        "name": "Lente di Ingrandimento",
+        "text": "Veloce.\nMentre indaghi, ricevi +1[intellect].",
+        "traits": "Oggetto. Strumento.",
+        "flavor": "Una lente su un mondo invisibile può rivelarti cose che avresti preferito non scoprire."
     },
     {
         "code": "12035",
@@ -246,10 +264,15 @@
         "traits": "Intuizione. Trucchetto."
     },
     {
-        "code": "12038"
+        "code": "12038",
+        "name": "Seguire l'Istinto",
+        "text": "Veloce. Gioca solo durante il tuo turno.\nScopri 1 indizio nel tuo luogo.",
+        "traits": "Intuizione."
     },
     {
         "code": "12039",
+        "name": "Deduzione",
+        "text": "Se questa prova di abilità ha successo indagando in un luogo, l'investigatore che la sta effettuando scopre 1 indizio aggiuntivo in quel luogo.",
         "flavor": "Un piccolo tassello di un mistero ancora più grande."
     },
     {
@@ -266,7 +289,10 @@
     },
     {
         "code": "12042",
-        "flavor": "\"Trascorremmo il resto della notte nel mio studio ben illuminato, discutendo con nervosismo su quello che ci conveniva fare.\"\n<i>- H.P. Lovecraft, \"I Topi nel Muro\"</i>"
+        "name": "Studioso",
+        "text": "Permanente.\nInizia ogni partita con 1 carta aggiuntiva nella tua mano di partenza.",
+        "flavor": "\"Trascorremmo il resto della notte nel mio studio ben illuminato, discutendo con nervosismo su quello che ci conveniva fare.\"\n<i>- H.P. Lovecraft, \"I Topi nel Muro\"</i>",
+        "traits": "Talento."
     },
     {
         "code": "12043",
@@ -276,7 +302,9 @@
     },
     {
         "code": "12044",
-        "flavor": "\"In realtà non è poi così fortunato. Ma le sigarette si mantengono bene.\""
+        "text": "[reaction] Dopo che hai avuto successo in una prova di abilità di 2 o più punti, esaurisci il Portasigarette Fortunato: Pesca 1 carta.",
+        "flavor": "\"In realtà non è poi così fortunato. Ma le sigarette si mantengono bene.\"",
+        "traits": "Oggetto. Amuleto."
     },
     {
         "code": "12045",
@@ -307,13 +335,16 @@
     },
     {
         "code": "12049",
+        "name": "Attrezzi da Ladro",
         "flavor": "\"Perché li porto con me, dici? Perché non dovrei portarli con me?\"",
         "text": "Utilizzo (6 scorte).\n[action] Spendi 1 scorta: <b>Indaga</b> ([intellect] o [agility]). Se hai successo, ottieni 1 risorsa."
     },
     {
         "code": "12050",
+        "name": "Effrazione",
         "flavor": "Meno volgare di \"furto con scasso\".",
-        "text": "<b>Indaga</b> ([intellect]). Aggiungi il tuo valore di [agility] al tuo [intellect] in questa indagine. Se hai successo di 2 o più punti, puoi eludere automaticamente 1 nemico in questo luogo. Questa azione non provoca attacchi di opportunità."
+        "text": "<b>Indaga</b> ([intellect]). Aggiungi il tuo valore di [agility] al tuo [intellect] in questa indagine. Se hai successo di 2 o più punti, puoi eludere automaticamente 1 nemico in questo luogo. Questa azione non provoca attacchi di opportunità.",
+        "traits": "Trucchetto."
     },
     {
         "code": "12051",
@@ -351,7 +382,10 @@
     },
     {
         "code": "12056",
-        "flavor": "Hai perso di vista ciò che è importante parecchio tempo fa."
+        "name": "Altro Giro, Altra Corsa",
+        "text": "Permanente.\nInizia ogni partita con 2 risorse aggiuntive.",
+        "flavor": "Hai perso di vista ciò che è importante parecchio tempo fa.",
+        "traits": "Talento."
     },
     {
         "code": "12057",
@@ -383,7 +417,7 @@
     {
         "code": "12061",
         "name": "Ciondolo Portafortuna",
-        "text": "Utilizzo (4 cariche).\n[fast] Spendi 1 carica ed esaurisci il Ciondolo Oggetto. Amuleto. Benedetto. Utilizzo (4 cariche). M Portafortuna: Sposta 1 danno o 1 orrore da una carta nel tuo luogo a una carta che controlli <i>(dotata di Salute o Sanità Mentale)</i>.",
+        "text": "Utilizzo (4 cariche).\n[fast] Spendi 1 carica ed esaurisci il Ciondolo Portafortuna: Sposta 1 danno o 1 orrore da una carta nel tuo luogo a una carta che controlli <i>(dotata di Salute o Sanità Mentale)</i>.",
         "traits": "Oggetto. Amuleto. Benedetto."
     },
     {
@@ -400,11 +434,15 @@
     },
     {
         "code": "12064",
-        "text": "Veloce. Gioca durante una finestra [fast].\nMetti in gioco la Premonizione e sigilla 1 segnalino casuale dal sacchetto del caos su di essa.\n<b>Obbligo</b> - Quando un segnalino sta per essere rivelato dal sacchetto del caos: Risolvi invece il segnalino sigillato su questa carta come se fosse stato appena rivelato. Poi libera quel segnalino e scarta la Premonizione."
+        "name": "Premonizione",
+        "text": "Veloce. Gioca durante una finestra [fast].\nMetti in gioco la Premonizione e sigilla 1 segnalino casuale dal sacchetto del caos su di essa.\n<b>Obbligo</b> - Quando un segnalino sta per essere rivelato dal sacchetto del caos: Risolvi invece il segnalino sigillato su questa carta come se fosse stato appena rivelato. Poi libera quel segnalino e scarta la Premonizione.",
+        "traits": "Auspicio."
     },
     {
         "code": "12065",
-        "text": "Veloce. Gioca quando peschi 1 carta sventura non debolezza.\nAnnulla la capacità Rivelazione di quella carta e subisci 1 orrore."
+        "name": "Interdizione Protettiva",
+        "text": "Veloce. Gioca quando peschi 1 carta sventura non debolezza.\nAnnulla la capacità Rivelazione di quella carta e subisci 1 orrore.",
+        "traits": "Incantesimo. Spirito."
     },
     {
         "code": "12066",
@@ -428,7 +466,11 @@
         "traits": "Oggetto. Maschera. Reliquia. Maledetto."
     },
     {
-        "code": "12069"
+        "code": "12069",
+        "name": "Senza Paura",
+        "text": "Se questa prova di abilità ha successo, curati 1 orrore (2 orrori se invece la prova ha successo di 2 o più punti).",
+        "flavor": "Soltanto ergendoci saldamente contro l'oscurità potremo sopravvivere per vedere la luce del giorno successivo.",
+        "traits": "Innato. Sviluppato."
     },
     {
         "code": "12070",
@@ -452,7 +494,9 @@
     },
     {
         "code": "12073",
-        "text": "Utilizzo (3 scorte). Se non ci sono scorte sulle Bende, scartale.\n[reaction] Dopo che un investigatore o un supporto [[Alleato]] nel tuo luogo ha subito 1 o più danni, spendi 1 scorta: Cura 1 danno a quella carta."
+        "name": "Bende",
+        "text": "Utilizzo (3 scorte). Se non ci sono scorte sulle Bende, scartale.\n[reaction] Dopo che un investigatore o un supporto [[Alleato]] nel tuo luogo ha subito 1 o più danni, spendi 1 scorta: Cura 1 danno a quella carta.",
+        "traits": "Oggetto."
     },
     {
         "code": "12074",
@@ -475,10 +519,13 @@
     },
     {
         "code": "12077",
-        "text": "[action]: <b>Combatti</b> ([combat]). Ricevi +1 [combat] in questo attacco (+2 [combat] se invece possiedi 3 o meno Sanità Mentale rimanente). Se questo attacco sconfigge un nemico, puoi curarti 1 orrore.\n[reaction] Quando inneschi la capacità [action] soprastante, subisci 1 orrore: Infliggi +1 danno in questo attacco."
+        "name": "Mannaia da Macellaio",
+        "text": "[action]: <b>Combatti</b> ([combat]). Ricevi +1 [combat] in questo attacco (+2 [combat] se invece possiedi 3 o meno Sanità Mentale rimanente). Se questo attacco sconfigge un nemico, puoi curarti 1 orrore.\n[reaction] Quando inneschi la capacità [action] soprastante, subisci 1 orrore: Infliggi +1 danno in questo attacco.",
+        "traits": "Oggetto. Arma. Mischia."
     },
     {
         "code": "12078",
+        "name": "Guarda Cosa Ho Trovato!",
         "flavor": "\"Guarda, guarda... E questo cos'è?\"",
         "text": "Veloce. Gioca dopo che hai fallito una prova di abilità di 2 o meno punti indagando.\nScopri 2 indizi nel tuo luogo."
     },
@@ -546,22 +593,32 @@
         "traits": "Oggetto. Strumento."
     },
     {
-        "code": "12089"
+        "code": "12089",
+        "name": "Deposito di Emergenza",
+        "text": "Ottieni 3 risorse.",
+        "flavor": "Non si è mai troppo preparati.",
+        "traits": "Scorta."
     },
     {
         "code": "12090",
+        "name": "Fegato",
         "flavor": "\"Da sole non abbiamo speranza, ma insieme possiamo fermarlo.\"",
-        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta."
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta.",
+        "traits": "Innato."
     },
     {
         "code": "12091",
+        "name": "Destrezza Manuale",
         "flavor": "Devi solo dare l'impressione che sia troppo facile.",
-        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta."
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta.",
+        "traits": "Innato."
     },
     {
         "code": "12092",
+        "name": "Forza Soverchiante",
         "flavor": "Nessuna pietà!",
-        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta."
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta.",
+        "traits": "Allenamento."
     },
     {
         "code": "12093",
@@ -569,16 +626,31 @@
     },
     {
         "code": "12094",
+        "name": "Coraggio Inaspettato",
+        "text": "Massimo 1 investimento per prova di abilità.",
+        "traits": "Innato.",
         "flavor": "Adesso basta fuggire."
     },
     {
-        "code": "12095"
+        "code": "12095",
+        "name": "Carisma",
+        "traits": "Talento.",
+        "text": "Permanente.\nPossiedi 1 slot alleato aggiuntivo.",
+        "flavor": "Quando accendi il tuo carisma, potresti illuminarci la città."
     },
     {
-        "code": "12096"
+        "code": "12096",
+        "name": "Cacciatore di Reliquie",
+        "text": "Permanente.\nPossiedi 1 slot accessorio aggiuntivo.",
+        "traits": "Talento.",
+        "flavor": "Nessuna pietra resterà al suo posto… e nessun antico tesoro sarà lasciato indietro."
     },
     {
-        "code": "12097"
+        "code": "12097",
+        "name": "Percezione",
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova ha successo, l'investigatore che la sta effettuando pesca 1 carta.",
+        "flavor": "Finalmente l'ho trovato!",
+        "traits": "Allenamento."
     },
     {
         "code": "12098",
@@ -594,10 +666,16 @@
     },
     {
         "code": "12100",
-        "flavor": "\"È tempo di fare l'eroe!\""
+        "name": "Zelo Eccessivo",
+        "flavor": "\"È tempo di fare l'eroe!\"",
+        "traits": "Difetto.",
+        "text": "<b>Rivelazione</b> - Pesca 1 carta dalla cima del mazzo incontri. Quella carta ottiene Impulso."
     },
     {
         "code": "12101",
+        "name": "Paranoia",
+        "flavor": "Cos'era quel rumore?",
+        "traits": "Follia.",
         "text": "<b>Rivelazione</b> - Perdi tutte le tue risorse."
     },
     {
