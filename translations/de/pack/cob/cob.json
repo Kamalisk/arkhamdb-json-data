@@ -1,0 +1,873 @@
+[
+    {
+        "code": "13001",
+        "name": "Fluss des Blutes",
+        "text": "<b>Leicht / Standard</b>\n[skull] -X. X ist die aktuelle Agendanummer.\n[tablet] -2. Wenn Sie scheitern und sich an einem Ort [[Höhle]] befinden, erleiden Sie 1 Schrecken.\n[elder_thing] -3. Wenn Sie scheitern und 1 oder mehr [blood]-Marken auf Ihrem Ermittler versiegelt sind, geben Sie nach Auflösung dieser Probe 1 dieser Marken frei und erleiden 1 Schaden.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull] -X. X ist 1 mehr als die aktuelle Agendanummer.\n[tablet] -3. Wenn Sie sich an einem Ort [[Höhle]] befinden, erleiden Sie 1 Schrecken.\n[elder_thing] -4. Wenn 1 oder mehr [blood]-Marken auf Ihrem Ermittler versiegelt sind, geben Sie nach Auflösung dieser Probe 1 dieser Marken frei und erleiden 1 direkten Schaden."
+    },
+    {
+        "code": "13002",
+        "name": "Der erste Tag",
+        "text": "<b>Erzwungen</b> - Wenn die Gegnerphase endet: Falls Julia Stern an einem Ort vom Typ [[Höhle]] ist, drehen Sie sie verdeckt um <i>(wobei alle Marken und Anlagen auf ihr abgelegt werden)</i> und legen Sie sie zusammen mit der obersten Karte des Begegnungsstapels unter diesen Ort. Andernfalls bewegt sich Julia Stern einmal in Richtung des nächstgelegenen Ortes vom Typ [[Höhle]], falls sie bereit ist.",
+        "flavor": "Julia Stern versteckt sich irgendwo im Hafenviertel. Sie müssen das Viertel durchsuchen, um die Höhle des Monsters zu finden, bevor es erneut auszieht, um zu töten.",
+        "back_name": "Anbruch des ersten Tages",
+        "back_text": "Falls sich insgesamt 2 oder mehr Begegnungskarten unter Orten im Spiel befinden, legen Sie 1 [blood]-Marke in den Chaosbeutel.\nDecken Sie nacheinander jede verdeckte Begegnungskarte unter einem Ort auf. Falls die aufgedeckte Karte ein Verrat ist, legen Sie sie ab. Falls es ein Gegner ist, spielen Sie ihn an dem Ort aus, an dem er aufgedeckt wurde (falls dieser Effekt das Ziel des aktuellen Akts erfüllt, lösen Sie diese Agenda vollständig auf, bevor Sie den Akt vorantreiben).\nFalls sich keine Gegner vom Typ [[Zivilist]] im Spiel befinden, zieht der führende Ermittler 1 der beiseitegelegten Wasserfront-Zivilisten.\nBereiten Sie Julia Stern vor. Sie bewegt sich einmal in Richtung des nächstgelegenen [[Zivilist]]-Gegners.",
+        "back_flavor": "Die Sonne sinkt unter den westlichen Horizont und stürzt Arkham erneut in Dunkelheit."
+    },
+    {
+        "code": "13003",
+        "name": "Die erste Nacht",
+        "flavor": "Das Licht des Vollmonds wirft scharfe Schatten auf die Straßen von Arkham und schafft dunkle Ecken und Gassen, die zu sehr im Dunkeln liegen, um klar zu sehen. Das Licht der Straßenlaternen scheint nicht so weit zu reichen, wie es sollte. Das Geräusch von jemandem – oder etwas –, das an der Wand eines nahen Gebäudes kratzt, macht Sie nervös. Aber Sie wissen, dass Sie wenig Zeit haben, Julia zu finden, also machen Sie sich bereit, der Nacht entgegenzutreten.",
+        "back_name": "Anbruch des zweiten Tages",
+        "back_text": "Heile allen Schaden von Julia Stern. Für je 2 auf diese Weise geheilten Schaden (abgerundet) legen Sie 1 Schaden auf die Szenario-Referenzkarte.\nMische die obersten 2 Karten des Begegnungsdecks und Julia Stern zusammen. Lege diese Karten verdeckt und zufällig unter jeden [[Höhle]]-Ort, so gleichmäßig wie möglich verteilt.\nNacheinander zieht jeder Ermittler 1 der beiseitegelegten Hafenbewohner-Gegner, bis keine solchen Gegner mehr beiseitegelegt sind.",
+        "back_flavor": "Glücklicherweise beginnt die Sonne über dem östlichen Horizont aufzugehen und erleuchtet den Miskatonic mit ihrem glänzenden Widerschein."
+    },
+    {
+        "code": "13004",
+        "name": "Der zweite Tag",
+        "text": "<b>Erzwungen</b> - Wenn die Gegnerphase endet: Wenn sich Julia Stern an einem Ort [[Höhle]] befindet, drehe sie verdeckt um <i>(wirf alle Marken und Anhänge auf ihr ab)</i> und lege sie unter diesen Ort, zusammen mit der obersten Karte des Begegnungsdecks. Andernfalls, wenn Julia Stern bereit ist, bewegt sie sich einmal auf den nächsten [[Höhle]]-Ort zu.",
+        "flavor": "Ihnen läuft die Zeit davon. Wenn Sie die Bedrohung durch Julia Stern beenden wollen, müssen Sie schnell handeln.",
+        "back_name": "Anbruch des zweiten Tages",
+        "back_text": "Wenn sich insgesamt 2 oder mehr Begegnungskarten unter Orten im Spiel befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu.\nDecke nacheinander jede verdeckte Begegnungskarte unter einem Ort auf. Wenn die aufgedeckte Karte eine Niedertracht ist, wirf sie ab. Wenn es ein Gegner ist, erscheint er an dem Ort, an dem er aufgedeckt wurde (wenn dieser Effekt das Ziel des aktuellen Akts erfüllt, beende die Auflösung dieser Agenda, bevor Sie den Akt vorantreiben).\nBewege allen Schaden von der Szenario-Referenzkarte auf Julia Stern.\nWenn keine [[Zivilist]]-Gegner im Spiel sind, zieht der leitende Ermittler 1 der beiseitegelegten Hafenbewohner-Gegner, bis keine solchen Gegner mehr beiseitegelegt sind.\nBereite Julia Stern vor. Sie bewegt sich einmal auf den nächsten [[Zivilist]]-Gegner zu."
+    },
+    {
+        "code": "13005",
+        "name": "Die letzte Nacht",
+        "flavor": "Jedes Mal, wenn Sie um eine Ecke biegen, erwarten Sie, ein weiteres blutiges Opfer zu finden, das den räuberischen Machenschaften von Julia zum Opfer gefallen ist. Die Nacht ist im Allgemeinen ruhig, aber das Geräusch eines fernen Schreis oder das Kratzen von Klauen auf dem Kopfsteinpflaster sind ständige Erinnerungen daran, dass in jedem Schatten Monster lauern.",
+        "back_name": "Der letzte Anbruch",
+        "back_text": "<b>(→R3)</b>",
+        "back_flavor": "Der Miskatonic scheint in einem hellen orangefarbenen Licht zu brennen, als die Sonne im Osten aufgeht. Die Nacht verblasst, und die Straßen füllen sich langsam wieder mit Leben, während die Menschen des Hafenviertels einen neuen Tag beginnen. Zu viel Zeit ist vergangen, und Julia Stern ist entkommen. Ihre einzige verbleibende Hoffnung ist, dass Detective Reynolds bei seiner Ermittlung Ergebnisse erzielt hat."
+    },
+    {
+        "code": "13006",
+        "name": "Finde die Höhle",
+        "text": "[action] Ermittler am selben [[Höhle]]-Ort geben als Gruppe 2 Hinweise aus: Ziehe nacheinander jede verdeckte Begegnungskarte unter Ihrem Ort. Wenn Sie auf diese Weise Julia Stern ziehen, lege 1 Ressource <i>(aus dem Markenvorrat)</i> auf sie, als Falle.\n<b>Ziel</b> - Wenn Julia Stern ins Spiel kommt, treibe sofort voran.",
+        "flavor": "Die Kreatur hat sich versteckt. Sie müssen ihre Höhle finden und sie herausholen.",
+        "back_name": "Das Monster erscheint",
+        "back_text": "Lege Hinweise <i>(aus dem Markenvorrat)</i> auf jeden aufgedeckten Ort ohne <b>Sieg X</b>, bis zu dessen Hinweisschwelle.",
+        "back_flavor": "Julia kommt mit einem blutrünstigen Schrei aus ihrem Versteck. Sie schlägt wild um sich und sucht mit monströsen Augen nach ihrem nächsten Opfer."
+    },
+    {
+        "code": "13007",
+        "name": "Stelle die Verdächtige",
+        "text": "[action] Ermittler am Ort von Julia Stern geben als Gruppe 1 [per_investigator] Hinweise aus: Lege 1 Ressource <i>(aus dem Markenvorrat)</i> auf Julia Stern, als Falle.\n<b>Ziel</b> - Nachdem Julia Stern das Spiel verlassen hat, treibe sofort voran.",
+        "flavor": "Julia Stern ist auf freiem Fuß, und es ist klar, dass sie aufgehört hat, menschlich zu sein. Sie lauert auf den Straßen von Arkham und sucht nach Opfern. Sie müssen sich beeilen, sie zu verlangsamen, um zu verhindern, dass sie erneut tötet.",
+        "back_name": "Das Schicksal von Julia Stern",
+        "back_text": "<b>Wenn Julia Stern nicht in der Sieg-Anzeige ist:</b>\n<blockquote><i>Julia erweist sich als schwieriges Ziel, das man festnageln kann. Selbst wenn Sie glauben, sie zu haben, stellen Sie überrascht fest, dass sie schnell wieder in die Schatten entgleitet.</i></blockquote>\nSetze das Aktdeck auf Akt 1a zurück.<hr><b>Wenn Julia Stern in der Sieg-Anzeige ist:</b>\n<blockquote><i>Nach Stunden – Tagen – des Kampfes bringen Sie Julia schließlich zu Fall. Sie liegt in einem zerknitterten Haufen auf dem Kopfsteinpflaster, ihr Atem ist rasselnd, während sie kaum am Bewusstsein hängt.</i></blockquote>\nDie Ermittler müssen entscheiden <i>(wählt eine)</i>:\n- <i>„Es könnte noch Hoffnung für sie geben.“</i> <b>(→R1)</b>\n- <i>„Wir müssen diesem Monster ein Ende setzen.“</i> <b>(→R2)</b>"
+    },
+    {
+        "code": "13008",
+        "name": "Water Street",
+        "text": "[action]: Sie suchen nach Hilfe. Durchsuchen Sie die obersten 9 Karten Ihres Decks nach einem [[Verbündeter]]-Objekt und fügen Sie es Ihrer Hand hinzu. Mischen Sie Ihr Deck. (Einmal pro Zug begrenzt.)",
+        "back_flavor": "Eine Reihe ruhiger Häuser säumt die Water Street am Miskatonic. Die Lichter sind an und die Menschen gehen die Straße entlang, ahnungslos gegenüber den Gefahren, die in den Schatten lauern.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13009",
+        "name": "Water Street",
+        "text": "<b>Erzwungen</b> - Nachdem der letzte Hinweis an diesem Ort entdeckt wurde: Lege 1 Unheil auf die aktuelle Agenda.",
+        "back_flavor": "Eine Reihe ruhiger Häuser säumt die Water Street am Miskatonic. Die Lichter sind an und die Menschen gehen die Straße entlang, ahnungslos gegenüber den Gefahren, die in den Schatten lauern.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13010",
+        "name": "Garrison Street",
+        "text": "[fast] Während Ihres Zuges, wenn sich keine Gegner an diesem Ort befinden: Bewegen Sie sich zu einem verbundenen Ort.",
+        "flavor": "Die Garrison Street ist eine der belebtesten Alleen von Arkham, da sie eine der wenigen Straßen ist, die den Miskatonic überqueren.",
+        "back_flavor": "Die Garrison Street bietet verschiedene Geschäfte und Märkte an den Ufern des Miskatonic.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13011",
+        "name": "Garrison Street",
+        "text": "Während sich 1 oder mehr Gegner an der Garrison Street befinden, erhält sie +1 Verborgenheit.",
+        "flavor": "Die Garrison Street ist eine der belebtesten Alleen von Arkham, da sie eine der wenigen Straßen ist, die den Miskatonic überqueren.",
+        "back_flavor": "Die Garrison Street bietet verschiedene Geschäfte und Märkte an den Ufern des Miskatonic.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13012",
+        "name": "Flussdocks",
+        "text": "[action] Ermittler an den Flussdocks geben als Gruppe 3 Ressourcen aus: Sie heuern einen Kapitän an, der Sie zur Insel bringt. Jeder Ermittler an diesem Ort darf sich zur Unbesuchten Insel bewegen. Für den Rest des Spiels sind die Flussdocks mit der Unbesuchten Insel verbunden.",
+        "back_flavor": "Die wiederaufgebauten Docks ragen an ihrer breitesten Stelle in den Fluss hinein, um Boote aller Arten und Größen aufzunehmen.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13013",
+        "name": "Flussdocks",
+        "text": "[action] Ermittler an den Flussdocks geben als Gruppe 5 Ressourcen aus: Sie heuern einen Kapitän an, der Sie zur Insel bringt. Jeder Ermittler an diesem Ort darf sich zur Unbesuchten Insel bewegen. Für den Rest des Spiels sind die Flussdocks mit der Unbesuchten Insel verbunden.",
+        "back_flavor": "Die wiederaufgebauten Docks ragen an ihrer breitesten Stelle in den Fluss hinein, um Boote aller Arten und Größen aufzunehmen.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13014",
+        "name": "Main Street",
+        "text": "[fast] Während Ihres Zuges, wenn sich keine Gegner an diesem Ort befinden: Bewegen Sie sich zu einem verbundenen Ort.",
+        "back_flavor": "Die Hauptstraße verbindet alle wichtigen Alleen und Straßen des südlichen Flussufers.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13015",
+        "name": "Main Street",
+        "text": "<b>Erzwungen</b> - Nachdem Sie den letzten Hinweis von der Main Street entdeckt haben: Sie müssen entweder die oberste Karte des Begegnungsdecks ziehen oder den nächsten [[Monster]]-Gegner wählen, der sich einmal auf den nächsten [[Zivilist]]-Gegner zubewegt.",
+        "back_flavor": "Die Hauptstraße verbindet alle wichtigen Alleen und Straßen des südlichen Flussufers.",
+        "traits": "Arkham. Anbruch."
+    },
+    {
+        "code": "13016",
+        "name": "Erwin Bridge",
+        "text": "<b>Erzwungen</b> - Nachdem Sie an diesem Ort einen Kampf- oder Ausweich-Test nicht bestanden haben: Testen Sie [agility] (2). Wenn Sie scheitern, erleiden Sie 1 Schaden, lösen Sie sich von jedem Gegner und bewegen Sie sich zur Unbesuchten Insel.",
+        "back_flavor": "Die Erwin Bridge ist eine der Brücken, die den Miskatonic im Zentrum der Stadt Arkham überqueren, daher herrscht dort immer viel Verkehr, ob Tag oder Nacht.",
+        "traits": "Arkham. Zentrum. Anbruch."
+    },
+    {
+        "code": "13017",
+        "name": "Erwin Bridge",
+        "text": "<b>Erzwungen</b> - Nachdem Sie an diesem Ort einen Kampf- oder Ausweich-Test nicht bestanden haben: Testen Sie [agility] (4). Wenn Sie scheitern, erleiden Sie 1 direkten Schaden, lösen Sie sich von jedem Gegner und bewegen Sie sich zur Unbesuchten Insel.",
+        "back_flavor": "Die Erwin Bridge ist eine der Brücken, die den Miskatonic im Zentrum der Stadt Arkham überqueren, daher herrscht dort immer viel Verkehr, ob Tag oder Nacht.",
+        "traits": "Arkham. Zentrum. Anbruch."
+    },
+    {
+        "code": "13018",
+        "name": "Unbesuchte Insel",
+        "text": "Als zusätzliche Kosten, um die Unbesuchte Insel zu verlassen, müssen Sie 1 Aktion ausgeben.\n[fast] Wenn sich keine Hinweise auf der Unbesuchten Insel befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Erinnern Sie sich daran, dass „die Ermittler einen Opferdolch gefunden haben.“",
+        "back_text": "Während sich Gegner bewegen, gilt die Unbesuchte Insel als mit den Flussdocks verbunden und umgekehrt.",
+        "back_flavor": "Die unheimliche Insel mitten im Miskatonic war im Laufe der Jahre Thema vieler seltsamer Geschichten.",
+        "traits": "Höhle. Anbruch."
+    },
+    {
+        "code": "13019",
+        "name": "Unbesuchte Insel",
+        "text": "Als zusätzliche Kosten, um die Unbesuchte Insel zu verlassen, müssen Sie 1 Aktion ausgeben.\n[fast] Wenn sich keine Hinweise auf der Unbesuchten Insel befinden, füge dem Chaosbeutel 2 [blood]-Marken hinzu: Erinnern Sie sich daran, dass „die Ermittler einen Opferdolch gefunden haben.“",
+        "back_text": "Während sich Gegner bewegen, gilt die Unbesuchte Insel als mit den Flussdocks verbunden und umgekehrt.",
+        "back_flavor": "Die unheimliche Insel mitten im Miskatonic war im Laufe der Jahre Thema vieler seltsamer Geschichten.",
+        "traits": "Höhle. Anbruch."
+    },
+    {
+        "code": "13020",
+        "name": "Hafenlagerhaus",
+        "text": "[action] Wenn sich keine Hinweise auf dem Hafenlagerhaus und keine verdeckten Begegnungskarten darunter befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Sie setzen das Lagerhaus in Brand. Jeder Ermittler und Gegner an diesem Ort bewegt sich zu einem verbundenen Ort. Füge das Hafenlagerhaus der Sieg-Anzeige hinzu.",
+        "back_flavor": "Die Lagerhäuser am Miskatonic erleben alle Arten von Aktivitäten. Tagsüber schuften die Arbeiter, um ihren Lohn zu verdienen, bevor die Sonne untergeht. Nach Einbruch der Nacht sind seltsame Geräusche aus den dunklen Gebäuden zu hören.",
+        "traits": "Arkham. Höhle. Anbruch."
+    },
+    {
+        "code": "13021",
+        "name": "Hafenlagerhaus",
+        "text": "[action] Wenn sich keine Hinweise auf dem Hafenlagerhaus und keine verdeckten Begegnungskarten darunter befinden, füge dem Chaosbeutel 2 [blood]-Marken hinzu: Sie setzen das Lagerhaus in Brand. Jeder Ermittler und Gegner an diesem Ort bewegt sich zu einem verbundenen Ort. Füge das Hafenlagerhaus der Sieg-Anzeige hinzu.",
+        "back_flavor": "Die Lagerhäuser am Miskatonic erleben alle Arten von Aktivitäten. Tagsüber schuften die Arbeiter, um ihren Lohn zu verdienen, bevor die Sonne untergeht. Nach Einbruch der Nacht sind seltsame Geräusche aus den dunklen Gebäuden zu hören.",
+        "traits": "Arkham. Höhle. Anbruch."
+    },
+    {
+        "code": "13022",
+        "name": "Hintergasse",
+        "text": "[action] Wenn sich keine Hinweise in der Hintergasse und keine verdeckten Begegnungskarten darunter befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Sie führen ein Ritual durch, um die Gasse zu reinigen. Jeder Ermittler und Gegner an diesem Ort bewegt sich zu einem verbundenen Ort. Füge die Hintergasse der Sieg-Anzeige hinzu.",
+        "back_flavor": "Die Schatten der Gasse verschlingen alles und scheinen selbst am helllichten Tag das Licht zu schlucken.",
+        "traits": "Arkham. Höhle. Anbruch."
+    },
+    {
+        "code": "13023",
+        "name": "Hintergasse",
+        "text": "[action] Wenn sich keine Hinweise in der Hintergasse und keine verdeckten Begegnungskarten darunter befinden, füge dem Chaosbeutel 2 [blood]-Marken hinzu: Sie führen ein Ritual durch, um die Gasse zu reinigen. Jeder Ermittler und Gegner an diesem Ort bewegt sich zu einem verbundenen Ort. Füge die Hintergasse der Sieg-Anzeige hinzu.",
+        "back_flavor": "Die Schatten der Gasse verschlingen alles und scheinen selbst am helllichten Tag das Licht zu schlucken.",
+        "traits": "Arkham. Höhle. Anbruch."
+    },
+    {
+        "code": "13024",
+        "name": "Julia Stern",
+        "subname": "Auf der Flucht",
+        "text": "Schwer fassbar. Patrouille (nächster [[Zivilist]]-Gegner). Raubtier.\nJulia Stern erhält +1 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn Julia Stern Schaden zugefügt würde: Entferne 1 Falle von ihr. Wenn Sie das nicht können, reduziere diesen Schaden auf 0.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13025",
+        "name": "Julia Stern",
+        "subname": "In den Straßen lauernd",
+        "text": "Schwer fassbar. Patrouille (nächster [[Zivilist]]-Gegner). Raubtier. Vergeltung.\nJulia Stern erhält +1 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn Julia Stern Schaden zugefügt würde: Entferne 1 Falle von ihr. Wenn Sie das nicht können, reduziere diesen Schaden auf 0.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13026",
+        "name": "Julia Stern",
+        "subname": "In Arkham jagend",
+        "text": "Schwer fassbar. Patrouille (nächster [[Zivilist]]-Gegner). Raubtier. Vergeltung.\nJulia Stern erhält +2 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn Julia Stern Schaden zugefügt würde: Entferne 1 Falle von ihr. Wenn Sie das nicht können, reduziere diesen Schaden auf 0.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13027",
+        "name": "Hafenbewohner",
+        "text": "Zurückhaltend. Dem Untergang geweiht.\n<b>Erscheinen</b> - Jeder leere [[Arkham]]-Ort.\n[action]: <b>Verhandlung.</b> Testen Sie [willpower] (2). Wenn Sie Erfolg haben, legen Sie diesen Gegner beiseite, außerhalb des Spiels.",
+        "traits": "Humanoide. Zivilist."
+    },
+    {
+        "code": "13028",
+        "name": "Brennendes Tageslicht",
+        "text": "<b>Aufdecken</b> - Wenn die aktuelle Agenda 1a oder 3a ist, lege 1 Unheil auf sie (dies kann dazu führen, dass die aktuelle Agenda voranschreitet). Andernfalls testen Sie [willpower] (3). Wenn Sie scheitern, ziehen Sie 1 zufälligen beiseitegelegten [[Monster]]-Gegner.",
+        "traits": "Machenschaft."
+    },
+    {
+        "code": "13029",
+        "name": "Detective Reynolds",
+        "subname": "Überfordert",
+        "text": "Sie erhalten +1 [intellect].\n[reaction] Nachdem Sie 1 oder mehr Hinweise entdeckt haben, erschöpfen Sie Detective Reynolds: Ziehen Sie die oberste Karte des Begegnungsdecks. Entdecken Sie 1 Hinweis an Ihrem Ort oder einem aufgedeckten verbundenen Ort.",
+        "traits": "Verbündeter. Polizei."
+    },
+    {
+        "code": "13030",
+        "name": "Fang von Zburamoarte",
+        "text": "Verwendungen (4 Ladungen).\n[action]: <b>Kampf</b> ([combat]). Sie erhalten +3 [combat] für diesen Angriff. Als zusätzliche Kosten, um diese Fähigkeit zu aktivieren, dürfen Sie 1 Ladung ausgeben, um für diesen Fertigkeitstest 2 Chaosmarken statt 1 aufzudecken <i>(löse beide Marken auf)</i>. Dieser Angriff verursacht +1 Schaden für jede [blood]-Marke, die während dieses Tests aufgedeckt wurde.",
+        "traits": "Objekt. Waffe. Reliquie."
+    },
+    {
+        "code": "13031",
+        "name": "Neue Horizonte",
+        "text": "<b>Leicht / Standard</b>\n[skull] -X. X ist die aktuelle Aktnummer.\n[cultist] -1. Wenn eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, decken Sie eine zusätzliche Marke auf. Nachdem dieser Test aufgelöst wurde, gib 1 auf Ihnen versiegelte [blood]-Marke frei.\n[tablet] -3 (-5 stattdessen, wenn eine [blood]-Marke auf Ihrem Ermittler versiegelt ist. Nachdem dieser Test aufgelöst wurde, gib 1 auf Ihnen versiegelte [blood]-Marke frei).\n[elder_thing] -4. Wenn Sie scheitern und eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, erleiden Sie 1 Schaden und geben 1 auf Ihnen versiegelte [blood]-Marke frei.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull] -X. X ist 1 mehr als die aktuelle Aktnummer.\n[cultist] -2. Wenn eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, decken Sie eine zusätzliche Marke auf.\n[tablet] -3. Wenn eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, scheitern Sie stattdessen automatisch.\n[elder_thing] -4. Nachdem dieser Test aufgelöst wurde, wenn eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, erleiden Sie 1 Schaden und geben 1 auf Ihnen versiegelte [blood]-Marke frei."
+    },
+    {
+        "code": "13032",
+        "name": "Geschäftiger Tag",
+        "flavor": "Sie betreten die Fleischverarbeitungsanlage durch den Hintereingang und kommen über den Ladekais herein.",
+        "back_name": "Ruhige Nacht",
+        "back_text": "Lass den beiseitegelegten Javier-Rivera-Gegner erscheinen, der mit dem Ermittler mit den meisten Hinweisen verbunden ist.",
+        "back_flavor": "Sie haben das Gefühl, bei dieser Untersuchung voranzukommen, während Sie den neugierigen Arbeitern ausweichen und sich in den entlegensten Winkeln der Fabrik umsehen. Irgendetwas hier unten ist den Tod all dieser Menschen wert."
+    },
+    {
+        "code": "13033",
+        "name": "Ruhige Nacht",
+        "flavor": "Über die Laderampe am hinteren Ende des Geländes finden Sie Ihren Weg in den Fleischverarbeitungsbetrieb. Innendrin riecht es nach Desinfektionsmittel und altem Blut, und das unaufhörliche Klappern der Maschinen übertönt jeden anderen Laut. Die Arbeiter werfen Ihnen nur kurze Blicke zu; Sie sind hier nicht der erste Besucher und werden nicht der letzte sein.",
+        "back_name": "Geschäftiger Tag",
+        "back_text": "Lass den beiseitegelegten Nachtwächter-Gegner am Fabrikboden erscheinen, der den meisten Ermittlern am nächsten ist.",
+        "back_flavor": "Sie haben das Gefühl, bei dieser Untersuchung voranzukommen, während Sie sich vorsichtig durch die Fabrik bewegen und den wachsamen Augen der Arbeiter entgehen. Der Kult versteckt seine Aktivitäten hier besser, als Sie erwartet hatten."
+    },
+    {
+        "code": "13034",
+        "name": "Tiefer graben (v. I)",
+        "flavor": "Je mehr Zeit Sie in der Anlage verbringen, desto stärker ist Ihre Überzeugung, dass in jeder dunklen Ecke ein finsteres Geheimnis lauert. Die Arbeiter murmeln Gebete, und an den Wänden sind Spuren zu sehen, die Sie lieber nicht deuten möchten.",
+        "back_name": "Tiefer graben (v. II)",
+        "back_text": "<b>(→R4)</b>",
+        "back_flavor": "Die Fabrik erweist sich als schwerer zu durchqueren und die Aktivitäten des Kults als besser versteckt, als Sie erwartet hatten. Es scheint, als würde das Gebäude selbst Sie ausspionieren."
+    },
+    {
+        "code": "13035",
+        "name": "Tiefer graben (v. II)",
+        "flavor": "Je mehr Zeit Sie in der Anlage verbringen, desto stärker ist Ihre Überzeugung, dass in jeder dunklen Ecke ein finsteres Geheimnis lauert. Die Arbeiter murmeln Gebete, und an den Wänden sind Spuren zu sehen, die Sie lieber nicht deuten möchten.",
+        "back_name": "Tiefer graben (v. I)",
+        "back_text": "<b>(→R4)</b>",
+        "back_flavor": "Die Fabrik erweist sich als schwerer zu durchqueren und die Aktivitäten des Kults als besser versteckt, als Sie erwartet hatten. Es scheint, als würde das Gebäude selbst Sie ausspionieren."
+    },
+    {
+        "code": "13036",
+        "name": "Zu neuen Horizonten",
+        "text": "<b>Ziel</b> - Wenn jeder überlebende Ermittler aufgegeben hat, <b>(→R1)</b>.\n<b>Ziel</b> - Am Ende der Runde dürfen Ermittler im Lager die erforderlichen Hinweise als Gruppe ausgeben, um voranzutreiben.",
+        "flavor": "Die New-Horizons-Anlage ist eines der neueren Gebäude in Arkham. Die sauberen Fenster und der makellose Backstein verbergen nur mäßig gut das, was sich unter der Erde befindet.",
+        "back_name": "Der Pfad hinab",
+        "back_text": "Bringe den beiseitegelegten Höhleneingang-Ort ins Spiel.\nDurchsuche alle Bereiche im und außerhalb des Spiels nach allen 4 Kopien des Fabrikarbeiter-Gegners und entferne sie aus dem Spiel.\nMische das beiseitegelegte <b>Fliegende Schrecken</b>-Begegnungsset und jede Kopie der beiseitegelegten Niedertracht „Echo in der Dunkelheit“ in das Begegnungsdeck.",
+        "back_flavor": "Ihre Durchsuchung der Fabrikhalle und der Büros war gründlich, und Sie wollen gerade unverrichteter Dinge gehen, als Sie einen schmalen Spalt hinter einer Maschine entdecken. Ein kalter Luftzug steigt aus der Tiefe empor."
+    },
+    {
+        "code": "13037",
+        "name": "Die Suche nach Antworten",
+        "text": "<b>Ziel</b> - Wenn jeder überlebende Ermittler aufgegeben hat, <b>(→R1)</b>.\n<b>Ziel</b> - Am Ende der Runde, wenn sich genau 2 Hinweise auf diesem Akt befinden, treibe voran.",
+        "flavor": "Die Tunnel unter der New-Horizons-Anlage sind dunkel, meist nur Erde und Stein. Das einzige Licht sind gelegentliche schwache Glühen fernab in der Tiefe.",
+        "back_name": "Beweise gesichert",
+        "back_text": "Bringe den beiseitegelegten Absteigenden Tunnel-Ort ins Spiel.",
+        "back_flavor": "Dank allem, was Sie in den Tunneln unter der Anlage gefunden haben, können Sie endlich ein ziemlich vollständiges Bild der Vorfälle zusammensetzen. Alles deutet auf einen einzigen Ort hin."
+    },
+    {
+        "code": "13038",
+        "name": "Bring die Bestie zu Fall",
+        "text": "<b>Ziel</b> - Wenn jeder überlebende Ermittler aufgegeben hat, <b>(→R2)</b>.\n<b>Ziel</b> - Wenn Zburamoarte besiegt ist, treibe voran.",
+        "flavor": "Es gibt nur einen Ort, den Sie in den Tunneln noch nicht untersucht haben. Der Pfad windet sich immer weiter hinab, und Sie spüren ein tiefes Brüten in der Schwärze unter Ihnen.",
+        "back_name": "Albtraum erschlagen",
+        "back_text": "<b>(→R3)</b>",
+        "back_flavor": "Die Bestie stürzt sich auf Sie, das Maul voller zahlloser blutiger Reißzähne weit aufgerissen, bereit, Sie ganz zu verschlingen. In Sekundenbruchteilen fragen Sie sich, ob irgendjemand jemals von Ihrem Schicksal erfahren wird."
+    },
+    {
+        "code": "13039",
+        "name": "Fabrikboden",
+        "subname": "Westen",
+        "text": "<b>Erzwungen</b> - Nachdem Sie an diesem Ort 1 oder mehr Hinweise entdeckt haben: Jeder Ermittler an diesem Ort verliert 1 Ressource.",
+        "back_subname": "Westen",
+        "back_flavor": "Auf der Fabrikhalle ist Hochbetrieb, während die Arbeiter zwischen blutigen Kadern hindurch eilen, die von den Deckenhaken baumeln. Niemand scheint die frischen Flecken auf dem Boden zu bemerken. Oder niemand wagt es, sie zu erwähnen.",
+        "traits": "Lager. Tag."
+    },
+    {
+        "code": "13040",
+        "name": "Fabrikboden",
+        "subname": "Osten",
+        "text": "<b>Erzwungen</b> - Nachdem Sie an diesem Ort 1 oder mehr Hinweise entdeckt haben: Jeder Ermittler an diesem Ort wählt und wirft 1 Karte aus seiner Hand ab.",
+        "back_subname": "Osten",
+        "back_flavor": "Auf der Fabrikhalle ist Hochbetrieb, während die Arbeiter zwischen blutigen Kadern hindurch eilen, die von den Deckenhaken baumeln. Niemand scheint die frischen Flecken auf dem Boden zu bemerken. Oder niemand wagt es, sie zu erwähnen.",
+        "traits": "Lager. Tag."
+    },
+    {
+        "code": "13041",
+        "name": "Büro des Managers",
+        "text": "[action]: Füge einen erschöpften Gegner an diesem Ort der Sieg-Anzeige hinzu. Jeder andere Gegner und Ermittler an diesem Ort bewegt sich zum Fabrikboden <i>(Westen)</i>. Entferne diesen Ort aus dem Spiel (oder, wenn sich keine Hinweise darauf befinden, füge ihn stattdessen der Sieg-Anzeige hinzu).",
+        "back_text": "Ermittler können das Büro des Managers nicht betreten, es sei denn, „die Ermittler haben die Schlüssel des Managers gestohlen.“",
+        "traits": "Lager. Tag."
+    },
+    {
+        "code": "13042",
+        "name": "Ladekais",
+        "text": "[action]: <b>Aufgeben.</b> Sie lassen die Fabrik hinter sich.\n[fast] Wenn sich keine Hinweise an diesem Ort befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Erinnern Sie sich daran, dass „die Ermittler gefälschte Genehmigungen gefunden haben.“ (Gruppenlimit einmal pro Spiel.)",
+        "back_flavor": "Die Laderampe am hinteren Ende der Anlage ist Stapeln von Kisten und Holzpaletten gewichen. Arbeiter prüfen den Bestand, während eine ansteckende Angst in der Luft liegt.",
+        "traits": "Lager. Tag."
+    },
+    {
+        "code": "13043",
+        "name": "Lager",
+        "text": "[reaction] Nachdem Sie diesen Ort erfolgreich untersucht haben, statt Hinweise zu entdecken: Ziehen Sie 2 Karten. (Einmal pro Phase begrenzt.)",
+        "back_flavor": "Der Keller der Anlage ist dunkel und muffig, trotz des neuen Baus. Spuren frisch verschütteten Blutes ziehen sich über den Boden und verschwinden in einer Richtung, die Sie noch nicht erkundet haben.",
+        "traits": "Lager. Tag."
+    },
+    {
+        "code": "13044",
+        "name": "Fabrikboden",
+        "subname": "Westen",
+        "text": "<b>Erzwungen</b> - Nachdem Sie den letzten Hinweis von diesem Ort entdeckt haben: Sie müssen entweder dem Chaosbeutel 1 [blood]-Marke hinzufügen oder 1 Unheil auf die aktuelle Agenda legen.",
+        "back_subname": "Westen",
+        "back_flavor": "Die Produktionsanlage schweigt im Mondlicht. Blutige tote Tiere hängen an den Haken, und Sie glauben, etwas zwischen den Schatten zu sehen, das sich bewegt.",
+        "traits": "Lager. Nacht."
+    },
+    {
+        "code": "13045",
+        "name": "Fabrikboden",
+        "subname": "Osten",
+        "text": "<b>Erzwungen</b> - Nachdem Sie den letzten Hinweis von diesem Ort entdeckt haben: Sie müssen entweder dem Chaosbeutel 1 [blood]-Marke hinzufügen oder die oberste Karte des Begegnungsdecks ziehen.",
+        "back_subname": "Osten",
+        "back_flavor": "Die Produktionsanlage schweigt im Mondlicht. Blutige tote Tiere hängen an den Haken, und Sie glauben, etwas zwischen den Schatten zu sehen, das sich bewegt.",
+        "traits": "Lager. Nacht."
+    },
+    {
+        "code": "13046",
+        "name": "Büro des Managers",
+        "text": "[fast] Wenn sich keine Hinweise im Büro des Managers befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Erinnern Sie sich daran, dass „die Ermittler ein Blatt mit arkanen Symbolen gefunden haben.“ (Gruppenlimit einmal pro Spiel.)",
+        "back_text": "Ermittler können das Büro des Managers nicht betreten, es sei denn, „die Ermittler haben die Schlüssel des Managers gefunden.“",
+        "traits": "Lager. Nacht."
+    },
+    {
+        "code": "13047",
+        "name": "Ladekais",
+        "text": "[action]: Testen Sie [combat] (3), um die Ladetür aufzubrechen. Sie dürfen 1 Unheil auf die aktuelle Agenda legen, um die Schwierigkeit dieses Tests um 2 zu verringern. Wenn Sie Erfolg haben, erhält dieser Ort für den Rest des Szenarios: „[action]: <b>Aufgeben.</b>“",
+        "back_flavor": "Der Ladekais an der Rückseite der Anlage beherbergt Stapel von Kisten und Holzpaletten. Die Ausgangstüren sind fest verschlossen. Es würde etwas Anstrengung erfordern, sie wieder zu öffnen.",
+        "traits": "Lager. Nacht."
+    },
+    {
+        "code": "13048",
+        "name": "Lager",
+        "text": "[fast] Wenn sich keine Hinweise im Lager befinden, füge dem Chaosbeutel 1 [blood]-Marke hinzu: Erinnern Sie sich daran, dass „die Ermittler die Schlüssel des Managers gefunden haben.“ (Gruppenlimit einmal pro Spiel.)",
+        "back_flavor": "Der Keller der Anlage ist dunkel und riecht feucht, obwohl er erst kürzlich gebaut wurde. Spuren von frisch vergossenem Blut ziehen sich über den Boden und verschwinden in den Schatten.",
+        "traits": "Lager. Nacht."
+    },
+    {
+        "code": "13049",
+        "name": "Höhleneingang",
+        "subname": "Flache Tunnel",
+        "text": "<b>Erzwungen</b> - Wenn dieser Ort aufgedeckt wird: Bringe jede beiseitegelegte Kopie der Seitenkammer ins Spiel.",
+        "back_subname": "Flache Tunnel",
+        "back_flavor": "Es ist seltsam, dass der Tunnel unter der Anlage aus behauenem Stein statt aus gegossenem Beton besteht. Sie wissen nicht, zu welchem Zweck der Tunnel geschaffen wurde, aber er wurde sehr schnell gebaut.",
+        "traits": "Höhle. Zentrum."
+    },
+    {
+        "code": "13050",
+        "name": "Höhleneingang",
+        "subname": "Dunklere Tiefen",
+        "text": "[action] Ermittler an diesem Ort geben als Gruppe 1 [per_investigator] Hinweise aus: Bringe einen beiseitegelegten Seitenkammer-Ort zufällig ins Spiel.",
+        "back_subname": "Dunklere Tiefen",
+        "back_flavor": "Es ist seltsam, dass der Tunnel unter der Anlage aus behauenem Stein statt aus gegossenem Beton besteht. Sie wissen nicht, zu welchem Zweck der Tunnel geschaffen wurde, aber er wurde sehr schnell gebaut.",
+        "traits": "Höhle. Zentrum."
+    },
+    {
+        "code": "13051",
+        "name": "Höhle von Zburamoarte",
+        "text": "<b>Erzwungen</b> - Wenn die Höhle von Zburamoarte aufgedeckt wird: Lass den beiseitegelegten Zburamoarte-Gegner hier erscheinen. Füge dem Chaosbeutel 2 [blood]-Marken hinzu.\n[action] Ermittler an diesem Ort geben als Gruppe 1 [per_investigator] Hinweise aus: <b>Kampf.</b> Sie greifen Zburamoarte an. Dieser Angriff ist automatisch erfolgreich und verursacht +1 Schaden.",
+        "back_name": "Absteigender Tunnel",
+        "back_flavor": "Anders als der Rest der Höhle steigt dieser Tunnel langsam in die Dunkelheit hinab. Sie hören irgendwo weiter vorne Wasser tropfen.",
+        "traits": "Höhle. Höhle."
+    },
+    {
+        "code": "13052",
+        "name": "Verstecktes Labor",
+        "subname": "Flache Tunnel",
+        "text": "[action]: Sie erfahren von abscheulichen Experimenten mit dem Blut eines furchterregenden Monsters. Lege 1 Hinweis <i>(aus dem Markenvorrat)</i> auf den aktuellen Akt. Testen Sie dann [intellect] (4). Wenn Sie scheitern, füge dem Chaosbeutel 1 [blood]-Marke hinzu. (Gruppenlimit einmal pro Spiel.)",
+        "back_name": "Seitenkammer",
+        "back_subname": "Flache Tunnel",
+        "back_text": "Als zusätzliche Kosten, um die Seitenkammer zu betreten, müssen Ermittler am Höhleneingang als Gruppe 1 [per_investigator] Hinweise ausgeben.",
+        "traits": "Höhle. Labor."
+    },
+    {
+        "code": "13053",
+        "name": "Verschlossene Kammer",
+        "subname": "Flache Tunnel",
+        "text": "[action] Ermittler in der Verschlossenen Kammer geben als Gruppe 1 [per_investigator] Hinweise aus: Sie erfahren, dass etwas kürzlich aus diesem Raum ausgebrochen ist. Lege 1 Hinweis <i>(aus dem Markenvorrat)</i> auf den aktuellen Akt. (Gruppenlimit einmal pro Spiel.)",
+        "back_name": "Seitenkammer",
+        "back_subname": "Flache Tunnel",
+        "back_text": "Als zusätzliche Kosten, um die Seitenkammer zu betreten, müssen Ermittler am Höhleneingang als Gruppe 1 [per_investigator] Hinweise ausgeben.",
+        "traits": "Höhle."
+    },
+    {
+        "code": "13054",
+        "name": "Geheime Kammer",
+        "subname": "Flache Tunnel",
+        "text": "<b>Erzwungen</b> - Wenn die Geheime Kammer aufgedeckt wird: Lass 1 der beiseitegelegten Verseuchten-Arbeiter-Gegner erschöpft an diesem Ort erscheinen (wenn 3 oder 4 Ermittler im Spiel sind, lass stattdessen 2 dieser Gegner erscheinen). Mische jeden verbleibenden Verseuchten-Arbeiter-Gegner in das Begegnungsdeck.",
+        "back_name": "Seitenkammer",
+        "back_subname": "Flache Tunnel",
+        "back_text": "Als zusätzliche Kosten, um die Seitenkammer zu betreten, müssen Ermittler am Höhleneingang als Gruppe 1 [per_investigator] Hinweise ausgeben.",
+        "traits": "Höhle."
+    },
+    {
+        "code": "13055",
+        "name": "Verstecktes Labor",
+        "subname": "Dunklere Tiefen",
+        "text": "[action] Füge dem Chaosbeutel 1 [blood]-Marke hinzu: Sie erfahren von abscheulichen Experimenten mit dem Blut eines furchterregenden Monsters. Lege 1 Hinweis <i>(aus dem Markenvorrat)</i> auf den aktuellen Akt. (Gruppenlimit einmal pro Spiel.)",
+        "back_name": "Seitenkammer",
+        "back_subname": "Dunklere Tiefen",
+        "back_flavor": "Es scheint, als hätte Ihr Licht Mühe, die Tunnel zu erhellen, als ob die Dunkelheit selbst sich weigerte, Ihrer Anwesenheit zu weichen.",
+        "traits": "Höhle. Labor."
+    },
+    {
+        "code": "13056",
+        "name": "Verschlossene Kammer",
+        "subname": "Dunklere Tiefen",
+        "text": "[action] Ermittler in der Verschlossenen Kammer geben als Gruppe 1 [per_investigator] Hinweise aus: Die Ermittler erfahren, dass etwas aus diesem Raum ausgebrochen ist. Lege 1 Hinweis <i>(aus dem Markenvorrat)</i> auf den aktuellen Akt. (Gruppenlimit einmal pro Spiel.)",
+        "back_name": "Seitenkammer",
+        "back_subname": "Dunklere Tiefen",
+        "back_flavor": "Es scheint, als hätte Ihr Licht Mühe, die Tunnel zu erhellen, als ob die Dunkelheit selbst sich weigerte, Ihrer Anwesenheit zu weichen.",
+        "traits": "Höhle."
+    },
+    {
+        "code": "13057",
+        "name": "Geheime Kammer",
+        "subname": "Dunklere Tiefen",
+        "text": "<b>Erzwungen</b> - Wenn die Geheime Kammer aufgedeckt wird: Lass jeden beiseitegelegten Verseuchten-Arbeiter-Gegner an diesem Ort erscheinen.\n[action]: Testen Sie [agility] (X), wobei X die Anzahl der bereiten Gegner an diesem Ort ist. Wenn Sie Erfolg haben, lösen Sie sich von jedem Gegner und bewegen sich zu einem verbundenen Ort. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "back_name": "Seitenkammer",
+        "back_subname": "Dunklere Tiefen",
+        "back_flavor": "Es scheint, als hätte Ihr Licht Mühe, die Tunnel zu erhellen, als ob die Dunkelheit selbst sich weigerte, Ihrer Anwesenheit zu weichen.",
+        "traits": "Höhle."
+    },
+    {
+        "code": "13058",
+        "name": "Zburamoarte",
+        "subname": "Träge Bestie",
+        "text": "Massiv. Raubtier. Vergeltung.\nZburamoarte erhält +3 [per_investigator] Gesundheit und kann sich nicht bewegen.\n<b>Erzwungen</b> - Nachdem dieser Gegner Schaden zugefügt hat: Heile 1 Schaden von ihm.",
+        "traits": "Monster. Abscheulichkeit. Elite."
+    },
+    {
+        "code": "13059",
+        "name": "Zburamoarte",
+        "subname": "Ursprung der Seuche",
+        "text": "Wachsam. Massiv. Raubtier. Vergeltung.\nZburamoarte erhält +3 [per_investigator] Gesundheit und kann sich nicht bewegen.\n<b>Erzwungen</b> - Nachdem dieser Gegner Schaden zugefügt hat: Heile 1 [per_investigator] Schaden von ihm.",
+        "traits": "Monster. Abscheulichkeit. Elite."
+    },
+    {
+        "code": "13060",
+        "name": "Zburamoarte",
+        "subname": "Vorfahr der Monster",
+        "text": "Wachsam. Massiv. Raubtier. Vergeltung.\nZburamoarte erhält +3 [per_investigator] Gesundheit und kann sich nicht bewegen.\n<b>Erzwungen</b> - Nachdem dieser Gegner Schaden zugefügt hat: Heile 4 Schaden von ihm.",
+        "traits": "Monster. Abscheulichkeit. Elite."
+    },
+    {
+        "code": "13061",
+        "name": "Javier Rivera",
+        "subname": "Manager von New Horizons",
+        "text": "Dem Untergang geweiht. Jagd.\nJede Ermittlungs- und Verhandlungsprobe am Ort dieses Gegners erhält +2 Schwierigkeit.\n[action]: <b>Verhandlung.</b> Testen Sie [agility] (4). Wenn dieser Gegner erschöpft ist, gelingt dieser Test automatisch. Wenn Sie Erfolg haben, erinnern Sie sich daran, dass „die Ermittler die Schlüssel des Managers gestohlen haben.“",
+        "traits": "Humanoide. Zivilist. Elite."
+    },
+    {
+        "code": "13062",
+        "name": "Nachtwächter",
+        "subname": "Blutiger Schlächter",
+        "text": "Jagd. Raubtier. Beute (meiste Hinweise). Vergeltung.\n<b>Erzwungen</b> - Nachdem ein Ermittler 1 oder mehr Hinweise entdeckt hat: Wenn der Nachtwächter erschöpft ist, bereite ihn vor. Andernfalls löst er sich von jedem Ermittler und bewegt sich einmal auf den Ort zu, an dem der Hinweis entdeckt wurde.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13063",
+        "name": "Fabrikarbeiter",
+        "text": "Dem Untergang geweiht. Patrouille (nächster Ort ohne [[Elite]]-Gegner).\nDer Ort des Fabrikarbeiters erhält +1 Verborgenheit.\n[action]: <b>Verhandlung.</b> Testen Sie [intellect] (2). Wenn Sie Erfolg haben, wirf diesen Gegner ab.",
+        "traits": "Humanoide. Zivilist."
+    },
+    {
+        "code": "13064",
+        "name": "Verseuchter Arbeiter",
+        "text": "Jagd.\n<b>Erzwungen</b> - Nachdem der Verseuchte Arbeiter Sie angegriffen hat, wenn keine [blood]-Marken auf Ihrem Ermittler versiegelt sind: Durchsuche den Chaosbeutel nach einer [blood]-Marke und versiegle sie auf Ihnen. Wenn Sie das nicht können, wähle und wirf 1 Karte aus Ihrer Hand ab.",
+        "traits": "Humanoide. Monster."
+    },
+    {
+        "code": "13065",
+        "name": "Echo in der Dunkelheit",
+        "text": "<b>Aufdecken</b> - Bringe „Echo in der Dunkelheit“ in Ihrem Bedrohungsbereich ins Spiel. Limit 1 pro Ermittler.\n<b>Erzwungen</b> - Nachdem Sie eine andere Niedertracht aus dem Begegnungsdeck gezogen und aufgelöst haben, wirf „Echo in der Dunkelheit“ ab: Ziehen Sie die oberste Karte des Begegnungsdecks.\n[action]: Testen Sie [willpower] (3). Wenn Sie Erfolg haben, wirf „Echo in der Dunkelheit“ ab.",
+        "traits": "Terror."
+    },
+    {
+        "code": "13066",
+        "name": "Sanguinisches Lied",
+        "text": "Verwendungen (4 Ladungen).\n[action]: <b>Untersuchen</b> ([intellect]). Sie erhalten +3 [intellect] für diese Untersuchung. Als zusätzliche Kosten, um diese Fähigkeit zu aktivieren, dürfen Sie 1 Ladung ausgeben, um für diesen Fertigkeitstest 2 Chaosmarken statt 1 aufzudecken <i>(löse beide Marken auf)</i>. Wenn Sie Erfolg haben, entdecken Sie 1 zusätzlichen Hinweis für jede [blood]-Marke, die während dieses Tests aufgedeckt wurde.",
+        "traits": "Zauber."
+    },
+    {
+        "code": "13067",
+        "name": "Gefälschte Genehmigung",
+        "text": "[fast] Wirf die Gefälschte Genehmigung ab: Spiele ein [[Gegenstand]]-Objekt aus Ihrer Hand, wobei Sie seine Ressourcenkosten ignorieren. Sie dürfen eine [action]-Fähigkeit auf diesem Objekt auflösen, wobei Sie ihre [action]-Kosten ignorieren.",
+        "traits": "Objekt. Beweis. Illegal."
+    },
+    {
+        "code": "13068",
+        "name": "Blutgeld",
+        "text": "<b>Leicht / Standard</b>\n[skull] -X. X ist 1 mehr als die Anzahl der [blood]-Marken, die auf Ihrem Ermittler versiegelt sind.\n[cultist] -2. Wenn Sie während eines Angriffs oder Ausweichens gegen einen [[Monster]]-Gegner scheitern, füge dem Chaosbeutel 1 [blood]-Marke hinzu.\n[tablet] -3. Wenn Sie scheitern und eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, lege 1 Ihrer Hinweise auf Ihren Ort.\n[elder_thing] -4. Wenn Sie scheitern, bereite den nächsten erschöpften [[Monster]]-Gegner vor.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull] -X. X ist 2 mehr als die Anzahl der [blood]-Marken, die auf Ihrem Ermittler versiegelt sind.\n[cultist] -3. Wenn diese Marke während eines Angriffs oder Ausweichens gegen einen [[Monster]]-Gegner aufgedeckt wird, füge nach Auflösung dieses Tests dem Chaosbeutel 1 [blood]-Marke hinzu.\n[tablet] -4. Wenn Sie scheitern und eine [blood]-Marke auf Ihrem Ermittler versiegelt ist, lege 1 Ihrer Hinweise auf Ihren Ort.\n[elder_thing] -5. Wenn Sie scheitern, bereite den nächsten erschöpften [[Monster]]-Gegner vor."
+    },
+    {
+        "code": "13069",
+        "name": "Party ohne Gastgeber",
+        "text": "Jede [[Verbündeter]]-, [[Zivilist]]- und [[Kultist]]-Karte erhält <b>Sieg 0</b>.",
+        "flavor": "Sie sind mitten im Abendessen zur Party gekommen, und die meisten Gäste sind im Speisesaal. Sie spüren, dass Sie beobachtet werden, selbst wenn kein anderer Gast Sie ansieht...",
+        "back_name": "Der coolste Gastgeber",
+        "back_text": "Wenn Julia Stern beiseitegelegt ist, lass sie im Speisesaal erscheinen (andernfalls lass stattdessen 1 der beiseitegelegten Brut-von-Zburamoarte-Gegner erscheinen).\nDurchsuche das Begegnungsdeck, den Ablagestapel und alle Bereiche im Spiel nach 1 [[Zivilist]]-Gegner und füge diesen Gegner der Sieg-Anzeige hinzu (2 [[Zivilist]]-Gegner stattdessen, wenn Sie auf Schwerer oder Experten-Schwierigkeit spielen).\nDurchsuche das Begegnungsdeck und den Ablagestapel nach 1 [per_investigator] [[Zivilist]]-Gegnern. Lass jeden dieser Gegner an einem anderen Ort erscheinen (ohne Ermittler, wenn möglich).",
+        "back_flavor": "Während das Servicepersonal den Nachtisch serviert, ist in der Küche das Geräusch von zerbrechendem Glas zu hören. Die Menschen im Speisesaal halten einen angespannten Moment der Stille inne, bis ein Gast von seinem Stuhl aufsteht und mit einem Lächeln sagt: – Es scheint, Howard hat seine eigene Party.\nWährend er sich zur Küchentür begibt, springt ein Monster mit scharfen Reißzähnen durch sie heraus und wirft ihn zu Boden. Die anderen Gäste schreien vor Entsetzen, und die Party versinkt in blutigem Chaos."
+    },
+    {
+        "code": "13070",
+        "name": "Fressrausch (v. I)",
+        "text": "Jede [[Verbündeter]]-, [[Zivilist]]- und [[Kultist]]-Karte erhält <b>Sieg 0</b>.",
+        "flavor": "Die verseuchten Arbeiter von New Horizons haben es bis hierher geschafft. Sind sie aus eigenem Willen gekommen? Oder haben Sie sie versehentlich mitgebracht?",
+        "back_name": "Gewaltsame Wiedergeburt",
+        "back_text": "Für jede [[Verbündeter]]-, [[Zivilist]]- und [[Kultist]]-Karte in der Sieg-Anzeige lass 1 der beiseitegelegten Kind-des-Blutes-Gegner erschöpft am Ort mit den meisten Ermittlern erscheinen. Für jeden Gegner, den Sie nicht erscheinen lassen können, füge stattdessen dem Chaosbeutel 1 [blood]-Marke hinzu.\nMische den Begegnungs-Ablagestapel und jeden verbleibenden beiseitegelegten Kind-des-Blutes-Gegner in das Begegnungsdeck.",
+        "back_flavor": "Das makellose Penthouse ist nicht mehr makellos, sondern ein chaotisches Blutbad, während die Monster sich an den verängstigten und verwirrten Partygästen gütlich tun. Zu Ihrem Entsetzen bleiben die Körper, die den Boden bevölkern, nicht lange regungslos..."
+    },
+    {
+        "code": "13071",
+        "name": "Fressrausch (v. II)",
+        "text": "Jede [[Verbündeter]]-, [[Zivilist]]- und [[Kultist]]-Karte erhält <b>Sieg 0</b>.",
+        "flavor": "Die verseuchten Arbeiter von New Horizons haben es bis hierher geschafft. Sind sie aus eigenem Willen gekommen? Oder haben Sie sie versehentlich mitgebracht?",
+        "back_name": "Gewaltsame Wiedergeburt",
+        "back_text": "Für jede [[Verbündeter]]-, [[Zivilist]]- und [[Kultist]]-Karte in der Sieg-Anzeige lass 1 der beiseitegelegten Kind-des-Blutes-Gegner erschöpft am Ort mit den meisten Ermittlern erscheinen.\nMische den Begegnungs-Ablagestapel und jeden verbleibenden beiseitegelegten Kind-des-Blutes-Gegner in das Begegnungsdeck.",
+        "back_flavor": "Das makellose Penthouse ist nicht mehr makellos, sondern ein chaotisches Blutbad, während die Monster sich an den verängstigten und verwirrten Partygästen gütlich tun. Zu Ihrem Entsetzen bleiben die Körper, die den Boden bevölkern, nicht lange regungslos..."
+    },
+    {
+        "code": "13072",
+        "name": "Unter einem Blutmond",
+        "text": "<b>Erzwungen</b> - Nachdem ein [[Zivilist]]- oder [[Kultist]]-Gegner durch das Raubtier-Schlüsselwort besiegt wurde: Entferne den besiegten Gegner aus dem Spiel. Durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Monster]]-Gegner und lass ihn erschöpft am früheren Ort des besiegten Gegners erscheinen.",
+        "flavor": "Es ist unmöglich, mit den Monstern zu verhandeln, während sie die verängstigten Gäste auf grausame Weise verschlingen. Die Party versinkt bald im Wahnsinn.",
+        "back_name": "Ausbluten",
+        "back_text": "Jeder Ermittler, der nicht eliminiert wurde, ist besiegt.",
+        "back_flavor": "Sie kämpfen gegen die Flut der Monster, aber jede Person, die fällt, erhebt sich bald wieder mit Klauen, Reißzähnen und Blutdurst... einschließlich Ihnen."
+    },
+    {
+        "code": "13073",
+        "name": "Deal oder kein Deal",
+        "text": "[fast] Wähle einen bereiten Verdächtigen-Gast-Gegner an Ihrem Ort und gib entweder 1 Hinweis oder 2 Ressourcen aus: <b>Verhandlung.</b> ([codex] A).\n<b>Ziel</b> - Am Ende der Runde, wenn Priscilla Thomas nicht im Spiel ist, treibe voran.",
+        "flavor": "Der Gastgeber der Party ist nirgends zu sehen, aber die Party geht trotzdem weiter. Dies ist Ihre Gelegenheit, so viel wie möglich von den anderen Gästen herauszufinden und vielleicht Miss Thomas zu überzeugen, ihre Verbindung zu New Horizons aufzugeben.",
+        "back_name": "Rücktrittsrecht",
+        "back_text": "Bringe das beiseitegelegte Hauptschlafzimmer ins Spiel. Wenn der Balkon beiseitegelegt ist, bringe auch ihn ins Spiel.\nLege 1 [per_investigator] Hinweise <i>(aus dem Markenvorrat)</i> auf jeden aufgedeckten Ort ohne <b>Sieg X</b>, bis zu dessen Hinweisschwelle.\nMische jeden beiseitegelegten [[Kultist]]-Gegner und jede Kopie der Niedertracht „Sanguinische Wiedergeburt“ in das Begegnungsdeck.\nGib jede Chaosmarke frei, die auf jedem Gegner im Spiel versiegelt ist.",
+        "back_flavor": "Jetzt, da Priscilla Thomas kein Problem mehr ist, können Sie sich darauf konzentrieren, Howard Wilkes vor Gericht zu bringen. Wenn Sie ihn nur finden könnten..."
+    },
+    {
+        "code": "13074",
+        "name": "Wo ist Wilkes?",
+        "text": "<b>Ziel</b> - Nachdem ein Ermittler das Hauptschlafzimmer betreten hat, treibe sofort voran.",
+        "flavor": "Jetzt, da Priscilla Thomas kein Problem mehr ist, können Sie sich darauf konzentrieren, Howard Wilkes zu finden und aufzuhalten.",
+        "back_name": "Die Ankunft von Howard",
+        "back_text": "Lass den beiseitegelegten Howard-Wilkes-Gegner im Hauptschlafzimmer erscheinen.\nÜberprüfen Sie Ihr Kampagnenprotokoll. Wenn <i>die Ermittler Zburamoarte besiegt haben</i>, erschöpfe Howard Wilkes und löse ihn von jedem Ermittler. Andernfalls greift er jeden Ermittler im Hauptschlafzimmer an.\nLege 1 [per_investigator] Hinweise <i>(aus dem Markenvorrat)</i> auf jeden aufgedeckten Ort ohne <b>Sieg X</b>, bis zu dessen Hinweisschwelle.\nDrehe die Eingangshalle auf ihre <i>(Blutige Nacht)</i>-Seite.\nWenn Agenda 1a im Spiel ist, treibe sie sofort voran.",
+        "back_flavor": "Als Sie ins Hauptschlafzimmer spähen, sehen Sie, dass sich der Raum in einem beunruhigenden Zustand befindet: Das Bett ist völlig zerwühlt, die Bilder hängen schief an den Wänden und, am schlimmsten von allem, der Boden ist von frisch vergossenem Blut glitschig. Die Türen zum Balkon stehen weit offen. Ihre Augen gewöhnen sich gerade rechtzeitig an die Dunkelheit, um eine große Silhouette zu sehen, die auf Sie zurennt."
+    },
+    {
+        "code": "13075",
+        "name": "Blutbad",
+        "text": "[action]: <b>Verhandlung.</b> Testen Sie [willpower] oder [intellect] (4). Sie dürfen 1 [per_investigator] Hinweise ausgeben, um automatisch zu gelingen. Wenn Sie Erfolg haben, bewegen Sie jeden [[Zivilist]]-Gegner an Ihrem Ort zu einem verbundenen Ort.\n<b>Ziel</b> - Wenn Howard Wilkes besiegt ist, treibe sofort voran.\n<b>Ziel</b> - Wenn jeder überlebende Ermittler aufgegeben hat, treibe sofort voran.",
+        "flavor": "Howard Wilkes ist endlich angekommen. Sie können versuchen, so viele Gäste wie möglich zu retten, bevor Sie fliehen, oder Sie können sich Howard stellen und diesem Albtraum ein Ende setzen.",
+        "back_name": "Die Party ist vorbei",
+        "back_text": "<b>Wenn dieser Akt voranschritt, weil Howard Wilkes besiegt wurde:</b>\n<blockquote><i>Nach einem langen und blutigen Kampf gelingt es Ihnen, Howard Wilkes endgültig zu erledigen. Sie hoffen, dass dieser Albtraum endlich vollständig hinter Ihnen liegt.</i></blockquote>\n<b>(→R1)</b>\n<b>Wenn dieser Akt voranschritt, weil jeder überlebende Ermittler aufgegeben hat:</b>\n<blockquote><i>Sie schaffen es, mit dem Leben aus der Party zu entkommen. Sie können nur hoffen, dass Sie genug Gäste gerettet und Howards Pläne lange genug verzögert haben, um einen Unterschied zu machen.</i></blockquote>\n<b>(→R2)</b>"
+    },
+    {
+        "code": "13076",
+        "name": "Eingangshalle",
+        "subname": "Langweilige Party",
+        "text": "[action]: Lege 1 Hinweis <i>(aus dem Markenvorrat)</i> auf jeden aufgedeckten Ort ohne <b>Sieg X</b>, bis zu dessen Hinweisschwelle.\n[action]: <b>Aufgeben.</b> Sie waren nie ein Partymensch.",
+        "back_subname": "Blutige Nacht",
+        "back_text": "[action]: Lege einen [[Zivilist]]-Gegner an diesem Ort unter die Szenario-Referenzkarte.\n[action]: <b>Aufgeben.</b> Sie entkommen mit dem Leben.",
+        "traits": "Flur."
+    },
+    {
+        "code": "13077",
+        "name": "Speisesaal",
+        "text": "Jeder Gegner an diesem Ort erhält +1 Kampf und -1 Ausweichen.\n[reaction] Nachdem Sie an diesem Ort einen Gegner um 2 oder mehr erfolgreich ausgewichen haben: Füge diesem Gegner 1 Schaden zu. (Einmal pro Zug begrenzt.)",
+        "back_flavor": "Der Speisesaal ist makellos und tadellos, fast zu sauber. Es sind mehrere Gäste anwesend, einige sitzen am Tisch, andere stehen, und alle tratschen miteinander, während sie an ihren Getränken nippen.",
+        "traits": "Flur."
+    },
+    {
+        "code": "13078",
+        "name": "Arbeitszimmer",
+        "text": "<b>Erzwungen</b> - Nachdem Sie an diesem Ort eine Untersuchung nicht bestanden haben: Ziehen Sie die oberste Karte des Begegnungsdecks.",
+        "flavor": "Das Arbeitszimmer ist ein Raum von bescheidener Größe, der, wie der Rest des Penthouses, außergewöhnlich sauber ist.",
+        "back_flavor": "Die offene Tür des Speisesaals führt zum Arbeitszimmer, einem schwach beleuchteten Raum voller Regale mit luxuriösen und bequemen Stühlen."
+    },
+    {
+        "code": "13079",
+        "name": "Hauptschlafzimmer",
+        "text": "Die erste Niedertracht, die in jeder Mythosphase an diesem Ort aus dem Begegnungsdeck gezogen wird, erhält Schwall.",
+        "back_text": "Als zusätzliche Kosten, um diesen Ort zu betreten, müssen Ermittler am selben verbundenen Ort als Gruppe 3 [per_investigator] Hinweise ausgeben.",
+        "traits": "Höhle."
+    },
+    {
+        "code": "13080",
+        "name": "Küche",
+        "text": "<b>Erzwungen</b> - Nachdem der letzte Hinweis von diesem Ort entdeckt wurde: Jeder Ermittler an diesem Ort erleidet 1 direkten Schrecken.",
+        "flavor": "In einer Ecke der kleinen Küche sehen Sie eine offene Kiste mit dem Logo der New-Horizons-Anlage.",
+        "back_flavor": "Das knappe Küchenpersonal serviert auch das Essen im Speisesaal. Mit genügend Vorsicht könnten Sie hineingehen, wenn niemand in der Küche ist."
+    },
+    {
+        "code": "13081",
+        "name": "Büro",
+        "text": "[reaction] Wenn Sie 1 oder mehr Hinweise von diesem Ort entdecken würden: Erhalte stattdessen doppelt so viele Ressourcen. (Gruppenlimit einmal pro Spiel.)",
+        "flavor": "Überall liegen Papiere verstreut. Ungleiche Stapel von Büchern und Dokumenten bedecken alle ebenen Flächen. Howard ist nirgends zu sehen, aber vielleicht gibt es hier etwas Nützliches.",
+        "back_flavor": "Die Tür des Büros ist angelehnt, und ein Lichtstrahl aus dem Arbeitszimmer erreicht die Schatten auf der anderen Seite."
+    },
+    {
+        "code": "13082",
+        "name": "Balkon",
+        "text": "[action]: Wähle einen [[Humanoid]]-Gegner an diesem Ort und teste [intellect] (3). Wenn Sie Erfolg haben, teste [agility] (4). Wenn Sie Erfolg haben, teste [combat] (5). Wenn Sie Erfolg haben, besiege den gewählten Gegner und der Balkon erhält bis zum Ende des Spiels das [[Tatort]]-Merkmal.",
+        "back_flavor": "Der Wind weht stark ins Penthouse vom Tal des Miskatonic und bewegt die schweren Vorhänge. Es gibt Kratzspuren auf der Oberfläche des Geländers, als ob ein Monster kürzlich aus dem Penthouse geflohen wäre... oder als ob es angekommen wäre."
+    },
+    {
+        "code": "13083",
+        "name": "Priscilla Thomas",
+        "subname": "Skeptische Geschäftspartnerin",
+        "text": "Zurückhaltend. Dem Untergang geweiht. Schwer fassbar.\n[action] Gib 1 [per_investigator] Hinweise aus: <b>Verhandlung.</b> ([codex] B).\n<b>Erzwungen</b> - Nachdem Priscilla Thomas besiegt ist: Entferne sie aus dem Spiel.",
+        "flavor": "„Was hat Howard vor?“",
+        "traits": "Humanoide. Zivilist. Elite."
+    },
+    {
+        "code": "13084",
+        "name": "Howard Wilkes",
+        "subname": "Erster Spross von Zburamoarte",
+        "text": "Jagd. Raubtier.\nHoward Wilkes erhält +2 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Nachdem Howard Wilkes Schaden zugefügt wurde: Wenn er erschöpft ist, bereite ihn vor. Andernfalls erleidet jeder Ermittler an seinem Ort entweder 1 Schaden oder 1 Schrecken.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13085",
+        "name": "Howard Wilkes",
+        "subname": "Zu weit gegangen",
+        "text": "Jagd. Raubtier. Vergeltung.\nHoward Wilkes erhält +2 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Nachdem Howard Wilkes Schaden zugefügt wurde: Wenn er erschöpft ist, bereite ihn vor. Andernfalls erleidet jeder Ermittler an seinem Ort 1 Schaden und 1 Schrecken.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13086",
+        "name": "Howard Wilkes",
+        "subname": "Ultimativer Räuber",
+        "text": "Jagd. Raubtier. Vergeltung.\nHoward Wilkes erhält +2 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Nachdem Howard Wilkes Schaden zugefügt wurde: Bereite ihn vor. Jeder Ermittler an seinem Ort erleidet 1 Schaden und 1 Schrecken.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13087",
+        "name": "Julia Stern",
+        "subname": "Erstes Opfer von New Horizons",
+        "text": "Schwer fassbar. Jagd.\nJulia Stern erhält +1 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn die Gegnerphase endet, wenn sich Julia Stern am selben Ort wie Howard Wilkes befindet: Sie fügt Howard Wilkes 2 Schaden zu. Dann fügt Howard Wilkes Julia Stern 2 Schaden zu.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13088",
+        "name": "Julia Stern",
+        "subname": "Blutdurstig",
+        "text": "Wachsam. Schwer fassbar. Jagd.\nJulia Stern erhält +1 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn die Gegnerphase endet, wenn sich Julia Stern am selben Ort wie Howard Wilkes befindet: Sie fügt Howard Wilkes 2 Schaden zu. Dann fügt Howard Wilkes Julia Stern 2 Schaden zu.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13089",
+        "name": "Julia Stern",
+        "subname": "Tochter der Rache",
+        "text": "Wachsam. Schwer fassbar. Jagd. Raubtier.\nJulia Stern erhält +1 [per_investigator] Gesundheit.\n<b>Erzwungen</b> - Wenn die Gegnerphase endet, wenn sich Julia Stern am selben Ort wie Howard Wilkes befindet: Sie fügt Howard Wilkes 1 Schaden zu. Dann fügt Howard Wilkes Julia Stern 2 Schaden zu.",
+        "traits": "Humanoide. Monster. Elite."
+    },
+    {
+        "code": "13090",
+        "name": "Verdächtiger Gast",
+        "text": "Zurückhaltend. Dem Untergang geweiht.\n<b>Erscheinen</b> - Jeder leere Ort.",
+        "flavor": "Sie haben das Gefühl, dass sie nicht wollen, dass Sie hier sind.",
+        "traits": "Humanoide. Zivilist."
+    },
+    {
+        "code": "13091",
+        "name": "Kind des Blutes",
+        "text": "Jagd. Beute (meiste versiegelte [blood]-Marken).",
+        "flavor": "Der durchdringende Blick. Die blutigen Klauen. Der schaurige Schrei. Die Kreatur hat aufgehört, menschlich zu sein.",
+        "traits": "Humanoide. Monster."
+    },
+    {
+        "code": "13092",
+        "name": "Sanguinische Wiedergeburt",
+        "text": "<b>Aufdecken</b> - Befestige die Sanguinische Wiedergeburt am nächsten [[Kultist]]-Gegner. Wenn keine [[Kultist]]-Gegner im Spiel sind, durchsuche das Begegnungsdeck nach einem [[Kultist]]-Gegner, ziehe ihn und befestige die Sanguinische Wiedergeburt an diesem Gegner.\n<b>Erzwungen</b> - Wenn der befestigte Gegner besiegt ist: Lass 1 der beiseitegelegten Brut-von-Zburamoarte-Gegner erschöpft am Ort des befestigten Gegners erscheinen. Entferne die Sanguinische Wiedergeburt aus dem Spiel.",
+        "traits": "Machenschaft."
+    },
+    {
+        "code": "13093a",
+        "name": "Auserwählte von Zburamoarte",
+        "subname": "Den Hunger bekämpfen",
+        "text": "Permanent. Belohnung.\nDie Auserwählte von Zburamoarte beginnt das Spiel mit der <i>(Den Hunger bekämpfen)</i>-Seite nach oben.\n<b>Erzwungen</b> - Wenn das Spiel beginnt: Füge dem Chaosbeutel für die Dauer des Spiels 5 [blood]-Marken hinzu.\nJeder Ermittler behandelt jede [blood]-Marke, die während eines Fertigkeitstests aufgedeckt wird, als „-1. Decke eine weitere Marke auf. Nachdem dieser Test aufgelöst wurde, drehe das Auserwählte-von-Zburamoarte-Objekt auf die <i>(Zum Fressen gezwungen)</i>-Seite und versiegle diese Marke darauf.“",
+        "traits": "Zustand. Seuche."
+    },
+    {
+        "code": "13093b",
+        "name": "Auserwählte von Zburamoarte",
+        "subname": "Zum Fressen gezwungen",
+        "text": "Permanent. Belohnung.\nSie erhalten +1 [combat] und +1 [agility].\nJeder Ermittler behandelt jede [blood]-Marke, die während eines Fertigkeitstests aufgedeckt wird, als „-1. Decke eine weitere Marke auf. Nachdem dieser Test aufgelöst wurde, versiegle diese Marke auf dem Auserwählte-von-Zburamoarte-Objekt.“\n[fast] Erschöpfe diese Karte und gib 1 darauf versiegelte [blood]-Marke frei: Füge einem Gegner an Ihrem Ort 1 Schaden zu und heile 1 Schaden. Wenn keine [blood]-Marken hier versiegelt sind, drehe diese Karte um.",
+        "traits": "Zustand. Seuche."
+    },
+    {
+        "code": "13094",
+        "name": "Rasender Hunger",
+        "text": "<b>Aufdecken</b> - Wenn sich bereits eine Kopie des Rasenden Hungers in Ihrem Bedrohungsbereich befindet, erhält diese Karte Schwall. Andernfalls bringe diese Karte in Ihrem Bedrohungsbereich ins Spiel.\nDas erste Mal, dass Sie jede Runde eine der folgenden Aktionen durchführen (ziehen, bewegen oder verhandeln), kostet sie 1 zusätzliche Aktion.\n<b>Erzwungen</b> - Wenn Ihr Zug endet: Testen Sie [willpower] (3). Wenn Sie Erfolg haben, wirf den Rasenden Hunger ab.",
+        "traits": "Fluch."
+    },
+    {
+        "code": "13095",
+        "name": "Qualvolle Verwandlung",
+        "text": "<b>Aufdecken</b> - Wenn...\n- ...keine [blood]-Marken auf Ihrem Ermittler versiegelt sind: Verlieren Sie 2 Ressourcen.\n- ...1 oder 2 [blood]-Marken auf Ihrem Ermittler versiegelt sind: Erleiden Sie 1 Schaden und 1 Schrecken.\n- ...3 [blood]-Marken auf Ihrem Ermittler versiegelt sind: Erleiden Sie 1 Schaden und 1 Schrecken und wirf 1 zufällige Karte aus Ihrer Hand ab.",
+        "traits": "Macht. Seuche."
+    },
+    {
+        "code": "13096",
+        "name": "Verwesende Überreste",
+        "text": "<b>Aufdecken</b> - Testen Sie [willpower] (3). Für jeden Punkt, um den Sie scheitern, erleiden Sie 1 Schrecken.",
+        "traits": "Terror."
+    },
+    {
+        "code": "13097",
+        "name": "Brut von Zburamoarte",
+        "text": "Jagd. Raubtier. Beute (meiste versiegelte [blood]-Marken).\n<b>Erzwungen</b> - Nachdem die Brut von Zburamoarte Schaden zugefügt hat: Heile 1 Schaden von ihr.",
+        "traits": "Humanoide. Monster."
+    },
+    {
+        "code": "13098",
+        "name": "Unnatürliche Stärke",
+        "text": "<b>Aufdecken</b> - Wenn keine [[Monster]]-Gegner im Spiel sind, erhält die Unnatürliche Stärke Schwall. Andernfalls befestige diese Karte am nächsten [[Monster]]-Gegner.\nDer befestigte Gegner erhält +1 Kampf und verursacht +1 Schaden.\n<b>Erzwungen</b> - Nachdem der befestigte Gegner Schaden erlitten hat: Wirf die Unnatürliche Stärke ab.",
+        "traits": "Macht."
+    },
+    {
+        "code": "13099",
+        "name": "Verseuchtes Blut",
+        "text": "<b>Aufdecken</b> - Wenn 1 oder mehr [blood]-Marken auf Ihrem Ermittler versiegelt sind, bringe das Verseuchte Blut in Ihrem Bedrohungsbereich ins Spiel. Andernfalls durchsuche den Chaosbeutel nach einer [blood]-Marke, versiegle sie auf Ihrem Ermittler und wirf diese Karte ab.\nSie erhalten -1 [intellect] und -1 Geisteszustand.\n[action]: Testen Sie [willpower] (3). Wenn Sie Erfolg haben, wirf das Verseuchte Blut ab.",
+        "traits": "Fluch. Seuche."
+    },
+    {
+        "code": "13100",
+        "name": "Grausamer Zwang",
+        "text": "<b>Aufdecken</b> - Testen Sie [willpower] (2). Dieser Test erhält +1 Schwierigkeit für jede [blood]-Marke, die auf Ihrem Ermittler versiegelt ist. Wenn Sie scheitern, fügen Sie einem Ermittler oder [[Verbündeter]]-Objekt an Ihrem Ort 2 Schaden zu.",
+        "traits": "Macht."
+    },
+    {
+        "code": "13101",
+        "name": "Blutmond",
+        "text": "Gefahr.\n<b>Aufdecken</b> - Sie müssen entweder dem Chaosbeutel 1 [blood]-Marke hinzufügen oder 2 Schrecken erleiden.",
+        "traits": "Omen."
+    },
+    {
+        "code": "13102",
+        "name": "Blutdurst",
+        "text": "<b>Aufdecken</b> - Testen Sie [intellect] (3). Versiegle jede [blood]-Marke, die während dieses Fertigkeitstests aufgedeckt wird, auf Ihrem Ermittler (bis zu einem Limit von 3 Marken auf Ihrem Ermittler). Wenn Sie scheitern, wirf 1 zufällige Karte aus Ihrer Hand ab.",
+        "flavor": "Sie können diesem Zwang nicht ewig widerstehen.",
+        "traits": "Wahnsinn."
+    },
+    {
+        "code": "13103",
+        "name": "Kind des Blutes",
+        "text": "Jagd. Beute (meiste versiegelte [blood]-Marken).",
+        "flavor": "Der durchdringende Blick. Die blutigen Klauen. Der schaurige Schrei. Die Kreatur hat aufgehört, menschlich zu sein.",
+        "traits": "Humanoide. Monster."
+    },
+    {
+        "code": "13104",
+        "name": "Greifende Hände",
+        "text": "<b>Aufdecken</b> - Testen Sie [agility] (3). Für jeden Punkt, um den Sie scheitern, erleiden Sie 1 Schaden.",
+        "traits": "Risiko."
+    },
+    {
+        "code": "13105",
+        "name": "Charlie Kane",
+        "subname": "Kennt einen Typen",
+        "text": "Sie haben 2 zusätzliche Verbündeten-Slots.\n[reaction] Nachdem Charlie Kane ins Spiel gekommen ist: Spiele ein anderes [[Verbündeter]]-Objekt aus Ihrer Hand, wobei Sie seine Kosten um 2 reduzieren.",
+        "traits": "Verbündeter. Gönner."
+    },
+    {
+        "code": "13106",
+        "name": "Von der Nacht",
+        "text": "<b>Aufdecken</b> - Testen Sie [willpower] (4). Wenn Sie scheitern, müssen Sie entweder 3 Ressourcen oder 2 Hinweise verlieren.",
+        "flavor": "Wohin Sie auch gehen, Sie hören das Schlagen dieser schrecklichen Flügel.",
+        "traits": "Terror."
+    },
+    {
+        "code": "13107",
+        "name": "Nirgendwo zu verstecken",
+        "text": "<b>Aufdecken</b> - Testen Sie [agility] (4). Wenn Sie scheitern, müssen Sie entweder ein Objekt, das Sie kontrollieren, abwerfen oder 2 Karten aus Ihrer Hand wählen und abwerfen.",
+        "traits": "Terror."
+    },
+    {
+        "code": "13108",
+        "name": "Fehlinformation",
+        "text": "<b>Aufdecken</b> - Testen Sie [intellect] (3). Für jeden Punkt, um den Sie scheitern, müssen Sie entweder 1 Ihrer Hinweise auf Ihren Ort legen oder 1 Karte aus Ihrer Hand wählen und abwerfen.",
+        "flavor": "Glauben Sie nicht alles, was Sie lesen.",
+        "traits": "Machenschaft."
+    },
+    {
+        "code": "13109",
+        "name": "Blutrünstiger Köter",
+        "text": "Jagd. Beute (meiste versiegelte [blood]-Marken).",
+        "flavor": "Nicht einmal die Bestien sind vor der Seuche sicher, die durch Arkham zieht.",
+        "traits": "Kreatur. Monster."
+    },
+    {
+        "code": "13110",
+        "name": "Nachtfresser",
+        "text": "Schwer fassbar. Jagd.\n<b>Erzwungen</b> - Nachdem der Nachtfresser Schaden zugefügt hat: Heile 1 Schaden von ihm.",
+        "traits": "Humanoide. Monster."
+    },
+    {
+        "code": "13111",
+        "name": "Futterplätze",
+        "text": "<b>Aufdecken</b> - Testen Sie [willpower] (3). Wenn Sie während dieses Tests eine [blood]-Marke aufdecken, scheitern Sie automatisch <i>(decken Sie keine zusätzlichen Chaosmarken auf)</i>. Wenn Sie scheitern, erleiden Sie 2 Schrecken.",
+        "traits": "Risiko."
+    },
+    {
+        "code": "13112",
+        "name": "Sanguinischer Kultist",
+        "text": "<b>Erscheinen</b> - Jeder leere Ort.\n<b>Erzwungen</b> - Nachdem der Sanguinische Kultist ins Spiel gekommen ist: Lege 1 Unheil auf ihn. Jeder Ermittler darf den Chaosbeutel nach einer [blood]-Marke durchsuchen und sie auf seinem Ermittler versiegeln, um diesen Effekt zu verhindern.",
+        "traits": "Humanoide. Sektenmitglied."
+    },
+    {
+        "code": "13113",
+        "name": "Blutrünstiger Eiferer",
+        "text": "<b>Erscheinen</b> - Jeder leere Ort.\n<b>Erzwungen</b> - Nachdem eine [blood]-Marke auf einem Ermittler versiegelt wurde: Lege 1 Unheil auf den Blutrünstigen Eiferer.",
+        "traits": "Humanoide. Sektenmitglied."
+    },
+    {
+        "code": "13114",
+        "name": "Makabre Rituale",
+        "text": "<b>Aufdecken</b> - Lege Unheil auf den nächsten [[Kultist]]-Gegner in Höhe der Anzahl der [blood]-Marken, die auf Ihrem Ermittler versiegelt sind. Wenn durch diesen Effekt kein Unheil gelegt wurde, durchsuche den Chaosbeutel nach einer [blood]-Marke und versiegle sie auf Ihnen.",
+        "traits": "Verhexung."
+    },
+    {
+        "code": "13115",
+        "name": "In den Schatten",
+        "text": "<b>Aufdecken</b> - Testen Sie [agility] (3). Wenn Sie scheitern, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Kreatur]]- oder [[Monster]]-Gegner und ziehe ihn.",
+        "traits": "Machenschaft."
+    },
+    {
+        "code": "13116",
+        "name": "Stimmen in der Nacht",
+        "text": "<b>Aufdecken</b> - Bringe „Stimmen in der Nacht“ in Ihrem Bedrohungsbereich ins Spiel.\n<b>Erzwungen</b> - Nachdem ein Gegner Sie angegriffen hat, wirf „Stimmen in der Nacht“ ab: Dieser Gegner greift Sie an.\n[action]: Testen Sie [willpower] (3). Wenn Sie Erfolg haben, wirf „Stimmen in der Nacht“ ab.",
+        "traits": "Terror."
+    },
+    {
+        "code": "13117",
+        "name": "Blutrünstiges Ungeziefer",
+        "text": "Jagd. Beute (meiste versiegelte [blood]-Marken).",
+        "flavor": "„Es war wieder das erschrockene Huschen dieser teuflischen Ratten, die immer auf der Suche nach neuen Schrecken waren und entschlossen, dass ich ihnen in diese verschlungenen Höhlen im Zentrum der Erde folgen sollte...“\n—H. P. Lovecraft, „Die Ratten im Gemäuer“",
+        "traits": "Kreatur. Seuche."
+    },
+    {
+        "code": "13118",
+        "name": "Die Blutseuche",
+        "text": "Permanent. Limit 1 pro Deck.\n<b>Erzwungen</b> - Wenn die Runde endet: Durchsuche den Chaosbeutel nach einer [blood]-Marke und versiegle sie auf Ihrem Ermittler.\n[action] Füge einem Ermittler an Ihrem Ort bis zu 3 Schaden zu: Gib so viele [blood]-Marken von Ihrem Ermittler frei. Wenn Sie durch diesen Effekt 3 Schaden zugefügt haben, entferne 1 [blood]-Marke aus dem Chaosbeutel.",
+        "traits": "Fluch. Seuche."
+    }
+]
