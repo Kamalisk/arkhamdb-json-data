@@ -150,6 +150,11 @@
         "slot": "Hand"
     },
     {
+        "code": "12020",
+        "name": "Machete",
+        "text": "[action]: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +1 [combat]. Falls der Angriff gelingt und der angegriffene Gegner der einzige Gegner ist, der mit dir in einen Kampf verwickelt ist, darfst du das Beil erschöpfen, um mit diesem Angriff +1 Schaden zuzufügen."
+    },
+    {
         "code": "12021",
         "flavor": "Nichts wird dich unterkriegen.",
         "name": "Unverwüstlichkeit",
@@ -167,6 +172,15 @@
         "name": "Das passende Werkzeug",
         "text": "Durchsuche die obersten 9 Karten deines Decks nach einer [[Werkzeug]]- or [[Waffe]]-Vorteilskarte und füge sie deiner Hand hinzu.",
         "traits": "Erkenntnis."
+    },
+    {
+        "code": "12024",
+        "name": "Tatort"
+    },
+    {
+        "code": "12025",
+        "name": "Brutaler Schlag",
+        "flavor": "Begleitet von einem widerlichen Schmatzen schlug er immer und immer wieder auf die Scheußlichkeit ein … bis sie schließlich aufhörte sich zu bewegen."
     },
     {
         "code": "12026",
@@ -207,12 +221,27 @@
         "slot": "Verbündeter"
     },
     {
+        "code": "12031",
+        "name": "Fingerabdruck-Set",
+        "text": "Anwendungen (3 Vorräte).\n[action] Erschöpfe das Fingerabdruck-Set und gib 1 Vorrat aus: <b>Ermitteln</b> ([intellect]). Du bekommst für diese Ermittlung +1 [intellect]. Falls die Probe gelingt, entdeckst du 1 zusätzlichen Hinweis an deinem Ort."
+    },
+    {
+        "code": "12032",
+        "name": "Laborassistentin",
+        "text": "Dein Handkartenlimit wird um 2 erhöht.\n[reaction] Nachdem du die Laborassistentin ausgespielt hast: Ziehe 2 Karten.",
+        "flavor": ""
+    },
+    {
         "code": "12033",
         "flavor": "\"Ich könnte schwören, das wir hier schon mal waren ...\"",
         "name": "Karte der Umgebung",
         "text": "Anwendungen (4 Geheimnisse).\n[action] Gib 1 Geheimnis aus: <b>Ermitteln</b> ([intellect]). Ermittle an einem enthüllten verbundenen Ort. Du bekommst für diese Ermittlung +1 [intellect]. Falls die Probe gelingt, darfst du Karte der Umgebung erschöpfen, um dich an jenen Ort zu bewegen.",
         "traits": "Gegenstand.",
         "slot": "Hand"
+    },
+    {
+        "code": "12034",
+        "name": "Vergrößerungsglas"
     },
     {
         "code": "12035",
@@ -234,6 +263,15 @@
         "traits": "Erkenntnis. Trick."
     },
     {
+        "code": "12038",
+        "name": "Einer Ahnung folgen"
+    },
+    {
+        "code": "12039",
+        "name": "Deduktion",
+        "flavor": "„Ich wusste, dass ich dieses Symbol schon mal gesehen habe. Ich muss die anderen warnen, bevor es zu spät ist!“"
+    },
+    {
         "code": "12040",
         "name": "Mysteriöses Zauberbuch",
         "text": "Anwendungen (4 Geheimnisse).\n[fast] Gib in deinem Zug 1 oder 2 Geheimnisse aus und erschöpfe Mysteriöses Zauberbuch: Durchsuche die obersten 3 Karten deines Decks (oder stattdessen die obersten 6 Karten, falls du 2 Geheimnisse ausgegeben hast) nach 1 Karte und ziehe sie. Falls sich 1 oder mehr Schwächen unter den durchsuchten Karten befinden, ziehe auch sie. Mische dein Deck.",
@@ -247,10 +285,20 @@
         "traits": "Erkenntnis. Trick."
     },
     {
+        "code": "12042",
+        "name": "Lernbegierig",
+        "flavor": "Vielleicht hätte Gilman sein Studium nicht so intensiv betreiben sollen.\n- H. P. Lovecraft, <u>Träume im Hexenhaus</u>"
+    },
+    {
         "code": "12043",
         "name": "Grenzenloses Wissen",
         "text": "Enthülle die obersten 5 Karten deines Decks (stattdessen die obersten 8 Karten, falls du 2 oder mehr Hinweise kontrollierst). Ziehe davon 3 Karten und platziere die übrigen in beliebiger Reihenfolge auf und/oder unter deinem Deck.",
         "traits": "Erkenntnis."
+    },
+    {
+        "code": "12044",
+        "name": "Glücks-Zigarettenetui",
+        "flavor": "„Eigentlich bringt es gar kein Glück. Nur wenn man gerade das Bedürfnis nach einer Zigarette hat.“"
     },
     {
         "code": "12045",
@@ -280,6 +328,18 @@
         "name": "Lange Finger",
         "text": "Nur 1 pro Ermittler.\n[reaction] Nachdem du einem Gegner erfolgreich entkommen bist, erschöpfe Lange Finger: Du erhältst 1 Ressource.",
         "traits": "Talent."
+    },
+    {
+        "code": "12049",
+        "name": "Diebeswerkzeug",
+        "text": "Anwendungen (6 Vorräte).\n[action] Gib 1 Vorrat aus: <b>Ermitteln</b> ([intellect] oder [agility]). Falls die Probe gelingt, erhältst du 1 Ressource.",
+        "flavor": "„Warum habe ich so was bei mir? Natürlich nur, um besser über die widerlichen Methoden der Kunstdiebe informiert zu sein.”"
+    },
+    {
+        "code": "12050",
+        "name": "Einbruchdiebstahl",
+        "text": "<b>Ermitteln</b> ([intellect]). Addiere für diese Ermittlung deinen [agility]-Wert zu deinem [intellect]-Wert. Falls die Probe um 2 oder mehr gelingt, darfst du einem Gegner an diesem Ort automatisch ausweichen. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "flavor": "Wenn ein „Einbruch” nicht genug ist…"
     },
     {
         "code": "12051",
@@ -314,6 +374,11 @@
         "name": "Entscheidender Schlag",
         "text": "<b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu. Falls dieser Angriff einen Gegner besiegt, erhältst du 5 Ressourcen.",
         "traits": "Taktik. Schachzug."
+    },
+    {
+        "code": "12056",
+        "name": "Neuer Tag, neues Geld",
+        "flavor": "Verliere nie den Blick für das wirklich Wichtige."
     },
     {
         "code": "12057",
@@ -366,6 +431,16 @@
         "traits": "Talent."
     },
     {
+        "code": "12064",
+        "name": "Vorahnung",
+        "text": "Schnell. Spiele diese Karte in einem beliebigen [free]-Spielerfenster.\nBringe Vorahnung ins Spiel und versiegle einen zufälligen Chaosmarker aus dem Chaosbeutel auf Vorahnung.\n<b>Erzwungen</b> - Sobald ein Marker aus dem Chaosbeutel enthüllt werden würde: Handle stattdessen den hier versiegelten Marker ab, als ob er gerade enthüllt worden wäre. Gib dann diesen Marker frei und lege Vorahnung ab."
+    },
+    {
+        "code": "12065",
+        "name": "Schutzsiegel",
+        "text": "Schnell. Spiele diese Karte, sobald du eine Nicht-Schwäche-Verratskarte ziehst.\nHebe den Enthüllungseffekt dieser Karte auf und nimm 1 Horror."
+    },
+    {
         "code": "12066",
         "flavor": "Der Kosmos alles vereint.\nDie Leere alles verneint.",
         "name": "Wille des Kosmos",
@@ -386,6 +461,10 @@
         "text": "Anwendungen (3 Ladungen).\n[reaction] Sobald du einen Chaosmarker enthüllen würdest, gib 1 Ladung aus: Enthülle 1 zusätzlichen Marker. Wähle 1 dieser Marker, den du abhandelst, und ignoriere den anderen. Falls du einen Marker mit einem Symbol abgehandelt hast, nimm 1 Horror.",
         "traits": "Gegenstand. Mask. Relikt. Verflucht.",
         "slot": "Kopf"
+    },
+    {
+        "code": "12069",
+        "name": "Furchtlos"
     },
     {
         "code": "12070",
@@ -410,6 +489,11 @@
         "slot": "Verbündeter"
     },
     {
+        "code": "12073",
+        "name": "Wundverbände",
+        "text": "Anwendungen (3 Vorräte). Falls Wundverbände keine Vorräte hat, lege diese Karte ab.\n[reaction] Nachdem ein Ermittler oder eine [[Verbündeter]]-Vorteilskarte an deinem Ort 1 oder mehr Schaden nimmt, gib 1 Vorrat aus: Heile 1 Schaden von jener Karte."
+    },
+    {
         "code": "12074",
         "name": "Jägerinstinkt",
         "text": "Nur 1 pro Ermittler. Anwendungen (3 Vorräte). Falls sich keine Vorräte auf Jägerinstinkt befinden, lege diese Karte ab.\n[reaction] Nachdem du einen Gegner in einen Kampf verwickelt hast, gib 1 Vorrat aus und erschöpfe Jägerinstinkt: Füge eine Ereigniskarte der Stufe 0 aus deinem Ablagestapel deiner Hand hinzu.",
@@ -428,6 +512,17 @@
         "name": "Besonnen",
         "text": "[fast] Gib 1 Ressource aus: Du bekommst für diese Fertigkeitsprobe +1 [willpower] (stattdessen +2 [willpower], falls sich diese Probe auf einer Szenariokarte befindet).\n[fast] Gib 1 Ressource aus: Du bekommst für diese Fertigkeitsprobe +1 [agility] (stattdessen +2 [agility], falls sich diese Probe auf einer Szenariokarte befindet).",
         "traits": "Talent."
+    },
+    {
+        "code": "12077",
+        "name": "Fleischerbeil",
+        "text": "[action]: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +1 [combat] (stattdessen +2 [combat], falls du 3 oder weniger verbleibende geistige Gesundheit hast). Falls dieser Angriff einen Gegner besiegt, darfst du 1 Horror heilen.\n[reaction] Wenn du die obige [action]-Fähigkeit auslösst, nimm 1 Horror: Dieser Angriff fügt +1 Schaden zu."
+    },
+    {
+        "code": "12078",
+        "name": "„Sieh mal, was ich gefunden habe!“",
+        "text": "Schnell. Spiele diese Karte, nachdem dir eine Fertigkeitsprobe um 2 oder weniger misslungen ist, solange du ermittelst.\nDu entdeckst 2 Hinweise an deinem Ort.",
+        "flavor": ""
     },
     {
         "code": "12079",
@@ -498,6 +593,50 @@
         "slot": "Hand"
     },
     {
+        "code": "12089",
+        "name": "Notfallausrüstung"
+    },
+    {
+        "code": "12090",
+        "name": "Mumm",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nFalls die Probe erfolgreich ist, zieht der ausführende Ermittler 1 Karte.",
+        "flavor": "Bleibt zurück! Ich übernehme das."
+    },
+    {
+        "code": "12091",
+        "name": "Fingerfertigkeit",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nFalls die Probe erfolgreich ist, zieht der ausführende Ermittler 1 Karte.",
+        "flavor": "Zu einfach."
+    },
+    {
+        "code": "12092",
+        "name": "Überwältigen",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nFalls die Probe erfolgreich ist, zieht der ausführende Ermittler 1 Karte.",
+        "flavor": "Stirb, du Bestie!"
+    },
+    {
+        "code": "12093",
+        "name": "Wahrnehmung",
+        "text": "Max. 1 pro Fertigkeitsprobe beitragen.\nFalls die Probe erfolgreich ist, zieht der ausführende Ermittler 1 Karte."
+    },
+    {
+        "code": "12094",
+        "name": "Unerwarteter Mut",
+        "flavor": "Manchmal trifft man an den merkwürdigsten Orten auf die selbstlosesten Taten."
+    },
+    {
+        "code": "12095",
+        "name": "Charisma"
+    },
+    {
+        "code": "12096",
+        "name": "Reliktjäger"
+    },
+    {
+        "code": "12097",
+        "name": "Amnesie"
+    },
+    {
         "code": "12098",
         "name": "Der Goldene Käfer",
         "text": "<b>Enthüllung</b> - Bringe der Goldene Käfer in deiner Bedrohungszone ins Spiel. Er kann das Spiel nicht verlassen, außer durch die unten stehende [action]-Fähigkeit.\nDu bekommst -1 Ausdauer and -1 Geistige Gesundheit.\n[action]: Mische Der Goldene Käfer in dein Deck.",
@@ -509,6 +648,16 @@
         "name": "Der Namenlose Lauerer",
         "text": "Zurückhaltend.\n<b>Erscheinen</b> - Am weitesten entfernter leerer Ort.\n<b>Erzwungen</b> - Sobald die Ermittlungsphase endet und falls Der Namenlose Lauerer spielbereit ist und sich kein Verderben auf ihm befindet: Platziere 1 Verderben auf ihm.",
         "traits": "Humanoid. Monster."
+    },
+    {
+        "code": "12100",
+        "name": "Übereifrig",
+        "flavor": "„Keine Sorge, ich hab das voll unter Kontrolle!“"
+    },
+    {
+        "code": "12101",
+        "name": "Paranoia",
+        "text": "<b>Enthüllung</b> - Verliere alle deine Ressourcen."
     },
     {
         "code": "12102",
