@@ -12,7 +12,7 @@
         "text": "[reaction] Nachdem der letzte Hinweis an einem [[Arkham]]-Ort entdeckt worden ist: Lege die obersten 3 Karten des Begegnungsdecks ab. Jeder so abgelegte [[Krimineller]]-Gegner erscheint nacheinander am nächstgelegenen leeren Ort.",
         "back_name": "In der falschen Gegend",
         "back_flavor": "Du eilst die Straße auf dem Weg zu deinem nächsten Ziel entlang, da bemerkst du eine verdächtig aussehende Frau in einem langen Mantel, die aus einer nahe gelegenen Gasse tritt. Du biegst in eine Seitenstraße ein, um ihr auszuweichen, und stößt fast mit einem Mann mit einer hässlichen Narbe auf der rechten Wange zusammen. Er nimmt einen Zug von seiner Zigarette, wirft sie auf den Bürgersteig und starrt dich finster an. Du machst einen Schritt zurück und stößt dabei mit der Frau zusammen, die dir zuvor aufgefallen ist. Sie lächelt.\n„Wohin des Weges, Kumpel? Wir wollen doch nur reden.“",
-        "back_text": "1 beiseitegelegter Gegner Gangvollstreckerin erscheint mit dem Ermittler mit den meisten Hinweisen in einen Kampf verwickelt. Mische den Begegnungsablagestapel in das Begegnungsdeck."
+        "back_text": "1 beiseitegelegter Gegner Gangvollstreckerin erscheint mit dem Ermittler mit den meisten Hinweisen in einen Kampf verwickelt. Mische den Begegnungs-Ablagestapel in das Begegnungsdeck."
     },
     {
         "code": "11503",
@@ -301,12 +301,6 @@
         "back_text": "Schwer / Experte\n[skull]: -X. X ist die Anzahl an enthüllten Orten.\n[cultist]: -3. Falls dein Ort überflutet ist, nimm 1 Schaden.\n[tablet]: -4. Für jeden Punkt, um den die Probe misslingt, platziere 1 deiner Hinweise auf deinem Ort.\n[elder_thing]: -4 (-6 stattdessen, falls dein Ort nicht überflutet ist)."
     },
     {
-        "code": "11536",
-        "name": "Das überflutete Viertel",
-        "text": "Einfach / Normal\n[skull]: -X. X ist die Hälfte aller enthüllten Orte (abgerundet).\n[cultist]: -2. Falls die Probe misslingt und dein Ort völlig überflutet ist, nimm 1 Schaden.\n[tablet]: -4. Falls die Probe misslingt, platziere 1 deiner Hinweise auf deinem Ort.\n[elder_thing]: -3 (-5 stattdessen, falls dein Ort nicht überflutet ist).",
-        "back_text": "Schwer / Experte\n[skull]: -X. X ist die Anzahl an enthüllten Orten.\n[cultist]: -3. Falls dein Ort überflutet ist, nimm 1 Schaden.\n[tablet]: -4. Für jeden Punkt, um den die Probe misslingt, platziere 1 deiner Hinweise auf deinem Ort.\n[elder_thing]: -4 (-6 stattdessen, falls dein Ort nicht überflutet ist)."
-    },
-    {
         "code": "11537",
         "flavor": "Teile von R'lyehs Fundamenten verfallen immer weiter, wodurch die Unterwasserkuppel einzustürzen droht.",
         "name": "Die versunkenen Ruinen",
@@ -467,13 +461,6 @@
         "traits": "Gegenstand. Artefakt. R'lyeh."
     },
     {
-        "code": "11552",
-        "name": "Barriereknoten",
-        "subname": "Energieschild",
-        "text": "Barriereknoten kann nicht besiegt werden oder das Spiel verlassen.\n[reaction] Sobald dein Zug beginnt: Heile 1 Schaden von Barriereknoten.\n[tdc_rune_q] · [tdc_rune_x] · [tdc_rune_g] · [tdc_rune_k] · [tdc_rune_s]\nBarriereknoten bekommt +2 Ausdauer.",
-        "traits": "Gegenstand. Artefakt. R'lyeh."
-    },
-    {
         "code": "11553",
         "name": "Das Apiarium",
         "text": "Einfach / Normal\n[skull]: -X. X ist die Hälfte an Verderben auf Gegnern und Vorteilskarten im Spiel, abgerundet (bis zu einem Maximum von 4).\n[cultist]: -1. Falls sich ein [[Kultist]]-Gegner an deinem Ort befindet, enthülle einen weiteren Marker.\n[tablet]: -3. Falls die Probe misslingt, platziere 1 Verderben auf einem Gegner ohne Verderben auf sich an deinem Ort.\n[elder_thing]: -4. Falls die Probe misslingt, nimm 1 Schaden oder 1 Horror.",
@@ -510,7 +497,7 @@
         "name": "Verirrte Pilger",
         "text": "Jeder [[Kultist]]-Gegner erhält Sieg 0 und Zurückhaltend.\n[action]: <b>Verhandlung.</b> Lege eine [intellect]- oder [combat]-Probe (2) ab. Für jeden Punkt, um den diese Probe gelingt, bewege einen verschiedenen [[Kultist]]-Gegner an deinem Ort ein Mal in eine beliebige Richtung.\n<b>Erzwungen</b> - Sobald die Gegnerphase endet: Jeder [[Kultist]]-Gegner nimmt 1 Schaden für jeden [[Nistling]]-Gegner an seinem Ort.\n<b>Ermittlungsziel</b> - Sobald die Runde endet, falls sich insgesamt 5 oder mehr [[Kultist]]-Karten im Siegpunktestapel und/oder unter dieser Szene befinden, muss vorgerückt werden.",
         "back_name": "Das Schicksal der Pilger",
-        "back_text": "<b>Falls sich 3 oder mehr </b><i>Kultist</i><b>-Karten unter dieser Szene befinden:</b>\n<blockquote><i>Als du mit den letzten überlebenden Pilgern aus dem Apiarium fliehst, bäumen sich die Tunnel auf und zucken krampfhaft. Hinter dir kreischen die fremdartigen Parasiten in urzeitlicher Wut. Du bist in Sicherheit... vorerst.</i></blockquote>\n<b>(→A1)</b> <i>(Seite 23)</i>.<hr><b>Ansonsten:</b>\n<blockquote><i>Als du aus dem Apiarium fliehst, bäumen sich die Tunnel auf und zucken krampfhaft. Du hörst die qualvollen Schreie der Pilger hinter dir. Dann verstummen die Schreie plötzlich und werden durch das widerliche Geräusch von knirschenden Mäulern und zerreißendem Fleisch ersetzt. Du hattest Glück, das Schicksal der anderen nicht teilen zu müssen.</i></blockquote>\n<b>(→A2)</b> <i>(Seite 23)</i>."
+        "back_text": "<b>Falls sich 3 oder mehr </b><i>Kultist</i><b>-Karten unter dieser Szene befinden:</b>\n<blockquote><i>Als du mit den letzten überlebenden Pilgern aus dem Apiarium fliehst, bäumen sich die Tunnel auf und zucken krampfhaft. Hinter dir kreischen die fremdartigen Parasiten in urzeitlicher Wut. Du bist in Sicherheit ... vorerst.</i></blockquote>\n<b>(→A1)</b> <i>(Seite 23)</i>.<hr><b>Ansonsten:</b>\n<blockquote><i>Als du aus dem Apiarium fliehst, bäumen sich die Tunnel auf und zucken krampfhaft. Du hörst die qualvollen Schreie der Pilger hinter dir. Dann verstummen die Schreie plötzlich und werden durch das widerliche Geräusch von knirschenden Mäulern und zerreißendem Fleisch ersetzt. Du hattest Glück, das Schicksal der anderen nicht teilen zu müssen.</i></blockquote>\n<b>(→A2)</b> <i>(Seite 23)</i>."
     },
     {
         "code": "11558",
@@ -1501,7 +1488,7 @@
         "code": "11683",
         "flavor": "Der Regenschauer wird stärker. Als auf den Straßen das Wasser zu steigen beginnt, kommen schreckenerregende Kreaturen aus den Schatten hervor: Kreaturen, die nur aus R'lyeh stammen können.",
         "name": "Ein Sturm zieht auf",
-        "text": "[action]: <b>Aufgeben.</b> Du gibst deine Suche auf.\n<b>Erzwungen -</b> Sobald Verderben auf dieser Agenda platziert wird: Erhöhe die Flutstufe des Ortes, an dem sich der Ermittlungsleiter befindet.",
+        "text": "[action]: <b>Aufgeben.</b> Du gibst deine Suche auf.\n<b>Erzwungen</b> - Sobald Verderben auf dieser Agenda platziert wird: Erhöhe die Flutstufe des Ortes, an dem sich der Ermittlungsleiter befindet.",
         "back_name": "Der Sturm ist hier",
         "back_flavor": "Immer mehr unaussprechliche Schrecken steigen aus dem Miskatonic auf. Eine starke Strömung reißt dich von den Füßen und spült dich zwei Blocks flussabwärts. Du schaffst es, dich an einer Straßenlaterne festzuhalten und dich aufzurichten, als ein Beben den Boden erschüttert. Dann noch eines ...",
         "back_text": "Jeder Ermittler, der nicht ausgeschieden ist, gibt sofort auf."
@@ -1555,7 +1542,7 @@
         "flavor": "„Kreise ziehend in der sich weitenden Spirale\nhört der Falke den Ruf des Falkners nicht;\nZerfall ringsum, das Zentrum hält nicht Stand\nund bloße Anarchie strömt frei in unsere Welt“\n- frei nach W. B. Yeats, <i>„Die Wiederkehr“</i>",
         "name": "Arkhams Verderben",
         "text": "<b>Erzwungen</b> - Sobald die Gegnerphase endet: Erhöhe die Flutstufe von Cthulhus Ort und ziehe die oberste Karte des Cthulhu-Decks.\n<b>Erzwungen</b> - Sobald die Runde endet: Jeder Ermittler an einem völlig überfluteten Ort nimmt 1 Schaden/Horror.",
-        "back_name": "Nach mir die Sintflut",
+        "back_name": "Nach mir die Sintflut ...",
         "back_flavor": "Die Flut steigt, während Cthulhu und seine Schergen ihren Angriff fortsetzen. Das Schicksal von Arkham liegt nun in euren Händen.",
         "back_text": "Bewege Cthulhu zum nächstgelegenen völlig überfluteten Ort, der nicht [[Ruiniert]] ist, und senke die Flutstufe jenes Ortes. Lege jeden Hinweis und jede Verstärkung an jenem Ort ab und tausche ihn mit seiner beiseitegelegten [[Ruiniert]]-Version mit der verhüllten Seite nach oben aus.\nFalls durch diesen Effekt kein Ort ausgetauscht wurde, ziehe die oberste Karte des Cthulhu-Decks.\nFalls sich 7 [[Ruiniert]]-Orte im Spiel befinden, wird jeder Ermittler <b>getötet</b>. Platziere ansonsten Hinweise auf jedem enthüllten Ort ohne <b>Sieg X</b>, bis er Hinweise entsprechend seines Hinweiswertes hat. Mische 1 beiseitegelegten [[Sternengezücht]]-Gegner zusammen mit dem Begegnungs-Ablagestapel in das Begegnungsdeck.\nDrehe diese Agenda um."
     },
