@@ -191,25 +191,25 @@
     {
         "code": "82023",
         "name": "Bauta",
-        "text": "Limite de 1 [[Masque]] en jeu.\n[reaction] Après l'entrée en jeu de la Bauta : gagnez 2 ressources.\n[reaction] Quand vous initiez un test non-[combat], défaussez la Bauta : pour ce test, utilisez [combat] au lieu de la compétence indiquée.",
+        "text": "Limite de 1 [[Masque]] par investigateur.\n[reaction] Après l'entrée en jeu de la Bauta : gagnez 2 ressources.\n[reaction] Quand vous initiez un test non-[combat], défaussez la Bauta : pour ce test, utilisez [combat] au lieu de la compétence indiquée.",
         "traits": "Objet. Masque."
     },
     {
         "code": "82024",
         "name": "Medico Della Peste",
-        "text": "Limite de 1 [[Masque]] en jeu.\n[reaction] Après l'entrée en jeu du Medico Della Peste : soignez 1 dégât ou 1 horreur.\n[reaction] Quand vous initiez un test non-[willpower], défaussez le Medico Della Peste : pour ce test, utilisez [willpower] au lieu de la compétence indiquée.",
+        "text": "Limite de 1 [[Masque]] par investigateur.\n[reaction] Après l'entrée en jeu du Medico Della Peste : soignez 1 dégât ou 1 horreur.\n[reaction] Quand vous initiez un test non-[willpower], défaussez le Medico Della Peste : pour ce test, utilisez [willpower] au lieu de la compétence indiquée.",
         "traits": "Objet. Masque."
     },
     {
         "code": "82025",
         "name": "Pantalone",
-        "text": "Limite de 1 [[Masque]] en jeu.\n[reaction] Après l'entrée en jeu du Pantalone : piochez 2 cartes.\n[reaction] Quand vous initiez un test non-[intellect], défaussez le Pantalone : pour ce test, utilisez [intellect] au lieu de la compétence indiquée.",
+        "text": "Limite de 1 [[Masque]] par investigateur.\n[reaction] Après l'entrée en jeu du Pantalone : piochez 2 cartes.\n[reaction] Quand vous initiez un test non-[intellect], défaussez le Pantalone : pour ce test, utilisez [intellect] au lieu de la compétence indiquée.",
         "traits": "Objet. Masque."
     },
     {
         "code": "82026",
         "name": "Volto Doré",
-        "text": "Limite de 1 [[Masque]] en jeu.\n[reaction] Après l'entrée en jeu du Volto Doré : traitez le prochain soutien que vous jouez à ce tour comme s'il avait le mot-clé Rapide.\n[reaction] Quand vous initiez un test non-[agility], défaussez le Volto Doré : pour ce test, utilisez [agility] au lieu de la compétence indiquée.",
+        "text": "Limite de 1 [[Masque]] par investigateur.\n[reaction] Après l'entrée en jeu du Volto Doré : traitez le prochain soutien que vous jouez à ce tour comme s'il avait le mot-clé Rapide.\n[reaction] Quand vous initiez un test non-[agility], défaussez le Volto Doré : pour ce test, utilisez [agility] au lieu de la compétence indiquée.",
         "traits": "Objet. Masque."
     },
     {
@@ -241,15 +241,17 @@
     },
     {
         "code": "82031",
-        "name": "Mass Hysteria",
-        "text": "Peril.\n<b>Revelation</b> - You must either take 2 damage or take each Masked Carnevale-Goer, shuffle them so the investigators do not know which is which, and place 1 in each location, starting with the location clockwise from you (Masked Carnevale-Goer side face-up).",
+        "errata_date": "2019-04-23",
+        "name": "Hystérie Collective",
+        "text": "Péril.\n<b>Révélation</b> - Vous devez soit subir 2 dégâts, soit prendre toutes les cartes Carnavalier Masqué, les mélanger de manière à ce que les investigateurs ne puissent déterminer qui est qui et en placer 1 dans chaque lieu, en commençant par le lieu suivant dans le sens horaire par rapport à vous (face Carnavalier Masqué visible).",
         "traits": "Risque."
     },
     {
         "code": "82032",
-        "flavor": "How exactly did you end up herer?",
-        "name": "Lost in Venice",
-        "text": "Peril.\n<b>Revelation</b> - You must either take 2 horror or move to the location across from you.",
+        "errata_date": "2019-04-23",
+        "flavor": "Mais comment êtes-vous arrivé là ?",
+        "name": "Perdu dans Venise",
+        "text": "Péril.\n<b>Révélation</b> - Vous devez soit subir 2 horreurs, soit vous déplacer vers le lieu en face de vous.",
         "traits": "Bévue."
     },
     {
@@ -272,15 +274,17 @@
     },
     {
         "code": "82036",
-        "flavor": "When the revelers come out to celebrate, <em>they</em> come out to feed.",
-        "name": "Abduction",
-        "text": "<b>Revelation</b> - Test [willpower] (3). If you fail, you must either lose all of your resources or choose and discard an [[Ally]] asset you control.",
+        "errata_date": "2019-04-23",
+        "flavor": "Lorsque les participants sortent pour faire la fête, eux sortent pour se nourrir.",
+        "name": "Enlèvement",
+        "text": "<b>Révélation</b> - Effectuez un test de [willpower] (3). En cas d'échec, vous devez soit perdre toutes vos ressources, soit choisir et défausser un soutien [[Allié]] que vous contrôlez.",
         "traits": "Manigance."
     },
     {
         "code": "82037",
-        "name": "Acrid Miasma",
-        "text": "<b>Revelation</b> - Attach to the nearest location in the clockwise direction with no Acrid Miasma.\n<b>Forced</b> - After an investigator enters attached location, he or she tests [willpower] (2). If failed, that investigator must either take 1 damage and 1 horror, or resolve the hunter keyword on each enemy in play.",
+        "errata_date": "2019-04-23",
+        "name": "Miasme Âcre",
+        "text": "<b>Révélation</b> - Attachez cette carte au lieu sans Miasme Âcre le plus proche dans le sens horaire.\n<b>Forcé</b> - Après qu'un investigateur est entré dans le lieu attaché, il effectue un test de [willpower] (2). En cas d'échec, cet investigateur doit soit subir 1 dégât et 1 horreur, soit résoudre le mot-clé Chasseur de chaque ennemi en jeu.",
         "traits": "Risque."
     }
 ]
