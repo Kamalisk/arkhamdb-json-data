@@ -2357,7 +2357,7 @@
             {
                 "code": "09041",
                 "text": "This card's [fast] ability gains \"(Limit twice per round.)\""
-              }
+            }
         ]
     },
     {
@@ -2414,6 +2414,52 @@
             {
                 "code": "08099",
                 "xp": 2
+            },
+            {
+                "code": "09022",
+                "text": "Upgrade – <b>Inscription of the Hunt:</b> +1 experience.",
+                "customization_options": [
+                    {
+                        "xp": 1,
+                        "cost": -1,
+                        "real_traits": "Item. Weapon. Melee. Relic.",
+                        "text_change": "trait"
+                    },
+                    {
+                        "xp": 1,
+                        "real_text": "- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.",
+                        "tags": "hd.hh.",
+                        "text_change": "append"
+                    },
+                    {
+                        "xp": 1,
+                        "text_change": "append"
+                    },
+                    {
+                        "xp": 2,
+                        "text_change": "append"
+                    },
+                    {
+                        "xp": 1,
+                        "text_change": "append"
+                    },
+                    {
+                        "xp": 3,
+                        "text_change": "insert",
+                        "position": 1
+                    },
+                    {
+                        "xp": 3,
+                        "text_change": "replace",
+                        "position": 0
+                    },
+                    {
+                        "xp": 4,
+                        "text_change": "replace",
+                        "position": 1
+                    }
+                ],
+                "customization_text": "□ <b>Heirloom.</b> This asset gets -1 cost and gains the [[Relic]] trait.\n□ <b>Inscription of Glory.</b> Add this inscription: \"- <i>Glory</i> - If this attack defeats an enemy, choose one: draw 1 card, heal 1 damage, or heal 1 horror.\"\n□ <b>Inscription of the Elders.</b> Add this inscription: \"- <i>Elders</i> - If this attack succeeds by an amount equal to or greater than your location's shroud, discover 1 clue at your location.\"\n□□ <b>Inscription of the Hunt.</b> Add this inscription: \"- <i>Hunt</i> - Immediately move to a connecting location or engage an enemy at your location.\"\n□ <b>Inscription of Fury.</b> Add this inscription: \"- <i>Fury</i> - If this attack is successful, in addition to its standard damage, deal 1 damage to each other enemy engaged with you.\"\n□□□ <b>Ancient Power.</b> You may imbue the same inscription up to three times.\n□□□ <b>Saga.</b> Replenish 2 of Runic Axe's charges at the start of each round, instead of only 1.\n□□□□ <b>Scriptweaver.</b> For every charge spent, you may imbue the axe with up to two different inscriptions."
             },
             {
                 "code": "09077",
@@ -2610,7 +2656,7 @@
                 "code": "05324",
                 "text": "This card's ability gains: \"Remove Eucatastrophe from the game.\""
             },
-             {
+            {
                 "code": "06002",
                 "text": "This investigator now reads: \"Deck Size: 50\" and \"Deckbuilding Requirements (do not count towards deck size): 3 copies of Occult Evidence...\"",
                 "deck_options": [

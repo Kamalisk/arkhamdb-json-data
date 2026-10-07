@@ -619,7 +619,7 @@
         "position": 30,
         "quantity": 1,
         "shroud": -2,
-        "text": "X is this location's level.\n[action] [action]: Draw 3 cards. (Limit once per game.)",
+        "text": "X is this location's level.\n[action][action]: Draw 3 cards. (Limit once per game.)",
         "traits": "R'lyeh.",
         "type_code": "location"
     },
@@ -754,20 +754,6 @@
         "type_code": "scenario"
     },
     {
-        "back_text": "Hard / Expert\n[skull]: -X. X is the number of revealed locations.\n[cultist]: -3. If your location is flooded, take 1 damage.\n[tablet]: -4. For each point you fail by, place 1 of your clues on your location.\n[elder_thing]: -4 (-6 instead if your location is not flooded).",
-        "code": "11536",
-        "double_sided": true,
-        "encounter_code": "the_drowned_quarter",
-        "encounter_position": 1,
-        "faction_code": "mythos",
-        "name": "The Drowned Quarter",
-        "pack_code": "tdcc",
-        "position": 36,
-        "quantity": 1,
-        "text": "Easy / Standard\n[skull]: -X. X is half the number of revealed locations (rounded down).\n[cultist]: -2. If you fail and your location is fully flooded, take 1 damage.\n[tablet]: -4. If you fail, place 1 of your clues on your location.\n[elder_thing]: -3 (-5 instead if your location is not flooded).",
-        "type_code": "scenario"
-    },
-    {
         "back_link": "11537b",
         "code": "11537",
         "doom": 7,
@@ -844,8 +830,8 @@
         "stage": 1,
         "text": "Each location is connected to each location adjacent to it.\n[fast] Spend 1 [per_investigator] clues, as a group: Decrease your location's flood level.\n<b>Objective</b> – At the end of the round, if each surviving investigator is at Barrier Core <i>(Active)</i>, you may advance. <i>(Hint: Reactivate the Barrier Core by revealing and draining locations!)</i>",
         "type_code": "act"
-      },
-      {
+    },
+    {
         "back_link": "11540b",
         "clues": 1,
         "code": "11540",
@@ -1009,7 +995,7 @@
         "quantity": 1,
         "shroud": 4,
         "subname": "Statuary Garden",
-        "text": "[action] [action]: Draw 2 cards and gain 2 resources. Spawn the set-aside Undersea Parasite [tdc_rune_x] enemy at this location. (Group limit once per game.)",
+        "text": "[action][action]: Draw 2 cards and gain 2 resources. Spawn the set-aside Undersea Parasite [tdc_rune_x] enemy at this location. (Group limit once per game.)",
         "traits": "Seafloor.",
         "type_code": "location",
         "victory": 1
@@ -1141,24 +1127,6 @@
         "text": "Aloof. Patrol (nearest unflooded or partially flooded location).\n<b>Forced</b> - When the enemy phase begins, if Medusa is ready: Increase the flood level of its location. If you cannot, place 1 doom on Medusa.",
         "traits": "Monster.",
         "type_code": "enemy"
-    },
-    {
-        "code": "11552",
-        "cost": null,
-        "encounter_code": "the_drowned_quarter",
-        "encounter_position": 21,
-        "faction_code": "neutral",
-        "health": 1,
-        "illustrator": "Romana Kendelic",
-        "is_unique": true,
-        "name": "Barrier Node",
-        "pack_code": "tdcc",
-        "position": 52,
-        "quantity": 1,
-        "subname": "Energy Shield",
-        "text": "Barrier Node cannot be defeated or leave play.\n[reaction] When your turn begins: Heal 1 damage from Barrier Node.\n[tdc_rune_q] · [tdc_rune_x] · [tdc_rune_g] · [tdc_rune_k] · [tdc_rune_s]\nBarrier Node gets +2 health.",
-        "traits": "Item. Artifact. R'lyeh.",
-        "type_code": "asset"
     },
     {
         "code": "11552",
@@ -1952,7 +1920,7 @@
         "position": 95,
         "quantity": 1,
         "shroud": 3,
-        "text": "Core of the Vault cannot be flooded.\n<b>Forced</b> - If The Inescapable is defeated at this location: Search all in- and out-of-play areas for each copy of Still Behind You and remove them from the game. In your Campaign Log, record <i>the creature was defeated.</i>\n[action] [action] Spend 3 [per_investigator] clues, as a group: You study the machine. Proceed to <b>Scenario Interlude: The Vault Core</b> <i>(page 26)</i>.",
+        "text": "Core of the Vault cannot be flooded.\n<b>Forced</b> - If The Inescapable is defeated at this location: Search all in- and out-of-play areas for each copy of Still Behind You and remove them from the game. In your Campaign Log, record <i>the creature was defeated.</i>\n[action][action] Spend 3 [per_investigator] clues, as a group: You study the machine. Proceed to <b>Scenario Interlude: The Vault Core</b> <i>(page 26)</i>.",
         "traits": "R'lyeh. Sanctum. Glyph.",
         "type_code": "location"
     },
@@ -2133,6 +2101,7 @@
         "enemy_evade": 4,
         "enemy_fight": 3,
         "enemy_horror": 1,
+        "errata_date": "2026-02-19",
         "faction_code": "mythos",
         "health": 5,
         "illustrator": "Peter Polach",
@@ -2656,7 +2625,7 @@
         "quantity": 1,
         "shroud": 2,
         "subname": "Archive of Memory",
-        "text": "<b>Forced</b> - When the investigation phase ends, if there are clues on Luminous Archives: Shuffle each [[Glyph]] treachery attached to this location into the encounter deck.\n[action] [action]: Search the encounter discard pile for a [[Glyph]] card and draw it.",
+        "text": "<b>Forced</b> - When the investigation phase ends, if there are clues on Luminous Archives: Shuffle each [[Glyph]] treachery attached to this location into the encounter deck.\n[action][action]: Search the encounter discard pile for a [[Glyph]] card and draw it.",
         "traits": "R'lyeh.",
         "type_code": "location"
     },
@@ -3559,6 +3528,7 @@
         "doom": null,
         "encounter_code": "sepulchre_of_the_sleeper",
         "encounter_position": 2,
+        "errata_date": "2026-02-19",
         "faction_code": "mythos",
         "illustrator": "JB Casacop",
         "name": "Beneath the City",
