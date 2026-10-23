@@ -1,0 +1,218 @@
+[
+    {
+        "back_flavor": "Miguel non avrebbe mai pensato di ritrovarsi a gestire un allevamento. Dopo aver lasciato la sua nativa Argentina, ha lavorato incessantemente per mettere da parte il denaro necessario a portare ad Arkham suo marito Guillermo e loro figlia Adonia. Ma ora l'attività è a rischio: qualcosa sta uccidendo il bestiame durante la notte, lasciando una scia di cadaveri mutilati dietro di sé. La cosa più strana è che non uccide per nutrirsi. Miguel non intende farsi intimorire: ha rintracciato il misterioso predatore nei boschi della zona, deciso a catturarlo una volta per tutte.",
+        "back_text": "<b>Dimensione del Mazzo:</b> 30.\n<b>Opzioni del Mazzo:</b> Carte Sopravvissuto ([survivor]) di livello 0-5, carte neutrali di livello 0-5.\n<b>Requisiti del Mazzo</b> (non considerati nella dimensione del mazzo): Bisaccia di Miguel, Ibrido Felino, 1 debolezza base casuale.",
+        "code": "60551",
+        "flavor": "\"Il posto in cui mi sento più a casa è in mezzo alla natura.\"",
+        "name": "Miguel de la Cruz",
+        "subname": "Il Ranchero",
+        "text": "Puoi effettuare 1 azione aggiuntiva durante il tuo turno, che può essere usata solo per giocare un evento.\n<b>Effetto di [elder_sign]:</b> +1. Puoi aggiungere alla tua mano 1 carta [[Trucchetto]] o [[Trappola]] dalla tua pila degli scarti.",
+        "traits": "Cacciatore. Custode."
+    },
+    {
+        "code": "60552",
+        "name": "Bisaccia di Miguel",
+        "text": "Solo mazzo di Miguel de la Cruz.\n[reaction] Quando giochi un evento, esaurisci la Bisaccia di Miguel: Gioca quell'evento in un luogo collegato al tuo come se ti trovassi in quel luogo oppure pesca 1 carta.",
+        "traits": "Oggetto.",
+        "slot": "Corpo"
+    },
+    {
+        "code": "60553",
+        "flavor": "Uccide per divertimento, non per sostentamento.",
+        "name": "Ibrido Felino",
+        "text": "Elusivo. Cacciatore. Preda (solo Miguel de la Cruz).\nL'Ibrido Felino è immune agli effetti delle carte giocatore.",
+        "traits": "Creatura. Mutato."
+    },
+    {
+        "code": "60554",
+        "name": "Succhiasangue",
+        "text": "Cacciatore. Ritorsione.\n<b>Obbligo</b> - Dopo che il Succhiasangue ha attaccato: Curategli 1 danno.",
+        "traits": "Umanoide. Mostro."
+    },
+    {
+        "code": "60555",
+        "flavor": "\"Di una cosa sono certo: questo non è normale pelo animale.\"",
+        "name": "Daniel Jameson",
+        "subname": "Cacciatore Esperto",
+        "text": "Ricevi +1 [agility].\n[reaction] Dopo che hai fallito un attacco o un'elusione, esaurisci Daniel Jameson: Ritenta quella prova di abilità, con +1 al valore di abilità.",
+        "traits": "Alleato. Cacciatore.",
+        "slot": "Alleato"
+    },
+    {
+        "code": "60556",
+        "flavor": "Comunque vadano le cose, sarà sempre al tuo fianco.",
+        "name": "Cane da Caccia",
+        "text": "[reaction] Quando un nemico entra in gioco, esaurisci il Cane da Caccia: Muoviti di 1 luogo verso il luogo di quel nemico.",
+        "traits": "Alleato. Creatura.",
+        "slot": "Alleato"
+    },
+    {
+        "code": "60557",
+        "flavor": "\"So che sarò sempre un estraneo. Uno straniero di questo secolo, e tra coloro che sono ancora umani.\"\n<cite>H.P. Lovecraft, \"L'Estraneo\"</cite>",
+        "name": "Solitario",
+        "text": "Limite di 1 per investigatore.\n[fast] Durante il tuo turno, esaurisci Solitario: Muoviti fino a un luogo vuoto collegato al tuo.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60558",
+        "flavor": "\"Quell'affare è ingombrante, ha il vetro spaccato ed è sporco.\"\n\"Si, ma punta comunque a nord!\"",
+        "name": "Vecchia Bussola",
+        "text": "<b>[action]: Indaga ([intellect]).</b> Riduci di 1 il valore di Oscurità del tuo luogo in questa indagine. Se fallisci, puoi esaurire la Vecchia Bussola per ritentare questa prova di abilità.",
+        "traits": "Oggetto. Strumento.",
+        "slot": "Mano"
+    },
+    {
+        "code": "60559",
+        "flavor": "Ottimo per scuoiare, intagliare e infilzare gli occhi degli abomini esoterici.",
+        "name": "Coltello da Tasca",
+        "text": "<b>[action]: Combatti ([combat] o [agility]).</b> Ricevi +1 al valore di abilità in questa prova. Se questo attacco sconfigge un nemico, puoi esaurire il Coltello da Tasca per ottenere 1 risorsa.",
+        "traits": "Oggetto. Strumento. Arma. Mischia.",
+        "slot": "Mano"
+    },
+    {
+        "code": "60560",
+        "duplicate_of": "01075"
+    },
+    {
+        "code": "60561",
+        "flavor": "\"Siamo solo io, la mia tazza di caffè e un po' di tabacco di ieri notte. Questo sì che è un bell'inizio di giornata.\"",
+        "name": "Solita Storia",
+        "text": "Utilizzo (5 scorte). Se non ci sono scorte sulla Solita Storia, scartala.\nPuoi spendere le scorte sulla Solita Storia come risorse per pagare gli eventi giocati da un qualsiasi investigatore nel tuo luogo.",
+        "traits": "Condizione."
+    },
+    {
+        "code": "60562",
+        "name": "Trappola Esca",
+        "text": "Veloce. Assegna al tuo luogo. Limite di 1 carta [[Trappola]] per luogo.\n[reaction] Dopo che un nemico è entrato nel luogo con questo evento, esaurisci la Trappola Esca: <b>Eludi ([intellect] o [agility]).</b> Eludi quel nemico. Ricevi +1 al valore di abilità in questa elusione. Se questa prova ha successo, puoi scartare la Trappola Esca per muoverti fino a questo luogo. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Trappola. Trucchetto."
+    },
+    {
+        "code": "60563",
+        "name": "Osservazione con Binocolo",
+        "text": "Veloce. Assegna al tuo luogo. Limite di 1 carta [[Trappola]] per luogo.\n[reaction] Dopo che un nemico è entrato nel luogo con questo evento, esaurisci l'Osservazione con Binocolo: <b>Indaga ([intellect] o [agility]).</b> Ricevi +1 al valore di abilità in questa indagine. Se hai successo, puoi scartare l'Osservazione con Binocolo per scoprire 1 indizio aggiuntivo in questo luogo. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Intuizione. Trappola."
+    },
+    {
+        "code": "60564",
+        "name": "Tattiche di Guerriglia",
+        "text": "<b>Combatti ([combat])</b> o <b>Eludi ([agility]).</b> Ricevi +1 al valore di abilità in questa prova e puoi bersagliare un nemico in un luogo collegato al tuo come se fossi impegnato con quel nemico.",
+        "traits": "Tattica."
+    },
+    {
+        "code": "60565",
+        "name": "Rifugio Nascosto",
+        "text": "Assegna al tuo luogo. Limite di 1 per luogo.\n[reaction] Quando il round termina, ogni investigatore in questo luogo può scegliere 1 degli effetti seguenti: Pescare 1 carta, ottenere 1 risorsa, curarsi 1 danno o curarsi 1 orrore.\n<b>Obbligo</b> - Dopo che un nemico è entrato in questo luogo: Scarta il Rifugio Nascosto.",
+        "traits": "Scorta. Trucchetto."
+    },
+    {
+        "code": "60566",
+        "name": "Nascosto in Agguato",
+        "text": "Veloce. Assegna al tuo luogo. Limite di 1 carta [[Trappola]] per luogo.\n[reaction] Dopo che un nemico è entrato in questo luogo, esaurisci Nascosto in Agguato: Combatti ([combat] o [agility]).\nCombatti con quel nemico. Ricevi +1 al valore di abilità in questo attacco. Puoi scartare Nascosto in Agguato per infliggere +1 danno in questo attacco. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Tattica. Trappola."
+    },
+    {
+        "code": "60567",
+        "name": "Inseguire la Preda",
+        "text": "Cerca tra le 9 carte in cima al mazzo degli incontri 1 nemico, pescalo e rimescola il mazzo degli incontri. Poi pesca 1 carta e scopri 1 indizio nel tuo luogo. Se quel nemico non si trova nel tuo luogo, puoi muoverti di 1 luogo verso il suo luogo.",
+        "traits": "Tattica."
+    },
+    {
+        "code": "60568",
+        "flavor": "Ora o mai più!",
+        "name": "O La Va o La Spacca",
+        "text": "Se questa prova di abilità ha successo, scegli 1 supporto [survivor] o 1 evento [survivor] nella tua pila degli scarti e aggiungilo alla tua mano.",
+        "traits": "Sorte."
+    },
+    {
+        "code": "60569",
+        "flavor": "Nessuno può dire cosa saresti disposta a fare, una volta spinta oltre i limiti.",
+        "name": "Al Limite",
+        "text": "Massimo 1 investimento per prova di abilità.\nSe questa prova fallisce, rimetti nella mano del suo proprietario ogni altra carta investita in questa prova.",
+        "traits": "Azzardo. Disperazione."
+    },
+    {
+        "code": "60570",
+        "flavor": "Non è molto, ma bastano a tenerti in piedi.",
+        "name": "Razioni Extra",
+        "text": "Utilizzo (4 scorte). Se non ci sono scorte sulle Razioni Extra, scartale.\n[fast] Spendi 1 scorta ed esaurisci le Razioni Extra: Cura 1 danno al tuo investigatore o a un supporto [[Alleato]] che controlli.",
+        "traits": "Oggetto. Scorta."
+    },
+    {
+        "code": "60571",
+        "name": "Sventramento",
+        "text": "Veloce. Gioca dopo che un nemico [[Creatura]] o [[Mostro]] nel tuo luogo è stato sconfitto.\nCura fino a 3 danni in totale a investigatori e/o supporti [[Alleato]] nel tuo luogo.",
+        "traits": "Spirito."
+    },
+    {
+        "code": "60572",
+        "flavor": "Buttafuori, uomini pesce, mostri: se hanno un battito, puoi prenderli a pugni.",
+        "name": "Brutale",
+        "text": "Per ogni 2 danni che possiedi (arrotondando per eccesso), Brutale ottiene [wild].",
+        "traits": "Innato."
+    },
+    {
+        "code": "60573",
+        "flavor": "Non importa cosa ci versi dentro, c'è sempre un leggero sapore amarognolo.",
+        "name": "Borraccia",
+        "text": "Utilizzo (3 scorte).\n[fast] Spendi 1 scorta ed esaurisci la Borraccia: Curati 2 orrori.",
+        "traits": "Oggetto.",
+        "slot": "Accessorio"
+    },
+    {
+        "code": "60574",
+        "name": "Istinto del Cacciatore",
+        "text": "Limite di 1 per investigatore. Utilizzo (3 scorte).\n[reaction] Dopo che hai impegnato un nemico, spendi 1 scorta ed esaurisci l'Istinto del Cacciatore: Aggiungi alla tua mano 1 evento di livello 0-2 dalla tua pila degli scarti.",
+        "traits": "Talento."
+    },
+    {
+        "code": "60575",
+        "flavor": "\"Spara senza esitazione!\"",
+        "name": "Winchester Modello 52",
+        "text": "Utilizzo (2 munizioni).\n[action] Spendi 1 munizione: <b>Combatti ([combat]).</b> Ricevi +3 [combat] e infliggi +1 danno in questo attacco.\n[action] Scarta il Winchester Modello 52: <b>Combatti ([combat]).</b> Ricevi +3 [combat] in questo attacco. Se hai successo, eludi automaticamente il nemico bersagliato.",
+        "traits": "Oggetto. Arma. Arma da Fuoco.",
+        "slot": "Mano x2"
+    },
+    {
+        "code": "60576",
+        "name": "Tattiche di Guerriglia",
+        "text": "<b>Combatti ([combat])</b> o <b>Eludi ([agility]).</b> Ricevi +2 al valore di abilità in questa prova e puoi bersagliare un nemico in un luogo collegato al tuo come se fossi impegnato con quel nemico. Se hai successo, infliggi 1 danno a quel nemico (<i>in aggiunta ai danni standard</i>).",
+        "traits": "Tattica."
+    },
+    {
+        "code": "60577",
+        "name": "Riposo",
+        "text": "Gioca solo se non ci sono nemici nel tuo luogo.\nScegli fino a 3 carte evento e/o abilità di livello 0 nella tua pila degli scarti e rimescolale nel tuo mazzo. Pesca 1 carta.",
+        "traits": "Spirito."
+    },
+    {
+        "code": "60578",
+        "name": "Trappola a Corda",
+        "text": "Assegna al tuo luogo. Limite di 1 carta Trappola per luogo.\n[reaction] Quando un nemico entra nel luogo con questo evento, esaurisci la Trappola a Corda: Infliggi 1 danno a quel nemico. Rivela 1 segnalino caos. Se riveli un segnalino [skull] o [auto_fail], scarta la Trappola a Corda. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Trappola. Trucchetto."
+    },
+    {
+        "code": "60579",
+        "name": "Assennato",
+        "text": "Partenza. (<i>Puoi iniziare la partita con 1 copia di una carta con Partenza nella tua mano di partenza.</i>)\n[fast] Spendi 1 risorsa: Ricevi +1 [willpower] in questa prova di abilità (+2 [willpower] se invece questa prova è di una carta scenario).\n[fast] Spendi 1 risorsa: Ricevi +1 [agility] in questa prova di abilità (+2 [agility] se invece questa prova è di una carta scenario).",
+        "traits": "Talento."
+    },
+    {
+        "code": "60580",
+        "name": "Arco Lungo",
+        "text": "Utilizzo (1 freccia).\n[action] Spendi 1 freccia: <b>Combatti ([agility]).</b> Ricevi +2 [agility] e infliggi +2 danni in questo attacco.\nQuesto attacco ignora la parola chiave Sfuggente.\n[action] Reintegra 1 freccia sull'Arco Lungo.",
+        "traits": "Oggetto. Arma. Distanza.",
+        "slot": "Mano x2"
+    },
+    {
+        "code": "60581",
+        "name": "Bomba Improvvisata",
+        "text": "Assegna al tuo luogo. Limite di 1 carta [[Trappola]] per luogo.\n[reaction] Dopo che un nemico o un investigatore è entrato nel luogo con questo evento, scarta la Bomba Improvvisata: Infliggi 3 danni a ogni nemico e a ogni investigatore in questo luogo. Puoi innescare questa capacità da un qualsiasi luogo.",
+        "traits": "Trappola."
+    },
+    {
+        "code": "60582",
+        "name": "Intervento Tempestivo",
+        "text": "Massimo 1 investimento per prova di abilità.\nPuoi investire l'Intervento Tempestivo dalla tua mano dopo aver rivelato i segnalini caos durante una prova di abilità che stai effettuando.",
+        "traits": "Sorte."
+    }
+]
