@@ -84,12 +84,25 @@ Numerical values in the game can sometimes contain symbols such as `-` or `X`. H
 - `*`: `-3`
 - `?`: `-4`
 
+
 ## Translations
 
-To merge new changes in default language in all locales, run the CoffeeScript script `update_locales`.
+The reference language is the English language.
+All files in English are in the [pack](./pack) directory (some shared concepts have files at the root directory, like [packs.json](./packs.json) or [factions.json](./factions.json))
 
-Pre-requisites:
- * `node` and `npm` installed
- * `npm -g install coffee-script`
+Translations files are in the `translations/<language_code>/pack` directories
 
-Usage: `coffee update_locales.coffee`
+
+### Pre-requisites
+
+1) [Install node.js](https://nodejs.org/)
+
+This will install both the `node` and `npm` (node package manager) binaries you can use from the command-line
+
+2) Install this project dependencies using `npm install` in this repository
+
+
+### Updating translation files
+
+To merge new changes in default language in all locales, run `npm run update-locales`.
+
