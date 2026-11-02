@@ -12,7 +12,7 @@ const path = require('path');
 const _ = require('lodash');
 const mkdirp = require('mkdirp');
 
-const [bin, script, locale] = Array.from(process.argv);
+const [bin, script, locale] = process.argv;
 
 const i18nDir = path.join(__dirname, 'translations');
 const things = ['cycles', 'encounters', 'factions', 'packs', 'types', 'subtypes', 'campaigns', 'scenarios'];
@@ -21,7 +21,7 @@ const stripProps = (json, props) => _.map(json, item => _.pick(item, props));
 
 const loadThings = function(root) {
     const result = {};
-    for (let thing of Array.from(things)) {
+    for (let thing of things) {
         const file = `${thing}.json`;
         const filepath = path.join(root, file);
         try {
@@ -40,14 +40,14 @@ const loadCards = function(root) {
         fs.mkdirSync(localeRoot);
     } catch (error3) {}
     const files = fs.readdirSync(localeRoot);
-    for (let file of Array.from(files)) {
+    for (let file of files) {
         var error, fileContents, json;
         if (file.endsWith('.DS_Store')) { continue; }
 
         const stat = fs.statSync(path.join(localeRoot, file));
         if (stat.isDirectory()) {
             const pack_files = fs.readdirSync(path.join(localeRoot, file));
-            for (let pack_file of Array.from(pack_files)) {
+            for (let pack_file of pack_files) {
                 if (!pack_file.endsWith('.json')) { continue; }
                 //console.log "Reading #{path.join(localeRoot, file, pack_file)}"
                 fileContents = fs.readFileSync(path.join(localeRoot, file, pack_file), 'UTF-8');
@@ -83,7 +83,7 @@ const loadCards = function(root) {
 
 const merge_data = function(defaultLocale, locale) {
     const result = {};
-    for (let file of Array.from(_.union(_.keys(defaultLocale), _.keys(locale)))) {
+    for (let file of _.union(_.keys(defaultLocale), _.keys(locale))) {
         result[file] = _(_.merge({}, _.keyBy(defaultLocale[file] || {}, 'code'), _.keyBy(locale[file] || {}, 'code'))).values().sortBy('code').value();
     }
     return result;
@@ -93,7 +93,7 @@ const things_en = loadThings(__dirname);
 const cards_en = loadCards(__dirname);
 
 const codes = fs.readdirSync(i18nDir);
-for (let code of Array.from(codes)) {
+for (let code of codes) {
     if ((locale == null) || (code === locale)) {var file, target;
     
         console.log(`Updating locale '${code}'...`);
@@ -105,7 +105,7 @@ for (let code of Array.from(codes)) {
         const m_things = merge_data(things_en, l_things);
         const m_cards = merge_data(cards_en, l_cards);
 
-        for (file of Array.from(_.keys(m_things))) {
+        for (file of _.keys(m_things)) {
             target = path.join(localeRoot, file);
             mkdirp.sync(path.dirname(target));
             if (!_.isEqual(l_things[file], m_things[file])) {
@@ -114,7 +114,7 @@ for (let code of Array.from(codes)) {
             }
         }
 
-        for (file of Array.from(_.keys(m_cards))) {
+        for (file of _.keys(m_cards)) {
             target = path.join(localeRoot, 'pack', file);
             mkdirp.sync(path.dirname(target));
             if (!_.isEqual(l_cards[file], m_cards[file])) {
