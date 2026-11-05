@@ -104,17 +104,10 @@ This will install both the `node` and `npm` (node package manager) binaries you 
 
 ### Updating translation files
 
-When there are new English files or new cards added to existing English files, we may want to update the translation files
+When there are new English files or new cards added to existing English files, we may want to update the translation files. To merge new changes in default language in all locales, run: `npm run update-locales`
 
-There is an automated tool for this
+To merge new changes in a specific locale, run: `npm run update-locales <locale>` (where `<locale>` is the directory name where translations for this language are).
 
-To merge new changes in default language in all locales, run :
-`npm run update-locales`
-
-To merge new changes in a specific locale, run : 
-`npm run update-locales <locale>` (where `<locale>` is the directory name where translations for this language are)
-
-For instance, for French, run : `npm run update-locales fr`
-For Korean, run : `npm run update-locales ko`
-etc.
+For example, for French, run: `npm run update-locales fr`  
+For Korean, run: `npm run update-locales ko` etc.
 
