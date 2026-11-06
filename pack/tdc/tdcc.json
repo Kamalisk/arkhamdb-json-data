@@ -754,20 +754,6 @@
         "type_code": "scenario"
     },
     {
-        "back_text": "Hard / Expert\n[skull]: -X. X is the number of revealed locations.\n[cultist]: -3. If your location is flooded, take 1 damage.\n[tablet]: -4. For each point you fail by, place 1 of your clues on your location.\n[elder_thing]: -4 (-6 instead if your location is not flooded).",
-        "code": "11536",
-        "double_sided": true,
-        "encounter_code": "the_drowned_quarter",
-        "encounter_position": 1,
-        "faction_code": "mythos",
-        "name": "The Drowned Quarter",
-        "pack_code": "tdcc",
-        "position": 36,
-        "quantity": 1,
-        "text": "Easy / Standard\n[skull]: -X. X is half the number of revealed locations (rounded down).\n[cultist]: -2. If you fail and your location is fully flooded, take 1 damage.\n[tablet]: -4. If you fail, place 1 of your clues on your location.\n[elder_thing]: -3 (-5 instead if your location is not flooded).",
-        "type_code": "scenario"
-    },
-    {
         "back_link": "11537b",
         "code": "11537",
         "doom": 7,
@@ -844,8 +830,8 @@
         "stage": 1,
         "text": "Each location is connected to each location adjacent to it.\n[fast] Spend 1 [per_investigator] clues, as a group: Decrease your location's flood level.\n<b>Objective</b> – At the end of the round, if each surviving investigator is at Barrier Core <i>(Active)</i>, you may advance. <i>(Hint: Reactivate the Barrier Core by revealing and draining locations!)</i>",
         "type_code": "act"
-      },
-      {
+    },
+    {
         "back_link": "11540b",
         "clues": 1,
         "code": "11540",
@@ -1088,7 +1074,7 @@
         "pack_code": "tdcc",
         "position": 49,
         "quantity": 1,
-        "text": "<b>If this card flipped because Undersea Parasite [tdc_rune_x] attacked you, read the following:</b>\n<blockquote><i>The creature's bite burns like fire. Before you can react, it has vanished into a maze of coral.</i></blockquote>\nFlip this card and move it to a connecting location (with no investigators, if able).\n<b>Otherwise:</b>\n<blockquote><i>After crushing the loathsome creature's carapace, you catch a glint of something. An alien symbol?</i></blockquote>\nYou discover this glyph:\n[tdc_rune_x]\nIn your Campaign Log, record \"Sum\" under [tdc_rune_x] on the glyph record. This glyph has been translated.\nAdd this card to the victory display.",
+        "text": "<b>If this card flipped because Undersea Parasite [tdc_rune_x] attacked you, read the following:</b>\n<blockquote><i>The creature's bite burns like fire. Before you can react, it has vanished into a maze of coral.</i></blockquote>\nFlip this card and move it to a connecting location (with no investigators, if able).\n<hr><b>Otherwise:</b>\n<blockquote><i>After crushing the loathsome creature's carapace, you catch a glint of something. An alien symbol?</i></blockquote>\nYou discover this glyph:\n[tdc_rune_x]\nIn your Campaign Log, record \"Sum\" under [tdc_rune_x] on the glyph record. This glyph has been translated.\nAdd this card to the victory display.",
         "type_code": "story",
         "victory": 1
     },
@@ -1141,24 +1127,6 @@
         "text": "Aloof. Patrol (nearest unflooded or partially flooded location).\n<b>Forced</b> - When the enemy phase begins, if Medusa is ready: Increase the flood level of its location. If you cannot, place 1 doom on Medusa.",
         "traits": "Monster.",
         "type_code": "enemy"
-    },
-    {
-        "code": "11552",
-        "cost": null,
-        "encounter_code": "the_drowned_quarter",
-        "encounter_position": 21,
-        "faction_code": "neutral",
-        "health": 1,
-        "illustrator": "Romana Kendelic",
-        "is_unique": true,
-        "name": "Barrier Node",
-        "pack_code": "tdcc",
-        "position": 52,
-        "quantity": 1,
-        "subname": "Energy Shield",
-        "text": "Barrier Node cannot be defeated or leave play.\n[reaction] When your turn begins: Heal 1 damage from Barrier Node.\n[tdc_rune_q] · [tdc_rune_x] · [tdc_rune_g] · [tdc_rune_k] · [tdc_rune_s]\nBarrier Node gets +2 health.",
-        "traits": "Item. Artifact. R'lyeh.",
-        "type_code": "asset"
     },
     {
         "code": "11552",
@@ -2133,6 +2101,7 @@
         "enemy_evade": 4,
         "enemy_fight": 3,
         "enemy_horror": 1,
+        "errata_date": "2026-02-19",
         "faction_code": "mythos",
         "health": 5,
         "illustrator": "Peter Polach",
@@ -2176,7 +2145,7 @@
         "position": 107,
         "quantity": 3,
         "text": "<b>Revelation</b> - Test [willpower] (3). If you fail, you must decide (choose one; choose two instead if it is act 2):\n- Deactivate the nearest activated [[Vault]] location.\n- Draw 1 of the set-aside Vault Attendant enemies.\n- Move to an adjacent location (flooded if able).",
-        "traits": "Hazard",
+        "traits": "Hazard.",
         "type_code": "treachery"
     },
     {
@@ -2504,7 +2473,7 @@
         "quantity": 1,
         "shroud": 2,
         "subname": "Active",
-        "text": "Great Lift is connected to the locations to the right and left of it, and vice versa.\n[reaction]When you successfully investigate this location, instead of discovering clues: Slide Great Lift up or down once. You may spend 1 [per_investigator] clues to slide Great Lift up or down one additional time.",
+        "text": "Great Lift is connected to the locations to the right and left of it, and vice versa.\n[reaction] When you successfully investigate this location, instead of discovering clues: Slide Great Lift up or down once. You may spend 1 [per_investigator] clues to slide Great Lift up or down one additional time.",
         "traits": "R'lyeh. Lift.",
         "type_code": "location"
     },
@@ -3559,6 +3528,7 @@
         "doom": null,
         "encounter_code": "sepulchre_of_the_sleeper",
         "encounter_position": 2,
+        "errata_date": "2026-02-19",
         "faction_code": "mythos",
         "illustrator": "JB Casacop",
         "name": "Beneath the City",
@@ -3757,7 +3727,7 @@
         "position": 183,
         "quantity": 1,
         "stage": 1,
-        "text": "[action]: <b>Resign.</b> You give up your search. \n<b>Forced -</b> When doom is placed on this agenda: Increase the flood level of the lead investigator's location.",
+        "text": "[action]: <b>Resign.</b> You give up your search.\n<b>Forced -</b> When doom is placed on this agenda: Increase the flood level of the lead investigator's location.",
         "type_code": "agenda"
     },
     {
@@ -3776,7 +3746,7 @@
         "position": 184,
         "quantity": 1,
         "stage": 1,
-        "text": "[action] Investigators at your location spend 1 [per_investigator] clues, as a group: Draw the top card beneath your location. If it is an asset, take control of it. \n<b>Objective</b> - When the round ends, if an investigator at Tillinghast Esoterica controls at least 1 [[Artifact]] asset, the investigators may advance. <i>(Hint: Recover as many artifacts as possible!)</i>",
+        "text": "[action] Investigators at your location spend 1 [per_investigator] clues, as a group: Draw the top card beneath your location. If it is an asset, take control of it.\n<b>Objective</b> - When the round ends, if an investigator at Tillinghast Esoterica controls at least 1 [[Artifact]] asset, the investigators may advance. <i>(Hint: Recover as many artifacts as possible!)</i>",
         "type_code": "act"
     },
     {
@@ -3792,7 +3762,7 @@
         "quantity": 1,
         "shroud": 4,
         "subname": "Ephemeral Shop",
-        "text": "<b>Revelation</b> - Put Tillinghast Esoterica into play adjacent to your location and spawn the set-aside Randall Tillinghast at it. Shuffle each set-aside [[Artifact]] asset and place them underneath it as a stack. \nTillinghast Esoterica is connected to the location from which it was drawn, and vice versa. \n[fast]: Place clues on this location up to its clue value.",
+        "text": "<b>Revelation</b> - Put Tillinghast Esoterica into play adjacent to your location and spawn the set-aside Randall Tillinghast at it. Shuffle each set-aside [[Artifact]] asset and place them underneath it as a stack.\nTillinghast Esoterica is connected to the location from which it was drawn, and vice versa.\n[fast]: Place clues on this location up to its clue value.",
         "traits": "Sanctum. Extradimensional.",
         "type_code": "location",
         "victory": 1
@@ -3816,7 +3786,7 @@
         "position": 186,
         "quantity": 1,
         "subname": "Out for Your Blood",
-        "text": "Relentless. Retaliate. \nRandall Tillinghast cannot move and gets +1 fight and +1[per_investigator] health for each card beneath Tillinghast Esoterica.",
+        "text": "Relentless. Retaliate.\nRandall Tillinghast cannot move and gets +1 fight and +1[per_investigator] health for each card beneath Tillinghast Esoterica.",
         "traits": "Humanoid. Sorcerer. Elite.",
         "type_code": "enemy",
         "victory": 1
@@ -4805,7 +4775,7 @@
         "encounter_code": "domination",
         "encounter_position": 1,
         "faction_code": "mythos",
-        "flavor": " [tdc_rune_m][tdc_rune_f] · [tdc_rune_b][tdc_rune_m][tdc_rune_l] · [tdc_rune_b][tdc_rune_x][tdc_rune_n][tdc_rune_l][tdc_rune_k] · [tdc_rune_d][tdc_rune_c] · [tdc_rune_s][tdc_rune_p][tdc_rune_h][tdc_rune_k][tdc_rune_b] · [tdc_rune_z][tdc_rune_k][tdc_rune_d][tdc_rune_z] · [tdc_rune_u][tdc_rune_c][tdc_rune_b][tdc_rune_n][tdc_rune_p][tdc_rune_b][tdc_rune_n] · [tdc_rune_g][tdc_rune_d][tdc_rune_m][tdc_rune_c][tdc_rune_l] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_e]",
+        "flavor": "[tdc_rune_m][tdc_rune_f] · [tdc_rune_b][tdc_rune_m][tdc_rune_l] · [tdc_rune_b][tdc_rune_x][tdc_rune_n][tdc_rune_l][tdc_rune_k] · [tdc_rune_d][tdc_rune_c] · [tdc_rune_s][tdc_rune_p][tdc_rune_h][tdc_rune_k][tdc_rune_b] · [tdc_rune_z][tdc_rune_k][tdc_rune_d][tdc_rune_z] · [tdc_rune_u][tdc_rune_c][tdc_rune_b][tdc_rune_n][tdc_rune_p][tdc_rune_b][tdc_rune_n] · [tdc_rune_g][tdc_rune_d][tdc_rune_m][tdc_rune_c][tdc_rune_l] · [tdc_rune_z][tdc_rune_s][tdc_rune_k][tdc_rune_d][tdc_rune_o][tdc_rune_m][tdc_rune_f][tdc_rune_e]",
         "illustrator": "Johannes Holm",
         "name": "\"Cthulhu fhtagn!\"",
         "pack_code": "tdcc",
