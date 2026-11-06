@@ -1,13 +1,13 @@
 //merge data files from default English with each locale found in translations directory
 
-const fs = require('fs');
-const path = require('path');
-const _ = require('lodash');
-const mkdirp = require('mkdirp');
+import fs from 'fs';
+import path from 'path';
+import _ from 'lodash';
+import mkdirp from 'mkdirp';
 
 const [bin, script, locale] = process.argv;
 
-const arkhamDatabaseRootPath = path.join(__dirname, '..');
+const arkhamDatabaseRootPath = path.join(import.meta.dirname, '..');
 const i18nDir = path.join(arkhamDatabaseRootPath, 'translations');
 const things = ['cycles', 'encounters', 'factions', 'packs', 'types', 'subtypes', 'campaigns', 'scenarios'];
 
