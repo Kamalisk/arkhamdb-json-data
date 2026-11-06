@@ -200,7 +200,8 @@ def load_cycles(args):
 
 def load_packs(args, cycles_data):
     """
-    Loads the packs.json file and checks the existence of the corresponding player/encounter cards.
+    Loads the packs.json file and checks the existence of the corresponding player/encounter cards
+    (<pack.code>.json and <pack.code>_encounter.json)
     
     Args:
         args (Namespace): Command-line arguments including base_path and pack_path.
