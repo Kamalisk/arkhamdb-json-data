@@ -266,24 +266,6 @@ def load_types(args):
 
     return types_data
 
-def load_sides(args):
-    """
-    Loads the sides.json (which doesn't exist anymore?) file and validates its structure.
-
-    Args:
-        args (Namespace): Command-line arguments.
-
-    Returns:
-        list or None: List of sides if successful, None on failure.
-    """
-    verbose_print(args, "Loading side index file...\n", 1)
-    sides_path = os.path.join(args.base_path, "sides.json")
-    sides_data = load_json_file(args, sides_path)
-
-    if not validate_sides(args, sides_data):
-        return None
-
-    return sides_data
 
 def parse_commandline():
     argparser = argparse.ArgumentParser(description="Validate JSON in the netrunner cards repository.")
@@ -526,37 +508,6 @@ def validate_types(args, types_data):
 
     return retval
 
-def validate_sides(args, sides_data):
-    """
-    Used by load_sides which doesn't seem to be used
-    """
-    global validation_errors
-
-    verbose_print(args, "Validating side index file...\n", 1)
-    side_schema_path = os.path.join(args.schema_path, "side_schema.json")
-    SIDE_SCHEMA = load_json_file(args, side_schema_path)
-    if not isinstance(sides_data, list):
-        verbose_print(args, "Insides of side index file are not a list!\n", 0)
-        return False
-    if not SIDE_SCHEMA:
-        return False
-    if not check_json_schema(args, SIDE_SCHEMA, side_schema_path):
-        return False
-
-    retval = True
-    for c in sides_data:
-        try:
-            verbose_print(args, "Validating side %s... " % c.get("name"), 2)
-            jsonschema.validate(c, SIDE_SCHEMA)
-            verbose_print(args, "OK\n", 2)
-        except jsonschema.ValidationError as e:
-            verbose_print(args, "ERROR\n",2)
-            verbose_print(args, "Validation error in side: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
-            validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
-            retval = False
-
-    return retval
 
 def check_translations_simple(args, base_translations_path, locale_name, base_file_name):
     """
@@ -621,22 +572,6 @@ def check_all_translations(args):
     translations_directories = os.listdir(base_translations_path)
     for locale_name in translations_directories:
         check_translations(args, base_translations_path, locale_name)
-
-def check_mwl(args):
-    """
-    Unused
-    """
-    verbose_print(args, "Loading MWL...\n", 1)
-    mwl_path = os.path.join(args.base_path, "mwl.json")
-    load_json_file(args, mwl_path)
-
-def check_prebuilt(args):
-    """
-    Unused
-    """
-    verbose_print(args, "Loading Prebuilts...\n", 1)
-    mwl_path = os.path.join(args.base_path, "prebuilts.json")
-    load_json_file(args, mwl_path)
 
 def verbose_print(args, text, minimum_verbosity=0):
     if args.verbose >= minimum_verbosity:
