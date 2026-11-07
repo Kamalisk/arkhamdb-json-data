@@ -10,25 +10,49 @@ const ajv = new Ajv({validateSchema: true, strict: true, allErrors: true})
 const BASE_PATH = join(import.meta.dirname, '..')
 const SCHEMA_DIR = join(BASE_PATH, 'schema');
 
-const cycleSchemaString = await readFile(join(SCHEMA_DIR, 'cycle_schema.json'), 'utf-8')
-const cycleSchema = JSON.parse(cycleSchemaString)
+/**
+ * 
+ * @param {string} schemaFilename 
+ * 
+ */
+async function makeFindErrorsFunction(schemaFilename){
+    const schemaString = await readFile(join(SCHEMA_DIR, schemaFilename), 'utf-8')
+    const schema = JSON.parse(schemaString)
 
-const validateCycle = ajv.compile(cycleSchema)
+    const validate = ajv.compile(schema)
 
-const compilationErrors = ajv.errors;
+    const compilationErrors = ajv.errors;
 
-console.log('cycles compilationErrors', compilationErrors)
+    if(compilationErrors){
+        console.error('compilationErrors for', schemaFilename, compilationErrors)
+    }
 
+    return function findErrors(/** @type {any} */ value){
+        const valid = validate(value);
+
+        if(!valid){
+            return validate.errors
+        }
+    }
+}
+
+
+const findErrorsCycle = await makeFindErrorsFunction('cycle_schema.json')
+
+
+/**
+ * @param {Array<any>} cycles
+ */
 function validateCycles(cycles){
     if(!Array.isArray(cycles)){
         throw new TypeError(`cycles aren't an Array`)
     }
 
     for(const cycle of cycles){
-        const valid = validateCycle(cycle)
+        const errors = findErrorsCycle(cycle)
 
-        if(!valid){
-            console.error('Error for cycle', cycle, validateCycle.errors)
+        if(errors){
+            console.error('Errors for cycle', cycle, errors)
         }
     }
 
