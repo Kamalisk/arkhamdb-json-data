@@ -1,5 +1,25 @@
 #!/usr/bin/env python
 
+"""
+arkhamdb-json-data JSON Validator Script.
+Validates the structure of JSON files in a arkhamdb-json-data card database against their respective schemas.
+Checks for:
+    - JSON formatting correctness (indentation, encoding).
+    - Draft 4 JSON Schema compliance.
+    - Referential integrity between files (pack codes, faction codes, type codes).
+
+Purpose: To identify structural errors before publishing or distributing the arkhamdb-json-data dataset.
+
+Usage: python validate_json.py [options]
+Options available:
+  -h, --help               Show help message
+  -f, --fix_formatting     Automatically fix simple JSON formatting issues (indentation, etc.)
+  -v, --verbose            Verbose mode (more logs)
+  -b <path>                Root directory of the JSON repo (default: current directory)
+  -p <path>                Path to the "pack" directory (default: ./pack/)
+  -s <path>                Path to the "schema" directory (default: ./schema/)
+"""
+
 import argparse
 import json
 import jsonschema
@@ -9,6 +29,8 @@ import re
 
 PACK_DIR="pack"
 SCHEMA_DIR="schema"
+
+# Global counters for final report
 formatting_errors = 0
 validation_errors = 0
 
@@ -29,6 +51,17 @@ def check_file_access(path):
         return False
 
 def check_json_schema(args, data, path):
+    """
+    Validates that the provided JSON schema is a valid Draft 4 JSON Schema.
+    
+    Args:
+        args (argparse.Namespace): Command-line arguments.
+        data (dict): The JSON schema loaded from the file.
+        path (str): Path to the schema file being checked.
+
+    Returns:
+        boolean: true if the schema in data is a valid Draft 4 JSON Schema.
+    """
     global validation_errors
     try:
         jsonschema.Draft4Validator.check_schema(data)
@@ -40,7 +73,23 @@ def check_json_schema(args, data, path):
         return False
 
 def custom_card_check(args, card, pack_code, factions_data, types_data):
-    "Performs more in-depth sanity checks than jsonschema validator is capable of. Assumes that the basic schema validation has already completed successfully."
+    """
+    Assumes that the basic schema validation has already completed successfully.
+    Performs deeper sanity checks than jsonschema can handle automatically:
+        - Pack code must match expected pack code.
+        - Faction code must exist in the list of valid factions.
+        - Type code must exist in the list of valid types.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        card (dict): Data of a single card loaded from JSON.
+        pack_code (str): Expected pack code for this set of cards.
+        factions_data (list): List of valid faction objects.
+        types_data (list): List of valid type objects.
+    
+    Raises:
+        - jsonschema.ValidationError if any inconsistency is found.
+    """
     if card["pack_code"] != pack_code:
         raise jsonschema.ValidationError("Pack code '%s' of the card '%s' doesn't match the pack code '%s' of the file it appears in." % (card["pack_code"], card["code"], pack_code))
     if card.get("faction_code") and card["faction_code"] not in [f["code"] for f in factions_data]:
@@ -49,10 +98,30 @@ def custom_card_check(args, card, pack_code, factions_data, types_data):
         raise jsonschema.ValidationError("Faction code '%s' of the pack '%s' doesn't match any valid type code." % (card["type_code"], card["code"]))
 
 def custom_pack_check(args, pack, cycles_data):
-   if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
+    """
+    checks that the cycle_code defined in the pack matches one of the existing cycle codes listed in cycles_data.
+    
+    Args:
+        args (Namespace): Command-line arguments (not used here).
+        pack (dict): A single pack dictionary loaded from packs.json.
+        cycles_data (list): The complete list of valid cycles loaded earlier.
+    
+    Raises:
+        jsonschema.ValidationError: If the pack's cycle_code is not found in the list of valid cycle codes.
+    """
+    if pack["cycle_code"] not in [c["code"] for c in cycles_data]:
         raise jsonschema.ValidationError("Cycle code '%s' of the pack '%s' doesn't match any valid cycle code." % (pack["cycle_code"], pack["code"]))
 
 def format_json(json_data):
+    """
+    Applies simple human-readable formatting to the JSON data.
+    
+    Args:
+        json_data (dict): Python dict containing the JSON data.
+    
+    Returns:
+        str: Formatted string with indentation + various string cleanups
+    """
     formatted_data = json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4, separators=(',', ': '))
     formatted_data = formatted_data.replace(u"\u2018", "'").replace(u"\u2019", "'")
     formatted_data = formatted_data.replace(u"\u2212", "-").replace(u"\u2013", "-")
@@ -64,6 +133,17 @@ def format_json(json_data):
     return formatted_data
 
 def load_json_file(args, path):
+    """
+    Loads a JSON file, performs basic checks, and optionally formats it for inspection.
+    
+    Args:
+        args (Namespace): Global command-line arguments.
+        path (str): Path to the JSON file to load.
+    
+    Returns:
+        dict or None: The parsed JSON data as a dictionary, or None on failure.
+    """
+
     global formatting_errors
     global validation_errors
     try:
@@ -100,6 +180,15 @@ def load_json_file(args, path):
     return json_data
 
 def load_cycles(args):
+    """
+    Loads the cycle.json index file
+    
+    Args:
+        args (Namespace): Command-line arguments including base_path.
+    
+    Returns:
+        list or None: List of cycles if successful, None on failure.
+    """
     verbose_print(args, "Loading cycle index file...\n", 1)
     cycles_path = os.path.join(args.base_path, "cycles.json")
     cycles_data = load_json_file(args, cycles_path)
@@ -110,6 +199,17 @@ def load_cycles(args):
     return cycles_data
 
 def load_packs(args, cycles_data):
+    """
+    Loads the packs.json file and checks the existence of the corresponding player/encounter cards
+    (<pack.code>.json and <pack.code>_encounter.json)
+    
+    Args:
+        args (Namespace): Command-line arguments including base_path and pack_path.
+        cycles_data (list): List of cycles loaded previously (needed for cross-checking pack codes).
+    
+    Returns:
+        list or None: List of packs if successful, None if loading fails.
+    """
     verbose_print(args, "Loading pack index file...\n", 1)
     packs_path = os.path.join(args.base_path, "packs.json")
     packs_data = load_json_file(args, packs_path)
@@ -130,6 +230,15 @@ def load_packs(args, cycles_data):
     return packs_data
 
 def load_factions(args):
+    """
+    Loads the factions.json file and validates its structure.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+    
+    Returns:
+        list or None: List of factions if successful, None on failure.
+    """
     verbose_print(args, "Loading faction index file...\n", 1)
     factions_path = os.path.join(args.base_path, "factions.json")
     factions_data = load_json_file(args, factions_path)
@@ -140,6 +249,15 @@ def load_factions(args):
     return factions_data
 
 def load_types(args):
+    """
+    Loads the types.json file and validates its structure.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+    
+    Returns:
+        list or None: List of types if successful, None on failure.
+    """
     verbose_print(args, "Loading type index file...\n", 1)
     types_path = os.path.join(args.base_path, "types.json")
     types_data = load_json_file(args, types_path)
@@ -149,15 +267,6 @@ def load_types(args):
 
     return types_data
 
-def load_sides(args):
-    verbose_print(args, "Loading side index file...\n", 1)
-    sides_path = os.path.join(args.base_path, "sides.json")
-    sides_data = load_json_file(args, sides_path)
-
-    if not validate_sides(args, sides_data):
-        return None
-
-    return sides_data
 
 def parse_commandline():
     argparser = argparse.ArgumentParser(description="Validate JSON in the netrunner cards repository.")
@@ -180,6 +289,17 @@ def parse_commandline():
     return args
 
 def validate_card(args, card, card_schema, pack_code, factions_data, types_data):
+    """
+    Validates card against card_schema + performs custom_card_check
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        card (dict): A single card object from the JSON file.
+        card_schema (dict): The JSON schema used to validate the card.
+        pack_code (str): Expected pack code for this set of cards.
+        factions_data (list): List of valid faction objects.
+        types_data (list): List of valid type objects.
+    """
     global validation_errors
 
     try:
@@ -194,6 +314,15 @@ def validate_card(args, card, card_schema, pack_code, factions_data, types_data)
         verbose_print(args, "%s: %s\n" % (e.path, e.message), 0)
 
 def validate_cards(args, packs_data, factions_data, types_data):
+    """
+    Main loop to validate all cards within all packs.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        packs_data (list): List of pack objects loaded from packs.json.
+        factions_data (list): List of faction objects loaded from factions.json.
+        types_data (list): List of type objects loaded from types.json.
+    """
     global validation_errors
 
     card_schema_path = os.path.join(args.schema_path, "card_schema.json")
@@ -223,6 +352,16 @@ def validate_cards(args, packs_data, factions_data, types_data):
                     validate_card(args, card, CARD_SCHEMA, p["code"], factions_data, types_data)
 
 def validate_cycles(args, cycles_data):
+    """
+    Validates the cycles.json file structure and individual cycle entries.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        cycles_data (list): List of cycle objects loaded from cycles.json.
+    
+    Returns:
+        bool: True if all cycles validated successfully
+    """
     global validation_errors
 
     verbose_print(args, "Validating cycle index file...\n", 1)
@@ -252,6 +391,17 @@ def validate_cycles(args, cycles_data):
     return retval
 
 def validate_packs(args, packs_data, cycles_data):
+    """
+    Validates the packs.json file and all associated card files with custom_pack_check.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        packs_data (list): List of pack objects from packs.json.
+        cycles_data (list): List of cycles needed for cross-checking pack codes.
+    
+    Returns:
+        bool: True if all packs validated successfully, False otherwise.
+    """
     global validation_errors
 
     verbose_print(args, "Validating pack index file...\n", 1)
@@ -282,6 +432,16 @@ def validate_packs(args, packs_data, cycles_data):
     return retval
 
 def validate_factions(args, factions_data):
+    """
+    Validates the factions.json file structure and individual faction entries.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        factions_data (list): List of faction objects loaded from factions.json.
+    
+    Returns:
+        bool: True if all factions validated successfully, False otherwise.
+    """
     global validation_errors
 
     verbose_print(args, "Validating faction index file...\n", 1)
@@ -311,6 +471,16 @@ def validate_factions(args, factions_data):
     return retval
 
 def validate_types(args, types_data):
+    """
+    Validates the types.json file and individual type entries.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        types_data (list): List of type objects loaded from types.json.
+    
+    Returns:
+        bool: True if all types validated successfully, False otherwise.
+    """
     global validation_errors
 
     verbose_print(args, "Validating type index file...\n", 1)
@@ -339,36 +509,17 @@ def validate_types(args, types_data):
 
     return retval
 
-def validate_sides(args, sides_data):
-    global validation_errors
-
-    verbose_print(args, "Validating side index file...\n", 1)
-    side_schema_path = os.path.join(args.schema_path, "side_schema.json")
-    SIDE_SCHEMA = load_json_file(args, side_schema_path)
-    if not isinstance(sides_data, list):
-        verbose_print(args, "Insides of side index file are not a list!\n", 0)
-        return False
-    if not SIDE_SCHEMA:
-        return False
-    if not check_json_schema(args, SIDE_SCHEMA, side_schema_path):
-        return False
-
-    retval = True
-    for c in sides_data:
-        try:
-            verbose_print(args, "Validating side %s... " % c.get("name"), 2)
-            jsonschema.validate(c, SIDE_SCHEMA)
-            verbose_print(args, "OK\n", 2)
-        except jsonschema.ValidationError as e:
-            verbose_print(args, "ERROR\n",2)
-            verbose_print(args, "Validation error in side: (code: '%s' name: '%s')\n" % (c.get("code"), c.get("name")), 0)
-            validation_errors += 1
-            verbose_print(args, "%s\n" % e.message, 0)
-            retval = False
-
-    return retval
 
 def check_translations_simple(args, base_translations_path, locale_name, base_file_name):
+    """
+    Loads a specific translation file from the translations directory.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        base_translations_path (str): Base path to the translations folder.
+        locale_name (str): Name of the language folder (e.g., 'fr', 'ko').
+        base_file_name (str): Base name of the file to load (without .json extension).
+    """
     file_name = "%s.json" % (base_file_name)
     verbose_print(args, "Loading file %s...\n" % file_name, 1)
     file_path = os.path.join(base_translations_path, locale_name, file_name)
@@ -376,6 +527,14 @@ def check_translations_simple(args, base_translations_path, locale_name, base_fi
         load_json_file(args, file_path)
 
 def check_translations_packs(args, base_translations_path, locale_name):
+    """
+    Recursively loads all pack translation files for a given locale.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        base_translations_path (str): Base path to the translations directory.
+        locale_name (str): Name of the language/locale (e.g., 'fr', 'ko').
+    """
     packs_translations_path = os.path.join(base_translations_path, locale_name, 'pack')
     cycle_dirs = os.listdir(packs_translations_path)
     for cycle_dir in cycle_dirs:
@@ -386,6 +545,14 @@ def check_translations_packs(args, base_translations_path, locale_name):
             load_json_file(args, file_path)
 
 def check_translations(args, base_translations_path, locale_name):
+    """
+    Check all files for a given locale.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+        base_translations_path (str): Base path to the translations directory.
+        locale_name (str): Name of the language/locale (e.g., 'fr', 'ko').
+    """
     verbose_print(args, "Loading Translations for %s...\n" % locale_name, 1)
     translations_path = os.path.join(base_translations_path, locale_name)
     check_translations_simple(args, base_translations_path, locale_name, 'cycles')
@@ -395,21 +562,17 @@ def check_translations(args, base_translations_path, locale_name):
     check_translations_packs(args, base_translations_path, locale_name)
 
 def check_all_translations(args):
+    """
+    Check all files in all locales.
+    
+    Args:
+        args (Namespace): Command-line arguments.
+    """
     verbose_print(args, "Loading Translations...\n", 1)
     base_translations_path = os.path.join(args.base_path, "translations")
     translations_directories = os.listdir(base_translations_path)
     for locale_name in translations_directories:
         check_translations(args, base_translations_path, locale_name)
-
-def check_mwl(args):
-    verbose_print(args, "Loading MWL...\n", 1)
-    mwl_path = os.path.join(args.base_path, "mwl.json")
-    load_json_file(args, mwl_path)
-
-def check_prebuilt(args):
-    verbose_print(args, "Loading Prebuilts...\n", 1)
-    mwl_path = os.path.join(args.base_path, "prebuilts.json")
-    load_json_file(args, mwl_path)
 
 def verbose_print(args, text, minimum_verbosity=0):
     if args.verbose >= minimum_verbosity:
