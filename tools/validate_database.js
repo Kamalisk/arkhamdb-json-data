@@ -10,6 +10,14 @@ const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true })
 
 const BASE_PATH = join(import.meta.dirname, '..')
 
+/** @type {Set<Error>} */
+const validationErrors = new Set()
+
+/** @type {Promise<any>[]} */
+const operationsSynchronize = [];
+
+const objectToFilepath = new WeakMap()
+
 /**
  * Load JSON content with custom errors
  * 
@@ -156,42 +164,46 @@ const findTypesErrors = makeFindErrorsArrayWrapper(findTypeErrors)
 const findCardsErrors = makeFindErrorsArrayWrapper(findCardErrors)
 
 
-const [cycles, classes, packs, types] = await Promise.all(
-    ['cycles.json', 'factions.json', 'packs.json', 'types.json']
-    .map(async filename => {
-        const str = await readFile(join(BASE_PATH, filename), 'utf-8')
-        return JSON.parse(str)
-    })
-)
+const [cyclesP, classesP, packsP, typesP] = ['cycles.json', 'factions.json', 'packs.json', 'types.json']
+    .map(loadJSONFile)
 
-const cyclesErrors = findCyclesErrors(cycles)
-if(cyclesErrors){
-    console.error(styleText(['bold', 'red'], 'Error'), 'cyclesErrors', cyclesErrors)
-}
+operationsSynchronize.push(cyclesP.catch(e => {
+    e.message = `Error with cycles.json (${e.message})`
+    validationErrors.add(e)
+}))
 
-const classesErrors = findClassesErrors(classes)
-if(classesErrors){
-    console.error(styleText(['bold', 'red'], 'Error'), 'classesErrors', classesErrors)
-}
+operationsSynchronize.push(classesP.catch(e => {
+    e.message = `Error with factions.json (${e.message})`
+    validationErrors.add(e)
+}))
 
-const packsErrors = findPacksErrors(packs)
-if(packsErrors){
-    console.error(styleText(['bold', 'red'], 'Error'), 'packsErrors', packsErrors)
-}
+operationsSynchronize.push(packsP.catch(e => {
+    e.message = `Error with packs.json (${e.message})`
+    validationErrors.add(e)
+}))
 
-const typesErrors = findTypesErrors(types)
-if(typesErrors){
-    console.error(styleText(['bold', 'red'], 'Error'), 'typesErrors', typesErrors)
-}
+operationsSynchronize.push(typesP.catch(e => {
+    e.message = `Error with types.json (${e.message})`
+    validationErrors.add(e)
+}))
 
 // Verify all pack.cycle_code match a cycle.code
-const cycleCodes = new Set(cycles.map((/** @type {{ code: string; }} */ c) => c.code))
-for(const pack of packs){
-    if(!cycleCodes.has(pack.cycle_code)){
-        console.error(styleText(['bold', 'red'], 'Error'), 'pack', pack, 'from packs.json has cycle_code', pack.cycle_code, 'which is not a valid cycle code')
-        console.error('ℹ️  Valid cycle codes:', [...cycleCodes].join(' | '))
+operationsSynchronize.push(Promise.all([cyclesP, packsP])
+.then(([cycles, packs]) => {
+    const cycleCodes = new Set(cycles.map((/** @type {{ code: string; }} */ c) => c.code))
+    for(const pack of packs){
+        if(!cycleCodes.has(pack.cycle_code)){
+            const e = new Error(
+                `pack ${pack} from packs.json has cycle_code ${pack.cycle_code} which is not a valid cycle code\n`+
+                `ℹ️ Valid cycle codes: ${[...cycleCodes].join(' | ')}`
+            )
+
+            validationErrors.add(e)
+        }
     }
-}
+}))
+
+
 
 
 function findErrorsInCards(cards){
@@ -214,59 +226,59 @@ function findErrorsInCards(cards){
  * `pack_root/<pack.cycle_code>/<pack.code>.json` or
  * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
  * 
- * 
- * @param {string} collectionRootDir 
  * @param {*} pack
  * @param {*} classes 
  * @param {*} types 
- * @returns {Promise<Error[]>}
+ * @returns {Promise<Error[] | undefined>}
  */
-async function findErrorsInPackCards(collectionRootDir, pack, classes, types){
+async function findErrorsInPackCards(pack, classes, types){
     /** @type {Awaited<ReturnType<findErrorsInPackCards>>} */
     const errorPs = []
 
     const {cycle_code, code} = pack
 
-    const packFilename1 = join(collectionRootDir, cycle_code, `${code}.json`)
-    const packFilename2 = join(collectionRootDir, cycle_code, `${code}_encounter.json`)
+    const packFilename1 = join('pack', cycle_code, `${code}.json`)
+    const packFilename2 = join('pack', cycle_code, `${code}_encounter.json`)
 
-    Promise.allSettled([
-        readFile(packFilename1, 'utf-8'),
-        readFile(packFilename2, 'utf-8')
+    return Promise.allSettled([
+        loadJSONFile(packFilename1),
+        loadJSONFile(packFilename2)
     ])
     .then(([result1, result2]) => {
         let packCards1
         let packCards2
-        const enoents = []
+        const ENOENTs = []
 
         if(result1.status === 'rejected'){
             if(result1.reason.code === 'ENOENT'){
                 // ignore this error since it may happen that the file does not exists
-                enoents.push(result1.reason)
+                ENOENTs.push(result1.reason)
             }
             else{
                 errorPs.push(result1.reason)
             }
         }
         else{
-            packCards1 = JSON.parse(result1.value)
+            packCards1 = result1.value
+            objectToFilepath.set(packCards1, packFilename1)
         }
 
         if(result2.status === 'rejected'){
             if(result2.reason.code === 'ENOENT'){
                 // ignore this error since it may happen that the file does not exists
-                enoents.push(result2.reason)
+                ENOENTs.push(result2.reason)
             }
             else{
                 errorPs.push(result2.reason)
             }
         }
         else{
-            packCards2 = JSON.parse(result2.value)
+            packCards2 = result2.value
+            objectToFilepath.set(packCards2, packFilename2)
         }
 
-        if(enoents.length === 2){
-            // if both are ENOENT, it's an error
+        if(ENOENTs.length === 2){
+            // if both are ENOENT, it's an error though
             errorPs.push(
                 Object.assign(
                     new Error(`No file with cards related to pack ${cycle_code}/${code}`), 
@@ -274,52 +286,68 @@ async function findErrorsInPackCards(collectionRootDir, pack, classes, types){
                 )
             )
         }
-        else{
-            return [packCards1, packCards2]
+
+        if(packCards1){
+            const errs = findErrorsInCards(packCards1) || []
+            errorPs.concat(errs)
+        }
+
+        if(packCards2){
+            const errs = findErrorsInCards(packCards2) || []
+            errorPs.concat(errs)
         }
 
 
+        if(errorPs.length >= 1){
+            return errorPs
+        }
     })
-
-    return errorPs
 }
 
 
 
 /**
- * All the file paths in the collection can be constructed from the packs.json
- * For each pack, there may be a file named
- * `pack_root/<pack.cycle_code>/<pack.code>.json` or
- * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
  * 
- * 
- * @param {string} collectionRootDir 
  * @param {*} packs 
  * @param {*} classes 
  * @param {*} types 
+ * @returns {Promise<Error[] | undefined>}
  */
-async function findErrorsInCollectionCards(collectionRootDir, packs, classes, types){
-    const errorsPs = []
+async function findErrorsInCollectionCards(packs, classes, types){
+    /** @type {NonNullable<Awaited<ReturnType<findErrorsInCollectionCards>>>} */
+    let errorsPs = []
 
-    for(const pack of packs){
-        const {cycle_code, code} = pack;
+    return Promise.all(packs.map(async pack => {
+        const errs = await findErrorsInPackCards(pack, classes, types)
+        if(errs){
+            errorsPs = errorsPs.concat(errs)
+        }
+    }))
+    .then(() => errorsPs.length >= 1 ? errorsPs : undefined)
 
+}
 
-
-
-
-
+operationsSynchronize.push(Promise.all([packsP, classesP, typesP])
+.then(async ([packs, classes, types]) => {
+    const collectionCardsErrors = await findErrorsInCollectionCards(packs, classes, types)
+    if(collectionCardsErrors){
+        collectionCardsErrors.forEach(err => validationErrors.add(err))
     }
+}))
 
-}
 
-const collectionErrors = findErrorsInCollectionCards(BASE_PATH, packs, classes, types)
+await Promise.all(operationsSynchronize)
+.then(() => {
+    if(validationErrors.size >= 1){
+        for(const err of validationErrors){
+            console.error( styleText(['bold', 'red'], 'Error'), err )
+        }
 
-if(collectionErrors){
-    console.error(styleText(['bold', 'red'], 'Collection errors'), 'at', BASE_PATH)
-    console.error(collectionErrors)
-        
-}
-
+        process.exit(1)
+    }
+    else{
+        console.info( styleText(['green'], '✅ Database is valid!') )
+    }
+})
 
 
