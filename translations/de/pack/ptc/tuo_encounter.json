@@ -11,7 +11,7 @@
         "name": "Eingesperrt",
         "back_name": "Die Patienten",
         "back_flavor": "Die Gespräche mit den Patienten gestalten sich schwieriger als erwartet. Sie betrachten dich misstrauisch und weigern sich auf deine Fragen zu antworten. Wenn du sie direkt ansprichst, gehen sie auf Abstand oder fliehen sogar vor dir. Entweder sind sie nicht an Besucher gewöhnt oder irgendetwas an dir macht sie nervös. Einige verhalten sich wie in die Enge getriebene Tiere und du erwartest, dass sie jeden Moment losschlagen.",
-        "back_text": "Mische den Begegnungs-Ablagestapel und alle beiseitegelegten <i>Verrückt</i>-Gegner in das Begegnungsdeck.\nDer Ermittlungsleiter muss zufällig einen der beiseitegelegten <i>Monster</i>-Gegner bestimmen und unter das Szenendeck platzieren, ohne ihn anzusehen."
+        "back_text": "Mische den Begegnungs-Ablagestapel und alle beiseitegelegten <i>Besessen</i>-Gegner in das Begegnungsdeck.\nDer Ermittlungsleiter muss zufällig einen der beiseitegelegten <i>Monster</i>-Gegner bestimmen und unter das Szenendeck platzieren, ohne ihn anzusehen."
     },
     {
         "code": "03161",
@@ -78,7 +78,7 @@
         "flavor": "Als sie durch die sich windenden Steinflure des Sanatoriums gingen, beschlich Carolyn ein ungutes Gefühl. Es schien so einfach zu sein, sich hier zu verlaufen.\n- Mallory O'Meara, Die Ermittler von Arkham Horror",
         "name": "Sanatoriumsflur",
         "subname": "Westlicher Patientenflügel",
-        "text": "[reaction] Nachdem du einen <i>Verrückt</i>-Gegner an diesem Ort besiegt hast: Ziehe 1 Karte.",
+        "text": "[reaction] Nachdem du einen <i>Besessen</i>-Gegner an diesem Ort besiegt hast: Ziehe 1 Karte.",
         "traits": "Arkham Sanatorium.",
         "back_flavor": "Die angenehme Atmosphäre im Empfangsbereich blieb hinter den dicken Eisentüren zurück, die Dr. Mintz hinter ihnen schloss. Die Temperatur sank spürbar, die Luft war feuchtkalt und mit einem stechendem Verwesungsgestank durchsetzt.\n– Mallory O’Meara, Die Ermittler von Arkham Horror"
     },
@@ -87,7 +87,7 @@
         "flavor": "Als sie durch die sich windenden Steinflure des Sanatoriums gingen, beschlich Carolyn ein ungutes Gefühl. Es schien so einfach zu sein, sich hier zu verlaufen.\n- Mallory O'Meara, Die Ermittler von Arkham Horror",
         "name": "Sanatoriumsflur",
         "subname": "Westlicher Patientenflügel",
-        "text": "Jeder <i>Verrückt</i>-Gegner an diesem Ort bekommt +1 auf seinen Horrorwert.",
+        "text": "Jeder <i>Besessen</i>-Gegner an diesem Ort bekommt +1 auf seinen Horrorwert.",
         "traits": "Arkham Sanatorium.",
         "back_flavor": "Die angenehme Atmosphäre im Empfangsbereich blieb hinter den dicken Eisentüren zurück, die Dr. Mintz hinter ihnen schloss. Die Temperatur sank spürbar, die Luft war feuchtkalt und mit einem stechendem Verwesungsgestank durchsetzt.\n– Mallory O’Meara, Die Ermittler von Arkham Horror"
     },
@@ -96,7 +96,7 @@
         "flavor": "Als sie durch die sich windenden Steinflure des Sanatoriums gingen, beschlich Carolyn ein ungutes Gefühl. Es schien so einfach zu sein, sich hier zu verlaufen.\n- Mallory O'Meara, Die Ermittler von Arkham Horror",
         "name": "Sanatoriumsflur",
         "subname": "Östlicher Patientenflügel",
-        "text": "[action] Nimm 1 Horror: <b>Entkommen.</b> Du entkommst einem <i>Verrückt</i>-Gegner an diesem Ort automatisch.",
+        "text": "[action] Nimm 1 Horror: <b>Entkommen.</b> Du entkommst einem <i>Besessen</i>-Gegner an diesem Ort automatisch.",
         "traits": "Arkham Sanatorium.",
         "back_flavor": "Die angenehme Atmosphäre im Empfangsbereich blieb hinter den dicken Eisentüren zurück, die Dr. Mintz hinter ihnen schloss. Die Temperatur sank spürbar, die Luft war feuchtkalt und mit einem stechendem Verwesungsgestank durchsetzt.\n– Mallory O’Meara, Die Ermittler von Arkham Horror"
     },
@@ -202,7 +202,7 @@
         "name": "Daniel Chesterfield",
         "subname": "Es geht ihm nicht besonders gut",
         "text": "[free] Erschöpfe Daniel Chesterfield: Gib einem anderen Ermittler an deinem Ort die Kontrolle über ihn.\n<b>Erzwungen</b> - Sobald du Horror nimmst und falls mindestens 1 Horror davon nicht Daniel Chesterfield zugewiesen wird: Nimm 1 Schaden.\n<b>Erzwungen</b> - Falls Daniel Chesterfield das Spiel verlässt: Entferne ihn aus dem Spiel.",
-        "traits": "Verbündeter. Verrückt.",
+        "traits": "Verbündeter. Besessen.",
         "slot": "Verbündeter"
     },
     {
@@ -210,7 +210,7 @@
         "name": "Daniel Chesterfield",
         "subname": "…oder zumindest, was noch von ihm übrig ist",
         "text": "<b>Beute</b> - Höchster [combat]-Wert.\n[action] Falls du die Spange aus schwarzem Onyx kontrollierst: <b>Verhandeln.</b> Als du Daniel die Spange zeigst, weicht er zurück und bricht als seelenlose und bewegungslose Hülle auf dem Boden zusammen. Füge ihn dem Siegpunktestapel hinzu.",
-        "traits": "Humanoid. Verrückt. Elite."
+        "traits": "Humanoid. Besessen. Elite."
     },
     {
         "code": "03183",
@@ -221,9 +221,9 @@
     {
         "code": "03184",
         "flavor": "Manchmal ist der eigene Verstand der schlimmste Feind.",
-        "name": "Wahnsinniger Patient",
-        "text": "<b>Erscheinen</b> - Nächstgelegener Sanatoriumsflur.\n<b>Beute</b> - Höchste verbliebene geistige Gesundheit.\n<b>Erzwungen</b> - Sobald du den Wahnsinnigen Patienten angreifst: Nimm 1 Horror.",
-        "traits": "Humanoid. Verrückt."
+        "name": "Heimgesuchter Patient",
+        "text": "<b>Erscheinen</b> - Nächstgelegener Sanatoriumsflur.\n<b>Beute</b> - Höchste verbliebene geistige Gesundheit.\n<b>Erzwungen</b> - Sobald du den Heimgesuchten Patienten angreifst: Nimm 1 Horror.",
+        "traits": "Humanoid. Besessen."
     },
     {
         "code": "03185",
@@ -236,7 +236,7 @@
         "code": "03186",
         "name": "Gabe des Wahnsinns",
         "subname": "Mitleid",
-        "text": "Wagnis. Verborgen.\n<b>Enthüllung</b> - Füge Gabe des Wahnsinns (Mitleid) geheim deiner Hand hinzu.\nDu kannst keine <i>Verrückt</i>-Gegner angreifen.\n[action]: Bestimme zufällig 1 der beiseitegelegten <i>Monster</i>-Gegner und platziere ihn unter das Szenendeck, ohne ihn anzusehen. Lege Gabe des Wahnsinns (Mitleid) von deiner Hand ab.",
+        "text": "Wagnis. Verborgen.\n<b>Enthüllung</b> - Füge Gabe des Wahnsinns (Mitleid) geheim deiner Hand hinzu.\nDu kannst keine <i>Besessen</i>-Gegner angreifen.\n[action]: Bestimme zufällig 1 der beiseitegelegten <i>Monster</i>-Gegner und platziere ihn unter das Szenendeck, ohne ihn anzusehen. Lege Gabe des Wahnsinns (Mitleid) von deiner Hand ab.",
         "traits": "Schrecken."
     },
     {
