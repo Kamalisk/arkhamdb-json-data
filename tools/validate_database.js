@@ -53,6 +53,41 @@ const [findCardErrors, findCycleErrors, findClassErrors, findPackErrors, findTyp
 ])
 
 
+/**
+ * @param {(arg0: any) => any} findErrorObject
+ */
+function makeFindErrorsArrayWrapper(findErrorObject){
+    return function findArrayErrors(/** @type {any} */ objects) {
+        if (!Array.isArray(objects)) {
+            return [new Error(`objects aren't an Array`)]
+        }
+
+        /** @type {any[]} */
+        let errors = []
+
+        for (const context of objects) {
+            const errs = findErrorObject(context)
+
+            if (errs) {
+                for(const err of errs){
+                    Object.assign(err, {context})
+                }
+
+                errors = [
+                    ...errors,
+                    ...errs
+                ]
+            }
+        }
+
+        if(errors.length >= 1)
+            return errors
+        else
+            return undefined
+    }
+}
+
+
 
 /**
  * This function is a wrapper around findCycleErrors because cycle_schema.json 
@@ -60,19 +95,7 @@ const [findCardErrors, findCycleErrors, findClassErrors, findPackErrors, findTyp
  * 
  * @param {Array<any>} cycles
  */
-function validateCycles(cycles) {
-    if (!Array.isArray(cycles)) {
-        throw new TypeError(`cycles aren't an Array`)
-    }
-
-    for (const cycle of cycles) {
-        const errors = findCycleErrors(cycle)
-
-        if (errors) {
-            console.error('Errors for cycle', cycle, errors)
-        }
-    }
-}
+const findCyclesErrors = makeFindErrorsArrayWrapper(findCycleErrors)
 
 
 /**
@@ -81,19 +104,7 @@ function validateCycles(cycles) {
  * 
  * @param {Array<any>} classes
  */
-function validateClasses(classes) {
-    if (!Array.isArray(classes)) {
-        throw new TypeError(`classes aren't an Array`)
-    }
-
-    for (const oneClass of classes) {
-        const errors = findClassErrors(oneClass)
-
-        if (errors) {
-            console.error('Errors for class', oneClass, errors)
-        }
-    }
-}
+const findClassesErrors = makeFindErrorsArrayWrapper(findClassErrors)
 
 
 /**
@@ -102,19 +113,7 @@ function validateClasses(classes) {
  * 
  * @param {Array<any>} packs
  */
-function validatePacks(packs) {
-    if (!Array.isArray(packs)) {
-        throw new TypeError(`packs aren't an Array`)
-    }
-
-    for (const pack of packs) {
-        const errors = findPackErrors(pack)
-
-        if (errors) {
-            console.error('Errors for pack', pack, errors)
-        }
-    }
-}
+const findPacksErrors = makeFindErrorsArrayWrapper(findPackErrors)
 
 
 /**
@@ -123,19 +122,7 @@ function validatePacks(packs) {
  * 
  * @param {Array<any>} types
  */
-function validateTypes(types) {
-    if (!Array.isArray(types)) {
-        throw new TypeError(`types aren't an Array`)
-    }
-
-    for (const type of types) {
-        const errors = findTypeErrors(type)
-
-        if (errors) {
-            console.error('Errors for type', type, errors)
-        }
-    }
-}
+const findTypesErrors = makeFindErrorsArrayWrapper(findTypeErrors)
 
 
 const [cycles, classes, packs, types] = await Promise.all(
@@ -144,14 +131,29 @@ const [cycles, classes, packs, types] = await Promise.all(
         const str = await readFile(join(BASE_PATH, filename), 'utf-8')
         return JSON.parse(str)
     })
-) 
+)
 
-validateCycles(cycles)
-validateClasses(classes)
-validatePacks(packs)
-validateTypes(types)
+const cyclesErrors = findCyclesErrors(cycles)
+if(cyclesErrors){
+    console.error('cyclesErrors', cyclesErrors)
+}
+
+const classesErrors = findClassesErrors(classes)
+if(classesErrors){
+    console.error('classesErrors', classesErrors)
+}
+
+const packsErrors = findPacksErrors(packs)
+if(packsErrors){
+    console.error('packsErrors', packsErrors)
+}
+
+const typesErrors = findTypesErrors(types)
+if(typesErrors){
+    console.error('typesErrors', typesErrors)
+}
 
 
-
+console.log('packs', packs.length)
 
 
