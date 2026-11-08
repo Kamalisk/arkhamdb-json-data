@@ -16,15 +16,22 @@ const SCHEMA_DIR = join(BASE_PATH, 'schema');
  * 
  */
 async function makeFindErrorsFunction(schemaFilename) {
-    const schemaString = await readFile(join(SCHEMA_DIR, schemaFilename), 'utf-8')
+    const schemaPath = join(SCHEMA_DIR, schemaFilename)
+    const schemaString = await readFile(schemaPath, 'utf-8')
     const schema = JSON.parse(schemaString)
 
-    const validate = ajv.compile(schema)
-
-    const compilationErrors = ajv.errors;
-
-    if (compilationErrors) {
-        console.error('compilationErrors for', schemaFilename, compilationErrors)
+    /** @type {import("ajv").ValidateFunction<unknown>} */
+    let validate;
+    
+    try{
+        validate = ajv.compile(schema)
+    }
+    catch(error){
+        console.error('Schema error for', schemaPath)
+        // @ts-ignore
+        console.error(error.message);
+        console.error('The schema at', schemaPath, 'needs to be fixed before validation can continue');
+        process.exit(1)
     }
 
     return function findErrors(/** @type {any} */ value) {
@@ -139,9 +146,12 @@ const [cycles, classes, packs, types] = await Promise.all(
     })
 ) 
 
-
-
 validateCycles(cycles)
 validateClasses(classes)
 validatePacks(packs)
 validateTypes(types)
+
+
+
+
+
