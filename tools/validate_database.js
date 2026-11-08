@@ -9,7 +9,29 @@ import Ajv from 'ajv';
 const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true })
 
 const BASE_PATH = join(import.meta.dirname, '..')
-const SCHEMA_DIR = join(BASE_PATH, 'schema');
+
+/**
+ * Load JSON content with custom errors
+ * 
+ * @param {string} filepath
+ */
+async function loadJSONFile(filepath){
+    const path = join(BASE_PATH, filepath)
+
+    const schemaString = await readFile(path, 'utf-8') // let errors bubble up
+    
+    try{
+        return JSON.parse(schemaString)
+    }
+    catch(error){
+        // @ts-ignore
+        error.message = `Content of file ${filepath} is not valid JSON (${error.message})`
+
+        throw error
+    }
+}
+
+
 
 /**
  * 
@@ -17,14 +39,13 @@ const SCHEMA_DIR = join(BASE_PATH, 'schema');
  * 
  */
 async function makeFindErrorsFunction(schemaFilename) {
-    const schemaPath = join(SCHEMA_DIR, schemaFilename)
-    const schemaString = await readFile(schemaPath, 'utf-8')
-    const schema = JSON.parse(schemaString)
+    const schemaPath = join('schema', schemaFilename)
 
     /** @type {import("ajv").ValidateFunction<unknown>} */
     let validate;
     
     try{
+        const schema = await loadJSONFile(schemaPath)     
         validate = ajv.compile(schema)
     }
     catch(error){
@@ -126,6 +147,15 @@ const findPacksErrors = makeFindErrorsArrayWrapper(findPackErrors)
 const findTypesErrors = makeFindErrorsArrayWrapper(findTypeErrors)
 
 
+/**
+ * This function is a wrapper around findCardErrors because card_schema.json 
+ * only validates single card objects
+ * 
+ * @param {Array<any>} types
+ */
+const findCardsErrors = makeFindErrorsArrayWrapper(findCardErrors)
+
+
 const [cycles, classes, packs, types] = await Promise.all(
     ['cycles.json', 'factions.json', 'packs.json', 'types.json']
     .map(async filename => {
@@ -163,6 +193,133 @@ for(const pack of packs){
     }
 }
 
+
+function findErrorsInCards(cards){
+    const errors = []
+
+    for(const card of cards){
+        if(Math.random() < 0.01){
+            errors.push(new Error(`Error for card ${card.code}`))
+        }
+    }
+
+
+    return errors
+}
+
+
+/**
+ * All the file paths in the collection can be constructed from the packs.json
+ * For each pack, there may be a file named
+ * `pack_root/<pack.cycle_code>/<pack.code>.json` or
+ * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
+ * 
+ * 
+ * @param {string} collectionRootDir 
+ * @param {*} pack
+ * @param {*} classes 
+ * @param {*} types 
+ * @returns {Promise<Error[]>}
+ */
+async function findErrorsInPackCards(collectionRootDir, pack, classes, types){
+    /** @type {Awaited<ReturnType<findErrorsInPackCards>>} */
+    const errorPs = []
+
+    const {cycle_code, code} = pack
+
+    const packFilename1 = join(collectionRootDir, cycle_code, `${code}.json`)
+    const packFilename2 = join(collectionRootDir, cycle_code, `${code}_encounter.json`)
+
+    Promise.allSettled([
+        readFile(packFilename1, 'utf-8'),
+        readFile(packFilename2, 'utf-8')
+    ])
+    .then(([result1, result2]) => {
+        let packCards1
+        let packCards2
+        const enoents = []
+
+        if(result1.status === 'rejected'){
+            if(result1.reason.code === 'ENOENT'){
+                // ignore this error since it may happen that the file does not exists
+                enoents.push(result1.reason)
+            }
+            else{
+                errorPs.push(result1.reason)
+            }
+        }
+        else{
+            packCards1 = JSON.parse(result1.value)
+        }
+
+        if(result2.status === 'rejected'){
+            if(result2.reason.code === 'ENOENT'){
+                // ignore this error since it may happen that the file does not exists
+                enoents.push(result2.reason)
+            }
+            else{
+                errorPs.push(result2.reason)
+            }
+        }
+        else{
+            packCards2 = JSON.parse(result2.value)
+        }
+
+        if(enoents.length === 2){
+            // if both are ENOENT, it's an error
+            errorPs.push(
+                Object.assign(
+                    new Error(`No file with cards related to pack ${cycle_code}/${code}`), 
+                    {pack}
+                )
+            )
+        }
+        else{
+            return [packCards1, packCards2]
+        }
+
+
+    })
+
+    return errorPs
+}
+
+
+
+/**
+ * All the file paths in the collection can be constructed from the packs.json
+ * For each pack, there may be a file named
+ * `pack_root/<pack.cycle_code>/<pack.code>.json` or
+ * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
+ * 
+ * 
+ * @param {string} collectionRootDir 
+ * @param {*} packs 
+ * @param {*} classes 
+ * @param {*} types 
+ */
+async function findErrorsInCollectionCards(collectionRootDir, packs, classes, types){
+    const errorsPs = []
+
+    for(const pack of packs){
+        const {cycle_code, code} = pack;
+
+
+
+
+
+
+    }
+
+}
+
+const collectionErrors = findErrorsInCollectionCards(BASE_PATH, packs, classes, types)
+
+if(collectionErrors){
+    console.error(styleText(['bold', 'red'], 'Collection errors'), 'at', BASE_PATH)
+    console.error(collectionErrors)
+        
+}
 
 
 
