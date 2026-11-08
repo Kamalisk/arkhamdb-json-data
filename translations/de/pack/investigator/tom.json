@@ -4,7 +4,7 @@
         "flavor": "\"Diese Uniform steht für etwas. Jedes Mal, wenn ich sie trage, werde ich daran erinnert.\"",
         "name": "Tommy Muldoon",
         "subname": "Der Polizeibeamte",
-        "text": "[action] Gib 1 Ressource aus oder lege 1 [[Feuerwaffe]]-Vorteilskarte, die du kontrollierst, aus dem Spiel ab: Spiele 1 [[Feuerwaffe]]-Vorteilskarte von deiner Hand (zahle ihre Kosten). Sie kommt mit 2 zusätzlicher Munition ins Spiel.\n[elder_sign]-Effekt: +1. Platziere 11 Munition auf einer Vorteilskarte mit dem Schlüsselwort Anwendungen (Munition), die du kontrollierst.",
+        "text": "[action] Gib 1 Ressource aus oder lege 1 [[Feuerwaffe]]-Vorteilskarte, die du kontrollierst, aus dem Spiel ab: Spiele 1 [[Feuerwaffe]]-Vorteilskarte von deiner Hand (zahle ihre Kosten). Sie kommt mit 2 zusätzlicher Munition ins Spiel.\n[elder_sign]-Effekt: +1. Platziere 1 Munition auf einer Vorteilskarte mit dem Schlüsselwort Anwendungen (Munition), die du kontrollierst.",
         "traits": "Polizei.",
         "back_flavor": "Als Tommy noch bei der Bostoner Polizei arbeitete, hätte er nie an echte Monster geglaubt. Als er dann in die verschlafene Flussstadt Arkham versetzt wurde, musste er jedoch feststellen, wie falsch er gelegen hatte. Das ist nun fast ein Jahr her. Tommy ist zwar immer noch \"der Neue\", doch er ist sich sicher, auf Streife weit mehr gesehen zu haben als jeder andere bei der Polizei. Jetzt arbeitet er hart daran, den anderen im Revier zu beweisen, dass er keine Witzfigur ist, während er sich gleichzeitig unzähligen Monstern in Arkham stellen muss. Dabei hat er gelernt, dass nicht alle Monster Reißzähne und Tentakel haben.",
         "back_text": "<b>Deckgröße</b>: 30.\n<b>Deckbau-Optionen</b>: Wächterkarten ([guardian]) Stufe 0-5, Neutrale Karten Stufe 0-5.\n<b>Deckbau-Voraussetzungen</b> (zählen nicht gegen die Deckgröße): Becky, Tickende Zeitbombe, 1 zufällige Grundschwäche."
@@ -42,7 +42,7 @@
         "code": "60157",
         "flavor": "Zu ungeduldig, um vorsichtig zu sein, und zu naiv, um es besser zu wissen.",
         "name": "Junge Polizistin",
-        "text": "Diese Karte darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zu gefügt wird.\n[reaction] Sobald Junge Polizistin besiegt wird: Entdecke 1 Hinweis an deinem Ort.",
+        "text": "Diese Karte darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.\n[reaction] Sobald Junge Polizistin besiegt wird: Entdecke 1 Hinweis an deinem Ort.",
         "traits": "Verbündeter. Polizei.",
         "slot": "Verbündeter"
     },
@@ -63,7 +63,7 @@
     },
     {
         "code": "60160",
-        "name": "\"Bring sie zum Singen!\"",
+        "name": "\"Bringt sie zum Singen!\"",
         "text": "<b>Verhandlung.</b> Wähle einen Gegner an deinem Ort und lege eine [combat]-Probe (X) ab, wobei X die verbliebene Ausdauer des Gegners ist. Falls die Probe gelingt, entkommst du dem Gegner automatisch und entdeckst 1 Hinweis an deinem Ort.",
         "traits": "Taktik."
     },
@@ -128,7 +128,7 @@
     {
         "code": "60171",
         "name": "M1911",
-        "text": "Anwendungen (4 Munition).\n[action] gib 1 Munition aus: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu. Ignoriere für diesen Angriff das Schlüsselwort Zurückschlagen.",
+        "text": "Anwendungen (4 Munition).\n[action] Gib 1 Munition aus: <b>Kampf</b> ([combat]). Du bekommst für diesen Angriff +2 [combat] und fügst +1 Schaden zu. Ignoriere für diesen Angriff das Schlüsselwort Zurückschlagen.",
         "traits": "Gegenstand. Waffe. Feuerwaffe.",
         "slot": "Hand"
     },
@@ -160,10 +160,14 @@
         "traits": "Vorrat."
     },
     {
+        "code": "60176",
+        "flavor": "Erst der Schlag des Baseballschlägers, dann das Brüllen des ... Nachtjägers?"
+    },
+    {
         "code": "60177",
         "name": "Detective Sherman",
         "subname": "Adlerauge",
-        "text": "Du bekommst +1 [combat].\nDetective Sherman darf Schaden und/oder Horror zugewiesen, der anderen Ermittlern an deinem Ort zugefügt wird.\n[reaction] Nachdem Schaden auf Detective Sherman platziert worden ist, erschöpfe ihn: Entdecke 1 Hinweis an deinem Ort.",
+        "text": "Du bekommst +1 [combat].\nDetective Sherman darf Schaden und/oder Horror zugewiesen werden, der anderen Ermittlern an deinem Ort zugefügt wird.\n[reaction] Nachdem Schaden auf Detective Sherman platziert worden ist, erschöpfe ihn: Entdecke 1 Hinweis an deinem Ort.",
         "traits": "Verbündeter. Detective. Polizei.",
         "slot": "Verbündeter"
     },
@@ -177,7 +181,7 @@
         "code": "60179",
         "flavor": "\"Na, sieh mal einer an. Wen haben wir denn da?\"",
         "name": "Observierung",
-        "text": "<b>Ermitteln</b> ([intellect]). Du bekommst +3 [intellect] for this investigation. Falls die Probe gelingt, entdecke 1 zusätzlichen Hinweis an deinem Ort und heile 2 Horror.",
+        "text": "<b>Ermitteln</b> ([intellect]). Du bekommst für diese Ermittlung +3 [intellect]. Falls die Probe gelingt, entdecke 1 zusätzlichen Hinweis an deinem Ort und heile 2 Horror.",
         "traits": "Taktik."
     },
     {
