@@ -420,14 +420,9 @@
             "description": "Shroud value of a location. Required to be present for location-like cards. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
             "oneOf": [
                 {
-                    "description": "?",
+                    "description": "Numerical shroud",
                     "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
+                    "minimum": 0
                 },
                 {
                     "description": "X",
@@ -435,13 +430,24 @@
                     "const": -2
                 },
                 {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "?",
+                    "type": "integer",
+                    "const": -4
+                },
+                {
                     "description": "-",
                     "type": "null"
                 },
                 {
-                    "description": "Numerical shroud",
+                    "description": "Per-investigator shroud. -11 means 1-per, -14 means 4-per, etc.",
                     "type": "integer",
-                    "minimum": 0
+                    "minimum": -19,
+                    "maximum": -11
                 }
             ]
         },
