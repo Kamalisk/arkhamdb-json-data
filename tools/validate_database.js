@@ -2,6 +2,7 @@
 
 import { join } from 'node:path'
 import { readFile } from 'node:fs/promises'
+import {styleText} from 'node:util'
 
 import Ajv from 'ajv';
 
@@ -27,7 +28,7 @@ async function makeFindErrorsFunction(schemaFilename) {
         validate = ajv.compile(schema)
     }
     catch(error){
-        console.error('Schema error for', schemaPath)
+        console.error(styleText(['bold', 'red'], 'Error'), 'Schema error for', schemaPath)
         // @ts-ignore
         console.error(error.message);
         console.error('The schema at', schemaPath, 'needs to be fixed before validation can continue');
@@ -135,25 +136,33 @@ const [cycles, classes, packs, types] = await Promise.all(
 
 const cyclesErrors = findCyclesErrors(cycles)
 if(cyclesErrors){
-    console.error('cyclesErrors', cyclesErrors)
+    console.error(styleText(['bold', 'red'], 'Error'), 'cyclesErrors', cyclesErrors)
 }
 
 const classesErrors = findClassesErrors(classes)
 if(classesErrors){
-    console.error('classesErrors', classesErrors)
+    console.error(styleText(['bold', 'red'], 'Error'), 'classesErrors', classesErrors)
 }
 
 const packsErrors = findPacksErrors(packs)
 if(packsErrors){
-    console.error('packsErrors', packsErrors)
+    console.error(styleText(['bold', 'red'], 'Error'), 'packsErrors', packsErrors)
 }
 
 const typesErrors = findTypesErrors(types)
 if(typesErrors){
-    console.error('typesErrors', typesErrors)
+    console.error(styleText(['bold', 'red'], 'Error'), 'typesErrors', typesErrors)
+}
+
+// Verify all pack.cycle_code match a cycle.code
+const cycleCodes = new Set(cycles.map((/** @type {{ code: string; }} */ c) => c.code))
+for(const pack of packs){
+    if(!cycleCodes.has(pack.cycle_code)){
+        console.error(styleText(['bold', 'red'], 'Error'), 'pack', pack, 'from packs.json has cycle_code', pack.cycle_code, 'which is not a valid cycle code')
+        console.error('ℹ️  Valid cycle codes:', [...cycleCodes].join(' | '))
+    }
 }
 
 
-console.log('packs', packs.length)
 
 
