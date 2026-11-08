@@ -317,10 +317,13 @@ async function findErrorsInCollectionCards(packs, classes, types){
     /** @type {NonNullable<Awaited<ReturnType<findErrorsInCollectionCards>>>} */
     let errorsPs = []
 
-    return Promise.all(packs.map(async pack => {
-        const errs = await findErrorsInPackCards(pack, classes, types)
-        if(errs){
-            errorsPs = errorsPs.concat(errs)
+    return Promise.all(packs.map(async (/** @type {{ reprint_type: any; }} */ pack) => {
+        if(!pack.reprint_type){
+            // don't try to find cards for reprint packs
+            const errs = await findErrorsInPackCards(pack, classes, types)
+            if(errs){
+                errorsPs = errorsPs.concat(errs)
+            }
         }
     }))
     .then(() => errorsPs.length >= 1 ? errorsPs : undefined)
