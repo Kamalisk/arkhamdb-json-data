@@ -167,25 +167,53 @@ const findCardsErrors = makeFindErrorsArrayWrapper(findCardErrors)
 const [cyclesP, classesP, packsP, typesP] = ['cycles.json', 'factions.json', 'packs.json', 'types.json']
     .map(loadJSONFile)
 
-operationsSynchronize.push(cyclesP.catch(e => {
-    e.message = `Error with cycles.json (${e.message})`
-    validationErrors.add(e)
-}))
+operationsSynchronize.push(cyclesP
+    .then(cycles => {
+        const errs = findCyclesErrors(cycles)
+        if(errs){
+            errs.forEach(err => validationErrors.add(err))
+        }
+    })
+    .catch(e => {
+        e.message = `Error with cycles.json (${e.message})`
+        validationErrors.add(e)
+    }))
 
-operationsSynchronize.push(classesP.catch(e => {
-    e.message = `Error with factions.json (${e.message})`
-    validationErrors.add(e)
-}))
+operationsSynchronize.push(classesP
+    .then(classes => {
+        const errs = findClassesErrors(classes)
+        if(errs){
+            errs.forEach(err => validationErrors.add(err))
+        }
+    })
+    .catch(e => {
+        e.message = `Error with factions.json (${e.message})`
+        validationErrors.add(e)
+    }))
 
-operationsSynchronize.push(packsP.catch(e => {
-    e.message = `Error with packs.json (${e.message})`
-    validationErrors.add(e)
-}))
+operationsSynchronize.push(packsP
+    .then(packs => {
+        const errs = findPacksErrors(packs)
+        if(errs){
+            errs.forEach(err => validationErrors.add(err))
+        }
+    })
+    .catch(e => {
+        e.message = `Error with packs.json (${e.message})`
+        validationErrors.add(e)
+    }))
 
-operationsSynchronize.push(typesP.catch(e => {
-    e.message = `Error with types.json (${e.message})`
-    validationErrors.add(e)
-}))
+operationsSynchronize.push(typesP
+    .then(types => {
+        const errs = findTypesErrors(types)
+        if(errs){
+            errs.forEach(err => validationErrors.add(err))
+        }
+    })
+    .catch(e => {
+        e.message = `Error with types.json (${e.message})`
+        validationErrors.add(e)
+    }))
 
 // Verify all pack.cycle_code match a cycle.code
 operationsSynchronize.push(Promise.all([cyclesP, packsP])
@@ -204,20 +232,6 @@ operationsSynchronize.push(Promise.all([cyclesP, packsP])
 }))
 
 
-
-
-function findErrorsInCards(cards){
-    const errors = []
-
-    for(const card of cards){
-        if(Math.random() < 0.01){
-            errors.push(new Error(`Error for card ${card.code}`))
-        }
-    }
-
-
-    return errors
-}
 
 
 /**
@@ -288,13 +302,13 @@ async function findErrorsInPackCards(pack, classes, types){
         }
 
         if(packCards1){
-            const errs = findErrorsInCards(packCards1) || []
-            errorPs.concat(errs)
+            const errs = findCardsErrors(packCards1) || []
+            errs.forEach(err => errorPs.push(err))
         }
 
         if(packCards2){
-            const errs = findErrorsInCards(packCards2) || []
-            errorPs.concat(errs)
+            const errs = findCardsErrors(packCards2) || []
+            errs.forEach(err => errorPs.push(err))
         }
 
 
