@@ -3,10 +3,6 @@ ArkhamDB cards JSON data
 
 The goal of this repository is to store [ArkhamDB](https://Arkhamdb.com) card data in a format that can be easily updated by multiple people and their changes reviewed.
 
-## Data schemas
-
-JSON schema definitions of the different object types can be found in the `./schema` folder. A tool such as [JSON Schema Viewer](https://json-schema.app) can be used to visualize these schemas.
-
 ## JSON text editing tips
 
 Full description of (very simple) JSON format can be found [here](http://www.json.org/), below there are a few tips most relevant to editing this repository.
@@ -110,4 +106,22 @@ To merge new changes in a specific locale, run: `npm run update-locales <locale>
 
 For example, for French, run: `npm run update-locales fr`  
 For Korean, run: `npm run update-locales ko` etc.
+
+
+## Data validation
+
+Data is validated using the tool at [tools/validate_database.js](tools/validate_database.js).
+
+Among other things, it is based on JSON Schemas found in the [schema directory](./schema/).
+A tool such as [JSON Schema Viewer](https://json-schema.app) can be used to visualize these schemas.
+
+
+### Constraints on file names and directories
+
+Various applications make assumptions from this repo. 
+This means that some things cannot be changed (or can very carefully or with coordinations)
+
+Here a non-exhaustive list:
+- card identifiers (`code`) won't change
+- `code`s in `cycles.json`, `packs.json`, `factions.json`, `types.json` won't change
 
