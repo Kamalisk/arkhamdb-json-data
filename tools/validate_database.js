@@ -1,5 +1,7 @@
 //@ts-check
 
+/** @import {ValidateFunction, ErrorObject as AJVErrorObject} from 'ajv' */
+
 import { join } from 'node:path'
 import { readFile } from 'node:fs/promises'
 import {styleText} from 'node:util'
@@ -49,7 +51,7 @@ async function loadJSONFile(filepath){
 async function makeFindErrorsFunction(schemaFilename) {
     const schemaPath = join('schema', schemaFilename)
 
-    /** @type {import("ajv").ValidateFunction<unknown>} */
+    /** @type {ValidateFunction<unknown>} */
     let validate;
     
     try{
@@ -82,6 +84,27 @@ const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findP
     makeFindErrorsFunction('type_schema.json'),
 ])
 
+/**
+ * 
+ * @param {AJVErrorObject} ajvError 
+ * @return {string}
+ */
+function makeAJVSchemaErrorMessage(ajvError){
+    if(ajvError.keyword === 'required'){
+        const propertyName = ajvError.params.missingProperty
+
+        return `Missing required property '${propertyName}'`
+    }
+
+    if(ajvError.keyword === 'additionalProperties'){
+        const additionalProperty = ajvError.params.additionalProperty
+
+        return `Unexpected property '${additionalProperty}'`
+    }
+
+    return `${ajvError.message}\nkeyword: ${ajvError.keyword}\nparams: ${JSON.stringify(ajvError.params)}}`
+}
+
 
 /**
  * @param {(arg0: any) => any} findErrorObject
@@ -95,14 +118,10 @@ function makeFindErrorsArrayWrapper(findErrorObject){
         /** @type {any[]} */
         let errors = []
 
-        for (const context of objects) {
-            const errs = findErrorObject(context)
+        for (const object of objects) {
+            const errs = findErrorObject(object)
 
             if (errs) {
-                for(const err of errs){
-                    Object.assign(err, {context})
-                }
-
                 errors = [
                     ...errors,
                     ...errs
@@ -394,8 +413,15 @@ operationsSynchronize.push(Promise.all([packsP, classesP, typesP])
 await Promise.all(operationsSynchronize)
 .then(() => {
     if(validationErrors.size >= 1){
-        for(const err of validationErrors){
-            console.error( styleText(['bold', 'red'], 'Error'), err.message )
+        for(const error of validationErrors){
+            // @ts-ignore
+            const message = error.keyword ? // should be type guard isAJVErrorObject
+                // @ts-ignore
+                makeAJVSchemaErrorMessage(error) : 
+                error.message
+
+
+            console.error( styleText(['bold', 'red'], 'Error'), message )
         }
 
         process.exit(1)
