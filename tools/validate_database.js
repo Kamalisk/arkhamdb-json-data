@@ -427,7 +427,7 @@ await Promise.all(operationsSynchronize)
         process.exit(1)
     }
     else{
-        console.info( styleText(['green'], '✅ Database is valid!') )
+        console.info('✅ Database is valid!' )
     }
 })
 
