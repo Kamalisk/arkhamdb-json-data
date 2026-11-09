@@ -74,7 +74,7 @@ async function makeFindErrorsFunction(schemaFilename) {
 }
 
 
-const [findCardErrors, findCycleErrors, findClassErrors, findPackErrors, findTypeErrors] = await Promise.all([
+const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findPackSchemaErrors, findTypeSchemaErrors] = await Promise.all([
     makeFindErrorsFunction('card_schema.json'),
     makeFindErrorsFunction('cycle_schema.json'),
     makeFindErrorsFunction('faction_schema.json'),
@@ -125,7 +125,7 @@ function makeFindErrorsArrayWrapper(findErrorObject){
  * 
  * @param {Array<any>} cycles
  */
-const findCyclesErrors = makeFindErrorsArrayWrapper(findCycleErrors)
+const findCyclesSchemaErrors = makeFindErrorsArrayWrapper(findCycleSchemaErrors)
 
 
 /**
@@ -134,7 +134,7 @@ const findCyclesErrors = makeFindErrorsArrayWrapper(findCycleErrors)
  * 
  * @param {Array<any>} classes
  */
-const findClassesErrors = makeFindErrorsArrayWrapper(findClassErrors)
+const findClassesSchemaErrors = makeFindErrorsArrayWrapper(findClassSchemaErrors)
 
 
 /**
@@ -143,7 +143,7 @@ const findClassesErrors = makeFindErrorsArrayWrapper(findClassErrors)
  * 
  * @param {Array<any>} packs
  */
-const findPacksErrors = makeFindErrorsArrayWrapper(findPackErrors)
+const findPacksSchemaErrors = makeFindErrorsArrayWrapper(findPackSchemaErrors)
 
 
 /**
@@ -152,7 +152,7 @@ const findPacksErrors = makeFindErrorsArrayWrapper(findPackErrors)
  * 
  * @param {Array<any>} types
  */
-const findTypesErrors = makeFindErrorsArrayWrapper(findTypeErrors)
+const findTypesSchemaErrors = makeFindErrorsArrayWrapper(findTypeSchemaErrors)
 
 
 /**
@@ -161,7 +161,40 @@ const findTypesErrors = makeFindErrorsArrayWrapper(findTypeErrors)
  * 
  * @param {Array<any>} types
  */
-const findCardsErrors = makeFindErrorsArrayWrapper(findCardErrors)
+const findCardsSchemaErrors = makeFindErrorsArrayWrapper(findCardSchemaErrors)
+
+/**
+ * 
+ * @param {any[]} cards 
+ * @param {string} pack 
+ * @param {Set<string>} classes 
+ * @param {Set<string>} types 
+ * @return {Error[] | undefined}
+ */
+function findCardsForeignKeyErrors(cards, pack, classes, types){
+    /** @type {NonNullable<ReturnType<findCardsForeignKeyErrors>>} */
+    const errors = []
+
+    for(const card of cards){
+        const {code, pack_code, faction_code, type_code} = card
+
+        if(pack_code !== pack){
+            errors.push(new Error(`Card ${code} pack_code is ${pack_code} and should be ${pack}`))
+        }
+
+        if(faction_code && !classes.has(faction_code)){
+            errors.push(new Error(`Card ${code} has faction_code of ${faction_code} which is not a valid code listed in factions.json`))
+        }
+
+        if(type_code && !types.has(type_code)){
+            errors.push(new Error(`Card ${code} has type_code of ${type_code} which is not a valid code listed in types.json`))
+        }
+    }
+
+    if(errors.length >= 1){
+        return errors
+    }
+}
 
 
 const [cyclesP, classesP, packsP, typesP] = ['cycles.json', 'factions.json', 'packs.json', 'types.json']
@@ -169,7 +202,7 @@ const [cyclesP, classesP, packsP, typesP] = ['cycles.json', 'factions.json', 'pa
 
 operationsSynchronize.push(cyclesP
     .then(cycles => {
-        const errs = findCyclesErrors(cycles)
+        const errs = findCyclesSchemaErrors(cycles)
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -181,7 +214,7 @@ operationsSynchronize.push(cyclesP
 
 operationsSynchronize.push(classesP
     .then(classes => {
-        const errs = findClassesErrors(classes)
+        const errs = findClassesSchemaErrors(classes)
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -193,7 +226,7 @@ operationsSynchronize.push(classesP
 
 operationsSynchronize.push(packsP
     .then(packs => {
-        const errs = findPacksErrors(packs)
+        const errs = findPacksSchemaErrors(packs)
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -205,7 +238,7 @@ operationsSynchronize.push(packsP
 
 operationsSynchronize.push(typesP
     .then(types => {
-        const errs = findTypesErrors(types)
+        const errs = findTypesSchemaErrors(types)
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -241,8 +274,8 @@ operationsSynchronize.push(Promise.all([cyclesP, packsP])
  * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
  * 
  * @param {*} pack
- * @param {*} classes 
- * @param {*} types 
+ * @param {Set<string>} classes 
+ * @param {Set<string>} types 
  * @returns {Promise<Error[] | undefined>}
  */
 async function findErrorsInPackCards(pack, classes, types){
@@ -302,13 +335,19 @@ async function findErrorsInPackCards(pack, classes, types){
         }
 
         if(packCards1){
-            const errs = findCardsErrors(packCards1) || []
+            const errs = findCardsSchemaErrors(packCards1) || []
             errs.forEach(err => errorPs.push(err))
+
+            const errs2 = findCardsForeignKeyErrors(packCards1, pack.code, classes, types) || []
+            errs2.forEach(err => errorPs.push(err))
         }
 
         if(packCards2){
-            const errs = findCardsErrors(packCards2) || []
+            const errs = findCardsSchemaErrors(packCards2) || []
             errs.forEach(err => errorPs.push(err))
+
+            const errs2 = findCardsForeignKeyErrors(packCards2, pack.code, classes, types) || []
+            errs2.forEach(err => errorPs.push(err))
         }
 
 
@@ -323,8 +362,8 @@ async function findErrorsInPackCards(pack, classes, types){
 /**
  * 
  * @param {*} packs 
- * @param {*} classes 
- * @param {*} types 
+ * @param {Set<string>} classes 
+ * @param {Set<string>} types 
  * @returns {Promise<Error[] | undefined>}
  */
 async function findErrorsInCollectionCards(packs, classes, types){
@@ -346,7 +385,11 @@ async function findErrorsInCollectionCards(packs, classes, types){
 
 operationsSynchronize.push(Promise.all([packsP, classesP, typesP])
 .then(async ([packs, classes, types]) => {
-    const collectionCardsErrors = await findErrorsInCollectionCards(packs, classes, types)
+
+    const classCodes = new Set(classes.map((/** @type {{ code: any; }} */ c) => c.code))
+    const typesCodes = new Set(types.map((/** @type {{ code: any; }} */ t) => t.code))
+
+    const collectionCardsErrors = await findErrorsInCollectionCards(packs, classCodes, typesCodes)
     if(collectionCardsErrors){
         collectionCardsErrors.forEach(err => validationErrors.add(err))
     }
