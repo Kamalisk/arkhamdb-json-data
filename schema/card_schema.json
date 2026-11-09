@@ -305,8 +305,17 @@
         },
         "flavor": {
             "description": "Flavor text on the card.",
-            "minLength": 1,
-            "type": "string"
+            "oneOf": [
+                {
+                    "description": "Flavor text",
+                    "minLength": 1,
+                    "type": "string"
+                },
+                {
+                    "description": "Empty strings are used to clear out previously wrong attributes in arkhamdb",
+                    "const": ""
+                }
+            ]
         },
         "health": {
             "description": "Number of health on any card that has health.",
