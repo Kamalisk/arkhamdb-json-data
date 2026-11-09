@@ -17,10 +17,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - uses: actions/checkout@v7
       - name: Setup Python
         uses: actions/setup-python@v2.2.1
       - run: pip install jsonschema
-      - uses: actions/checkout@v7
       - name: Run Python validator
         run: python $GITHUB_WORKSPACE/validate.py
 
@@ -28,10 +28,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Setup Python
+      - uses: actions/checkout@v7
+      - name: Setup Node.js
         uses: actions/setup-node@v7
       - run: npm ci
-      - uses: actions/checkout@v7
       - name: Run Node.js validator
         run: node tools/validate_database.js
 
