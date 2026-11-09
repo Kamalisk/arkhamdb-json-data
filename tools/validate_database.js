@@ -326,12 +326,7 @@ async function findErrorsInPackCards(pack, classes, types){
 
         if(ENOENTs.length === 2){
             // if both are ENOENT, it's an error though
-            errorPs.push(
-                Object.assign(
-                    new Error(`No file with cards related to pack ${cycle_code}/${code}`), 
-                    {pack}
-                )
-            )
+            errorPs.push(new Error(`No file with cards related to pack ${cycle_code}/${code}`))
         }
 
         if(packCards1){
@@ -400,7 +395,7 @@ await Promise.all(operationsSynchronize)
 .then(() => {
     if(validationErrors.size >= 1){
         for(const err of validationErrors){
-            console.error( styleText(['bold', 'red'], 'Error'), err )
+            console.error( styleText(['bold', 'red'], 'Error'), err.message )
         }
 
         process.exit(1)
