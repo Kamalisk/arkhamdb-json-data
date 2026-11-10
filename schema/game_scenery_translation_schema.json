@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "A schema for the transaltion of contents composing the game environment (cycles.json, packs.json, etc.)",
+    "$comment": "This file might need to be split up later, but for now, it's an improvement over validation with validate.py",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": ["code", "name"],
+        "properties": {
+            "code": {
+                "minLength": 1,
+                "type": "string"
+            },
+            "name": {
+                "minLength": 1,
+                "type": "string"
+            }
+        },
+        "additionalProperties": true
+    }
+}
