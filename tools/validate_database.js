@@ -63,9 +63,11 @@ class ArkhamLCGDatabaseError extends Error{
     }
 
     toString(){
-        return `❌ ${styleText('blue', `[${this.filepath}]`)}${this.card_code ? `[card ${this.card_code}]` : ''} ${this.message}` 
-    }
+        const filePart = styleText('blue', `[${this.filepath}]`)
+        const cardPart = this.card_code ? styleText('magenta', `[card ${this.card_code}]`) : ''
 
+        return `❌ ${filePart}${cardPart} ${this.message}` 
+    }
 
 }
 
@@ -252,9 +254,10 @@ const findCardsSchemaErrors = makeFindErrorsArrayWrapper(findCardSchemaErrors)
  * @param {string} pack 
  * @param {Set<string>} classes 
  * @param {Set<string>} types 
+ * @param {string} cardsFilepath 
  * @return {Error[] | undefined}
  */
-function findCardsForeignKeyErrors(cards, pack, classes, types){
+function findCardsForeignKeyErrors(cards, pack, classes, types, cardsFilepath){
     /** @type {NonNullable<ReturnType<findCardsForeignKeyErrors>>} */
     const errors = []
 
@@ -262,15 +265,27 @@ function findCardsForeignKeyErrors(cards, pack, classes, types){
         const {code, pack_code, faction_code, type_code} = card
 
         if(pack_code !== pack){
-            errors.push(new Error(`Card ${code} pack_code is ${pack_code} and should be ${pack}`))
+            errors.push(new ArkhamLCGDatabaseError({
+                message: `pack_code is ${styleText('red', pack_code)} and should be ${styleText('green', pack)}`,
+                filepath: cardsFilepath,
+                card_code: code
+            }))
         }
 
         if(faction_code && !classes.has(faction_code)){
-            errors.push(new Error(`Card ${code} has faction_code of ${faction_code} which is not a valid code listed in factions.json`))
+            errors.push(new ArkhamLCGDatabaseError({
+                message: `Card has faction_code of ${styleText('red', faction_code)} which is not a valid code listed in factions.json`,
+                filepath: cardsFilepath,
+                card_code: code
+            }))
         }
 
         if(type_code && !types.has(type_code)){
-            errors.push(new Error(`Card ${code} has type_code of ${type_code} which is not a valid code listed in types.json`))
+            errors.push(new ArkhamLCGDatabaseError({
+                message: `Card has type_code of ${styleText('red', type_code)} which is not a valid code listed in types.json`,
+                filepath: cardsFilepath,
+                card_code: code
+            }))
         }
     }
 
@@ -331,23 +346,33 @@ operationsSynchronize.push(typesP
         validationErrors.add(e)
     }))
 
+
 // Verify all pack.cycle_code match a cycle.code
-operationsSynchronize.push(Promise.all([cyclesP, packsP])
+const cycleForeignKeysInPacksP = Promise.all([cyclesP, packsP])
 .then(([cycles, packs]) => {
     const cycleCodes = new Set(cycles.map((/** @type {{ code: string; }} */ c) => c.code))
+    /** @type {ArkhamLCGDatabaseError[]} */
+    const errors = []
+
     for(const pack of packs){
         if(!cycleCodes.has(pack.cycle_code)){
-            const e = new Error(
-                `pack ${pack} from packs.json has cycle_code ${pack.cycle_code} which is not a valid cycle code\n`+
-                `ℹ️ Valid cycle codes: ${[...cycleCodes].join(' | ')}`
-            )
+            const e = new ArkhamLCGDatabaseError({
+                message: `Pack '${styleText('green', pack.code)}' has cycle_code '${styleText('green', pack.cycle_code)}' which is not a valid cycle code\n`+
+                `ℹ️  Valid cycle codes: ${[...cycleCodes].join(' | ')}`,
+                filepath: 'packs.json'
+            })
 
-            validationErrors.add(e)
+            errors.push(e)
         }
     }
-}))
 
+    if(errors.length >= 1){
+        errors.forEach(err => validationErrors.add(err))
+        throw errors
+    }
+});
 
+operationsSynchronize.push(cycleForeignKeysInPacksP);
 
 
 /**
@@ -410,7 +435,7 @@ async function findErrorsInPackCards(pack, classes, types){
         if(ENOENTs.length === 2){
             // if both are ENOENT, it's an error though
             errorPs.push(new ArkhamLCGDatabaseError({
-                message: `No file with cards related to pack ${cycle_code}/${code}`,
+                message: `No file with cards related to pack ${styleText('green', `${cycle_code}/${code}`)}`,
                 filepath: `Pack ${cycle_code}/${code}` // not exactly a filepath, but good enough
             }))
         }
@@ -419,7 +444,7 @@ async function findErrorsInPackCards(pack, classes, types){
             const errs = findCardsSchemaErrors(packCards1, packFilename1) || []
             errs.forEach(err => errorPs.push(err))
 
-            const errs2 = findCardsForeignKeyErrors(packCards1, pack.code, classes, types) || []
+            const errs2 = findCardsForeignKeyErrors(packCards1, pack.code, classes, types, packFilename1) || []
             errs2.forEach(err => errorPs.push(err))
         }
 
@@ -427,7 +452,7 @@ async function findErrorsInPackCards(pack, classes, types){
             const errs = findCardsSchemaErrors(packCards2, packFilename2) || []
             errs.forEach(err => errorPs.push(err))
 
-            const errs2 = findCardsForeignKeyErrors(packCards2, pack.code, classes, types) || []
+            const errs2 = findCardsForeignKeyErrors(packCards2, pack.code, classes, types, packFilename2) || []
             errs2.forEach(err => errorPs.push(err))
         }
 
@@ -464,7 +489,7 @@ async function findErrorsInCollectionCards(packs, classes, types){
 
 }
 
-operationsSynchronize.push(Promise.all([packsP, classesP, typesP])
+operationsSynchronize.push(Promise.all([packsP, classesP, typesP, cycleForeignKeysInPacksP])
 .then(async ([packs, classes, types]) => {
 
     const classCodes = new Set(classes.map((/** @type {{ code: any; }} */ c) => c.code))
@@ -477,7 +502,7 @@ operationsSynchronize.push(Promise.all([packsP, classesP, typesP])
 }))
 
 
-await Promise.all(operationsSynchronize)
+await Promise.allSettled(operationsSynchronize)
 .then(() => {
     if(validationErrors.size >= 1){
         for(const error of validationErrors){
