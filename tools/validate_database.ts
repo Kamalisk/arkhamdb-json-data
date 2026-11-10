@@ -1,10 +1,10 @@
 import type { ValidateFunction, ErrorObject as AJVErrorObject } from "ajv";
 
 import { join } from "node:path";
-import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import { styleText } from "node:util";
 
-import Ajv from "ajv";
+import Ajv from "ajv/dist/2020.js";
 
 function makeAJVSchemaErrorMessage(ajvError: AJVErrorObject): string {
     if (ajvError.keyword === "required") {
@@ -79,6 +79,9 @@ const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true });
 
 const BASE_PATH = join(import.meta.dirname, "..");
 
+const ARKHAM_LCG_FILE_DATABASE_BASE_PATH = join(import.meta.dirname, "..");
+const translationDir = "translations";
+
 const validationErrors: Set<Error> = new Set();
 
 const operationsSynchronize: Promise<any>[] = [];
@@ -88,8 +91,8 @@ const objectToFilepath = new WeakMap();
 /**
  * Load JSON content with custom errors
  */
-async function loadJSONFile(filepath: string): Promise<any> {
-    const path = join(BASE_PATH, filepath);
+async function loadJSONFile(filepath: string, basePath: string): Promise<any> {
+    const path = join(basePath, filepath);
 
     try {
         const schemaString = await readFile(path, "utf-8"); // let errors bubble up
@@ -136,7 +139,10 @@ async function makeFindErrorsFunction(schemaFilename: string) {
     let validate: ValidateFunction<unknown>;
 
     try {
-        const schema = await loadJSONFile(schemaPath);
+        const schema = await loadJSONFile(
+            schemaPath,
+            ARKHAM_LCG_FILE_DATABASE_BASE_PATH
+        );
         validate = ajv.compile(schema);
     } catch (error) {
         console.error(
@@ -169,12 +175,14 @@ const [
     findClassSchemaErrors,
     findPackSchemaErrors,
     findTypeSchemaErrors,
+    findGameSceneryTranslationsSchemaErrors,
 ] = await Promise.all([
     makeFindErrorsFunction("card_schema.json"),
     makeFindErrorsFunction("cycle_schema.json"),
     makeFindErrorsFunction("faction_schema.json"),
     makeFindErrorsFunction("pack_schema.json"),
     makeFindErrorsFunction("type_schema.json"),
+    makeFindErrorsFunction("game_scenery_translation_schema.json"),
 ]);
 
 function makeFindErrorsArrayWrapper(
@@ -312,12 +320,18 @@ function findCardsForeignKeyErrors(
     }
 }
 
+const CYCLES_JSON = "cycles.json";
+// classes file is called "factions" for legacy reason
+const CLASSES_JSON = "factions.json";
+const PACKS_JSON = "packs.json";
+const TYPES_JSON = "types.json";
+
 const [cyclesP, classesP, packsP, typesP] = [
-    "cycles.json",
-    "factions.json",
-    "packs.json",
-    "types.json",
-].map(loadJSONFile);
+    CYCLES_JSON,
+    CLASSES_JSON,
+    PACKS_JSON,
+    TYPES_JSON,
+].map((filename) => loadJSONFile(filename, ARKHAM_LCG_FILE_DATABASE_BASE_PATH));
 
 operationsSynchronize.push(
     cyclesP
@@ -418,7 +432,8 @@ operationsSynchronize.push(cycleForeignKeysInPacksP);
 async function findErrorsInPackCards(
     pack: any,
     classes: Set<string>,
-    types: Set<string>
+    types: Set<string>,
+    basePath: string
 ): Promise<Error[] | undefined> {
     const errorPs: Awaited<ReturnType<typeof findErrorsInPackCards>> = [];
 
@@ -428,8 +443,8 @@ async function findErrorsInPackCards(
     const packFilename2 = join("pack", cycle_code, `${code}_encounter.json`);
 
     return Promise.allSettled([
-        loadJSONFile(packFilename1),
-        loadJSONFile(packFilename2),
+        loadJSONFile(packFilename1, basePath),
+        loadJSONFile(packFilename2, basePath),
     ]).then(([result1, result2]) => {
         let packCards1;
         let packCards2;
@@ -517,7 +532,8 @@ async function findErrorsInPackCards(
 async function findErrorsInCollectionCards(
     packs: any[],
     classes: Set<string>,
-    types: Set<string>
+    types: Set<string>,
+    basePath: string
 ): Promise<Error[] | undefined> {
     let errorsPs: NonNullable<
         Awaited<ReturnType<typeof findErrorsInCollectionCards>>
@@ -527,7 +543,12 @@ async function findErrorsInCollectionCards(
         packs.map(async (pack: { reprint_type: string }) => {
             if (!pack.reprint_type) {
                 // don't try to find cards for reprint packs
-                const errs = await findErrorsInPackCards(pack, classes, types);
+                const errs = await findErrorsInPackCards(
+                    pack,
+                    classes,
+                    types,
+                    basePath
+                );
                 if (errs) {
                     errorsPs = errorsPs.concat(errs);
                 }
@@ -549,7 +570,8 @@ operationsSynchronize.push(
             const collectionCardsErrors = await findErrorsInCollectionCards(
                 packs,
                 classCodes,
-                typesCodes
+                typesCodes,
+                ARKHAM_LCG_FILE_DATABASE_BASE_PATH
             );
             if (collectionCardsErrors) {
                 collectionCardsErrors.forEach((err) =>
@@ -558,6 +580,94 @@ operationsSynchronize.push(
             }
         }
     )
+);
+
+await Promise.allSettled(operationsSynchronize).then(() => {
+    if (validationErrors.size >= 1) {
+        for (const error of validationErrors) {
+            const message =
+                error instanceof ArkhamLCGDatabaseError
+                    ? error.toString()
+                    : // @ts-ignore
+                    error.keyword // should be type guard isAJVErrorObject
+                    ? // @ts-ignore
+                      makeAJVSchemaErrorMessage(error)
+                    : //@ts-ignore
+                      error.message;
+        }
+    }
+});
+
+operationsSynchronize.push(
+    Promise.all([packsP, classesP, typesP, cycleForeignKeysInPacksP]).then(
+        async ([packs, classes, types]) => {
+            const classCodes: Set<string> = new Set(
+                classes.map((c: { code: any }) => c.code)
+            );
+            const typesCodes: Set<string> = new Set(
+                types.map((t: { code: any }) => t.code)
+            );
+
+            const collectionCardsErrors = await findErrorsInCollectionCards(
+                packs,
+                classCodes,
+                typesCodes,
+                ARKHAM_LCG_FILE_DATABASE_BASE_PATH
+            );
+            if (collectionCardsErrors) {
+                collectionCardsErrors.forEach((err) =>
+                    validationErrors.add(err)
+                );
+            }
+        }
+    )
+);
+
+function findGameSceneryTranslationsErrors(locale: string) {
+    return Promise.all(
+        [CYCLES_JSON, CLASSES_JSON, PACKS_JSON, TYPES_JSON].map((filename) => {
+            const filepath = join(translationDir, locale, filename);
+
+            return loadJSONFile(filepath, ARKHAM_LCG_FILE_DATABASE_BASE_PATH)
+                .then((fileContent) => {
+                    const errors =
+                        findGameSceneryTranslationsSchemaErrors(fileContent);
+                    if (errors) {
+                        errors.forEach((err) =>
+                            validationErrors.add(
+                                ArkhamLCGDatabaseError.fromAjvErrorObject(
+                                    err,
+                                    filepath
+                                )
+                            )
+                        );
+                    }
+                })
+                .catch((e) => {
+                    e.message = `Error with ${filepath} (${e.message})`;
+                    validationErrors.add(e);
+                });
+        })
+    );
+}
+
+function findErrorsInLocaleCollectionCards(locale: string) {}
+
+const localesP = readdir(
+    join(ARKHAM_LCG_FILE_DATABASE_BASE_PATH, translationDir)
+);
+
+operationsSynchronize.push(
+    localesP.then((locales) => {
+        return Promise.all(
+            locales.map((locale) => {
+                return Promise.all([
+                    findGameSceneryTranslationsErrors(locale),
+                    findErrorsInLocaleCollectionCards(locale),
+                ]);
+            })
+        );
+    })
 );
 
 await Promise.allSettled(operationsSynchronize).then(() => {
