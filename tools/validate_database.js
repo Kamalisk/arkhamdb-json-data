@@ -8,9 +8,30 @@ import {styleText} from 'node:util'
 
 import Ajv from 'ajv';
 
+/**
+ * 
+ * @param {AJVErrorObject} ajvError 
+ * @return {string}
+ */
+function makeAJVSchemaErrorMessage(ajvError){
+    if(ajvError.keyword === 'required'){
+        const propertyName = ajvError.params.missingProperty
+
+        return `Missing required property '${propertyName}'`
+    }
+
+    if(ajvError.keyword === 'additionalProperties'){
+        const additionalProperty = ajvError.params.additionalProperty
+
+        return `Unexpected property '${additionalProperty}'`
+    }
+
+    return `${ajvError.message}\nkeyword: ${ajvError.keyword}\nparams: ${JSON.stringify(ajvError.params)}}`
+}
+
 class ArkhamLCGDatabaseError extends Error{
     /**
-     * @param { {message: string | undefined, filepath: string, card_code? : string, cause?: Error} } init
+     * @param { {message: string | undefined, filepath: string, card_code? : string, cause?: any} } init
      */
     constructor({message, filepath, card_code, cause}) {
         super(message);
@@ -26,10 +47,28 @@ class ArkhamLCGDatabaseError extends Error{
         }
     }
 
+    /**
+     * 
+     * @param {AJVErrorObject} ajvErrorObject 
+     * @param {string} filepath 
+     * @param {string} [card_code]
+     */
+    static fromAjvErrorObject(ajvErrorObject, filepath, card_code){
+        return new ArkhamLCGDatabaseError({
+            message: makeAJVSchemaErrorMessage(ajvErrorObject),
+            filepath,
+            card_code,
+            cause: ajvErrorObject
+        })
+    }
+
     toString(){
         return `❌ ${styleText('blue', `[${this.filepath}]`)}${this.card_code ? `[card ${this.card_code}]` : ''} ${this.message}` 
     }
+
+
 }
+
 
 const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true })
 
@@ -128,38 +167,19 @@ const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findP
     makeFindErrorsFunction('type_schema.json'),
 ])
 
-/**
- * 
- * @param {AJVErrorObject} ajvError 
- * @return {string}
- */
-function makeAJVSchemaErrorMessage(ajvError){
-    if(ajvError.keyword === 'required'){
-        const propertyName = ajvError.params.missingProperty
 
-        return `Missing required property '${propertyName}'`
-    }
-
-    if(ajvError.keyword === 'additionalProperties'){
-        const additionalProperty = ajvError.params.additionalProperty
-
-        return `Unexpected property '${additionalProperty}'`
-    }
-
-    return `${ajvError.message}\nkeyword: ${ajvError.keyword}\nparams: ${JSON.stringify(ajvError.params)}}`
-}
 
 
 /**
- * @param {(arg0: any) => any} findErrorObject
+ * @param {Awaited<ReturnType<makeFindErrorsFunction>>} findErrorObject
  */
 function makeFindErrorsArrayWrapper(findErrorObject){
-    return function findArrayErrors(/** @type {any} */ objects) {
+    return function findArrayErrors(/** @type {unknown} */ objects, /** @type {any} */ filepath) {
         if (!Array.isArray(objects)) {
-            return [new Error(`objects aren't an Array`)]
+            return [new ArkhamLCGDatabaseError({message: `Objects are expected to be an Array and are not`, filepath})]
         }
 
-        /** @type {any[]} */
+        /** @type {ArkhamLCGDatabaseError[]} */
         let errors = []
 
         for (const object of objects) {
@@ -168,7 +188,7 @@ function makeFindErrorsArrayWrapper(findErrorObject){
             if (errs) {
                 errors = [
                     ...errors,
-                    ...errs
+                    ...errs.map(err => ArkhamLCGDatabaseError.fromAjvErrorObject(err, filepath))
                 ]
             }
         }
@@ -265,7 +285,7 @@ const [cyclesP, classesP, packsP, typesP] = ['cycles.json', 'factions.json', 'pa
 
 operationsSynchronize.push(cyclesP
     .then(cycles => {
-        const errs = findCyclesSchemaErrors(cycles)
+        const errs = findCyclesSchemaErrors(cycles, 'cycles.json')
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -277,7 +297,7 @@ operationsSynchronize.push(cyclesP
 
 operationsSynchronize.push(classesP
     .then(classes => {
-        const errs = findClassesSchemaErrors(classes)
+        const errs = findClassesSchemaErrors(classes, 'factions.json')
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -289,7 +309,7 @@ operationsSynchronize.push(classesP
 
 operationsSynchronize.push(packsP
     .then(packs => {
-        const errs = findPacksSchemaErrors(packs)
+        const errs = findPacksSchemaErrors(packs, 'packs.json')
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -301,7 +321,7 @@ operationsSynchronize.push(packsP
 
 operationsSynchronize.push(typesP
     .then(types => {
-        const errs = findTypesSchemaErrors(types)
+        const errs = findTypesSchemaErrors(types, 'types.json')
         if(errs){
             errs.forEach(err => validationErrors.add(err))
         }
@@ -389,11 +409,14 @@ async function findErrorsInPackCards(pack, classes, types){
 
         if(ENOENTs.length === 2){
             // if both are ENOENT, it's an error though
-            errorPs.push(new Error(`No file with cards related to pack ${cycle_code}/${code}`))
+            errorPs.push(new ArkhamLCGDatabaseError({
+                message: `No file with cards related to pack ${cycle_code}/${code}`,
+                filepath: `Pack ${cycle_code}/${code}` // not exactly a filepath, but good enough
+            }))
         }
 
         if(packCards1){
-            const errs = findCardsSchemaErrors(packCards1) || []
+            const errs = findCardsSchemaErrors(packCards1, packFilename1) || []
             errs.forEach(err => errorPs.push(err))
 
             const errs2 = findCardsForeignKeyErrors(packCards1, pack.code, classes, types) || []
@@ -401,7 +424,7 @@ async function findErrorsInPackCards(pack, classes, types){
         }
 
         if(packCards2){
-            const errs = findCardsSchemaErrors(packCards2) || []
+            const errs = findCardsSchemaErrors(packCards2, packFilename2) || []
             errs.forEach(err => errorPs.push(err))
 
             const errs2 = findCardsForeignKeyErrors(packCards2, pack.code, classes, types) || []
