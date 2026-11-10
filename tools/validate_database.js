@@ -122,7 +122,7 @@ async function makeFindErrorsFunction(schemaFilename) {
 
 const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findPackSchemaErrors, findTypeSchemaErrors] = await Promise.all([
     makeFindErrorsFunction('card_schema.json'),
-    makeFindErrorsFunction('cycle_shema.json'),
+    makeFindErrorsFunction('cycle_schema.json'),
     makeFindErrorsFunction('faction_schema.json'),
     makeFindErrorsFunction('pack_schema.json'),
     makeFindErrorsFunction('type_schema.json'),
