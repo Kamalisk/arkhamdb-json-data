@@ -360,7 +360,7 @@ async function findErrorsInPackCards(pack, classes, types){
         const ENOENTs = []
 
         if(result1.status === 'rejected'){
-            if(result1.reason.code === 'ENOENT'){
+            if(result1.reason.code === 'ENOENT' || result1.reason?.cause?.code === 'ENOENT'){
                 // ignore this error since it may happen that the file does not exists
                 ENOENTs.push(result1.reason)
             }
@@ -374,7 +374,7 @@ async function findErrorsInPackCards(pack, classes, types){
         }
 
         if(result2.status === 'rejected'){
-            if(result2.reason.code === 'ENOENT'){
+            if(result2.reason.code === 'ENOENT' || result2.reason?.cause?.code === 'ENOENT'){
                 // ignore this error since it may happen that the file does not exists
                 ENOENTs.push(result2.reason)
             }
