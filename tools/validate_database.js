@@ -8,6 +8,29 @@ import {styleText} from 'node:util'
 
 import Ajv from 'ajv';
 
+class ArkhamLCGDatabaseError extends Error{
+    /**
+     * @param { {message: string | undefined, filepath: string, card_code? : string, cause?: Error} } init
+     */
+    constructor({message, filepath, card_code, cause}) {
+        super(message);
+
+        this.filepath = filepath
+        
+        if(card_code){
+            this.card_code = card_code
+        }
+
+        if(cause){
+            this.cause = cause
+        }
+    }
+
+    toString(){
+        return `❌ ${styleText('blue', `[${this.filepath}]`)}${this.card_code ? `[card ${this.card_code}]` : ''} ${this.message}` 
+    }
+}
+
 const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true })
 
 const BASE_PATH = join(import.meta.dirname, '..')
@@ -28,19 +51,40 @@ const objectToFilepath = new WeakMap()
 async function loadJSONFile(filepath){
     const path = join(BASE_PATH, filepath)
 
-    const schemaString = await readFile(path, 'utf-8') // let errors bubble up
-    
     try{
+        const schemaString = await readFile(path, 'utf-8') // let errors bubble up
         return JSON.parse(schemaString)
     }
     catch(error){
-        // @ts-ignore
-        error.message = `Content of file ${filepath} is not valid JSON (${error.message})`
+        if(error instanceof SyntaxError){
+            throw new ArkhamLCGDatabaseError({
+                message: `Content of file is not valid JSON (${styleText('dim', error.message)})`,
+                filepath,
+                cause: error
+            })
+        }
 
-        throw error
+        // @ts-expect-error TS is not up-to-date https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/isError
+        if(error && error.code === 'ENOENT'){
+            throw new ArkhamLCGDatabaseError({
+                // @ts-ignore
+                message: `File '${styleText('greenBright', filepath)}' does not exist`,
+                filepath,
+                // @ts-ignore
+                cause: error
+            })
+        }
+
+        throw new ArkhamLCGDatabaseError({
+            // @ts-ignore
+            message: `Problem reading the file (${error.message})`,
+            filepath,
+            // @ts-ignore
+            cause: error
+        })
+        
     }
 }
-
 
 
 /**
@@ -61,7 +105,7 @@ async function makeFindErrorsFunction(schemaFilename) {
     catch(error){
         console.error(styleText(['bold', 'red'], 'Error'), 'Schema error for', schemaPath)
         // @ts-ignore
-        console.error(error.message);
+        console.error(error.toString());
         console.error('The schema at', schemaPath, 'needs to be fixed before validation can continue');
         process.exit(1)
     }
@@ -78,7 +122,7 @@ async function makeFindErrorsFunction(schemaFilename) {
 
 const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findPackSchemaErrors, findTypeSchemaErrors] = await Promise.all([
     makeFindErrorsFunction('card_schema.json'),
-    makeFindErrorsFunction('cycle_schema.json'),
+    makeFindErrorsFunction('cycle_shema.json'),
     makeFindErrorsFunction('faction_schema.json'),
     makeFindErrorsFunction('pack_schema.json'),
     makeFindErrorsFunction('type_schema.json'),
@@ -414,14 +458,16 @@ await Promise.all(operationsSynchronize)
 .then(() => {
     if(validationErrors.size >= 1){
         for(const error of validationErrors){
-            // @ts-ignore
-            const message = error.keyword ? // should be type guard isAJVErrorObject
+            const message = error instanceof ArkhamLCGDatabaseError ?
+                error.toString() : 
                 // @ts-ignore
-                makeAJVSchemaErrorMessage(error) : 
-                error.message
+                (error.keyword ? // should be type guard isAJVErrorObject
+                    // @ts-ignore
+                    makeAJVSchemaErrorMessage(error) : 
+                    error.message);
 
 
-            console.error( styleText(['bold', 'red'], 'Error'), message )
+            console.error( message )
         }
 
         process.exit(1)
