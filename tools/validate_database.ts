@@ -1,6 +1,4 @@
-//@ts-check
-
-/** @import {ValidateFunction, ErrorObject as AJVErrorObject} from 'ajv' */
+import type {ValidateFunction, ErrorObject as AJVErrorObject} from 'ajv';
 
 import { join } from 'node:path'
 import { readFile } from 'node:fs/promises'
@@ -8,12 +6,7 @@ import {styleText} from 'node:util'
 
 import Ajv from 'ajv';
 
-/**
- * 
- * @param {AJVErrorObject} ajvError 
- * @return {string}
- */
-function makeAJVSchemaErrorMessage(ajvError){
+function makeAJVSchemaErrorMessage(ajvError: AJVErrorObject) : string{
     if(ajvError.keyword === 'required'){
         const propertyName = ajvError.params.missingProperty
 
@@ -30,10 +23,10 @@ function makeAJVSchemaErrorMessage(ajvError){
 }
 
 class ArkhamLCGDatabaseError extends Error{
-    /**
-     * @param { {message: string | undefined, filepath: string, card_code? : string, cause?: any} } init
-     */
-    constructor({message, filepath, card_code, cause}) {
+    filepath: string;
+    card_code: string | undefined;
+    
+    constructor({message, filepath, card_code, cause} :{message: string, filepath: string, card_code?: string, cause? : any}) {
         super(message);
 
         this.filepath = filepath
@@ -47,13 +40,7 @@ class ArkhamLCGDatabaseError extends Error{
         }
     }
 
-    /**
-     * 
-     * @param {AJVErrorObject} ajvErrorObject 
-     * @param {string} filepath 
-     * @param {string} [card_code]
-     */
-    static fromAjvErrorObject(ajvErrorObject, filepath, card_code){
+    static fromAjvErrorObject(ajvErrorObject: AJVErrorObject, filepath: string, card_code?: string){
         return new ArkhamLCGDatabaseError({
             message: makeAJVSchemaErrorMessage(ajvErrorObject),
             filepath,
@@ -76,20 +63,16 @@ const ajv = new Ajv({ validateSchema: true, strict: true, allErrors: true })
 
 const BASE_PATH = join(import.meta.dirname, '..')
 
-/** @type {Set<Error>} */
-const validationErrors = new Set()
+const validationErrors: Set<Error> = new Set()
 
-/** @type {Promise<any>[]} */
-const operationsSynchronize = [];
+const operationsSynchronize: Promise<any>[] = [];
 
 const objectToFilepath = new WeakMap()
 
 /**
  * Load JSON content with custom errors
- * 
- * @param {string} filepath
  */
-async function loadJSONFile(filepath){
+async function loadJSONFile(filepath: string): Promise<any>{
     const path = join(BASE_PATH, filepath)
 
     try{
@@ -128,16 +111,11 @@ async function loadJSONFile(filepath){
 }
 
 
-/**
- * 
- * @param {string} schemaFilename 
- * 
- */
-async function makeFindErrorsFunction(schemaFilename) {
+
+async function makeFindErrorsFunction(schemaFilename: string) {
     const schemaPath = join('schema', schemaFilename)
 
-    /** @type {ValidateFunction<unknown>} */
-    let validate;
+    let validate: ValidateFunction<unknown>;
     
     try{
         const schema = await loadJSONFile(schemaPath)     
@@ -151,7 +129,7 @@ async function makeFindErrorsFunction(schemaFilename) {
         process.exit(1)
     }
 
-    return function findErrors(/** @type {any} */ value) {
+    return function findErrors(value: any) {
         const valid = validate(value);
 
         if (!valid) {
@@ -172,17 +150,14 @@ const [findCardSchemaErrors, findCycleSchemaErrors, findClassSchemaErrors, findP
 
 
 
-/**
- * @param {Awaited<ReturnType<makeFindErrorsFunction>>} findErrorObject
- */
-function makeFindErrorsArrayWrapper(findErrorObject){
-    return function findArrayErrors(/** @type {unknown} */ objects, /** @type {any} */ filepath) {
+
+function makeFindErrorsArrayWrapper(findErrorObject: Awaited<ReturnType<typeof makeFindErrorsFunction>>){
+    return function findArrayErrors(objects: unknown, filepath: string) {
         if (!Array.isArray(objects)) {
             return [new ArkhamLCGDatabaseError({message: `Objects are expected to be an Array and are not`, filepath})]
         }
 
-        /** @type {ArkhamLCGDatabaseError[]} */
-        let errors = []
+        let errors: ArkhamLCGDatabaseError[] = []
 
         for (const object of objects) {
             const errs = findErrorObject(object)
@@ -248,18 +223,9 @@ const findTypesSchemaErrors = makeFindErrorsArrayWrapper(findTypeSchemaErrors)
  */
 const findCardsSchemaErrors = makeFindErrorsArrayWrapper(findCardSchemaErrors)
 
-/**
- * 
- * @param {any[]} cards 
- * @param {string} pack 
- * @param {Set<string>} classes 
- * @param {Set<string>} types 
- * @param {string} cardsFilepath 
- * @return {Error[] | undefined}
- */
-function findCardsForeignKeyErrors(cards, pack, classes, types, cardsFilepath){
-    /** @type {NonNullable<ReturnType<findCardsForeignKeyErrors>>} */
-    const errors = []
+
+function findCardsForeignKeyErrors(cards: any[], pack: string, classes: Set<string>, types: Set<string>, cardsFilepath: string): ArkhamLCGDatabaseError[] | undefined{
+    const errors: NonNullable<ReturnType<typeof findCardsForeignKeyErrors>> = []
 
     for(const card of cards){
         const {code, pack_code, faction_code, type_code} = card
@@ -350,9 +316,8 @@ operationsSynchronize.push(typesP
 // Verify all pack.cycle_code match a cycle.code
 const cycleForeignKeysInPacksP = Promise.all([cyclesP, packsP])
 .then(([cycles, packs]) => {
-    const cycleCodes = new Set(cycles.map((/** @type {{ code: string; }} */ c) => c.code))
-    /** @type {ArkhamLCGDatabaseError[]} */
-    const errors = []
+    const cycleCodes = new Set(cycles.map((c: { code: string; }) => c.code))
+    const errors: ArkhamLCGDatabaseError[] = []
 
     for(const pack of packs){
         if(!cycleCodes.has(pack.cycle_code)){
@@ -380,15 +345,9 @@ operationsSynchronize.push(cycleForeignKeysInPacksP);
  * For each pack, there may be a file named
  * `pack_root/<pack.cycle_code>/<pack.code>.json` or
  * `pack_root/<pack.cycle_code>/<pack.code>_encounter.json`
- * 
- * @param {*} pack
- * @param {Set<string>} classes 
- * @param {Set<string>} types 
- * @returns {Promise<Error[] | undefined>}
  */
-async function findErrorsInPackCards(pack, classes, types){
-    /** @type {Awaited<ReturnType<findErrorsInPackCards>>} */
-    const errorPs = []
+async function findErrorsInPackCards(pack: any, classes: Set<string>, types: Set<string>): Promise<Error[] | undefined>{
+    const errorPs: Awaited<ReturnType<typeof findErrorsInPackCards>> = []
 
     const {cycle_code, code} = pack
 
@@ -464,19 +423,10 @@ async function findErrorsInPackCards(pack, classes, types){
 }
 
 
+async function findErrorsInCollectionCards(packs: any[], classes: Set<string>, types: Set<string>): Promise<Error[] | undefined>{
+    let errorsPs: NonNullable<Awaited<ReturnType<typeof findErrorsInCollectionCards>>> = []
 
-/**
- * 
- * @param {*} packs 
- * @param {Set<string>} classes 
- * @param {Set<string>} types 
- * @returns {Promise<Error[] | undefined>}
- */
-async function findErrorsInCollectionCards(packs, classes, types){
-    /** @type {NonNullable<Awaited<ReturnType<findErrorsInCollectionCards>>>} */
-    let errorsPs = []
-
-    return Promise.all(packs.map(async (/** @type {{ reprint_type: any; }} */ pack) => {
+    return Promise.all(packs.map(async (pack: { reprint_type: string; }) => {
         if(!pack.reprint_type){
             // don't try to find cards for reprint packs
             const errs = await findErrorsInPackCards(pack, classes, types)
@@ -492,8 +442,8 @@ async function findErrorsInCollectionCards(packs, classes, types){
 operationsSynchronize.push(Promise.all([packsP, classesP, typesP, cycleForeignKeysInPacksP])
 .then(async ([packs, classes, types]) => {
 
-    const classCodes = new Set(classes.map((/** @type {{ code: any; }} */ c) => c.code))
-    const typesCodes = new Set(types.map((/** @type {{ code: any; }} */ t) => t.code))
+    const classCodes: Set<string> = new Set(classes.map((c: { code: any; }) => c.code))
+    const typesCodes: Set<string> = new Set(types.map((t: { code: any; }) => t.code))
 
     const collectionCardsErrors = await findErrorsInCollectionCards(packs, classCodes, typesCodes)
     if(collectionCardsErrors){
@@ -511,7 +461,8 @@ await Promise.allSettled(operationsSynchronize)
                 // @ts-ignore
                 (error.keyword ? // should be type guard isAJVErrorObject
                     // @ts-ignore
-                    makeAJVSchemaErrorMessage(error) : 
+                    makeAJVSchemaErrorMessage(error) :
+                    //@ts-ignore 
                     error.message);
 
 
