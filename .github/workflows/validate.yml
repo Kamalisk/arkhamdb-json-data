@@ -35,5 +35,5 @@ jobs:
           node-version: 26
       - run: npm ci
       - name: Run Node.js validator
-        run: node tools/validate_database.js
+        run: node tools/validate_database.ts
 
