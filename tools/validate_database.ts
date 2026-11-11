@@ -19,6 +19,14 @@ function makeAJVSchemaErrorMessage(ajvError: AJVErrorObject): string {
         return `Unexpected property '${additionalProperty}'`;
     }
 
+    if(ajvError.keyword === "minLength"){
+        const objectPath = ajvError.instancePath.replaceAll('/', '.')
+        const min = ajvError.params.limit
+
+        return `${objectPath} was expected to have a length of at least ${min}`;
+    }
+
+
     return `${ajvError.message}\nkeyword: ${
         ajvError.keyword
     }\nparams: ${JSON.stringify(ajvError.params)}}`;
