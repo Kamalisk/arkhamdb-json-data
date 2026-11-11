@@ -83,6 +83,11 @@
                 }
             ]
         },
+        "duplicate_of": {
+            "description": "The code of the card that the card is a duplicate of. Used for reprints such as revised core.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
         "errata_date": {
             "description": "Date of the last errata for the card.",
             "minLength": 10,
