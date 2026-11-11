@@ -1,0 +1,131 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Schema for translated cards. Translated card are like the English cards, but only with a 'code' and the string properties that need translating.",
+    "$comment": "For now, fields here are duplicate of card_schema.json. In the future, we could use $id and $ref to prevent duplication",
+    "type": "object",
+    "required": ["code"],
+    "additionalProperties": false,
+    "properties": {
+        "alternate_of": {
+            "description": "Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "back_flavor": {
+            "description": "Flavor text on the back of `double_sided` cards. Only use this if the flavor is different from the front.",
+            "minLength": 0,
+            "type": "string"
+        },
+        "back_link": {
+            "description": "Used for double-sided cards where the back is a different card. When this is set, the linked cards need the `hidden` property set to true. In simple cases, the `double_sided` and `back_` attributes should be used.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "back_name": {
+            "description": "Name on the back of `double_sided` cards. Only use this if the back name is different from the front.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_subname": {
+            "description": "Subname on the back of location cards. Use this if the subname is present on the unrevealed side of a location.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_text": {
+            "description": "Text on the back of `double_sided` cards. Only use this if the back text is different from the front.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "back_traits": {
+            "description": "Traits on the back of `double_sided` cards. Only use this if the back traits are different from the front.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "bonded_to": {
+            "description": "Name of the card that the card is bonded to.",
+            "type": "string"
+        },
+        "code": {
+            "description": "Unique identifier for the card. This is a 5-digit number that is followed by one or two letters. The first letter either marks the backside (b) or a variant of a card (a-x). In case of a variant, the second letter can be (b) to mark the variant's backside.",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
+            "type": "string"
+        },
+        "customization_change": {
+            "description": "List of changes corresponding (by line) to the unlocking of the customization options.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "customization_text": {
+            "description": "Customization text for the card, where each line corresponds to a customization option.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "deck_requirements": {
+            "description": "A comma-separated list of deckbuilding requirements for an investigator. null for investigators that don't have deckbuilding.",
+            "oneOf": [
+                {
+                    "minLength": 1,
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "deck_options": {
+            "description": "Array of objects encoding deck options for an investigator. null for investigators that don't have deckbuilding.",
+            "oneOf": [
+                {
+                    "type": "array"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "errata_date": {
+            "description": "Date of the last errata for the card.",
+            "minLength": 10,
+            "type": "string"
+        },
+        "flavor": {
+            "description": "Flavor text on the card.",
+            "oneOf": [
+                {
+                    "description": "Flavor text",
+                    "minLength": 1,
+                    "type": "string"
+                },
+                {
+                    "description": "Empty strings are used to clear out previously wrong attributes in arkhamdb",
+                    "const": ""
+                }
+            ]
+        },
+        "name": {
+            "description": "Name of the card.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "slot": {
+            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `\"Accessory\"`, `\"Ally\"`, `\"Arcane\"`, `\"Arcane x2\"`, `\"Body\"`, `\"Hand\"`, `\"Hand x2\"`. For a card occupying multiple slots, separate slots with a `.`.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "subname": {
+            "description": "Subname of the card.",
+            "minLength": 0,
+            "type": "string"
+        },
+        "text": {
+            "description": "Text on the card.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "traits": {
+            "description": "Traits on the card. Traits should include the period.",
+            "minLength": 0,
+            "type": "string"
+        }
+    }
+}
