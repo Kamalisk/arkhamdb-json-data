@@ -12,18 +12,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  validate_py:
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      - uses: actions/checkout@v7
-      - name: Setup Python
-        uses: actions/setup-python@v2.2.1
-      - run: pip install jsonschema
-      - name: Run Python validator
-        run: python $GITHUB_WORKSPACE/validate.py
-
   validate:
     runs-on: ubuntu-latest
 
