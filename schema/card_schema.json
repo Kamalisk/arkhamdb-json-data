@@ -167,8 +167,8 @@
         },
         "errata_date": {
             "description": "Date of the last errata for the card.",
-            "minLength": 10,
-            "type": "string"
+            "type": "string",
+            "pattern": "^20[0-9]{2}-[01][0-9]-[0123][0-9]$"
         },
         "enemy_damage": {
             "description": "Amount of damage dealt by an enemy. Should be omitted for enemies that don't deal damage.",
