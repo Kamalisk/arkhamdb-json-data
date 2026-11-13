@@ -1,10 +1,46 @@
 {
+    "type": "object",
+    "required": ["code", "pack_code", "position", "quantity"],
     "additionalProperties": true,
+    "$defs": {
+        "card_code": {
+            "description": "Unique identifier of a card. This is a 5-digit number that is followed by one or two letters. The first letter either marks the backside (b) or a variant of a card (a-x). In case of a variant, the second letter can be (b) to mark the variant's backside.\nOnce it's reached the master branch, it cannot be changed afterwards because it may risk to break dependant applications.",
+            "type": "string",
+            "pattern": "^[0-9]{5}[a-z]{0,2}?$"
+        },
+        "card_numerical_value": {
+            "oneOf": [
+                {
+                    "description": "Numerical value. Depending on the context, it may be per_investigator",
+                    "type": "integer",
+                    "minimum": 0
+                },
+                {
+                    "description": "X",
+                    "type": "integer",
+                    "const": -2
+                },
+                {
+                    "description": "*",
+                    "type": "integer",
+                    "const": -3
+                },
+                {
+                    "description": "?",
+                    "type": "integer",
+                    "const": -4
+                },
+                {
+                    "description": "-",
+                    "type": "null"
+                }
+            ]
+        }
+    },
     "properties": {
         "alternate_of": {
             "description": "Code of the card that the card is an alternate of. Used for parallel investigators and cards with alternate art.",
-            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
-            "type": "string"
+            "$ref": "#/$defs/card_code"
         },
         "back_flavor": {
             "description": "Flavor text on the back of `double_sided` cards. Only use this if the flavor is different from the front.",
@@ -18,8 +54,7 @@
         },
         "back_link": {
             "description": "Used for double-sided cards where the back is a different card. When this is set, the linked cards need the `hidden` property set to true. In simple cases, the `double_sided` and `back_` attributes should be used.",
-            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
-            "type": "string"
+            "$ref": "#/$defs/card_code"
         },
         "back_name": {
             "description": "Name on the back of `double_sided` cards. Only use this if the back name is different from the front.",
@@ -51,71 +86,20 @@
             "type": "string"
         },
         "clues": {
-            "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of clues on an act, location or enemy_location. Required to be present for those card types.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "clues_fixed": {
             "description": "When this is set to true, the `clues` value is fixed rather than scaling with the number of investigators.",
             "type": "boolean"
         },
         "code": {
-            "description": "Unique identifier for the card. This is a 5-digit number that is followed by one or two letters. The first letter either marks the backside (b) or a variant of a card (a-x). In case of a variant, the second letter can be (b) to mark the variant's backside.",
-            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
-            "type": "string"
+            "description": "Unique identifier for the card.",
+            "$ref": "#/$defs/card_code"
         },
         "cost": {
-            "description": "Resource cost of the card. Required for assets and events. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Resource cost of the card. Required for assets and events.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "customization_change": {
             "description": "List of changes corresponding (by line) to the unlocking of the customization options.",
@@ -160,33 +144,8 @@
             "type": "integer"
         },
         "doom": {
-            "description": "Number of doom on an agenda. Required to be present for agendas. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of doom on an agenda. Required to be present for agendas.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "double_sided": {
             "description": "Indicates that the card has a back side that can be modeled with the `back_` attributes.",
@@ -194,8 +153,7 @@
         },
         "duplicate_of": {
             "description": "The code of the card that the card is a duplicate of. Used for reprints such as revised core.",
-            "pattern": "^[0-9]{5}[a-z]{0,2}?$",
-            "type": "string"
+            "$ref": "#/$defs/card_code"
         },
         "encounter_code": {
             "description": "Code of the encounter set the card belongs to.",
@@ -218,62 +176,12 @@
             "type": "integer"
         },
         "enemy_evade": {
-            "description": "Enemy's evade value. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Enemy's evade value",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "enemy_fight": {
-            "description": "Enemy's fight value. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Enemy's fight value",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "enemy_horror": {
             "description": "Amount of horror dealt by an enemy. Should be omitted for enemies that don't deal horror.",
@@ -319,32 +227,7 @@
         },
         "health": {
             "description": "Number of health on any card that has health.",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "$ref": "#/$defs/card_numerical_value"
         },
         "health_per_investigator": {
             "description": "Indicates that the health value is per investigator.",
@@ -397,62 +280,12 @@
             "type": "string"
         },
         "sanity": {
-            "description": "Number of sanity on any card that has sanity. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of sanity on any card that has sanity.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "shroud": {
-            "description": "Shroud value of a location. Required to be present for location-like cards. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                }
-            ]
+            "description": "Shroud value of a location. Required to be present for location-like cards.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "side_deck_options": {
             "description": "Array of objects encoding extra deck options for || Jim. Matches the deck_options schema.",
@@ -464,124 +297,24 @@
             "type": "string"
         },
         "skill_agility": {
-            "description": "Number of agility icons on the card, or agility skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of agility icons on the card, or agility skill for an investigator.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "skill_combat": {
-            "description": "Number of combat icons on the card, or combat skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of combat icons on the card, or combat skill for an investigator.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "skill_intellect": {
-            "description": "Number of intellect icons on the card, or intellect skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of intellect icons on the card, or intellect skill for an investigator.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "skill_wild": {
             "description": "Number of wild icons on the card.",
             "type": "integer"
         },
         "skill_willpower": {
-            "description": "Number of willpower icons on the card, or willpower skill for an investigator. This can take an enum value for investigators. @see https://github.com/Kamalisk/arkhamdb-json-data/?tab=readme-ov-file#numerical-values",
-            "oneOf": [
-                {
-                    "description": "?",
-                    "type": "integer",
-                    "const": -4
-                },
-                {
-                    "description": "*",
-                    "type": "integer",
-                    "const": -3
-                },
-                {
-                    "description": "X",
-                    "type": "integer",
-                    "const": -2
-                },
-                {
-                    "description": "-",
-                    "type": "null"
-                },
-                {
-                    "description": "Numerical shroud",
-                    "type": "integer",
-                    "minimum": 0
-                }
-            ]
+            "description": "Number of willpower icons on the card, or willpower skill for an investigator.",
+            "$ref": "#/$defs/card_numerical_value"
         },
         "slot": {
             "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `\"Accessory\"`, `\"Ally\"`, `\"Arcane\"`, `\"Arcane x2\"`, `\"Body\"`, `\"Hand\"`, `\"Hand x2\"`. For a card occupying multiple slots, separate slots with a `.`.",
@@ -638,10 +371,5 @@
             "minimum": 0,
             "type": "integer"
         }
-    },
-    "required": ["code", "pack_code", "position", "quantity"],
-    "dependencies": {
-        "name": ["faction_code", "type_code"]
-    },
-    "type": "object"
+    }
 }
