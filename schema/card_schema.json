@@ -8,7 +8,7 @@
         "card_code": {
             "description": "Unique identifier of a card. This is a 5-digit number that can be followed by one or two letters. The first letter either marks the backside (b) or a variant of a card (a-x). In case of a variant, the second letter can be (b) to mark the variant's backside.\nOnce it's reached the master branch, it cannot be changed afterwards because it may risk to break dependant applications.",
             "type": "string",
-            "pattern": "^[0-9]{5}[a-z]{0,2}?$"
+            "pattern": "^[0-9]{5}[a-z]?b?$"
         },
         "card_numerical_value": {
             "oneOf": [
