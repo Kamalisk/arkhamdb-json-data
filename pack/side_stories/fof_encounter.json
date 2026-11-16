@@ -16,7 +16,7 @@
     {
         "back_flavor": "The stray glances that you have started attracting from the dealers and guards have become more frequent. In a shadowed corner, a group of uniformed security gathers together in conversation. As you watch them, one looks at you and points in your direction. They begin to head your way...",
         "back_name": "Worn Out Welcome",
-        "back_text": "If the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you \"cleaned out the house.\" <b>(→R1)</b>",
+        "back_text": "If the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you \"cleaned out the house.\"\n<b>(→R1)</b>",
         "code": "88002",
         "doom": 8,
         "double_sided": true,
@@ -76,7 +76,7 @@
     {
         "back_flavor": "You try desperately to escape, but your luck has run out at last. Several cultists wearing familiar coin medallions block your way out. Behind you, the horrifying creatures that were summoned by the Wellspring's power rampage through the casino. Chaos erupts around you. It is only then the crowds and the casino security seem to finally notice the horrible truth lurking within the casino. You try your best to fend off both the creatures and the cultists, and you barely escape with your life.",
         "back_name": "Cleaned Out",
-        "back_text": "Each investigator who did not resign is defeated and suffers 1 physical trauma. <b>(→R3)</b>",
+        "back_text": "Each investigator who did not resign is defeated and suffers 1 physical trauma.\n<b>(→R3)</b>",
         "code": "88005",
         "doom": 12,
         "double_sided": true,
@@ -96,7 +96,7 @@
     {
         "back_flavor": "With one last parting glance, you exit the casino. You're confident that none of the dealers or security suspected you for anything other than what you pretended to be: just another hopeful gambler. Regardless of any money that you made or lost tonight, your real winnings will be the information that you were able to gather. You hope that it will be enough to prepare you for the improbable scheme that you must now concoct and pull off.",
         "back_name": "Come Back Soon!",
-        "back_text": "Each investigator who was defeated raises their alarm level by 2.\nIf the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you \"cleaned out the house.\" <b>(→R2)</b>",
+        "back_text": "Each investigator who was defeated raises their alarm level by 2.\nIf the investigators, as a group, possess 10 [per_investigator] or more resources, remember that you \"cleaned out the house.\"\n<b>(→R2)</b>",
         "clues": null,
         "code": "88006",
         "double_sided": true,
@@ -135,7 +135,7 @@
     {
         "back_flavor": "There were times when you weren't sure whether you would make it out of the casino with your skin and soul intact, but here you stand. It almost feels like a dream, but you can still hear a commotion inside. It's time to leave this place behind and make yourself scarce.",
         "back_name": "Sweet Freedom",
-        "back_text": "Each investigator who has not resigned is defeated and suffers 1 physical trauma. <b>(→R1)</b>",
+        "back_text": "Each investigator who has not resigned is defeated and suffers 1 physical trauma.\n<b>(→R1)</b>",
         "clues": null,
         "code": "88008",
         "double_sided": true,
@@ -454,7 +454,7 @@
         "position": 21,
         "quantity": 1,
         "shroud": 3,
-        "text": "[action] <b>Move.</b> Discard the top card of the encounter deck and check its game icon (if an investigator \"obtained a schematic,\" you may mulligan up to two times):\n- Ifits suit is ♣ or ♠: Move to Guard Room.\n- If its suit is ♥: Move to Casino Lounge.\n- If its suit is ♦: Move to Baccarat Table.",
+        "text": "[action] <b>Move.</b> Discard the top card of the encounter deck and check its game icon (if an investigator \"obtained a schematic,\" you may mulligan up to two times):\n- If its suit is ♣ or ♠: Move to Guard Room.\n- If its suit is ♥: Move to Casino Lounge.\n- If its suit is ♦: Move to Baccarat Table.",
         "traits": "Restricted. Casino.",
         "type_code": "location"
     },
@@ -566,7 +566,7 @@
         "pack_code": "fof",
         "position": 28,
         "quantity": 1,
-        "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location and test [willpower] or [intellect] (3). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
+        "text": "Cannot be discarded.\n[action]: <b>Parley.</b> Choose a [[Casino]] enemy at your location and test [willpower] or [intellect] (3). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
         "traits": "Role. Unpracticed.",
         "type_code": "asset"
     },
@@ -581,7 +581,7 @@
         "pack_code": "fof",
         "position": 28,
         "quantity": 1,
-        "text": "Cannot be discarded.\n[action] <b>Parley.</b> Choose a [[Casino]] enemy at your location or a connecting location and test [willpower] or [intellect] (2). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
+        "text": "Cannot be discarded.\n[action]: <b>Parley.</b> Choose a [[Casino]] enemy at your location or a connecting location and test [willpower] or [intellect] (2). If you succeed, exhaust The Face to reduce any investigator's alarm level by 1.",
         "traits": "Role. Practiced.",
         "type_code": "asset"
     },
@@ -657,7 +657,7 @@
         "pack_code": "fof",
         "position": 31,
         "quantity": 1,
-        "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of a discarded game icon <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
+        "text": "Cannot be discarded.\n[reaction] When you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of a discarded game icon <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
         "traits": "Role. Unpracticed.",
         "type_code": "asset"
     },
@@ -672,7 +672,7 @@
         "pack_code": "fof",
         "position": 31,
         "quantity": 1,
-        "text": "Cannot be discarded.\n[reaction]\nWhen you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of up to 2 discarded game icons <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
+        "text": "Cannot be discarded.\n[reaction] When you check game icons while resolving an ability on a [[Game]] location, exhaust The Grifter: Choose one -\n- Raise your alarm level by 1 to change the rank, suit, or color of up to 2 discarded game icons <i>(to anything)</i>.\n- Reduce your alarm level by 1.",
         "traits": "Role. Practiced.",
         "type_code": "asset"
     },
@@ -742,7 +742,7 @@
         "position": 34,
         "quantity": 1,
         "subname": "The Man with the Ruby Ring",
-        "text": "Aloof. Patrol (clockwise).\n<b>Forced</b> - When you engage Abarran Arrigorriagakoa: Immediately advance the agenda.\n[action]: Test [agility](3). If you fail, raise your alarm level by 1. If you succeed, discard the top card of the encounter deck and check its game icon. If its color is red, remember that you \"stole Abarran's keys.\"\n♦A",
+        "text": "Aloof. Patrol (clockwise).\n<b>Forced</b> - When you engage Abarran Arrigorriagakoa: Immediately advance the agenda.\n[action]: Test [agility] (3). If you fail, raise your alarm level by 1. If you succeed, discard the top card of the encounter deck and check its game icon. If its color is red, remember that you \"stole Abarran's keys.\"\n♦A",
         "traits": "Humanoid. Casino. Coterie. Elite.",
         "type_code": "enemy"
     },
