@@ -321,8 +321,23 @@
         },
         "slot": {
             "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `\"Accessory\"`, `\"Ally\"`, `\"Arcane\"`, `\"Arcane x2\"`, `\"Body\"`, `\"Hand\"`, `\"Hand x2\"`. For a card occupying multiple slots, separate slots with a `.`.",
-            "minLength": 1,
-            "type": "string"
+            "enum": [
+                "Accessory",
+                "Ally",
+                "Arcane",
+                "Arcane x2",
+                "Body",
+                "Hand",
+                "Hand x2",
+                "Head",
+                "Tarot",
+                "Ally. Arcane",
+                "Arcane. Accessory",
+                "Body. Arcane",
+                "Hand. Arcane",
+                "Hand x2. Arcane",
+                "Body. Hand x2"
+            ]
         },
         "stage": {
             "description": "Stage of the act or agenda. Required to be present for acts.",
