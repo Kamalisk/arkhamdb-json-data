@@ -320,9 +320,10 @@
             "$ref": "#/$defs/card_numerical_value"
         },
         "slot": {
-            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot. Slots include `\"Accessory\"`, `\"Ally\"`, `\"Arcane\"`, `\"Arcane x2\"`, `\"Body\"`, `\"Hand\"`, `\"Hand x2\"`. For a card occupying multiple slots, separate slots with a `.`.",
-            "minLength": 1,
-            "type": "string"
+            "description": "Slot of an asset. Can be omitted for assets that don't occupy a slot.",
+            "type": "string",
+            "pattern": "^((Accessory|Ally|Body|Head|Tarot|Hand( x2)?|Arcane( x2)?)(\\. )?)*$",
+            "minLength": 1
         },
         "stage": {
             "description": "Stage of the act or agenda. Required to be present for acts.",
