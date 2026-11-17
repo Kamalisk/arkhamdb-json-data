@@ -2,8 +2,8 @@
     {
         "code": "10501",
         "name": "바위에 새겨져 있나니",
-        "text": "쉬움 / 보통 - 주요목적 1\n[skull]: -X. X는 당신이 위치한 장소의 세로줄 번호입니다.\n[cultist]: -1. 이 카드에 자원을 1개 놓습니다(이자원 토큰은 ‘폐품’으로 간주합니다).\n[tablet]: -2. 실패하면, 이 카드에서 폐품을 1개제거합니다.\n[elder_thing]: -3. 실패하면, 피해를 1 받습니다.",
-        "back_text": "쉬움 / 보통 - 주요목적 2\n[skull]: -X.X는 당신이 위치한 장소의 세로줄번호입니다.\n[cultist]: -2. 이 카드에 자원을 1개 놓습니다(이자원 토큰은 ‘스위치’로 간주합니다).\n[tablet]: -3. 실패하면, ‘광차’를 1칸 이동시킵니다.\n[elder_thing]: -4. 실패하면, 이 카드에서 스위치를 1개 제거합니다."
+        "text": "쉬움 / 보통 - 주요목적 1\n[skull]: -X. X는 당신이 위치한 장소의 세로줄 번호입니다.\n[cultist]: -1. 이 카드에 자원을 1개 놓습니다(이 자원 토큰은 ‘폐품’으로 간주합니다).\n[tablet]: -2. 실패하면, 이 카드에서 폐품을 1개 제거합니다.\n[elder_thing]: -3. 실패하면, 피해를 1 받습니다.",
+        "back_text": "쉬움 / 보통 - 주요목적 2\n[skull]: -X.X는 당신이 위치한 장소의 세로줄 번호입니다.\n[cultist]: -2. 이 카드에 자원을 1개 놓습니다(이 자원 토큰은 ‘스위치’로 간주합니다).\n[tablet]: -3. 실패하면, ‘광차’를 1칸 이동시킵니다.\n[elder_thing]: -4. 실패하면, 이 카드에서 스위치를 1개 제거합니다."
     },
     {
         "code": "10502",
@@ -76,7 +76,7 @@
         "code": "10510a",
         "flavor": "The crystals emanate a strange light.",
         "name": "좌회전 선로",
-        "text": "[action] [action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
+        "text": "[action][action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
         "traits": "철로.",
         "back_name": "갱도 선로",
         "back_flavor": "These tracks really don't look safe."
@@ -94,7 +94,7 @@
         "code": "10511a",
         "flavor": "A strange light emanates from the crystals.",
         "name": "우회전 선로",
-        "text": "[action] [action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
+        "text": "[action][action]: Swap 2 adjacent [[Rail]] locations. (Group limit once per game.)",
         "traits": "철로.",
         "back_name": "갱도 선로",
         "back_flavor": "These tracks really don't look safe."
@@ -549,7 +549,7 @@
     {
         "code": "10560",
         "name": "수정 부화장",
-        "text": "<b>Revelation</b> - Put Crystal Nursery into play adjacent to the location from which it was drawn <b>([codex] Ф)</b> <i>(page 21)</i>.\n[reaction] After you end your turn in Crystal Nursery, take 1 direct horror: Draw the top card of the stack beneath Crystal Nursery. (Group limit once per round.)",
+        "text": "<b>Revelation</b> - Put Crystal Nursery into play adjacent to the location from which it was drawn <b>([codex] Φ)</b> <i>(page 21)</i>.\n[reaction] After you end your turn in Crystal Nursery, take 1 direct horror: Draw the top card of the stack beneath Crystal Nursery. (Group limit once per round.)",
         "traits": "동굴. 은거처. 마름병."
     },
     {
@@ -610,8 +610,8 @@
     {
         "code": "10569",
         "name": "실종된 여동생",
-        "text": "Easy / Standard\n[skull]: -X. X는 플레이 상태이고 공개된 [[동굴]] 장소 개수의 절반입니다(소수점 올림).\n[cultist]: -1. 성공하면, 공포를 1 회복합니다.\n[tablet]: -2. 당신이 [[동굴]] 장소에 있다면, 이 토큰의 보정값을 -2 대신 -4로 취급합니다.n[elder_thing]: -2. 당신이 위치한 장소에 [[흉물]] 적이 있다면, 다른 혼돈 토큰을 하나 더 공개합니다.",
-        "back_text": "Hard / Expert\n[skull]: -X. X는 플레이 상태이고 공개된 [[동굴]] 장소 개수입니다.\n[cultist]: -1. 난이도를 넘어선 차이 2 이상으로 성공하면, 공포를 1 회복합니다.\n[tablet]: -4. 당신이 [[동굴]] 장소에 있다면, 이 토큰의 보정값을 -4 대신 -6으로 취급합니다.\n[elder_thing]: -3. 당신이 위치한 장소에 [[흉물]] 적이 있다면, 그 대신 이번 테스트가 자동 실패합니다."
+        "text": "쉬움 / 보통\n[skull]: -X. X는 플레이 상태이고 공개된 [[동굴]] 장소 개수의 절반입니다(소수점 올림).\n[cultist]: -1. 성공하면, 공포를 1 회복합니다.\n[tablet]: -2. 당신이 [[동굴]] 장소에 있다면, 이 토큰의 보정값을 -2 대신 -4로 취급합니다.n[elder_thing]: -2. 당신이 위치한 장소에 [[흉물]] 적이 있다면, 다른 혼돈 토큰을 하나 더 공개합니다.",
+        "back_text": "어려움 / 전문가\n[skull]: -X. X는 플레이 상태이고 공개된 [[동굴]] 장소 개수입니다.\n[cultist]: -1. 난이도를 넘어선 차이 2 이상으로 성공하면, 공포를 1 회복합니다.\n[tablet]: -4. 당신이 [[동굴]] 장소에 있다면, 이 토큰의 보정값을 -4 대신 -6으로 취급합니다.\n[elder_thing]: -3. 당신이 위치한 장소에 [[흉물]] 적이 있다면, 그 대신 이번 테스트가 자동 실패합니다."
     },
     {
         "code": "10570",
@@ -1715,7 +1715,7 @@
         "flavor": "The mill appears to have been overtaken by sharp, knotted vines and fecund vegetation.",
         "name": "오래된 제분소",
         "subname": "아침 [day]",
-        "text": "[action] [action]: Discover 1 clue at The Old Mill.",
+        "text": "[action][action]: Discover 1 clue at The Old Mill.",
         "traits": "헴록 베일."
     },
     {
@@ -1804,13 +1804,13 @@
         "code": "10698",
         "name": "기디언 미즈라",
         "subname": "노련한 선원",
-        "text": "While you control Gideon Mizrah, you have 1 additional accessory slot.\n[action] [action]: <b>Parley.</b> <b>([codex] 6)</b>.\n<b>Forced</b> - After Gideon Mizrah is defeated: Set him aside, out of play. In your Campaign Log, decrease his Relationship Level.",
+        "text": "While you control Gideon Mizrah, you have 1 additional accessory slot.\n[action][action]: <b>Parley.</b> <b>([codex] 6)</b>.\n<b>Forced</b> - After Gideon Mizrah is defeated: Set him aside, out of play. In your Campaign Log, decrease his Relationship Level.",
         "traits": "주민."
     },
     {
         "code": "10698b",
         "name": "기디언 미즈라",
-        "text": "Retaliate.\n<b>Forced</b> - After Gideon Mizrah attacks you: Discard 1 card at random from your hand.\n[action] [action] [action]: <b>Parley.</b> Set Gideon Mizrah aside, out of play.",
+        "text": "Retaliate.\n<b>Forced</b> - After Gideon Mizrah attacks you: Discard 1 card at random from your hand.\n[action][action][action]: <b>Parley.</b> Set Gideon Mizrah aside, out of play.",
         "traits": "인간형. 주민. 정예."
     },
     {

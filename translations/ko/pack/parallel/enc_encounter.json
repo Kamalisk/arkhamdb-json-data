@@ -1,0 +1,33 @@
+[
+    {
+        "code": "90094",
+        "name": "매혹적인 앙코르",
+        "text": "쉬움 / 보통\n[skull]: -X. X는 악절 개수입니다.\n[cultist]: -2. 실패하면, 당신은 단서를 1개 소비하거나 피해를 1 받아야 합니다.\n[tablet]: -3(당신이 조종하는 카드 가운데 서로 다른 역할군이 3가지 이상이라면, -3 대신 -5).\n[elder_thing]: -2. ‘사악한 바이올린 독주자’가 당신이 위치한 장소에 있다면, 다른 혼돈 토큰을 하나 더 공개합니다.",
+        "back_text": "어려움 / 전문가\n[skull]: -X. X는 “악절 개수+1”입니다.\n[cultist]: -3. 실패하면, 당신은 단서를 1개 소비하고 피해를 1 받아야 합니다.\n[tablet]: -4(당신이 조종하는 카드 가운데 서로 다른 역할군이 3가지 이상이라면, -4 대신 -6).\n[elder_thing]: -3. ‘사악한 바이올린 독주자’가 당신이 위치한 장소에 있다면, 그 대신 자동 실패합니다."
+    },
+    {
+        "code": "90095",
+        "flavor": "The theatre is closed and quiet, as it has been since those days during the phantom production of <i>The King in Yellow</i>. As you take in your surroundings, you hear it again - the haunting violin. Someone is here, and they are keeping the memory of that production alive.",
+        "name": "와드 극장에 출몰한 공포",
+        "text": "[fast] While at Sinister Soloist's location, discard 1 card of each class from your hand ([guardian], [seeker], [rogue], [mystic], and [survivor]): <b>Parley.</b> Automatically evade Sinister Soloist. Treat Sinister Soloist's text box as if it were blank (except for [[Traits]]) for the remainder of the round.",
+        "back_name": "어스레한 카르코사의 비가",
+        "back_flavor": "The soloist haunts your steps, ever present and always playing that maddening song. You feel the musical notes take root in your mind, threatening to pull you out of the theatre and into another world, one you think you've visited before...",
+        "back_text": "Place 1 resource on the scenario reference card, as a measure. Then if there are 5 or more measures, each investigator is defeated and suffers 1 mental trauma.\nOtherwise, each investigator must test [willpower](3). Each investigator who fails takes 1 horror and sets aside 1 non-permanent, non-weakness asset they control. Then, shuffle each asset set aside by this effect into the Props deck. If all investigators fail this test, remove 1[per_investigator] damage from Sinister Soloist.\nPlace clues on each revealed location, up to its clue value.\nShuffle the encounter discard pile into the encounter deck. Reset this agenda to agenda 1a."
+    },
+    {
+        "code": "90096",
+        "flavor": "The soloist stands on stage, their gangly arms moving with mechanical precision as they play the violin. Their face is shrouded in shadow, but their song follows you throughout the theatre.",
+        "name": "과거로부터 풀려나다",
+        "text": "[fast] Investigators at the same [[Private]] location spend 1 [per_investigator] clues, as a group: <b>Parley.</b> Reveal the top 3 cards of the Props deck and choose an investigator to draw 1 of them. Shuffle the remaining cards together and place them on the bottom of the Props deck.\n<b>Objective</b> - When Sinister Soloist is in the victory display, advance.",
+        "back_name": "마지막 인사",
+        "back_flavor": "The soloist crumples before you, collapsing to the floor in a puff of acrid, black smoke and glowing embers, reeking of rosin. Your skin burns and your eyes water, forcing you to turn away. Coughing and waving your arms to clear the air, the smoke eventually dissipates. The soloist is nowhere to be seen. The theatre is quiet once again, as is your mind. Whatever unresolved business this stage held seems to be finished now. You turn and head back to the lobby, ready to put the Ward Theatre behind you for good.",
+        "back_text": "<b>(→R1)</b>"
+    },
+    {
+        "code": "90097",
+        "name": "사악한 바이올린 독주자",
+        "subname": "카르코사의 음유시인",
+        "text": "Alert. Aloof. Elusive. Hunter.\nAs an additional cost to play a non-Neutral card at Sinister Soloist's location, you must take 1 horror.\n<b>Forced</b> - When the enemy phase ends, if Sinister Soloist is ready: Each investigator at Sinister Soloist's location and each connecting location takes 1 direct horror.",
+        "traits": "괴물. 정예."
+    }
+]
