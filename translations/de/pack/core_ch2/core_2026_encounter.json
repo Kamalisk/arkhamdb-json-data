@@ -1,0 +1,684 @@
+[
+    {
+        "code": "12105",
+        "name": "Auflodernde Flammen",
+        "text": "<b>Einfach / Normal</b>\n[skull]: -X. X ist die Nummer der aktuellen Szene.\n[tablet]: -1. Enthülle einen weiteren Marker. Falls die Probe misslingt, nimm 1 Schaden.\n[elder_thing]: -3. Falls die Probe um 2 oder mehr misslingt, ziehe die oberste Kopie von Feuer! im Begegnungs-Ablagestapel, falls möglich.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull]: -X. X ist die Nummer der aktuellen Szene + 1.\n[tablet]: -2. Enthülle einen weiteren Marker. Falls die Probe misslingt, nimm 1 Schaden.\n[elder_thing]: -4. Falls die Probe misslingt, ziehe die oberste Kopie von Feuer! im Begegnungs-Ablagestapel, falls möglich."
+    },
+    {
+        "code": "12106",
+        "name": "Nach der Sperrstunde",
+        "flavor": "Auf dem Campus ist es seltsam still. Von deinem Freund fehlt jede Spur. Während verhüllte Gestalten quer über den Platz laufen, eilen nervöse Studenten im Licht greller Straßenlaternen über die Wege des Freigeländes der Universität.",
+        "text": "[action]: <b>Verhandlung.</b> Lege eine [intellect]-Probe (2) ab. Falls die Probe gelingt, lege einen Unbeteiligter-Gegner an deinem Ort ab.",
+        "back_name": "Rauch liegt in der Luft",
+        "back_flavor": "Der Wind trägt den Geruch von Rauch über den Campus. Plötzlich schießt eine Stichflamme aus einem nahe gelegenen Gebäude empor.",
+        "back_text": "Jeder Ermittler legt in Spielerreihenfolge eine [willpower]-Probe (3) ab. Jeder Ermittler, dem die Probe misslingt, nimmt 1 Horror."
+    },
+    {
+        "code": "12107",
+        "name": "Entflammt",
+        "flavor": "Der Himmel leuchtet schwach orange, während sich die Flammen ausbreiten.",
+        "text": "[action]: <b>Verhandlung.</b> Lege eine [intellect]-Probe (2) ab. Falls die Probe gelingt, lege einen Unbeteiligter-Gegner an deinem Ort ab.",
+        "back_name": "Das Feuer ist außer Kontrolle",
+        "back_flavor": "Ascheflocken wirbeln durch die Luft über der Miskatonic Universität. Das Heulen des Feueralarms hallt über den Platz, während Dutzende verängstigte Studenten vom Gelände fliehen.",
+        "back_text": "Falls die 4 Kopien von Feuer! noch immer beiseitegelegt sind, platziere sie im Begegnungs-Ablagestapel.\nJeder Ermittler legt in Spielerreihenfolge eine [agility]-Probe (3) ab. Jeder Ermittler, dem die Probe misslingt, nimmt 1 Schaden."
+    },
+    {
+        "code": "12108",
+        "name": "Wilde Flammen",
+        "flavor": "Der Campus steht in Flammen!",
+        "text": "[action]: <b>Verhandlung.</b> Lege eine [intellect]-Probe (2) ab. Falls die Probe gelingt, lege einen Unbeteiligter-Gegner an deinem Ort ab.\n<b>Erzwungen</b> – Nachdem Verderben auf der Agenda platziert worden ist: Der Ermittlungsleiter zieht die oberste Kopie von Feuer! im Begegnungs-Ablagestapel.",
+        "back_name": "Lichterloh",
+        "back_flavor": "Die Luft ist von dichtem, schwarzem Rauch erfüllt. Du fällst hustend auf die Knie. Verschwommen kannst du dunkle Gestalten ausmachen, die sich irgendwo hinter den lodernden Flammen bewegen. So sehr du dich auch mühst, du schaffst es nicht mehr, dich aus eigener Kraft in Sicherheit zu bringen. Alles verschwimmt vor deinen Augen, kurz bevor du das Bewusstsein verlierst.",
+        "back_text": "Jeder überlebende Ermittler, der nicht aufgegeben hat, ist besiegt und erleidet 1 körperliches Trauma."
+    },
+    {
+        "code": "12109",
+        "name": "Wo Rauch ist ...",
+        "flavor": "Du durchsuchst die Studentenwohnheime nach deinem Freund.",
+        "text": "<b>Ermittlungsziel</b> – Am Ende der Runde dürfen die Ermittler als Gruppe die benötigten Hinweise ausgeben, um vorzurücken.",
+        "back_name": "... da ist auch Feuer",
+        "back_flavor": "Du findest die Tasche deines Freundes. Darauf ist ein stilisiertes Zeichen in Form einer offenen Hand eingebrannt. Wo auch immer dein Freund nun ist, er wird nicht freiwillig mitgegangen sein. Als du dich zum Gehen umwendest, versperrt dir eine maskierte, von Flammen eingehüllte Gestalt den Weg. Sofort geht das Zimmer um dich herum in Flammen auf und die Gestalt stößt einen markerschütternden Schrei aus.",
+        "back_text": "Lege jeden Gegner im Spiel ab.\nBringe die beiseitegelegten Orte Studentenwohnheime und Miskatonic-Freigelände ins Spiel. Der beiseitegelegte Gegner Diener der Flamme erscheint in den Studentenwohnheimen.\nHänge 1 beiseitegelegte Kopie von Feuer! an den Ort Zimmer deines Freundes an. Platziere jede andere beiseitegelegte Kopie von Feuer! im Begegnungs-Ablagestapel."
+    },
+    {
+        "code": "12110",
+        "name": "Flucht aus dem Wohnheim",
+        "flavor": "Die brennende Erscheinung steht zwischen dir und dem Ausgang. Dennoch muss es dir irgendwie gelingen, aus dem Wohnheim zu entkommen!",
+        "text": "<b>Ermittlungsziel</b> – Falls sich jeder unbesiegte Ermittler auf dem Miskatonic-Freigelände befindet, rücke vor. <i>(Tipp: Manchmal ist es besser wegzulaufen, als zu kämpfen!)</i>",
+        "back_name": "Wieder im Freien",
+        "back_flavor": "Du schaffst es aus den Wohnheim nach draußen. Dir bersten fast die Lungen, als du hinaus in den kühlen Herbstabend ins Freie trittst. Nervös schaust du zurück, doch von deinem Verfolger fehlt jede Spur. Du erinnerst dich, dass dein Freund vorhatte, bei Dr. Henry Armitage, dem Bibliotheksleiter der Miskatonic Universität, Rat zu suchen. Vielleicht kann er dir helfen, zu verstehen, was hier vor sich geht.",
+        "back_text": "Durchsuche alle Zonen im und außerhalb des Spiels nach dem Gegner Diener der Flamme, heile allen Schaden von ihm und lege ihn als nicht im Spiel befindlich beiseite.\nLege jeden Gegner im Spiel ab.\nLege alle Marker und Verstärkungen vom Ort Zimmer deines Freundes ab und entferne ihn aus dem Spiel. Bringe die beiseitegelegten Orte <i>(Orne-Bibliothek, Haus der Naturwissenschaften, Warren-Observatorium)</i> ins Spiel."
+    },
+    {
+        "code": "12111",
+        "name": "Die Suche nach Dr. Armitage",
+        "flavor": "Dein Freund hatte erwähnt, dass er den Bibliotheksleiter Dr. Henry Armitage besuchen wollte. Als du dich auf die Suche nach ihm begibst, tauchen auf dem Campus immer mehr seltsame Gestalten auf.",
+        "text": "<b>Ermittlungsziel</b> – Am Ende der Runde dürfen die Ermittler in der Orne-Bibliothek als Gruppe die benötigten Hinweise ausgeben, um vorzurücken.",
+        "back_name": "Der entfesselte Diener",
+        "back_flavor": "Du findest Dr. Armitage in einem der Hörsäle der Orne-Bibliothek, wo er sich verschanzt hat.\n„Einige Leute auf dem Campus verhalten sich in letzter Zeit äußerst seltsam, darunter auch Ihr Freund. Doch all das kann warten. Wir müssen Ihren Verfolger stellen und aufhalten, bevor der gesamte Campus in Flammen aufgeht!“, sagt Dr. Armitage bestimmt.",
+        "back_text": "Bringe die beiseitegelegte Storyvorteilskarte Dr. Henry Armitage unter der Kontrolle eines beliebigen Ermittlers ins Spiel. Er benötigt für dieses Szenario keinen Verbündeter-Slot.\nBringe den beiseitegelegten Gegner Diener der Flamme auf dem Miskatonic-Freigelände ins Spiel. Platziere 3 [per_investigator] Hinweise auf dem Miskatonic-Freigelände.\nDer Ermittlungsleiter muss das Begegnungsdeck und den Ablagestapel nach 1 [per_investigator] Kopie von Feuer! durchsuchen und sie ziehen. <i>(Mische das Begegnungsdeck, falls es durchsucht wurde.)</i>"
+    },
+    {
+        "code": "12112",
+        "name": "Mit Feuereifer",
+        "flavor": "Dein feuriger Widersacher darf nicht noch mehr Unschuldige verletzen! Mit Dr. Armitages Hilfe kannst du ihn vielleicht aufhalten.",
+        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Füge einem Gegner an deinem Ort 1 [per_investigator] Schaden zu.\n[action]: <b>Aufgeben.</b> Du flüchtest vom brennenden Campus. <i>(Dies provoziert keine Gelegenheitsangriffe.)</i>\n<b>Ermittlungsziel</b> – Falls der Diener der Flamme besiegt wird: Rücke vor.",
+        "back_name": "Erloschene Flammen",
+        "back_flavor": "Dein albtraumhafter Verfolger taumelt zurück, beide Hände an den Kopf gepresst, als wolle er sich die Maske vom Gesicht reißen. In der Ferne ist Sirenengeheul zu hören, das immer lauter wird. Als du dich umblickst, siehst du eine Gruppe verängstigter Studenten an dir vorbeieilen. Dann willst du deinen Blick wieder auf deinen flammenden Widersacher richten, doch er ist spurlos verschwunden.",
+        "back_text": "<b>(→A1)</b> <i>(Seite 4)</i>"
+    },
+    {
+        "code": "12113",
+        "name": "Zimmer deines Freundes",
+        "traits": "Miskatonic.",
+        "flavor": "Das Wohnheim füllt sich schnell mit Rauch.",
+        "text": "[action]: <b>In einen Kampf verwickeln.</b> Wähle einen Gegner an einem verbundenen Ort. Jener Gegner bewegt sich an diesen Ort und verwickelt dich in einen Kampf. Diese Aktion provoziert keine Gelegenheitsangriffe.",
+        "back_name": "Zimmer deines Freundes",
+        "back_flavor": "Das Zimmer deines Freundes ist verlassen. Überall liegen Papiere, Bücher und Zeitungsausschnitte herum. War hier ein überarbeiteter Geist am Werk oder hat jemand Fremdes das Material durchwühlt?"
+    },
+    {
+        "code": "12114",
+        "name": "Diener der Flamme",
+        "subname": "Rasende Wut",
+        "traits": "Humanoid. Elite.",
+        "text": "Jäger. Beute (niedrigster [agility]-Wert). Zurückschlagen."
+    },
+    {
+        "code": "12115",
+        "name": "Dr. Henry Armitage",
+        "subname": "Bibliotheksleiter",
+        "slot": "Verbündeter",
+        "traits": "Verbündeter. Miskatonic.",
+        "flavor": "„Ich habe schon mehr als genug seltsame Vorfälle erlebt.“",
+        "text": "Du bekommst +1 [willpower] und +1 [intellect].\nDie erste Aktion, die du in jeder Runde durchführst, provoziert keine Gelegenheitsangriffe."
+    },
+    {
+        "code": "12116",
+        "name": "Miskatonic-Freigelände",
+        "traits": "Miskatonic. Zentral.",
+        "text": "[fast] In deinem Zug, falls sich genau 1 oder 2 Ermittler im Spiel befinden: Bewege dich an einen verbundenen Ort. (Nur 1 Mal pro Runde für die gesamte Gruppe.)",
+        "back_flavor": "Das Freigelände ist der zentrale Verbindungspunkt der Miskatonic Universität."
+    },
+    {
+        "code": "12117",
+        "name": "Studentenwohnheime",
+        "traits": "Miskatonic.",
+        "flavor": "In den Wohnheimen wird es nie langweilig.",
+        "text": "[action]: Heile 1 Schaden und 1 Horror. (Nur 1 Mal pro Spiel.)",
+        "back_flavor": "Die kürzlich renovierten Wohnheime bieten einige der modernsten Annehmlichkeiten, darunter Klimaanlage, Toiletten mit Wasserspülung und einen gemeinschaftlichen Eisschrank."
+    },
+    {
+        "code": "12118",
+        "name": "Haus der Naturwissenschaften",
+        "traits": "Miskatonic.",
+        "flavor": "Es ist nie sicher, was heute unter dem Mikroskop zu sehen sein wird.",
+        "text": "<b>Erzwungen</b> – Nachdem du im Haus der Naturwissenschaften 1 oder mehr Hinweise entdeckt hast: Wähle 1 Karte von deiner Hand und lege sie ab.",
+        "back_flavor": "Warum die West Memorial Science Hall am nördlichen Ende des Campus gebaut wurde, ist gelinde gesagt, etwas verwirrend. Unter Studenten und Kollegium hat sich deshalb der Name „Haus der Naturwissenschaften“ eingebürgert. Die Studenten sind mehr als zufrieden mit den modernen Einrichtungen und den wissenschaftlichen Geräten, die auf dem neusten Stand der Technik sind."
+    },
+    {
+        "code": "12119",
+        "name": "Warren-Observatorium",
+        "traits": "Miskatonic.",
+        "flavor": "Bis heute haben die Astronomen von der Miskatonic Universität mindestens 15 verschiedene Sterne identifiziert, die vom Nachthimmel der Nordhalbkugel verschwunden zu sein scheinen.",
+        "text": "[reaction] Nachdem du an diesem Ort 1 oder mehr Hinweise entdeckt hast: Ziehe 1 Karte. (Nur 1 Mal pro Runde.)",
+        "back_flavor": "Dank einer großzügigen Spende von Tillinghast Endeavors konnte die Universität das geschichtsträchtige Observatorium wiedereröffnen – größer und besser als je zuvor."
+    },
+    {
+        "code": "12120",
+        "name": "Orne-Bibliothek",
+        "traits": "Miskatonic.",
+        "flavor": "Studenten haben von seltsamen Geräuschen berichtet, die nachts aus dem leeren Archiv zu kommen scheinen ...",
+        "text": "[action][action]: Ziehe 3 Karten. (Nur 1 Mal pro Spiel.)",
+        "back_flavor": "Seit der Überschwemmung haben die Bibliothekare mehrere Vorsichtsmaßnahmen getroffen: Das Kellerarchiv wurde geräumt und das Gebäude wasserdicht umgebaut."
+    },
+    {
+        "code": "12121",
+        "name": "Flammenrufer",
+        "traits": "Humanoid. Kultist.",
+        "flavor": "„Durch Flamme und Klinge, in Schatten und Blut,\nErwacht uns’re Königin nach der Flut.“\n– Äscherne Edikte, Band XIX",
+        "text": "Zurückschlagen."
+    },
+    {
+        "code": "12122",
+        "name": "Höllenhund",
+        "traits": "Kreatur. Monster.",
+        "text": "Jäger.\n<b>Erzwungen</b> – Nachdem dich Höllenhund in der Gegnerphase angegriffen hat: Wähle 1 Vorteilskarte, die du kontrollierst, und lege sie ab."
+    },
+    {
+        "code": "12123",
+        "name": "Unbeteiligter",
+        "traits": "Humanoid. Zivilist.",
+        "flavor": "Immer genau zur falschen Zeit am falschen Ort.",
+        "text": "Verdammt. <i>(Sobald dieser Gegner besiegt wird, platziere 1 Verderben auf der aktuellen Agenda. Durch diesen Effekt kann die aktuelle Agenda vorrücken.)</i>"
+    },
+    {
+        "code": "12124",
+        "name": "Kosmisches Böses",
+        "traits": "Omen.",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Platziere 1 Verderben auf der aktuellen Agenda. Durch diesen Effekt kann die aktuelle Agenda vorrücken.\n- Nimm 1 direkten Schaden und 1 direkten Horror. Kosmisches Böses erhält Nachrüsten."
+    },
+    {
+        "code": "12125",
+        "name": "Unaussprechliche Wahrheiten",
+        "traits": "Schrecken.",
+        "text": "<b>Enthüllung</b> – Bringe Unaussprechliche Wahrheiten in deiner Bedrohungszone ins Spiel. Nur 1 pro Ermittler.\n<b>Erzwungen</b> – Nachdem du 1 oder mehr Hinweise entdeckt hast: Nimm 1 Horror.\n[action][action]: Lege Unaussprechliche Wahrheiten ab."
+    },
+    {
+        "code": "12126",
+        "name": "Verbotene Geheimnisse",
+        "traits": "Pakt.",
+        "flavor": "Es heißt, man soll nicht in Wespennester stechen. Vielleicht ist ja doch etwas dran.",
+        "text": "<b>Enthüllung</b> – Falls du keine Hinweise hast, erhält Verbotene Geheimnisse Nachrüsten. Lege ansonsten eine [intellect]-Probe (3) ab. Für jeden Punkt, um den die Probe misslingt, musst du entweder 1 deiner Hinweise auf deinem Ort platzieren oder 1 Horror nehmen."
+    },
+    {
+        "code": "12127",
+        "name": "Außerplanare Visionen",
+        "traits": "Macht.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]- oder [intellect]-Probe (X) ab, wobei X die Anzahl der Karten auf deiner Hand ist. Falls die Probe misslingt, nimm 1 Schaden und lege 1 zufällige Karte von deiner Hand ab."
+    },
+    {
+        "code": "12128",
+        "name": "Unbändiger Drang",
+        "traits": "Wahnsinn. Unheil.",
+        "flavor": "„Gott, hilf dem Träumer, in dessen Vision\nIhn die toten Augen eisesstarr bedrohn!“\n– H. P. Lovecraft, „Saat von den Sternen“",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (3) ab. Für jeden Punkt, um den die Probe misslingt, musst du entweder 1 zufällige Karte von deiner Hand ablegen oder 1 Ressource verlieren."
+    },
+    {
+        "code": "12129",
+        "name": "Feuer!",
+        "traits": "Gefahr.",
+        "text": "<b>Enthüllung</b> – Hänge Feuer! an den nächstgelegenen Ort an, an den noch kein Feuer! angehängt ist.\n<b>Erzwungen</b> – Sobald die Ermittlungsphase endet: Jede Nicht-[[Elite]]-Karte mit Ausdauer an diesem Ort nimmt 1 direkten Schaden.\n[action]: Lege eine [agility]-Probe (3) ab. Falls die Probe gelingt, lege Feuer! ab."
+    },
+    {
+        "code": "12130",
+        "name": "Giftiger Rauch",
+        "traits": "Gefahr.",
+        "flavor": "Wo Rauch ist, da ist definitiv auch Feuer.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]- oder [agility]-Probe (3) ab. Nimm für jeden Punkt, um den die Probe misslingt, 1 Schaden."
+    },
+    {
+        "code": "12131",
+        "name": "Mutiert!",
+        "traits": "Mutation.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (2) ab. Diese Probe bekommt +2 Schwierigkeit, falls sich ein Gegner an deinem Ort befindet. Falls die Probe misslingt, musst du entweder 2 Schaden nehmen oder jeder Ermittler an deinem Ort nimmt 1 Horror."
+    },
+    {
+        "code": "12132",
+        "name": "Mutiertes Experiment",
+        "traits": "Kreatur. Mutiert.",
+        "text": "<b>Erzwungen</b> – Sobald dieser Gegner besiegt wird: Jeder Ermittler am Ort dieses Gegners nimmt 1 Horror."
+    },
+    {
+        "code": "12133",
+        "name": "Rauchschleier",
+        "text": "<b>Einfach / Normal</b>\n[skull]: -X. X ist die Gesamtzahl aller [[Elite]]-Gegner im Siegpunktestapel und unter der Szene.\n[cultist]: -1. Falls dies eine Probe ist, die auf einen [[Elite]]-Gegner zielt, enthülle einen weiteren Marker.\n[tablet]: -3. Falls die Probe misslingt, platziere 1 deiner Hinweise auf deinem Ort.\n[elder_thing]: -1 für jeden Hinweis, den du kontrollierst.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull]: -X. X ist die Gesamtzahl aller [[Elite]]-Gegner im Siegpunktestapel und unter der Szene plus 2.\n[cultist]: -3. Falls dies eine Probe ist, die auf einen [[Elite]]-Gegner zielt, enthülle einen weiteren Marker.\n[tablet]: -4. Falls die Probe misslingt, platziere 1 deiner Hinweise auf deinem Ort.\n[elder_thing]: -2 für jeden Hinweis, den du kontrollierst."
+    },
+    {
+        "code": "12134",
+        "name": "Arkham lebt",
+        "flavor": "Ein unnatürlicher Dunst liegt über den Straßen von Arkham. Einige Einheimische sagen, dass in den Hügeln westlich von Arkham Feuer ausgebrochen sind. Trotz des kühlen Herbstwetters fühlen sich die Straßen der Stadt bei Einbruch der Dunkelheit unnatürlich warm an.",
+        "text": "[action]: <b>Aufgeben.</b> Du machst dich auf den Rückweg, um mit Dr. Armitage die Hinweise zum Verbleib deines Freundes durchzugehen.",
+        "back_name": "Züngelnde Flammen",
+        "back_flavor": "Ein Juckreiz, den du nach Kräften zu ignorieren versucht hast, wird unerträglich. Als du deinen Ärmel hochkrempelst, erkennst du, dass deine Haut an einigen Stellen grau und schuppig geworden ist. Vorsichtig kratzt du die abgestorbene Haut ab. Zum Vorschein kommt eine glatte Narbe, die fast so aussieht, als hättest du dort ein Brandmal. Die Narbe hat die Form einer Hand mit einem Auge in der Mitte. Als du die Narbe berührst, verspürst du ein warmes, berauschendes Gefühl, als wärst du betrunken.",
+        "back_text": "Jeder Ermittler zieht nacheinander 1 Kopie der beiseitegelegten Schwächekarte Zeichen von Elokoss. Jeder Ermittler wird zum Träger jener Schwäche. <i>(Füge die Karte dem Deck des Ermittlers hinzu, wobei die Deckbau-Einschränkungen ignoriert werden. Die Karte zählt nicht gegen die Deckgröße des Ermittlers.)</i>"
+    },
+    {
+        "code": "12135",
+        "name": "Das Böse zeigt sich",
+        "flavor": "Dampf steigt vom nassen Straßenbelag auf, als würde der Boden darunter tatsächlich brodeln.",
+        "text": "[action]: <b>Aufgeben.</b> Du machst dich auf den Rückweg, um mit Dr. Armitage die Hinweise zum Verbleib deines Freundes durchzugehen.",
+        "back_name": "Die Zeit ist abgelaufen",
+        "back_flavor": "Du schaust auf die Uhr und stellst fest, dass es bereits halb zwölf ist. Fluchend rufst du ein Taxi, um in die Oststadt zu fahren.",
+        "back_text": "Jeder Ermittler gibt sofort auf."
+    },
+    {
+        "code": "12136",
+        "name": "Auguren der Flamme",
+        "flavor": "Über die Liste deines Freundes kannst du die Aufenthaltsorte der Verdächtigen herausfinden.",
+        "text": "[action] Gib als Gruppe 2 [per_investigator] Hinweise aus: Ziehe die verdeckte Karte unter deinem Ort.\n<b>Ermittlungsziel</b> – Falls sich insgesamt 6 [[Elite]]-Gegner im Siegpunktestapel und/oder unter der Szene befinden, rücke vor. <i>(Tipp: Handle die Kodexeinträge der Verdächtigen ab oder besiege sie mit Gewalt, um Spuren für deine Ermittlung zu finden!)</i>",
+        "back_name": "Zurück bei Velma’s",
+        "back_flavor": "Deine Recherche hat einige interessante Ergebnisse zutage gefördert. Mit all dem, was du erfahren hast, solltest du genügend Hinweise haben, um den Aufenthaltsort deines Freundes zu ermitteln. Du rufst dir ein Taxi und fährst in die Oststadt zurück, um deine Erkenntnisse mit Dr. Armitage zu besprechen.",
+        "back_text": "<b>(→A1)</b> <i>(Seite 10)</i>"
+    },
+    {
+        "code": "12137",
+        "name": "Zeichen von Elokoss",
+        "traits": "Fluch.",
+        "text": "<b>Enthüllung</b> – Bringe Zeichen von Elokoss in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> – Sobald dein Zug endet: Nimm 1 Schaden. Weise jenen Schaden falls möglich einer Vorteilskarte zu, die du kontrollierst.\n[action][action]: Lege Zeichen von Elokoss ab."
+    },
+    {
+        "code": "12138",
+        "name": "Diener der Flamme",
+        "subname": "Auf der Flucht",
+        "traits": "Humanoid. Kultist. Elite.",
+        "text": "Schwer zu fassen. Jäger. Zurückschlagen.\n<b>Erzwungen</b> – Sobald Diener der Flamme besiegt wird: <b>([codex] Φ)</b>."
+    },
+    {
+        "code": "12139",
+        "name": "David Renfield",
+        "subname": "Desillusionierter Eschatologe",
+        "traits": "Humanoid. Silberloge der Dämmerung. Elite.",
+        "text": "Zurückhaltend. <i>(Dieser Gegner verwickelt Ermittler an seinem Ort nicht automatisch in einen Kampf.)</i>\n[reaction] Nachdem du erfolgreich an David Renfields Ort ermittelt hast: <b>([codex] 1)</b>."
+    },
+    {
+        "code": "12140",
+        "name": "Cornelia Akely",
+        "subname": "Erschöpfte Vorarbeiterin",
+        "traits": "Humanoid. Arbeiter. Elite.",
+        "text": "Alarmiert. <i>(Nachdem dir eine Fertigkeitsprobe misslungen ist, während du versuchst, diesem Gegner zu entkommen, greift er dich an.)</i>\n[reaction] Nachdem du Cornelia Akely erfolgreich entkommen bist: Mache sie spielbereit. <b>([codex] 2)</b>."
+    },
+    {
+        "code": "12141",
+        "name": "Naomi O’Bannion",
+        "subname": "Regiert die Stadt",
+        "traits": "Humanoid. Syndikat. Elite.",
+        "text": "Zurückschlagen. <i>(Nachdem dir eine Fertigkeitsprobe misslungen ist, während du gegen diesen Gegner kämpfst, greift er dich an.)</i>\n[action] Gib 1 [per_investigator] Ressource aus: <b>Verhandlung.</b> <b>([codex] 3)</b>."
+    },
+    {
+        "code": "12142",
+        "name": "Sgt. Earl Monroe",
+        "subname": "Korrupter Bulle",
+        "traits": "Humanoid. Polizei. Elite.",
+        "text": "Schwer zu fassen. <i>(Nachdem dieser Gegner, solange er spielbereit ist, angegriffen hat oder angegriffen worden ist, bewegt er sich an einen verbundenen Ort ohne Ermittler und wird erschöpft.)</i>\n[action]: <b>Verhandlung.</b> Lege eine [combat]-Probe (4) ab. Senke die Schwierigkeit dieser Probe für jeden Schaden auf Sgt. Earl Monroe um 1. Falls die Probe gelingt, <b>([codex] 4)</b>."
+    },
+    {
+        "code": "12143",
+        "name": "Abigail Foreman",
+        "subname": "Wachsame Bibliothekarin",
+        "traits": "Humanoid. Miskatonic. Elite.",
+        "text": "Zurückhaltend. <i>(Dieser Gegner verwickelt Ermittler an seinem Ort nicht automatisch in einen Kampf.)</i>\n[action]: <b>Verhandlung.</b> Lege eine [intellect]-Probe (X) ab, wobei X die Anzahl der Hinweise auf Abigail Foremans Ort ist. Falls die Probe gelingt, platziere 1 Hinweis <i>(aus dem Markervorrat)</i> auf Abigail Foremans Ort. <b>([codex] 5)</b>."
+    },
+    {
+        "code": "12144",
+        "name": "Margaret Liu",
+        "subname": "Verführerische Lounge-Sängerin",
+        "traits": "Humanoid. Salonlöwe. Elite.",
+        "text": "Zurückhaltend. <i>(Dieser Gegner verwickelt Ermittler an seinem Ort nicht automatisch in einen Kampf.)</i>\n[reaction] Nachdem dir eine Fertigkeitsprobe an Margaret Lius Ort um 2 oder mehr gelungen ist: <b>([codex] 6)</b>."
+    },
+    {
+        "code": "12145",
+        "name": "Innenstadt",
+        "subname": "Bank von Arkham",
+        "traits": "Arkham.",
+        "flavor": "Es ist recht einfach, einen Kredit bei der Bank von Arkham zu bekommen. Doch sollte man zuerst das Kleingedruckte lesen ...",
+        "text": "[reaction] Nachdem du 1 oder mehr Hinweise an diesem Ort entdeckt hast: Du erhältst 1 Ressource.",
+        "back_flavor": "In der Innenstadt gibt es keine ruhigen Nächte. Der belebteste Stadtteil von Arkham beherbergt glamouröse neue Theater, Hotels, Hochhäuser und die besten Restaurants von ganz Massachusetts – so sagt man zumindest."
+    },
+    {
+        "code": "12146",
+        "name": "Innenstadt",
+        "subname": "Arkham Sanatorium",
+        "traits": "Arkham.",
+        "flavor": "Natürlich wird über das Sanatorium nicht gesprochen.",
+        "text": "[reaction] Nachdem du 1 oder mehr Hinweise an diesem Ort entdeckt hast: Heile 1 Horror von einem Ermittler oder einer [[Verbündeter]]-Vorteilskarte an diesem Ort.",
+        "back_flavor": "In der Innenstadt gibt es keine ruhigen Nächte. Der belebteste Stadtteil von Arkham beherbergt glamouröse neue Theater, Hotels, Hochhäuser und die besten Restaurants von ganz Massachusetts – so sagt man zumindest."
+    },
+    {
+        "code": "12147",
+        "name": "Wohnviertel",
+        "subname": "St. Mary’s Hospital",
+        "traits": "Arkham.",
+        "flavor": "Das einzige Krankenhaus in Arkham ist überfüllt mit Patienten, die von einem völlig überlasteten Pflegepersonal versorgt werden.",
+        "text": "[action]: Heile bis zu 2 Schaden von Ermittlern und/oder [[Verbündeter]]-Vorteilskarten an diesem Ort. (Nur 1 Mal pro Spiel.)",
+        "back_flavor": "Der jüngste Stadtteil von Arkham überzeugt mit modischen Geschäften, swingender Jazzmusik und einer wachsenden Zahl an Studenten und jungen Leuten von auswärts."
+    },
+    {
+        "code": "12148",
+        "name": "Wohnviertel",
+        "subname": "Der Alte Zauberladen",
+        "traits": "Arkham.",
+        "flavor": "„Besuchen Sie den Alten Zauberladen und bewundern Sie ECHTE Magie. Bühnenmagier werden nicht bedient.“\n– Lokale Werbeanzeige",
+        "text": "[action]: Durchsuche die obersten 9 Karten deines Decks nach einer [[Zauber]]- oder [[Ritual]]-Vorteilskarte und füge sie deiner Hand hinzu. Mische dein Deck. Falls so keine Karte einer Hand hinzugefügt wurde, ziehe 1 Karte.",
+        "back_flavor": "Der jüngste Stadtteil von Arkham überzeugt mit modischen Geschäften, swingender Jazzmusik und einer wachsenden Zahl an Studenten und jungen Leuten von auswärts."
+    },
+    {
+        "code": "12149",
+        "name": "Nordstadt",
+        "traits": "Arkham.",
+        "text": "[action] Gib 5 Ressourcen aus: Entdecke 1 Hinweis an einem beliebigen enthüllten [[Arkham]]-Ort. (Nur 1 Mal pro Runde.)",
+        "back_flavor": "Die Nordstadt ist Arkhams Industriegebiet mit modernen Fabriken, günstigen Unterkünften für Wanderarbeiter und dem neu renovierten Arkham Advertiser."
+    },
+    {
+        "code": "12150",
+        "name": "Oststadt",
+        "traits": "Arkham.",
+        "text": "[reaction] Nachdem du den letzten Hinweis in der Oststadt entdeckt hast: Durchsuche dein Deck nach einer [[Verbündeter]]-Vorteilskarte und spiele sie <i>(zahle ihre Kosten)</i>. Mische dein Deck. (Nur 1 Mal pro Spiel.)",
+        "back_flavor": "Der älteste Stadtteil von Arkham ist die in die Jahre gekommene Oststadt. Neben den gut besuchten Lokalen Hibb’s Rasthaus und Velma’s Diner finden Neuankömmlinge sonst wenig Einladendes."
+    },
+    {
+        "code": "12151",
+        "name": "Geschäftsviertel",
+        "traits": "Arkham. Zentral.",
+        "text": "[fast] In deinem Zug, falls sich genau 1 oder 2 Ermittler im Spiel befinden: Bewege dich an einen verbundenen Ort. (Nur 1 Mal pro Runde.)",
+        "back_flavor": "Seit der Flut ist das Geschäftsviertel zum Zentrum der Wirtschaft und Entwicklung in Arkham geworden. Mit jedem weiteren Tag scheint es mehr und mehr neue Bauprojekte, Arbeiter und Geschäfte zu geben."
+    },
+    {
+        "code": "12152",
+        "name": "Uferviertel",
+        "traits": "Arkham.",
+        "flavor": "Wer nicht durch hüfthohes Wasser waten möchte, muss sich von einem der Einheimischen mit dem Boot mitnehmen lassen.",
+        "text": "Als zusätzliche Kosten, um im Uferviertel zu ermitteln, musst du 1 Aktion ausgeben.",
+        "back_flavor": "Mit seinen dauerhaft überfluteten Straßen ist das ehemalige Hafenviertel zu einer Geisterstadt geworden. Nur noch ein paar traurige Fabrikanlagen mit schweren Zementfundamenten ragen zwischen den durchnässten, unbewohnbaren Baracken auf."
+    },
+    {
+        "code": "12153",
+        "name": "Südstadt",
+        "traits": "Arkham.",
+        "text": "[action][action]: Ermittler an diesem Ort ziehen insgesamt 3 Karten, die sie nach Belieben verteilen können. (Nur 1 Mal pro Runde für die gesamte Gruppe.)",
+        "back_flavor": "Die Südstadt liegt am Südhang des Französischen Viertels und ist vielleicht der einladendste und ruhigste Stadtteil von Arkham."
+    },
+    {
+        "code": "12154",
+        "name": "Französisches Viertel",
+        "traits": "Arkham.",
+        "text": "[action] Wähle 1 Karte von deiner Hand und lege sie ab: Platziere 1 Ladung oder 1 Geheimnis auf einer Vorteilskarte, die du kontrollierst. (Nur 1 Mal pro Runde.)",
+        "back_flavor": "Die herrschaftlichen Villen des Französischen Viertels verfallen immer weiter, da die alten Familien langsam aussterben."
+    },
+    {
+        "code": "12155",
+        "name": "Miskatonic Universität",
+        "subname": "Steht in Flammen",
+        "traits": "Arkham.",
+        "text": "<b>Erzwungen</b> – Sobald die Ermittlungsphase endet: Füge jeder Spielerkarte mit Ausdauer an der Miskatonic Universität 1 direkten Schaden zu.",
+        "back_flavor": "Die Miskatonic Universität von Arkham ist oftmals Quelle von Gerüchten und Klatsch. Die gesperrten Archive der Universität stoßen auch außerhalb der Einrichtung auf großes Interesse. Auf dem Campus selbst wird viel über die seltsamen Entdeckungen der unterschiedlichen Fachbereiche getuschelt."
+    },
+    {
+        "code": "12156",
+        "name": "Miskatonic Universität",
+        "subname": "Ruhiger Campus",
+        "traits": "Arkham.",
+        "text": "[action]: Spiele eine [[Buch]]- oder [[Zauber]]-Vorteilskarte aus deinem Ablagestapel und senke dabei ihre Kosten um 2. (Nur 1 Mal pro Spiel.)",
+        "back_flavor": "Die Miskatonic Universität von Arkham ist oftmals Quelle von Gerüchten und Klatsch. Die gesperrten Archive der Universität stoßen auch außerhalb der Einrichtung auf großes Interesse. Auf dem Campus selbst wird viel über die seltsamen Entdeckungen der unterschiedlichen Fachbereiche getuschelt."
+    },
+    {
+        "code": "12157",
+        "name": "Arkanes Schloss",
+        "traits": "Verwünschung. Hindernis.",
+        "text": "<b>Enthüllung</b> – Hänge Arkanes Schloss an deinen Ort an. Nur 1 pro Ort.\nAls zusätzliche Kosten, um den Ort mit dieser Verstärkung zu betreten oder zu verlassen, musst du 1 Aktion ausgeben.\n[action]: Lege eine [willpower]- oder [intellect]-Probe (4) ab. Falls die Probe gelingt, lege Arkanes Schloss ab."
+    },
+    {
+        "code": "12158",
+        "name": "Platzregen",
+        "traits": "Gefahr.",
+        "flavor": "„... als ein so heftiger Wolkenbruch niederging, dass wir uns gezwungen sahen, Unterschlupf zu suchen.“\n– H. P. Lovecraft, „Die lauernde Furcht“",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Für jeden Punkt, um den die Probe misslingt, musst du entweder 1 Aktion verlieren oder 1 deiner Hinweise auf deinem Ort platzieren."
+    },
+    {
+        "code": "12159",
+        "name": "Sturzflut",
+        "traits": "Gefahr.",
+        "text": "<b>Enthüllung</b> – Hänge Sturzflut an deinen Ort an.\nDer Ort mit dieser Verstärkung bekommt +4 Schleier.\n<b>Erzwungen</b> – Sobald die Runde endet: Lege Sturzflut ab."
+    },
+    {
+        "code": "12160",
+        "name": "Verdacht erwecken",
+        "traits": "Patzer.",
+        "flavor": "Wenigstens hast du versucht, dich unauffällig zu verhalten.",
+        "text": "<b>Enthüllung</b> – Platziere 1 Verderben auf den nächstgelegenen Gegner ohne Verderben auf sich. Falls so kein Verderben platziert wurde, erhält Verdacht erwecken Nachrüsten."
+    },
+    {
+        "code": "12161",
+        "name": "Roter Hering",
+        "traits": "Komplott.",
+        "text": "<b>Enthüllung</b> – Lege eine [intellect]-Probe (2) ab. Die Probe bekommt +2 Schwierigkeit, falls du 2 oder mehr Hinweise kontrollierst. Falls die Probe misslingt, nimm 1 Horror und platziere 1 deiner Hinweise auf deinem Ort."
+    },
+    {
+        "code": "12162",
+        "name": "Fledermaus-Schrecken",
+        "traits": "Monster.",
+        "flavor": "„... flatterten rhythmisch, unhörbar und unerwartet, bastardähnliche geflügelte Geschöpfe, die kein normales Auge ganz begreifen kann oder deren sich ein gesundes Gehirn jemals ganz erinnern könnte.“\n– H. P. Lovecraft, „Das Fest“",
+        "text": "Schwer zu fassen. Jäger."
+    },
+    {
+        "code": "12163",
+        "name": "Verfolgung aus der Luft",
+        "traits": "Komplott.",
+        "text": "Nachrüsten.\n<b>Enthüllung</b> – Der nächstgelegene Nicht-[[Elite]]-Gegner bewegt sich 1 Mal auf deinen Ort zu. Falls jener Gegner einen Ermittler in einen Kampf verwickelt, führt er sofort einen Angriff durch."
+    },
+    {
+        "code": "12164",
+        "name": "Gewissenloser Gangster",
+        "traits": "Humanoid. Syndikat.",
+        "text": "Jäger. Beute (meiste Ressourcen). Zurückschlagen.\n<b>Erzwungen</b> – Nachdem dich Gewissenloser Gangster in einen Kampf verwickelt hat: Du verlierst 1 Ressource. Falls du dies nicht kannst, greift dich dieser Gegner an."
+    },
+    {
+        "code": "12165",
+        "name": "Im Kreuzfeuer",
+        "traits": "Gefahr.",
+        "flavor": "„Deckung!“",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, nimmt jeder Ermittler an deinem Ort 1 Schaden."
+    },
+    {
+        "code": "12166",
+        "name": "Ziegenmelker",
+        "traits": "Kreatur.",
+        "flavor": "„Man glaubt, diese Vögel warten auf die Seelen der Sterbenden ...“\n– H. P. Lovecraft, „Das Grauen von Dunwich“",
+        "text": "Zurückhaltend. Jäger.\nJeder Ermittler am Ort von Ziegenmelker bekommt -1 [willpower], -1 [intellect], -1 [combat] und -1 [agility]."
+    },
+    {
+        "code": "12167",
+        "name": "Begierig auf den Tod",
+        "traits": "Omen.",
+        "flavor": "„Wenn es ihnen gelänge, die fliehende Seele beim Verlassen des Körpers zu schnappen, flögen sie sofort unter dämonischem Zwitschern davon ...“\n– H. P. Lovecraft, „Das Grauen von Dunwich“",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (2) ab. Erhöhe die Schwierigkeit dieser Fertigkeitsprobe um 1 für jeden Schaden auf dir. Falls die Probe misslingt, nimm 2 Horror."
+    },
+    {
+        "code": "12168",
+        "name": "Königin der Asche",
+        "text": "<b>Einfach / Normal</b>\n[skull]: -X. X ist die Anzahl aller Feuer!-Verratskarten im Spiel.\n[cultist]: -2. Falls dies ein Angriff oder ein Entkommen-Versuch ist, der auf einen [[Kultist]]-Gegner zielt, enthülle einen weiteren Marker.\n[tablet]: -2 (-4 stattdessen, falls du dich an einem [[Ritualstätte]]-Ort befindest).\n[elder_thing]: -3. Falls die Probe misslingt, ziehe die oberste Kopie von Feuer! im Begegnungs-Ablagestapel.",
+        "back_text": "<b>Schwer / Experte</b>\n[skull]: -X. X ist die doppelte Anzahl aller Feuer!-Verratskarten im Spiel.\n[cultist]: -3. Falls dies ein Angriff oder ein Entkommen-Versuch ist, der auf einen [[Kultist]]-Gegner zielt, enthülle einen weiteren Marker.\n[tablet]: -4. Falls du dich an einem [[Ritualstätte]]-Ort befindest, misslingt die Probe stattdessen automatisch.\n[elder_thing]: -5. Falls die Probe misslingt, ziehe die oberste Kopie von Feuer! im Begegnungs-Ablagestapel."
+    },
+    {
+        "code": "12169",
+        "name": "Eine Zusammenkunft",
+        "flavor": "Gesänge hallen durch die übel riechenden Tunnel. Die Wiedergeburt der Königin steht kurz bevor!",
+        "text": "Jeder Gegner an einem Ort mit einer Kopie von Feuer! kann keinen Schaden nehmen.",
+        "back_name": "Flamme in der Dunkelheit",
+        "back_flavor": "Tief unter der Stadt lodert eine sengende Flamme, deren Intensität stetig zunimmt. Und diejenigen, die das Zeichen der Königin tragen, erheben sich, um ihre Rückkehr zu verkünden.",
+        "back_text": "Falls der Gegner Diener der Flamme beiseitegelegt ist, erscheint er in der Unterirdischen Zisterne.\nJeder Ermittler muss eine [willpower]-Probe (4) ablegen. Jeder Ermittler, dem die Probe misslingt, nimmt 1 direkten Horror."
+    },
+    {
+        "code": "12170",
+        "name": "Ein Ritual",
+        "flavor": "Die Luft ist mit giftigem Rauch erfüllt – und die Gesänge werden immer lauter.",
+        "text": "Jeder Gegner an einem Ort mit einer Kopie von Feuer! kann keinen Schaden nehmen.",
+        "back_name": "Die Mutter erscheint",
+        "back_text": "<b>Falls Szene 1 aktuell ist:</b>\n<blockquote><i>Hungrige Flammen breiten sich durch die Tunnel aus, während die Gesänge immer lauter werden. Du bist zu spät und konntest die Beschwörung nicht aufhalten.</i></blockquote>\nEnthülle die Unterirdische Zisterne. Dort erscheint der Gegner Elokoss mit der <i>(Mutter der Flamme)</i>-Seite nach oben. Ersetze die aktuelle Szene und Agenda durch die Spezial-Agenda 3a: Bruderschaft der Asche. Sie ist sowohl die aktuelle Szene als auch die aktuelle Agenda.\n<hr>\n<b>Ansonsten:</b>\n<blockquote><i>Die uralte Königin der Asche erwacht mit einem schrecklichen Schrei auf den Lippen.</i></blockquote>\nDrehe Elokoss auf ihre <i>(Mutter der Flamme)</i>-Seite um, wobei sie allen Schaden und sämtliche Verstärkungen behält.\nErsetze die aktuelle Szene und Agenda durch die Spezial-Agenda 3a: Bruderschaft der Asche. Sie ist sowohl die aktuelle Szene als auch die aktuelle Agenda."
+    },
+    {
+        "code": "12171",
+        "name": "Bruderschaft der Asche",
+        "text": "<b>Erzwungen</b> – Sobald Verderben auf einer Karte platziert werden würde: Jeder Ermittler nimmt stattdessen 1 direkten Schaden.\n<b>Erzwungen</b> – Falls jeder verbliebene Ermittler besiegt ist: Rücke vor.\n<b>Ermittlungsziel</b> – Falls Elokoss besiegt wird, <b>(→A1)</b> <i>(Seite 13)</i>.",
+        "back_name": "Wie verlöschendes Kerzenlicht",
+        "back_flavor": "Eine verknotete, klauenartige Hand packt deinen Arm, während Dutzende weitere nach dir greifen und dich umschlingen. Jede Berührung brennt wie Feuer. Du schreist auf, als sich in Elokoss’ Unterleib ein schreckliches, zahnbewehrtes Maul öffnet.\n„Keine Sorge. Sie will dir lediglich eine Ehre erweisen“, sagt eine dir vertraute Stimme.\nDu schaust hinter dich und siehst deinen Freund, der die gleiche schwarz-rote Robe trägt wie die anderen Mitglieder der Bruderschaft der Asche. Er grinst dich an, als Flammenzungen aus dem brennenden Maul schlagen und dich in einen Kokon aus Feuer hüllen. Das Letzte, was du hören kannst, bevor du in das weißglühende Inferno in Elokoss’ Leib gezogen wirst, ist dein Freund, wie er zusammen mit dem Rest des Kults eine beschwingte, misstönende Hymne für deine Wiedergeburt anstimmt.",
+        "back_text": "Jeder Ermittler wird <b>getötet</b>."
+    },
+    {
+        "code": "12172",
+        "name": "Die Suche in der Kanalisation",
+        "flavor": "Die Bruderschaft der Asche könnte überall sein. Wenn du deinen Freund retten willst, musst du die Kanalisation absuchen und die Ritualstätte des Kults finden.",
+        "text": "<b>Ermittlungsziel</b> – Sobald ein Ermittler die Unterirdische Zisterne betritt, rücke vor.",
+        "back_name": "Die Ritualstätte",
+        "back_flavor": "Der Gesang führt dich durch ein Labyrinth aus Tunneln zu einer ausgetrockneten Zisterne. Mehrere Dutzend Gestalten in Roben knien singend vor einem brennenden Birkenbaum. Dein Freund ist bei ihnen. Du musst sie aufhalten, bevor sie Elokoss ein Opfer darbringen können!",
+        "back_text": "Der beiseitegelegte Gegner Elokoss erscheint mit seiner <i>(Schwach glimmend)</i>-Seite nach oben in der Unterirdischen Zisterne.\nDer Ermittler in der Unterirdischen Zisterne zieht 1 der beiseitegelegten Feuer!-Verratskarten.\nMische jede andere Kopie von Feuer! zusammen mit den beiseitegelegten Gegnern Ritter der Königin und Herold der Flamme in das Begegnungsdeck.\nBringe den beiseitegelegten Ort Schleusensteuerung ins Spiel."
+    },
+    {
+        "code": "12173",
+        "name": "Stoppt das Ritual",
+        "flavor": "Du musst das Ritual um jeden Preis stoppen. Du könntest die Zisterne nach etwas durchsuchen, das den Kult aufhält. Oder du könntest versuchen, ihr blasphemisches Götzenbild zu Kleinholz zu verarbeiten!",
+        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Lege eine Kopie von Feuer! an deinem Ort ab.\n<b>Erzwungen</b> – Sobald die Runde endet: Jeder [[Kultist]]-Gegner bewegt sich 1 Mal auf die Unterirdische Zisterne zu.\n<b>Ermittlungsziel</b> – Falls Elokoss besiegt wird, rücke vor.",
+        "back_name": "Krise abgewendet",
+        "back_flavor": "Während du den brennenden Baum in kleine Stücke hackst, erfüllt ein schauerliches Heulen den Raum. Du ignorierst es und setzt deinen Angriff fort, indem du einen gut platzierten Schlag nach dem anderen ausführst, um das uralte Böse endgültig zu vernichten. Schließlich schaffst du es: Das Bildnis der Göttin liegt zerstört vor dir.",
+        "back_text": "<b>(→A1)</b> <i>(Seite 13)</i>"
+    },
+    {
+        "code": "12174",
+        "name": "Unterirdische Zisterne",
+        "traits": "Ritualstätte.",
+        "text": "<b>Erzwungen</b> – Falls sich in der Unterirdischen Zisterne keine Hinweise befinden: Platziere hier Hinweise <i>(aus dem Markervorrat)</i>, bis der Ort Hinweise entsprechend seines Hinweiswertes hat.\n<b>Erzwungen</b> – Sobald die Ermittlungsphase endet: Lege jeden spielbereiten [[Kultist]]-Gegner an diesem Ort ab, der Nicht-[[Elite]] ist. Platziere für jeden so abgelegten Gegner 1 Verderben auf der Agenda.",
+        "back_name": "Unterirdische Zisterne",
+        "back_flavor": "Seltsame Gesänge hallen durch die Tunnel und verraten dir, wo die Kultstätte zu finden ist.",
+        "back_text": "Als zusätzliche Kosten, um die Unterirdische Zisterne zu betreten, müssen die Ermittler als Gruppe 3 [per_investigator] Hinweise ausgeben."
+    },
+    {
+        "code": "12175",
+        "name": "Schleusensteuerung",
+        "traits": "Kanalisation.",
+        "flavor": "Es gibt keinen besseren Zeitpunkt, ein Held zu sein.",
+        "text": "[action]: <i>„Stoppt sie um jeden Preis!“</i> Du versuchst, die Schleusenventile zu öffnen. Lege eine [agility]- oder [combat]-Probe (5) ab. Falls die Probe gelingt, wird jeder Gegner besiegt und jeder Ermittler, der nicht aufgegeben hat, wird <b>getötet (→A3)</b> <i>(Seite 14)</i>.",
+        "back_name": "Schleusensteuerung",
+        "back_flavor": "Ein schmaler Gang führt von der Zisterne zu einer verschlossenen Tür. Das Schleusentor scheint seit Jahren nicht mehr benutzt worden zu sein. Würde es geöffnet, könnte die reißende Flut des freigesetzten Wassers ausreichen, um alles in den Abwasserkanälen fortzuspülen – auch dich selbst.",
+        "back_text": "Als zusätzliche Kosten, um die Schleusensteuerung zu betreten, müssen die Ermittler als Gruppe 1 [per_investigator] Hinweis ausgeben."
+    },
+    {
+        "code": "12176",
+        "name": "Wiedergeboren aus Asche",
+        "traits": "Macht.",
+        "flavor": "„Und so sollt ihr neu geschaffen werden:\nein Brandopfer zu Ehren ihrer Herrlichkeit;\nein Zeichen der Wonne, die unser aller harrt.“\n– Äscherne Edikte, Band III",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (4) ab. Falls die Probe misslingt, musst du entweder 2 direkten Schaden oder 2 direkten Horror nehmen (je nachdem, wovon du mehr hast)."
+    },
+    {
+        "code": "12177",
+        "name": "Ritter der Königin",
+        "traits": "Humanoid. Kultist.",
+        "text": "Jäger.\n<b>Erzwungen</b> – Sobald Ritter der Königin 1 oder mehr Schaden nimmt: Füge Elokoss 1 Schaden zu."
+    },
+    {
+        "code": "12178",
+        "name": "Herold der Flamme",
+        "traits": "Monster.",
+        "text": "Jäger.\n<b>Erzwungen</b> – Nachdem Herold der Flamme angegriffen hat: Heile 1 Schaden von jedem Gegner an seinem Ort."
+    },
+    {
+        "code": "12179",
+        "name": "Elokoss",
+        "subname": "Schwach glimmend",
+        "traits": "Großer Alter. Flora. Elite.",
+        "text": "Gewaltig. Zurückschlagen.\nElokoss bekommt +5 [per_investigator] Ausdauer, kann sich nicht bewegen und kann keine Gelegenheitsangriffe durchführen.\n[fast] Gib 1 [per_investigator] Hinweis aus: Platziere 1 Hinweis auf Elokoss. Falls Elokoss 5 Hinweise auf sich hat, <b>(→A2)</b> <i>(Seite 14)</i>."
+    },
+    {
+        "code": "12179b",
+        "name": "Elokoss",
+        "subname": "Mutter der Flamme",
+        "traits": "Großer Alter. Flora. Elite.",
+        "text": "Jäger. Gewaltig. Zurückschlagen.\nElokoss bekommt +5 [per_investigator] Ausdauer.\n<b>Erzwungen</b> – Nachdem du Elokoss entkommen bist: Mache sie spielbereit. Sie kann dich bis zum Ende der Runde nicht angreifen."
+    },
+    {
+        "code": "12180",
+        "name": "Diener der Flamme",
+        "subname": "Ein bereitwilliges Opfer",
+        "traits": "Humanoid. Kultist. Elite.",
+        "text": "Jäger. Zurückschlagen.\n<b>Erzwungen</b> – Sobald Diener der Flamme besiegt wird: <b>([codex] Φ)</b>."
+    },
+    {
+        "code": "12181",
+        "name": "Sammler",
+        "traits": "Talent.",
+        "text": "Dauerhaft. Belohnung. Nur 1 pro Deck. Kann nur beim Deckbau erworben werden.\nDu bekommst +5 Deckgröße.\nDie Deckbau-Optionen deines Ermittlers erhalten: „1 andere [[Relikt]]- oder [[Glücksbringer]]-Vorteilskarte einer beliebigen Klasse ([guardian], [seeker], [rogue], [mystic], [survivor]) Stufe 0–3.“"
+    },
+    {
+        "code": "12182",
+        "name": "Kanalzugang",
+        "traits": "Kanalisation. Zentral.",
+        "text": "Der Kanalzugang ist mit jedem Kanalisationstunnel verbunden und umgekehrt.\n[action]: <b>Aufgeben.</b> <i>„Ich halte das nicht mehr aus!“</i> Du flüchtest aus der Kanalisation.",
+        "back_flavor": "Gehst du dort hinein, kommst du vielleicht nie wieder heraus.",
+        "back_text": "Der Kanalzugang ist mit jedem Kanalisationstunnel verbunden und umgekehrt."
+    },
+    {
+        "code": "12183",
+        "name": "Kanalisationstunnel",
+        "subname": "Von Ungeziefer befallene Rohre",
+        "traits": "Kanalisation.",
+        "flavor": "Was auch immer hier unten ist, es ist schlimmer als Ratten.",
+        "text": "<b>Erzwungen</b> – Nachdem du diesen Ort betreten hast: Lege Karten oben vom Begegnungsdeck ab, bis ein Gegner abgelegt wird. Ziehe jenen Gegner.",
+        "back_flavor": "Ein fauliger, widerwärtiger Gestank erfüllt das labyrinthartige Tunnelnetz unter der Stadt."
+    },
+    {
+        "code": "12184",
+        "name": "Kanalisationstunnel",
+        "subname": "Überwucherte Tunnel",
+        "traits": "Kanalisation.",
+        "flavor": "Knorrige Wurzeln haben die Tunnel in Beschlag genommen, was es schwierig macht, hier durchzukommen.",
+        "text": "<b>Erzwungen</b> – Nachdem du diesen Ort betreten hast: Du verlierst 1 Aktion.",
+        "back_flavor": "Ein fauliger, widerwärtiger Gestank erfüllt das labyrinthartige Tunnelnetz unter der Stadt."
+    },
+    {
+        "code": "12185",
+        "name": "Kanalisationstunnel",
+        "subname": "Überflutete Krypta",
+        "traits": "Kanalisation.",
+        "flavor": "Was auch immer die Wand durchbrochen hat, wollte sicher nicht in die Krypta hinein.",
+        "text": "<b>Erzwungen</b> – Sobald du deinen Zug an diesem Ort beendest: Nimm 1 Horror.",
+        "back_flavor": "Ein fauliger, widerwärtiger Gestank erfüllt das labyrinthartige Tunnelnetz unter der Stadt."
+    },
+    {
+        "code": "12186",
+        "name": "Kanalisationstunnel",
+        "subname": "Schmugglerversteck",
+        "traits": "Kanalisation.",
+        "flavor": "Nach der Qualität des Fusels und der Schmuggelware zu urteilen, wurde dieser Vorrat von der Sheldon-Gang angelegt. Du kannst dich hier bedienen, nur herausfinden sollten sie es nicht.",
+        "text": "[reaction] Sobald du deinen Zug an diesem Ort beendest: Du erhältst 1 Ressource.",
+        "back_flavor": "Ein fauliger, widerwärtiger Gestank erfüllt das labyrinthartige Tunnelnetz unter der Stadt."
+    },
+    {
+        "code": "12187",
+        "name": "Kanalisationstunnel",
+        "subname": "Giftmüllbecken",
+        "traits": "Kanalisation.",
+        "flavor": "Was schwimmt da knapp unter der Oberfläche?",
+        "text": "<b>Erzwungen</b> – Sobald du deinen Zug an diesem Ort beendest: Wähle 1 Karte von deiner Hand und lege sie ab.",
+        "back_flavor": "Ein fauliger, widerwärtiger Gestank erfüllt das labyrinthartige Tunnelnetz unter der Stadt."
+    },
+    {
+        "code": "12188",
+        "name": "Zelot",
+        "traits": "Humanoid. Kultist.",
+        "text": "Zurückhaltend.\n<b>Erzwungen</b> – Nachdem dieser Gegner ins Spiel gekommen ist: Platziere 1 Verderben auf ihm."
+    },
+    {
+        "code": "12189",
+        "name": "Dunkler Magier",
+        "traits": "Humanoid. Kultist.",
+        "text": "Jäger. Zurückschlagen.\n<b>Erzwungen</b> – Sobald die Runde endet: Platziere 1 Verderben auf dem zum Dunklen Magier nächstgelegenen Gegner, der kein Verderben auf sich hat."
+    },
+    {
+        "code": "12190",
+        "name": "Blasphemische Anrufung",
+        "traits": "Verwünschung.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (3) ab. Für jeden Punkt, um den die Probe misslingt, platziere 1 Verderben auf einem [[Kultist]]-Gegner, der kein Verderben auf sich hat. Falls die Probe misslingt und kein Verderben platziert wurde, durchsuche das Begegnungsdeck und den Ablagestapel nach einem [[Kultist]]-Gegner und ziehe ihn. <i>(Mische das Begegnungsdeck, falls es durchsucht wurde.)</i>"
+    },
+    {
+        "code": "12191",
+        "name": "Unnatürlicher Verfall",
+        "traits": "Fluch.",
+        "flavor": "So schnell hast du noch nie etwas verrosten sehen.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (4) ab. Falls die Probe misslingt, musst du entweder 1 Verderben auf einer Vorteilskarte platzieren, die du kontrollierst, oder 2 Schaden nehmen."
+    },
+    {
+        "code": "12192",
+        "name": "Faulige Dämpfe",
+        "traits": "Gefahr.",
+        "flavor": "„Das Entfernen der Platte deckte eine schwarze Öffnung auf, der eine Unmenge so ekelhaft miasmatischer Gase entströmte, dass wir vor Entsetzen zurückwichen.“\n– H. P. Lovecraft, „Die Aussage des Randolph Carter“",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, nimm 1 Horror und lege eine Nicht-Storyvorteilskarte ab, die du kontrollierst."
+    },
+    {
+        "code": "12193",
+        "name": "Trägheit",
+        "traits": "Verwünschung. Unheil.",
+        "text": "<b>Enthüllung</b> – Bringe Trägheit in deiner Bedrohungszone ins Spiel. Nur 1 pro Ermittler.\n<b>Erzwungen</b> – Nachdem dein Zug begonnen hat: Lege die oberste Karte deines Decks ab. Falls es eine Schwächekarte ist, ziehe sie. Ansonsten kannst du in dieser Runde keine Karten ihres Typs <i>(Vorteil, Ereignis oder Fertigkeit)</i> spielen oder beitragen.\n[action][action]: Lege Trägheit ab."
+    },
+    {
+        "code": "12194",
+        "name": "Missklang",
+        "traits": "Fluch. Unheil.",
+        "text": "<b>Enthüllung</b> – Lege eine [willpower]-Probe (3) ab. Falls die Probe misslingt, verliere 1 Aktion und wähle einen Kartentyp <i>(Vorteil, Ereignis oder Fertigkeit)</i>. Lege alle Nicht-Schwächekarten des gewählten Typs von deiner Hand ab."
+    },
+    {
+        "code": "12195",
+        "name": "Qual",
+        "traits": "Macht. Unheil.",
+        "text": "Nachrüsten.\n<b>Enthüllung</b> – Lege eine [willpower]-Probe (3) ab. Falls die Probe misslingt, benenne einen Kartentyp <i>(Vorteil, Ereignis oder Fertigkeit)</i>. Jeder Ermittler legt 1 Karte des benannten Typs von seiner Hand ab."
+    }
+]
