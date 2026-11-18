@@ -2,19 +2,19 @@
     {
         "code": "52001",
         "name": "Colt kaliber .32",
-        "text": "Zużywalny (6 naboi).\n[action] Wydaj 1 nabój: <b>Walka.</b> W tym ataku zadajesz +1 obrażenie.\n[free] Wydaj 1 żeton zasobu: cofnij Colta kaliber .32 na twoją rękę.",
+        "text": "Zużywalny (6 naboi).\n[action] Wydaj 1 nabój: <b>Walka.</b> W tym ataku zadajesz +1 obrażenie.\n[fast] Wydaj 1 żeton zasobu: cofnij Colta kaliber .32 na twoją rękę.",
         "traits": "Przedmiot. Broń. Palna.",
         "slot": "Ręka"
     },
     {
         "code": "52002",
-        "name": "\"Jedz ołów!\"",
-        "text": "Szybka. Zagraj tę kartę gdy aktywujesz umiejętność <b>Walka</b> na atucie z cechą [[Palna]].\nWydaj 1 żeton naboju z tego atutu. Kiedy odkrywasz żeton chaosu podczas tego ataku, odkryj 1 dodatkowy żeton. Wybierz jeden z nich i zignoruj pozostały.",
+        "name": "„Żryj ołów!”",
+        "text": "Szybka. Zagraj, gdy aktywujesz zdolność <b>Walka</b> na atucie z cechą [[Palny]].\nWydaj 1 dodatkowy żeton naboju z danego atutu. Kiedy odkryjesz żetony chaosu dla tego ataku, odkryj 1 dodatkowy żeton chaosu. Wybierz i rozpatrz 1 z nich, a pozostałe zignoruj.",
         "traits": "Taktyka."
     },
     {
         "code": "52003",
-        "flavor": "\"Jestem najmądrzejszym człowiekiem na świecie, ponieważ wiem jedno – wiem, że nic nie wiem.\"\n- Platon, <u>Państwo</u>",
+        "flavor": "„Jestem najmądrzejszym człowiekiem na świecie, ponieważ wiem jedno – wiem, że nic nie wiem”.\n– Platon, <i>Państwo</i>",
         "name": "Logiczne rozumowanie",
         "text": "Za każdy żeton wskazówki, który posiadasz (maksimum 3), wylecz 2 punkty przerażenia z dowolnego badacza w twojej lokalizacji albo odrzuć kartę z cechą [[Koszmar]] w twojej lokalizacji.",
         "traits": "Informacja."
@@ -23,14 +23,14 @@
         "code": "52004",
         "name": "Archaiczne glify",
         "subname": "Znamiona Izydy",
-        "text": "Możesz zawrzeć ten atut w twojej talii tylko poprzez ulepszenie go z Archaicznych glifów  <i>(Nieprzetłumaczone)</i> I tylko jeśli \"udało się przetłumaczyć glify\" (patrz Dziennik kampanii).\nZużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b> Badanie.</b> Jeśli test zakończył się sukcesem, możesz umieścić w grze atut o wydrukowanym koszcie X lub mniejszym z twojej ręki. X to liczba punktów, o którą test zakończył się sukcesem.",
+        "text": "Zbadany. Zużywalny (3 ładunki).\n[action] Wydaj 1 ładunek: <b>Badanie.</b> Jeśli test zakończył się sukcesem, możesz umieścić w grze atut o wydrukowanym koszcie X lub mniejszym z twojej ręki. X to liczba punktów, o którą test zakończył się sukcesem.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
     {
         "code": "52005",
         "name": "Skradanie się",
-        "text": "[free] Wyczerp Skradanie się podczas twojej tury: <b>Wymykanie się.</b> Wybrany wróg dostaje -2 do wymykania się podczas tej próby wymknięcia się. Jeśli uda ci się wymknąć wrogowi, uwolnij się ze zwarcia z nim, ale go nie wyczerpuj. Do końca twojej tury dany wróg nie może wejść z tobą w zwarcie.",
+        "text": "[fast] Wyczerp Skradanie się podczas twojej tury: <b>Wymykanie się.</b> Wybrany wróg dostaje –2 do wymykania się podczas tej próby wymknięcia się. Jeśli uda ci się wymknąć wrogowi, uwolnij się ze zwarcia z nim, ale go nie wyczerpuj. Do końca twojej tury dany wróg nie może wejść z tobą w zwarcie.",
         "traits": "Talent."
     },
     {
@@ -43,20 +43,20 @@
     {
         "code": "52007",
         "name": "Transmutacja alchemiczna",
-        "text": "Zużywalny (4 ładunki).\n[action] Wyczerp Transmutację alchemiczną, wydaj 1 ładunek: Testuj [willpower] (0). Za każdy punkt, o który test się powiódł (sukces), zyskujesz 1 żeton zasobu (do maksimum 4). Jeśli podczas tego testu zostanie odkryty symbol [skull], [cultist], [tablet], [elder_thing], or [auto_fail], otrzymujesz 1 obrażenie.",
+        "text": "Zużywalny (4 ładunki).\n[action] Wyczerp Transmutację alchemiczną, wydaj 1 ładunek: wykonaj test [willpower] (0). Za każdy punkt, o który test się powiódł (sukces), zyskujesz 1 żeton zasobu (do maksimum 4). Jeśli podczas tego testu zostanie odkryty symbol [skull], [cultist], [tablet], [elder_thing] lub [auto_fail], otrzymujesz 1 obrażenie.",
         "traits": "Zaklęcie.",
         "slot": "Mistyczna"
     },
     {
         "code": "52008",
         "name": "Nawałnica dusz",
-        "text": "<b>Walka.</b> Ten atak używa [willpower] zamiast [combat]. Do tego ataku dostajesz +2 [willpower]. Jeśli test zakończy się sukcesem, zamiast swoich standardowych obrażeń, ten atak zadaje 3 obrażenia każdemu wrogowi w twojej lokalizacji <i>(każde dodatkowe obrażenie jest zadawane atakowanemu wrogowi)</i>. Jeśli podczas tego ataku zostanie odkryty symbol [skull], [cultist], [tablet], [elder_thing] lub [auto_fail], zadaj 2 obrażenia każdemu badaczowi w twojej lokalizacji.",
+        "text": "<b>Walka.</b> Ten atak używa [willpower] zamiast [combat]. Do tego ataku dostajesz +2 [willpower]. Jeśli test zakończy się sukcesem, zamiast swoich standardowych obrażeń, ten atak zadaje 3 obrażenia każdemu wrogowi w lokalizacji atakowanego wroga <i>(każde dodatkowe obrażenie jest zadawane atakowanemu wrogowi)</i>. Jeśli podczas tego ataku zostanie odkryty symbol [skull], [cultist], [tablet], [elder_thing] lub [auto_fail], zadaj 2 obrażenia każdemu badaczowi w lokalizacji atakowanego wroga.",
         "traits": "Zaklęcie."
     },
     {
         "code": "52009",
         "name": "Latarnia",
-        "text": "[action]: <b>Badanie.</b> Do tego badania twoja lokalizacja dostaje -1 do wartości osłony.\n[action] Odrzuć Latarnię: zadaj 1 obrażenie dowolnemu wrogowi w twojej lokalizacji (lub zamiast tego usuń latarnię z gry, aby zadać 2 obrażenia). Ta akcja nie wywołuje ataków towarzyszących.",
+        "text": "[action]: <b>Badanie.</b> Do tego badania twoja lokalizacja dostaje –1 do wartości zasłony.\n[action] Odrzuć Latarnię: zadaj 1 obrażenie dowolnemu wrogowi w twojej lokalizacji (lub zamiast tego usuń Latarnię z gry, aby zadać 2 obrażenia). Ta akcja nie wywołuje ataków towarzyszących.",
         "traits": "Przedmiot. Narzędzie.",
         "slot": "Ręka"
     },
@@ -72,21 +72,21 @@
         "code": "52011",
         "name": "Nieopisywalna przysięga",
         "subname": "Żądza krwi",
-        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> - Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> - Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[reaction] Kiedy zadasz wrogowi obrażenia przekraczające jego pozostałą wytrzymałość: odrzuć tę kartę z twojej ręki.",
+        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> – Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> – Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[reaction] Kiedy zadasz wrogowi obrażenia przekraczające jego pozostałą wytrzymałość: odrzuć tę kartę z twojej ręki.",
         "traits": "Szaleństwo. Pakt."
     },
     {
         "code": "52012",
         "name": "Nieopisywalna przysięga",
         "subname": "Ciekawość",
-        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> - Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> - Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[reaction] Po tym, jak z sukcesem zbadasz lokalizację, na której nie ma żadnych żetonów wskazówek: odrzuć tę kartę z twojej ręki.",
+        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> – Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> – Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[reaction] Po tym, jak z sukcesem zbadasz lokalizację, na której nie ma żadnych żetonów wskazówek: odrzuć tę kartę z twojej ręki.",
         "traits": "Szaleństwo. Pakt."
     },
     {
         "code": "52013",
         "name": "Nieopisywalna przysięga",
         "subname": "Tchórzostwo",
-        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> - Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> - Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[action]: <b>Wymykanie się.</b> Użyj tylko na wyczerpanym, niebędącym w zwarciu wrogu w twojej lokalizacji. Jeśli test zakończy się sukcesem, odrzuć tę kartę z twojej ręki.",
+        "text": "Tylko tryb kampanii. Zagrożenie. Ukryta.\n<b>Odkrycie</b> – Dodaj tę kartę w tajemnicy do twojej ręki.\n<b>Wymuszony</b> – Kiedy gra się kończy lub zostałeś wyeliminowany, jeśli ta karta znajduje się na twojej ręce: zdobywasz 2 punkty doświadczenia mniej.\n[action]: <b>Wymykanie się.</b> Użyj tylko na wyczerpanym, niebędącym w zwarciu wrogu w twojej lokalizacji. Jeśli test zakończy się sukcesem, odrzuć tę kartę z twojej ręki.",
         "traits": "Szaleństwo. Pakt."
     }
 ]
