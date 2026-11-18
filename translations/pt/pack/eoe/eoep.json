@@ -12,7 +12,7 @@
     {
         "code":"08002",
         "name":"Chave Inglesa de Mec\u00e2nico",
-        "text":"Apenas no baralho de Daniela Reyes.\n[fast] Esgote Chave Inglesa de Mec\u00e2nico: Escolha um inimigo em seu local. Esse inimigo ataca voc\u00ea.\n[action]: <b>Lute.<\/b> Use esta habilidade apenas contra um inimigo. que atacou voc\u00ea desde o final do seu turno anterior. Voc\u00ea recebe +2 [combat]e causa +1 de dano neste ataque.",
+        "text":"Apenas no baralho de Daniela Reyes.\n[fast] Esgote Chave Inglesa de Mec\u00e2nico: Escolha um inimigo em seu local. Esse inimigo ataca voc\u00ea.\n[action]: <b>Lute.<\/b> Use esta habilidade apenas contra um inimigo que atacou voc\u00ea desde o final do seu turno anterior. Voc\u00ea recebe +2 [combat]e causa +1 de dano neste ataque.",
         "traits":"Item. Ferramenta. Corpo a Corpo.",
         "slot":"M\u00e3o"
     },
@@ -59,7 +59,7 @@
         "code":"08008",
         "name":"Chicote Confi\u00e1vel",
         "text":"Veloz. Apenas no baralho de Monterey Jack. \n[action]: <b>Lute.<\/b> Este ataque usa [agility] em vez de [combat]. Se o ataque tiver sucesso, voc\u00ea pode esgotar Chicote Confi\u00e1vel para evadir o inimigo atacado automaticamente ou causar +1 de dano neste ataque.",
-        "traits":"Item. Arma. Corpo a Corpo",
+        "traits":"Item. Arma. Corpo a Corpo.",
         "slot":"M\u00e3o"
     },
     {
@@ -366,7 +366,7 @@
     },
     {
         "code":"08048",
-        "name":"21 or Nada",
+        "name":"21 ou Nada",
         "text":"Uma de cada vez, revele fichas aleat\u00f3rias da bolsa do caos at\u00e9 que voc\u00ea decida parar. Trate cada [skull], [cultist], [tablet], ou [elder_thing] como um 5; o [auto_fail] como um 10; e o [elder_sign] como 1 ou 11. Se o valor combinado dessas fichas (ignorando +\/-) for...\n- ...18 ou menos, ganhe 4 recursos.\n- ...19, ganhe 5 recursos.\n- ...20, ganhe 6 recursos.\n- ...21, ganhe 9 recursos.",
         "traits":"Sorte. Gambito."
     },
@@ -386,7 +386,7 @@
     {
         "code":"08051",
         "name":"Barganha Inoportuna",
-        "text":"Revele um ativo de [[Item]] da sua m\u00e3o. Um investigador em seu local pode jogar esse ativo como se estivesse na m\u00e3o dele. Se ele fizer isso, compre 1 carta e ganhe uma quantidade de recursos igual ao custo impresso desse ativo.",
+        "text":"Revele um ativo de [[Item]] da sua m\u00e3o. Outro investigador em seu local pode jogar esse ativo como se estivesse na m\u00e3o dele. Se ele fizer isso, compre 1 carta e ganhe uma quantidade de recursos igual ao custo impresso desse ativo.",
         "traits":"Favor.",
         "flavor":"\"S\u00e9rio? Voc\u00ea vai barganhar comigo agora?\""
     },
@@ -552,7 +552,7 @@
         "code":"08075",
         "name":"Pulseira de Sortil\u00e9gios",
         "text":"Usa (1 carga).\n[fast] Gaste 1 carga: Voc\u00ea recebe +2 nesse teste de per\u00edcia. (Limite de uma vez por teste.) \n[reaction] Ap\u00f3s um inimigo atac\u00e1-lo: Coloque 1 carga em Pulseira de Sortil\u00e9gios.",
-        "traits":"Item. Amuleto. Amaldi\u00e7oado.",
+        "traits":"Item. Talism\u00e3. Amaldi\u00e7oado.",
         "slot":"Acess\u00f3rio"
     },
     {
@@ -676,14 +676,14 @@
         "code":"08093",
         "name":"Martelo Cicl\u00f3pico",
         "text":"[action]: <b>Lute.<\/b> Adicione sua [willpower] ao seu valor de per\u00edcia neste ataque. Voc\u00ea causa +1 de dano neste ataque. Se voc\u00ea tiver sucesso e o inimigo n\u00e3o for [[Elite]], voc\u00ea pode mov\u00ea-lo para um local de dist\u00e2ncia de voc\u00ea. (Se voc\u00ea tiver sucesso por 3 ou mais, em vez disso, voc\u00ea causa +2 de dano e pode mover o inimigo para at\u00e9 dois locais de dist\u00e2ncia de voc\u00ea).",
-        "traits":"Item. Rel\u00edquia. Arma. Corpo a Corpo",
+        "traits":"Item. Rel\u00edquia. Arma. Corpo a Corpo.",
         "slot":"M\u00e3o x2"
     },
     {
         "code":"08094",
         "name":"Marreta",
         "text":"[action]: <b>Lute.<\/b> Voc\u00ea recebe -1 [combat] e causa +1 de dano neste ataque.\n[action][action]: <b>Lute.<\/b> Voc\u00ea recebe +2 [combat] e causa +2 de dano neste ataque.",
-        "traits":"Item. Ferramenta. Arma. Corpo a Corpo",
+        "traits":"Item. Ferramenta. Arma. Corpo a Corpo.",
         "slot":"M\u00e3o x2",
         "flavor":"Doze quilos de a\u00e7o vingativo."
     },
@@ -699,7 +699,7 @@
         "code":"08096",
         "name":"Marreta",
         "text":"[action]: <b>Lute.<\/b> Voc\u00ea recebe +1 [combat] e causa +1 de dano neste ataque.\n[action][action][action]: <b>Lute.<\/b> Voc\u00ea recebe +5 [combat] e causa +5 de dano neste ataque.",
-        "traits":"Item. Ferramenta. Arma. Corpo a Corpo",
+        "traits":"Item. Ferramenta. Arma. Corpo a Corpo.",
         "slot":"M\u00e3o x2",
         "flavor":"Doze quilos de a\u00e7o vingativo."
     },
@@ -722,7 +722,7 @@
         "name":"Gen\u00e9 Beauregard",
         "subname":"Exploradora Intr\u00e9pida",
         "text":"Voc\u00ea recebe +1 [intellect] e +1 [agility].\n[reaction] Durante o seu turno, ap\u00f3s voc\u00ea se mover para um local, esgote Gen\u00e9 Beauregard: Mova uma pista ou um inimigo n\u00e3o [[Elite]] de um local conectado para o seu local ou vice-versa.",
-        "traits":"Aliado. Viajante",
+        "traits":"Aliado. Viajante.",
         "slot":"Aliado"
     },
     {
@@ -828,22 +828,22 @@
         "name":"Memento Precioso",
         "subname":"De uma Vida Anterior",
         "text":"Limite de 1 Memento Precioso <i>(De uma Vida Anterior)<\/i> por baralho. \n[reaction] Ap\u00f3s voc\u00ea falhar em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de dano dele.\n[reaction] Ap\u00f3s voc\u00ea ter sucesso em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de horror dele.",
-        "traits":"Item. Amuleto. Aben\u00e7oado.",
+        "traits":"Item. Talism\u00e3. Aben\u00e7oado.",
         "slot":"Acess\u00f3rio"
     },
     {
         "code":"08115",
         "name":"Memento Precioso",
         "subname":"De uma Vida Futura",
-        "text":"Limite de 1 Memento Precioso <i>(De uma Vida Futura)<\/i> por baralho. \n[reaction] Ap\u00f3s voc\u00ea falhar em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de horror dele.\n[reaction] Ap\u00f3s voc\u00ea ter sucesso em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de dano",
-        "traits":"Item. Amuleto. Aben\u00e7oado.",
+        "text":"Limite de 1 Memento Precioso <i>(De uma Vida Futura)<\/i> por baralho. \n[reaction] Ap\u00f3s voc\u00ea falhar em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de horror dele.\n[reaction] Ap\u00f3s voc\u00ea ter sucesso em um teste de per\u00edcia por 2 ou mais, esgote Memento Precioso: Cure 1 de dano dele.",
+        "traits":"Item. Talism\u00e3. Amaldi\u00e7oado.",
         "slot":"Acess\u00f3rio"
     },
     {
         "code":"08116",
         "name":"Talism\u00e3 de Prote\u00e7\u00e3o",
         "text":"Veloz. Jogue apenas durante o seu turno.\nJogue Talism\u00e3 de Prote\u00e7\u00e3o sob o controle de qualquer investigador em seu local.\n[reaction] Quando for atribu\u00eddo a voc\u00ea dano e\/ou horror que iria derrot\u00e1-lo, descarte Talism\u00e3 de Prote\u00e7\u00e3o: Cancele at\u00e9 2 desse dano e\/ou horror.",
-        "traits":"Item. Amuleto.",
+        "traits":"Item. Talism\u00e3.",
         "slot":"Arcano"
     },
     {
@@ -876,7 +876,7 @@
     {
         "code":"08121",
         "name":"Compenetrado",
-        "text":"Usa (2 recursos). Reabaste\u00e7a esses recursos no in\u00edcio de cada rodada.\nOs recursos sobre Compenetrado podem ser gastos para pagar por cartas de [[Amuleto]], de [[T\u00e1tica]] ou de [[Tomo]].\n[fast] Durante um teste de per\u00edcia de uma cartade[[Amuleto]], de [[T\u00e1tica]] ou de [[Tomo]], gaste 1 recurso de Compenetrado: Voc\u00ea recebe +1 de valor de per\u00edcia nesse teste.",
+        "text":"Usa (2 recursos). Reabaste\u00e7a esses recursos no in\u00edcio de cada rodada.\nOs recursos sobre Compenetrado podem ser gastos para pagar por cartas de [[Talism\u00e3]], de [[T\u00e1tica]] ou de [[Tomo]].\n[fast] Durante um teste de per\u00edcia de uma carta de [[Talism\u00e3]], de [[T\u00e1tica]] ou de [[Tomo]], gaste 1 recurso de Compenetrado: Voc\u00ea recebe +1 de valor de per\u00edcia nesse teste.",
         "traits":"Talento."
     },
     {

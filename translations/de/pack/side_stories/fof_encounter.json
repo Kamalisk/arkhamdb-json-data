@@ -1,0 +1,612 @@
+[
+    {
+        "code": "88001",
+        "name": "Glück und Torheit",
+        "text": "Einfach / Normal\n[skull]: -X. X ist die Hälfte deiner Alarmstufe (aufgerundet).\n[cultist]: Enthülle einen weiteren Marker. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1.\n[tablet]: -3. Falls die Probe misslingt, bewegt sich der nächstgelegene Gegner ein Mal auf dich zu.\n[elder_thing]: -5. Du darfst deine Alarmstufe um 1 erhöhen, um die Probe stattdessen automatisch gelingen zu lassen.",
+        "back_text": "Schwer / Experte\n[skull]: -X. X ist deine Alarmstufe.\n[cultist]: Enthülle einen weiteren Marker. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1.\n[tablet]: -4. Der nächstgelegene Gegner bewegt sich ein Mal auf dich zu.\n[elder_thing]: -6. Du darfst deine Alarmstufe um 1 erhöhen, um die Probe stattdessen automatisch gelingen zu lassen."
+    },
+    {
+        "code": "88002",
+        "flavor": "Du bist im Défis de la Roulette angekommen. Um den Quell stehlen zu können, musst du so viel wie möglich über das Casino und seinen Geheimkult herausfinden.",
+        "name": "Das Haus sieht alles",
+        "text": "<b>Erzwungen</b> – Zu Beginn der Gegnerphase: Jeder Ermittler an einem Ort mit einem spielbereiten [[Casino]]-Gegner erhöht seine Alarmstufe um 1.\n<b>Erzwungen</b> – Nachdem ein Ermittler einen [[Casino]]-Gegner besiegt hat: Erhöhe die Alarmstufe jenes Ermittlers um 1.",
+        "back_name": "Nicht länger erwünscht",
+        "back_flavor": "Zunächst waren es nur beiläufige Blicke, die dir die Croupiers und Wachleute zugeworfen haben. Doch seit ein paar Minuten fühlst du dich zunehmend beobachtet. In einer dunklen Ecke hat sich eine Gruppe uniformierter Sicherheitsleute zusammengefunden und unterhält sich. Während du sie beobachtest, schaut plötzlich einer von ihnen zu dir herüber und deutet in deine Richtung. Langsam kommen sie auf dich zu ...",
+        "back_text": "Falls die Ermittler als Gruppe 10 [per_investigator] oder mehr Ressourcen besitzen, merke dir, dass du „das Haus ausgenommen hast“. <b>(→A1)</b>"
+    },
+    {
+        "code": "88003",
+        "flavor": "Im Défis de la Roulette herrscht am heutigen Abend reges Treiben – die perfekte Tarnung für dich und deine Crew. Du hoffst, dass sich deine tagelange Planung auszahlen wird.",
+        "name": "Starthand",
+        "text": "<b>Erzwungen</b> – Zu Beginn der Gegnerphase: Jeder Ermittler an einem Ort mit einem spielbereiten [[Casino]]-Gegner erhöht seine Alarmstufe um 1.\n<b>Erzwungen</b> – Nachdem ein Ermittler einen [[Casino]]-Gegner besiegt hat: Erhöhe die Alarmstufe jenes Ermittlers um 1.",
+        "back_name": "Farbe bekennen müssen",
+        "back_flavor": "Von den Roulette-Tischen ertönt eine Stimme, die trotz des Lärms im gesamten Casino zu hören ist: „Rot 19!“ Jemand in der Nähe jubelt aufgeregt. Ein paar Augenblicke später ruft dieselbe Stimme: „Erneut Rot 19!“ Ein Raunen geht durch die Menge. Ein solches Ereignis ist höchst unwahrscheinlich. Einen Moment lang spürst du ein leichtes Knistern in der Luft, doch du ignorierst es. Doch gerade als wieder Normalität eingekehrt zu sein scheint, ruft die Stimme noch einmal ungläubig: „Rot 19, zum dritten Mal!“ Diesmal ist das Knistern nicht zu überhören und nimmt noch zu, bis alles für einen Moment zu verschwimmen scheint. Als deine Sicht wieder klar wird, siehst du eine schreckliche Kreatur jenseits aller Vorstellungskraft in der Mitte des überfüllten Casinos stehen, welche die Menschen um sie herum deutlich überragt. Mit einem mulmigen Gefühl erinnerst du dich an Isamaras Warnung, dass die Anwesenheit des Relikts Unheil bringen könnte. Als ob das nicht schon schlimm genug wäre, wird dieses Unheil auch noch über diejenigen hereinbrechen, die nicht in der Gunst des Quells und seines Trägers stehen.",
+        "back_text": "Der beiseitegelegte Gegner Dimensionsschlurfer erscheint am Roulette-Tisch. Mische den Begegnungs-Ablagestapel und das beiseitegelegte Begegnungsset <i>So viel zum Plan</i> in das Begegnungsdeck.\nJeder Ermittler erhöht seine Alarmstufe um 1."
+    },
+    {
+        "code": "88004",
+        "flavor": "Der Coup ist komplizierter geworden, als du es dir je hättest vorstellen können. Schreckliche Monster sind im Casino aufgetaucht. Die Gäste scheinen jedoch wie betäubt zu sein, während das Personal weiterhin nach verdächtigen Aktivitäten Ausschau hält. Können die Menschen die Gefahr nicht wahrnehmen, in der ihr euch alle befindet?",
+        "name": "Die Wende",
+        "text": "<b>Erzwungen</b> – Zu Beginn der Gegnerphase: Jeder Ermittler an einem Ort mit einem spielbereiten [[Casino]]-Gegner erhöht seine Alarmstufe um 1.\n<b>Erzwungen</b> – Nachdem ein Ermittler einen [[Casino]]-Gegner besiegt hat: Erhöhe die Alarmstufe jenes Ermittlers um 1.",
+        "back_name": "Unwahrscheinliches Chaos",
+        "back_flavor": "Gerade als es so aussieht, als könne es nicht mehr schlimmer werden, ändert sich die Atmosphäre im Casino auf seltsame Weise – die Ruhe vor dem Sturm. Dann, wie der letzte Atemzug vor dem Ertrinken, bricht der Sturm des Unglücks los ...",
+        "back_text": "Mische die 3 beiseitegelegten Handlungskarten Nicht vom Glück begünstigt, bestimme 1 davon zufällig und handle ihren Text ab.\nJeder Ermittler erhöht seine Alarmstufe um 1."
+    },
+    {
+        "code": "88005",
+        "flavor": "Der Kult ist gegen dich. Kreaturen jenseits von Zeit und Raum sind gegen dich. Jetzt ist sogar das Glück selbst gegen dich. Niemand hat behauptet, dass es einfach werden würde.",
+        "name": "Alles ist möglich",
+        "text": "<b>Erzwungen</b> – Zu Beginn der Gegnerphase: Jeder Ermittler an einem Ort mit einem spielbereiten [[Casino]]-Gegner erhöht seine Alarmstufe um 1.\n<b>Erzwungen</b> – Nachdem ein Ermittler einen [[Casino]]-Gegner besiegt hat: Erhöhe die Alarmstufe jenes Ermittlers um 1.",
+        "back_name": "„Rien ne va plus!“",
+        "back_flavor": "Du versuchst verzweifelt zu entkommen, aber das Glück hat dich endgültig verlassen. Mehrere Kultisten mit Münzmedaillons um den Hals versperren dir den Weg nach draußen. Hinter dir toben die schrecklichen Kreaturen, die durch die Kraft des Quells herbeigerufen wurden, durch das Casino. Um dich herum bricht das Chaos aus. Erst jetzt scheinen die Gäste und Sicherheitskräfte des Casinos endlich die schreckliche Wahrheit wahrzunehmen, die an diesem Unglück bringenden Ort lauert. Mit letzter Kraft versuchst du, sowohl die Kreaturen als auch die Kultisten abzuwehren, und kommst nur knapp mit dem Leben davon.",
+        "back_text": "Jeder Ermittler, der nicht aufgegeben hat, ist besiegt und erleidet 1 körperliches Trauma. <b>(→A3)</b>"
+    },
+    {
+        "code": "88006",
+        "flavor": "Du musst vorsichtig vorgehen, denn wenn du Verdacht erregst, kann das deine Pläne zunichtemachen, bevor der Coup überhaupt begonnen hat.",
+        "name": "„Sehen wir uns den Laden mal an!“",
+        "text": "[reaction] Nachdem du die [action]-Fähigkeit auf einem [[Spiel]]-Ort ausgelöst hast: Entferne 1 Hinweis vom Schlüssel Der Quell des Glücks (2 Hinweise stattdessen, falls du durch die Fähigkeit des [[Spiel]]-Ortes Ressourcen erhalten hast).\n<b>Ermittlungsziel</b> – Erfülle so viele Aufgaben, wie du kannst, und verschwinde, bevor man auf dich aufmerksam wird! Falls jeder unbesiegte Ermittler aufgegeben hat, rücke vor.",
+        "back_name": "„Beehren Sie uns bald wieder!“",
+        "back_flavor": "Du blickst dich ein letztes Mal prüfend um, bevor du das Casino verlässt. Du bist recht zuversichtlich, dass weder die Angestellten noch der Sicherheitsdienst die Rolle durchschaut haben, die du gespielt hast: die des gewöhnlichen, hoffnungsfrohen Glücksspielers. Unabhängig von dem Geld, das du heute Abend gewonnen oder verloren hast, dein eigentlicher Gewinn sind die Informationen, die du zusammentragen konntest. Du hoffst, dass sie ausreichen werden, um einen guten Plan für deinen Coup aufzustellen. Ein Plan gegen alle Wahrscheinlichkeit.",
+        "back_text": "Jeder Ermittler, der besiegt wurde, erhöht seine Alarmstufe um 2.\nFalls die Ermittler als Gruppe 10 [per_investigator] oder mehr Ressourcen besitzen, merke dir, dass du „das Haus ausgenommen hast“. <b>(→A2)</b>"
+    },
+    {
+        "code": "88007",
+        "flavor": "Der Coup beginnt. Du musst die Tresortür öffnen, den Quell finden, an der magischen Verteidigungsvorrichtung vorbeikommen und einen Weg finden, den Behälter zu öffnen, in dem der Quell aufbewahrt wird.",
+        "name": "Der Diebstahl",
+        "text": "[reaction] Nachdem du die [action]-Fähigkeit auf einem [[Spiel]]-Ort ausgelöst hast: Entferne 1 Hinweis vom Schlüssel Der Quell des Glücks (2 Hinweise stattdessen, falls du durch die Fähigkeit des [[Spiel]]-Ortes Ressourcen erhalten hast).\n<b>Ermittlungsziel</b> – Falls ein Ermittler den Schlüssel Der Quell des Glücks kontrolliert, rücke vor.",
+        "back_name": "Relikt akquiriert",
+        "back_text": "<b>Falls sich Abarran Arrigorriagakoa noch im Spiel befindet ...</b>\n<blockquote><i>Noch bevor du dich über deinen Erfolg freuen kannst, hörst du eine Stimme hinter dir rufen: „Sie kommen in mein Casino und bestehlen mich?“ Abarran steht in der Tür und bebt vor Wut. „Damit ruinieren Sie alles, was ich aufgebaut habe. Das kann ich nicht zulassen!“ Der Casino-Boss lässt jede Fassade fallen. Sein wahres Ich tritt zum Vorschein und die schiere Gefahr, die von ihm ausgeht, ist furchterregend.</i></blockquote>\nBewege Abarran Arrigorriagakoa <i>(Entfesselter Abarran)</i> in das Reliktezimmer.<hr><b>Falls sich Abarran Arrigorriagakoa im Siegpunktestapel befindet ...</b>\n<blockquote><i>Eine raue Stimme keucht hinter dir. „Ich lasse nicht zu, dass Sie ihn mir wegnehmen!“ Abarran kann sich irgendwie immer noch auf den Beinen halten und stützt sich hinter dir am Türrahmen ab. Obwohl er aussieht, als würde er gleich zusammenbrechen, glühen seine Augen vor Hass. Bevor du ihn davon abhalten kannst, schlägt er mit der Faust gegen eine Art Mechanismus an der Wand und stürzt dann zu Boden. Große Teile der massiven Stahldecke beginnen von oben herabzufallen ...</i></blockquote>\nJeder Ermittler muss eine [agility]-Probe (3) ablegen. Jeder Ermittler, dessen Probe misslingt, nimmt 2 Schaden."
+    },
+    {
+        "code": "88008",
+        "flavor": "Reinzukommen war eine Sache, doch jetzt musst du mit deiner Beute auch irgendwie wieder herauskommen. Es fühlt sich so an, als stünde das ganze Casino zwischen dir und der Welt dort draußen.",
+        "name": "Der Abgang",
+        "text": "Jeder [[Casino]]-Gegner verliert Zurückhaltend und Patrouille.\nJeder [[Casino]]-Gegner erhält Jäger und „<b>Beute</b> – Ermittler, der den Schlüssel Der Quell des Glücks kontrolliert“.\n<b>Ermittlungsziel</b> – Falls der Ermittler mit dem Schlüssel Der Quell des Glücks aufgegeben hat, rücke vor. <i>(Achtung: Jeder Ermittler, der nicht aufgegeben hat, wird zurückgelassen!)</i>",
+        "back_name": "Süße Freiheit",
+        "back_flavor": "Es gab Momente, da warst du dir nicht sicher, ob du es mit heiler Haut und mit intakter Seele aus dem Casino schaffen würdest – und nun stehst du hier draußen. Es fühlt sich fast wie ein Traum an, doch du kannst noch immer den Aufruhr im Inneren des Casinos hören. Es ist an der Zeit, diesen Ort hinter dir zu lassen und zu verschwinden.",
+        "back_text": "Jeder Ermittler, der nicht aufgegeben hat, ist besiegt und erleidet 1 körperliches Trauma. <b>(→A1)</b>"
+    },
+    {
+        "code": "88009",
+        "flavor": "Inmitten des Casino-Spielsaals wirst du von der prächtigen Einrichtung und dem Lärm der gut betuchten Gäste überwältigt.",
+        "name": "Casino-Spielsaal",
+        "subname": "Ruhiger Abend",
+        "text": "[action]: <b>Aufgeben.</b> Zeit, hier zu verschwinden!\n[action]: Platziere 1 Vorteilskarte von deiner Hand oder aus deiner Spielzone verdeckt unter diesem Ort als Teil der „versteckten Ausrüstung für den Coup“. (Nur ein Mal pro Zug.)",
+        "traits": "Öffentlich. Casino."
+    },
+    {
+        "code": "88009b",
+        "name": "Casino-Spielsaal",
+        "subname": "Geschäftiger Abend",
+        "text": "[action]: <b>Aufgeben.</b> Zeit, hier zu verschwinden!\n[action] Falls sich ein Ermittler „als High Roller ausgegeben hat“ und deine Alarmstufe 6 oder niedriger ist, gib 2 Ressourcen aus: Du bringst eine Geldlieferung zum Tresor ins Rollen. Durchsuche das Begegnungsdeck und den Ablagestapel nach 1 [[Casino]]-Gegner, der hier erscheint, und hänge die beiseitegelegte Handlungskarte Geldtransport an ihn an. (Nur ein Mal pro Spiel für die gesamte Gruppe.)",
+        "traits": "Öffentlich. Casino."
+    },
+    {
+        "code": "88010",
+        "flavor": "Omaha Hold’em – nichts Wildes, aber nach oben gibt es kein Limit.",
+        "name": "Poker-Tisch",
+        "text": "[action] Gib 2 Ressourcen aus: Lege die obersten 5 Karten des Begegnungsdecks ab und überprüfe ihre Spielkarten-Symbole. Du darfst 1 Mulligan nehmen. Falls alle 5 Karten eine Straße bilden oder mindestens 3 Karten den gleichen Wert haben, erhältst du 5 Ressourcen.",
+        "traits": "Öffentlich. Casino. Spiel.",
+        "back_flavor": "Die Poker-Tische sind stets gut besucht. An jedem Tisch drängeln sich Spieler nicht nur aus Europa, sondern auch aus der ganzen Welt. Das ständige Klackern von Pokerchips ist zu hören, die über den Tisch geschoben und zu Stapeln aufgeschichtet werden – jeder Einsatz eine Wette gegen das Schicksal. Dicker Rauch, Schweiß und die Spannung eines guten Bluffs liegen in der Luft."
+    },
+    {
+        "code": "88011",
+        "flavor": "Rot oder Schwarz? Was immer Sie möchten!",
+        "name": "Roulette-Tisch",
+        "text": "[action] Gib 1 Ressource aus: Nenne eine Farbe (Rot oder Schwarz) und einen Wert. Lege dann die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol. Falls es mit der genannten Farbe und dem Wert übereinstimmt, erhältst du 5 Ressourcen.",
+        "traits": "Öffentlich. Casino. Spiel.",
+        "back_flavor": "Roulette scheint das Lieblingsspiel vieler Gäste und des Casinos selbst zu sein. Immerhin ist dieses Casino nach dem Aushängeschild des Glücksspiels in Monte Carlo benannt."
+    },
+    {
+        "code": "88012",
+        "name": "Baccara-Tisch",
+        "text": "[action] Gib 2 Ressourcen aus: Nenne „Spieler“, „Bankier“ oder „Gleichstand“. Lege die obersten 2 Karten des Begegnungsdecks ab und überprüfe ihre Spielkarten-Symbole. Falls der addierte Wert beider Karten höher als 18 ist, gewinnt der „Spieler“. Falls er niedriger als 18 ist, gewinnt der „Bankier“. Falls er genau 18 ist, herrscht „Gleichstand“. Falls dies mit der genannten Ansage übereinstimmt, erhältst du 4 Ressourcen.",
+        "traits": "Öffentlich. Casino. Spiel.",
+        "back_flavor": "Baccara ist beim französischen Adel und den Aristokraten seit weit über einem Jahrhundert beliebt. Auch in diesem Casino scheint dies so zu sein, denn an den Baccara-Tischen haben die bestgekleideten und pompösesten Gäste Platz genommen."
+    },
+    {
+        "code": "88013",
+        "flavor": "„Jackpot!“",
+        "name": "Spielautomat",
+        "text": "[action] Gib 1 Ressource aus: Lege die obersten 3 Karten des Begegnungsdecks ab und überprüfe ihre Spielkarten-Symbole. Falls alle 3 Karten die gleiche Spielfarbe (♥, ♦, ♠ oder ♣) oder den gleichen Wert haben, erhältst du 3 Ressourcen.",
+        "traits": "Öffentlich. Casino. Spiel.",
+        "back_flavor": "An einer Seite stehen mehrere Reihen von Spielautomaten, die unvorsichtige Seelen dazu verleiten, sich in den endlosen Kreislauf aus Münzeinwurf und Hebelziehen, Münzeinwurf und Hebelziehen zu begeben. Hier ist kein Geschick oder Können gefragt – nur die pure Hingabe, sich den Launen des Glücks zu unterwerfen."
+    },
+    {
+        "code": "88014",
+        "name": "Tisch für High Roller",
+        "subname": "Ruhiger Abend",
+        "text": "[action] Falls sich hier keine Hinweise befinden, gib 4 Ressourcen aus: Merke dir, dass du dich „als High Roller ausgegeben hast“. Lege die obersten 5 Karten vom Begegnungsdeck ab und überprüfe ihre Spielkarten-Symbole. Du darfst 1 Mulligan nehmen. Falls alle 5 Karten die gleiche Spielfarbe (♥, ♦, ♠ oder ♣) haben oder eine Straße bilden, oder 4 Karten den gleichen Wert haben, erhältst du 8 Ressourcen.",
+        "traits": "Öffentlich. Casino. Spiel."
+    },
+    {
+        "code": "88014b",
+        "name": "Tisch für High Roller",
+        "subname": "Geschäftiger Abend",
+        "text": "[action] Gib 4 Ressourcen aus: Lege die obersten 5 Karten vom Begegnungsdeck ab und überprüfe ihre Spielkarten-Symbole. Du darfst 1 Mulligan nehmen. Falls alle 5 Karten die gleiche Spielfarbe (♥, ♦, ♠ oder ♣) haben oder eine Straße bilden, oder 4 Karten den gleichen Wert haben, erhältst du 8 Ressourcen und merke dir, dass du „ein Kultisten-Medaillon gewonnen hast“.",
+        "traits": "Öffentlich. Casino. Spiel."
+    },
+    {
+        "code": "88015",
+        "flavor": "Der prächtige Lounge-Bereich bietet kulinarische Köstlichkeiten, eine Bühne für alle Arten von Unterhaltung und zahlreiche Tische für legale – und illegale – Geschäfte.",
+        "name": "Casino-Lounge",
+        "subname": "Ruhiger Abend",
+        "text": "[action] Falls sich hier keine Hinweise befinden: Lege eine [agility]-Probe (3) ab. Falls die Probe gelingt, merke dir, dass du „einen Luftschacht gefunden hast“.",
+        "traits": "Öffentlich. Casino."
+    },
+    {
+        "code": "88015b",
+        "name": "Casino-Lounge",
+        "subname": "Geschäftiger Abend",
+        "text": "[action] Falls du „einen Luftschacht gefunden hast“, können Ermittler als Gruppe hier 2 [per_investigator] Hinweise ausgeben: <b>Bewegen.</b> Bewege dich zum Wachraum. Enthülle dann den Ort Zugangsflur für Angestellte. Merke dir, dass „der Luftschacht offen ist“. (Nur ein Mal pro Spiel für die gesamte Gruppe.)\nSolange „der Luftschacht offen ist“, dürfen sich Ermittler von hier zum Wachraum bewegen (und umgekehrt), als ob die Orte verbunden wären.",
+        "traits": "Öffentlich. Casino."
+    },
+    {
+        "code": "88016",
+        "flavor": "„Geht es hier zu den Toiletten?“",
+        "name": "Zugangsflur für Angestellte",
+        "text": "<b>Erzwungen</b> – Sobald dieser Ort enthüllt wird: Der Gegner Abarran Arrigorriagakoa <i>(Entfesselter Abarran)</i> erscheint im Büro des Casino-Bosses. Mische den Begegnungs-Ablagestapel und das beiseitegelegte Begegnungsset <i>Auserwählte des Glücks</i> in das Begegnungsdeck.",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Die Tür zum gesperrten Bereich des Casinos lockt ... Du musst den richtigen Augenblick abwarten, wenn niemand hinsieht und der Eingang unbewacht ist.",
+        "back_text": "Als zusätzliche Kosten, um den Zugangsflur für Angestellte zu betreten, müssen Ermittler an einem verbundenen Ort als Gruppe 4 [per_investigator] Hinweise ausgeben."
+    },
+    {
+        "code": "88017",
+        "name": "Sicherheitsbüro",
+        "text": "[action]: Wähle 1, 2 oder 3. Lege so viele Karten oben vom Begegnungsdeck ab und überprüfe ihre Spielkarten-Symbole. Falls ein Symbol mit dem Wert eines Gegners im Spiel übereinstimmt, merke dir, dass du „die Angestellten überwacht hast“. Falls der addierte Wert der abgelegten Karten 19 oder höher ist, ziehe die oberste Karte des Begegnungs-Ablagestapels.",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Auf einem Schild an der Tür steht „Sécurité“. Du hast von deiner Informantin erfahren, dass das Personal des Casinos zu jeder Zeit überwacht werden kann. Vielleicht befinden sich hinter dieser Tür die Antworten, die du suchst."
+    },
+    {
+        "code": "88018",
+        "name": "Wachraum",
+        "text": "[action] Falls alle der folgenden Punkte zutreffen, merke dir, dass du dich „als Wache verkleidet hast“:\n- Im Wachraum gibt es keine Gegner.\n- Es liegen keine Hinweise auf diesem Ort.\n- Ein Ermittler „hat sich eine Angestelltenuniform beschafft“.",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Durch den Türschlitz kannst du erkennen, dass im Raum dahinter eine Menge Ausrüstung und Uniformen des Wachpersonals gelagert werden."
+    },
+    {
+        "code": "88019",
+        "flavor": "Abarrans Safe und Schreibtischschubladen sind verschlossen. Auf der anderen Seite des Büros kann man durch eine falsche Wand in die Haupthalle des Casinos blicken.",
+        "name": "Büro des Casino-Bosses",
+        "text": "X entspricht der höchsten Alarmstufe unter den Ermittlern im Büro des Casino-Bosses.\n[action] Falls sich hier keine Hinweise befinden: Merke dir, dass du „Abarrans Siegel gefunden hast“.",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Auf dem Schild neben der Tür steht „Abarran Arrigorriagakoa“. Es ist recht wahrscheinlich, dass hier wichtige Geheimnisse und Gegenstände aufbewahrt werden ... wenn du nur irgendwie reinkommen könnest.",
+        "back_text": "Das Büro des Casino-Bosses ist verschlossen.\nAls zusätzliche Kosten, um diesen Ort zu betreten, müssen Ermittler an einem verbundenen Ort als Gruppe 2 [per_investigator] Hinweise ausgeben, außer ein Ermittler „hat Abarrans Schlüssel gestohlen“."
+    },
+    {
+        "code": "88020",
+        "name": "Zählzimmer",
+        "text": "[action] Ermittler im Zählzimmer geben als Gruppe 10 [per_investigator] Ressourcen aus (5 [per_investigator] Ressourcen stattdessen, falls du „einen Luftschacht gefunden hast“): Merke dir, dass du „einen Grundriss erlangt hast“.\n[reaction] Nachdem du im Zählzimmer erfolgreich um 2 oder mehr ermittelt hast: Du erhältst 2 Ressourcen. (Nur ein Mal pro Zug.)",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Das Klackern von Chips und das Klimpern von Münzen dringt durch die Tür dieses Raumes. Du bist aber nicht wirklich wegen des Geldes hier, oder?"
+    },
+    {
+        "code": "88021",
+        "name": "Tresortür",
+        "text": "[action] <b>Bewegen.</b> Lege die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol (falls ein Ermittler „einen Grundriss erlangt hat“, darfst du bis zu 2 Mulligans nehmen):\n- ♣ oder ♠: Bewege dich in den Wachraum.\n- ♥: Bewege dich in die Casino-Lounge.\n- ♦: Bewege dich zum Baccara-Tisch.",
+        "traits": "Gesperrt. Casino.",
+        "back_flavor": "Eine massive Stahltür ragt vor dir auf. Sie ist von oben bis unten von winzigen Rillen durchzogen, die scheinbar die arkane Energie kanalisieren, welche die Tür geschlossen hält.",
+        "back_text": "Die Tür zum Tresor des Casinos ist verschlossen, wird bewacht und durch Magie beschützt. Du kannst diesen Ort nicht betreten, bis du mindestens 4 Aufgaben auf der Handlungskarte Der Coup erfüllt hast."
+    },
+    {
+        "code": "88022",
+        "name": "Reliktezimmer",
+        "subname": "Heiligtum des Glücks",
+        "text": "<b>Erzwungen</b> – Nachdem dieser Ort enthüllt worden ist: Bewege alle Hinweise vom Schlüssel Der Quell des Glücks auf das Reliktezimmer.\n[action] Falls sich hier keine Hinweise befinden: Übernimm die Kontrolle über den Schlüssel Der Quell des Glücks und hänge ihn an deine Ermittlerkarte an.",
+        "traits": "Gesperrt. Casino.",
+        "back_text": "Du kannst das Reliktezimmer nicht betreten.\nDie Tresortür erhält: „[action] Nimm 1 Schaden und 1 Horror, außer ein Ermittler ‚hat Abarrans Siegel gefunden‘: Lege eine [willpower]- oder [agility]-Probe (4) ab. Falls die Probe gelingt, dürfen Ermittler an der Tresortür als Gruppe 4 [per_investigator] Hinweise ausgeben, um das Reliktezimmer zu enthüllen.“",
+        "flavor": "Die Münze pulsiert vor Energie. Wie entschlüsselt man ihre Geheimnisse?",
+        "back_subname": "Heiligtum des Glücks"
+    },
+    {
+        "code": "88023",
+        "name": "Das Casino auskundschaften",
+        "text": "<b>Dies sind die Aufgaben, die in <i>Glück und Torheit, Teil I</i> erfüllt werden können:</b>\n□ Ein Ermittler „hat einen Luftschacht gefunden“.\n□ Ein Ermittler „hat sich als High Roller ausgegeben“.\n□ Ein Ermittler „hat Isamara überzeugt, beim Coup mitzumachen“.\n□ Ein Ermittler „hat sich eine Angestelltenuniform beschafft“.\n□ Ein Ermittler „hat Abarrans Schlüssel gestohlen“.\n□ Ein Ermittler „hat das Haus ausgenommen“.<hr><b>Erzwungen</b> – Sobald ein Ermittler ausscheidet <i>(weil er besiegt worden ist oder aufgibt)</i>: Platziere jeden Hinweis jenes Ermittlers auf dieser Handlungskarte, anstatt die Hinweise auf seinem Ort zu platzieren.",
+        "back_name": "Der Coup",
+        "back_text": "<b>Dies sind die Aufgaben, die in <i>Glück und Torheit, Teil II</i> erfüllt werden können:</b>\n□ Ein Ermittler „hat ein Kultisten-Medaillon gewonnen“.\n□ Ein Ermittler „hat die Angestellten überwacht“.\n□ Ein Ermittler „hat Abarrans Siegel gefunden“.\n□ Ein Ermittler „hat einen Grundriss erlangt“.\n□ Ein Ermittler „hat sich als Wache verkleidet“.\n□ Ein Ermittler „wurde nicht entdeckt“.\n□ Ein Ermittler „hat das falsche Päckchen abgeliefert“.\n□ „Isamara hat die Wachen mit ihrem Lied bezaubert“.\n<i>Tipp: Du musst mindestens 4 dieser Aufgaben erfüllen, um die Tresortür öffnen zu können.</i>"
+    },
+    {
+        "code": "88024",
+        "name": "Die Uniform könnte passen ...",
+        "text": "<blockquote><i>Dieser Casino-Mitarbeiter sieht so aus, als könnte dir seine Uniform passen.</i></blockquote>\n[action]: <b>Kampf.</b> Führe diesen Angriff nur gegen den Gegner mit dieser Verstärkung durch. Lege eine [combat]-Probe (3) ab. Falls die Probe gelingt, konntest du den Gegner mit dieser Verstärkung außer Gefecht setzen <i>(lies den unteren Abschnitt)</i>. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1.\nFalls der Gegner mit dieser Verstärkung das Spiel verlässt, entferne diese Handlungskarte aus dem Spiel.<hr><b>Falls der Gegner mit dieser Verstärkung außer Gefecht gesetzt wird:</b>\nMerke dir, dass du dir „eine Angestelltenuniform beschafft hast“.\nFalls sich ein anderer Gegner an deinem oder einem verbundenen Ort befindet, erhöhe deine Alarmstufe um 1.\nLege den Gegner mit dieser Verstärkung ab. Entferne diese Handlungskarte aus dem Spiel.",
+        "back_name": "Geldtransport",
+        "back_text": "<blockquote><i>Du übergibst dem Angestellten das Päckchen.</i></blockquote>\nDer Patrouille-Ort des Gegners mit dieser Verstärkung wird auf den Ort Tresortür geändert. Der Gegner mit dieser Verstärkung verliert das Merkmal [[Casino]].\nFalls der Gegner mit dieser Verstärkung die Tresortür betritt, wurde das Päckchen abgeliefert <i>(lies den unteren Abschnitt)</i>.\nFalls der Gegner mit dieser Verstärkung das Spiel verlässt, entferne diese Handlungskarte aus dem Spiel.<hr><b>Falls das Päckchen abgeliefert wurde:</b>\nWähle einen Ermittler, der sein Deck nach einer [[Verbündeter]]- oder [[Gegenstand]]-Vorteilskarte durchsucht und sie verdeckt unter der Tresortür platziert. Merke dir, dass du „das falsche Päckchen abgeliefert hast“.\nLege den Gegner mit dieser Verstärkung ab und hänge diese Handlungskarte an die Tresortür an.\n[action]: Bringe die verdeckte Vorteilskarte unter der Tresortür unter deiner Kontrolle ins Spiel. Entferne diese Handlungskarte aus dem Spiel."
+    },
+    {
+        "code": "88025",
+        "name": "Nicht vom Glück begünstigt",
+        "text": "<blockquote><i>Isamara hat dich gewarnt, dass das Relikt, hinter dem du her bist, seltsame Kräfte besitzt und demjenigen Unglück bringt, der nicht in der Gunst seines Trägers steht. Vielleicht hättest du eine solche plötzliche Wendung des Schicksals in deine Pläne mit einbeziehen sollen. Denn jetzt, mitten in diesem hochriskanten Coup, könnte alles den Bach runtergehen ...</i></blockquote>\nDrehe diese Karte um und handle den Text auf der anderen Seite ab.",
+        "back_name": "Stromausfall!",
+        "back_text": "<blockquote><i>Plötzlich gibt es einen Knall und Funken sprühen. Dann ist es im gesamten Casino stockfinster. Von überallher ertönt panisches Geflüster. Eine technische Fehlfunktion zum ungünstigsten Zeitpunkt! Nun musst du dich im Dunkeln vorantasten oder einen Weg finden, den Strom wiederherzustellen.</i></blockquote>\nBringe diese Karte neben dem Agendadeck ins Spiel. Platziere auf jedem Ort 1 Schadensmarker.\nAn jedem Ort mit einem Schadensmarker ist das Licht ausgegangen. Jene Orte erhalten: „Dieser Ort bekommt +1 Schleier. Als zusätzliche Kosten, um eine Fähigkeit auf diesem Ort auszulösen, musst du entweder 1 zusätzliche Aktion ausgeben oder 1 Horror nehmen.“\nSolange sich ein Ermittler im Sicherheitsbüro befindet, darf er die folgende Aktion durchführen:\n[action]: Gib 1 [per_investigator] Hinweis aus. Wähle eins ...\n- Stelle den Strom im öffentlichen Bereich wieder her. Entferne von jedem [[Öffentlich]]-Ort 1 Schadensmarker.\n- Stelle den Strom im gesperrten Bereich wieder her. Entferne von jedem [[Gesperrt]]-Ort 1 Schadensmarker."
+    },
+    {
+        "code": "88026",
+        "name": "Nicht vom Glück begünstigt",
+        "text": "<blockquote><i>Isamara hat dich gewarnt, dass das Relikt, hinter dem du her bist, seltsame Kräfte besitzt und demjenigen Unglück bringt, der nicht in der Gunst seines Trägers steht. Vielleicht hättest du eine solche plötzliche Wendung des Schicksals in deine Pläne mit einbeziehen sollen. Denn jetzt, mitten in diesem hochriskanten Coup, könnte alles den Bach runtergehen ...</i></blockquote>\nDrehe diese Karte um und handle den Text auf der anderen Seite ab.",
+        "back_name": "Ungewöhnliche Verletzungen",
+        "back_text": "<blockquote><i>Was plötzlich im Casino vorgeht, kann nur als eine Reihe äußerst unwahrscheinlicher und unglücklicher Missgeschicke beschrieben werden. Gläser zerspringen, Gäste rutschen auf Würfeln am Boden aus und Kronleuchter fallen krachend auf Schädeln nieder.</i></blockquote>\nBringe diese Karte neben dem Agendadeck ins Spiel. Jeder Ermittler legt nacheinander die oberste Karte des Begegnungsdecks ab und überprüft ihr Spielkarten-Symbol. Für den Rest des Spiels ist jeder Ermittler von einer der folgenden Verletzungen betroffen:\n- ♥: Du bist auf 1 Bewegen-Aktion pro Zug beschränkt.\n- ♦: Du bist auf 1 Ermitteln-Aktion pro Zug beschränkt.\n- ♣: Du bist auf 1 Kampf-Aktion pro Zug beschränkt.\n- ♠: Du bist auf 1 Aktivieren-Aktion pro Zug beschränkt.\n[fast] Nimm 1 Schaden oder 1 Horror: Ignoriere bis zum Ende deines Zuges die Effekte deiner Verletzung. Jeder Ermittler darf diese Fähigkeit auslösen. (Nur ein Mal pro Zug.)"
+    },
+    {
+        "code": "88027",
+        "name": "Nicht vom Glück begünstigt",
+        "text": "<blockquote><i>Isamara hat dich gewarnt, dass das Relikt, hinter dem du her bist, seltsame Kräfte besitzt und demjenigen Unglück bringt, der nicht in der Gunst seines Trägers steht. Vielleicht hättest du eine solche plötzliche Wendung des Schicksals in deine Pläne mit einbeziehen sollen. Denn jetzt, mitten in diesem hochriskanten Coup, könnte alles den Bach runtergehen ...</i></blockquote>\nDrehe diese Karte um und handle den Text auf der anderen Seite ab.",
+        "back_name": "Persönliche Verwicklungen",
+        "back_text": "<blockquote><i>Du hast erfahren, dass jemand aus deiner Vergangenheit in diesem Casino arbeitet – was für ein Zufall! Unglücklicherweise hat auch Abarran von dieser Verbindung erfahren. Du musst deine Bekanntschaft retten, bevor es zu spät ist!</i></blockquote>\nHänge diese Handlungskarte an das Büro des Casino-Bosses an. Diese Handlungskarte stellt eine Person dar, die mit dem Ermittlungsleiter in Verbindung steht.\n[action] Ermittler im Büro des Casino-Bosses geben als Gruppe 1 [per_investigator] Hinweis aus: Entferne diese Handlungskarte aus dem Spiel.\n<b>Erzwungen</b> – Am Ende der Gegnerphase: Platziere 1 Horror auf dieser Handlungskarte (2 Horror stattdessen, falls sich ein Gegner im Büro des Casino-Bosses befindet).<hr><b>Falls sich 6 oder mehr Horror auf dieser Handlungskarte befinden:</b>\nDu bist zu spät. Der Ermittlungsleiter erleidet 1 seelisches Trauma. Jeder Ermittler nimmt 2 direkten Horror. Entferne diese Handlungskarte aus dem Spiel."
+    },
+    {
+        "code": "88028",
+        "flavor": "Wer braucht mit so einem Lächeln schon Dietriche?",
+        "name": "Lockvogel",
+        "text": "Kann nicht abgelegt werden.\n[action]: <b>Verhandlung.</b> Wähle 1 [[Casino]]-Gegner an deinem Ort und lege eine [willpower]- oder [intellect]-Probe (3) ab. Falls die Probe gelingt, erschöpfe Lockvogel, um die Alarmstufe eines beliebigen Ermittlers um 1 zu senken.",
+        "traits": "Rolle. Untrainiert."
+    },
+    {
+        "code": "88028b",
+        "name": "Lockvogel",
+        "text": "Kann nicht abgelegt werden.\n[action]: <b>Verhandlung.</b> Wähle 1 [[Casino]]-Gegner an deinem oder einem verbundenen Ort und lege eine [willpower]- oder [intellect]-Probe (2) ab. Falls die Probe gelingt, erschöpfe Lockvogel, um die Alarmstufe eines beliebigen Ermittlers um 1 zu senken.",
+        "traits": "Rolle. Trainiert."
+    },
+    {
+        "code": "88029",
+        "name": "Muskelpaket",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Nachdem du einen [[Casino]]-Gegner besiegt hast, erschöpfe Muskelpaket: Senke deine Alarmstufe um 1 (stattdessen um 2, falls sich keine anderen [[Casino]]-Gegner an deinem oder einem verbundenen Ort befinden).",
+        "traits": "Rolle. Untrainiert."
+    },
+    {
+        "code": "88029b",
+        "flavor": "Schh. Schhhhh. Zeit für ein Schläfchen!",
+        "name": "Muskelpaket",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Nachdem du einen [[Casino]]-Gegner besiegt hast, erschöpfe Muskelpaket: Senke deine Alarmstufe um 1 (stattdessen um 2, falls sich keine anderen [[Casino]]-Gegner an deinem Ort befinden).",
+        "traits": "Rolle. Trainiert."
+    },
+    {
+        "code": "88030",
+        "name": "Langfinger",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Sobald ein [[Casino]]-Gegner an einem verbundenen Ort sein Schlüsselwort Patrouille abhandelt, erschöpfe Langfinger: Ändere für diese Bewegung den Patrouille-Ort jenes Gegners von „im Uhrzeigersinn“ auf „gegen den Uhrzeigersinn“ oder umgekehrt.",
+        "traits": "Rolle. Untrainiert."
+    },
+    {
+        "code": "88030b",
+        "name": "Langfinger",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Sobald ein bis zu 2 Orte entfernter [[Casino]]-Gegner sein Schlüsselwort Patrouille abhandelt, erschöpfe Langfinger: Ändere für diese Bewegung den Patrouille-Ort jenes Gegners von „im Uhrzeigersinn“ auf „gegen den Uhrzeigersinn“ oder umgekehrt.",
+        "traits": "Rolle. Trainiert."
+    },
+    {
+        "code": "88031",
+        "name": "Trickbetrüger",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Sobald du bei der Abhandlung einer Fähigkeit auf einem [[Spiel]]-Ort Spielkarten-Symbole überprüfst, erschöpfe Trickbetrüger: Wähle eins ...\n- Erhöhe deine Alarmstufe um 1, um den Wert, die Spielfarbe (♥, ♦, ♠ oder ♣) oder die Farbe (Rot oder Schwarz) von 1 abgelegten Spielkarten-Symbol beliebig zu ändern.\n- Senke deine Alarmstufe um 1.",
+        "traits": "Rolle. Untrainiert."
+    },
+    {
+        "code": "88031b",
+        "name": "Trickbetrüger",
+        "text": "Kann nicht abgelegt werden.\n[reaction] Sobald du bei der Abhandlung einer Fähigkeit auf einem [[Spiel]]-Ort Spielkarten-Symbole überprüfst, erschöpfe Trickbetrüger: Wähle eins ...\n- Erhöhe deine Alarmstufe um 1, um den Wert, die Spielfarbe (♥, ♦, ♠ oder ♣) oder die Farbe (Rot oder Schwarz) von 2 abgelegten Spielkarten-Symbolen beliebig zu ändern.\n- Senke deine Alarmstufe um 1.",
+        "traits": "Rolle. Trainiert."
+    },
+    {
+        "code": "88032",
+        "name": "Isamara Ordoñez",
+        "subname": "Lounge-Sängerin",
+        "text": "[action]: <b>Verhandlung.</b> Lege eine [willpower]-Probe (X) ab, wobei X der höchsten Alarmstufe unter den Ermittlern entspricht. Falls die Probe gelingt, platziere 1 Hinweis <i>(aus dem Markervorrat)</i> auf Isamara Ordoñez. Falls sich dann 1 [per_investigator] Hinweis auf ihr befindet, merke dir, dass du „Isamara überzeugt hast, beim Coup mitzumachen“.",
+        "traits": "Verbündeter. Casino. Unauffällig."
+    },
+    {
+        "code": "88032b",
+        "name": "Isamara Ordoñez",
+        "subname": "Lounge-Sängerin",
+        "text": "[action]: <b>Verhandlung.</b> Übernimm die Kontrolle über Isamara.\n[action] Falls du Isamara kontrollierst: <b>Verhandlung.</b> Entkomme automatisch allen [[Casino]]-Gegnern an deinem Ort. Lege dann eine [willpower]-Probe (3) ab. Falls die Probe misslingt, verlierst du 2 Aktionen. Falls du durch diesen Effekt mindestens 1 Gegner an einem [[Gesperrt]]-Ort entkommen bist, merke dir, dass „Isamara die Wachen mit ihrem Lied bezaubert hat“. (Nur ein Mal pro Spiel für die gesamte Gruppe.)",
+        "traits": "Verbündeter. Casino. Crew."
+    },
+    {
+        "code": "88033",
+        "name": "Geldwagen",
+        "text": "[fast]: Bewege Geldwagen an einen verbundenen Ort.\n[reaction] Sobald ein Gegner mit dir in einen Kampf verwickelt oder deinen Ort betreten würde: Füge Geldwagen 1 Schaden zu. Bis zum Ende der Runde können dich Gegner an diesem Ort nicht in einen Kampf verwickeln.\n<b>Erzwungen</b> – Sobald Geldwagen besiegt wird: Merke dir, dass du „nicht entdeckt wurdest“. Entferne Geldwagen aus dem Spiel.",
+        "traits": "Casino."
+    },
+    {
+        "code": "88034a",
+        "name": "Abarran Arrigorriagakoa",
+        "subname": "Der Mann mit dem rubinroten Ring",
+        "text": "Zurückhaltend. Patrouille (im Uhrzeigersinn).\n<b>Erzwungen</b> – Sobald du Abarran Arrigorriagakoa in einen Kampf verwickelst: Rücke sofort die Agenda vor.\n[action]: Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1. Falls die Probe gelingt, lege die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol. Falls es Rot ist, merke dir, dass du „Abarrans Schlüssel gestohlen hast“.\n♦A",
+        "traits": "Humanoid. Casino. Coterie. Elite."
+    },
+    {
+        "code": "88034b",
+        "name": "Abarran Arrigorriagakoa",
+        "subname": "Entfesselter Abarran",
+        "text": "Solange die Alarmstufe eines Ermittlers 5 oder höher ist, erhält Abarran Arrigorriagakoa Jäger.\n<b>Erzwungen</b> – Sobald du Abarran Arrigorriagakoa 1 oder mehr Schaden zufügst, falls er spielbereit ist: Lege die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol. Falls es ♦ ist, greift dich Abarran an.\n♦A",
+        "traits": "Humanoid. Casino. Coterie. Elite."
+    },
+    {
+        "code": "88035a",
+        "flavor": "„Ich muss mal kurz mit Ihnen reden ...“",
+        "name": "Casino-Wache",
+        "text": "Zurückhaltend. Patrouille (gegen den Uhrzeigersinn).\n<b>Erscheinen</b> – Tisch für High Roller oder Wachraum (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem du deine Alarmstufe erhöht hast, während du dich am Ort dieses Gegners befindest: Nimm 1 Schaden.\n♣Q",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88035b",
+        "flavor": "„Ich muss mal kurz mit Ihnen reden ...“",
+        "name": "Casino-Wache",
+        "text": "Zurückhaltend. Patrouille (gegen den Uhrzeigersinn).\n<b>Erscheinen</b> – Tisch für High Roller oder Wachraum (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem du deine Alarmstufe erhöht hast, während du dich am Ort dieses Gegners befindest: Nimm 1 Schaden.\n♣J",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88035c",
+        "flavor": "„Ich muss mal kurz mit Ihnen reden ...“",
+        "name": "Casino-Wache",
+        "text": "Zurückhaltend. Patrouille (im Uhrzeigersinn).\n<b>Erscheinen</b> – Tisch für High Roller oder Wachraum (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem du deine Alarmstufe erhöht hast, während du dich am Ort dieses Gegners befindest: Nimm 1 Schaden.\n♥10",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88036a",
+        "flavor": "„Noch eine Karte?“",
+        "name": "Croupière",
+        "text": "Zurückhaltend. Patrouille (im Uhrzeigersinn).\nSolange Croupière spielbereit ist, kostet jede Fähigkeit auf ihrem Ort 1 zusätzliche Aktion, um sie auszulösen.\n♥9",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88036b",
+        "flavor": "„Noch eine Karte?“",
+        "name": "Croupière",
+        "text": "Zurückhaltend. Patrouille (gegen den Uhrzeigersinn).\nSolange Croupière spielbereit ist, kostet jede Fähigkeit auf ihrem Ort 1 zusätzliche Aktion, um sie auszulösen.\n♣9",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037a",
+        "name": "Wachpatrouille",
+        "text": "Zurückhaltend. Patrouille (im Uhrzeigersinn).\n<b>Erscheinen</b> – Casino-Lounge oder Sicherheitsbüro (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem sich Wachpatrouille in der Gegnerphase an deinen Ort bewegt hat: Erhöhe deine Alarmstufe um 1.\n♥Q",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037b",
+        "name": "Wachpatrouille",
+        "text": "Zurückhaltend. Patrouille (im Uhrzeigersinn).\n<b>Erscheinen</b> – Casino-Lounge oder Sicherheitsbüro (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem sich Wachpatrouille in der Gegnerphase an deinen Ort bewegt hat: Erhöhe deine Alarmstufe um 1.\n♥J",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88037c",
+        "name": "Wachpatrouille",
+        "text": "Zurückhaltend. Patrouille (gegen den Uhrzeigersinn).\n<b>Erscheinen</b> – Casino-Lounge oder Sicherheitsbüro (was näher zu dir ist).\n<b>Erzwungen</b> – Nachdem sich Wachpatrouille in der Gegnerphase an deinen Ort bewegt hat: Erhöhe deine Alarmstufe um 1.\n♣10",
+        "traits": "Humanoid. Casino."
+    },
+    {
+        "code": "88038a",
+        "name": "Unbequeme Befragung",
+        "text": "<b>Enthüllung</b> – Falls sich keine nicht-einzigartigen [[Casino]]-Gegner im Spiel befinden, erhält Unbequeme Befragung Nachrüsten. Ansonsten bewegt sich der nächstgelegene nicht-einzigartige [[Casino]]-Gegner ein Mal auf dich zu und du legst eine [intellect]-Probe (3) ab. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1 und jeder nicht-einzigartige [[Casino]]-Gegner an deinem Ort verliert bis zum Ende dieser Runde Zurückhaltend.\n♠9",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88038b",
+        "name": "Unbequeme Befragung",
+        "text": "<b>Enthüllung</b> – Falls sich keine nicht-einzigartigen [[Casino]]-Gegner im Spiel befinden, erhält Unbequeme Befragung Nachrüsten. Ansonsten bewegt sich der nächstgelegene nicht-einzigartige [[Casino]]-Gegner ein Mal auf dich zu und du legst eine [intellect]-Probe (3) ab. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1 und jeder nicht-einzigartige [[Casino]]-Gegner an deinem Ort verliert bis zum Ende dieser Runde Zurückhaltend.\n♦9",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88038c",
+        "name": "Unbequeme Befragung",
+        "text": "<b>Enthüllung</b> – Falls sich keine nicht-einzigartigen [[Casino]]-Gegner im Spiel befinden, erhält Unbequeme Befragung Nachrüsten. Ansonsten bewegt sich der nächstgelegene nicht-einzigartige [[Casino]]-Gegner ein Mal auf dich zu und du legst eine [intellect]-Probe (3) ab. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1 und jeder nicht-einzigartige [[Casino]]-Gegner an deinem Ort verliert bis zum Ende dieser Runde Zurückhaltend.\n♠8",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88038d",
+        "name": "Unbequeme Befragung",
+        "text": "<b>Enthüllung</b> – Falls sich keine nicht-einzigartigen [[Casino]]-Gegner im Spiel befinden, erhält Unbequeme Befragung Nachrüsten. Ansonsten bewegt sich der nächstgelegene nicht-einzigartige [[Casino]]-Gegner ein Mal auf dich zu und du legst eine [intellect]-Probe (3) ab. Falls die Probe misslingt, erhöhe deine Alarmstufe um 1 und jeder nicht-einzigartige [[Casino]]-Gegner an deinem Ort verliert bis zum Ende dieser Runde Zurückhaltend.\n♦8",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88039a",
+        "name": "Arkanes Rampenlicht",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort, an den noch keine Kopie von Arkanes Rampenlicht angehängt ist.\n<b>Erzwungen</b> – Nachdem du den Ort mit dieser Verstärkung betreten hast: Erhöhe deine Alarmstufe um 1.\n<b>Erzwungen</b> – Am Ende der Runde: Jeder Ermittler am Ort mit dieser Verstärkung erhöht seine Alarmstufe um 1. Lege Arkanes Rampenlicht ab.\n♠Q",
+        "traits": "Verwünschung. Hindernis."
+    },
+    {
+        "code": "88039b",
+        "name": "Arkanes Rampenlicht",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort, an den noch keine Kopie von Arkanes Rampenlicht angehängt ist.\n<b>Erzwungen</b> – Nachdem du den Ort mit dieser Verstärkung betreten hast: Erhöhe deine Alarmstufe um 1.\n<b>Erzwungen</b> – Am Ende der Runde: Jeder Ermittler am Ort mit dieser Verstärkung erhöht seine Alarmstufe um 1. Lege Arkanes Rampenlicht ab.\n♠J",
+        "traits": "Verwünschung. Hindernis."
+    },
+    {
+        "code": "88039c",
+        "name": "Arkanes Rampenlicht",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort, an den noch keine Kopie von Arkanes Rampenlicht angehängt ist.\n<b>Erzwungen</b> – Nachdem du den Ort mit dieser Verstärkung betreten hast: Erhöhe deine Alarmstufe um 1.\n<b>Erzwungen</b> – Am Ende der Runde: Jeder Ermittler am Ort mit dieser Verstärkung erhöht seine Alarmstufe um 1. Lege Arkanes Rampenlicht ab.\n♠10",
+        "traits": "Verwünschung. Hindernis."
+    },
+    {
+        "code": "88040a",
+        "name": "Die Habgier lockt",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Nimm 2 Horror.\n- Lege eine [willpower]-Probe (X) ab, wobei X die Hälfte deiner Alarmstufe ist (aufgerundet). Falls die Probe gelingt, erhältst du 2 Ressourcen. Falls die Probe misslingt, nimm 2 Horror und erhöhe deine Alarmstufe um 1.\n♦Q",
+        "traits": "Fluch."
+    },
+    {
+        "code": "88040b",
+        "name": "Die Habgier lockt",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Nimm 2 Horror.\n- Lege eine [willpower]-Probe (X) ab, wobei X die Hälfte deiner Alarmstufe ist (aufgerundet). Falls die Probe gelingt, erhältst du 2 Ressourcen. Falls die Probe misslingt, nimm 2 Horror und erhöhe deine Alarmstufe um 1.\n♦J",
+        "traits": "Fluch."
+    },
+    {
+        "code": "88040c",
+        "name": "Die Habgier lockt",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Nimm 2 Horror.\n- Lege eine [willpower]-Probe (X) ab, wobei X die Hälfte deiner Alarmstufe ist (aufgerundet). Falls die Probe gelingt, erhältst du 2 Ressourcen. Falls die Probe misslingt, nimm 2 Horror und erhöhe deine Alarmstufe um 1.\n♦10",
+        "traits": "Fluch."
+    },
+    {
+        "code": "88041a",
+        "flavor": "Beobachten sie dich oder doch jemand anderen? Wie dem auch sei, vielleicht wäre es besser, in der Menge unterzutauchen.",
+        "name": "Argwöhnischer Blick",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, musst du entweder Schaden in Höhe der Hälfte deiner Alarmstufe nehmen (aufgerundet) oder deine Alarmstufe um 1 erhöhen.\n♣8",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88041b",
+        "flavor": "Beobachten sie dich oder doch jemand anderen? Wie dem auch sei, vielleicht wäre es besser, in der Menge unterzutauchen.",
+        "name": "Argwöhnischer Blick",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, musst du entweder Schaden in Höhe der Hälfte deiner Alarmstufe nehmen (aufgerundet) oder deine Alarmstufe um 1 erhöhen.\n♠7",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88041c",
+        "flavor": "Beobachten sie dich oder doch jemand anderen? Wie dem auch sei, vielleicht wäre es besser, in der Menge unterzutauchen.",
+        "name": "Argwöhnischer Blick",
+        "text": "<b>Enthüllung</b> – Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, musst du entweder Schaden in Höhe der Hälfte deiner Alarmstufe nehmen (aufgerundet) oder deine Alarmstufe um 1 erhöhen.\n♣7",
+        "traits": "Komplott."
+    },
+    {
+        "code": "88042a",
+        "name": "Vom Glücksspiel besessen",
+        "text": "<b>Enthüllung</b> – Bringe Vom Glücksspiel besessen in deiner Bedrohungszone ins Spiel. Nur 1 pro Ermittler.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 1 Horror, falls du in diesem Zug keine Ressourcen erhalten hast. Lege eine [willpower]-Probe (3) ab. Falls die Probe gelingt, lege Vom Glücksspiel besessen ab.\n♥8",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88042b",
+        "name": "Vom Glücksspiel besessen",
+        "text": "<b>Enthüllung</b> – Bringe Vom Glücksspiel besessen in deiner Bedrohungszone ins Spiel. Nur 1 pro Ermittler.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 1 Horror, falls du in diesem Zug keine Ressourcen erhalten hast. Lege eine [willpower]-Probe (3) ab. Falls die Probe gelingt, lege Vom Glücksspiel besessen ab.\n♦7",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88042c",
+        "name": "Vom Glücksspiel besessen",
+        "text": "<b>Enthüllung</b> – Bringe Vom Glücksspiel besessen in deiner Bedrohungszone ins Spiel. Nur 1 pro Ermittler.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 1 Horror, falls du in diesem Zug keine Ressourcen erhalten hast. Lege eine [willpower]-Probe (3) ab. Falls die Probe gelingt, lege Vom Glücksspiel besessen ab.\n♥7",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88043",
+        "name": "Deck der Möglichkeiten",
+        "subname": "Tychokinetisches Utensil",
+        "text": "Dauerhaft.\n[action]: Ziehe die oberste Karte vom Deck der Möglichkeiten. Drehe diese Karte um und sieh in der Liste auf der Rückseite nach, welcher Effekt abgehandelt wird. Entferne die gezogene Karte für den Rest der Kampagne aus dem Deck der Möglichkeiten. (Nur ein Mal pro Spiel.)",
+        "traits": "Gegenstand. Relikt."
+    },
+    {
+        "code": "88043b",
+        "name": "Deck der Möglichkeiten",
+        "text": "- J♠: <b>Das Gebet.</b> Nichts passiert.\n- J♥: <b>Der Wind.</b> Du darfst in dieser Runde 3 zusätzliche Aktionen nehmen.\n- J♦: <b>Die Truhe.</b> Du erhältst 10 Ressourcen.\n- J♣: <b>Das Buch.</b> Wähle 2 verschiedene Fertigkeiten. Du bekommst bis zum Ende des Spiels +1 auf jede der beiden Fertigkeiten.\n- Q♦: <b>Der Streiter.</b> Wähle eine [[Verbündeter]]-Vorteilskarte aus deiner Sammlung und bringe sie ins Spiel <i>(für den Rest des Spiels)</i>.\n- Q♠: <b>Das Schwert.</b> Wähle eine [[Gegenstand]]-Vorteilskarte aus deiner Sammlung und bringe sie ins Spiel <i>(für den Rest des Spiels)</i>.\n- K♥: <b>Das Lebenselixier.</b> Heile allen Schaden und Horror von deinem Ermittler.\n- K♣: <b>Die Lampe.</b> Wähle einen Nicht-[[Elite]]-Gegner oder eine Verratskarte im Spiel. Jene Karte hört auf zu existieren (entferne sie aus dem Spiel).\n- A♠: <b>Das Auge des Bösen.</b> Für den Rest des Spiels musst du jedes [elder_sign], das du auf einem Chaosmarker enthüllst, als ein [auto_fail] behandeln."
+    },
+    {
+        "code": "88044",
+        "name": "Isamara Ordoñez",
+        "subname": "Balladensängerin",
+        "text": "Du bekommst +1 [willpower].\nWährend der Unterhaltsphase darfst du wählen, Isamara Ordoñez nicht spielbereit zu machen.\n[fast] Erschöpfe Isamara Ordoñez und füge ihr 1 Horror zu: Wähle 1 Nicht-[[Elite]]-Gegner an deinem oder einem verbundenen Ort. Jener Gegner kann sich nicht bewegen, bis Isamara spielbereit gemacht wird oder das Spiel verlässt.",
+        "traits": "Verbündeter. Performer.",
+        "slot": "Verbündeter"
+    },
+    {
+        "code": "88045",
+        "flavor": "Akte #93-♠ / Subjekt-Klasse: Gelb / Schlüssel erscheint als kleine Münze, 34 mm im Durchmesser, aus unbekanntem Metall.",
+        "name": "Der Quell des Glücks",
+        "subname": "Symbol der Vorsehung",
+        "text": "<b>Wandeln</b> – Während der nächsten Fertigkeitsprobe in dieser Runde enthüllt der Ermittler, der sie durchführt, einen zusätzlichen Chaosmarker, wählt einen, den er abhandelt, und ignoriert den anderen. Drehe diesen Schlüssel auf die [[Instabil]]-Seite um.",
+        "traits": "Stabil."
+    },
+    {
+        "code": "88045b",
+        "flavor": "... kann keiner bekannten Zivilisation oder Währung zugeordnet werden.",
+        "name": "Der Quell des Glücks",
+        "subname": "Symbol der Vorsehung",
+        "text": "<b>Wandeln</b> – Während der nächsten Fertigkeitsprobe in dieser Runde enthüllt der Ermittler, der sie durchführt, einen zusätzlichen Chaosmarker <i>(und handelt beide ab)</i>. Drehe dann diesen Schlüssel auf die [[Stabil]]-Seite um <i>(falls ein Ermittler ihn gewandelt hat)</i>.",
+        "traits": "Instabil."
+    },
+    {
+        "code": "88046a",
+        "name": "Der Schild des Glücks",
+        "text": "Patrouille (gegen den Uhrzeigersinn). Zurückschlagen.\n<b>Erzwungen</b> – Sobald du diesem Gegner 1 oder mehr Schaden zufügen würdest: Lege die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol. Falls es ♥ ist, hebe 1 Schaden davon auf.\n♠K",
+        "traits": "Humanoid. Casino. Kultist."
+    },
+    {
+        "code": "88046b",
+        "name": "Der Schild des Glücks",
+        "text": "Patrouille (im Uhrzeigersinn). Zurückschlagen.\n<b>Erzwungen</b> – Sobald du diesem Gegner 1 oder mehr Schaden zufügen würdest: Lege die oberste Karte des Begegnungsdecks ab und überprüfe ihr Spielkarten-Symbol. Falls es ♥ ist, hebe 1 Schaden davon auf.\n♥K",
+        "traits": "Humanoid. Casino. Kultist."
+    },
+    {
+        "code": "88047a",
+        "name": "Der Dolch des Glücks",
+        "text": "Patrouille (gegen den Uhrzeigersinn). Zurückschlagen.\n<b>Erzwungen</b> – Sobald dich dieser Gegner angreift: Lege die obersten 2 Karten des Begegnungsdecks ab und überprüfe ihre Spielkarten-Symbole. Dieser Angriff fügt für jedes ♣ +1 Schaden zu.\n♣K",
+        "traits": "Humanoid. Casino. Kultist."
+    },
+    {
+        "code": "88047b",
+        "name": "Der Dolch des Glücks",
+        "text": "Patrouille (im Uhrzeigersinn). Zurückschlagen.\n<b>Erzwungen</b> – Sobald dich dieser Gegner angreift: Lege die obersten 2 Karten des Begegnungsdecks ab und überprüfe ihre Spielkarten-Symbole. Dieser Angriff fügt für jedes ♣ +1 Schaden zu.\n♦K",
+        "traits": "Humanoid. Casino. Kultist."
+    },
+    {
+        "code": "88048",
+        "name": "Dimensionsschlurfer",
+        "subname": "Jäger aus dem Jenseits",
+        "text": "Jäger.\n<b>Erzwungen</b> – Nachdem ein beliebiger Ermittler die gleiche Aktionsart in derselben Phase zwei Mal nacheinander durchgeführt hat, falls Dimensionsschlurfer spielbereit und nicht in einen Kampf verwickelt ist: Bewege ihn ein Mal auf jenen Ermittler zu. (Nur ein Mal pro Zug.)\n♠A",
+        "traits": "Monster. Außerdimensional. Elite."
+    },
+    {
+        "code": "88049a",
+        "name": "Dimensionaler Duplikator",
+        "text": "Jäger.\n<b>Erzwungen</b> – Nachdem du diesem Gegner 1 oder mehr Schaden zugefügt hast: Bringe die oberste Karte deines Decks verdeckt und mit dir in einen Kampf verwickelt ins Spiel. Behandle jene Karte als einen [[Außerdimensional]]-Gegner mit 1 Kampf, 1 Ausdauer, 1 Entkommen, 1 Schaden und 1 Horror. Falls sich jener Gegner von dir löst, lege ihn ab.\n♠6",
+        "traits": "Monster. Außerdimensional."
+    },
+    {
+        "code": "88049b",
+        "name": "Dimensionaler Duplikator",
+        "text": "Jäger.\n<b>Erzwungen</b> – Nachdem du diesem Gegner 1 oder mehr Schaden zugefügt hast: Bringe die oberste Karte deines Decks verdeckt und mit dir in einen Kampf verwickelt ins Spiel. Behandle jene Karte als einen [[Außerdimensional]]-Gegner mit 1 Kampf, 1 Ausdauer, 1 Entkommen, 1 Schaden und 1 Horror. Falls sich jener Gegner von dir löst, lege ihn ab.\n♣6",
+        "traits": "Monster. Außerdimensional."
+    },
+    {
+        "code": "88050a",
+        "name": "Dimensionaler Translokator",
+        "text": "Jäger. Zurückschlagen.\n<b>Erscheinen</b> – Lege den nächstgelegenen nicht-einzigartigen [[Casino]]-Gegner ab, an den keine Begegnungskarte angehängt ist. Dimensionaler Translokator erscheint an jenem Ort. (Falls sich keine solchen Gegner im Spiel befinden, lege stattdessen diese Karte ab. Sie erhält Nachrüsten.)\n♦6",
+        "traits": "Monster. Außerdimensional."
+    },
+    {
+        "code": "88050b",
+        "name": "Dimensionaler Translokator",
+        "text": "Jäger. Zurückschlagen.\n<b>Erscheinen</b> – Lege den nächstgelegenen nicht-einzigartigen [[Casino]]-Gegner ab, an den keine Begegnungskarte angehängt ist. Dimensionaler Translokator erscheint an jenem Ort. (Falls sich keine solchen Gegner im Spiel befinden, lege stattdessen diese Karte ab. Sie erhält Nachrüsten.)\n♥6",
+        "traits": "Monster. Außerdimensional."
+    },
+    {
+        "code": "88051a",
+        "name": "Dimensionale Hypnose",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort an, an den noch keine Kopie von Dimensionale Hypnose angehängt ist.\nAls zusätzliche Kosten, um den Ort mit dieser Verstärkung zu verlassen, lege eine [willpower]-Probe (3) ab. Falls die Probe misslingt, hebe die Effekte der Bewegung auf, bewege den nächstgelegenen [[Außerdimensional]]-Gegner ein Mal auf dich zu und lege Dimensionale Hypnose ab.\n♠5",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88051b",
+        "name": "Dimensionale Hypnose",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort an, an den noch keine Kopie von Dimensionale Hypnose angehängt ist.\nAls zusätzliche Kosten, um den Ort mit dieser Verstärkung zu verlassen, lege eine [willpower]-Probe (3) ab. Falls die Probe misslingt, hebe die Effekte der Bewegung auf, bewege den nächstgelegenen [[Außerdimensional]]-Gegner ein Mal auf dich zu und lege Dimensionale Hypnose ab.\n♣5",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88051c",
+        "name": "Dimensionale Hypnose",
+        "text": "<b>Enthüllung</b> – Hänge diese Karte an den nächstgelegenen Ort an, an den noch keine Kopie von Dimensionale Hypnose angehängt ist.\nAls zusätzliche Kosten, um den Ort mit dieser Verstärkung zu verlassen, lege eine [willpower]-Probe (3) ab. Falls die Probe misslingt, hebe die Effekte der Bewegung auf, bewege den nächstgelegenen [[Außerdimensional]]-Gegner ein Mal auf dich zu und lege Dimensionale Hypnose ab.\n♠4",
+        "traits": "Schrecken."
+    },
+    {
+        "code": "88052a",
+        "name": "Griff aus dem Jenseits",
+        "text": "<b>Enthüllung</b> – Bringe Griff aus dem Jenseits in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 2 Schaden. Senke diesen Schaden um 1 für jedes Mal, in dem du dich in diesem Zug bewegt hast. Lege Griff aus dem Jenseits ab.\n♦5",
+        "traits": "Gefahr."
+    },
+    {
+        "code": "88052b",
+        "name": "Griff aus dem Jenseits",
+        "text": "<b>Enthüllung</b> – Bringe Griff aus dem Jenseits in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 2 Schaden. Senke diesen Schaden um 1 für jedes Mal, in dem du dich in diesem Zug bewegt hast. Lege Griff aus dem Jenseits ab.\n♥5",
+        "traits": "Gefahr."
+    },
+    {
+        "code": "88052c",
+        "name": "Griff aus dem Jenseits",
+        "text": "<b>Enthüllung</b> – Bringe Griff aus dem Jenseits in deiner Bedrohungszone ins Spiel.\n<b>Erzwungen</b> – Am Ende deines Zuges: Nimm 2 Schaden. Senke diesen Schaden um 1 für jedes Mal, in dem du dich in diesem Zug bewegt hast. Lege Griff aus dem Jenseits ab.\n♦4",
+        "traits": "Gefahr."
+    },
+    {
+        "code": "88053a",
+        "name": "Der Hunger des Jägers",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Lege eine [[Verbündeter]]-Vorteilskarte ab, die du kontrollierst. Jeder andere Ermittler nimmt 1 Horror.\n- Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, nimm 1 direkten Schaden und 1 direkten Horror.\n♣4",
+        "traits": "Gefahr."
+    },
+    {
+        "code": "88053b",
+        "name": "Der Hunger des Jägers",
+        "text": "Wagnis.\n<b>Enthüllung</b> – Du musst entweder (wähle eins):\n- Lege eine [[Verbündeter]]-Vorteilskarte ab, die du kontrollierst. Jeder andere Ermittler nimmt 1 Horror.\n- Lege eine [agility]-Probe (3) ab. Falls die Probe misslingt, nimm 1 direkten Schaden und 1 direkten Horror.\n♥4",
+        "traits": "Gefahr."
+    }
+]

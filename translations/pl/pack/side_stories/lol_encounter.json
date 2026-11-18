@@ -1,0 +1,467 @@
+[
+    {
+        "code": "70001",
+        "name": "Labirynty obłędu",
+        "text": "Standardowy\n[skull]: –1. Odkryj nowy żeton.\n[cultist]: –3. Jeśli test zakończy się porażką, umieść na twojej lokalizacji 1 z twoich żetonów wskazówek.\n[tablet]: –4. Jeśli test zakończy się porażką, tracisz 2 żetony zasobów.\n[elder_thing]: –4. Jeśli test zakończy się porażką, odrzuć losową kartę z twojej ręki.",
+        "back_text": "Trudny\n[skull]: –1. Odkryj nowy żeton. Jeśli test zakończy się porażką, musisz otrzymać 1 obrażenie albo 1 punkt przerażenia.\n[cultist]: –3. Umieść na twojej lokalizacji 1 z twoich żetonów wskazówek.\n[tablet]: –4. Tracisz 2 żetony zasobów.\n[elder_thing]: –4. Odrzuć losową kartę z twojej ręki."
+    },
+    {
+        "code": "70002",
+        "flavor": "Oprócz was uprowadzono jeszcze dwie inne grupy. Zostaliście uwięzieni w ramach jakiegoś makabrycznego eksperymentu. Z kartki, którą wam zostawiono, dowiecie się, co robić dalej.",
+        "name": "Przebudzenie",
+        "text": "<b>Wymuszony</b> – Koniec rundy, jeśli na tej tajemnicy znajduje się przynajmniej 1 żeton zagłady i żadna grupa nie aktywowała jeszcze tej zdolności: główny badacz Grupy A losuje jedną z odłożonych na bok kart fabuły [[Akt 1]] i dobiera ją. Odczytuje tytuł wybranej karty wszystkim trzem grupom. Każdy inny główny badacz również dobiera daną kartę fabuły.",
+        "back_name": "Jest nadzieja",
+        "back_text": "Spowoduj postęp obecnego aktu i wykonaj zawarte na nim polecenia.\nKiedy gracze są proszeni o rozpatrzenie <b>Przygotowania Aktu 2</b>, instrukcje tego przygotowania mogą odnaleźć w książeczce Zasad (należy odnieść się do sekcji odpowiadającej danej Grupie)."
+    },
+    {
+        "code": "70003",
+        "flavor": "Oprócz was uprowadzono jeszcze dwie inne grupy. Zostaliście uwięzieni w ramach jakiegoś makabrycznego eksperymentu. Z kartki, którą wam zostawiono, dowiecie się, co robić dalej.",
+        "name": "Przebudzenie",
+        "back_name": "Jest nadzieja",
+        "back_text": "Spowoduj postęp obecnego aktu i wykonaj zawarte na nim polecenia.\nKiedy gracze są proszeni o rozpatrzenie <b>Przygotowania Aktu 2</b>, instrukcje tego przygotowania mogą odnaleźć w książeczce Zasad (należy odnieść się do sekcji odpowiadającej danej Grupie)."
+    },
+    {
+        "code": "70004",
+        "flavor": "Po ucieczce z pierwszego pomieszczenia na kartce materializują się świetliste litery układające się w słowa:\n„Wydostaliście się z pierwszej komnaty? Dobrze. Może nie jesteście tak bezużyteczni, jak sądziłem”.",
+        "name": "Cierpienie i rozpacz",
+        "text": "<b>Wymuszony</b> – Koniec rundy, jeśli na tej tajemnicy znajduje się przynajmniej 1 żeton zagłady i żadna grupa nie aktywowała jeszcze tej zdolności: główny badacz grupy A losuje jedną z odłożonych na bok kart fabuły [[Akt 2]] i dobiera ją. Odczytuje tytuł wybranej karty wszystkim trzem grupom. Każdy inny główny badacz również dobiera daną kartę fabuły.",
+        "back_name": "Nadzieja słabnie",
+        "back_text": "Spowoduj postęp obecnego aktu i wykonaj zawarte na nim polecenia.\nKiedy gracze są proszeni o rozpatrzenie <b>Przygotowania Aktu 3</b>, instrukcje tego przygotowania mogą odnaleźć w książeczce Zasad (należy odnieść się do sekcji odpowiadającej danej Grupie)."
+    },
+    {
+        "code": "70005",
+        "flavor": "Po ucieczce z pierwszego pomieszczenia na notatce materializują się świetliste litery układające się w słowa:\n„Wydostaliście się z pierwszej komnaty? Dobrze. Może nie jesteście tak bezużyteczni, jak sądziłem”.",
+        "name": "Cierpienie i rozpacz",
+        "back_name": "Nadzieja słabnie",
+        "back_text": "Spowoduj postęp obecnego aktu i wykonaj zawarte na nim polecenia.\nKiedy gracze są proszeni o rozpatrzenie <b>Przygotowania Aktu 3</b>, instrukcje tego przygotowania mogą odnaleźć w książeczce Zasad (należy odnieść się do sekcji odpowiadającej danej Grupie)."
+    },
+    {
+        "code": "70006",
+        "flavor": "Wbiegasz do następnego pomieszczenia z nadzieją, że w końcu znalazłeś wyjście z tego koszmaru. Zamknięte metalowe wrota, które widzisz przed sobą, szybko pozbawiają cię tych złudzeń. Na ścianach komnaty wyryto zagadkowe symbole, a z pieczęci na podłodze emanuje moc. Nagle z cienia wyłania się jakaś postać.",
+        "name": "Oprawca",
+        "text": "Każda lokalizacja z cechą [[Wypaczenie]] zyskuje:\n„[action] [intellect][tablet]<@/ T [elder_sign]+[cultist]49 [intellect][willpower]7@[auto_fail]8[intellect]7&#092;: [auto_fail]@<@/ H 4#[survivor]@[elder_sign]+9&#092;@ EIXODOLONOWI. (Limit grupowy raz na grę).”\n<b>Cel</b> – Jeśli każdy badacz zostanie pokonany, ta tajemnica postępuje.",
+        "back_name": "Nadzieja umarła",
+        "back_flavor": "Zniekształcony głos oprawcy trzeszczy upiornie. Brzmi to niemal jak śmiech. „Wasz ból jest potężny” – tłumaczy. „Zabrano was z bezpiecznego miejsca i skazano na cierpienie, a mimo to zachowaliście nadzieję... Tylko po to, aby ta nadzieja została brutalnie zdeptana”. Symbole na podłodze magazynu jarzą się intensywnie, a z pęknięć w betonie sączy się krew, spływając strugami ze ścian. „Wiem, że to niesprawiedliwe” – oznajmia głos. „Ale nie ma sprawiedliwości na tym świecie”.",
+        "back_text": "W tej linii czasowej rytuał został ukończony.\nJeśli gracie w <i>Epicki tryb wieloosobowy</i>, przesuń wszystkie obrażenia z Eixodolona na kopię Eixodolona należącą do innej grupy.\nWszyscy badacze w tej grupie zostają zabici. <b>(→Z1)</b>"
+    },
+    {
+        "code": "70007",
+        "flavor": "Na waszej kartce widnieje informacja: „Macie godzinę na znalezienie wyjścia albo się udusicie”.",
+        "name": "W potrzasku (Grupa A)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. W momencie, gdy nastąpi postęp tajemnicy, gracze muszą posiadać Klucz tajemnic i wymaganą liczbę żetonów wskazówek. <i>(Uwaga – jeśli nastąpi postęp tajemnicy i wymagania nie zostaną spełnione, każdy badacz w tej grupie zostanie zabity)</i>.",
+        "back_name": "Sukces... albo śmierć",
+        "back_text": "<b>Jeśli badacze posiadają Klucz tajemnic i 2 [per_investigator] żetonów wskazówek:</b>\n<blockquote><i>Wkładasz klucz do dziurki i ściana otwiera się, ukazując ciemny, wąski korytarz z falowanej blachy i betonu. Świst powietrza w rurach cichnie, zmieniając się w ledwie słyszalny szum.</i></blockquote>\nBadacze wydają, jako grupa, 2 [per_investigator] żetonów wskazówek. Usuń Klucz tajemnic z gry. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n<hr><b>Jeśli badacze nie posiadają Klucza tajemnic lub 2 [per_investigator] żetonów wskazówek:</b>\n<blockquote><i>Z wentylacji buchają strumienie duszącego gazu, błyskawicznie wypełniając całe pomieszczenie. Wzrok ci się rozmywa i upadasz na ziemię. „Taki los ostatecznie czeka nas wszystkich” – oznajmia złowieszczy głos. Ogarnia cię ciemność.</i></blockquote>\nWszyscy badacze w tej grupie zostają zabici. <b>(→Z1)</b>"
+    },
+    {
+        "code": "70008",
+        "flavor": "Członek twojej grupy został uwięziony w jednym ze zbiorników w tym pomieszczeniu. Mechanizm na górze kapsuły włącza się i do zbiornika zaczyna wlewać się woda. Na waszej kartce widnieje informacja: „Macie godzinę na uwolnienie swojego towarzysza albo przypieczętujecie jego los”.",
+        "name": "Wodny grób (Grupa B)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Do momentu, gdy nastąpi postęp tajemnicy, badacze w tej samej lokalizacji muszą posiadać wymaganą liczbę żetonów wskazówek. <i>(Uwaga – jeśli nastąpi postęp tajemnicy i to wymaganie nie zostanie spełnione, badacz w Komnacie deszczu zostanie zabity)</i>.",
+        "back_name": "Powolna śmierć",
+        "back_text": "<b>Jeśli badacze w tej samej lokalizacji posiadają 2 [per_investigator] żetonów wskazówek:</b>\n<blockquote><i>Wzdychasz z ulgą, kiedy woda zaczyna opadać.</i></blockquote>\nBadacze w tej samej lokalizacji wydają, jako grupa, 2 [per_investigator] żetonów wskazówek. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n<hr><b>Jeśli badacze w tej samej lokalizacji nie posiadają 2 [per_investigator] żetonów wskazówek:</b>\n<blockquote><i>Poziom wody ciągle rośnie. W końcu ciecz wypełnia cały zbiornik i wdziera się do twoich płuc. Miotasz się, desperacko tłukąc pięściami w szybę. Wolność jest tak blisko, a jednocześnie tak daleko.</i></blockquote>\nKażdy gracz traci wszystkie swoje żetony wskazówek.\nBadacz znajdujący się w Komnacie deszczu zostaje zabity.\nRozpatrz <b>Przygotowanie Aktu 2</b>."
+    },
+    {
+        "code": "70009",
+        "flavor": "Na waszej kartce widnieje informacja: „Tylko jedno z was może podjąć decyzję. Wybierz prawidłową dźwignię albo giń”. Żelazna krata podnosi się z głośnym zgrzytem, otwierając wejście do małego pomieszczenia z trzema nieoznaczonymi dźwigniami.",
+        "name": "Dźwignie (Grupa C)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Zanim nastąpi postęp tajemnicy, jeden z badaczy musi aktywować zdolność [action] na Komnacie żalu. <i>(Uwaga – jeśli pociągniesz za złą dźwignię, zostaniesz zabity)</i>.",
+        "back_name": "Która dźwignia?",
+        "back_text": "<b>Jeśli badacz aktywował zdolność [action] na Komnacie żalu, dany badacz sprawdza na Komnacie tajemnic w obszarze gry Grupy A, czy jej tekst fabularny odpowiada pociągniętej dźwigni.</b>\n- Jeśli tekst nie odpowiada dźwigni, rzędy ostrych jak brzytwa sztyletów wystrzeliwują ze ścian komnaty, przecinając cię z morderczą precyzją. Zostajesz zabity. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n- Jeśli tekst odpowiada dźwigni, krata podnosi się i otwierają się drzwi w Komnacie nocy. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n<hr><b>Jeśli żaden badacz nie aktywował zdolności [action] na Komnacie żalu:</b>\n<blockquote><i>Czas się skończył. Rzucasz się w stronę dźwigni, ale jest już za późno. Ze ścian wysuwają się rzędy zabójczych ostrzy, przecinając cię z morderczą precyzją.</i></blockquote>\nBadacz znajdujący się najbliżej Komnaty żalu zostaje zabity. <i>(W przypadku remisu decydują badacze)</i>. Rozpatrz <b>Przygotowanie Aktu 2</b>."
+    },
+    {
+        "code": "70010",
+        "flavor": "Na waszej kartce widnieje informacja: „Tylko jedno z was może podjąć decyzję. Wybierz prawidłową dźwignię albo giń”. Żelazna krata podnosi się z głośnym zgrzytem, otwierając wejście do małego pomieszczenia z trzema nieoznaczonymi dźwigniami.",
+        "name": "Dźwignie (Grupa C)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Zanim nastąpi postęp tajemnicy, jeden z badaczy musi aktywować zdolność [action] na Komnacie żalu. <i>(Uwaga – jeśli pociągniesz za złą dźwignię, zostaniesz zabity)</i>.",
+        "back_name": "Która dźwignia?",
+        "back_text": "<b>Jeśli badacz aktywował zdolność [action] na Komnacie żalu, dany badacz sprawdza na Komnacie tajemnic znajdującej się pod kartą pomocy scenariusza, czy jej tekst fabularny odpowiada pociągniętej dźwigni.</b>\n- Jeśli tekst nie odpowiada dźwigni, rzędy ostrych jak brzytwa sztyletów wystrzeliwują ze ścian komnaty, przecinając cię z morderczą precyzją. Zostajesz zabity. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n- Jeśli tekst odpowiada dźwigni, krata podnosi się i otwierają się drzwi w Komnacie nocy. Rozpatrz <b>Przygotowanie Aktu 2</b>.\n<hr><b>Jeśli żaden badacz nie aktywował zdolności [action] na Komnacie żalu:</b>\n<blockquote><i>Czas się skończył. Rzucasz się w stronę dźwigni, ale jest już za późno. Ze ścian wysuwają się rzędy zabójczych ostrzy, przecinając cię z morderczą precyzją.</i></blockquote>\nBadacz znajdujący się najbliżej Komnaty żalu zostaje zabity. <i>(W przypadku remisu decydują badacze)</i>. Rozpatrz <b>Przygotowanie Aktu 2</b>."
+    },
+    {
+        "code": "70011",
+        "flavor": "Kolejne lśniące słowa pojawiają się na kartce: „W następnej komnacie czas płynie inaczej. Jeśli się nie pospieszycie, obrócicie się w proch”.",
+        "name": "Zaburzenie czasu (Grupa A)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Kiedy tajemnica postępuje, w grze musi być przynajmniej 11 żetonów zagłady. <i>(Uwaga – jeśli nastąpi postęp tajemnicy i to wymaganie nie zostanie spełnione, każdy badacz w tej grupie zostanie zabity)</i>.",
+        "back_name": "Odwrócony rytm",
+        "back_text": "<b>Jeśli w grze było przynajmniej 11 żetonów zagłady, kiedy nastąpił postęp tajemnicy:</b>\n<blockquote><i>Obracasz pokrętło na maksymalną wartość. Nie poddajesz się i desperacko napinasz mięśnie, kiedy twoje ciało zaczyna się rozpadać. Pokrętło zatrzymuje się z trzaskiem, lecz po chwili znów możesz je powoli obracać w tym samym kierunku. Przeszywa cię straszliwy ból, ale nie rezygnujesz i przesuwasz pokrętło dalej, aż w końcu wykonuje pełen obrót, wracając na początkową pozycję. Powietrze przerzedza się i czas wraca na swoje miejsce.</i></blockquote>\nRozpatrz <b>Przygotowanie Aktu 3</b>.\n<hr><b>Jeśli w grze było mniej niż 11 żetonów zagłady, kiedy nastąpił postęp tajemnicy:</b>\n<blockquote><i>Twoje mięśnie i skóra napinają się, kiedy energia życiowa ucieka z twojego ciała. Próbujesz krzyczeć, ale nie masz powietrza w płucach. Twoje organy usychają i rozpadają się. „Taki los ostatecznie czeka nas wszystkich” – oznajmia złowieszczy głos. W ciągu kilku minut zostaje po tobie tylko garstka pyłu.</i></blockquote>\nWszyscy badacze w tej grupie zostają zabici. <b>(→Z1)</b>"
+    },
+    {
+        "code": "70012",
+        "flavor": "Kolejne lśniące słowa pojawiają się na kartce: „Komnata trucizny czeka. Jedno z was musi otworzyć przejście. Ofiara w imię wyższego dobra”.",
+        "name": "Przesiąknięty śmiercią (Grupa B)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Zanim nastąpi postęp tajemnicy, jeden z badaczy musi aktywować zdolność [action] na Komnacie trucizny.",
+        "back_name": "Czeluść trucizny",
+        "back_text": "<b>Jeśli badacz aktywował zdolność [action] na Komnacie trucizny, dany badacz czyta następujący fragment:</b>\n- Jeśli „otrzymałeś zastrzyk”, szlam jest obrzydliwy, ale niegroźny. Rozpatrz <b>Przygotowanie Aktu 3</b>.\n- Jeśli nie „otrzymałeś zastrzyku”, trucizna przenika przez twoją skórę, rozkładając twoje organy od środka. Zostajesz zabity. Rozpatrz <b>Przygotowanie Aktu 3</b>.\n<hr><b>Jeśli żaden badacz nie aktywował zdolności [action] na Komnacie trucizny:</b>\n<blockquote><i>Podłogi i ściany w całym labiryncie obracają się i przesuwają, pozbawiając cię równowagi. Ześlizgujesz się, kiedy grunt przechyla się pod tobą i spadasz prosto do trującej czeluści.</i></blockquote>\nPrzesuń każdego badacza do Komnaty trucizny. Każdy badacz w tej grupie, który nie „otrzymał zastrzyku”, zostaje zabity. Rozpatrz <b>Przygotowanie Aktu 3</b>."
+    },
+    {
+        "code": "70013",
+        "flavor": "Kolejne lśniące słowa pojawiają się na kartce: „W następnej komnacie czeka mój ukochany zwierzak. Jest bardzo głodny. Może go wypuścicie i dacie mu się najeść?”.",
+        "name": "Zwierzak (Grupa C)",
+        "text": "<b>Czasowy</b> – Nie powodujcie postępu tego aktu, dopóki gra was o to nie poprosi. Znajdźcie sposób, jak poradzić sobie ze Zwierzakiem Eixodolona, zanim nastąpi postęp tajemnicy. <i>(Uwaga – jeśli istota nadal jest „pod kluczem”, kiedy następuje postęp tajemnicy, udaje jej się wydostać)</i>.",
+        "back_name": "Nieskończony głód",
+        "back_text": "<b>Jeśli „wysłaliście Zwierzaka Eixodolona do innej grupy”:</b>\nWybierz losowo inną grupę. Na koniec obecnej rundy dana grupa rozstawia swoją odłożoną na bok kopię Zwierzaka Eixodolona w jednym ze swoich Korytarzy labiryntu. Rozpatrz <b>Przygotowanie Aktu 3</b>.\n<hr><b>Jeśli Zwierzak Eixodolona znajduje się w puli zwycięstwa:</b>\n<blockquote><i>Wzdychasz z ulgą, kiedy stwór pada bez życia na ziemię.</i></blockquote>\nRozpatrz <b>Przygotowanie Aktu 3</b>.\n<hr><b>Jeśli żadne z powyższych nie jest prawdą:</b>\n<blockquote><i>Stwór rozbija szklaną ścianę terrarium i z żarłoczną furią rzuca się na każdego, kto jest w pobliżu.</i></blockquote>\nPorusz Zwierzaka Eixodolona do Komnaty głodu. Atakuje on każdego badacza (w kolejności graczy) znajdującego się w Komnacie głodu. Rozpatrz <b>Przygotowanie Aktu 3</b>."
+    },
+    {
+        "code": "70014",
+        "flavor": "„Wolność jest już tak blisko” – trzeszczy zniekształcony głos oprawcy. „Czy w twoim głosie wciąż słychać nadzieję? Czy w twoich oczach wciąż tli się światło?”",
+        "name": "Ucieczka",
+        "text": "<b>Cel</b> – Na koniec rundy, jeśli Eixodolon nie ma żadnej pozostałej wytrzymałości, możesz poruszyć dowolną liczbę znajdujących się na nim obrażeń przekraczających jego wytrzymałość na kopię Eixodolona należącą do innej grupy. Następnie talia postępuje.",
+        "back_name": "Równoległe labirynty",
+        "back_text": "<b>Jeśli dowolnej kopii Eixodolona w obszarze gry którejkolwiek z ocalałych grup pozostała wytrzymałość:</b>\n<blockquote><i>Postać zniekształca się i rozmywa się w czasoprzestrzeni.</i></blockquote>\nOdwróć ten akt z powrotem.\n<hr><b>Jeśli żadna kopia Eixodolona należąca do innej ocalałej grupy nie ma pozostałej wytrzymałości:</b>\n- Jeśli tylko wasza grupa ocalała, przejdźcie do <b>(→Z2)</b>.\n- Jeśli tylko dwie grupy ocalały, te dwie grupy przechodzą do <b>(→Z3)</b>.\n- Jeśli wszystkie trzy grupy ocalały, wszystkie trzy grupy przechodzą do <b>(→Z4)</b>."
+    },
+    {
+        "code": "70015",
+        "flavor": "„Wolność jest już tak blisko” – trzeszczy zniekształcony głos oprawcy. „Czy w twoim głosie wciąż słychać nadzieję? Czy w twoich oczach wciąż tli się światło?”",
+        "name": "Ucieczka",
+        "text": "<b>Cel</b> – Jeśli Eixodolon nie ma żadnej pozostałej wytrzymałości, talia postępuje.",
+        "back_name": "Równoległe labirynty",
+        "back_text": "<b>Jeśli gracie w trybie samodzielnej rozgrywki:</b>\nPrzejdź do <b>(→Z2)</b>.\n<hr><b>Jeśli gracie w trybie minikampanii i jest to pierwsza lub druga grająca grupa:</b>\nRozpocznijcie jako nowa grupa, aby odkryć, które zakończenie zostało osiągnięte.\n<hr><b>Jeśli gracie w trybie minikampanii i jest to trzecia grająca grupa:</b>\n- Jeśli ocalała tylko jedna grupa, przejdźcie do <b>(→Z2)</b>.\n- Jeśli ocalały dwie grupy, przejdźcie do <b>(→Z3)</b>.\n- Jeśli ocalały wszystkie trzy grupy, przejdźcie do <b>(→Z4)</b>."
+    },
+    {
+        "code": "70016",
+        "flavor": "Na ścianie widnieje koślawy napis: „PRAWA”.\nMoże to jakaś wskazówka... ale czego dotyczy?",
+        "name": "Komnata tajemnic",
+        "subname": "Krwawe więzienie",
+        "text": "[action]: Uderzasz pięściami w ścianę komnaty. Nikt nie odpowiada.",
+        "traits": "Więzienie. Wypaczenie.",
+        "back_flavor": "Pomieszczenie jest szczelnie zamknięte. Nie ma żadnych drzwi, ale w jednej ze ścian komnaty jest dziwna dziurka od klucza. Wzdłuż ścian i sufitu ciągną się zardzewiałe miedziane rury, otaczając was ze wszystkich stron."
+    },
+    {
+        "code": "70017",
+        "flavor": "Na ścianie widnieje koślawy napis: „ŚRODKOWA”.\nMoże to jakaś wskazówka... ale czego dotyczy?",
+        "name": "Komnata tajemnic",
+        "subname": "Tajemnicze więzienie",
+        "text": "[action]: Uderzasz pięściami w ścianę komnaty. Nikt nie odpowiada.",
+        "traits": "Więzienie. Wypaczenie.",
+        "back_flavor": "Pomieszczenie jest szczelnie zamknięte. Nie ma żadnych drzwi, ale w jednej ze ścian komnaty jest dziwna dziurka od klucza. Wzdłuż ścian i sufitu ciągną się zardzewiałe miedziane rury, otaczając was ze wszystkich stron."
+    },
+    {
+        "code": "70018",
+        "flavor": "Na ścianie widnieje koślawy napis: „LEWA”.\nMoże to jakaś wskazówka... ale czego dotyczy?",
+        "name": "Komnata tajemnic",
+        "subname": "Ukryte więzienie",
+        "text": "[action]: Uderzasz pięściami w ścianę komnaty. Nikt nie odpowiada.",
+        "traits": "Więzienie. Wypaczenie.",
+        "back_flavor": "Pomieszczenie jest szczelnie zamknięte. Nie ma żadnych drzwi, ale w jednej ze ścian komnaty jest dziwna dziurka od klucza. Wzdłuż ścian i sufitu ciągną się zardzewiałe miedziane rury, otaczając was ze wszystkich stron."
+    },
+    {
+        "code": "70019",
+        "name": "Komnata deszczu",
+        "text": "Komnata deszczu jest szczelnie zamknięta, a woda wciąż napływa. Dopóki trwa Akt 1, ta lokalizacja zyskuje:\n„Badacze nie mogą poruszyć się do ani z tej lokalizacji.\n<b>Wymuszony</b> – Kiedy znajdujący się tu badacz dobierze kartę wroga: Odrzuć ją i dobierz w jej miejsce nową kartę”.",
+        "traits": "Wypaczenie.",
+        "back_flavor": "Po ścianach spływa woda. Ku twojemu przerażeniu strumień nie słabnie i ciecz powoli wypełnia kapsułę."
+    },
+    {
+        "code": "70020",
+        "name": "Komnata smutku",
+        "text": "[action]: Wykonaj test [combat] (1), aby spróbować wybić drzwi do wodnego terrarium. Niezależnie od tego, czy test zakończy się sukcesem czy porażką, drzwi nawet nie drgnęły. Zapamiętaj, że „zrobiliście co w waszej mocy”.",
+        "traits": "Więzienie.",
+        "back_flavor": "W pomieszczeniu stoi kilka metalowych zbiorników z przeszklonymi ścianami. Większość jest wypełniona wodą. W środku widać zwłoki zwierząt, które najwidoczniej powoli i boleśnie utonęły. Któż chciałby oglądać coś tak potwornego...?"
+    },
+    {
+        "code": "70021",
+        "name": "Komnata smutku",
+        "text": "[action]: Wykonaj test [willpower] (2), aby zinterpretować wyryty na szkle schemat. Jeśli test się powiedzie, przejmij kontrolę nad 1 ze wskazówek na badaczu znajdującym się w Komnacie smutku lub Komnacie deszczu (lub nad 1 ze wskazówek znajdujących się na danej lokalizacji, jeśli jesteś jedynym badaczem w grze). Tę akcję może wykonać dowolny badacz znajdujący się w Komnacie smutku lub Komnacie deszczu.",
+        "traits": "Więzienie.",
+        "back_flavor": "W pomieszczeniu stoi kilka metalowych zbiorników z przeszklonymi ścianami. Większość jest wypełniona wodą. W środku widać zwłoki zwierząt, które najwidoczniej powoli i boleśnie utonęły. Któż chciałby oglądać coś tak potwornego...?"
+    },
+    {
+        "code": "70022",
+        "flavor": "Drewniane półki w tym ciemnym pomieszczeniu są tak przegniłe, że aż trudno uwierzyć, że są w stanie cokolwiek utrzymać i jeszcze się nie rozpadły.",
+        "name": "Komnata nocy",
+        "text": "[action]: Wołasz o pomoc tak głośno, jak tylko jesteś w stanie. Nikt nie odpowiada.",
+        "traits": "Więzienie.",
+        "back_flavor": "Jedyne źródło światła to kilka świec rozstawionych po pomieszczeniu. Wokół piętrzą się skrzynie, butelki i pudła, ale w półmroku niewiele widać."
+    },
+    {
+        "code": "70023",
+        "name": "Komnata nocy",
+        "text": "[action]: Wykonaj test [intellect] (4). Jeśli test zakończy się powodzeniem, zauważasz dziwne zapiski biegnące wzdłuż ściany; podejrzyj odkrytą stronę lokalizacji znajdującej się pod kartą pomocy scenariusza. Kiedy skończysz, odłóż ją z powrotem pod kartę pomocy scenariusza.",
+        "traits": "Więzienie.",
+        "back_flavor": "Jedyne źródło światła to kilka świec rozstawionych po pomieszczeniu. Wokół piętrzą się skrzynie, butelki i pudła, ale w półmroku niewiele widać."
+    },
+    {
+        "code": "70024",
+        "name": "Komnata żalu",
+        "text": "W Komnacie żalu nie może znajdować się więcej niż 1 badacz na raz.\n[action] Badacze wydają, jako grupa, 2 [per_investigator] żetony wskazówek: pociągasz za jedną z 3 dźwigni (wybierz jedną): lewą, środkową lub prawą. Gdy tylko to robisz, brama zatrzaskuje się za tobą. Nie możesz opuścić Komnaty żalu do końca obecnego aktu.",
+        "traits": "Wypaczenie.",
+        "back_flavor": "W kamiennej ścianie jest wnęka wielkości szafy, w której widać trzy nieoznaczone dźwignie. Podniesiona żelazna krata zapewne zamknie się, jeśli wejdziesz do środka.",
+        "back_text": "W Komnacie żalu nie może znajdować się więcej niż 1 badacz na raz."
+    },
+    {
+        "code": "70025",
+        "flavor": "Wędrując w głąb korytarzy, czujesz nasilający się odór zgnilizny.",
+        "name": "Korytarze labiryntu",
+        "subname": "Cuchnące przejście",
+        "text": "[fast] Wybierz i odrzuć 2 karty z twojej ręki: znajdujesz w stosie śmieci starą szkatułkę i decydujesz się coś w niej zostawić. Na koniec rundy wybierz innego badacza w dowolnej grupie. Dany badacz dobiera 2 karty. (Limit grupowy raz na grę).",
+        "back_flavor": "Korytarze z falowanej blachy i betonu wyglądają jak jakiś dziwny ośrodek przemysłowy. Patrząc na te wszystkie zamknięte drzwi i ślepe zaułki, ogarnia cię uczucie, że nigdy stąd nie uciekniesz."
+    },
+    {
+        "code": "70026",
+        "flavor": "Pełno tu wychudzonych zwłok różnych istot. Niektóre wyglądają naturalnie, niektóre bardzo dziwnie.",
+        "name": "Korytarze labiryntu",
+        "subname": "Przejście pełne zwłok",
+        "text": "[fast] Wydaj 4 żetony zasobów: znajdujesz ciało kogoś, kogo niegdyś chyba znałeś, i żałujesz, że nie mogłeś go uratować. Na koniec rundy wybierz innego badacza w dowolnej grupie. Dany badacz zyskuje 4 żetony zasobów. (Limit grupowy raz na grę).",
+        "back_flavor": "Korytarze z falowanej blachy i betonu wyglądają jak jakiś dziwny ośrodek przemysłowy. Patrząc na te wszystkie zamknięte drzwi i ślepe zaułki, ogarnia cię uczucie, że nigdy stąd nie uciekniesz."
+    },
+    {
+        "code": "70027",
+        "flavor": "Zapuszczając się dalej, widzisz coraz więcej mchu, pleśni i pnączy na ścianach i podłogach.",
+        "name": "Korytarze labiryntu",
+        "subname": "Ogromne przejście",
+        "text": "[action][action]: Spoglądasz w ukryte wśród mchu i bluszczu lustro i dostrzegasz dziwne odbicie. Na koniec rundy wybierz innego badacza w dowolnej grupie. Dany badacz może wykonać 2 dodatkowe akcje podczas swojej następnej tury. (Limit grupowy raz na grę).",
+        "back_flavor": "Korytarze z falowanej blachy i betonu wyglądają jak jakiś dziwny ośrodek przemysłowy. Patrząc na te wszystkie zamknięte drzwi i ślepe zaułki, ogarnia cię uczucie, że nigdy stąd nie uciekniesz."
+    },
+    {
+        "code": "70028",
+        "flavor": "To wygląda jak zoo jakiegoś sadysty.",
+        "name": "Komnata głodu",
+        "text": "[fast] Jeśli na Komnacie głodu nie ma żadnych żetonów wskazówek: w szkle zostało wyryte coś dziwnego. Przejmij kontrolę nad odłożonym na bok Schematem głodu.",
+        "traits": "Wypaczenie.",
+        "back_flavor": "To miejsce to jakaś upiorna menażeria różnych stworzeń. Niektóre są normalne, inne zdeformowane i potworne. Kiedy wchodzisz, jedna z istot dostrzega cię i rzuca się wściekle na ściany swojego szklanego więzienia."
+    },
+    {
+        "code": "70029",
+        "flavor": "Powietrze jest ciężkie i wilgotne. Pieką cię oczy i nie możesz powstrzymać kaszlu.",
+        "name": "Komnata rozkładu",
+        "text": "[fast] Jeśli na Komnacie rozkładu nie ma żadnych żetonów wskazówek: znajdujesz dziennik z dziwnymi zapiskami. Przejmij kontrolę nad odłożonym na bok Schematem rozkładu.",
+        "traits": "Wypaczenie.",
+        "back_flavor": "Pomieszczenie wypełnione jest rozmaitymi roślinami w różnym stadium wzrostu i rozkładu. W centralnej części stoi pulpit sterowniczy z tajemniczymi dźwigniami i pokrętłami."
+    },
+    {
+        "code": "70030",
+        "flavor": "Zapadnia w podłodze wiedzie w dół do osobnej komnaty.",
+        "name": "Komnata zgnilizny",
+        "text": "[fast] Jeśli na Komnacie zgnilizny nie ma żadnych żetonów wskazówek: coś dziwnego zostało wyryte na ścianach. Przejmij kontrolę nad odłożonym na bok Schematem zgnilizny.",
+        "traits": "Wypaczenie.",
+        "back_flavor": "W pomieszczeniu jest pełno odpadków, nieczystości i ludzkich szczątków. Gryzący, ostry smród pali cię w nozdrza."
+    },
+    {
+        "code": "70031",
+        "flavor": "Żółtozielony szlam bulgocze i pieni się złowieszczo. Po drugiej stronie czeluści widać panel z pojedynczym miedzianym zaworem.",
+        "name": "Komnata trucizny",
+        "text": "[action]: Przekraczasz trujący dół i przekręcasz zawór na końcu. <i>(Uwaga – aktywowanie tej zdolności bez antidotum może być śmiertelne)</i>.",
+        "back_flavor": "Podnoszona drabina pozwala zejść w dół do betonowego pomieszczenia wypełnionego bulgoczącym, cuchnącym szlamem.",
+        "back_text": "Musicie obniżyć drabinę prowadzącą do Komnaty trucizny. Jako dodatkowy koszt wejścia do Komnaty trucizny badacze w Komnacie zgnilizny muszą wydać, jako grupa, 1 [per_investigator] żetonów wskazówek."
+    },
+    {
+        "code": "70032",
+        "flavor": "Do opuszczonego magazynu prowadzi jeszcze dwoje innych ciężkich, metalowych drzwi, ale są zamknięte na głucho. Z drugiej strony słyszysz głosy, które szepczą także w tym pomieszczeniu. Wydaje się, że odbijają się echem w wielu kolejnych wymiarach.",
+        "name": "Opuszczony magazyn",
+        "traits": "Wypaczenie.",
+        "back_flavor": "Wyjścia nie ma."
+    },
+    {
+        "code": "70033",
+        "name": "Magiczne symbole",
+        "text": "<blockquote><i>Na ścianie wyryto jakieś magiczne symbole. Jeśli uda się je odczytać, ustalając prawidłową kolejność, może coś się zmieni...</i></blockquote>\n<b>Odkrycie</b> – Dołącz Magiczne symbole do lokalizacji z cechą [[Wypaczenie]].\n[fast] Jeśli na tej karcie znajduje się 1 [per_investigator] żetonów zasobów: odwróć ją i przeczytaj polecenia zawarte na drugiej stronie.\n[action]: konWajy stet[intellect])3(. śJiel stte azoczkyń ięs ukmes,sec śemiuć 1 tonże bazuso an jet ciar.ke\nJeśli dowolnemu badaczowi w tej grupie udało się skutecznie rozpatrzeć powyższą zdolność (sukces), ta karta zyskuje: „[action]yWajnko s)et[intellect](3t. iNe żesmoz zaćpzerancz rakt od gote stute joś.tęciumeni śeJli tets kyńzaczo ięs mucek,ses śmieuć 1 nożet busoza an ikipo nygiczMach bolymiis żąlenceja od nenij p.ygru",
+        "traits": "Akt 1."
+    },
+    {
+        "code": "70033b",
+        "name": "W głębi labiryntu...",
+        "text": "<b>Jeśli należysz do grupy B:</b>\n<blockquote><i>Rzeźbienia na szklanej powierzchni kapsuły powoli wypełniają się wodą i schemat zaczyna się jarzyć.</i></blockquote>\nWszyscy badacze w tej grupie mogą natychmiast przekazać sobie nawzajem żetony wskazówek. Porusz dowolną liczbę żetonów wskazówek z Komnaty deszczu na Komnatę smutku (lub odwrotnie). Odwróć tę kartę.\n<hr><b>Jeśli należysz do grupy A:</b>\n<blockquote><i>Symbole lśnią i fragment ściany przesuwa się, odsłaniając ukrytą wnękę pełną różnych drobiazgów.</i></blockquote>\nUmieść Klucz tajemnic w grze, w Komnacie tajemnic. Odwróć tę kartę z powrotem.\n<hr><b>Jeśli należysz do Grupy C:</b>\n<blockquote><i>Symbole w pomieszczeniu przesuwają się, układając się w słowo.</i></blockquote>\nSłowo, które widzisz, to to samo słowo, które było wypisane na ścianie Komnaty tajemnic w obszarze gry Grupy A (możesz sprawdzić obszar gry Grupy A). Odwróć tę kartę z powrotem."
+    },
+    {
+        "code": "70034",
+        "name": "Szczelina",
+        "text": "<blockquote><i>Następuje nagły rozbłysk i na ścianie zaczyna otwierać się szczelina. Trzeszcząca energia powoli formuje się w kształt portalu. Teraz jest jeszcze za mały, ale niedługo będzie na tyle duży, że mógłby przez niego przejść człowiek...</i></blockquote>\n<b>Odkrycie</b> – Dołącz Szczelinę do obecnego aktu. Jeśli to akt 1, Grupa B i Grupa C umieszczają odłożony na bok Klucz tajemnic w grze, w lokalizacji z cechą [[Wypaczenie]].\n<b>Wymuszony</b> – Koniec rundy, jeśli na tajemnicy każdej grupy znajdują się przynajmniej 3 żetony zagłady: szczelina rozwarła się wystarczająco szeroko, aby zmieścić badacza. Wybierz badacza w dowolnej lokalizacji, aby wszedł do szczeliny. Następnie dany badacz odwraca tę kartę i wykonuje polecenia na jej drugiej stronie.",
+        "traits": "Akt 1. Akt 2."
+    },
+    {
+        "code": "70034b",
+        "name": "W głębi labiryntu...",
+        "text": "<blockquote><i>Trafiasz do swego rodzaju centrali, jakiegoś przejścia zawieszonego w eterze. Innym więźniom też udało się tu dotrzeć. Może współpracując, uda się wam znaleźć drogę ucieczki.</i></blockquote>\nKażdy badacz, który wszedł do szczeliny, bierze tę kartę fabuły i spotyka się na osobności, z dala od wszystkich grup, z innymi badaczami znajdującymi się w szczelinie. Badacze wewnątrz szczeliny mogą swobodnie rozmawiać, wymieniać się dowolną liczbą żetonów wskazówek, żetonów zasobów, kart na ręce lub kontrolowanymi przez siebie kartami fabuły. Kiedy badacze będą gotowi, każdy wraca do swojej pierwotnej grupy. Odwróć tę kartę z powrotem."
+    },
+    {
+        "code": "70035",
+        "name": "Szyb wentylacyjny",
+        "text": "<blockquote><i>Znajdujesz szyb wentylacyjny. Jest na tyle duży, że można nim przerzucić jakieś ważne rzeczy do innej części labiryntu...</i></blockquote>\n<b>Odkrycie</b> – Umieść Szyb wentylacyjny w lokalizacji z cechą [[Wypaczenie]]. Jeśli to akt 1, Grupa B i Grupa C umieszcza odłożony na bok Klucz tajemnic w grze, w danej lokalizacji.\n[fast]: Umieść na tej karcie dowolną liczbę twoich żetonów zasobów lub wskazówek i/lub umieść pod tą kartą dowolną liczbę atutów z cechą [[Przedmiot]] pod twoją kontrolą. Możesz również umieścić pod tą kartą odręczną notatkę.\n[action]: Przejmij kontrolę nad dowolną liczbą żetonów, kart lub notatek znajdujących się pod tą kartą lub na niej.\n[reaction] Koniec rundy: przesyłasz szybem wentylacyjnym wszystkie zebrane tu żetony i karty. Odwróć tę kartę i wykonaj polecenia zawarte na jej drugiej stronie.",
+        "traits": "Akt 1. Akt 2."
+    },
+    {
+        "code": "70035b",
+        "name": "W głębi labiryntu...",
+        "text": "<blockquote><i>Przedmioty zsuwają się w dół szybu, wydając dudniące odgłosy w ścianach i pod podłogą. Masz nadzieję, że inna grupa je znajdzie...</i></blockquote>\nWeź karty, żetony i notatki znajdujące się pod tą kartą lub na niej i umieść je pod lub na kopii Szybu wentylacyjnego innej grupy.\nOdwróć tę kartę z powrotem."
+    },
+    {
+        "code": "70036",
+        "name": "Dylemat",
+        "text": "<blockquote><i>Na kartce twojej grupy pojawiają się lśniące słowa, jakby pisała je jakaś niewidoczna istota. „Nie martw się. Dam twoim przyjaciołom szansę na ucieczkę. Jedyne, co musisz zrobić, to za nich umrzeć, dopiero wtedy otrzymają to, co niezbędne, aby się stąd wydostać. Po prostu napisz na tej kartce «Wybieram śmierć» i będzie po wszystkim”.</i></blockquote>\n<b>Odkrycie</b> – Umieść Dylemat w grze, obok talii aktów.\nObecny akt zyskuje: „[reaction] Koniec rundy: zdesperowani postanawiacie poświęcić siebie dla dobra pozostałych grup. Odwróć Dylemat i wykonaj polecenia na jego drugiej stronie”.",
+        "traits": "Akt 2."
+    },
+    {
+        "code": "70036b",
+        "name": "W głębi labiryntu...",
+        "text": "<blockquote><i>Piszesz na kartce „Wybieram śmierć”. Pod twoimi słowami pojawiają się litery, układając się w odpowiedź. „Naprawdę myślałeś, że pozwolę ci tak łatwo umrzeć?”</i></blockquote>\nMusisz wybrać i odrzucić wszystkie karty z twojej ręki oprócz X oraz usunąć wszystkie żetony zasobów z twojej puli zasobów oprócz X. X to liczba żetonów zagłady na obecnej tajemnicy.\n<hr><b>Przeczytaj wszystkim grupom na głos poniższy fragment:</b>\n<blockquote><i>Litery na kartce przesuwają się i zmieniają, układając się w dziwny schemat.</i></blockquote>\nGłówny badacz z Grupy A przejmuje kontrolę nad odłożonym na bok Schematem zgnilizny.\nGłówny badacz z Grupy B przejmuje kontrolę nad odłożonym na bok Schematem głodu.\nGłówny badacz z Grupy C przejmuje kontrolę nad odłożonym na bok Schematem rozkładu.\nUsuń z gry kopię Dylematu każdej grupy."
+    },
+    {
+        "code": "70037",
+        "name": "Wrota",
+        "text": "<blockquote><i>Zauważasz wejście, którego wcześniej tu nie było. Po drugiej stronie panuje zupełna ciemność. Dokąd prowadzi to przejście?</i></blockquote>\n<b>Odkrycie</b> – Dołącz Wrota do lokalizacji z cechą [[Wypaczenie]].\n[action] Wydaj 1 żeton wskazówki: Przekraczasz próg. Odwróć tę kartę i wykonaj polecenia zawarte na jej drugiej stronie.",
+        "traits": "Akt 2."
+    },
+    {
+        "code": "70037b",
+        "name": "W głębi labiryntu...",
+        "text": "<blockquote><i>Kiedy tylko przechodzisz przez wrota, te znikają za twoimi plecami. Teraz jesteś zdany tylko na siebie...</i></blockquote>\nW zależności od tego, do której Grupy należysz, umieść w grze następującą inną lokalizację:\n- Jeśli jesteś w Grupie A, umieść w grze Komnatę zgnilizny.\n- Jeśli jesteś w Grupie B, umieść w grze Komnatę głodu.\n- Jeśli jesteś w Grupie C, umieść w grze Komnatę rozkładu.\nUwolnij się ze zwarcia z każdym wrogiem i porusz się do właśnie umieszczonej w grze lokalizacji.\nDopóki na obecnej tajemnicy znajduje się przynajmniej 5 żetonów zagłady, uznaje się, że dana lokalizacja nie jest połączona z żadną inną lokalizacją.\nUsuń tę kartę z gry."
+    },
+    {
+        "code": "70038",
+        "name": "Zaszyfrowane symbole",
+        "text": "<blockquote><i>Na ścianie wyryto trzy rzędy dziwnych symboli. Jeden z rzędów wydaje się jaśniejszy od pozostałych</i></blockquote>\n<b>Odkrycie</b> – Dołącz Zaszyfrowane symbole do lokalizacji z cechą [[Wypaczenie]].\n<b>Wymuszony</b> – Jeśli na tej karcie znajduje się przynajmniej 1 żeton przerażenia i 1 [per_investigator] obrażeń: odwróć ją i przeczytaj polecenia zawarte na drugiej stronie.\n[action]: Wykonaj test [intellect] (2), aby spróbować rozszyfrować symbole. Jeśli test zakończy się sukcesem, umieść na tej karcie 1 obrażenie.\n[action]: Wykonaj test [willpower] (4), aby ułożyć symbole we właściwej kolejności. Jeśli test zakończy się sukcesem, umieść 1 żeton przerażenia na kopii Zaszyfrowanych symboli każdej grupy.",
+        "traits": "Akt 2."
+    },
+    {
+        "code": "70038b",
+        "name": "W głębi labiryntu...",
+        "text": "<blockquote><i>Runy rozświetlają się i na ścianie pojawia się tajemnicza wiadomość.</i></blockquote>\n<b>Jeśli należysz do grupy A:</b>\nNależy wybrać badacza, który przejmie kontrolę nad odłożonym na bok Schematem zgnilizny. Usuń tę kartę z gry.\n<hr><b>Jeśli należysz do grupy B:</b>\nNależy wybrać badacza, który przejmie kontrolę nad odłożonym na bok Schematem głodu. Usuń tę kartę z gry.\n<hr><b>Jeśli należysz do Grupy C:</b>\nNależy wybrać badacza, który przejmie kontrolę nad odłożonym na bok Schematem rozkładu. Usuń tę kartę z gry."
+    },
+    {
+        "code": "70039",
+        "flavor": "A@ Ą! B# C% Ć^ D< E+ Ę& F= G~ H> I&#092; J/ K7 L2 Ł6 M1 N9 Ń3 O4 Ó8 P5 R[survivor] S[willpower] T[cultist] U[elder_thing] W[intellect] Y[tablet] Z[auto_fail] Ż[elder_sign] 1T 2R 3H 4D 5U 6P 7Q 8Z 9B [action][action]",
+        "name": "Wiadomość Eixodolona",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Wiadomością Eixodolona innemu badaczowi.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70040",
+        "flavor": "Na uchwycie widać ozdobną literę A.",
+        "name": "Klucz tajemnic",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: umieść Klucz tajemnic w twojej lokalizacji.\nDopóki Klucz tajemnic nie jest pod niczyją kontrolą, zyskuje: „[action]: <b>Badanie.</b> Jeśli test zakończy się sukcesem, przejmij kontrolę nad Kluczem tajemnic zamiast odkrywać wskazówki”.",
+        "traits": "Przedmiot. Klucz."
+    },
+    {
+        "code": "70041",
+        "flavor": "Na uchwycie widać ozdobną literę B.",
+        "name": "Tajemnicza strzykawka",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Tajemniczą strzykawką innemu badaczowi.\n[action]: Wybierz badacza w twojej lokalizacji i usuń Tajemniczą strzykawkę z gry. Zapamiętaj, że wybrany badacz „otrzymał zastrzyk”.",
+        "traits": "Przedmiot."
+    },
+    {
+        "code": "70042",
+        "flavor": "Może inna grupa dostrzeże w tym jakiś sens?",
+        "name": "Schemat zgnilizny",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem zgnilizny innemu badaczowi.\nDopóki znajdujesz się w Komnacie rozkładu, zyskuje ona: „[action]: Umieść tu 1 żeton zagłady. Odwróć dowolną liczbę twoich żetonów wskazówek na stronę zagłady i umieść je tu”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70043",
+        "name": "Schemat zgnilizny",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem zgnilizny innemu badaczowi.\nDopóki znajdujesz się w Komnacie zgnilizny, zyskuje ona: „[action]: <b>Badanie.</b> Jeśli test zakończy się sukcesem, przejmij kontrolę nad odłożoną na bok Tajemniczą strzykawką zamiast odkrywać żetony wskazówek”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70044",
+        "flavor": "Może inna grupa dostrzeże w tym jakiś sens?",
+        "name": "Schemat głodu",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem głodu innemu badaczowi.\nDopóki znajdujesz się w Komnacie zgnilizny, zyskuje ona: „[action]: <b>Badanie.</b> Jeśli test zakończy się powodzeniem, przejmij kontrolę nad odłożoną na bok Tajemniczą strzykawką, zamiast odkrywać żetony wskazówek”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70045",
+        "name": "Schemat głodu",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem głodu innemu badaczowi.\nDopóki znajdujesz się w Komnacie głodu, zyskuje ona: „[action] Jeśli Zwierzak Eixodolona jest „pod kluczem”, wydaj 1 żeton wskazówki: zadaj 4 obrażenia Zwierzakowi Eixodolona”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70046",
+        "flavor": "Może inna grupa dostrzeże w tym jakiś sens?",
+        "name": "Schemat rozkładu",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem rozkładu innemu badaczowi.\nDopóki znajdujesz się w Komnacie głodu, zyskuje ona: „[action] Jeśli Zwierzak Eixodolona jest „pod kluczem”, wydaj 1 żeton wskazówki: zadaj 4 obrażenia Zwierzakowi Eixodolona”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70047",
+        "name": "Schemat rozkładu",
+        "text": "<b>Wymuszony</b> – Kiedy zostałeś pokonany: przekaż kontrolę nad Schematem rozkładu innemu badaczowi.\nDopóki znajdujesz się w Komnacie rozkładu, zyskuje ona: „[action]: Umieść tu 1 żeton zagłady. Odwróć dowolną liczbę twoich żetonów wskazówek na stronę zagłady i umieść je tu”.",
+        "traits": "Przedmiot. Rękopis."
+    },
+    {
+        "code": "70048",
+        "name": "Eixodolon",
+        "subname": "Twa udręka jest moją siłą",
+        "text": "Łowca. Mściwy.\nEixodolon dostaje +6 [per_investigator] wytrzymałości i nie może zostać pokonany w wyniku otrzymanych obrażeń.\n<b>Wymuszony</b> – Początek fazy wrogów, jeśli w puli zwycięstwa znajduje się kopia Zebranego bólu: przygotuj Eixodolona.",
+        "traits": "Humanoid. Posłuszny. Elitarny."
+    },
+    {
+        "code": "70049",
+        "name": "Zwierzak Eixodolona",
+        "subname": "Nie jesteś jego pierwszą ofiarą – ani ostatnią",
+        "text": "Łowca. Mściwy.\nDopóki Zwierzak Eixodolona jest „pod kluczem”, jest odporny na efekty kart graczy i Komnata głodu zyskuje: „[action] Badacze w Komnacie głodu wydają, jako grupa, 1 [per_investigator] żetonów wskazówek: odłóż Zwierzaka Eixodolona na bok, poza grę. Zapamiętaj, że „wysłaliście Zwierzaka Eixodolona do innej grupy”.",
+        "traits": "Potwór. Elitarny."
+    },
+    {
+        "code": "70050",
+        "name": "Zwierzak Eixodolona",
+        "subname": "Nie jesteś jego pierwszą ofiarą – ani ostatnią",
+        "text": "Łowca. Mściwy.\nDopóki Zwierzak Eixodolona jest „pod kluczem”, jest odporny na efekty kart graczy.",
+        "traits": "Potwór. Elitarny."
+    },
+    {
+        "code": "70051",
+        "name": "Strażnik więzienia",
+        "text": "<b>Rozstawienie</b> – Najbliższe Korytarze labiryntu.\nŁowca.\nWiadomość Eixodolona zyskuje: „[action] <b>Walka.</b> Użyj tylko na Strażnika więzienia. Do tego ataku użyj [willpower] lub [combat]. Jeśli test zakończy się sukcesem, odłóż Strażnika więzienia na bok, poza grę. Na koniec rundy porusz Strażnika więzienia do Korytarzy labiryntu innej grupy <i>(zachowuje wszystkie żetony i dodatki)</i>”.",
+        "traits": "Potwór. Elitarny."
+    },
+    {
+        "code": "70052",
+        "name": "Porywacz bez twarzy",
+        "text": "<b>Rozstawienie</b> – Najbliższa lokalizacja z cechą [[Więzienie]].\nŁowca.\n<b>Wymuszony</b> – Po tym, jak Porywacz bez twarzy zaatakuje badacza: porusz danego badacza do lokalizacji z cechą [[Więzienie]].",
+        "traits": "Potwór. Dziecię nocy."
+    },
+    {
+        "code": "70053",
+        "name": "Ofiara tortur",
+        "text": "<b>Odkrycie</b> – Musisz odrzucić losową kartę z twojej ręki albo Ofiara tortur wykonuje przeciwko tobie natychmiastowy atak.",
+        "traits": "Humanoid. Ponadwymiarowa."
+    },
+    {
+        "code": "70054",
+        "name": "Strażnik Mi-Go",
+        "text": "<b>Polowanie</b> – Najwięcej pozostałej wytrzymałości.\nZa każdy żeton [skull], [cultist], [tablet] lub [elder_thing] odkryty podczas ataku przeciwko Strażnikowi Mi-Go dany atak zadaje 1 obrażenie mniej.",
+        "traits": "Potwór. Mi-Go."
+    },
+    {
+        "code": "70055",
+        "name": "Nienaturalne zmęczenie",
+        "text": "Zagrożenie.\n<b>Odkrycie</b> – Wykonaj test [willpower] (3). Za każdy punkt, o który test się nie powiódł (porażka), musisz wybrać inną opcję:\n- Tracisz 3 żetony zasobów.\n- Tracisz 1 akcję.\n- Odrzuć losową kartę z twojej ręki.",
+        "traits": "Uraz. Trucizna."
+    },
+    {
+        "code": "70056",
+        "name": "Trujący gaz",
+        "text": "<b>Odkrycie</b> – Wykonaj test [agility] (4). Jeśli test zakończy się porażką, tracisz 1 akcję (zamiast tego 2 akcje, jeśli test zakończył się porażką o 2 lub więcej). Kiedy ten test umiejętności się rozpoczyna, badacz w twojej lokalizacji może umieścić 1 ze swoich żetonów wskazówek na twojej lokalizacji, aby zmniejszyć o 2 trudność tego testu.",
+        "traits": "Pułapka. Trucizna."
+    },
+    {
+        "code": "70057",
+        "name": "Straszliwy mechanizm",
+        "text": "<b>Odkrycie</b> – Umieść Straszliwy mechanizm w grze, na twoim obszarze zagrożenia.\n<b>Wymuszony</b> – Po tym, jak wykonasz akcję inną niż zdolność [action] poniżej: otrzymujesz 1 obrażenie, odrzuć atut zajmujący przynajmniej 1 strefę ręki i odrzuć Straszliwy mechanizm.\n[action]: Wykonaj test [combat] (2). Jeśli test zakończy się sukcesem, odrzuć Straszliwy mechanizm.",
+        "traits": "Pułapka."
+    },
+    {
+        "code": "70058",
+        "name": "Krew i rdza",
+        "text": "<b>Odkrycie</b> – Wykonaj test [agility] (4). Jeśli test zakończy się porażką, otrzymujesz 1 obrażenie (zamiast tego 2 obrażenia, jeśli test zakończył się porażką o 2 lub więcej). Kiedy ten test umiejętności się rozpoczyna, badacz w twojej lokalizacji może umieścić 1 ze swoich żetonów wskazówek na twojej lokalizacji, aby zmniejszyć o 2 trudność tego testu.",
+        "traits": "Pułapka."
+    },
+    {
+        "code": "70059",
+        "name": "Efekt paradoksu",
+        "text": "<b>Odkrycie</b> – Wykonaj test [willpower] (3). Za każdy punkt, o który test się nie powiódł (porażka), otrzymujesz 1 punkt przerażenia. Jeśli test zakończył się sukcesem, umieść Efekt paradoksu w grze, w twoim obszarze zagrożenia.\n<b>Wymuszony</b> – Koniec rundy: odrzuć Efekt paradoksu i wybierz badacza w innej grupie. Ty i dany badacz możecie porozmawiać na osobności i możecie wymienić się żetonami zasobów, kartami fabuły i kartami na ręce.",
+        "traits": "Niebezpieczeństwo."
+    },
+    {
+        "code": "70060",
+        "flavor": "Rzeczywistość faluje.\nRzeczywistość rozszczepia się.\nRzeczywistość przekształca się i paradoks zapada się w sobie.",
+        "name": "Efekt paradoksu",
+        "text": "<b>Odkrycie</b> – Wykonaj test [willpower] (3). Za każdy punkt, o który test się nie powiódł (porażka), otrzymujesz 1 punkt przerażenia.",
+        "traits": "Niebezpieczeństwo."
+    },
+    {
+        "code": "70061",
+        "name": "Zebrany ból",
+        "text": "Zagrożenie.\n<b>Odkrycie</b> – Jeśli masz 3 lub mniej pozostałej wytrzymałości lub poczytalności, dodaj Zebrany ból do puli zwycięstwa. W przeciwnym wypadku otrzymujesz 1 obrażenie i 1 punkt przerażenia.\nDopóki Zebrany ból znajduje się w puli zwycięstwa, Eixodolon dostaje +1 do walki.",
+        "traits": "Urok."
+    }
+]

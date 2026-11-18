@@ -1,976 +1,939 @@
 [
     {
-        "code": "10001",
-        "name": "Wilson Richards",
-        "subname": "The Handyman",
-        "text": "Reduce the resource cost of the first [[Tool]] asset you play each round by 1.\nYou get +1 skill value during skill tests on [[Tool]] assets.\n[elder_sign] effect: +0. You may swap a [[Tool]] asset in your play area with a [[Tool]] asset in your hand with equal or lower printed cost.",
-        "traits": "Drifter.",
-        "back_flavor": "Wilson takes pride in always having the right tool for the job. Leaky plumbing? Pipe wrench. Fallen tree? Hand saw. Interior remodeling? Sledgehammer. But recently his jobs in and around Arkham have taken on a certain strangeness. Creaky floorboards give way to labyrinthine tunnels. A broken roof shows signs of bursting outward instead of collapsing inward. It's Wilson's job to fix problems, and when those problems involve bizarre and horrifying creatures and unexplained phenomena, well, then it's time to get creative with what he's got.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Tool]] cards level 0-5, Guardian cards ([guardian]) level 0-4, Neutral cards level 0-5, up to 5 other [[Improvised]] and/or [[Upgrade]] cards level 0-1.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Ad Hoc, Hasty Repairs, 1 random basic weakness."
+        "code":"10001",
+        "traits":"Andarilho.",
+        "name":"Wilson Richards",
+        "subname":"O Faz-tudo",
+        "back_name":"Wilson Richards",
+        "back_text":"<b>Tamanho do Baralho</b>: 30.\n<b>Op\u00e7\u00f5es de Constru\u00e7\u00e3o de Baralho</b>: Cartas de [[Ferramenta]] de n\u00edveis 0-5, cartas de Guardi\u00e3o ([guardian]) de n\u00edveis 0-4, cartas Neutras de n\u00edveis 0-5, at\u00e9 5 outras cartas de [[Improvisado]] e/ou de [[Aprimoramento]] de n\u00edveis 0-1.\n<b>Requisitos de Constru\u00e7\u00e3o de Baralho</b> (n\u00e3o contam para o tamanho do baralho): Ad Hoc, Reparos R\u00e1pidos, 1 fraqueza b\u00e1sica aleat\u00f3ria.",
+        "back_flavor":"Wilson se orgulha por ter sempre a ferramenta certa para o trabalho. Encanamento vazando? Chave grifo. \u00c1rvore ca\u00edda? Serra de m\u00e3o. Reforma de interiores? Marreta. Mas recentemente seus trabalhos em Arkham e em seus arredores tornaram-se um pouco estranhos. No lugar de assoalhos barulhentos, t\u00faneis que parecem labirintos. Um telhado quebrado com sinais de ter sido rompido de dentro para fora e n\u00e3o ao contr\u00e1rio. O trabalho de Wilson \u00e9 solucionar problemas e, quando esses problemas envolvem criaturas bizarras e horripilantes e fen\u00f4menos inexplic\u00e1veis, s\u00f3 resta usar a criatividade com as ferramentas que ele tem.",
+        "text":"Reduza em 1 o custo de recurso do primeiro ativo de [[Ferramenta]] que voc\u00ea jogar em cada rodada.\nVoc\u00ea recebe +1 de valor de per\u00edcia durante testes de per\u00edcia em ativos de [[Ferramenta]].\n[elder_sign] efeito: +0. Voc\u00ea pode trocar um ativo de [[Ferramenta]] na sua \u00e1rea de jogo por um ativo de [[Ferramenta]] na sua m\u00e3o com custo impresso igual ou menor."
+    },
+    {
+        "code":"10002",
+        "traits":"Improvisado. Aprimoramento.",
+        "name":"Ad Hoc",
+        "text":"Apenas no baralho de Wilson Richards.\nAnexe Ad Hoc a um ativo de [[Ferramenta]] ou de [[Arma]] que voc\u00ea controla.\n[reaction] Ap\u00f3s resolver uma habilidade [action] no ativo anexado, esgote Ad Hoc e descarte um ativo de [[Ferramenta]] ou de [[Arma]] da sua m\u00e3o: Resolva uma habilidade [action] no ativo descartado, ignorando todos os custos.",
+        "flavor":"\"Este \u00e9 um trabalho e tanto.\""
     },
     {
-        "code": "10002",
-        "flavor": "\"This is one heckuva job.\"",
-        "name": "Ad Hoc",
-        "text": "Wilson Richards deck only.\nAttach Ad Hoc to a [[Tool]] or [[Weapon]] asset you control.\n[reaction] After resolving an [action] ability on attached asset, exhaust Ad Hoc and discard a [[Tool]] or [[Weapon]] asset from your hand: Resolve an [action] ability on the discarded asset, ignoring all costs.",
-        "traits": "Improvised. Upgrade."
-    },
-    {
-        "code": "10003",
-        "name": "Hasty Repairs",
-        "text": "<b>Revelation</b> - Put Hasty Repairs into play in your threat area.\nWhile triggering abilities on assets you control, set your base skill value to 0.\n[action][action]: Discard Hasty Repairs.",
-        "traits": "Blunder."
-    },
+        "code":"10003",
+        "traits":"Trope\u00e7o.",
+        "name":"Reparos R\u00e1pidos",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Coloque Reparos R\u00e1pidos em jogo em sua \u00e1rea de amea\u00e7as.\nAo ativar habilidades em ativos que voc\u00ea controla, ajuste o seu valor de per\u00edcia base para 0.\n[action][action]: Descarte Reparos R\u00e1pidos."
+    },
+    {
+        "code":"10004",
+        "traits":"Miskatonic. Acad\u00eamico.",
+        "name":"Kate Winthrop",
+        "subname":"A Cientista",
+        "back_name":"Kate Winthrop",
+        "back_text":"<b>Tamanho do Baralho</b>: 30.\n<b>Op\u00e7\u00f5es de Constru\u00e7\u00e3o de Baralho</b>: Cartas de Buscador ([seeker]) de n\u00edveis 0-5, cartas de [[Ci\u00eancia]] de n\u00edveis 0-4, cartas de [[Introspec\u00e7\u00e3o]] de n\u00edveis 0-1, cartas Neutras de n\u00edveis 0-5.\n<b>Requisitos de Constru\u00e7\u00e3o de Baralho</b> (n\u00e3o contam para o tamanho do baralho): Estabilizador de Fluxo, Experimento Fracassado, 1 fraqueza b\u00e1sica aleat\u00f3ria.",
+        "back_flavor":"Kate Winthrop passou anos fazendo pesquisas no por\u00e3o do pr\u00e9dio de ci\u00eancias da Universidade de Miskatonic, abrindo m\u00e3o de financiamentos e prest\u00edgio acad\u00eamico em sua busca do progresso. Finalmente, seu foco obstinado deu resultado com a inven\u00e7\u00e3o do Estabilizador de Fluxo: um dispositivo poderoso, capaz de canalizar uma nova forma de energia. Entretanto, o pre\u00e7o do progresso \u00e9 alto. O primeiro teste dessa inven\u00e7\u00e3o revolucion\u00e1ria acabou causando a morte de sua amiga e mentora Professora Young. Desde ent\u00e3o, Kate tem trabalhado incansavelmente para entender essas correntes alien\u00edgenas, com a esperan\u00e7a de descobrir uma forma de reverter seus efeitos.",
+        "text":"Voc\u00ea come\u00e7a o jogo com Estabilizador de Fluxo com o lado <i>(Inativado)</i> virado para cima.\n[fast]: Mova 1 pista de Kate Winthrop para um ativo de [[Ci\u00eancia]] ou de [[Ferramenta]] que voc\u00ea controla sem pistas sobre ele.\n<b>For\u00e7ado</b> - Quando um ativo que voc\u00ea controla com uma pista sobre ele sair de jogo: Coloque a pista do ativo em seu local.\n[elder_sign] efeito: +0. Voc\u00ea pode mover 1 pista de um ativo que voc\u00ea controla de volta para Kate Winthrop."
+    },
     {
-        "code": "10004",
-        "name": "Kate Winthrop",
-        "subname": "The Scientist",
-        "text": "You begin the game with Flux Stabilizer <i>(Inactive)</i> side faceup.\n[fast]: Move 1 clue from Kate Winthrop to a [[Science]] or [[Tool]] asset you control with no clues on it.\n<b>Forced</b> - When an asset you control with a clue on it leaves play: Place its clue on your location.\n[elder_sign] effect: +0. You may move I clue from an asset you control back to Kate Winthrop.",
-        "traits": "Miskatonic. Scholar.",
-        "back_flavor": "Kate Winthrop has spent years researching in the basement of Miskatonic University's science building, passing up funding and academic prestige in pursuit of progress. Her single-minded focus finally paid off with the invention of the Flux Stabilizer: a powerful device capable of channeling a new form of energy. However, the price of progress is steep. The first successful test of this groundbreaking invention took the life of her friend and mentor Professor Young. Since then, Kate has worked tirelessly to understand these alien currents, in hopes that she find a way to reverse their effects.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, [[Science]] cards level 0-4, [[Insight]] cards level 0-1, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Flux Stabilizer, Failed Experiment, 1 random basic weakness."
-    },
-    {
-        "code": "10005",
-        "name": "Flux Stabilizer",
-        "subname": "Inactive",
-        "text": "Permanent. Kate Winthrop deck only.\n<b>Forced</b> - After a clue is placed on Flux Stabilizer: Search your bonded cards or discard pile for 1 copy of Aetheric Current and shuffle it into your deck. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
-        "traits": "Item. Tool. Science."
-    },
+        "code":"10005",
+        "traits":"Item. Ferramenta. Ci\u00eancia.",
+        "name":"Estabilizador de Fluxo",
+        "subname":"Inativado",
+        "text":"Permanente. Apenas no baralho de Kate Winthrop.\n<b>For\u00e7ado</b> - Ap\u00f3s uma pista ser colocada em Estabilizador de Fluxo: Procure 1 c\u00f3pia de Corrente de \u00c9ter nas suas cartas vinculadas ou pilha de descarte e embaralhe-a em seu baralho. Vire Estabilizador de Fluxo <i>(mantendo todas as fichas e anexos)</i>."
+    },
     {
-        "code": "10005b",
-        "flavor": "Is this the same evergy harnessed by Nikola Tesla?",
-        "name": "Flux Stabilizer",
-        "subname": "Active",
-        "text": "Permanent.\n[reaction] When you place a clue on an asset you control: Get +2 skill value for your next skill test this phase.",
-        "traits": "Item. Tool. Science."
+        "code":"10005b",
+        "traits":"Item. Ferramenta. Ci\u00eancia.",
+        "name":"Estabilizador de Fluxo",
+        "subname":"Ativado",
+        "text":"Permanente. Apenas no baralho de Kate Winthrop.\n[reaction] Quando voc\u00ea colocar uma pista em um ativo que voc\u00ea controla: Receba +2 de valor de per\u00edcia no seu pr\u00f3ximo teste de per\u00edcia nesta fase.",
+        "flavor":"\"Seria esta a mesma energia canalizada por Nikola Tesla?\""
     },
     {
-        "code": "10006",
-        "name": "Aetheric Current",
-        "subname": "Yuggoth",
-        "text": "Bonded (Flux Stabilizer). Play only if Flux Stabilizer is on its <i>(Active)</i> side.\n<b>Fight.</b> Move all clues on assets you control to Kate Winthrop. For this attack, you may use [intellect] instead of [combat]. If you succeed and the attacked enemy is non-[[Elite]], you may exhaust it and move it to any location. Draw 1 card. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
-        "traits": "Science."
+        "code":"10006",
+        "traits":"Ci\u00eancia.",
+        "name":"Corrente de \u00c9ter",
+        "text":"Vinculado (Estabilizador de Fluxo). Jogue apenas se Estabilizador de Fluxo estiver em seu lado <i>(Ativado)</i>.\n<b>Lute.</b> Mova todas as pistas nos ativos que voc\u00ea controla para Kate Winthrop. Voc\u00ea pode usar [intellect] em vez de [combat] neste ataque. Se voc\u00ea tiver sucesso e o inimigo atacado for n\u00e3o-[[Elite]], voc\u00ea pode esgot\u00e1-lo e mov\u00ea-lo para qualquer local. Compre 1 carta. Vire Estabilizador de Fluxo <i>(mantendo todas as fichas e anexos)</i>.",
+        "subname":"Yuggoth"
     },
     {
-        "code": "10007",
-        "name": "Aetheric Current",
-        "subname": "Yoth",
-        "text": "Bonded (Flux Stabilizer). Play only if Flux Stabilizer is on its <i>(Active)</i> side.\n<b>Evade.</b> Move all clues on assets you control to Kate Winthrop. For this evasion attempt, you may use [intellect] instead of [agility]. If you succeed and the target of this evasion is non-[[Elite]], shuftle it into the encounter deck. Draw 1 card. Flip Flux Stabilizer <i>(keeping all tokens and attachments)</i>.",
-        "traits": "Science."
+        "code":"10007",
+        "traits":"Ci\u00eancia.",
+        "name":"Corrente de \u00c9ter",
+        "text":"Vinculado (Estabilizador de Fluxo). Jogue apenas se Estabilizador de Fluxo estiver em seu lado <i>(Ativado)</i>.\n<b>Evada.</b> Mova todas as pistas nos ativos que voc\u00ea controla para Kate Winthrop. Voc\u00ea pode usar [intellect] em vez de [agility] nesta tentativa de evas\u00e3o. Se voc\u00ea tiver sucesso e o alvo desta evas\u00e3o for n\u00e3o-[[Elite]], embaralhe-o no baralho de encontros. Compre 1 carta. Vire Estabilizador de Fluxo <i>(mantendo todas as fichas e anexos)</i>.",
+        "subname":"Yoth"
     },
     {
-        "code": "10008",
-        "flavor": "\"I've made a huge mistake.\"",
-        "name": "Failed Experiment",
-        "text": "<b>Revelation</b> - Test [willpower] (3). This test gets +1 difficulty for each asset you control with a clue on it. For each point you fail by, you must either take 1 horror or place 1 of your clues on your location.",
-        "traits": "Blunder."
+        "code":"10008",
+        "traits":"Trope\u00e7o.",
+        "name":"Experimento Fracassado",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Teste [willpower] (3). Este teste recebe +1 de dificuldade para cada ativo que voc\u00ea controla com uma pista sobre ele. Para cada ponto que voc\u00ea falhar, voc\u00ea deve sofrer 1 de horror ou colocar 1 de suas pistas em seu local.",
+        "flavor":"\"Cometi um grande erro.\""
     },
     {
-        "code": "10009",
-        "flavor": "\"I love a good party.\"",
-        "name": "Alessandra Zorzi",
-        "subname": "The Countess",
-        "text": "You may take an additional action during your turn, which can only be used to parley.\n[elder_sign] effect: +2. If you succeed, choose a non-[[Elite]] enemy at your location or at a revealed connecting location. Automatically evade that enemy.",
-        "traits": "Drifter. Socialite.",
-        "back_flavor": "Alessandra's life of carefree luxury enables her to hop from a stately gala in New York City to a banquest with the Maharaja of India with ease. The Countess has sampled every dish, drink, and dame from Marrakesh to Chicago. The regal title is just an act, however: behind the scenes, Alessandra uses her cover to pilfer from art galleries, banks, and the hearts and pocketbooks of the rich and frivolous. Her silver tongue has gotten her into and out of plenty of trouble. A new job with the shadowy Zamacona brought Alessandra to Arkham, Massachusetts, where the Countess learned that more lurks beyond the suggestible rich and frivolous excess than she previously thought.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, cards with \"parley\" level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Beguile, Zamacona, 1 random basic weakness."
+        "code":"10009",
+        "traits":"Andarilho. Socialite.",
+        "name":"Alessandra Zorzi",
+        "subname":"A Condessa",
+        "back_name":"Alessandra Zorzi",
+        "back_text":"<b>Tamanho do Baralho</b>: 30.\n<b>Op\u00e7\u00f5es de Constru\u00e7\u00e3o de Baralho</b>: Cartas de Ladino ([rogue]) de n\u00edveis 0-5, cartas com \"negociata\" de n\u00edveis 0-5, cartas Neutras de n\u00edveis 0-5.\n<b>Requisitos de Constru\u00e7\u00e3o de Baralho</b> (n\u00e3o contam para o tamanho do baralho): 3 c\u00f3pias de Seduzir, Zamacona, 1 fraqueza b\u00e1sica aleat\u00f3ria.",
+        "back_flavor":"A vida de luxo despreocupada de Alessandra permite que ela v\u00e1 de um baile de gala majestoso na Cidade de Nova York para um banquete com o Maraj\u00e1 da \u00cdndia com facilidade. A Condessa j\u00e1 provou todos os pratos, bebidas e damas de Marraquexe a Chicago. No entanto, o t\u00edtulo real \u00e9 s\u00f3 fingimento: na verdade, Alessandra usa seu disfarce para roubar galerias de arte, bancos e os cora\u00e7\u00f5es e carteiras dos ricos e fr\u00edvolos. Sua l\u00edngua afiada j\u00e1 a colocou em diversos problemas, mas tamb\u00e9m j\u00e1 lhe ajudou a escapar de tantos outros. Um novo trabalho com o misterioso Zamacona trouxe Alessandra a Arkham, Massachusetts, onde a Condessa aprendeu que h\u00e1 muito mais por tr\u00e1s dos excessos sugestivos dos ricos e fr\u00edvolos do que ela acreditava anteriormente.",
+        "text":"Voc\u00ea pode realizar uma a\u00e7\u00e3o adicional durante o seu turno, que s\u00f3 pode ser usada para negociata.\n[elder_sign] efeito: +2. Se voc\u00ea tiver sucesso, escolha um inimigo n\u00e3o-[[Elite]] em seu local ou em um local conectado revelado. Evada automaticamente esse inimigo.",
+        "flavor":"\"Adoro uma boa festa.\""
     },
     {
-        "code": "10010",
-        "name": "Beguile",
-        "text": "Alessandra Zorzi deck only. Fast. Play only during your turn.\nAttach Beguile to a non-[[Elite]] enemy at your location.\n[action]: <b>Parley.</b> Either move attached enemy to a revealed connecting location, or perform a basic investigate or evade action at its location. If you fail a skill test while resolving this ability, discard Beguile. You may activate this ability from any location.",
-        "traits": "Trick."
+        "code":"10010",
+        "traits":"Truque.",
+        "name":"Seduzir",
+        "text":"Apenas no baralho de Alessandra Zorzi. Veloz. Jogue apenas durante o seu turno.\nAnexe Seduzir a um inimigo n\u00e3o-[[Elite]] em seu local.\n[action]: <b>Negociata.</b> Mova o inimigo anexado para um local conectado revelado ou realize uma a\u00e7\u00e3o b\u00e1sica de investigar ou de evadir no local do inimigo. Se voc\u00ea falhar em um teste de per\u00edcia enquanto estiver resolvendo esta habilidade, descarte Seduzir. Voc\u00ea pode ativar esta habilidade de qualquer local."
     },
     {
-        "code": "10011",
-        "name": "Zamacona",
-        "text": "Elusive.\n<b>Spawn</b> - Nearest empty location, if able.\nAlessandra Zorzi cannot parley with Zamacona.\n<b>Forced</b> - The first time Alessandra Zorzi parleys each round: Place 1 doom on Zamacona.",
-        "traits": "Humanoid. Criminal."
+        "code":"10011",
+        "traits":"Humanoide. Criminoso.",
+        "name":"Zamacona",
+        "text":"Elusivo.\n<b>Surgir</b> - Local vazio mais pr\u00f3ximo, se poss\u00edvel.\nAlessandra Zorzi n\u00e3o pode negociar com Zamacona.\n<b>For\u00e7ado</b> - A primeira vez que Alessandra Zorzi negociar em cada rodada: Coloque 1 perdi\u00e7\u00e3o em Zamacona."
     },
     {
-        "code": "10012",
-        "flavor": "\"Why not greet the unknown with wonder rather than fear?\"",
-        "name": "Kōhaku Narukami",
-        "subname": "The Folklorist",
-        "text": "[reaction] At the start of your turn: Either add 1 [bless] token or 1 [curse] token to the chaos bag, whichever there are fewer of <i>(in case of a tie, you choose)</i>, or remove 2 [bless] tokens and 2 [curse] tokens from the chaos bag to take an additional action this turn.\n[elder_sign] effect: +2. Add 1 [bless] and 1 [curse] token to the chaos bag.",
-        "traits": "Scholar. Blessed. Cursed.",
-        "back_flavor": "Everyone in the Arkham Historical Society recognizes Kōhaku's booming laughter, and the haunting tales he tells of both the yōkai from his childhood home outside Tokyo and the strange creatures that haunt the Arkham Woods. The eccentric folklorist tells everyone that the chronicling and publication of these phenomena's existence will be his greatest work. It is only when he is home with his partner Gabriel that he hears the cries of the same spirit who haunted his father, and fears that his \"greatest work\" will never allow him a night's sleep.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: [[Blessed]] cards level 0-5, [[Cursed]] cards level 0-5, [[Occult]] cards level 0, Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Book of Living Myths, Weeping Yurei, 1 random basic weakness."
+        "code":"10012",
+        "traits":"Acad\u00eamico. Aben\u00e7oado. Amaldi\u00e7oado.",
+        "name":"K\u014dhaku Narukami",
+        "subname":"O Folclorista",
+        "back_name":"K\u014dhaku Narukami",
+        "back_text":"<b>Tamanho do Baralho</b>: 30.\n<b>Op\u00e7\u00f5es de Constru\u00e7\u00e3o de Baralho</b>: Cartas de [[Aben\u00e7oado]] de n\u00edveis 0-5, cartas de [[Amaldi\u00e7oado]] de n\u00edveis 0-5, cartas de [[Oculto]] de n\u00edvel 0, cartas de M\u00edstico ([mystic]) de n\u00edveis 0-3, cartas Neutras de n\u00edveis 0-5.\n<b>Requisitos de Constru\u00e7\u00e3o de Baralho</b> (n\u00e3o contam para o tamanho do baralho): Livro dos Mitos Vivos, Yurei que Chora, 1 fraqueza b\u00e1sica aleat\u00f3ria.",
+        "back_flavor":"Todos na Sociedade Hist\u00f3rica de Arkham reconhecem a risada vibrante de K\u00f6haku e as hist\u00f3rias assustadoras que ele conta sobre os y\u014dkai do lar de sua inf\u00e2ncia, pr\u00f3ximo a T\u00f3quio, e das criaturas estranhas s que assombram a Floresta de Arkham. O folclorista exc\u00eantrico diz a todos que a sua maior obra ser\u00e1 o registro e a publica\u00e7\u00e3o da exist\u00eancia desses fen\u00f4menos. \u00c9 s\u00f3 quando ele est\u00e1 em casa com seu companheiro Gabriel que ele ouve os gritos do mesmo esp\u00edrito que assombrou seu pai e teme que sua \"maior obra\" nunca o deixar\u00e1 dormir novamente.",
+        "text":"[reaction] No in\u00edcio do seu turno: Adicione 1 ficha [bless] ou 1 ficha [curse] \u00e0 bolsa de caos, do tipo que houver menos <i>(no caso de empate, voc\u00ea escolhe)</i>, ou remova 2 fichas [bless] e 2 fichas [curse] da bolsa de caos para realizar uma a\u00e7\u00e3o adicional neste turno.\n[elder_sign] efeito: +2. Adicione 1 ficha [bless] e 1 ficha [curse] \u00e0 bolsa de caos.",
+        "flavor":"\"Por que n\u00e3o receber o desconhecido com encantamento em vez de medo?\""
     },
     {
-        "code": "10013",
-        "name": "Book of Living Myths",
-        "subname": "Chronicle of Wonders",
-        "text": "Kōhaku Narukami deck only.\n[reaction] When a chaos token would be revealed at your location, exhaust Book of Living Myths: Search the chaos bag for a [bless] or [curse] token, whichever there are more of <i>(in case of a tie, you choose)</i>, and resolve it instead.",
-        "traits": "Item. Tome. Blessed. Cursed.",
-        "slot": "Hand"
+        "code":"10013",
+        "traits":"Item. Tomo. Aben\u00e7oado. Amaldi\u00e7oado.",
+        "name":"Livro dos Mitos Vivos",
+        "subname":"Cr\u00f4nica de Maravilhas",
+        "text":"Apenas no baralho de K\u014dhaku Narukami.\n[reaction] Quando uma ficha de caos for ser revelada em seu local, esgote Livro dos Mitos Vivos: Procure na bolsa de caos uma ficha [bless] ou [curse], do tipo que houver mais <i>(no caso de empate, voc\u00ea escolhe)</i>, e resolva essa ficha em vez disso."
     },
     {
-        "code": "10014",
-        "name": "Weeping Yurei",
-        "text": "Aloof. Elusive. Hunter.\n<b>Prey</b> - Kōhaku Narukami only.\n<b>Forced</b> - After an investigator reveals a [bless] token or [curse] token during a skill test at Weeping Yurei's location, if it is ready: Weeping Yurei attacks that investigator. (Limit once per test).",
-        "traits": "Monster. Geist."
+        "code":"10014",
+        "traits":"Monstro. Geist.",
+        "name":"Yurei que Chora",
+        "text":"Arredio. Elusivo. Ca\u00e7ador.\n<b>Presa</b> - Somente K\u014dhaku Narukami.\n<b>For\u00e7ado</b> - Ap\u00f3s um investigador revelar uma ficha [bless] ou uma ficha [curse] durante um teste de per\u00edcia no local de Yurei que Chora, se Yurei que Chora estiver preparado: Yurei que Chora ataca esse investigador. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10015",
-        "name": "Hank Samson",
-        "subname": "The Farmhand",
-        "text": "You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When you would be defeated by damage and/or horror: Instead, heal all of your damage and horror and swap this card with its bonded [[Resolute]] version, either side faceup.\n[elder_sign] effect: +1.",
-        "traits": "Assistant. Warden.",
-        "back_flavor": "Growing up on a farm, Hank Samson did all the chores Ma and Pa told him to do, including taking care of his brothers and sisters. When Pa showed him the strange animals in the city stockyard, Hank felt uneasy, but he did as he was told. When Pa told him to wait, he waited. And when Pa didn't come back, Hank went to find him. Pa taught him that family is everything, and you don't just leave family behind.",
-        "back_text": "<b>Deck Size</b>: 35.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other [[Innate]] and/or [[Spirit]] cards level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Stouthearted, \"Where's Pa?\", 1 random basic weakness."
+        "code":"10015",
+        "traits":"Assistente. Protetor.",
+        "name":"Hank Samson",
+        "subname":"O Lavrador",
+        "back_name":"Hank Samson",
+        "back_text":"<b>Tamanho do Baralho</b>: 35.\n<b>Op\u00e7\u00f5es de Constru\u00e7\u00e3o de Baralho</b>: Cartas de Sobrevivente ([survivor]) de n\u00edveis 0-5, cartas Neutras de n\u00edveis 0-5, at\u00e9 10 outras cartas de [[Inato]] e/ou de [[Esp\u00edrito]] de n\u00edveis 0-2.\n<b>Requisitos de Constru\u00e7\u00e3o de Baralho</b> (n\u00e3o contam para o tamanho do baralho): Valente, \"Cad\u00ea o Pai?\", 1 fraqueza b\u00e1sica aleat\u00f3ria.",
+        "back_flavor":"Hank Samson cresceu em uma fazenda e realizava todas as tarefas que sua m\u00e3e e seu pai lhe pediam, incluindo cuidar de seus irm\u00e3os e irm\u00e3s. Quando seu pai lhe mostrou os animais estranhos no curral da cidade, Hank ficou apreensivo, mas fez como ordenado. Quando o pai lhe pediu para esperar, ele esperou. E quando seu pai n\u00e3o retornou, Hank foi procur\u00e1-lo. Seu pai lhe ensinou que a fam\u00edlia \u00e9 tudo, e que nunca abandonamos nenhum membro da fam\u00edlia.",
+        "text":"Voc\u00ea pode receber o dano/horror causado a ativos de [[Aliado]] ou a outros investigadores em seu local.\n[reaction] Quando voc\u00ea for derrotado por dano e/ou horror: Em vez disso, cure todo o seu dano e horror e troque esta carta por sua vers\u00e3o [[Resoluto]] vinculada, com qualquer um dos lados virado para cima.\n[elder_sign] efeito: +1."
     },
     {
-        "code": "10016a",
-        "name": "Hank Samson",
-        "subname": "The Farmhand",
-        "text": "Bonded (Hank Samson).\nYou cannot be healed. You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When 1 or more horror is placed on you: Draw 1 card.\n[elder_sign] effect: +1. Move 1 horror from Hank Samson to an asset you control.",
-        "traits": "Assistant. Resolute."
+        "code":"10016a",
+        "traits":"Assistente. Resoluto.",
+        "name":"Hank Samson",
+        "subname":"O Lavrador",
+        "text":"Vinculado (Hank Samson).\nVoc\u00ea n\u00e3o pode ser curado. Voc\u00ea pode receber o dano/horror causado a ativos de [[Aliado]] ou a outros investigadores em seu local.\n[reaction] Quando 1 ou mais de horror forem colocados sobre voc\u00ea: Compre 1 carta.\n[elder_sign] efeito: +1. Mova 1 de horror de Hank Samson para um ativo que voc\u00ea controla."
     },
     {
-        "code": "10016b",
-        "name": "Hank Samson",
-        "subname": "The Farmhand",
-        "text": "Bonded (Hank Samson).\nYou cannot be healed. You may be assigned damage/horror dealt to [[Ally]] assets or other investigators at your location.\n[reaction] When 1 or more damage is placed on you: Gain 2 resources.\n[elder_sign] effect: +1. Move 1 damage from Hank Samson to an asset you control.",
-        "traits": "Warden. Resolute."
+        "code":"10016b",
+        "traits":"Protetor. Resoluto.",
+        "name":"Hank Samson",
+        "subname":"O Lavrador",
+        "text":"Vinculado (Hank Samson).\nVoc\u00ea n\u00e3o pode ser curado. Voc\u00ea pode receber o dano/horror causado a ativos de [[Aliado]] ou a outros investigadores em seu local.\n[reaction] Quando 1 ou mais de dano forem colocados sobre voc\u00ea: Ganhe 2 recursos.\n[elder_sign] efeito: +1. Mova 1 de dano de Hank Samson para um ativo que voc\u00ea controla."
     },
     {
-        "code": "10017",
-        "flavor": "Everyone is a hero to someone.",
-        "name": "Stouthearted",
-        "text": "Hank Samson deck only.\nFast. Play when you engage a non-[[Elite]] enemy.\nMove up to 2 damage and/or horror from Hank Samson to that enemy, as damage.",
-        "traits": "Spirit."
+        "code":"10017",
+        "traits":"Esp\u00edrito.",
+        "name":"Valente",
+        "text":"Apenas no baralho de Hank Samson.\nVeloz. Jogue quando voc\u00ea engajar com um inimigo n\u00e3o-[[Elite]].\nMova at\u00e9 2 de dano e/ou de horror de Hank Samson para esse inimigo, como dano.",
+        "flavor":"\"Todo mundo \u00e9 um her\u00f3i para algu\u00e9m.\""
     },
     {
-        "code": "10018",
-        "name": "\"Where's Pa?\"",
-        "text": "<b>Revelation</b> - Discard cards from the top of the encounter deck until an enemy is discarded. Attach \"Where's Pa?\" to that enemy and spawn it at a connecting location, if able.\nAttached enemy gains elusive.\n<b>Forced</b> - At the end of the round: Hank Samson takes 1 direct horror.",
-        "traits": "Flaw."
+        "code":"10018",
+        "traits":"Defeito.",
+        "name":"\"Cad\u00ea o Pai\"?",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Descarte cartas do topo do baralho de encontros at\u00e9 que um inimigo seja descartado. Anexe \"Cad\u00ea o Pai?\" a esse inimigo e fa\u00e7a-o surgir em um local conectado, se poss\u00edvel.\nO inimigo anexado ganha elusivo.\n<b>For\u00e7ado</b> - No final da rodada: Hank Samson sofre 1 de horror direto."
     },
     {
-        "code": "10019",
-        "flavor": "Never forget those who came before.",
-        "name": "Ancestral Token",
-        "text": "[reaction] After you defeat an enemy, exhaust Ancestral Token: Add [bless] tokens to the chaos bag equal to that enemy's printed health (max 5).",
-        "traits": "Item. Charm. Blessed.",
-        "slot": "Accessory"
+        "code":"10019",
+        "traits":"Item. Talism\u00e3. Aben\u00e7oado.",
+        "name":"Souvenir Ancestral",
+        "text":"[reaction] Ap\u00f3s voc\u00ea derrotar um inimigo, esgote Souvenir Ancestral: Adicione uma quantidade de fichas [bless] \u00e0 bolsa de caos igual ao valor de vida impresso desse inimigo (m\u00e1x. 5).",
+        "flavor":"\"Nunca se esque\u00e7a daqueles que vieram antes de n\u00f3s.\""
     },
     {
-        "code": "10020",
-        "flavor": "\"It cleans! It fixes! It picks, plucks, shines, and swishes!\"\n-Schoffner's Catalogue, Winter 1924 ed.",
-        "name": "Cleaning Kit",
-        "text": "Uses (3 supplies).\nSupplies on Cleaning Kit may be spent as if they were supplies or ammo on assets you control.",
-        "traits": "Item. Tool.",
-        "slot": "Accessory"
+        "code":"10020",
+        "traits":"Item. Ferramenta.",
+        "name":"Kit de Limpeza",
+        "text":"Usa (3 suprimentos).\nOs suprimentos no Kit de Limpeza podem ser gastos como se fossem suprimentos ou muni\u00e7\u00f5es nos ativos que voc\u00ea controla.",
+        "flavor":"\"Ele limpa! Ele conserta! Ele desmonta, remonta, lustra e deixa tudo tinindo!\"\n-Cat\u00e1logo de Schoffner, Inverno, edi\u00e7\u00e3o de 1924"
     },
     {
-        "code": "10021",
-        "name": "Katana",
-        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this test. If you succeed by exactly 2, you may exhaust Katana to deal +2 damage for this attack.\n[fast]Exhaust Katana: <b>Fight.</b> Use [agility] instead of [combat] for this attack.",
-        "traits": "Item. Weapon. Melee.",
-        "slot": "Hand x2"
+        "code":"10021",
+        "traits":"Item. Arma. Corpo a Corpo.",
+        "name":"Katana",
+        "text":"[action]: <b>Lute.</b> Voc\u00ea recebe +2 [combat] neste teste. Se voc\u00ea tiver sucesso por exatamente 2, voc\u00ea pode esgotar Katana para causar +2 de dano neste ataque.\n[fast] Esgote Katana: <b>Lute.</b> Use [agility] em vez de [combat] neste ataque."
     },
     {
-        "code": "10022",
-        "name": "Ofuda",
-        "text": "Uses (1 charge). Replenish this charge the first time a [bless] token is revealed at your location each round.\n[fast] Choose a non-[[Elite]] enemy at your location and spend 1 charge: That enemy loses the alert, aloof, elusive, and retaliate keywords until the end of the round.",
-        "traits": "Item. Charm. Blessed."
+        "code":"10022",
+        "traits":"Item. Talism\u00e3. Aben\u00e7oado.",
+        "name":"Ofuda",
+        "text":"Usa (1 carga). Reabaste\u00e7a esta carga na primeira vez que uma ficha [bless] for revelada em seu local a cada rodada.\n[fast] Escolha um inimigo n\u00e3o-[[Elite]] em seu local e gaste 1 carga: Esse inimigo perde as palavras-chave alerta, arredio, elusivo e retalia\u00e7\u00e3o at\u00e9 o final da rodada."
     },
     {
-        "code": "10023",
-        "name": "Wolf Mask",
-        "subname": "The Moon's Sire",
-        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you engage an enemy.\n[fast] Spend 1 offering: You get +2 [combat] or +2 [agility] for this skill test. (Limit once per test.)",
-        "traits": "Item. Charm. Mask."
+        "code":"10023",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"M\u00e1scara de Lobo",
+        "subname":"O Senhor da Lua",
+        "text":"Limite de 1 [[M\u00e1scara]] por investigador.\nUsa (2 oferendas). Reabaste\u00e7a 1 dessas oferendas ap\u00f3s voc\u00ea engajar com um inimigo.\n[fast] Gaste 1 oferenda: Voc\u00ea recebe +2 [combat] ou +2 [agility] nesse teste de per\u00edcia. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10024",
-        "name": "Absolution",
-        "text": "Reveal 3 random tokens from the chaos bag, along with X additional tokens.\nFor each non-symbol token revealed, add 1 [bless] token to the chaos bag. For each [bless] token revealed, heal 1 horror from an investigator or [[Ally]] asset at your location.",
-        "traits": "Spell. Blessed."
+        "code":"10024",
+        "traits":"Magia. Aben\u00e7oado.",
+        "name":"Absolvi\u00e7\u00e3o",
+        "text":"Revele 3 fichas aleat\u00f3rias da bolsa de caos, al\u00e9m de X fichas adicionais.\nPara cada ficha sem s\u00edmbolo revelada, adicione 1 ficha [bless] \u00e0 bolsa de caos. Para cada ficha [bless] revelada, cure 1 de horror de um investigador ou ativo de [[Aliado]] em seu local."
     },
     {
-        "code": "10025",
-        "name": "Guided by Faith",
-        "text": "<b>Investigate.</b> You may use [willpower] instead of [intellect] for this investigation. Before revealing chaos tokens for this test, add 2 [bless] tokens to the chaos bag. If a [bless] or [elder_sign] token is revealed during this skill test, discover 1 additional clue at your location.",
-        "traits": "Spirit. Blessed."
+        "code":"10025",
+        "traits":"Esp\u00edrito. Aben\u00e7oado.",
+        "name":"Guiado pela F\u00e9",
+        "text":"<b>Investigue.</b> Voc\u00ea pode usar [willpower] em vez de [intellect] nesta investiga\u00e7\u00e3o. Antes de revelar fichas de caos neste teste, adicione 2 fichas [bless] \u00e0 bolsa de caos. Se uma ficha [bless] ou [elder_sign] for revelada durante este teste de per\u00edcia, descubra 1 pista adicional em seu local."
     },
     {
-        "code": "10026",
-        "flavor": "\"H-hands where I can see 'em!\"",
-        "name": "Hold Up",
-        "text": "<b>Parley.</b> Choose an enemy at your location and an [[Item]] asset in your hand. Perform a fight action against the chosen enemy. If you succeed, instead of dealing damage, play the chosen asset, reducing its cost by each point you succeeded by.",
-        "traits": "Tactic. Trick."
+        "code":"10026",
+        "traits":"T\u00e1tica. Truque.",
+        "name":"M\u00e3os ao Alto",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e um ativo de [[Item]] na sua m\u00e3o. Realize uma a\u00e7\u00e3o de lutar contra o inimigo escolhido. Se voc\u00ea tiver sucesso, em vez de causar dano, jogue o ativo escolhido, reduzindo seu custo para cada ponto que voc\u00ea teve sucesso.",
+        "flavor":"\"M-m\u00e3os onde eu possa v\u00ea-las!\""
     },
     {
-        "code": "10027",
-        "name": "Task Force",
-        "text": "As an additional cost to play Task Force, spend an action. One at a time, in any order, choose an investigator at your location to...\n- ...resolve an [action] ability on an asset they control without paying its [action] cost.\n- ...move to a connecting location.\n- ...discover 1 clue at their location.",
-        "traits": "Tactic. Double."
+        "code":"10027",
+        "traits":"T\u00e1tica. Dobro.",
+        "name":"For\u00e7a Tarefa",
+        "text":"Como um custo adicional para jogar For\u00e7a Tarefa, gaste uma a\u00e7\u00e3o. Um por vez, em qualquer ordem, escolha um investigador em seu local para...\n- ...resolver uma habilidade [action] em um ativo que ele controla sem pagar seu custo [action].\n- ...mover-se para um local conectado.\n- ...descobrir 1 pista em seu local."
     },
     {
-        "code": "10028",
-        "flavor": "\"You still call that a wrench?!\"",
-        "name": "Tinker",
-        "text": "Fast. Play only during your turn.\nAttach Tinker to a [[Tool]] asset in your play area. Limit 1 per asset.\nAttached asset takes up 1 fewer hand or accessory slot.",
-        "traits": "Insight. Upgrade."
+        "code":"10028",
+        "traits":"Introspec\u00e7\u00e3o. Aprimoramento.",
+        "name":"Remendo",
+        "text":"Veloz. Jogue apenas durante o seu turno.\nAnexe Remendo a um ativo de [[Ferramenta]] em sua \u00e1rea de jogo. Limite de 1 por ativo.\nO ativo anexado ocupa 1 espa\u00e7o a menos de m\u00e3o ou de acess\u00f3rio.",
+        "flavor":"\"Voc\u00ea ainda chama isso de chave inglesa?!\""
     },
     {
-        "code": "10029",
-        "name": "Purified",
-        "text": "Max 1 committed per skill test.\nYou may commit Purified to any type of test.\nIf this test is successful, for each point you succeeded by (to a maximum of 5), add 1 [bless] token or remove 1 [curse] token from the chaos bag.",
-        "traits": "Innate. Blessed."
+        "code":"10029",
+        "traits":"Inato. Aben\u00e7oado.",
+        "name":"Purificado",
+        "text":"M\u00e1x. de 1 comprometida por teste de per\u00edcia.\nVoc\u00ea pode comprometer Purificado em qualquer tipo de teste.\nSe esse teste for bem-sucedido, para cada ponto que voc\u00ea tiver sucesso (at\u00e9 um m\u00e1ximo de 5), adicione 1 ficha [bless] ou remova 1 ficha [curse] da bolsa de caos."
     },
     {
-        "code": "10030",
-        "flavor": "Keep your eyes on the target.",
-        "name": "Hand-Eye Coordination",
-        "text": "Fast. Play only during your turn.\nResolve an [action] ability on a [[Tool]] or [[Weapon]] asset you control without paying its [action] cost.",
-        "traits": "Insight."
+        "code":"10030",
+        "traits":"Introspec\u00e7\u00e3o.",
+        "name":"Coordena\u00e7\u00e3o Olho-m\u00e3o",
+        "text":"Veloz. Jogue apenas durante o seu turno.\nResolva uma habilidade [action] em um ativo de [[Ferramenta]] ou de [[Arma]] que voc\u00ea controla sem pagar seu custo [action].",
+        "flavor":"Fique de olho no alvo."
     },
     {
-        "code": "10031",
-        "name": "Strong-Armed",
-        "text": "While Strong-Armed is committed to an attack using a [[Melee]] or [[Ranged]] asset, this attack deals +1 damage. After revealing chaos token(s) for this skill test, you may take 1 damage to cancel that chaos token, return it to the chaos bag, and reveal a new one. <i>(You may do this any number of times.)</i>",
-        "traits": "Innate."
+        "code":"10031",
+        "traits":"Inato.",
+        "name":"Fortemente Armado",
+        "text":"Enquanto Fortemente Armado estiver comprometido em um ataque usando um ativo [[Corpo a Corpo]] ou [[\u00c0 Dist\u00e2ncia]], esse ataque causa +1 de dano. Ap\u00f3s revelar ficha(s) de caos nesse teste de per\u00edcia, voc\u00ea pode sofrer 1 de dano para cancelar essa ficha de caos, devolv\u00ea-la para a bolsa de caos e revelar uma nova. <i>(Voc\u00ea pode fazer isso quantas vezes quiser.)</i>"
     },
     {
-        "code": "10032",
-        "name": "Second Wind",
-        "text": "Play only as your first action.\nHeal 2 damage (3 instead if you drew a treachery this round). Draw 1 card.",
-        "traits": "Spirit. Bold."
+        "code":"10032",
+        "traits":"Esp\u00edrito. Audaz.",
+        "name":"F\u00f4lego Renovado",
+        "text":"Jogue apenas como sua primeira a\u00e7\u00e3o.\nCure 2 de dano (3 de dano, em vez disso, se voc\u00ea comprou uma trai\u00e7\u00e3o nesta rodada).\nCompre 1 carta."
     },
     {
-        "code": "10033",
-        "name": "Cleaning Kit",
-        "text": "Uses (4 supplies).\nSupplies on Cleaning Kit may be spent as if they were supplies or ammo on assets you control.\n[reaction] When a supply is spent from Cleaning Kit, exhaust it: The performing investigator gets +2 skill value for this test.",
-        "traits": "Item. Tool.",
-        "slot": "Accessory",
-        "flavor": "\"It cleans! It fixes! It picks, plucks, shines, and swishes!\"\n-Schoffner's Catalogue, Winter 1924 ed."
+        "code":"10033",
+        "traits":"Item. Ferramenta.",
+        "name":"Kit de Limpeza",
+        "text":"Usa (4 suprimentos).\nOs suprimentos no Kit de Limpeza podem ser gastos como se fossem suprimentos ou muni\u00e7\u00f5es nos ativos que voc\u00ea controla.\n[reaction] Quando um suprimento for gasto do Kit de Limpeza, esgote-o: O investigador realizando o teste recebe +2 de valor de per\u00edcia nesse teste."
     },
     {
-        "code": "10034",
-        "name": "Blessed Blade",
-        "text": "[action]: <b>Fight.</b> You get +2 [combat] for this attack. If this attack is successful, it deals +1 damage. Return each [bless] token revealed during this attack to the chaos bag. Before revealing chaos token(s) for this attack, you may exhaust Blessed Blade to add 2 [bless] tokens to the chaos bag.",
-        "traits": "Item. Weapon. Melee. Blessed.",
-        "slot": "Hand"
+        "code":"10034",
+        "traits":"Item. Arma. Corpo a Corpo. Aben\u00e7oado.",
+        "name":"L\u00e2mina Aben\u00e7oada",
+        "text":"[action]: <b>Lute.</b> Voc\u00ea recebe +2 [combat] neste ataque. Se este ataque for bem-sucedido, ele causa +1 de dano. Devolva cada ficha [bless] revelada durante este ataque para a bolsa de caos. Antes de revelar ficha(s) de caos neste ataque, voc\u00ea pode esgotar L\u00e2mina Aben\u00e7oada para adicionar 2 fichas [bless] \u00e0 bolsa de caos."
     },
     {
-        "code": "10035",
-        "name": "Eyes of Valusia",
-        "subname": "The Mother's Cunning",
-        "text": "[action]: <b>Parley.</b> Choose an enemy at your location. Until the end of the round, each investigator gets +1 skill value while fighting, evading, or parleying with the chosen enemy. Place 1 resource on Eyes of Valusia, as a charge.\n[fast]: Search your bonded cards for Blade of Yoth and swap it with Eyes of Valusia, moving all charges from Eyes of Valusia to Blade of Yoth.",
-        "traits": "Item. Relic. Spell.",
-        "slot": "Hand. Arcane"
+        "code":"10035",
+        "traits":"Item. Rel\u00edquia. Magia.",
+        "name":"Olhos de Valusia",
+        "subname":"A Ast\u00facia da M\u00e3e",
+        "text":"[action]: <b>Negociata.</b> Escolha um inimigo em seu local. At\u00e9 o final da rodada, cada investigador recebe +1 de valor de per\u00edcia enquanto estiver lutando, evadindo ou negociando com o inimigo escolhido. Coloque 1 recurso em Olhos de Valusia, como uma carga.\n[fast]: Procure Espada de Yoth em suas cartas vinculadas e troque-a por Olhos de Valusia, movendo todas as cargas de Olhos de Valusia para Espada de Yoth."
     },
     {
-        "code": "10036",
-        "name": "Blade of Yoth",
-        "subname": "The Father's Ire",
-        "text": "Bonded (Eyes of Valusia).\n[action] Spend 1-3 charges: <b>Fight.</b> For this attack, you may use [willpower] instead of [combat]. You get +2 skill value and deal +1 damage for each charge spent as part of this action's cost.\n[fast]: Search your bonded cards for Eyes of Valusia and swap it with Blade of Yoth, discarding all charges.",
-        "traits": "Item. Relic. Weapon. Melee.",
-        "slot": "Hand. Arcane"
+        "code":"10036",
+        "traits":"Item. Rel\u00edquia. Arma. Corpo a Corpo.",
+        "name":"Espada de Yoth",
+        "subname":"A Ira do Pai",
+        "text":"Vinculado (Olhos de Valusia).\n[action] Gaste 1-3 cargas: <b>Lute.</b> Voc\u00ea pode usar [willpower] em vez de [combat] neste ataque. Voc\u00ea recebe +2 de valor de per\u00edcia e causa +1 de dano para cada carga gasta como parte do custo desta a\u00e7\u00e3o.\n[fast]: Procure Olhos de Valusia em suas cartas vinculadas e troque-a por Espada de Yoth, descartando todas as cargas."
     },
     {
-        "code": "10037",
-        "name": "Flurry of Blows",
-        "text": "Play only if you control a [[Melee]] asset. As an additional cost to play Flurry of Blows, spend an action.\n<b>Fight.</b> Choose a [[Melee]] asset you control and take an immediate fight action with that asset <i>(without paying its [action] cost)</i>. You may repeat this effect up to three times. After the final attack resolves, if it is your turn, end your turn.",
-        "traits": "Tactic. Double. Fated."
+        "code":"10037",
+        "traits":"T\u00e1tica. Dobro. Predestinado.",
+        "name":"Torrente de Golpes",
+        "text":"Jogue esta carta somente se voc\u00ea controlar um ativo [[Corpo a Corpo]]. Como um custo adicional para jogar Torrente de Golpes, gaste uma a\u00e7\u00e3o.\n<b>Lute.</b> Escolha um ativo [[Corpo a Corpo]] que voc\u00ea controla e realize imediatamente uma a\u00e7\u00e3o de lutar com esse ativo <i>(sem pagar seu custo [action])</i>. Voc\u00ea pode repetir este efeito at\u00e9 tr\u00eas vezes. Ap\u00f3s o ataque final ser resolvido, se for o seu turno, encerre seu turno."
     },
     {
-        "code": "10038",
-        "name": "Miracle Wish",
-        "text": "Fast. Play after 1 or more [bless] tokens are revealed during a skill test at your location.\nSearch your bonded cards for Evanescent Ascension and put it into play. Place up to X resources on it, as wishes (to a maximum of the number of [bless] tokens revealed). Remove Miracle Wish from the game.",
-        "traits": "Favor. Blessed."
+        "code":"10038",
+        "traits":"Favor. Aben\u00e7oado.",
+        "name":"Pedido Milagroso",
+        "text":"Veloz. Jogue ap\u00f3s 1 ou mais fichas [bless] serem reveladas durante um teste de per\u00edcia em seu local.\nProcure Ascens\u00e3o Evanescente em suas cartas vinculadas e coloque-a em jogo. Coloque at\u00e9 X recursos sobre ela, como desejos (at\u00e9 no m\u00e1ximo o n\u00famero de fichas [bless] reveladas).\nRemova Pedido Milagroso do jogo."
     },
     {
-        "code": "10039",
-        "name": "Evanescent Ascension",
-        "subname": "The Morning Star",
-        "text": "Bonded (Miracle Wish). If Evanescent Ascension has no wishes, set it aside, out of play.\n[reaction] When an investigator at your location would fail a skill test, spend 1 wish and exhaust Evanescent Ascension: Resolve that investigator's [elder_sign] effect <i>(in addition to all other tokens revealed during this test)</i>.",
-        "traits": "Ritual. Pact. Blessed.",
-        "slot": "Arcane"
+        "code":"10039",
+        "traits":"Ritual. Pacto. Aben\u00e7oado.",
+        "name":"Ascens\u00e3o Evanescente",
+        "subname":"A Estrela da Manh\u00e3",
+        "text":"Vinculado (Pedido Milagroso). Se n\u00e3o houver desejos sobre Ascens\u00e3o Evanescente, separe-a, fora de jogo.\n[reaction] Quando um investigador em seu local for falhar em um teste de per\u00edcia, gaste 1 desejo e esgote Ascens\u00e3o Evanescente: Resolva o efeito [elder_sign] desse investigador <i>(al\u00e9m de todas as outras fichas reveladas durante este teste)</i>."
     },
     {
-        "code": "10040",
-        "name": "Chemistry Set",
-        "text": "[action] Exhaust Chemistry Set: <b>Investigate.</b> If you...\n- ...fail by exactly 2, discard Chemistry Set.\n- ...succeed by exactly 0, gain 2 resources.\n- ...succeed by exactly 2, draw 1 card.\n- ...succeed by exactly 4, discover 1 additional clue at your location.",
-        "traits": "Item. Tool. Science.",
-        "slot": "Accessory"
+        "code":"10040",
+        "traits":"Item. Ferramenta. Ci\u00eancia.",
+        "name":"Kit de Qu\u00edmica",
+        "text":"[action] Esgote Kit de Qu\u00edmica: <b>Investigue.</b> Se voc\u00ea...\n- ...falhar por exatamente 2, descarte Kit de Qu\u00edmica.\n- ...tiver sucesso por exatamente 0, ganhe 2 recursos.\n- ...tiver sucesso por exatamente 2, compre 1 carta.\n- ...tiver sucesso por exatamente 4, descubra 1 pista adicional em seu local."
     },
     {
-        "code": "10041",
-        "name": "Dr. Charles West III",
-        "subname": "Knows His Purpose",
-        "text": "You have 1 additional hand slot, which can only be used to hold a [[Tool]] asset.\n[reaction] After you successfully investigate by exactly 1 or 3, exhaust Dr. Charles West III: Deal 1 damage to an enemy at your location.",
-        "traits": "Ally. Science.",
-        "slot": "Ally"
+        "code":"10041",
+        "traits":"Aliado. Ci\u00eancia.",
+        "name":"Dr. Charles West III",
+        "subname":"Compreende seu Prop\u00f3sito",
+        "text":"Voc\u00ea tem 1 espa\u00e7o de m\u00e3o adicional, que pode ser usado apenas para um ativo de [[Ferramenta]].\n[reaction] Ap\u00f3s voc\u00ea investigar com sucesso por exatamente 1 ou 3, esgote Dr. Charles West III: Cause 1 de dano a um inimigo em seu local."
     },
     {
-        "code": "10042",
-        "name": "Microscope",
-        "text": "[reaction] After an enemy at your location is successfully evaded or defeated, exhaust Microscope: Place 1 resource on Microscope, as evidence.\n[action][action]: <b>Investigate.</b> You get +1 [intellect] for this investigation for each evidence on Microscope (max +3 [intellect]). If you succeed, you may spend up to 2 evidence to discover that many additional clues at your location.",
-        "traits": "Item. Tool. Science.",
-        "slot": "Hand"
+        "code":"10042",
+        "traits":"Item. Ferramenta. Ci\u00eancia.",
+        "name":"Microsc\u00f3pio",
+        "text":"[reaction] Ap\u00f3s um inimigo em seu local ser evadido ou derrotado com sucesso, esgote Microsc\u00f3pio: Coloque 1 recurso em Microsc\u00f3pio, como evid\u00eancia.\n[action][action]: <b>Investigue.</b> Voc\u00ea recebe +1 [intellect] nesta investiga\u00e7\u00e3o para cada evid\u00eancia em Microsc\u00f3pio (m\u00e1x. de +3 [intellect]). Se voc\u00ea tiver sucesso, voc\u00ea pode gastar at\u00e9 2 evid\u00eancias para descobrir essa mesma quantidade de pistas adicionais em seu local."
     },
     {
-        "code": "10043",
-        "name": "Mouse Mask",
-        "subname": "The Meek Watcher",
-        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you reveal a location or put a new location into play.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [intellect] for this skill test. (Limit once per test.)",
-        "traits": "Item. Charm. Mask."
+        "code":"10043",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"M\u00e1scara de Rato",
+        "subname":"O Observador Humilde",
+        "text":"Limite de 1 [[M\u00e1scara]] por investigador.\nUsa (2 oferendas). Reabaste\u00e7a 1 dessas oferendas ap\u00f3s voc\u00ea revelar um local ou colocar um novo local em jogo.\n[fast] Gaste 1 oferenda: Voc\u00ea recebe +2 [willpower] ou +2 [intellect] nesse teste de per\u00edcia. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10044",
-        "name": "Ravenous Myconid",
-        "subname": "Unidentified",
-        "text": "Limit 1 per deck.\n[action]: Search your bonded cards for Uncanny Growth and add it to your hand.\n[action] If Ravenous Myconid has 3 or more growth on it: Move each growth to your resource pool, as resources. Record in your Campaign Log that \"you have classified a new species.\"",
-        "traits": "Creature. Monster. Flora. Science."
+        "code":"10044",
+        "traits":"Criatura. Monstro. Flora. Ci\u00eancia.",
+        "name":"Micon\u00eddeo Voraz",
+        "subname":"N\u00e3o Identificado",
+        "text":"Limite de 1 por baralho.\n[action]: Procure Crescimento Misterioso em suas cartas vinculadas e adicione-a \u00e0 sua m\u00e3o.\n[action] Se houver 3 ou mais de crescimento em Micon\u00eddeo Voraz: Mova cada crescimento para sua reserva de recursos, como recursos. Anote no Registro da Campanha que \"voc\u00ea classificou uma nova esp\u00e9cie.\""
     },
     {
-        "code": "10045",
-        "name": "Uncanny Growth",
-        "text": "Bonded (Ravenous Myconid).\n<b>Investigate.</b> After this test resolves, place 1 resource on Ravenous Myconid, as growth, for each point you succeed by. Set Uncanny Growth aside, out of play. If you fail, return Uncanny Growth to your hand.",
-        "traits": "Insight. Science."
+        "code":"10045",
+        "traits":"Introspec\u00e7\u00e3o. Ci\u00eancia.",
+        "name":"Crescimento Misterioso",
+        "text":"Vinculado (Micon\u00eddeo Voraz).\n<b>Investigue.</b> Ap\u00f3s este teste ser resolvido, coloque 1 recurso em Micon\u00eddeo Voraz, como crescimento, para cada ponto que voc\u00ea tiver sucesso. Separe Crescimento Misterioso, fora de jogo. Se voc\u00ea falhar, devolva Crescimento Misterioso para sua m\u00e3o."
     },
     {
-        "code": "10046",
-        "flavor": "\"There was a solution which he injected into the veins of dead things, and if they were fresh enough they responded in strange ways.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimator</i>",
-        "name": "Control Variable",
-        "text": "Fast. Play after an investigator reveals a h token during a skill test at your location.\nDiscover 1 clue at your location.",
-        "traits": "Insight. Science. Cursed."
+        "code":"10046",
+        "traits":"Introspec\u00e7\u00e3o. Ci\u00eancia. Amaldi\u00e7oado.",
+        "name":"Vari\u00e1vel de Controle",
+        "text":"Veloz. Jogue ap\u00f3s um investigador revelar uma ficha [curse] durante um teste de per\u00edcia em seu local.\nDescubra 1 pista em seu local.",
+        "flavor":"\"Havia uma solu\u00e7\u00e3o que ele injetava nas veias de coisas mortas e, se ainda estivessem frescas o suficiente, elas respondiam de formas estranhas.\"\n-H.P. Lovecraft, <i>Herbert West - Reanimador</i>"
     },
     {
-        "code": "10047",
-        "name": "Testing Sprint",
-        "text": "As an additional cost to play Testing Sprint, spend an action.\n<b>Investigate.</b> One at a time, investigate your location and each connecting location once each in ascending order of shroud, until you either fail to investigate or successfully investigate each eligible location.",
-        "traits": "Insight. Double."
+        "code":"10047",
+        "traits":"Introspec\u00e7\u00e3o. Dobro.",
+        "name":"Sequ\u00eancia de Testes",
+        "text":"Como um custo adicional para jogar Sequ\u00eancia de Testes, gaste uma a\u00e7\u00e3o.\n<b>Investigue.</b> Um por vez, investigue seu local e cada local conectado uma vez em ordem crescente de v\u00e9u, at\u00e9 que voc\u00ea falhe em uma investiga\u00e7\u00e3o ou investigue com sucesso cada local eleg\u00edvel."
     },
     {
-        "code": "10048",
-        "flavor": "The truth is often hidden in plain sight.",
-        "name": "Thorough Inquiry",
-        "text": "As an additional cost to play Thorough Inquiry, spend an action.\nInvestigators at your location draw a combined total of 5 cards <i>(you decide how many cards each investigator draws)</i>.",
-        "traits": "Insight. Double."
+        "code":"10048",
+        "traits":"Introspec\u00e7\u00e3o. Dobro.",
+        "name":"Investiga\u00e7\u00e3o Minuciosa",
+        "text":"Como um custo adicional para jogar Investiga\u00e7\u00e3o Minuciosa, gaste uma a\u00e7\u00e3o.\nOs investigadores em seu local compram um total de 5 cartas em conjunto <i>(voc\u00ea decide quantas cartas cada investigador compra)</i>.",
+        "flavor":"Muitas vezes, a verdade est\u00e1 escondida bem \u00e0 vista."
     },
     {
-        "code": "10049",
-        "flavor": "\"Kid, you... you took that a lot more literally than I expected you to.\"",
-        "name": "\"Throw the Book at Them!\"",
-        "text": "<b>Fight.</b> Choose a [[Tome]] asset you control. You get +X [combat] for this attack, where X is that asset's printed cost. If you succeed, you may either automatically evade the attacked enemy, or after the attack ends, you may resolve an [action] or [fast] ability on the chosen asset <i>(ignoring its [action] cost, if any)</i>.",
-        "traits": "Gambit. Improvised."
+        "code":"10049",
+        "traits":"Gambito. Improvisado.",
+        "name":"Fa\u00e7a Bom Uso do Manual",
+        "text":"<b>Lute.</b> Escolha um ativo de [[Tomo]] que voc\u00ea controla. Voc\u00ea recebe +X [combat] neste ataque, onde X \u00e9 o custo impresso desse ativo. Se voc\u00ea tiver sucesso, voc\u00ea pode evadir o inimigo atacado automaticamente ou, ap\u00f3s o ataque terminar, voc\u00ea pode resolver uma habilidade [action] ou [fast] no ativo escolhido <i>(ignorando seu custo [action], se houver)</i>.",
+        "flavor":"\"Garota, voc\u00ea... voc\u00ea levou isso muito mais ao p\u00e9 da letra do que eu esperava.\""
     },
     {
-        "code": "10050",
-        "flavor": "\"I said 'blow it up,' not '<u>blow</u> it up!\"",
-        "name": "Transmogrify",
-        "text": "<b>Evade.</b> You may use [intellect] instead of [agility] for this evasion attempt. If you succeed and the enemy is non-[[Elite]], attach Transmogrify to it.\nAttached enemy gains: \"Massive. Cannot move.\n[reaction] After you evade this enemy: Discover 1 clue at its location. (Limit once per round.)\"",
-        "traits": "Gambit. Science."
+        "code":"10050",
+        "traits":"Gambito. Ci\u00eancia.",
+        "name":"Metamorfosear",
+        "text":"<b>Evada.</b> Voc\u00ea pode usar [intellect] em vez de [agility] nesta tentativa de evas\u00e3o. Se voc\u00ea tiver sucesso e o inimigo for n\u00e3o-[[Elite]], anexe Metamorfosear a ele.\nO inimigo anexado ganha: \"Massivo. N\u00e3o pode se mover.\n[reaction] Ap\u00f3s voc\u00ea evadir este inimigo: Descubra 1 pista no local deste inimigo. (Limite de uma vez por rodada.)\"",
+        "flavor":"\"Eu disse para acabar 'com ele', n\u00e3o acabar 'como' ele!\""
     },
     {
-        "code": "10051",
-        "flavor": "Every cent of that research grant counts.",
-        "name": "Well-Funded",
-        "text": "While you control a [[Science]] or [[Tool]] asset, Well-Funded gains [wild] (while you control 3 or more [[Science]] and/or [[Tool]] assets, Well-Funded gains [wild] [wild], instead).",
-        "traits": "Fortune."
+        "code":"10051",
+        "traits":"Sorte.",
+        "name":"Bem-Financiado",
+        "text":"Enquanto voc\u00ea controlar um ativo de [[Ci\u00eancia]] ou de [[Ferramenta]], Bem-Financiado ganha [wild] (enquanto voc\u00ea controlar 3 ou mais ativos de [[Ci\u00eancia]] e/ou de [[Ferramenta]], em vez disso, Bem-Financiado ganha [wild] [wild]).",
+        "flavor":"Cada centavo dessa bolsa de pesquisa conta."
     },
     {
-        "code": "10052",
-        "flavor": "\"Helping you is easier than teaching my students geometry.\"",
-        "name": "Gabriel Carillo",
-        "subname": "Trusted Confidante",
-        "text": "You get +1 [intellect].\n[reaction] At the start of your turn, add 1 [curse] token to the chaos bag: Draw 1 card.",
-        "traits": "Ally. Scholar. Cursed.",
-        "slot": "Ally"
+        "code":"10052",
+        "traits":"Aliado. Acad\u00eamico. Amaldi\u00e7oado.",
+        "name":"Gabriel Carillo",
+        "subname":"Confidente de Confian\u00e7a",
+        "text":"Voc\u00ea recebe +1 [intellect].\n[reaction] No in\u00edcio do seu turno, adicione 1 ficha [curse] \u00e0 bolsa de caos: Compre 1 carta.",
+        "flavor":"\"\u00c9 mais f\u00e1cil ajudar voc\u00ea do que ensinar geometria aos meus alunos.\""
     },
     {
-        "code": "10053",
-        "flavor": "A nick can be the difference between life and death.",
-        "name": "Steady-Handed",
-        "text": "Limit 1 per investigator.\n[reaction] When you would succeed at a skill test, exhaust Steady-Handed: You either succeed by 1 more or 1 less. If you succeeded by exactly 2, heal 1 horror.",
-        "traits": "Talent. Science."
+        "code":"10053",
+        "traits":"Talento. Ci\u00eancia.",
+        "name":"M\u00e3os Firmes",
+        "text":"Limite de 1 por investigador.\n[reaction] Quando voc\u00ea for bem-sucedido em um teste de per\u00edcia, esgote M\u00e3os Firmes: Voc\u00ea tem sucesso por 1 a mais ou 1 a menos. Se voc\u00ea teve sucesso por exatamente 2, cure 1 de horror.",
+        "flavor":"Um corte pode ser a diferen\u00e7a entre a vida e a morte."
     },
     {
-        "code": "10054",
-        "flavor": "\"I assure you there's nothing to fear!\"",
-        "name": "Fine Tuning",
-        "text": "Attach to a [[Tool]] or [[Science]] asset you control. Limit 1 per asset.\n[reaction] After attached asset exhausts, exhaust Fine Tuning: Ready attached asset.",
-        "traits": "Insight. Upgrade."
+        "code":"10054",
+        "traits":"Introspec\u00e7\u00e3o. Aprimoramento.",
+        "name":"Ajuste Preciso",
+        "text":"Anexe a um ativo de [[Ferramenta]] ou de [[Ci\u00eancia]] que voc\u00ea controla. Limite de 1 por ativo.\n[reaction] Ap\u00f3s o ativo anexado ser esgotado, esgote Ajuste Preciso: Prepare o ativo anexado.",
+        "flavor":"\"Garanto que n\u00e3o h\u00e1 nada a temer!\""
     },
     {
-        "code": "10055",
-        "flavor": "Rumor has it the university's last phrenology professor enjoyed an unnaturally long tenure.",
-        "name": "Esoteric Method",
-        "text": "After this skill test ends, add 1 [curse] token to the chaos bag for each point the performing investigator either succeeded or failed by.",
-        "traits": "Practiced. Cursed."
+        "code":"10055",
+        "traits":"Treinado. Amaldi\u00e7oado.",
+        "name":"M\u00e9todo Esot\u00e9rico",
+        "text":"Ap\u00f3s este teste de per\u00edcia terminar, adicione 1 ficha [curse] \u00e0 bolsa de caos para cada ponto que o investigador que realizou o teste teve sucesso ou falhou.",
+        "flavor":"Segundo os boatos, a \u00faltima professora de frenologia permaneceu no cargo por um per\u00edodo muito mais longo do que o normal."
     },
     {
-        "code": "10056",
-        "name": "Prismatic Spectacles",
-        "subname": "Lens to the Otherworld",
-        "text": "[action] Add 1 [curse] token to the chaos bag: <b>Investigate.</b> You get +2 skill value for this investigation. If a [curse] token is revealed during this investigation, you may exhaust Prismatic Spectacles to discover 1 additional clue at your location.",
-        "traits": "Item. Relic. Cursed.",
-        "slot": "Accessory"
+        "code":"10056",
+        "traits":"Item. Rel\u00edquia. Amaldi\u00e7oado.",
+        "name":"\u00d3culos Prism\u00e1ticos",
+        "subname":"Lentes para o Outro Mundo",
+        "text":"[action] Adicione 1 ficha [curse] \u00e0 bolsa de caos: <b>Investigue.</b> Voc\u00ea recebe +2 de valor de per\u00edcia nesta investiga\u00e7\u00e3o. Se uma ficha [curse] for revelada durante esta investiga\u00e7\u00e3o, voc\u00ea pode esgotar \u00d3culos Prism\u00e1ticos para descobrir 1 pista adicional em seu local."
     },
     {
-        "code": "10057",
-        "flavor": "\"It'll never work, Herbert.\"",
-        "name": "Confound",
-        "text": "<b>Parley.</b> Choose an enemy at your location. Test [intellect] (X), where X is the chosen enemy's evade value. If you succeed, discover 2 clues at your location. Then, if the chosen enemy is non-[[Elite]], automatically evade it. It does not ready during the next upkeep phase.",
-        "traits": "Insight. Trick."
+        "code":"10057",
+        "traits":"Introspec\u00e7\u00e3o. Truque.",
+        "name":"Confundir",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local. Teste [intellect] (X), onde X \u00e9 o valor de evas\u00e3o do inimigo escolhido. Se voc\u00ea tiver sucesso, descubra 2 pistas em seu local. Ent\u00e3o, se o inimigo escolhido for n\u00e3o-[[Elite]], evada-o automaticamente. Ele n\u00e3o \u00e9 preparado durante a pr\u00f3xima fase de manuten\u00e7\u00e3o.",
+        "flavor":"\"Isso nunca vai funcionar, Herbert.\""
     },
     {
-        "code": "10058",
-        "name": "Microscope",
-        "text": "[reaction] After an enemy at your location is successfully evaded or defeated: Place 1 resource on Microscope, as evidence.\n[action][action]: <b>Investigate.</b> You get +2 [intellect] for this investigation for each evidence on Microscope (max +6 [intellect]). If you succeed, you may spend up to 3 evidence to discover that many additional clues at your location.",
-        "traits": "Item. Tool. Science.",
-        "slot": "Hand"
+        "code":"10058",
+        "traits":"Item. Ferramenta. Ci\u00eancia.",
+        "name":"Microsc\u00f3pio",
+        "text":"[reaction] Ap\u00f3s um inimigo em seu local ser evadido ou derrotado com sucesso: Coloque 1 recurso em Microsc\u00f3pio, como evid\u00eancia.\n[action][action]: <b>Investigue.</b> Voc\u00ea recebe +2 [intellect] nesta investiga\u00e7\u00e3o para cada evid\u00eancia em Microsc\u00f3pio (m\u00e1x. de +6 [intellect]). Se voc\u00ea tiver sucesso, voc\u00ea pode gastar at\u00e9 3 evid\u00eancias para descobrir essa mesma quantidade de pistas adicionais em seu local."
     },
     {
-        "code": "10059",
-        "name": "Ravenous Myconid",
-        "subname": "Sentient Strain",
-        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[reaction] When an investigator draws a non-weakness treachery card, it their locations shroud is equal to or less than Ravenous Myconid's growth: Cancel that treachery's effects and discard it. Remove all growth from Ravenous Myconid.",
-        "traits": "Creature. Science."
+        "code":"10059",
+        "traits":"Criatura. Ci\u00eancia.",
+        "name":"Miconideo Voraz",
+        "subname":"Variante Senciente",
+        "text":"Pesquisado. Limite de 1 por baralho.\n[fast]: Procure Crescimento Misterioso em suas cartas vinculadas e adicione-a \u00e0 sua m\u00e3o. (Limite de uma vez por rodada.)\n[reaction] Quando um investigador comprar uma carta de trai\u00e7\u00e3o n\u00e3o fraqueza, se o v\u00e9u do local dele for menor ou igual ao crescimento de Micon\u00eddeo Voraz: Cancele os efeitos da trai\u00e7\u00e3o e descarte a carta. Remova todo o crescimento de Micon\u00eddeo Voraz."
     },
     {
-        "code": "10060",
-        "name": "Ravenous Myconid",
-        "subname": "Carnivorous Strain",
-        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Choose a non-[[Elite]] enemy at your location with equal or fewer remaining health than the amount of growth on Ravenous Myconid: Defeat that enemy. Remove all growth from Ravenous Myconid.",
-        "traits": "Monster. Science."
+        "code":"10060",
+        "traits":"Monstro. Ci\u00eancia.",
+        "name":"Micon\u00eddeo Voraz",
+        "subname":"Variante Carn\u00edvora",
+        "text":"Pesquisado. Limite de 1 por baralho.\n[fast]: Procure Crescimento Misterioso em suas cartas vinculadas e adicione-a \u00e0 sua m\u00e3o. (Limite de uma vez por rodada.)\n[fast] Escolha um inimigo n\u00e3o-[[Elite]] em seu local com vida restante menor ou igual \u00e0 quantidade de crescimento em Micon\u00eddeo Voraz: Derrote esse inimigo. Remova todo o crescimento de Micon\u00eddeo Voraz."
     },
     {
-        "code": "10061",
-        "name": "Ravenous Myconid",
-        "subname": "Nurturing Strain",
-        "text": "Researched. Limit 1 per deck.\n[fast]: Search your bonded cards for Uncanny Growth and add it to your hand. (Limit once per round.)\n[fast] Remove all growth from Ravenous Myconid: Either heal that much damage/horror from Ravenous Myconid, or move that much damage/horror from investigators or Ally assets at your location to Ravenous Myconid.",
-        "traits": "Flora. Science."
+        "code":"10061",
+        "traits":"Flora. Ci\u00eancia.",
+        "name":"Micon\u00eddeo Voraz",
+        "subname":"Variante Protetora",
+        "text":"Pesquisado. Limite de 1 por baralho.\n[fast]: Procure Crescimento Misterioso em suas cartas vinculadas e adicione-a \u00e0 sua m\u00e3o. (Limite de uma vez por rodada.)\n[fast] Remova todo o crescimento de Micon\u00eddeo Voraz: Cure essa quantidade de dano/horror de Micon\u00eddeo Voraz ou mova essa quantidade de dano/horror dos investigadores ou de ativos de [[Aliado]] em seu local para Micon\u00eddeo Voraz."
     },
     {
-        "code": "10062",
-        "name": "Bianca \"Die Katz\"",
-        "subname": "Singing Your Song",
-        "text": "Limit 1 per deck. Uses (10 resources).\n[action] Exhaust Bianca \"Die Katz\": <b>Parley.</b> Move X resources from Bianca \"Die Katz\" to your resource pool. X cannot be more than 5. Test [agility] (X). If you fail, remember \"you owe Bianca X resources.\" Then, search your bonded cards for the Bianca \"Die Katz\" enemy and spawn her at your location. Remove this card from the game.",
-        "traits": "Ally. Criminal. Socialite.",
-        "slot": "Ally"
+        "code":"10062",
+        "traits":"Aliado. Criminoso. Socialite.",
+        "name":"Bianca \"Die Katz",
+        "subname":"Cantando sua Can\u00e7\u00e3o",
+        "text":"Limite de 1 por baralho. Usa (10 recursos).\n[action] Esgote Bianca \"Die Katz\": <b>Negociata.</b> Mova X recursos de Bianca \"Die Katz\" para a sua reserva de recursos. X n\u00e3o pode ser superior a 5. Teste [agility] (X). Se voc\u00ea falhar, lembre-se de que \"voc\u00ea deve X recursos a Bianca.\" Ent\u00e3o, procure o inimigo Bianca \"Die Katz\" em suas cartas vinculadas e fa\u00e7a-o surgir em seu local. Remova esta carta do jogo."
     },
     {
-        "code": "10063",
-        "name": "Bianca \"Die Katz\"",
-        "text": "Bonded (Bianca \"Die Katz\"). Hunter.\n<b>Prey</b> - Bearer only.\n[action] If \"you owe Bianca X resources,\" spend X resources: <b>Parley.</b> Add Bianca \"Die Katz\" to the victory display.\n<b>Forced</b> - When Bianca \"Die Katz\" leaves play (except by the above ability: Shuffle her into your deck.",
-        "traits": "Humanoid. Criminal. Socialite."
+        "code":"10063",
+        "traits":"Humanoide. Criminoso. Socialite.",
+        "name":"Bianca \"Die Katz",
+        "text":"Vinculado (Bianca \"Die Katz\"). Ca\u00e7ador.\n<b>Presa</b> - Apenas o portador.\n[action] Se \"voc\u00ea deve X recursos a Bianca,\" gaste X recursos: <b>Negociata.</b> Adicione Bianca \"Die Katz\" ao painel de vit\u00f3rias.\n<b>For\u00e7ado</b> - Quando Bianca \"Die Katz\" sair de jogo (exceto devido \u00e0 habilidade acima): Embaralhe-a em seu baralho."
     },
     {
-        "code": "10064",
-        "name": "Blackmail File",
-        "text": "[action] Choose a non-[[Elite]] enemy at your location: <b>Parley.</b> Test [willpower] (X), where X is that enemy's printed health value. If you succeed, that enemy disengages from each investigator and gains aloof until the end of the round.",
-        "traits": "Item. Tome. Illicit."
+        "code":"10064",
+        "traits":"Item. Tomo. Il\u00edcito.",
+        "name":"Arquivo de Chantagem",
+        "text":"[action] Escolha um inimigo n\u00e3o-[[Elite]] em seu local: <b>Negociata.</b> Teste [willpower] (X), onde X \u00e9 o valor de vida impresso desse inimigo. Se voc\u00ea tiver sucesso, esse inimigo desengaja de cada investigador e ganha arredio at\u00e9 o final da rodada."
     },
     {
-        "code": "10065",
-        "name": "British Bull Dog",
-        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat], for this attack. This attack deals +1 damage.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
-        "traits": "Item. Weapon. Firearm. Illicit.",
-        "slot": "Hand"
+        "code":"10065",
+        "traits":"Item. Arma. Arma de Fogo. Il\u00edcito.",
+        "name":"British Bull Dog",
+        "text":"Usa (3 muni\u00e7\u00f5es).\n[action] Gaste 1 muni\u00e7\u00e3o: <b>Lute.</b> Voc\u00ea pode usar [agility] em vez de [combat] neste ataque. Este ataque causa +1 de dano.\n[reaction] Ap\u00f3s voc\u00ea falhar em um teste de per\u00edcia enquanto estiver negociando com um inimigo: Coloque British Bull Dog em jogo vindo da sua m\u00e3o."
     },
     {
-        "code": "10066",
-        "name": "Fake Credentials",
-        "text": "[action] Choose an enemy at your location and exhaust Fake Credentials: <b>Parley.</b> Test [intellect] (1). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your location and place 1 resource on Fake Credentials, as suspicion. If you fail, you must either discard Fake Credentials, or the chosen enemy attacks you.",
-        "traits": "Item. Illicit.",
-        "slot": "Hand"
+        "code":"10066",
+        "traits":"Item. Il\u00edcito.",
+        "name":"Credenciais Falsas",
+        "text":"[action] Escolha um inimigo em seu local e esgote Credenciais Falsas: <b>Negociata.</b> Teste [intellect] (1). Este teste recebe +1 de dificuldade para cada suspeita em Credenciais Falsas. Se voc\u00ea tiver sucesso, descubra 1 pista em seu local e coloque 1 recurso em Credenciais Falsas, como suspeita. Se voc\u00ea falhar, voc\u00ea deve descartar Credenciais Falsas ou o inimigo escolhido ataca voc\u00ea."
     },
     {
-        "code": "10067",
-        "name": "Fox Mask",
-        "subname": "The Wise Trickster",
-        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you move out of a location with an enemy.\n[fast] Spend 1 offering: You get +2 [intellect] or +2 [agility] for this skill test. (Limit once per test.)",
-        "traits": "Item. Charm. Mask."
+        "code":"10067",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"M\u00e1scara de Raposa",
+        "subname":"A Trapaceira S\u00e1bia",
+        "text":"Limite de 1 [[M\u00e1scara]] por investigador.\nUsa (2 oferendas). Reabaste\u00e7a 1 dessas oferendas ap\u00f3s voc\u00ea se mover para fora de um local com um inimigo.\n[fast] Gaste 1 oferenda: Voc\u00ea recebe +2 [intellect] ou +2 [agility] nesse teste de per\u00edcia. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10068",
-        "flavor": "\"Let faith oust fact; let fancy oust memory; I look deep down and do believe.\" - Herman Melville, <u>Moby-Dick</u>",
-        "name": "Scrimshaw Charm",
-        "subname": "From Distant Shores",
-        "text": "[action] Add 1-3 [curse] tokens to the chaos bag and exhaust Scrimshaw Charm: Gain 1 resource. For each token added, gain 1 additional resource.",
-        "traits": "Item. Charm. Cursed.",
-        "slot": "Accessory"
+        "code":"10068",
+        "traits":"Item. Talism\u00e3. Amaldi\u00e7oado.",
+        "name":"Talism\u00e3 Scrimshaw",
+        "subname":"De Litorais Distantes",
+        "text":"[action] Adicione 1-3 fichas [curse] \u00e0 bolsa de caos e esgote Talism\u00e3 Scrimshaw: Ganhe 1 recurso. Para cada ficha adicionada, ganhe 1 recurso adicional.",
+        "flavor":"\"Que a f\u00e9 expulse os fatos; que a imagina\u00e7\u00e3o expulse a mem\u00f3ria; olho para as profundezas e acredito.\" - Herman Melville, <u>Moby-Dick</u>"
     },
     {
-        "code": "10069",
-        "flavor": "\"No names, Skids.\"\n\"Sorry, Finn.\"",
-        "name": "Bank Job",
-        "text": "As an additional cost to play Bank Job, spend an action.\nInvestigators at your location gain a total of 8 resources, distributed as you wish.",
-        "traits": "Gambit. Double. Illicit",
-        "subname": "From Distant Shores",
-        "slot": "Accessory"
+        "code":"10069",
+        "traits":"Gambito. Dobro. Il\u00edcito.",
+        "name":"Roubo ao Banco",
+        "text":"Como um custo adicional para jogar Roubo ao Banco, gaste uma a\u00e7\u00e3o.\nOs investigadores em seu local ganham um total de 8 recursos, distribu\u00eddos como voc\u00ea desejar.",
+        "flavor":"\"Sem nomes, Skids.\"\n\"Foi mal, Finn.\""
     },
     {
-        "code": "10070",
-        "flavor": "\"You'd have made a pretty good cowboy.\"",
-        "name": "False Surrender",
-        "text": "<b>Parley.</b> Choose an enemy at your location and play a [[Weapon]] asset from your hand, reducing its cost by 1. You may then take a fight action with that weapon against the chosen enemy, using [agility] instead of the skill indicated.",
-        "traits": "Tactic. Trick."
+        "code":"10070",
+        "traits":"T\u00e1tica. Truque.",
+        "name":"Rendi\u00e7\u00e3o Falsa",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e jogue um ativo de [[Arma]] da sua m\u00e3o, reduzindo seu custo em 1. Voc\u00ea pode ent\u00e3o realizar uma a\u00e7\u00e3o de lutar com essa arma contra o inimigo escolhido, usando [agility] em vez da per\u00edcia indicada.",
+        "flavor":"\"Voc\u00ea teria sido um \u00f3timo cowboy.\""
     },
     {
-        "code": "10071",
-        "flavor": "\"Look! A dumb bird!\"\n\"I don't see a bird.\"\n\"I do.\"",
-        "name": "Grift",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test [agility] (0). For each point you succeed by, gain 1 resource (to a maximum of 6). If you fail, that enemy attacks you.",
-        "traits": "Trick. Illicit."
+        "code":"10071",
+        "traits":"Truque. Il\u00edcito.",
+        "name":"Surrupiar",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e teste [agility] (0). Para cada ponto que voc\u00ea tiver sucesso, ganhe 1 recurso (at\u00e9 um m\u00e1ximo de 6). Se voc\u00ea falhar, esse inimigo ataca voc\u00ea.",
+        "flavor":"\"Olha! Um pato!\"\n\"N\u00e3o vejo pato nenhum.\"\n\"Eu sim.\""
     },
     {
-        "code": "10072",
-        "name": "\"I'll Pay You Back!\"",
-        "text": "Fast. Play only during your turn.\nChoose an investigator at your location. Move all resources from that investigator's resource pool to your resource pool. At the end of the round, move all resources from your resource pool to that investigator's resource pool.",
-        "traits": "Gambit. Trick."
+        "code":"10072",
+        "traits":"Gambito. Truque.",
+        "name":"\"Eu te Pago de Volta!\"",
+        "text":"Veloz. Jogue apenas durante o seu turno.\nEscolha outro investigador em seu local. Mova todos os recursos da reserva de recursos desse investigador para sua reserva de recursos. No final da rodada, mova todos os recursos da sua reserva de recursos para a reserva de recursos desse investigador."
     },
     {
-        "code": "10073",
-        "flavor": "\"He did say something about your hair...\"",
-        "name": "Stir the Pot",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test [intellect] (X), where X is the chosen enemy's combined damage and horror values. If you succeed, deal 2 damage to each enemy at your location. If you succeed by 2 or more, after this effect resolves you may disengage from each enemy and move to a connecting location.",
-        "traits": "Trick. Gambit."
+        "code":"10073",
+        "traits":"Truque. Gambito.",
+        "name":"Jogar Lenha na Fogueira",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e teste [intellect] (X), onde X \u00e9 o valor combinado de dano e de horror do inimigo escolhido. Se voc\u00ea tiver sucesso, cause 2 de dano a cada inimigo em seu local. Se voc\u00ea tiver sucesso por 2 ou mais, ap\u00f3s este efeito ser resolvido, voc\u00ea pode desengajar de cada inimigo e se mover para um local conectado.",
+        "flavor":"\"Ele <u>disse</u> mesmo algo sobre seu cabelo...\""
     },
     {
-        "code": "10074",
-        "name": "Vamp",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test any skill (3). If you succeed and you tested...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. If it is non-[[Elite]], move it to a connecting location.\n- ...[combat], deal 2 damage to that enemy.",
-        "traits": "Trick."
+        "code":"10074",
+        "traits":"Truque.",
+        "name":"Sedutora",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e teste qualquer per\u00edcia (3). Se voc\u00ea tiver sucesso e tiver testado...\n- ...[willpower], remova 1 perdi\u00e7\u00e3o desse inimigo.\n- ...[intellect], descubra 1 pista em seu local.\n- ...[agility], evada automaticamente esse inimigo. Se ele for n\u00e3o-[[Elite]], mova-o para um local conectado.\n- ...[combat], cause 2 de dano a esse inimigo."
     },
     {
-        "code": "10075",
-        "flavor": "\"Shoggoths. Why did it have to be shoggoths?\"",
-        "name": "Diabolical Luck",
-        "text": "When you reveal a [curse] token during a skill test you are performing, you may commit Diabolical Luck to that skill test from your hand. If you do, Diabolical Luck gains [wild][wild][wild].",
-        "traits": "Fortune. Cursed."
+        "code":"10075",
+        "traits":"Sorte. Amaldi\u00e7oado.",
+        "name":"Sorte Diab\u00f3lica",
+        "text":"Quando voc\u00ea revelar uma ficha [curse] durante um teste de per\u00edcia que voc\u00ea est\u00e1 realizando, voc\u00ea pode comprometer Sorte Diab\u00f3lica nesse teste de per\u00edcia a partir de sua m\u00e3o. Se o fizer, Sorte Diab\u00f3lica ganha [wild][wild][wild].",
+        "flavor":"\"Shoggoths. Por que shoggoths?\""
     },
     {
-        "code": "10076",
-        "flavor": "\"I never ran from anything like that devil tonight, though. Hope I never have to again.\"\n-<i>Rita Young, Investigators of Arkham Horror</i>",
-        "name": "Lightfooted",
-        "text": "If this skill test is successful during an evasion attempt, you may automatically evade another enemy at your location.",
-        "traits": "Practiced. Trick."
+        "code":"10076",
+        "traits":"Treinado. Truque.",
+        "name":"Ligeira",
+        "text":"Se esse teste de per\u00edcia for bem-sucedido durante uma tentativa de evas\u00e3o, voc\u00ea pode evadir automaticamente outro inimigo em seu local.",
+        "flavor":"\"Nunca corri de nada parecido com aquele dem\u00f4nio de hoje, por\u00e9m. Espero nunca mais precisar faz\u00ea-lo.\"\n-<i>Rita Young, Investigadores de Arkham Horror</i>"
     },
     {
-        "code": "10077",
-        "name": "British Bull Dog",
-        "text": "Uses (3 ammo).\n[action] Spend 1 ammo: <b>Fight.</b> You may use [agility] instead of [combat] for this attack and you get +2 skill value. This attack deals +1 damage. Ignore the aloof keyword for this attack.\n[reaction] After you fail a skill test while parleying with an enemy: Put British Bull Dog into play from your hand.",
-        "traits": "Item. Weapon. Firearm. Illicit.",
-        "slot": "Hand"
+        "code":"10077",
+        "traits":"Item. Arma. Arma de Fogo. Il\u00edcito.",
+        "name":"British Bull Dog",
+        "text":"Usa (3 muni\u00e7\u00f5es).\n[action] Gaste 1 muni\u00e7\u00e3o: <b>Lute.</b> Voc\u00ea pode usar [agility] em vez de [combat] neste ataque e recebe +2 de valor de per\u00edcia. Este ataque causa +1 de dano. Ignore a palavra-chave arredio neste ataque.\n[reaction] Ap\u00f3s voc\u00ea falhar em um teste de per\u00edcia enquanto estiver negociando com um inimigo: Coloque British Bull Dog em jogo vindo da sua m\u00e3o."
     },
     {
-        "code": "10078",
-        "flavor": "\"I shouldn't be telling you this, but since you seem trustworthy...\"",
-        "name": "Snitch",
-        "text": "Fast. Play after you succeed at a skill test while parleying.\nDiscover 2 total clues from among your location and connecting locations.",
-        "traits": "Favor. Trick."
+        "code":"10078",
+        "traits":"Favor. Truque.",
+        "name":"Delator",
+        "text":"Veloz. Jogue ap\u00f3s voc\u00ea ter sucesso em um teste de per\u00edcia enquanto estiver negociando.\nDescubra um total de 2 pistas entre seu local e locais conectados.",
+        "flavor":"\"Eu n\u00e3o deveria lhe contar isso, mas voc\u00ea parece confi\u00e1vel...\""
     },
     {
-        "code": "10079",
-        "name": "Bewitching",
-        "text": "Permanent. Exceptional.\n[reaction] Before you draw your opening hand: Search your deck for up to 3 different Trick cards, and attach them facedown to Bewitching. Shuffle your deck.\n[reaction] When you engage an enemy, exhaust Bewitching: Either draw 1 attached card, or search the top 9 cards of your deck for a copy of an attached card, draw it, and shuffle your deck.",
-        "traits": "Talent. Trick."
+        "code":"10079",
+        "traits":"Talento. Truque.",
+        "name":"Encantadora",
+        "text":"Permanente. Excepcional.\n[reaction] Antes de voc\u00ea comprar a sua m\u00e3o inicial: Procure at\u00e9 3 cartas de [[Truque]] diferentes em seu baralho e anexe-as a Encantadora viradas para baixo. Embaralhe seu baralho.\n[reaction] Quando voc\u00ea engajar com um inimigo, esgote Encantadora: Compre 1 carta anexada ou procure uma c\u00f3pia de uma carta anexada nas 9 cartas do topo do seu baralho, compre-a e embaralhe seu baralho."
     },
     {
-        "code": "10080",
-        "name": "Dirty Deeds",
-        "text": "As an additional cost to play Dirty Deeds, spend an action.\nSearch your deck for an [[Illicit]] asset and play it, paying its cost. Then, you may resolve an [action] or [fast] ability on that asset, ignoring all costs <i>(including its [action] cost, if any)</i>. Playing this card does not provoke attacks of opportunity.",
-        "traits": "Favor. Double. Illicit."
+        "code":"10080",
+        "traits":"Favor. Dobro. Il\u00edcito.",
+        "name":"Neg\u00f3cios Escusos",
+        "text":"Como um custo adicional para jogar Neg\u00f3cios Escusos, gaste uma a\u00e7\u00e3o.\nProcure um ativo [[Il\u00edcito]] em seu baralho e jogue-o, pagando seu custo. Ent\u00e3o, voc\u00ea pode resolver uma habilidade [action] ou [fast] nesse ativo, ignorando todos os custos <i>(incluindo o custo [action], se houver)</i>. Jogar esta carta n\u00e3o provoca ataques de oportunidade."
     },
     {
-        "code": "10081",
-        "name": "Vamp",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test any number of skills. One at a time, in any order, test each chosen skill (2). For each test you succeeded, if it was...\n- ...[willpower], remove 1 doom from that enemy.\n- ...[intellect], discover 1 clue at your location.\n- ...[agility], automatically evade that enemy. Move it to a connecting location if it is non-[[Elite]].\n- ...[combat], deal 2 damage to that enemy.",
-        "traits": "Trick."
+        "code":"10081",
+        "traits":"Truque.",
+        "name":"Sedutora",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e qualquer quantidade de per\u00edcias. Uma por vez, em qualquer ordem, teste cada per\u00edcia escolhida (2). Para cada teste bem-sucedido, se tiver sido...\n- ...[willpower], remova 1 perdi\u00e7\u00e3o desse inimigo.\n- ...[intellect], descubra 1 pista no local desse inimigo.\n- ...[agility], evada automaticamente esse inimigo. Mova-o para um local conectado se ele for n\u00e3o-[[Elite]].\n- ...[combat], cause 2 de dano a esse inimigo."
     },
     {
-        "code": "10082",
-        "name": "Fake Credentials",
-        "text": "[action] Choose an enemy at your location: <b>Parley.</b> Test [intellect](0). This test gets +1 difficulty for each suspicion on Fake Credentials. If you succeed, discover 1 clue at your location or a connecting location. If you did not succeed by 2 or more, place 1 resource on Fake Credentials, as suspicion. If you fail, return Fake Credentials to your hand.",
-        "traits": "Item. Illicit.",
-        "slot": "Hand"
+        "code":"10082",
+        "traits":"Item. Il\u00edcito.",
+        "name":"Credenciais Falsas",
+        "text":"[action] Escolha um inimigo em seu local: <b>Negociata.</b> Teste [intellect] (0). Este teste recebe +1 de dificuldade para cada suspeita em Credenciais Falsas. Se voc\u00ea tiver sucesso, descubra 1 pista em seu local ou em um local conectado. Se voc\u00ea n\u00e3o teve sucesso por 2 ou mais, coloque 1 recurso em Credenciais Falsas, como suspeita. Se voc\u00ea falhar, devolva Credenciais Falsas para sua m\u00e3o."
     },
     {
-        "code": "10083",
-        "flavor": "\"...and I heard he called you stupid too!\"",
-        "name": "Stir the Pot",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test [intellect] (X), where X is the chosen enemy's combined damage/horror values. If you succeed, deal X damage to each enemy at your location. After this effect resolves, you may disengage from each enemy and move to a connecting location.",
-        "traits": "Trick. Gambit."
+        "code":"10083",
+        "traits":"Truque. Gambito.",
+        "name":"Jogar Lenha na Fogueira",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e teste [intellect] (X), onde X \u00e9 o valor combinado de dano/horror do inimigo escolhido. Se voc\u00ea tiver sucesso, cause X de dano a cada inimigo em seu local. Ap\u00f3s este efeito ser resolvido, voc\u00ea pode desengajar de cada inimigo e se mover para um local conectado.",
+        "flavor":"\"...e fiquei sabendo que ele xingou voc\u00ea de idiota tamb\u00e9m!\""
     },
     {
-        "code": "10084",
-        "name": "Cat Mask",
-        "subname": "The Capricious Meddler",
-        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 2 of these offerings after doom is placed on a card with no doom.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [combat] for this skill test. (Limit once per test.)",
-        "traits": "Item. Charm. Mask."
+        "code":"10084",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"M\u00e1scara de Gato",
+        "subname":"O Intrometido Caprichoso",
+        "text":"Limite de 1 [[M\u00e1scara]] por investigador.\nUsa (2 oferendas). Reabaste\u00e7a 2 dessas oferendas ap\u00f3s uma perdi\u00e7\u00e3o ser colocada em uma carta sem perdi\u00e7\u00e3o.\n[fast] Gaste 1 oferenda: Voc\u00ea recebe +2 [willpower] ou +2 [combat] nesse teste de per\u00edcia. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10085",
-        "name": "Rod of Carnamagos",
-        "subname": "Scepter of the Mad Seer",
-        "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. If a [curse] token is revealed, search your bonded cards for a random [[Rot]] event and attach it to that enemy.",
-        "traits": "Item. Relic. Occult. Cursed.",
-        "slot": "Hand"
+        "code":"10085",
+        "traits":"Item. Rel\u00edquia. Oculto. Amaldi\u00e7oado.",
+        "name":"Bast\u00e3o de Carnamagos",
+        "subname":"Cetro do Vidente Louco",
+        "text":"Limite de 1 por baralho.\n[fast] Escolha um inimigo n\u00e3o-[[Elite]] em qualquer local e esgote Bast\u00e3o de Carnamagos: Revele 5 fichas de caos aleat\u00f3rias da bolsa de caos. Se uma ficha [curse] for revelada, procure um evento de [[Putrefa\u00e7\u00e3o]] aleat\u00f3rio em suas cartas vinculadas e anexe-o a esse inimigo."
     },
     {
-        "code": "10086",
-        "name": "Abyssal Rot",
-        "text": "Bonded (Rod of Carnamagos)\nAttached enemy cannot attack.\n<b>Forced</b> - When attached enemy leaves play: Set Abyssal Rot aside, out of play.",
-        "traits": "Spell. Rot. Cursed."
+        "code":"10086",
+        "traits":"Magia. Putrefa\u00e7\u00e3o. Amaldi\u00e7oado.",
+        "name":"Putrefa\u00e7\u00e3o Abissal",
+        "text":"Vinculado (Bast\u00e3o de Carnamagos).\nO inimigo anexado n\u00e3o pode atacar.\n<b>For\u00e7ado</b> - Quando o inimigo anexado sair de jogo: Separe Putrefa\u00e7\u00e3o Abissal, fora de jogo."
     },
     {
-        "code": "10087",
-        "name": "Aember Rot",
-        "text": "Bonded (Rod of Carnamagos)\n<b>Forced</b> - When attached enemy is defeated: Gain resources equal to its printed health (to a maximum of 5).\n<b>Forced</b> - When attached enemy leaves play: Set Aember Rot aside, out of play.",
-        "traits": "Spell. Rot. Cursed."
+        "code":"10087",
+        "traits":"Magia. Putrefa\u00e7\u00e3o. Amaldi\u00e7oado.",
+        "name":"Putrefa\u00e7\u00e3o de Ambar",
+        "text":"Vinculado (Bast\u00e3o de Carnamagos).\n<b>For\u00e7ado</b> - Quando o inimigo anexado for derrotado: Ganhe uma quantidade de recursos igual ao valor de vida impresso desse inimigo (at\u00e9 um m\u00e1ximo de 5).\n<b>For\u00e7ado</b> - Quando o inimigo anexado sair de jogo: Separe Putrefa\u00e7\u00e3o de Ambar, fora de jogo."
     },
     {
-        "code": "10088",
-        "name": "Putrescent Rot",
-        "text": "Bonded (Rod of Carnamagos)\nAttached enemy gets -1 fight and -1 evade.\n<b>Forced</b> - When attached enemy leaves play: Set Putrescent Rot aside, out of play.",
-        "traits": "Spell. Rot. Cursed."
+        "code":"10088",
+        "traits":"Magia. Putrefa\u00e7\u00e3o. Amaldi\u00e7oado.",
+        "name":"Putrefa\u00e7\u00e3o Putrescente",
+        "text":"Vinculado (Bast\u00e3o de Carnamagos).\nO inimigo anexado recebe -1 de luta e -1 de evas\u00e3o.\n<b>For\u00e7ado</b> - Quando o inimigo anexado sair de jogo: Separe Putrefa\u00e7\u00e3o Putrescente, fora de jogo."
     },
     {
-        "code": "10089",
-        "name": "Scarlet Rot",
-        "text": "Bonded (Rod of Carnamagos)\n<b>Forced</b> - At the end of the round: Attached enemy takes 1 damage.\n<b>Forced</b> - When attached enemy leaves play: Set Scarlet Rot aside, out of play.",
-        "traits": "Spell. Rot. Cursed."
+        "code":"10089",
+        "traits":"Magia. Putrefa\u00e7\u00e3o. Amaldi\u00e7oado.",
+        "name":"Putrefa\u00e7\u00e3o Escarlate",
+        "text":"Vinculado (Bast\u00e3o de Carnamagos).\n<b>For\u00e7ado</b> - No final da rodada: O inimigo anexado sofre 1 de dano.\n<b>For\u00e7ado</b> - Quando o inimigo anexado sair de jogo: Separe Putrefa\u00e7\u00e3o Escarlate, fora de jogo."
     },
     {
-        "code": "10090",
-        "name": "Virescent Rot",
-        "text": "Bonded (Rod of Carnamagos)\nAttached enemy cannot move.\n<b>Forced</b> - When attached enemy leaves play: Set Virescent Rot aside, out of play.",
-        "traits": "Spell. Rot. Cursed."
+        "code":"10090",
+        "traits":"Magia. Putrefa\u00e7\u00e3o. Amaldi\u00e7oado.",
+        "name":"Putrefa\u00e7\u00e3o Virescente",
+        "text":"Vinculado (Bast\u00e3o de Carnamagos).\nO inimigo anexado n\u00e3o pode se mover.\n<b>For\u00e7ado</b> - Quando o inimigo anexado sair de jogo: Separe Putrefa\u00e7\u00e3o Virescente, fora de jogo."
     },
     {
-        "code": "10091",
-        "name": "Speak to the Dead",
-        "text": "Uses (6 offerings).\n[action] Spend any number of offerings: <b>Parley.</b> Choose a [[Spell]] or [[Ritual]] event in your discard pile and reveal tokens from the chaos bag equal to the number of offerings spent. If at least 1 [skull] or [curse] token was revealed, return the chosen event to your hand.",
-        "traits": "Talent. Ritual.",
-        "slot": "Arcane"
+        "code":"10091",
+        "traits":"Talento. Ritual.",
+        "name":"Falar com os Mortos",
+        "text":"Usa (6 oferendas).\n[action] Gaste qualquer quantidade de oferendas: <b>Negociata.</b> Escolha um evento de [[Magia]] ou de [[Ritual]] em sua pilha de descarte e revele uma quantidade de fichas da bolsa de caos igual \u00e0 quantidade de oferendas gastas. Se pelo menos 1 ficha [skull] ou [curse] for revelada, devolva o evento escolhido para sua m\u00e3o."
     },
     {
-        "code": "10092",
-        "name": "Wicked Athame",
-        "subname": "Cursed Blade",
-        "text": "[action] Add 1-3 [curse] tokens to the chaos bag: <b>Fight.</b> You get +2 [combat] for this attack for each [curse] token added as part of this action's cost. If this attack defeats an enemy, replenish 1 charge or offering on an asset you control.",
-        "traits": "Item. Weapon. Melee. Cursed.",
-        "slot": "Hand"
+        "code":"10092",
+        "traits":"Item. Arma. Corpo a Corpo. Amaldi\u00e7oado.",
+        "name":"Athame Perverso",
+        "subname":"L\u00e2mina Amaldi\u00e7oada",
+        "text":"[action] Adicione 1-3 fichas [curse] \u00e0 bolsa de caos: <b>Lute.</b> Voc\u00ea recebe +2 [combat] neste ataque para cada ficha [curse] adicionada como parte do custo desta a\u00e7\u00e3o. Se este ataque derrotar um inimigo, reabaste\u00e7a 1 carga ou oferenda em um ativo que voc\u00ea controla."
     },
     {
-        "code": "10093",
-        "name": "Antediluvian Hymn",
-        "text": "As an additional cost to play Antediluvian Hymn, spend an action.\nReveal the top 5 cards of the encounter deck. For each card revealed, you may add 1 [curse] token to the chaos bag to place that card on the bottom of the encounter deck. Return the rest to the top of the encounter deck in any order.",
-        "traits": "Augury. Double."
+        "code":"10093",
+        "traits":"Aug\u00fario. Dobro.",
+        "name":"Hino Antediluviano",
+        "text":"Como um custo adicional para jogar Hino Antediluviano, gaste uma a\u00e7\u00e3o.\nRevele as 5 cartas do topo do baralho de encontros. Para cada carta revelada, voc\u00ea pode adicionar 1 ficha [curse] \u00e0 bolsa de caos para colocar essa carta no fundo do baralho de encontros. Devolva as cartas restantes para o topo do baralho de encontros, em qualquer ordem."
     },
     {
-        "code": "10094",
-        "flavor": "What was yours is now mine.",
-        "name": "Drain Essence",
-        "text": "<b>Parley.</b> Choose an enemy at your location and test [willpower](X), where X is the chosen enemy's fight value. If you succeed, move 1 damage from your investigator to the chosen enemy (up to 2 damage instead if the chosen enemy is non-[[Elite]]).",
-        "traits": "Spell."
+        "code":"10094",
+        "traits":"Magia.",
+        "name":"Drenar Ess\u00eancia",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local e teste [willpower] (X), onde X \u00e9 o valor de luta do inimigo escolhido. Se voc\u00ea tiver sucesso, mova 1 de dano do seu investigador para o inimigo escolhido (at\u00e9 2 de dano em vez disso se o inimigo escolhido for n\u00e3o-[[Elite]]).",
+        "flavor":"O que era seu \u00e9 agora meu."
     },
     {
-        "code": "10095",
-        "flavor": "Not all who wander are lost.",
-        "name": "Accursed",
-        "text": "When you commit Accursed to a skill test, add up to 3 [curse] tokens to the chaos bag. During this skill test, treat the modifier of each [curse] token revealed as 0.",
-        "traits": "Innate. Cursed."
+        "code":"10095",
+        "traits":"Inato. Amaldi\u00e7oado.",
+        "name":"Maldito",
+        "text":"Quando voc\u00ea comprometer Maldito em um teste de per\u00edcia, adicione at\u00e9 3 fichas [curse] \u00e0 bolsa de caos. Durante esse teste de per\u00edcia, trate como 0 o modificador de cada ficha [curse] revelada.",
+        "flavor":"Nem todos que vagam est\u00e3o perdidos."
     },
     {
-        "code": "10096",
-        "flavor": "The dreaming mind is as deep as any sea.",
-        "name": "Mesmeric Influence",
-        "text": "While this card is committed to a skill test, the performing investigator may ignore all keyword or location effects that would trigger during this test.",
-        "traits": "Practiced."
+        "code":"10096",
+        "traits":"Treinado.",
+        "name":"Influ\u00eancia Hipnotizante",
+        "text":"Enquanto esta carta estiver comprometida em um teste de per\u00edcia, o investigador realizando o teste pode ignorar todas as palavras-chave ou os efeitos de locais que seriam ativados durante esse teste.",
+        "flavor":"A mente em devaneio \u00e9 t\u00e3o profunda quanto qualquer oceano."
     },
     {
-        "code": "10097",
-        "flavor": "You must invest yourself in every spell. Sometimes literally.",
-        "name": "Olive McBride",
-        "subname": "Tried Everything Once",
-        "text": "[reaction] When you would reveal a chaos token, exhaust Olive McBride: Reveal 4 chaos tokens instead of 1. Choose 2 of those tokens to resolve, and ignore the rest.",
-        "traits": "Ally. Witch.",
-        "slot": "Ally"
+        "code":"10097",
+        "traits":"Aliado. Bruxa.",
+        "name":"Olive McBride",
+        "subname":"J\u00e1 Tentou de Tudo Uma Vez",
+        "text":"[reaction] Quando voc\u00ea for revelar uma ficha de caos, esgote Olive McBride: Revele 4 fichas de caos em vez de 1. Escolha 2 dessas fichas para resolver e ignore o restante.",
+        "flavor":"Voc\u00ea precisa colocar um pouco de voc\u00ea em cada magia. \u00c0s vezes, literalmente."
     },
     {
-        "code": "10098",
-        "name": "Rod of Carnamagos",
-        "subname": "Scepter of the Mad Seer",
-        "text": "Limit 1 per deck.\n[fast] Choose a non-[[Elite]] enemy at any location and exhaust Rod of Carnamagos: Reveal 5 random chaos tokens from the chaos bag. For each [curse] token revealed, you may search your bonded cards for a [[Rot]] event and attach it to that enemy.",
-        "traits": "Item. Relic. Occult. Cursed.",
-        "slot": "Hand"
+        "code":"10098",
+        "traits":"Item. Rel\u00edquia. Oculto. Amaldi\u00e7oado.",
+        "name":"Bast\u00e3o de Carnamagos",
+        "subname":"Cetro do Vidente Louco",
+        "text":"[fast] Escolha um inimigo n\u00e3o-[[Elite]] em qualquer local e esgote Bast\u00e3o de Carnamagos: Revele 5 fichas de caos aleat\u00f3rias da bolsa de caos. Para cada ficha [curse] revelada, voc\u00ea pode procurar um evento de [[Putrefa\u00e7\u00e3o]] em suas cartas vinculadas e anex\u00e1-lo a esse inimigo."
     },
     {
-        "code": "10099",
-        "name": "Call the Beyond",
-        "text": "As an additional cost to play Call the Beyond, add 3 [curse] tokens to the chaos bag.\nChoose an asset vou control with \"uses (charges)\" or \"uses (secrets)\". Replenish all of that asset's charges or secrets. Then, you may resolve an [action] or [fast] ability on that asset without paying its [action] cost, if any.",
-        "traits": "Ritual. Cursed."
+        "code":"10099",
+        "traits":"Ritual. Amaldi\u00e7oado.",
+        "name":"Convocar o Al\u00e9m",
+        "text":"Como um custo adicional para jogar Convocar o Al\u00e9m, adicione 3 fichas [curse] \u00e0 bolsa de caos.\nEscolha um ativo que voc\u00ea controla com \"usa (cargas)\" ou \"usa (segredos)\". Reabaste\u00e7a todas as cargas ou segredos desse ativo. Ent\u00e3o, voc\u00ea pode resolver uma habilidade [action] ou [fast] nesse ativo sem pagar seu custo [action], se houver."
     },
     {
-        "code": "10100",
-        "name": "Ethereal Form",
-        "text": "<b>Evade.</b> Add your [willpower] value to your skill value for this evasion attempt. If you succeed, disengage from each other enemy engaged with you, and for the remainder of the round, you are ethereal (enemies cannot engage or be engaged with you, and you cannot attack or deal damage to enemies). If a symbol was revealed during this evasion attempt, return Ethereal Form to your hand at the end of your turn.",
-        "traits": "Spell."
+        "code":"10100",
+        "traits":"Magia.",
+        "name":"Forma Et\u00e9rea",
+        "text":"<b>Evada.</b> Adicione seu valor de [willpower] ao seu valor de per\u00edcia nesta tentativa de evas\u00e3o. Se voc\u00ea tiver sucesso, desengaje de cada outro inimigo engajado com voc\u00ea e, pelo restante da rodada, voc\u00ea est\u00e1 et\u00e9reo (os inimigos n\u00e3o podem engajar com voc\u00ea ou ficar engajados com voc\u00ea, e voc\u00ea n\u00e3o pode atacar ou causar dano aos inimigos). Se um s\u00edmbolo foi revelado durante esta tentativa de evas\u00e3o, devolva Forma Et\u00e9rea para sua m\u00e3o no final de seu turno."
     },
     {
-        "code": "10101",
-        "name": "Read the Signs",
-        "text": "<b>Investigate.</b> Add your [willpower] value to your skill value for this investigation. You may ignore any effect or keyword on your location which would trigger during this investigation. If you succeed, discover 1 additional clue at this location. If a symbol was revealed during this investigation, return Read the Signs to your hand at the end of your turn.",
-        "traits": "Spell."
+        "code":"10101",
+        "traits":"Magia.",
+        "name":"Ler os Sinais",
+        "text":"<b>Investigue.</b> Adicione seu valor de [willpower] ao seu valor de per\u00edcia nesta investiga\u00e7\u00e3o. Voc\u00ea pode ignorar qualquer efeito ou palavra-chave em seu local que seria ativada durante esta investiga\u00e7\u00e3o. Se voc\u00ea tiver sucesso, descubra 1 pista adicional nesse local. Se um s\u00edmbolo foi revelado durante esta investiga\u00e7\u00e3o, devolva Ler os Sinais para sua m\u00e3o no final de seu turno."
     },
     {
-        "code": "10102",
-        "name": "Spectral Razor",
-        "text": "<b>Fight.</b> Add your [willpower] value to your skill value for this attack. Immediately before this attack, you may engage the attacked enemy. This attack deals + 1 damage (+2 damage instead if the enemy is non-[[Elite]]). If a symbol was revealed during this attack, return Spectral Razor to your hand at the end of your turn.",
-        "traits": "Spell."
+        "code":"10102",
+        "traits":"Magia.",
+        "name":"L\u00e2mina Espectral",
+        "text":"<b>Lute.</b> Adicione seu valor de [willpower] ao seu valor de per\u00edcia neste ataque. Imediatamente antes deste ataque, voc\u00ea pode engajar com o inimigo atacado. Este ataque causa +1 de dano (+2 de dano em vez disso se o inimigo for n\u00e3o-[[Elite]]). Se um s\u00edmbolo foi revelado durante este ataque, devolva L\u00e2mina Espectral para sua m\u00e3o no final de seu turno."
     },
     {
-        "code": "10103",
-        "name": "Ethereal Weaving",
-        "text": "As an additional cost to play Ethereal Weaving, spend an action.\nReveal up to 3 different [[Spell]] events from your hand. One at a time, play each revealed event, reducing its cost by 1. While resolving each of these events, you get +2 skill value.",
-        "traits": "Spirit. Double."
+        "code":"10103",
+        "traits":"Esp\u00edrito. Dobro.",
+        "name":"Tecedura Et\u00e9rea",
+        "text":"Como um custo adicional para jogar Tecedura Et\u00e9rea, gaste uma a\u00e7\u00e3o.\nRevele at\u00e9 3 eventos de [[Magia]] diferentes da sua m\u00e3o. Um por vez, jogue cada evento revelado, reduzindo seu custo em 1. Enquanto estiver resolvendo cada um desses eventos, voc\u00ea recebe +2 de valor de per\u00edcia."
     },
     {
-        "code": "10104",
-        "name": "The Key of Solomon",
-        "subname": "Secrets of the Unknown",
-        "text": "[fast] If there are more [bless] than [curse] tokens in the chaos bag, remove 1 [bless] token from the chaos bag and exhaust The Key of Solomon: Heal up to 2 damage and/or horror from an investigator or [[Ally]] asset at your location.\n[fast] If there are more [curse] than [bless] tokens in the chaos bag, remove 1 [curse] token from the chaos bag and exhaust The Key of Solomon: Gain 2 resources.",
-        "traits": "Item. Tome. Blessed. Cursed.",
-        "slot": "Hand"
+        "code":"10104",
+        "traits":"Item. Tomo. Aben\u00e7oado. Amaldi\u00e7oado.",
+        "name":"A Chave de Solomon",
+        "subname":"Segredos do Desconhecido",
+        "text":"[fast] Se houver mais fichas [bless] do que [curse] na bolsa de caos, remova 1 ficha [bless] da bolsa de caos e esgote A Chave de Solomon: Cure at\u00e9 2 de dano e/ou horror de um investigador ou ativo de [[Aliado]] em seu local.\n[fast] Se houver mais fichas [curse] do que [bless] na bolsa de caos, remova 1 ficha [curse] da bolsa de caos e esgote A Chave de Solomon: Ganhe 2 recursos."
     },
     {
-        "code": "10105",
-        "name": "Seal of the Elders",
-        "text": "Fast. Play after a skill test at your location ends in which at least 2 [curse] tokens or 2 [bless] tokens were revealed.\nIf 2 [curse] tokens were revealed, search your bonded cards for 1 copy of Servant of Brass and put it into play. If 2 [bless] tokens were revealed, search your bonded cards for Keeper of the Key and put it into play. If 2 [curse] tokens and 2 [bless] tokens were revealed, do both instead. Remove Seal of the Elders from the game.",
-        "traits": "Spell. Pact. Blessed. Cursed."
+        "code":"10105",
+        "traits":"Magia. Pacto. Aben\u00e7oado. Amaldi\u00e7oado.",
+        "name":"Selo dos Ancestrais",
+        "text":"Veloz. Jogue ap\u00f3s um teste de per\u00edcia em seu local terminar, no qual pelo menos 2 fichas [curse] ou 2 fichas [bless] foram reveladas.\nSe 2 fichas [curse] foram reveladas, procure 1 c\u00f3pia de Servo de Bronze em suas cartas vinculadas e coloque-a em jogo. Se 2 fichas [bless] foram reveladas, procure Guardi\u00e3o da Chave em suas cartas vinculadas e coloque-o em jogo. Se 2 fichas [curse] e 2 fichas [bless] foram reveladas, fa\u00e7a ambos. Remova Selo dos Ancestrais do jogo."
     },
     {
-        "code": "10106",
-        "name": "Keeper of the Key",
-        "subname": "Celestial Ward",
-        "text": "Bonded (Seal of the Elders).\n[reaction] When a [bless] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
-        "traits": "Summon."
+        "code":"10106",
+        "traits":"Invoca\u00e7\u00e3o.",
+        "name":"Guardi\u00e3o da Chave",
+        "subname":"Prote\u00e7\u00e3o Celestial",
+        "text":"Vinculado (Selo dos Ancestrais).\n[reaction] Quando uma ficha [bless] for revelada durante um teste de per\u00edcia em seu local: Cause 1 de horror a Guardi\u00e3o da Chave e descubra 1 pista em seu local ou em um local conectado.\n<b>For\u00e7ado</b> - Quando Guardi\u00e3o da Chave for sair de jogo: Separe-o, fora de jogo."
     },
     {
-        "code": "10107",
-        "name": "Servant of Brass",
-        "subname": "Daemonaic Vassal",
-        "text": "Bonded (Seal of the Elders).\n[reaction] When a [curse] token is revealed during a skill test at your location: Deal 1 damage to Servant of Brass and 2 damage to an enemy at your location or a connecting location.\n<b>Forced</b> - When Servant of Brass would leave play: Set it aside, out of play.",
-        "traits": "Summon."
+        "code":"10107",
+        "traits":"Invoca\u00e7\u00e3o.",
+        "name":"Servo de Bronze",
+        "subname":"Vassalo Demon\u00edaco",
+        "text":"Vinculado (Selo dos Ancestrais).\n[reaction] Quando uma ficha [curse] for revelada durante um teste de per\u00edcia em seu local: Cause 1 de dano a Servo de Bronze e 2 de dano a um inimigo em seu local ou em um local conectado.\n<b>For\u00e7ado</b> - Quando Servo de Bronze for sair de jogo: Separe-o, fora de jogo."
     },
     {
-        "code": "10108",
-        "name": "Matchbox",
-        "text": "Uses (3 supplies). If Matchbox has no supplies, discard it.\n[fast] During any investigator's turn, exhaust Matchbox and spend 1 supply: Your location gets -1 shroud until the end of this turn.",
-        "traits": "Item. Tool."
+        "code":"10108",
+        "traits":"Item. Ferramenta.",
+        "name":"Caixa de F\u00f3sforos",
+        "text":"Usa (3 suprimentos). Se Caixa de F\u00f3sforos n\u00e3o tiver suprimentos, descarte esta carta.\n[fast] Durante o turno de qualquer investigador, esgote Caixa de F\u00f3sforos e gaste 1 suprimento: Seu local recebe -1 de v\u00e9u at\u00e9 o final deste turno."
     },
     {
-        "code": "10109",
-        "name": "Pelt Shipment",
-        "text": "While Pelt Shipment is in your hand, your maximum hand size is reduced by 3.\n[reaction] When the game ends or you resign, if Pelt Shipment is in your hand: Reduce the experience cost of the next new card you purchase before the next scenario by 1.",
-        "traits": "Item. Supply."
+        "code":"10109",
+        "traits":"Item. Suprimento.",
+        "name":"Carregamento de Peles",
+        "text":"Enquanto Carregamento de Peles estiver na sua m\u00e3o, seu tamanho de m\u00e3o m\u00e1ximo \u00e9 reduzido em 3.\n[reaction] Quando o jogo terminar ou voc\u00ea renunciar, se Carregamento de Peles estiver na sua m\u00e3o: Reduza em 1 o custo de experi\u00eancia da pr\u00f3xima nova carta que voc\u00ea adquirir antes do pr\u00f3ximo cen\u00e1rio."
     },
     {
-        "code": "10110",
-        "name": "Pitchfork",
-        "text": "[action]: <b>Fight.</b> You get +1 [combat] and deal +2 damage for this attack. If this attack is successful, lose control of Pitchfork and attach it to your location. Your location gains:\n\"[action]: Take control of Pitchfork. Any investigator at Pitchfork's location may trigger this ability.\"",
-        "traits": "Item. Tool. Weapon. Melee.",
-        "slot": "Hand x2"
+        "code":"10110",
+        "traits":"Item. Ferramenta. Arma. Corpo a Corpo.",
+        "name":"Forquilha",
+        "text":"[action]: <b>Lute.</b> Voc\u00ea recebe +1 [combat] e causa +2 de dano neste ataque. Se este ataque for bem-sucedido, perca o controle de Forquilha e anexe-a ao seu local. Seu local ganha:\n\"[action]: Assuma o controle de Forquilha. Qualquer investigador no local de Forquilha pode ativar esta habilidade.\""
     },
     {
-        "code": "10111",
-        "name": "Sparrow Mask",
-        "subname": "The Wanderer's Companion",
-        "text": "Limit 1 [[Mask]] per investigator.\nUses (2 offerings). Replenish 1 of these offerings after you take 1 or more damage and/or horror.\n[fast] Spend 1 offering: You get +2 [willpower] or +2 [agility] for this skill test. (Limit once per test.)",
-        "traits": "Item. Charm. Mask."
+        "code":"10111",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"M\u00e1scara de Pardal",
+        "subname":"CO Companheiro do Andarilho",
+        "text":"Limite de 1 [[M\u00e1scara]] por investigador.\nUsa (2 oferendas). Reabaste\u00e7a 1 dessas oferendas ap\u00f3s voc\u00ea sofrer 1 ou mais de dano e/ou horror.\n[fast] Gaste 1 oferenda: Voc\u00ea recebe +2 [willpower] ou +2 [agility] nesse teste de per\u00edcia. (Limite de uma vez por teste.)"
     },
     {
-        "code": "10112",
-        "name": "Elaborate Distraction",
-        "text": "As an additional cost to play Elaborate Distraction, spend an action. Playing Elaborate Distraction does not provoke attacks of opportunity.\nFor each enemy at your location and at each connecting location (choose one):\n- Automatically evade that enemy if it is non-[[Elite]].\n- Deal 1 damage to that enemy.",
-        "traits": "Trick. Double."
+        "code":"10112",
+        "traits":"Truque. Dobro.",
+        "name":"Distra\u00e7\u00e3o Elaborada",
+        "text":"Como um custo adicional para jogar Distra\u00e7\u00e3o Elaborada, gaste uma a\u00e7\u00e3o. Jogar Distra\u00e7\u00e3o Elaborada n\u00e3o provoca ataques de oportunidade.\nPara cada inimigo em seu local e em cada local conectado <i>(escolha um)</i>:\n- Evada automaticamente esse inimigo se ele for n\u00e3o-[[Elite]].\n- Cause 1 de dano a esse inimigo."
     },
     {
-        "code": "10113",
-        "name": "Pushed to the Limit",
-        "text": "Choose a [[Weapon]] or [[Tool]] asset in your discard pile. Resolve an [action] ability on that asset, ignoring all costs <i>(including its [action] cost)</i>.\nAfter this effect resolves, shuffle the chosen asset into your deck. Playing this card does not provoke attacks of opportunity.",
-        "traits": "Tactic. Improvised."
+        "code":"10113",
+        "traits":"T\u00e1tica. Improvisado.",
+        "name":"Chegar ao Limite",
+        "text":"Escolha um ativo de [[Arma]] ou de [[Ferramenta]] em sua pilha de descarte. Resolva uma habilidade [action] nesse ativo, ignorando todos os custos <i>(incluindo o custo [action])</i>. Ap\u00f3s esse efeito ser resolvido, embaralhe o ativo escolhido em seu baralho. Jogar esta carta n\u00e3o provoca ataques de oportunidade."
     },
     {
-        "code": "10114",
-        "name": "Stall for Time",
-        "text": "<b>Parley.</b> Choose an enemy at your location. Test [willpower] (X), where X is the chosen enemy's fight or evade value, whichever is lower. If you succeed, exhaust the chosen enemy <i>(but do not disengage from it)</i>. If it is non-[[Elite]], it does not ready during the next upkeep phase. If you fail, return Stall for Time to your hand.",
-        "traits": "Tactic. Trick."
+        "code":"10114",
+        "traits":"T\u00e1tica. Truque.",
+        "name":"Ganhar Tempo",
+        "text":"<b>Negociata.</b> Escolha um inimigo em seu local. Teste [willpower] (X), onde X \u00e9 o valor de luta ou de evas\u00e3o do inimigo escolhido, o que for menor. Se voc\u00ea tiver sucesso, esgote o inimigo escolhido <i>(mas n\u00e3o desengaje dele)</i>. Se ele for n\u00e3o-[[Elite]], ele n\u00e3o \u00e9 preparado durante a pr\u00f3xima fase de manuten\u00e7\u00e3o. Se voc\u00ea falhar, devolva Ganhar Tempo para sua m\u00e3o."
     },
     {
-        "code": "10115",
-        "name": "Wrong Place, Right Time",
-        "text": "As an additional cost to play Wrong Place, Right Time, spend an action.\nMove up to 5 damage and/or horror from your investigator to assets controlled by investigators at your location. For each asset defeated by this effect, draw 1 card. Remove Wrong Place, Right Time from the game.",
-        "traits": "Spirit. Double."
+        "code":"10115",
+        "traits":"Esp\u00edrito. Dobro.",
+        "name":"No Lugar Errado, na Hora Certa",
+        "text":"Como um custo adicional para jogar No Lugar Errado, na Hora Certa, gaste uma a\u00e7\u00e3o.\nMova at\u00e9 5 de dano e/ou horror de seu investigador para ativos controlados por investigadores em seu local. Para cada ativo derrotado por este efeito, compre 1 carta. Remova No Lugar Errado, na Hora Certa do jogo."
     },
     {
-        "code": "10116",
-        "name": "Long Shot",
-        "text": "You may commit Long Shot to a fight or evasion test against an enemy at your location or a connecting location.\nIf this test is successful, deal 1 damage to that enemy.",
-        "traits": "Practiced."
+        "code":"10116",
+        "traits":"Treinado.",
+        "name":"Acerto Improv\u00e1vel",
+        "text":"Voc\u00ea pode comprometer Acerto Improv\u00e1vel em um teste de luta ou de evas\u00e3o contra um inimigo em seu local ou em um local conectado.\nSe esse teste for bem-sucedido, cause 1 de dano a esse inimigo."
     },
     {
-        "code": "10117",
-        "name": "Hatchet",
-        "text": "[action]: <b>Fight.</b> Add your [agility] to your skill value for this attack. This attack deals + 1 damage. If this attack defeats an enemy, discard Hatchet. Otherwise, lose control of Hatchet and attach it to the attacked enemy. Attached enemy gains:\n\"[reaction] When attached enemy is defeated: Take control of Hatchet. Any investigator at Hatchet's location may trigger this ability.\"",
-        "traits": "Item. Tool. Weapon. Ranged.",
-        "slot": "Hand"
+        "code":"10117",
+        "traits":"Item. Ferramenta. Arma. \u00c0 Dist\u00e2ncia.",
+        "name":"Machadinha",
+        "text":"[action]: <b>Lute.</b> Adicione sua [agility] ao seu valor de per\u00edcia neste ataque. Este ataque causa +1 de dano. Se este ataque derrotar um inimigo, descarte Machadinha. Caso contr\u00e1rio, perca o controle de Machadinha e anexe-a ao inimigo atacado. O inimigo anexado ganha:\n\"[reaction] Quando o inimigo anexado for derrotado: Assuma o controle de Machadinha. Qualquer investigador no local de Machadinha pode ativar esta habilidade.\""
     },
     {
-        "code": "10118",
-        "flavor": "\"Anyone but a stolid famer would have fainted or gone mad...\" - H.P. Lovecraft, <u>The Colour Out of Space</u>",
-        "name": "Persistence",
-        "text": "You may commit Persistence to a skill test from your discard pile. If you do, shuffle it into your deck after this test ends.",
-        "traits": "Innate."
+        "code":"10118",
+        "traits":"Inato.",
+        "name":"Persist\u00eancia",
+        "text":"Voc\u00ea pode comprometer Persist\u00eancia em um teste de per\u00edcia da sua pilha de descarte. Se o fizer, embaralhe a carta em seu baralho ap\u00f3s esse teste terminar.",
+        "flavor":"\"Qualquer um que n\u00e3o fosse um fazendeiro estoico teria desmaiado ou ficado louco...\" - H.P. Lovecraft, <u>A Cor que Caiu do Espa\u00e7o</u>"
     },
     {
-        "code": "10119",
-        "flavor": "I will guide thy hand.",
-        "name": "Devil",
-        "subname": "Friend or Foe?",
-        "text": "<b>Forced</b> - When your turn begins: Move 1 damage from your investigator to \"Devil\"\n<b>Forced</b> - When \"Devil\" is defeated: Deal 2 damage to each enemy and investigator at your location.",
-        "traits": "Ally. Creature. Cursed.",
-        "slot": "Ally"
+        "code":"10119",
+        "traits":"Aliado. Criatura. Amaldi\u00e7oado.",
+        "name":"\"Diabo\"",
+        "subname":"Amigo ou Inimigo?",
+        "text":"<b>For\u00e7ado</b> - Quando seu turno come\u00e7ar: Mova 1 de dano de seu investigador para \"Diabo\".\n<b>For\u00e7ado</b> - Quando \"Diabo\" for derrotado: Cause 2 de dano a cada inimigo e investigador em seu local.",
+        "flavor":"Guiarei as tuas a\u00e7\u00f5es."
     },
     {
-        "code": "10120",
-        "name": "Fire Axe",
-        "text": "Fast.\n[action]: <b>Fight.</b> If you have no resources in your resource pool, this attack deals +1 damage.\n[free] During an attack using Fire Axe, spend 1 resource: You get +2 [combat] for this skill test. (Limit three times per attack.)",
-        "traits": "Item. Weapon. Melee.",
-        "slot": "Hand"
+        "code":"10120",
+        "traits":"Item. Arma. Corpo a Corpo.",
+        "name":"Machado de Bombeiro",
+        "text":"Veloz.\n[action]: <b>Lute.</b> Se voc\u00ea n\u00e3o tiver recursos em sua reserva de recursos, este ataque causa +1 de dano.\n[fast] Durante um ataque usando Machado de Bombeiro, gaste 1 recurso: Voc\u00ea recebe +2 [combat] nesse teste de per\u00edcia. (Limite de tr\u00eas vezes por ataque.)"
     },
     {
-        "code": "10121",
-        "name": "Hunting Jacket",
-        "text": "[fast] Exhaust Hunting Jacket: Choose 1 non-weakness card in your hand and attach it facedown to Hunting Jacket (max 3 cards attached). Then, gain 1 resource for each attached card.\n[reaction] When Hunting Jacket is defeated: Draw each attached card.",
-        "traits": "Item. Clothing.",
-        "slot": "Body"
+        "code":"10121",
+        "traits":"Item. Vestu\u00e1rio.",
+        "name":"Casaco de Ca\u00e7ador",
+        "text":"[fast] Esgote Casaco de Ca\u00e7ador: Escolha 1 carta n\u00e3o fraqueza na sua m\u00e3o e anexe-a virada para baixo a Casaco de Ca\u00e7ador (m\u00e1x. de 3 cartas anexadas). Ent\u00e3o, ganhe 1 recurso para cada carta anexada.\n[reaction] Quando Casaco de Ca\u00e7ador for derrotado: Compre cada carta anexada."
     },
     {
-        "code": "10122",
-        "name": "Mariner's Compass",
-        "text": "[action] Exhaust Mariner's Compass: <b>Investigate.</b> If you fail, ready Mariner's Compass. If you succeed and have no resources in your resource pool, discover 1 additional clue at your location.\n[fast] During an investigation using Mariner's Compass, spend 1 resource: You get +1 [intellect] for this skill test. (Limit three times per investigation.)",
-        "traits": "Item. Tool.",
-        "slot": "Hand"
+        "code":"10122",
+        "traits":"Item. Ferramenta.",
+        "name":"B\u00fassola do Marinheiro",
+        "text":"[action] Esgote B\u00fassola do Marinheiro: <b>Investigue.</b> Se voc\u00ea falhar, prepare B\u00fassola do Marinheiro. Se voc\u00ea tiver sucesso e n\u00e3o houver nenhum recurso em sua reserva de recursos, descubra 1 pista adicional em seu local.\n[fast] Durante uma investiga\u00e7\u00e3o usando B\u00fassola do Marinheiro, gaste 1 recurso: Voc\u00ea recebe +1 [intellect] nesse teste de per\u00edcia. (Limite de tr\u00eas vezes por investiga\u00e7\u00e3o.)"
     },
     {
-        "code": "10123",
-        "name": "Survival Technique",
-        "text": "[fast] Choose a card you own that is attached to your location and exhaust Survival Technique: Add that card to your hand.\n[fast] During a skill test on a location or on a treachery attached to your location, exhaust Survival Technique: You get +2 skill value for this test.",
-        "traits": "Talent. Science."
+        "code":"10123",
+        "traits":"Talento. Ci\u00eancia.",
+        "name":"T\u00e9cnica de Sobreviv\u00eancia",
+        "text":"[fast] Escolha uma carta que voc\u00ea possui que esteja anexada a seu local e esgote T\u00e9cnica de Sobreviv\u00eancia: Adicione essa carta \u00e0 sua m\u00e3o.\n[fast] Durante um teste de per\u00edcia em um local ou em uma trai\u00e7\u00e3o anexada a seu local, esgote T\u00e9cnica de Sobreviv\u00eancia: Voc\u00ea recebe +2 de valor de per\u00edcia nesse teste."
     },
     {
-        "code": "10124",
-        "flavor": "Those who walk in faith need not fear the dark.",
-        "name": "Keep Faith",
-        "text": "Fast. Play during any [fast] window.\nAdd 4 [bless] tokens to the chaos bag.",
-        "traits": "Fortune. Blessed."
+        "code":"10124",
+        "traits":"Sorte. Aben\u00e7oado.",
+        "name":"Manter a F\u00e9",
+        "text":"Veloz. Jogue durante qualquer janela [fast].\nAdicione 4 fichas [bless] \u00e0 bolsa de caos.",
+        "flavor":"Aqueles que t\u00eam f\u00e9 n\u00e3o precisam temer a escurid\u00e3o."
     },
     {
-        "code": "10125",
-        "flavor": "Courage is your best defense against whatever horrors lurk beyond.",
-        "name": "Providential",
-        "text": "If this skill test is successful, add 1 [bless] token to the chaos bag for each damage or horror on you (whichever is less).",
-        "traits": "Innate. Blessed."
+        "code":"10125",
+        "traits":"Inato. Aben\u00e7oado.",
+        "name":"Providencial",
+        "text":"Se esse teste de per\u00edcia for bem-sucedido, adicione 1 ficha [bless] \u00e0 bolsa de caos para cada dano ou horror sobre voc\u00ea (o que for menor).",
+        "flavor":"A coragem \u00e9 a sua melhor defesa contra os horrores \u00e0 espreita."
     },
     {
-        "code": "10126",
-        "name": "Token of Faith",
-        "text": "[reaction] After a skill test ends in which 1 or more [curse] or [auto_fail] tokens were revealed, exhaust Token of Faith: Add that many [bless] tokens to the chaos bag. If this skill test failed, after resolving all effects from the failed test, the performing investigator may attempt that test again. (Max once per test.)",
-        "traits": "Item. Charm. Blessed.",
-        "slot": "Accessory"
+        "code":"10126",
+        "traits":"Item. Talism\u00e3. Aben\u00e7oado.",
+        "name":"S\u00edmbolo de F\u00e9",
+        "text":"[reaction] Ap\u00f3s um teste de per\u00edcia terminar, no qual 1 ou mais fichas [curse] ou [auto_fail] foram reveladas, esgote S\u00edmbolo de F\u00e9: Adicione essa quantidade de fichas [bless] \u00e0 bolsa de caos. Se esse teste de per\u00edcia falhou, ap\u00f3s resolver todos os efeitos do teste malsucedido, o investigador que realizou o teste pode tentar esse teste novamente. (M\u00e1x. de uma vez por teste.)"
     },
     {
-        "code": "10127",
-        "name": "Dark Horse",
-        "text": "Permanent. Limit 1 per deck.\nDuring the upkeep phase, you may choose to not gain resources.\nWhile you have no resources in your resource pool, you get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility].",
-        "traits": "Condition."
+        "code":"10127",
+        "traits":"Condi\u00e7\u00e3o.",
+        "name":"Azar\u00e3o",
+        "text":"Permanente. Limite de 1 por baralho.\nDurante a fase de manuten\u00e7\u00e3o, voc\u00ea pode escolher n\u00e3o ganhar recursos.\nEnquanto voc\u00ea n\u00e3o tiver recursos em sua reserva de recursos, voc\u00ea recebe +1 [willpower], +1 [intellect], +1 [combat] e +1 [agility]."
     },
     {
-        "code": "10128",
-        "name": "Eldritch Tongue",
-        "text": "Uses (4 charges).\nYou may play events with \"parley\" from your discard pile as if they were in your hand. As an additional cost to play an event this way, spend 1 charge from Eldritch Tongue. After that event resolves, remove it from the game.",
-        "traits": "Ritual.",
-        "slot": "Arcane"
+        "code":"10128",
+        "traits":"Ritual.",
+        "name":"L\u00edngua Sobrenatural",
+        "text":"Usa (4 cargas).\nVoc\u00ea pode jogar eventos com \"negociata\" da sua pilha de descarte como se estivessem na sua m\u00e3o. Como um custo adicional para jogar um evento desta forma, gaste 1 carga de L\u00edngua Sobrenatural. Ap\u00f3s esse evento ser resolvido, remova-o do jogo."
     },
     {
-        "code": "10129",
-        "flavor": "It's half past midnight, and you're starting to wonder if the whole thing's a ruse.",
-        "name": "Bide Your Time",
-        "text": "As an additional cost to play Bide Your Time, spend an action.\nDuring your next turn, you may take two additional actions.",
-        "traits": "Double."
+        "code":"10129",
+        "traits":"Dobro.",
+        "name":"Esperar o Momento Certo",
+        "text":"Como um custo adicional para jogar Esperar o Momento Certo, gaste uma a\u00e7\u00e3o.\nDurante o seu pr\u00f3ximo turno, voc\u00ea pode realizar duas a\u00e7\u00f5es adicionais.",
+        "flavor":"J\u00e1 \u00e9 meia-noite, e voc\u00ea come\u00e7a a se perguntar se n\u00e3o foi tudo uma arma\u00e7\u00e3o."
     },
     {
-        "code": "10130",
-        "flavor": "The fine clothes do all the talking.",
-        "name": "Well-Dressed",
-        "text": "While Well-Dressed is committed to a skill test during a parley action, it gains [wild] [wild] [wild].",
-        "traits": "Practiced. Fortune."
+        "code":"10130",
+        "traits":"Treinado. Sorte.",
+        "name":"Bem-vestida",
+        "text":"Enquanto Bem-vestida estiver comprometida em um teste de per\u00edcia durante uma a\u00e7\u00e3o de negociata, ela ganha [wild] [wild] [wild].",
+        "flavor":"As roupas elegantes j\u00e1 passam a mensagem."
     },
     {
-        "code": "10131",
-        "flavor": "Only the strongest spirit can sunder the dark.",
-        "name": "Dawn Star",
-        "text": "Fast. Play after revealing chaos tokens during a skill test at your location.\nIgnore the modifiers of each [curse] token revealed during this test. For each [curse] token ignored, deal 1 damage to an enemy at your location.",
-        "traits": "Ritual. Blessed."
+        "code":"10131",
+        "traits":"Ritual. Aben\u00e7oado.",
+        "name":"Estrela do Alvorecer",
+        "text":"Veloz. Jogue ap\u00f3s revelar fichas de caos durante um teste de per\u00edcia em seu local.\nIgnore os modificadores de cada ficha [curse] revelada durante esse teste. Para cada ficha [curse] ignorada, cause 1 de dano a um inimigo em seu local.",
+        "flavor":"Somente o esp\u00edrito mais forte \u00e9 capaz de transpor a escurid\u00e3o."
     },
     {
-        "code": "10132",
-        "flavor": "\"The price is but a pittance for what you will gain.\"",
-        "name": "Occult Reliquary",
-        "subname": "Dubious Source",
-        "text": "Permanent. Limit 1 per deck.\nYou have 1 additional hand, accessory, or arcane slot, which can only be used to hold a [[Blessed]] or [[Cursed]] asset.",
-        "traits": "Boon. Pact."
+        "code":"10132",
+        "traits":"D\u00e1diva. Pacto.",
+        "name":"Relic\u00e1rio do Oculto",
+        "subname":"Fonte Duvidosa",
+        "text":"Permanente. Limite de 1 por baralho.\nVoc\u00ea tem 1 espa\u00e7o de m\u00e3o, acess\u00f3rio ou arcano adicional, que pode ser usado apenas para um ativo [[Aben\u00e7oado]] ou [[Amaldi\u00e7oado]].",
+        "flavor":"\"O pre\u00e7o \u00e9 \u00ednfimo perto do que voc\u00ea ganhar\u00e1.\""
     },
     {
-        "code": "10133",
-        "name": "Broken Diadem",
-        "subname": "Crown of Dying Light",
-        "text": "Limit 1 per deck. Limit 1 [[Mask]] per investigator.\n[reaction] After a skill test at your location ends in which both a [bless] and [curse] token were revealed: Place 1 resource on this card, as an offering. Then, if there are 3 offerings on this card, search your bonded cards for Twilight Diadem and swap it with this card, moving all offerings from this card to Twilight Diadem.",
-        "traits": "Item. Charm. Mask."
+        "code":"10133",
+        "traits":"Item. Talism\u00e3. M\u00e1scara.",
+        "name":"Tiara Quebrada",
+        "subname":"Coroa da Luz Evanescente",
+        "text":"Limite de 1 por baralho. Limite de 1 [[M\u00e1scara]] por investigador.\n[reaction] Ap\u00f3s um teste de per\u00edcia em seu local terminar, no qual tanto uma ficha [bless] como uma ficha [curse] foram reveladas: Coloque 1 recurso nesta carta, como uma oferenda. Ent\u00e3o, se houver 3 oferendas nesta carta, procure Tiara do Crep\u00fasculo em suas cartas vinculadas e troque-a por esta carta, movendo todas as oferendas desta carta para Tiara do Crep\u00fasculo."
     },
     {
-        "code": "10134",
-        "name": "Twilight Diadem",
-        "subname": "Crown of Dying Light",
-        "text": "Bonded (Broken Diadem). Limit 1 [[Mask]] per investigator.\n[reaction] When you reveal either a [bless] or [curse] token during a skill test, spend 1 offering and exhaust this card: Treat the revealed token as an [elder_sign] token instead, returning it to the chaos bag. Then, if this card has no offerings, search your bonded cards for Broken Diadem and swap it with this card.",
-        "traits": "Item. Charm. Mask. Blessed."
+        "code":"10134",
+        "traits":"Item. Talism\u00e3. M\u00e1scara. Aben\u00e7oado.",
+        "name":"Tiara do Crep\u00fasculo",
+        "subname":"Coroa da Luz Evanescente",
+        "text":"Vinculado (Tiara Quebrada). Limite de 1 [[M\u00e1scara]] por investigador.\n[reaction] Quando voc\u00ea revelar uma ficha [bless] ou [curse] durante um teste de per\u00edcia, gaste 1 oferenda e esgote esta carta: Trate a ficha revelada como uma ficha [elder_sign] em vez disso, devolvendo-a para a bolsa de caos. Ent\u00e3o, se n\u00e3o houver oferendas nesta carta, procure Tiara Quebrada em suas cartas vinculadas e troque-a por esta carta."
     },
     {
-        "code": "10135",
-        "name": "Maimed Hand",
-        "text": "<b>Revelation</b> - You must either put Maimed Hand into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action][action] ability below.\nYou get -1 health.\n[action][action]: Discard Maimed Hand.",
-        "traits": "Injury.",
-        "slot": "Hand"
+        "code":"10135",
+        "traits":"Ferimento.",
+        "name":"M\u00e3o Mutilada",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Voc\u00ea deve colocar M\u00e3o Mutilada em jogo, em sua \u00e1rea de amea\u00e7as, ou sofrer 1 de dano e embaralhar esta carta em seu baralho. Ela n\u00e3o pode sair de jogo, exceto por meio da habilidade [action][action] abaixo.\nVoc\u00ea recebe -1 de vida.\n[action][action]: Descarte M\u00e3o Mutilada."
     },
     {
-        "code": "10136",
-        "name": "Back Injury",
-        "text": "<b>Revelation</b> - You must either put Back Injury into play in your threat area, or take 1 damage and shuffle it into your deck. It cannot leave play except by the [action][action] ability below.\nYou get -1 health.\n[action][action]: Discard Back Injury.",
-        "traits": "Injury.",
-        "slot": "Body"
+        "code":"10136",
+        "traits":"Ferimento.",
+        "name":"Ferimento nas Costas",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Voc\u00ea deve colocar Ferimento nas Costas em jogo, em sua \u00e1rea de amea\u00e7as, ou sofrer 1 de dano e embaralhar esta carta em seu baralho. Ela n\u00e3o pode sair de jogo, exceto por meio da habilidade [action][action] abaixo.\nVoc\u00ea recebe -1 de vida.\n[action][action]: Descarte Ferimento nas Costas."
     },
     {
-        "code": "10137",
-        "name": "The Silver Moth",
-        "text": "<b>Revelation</b> - You must either put The Silver Moth into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action][action] ability below.\nYou get -1 sanity.\n[action][action]: Discard The Silver Moth.",
-        "traits": "Item. Relic.",
-        "slot": "Accessory"
+        "code":"10137",
+        "traits":"Item. Rel\u00edquia.",
+        "name":"A Mariposa de Prata",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Voc\u00ea deve colocar A Mariposa de Prata em jogo, em sua \u00e1rea de amea\u00e7as, ou sofrer 1 de horror e embaralhar esta carta em seu baralho. Ela n\u00e3o pode sair de jogo, exceto por meio da habilidade [action][action] abaixo.\nVoc\u00ea recebe -1 de sanidade.\n[action][action]: Descarte A Mariposa de Prata."
     },
     {
-        "code": "10138",
-        "name": "Vow of Drzytelech",
-        "text": "<b>Revelation</b> - You must either put Vow of Drzytelech into play in your threat area, or take 1 horror and shuffle it into your deck. It cannot leave play except by the [action][action] ability below.\nYou get -1 sanity.\n[action][action]: Discard Vow of Drzytelech.",
-        "traits": "Pact.",
-        "slot": "Arcane"
+        "code":"10138",
+        "traits":"Pacto.",
+        "name":"Juramento de Drzytelech",
+        "text":"<b>Revela\u00e7\u00e3o</b> - Voc\u00ea deve colocar Juramento de Drzytelech em jogo, em sua \u00e1rea de amea\u00e7as, ou sofrer 1 de horror e embaralhar esta carta em seu baralho. Ela n\u00e3o pode sair de jogo, exceto por meio da habilidade [action][action] abaixo.\nVoc\u00ea recebe -1 de sanidade.\n[action][action]: Descarte Juramento de Drzytelech."
     }
 ]
