@@ -145,7 +145,7 @@
         "code": "11519",
         "flavor": "Ein sanft pulsierendes Licht am Fuße der uralten Fundamente lockt dich auf den Meeresgrund hinab. Du musst vorsichtig vorgehen.",
         "name": "Den Abgrund hinab",
-        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Senke die Flutstufe deines Ortes.\n<b>Ermittlungsziel</b> – Versucht, den Meeresgrund zu erreichen! Falls sich jeder überlebende Ermittler bei den Obsidian-Fundamenten befindet, rücke vor.",
+        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Senke die Flutstufe deines Ortes.\n<b>Ermittlungsziel</b> – Versucht, den Meeresgrund zu erreichen! Falls sich jeder überlebende Ermittler bei den Obsidian-Fundamenten befindet, darfst du vorrücken.",
         "back_name": "In den Tiefen des Ozeans",
         "back_flavor": "Andy Van Nortwick ist der Letzte, der in den Ring aus schwarzen Säulen am Fuße der Stadt stolpert. Er blickt ehrfürchtig auf ein schimmerndes Energiefeld in der Mitte des Unterwasserplatzes. Das Feld kräuselt sich um die Säulen und bildet dabei eine beständige Blase aus atembarer Luft. Ein langer, gewundener Tunnel schlängelt sich von deiner Position aus zum Eingang der Unterwasserkuppel. Endlich hast du den Meeresboden erreicht.",
         "back_text": "<b>(→A1)</b> <i>(Seite 15)</i>."
@@ -154,7 +154,7 @@
         "code": "11520",
         "flavor": "Es ist ein steiler Aufstieg die bröckelnde Wand hinauf, aber wenn du vorsichtig vorgehst, solltest du die Oberfläche unbeschadet erreichen können.",
         "name": "Den Wall hinauf",
-        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Senke die Flutstufe deines Ortes.\n<b>Ermittlungsziel</b> – Versucht, die Oberfläche zu erreichen! Falls sich jeder überlebende Ermittler beim Westwall befindet, rücke vor.",
+        "text": "[fast] Gib als Gruppe 1 [per_investigator] Hinweis aus: Senke die Flutstufe deines Ortes.\n<b>Ermittlungsziel</b> – Versucht, die Oberfläche zu erreichen! Falls sich jeder überlebende Ermittler beim Westwall befindet, darfst du vorrücken.",
         "back_name": "Wieder an der Oberfläche",
         "back_flavor": "Ruby hilft dir die glatten schwarzen Felsen hinauf. Jetzt stehst du am Rand von etwas, was wohl einst ein alter Fußweg war. R'lyeh ist seit deiner Ankunft merklich aufgestiegen: Der versunkene Turm am Westwall ragt wie eine uralte Zitadelle bedrohlich über dem trüben Wasser auf. Das Wasser in der Bucht, in der ihr euer erstes Lager aufgeschlagen hattet, hat sich ebenfalls daraus zurückgezogen. Nicht weit vom Ufer entfernt siehst du die <i>Cassandra</i> auf den schwarzen Wellen schaukeln. Der Weg zurück zum Lager ist nicht mehr weit.",
         "back_text": "<b>(→A2)</b> <i>(Seite 15)</i>."
@@ -768,7 +768,7 @@
         "text": "Der Kern des Gewölbes kann nicht überflutet werden.\n<b>Erzwungen</b> - Sobald Das Unausweichliche an diesem Ort besiegt wird: Durchsuche alle Zonen im und außerhalb des Spiels nach jeder Kopie der Verratskarte Noch immer hinter dir und entferne sie aus dem Spiel. Notiere im Kampagnenlogbuch, dass <i>die Kreatur besiegt wurde.</i>\n[action][action] Gib als Gruppe 3 [per_investigator] Hinweise aus: Du untersuchst die Maschine. Lies <b>Szenario-Zwischenspiel: Der Kern des Gewölbes</b> <i>(Seite 26)</i>.",
         "traits": "R'lyeh. Heiligtum. Glyphe.",
         "back_flavor": "Das Herzstück des großen Gewölbes ist eine riesige, versiegelte Kammer, die mit fremdartigen Glyphen und bizarren Maschinen gefüllt ist.",
-        "back_text": "Der Kern des Gewölbes kann nicht überflutet werden.\n<b>Erzwungen</b> - Falls am Ende der Runde jeder [[Gewölbe]]-Ort aktiviert ist: Enthülle Den Kern des Gewölbes."
+        "back_text": "Der Kern des Gewölbes kann nicht überflutet werden und Ermittler können sich nicht hierhin bewegen.\n<b>Erzwungen</b> - Falls am Ende der Runde jeder [[Gewölbe]]-Ort aktiviert ist: Enthülle Den Kern des Gewölbes."
     },
     {
         "code": "11596",
@@ -846,7 +846,7 @@
         "code": "11605",
         "name": "Schlängler aus der Dunkelheit",
         "subname": "Im Untergrund lauernd",
-        "text": "<b>Erscheinen</b> - Nächstgelegener überfluteter Ort.\nSchlängler aus der Dunkelheit kann keine nicht überfluteten Orte betreten.\n<b>Erzwungen</b> - Sobald die Gegnerphase beginnt, falls sich keine Ermittler am Ort dieses Gegners befinden: Dieser Gegner greift den Ermittler mit dem niedrigsten [combat]-Wert an einem verbundenen Ort an. Falls kein Angriff durchgeführt wurde, bewegt sich dieser Gegner zu dem überfluteten Ort nächstgelegen zur Beweglichen Plattform.",
+        "text": "<b>Erscheinen</b> - Nächstgelegener überfluteter Ort.\nSchlängler aus der Dunkelheit kann keine nicht überfluteten Orte betreten.\n<b>Erzwungen</b> - Sobald die Gegnerphase beginnt, falls sich keine Ermittler am Ort dieses Gegners befinden: Dieser Gegner greift den Ermittler mit dem niedrigsten [combat]-Wert an einem verbundenen Ort an. Falls kein Angriff durchgeführt wurde, bewegt sich dieser Gegner direkt zu dem überfluteten Ort nächstgelegen zur Beweglichen Plattform.",
         "traits": "Monster. Nistling. Elite."
     },
     {
@@ -1429,7 +1429,7 @@
     {
         "code": "11674",
         "name": "Unterhalb der Stadt",
-        "text": "<b>Erzwungen</b> - Sobald Verderben auf einer Karte platziert werden würde, die keine Storyvorteilskarte ist: Platziere stattdessen 1 Ressource als Störung auf der Szenarioübersichtskarte. Falls die aktuelle Störung 6 oder mehr beträgt (stattdessen 8 oder mehr, falls genau 1 oder 2 Ermittler im Spiel sind), rücke sofort vor.\n<b>Ermittlungsziel</b> - Bereitet eure Artefakte auf das ultimative Aufeinandertreffen vor!"
+        "text": "<b>Erzwungen</b> - Sobald Verderben auf einer Karte platziert werden würde, die keine Storyvorteilskarte ist: Platziere stattdessen 1 Ressource als Störung auf der Szenarioübersichtskarte. Falls die aktuelle Störung 6 oder mehr beträgt (stattdessen 8 oder mehr, falls genau 1 oder 2 Ermittler im Spiel sind), rücke sofort vor (entferne kein Verderben von Karten im Spiel).\n<b>Ermittlungsziel</b> - Bereitet eure Artefakte auf das ultimative Aufeinandertreffen vor!"
     },
     {
         "code": "11674b",
@@ -1586,7 +1586,7 @@
         "text": "[action] Gib als Gruppe 1 [per_investigator] Hinweis aus und lege eine [[Artefakt]]-Vorteilskarte, die du kontrollierst, auf den Siegpunktestapel: Platziere 1 Ressource <i>(aus dem Markervorrat)</i> als Siegel auf deinem Ort.\n<b>Erzwungen</b> - Sobald die Gegnerphase endet: Ziehe die oberste Karte des Cthulhu-Decks.\n<b>Ermittlungsziel</b> - <i>Bannt den erwachten Träumer!</i> Falls sich jeder [[Cthulhu]]-Gegner im Siegpunktestapel befindet und es 5 Orte mit Siegeln darauf gibt, rücke sofort vor.",
         "back_name": "Bindungsritual",
         "back_flavor": "Dort wo Cthulhus Beine langsam im schwarzen Wasser versinken, bildet sich ein heftig wirbelnder Strudel. Plötzlich erscheinen auf den Armen und Beinen des schrecklichen, toten Gottes leuchtend grüne Siegel. Der Große Alte stößt ein ohrenbetäubendes Brüllen aus, das Fensterscheiben zerspringen und die Grundmauern der Stadt erzittern lässt. Ganz in der Nähe stößt Andy eine Reihe kehliger Worte aus, während er eine zitternde Hand über ein glühendes Artefakt hält. „Es funktioniert!“, ruft Ruby.\nEin weiteres Brüllen ertönt. Der Klang von Schüssen hallt über das Wasser, während die Polizei von Arkham vergeblich versucht, Cthulhus Aufmerksamkeit auf sich zu ziehen. Du schaust auf und siehst, wie der Große Alte mit leuchtenden, purpurroten Augen auch dich anstarrt. Der Koloss hebt eine klauenbewehrte Hand über den Kopf, um dich damit wie ein Insekt zu zerquetschen.",
-        "back_text": "Falls sich 5 oder weniger [[Ruiniert]]-Orte im Spiel befinden, <b>(→A2)</b> <i>(Seite 50)</i>. Ansonsten, <b>(→A3)</b> <i>(Seite 51)</i>."
+        "back_text": "Falls diese Agenda durch das Erreichen des Verderbensschwellenwertes vorgerückt wurde, wird jeder Ermittler besiegt. Ansonsten: Falls sich 5 oder weniger [[Ruiniert]]-Orte im Spiel befinden, <b>(→A2)</b> <i>(Seite 50)</i>. Ansonsten, <b>(→A3)</b> <i>(Seite 51)</i>."
     },
     {
         "code": "11692",
@@ -2001,7 +2001,7 @@
         "code": "11753a",
         "name": "Zu Hause ist es am schönsten",
         "subname": "Verloren und unsicher",
-        "text": "Dauerhaft. Anwendungen (8 Entdeckungen).\n<b>Erzwungen</b> - Sobald du einen Ort enthüllst: Entferne 1 Entdeckung von Zu Hause ist es am schönsten.\n<b>Erzwungen</b> - Sobald das Spiel endet, falls sich 1 [per_investigator] oder weniger Entdeckungen auf Zu Hause ist es am schönsten befinden: Hake 1 Fortschritt für diese Aufgabe im Kampagnenlogbuch ab.",
+        "text": "Dauerhaft. Anwendungen (8 Entdeckungen).\n<b>Erzwungen</b> - Sobald du einen Ort enthüllst oder einen Ort ins Spiel bringst: Entferne 1 Entdeckung von Zu Hause ist es am schönsten.\n<b>Erzwungen</b> - Sobald das Spiel endet, falls sich 1 [per_investigator] oder weniger Entdeckungen auf Zu Hause ist es am schönsten befinden: Hake 1 Fortschritt für diese Aufgabe im Kampagnenlogbuch ab.",
         "traits": "Aufgabe. Unvollendet."
     },
     {
