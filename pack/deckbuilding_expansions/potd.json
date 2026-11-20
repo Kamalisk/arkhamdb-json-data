@@ -7,14 +7,14 @@
         "faction_code": "guardian",
         "health": 3,
         "illustrator": "Marius Bota",
-        "name": "Knight of Celepha\u00EFs",
+        "name": "Knight of Celephaïs",
         "position": 2,
         "quantity": 2,
         "sanity": 2,
         "skill_combat": 1,
         "skill_intellect": 1,
         "slot": "Ally",
-        "text": "Dreaming 4.\nKnight of Celepha\u00EFs may be assigned damage and/or horror dealt to other investigators at your location.\n[reaction]When Knight of Celepha\u00EFs is defeated: Remove 1 dream from a dreaming card you control.",
+        "text": "Dreaming 4.\nKnight of Celephaïs may be assigned damage and/or horror dealt to other investigators at your location.\n[reaction]When Knight of Celephaïs is defeated: Remove 1 dream from a dreaming card you control.",
         "traits": "Ally. Soldier. Dreamlands.",
         "type_code": "asset",
         "xp": 0
@@ -164,6 +164,7 @@
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
+        "is_unique": true,
         "illustrator": "Stanislav Dikolenko",
         "name": "Idol of Bokrug",
         "position": 28,
@@ -283,7 +284,7 @@
         "quantity": 2,
         "skill_willpower": 1,
         "slot": "Hand",
-        "text": "[action] Exhaust Enchanting Fife and either spend 1 charge or place 1 resource <i>(from the token pool)</i> on a dreaming card you control, as a dream: <b>Parley.</b> Heal 1 horror from a card controlled by an investigator at your location. That card's controller may draw a card.",
+        "text": "Uses (3 charges).\n[action] Exhaust Enchanting Fife and either spend 1 charge or place 1 resource <i>(from the token pool)</i> on a dreaming card you control, as a dream: <b>Parley.</b> Heal 1 horror from a card controlled by an investigator at your location. That card's controller may draw a card.",
         "traits": "Item. Relic. Dreamlands.",
         "type_code": "asset",
         "xp": 0
@@ -330,7 +331,7 @@
     {
         "pack_code": "potd",
         "code": "14052",
-        "cost": -5,
+        "cost": null,
         "deck_limit": 1,
         "faction_code": "mystic",
         "flavor": "To learn the secrets forbidden to all except the most worthy.",
@@ -486,7 +487,7 @@
         "quantity": 2,
         "skill_wild": 1,
         "text": "Search the top 9 cards of your deck for a [[Dreamlands]] card and play it, reducing its cost or dreaming value by 1. Shuffle your deck.",
-        "traits": "",
+        "traits": "Insight.",
         "type_code": "event",
         "xp": 0
     }
