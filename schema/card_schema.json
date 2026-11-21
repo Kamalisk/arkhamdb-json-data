@@ -34,11 +34,6 @@
                     "const": -4
                 },
                 {
-                    "description": "Dreaming",
-                    "type": "integer",
-                    "const": -5
-                },
-                {
                     "description": "-",
                     "type": "null"
                 }
@@ -107,7 +102,14 @@
         },
         "cost": {
             "description": "Resource cost of the card. Required for assets and events.",
-            "$ref": "#/$defs/card_numerical_value"
+            "oneOf": [
+                {"$ref": "#/$defs/card_numerical_value"},
+                {
+                    "description": "Dreaming",
+                    "type": "integer",
+                    "const": -5
+                }
+            ]
         },
         "customization_change": {
             "description": "List of changes corresponding (by line) to the unlocking of the customization options.",
