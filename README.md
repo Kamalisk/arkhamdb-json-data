@@ -79,6 +79,7 @@ Numerical values in the game can sometimes contain symbols such as `-` or `X`. H
 - `X`: `-2`
 - `*`: `-3`
 - `?`: `-4`
+- `<dreaming>`: `-5`
 
 
 ## Translations
@@ -124,4 +125,3 @@ This means that some things cannot be changed (or can very carefully or with coo
 Here a non-exhaustive list:
 - card identifiers (`code`) won't change
 - `code`s in `cycles.json`, `packs.json`, `factions.json`, `types.json` won't change
-
